@@ -61,20 +61,24 @@ DIFFICULTES = {"easy": "Facile", "medium": "Moyen", "hard": "Difficile"}
 TYPES = {"multiple": "QCM", "boolean": "Vrai/faux", "all": "Tous types"}
 STATUTS = ["toujours réussie", "mixte", "toujours ratée"]
 
+# Palette : dégradé de rose (du plus pâle au plus foncé).
+ROSES = ["#fce4ec", "#f8bbd0", "#f48fb1", "#f06292", "#d81b60", "#ad1457", "#880e4f"]
+ROSE_FONCE, ROSE, ROSE_CLAIR = "#880e4f", "#d81b60", "#f8bbd0"
 # Couleurs : une par modèle, fixe (la couleur suit le modèle, jamais son rang).
-COULEURS_MODELES = {"Gemma 4 E2B": "#257de0", "Ministral 3B": "#f47230"}
+# Rose foncé / rose moyen : très différents en luminosité, donc distinguables
+# aussi pour les daltoniens (écart de luminosité OKLab ≈ 28, cible ≥ 8).
+COULEURS_MODELES = {"Gemma 4 E2B": "#880e4f", "Ministral 3B": "#f06292"}
 # Répartition des réponses : juste / fausse / hors format.
 COULEURS_REPONSES = {
-    "Juste": "#0aac23",
-    "Fausse au bon format": "#dc3c3d",
+    "Juste": "#ad1457",
+    "Fausse au bon format": "#f8bbd0",
     "Hors format": "#b4b2a9",
 }
-# Questions gagnées / perdues : deux pôles opposés.
-COULEURS_TRANSITIONS = {"Gagnées": "#257de0", "Perdues": "#ec4647"}
-GRIS_TEXTE = "#666666"
+# Questions gagnées / perdues : deux pôles opposés (rose / violet).
+COULEURS_TRANSITIONS = {"Gagnées": "#d81b60", "Perdues": "#5e35b1"}
+GRIS_TEXTE = "#7a5a68"
 # Étiquettes d'axe : milliers séparés par une espace, sans signe moins.
 MILLIERS_FR = "replace(format(abs(datum.value), ','), ',', ' ')"
-BLEUS = ["#cce3fd", "#84b9f3", "#338ced", "#1b64be", "#0e3d7e"]  # du clair au foncé
 
 # Colonnes filtrables (barre latérale) -> clé de session_state.
 FILTRES = {
@@ -86,6 +90,53 @@ FILTRES = {
 }
 
 st.set_page_config(page_title="Trivial Benchmark — gold", page_icon="🎲", layout="wide")
+
+# Habillage : bandeau en dégradé de rose, cartes, onglets et encadrés.
+st.markdown(
+    """
+    <style>
+    .bandeau {
+        background: linear-gradient(120deg, #880e4f 0%, #d81b60 45%, #f06292 75%, #f8bbd0 100%);
+        border-radius: 22px; padding: 28px 34px; margin-bottom: 18px; color: white;
+        box-shadow: 0 10px 30px rgba(216, 27, 96, 0.25);
+    }
+    .bandeau h1 { color: white; font-size: 2.1rem; margin: 0 0 6px 0; padding: 0; }
+    .bandeau p { color: #fff0f6; margin: 0; font-size: 1.02rem; }
+    .bandeau .pastilles { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .bandeau .pastilles span {
+        background: rgba(255, 255, 255, 0.18); border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 999px; padding: 4px 12px; font-size: 0.86rem;
+    }
+    [data-testid="stMetric"] {
+        background: linear-gradient(160deg, #ffffff 0%, #fff0f6 100%);
+        border: 1px solid #f8bbd0 !important; border-left: 6px solid #d81b60 !important;
+        border-radius: 16px !important; box-shadow: 0 4px 14px rgba(173, 20, 87, 0.08);
+    }
+    [data-testid="stMetricLabel"] p { color: #ad1457; font-weight: 600; }
+    [data-testid="stMetricValue"] { color: #2b1a22; }
+    [data-testid="stSidebar"] { background: linear-gradient(180deg, #fde7ef 0%, #fff5f9 60%, #fffafc 100%); }
+    [data-testid="stSidebar"] h1 { color: #880e4f; }
+    .stTabs [data-baseweb="tab-list"] { gap: 6px; }
+    .stTabs [data-baseweb="tab"] {
+        background: #fde7ef; border-radius: 12px 12px 0 0; padding: 8px 16px; color: #880e4f;
+    }
+    .stTabs [aria-selected="true"] {
+        background: linear-gradient(120deg, #d81b60, #f06292); color: white !important;
+    }
+    .stTabs [aria-selected="true"] p { color: white !important; }
+    .retenir {
+        background: linear-gradient(120deg, #fff0f6, #fde7ef); border-left: 6px solid #ad1457;
+        border-radius: 14px; padding: 14px 18px; margin: 10px 0 14px 0; color: #2b1a22;
+    }
+    .retenir span { display: block; font-weight: 700; color: #ad1457; margin-bottom: 4px; }
+    .titre-section {
+        font-weight: 700; font-size: 1.05rem; color: #880e4f; margin: 10px 0 2px 0;
+        padding-left: 10px; border-left: 4px solid #f06292;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 # --------------------------------------------------------------------------- #
 # Accès aux données
@@ -215,7 +266,23 @@ def barres_groupees(
 
 
 def afficher(chart) -> None:
+    """Affiche un graphique avec le style du dashboard (axes discrets, grille rose pâle)."""
+    chart = (
+        chart.configure_axis(labelColor=GRIS_TEXTE, titleColor=GRIS_TEXTE, gridColor="#f7dce7",
+                             domainColor="#e8b6c9", tickColor="#e8b6c9", labelFontSize=12, titleFontSize=12)
+        .configure_view(stroke=None)
+        .configure_legend(labelColor="#2b1a22", symbolType="circle")
+    )
     st.altair_chart(chart, width="stretch")
+
+
+def a_retenir(texte_html: str) -> None:
+    """Encadré « À retenir » aux couleurs du dashboard."""
+    st.markdown(f'<div class="retenir"><span>✨ À retenir</span>{texte_html}</div>', unsafe_allow_html=True)
+
+
+def titre_section(texte: str) -> None:
+    st.markdown(f'<div class="titre-section">{texte}</div>', unsafe_allow_html=True)
 
 
 def filtres_actifs(table: str, ignorer: tuple[str, ...] = ()) -> None:
@@ -285,7 +352,7 @@ with st.sidebar:
     col_b.button("↺ Réinitialiser", width="stretch", on_click=reinitialiser_filtres,
                  help="Remet tous les filtres à « tous ».")
 
-    st.header("Filtres", divider="gray")
+    st.header("Filtres", divider="red")
     st.caption("Vide = tout. Chaque filtre s'applique aux tables qui ont la colonne.")
     st.multiselect("Modèles", VALEURS_FILTRES["f_modeles"], key="f_modeles",
                    format_func=MODELES.get, placeholder="Tous les modèles")
@@ -308,10 +375,18 @@ with st.sidebar:
 # En-tête
 # --------------------------------------------------------------------------- #
 
-st.title("Les LLM sont-ils bons au Trivial Poursuite ?")
-st.caption(
-    "5 290 questions vérifiées d'Open Trivia DB · 2 modèles (Gemma 4 E2B, Ministral 3B, LM Studio) "
-    "× 3 prompts = 31 740 réponses."
+st.markdown(
+    """
+    <div class="bandeau">
+      <h1>🎲 Les LLM sont-ils bons au Trivial Poursuite ?</h1>
+      <p>Benchmark sur les questions vérifiées d'Open Trivia DB · couche gold (dbt + DuckDB)</p>
+      <div class="pastilles">
+        <span>5 290 questions</span><span>24 catégories</span>
+        <span>2 modèles · Gemma 4 E2B, Ministral 3B</span><span>3 prompts</span><span>31 740 réponses</span>
+      </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 onglet_perf, onglet_prompts, onglet_domaines, onglet_questions, onglet_donnees = st.tabs(
@@ -356,7 +431,7 @@ with onglet_perf:
 
         col_g, col_d = st.columns(2, gap="large")
         with col_g:
-            st.markdown("**Taux de réussite**")
+            titre_section("Taux de réussite")
             barres = barres_groupees(
                 perf, "prompt", ordre_prompts, "part", "Bonnes réponses",
                 tooltip=[alt.Tooltip("modele:N", title="Modèle"), alt.Tooltip("prompt:N", title="Prompt"),
@@ -370,7 +445,7 @@ with onglet_perf:
                      .resolve_scale(color="independent"))
             st.caption(f"Ligne pointillée = réponse au hasard ({pct(hasard)}).")
         with col_d:
-            st.markdown("**Temps de réponse moyen**")
+            titre_section("Temps de réponse moyen")
             afficher(barres_groupees(
                 perf, "prompt", ordre_prompts, "avg_response_time_s", "Secondes par réponse",
                 format_y=".1f",
@@ -380,7 +455,7 @@ with onglet_perf:
                          alt.Tooltip("max_response_time_s:Q", title="Maximum (s)", format=".2f")],
             ))
 
-        st.markdown("**Répartition des réponses** : justes, fausses au bon format, hors format (comptées fausses)")
+        titre_section("Répartition des réponses : justes, fausses au bon format, hors format (comptées fausses)")
         rep = perf.melt(
             id_vars=["configuration", "modele", "prompt_id"],
             value_vars=["nb_correct", "nb_incorrect_format_ok", "nb_out_of_format"],
@@ -394,7 +469,7 @@ with onglet_perf:
         ordre_config = perf.sort_values(["model", "prompt_id"])["configuration"].tolist()
         afficher(
             alt.Chart(rep)
-            .mark_bar(stroke="white", strokeWidth=2)
+            .mark_bar(stroke="white", strokeWidth=2, cornerRadius=3)
             .encode(
                 y=alt.Y("configuration:N", sort=ordre_config, title=None, axis=alt.Axis(labelLimit=220)),
                 x=alt.X("part:Q", stack="normalize", title="Part des réponses", axis=alt.Axis(format=".0%")),
@@ -406,9 +481,9 @@ with onglet_perf:
             )
             .properties(height=36 * len(ordre_config) + 40)
         )
-        st.info(
-            "**À retenir.** Les deux modèles font environ deux fois mieux que le hasard. "
-            "La consigne d'analyse (P3) fait baisser Ministral surtout parce qu'il ne respecte plus le format : "
+        a_retenir(
+            "Les deux modèles font environ <b>deux fois mieux que le hasard</b>. "
+            "La consigne d'analyse (P3) fait baisser Ministral surtout parce qu'il <b>ne respecte plus le format</b> : "
             "une réponse hors format compte comme fausse."
         )
 
@@ -465,7 +540,7 @@ with onglet_prompts:
         cols = st.columns(len(effet["modele"].unique()))
         for col, (modele, g) in zip(cols, effet.groupby("modele", sort=False)):
             with col:
-                st.markdown(f"**{modele}**")
+                titre_section(f"{modele}")
                 for _, r in g.iterrows():
                     st.metric(
                         f"{r['couple']} · réussite", pct(r["pct_correct_compared"]), points(r["delta_pct_correct"]),
@@ -475,7 +550,7 @@ with onglet_prompts:
                              f"temps {fr(r['delta_avg_time_s'], 2)} s.",
                     )
 
-        st.markdown("**Questions gagnées et perdues**")
+        titre_section("Questions gagnées et perdues")
         trans = pd.concat([
             effet.assign(sens="Gagnées", valeur=effet["nb_gained"], nb=effet["nb_gained"]),
             effet.assign(sens="Perdues", valeur=-effet["nb_lost"], nb=effet["nb_lost"]),
@@ -496,8 +571,8 @@ with onglet_prompts:
             text=alt.Text("nb:Q", format=","))
         afficher((barres + zero + etiquettes).properties(height=48 * len(ordre_lignes) + 40))
 
-        st.info(
-            "**À retenir.** Aucun prompt n'améliore le score : chaque ajout fait perdre plus de questions qu'il n'en "
+        a_retenir(
+            "<b>Aucun prompt n'améliore le score</b> : chaque ajout fait perdre plus de questions qu'il n'en "
             "fait gagner. Le rôle d'expert ne change presque rien ; la consigne d'analyse dégrade nettement Ministral."
         )
         with st.expander("Tableau détaillé"):
@@ -543,7 +618,7 @@ with onglet_domaines:
             cat["t_reussite"] = cat["pct_correct"].map(pct)
             ordre_cat = (cat.groupby("category")["pct_correct"].mean()
                          .sort_values(ascending=False).index.tolist())
-            st.markdown(f"**Réussite par catégorie** · {PROMPTS[prompt_vue]} · triée par taux moyen")
+            titre_section(f"Réussite par catégorie · {PROMPTS[prompt_vue]} · triée par taux moyen")
             ecarts = cat.groupby("category", as_index=False).agg(mini=("part", "min"), maxi=("part", "max"))
             regle = alt.Chart(ecarts).mark_rule(color="#c2c2c2", size=2).encode(
                 y=alt.Y("category:N", sort=ordre_cat), x="mini:Q", x2="maxi:Q")
@@ -561,7 +636,7 @@ with onglet_domaines:
             st.caption("Un point par modèle ; le trait relie les deux modèles et montre l'écart. "
                        "Plus petite catégorie : 36 questions.")
 
-            st.markdown(f"**Meilleur modèle par catégorie** · {PROMPTS[prompt_vue]}")
+            titre_section(f"Meilleur modèle par catégorie · {PROMPTS[prompt_vue]}")
             clause, params = where("category_model_gap", ignorer=("prompt_id",), extra="prompt_id = ?")
             gap = requete(f"SELECT * FROM category_model_gap {clause} ORDER BY gap_pct_points DESC, category",
                           params + (prompt_vue,))
@@ -585,7 +660,7 @@ with onglet_domaines:
             )
             st.caption("Table `category_model_gap` · filtre appliqué : catégorie")
 
-            st.markdown("**Réussite par catégorie × prompt** : quels domaines profitent d'une formulation ?")
+            titre_section("Réussite par catégorie × prompt : quels domaines profitent d'une formulation ?")
             modele_carte = st.segmented_control(
                 "Modèle", list(MODELES), default=list(MODELES)[0], format_func=MODELES.get,
                 required=True, key="modele_carte")
@@ -601,7 +676,7 @@ with onglet_domaines:
                     x=alt.X("prompt_court:N", title=None, sort=["P1", "P2", "P3"],
                             axis=alt.Axis(orient="top", labelAngle=0)),
                     y=alt.Y("category:N", sort=ordre_carte, title=None, axis=alt.Axis(labelLimit=300)),
-                    color=alt.Color("part:Q", title="Réussite", scale=alt.Scale(range=BLEUS),
+                    color=alt.Color("part:Q", title="Réussite", scale=alt.Scale(range=[ROSES[0], ROSES[2], ROSES[4], ROSES[6]]),
                                     legend=alt.Legend(format=".0%", orient="top")),
                     tooltip=[alt.Tooltip("category:N", title="Catégorie"), alt.Tooltip("prompt:N", title="Prompt"),
                              alt.Tooltip("pct_correct:Q", title="Réussite (%)", format=".1f"),
@@ -611,7 +686,7 @@ with onglet_domaines:
                     x=alt.X("prompt_court:N", sort=["P1", "P2", "P3"]),
                     y=alt.Y("category:N", sort=ordre_carte),
                     text="t_reussite:N",
-                    color=alt.condition("datum.part > 0.6", alt.value("white"), alt.value("#191919")),
+                    color=alt.condition("datum.part > 0.58", alt.value("white"), alt.value("#2b1a22")),
                 )
                 afficher((fond + texte).properties(height=24 * len(ordre_carte) + 60))
                 st.caption("Taux de réussite en %, du plus clair (faible) au plus foncé (élevé). "
@@ -642,8 +717,8 @@ with onglet_domaines:
 
             def graphe_difficulte(d: pd.DataFrame) -> alt.LayerChart:
                 barres = barres_groupees(d, "difficulte", ordre_diff, "part", "Bonnes réponses", infos, hauteur=300)
-                hasard_ticks = barres.mark_tick(color="#191919", thickness=2, size=22).encode(
-                    y="hasard:Q", color=alt.value("#191919"))
+                hasard_ticks = barres.mark_tick(thickness=4, size=26, stroke="#2b1a22", strokeWidth=1, opacity=1).encode(
+                    y="hasard:Q", color=alt.value("white"))
                 return (barres + hasard_ticks).resolve_scale(color="independent")
 
             if tous:
@@ -653,12 +728,12 @@ with onglet_domaines:
                 for col, t in zip(cols, ["multiple", "boolean"]):
                     d = diff[diff["type"] == t]
                     with col:
-                        st.markdown(f"**{TYPES[t]}**")
+                        titre_section(f"{TYPES[t]}")
                         if d.empty:
                             st.info(AUCUN_RESULTAT)
                         else:
                             afficher(graphe_difficulte(d))
-            st.caption("Le trait noir sur chaque barre = taux du hasard pour ces questions "
+            st.caption("Le trait blanc cerclé sur chaque barre = taux du hasard pour ces questions "
                        "(25 % par QCM, 50 % par vrai/faux ; « tous types » : moyenne selon leur part).")
             st.dataframe(
                 diff[["modele", "difficulte", "type_lib", "nb_answers", "pct_correct", "chance_pct", "pct_above_chance"]],
@@ -690,18 +765,18 @@ with onglet_domaines:
                 tooltip=[alt.Tooltip("modele:N", title="Modèle"), alt.Tooltip("type_lib:N", title="Type"),
                          alt.Tooltip("t_reussite:N", title="Réussite"), alt.Tooltip("t_ecart:N", title="Au-dessus du hasard"),
                          alt.Tooltip("t_format:N", title="Conformité"), alt.Tooltip("nb_answers:Q", title="Questions")])
-            ticks = barres.mark_tick(color="#191919", thickness=2, size=40).encode(
-                y="hasard:Q", color=alt.value("#191919"))
+            ticks = barres.mark_tick(thickness=4, size=44, stroke="#2b1a22", strokeWidth=1, opacity=1).encode(
+                y="hasard:Q", color=alt.value("white"))
             valeurs = barres.mark_text(dy=-7, fontSize=11).encode(text="t_ecart:N", color=alt.value(GRIS_TEXTE))
             col_g, col_d = st.columns([3, 2], gap="large")
             with col_g:
                 afficher((barres + ticks + valeurs).resolve_scale(color="independent"))
-                st.caption("Trait noir = hasard (25 % QCM, 50 % vrai/faux). Au-dessus des barres : "
+                st.caption("Trait blanc cerclé = hasard (25 % QCM, 50 % vrai/faux). Au-dessus des barres : "
                            "écart au hasard, en points.")
             with col_d:
-                st.info(
-                    "**À retenir.** En QCM, les modèles font environ deux fois mieux que le hasard. "
-                    "En vrai/faux, ils font à peine mieux que pile ou face ; avec la consigne d'analyse (P3), "
+                a_retenir(
+                    "En QCM, les modèles font environ <b>deux fois mieux que le hasard</b>. "
+                    "En vrai/faux, ils font <b>à peine mieux que pile ou face</b> ; avec la consigne d'analyse (P3), "
                     "Ministral fait même pire que le hasard."
                 )
                 st.dataframe(
@@ -744,10 +819,10 @@ with onglet_questions:
                   f"les {nb_conf} configurations se trompent pareil", delta_color="off", delta_arrow="off",
                   border=True)
 
-        st.markdown(f"**Nombre de configurations (sur {nb_conf}) qui réussissent chaque question**")
+        titre_section(f"Nombre de configurations (sur {nb_conf}) qui réussissent chaque question")
         distrib = qc.groupby(["nb_correct_configurations", "difficulte"], as_index=False).size()
         distrib["ordre"] = distrib["difficulte"].map({v: i for i, v in enumerate(DIFFICULTES.values())})
-        couleurs_diff = dict(zip(DIFFICULTES.values(), [BLEUS[1], BLEUS[2], BLEUS[4]]))
+        couleurs_diff = dict(zip(DIFFICULTES.values(), [ROSES[1], ROSES[3], ROSES[6]]))
         afficher(
             alt.Chart(distrib)
             .mark_bar(stroke="white", strokeWidth=2)
@@ -767,7 +842,7 @@ with onglet_questions:
         st.caption("0 = ratée par toutes les configurations ; 6 = réussie par toutes. "
                    "Couleur = difficulté annoncée par OpenTDB.")
 
-        st.markdown("**Explorer les questions**")
+        titre_section("Explorer les questions")
         c1, c2, c3 = st.columns([2, 2, 3])
         statuts = c1.multiselect("Statut", STATUTS, default=["toujours ratée"], key="statuts",
                                  placeholder="Tous les statuts")

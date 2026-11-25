@@ -43,15 +43,16 @@ Lecture seule de `gold/warehouse.duckdb` :
 |--------|---------|
 | Performance | 4 indicateurs (meilleure et moins bonne configuration, conformité la plus basse, taux du hasard) ; réussite par prompt et modèle avec la ligne du hasard ; temps moyen ; répartition juste / fausse au bon format / hors format |
 | Influence des prompts | réussite après et écart par couple ; barres divergentes questions perdues / gagnées ; tableau détaillé |
-| Domaines | catégories : un point par modèle, trait = écart, tri par taux moyen ; meilleur modèle par catégorie ; carte catégorie × prompt. Difficulté et type : barres par modèle, trait noir = hasard |
+| Domaines | catégories : un point par modèle, trait = écart, tri par taux moyen ; meilleur modèle par catégorie ; carte catégorie × prompt. Difficulté et type : barres par modèle, trait blanc cerclé = hasard |
 | Questions pièges | toujours réussies / toujours ratées / même réponse fausse ; distribution 0–6 par difficulté ; explorateur de questions téléchargeable |
 | Données | table brute (taux non arrondis), téléchargeable |
 
 ## Choix de présentation
 
-- **Une couleur par modèle, fixe** (Gemma bleu, Ministral orange) : un filtre ne change jamais la couleur d'un modèle.
+- **Thème en dégradé de rose** (25/11, demande de l'utilisatrice) : `.streamlit/config.toml` (couleurs de base) et feuille de style dans `src/dashboard.py` (bandeau en dégradé, cartes d'indicateurs, onglets, encadrés « À retenir »).
+- **Une couleur par modèle, fixe** (Gemma rose foncé `#880e4f`, Ministral rose `#f06292`) : un filtre ne change jamais la couleur d'un modèle. Les deux roses diffèrent fortement en luminosité (écart OKLab ≈ 28, cible ≥ 8), donc restent distinguables pour les daltoniens. Gagnées / perdues : rose / violet ; cartes et répartitions : dégradé de rose ; hasard : trait blanc cerclé.
 - **Taux arrondis à l'affichage seulement** (gold les garde non arrondis), format français (virgule, espace des milliers).
-- **Hasard toujours visible** là où il compte : ligne pointillée (performance), trait noir (difficulté, type).
+- **Hasard toujours visible** là où il compte : ligne pointillée (performance), trait blanc cerclé (difficulté, type).
 - Connexions DuckDB **courtes et en lecture seule**, résultats en cache : `dbt build` reste possible pendant que le dashboard tourne. Requêtes paramétrées pour les filtres.
 - Graphiques **Altair** (comme le projet de cours).
 
