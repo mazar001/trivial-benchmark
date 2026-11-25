@@ -15,6 +15,7 @@
 -- Contrôle (tests/assert_prompt_effect_coherent.sql) :
 --   gagnées + perdues + justes des 2 côtés + fausses des 2 côtés = nb_questions
 --   delta_pct_correct = 100 x (gagnées - perdues) / nb_questions
+-- Taux (%) et temps (s) non arrondis : l'arrondi se fait à l'affichage (dashboard).
 WITH prompt_pairs AS (
     -- Les 3 couples comparés, écrits explicitement.
     SELECT *
@@ -52,12 +53,10 @@ SELECT
     prompt_compared,
     count(*) AS nb_questions,
     -- Réussite
-    round(100 * avg(CAST(correct_ref AS INTEGER)), 1) AS pct_correct_ref,
-    round(100 * avg(CAST(correct_compared AS INTEGER)), 1) AS pct_correct_compared,
-    round(
-        100 * (avg(CAST(correct_compared AS INTEGER)) - avg(CAST(correct_ref AS INTEGER))),
-        1
-    ) AS delta_pct_correct,
+    100.0 * count_if(correct_ref) / count(*) AS pct_correct_ref,
+    100.0 * count_if(correct_compared) / count(*) AS pct_correct_compared,
+    100.0 * count_if(correct_compared) / count(*)
+        - 100.0 * count_if(correct_ref) / count(*) AS delta_pct_correct,
     -- Questions gagnées, perdues, inchangées
     count_if(NOT correct_ref AND correct_compared) AS nb_gained,
     count_if(correct_ref AND NOT correct_compared) AS nb_lost,
@@ -66,16 +65,14 @@ SELECT
     count_if(correct_ref AND correct_compared) AS nb_both_correct,
     count_if(NOT correct_ref AND NOT correct_compared) AS nb_both_wrong,
     -- Conformité au format
-    round(100 * avg(CAST(format_ok_ref AS INTEGER)), 1) AS pct_format_ok_ref,
-    round(100 * avg(CAST(format_ok_compared AS INTEGER)), 1) AS pct_format_ok_compared,
-    round(
-        100 * (avg(CAST(format_ok_compared AS INTEGER)) - avg(CAST(format_ok_ref AS INTEGER))),
-        1
-    ) AS delta_pct_format_ok,
+    100.0 * count_if(format_ok_ref) / count(*) AS pct_format_ok_ref,
+    100.0 * count_if(format_ok_compared) / count(*) AS pct_format_ok_compared,
+    100.0 * count_if(format_ok_compared) / count(*)
+        - 100.0 * count_if(format_ok_ref) / count(*) AS delta_pct_format_ok,
     -- Temps de réponse
-    round(avg(time_ref_s), 2) AS avg_time_ref_s,
-    round(avg(time_compared_s), 2) AS avg_time_compared_s,
-    round(avg(time_compared_s) - avg(time_ref_s), 2) AS delta_avg_time_s
+    avg(time_ref_s) AS avg_time_ref_s,
+    avg(time_compared_s) AS avg_time_compared_s,
+    avg(time_compared_s) - avg(time_ref_s) AS delta_avg_time_s
 FROM paired
 GROUP BY model, prompt_ref, prompt_compared
 ORDER BY model, prompt_ref, prompt_compared

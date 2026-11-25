@@ -86,7 +86,7 @@ duckdb gold/warehouse.duckdb -c "SELECT * FROM category_model_gap"         # axe
 duckdb gold/warehouse.duckdb -c "SELECT status, count(*) FROM question_consensus GROUP BY status"   # axe 4 : questions pièges
 ```
 
-Les 7 tables gold et leur construction : `documentation/ARCHITECTURE.md` (section Transformation).
+Les 7 tables gold et leur construction : `documentation/ARCHITECTURE.md` (section Transformation). Les taux (%) et temps (s) ne sont pas arrondis dans gold : arrondir à l'affichage (ex. `round(pct_correct, 1)`).
 
 Dashboard : à venir (voir `documentation/specifications/DASHBOARD.md`).
 

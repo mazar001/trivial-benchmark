@@ -129,7 +129,8 @@ source('silver', 'questions')     source('silver', 'llm_answers')    ← src/mod
   └─ staging/       stg_questions        stg_llm_answers               (vues)
       └─ intermediate/  int_answers_enriched                           (vue)
           └─ marts/     7 tables (décision 21), voir ci-dessous       (tables)
-tests/                  4 tests métier (un fichier SQL = une règle qui ne doit renvoyer aucune ligne)
+macros/gold_tests.sql   tests génériques gold : gold_grain, gold_concordance
+tests/                  5 tests métier (un fichier SQL = une règle qui ne doit renvoyer aucune ligne)
 ```
 
 | Axe | Mart | Grain (lignes) | Construction |
@@ -148,5 +149,6 @@ Les marts n'ont pas le même grain : ne pas les joindre ni additionner leurs eff
 - `int_answers_enriched` : jointure réponse ↔ question + `format_ok` (réponse exactement A–D ou True/False, pour tous les prompts).
 - `int_answers_enriched.chance_pct` = 100 / `nb_choices` (25 % QCM, 50 % vrai/faux) : seule définition du hasard. Les marts en font la moyenne (`chance_pct`) et en déduisent `pct_above_chance` ; la moyenne tient compte de la part de vrai/faux de chaque groupe (ex. `type = 'all'`).
 - Ordre des choix identique pour les 6 configurations (une seule lettre attendue par question, vérifié le 25/11) : `question_consensus.most_common_wrong_answer` désigne la même proposition partout.
-- Tests dans `sources.yml` : unicité et non-nullité des ids, valeurs autorisées, relation réponses → questions. Tests des marts dans `src/models/marts/marts.yml` et `tests/` (répartition complète, cohérence gagnées / perdues, totaux par type et difficulté, 6 configurations par question). `dbt build` : 38 PASS.
+- Tests dans `sources.yml` : unicité et non-nullité des ids, valeurs autorisées, relation réponses → questions. Tests des marts (idée reprise du dbt de Cécile, commit `6d17118`) : **`gold_grain`** sur les 7 tables (une seule ligne par clé, clé jamais vide, nombre de lignes exact : 6, 6, 144, 72, 54, 12, 5 290 ; les données sont figées) ; **recalcul indépendant** des indicateurs depuis `int_answers_enriched` par un autre calcul (`gold_concordance` : `sum(CASE …)`, format recalculé depuis la réponse ; `prompt_effect` par pivot au lieu de l'auto-jointure ; `category_model_gap` sans classement ; `question_consensus` par `bool_and` / `bool_or`), plus les contrôles de cohérence (répartition complète, totaux par type et difficulté, 6 configurations par question). Vérifié par sabotage : chaque test échoue si on fausse une valeur. `dbt build` : 44 PASS.
+- **Taux et temps non arrondis en gold** (`100.0 * count_if(...) / count(*)`, type DOUBLE) : l'arrondi se fait à l'affichage (dashboard). Les valeurs sont identiques à celles du gold de Cécile.
 - Profil `trivial_tp` (`profiles.yml`) → `gold/warehouse.duckdb`.

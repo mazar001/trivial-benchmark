@@ -12,6 +12,7 @@
 --
 -- Attention : les lignes 'all' recomptent les mêmes réponses que les lignes par type.
 -- Filtrer sur type avant d'additionner.
+-- Taux non arrondis : l'arrondi se fait à l'affichage (dashboard).
 SELECT
     model,
     prompt_id,
@@ -19,9 +20,9 @@ SELECT
     CASE WHEN grouping(type) = 1 THEN 'all' ELSE type END AS type,
     count(*) AS nb_answers,
     count_if(ai_correct) AS nb_correct,
-    round(100 * avg(CAST(ai_correct AS INTEGER)), 1) AS pct_correct,
-    round(avg(chance_pct), 1) AS chance_pct,
-    round(100 * avg(CAST(ai_correct AS INTEGER)) - avg(chance_pct), 1) AS pct_above_chance
+    100.0 * count_if(ai_correct) / count(*) AS pct_correct,
+    avg(chance_pct) AS chance_pct,
+    100.0 * count_if(ai_correct) / count(*) - avg(chance_pct) AS pct_above_chance
 FROM {{ ref('int_answers_enriched') }}
 GROUP BY GROUPING SETS (
     (model, prompt_id, difficulty, type),

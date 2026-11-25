@@ -3,16 +3,17 @@
 -- Regroupement : GROUP BY model, prompt_id, type -> 12 lignes.
 -- Le hasard donne 25 % sur un QCM (4 choix) et 50 % sur un vrai/faux :
 -- pct_above_chance = pct_correct - chance_pct (en points).
+-- Taux non arrondis : l'arrondi se fait à l'affichage (dashboard).
 SELECT
     model,
     prompt_id,
     type,
     count(*) AS nb_answers,
     count_if(ai_correct) AS nb_correct,
-    round(100 * avg(CAST(ai_correct AS INTEGER)), 1) AS pct_correct,
-    round(avg(chance_pct), 1) AS chance_pct,
-    round(100 * avg(CAST(ai_correct AS INTEGER)) - avg(chance_pct), 1) AS pct_above_chance,
-    round(100 * avg(CAST(coalesce(format_ok, false) AS INTEGER)), 1) AS pct_format_ok
+    100.0 * count_if(ai_correct) / count(*) AS pct_correct,
+    avg(chance_pct) AS chance_pct,
+    100.0 * count_if(ai_correct) / count(*) - avg(chance_pct) AS pct_above_chance,
+    100.0 * count_if(coalesce(format_ok, false)) / count(*) AS pct_format_ok
 FROM {{ ref('int_answers_enriched') }}
 GROUP BY model, prompt_id, type
 ORDER BY model, prompt_id, type

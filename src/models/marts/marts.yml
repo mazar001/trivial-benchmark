@@ -3,6 +3,11 @@ version: 2
 # Couche gold : 7 marts, un ou plusieurs par axe des KPI (décision 21).
 # Toutes les tables partent de int_answers_enriched (une ligne par réponse).
 # Les tables n'ont pas le même grain : ne pas les joindre ni additionner leurs effectifs.
+# Taux en % et temps en secondes NON arrondis : l'arrondi se fait à l'affichage.
+#
+# Tests (macros/gold_tests.sql et tests/) :
+#   gold_grain        : une seule ligne par clé, jamais vide, et nombre de lignes exact
+#   gold_concordance  : indicateurs recalculés d'une autre façon depuis int_answers_enriched
 
 models:
   - name: accuracy_by_model_prompt
@@ -10,11 +15,26 @@ models:
       Axe 1, performance. Une ligne par modèle x prompt (6 lignes).
       GROUP BY model, prompt_id. Taux de réussite, conformité, temps de réponse,
       répartition juste / fausse au bon format / hors format.
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [model, prompt_id], row_count: 6}
+      - gold_concordance:
+          arguments: {check_format: true, check_time: true}
     columns:
-      - name: model
-        data_tests: [not_null]
-      - name: prompt_id
-        data_tests: [not_null]
+      - {name: model, description: Identifiant du modèle.}
+      - {name: prompt_id, description: Identifiant du prompt.}
+      - {name: nb_answers, description: Nombre de réponses.}
+      - {name: nb_correct, description: Réponses justes.}
+      - {name: nb_incorrect_format_ok, description: Réponses fausses mais au bon format.}
+      - {name: nb_out_of_format, description: Réponses hors format (comptées fausses).}
+      - {name: pct_correct, description: Taux de réussite (%).}
+      - {name: pct_incorrect_format_ok, description: Part des réponses fausses au bon format (%).}
+      - {name: pct_out_of_format, description: Part des réponses hors format (%).}
+      - {name: pct_format_ok, description: Taux de conformité au format (%).}
+      - {name: nb_errors, description: Erreurs techniques d'appel.}
+      - {name: avg_response_time_s, description: Temps de réponse moyen (s).}
+      - {name: median_response_time_s, description: Temps de réponse médian (s).}
+      - {name: max_response_time_s, description: Temps de réponse maximal (s).}
 
   - name: prompt_effect
     description: >
@@ -23,39 +43,54 @@ models:
       sur question_id + model, puis GROUP BY model, prompt_ref, prompt_compared.
       Questions gagnées (fausse -> juste), perdues (juste -> fausse), écarts de
       réussite, de conformité et de temps.
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [model, prompt_ref, prompt_compared], row_count: 6}
     columns:
       - name: prompt_ref
+        description: Prompt de départ.
         data_tests:
           - accepted_values:
               arguments:
                 values: ['P1_choices', 'P2_expert']
       - name: prompt_compared
+        description: Prompt comparé.
         data_tests:
           - accepted_values:
               arguments:
                 values: ['P2_expert', 'P3_expert_advanced']
+      - {name: nb_questions, description: Questions comparées (mêmes questions des deux côtés).}
+      - {name: nb_gained, description: Questions fausses avec le prompt de départ, justes avec le prompt comparé.}
+      - {name: nb_lost, description: Questions justes avec le prompt de départ, fausses avec le prompt comparé.}
+      - {name: nb_net, description: Gagnées moins perdues.}
+      - {name: delta_pct_correct, description: Écart de réussite en points (comparé moins départ).}
+      - {name: delta_pct_format_ok, description: Écart de conformité en points.}
+      - {name: delta_avg_time_s, description: Écart de temps moyen (s).}
 
   - name: accuracy_by_category
     description: >
       Axe 3, réussite par catégorie et par catégorie x prompt. Une ligne par
       modèle x prompt x catégorie (144 lignes). GROUP BY model, prompt_id, category.
-    columns:
-      - name: category
-        data_tests: [not_null]
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [model, prompt_id, category], row_count: 144}
+      - gold_concordance:
+          arguments: {dimensions: [category]}
 
   - name: category_model_gap
     description: >
       Axe 3, écart entre modèles par catégorie. Une ligne par prompt x catégorie
       (72 lignes). Lit accuracy_by_category, classe les modèles dans chaque
       catégorie (départage par nom), puis GROUP BY prompt_id, category.
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [prompt_id, category], row_count: 72}
     columns:
-      - name: best_model
-        data_tests: [not_null]
+      - {name: best_model, description: Modèle le plus performant dans la catégorie.}
+      - {name: worst_model, description: L'autre modèle.}
       - name: gap_pct_points
         description: Écart en points entre le meilleur et l'autre modèle (toujours >= 0).
-        data_tests: [not_null]
-      - name: is_tie
-        description: Vrai si les deux modèles ont le même nombre de bonnes réponses.
+      - {name: is_tie, description: Vrai si les deux modèles ont le même nombre de bonnes réponses.}
 
   - name: accuracy_by_difficulty
     description: >
@@ -63,6 +98,13 @@ models:
       plus une ligne type = 'all' par difficulté (GROUPING SETS, 54 lignes).
       chance_pct = moyenne du hasard des questions de la ligne. Les lignes 'all'
       recomptent les lignes par type : filtrer sur type avant d'additionner.
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [model, prompt_id, difficulty, type], row_count: 54}
+      - gold_concordance:
+          arguments: {dimensions: [difficulty, type], where: "type <> 'all'", check_chance: true}
+      - gold_concordance:
+          arguments: {dimensions: [difficulty], where: "type = 'all'", check_chance: true}
     columns:
       - name: type
         data_tests:
@@ -74,6 +116,11 @@ models:
     description: >
       Axe 3, réussite par type (QCM, vrai/faux). Une ligne par modèle x prompt x type
       (12 lignes). GROUP BY model, prompt_id, type. Écart au hasard (25 % / 50 %).
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [model, prompt_id, type], row_count: 12}
+      - gold_concordance:
+          arguments: {dimensions: [type], check_chance: true, check_format: true}
     columns:
       - name: type
         data_tests:
@@ -86,11 +133,14 @@ models:
       Axe 4, questions pièges. Une ligne par question (5 290 lignes).
       GROUP BY question_id ; LEFT JOIN avec la réponse fausse la plus donnée.
       status : toujours réussie (par les 6 configurations), toujours ratée, mixte.
+    data_tests:
+      - gold_grain:
+          arguments: {keys: [question_id], row_count: 5290}
     columns:
-      - name: question_id
-        data_tests: [not_null, unique]
       - name: status
         data_tests:
           - accepted_values:
               arguments:
                 values: ['toujours réussie', 'toujours ratée', 'mixte']
+      - {name: nb_correct_configurations, description: Configurations (sur 6) qui réussissent la question.}
+      - {name: most_common_wrong_answer, description: Réponse fausse (au bon format) la plus donnée ; vide si aucune.}
