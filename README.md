@@ -80,10 +80,13 @@ Le benchmark est reprenable : relancé, il saute les questions déjà traitées.
 Consulter les résultats :
 
 ```bash
-duckdb gold/warehouse.duckdb -c "SELECT * FROM accuracy_by_model_prompt"
-duckdb gold/warehouse.duckdb -c "SELECT * FROM accuracy_by_category"
-duckdb gold/warehouse.duckdb -c "SELECT * FROM accuracy_by_difficulty"
+duckdb gold/warehouse.duckdb -c "SELECT * FROM accuracy_by_model_prompt"   # axe 1 : performance
+duckdb gold/warehouse.duckdb -c "SELECT * FROM prompt_effect"              # axe 2 : influence des prompts
+duckdb gold/warehouse.duckdb -c "SELECT * FROM category_model_gap"         # axe 3 : domaines (aussi accuracy_by_category, _by_difficulty, _by_type)
+duckdb gold/warehouse.duckdb -c "SELECT status, count(*) FROM question_consensus GROUP BY status"   # axe 4 : questions pièges
 ```
+
+Les 7 tables gold et leur construction : `documentation/ARCHITECTURE.md` (section Transformation).
 
 Dashboard : à venir (voir `documentation/specifications/DASHBOARD.md`).
 

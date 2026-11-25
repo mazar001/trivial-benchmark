@@ -128,12 +128,25 @@ Commit importé : `7169dbb` (25/11), 6 runs complets (Gemma 4 E2B et Ministral 3
 source('silver', 'questions')     source('silver', 'llm_answers')    ← src/models/sources.yml
   └─ staging/       stg_questions        stg_llm_answers               (vues)
       └─ intermediate/  int_answers_enriched                           (vue)
-          └─ marts/     accuracy_by_model_prompt, accuracy_by_category,
-                        accuracy_by_difficulty                         (tables)
+          └─ marts/     7 tables (décision 21), voir ci-dessous       (tables)
+tests/                  4 tests métier (un fichier SQL = une règle qui ne doit renvoyer aucune ligne)
 ```
+
+| Axe | Mart | Grain (lignes) | Construction |
+|-----|------|----------------|--------------|
+| 1 | `accuracy_by_model_prompt` | modèle × prompt (6) | `GROUP BY model, prompt_id` |
+| 2 | `prompt_effect` | modèle × couple de prompts P1→P2, P1→P3, P2→P3 (6) | auto-jointure de `int_answers_enriched` sur `question_id` + `model`, puis `GROUP BY` |
+| 3 | `accuracy_by_category` | modèle × prompt × catégorie (144) | `GROUP BY model, prompt_id, category` |
+| 3 | `category_model_gap` | prompt × catégorie (72) | lit `accuracy_by_category`, `row_number()` (départage par nom de modèle), puis `GROUP BY prompt_id, category` |
+| 3 | `accuracy_by_difficulty` | modèle × prompt × difficulté × type, + `type = 'all'` (54) | `GROUP BY GROUPING SETS` ; filtrer sur `type` avant d'additionner |
+| 3 | `accuracy_by_type` | modèle × prompt × type (12) | `GROUP BY model, prompt_id, type` |
+| 4 | `question_consensus` | question (5 290) | `GROUP BY question_id`, `LEFT JOIN` sur la réponse fausse la plus donnée |
+
+Les marts n'ont pas le même grain : ne pas les joindre ni additionner leurs effectifs.
 
 - `stg_llm_answers` : une ligne par (question, modèle, prompt), la plus récente si relancé.
 - `int_answers_enriched` : jointure réponse ↔ question + `format_ok` (réponse exactement A–D ou True/False, pour tous les prompts).
-- `accuracy_by_difficulty.pct_above_chance` : écart au hasard (25 % sur 4 choix, 50 % sur vrai/faux).
-- Tests dans `sources.yml` : unicité et non-nullité des ids, valeurs autorisées, relation réponses → questions.
+- `int_answers_enriched.chance_pct` = 100 / `nb_choices` (25 % QCM, 50 % vrai/faux) : seule définition du hasard. Les marts en font la moyenne (`chance_pct`) et en déduisent `pct_above_chance` ; la moyenne tient compte de la part de vrai/faux de chaque groupe (ex. `type = 'all'`).
+- Ordre des choix identique pour les 6 configurations (une seule lettre attendue par question, vérifié le 25/11) : `question_consensus.most_common_wrong_answer` désigne la même proposition partout.
+- Tests dans `sources.yml` : unicité et non-nullité des ids, valeurs autorisées, relation réponses → questions. Tests des marts dans `src/models/marts/marts.yml` et `tests/` (répartition complète, cohérence gagnées / perdues, totaux par type et difficulté, 6 configurations par question). `dbt build` : 38 PASS.
 - Profil `trivial_tp` (`profiles.yml`) → `gold/warehouse.duckdb`.

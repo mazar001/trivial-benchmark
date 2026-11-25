@@ -1,4 +1,6 @@
--- Taux de bonnes réponses par catégorie, pour chaque modèle et prompt
+-- Axe 3, réussite par catégorie (et par catégorie x prompt) : une ligne par
+-- modèle x prompt x catégorie. Lignes lues : les 31 740 lignes de int_answers_enriched.
+-- Regroupement : GROUP BY model, prompt_id, category -> 144 lignes (6 x 24).
 SELECT
     model,
     prompt_id,

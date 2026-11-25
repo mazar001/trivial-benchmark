@@ -1,23 +1,34 @@
--- Taux de bonnes réponses par difficulté et type de question.
--- Le hasard donne 25 % sur les questions à 4 choix et 50 % sur les vrai/faux :
--- la colonne pct_above_chance indique l'écart par rapport au hasard.
+-- Axe 3, réussite par difficulté : une ligne par modèle x prompt x difficulté x type,
+-- plus une ligne type = 'all' par difficulté (tous types confondus).
+--
+-- Lignes lues : les 31 740 lignes de int_answers_enriched, sans filtre.
+-- Regroupement : deux regroupements dans la même requête (GROUPING SETS) :
+--   (model, prompt_id, difficulty, type) -> 36 lignes, par type
+--   (model, prompt_id, difficulty)       -> 18 lignes, type = 'all'
+--
+-- Pourquoi la ligne 'all' a son propre hasard : les difficultés n'ont pas la même
+-- part de vrai/faux (359 en easy, 97 en hard). chance_pct est donc la moyenne du
+-- hasard de ses questions (25 % par QCM, 50 % par vrai/faux), pas un 25 % fixe.
+--
+-- Attention : les lignes 'all' recomptent les mêmes réponses que les lignes par type.
+-- Filtrer sur type avant d'additionner.
 SELECT
     model,
     prompt_id,
     difficulty,
-    type,
+    CASE WHEN grouping(type) = 1 THEN 'all' ELSE type END AS type,
     count(*) AS nb_answers,
     count_if(ai_correct) AS nb_correct,
     round(100 * avg(CAST(ai_correct AS INTEGER)), 1) AS pct_correct,
-    round(
-        100 * avg(CAST(ai_correct AS INTEGER))
-        - CASE WHEN type = 'boolean' THEN 50 ELSE 25 END,
-        1
-    ) AS pct_above_chance
+    round(avg(chance_pct), 1) AS chance_pct,
+    round(100 * avg(CAST(ai_correct AS INTEGER)) - avg(chance_pct), 1) AS pct_above_chance
 FROM {{ ref('int_answers_enriched') }}
-GROUP BY model, prompt_id, difficulty, type
+GROUP BY GROUPING SETS (
+    (model, prompt_id, difficulty, type),
+    (model, prompt_id, difficulty)
+)
 ORDER BY
     model,
     prompt_id,
     CASE difficulty WHEN 'easy' THEN 1 WHEN 'medium' THEN 2 ELSE 3 END,
-    type
+    CASE WHEN grouping(type) = 1 THEN 3 WHEN type = 'multiple' THEN 1 ELSE 2 END

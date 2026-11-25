@@ -1,5 +1,7 @@
 -- Chaque réponse jointe à sa question (catégorie, difficulté, type),
--- avec un indicateur "le modèle a respecté le format demandé".
+-- avec un indicateur "le modèle a respecté le format demandé"
+-- et le taux du hasard de la question (chance_pct).
+-- Jointure : stg_llm_answers INNER JOIN stg_questions ON question_id.
 -- Tous les prompts (src/prompts.py) demandent une lettre A-D (QCM)
 -- ou True/False (vrai/faux). Règle stricte de Cécile (décision 20) : la réponse,
 -- sans les espaces autour, doit être exactement l'une de ces valeurs.
@@ -23,6 +25,9 @@ SELECT
             THEN a.ai_answer IN ('A', 'B', 'C', 'D')
         ELSE a.ai_answer IN ('True', 'False')
     END AS format_ok,
+    -- Taux de bonnes réponses d'un modèle qui répondrait au hasard :
+    -- 100 / 4 = 25 % pour un QCM, 100 / 2 = 50 % pour un vrai/faux.
+    100.0 / q.nb_choices AS chance_pct,
     a.run_id,
     a.answered_at
 FROM {{ ref('stg_llm_answers') }} AS a

@@ -2,6 +2,8 @@
 
 > Version du 24/11/2026, établie à partir de ce que le pipeline produit réellement (tables gold ; prompts `P1_choices` et `P2_expert` depuis le 24/11). Non implémenté. À confronter aux échanges menés sur claude.ai (dossier cours / projet Trivial) dès qu'ils sont disponibles.
 
+> **25/11 : gold refait en 7 marts (décision 21).** Le dashboard Streamlit reste un livrable ; ses vues sont à réorganiser selon les 4 axes : performance (`accuracy_by_model_prompt`), influence des prompts (`prompt_effect`), domaines (`accuracy_by_category`, `category_model_gap`, `accuracy_by_difficulty`, `accuracy_by_type`), questions pièges (`question_consensus`, remplace la vue « explorer les erreurs » ou la complète). Attention : `accuracy_by_difficulty` contient des lignes `type = 'all'`, à filtrer avant d'additionner.
+
 ## Objectif
 
 Répondre à deux questions à partir de la couche gold :
