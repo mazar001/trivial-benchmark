@@ -34,7 +34,7 @@
 - [ ] **Valider** la décision 7 de `DECISIONS.md` (guillemets typographiques).
 - [ ] (Facultatif) Bonsai en local : trop lent pour le run complet (mémoire GPU saturée, 12–18 s/appel) ; éventuel point de comparaison partiel.
 - [ ] (Non bloquant, `--sample` n'est plus utilisé) bug pandas 3 de l'échantillonnage : `groupby().apply()` retire `category` et `difficulty`.
-- [ ] Implémenter le dashboard Streamlit selon `specifications/DASHBOARD.md`, sur les 7 marts gold (spécification à adapter aux 4 axes de la décision 21).
+- [x] **Dashboard Streamlit** (25/11) : `src/dashboard.py`, `streamlit run src/dashboard.py`. 5 onglets (performance, influence des prompts, domaines, questions pièges, données), filtres modèle / prompt / catégorie / difficulté / type, hasard affiché, taux arrondis à l'affichage. Vérifié avec `streamlit.testing` (filtres compris), graphiques rendus et relus. `altair` ajouté à `requirements.txt`. Spécification : `specifications/DASHBOARD.md`.
 - [ ] Prévenir Cécile que l'équipe a retenu les 7 marts (et non sa proposition à 4 marts), pour un seul gold.
 - [ ] Finaliser le README (captures du dashboard, résultats).
 - [x] GitHub (25/11) : dépôt privé `mazar001/trivial-benchmark`, commit `afd429d` (7 marts gold) poussé sur `main`.

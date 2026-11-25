@@ -88,7 +88,13 @@ duckdb gold/warehouse.duckdb -c "SELECT status, count(*) FROM question_consensus
 
 Les 7 tables gold et leur construction : `documentation/ARCHITECTURE.md` (section Transformation). Les taux (%) et temps (s) ne sont pas arrondis dans gold : arrondir à l'affichage (ex. `round(pct_correct, 1)`).
 
-Dashboard : à venir (voir `documentation/specifications/DASHBOARD.md`).
+Dashboard Streamlit (filtres : modèle, prompt, catégorie, difficulté, type ; un onglet par axe des KPI) :
+
+```bash
+streamlit run src/dashboard.py    # après dbt build, depuis la racine du projet
+```
+
+Détail des vues : `documentation/specifications/DASHBOARD.md`.
 
 ## Structure
 
