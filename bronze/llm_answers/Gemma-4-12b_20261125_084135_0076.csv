@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c542cd70eb247dd5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor was not a major character in TV Show Freaks and Geeks?
+A. Seth Rogen
+B. James Franco
+C. Jason Segel
+D. Jonah Hill
+Answer:","[""Seth Rogen"", ""James Franco"", ""Jason Segel"", ""Jonah Hill""]",http,0.0,16,none,"{""id"":""chatcmpl-f12eb80x8bhfrb8npiears"",""object"":""chat.completion"",""created"":1795594216,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3325,,MarianeAzar,20261125_084135,2026-11-25T08:10:18.185008+00:00
+c542cd70eb247dd5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor was not a major character in TV Show Freaks and Geeks?
+A. Seth Rogen
+B. James Franco
+C. Jason Segel
+D. Jonah Hill
+Answer:","[""Seth Rogen"", ""James Franco"", ""Jason Segel"", ""Jonah Hill""]",http,0.0,16,none,"{""id"":""chatcmpl-p6blj2cn39ab6hvfj93va"",""object"":""chat.completion"",""created"":1795594217,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9233,,MarianeAzar,20261125_084135,2026-11-25T08:10:19.108592+00:00
+4090d6d91c1fa8ef,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2019, Minecraft outsold Tetris to become the world's best-selling video game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gupyz0eng98m8ivvi2aso"",""object"":""chat.completion"",""created"":1795594218,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.92,,MarianeAzar,20261125_084135,2026-11-25T08:10:20.028672+00:00
+4090d6d91c1fa8ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2019, Minecraft outsold Tetris to become the world's best-selling video game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0xijbcdpgeqr6nex3khmcvl"",""object"":""chat.completion"",""created"":1795594219,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2952,,MarianeAzar,20261125_084135,2026-11-25T08:10:21.324053+00:00
+cad731799c59089c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?
+A. Tazeem
+B. Ulgrotha
+C. Llanowar
+D. Bant
+Answer:","[""Tazeem"", ""Ulgrotha"", ""Llanowar"", ""Bant""]",http,0.0,16,none,"{""id"":""chatcmpl-i7ffsgrgwjohbvqpmsv83r"",""object"":""chat.completion"",""created"":1795594220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9153,,MarianeAzar,20261125_084135,2026-11-25T08:10:22.239683+00:00
+cad731799c59089c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?
+A. Tazeem
+B. Ulgrotha
+C. Llanowar
+D. Bant
+Answer:","[""Tazeem"", ""Ulgrotha"", ""Llanowar"", ""Bant""]",http,0.0,16,none,"{""id"":""chatcmpl-ovh704ethwh1tniitfs3lt"",""object"":""chat.completion"",""created"":1795594221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9746,,MarianeAzar,20261125_084135,2026-11-25T08:10:23.214535+00:00
+1b48eaea362734fb,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vincent van Gogh cut off one of his ears.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lbcihvj8tjmd9ems3scso"",""object"":""chat.completion"",""created"":1795594222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2691,,MarianeAzar,20261125_084135,2026-11-25T08:10:24.483725+00:00
+1b48eaea362734fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vincent van Gogh cut off one of his ears.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-s4xbdejxfp1afi54t5vbk"",""object"":""chat.completion"",""created"":1795594223,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9042,,MarianeAzar,20261125_084135,2026-11-25T08:10:25.388071+00:00
+1acf08fc97e10fcc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nintendo's Luigi was originally just called Green Mario?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zq3ad5tcniiiuhn1pd2ns"",""object"":""chat.completion"",""created"":1795594224,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T08:10:26.300876+00:00
+1acf08fc97e10fcc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nintendo's Luigi was originally just called Green Mario?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j2blp4pekqlkji79ygx3yg"",""object"":""chat.completion"",""created"":1795594225,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3438,,MarianeAzar,20261125_084135,2026-11-25T08:10:27.644918+00:00
+7b5bbd36036fe77e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a class in Dungeons and Dragons 5e?
+A. Engineer
+B. Paladin
+C. Fighter
+D. Bard
+Answer:","[""Engineer"", ""Paladin"", ""Fighter"", ""Bard""]",http,0.0,16,none,"{""id"":""chatcmpl-8pwma24u1p6neq08m8z9pa"",""object"":""chat.completion"",""created"":1795594227,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9385,,MarianeAzar,20261125_084135,2026-11-25T08:10:28.583956+00:00
+7b5bbd36036fe77e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a class in Dungeons and Dragons 5e?
+A. Engineer
+B. Paladin
+C. Fighter
+D. Bard
+Answer:","[""Engineer"", ""Paladin"", ""Fighter"", ""Bard""]",http,0.0,16,none,"{""id"":""chatcmpl-vcviyqfqnwq7j1xoswj3c"",""object"":""chat.completion"",""created"":1795594228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9415,,MarianeAzar,20261125_084135,2026-11-25T08:10:29.525718+00:00
+6c14e340d7cbefd7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these video game engines was made by the company Epic Games?
+A. Unreal
+B. Unity
+C. Cry Engine
+D. Game Maker: Studio
+Answer:","[""Unreal"", ""Unity"", ""Cry Engine"", ""Game Maker: Studio""]",http,0.0,16,none,"{""id"":""chatcmpl-p6fe4amqvqsqwdsut3abo"",""object"":""chat.completion"",""created"":1795594228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2269,,MarianeAzar,20261125_084135,2026-11-25T08:10:30.752854+00:00
+6c14e340d7cbefd7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these video game engines was made by the company Epic Games?
+A. Unreal
+B. Unity
+C. Cry Engine
+D. Game Maker: Studio
+Answer:","[""Unreal"", ""Unity"", ""Cry Engine"", ""Game Maker: Studio""]",http,0.0,16,none,"{""id"":""chatcmpl-9ujdpeepubwj96r2wrnvf"",""object"":""chat.completion"",""created"":1795594230,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3365,,MarianeAzar,20261125_084135,2026-11-25T08:10:32.089685+00:00
+0bcd0c6ca53517b0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Melty Blood Actress Again Current Code"", you can enter Blood Heat mode in Half Moon style.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r5q8l3w6d9f99i13dvkf6q"",""object"":""chat.completion"",""created"":1795594231,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9023,,MarianeAzar,20261125_084135,2026-11-25T08:10:32.992208+00:00
+0bcd0c6ca53517b0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Melty Blood Actress Again Current Code"", you can enter Blood Heat mode in Half Moon style.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-svadtg4skh89hf687ad8pu"",""object"":""chat.completion"",""created"":1795594232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9267,,MarianeAzar,20261125_084135,2026-11-25T08:10:33.919089+00:00
+367ae296a83d4025,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: As poverty and racial tensions pushed African-Americans out of the southern US, many of them moved north in an event known as what?
+A. The Great Awakening
+B. The Resettlement
+C. The Harlem Renaissance
+D. The Great Migration
+Answer:","[""The Great Awakening"", ""The Resettlement"", ""The Harlem Renaissance"", ""The Great Migration""]",http,0.0,16,none,"{""id"":""chatcmpl-f3xrexw603m8qaoq12opg8"",""object"":""chat.completion"",""created"":1795594233,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3698,,MarianeAzar,20261125_084135,2026-11-25T08:10:35.289084+00:00
+367ae296a83d4025,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: As poverty and racial tensions pushed African-Americans out of the southern US, many of them moved north in an event known as what?
+A. The Great Awakening
+B. The Resettlement
+C. The Harlem Renaissance
+D. The Great Migration
+Answer:","[""The Great Awakening"", ""The Resettlement"", ""The Harlem Renaissance"", ""The Great Migration""]",http,0.0,16,none,"{""id"":""chatcmpl-l6a5swbklvfd2kbmmk1k8"",""object"":""chat.completion"",""created"":1795594234,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9541,,MarianeAzar,20261125_084135,2026-11-25T08:10:36.243469+00:00
+22e977a6a045b7d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Highschool DxD"", what is the name of the item some humans are born with?
+A. Sacred Gear
+B. Imperial Arm
+C. Hallowed Relic
+D. Blessed Artifact
+Answer:","[""Sacred Gear"", ""Imperial Arm"", ""Hallowed Relic"", ""Blessed Artifact""]",http,0.0,16,none,"{""id"":""chatcmpl-27rtcz0pyuglp48jeyqxgj"",""object"":""chat.completion"",""created"":1795594235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0074,,MarianeAzar,20261125_084135,2026-11-25T08:10:37.251163+00:00
+22e977a6a045b7d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Highschool DxD"", what is the name of the item some humans are born with?
+A. Sacred Gear
+B. Imperial Arm
+C. Hallowed Relic
+D. Blessed Artifact
+Answer:","[""Sacred Gear"", ""Imperial Arm"", ""Hallowed Relic"", ""Blessed Artifact""]",http,0.0,16,none,"{""id"":""chatcmpl-hh4wfqym74o0xg0jh0de33a"",""object"":""chat.completion"",""created"":1795594236,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3261,,MarianeAzar,20261125_084135,2026-11-25T08:10:38.577530+00:00
+df2bb2518b41cb81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sides does a pentagon have?
+A. 5
+B. 9
+C. 6
+D. 4
+Answer:","[""5"", ""9"", ""6"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-j53svhvefcv1sjz2qgur"",""object"":""chat.completion"",""created"":1795594238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9315,,MarianeAzar,20261125_084135,2026-11-25T08:10:39.509645+00:00
+df2bb2518b41cb81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sides does a pentagon have?
+A. 5
+B. 9
+C. 6
+D. 4
+Answer:","[""5"", ""9"", ""6"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-4siguyhfvbwvrfblo3brgr"",""object"":""chat.completion"",""created"":1795594238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9398,,MarianeAzar,20261125_084135,2026-11-25T08:10:40.449723+00:00
+2173636d00b436e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the famous spanish humorist, El Risitas?
+A. Jesus Quintero
+B. Juan Joya Borga
+C. Ernesto Guevara
+D. Gabriel Garcia Marquez
+Answer:","[""Jesus Quintero"", ""Juan Joya Borga"", ""Ernesto Guevara"", ""Gabriel Garcia Marquez""]",http,0.0,16,none,"{""id"":""chatcmpl-3m7hh1zc411vrbszlfpfb"",""object"":""chat.completion"",""created"":1795594239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3634,,MarianeAzar,20261125_084135,2026-11-25T08:10:41.813403+00:00
+2173636d00b436e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the famous spanish humorist, El Risitas?
+A. Jesus Quintero
+B. Juan Joya Borga
+C. Ernesto Guevara
+D. Gabriel Garcia Marquez
+Answer:","[""Jesus Quintero"", ""Juan Joya Borga"", ""Ernesto Guevara"", ""Gabriel Garcia Marquez""]",http,0.0,16,none,"{""id"":""chatcmpl-wudcbh00amgco9aznkkmzo"",""object"":""chat.completion"",""created"":1795594241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0008,,MarianeAzar,20261125_084135,2026-11-25T08:10:42.814463+00:00
+3dbd074259024eb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which continent is considered the largest and most populous continent in the world?
+A. Africa
+B. North America
+C. Europe
+D. Asia
+Answer:","[""Africa"", ""North America"", ""Europe"", ""Asia""]",http,0.0,16,none,"{""id"":""chatcmpl-ooray1a2emmkjeiorcmtda"",""object"":""chat.completion"",""created"":1795594242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.885,,MarianeAzar,20261125_084135,2026-11-25T08:10:43.699688+00:00

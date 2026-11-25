@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d071a8e1e9012683,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The character Plum from ""No Game No Life"" is a girl.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9r7qfz0cb2piiadhpsrks"",""object"":""chat.completion"",""created"":1795597079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7986,,MarianeAzar,20261125_084135,2026-11-25T08:58:01.074343+00:00
+d071a8e1e9012683,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The character Plum from ""No Game No Life"" is a girl.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fbi5a5hwfps9tjoitbxfs"",""object"":""chat.completion"",""created"":1795597080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8392,,MarianeAzar,20261125_084135,2026-11-25T08:58:01.913718+00:00
+5945275ad4646230,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Norse god Odin has two pet crows named ""Huginn"" and ""Muninn"". What do their names mean?
+A. Power & Peace
+B. War & Learning
+C. Thought & Memory
+D. Sleeping & Waking
+Answer:","[""Power & Peace"", ""War & Learning"", ""Thought & Memory"", ""Sleeping & Waking""]",http,0.0,16,none,"{""id"":""chatcmpl-cx4q6o6cb5cofkp8n48bg"",""object"":""chat.completion"",""created"":1795597081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261125_084135,2026-11-25T08:58:02.778635+00:00
+5945275ad4646230,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Norse god Odin has two pet crows named ""Huginn"" and ""Muninn"". What do their names mean?
+A. Power & Peace
+B. War & Learning
+C. Thought & Memory
+D. Sleeping & Waking
+Answer:","[""Power & Peace"", ""War & Learning"", ""Thought & Memory"", ""Sleeping & Waking""]",http,0.0,16,none,"{""id"":""chatcmpl-jmjc2afof7f0zt5641x9lsm"",""object"":""chat.completion"",""created"":1795597082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8939,,MarianeAzar,20261125_084135,2026-11-25T08:58:03.672827+00:00
+4e53c110ab2f8a11,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the ""Champions League"" in 1999?
+A. Bayern Munich
+B. Barcelona
+C. Manchester United
+D. Liverpool
+Answer:","[""Bayern Munich"", ""Barcelona"", ""Manchester United"", ""Liverpool""]",http,0.0,16,none,"{""id"":""chatcmpl-phg9jm0r9mok9sp8zg3z3m"",""object"":""chat.completion"",""created"":1795597083,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",3.0909,,MarianeAzar,20261125_084135,2026-11-25T08:58:06.764125+00:00
+4e53c110ab2f8a11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the ""Champions League"" in 1999?
+A. Bayern Munich
+B. Barcelona
+C. Manchester United
+D. Liverpool
+Answer:","[""Bayern Munich"", ""Barcelona"", ""Manchester United"", ""Liverpool""]",http,0.0,16,none,"{""id"":""chatcmpl-yzedvfztirvm91x5jktqh"",""object"":""chat.completion"",""created"":1795597086,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0895,,MarianeAzar,20261125_084135,2026-11-25T08:58:07.853863+00:00
+9bae4db57fa51fa9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game Dead by Daylight, the killer Michael Myers is refered to as ""The Shape"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cs193j5op64x1nh7m8sp4q"",""object"":""chat.completion"",""created"":1795597087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8148,,MarianeAzar,20261125_084135,2026-11-25T08:58:08.668902+00:00
+9bae4db57fa51fa9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game Dead by Daylight, the killer Michael Myers is refered to as ""The Shape"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2igaxzklmlwjc7f5jdy7y"",""object"":""chat.completion"",""created"":1795597088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8402,,MarianeAzar,20261125_084135,2026-11-25T08:58:09.509303+00:00
+26162c236d71e725,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Hong Kong was a part of which country's territory before Britain regained it in 1945?
+A. China
+B. Phillipines
+C. French Indonesia
+D. Japan
+Answer:","[""China"", ""Phillipines"", ""French Indonesia"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-et2qsu4ih7tqoe63vhqnjk"",""object"":""chat.completion"",""created"":1795597088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T08:58:10.363630+00:00
+26162c236d71e725,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Hong Kong was a part of which country's territory before Britain regained it in 1945?
+A. China
+B. Phillipines
+C. French Indonesia
+D. Japan
+Answer:","[""China"", ""Phillipines"", ""French Indonesia"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-l7jj5601d45wdzgfbpxal"",""object"":""chat.completion"",""created"":1795597089,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T08:58:11.249300+00:00
+09b830843d4eeb1a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular jazz standard begins with the line ""Someday, when I'm awfully low""?
+A. Autumn Leaves
+B. All the Things You Are
+C. The Way You Look Tonight
+D. Dream a Little Dream of Me
+Answer:","[""Autumn Leaves"", ""All the Things You Are"", ""The Way You Look Tonight"", ""Dream a Little Dream of Me""]",http,0.0,16,none,"{""id"":""chatcmpl-judro7e66qm8ce10gqe0s"",""object"":""chat.completion"",""created"":1795597090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9066,,MarianeAzar,20261125_084135,2026-11-25T08:58:12.156545+00:00
+09b830843d4eeb1a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular jazz standard begins with the line ""Someday, when I'm awfully low""?
+A. Autumn Leaves
+B. All the Things You Are
+C. The Way You Look Tonight
+D. Dream a Little Dream of Me
+Answer:","[""Autumn Leaves"", ""All the Things You Are"", ""The Way You Look Tonight"", ""Dream a Little Dream of Me""]",http,0.0,16,none,"{""id"":""chatcmpl-l03s1pkdun3cyfr17l6cr"",""object"":""chat.completion"",""created"":1795597091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9073,,MarianeAzar,20261125_084135,2026-11-25T08:58:13.064146+00:00
+66fec37666efb143,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the canonical name of the Persona 4 protagonist?
+A. Yu Narukami
+B. Minato Arisato
+C. Nagito Komaeda
+D. Soji Seta
+Answer:","[""Yu Narukami"", ""Minato Arisato"", ""Nagito Komaeda"", ""Soji Seta""]",http,0.0,16,none,"{""id"":""chatcmpl-jhxcfjpag0gswmzldxeij"",""object"":""chat.completion"",""created"":1795597092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8795,,MarianeAzar,20261125_084135,2026-11-25T08:58:13.943910+00:00
+66fec37666efb143,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the canonical name of the Persona 4 protagonist?
+A. Yu Narukami
+B. Minato Arisato
+C. Nagito Komaeda
+D. Soji Seta
+Answer:","[""Yu Narukami"", ""Minato Arisato"", ""Nagito Komaeda"", ""Soji Seta""]",http,0.0,16,none,"{""id"":""chatcmpl-0jwgce8im5v57psdufx39gs"",""object"":""chat.completion"",""created"":1795597093,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9364,,MarianeAzar,20261125_084135,2026-11-25T08:58:14.880567+00:00
+206aa53216d588bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The creator of the Enigma Cypher and Machine was of what nationality?
+A. American
+B. German
+C. Polish
+D. British
+Answer:","[""American"", ""German"", ""Polish"", ""British""]",http,0.0,16,none,"{""id"":""chatcmpl-3pt7msd93pcau25frcqcr8"",""object"":""chat.completion"",""created"":1795597094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T08:58:15.744785+00:00
+206aa53216d588bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The creator of the Enigma Cypher and Machine was of what nationality?
+A. American
+B. German
+C. Polish
+D. British
+Answer:","[""American"", ""German"", ""Polish"", ""British""]",http,0.0,16,none,"{""id"":""chatcmpl-gr76jel2w0h8c0sr2nnn6n"",""object"":""chat.completion"",""created"":1795597095,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261125_084135,2026-11-25T08:58:16.604920+00:00
+d7a9810a11026e30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first American in space?
+A. Neil Armstrong
+B. John Glenn
+C. Jim Lovell
+D. Alan Shephard
+Answer:","[""Neil Armstrong"", ""John Glenn"", ""Jim Lovell"", ""Alan Shephard""]",http,0.0,16,none,"{""id"":""chatcmpl-54dbzaykm9lceiaxgroztg"",""object"":""chat.completion"",""created"":1795597096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8683,,MarianeAzar,20261125_084135,2026-11-25T08:58:17.473940+00:00
+d7a9810a11026e30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first American in space?
+A. Neil Armstrong
+B. John Glenn
+C. Jim Lovell
+D. Alan Shephard
+Answer:","[""Neil Armstrong"", ""John Glenn"", ""Jim Lovell"", ""Alan Shephard""]",http,0.0,16,none,"{""id"":""chatcmpl-jew7dwx05um7sb0idfre9u"",""object"":""chat.completion"",""created"":1795597096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8843,,MarianeAzar,20261125_084135,2026-11-25T08:58:18.358422+00:00
+1e5e782bdcb5f608,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following British Monarchs never appeared on a circulated pound sterling coin?
+A. George VI
+B. Victoria
+C. Charles II
+D. Edward VIII
+Answer:","[""George VI"", ""Victoria"", ""Charles II"", ""Edward VIII""]",http,0.0,16,none,"{""id"":""chatcmpl-08c2j4w6k9s8s63tch0ek6"",""object"":""chat.completion"",""created"":1795597097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T08:58:19.212775+00:00
+1e5e782bdcb5f608,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following British Monarchs never appeared on a circulated pound sterling coin?
+A. George VI
+B. Victoria
+C. Charles II
+D. Edward VIII
+Answer:","[""George VI"", ""Victoria"", ""Charles II"", ""Edward VIII""]",http,0.0,16,none,"{""id"":""chatcmpl-rfvim3veu7l3kesxj2d88"",""object"":""chat.completion"",""created"":1795597098,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T08:58:20.072218+00:00
+430567c80992935c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is an official currency of the Cook Islands?
+A. United States Dollar
+B. Australian Dollar
+C. New Zealand Dollar
+D. British Pound
+Answer:","[""United States Dollar"", ""Australian Dollar"", ""New Zealand Dollar"", ""British Pound""]",http,0.0,16,none,"{""id"":""chatcmpl-ncsxteqn059gmj6xprzm"",""object"":""chat.completion"",""created"":1795597099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8704,,MarianeAzar,20261125_084135,2026-11-25T08:58:20.943267+00:00
+430567c80992935c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is an official currency of the Cook Islands?
+A. United States Dollar
+B. Australian Dollar
+C. New Zealand Dollar
+D. British Pound
+Answer:","[""United States Dollar"", ""Australian Dollar"", ""New Zealand Dollar"", ""British Pound""]",http,0.0,16,none,"{""id"":""chatcmpl-2dwgk1nf0dr227ajblzxp8"",""object"":""chat.completion"",""created"":1795597100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:58:21.800130+00:00
+34673d712e639ffd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?
+A. House
+B. Drum and Bass
+C. Dubstep
+D. Trance
+Answer:","[""House"", ""Drum and Bass"", ""Dubstep"", ""Trance""]",http,0.0,16,none,"{""id"":""chatcmpl-txye8ie94xp23n2xl5w3sz"",""object"":""chat.completion"",""created"":1795597101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8671,,MarianeAzar,20261125_084135,2026-11-25T08:58:22.667444+00:00
+34673d712e639ffd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren most well-known for?
+A. House
+B. Drum and Bass
+C. Dubstep
+D. Trance
+Answer:","[""House"", ""Drum and Bass"", ""Dubstep"", ""Trance""]",http,0.0,16,none,"{""id"":""chatcmpl-hcnzf2dezjqkvp8rcbe3q"",""object"":""chat.completion"",""created"":1795597102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9021,,MarianeAzar,20261125_084135,2026-11-25T08:58:23.569765+00:00
+ecb4706fcabec18e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?
+A. Crescent Rose
+B. Gambol Shroud
+C. Myrtenaster
+D. Ember Celica
+Answer:","[""Crescent Rose"", ""Gambol Shroud"", ""Myrtenaster"", ""Ember Celica""]",http,0.0,16,none,"{""id"":""chatcmpl-zy7osv587daw9cw3np45r"",""object"":""chat.completion"",""created"":1795597103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261125_084135,2026-11-25T08:58:24.436838+00:00

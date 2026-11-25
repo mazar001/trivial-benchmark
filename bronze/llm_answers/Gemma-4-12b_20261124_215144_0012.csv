@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+946072cb3af5bf0d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the world's first video game?
+A. Draughts
+B. Spacewar!
+C. Pong
+D. Space Travel
+Answer:","[""Draughts"", ""Spacewar!"", ""Pong"", ""Space Travel""]",http,0.0,16,none,"{""id"":""chatcmpl-wleiv7m32nf2xur7voq0pb"",""object"":""chat.completion"",""created"":1795553847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.034,,MarianeAzar,20261124_215144,2026-11-24T20:57:28.936324+00:00
+946072cb3af5bf0d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the world's first video game?
+A. Draughts
+B. Spacewar!
+C. Pong
+D. Space Travel
+Answer:","[""Draughts"", ""Spacewar!"", ""Pong"", ""Space Travel""]",http,0.0,16,none,"{""id"":""chatcmpl-rbud66c91oioxpkf94xwe"",""object"":""chat.completion"",""created"":1795553848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.228,,MarianeAzar,20261124_215144,2026-11-24T20:57:30.164558+00:00
+3c034f42012aed33,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters wasn't a villian in Club Penguin?
+A. The Director
+B. Ultimate Proto-Bot 10000
+C. Tusk
+D. Herbert P. Bear
+Answer:","[""The Director"", ""Ultimate Proto-Bot 10000"", ""Tusk"", ""Herbert P. Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-taftmqsfxxfsji2ezhadc"",""object"":""chat.completion"",""created"":1795553850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.923,,MarianeAzar,20261124_215144,2026-11-24T20:57:31.087823+00:00
+3c034f42012aed33,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters wasn't a villian in Club Penguin?
+A. The Director
+B. Ultimate Proto-Bot 10000
+C. Tusk
+D. Herbert P. Bear
+Answer:","[""The Director"", ""Ultimate Proto-Bot 10000"", ""Tusk"", ""Herbert P. Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-zduw3tl6879shwxnr83aum"",""object"":""chat.completion"",""created"":1795553851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3324,,MarianeAzar,20261124_215144,2026-11-24T20:57:32.420556+00:00
+ce119f883cdf3cd1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which continent is the country of Angola located?
+A. South America
+B. Asia
+C. Africa
+D. Europe
+Answer:","[""South America"", ""Asia"", ""Africa"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-aedmfdoddskrjg0u1kdb5h"",""object"":""chat.completion"",""created"":1795553852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.288,,MarianeAzar,20261124_215144,2026-11-24T20:57:33.709223+00:00
+ce119f883cdf3cd1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which continent is the country of Angola located?
+A. South America
+B. Asia
+C. Africa
+D. Europe
+Answer:","[""South America"", ""Asia"", ""Africa"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-vkmy4zjzh6lo4jvljzlfp"",""object"":""chat.completion"",""created"":1795553853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9824,,MarianeAzar,20261124_215144,2026-11-24T20:57:34.691812+00:00
+3c41b77119e93b39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hermione Granger's middle name?
+A. Jo
+B. Emma
+C. Jean
+D. Jane
+Answer:","[""Jo"", ""Emma"", ""Jean"", ""Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-bpll3hhfs8ei7g3cb3dkfe"",""object"":""chat.completion"",""created"":1795553854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0023,,MarianeAzar,20261124_215144,2026-11-24T20:57:35.694460+00:00
+3c41b77119e93b39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hermione Granger's middle name?
+A. Jo
+B. Emma
+C. Jean
+D. Jane
+Answer:","[""Jo"", ""Emma"", ""Jean"", ""Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-0i8t9ryb81mom0djdvo6hlt"",""object"":""chat.completion"",""created"":1795553855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2325,,MarianeAzar,20261124_215144,2026-11-24T20:57:36.927288+00:00
+96b9dfd6238548a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The novel ""Of Mice And Men"" was written by what author?
+A. Mark Twain
+B. John Steinbeck
+C. George Orwell
+D. Harper Lee
+Answer:","[""Mark Twain"", ""John Steinbeck"", ""George Orwell"", ""Harper Lee""]",http,0.0,16,none,"{""id"":""chatcmpl-s6ig0cs25ym3fd9la7rbqw"",""object"":""chat.completion"",""created"":1795553856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9233,,MarianeAzar,20261124_215144,2026-11-24T20:57:37.850948+00:00
+96b9dfd6238548a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The novel ""Of Mice And Men"" was written by what author?
+A. Mark Twain
+B. John Steinbeck
+C. George Orwell
+D. Harper Lee
+Answer:","[""Mark Twain"", ""John Steinbeck"", ""George Orwell"", ""Harper Lee""]",http,0.0,16,none,"{""id"":""chatcmpl-8dlt1sj6aurta480utqi4p"",""object"":""chat.completion"",""created"":1795553857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2268,,MarianeAzar,20261124_215144,2026-11-24T20:57:39.079242+00:00
+49e7ac6b02cc2100,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Albrecht Dürer create the painting ""The Young Hare""?
+A. 1602
+B. 1702
+C. 1402
+D. 1502
+Answer:","[""1602"", ""1702"", ""1402"", ""1502""]",http,0.0,16,none,"{""id"":""chatcmpl-mmw4i9wmx9rd99lur50jdn"",""object"":""chat.completion"",""created"":1795553858,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3269,,MarianeAzar,20261124_215144,2026-11-24T20:57:40.406907+00:00
+49e7ac6b02cc2100,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Albrecht Dürer create the painting ""The Young Hare""?
+A. 1602
+B. 1702
+C. 1402
+D. 1502
+Answer:","[""1602"", ""1702"", ""1402"", ""1502""]",http,0.0,16,none,"{""id"":""chatcmpl-w5zli7kqegjwziw2n8gle"",""object"":""chat.completion"",""created"":1795553860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9371,,MarianeAzar,20261124_215144,2026-11-24T20:57:41.344388+00:00
+dc1f8aeca74d2b76,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie contains the quote, ""Say hello to my little friend!""?
+A. Scarface
+B. Goodfellas
+C. Reservoir Dogs
+D. Heat
+Answer:","[""Scarface"", ""Goodfellas"", ""Reservoir Dogs"", ""Heat""]",http,0.0,16,none,"{""id"":""chatcmpl-kymtla4t3bz2hoxasa04s"",""object"":""chat.completion"",""created"":1795553861,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3139,,MarianeAzar,20261124_215144,2026-11-24T20:57:42.658570+00:00
+dc1f8aeca74d2b76,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie contains the quote, ""Say hello to my little friend!""?
+A. Scarface
+B. Goodfellas
+C. Reservoir Dogs
+D. Heat
+Answer:","[""Scarface"", ""Goodfellas"", ""Reservoir Dogs"", ""Heat""]",http,0.0,16,none,"{""id"":""chatcmpl-hflcvlii96751q11vn0xoj"",""object"":""chat.completion"",""created"":1795553862,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1058,,MarianeAzar,20261124_215144,2026-11-24T20:57:43.764858+00:00
+895bd8a473ce495a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dt95anervo704cesuy285x1"",""object"":""chat.completion"",""created"":1795553863,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9425,,MarianeAzar,20261124_215144,2026-11-24T20:57:44.707586+00:00
+895bd8a473ce495a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Venus of Willendorf is one of the earliest works of art, depicting the planets Mars and Venus embrace in the heavens at night.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cj3kk0i4ysybwmo70pjt"",""object"":""chat.completion"",""created"":1795553864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4257,,MarianeAzar,20261124_215144,2026-11-24T20:57:46.133537+00:00
+89e9347a865d5489,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the Latin phrase ""Veni, vidi, vici"" translate into English?
+A. I came, I saw, I conquered
+B. Life, liberty, and happiness
+C. Past, present, and future
+D. See no evil, hear no evil, speak no evil
+Answer:","[""I came, I saw, I conquered"", ""Life, liberty, and happiness"", ""Past, present, and future"", ""See no evil, hear no evil, speak no evil""]",http,0.0,16,none,"{""id"":""chatcmpl-ojndnp8eg9f5tbz2t4hq6b"",""object"":""chat.completion"",""created"":1795553866,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9811,,MarianeAzar,20261124_215144,2026-11-24T20:57:47.114930+00:00
+89e9347a865d5489,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the Latin phrase ""Veni, vidi, vici"" translate into English?
+A. I came, I saw, I conquered
+B. Life, liberty, and happiness
+C. Past, present, and future
+D. See no evil, hear no evil, speak no evil
+Answer:","[""I came, I saw, I conquered"", ""Life, liberty, and happiness"", ""Past, present, and future"", ""See no evil, hear no evil, speak no evil""]",http,0.0,16,none,"{""id"":""chatcmpl-fce0855rwb8who6o4fn8nn"",""object"":""chat.completion"",""created"":1795553867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3807,,MarianeAzar,20261124_215144,2026-11-24T20:57:48.496004+00:00
+5a52a40fc0a317f7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character in the 2016 video game Overwatch?
+A. Winston
+B. Invoker
+C. Zenyatta
+D. Mercy
+Answer:","[""Winston"", ""Invoker"", ""Zenyatta"", ""Mercy""]",http,0.0,16,none,"{""id"":""chatcmpl-d1ekzzqg8ejxhkc86cnqsa"",""object"":""chat.completion"",""created"":1795553868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3307,,MarianeAzar,20261124_215144,2026-11-24T20:57:49.826990+00:00
+5a52a40fc0a317f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character in the 2016 video game Overwatch?
+A. Winston
+B. Invoker
+C. Zenyatta
+D. Mercy
+Answer:","[""Winston"", ""Invoker"", ""Zenyatta"", ""Mercy""]",http,0.0,16,none,"{""id"":""chatcmpl-c67ibiv93u9ppmf0qb1rdm"",""object"":""chat.completion"",""created"":1795553869,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0239,,MarianeAzar,20261124_215144,2026-11-24T20:57:50.851396+00:00
+545498bfdb735bc3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In past times, what would a gentleman keep in his fob pocket?
+A. Money
+B. Watch
+C. Keys
+D. Notebook
+Answer:","[""Money"", ""Watch"", ""Keys"", ""Notebook""]",http,0.0,16,none,"{""id"":""chatcmpl-sfgo7kdwx946ueylkrdwp"",""object"":""chat.completion"",""created"":1795553870,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2721,,MarianeAzar,20261124_215144,2026-11-24T20:57:52.124221+00:00
+545498bfdb735bc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In past times, what would a gentleman keep in his fob pocket?
+A. Money
+B. Watch
+C. Keys
+D. Notebook
+Answer:","[""Money"", ""Watch"", ""Keys"", ""Notebook""]",http,0.0,16,none,"{""id"":""chatcmpl-26pp86riokwkstcgrkbwyc"",""object"":""chat.completion"",""created"":1795553872,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1527,,MarianeAzar,20261124_215144,2026-11-24T20:57:53.277122+00:00
+617b29f9d59d8c10,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which classic book opens with the line ""Call me Ishmael""?
+A. Wuthering Heights
+B. A Tale of Two Cities
+C. Moby Dick
+D. Kidnapped
+Answer:","[""Wuthering Heights"", ""A Tale of Two Cities"", ""Moby Dick"", ""Kidnapped""]",http,0.0,16,none,"{""id"":""chatcmpl-gh0peyxuc5804ph274jqlfe"",""object"":""chat.completion"",""created"":1795553873,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0666,,MarianeAzar,20261124_215144,2026-11-24T20:57:54.343974+00:00
+617b29f9d59d8c10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which classic book opens with the line ""Call me Ishmael""?
+A. Wuthering Heights
+B. A Tale of Two Cities
+C. Moby Dick
+D. Kidnapped
+Answer:","[""Wuthering Heights"", ""A Tale of Two Cities"", ""Moby Dick"", ""Kidnapped""]",http,0.0,16,none,"{""id"":""chatcmpl-d2lbid8a5udpa3l3t6rgv9"",""object"":""chat.completion"",""created"":1795553874,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0367,,MarianeAzar,20261124_215144,2026-11-24T20:57:55.380848+00:00
+1edc16bb25c64aed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of ""Team Fortress 2"" update, in which it became Free-to-play?
+A. Engineer Update
+B. Pyromania Update
+C. Über Update
+D. Mann-Conomy Update
+Answer:","[""Engineer Update"", ""Pyromania Update"", ""Über Update"", ""Mann-Conomy Update""]",http,0.0,16,none,"{""id"":""chatcmpl-thnijf8kazbitmw7o51hg"",""object"":""chat.completion"",""created"":1795553875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.355,,MarianeAzar,20261124_215144,2026-11-24T20:57:56.736057+00:00

@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+68b00c48e4d80008,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which drive form was added into Kingdom Hearts II Final Mix?
+A. Wisdom Form
+B. Anti Form
+C. Valor Form
+D. Limit Form
+Answer:","[""Wisdom Form"", ""Anti Form"", ""Valor Form"", ""Limit Form""]",http,0.0,16,none,"{""id"":""chatcmpl-q86i42s4ere7jjlmkcvd8o"",""object"":""chat.completion"",""created"":1795594050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3579,,MarianeAzar,20261125_084135,2026-11-25T08:07:32.368129+00:00
+68b00c48e4d80008,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which drive form was added into Kingdom Hearts II Final Mix?
+A. Wisdom Form
+B. Anti Form
+C. Valor Form
+D. Limit Form
+Answer:","[""Wisdom Form"", ""Anti Form"", ""Valor Form"", ""Limit Form""]",http,0.0,16,none,"{""id"":""chatcmpl-xr706m6niyqcfda1zikfkb"",""object"":""chat.completion"",""created"":1795594051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9475,,MarianeAzar,20261125_084135,2026-11-25T08:07:33.315902+00:00
+f6a41a9097f9aba2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?
+A. Kanna
+B. Tohru
+C. Elma
+D. Lucoa
+Answer:","[""Kanna"", ""Tohru"", ""Elma"", ""Lucoa""]",http,0.0,16,none,"{""id"":""chatcmpl-iz8rr3yh8acq5lehp31m5"",""object"":""chat.completion"",""created"":1795594052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9595,,MarianeAzar,20261125_084135,2026-11-25T08:07:34.275672+00:00
+f6a41a9097f9aba2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Ms. Kobayashi's Dragon Maid, who is Kobayashi's maid?
+A. Kanna
+B. Tohru
+C. Elma
+D. Lucoa
+Answer:","[""Kanna"", ""Tohru"", ""Elma"", ""Lucoa""]",http,0.0,16,none,"{""id"":""chatcmpl-py8dqe3r3g7m55gy8mtuui"",""object"":""chat.completion"",""created"":1795594053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3743,,MarianeAzar,20261125_084135,2026-11-25T08:07:35.650281+00:00
+f4bc40942b9a5cfc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Codemasters is the developer of the Gran Turismo series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4p2v5h1h7l8ayoyq1tc9c5"",""object"":""chat.completion"",""created"":1795594055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9186,,MarianeAzar,20261125_084135,2026-11-25T08:07:36.569062+00:00
+f4bc40942b9a5cfc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Codemasters is the developer of the Gran Turismo series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q0davtgdjgimsni1f9r6ij"",""object"":""chat.completion"",""created"":1795594055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9122,,MarianeAzar,20261125_084135,2026-11-25T08:07:37.481386+00:00
+9eefc4de7da6c73a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Furby was released in 1998.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xr7axyddh8mb7nmpsfeo4f"",""object"":""chat.completion"",""created"":1795594056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2202,,MarianeAzar,20261125_084135,2026-11-25T08:07:38.701731+00:00
+9eefc4de7da6c73a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Furby was released in 1998.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fvuzo0np6powxwt8vyjhn"",""object"":""chat.completion"",""created"":1795594058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T08:07:39.552278+00:00
+90a2a83d439c1530,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many members are there in the band Nirvana?
+A. Two
+B. Five
+C. Four
+D. Three
+Answer:","[""Two"", ""Five"", ""Four"", ""Three""]",http,0.0,16,none,"{""id"":""chatcmpl-pe7kyowl3cadmhclll1zjc"",""object"":""chat.completion"",""created"":1795594058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9414,,MarianeAzar,20261125_084135,2026-11-25T08:07:40.493917+00:00
+90a2a83d439c1530,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many members are there in the band Nirvana?
+A. Two
+B. Five
+C. Four
+D. Three
+Answer:","[""Two"", ""Five"", ""Four"", ""Three""]",http,0.0,16,none,"{""id"":""chatcmpl-mzrfjtb6xszma7yvu1zfr"",""object"":""chat.completion"",""created"":1795594059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3564,,MarianeAzar,20261125_084135,2026-11-25T08:07:41.850747+00:00
+b1ae38f3d2ba9e8c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the American rapper Nelly, what should you do when its hot in here?
+A. Take a cool shower
+B. Take off all your clothes
+C. Drink some water
+D. Go skinny dipping
+Answer:","[""Take a cool shower"", ""Take off all your clothes"", ""Drink some water"", ""Go skinny dipping""]",http,0.0,16,none,"{""id"":""chatcmpl-jqpctkeal5i8lxz0qptk"",""object"":""chat.completion"",""created"":1795594061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0133,,MarianeAzar,20261125_084135,2026-11-25T08:07:42.864677+00:00
+b1ae38f3d2ba9e8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the American rapper Nelly, what should you do when its hot in here?
+A. Take a cool shower
+B. Take off all your clothes
+C. Drink some water
+D. Go skinny dipping
+Answer:","[""Take a cool shower"", ""Take off all your clothes"", ""Drink some water"", ""Go skinny dipping""]",http,0.0,16,none,"{""id"":""chatcmpl-wcbnb0sf32l1sywg6i2uvm"",""object"":""chat.completion"",""created"":1795594062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8963,,MarianeAzar,20261125_084135,2026-11-25T08:07:43.761179+00:00
+c9a53a5fa18e0782,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Hunter x Hunter"", which of the following is NOT a type of Nen aura?
+A. Restoration
+B. Specialization
+C. Emission
+D. Transmutation
+Answer:","[""Restoration"", ""Specialization"", ""Emission"", ""Transmutation""]",http,0.0,16,none,"{""id"":""chatcmpl-tbt3iqepe3m0ay7gunpcn"",""object"":""chat.completion"",""created"":1795594063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.437,,MarianeAzar,20261125_084135,2026-11-25T08:07:45.198470+00:00
+c9a53a5fa18e0782,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Hunter x Hunter"", which of the following is NOT a type of Nen aura?
+A. Restoration
+B. Specialization
+C. Emission
+D. Transmutation
+Answer:","[""Restoration"", ""Specialization"", ""Emission"", ""Transmutation""]",http,0.0,16,none,"{""id"":""chatcmpl-ya6fzfo6zopjsbplr3s98"",""object"":""chat.completion"",""created"":1795594064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9486,,MarianeAzar,20261125_084135,2026-11-25T08:07:46.147341+00:00
+2279c0dfb29afc61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is Sean Matsuda from in Street Fighter?
+A. UK
+B. USA
+C. Japan
+D. Brazil
+Answer:","[""UK"", ""USA"", ""Japan"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-rosbs0ktu1feyjxn97va6"",""object"":""chat.completion"",""created"":1795594065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9375,,MarianeAzar,20261125_084135,2026-11-25T08:07:47.085260+00:00
+2279c0dfb29afc61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is Sean Matsuda from in Street Fighter?
+A. UK
+B. USA
+C. Japan
+D. Brazil
+Answer:","[""UK"", ""USA"", ""Japan"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-eyixt7prw4tnbgges24jn"",""object"":""chat.completion"",""created"":1795594066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5112,,MarianeAzar,20261125_084135,2026-11-25T08:07:48.596710+00:00
+f4f7b56653a0188e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the title of the game ""Luigi's Mansion"", what is the only letter to not appear with a pair of eyes in it?
+A. m
+B. n
+C. i
+D. s
+Answer:","[""m"", ""n"", ""i"", ""s""]",http,0.0,16,none,"{""id"":""chatcmpl-7heh6sal6qkswm8kn7gfus"",""object"":""chat.completion"",""created"":1795594068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1361,,MarianeAzar,20261125_084135,2026-11-25T08:07:49.732951+00:00
+f4f7b56653a0188e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the title of the game ""Luigi's Mansion"", what is the only letter to not appear with a pair of eyes in it?
+A. m
+B. n
+C. i
+D. s
+Answer:","[""m"", ""n"", ""i"", ""s""]",http,0.0,16,none,"{""id"":""chatcmpl-ar6goxjlbnjnuvzajr6ofl"",""object"":""chat.completion"",""created"":1795594069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9934,,MarianeAzar,20261125_084135,2026-11-25T08:07:50.726596+00:00
+10cee91b26834c2c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the British term for a 64th note?
+A. Hemidemisemiquaver
+B. Demisemiquaver
+C. Semiquaver
+D. Semihemidemisemiquaver
+Answer:","[""Hemidemisemiquaver"", ""Demisemiquaver"", ""Semiquaver"", ""Semihemidemisemiquaver""]",http,0.0,16,none,"{""id"":""chatcmpl-6kheflm1be30v9m066g9ssk"",""object"":""chat.completion"",""created"":1795594070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9876,,MarianeAzar,20261125_084135,2026-11-25T08:07:51.714370+00:00
+10cee91b26834c2c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the British term for a 64th note?
+A. Hemidemisemiquaver
+B. Demisemiquaver
+C. Semiquaver
+D. Semihemidemisemiquaver
+Answer:","[""Hemidemisemiquaver"", ""Demisemiquaver"", ""Semiquaver"", ""Semihemidemisemiquaver""]",http,0.0,16,none,"{""id"":""chatcmpl-06zdkcu4eztiy6drxy0da7"",""object"":""chat.completion"",""created"":1795594071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4902,,MarianeAzar,20261125_084135,2026-11-25T08:07:53.204727+00:00
+e753374dc68ca4fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack?
+A. 10
+B. 3
+C. 1
+D. 7
+Answer:","[""10"", ""3"", ""1"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-kqy1wpgidlkb4yb9dz6ld"",""object"":""chat.completion"",""created"":1795594072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9645,,MarianeAzar,20261125_084135,2026-11-25T08:07:54.169833+00:00
+e753374dc68ca4fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Board Game, Settlers of Catan, a die roll of what number causes the Robber to attack?
+A. 10
+B. 3
+C. 1
+D. 7
+Answer:","[""10"", ""3"", ""1"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-8k3um91knttksd4oahku"",""object"":""chat.completion"",""created"":1795594073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9911,,MarianeAzar,20261125_084135,2026-11-25T08:07:55.161229+00:00
+a1fe8ffadaed8b91,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""abulia"" means which of the following?
+A. The inability to make decisions
+B. A feverish desire to rip one's clothes off
+C. The inability to stand up
+D. The inability to concentrate on anything
+Answer:","[""The inability to make decisions"", ""A feverish desire to rip one's clothes off"", ""The inability to stand up"", ""The inability to concentrate on anything""]",http,0.0,16,none,"{""id"":""chatcmpl-igwu9mpsiun1hrco42q0u5"",""object"":""chat.completion"",""created"":1795594074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4085,,MarianeAzar,20261125_084135,2026-11-25T08:07:56.569988+00:00
+a1fe8ffadaed8b91,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""abulia"" means which of the following?
+A. The inability to make decisions
+B. A feverish desire to rip one's clothes off
+C. The inability to stand up
+D. The inability to concentrate on anything
+Answer:","[""The inability to make decisions"", ""A feverish desire to rip one's clothes off"", ""The inability to stand up"", ""The inability to concentrate on anything""]",http,0.0,16,none,"{""id"":""chatcmpl-l5h3al10m2b3w6xffylp5x"",""object"":""chat.completion"",""created"":1795594076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.038,,MarianeAzar,20261125_084135,2026-11-25T08:07:57.608243+00:00
+9e99bd835c1784fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The UEFA Champions League is an annual club football competition featuring clubs from which continent?
+A. Africa
+B. Europe
+C. Asia
+D. South America
+Answer:","[""Africa"", ""Europe"", ""Asia"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-i9alzukrjmbxtg1drx50e"",""object"":""chat.completion"",""created"":1795594077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9687,,MarianeAzar,20261125_084135,2026-11-25T08:07:58.577157+00:00

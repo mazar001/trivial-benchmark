@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0929fb4844ed3bd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of the following, which Stephen King novel was published earliest?
+A. ""IT""
+B. ""Misery""
+C. ""Cujo""
+D. ""Christine""
+Answer:","[""\""IT\"""", ""\""Misery\"""", ""\""Cujo\"""", ""\""Christine\""""]",http,0.0,16,none,"{""id"":""chatcmpl-i9cubsqwo99zkdw451a31"",""object"":""chat.completion"",""created"":1795595588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:33:10.052758+00:00
+0929fb4844ed3bd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of the following, which Stephen King novel was published earliest?
+A. ""IT""
+B. ""Misery""
+C. ""Cujo""
+D. ""Christine""
+Answer:","[""\""IT\"""", ""\""Misery\"""", ""\""Cujo\"""", ""\""Christine\""""]",http,0.0,16,none,"{""id"":""chatcmpl-nz980ix9z4kohddvlboh"",""object"":""chat.completion"",""created"":1795595589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8702,,MarianeAzar,20261125_084135,2026-11-25T08:33:10.923212+00:00
+d2b94a3c009049e9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which small country is located between the borders of France and Spain?
+A. San Marino
+B. Andorra
+C. Vatican City
+D. Lichtenstein
+Answer:","[""San Marino"", ""Andorra"", ""Vatican City"", ""Lichtenstein""]",http,0.0,16,none,"{""id"":""chatcmpl-5rwqx4vekdpkyl0flczhe"",""object"":""chat.completion"",""created"":1795595590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:33:11.774477+00:00
+d2b94a3c009049e9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which small country is located between the borders of France and Spain?
+A. San Marino
+B. Andorra
+C. Vatican City
+D. Lichtenstein
+Answer:","[""San Marino"", ""Andorra"", ""Vatican City"", ""Lichtenstein""]",http,0.0,16,none,"{""id"":""chatcmpl-gh8vx85m9mmfa2rder5oao"",""object"":""chat.completion"",""created"":1795595591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:33:12.634368+00:00
+c2fae1d1225ee632,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these chassis codes are used by BMW 3-series?
+A. F10
+B. E39
+C. E85
+D. E46
+Answer:","[""F10"", ""E39"", ""E85"", ""E46""]",http,0.0,16,none,"{""id"":""chatcmpl-c2avow7hvtt6140dfl9qjc"",""object"":""chat.completion"",""created"":1795595592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:33:13.484068+00:00
+c2fae1d1225ee632,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these chassis codes are used by BMW 3-series?
+A. F10
+B. E39
+C. E85
+D. E46
+Answer:","[""F10"", ""E39"", ""E85"", ""E46""]",http,0.0,16,none,"{""id"":""chatcmpl-zwsblq1w1bdydlhd30h1q"",""object"":""chat.completion"",""created"":1795595592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T08:33:14.354772+00:00
+e8e603d3b5c83a0f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British Prime Minister at the outbreak of the Second World War in 1939?
+A. Ramsay MacDonald
+B. Neville Chamberlain
+C. Stanley Baldwin
+D. Winston Churchill
+Answer:","[""Ramsay MacDonald"", ""Neville Chamberlain"", ""Stanley Baldwin"", ""Winston Churchill""]",http,0.0,16,none,"{""id"":""chatcmpl-pt9l63fcfzh81xl6t8pb6m"",""object"":""chat.completion"",""created"":1795595593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:33:15.207746+00:00
+e8e603d3b5c83a0f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British Prime Minister at the outbreak of the Second World War in 1939?
+A. Ramsay MacDonald
+B. Neville Chamberlain
+C. Stanley Baldwin
+D. Winston Churchill
+Answer:","[""Ramsay MacDonald"", ""Neville Chamberlain"", ""Stanley Baldwin"", ""Winston Churchill""]",http,0.0,16,none,"{""id"":""chatcmpl-k43983ks4tkhyfth5p2wdr"",""object"":""chat.completion"",""created"":1795595594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8884,,MarianeAzar,20261125_084135,2026-11-25T08:33:16.096474+00:00
+8e7d0aae1151a185,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many legs do butterflies have?
+A. 4
+B. 0
+C. 2
+D. 6
+Answer:","[""4"", ""0"", ""2"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-v0qx97uvapfgp6px6pt1m"",""object"":""chat.completion"",""created"":1795595595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:33:16.956016+00:00
+8e7d0aae1151a185,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many legs do butterflies have?
+A. 4
+B. 0
+C. 2
+D. 6
+Answer:","[""4"", ""0"", ""2"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-hkecyeyr07da96v4kaqd1i"",""object"":""chat.completion"",""created"":1795595596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T08:33:17.802578+00:00
+e59b666a11a69d89,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of electrical resistance?
+A. Tesla
+B. Ohm
+C. Mho
+D. Joule
+Answer:","[""Tesla"", ""Ohm"", ""Mho"", ""Joule""]",http,0.0,16,none,"{""id"":""chatcmpl-n0bd39v9z1ljcifq6dcg"",""object"":""chat.completion"",""created"":1795595597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.841,,MarianeAzar,20261125_084135,2026-11-25T08:33:18.644356+00:00
+e59b666a11a69d89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of electrical resistance?
+A. Tesla
+B. Ohm
+C. Mho
+D. Joule
+Answer:","[""Tesla"", ""Ohm"", ""Mho"", ""Joule""]",http,0.0,16,none,"{""id"":""chatcmpl-2h504pdh8fiscmcbk2bt"",""object"":""chat.completion"",""created"":1795595598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T08:33:19.505073+00:00
+6459b5932d38e5ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first Robin in the Batman comics?
+A. Jason Todd
+B. Tim Drake
+C. Bruce Wayne
+D. Dick Grayson
+Answer:","[""Jason Todd"", ""Tim Drake"", ""Bruce Wayne"", ""Dick Grayson""]",http,0.0,16,none,"{""id"":""chatcmpl-hp59gpo6uvc7ckv8rq4dpn"",""object"":""chat.completion"",""created"":1795595598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:33:20.362159+00:00
+6459b5932d38e5ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first Robin in the Batman comics?
+A. Jason Todd
+B. Tim Drake
+C. Bruce Wayne
+D. Dick Grayson
+Answer:","[""Jason Todd"", ""Tim Drake"", ""Bruce Wayne"", ""Dick Grayson""]",http,0.0,16,none,"{""id"":""chatcmpl-5g0l0c0vkgtca5id1ausrb"",""object"":""chat.completion"",""created"":1795595599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:33:21.227046+00:00
+f9068074033c98d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When is the Ides of March?
+A. March 15
+B. March 1
+C. March 14
+D. March 31
+Answer:","[""March 15"", ""March 1"", ""March 14"", ""March 31""]",http,0.0,16,none,"{""id"":""chatcmpl-x7jeh5jhlbla6tdz4j03j"",""object"":""chat.completion"",""created"":1795595600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:33:22.089962+00:00
+f9068074033c98d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When is the Ides of March?
+A. March 15
+B. March 1
+C. March 14
+D. March 31
+Answer:","[""March 15"", ""March 1"", ""March 14"", ""March 31""]",http,0.0,16,none,"{""id"":""chatcmpl-8htcjcwk6kk36xy3buzxyc"",""object"":""chat.completion"",""created"":1795595601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8786,,MarianeAzar,20261125_084135,2026-11-25T08:33:22.968835+00:00
+3116df5c4ead0d01,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which monster in ""Monster Hunter Tri"" was causing earthquakes in Moga Village?
+A. Ceadeus
+B. Alatreon
+C. Lagiacrus
+D. Rathalos
+Answer:","[""Ceadeus"", ""Alatreon"", ""Lagiacrus"", ""Rathalos""]",http,0.0,16,none,"{""id"":""chatcmpl-lx4atejswe93248clym9h"",""object"":""chat.completion"",""created"":1795595602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261125_084135,2026-11-25T08:33:23.821053+00:00
+3116df5c4ead0d01,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which monster in ""Monster Hunter Tri"" was causing earthquakes in Moga Village?
+A. Ceadeus
+B. Alatreon
+C. Lagiacrus
+D. Rathalos
+Answer:","[""Ceadeus"", ""Alatreon"", ""Lagiacrus"", ""Rathalos""]",http,0.0,16,none,"{""id"":""chatcmpl-luqafp5dnuqpssjxeulbma"",""object"":""chat.completion"",""created"":1795595603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261125_084135,2026-11-25T08:33:24.680784+00:00
+192eb6cc735a4aba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The first rule is: you don't talk about it"" is a reference to which movie?
+A. Fight Club
+B. American Pie
+C. Unthinkable
+D. The Island
+Answer:","[""Fight Club"", ""American Pie"", ""Unthinkable"", ""The Island""]",http,0.0,16,none,"{""id"":""chatcmpl-ie5d0nzdnzjw8y2y9tcns"",""object"":""chat.completion"",""created"":1795595604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8688,,MarianeAzar,20261125_084135,2026-11-25T08:33:25.549819+00:00
+192eb6cc735a4aba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The first rule is: you don't talk about it"" is a reference to which movie?
+A. Fight Club
+B. American Pie
+C. Unthinkable
+D. The Island
+Answer:","[""Fight Club"", ""American Pie"", ""Unthinkable"", ""The Island""]",http,0.0,16,none,"{""id"":""chatcmpl-455cb6do5nc0k5s9l1u5paq"",""object"":""chat.completion"",""created"":1795595604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8807,,MarianeAzar,20261125_084135,2026-11-25T08:33:26.430782+00:00
+feb29da73acf1410,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:
+A. A'B'
+B. A'B + B'A
+C. A' + B'
+D. AB' + AB
+Answer:","[""A'B'"", ""A'B + B'A"", ""A' + B'"", ""AB' + AB""]",http,0.0,16,none,"{""id"":""chatcmpl-n13lv7vp7ouovawx6278"",""object"":""chat.completion"",""created"":1795595605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261125_084135,2026-11-25T08:33:27.305124+00:00
+feb29da73acf1410,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:
+A. A'B'
+B. A'B + B'A
+C. A' + B'
+D. AB' + AB
+Answer:","[""A'B'"", ""A'B + B'A"", ""A' + B'"", ""AB' + AB""]",http,0.0,16,none,"{""id"":""chatcmpl-8vw7urvec85tjsif1thfrj"",""object"":""chat.completion"",""created"":1795595606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8911,,MarianeAzar,20261125_084135,2026-11-25T08:33:28.196441+00:00
+8169d93d9150e7ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 2017 movie ""The Shape of Water""?
+A. James Cameron
+B. Steven Spielberg
+C. Martin Scorsese
+D. Guillermo del Toro
+Answer:","[""James Cameron"", ""Steven Spielberg"", ""Martin Scorsese"", ""Guillermo del Toro""]",http,0.0,16,none,"{""id"":""chatcmpl-8peco0efnvhoonv8fhea9"",""object"":""chat.completion"",""created"":1795595607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8696,,MarianeAzar,20261125_084135,2026-11-25T08:33:29.066236+00:00
+8169d93d9150e7ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 2017 movie ""The Shape of Water""?
+A. James Cameron
+B. Steven Spielberg
+C. Martin Scorsese
+D. Guillermo del Toro
+Answer:","[""James Cameron"", ""Steven Spielberg"", ""Martin Scorsese"", ""Guillermo del Toro""]",http,0.0,16,none,"{""id"":""chatcmpl-qvtfbknwlko56yy537hlzc"",""object"":""chat.completion"",""created"":1795595608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T08:33:29.919698+00:00
+7bdf52bd868266d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries is an island?
+A. Djibouti
+B. Azerbaijan
+C. El Salvador
+D. Cyprus
+Answer:","[""Djibouti"", ""Azerbaijan"", ""El Salvador"", ""Cyprus""]",http,0.0,16,none,"{""id"":""chatcmpl-wv03x2e626seelwsr5h1af"",""object"":""chat.completion"",""created"":1795595609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8503,,MarianeAzar,20261125_084135,2026-11-25T08:33:30.770349+00:00

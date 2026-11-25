@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+dc2a5044b8c409d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The flag of South Africa features 7 colours.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mu0euz761dgugli94do5r"",""object"":""chat.completion"",""created"":1795595871,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8121,,MarianeAzar,20261125_084135,2026-11-25T08:37:52.824944+00:00
+826fb995e24545d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which element has the atomic number of 7?
+A. Hydrogen
+B. Neon
+C. Nitrogen
+D. Oxygen
+Answer:","[""Hydrogen"", ""Neon"", ""Nitrogen"", ""Oxygen""]",http,0.0,16,none,"{""id"":""chatcmpl-m109f29tfraaw32hec1xc"",""object"":""chat.completion"",""created"":1795595872,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.85,,MarianeAzar,20261125_084135,2026-11-25T08:37:53.677543+00:00
+826fb995e24545d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which element has the atomic number of 7?
+A. Hydrogen
+B. Neon
+C. Nitrogen
+D. Oxygen
+Answer:","[""Hydrogen"", ""Neon"", ""Nitrogen"", ""Oxygen""]",http,0.0,16,none,"{""id"":""chatcmpl-65v03ktgje6hqgtvzct58d"",""object"":""chat.completion"",""created"":1795595873,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:37:54.541194+00:00
+85b262a77c72f84a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During what war did the ""Cuban Missile Crisis"" occur?
+A. Cold War
+B. World War II
+C. World War I
+D. Revolutionary War
+Answer:","[""Cold War"", ""World War II"", ""World War I"", ""Revolutionary War""]",http,0.0,16,none,"{""id"":""chatcmpl-q1j0t9z8pwq5ivoyvdgfbe"",""object"":""chat.completion"",""created"":1795595873,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8548,,MarianeAzar,20261125_084135,2026-11-25T08:37:55.396582+00:00
+85b262a77c72f84a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During what war did the ""Cuban Missile Crisis"" occur?
+A. Cold War
+B. World War II
+C. World War I
+D. Revolutionary War
+Answer:","[""Cold War"", ""World War II"", ""World War I"", ""Revolutionary War""]",http,0.0,16,none,"{""id"":""chatcmpl-ya01nrx4mb87o3o5utfd7n"",""object"":""chat.completion"",""created"":1795595874,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T08:37:56.259418+00:00
+0bca0c4353c0d9fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the 4th boss in the 1997 video game ""Crash Bandicoot 2: Cortex Strikes Back""?
+A. Komodo Brothers
+B. Dr. Neo Cortex
+C. Tiny Tiger
+D. Dr. N. Gin
+Answer:","[""Komodo Brothers"", ""Dr. Neo Cortex"", ""Tiny Tiger"", ""Dr. N. Gin""]",http,0.0,16,none,"{""id"":""chatcmpl-s8c60qs3pdxju5xzmurk9"",""object"":""chat.completion"",""created"":1795595875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:37:57.116985+00:00
+0bca0c4353c0d9fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the 4th boss in the 1997 video game ""Crash Bandicoot 2: Cortex Strikes Back""?
+A. Komodo Brothers
+B. Dr. Neo Cortex
+C. Tiny Tiger
+D. Dr. N. Gin
+Answer:","[""Komodo Brothers"", ""Dr. Neo Cortex"", ""Tiny Tiger"", ""Dr. N. Gin""]",http,0.0,16,none,"{""id"":""chatcmpl-28xtjl3w3fiz0l597269ea"",""object"":""chat.completion"",""created"":1795595876,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9068,,MarianeAzar,20261125_084135,2026-11-25T08:37:58.024089+00:00
+c3b2faeefc441a05,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What happened to Half-Life 2 prior to its release, which resulted in Valve starting over the development of the game?
+A. Way too many bugs to be fixed
+B. They weren't satisfied with the result
+C. The story was not good enough
+D. The source code got leaked
+Answer:","[""Way too many bugs to be fixed"", ""They weren't satisfied with the result"", ""The story was not good enough"", ""The source code got leaked""]",http,0.0,16,none,"{""id"":""chatcmpl-we6jgc883d9l53rwfqysv"",""object"":""chat.completion"",""created"":1795595877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.932,,MarianeAzar,20261125_084135,2026-11-25T08:37:58.956479+00:00
+c3b2faeefc441a05,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What happened to Half-Life 2 prior to its release, which resulted in Valve starting over the development of the game?
+A. Way too many bugs to be fixed
+B. They weren't satisfied with the result
+C. The story was not good enough
+D. The source code got leaked
+Answer:","[""Way too many bugs to be fixed"", ""They weren't satisfied with the result"", ""The story was not good enough"", ""The source code got leaked""]",http,0.0,16,none,"{""id"":""chatcmpl-cuisoclk7b4uvyoqq7nmo"",""object"":""chat.completion"",""created"":1795595878,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9614,,MarianeAzar,20261125_084135,2026-11-25T08:37:59.918178+00:00
+1f38c4a240245b00,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?
+A. Mariachi
+B. Fiestas
+C. Bullfighting
+D. Flamenco
+Answer:","[""Mariachi"", ""Fiestas"", ""Bullfighting"", ""Flamenco""]",http,0.0,16,none,"{""id"":""chatcmpl-nf4mnkxi0jluz99j24qr3a"",""object"":""chat.completion"",""created"":1795595879,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:38:00.795440+00:00
+1f38c4a240245b00,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the Spanish autonomous community of Catalonia ban in 2010, that took effect in 2012?
+A. Mariachi
+B. Fiestas
+C. Bullfighting
+D. Flamenco
+Answer:","[""Mariachi"", ""Fiestas"", ""Bullfighting"", ""Flamenco""]",http,0.0,16,none,"{""id"":""chatcmpl-pcxg7rsnwzmok0jg9yek8"",""object"":""chat.completion"",""created"":1795595880,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.893,,MarianeAzar,20261125_084135,2026-11-25T08:38:01.688669+00:00
+5d17bcc8fe207d68,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released?
+A. 1993
+B. 2004
+C. 2010
+D. 2006
+Answer:","[""1993"", ""2004"", ""2010"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-992gbklizmqfxm46k8elam"",""object"":""chat.completion"",""created"":1795595881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261125_084135,2026-11-25T08:38:02.566433+00:00
+5d17bcc8fe207d68,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released?
+A. 1993
+B. 2004
+C. 2010
+D. 2006
+Answer:","[""1993"", ""2004"", ""2010"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-xicjbsidbkd2fj6uzj8tod"",""object"":""chat.completion"",""created"":1795595881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9037,,MarianeAzar,20261125_084135,2026-11-25T08:38:03.470440+00:00
+34c0986df1db4c28,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sitting for more than three hours a day can cut two years off a person's life expectancy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-888q6hmpn3lmoy49i35vy"",""object"":""chat.completion"",""created"":1795595882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:38:04.335242+00:00
+34c0986df1db4c28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sitting for more than three hours a day can cut two years off a person's life expectancy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hreumkc755vrsnd8yivk"",""object"":""chat.completion"",""created"":1795595883,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8339,,MarianeAzar,20261125_084135,2026-11-25T08:38:05.169373+00:00
+078a944b49677377,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Nickelodeon's original name?
+A. Splat!
+B. MTVKids
+C. Pinwheel
+D. KidsTV
+Answer:","[""Splat!"", ""MTVKids"", ""Pinwheel"", ""KidsTV""]",http,0.0,16,none,"{""id"":""chatcmpl-883a4u7z0d4rl6e6i751mo"",""object"":""chat.completion"",""created"":1795595884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T08:38:06.021964+00:00
+078a944b49677377,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Nickelodeon's original name?
+A. Splat!
+B. MTVKids
+C. Pinwheel
+D. KidsTV
+Answer:","[""Splat!"", ""MTVKids"", ""Pinwheel"", ""KidsTV""]",http,0.0,16,none,"{""id"":""chatcmpl-8mhgeaeqvtnkn9ojhosqwp"",""object"":""chat.completion"",""created"":1795595885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T08:38:06.874190+00:00
+552857cafe09b3e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ancient Roman god of war was commonly known as which of the following?
+A. Jupiter
+B. Ares
+C. Mars
+D. Juno
+Answer:","[""Jupiter"", ""Ares"", ""Mars"", ""Juno""]",http,0.0,16,none,"{""id"":""chatcmpl-slvwaj2h6id8am0pdinxa"",""object"":""chat.completion"",""created"":1795595886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T08:38:07.732653+00:00
+552857cafe09b3e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ancient Roman god of war was commonly known as which of the following?
+A. Jupiter
+B. Ares
+C. Mars
+D. Juno
+Answer:","[""Jupiter"", ""Ares"", ""Mars"", ""Juno""]",http,0.0,16,none,"{""id"":""chatcmpl-s436nv7fcc6l1gfjpf9b7"",""object"":""chat.completion"",""created"":1795595887,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T08:38:08.592140+00:00
+c52b62aca7b0ccde,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nutella is produced by the German company Ferrero.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3c7uq3rx0ap6cw3e5hb7jf"",""object"":""chat.completion"",""created"":1795595888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.807,,MarianeAzar,20261125_084135,2026-11-25T08:38:09.399578+00:00
+c52b62aca7b0ccde,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nutella is produced by the German company Ferrero.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e814xbwbxm56aohf8w3hf5"",""object"":""chat.completion"",""created"":1795595888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8171,,MarianeAzar,20261125_084135,2026-11-25T08:38:10.216900+00:00
+12d4de8cb833b397,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which franchise does the creature ""Slowpoke"" originate from?
+A. Dragon Ball
+B. Pokemon
+C. Yugioh
+D. Sonic The Hedgehog
+Answer:","[""Dragon Ball"", ""Pokemon"", ""Yugioh"", ""Sonic The Hedgehog""]",http,0.0,16,none,"{""id"":""chatcmpl-dvvnirzg8dv4dqo1cuwonb"",""object"":""chat.completion"",""created"":1795595889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8461,,MarianeAzar,20261125_084135,2026-11-25T08:38:11.063174+00:00
+12d4de8cb833b397,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which franchise does the creature ""Slowpoke"" originate from?
+A. Dragon Ball
+B. Pokemon
+C. Yugioh
+D. Sonic The Hedgehog
+Answer:","[""Dragon Ball"", ""Pokemon"", ""Yugioh"", ""Sonic The Hedgehog""]",http,0.0,16,none,"{""id"":""chatcmpl-a2wm45lc4jfcaeql9dr9j"",""object"":""chat.completion"",""created"":1795595890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T08:38:11.920861+00:00
+4a88de0dbea7f398,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in North America?
+A. Denali, USA
+B. Pico de Orizaba, Mexico
+C. Mount Saint Elias, US/Canada border
+D. Mount Logan, Canada
+Answer:","[""Denali, USA"", ""Pico de Orizaba, Mexico"", ""Mount Saint Elias, US/Canada border"", ""Mount Logan, Canada""]",http,0.0,16,none,"{""id"":""chatcmpl-isipmhxf3j8w9i00atecip"",""object"":""chat.completion"",""created"":1795595891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T08:38:12.775101+00:00
+4a88de0dbea7f398,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in North America?
+A. Denali, USA
+B. Pico de Orizaba, Mexico
+C. Mount Saint Elias, US/Canada border
+D. Mount Logan, Canada
+Answer:","[""Denali, USA"", ""Pico de Orizaba, Mexico"", ""Mount Saint Elias, US/Canada border"", ""Mount Logan, Canada""]",http,0.0,16,none,"{""id"":""chatcmpl-yo454exfssg8s7yv5gmuqk"",""object"":""chat.completion"",""created"":1795595892,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8873,,MarianeAzar,20261125_084135,2026-11-25T08:38:13.662689+00:00

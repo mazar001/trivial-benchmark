@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e6e74bbedb26c5c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mathematician refused the Fields Medal?
+A. Edward Witten
+B. Andrew Wiles
+C. Grigori Perelman
+D. Terence Tao
+Answer:","[""Edward Witten"", ""Andrew Wiles"", ""Grigori Perelman"", ""Terence Tao""]",http,0.0,16,none,"{""id"":""chatcmpl-1l5ojsem9gt5bmqe9w6t9"",""object"":""chat.completion"",""created"":1795595675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9202,,MarianeAzar,20261125_084135,2026-11-25T08:34:37.264395+00:00
+e6e74bbedb26c5c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mathematician refused the Fields Medal?
+A. Edward Witten
+B. Andrew Wiles
+C. Grigori Perelman
+D. Terence Tao
+Answer:","[""Edward Witten"", ""Andrew Wiles"", ""Grigori Perelman"", ""Terence Tao""]",http,0.0,16,none,"{""id"":""chatcmpl-1oe9ifrz113nk56v3sx2k"",""object"":""chat.completion"",""created"":1795595676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261125_084135,2026-11-25T08:34:38.122458+00:00
+3cbea01e417094d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city did the Lakers represent before relocating to Los Angeles?
+A. Minneapolis
+B. Chicago
+C. San Francisco
+D. Philadelphia
+Answer:","[""Minneapolis"", ""Chicago"", ""San Francisco"", ""Philadelphia""]",http,0.0,16,none,"{""id"":""chatcmpl-8ieakyvmy6gwq530go4fyc"",""object"":""chat.completion"",""created"":1795595677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261125_084135,2026-11-25T08:34:38.988727+00:00
+3cbea01e417094d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city did the Lakers represent before relocating to Los Angeles?
+A. Minneapolis
+B. Chicago
+C. San Francisco
+D. Philadelphia
+Answer:","[""Minneapolis"", ""Chicago"", ""San Francisco"", ""Philadelphia""]",http,0.0,16,none,"{""id"":""chatcmpl-zmtcykgapwgg62kplk7b8m"",""object"":""chat.completion"",""created"":1795595678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8699,,MarianeAzar,20261125_084135,2026-11-25T08:34:39.859037+00:00
+3a7824b70dc1f002,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime, ""Fullmetal Alchemist"", who is known as the 'Flame Alchemist'?
+A. Lin Yao
+B. Roy Mustang
+C. Edward Elric
+D. Maes Hughes
+Answer:","[""Lin Yao"", ""Roy Mustang"", ""Edward Elric"", ""Maes Hughes""]",http,0.0,16,none,"{""id"":""chatcmpl-gsaq5j3q0rlns682ddqjth"",""object"":""chat.completion"",""created"":1795595679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8683,,MarianeAzar,20261125_084135,2026-11-25T08:34:40.727699+00:00
+3a7824b70dc1f002,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime, ""Fullmetal Alchemist"", who is known as the 'Flame Alchemist'?
+A. Lin Yao
+B. Roy Mustang
+C. Edward Elric
+D. Maes Hughes
+Answer:","[""Lin Yao"", ""Roy Mustang"", ""Edward Elric"", ""Maes Hughes""]",http,0.0,16,none,"{""id"":""chatcmpl-j9b6aru71h07g4wuxcw1jd"",""object"":""chat.completion"",""created"":1795595680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8828,,MarianeAzar,20261125_084135,2026-11-25T08:34:41.610812+00:00
+96b8ba688848a82e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game Overwatch, which playable character is infamous for saying ""It's high noon.""?
+A. McCree
+B. Hanzo
+C. Soldier: 76
+D. Pharah
+Answer:","[""McCree"", ""Hanzo"", ""Soldier: 76"", ""Pharah""]",http,0.0,16,none,"{""id"":""chatcmpl-0r3mx9yek94zmjv4xwub7"",""object"":""chat.completion"",""created"":1795595681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T08:34:42.468976+00:00
+96b8ba688848a82e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game Overwatch, which playable character is infamous for saying ""It's high noon.""?
+A. McCree
+B. Hanzo
+C. Soldier: 76
+D. Pharah
+Answer:","[""McCree"", ""Hanzo"", ""Soldier: 76"", ""Pharah""]",http,0.0,16,none,"{""id"":""chatcmpl-7r44y9wjdh3yv33n5kyw3"",""object"":""chat.completion"",""created"":1795595681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261125_084135,2026-11-25T08:34:43.350809+00:00
+b1b8d607bb6c69ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Union Pacific 'Big Boy' locomotives was restored to working order in 2019?
+A. 4004
+B. 4012
+C. 4014
+D. 4000
+Answer:","[""4004"", ""4012"", ""4014"", ""4000""]",http,0.0,16,none,"{""id"":""chatcmpl-k5fv9cc9gzydzrpx0z4kh"",""object"":""chat.completion"",""created"":1795595682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T08:34:44.229399+00:00
+b1b8d607bb6c69ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Union Pacific 'Big Boy' locomotives was restored to working order in 2019?
+A. 4004
+B. 4012
+C. 4014
+D. 4000
+Answer:","[""4004"", ""4012"", ""4014"", ""4000""]",http,0.0,16,none,"{""id"":""chatcmpl-yspq1donmcntakrgxctozi"",""object"":""chat.completion"",""created"":1795595683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8998,,MarianeAzar,20261125_084135,2026-11-25T08:34:45.129495+00:00
+a95a7223f53bab93,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The tuba is a part of which musical family?
+A. Brass
+B. Percussion
+C. Woodwind
+D. Strings
+Answer:","[""Brass"", ""Percussion"", ""Woodwind"", ""Strings""]",http,0.0,16,none,"{""id"":""chatcmpl-224ll4yl9mtk2o8tc6w1g8"",""object"":""chat.completion"",""created"":1795595684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T08:34:46.004842+00:00
+a95a7223f53bab93,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The tuba is a part of which musical family?
+A. Brass
+B. Percussion
+C. Woodwind
+D. Strings
+Answer:","[""Brass"", ""Percussion"", ""Woodwind"", ""Strings""]",http,0.0,16,none,"{""id"":""chatcmpl-bibxlqoscd6a6jahshx03g"",""object"":""chat.completion"",""created"":1795595685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:34:46.860719+00:00
+c5a77baa7dd465b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Sir Donald Bradman's batting average in test matches?
+A. 100
+B. 44.78
+C. 69.51
+D. 99.94
+Answer:","[""100"", ""44.78"", ""69.51"", ""99.94""]",http,0.0,16,none,"{""id"":""chatcmpl-kcdln7cm1kdqzai1mjvjbd"",""object"":""chat.completion"",""created"":1795595686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:34:47.722639+00:00
+c5a77baa7dd465b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Sir Donald Bradman's batting average in test matches?
+A. 100
+B. 44.78
+C. 69.51
+D. 99.94
+Answer:","[""100"", ""44.78"", ""69.51"", ""99.94""]",http,0.0,16,none,"{""id"":""chatcmpl-0w936cpp9r5boyhb4tyt5"",""object"":""chat.completion"",""created"":1795595687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261125_084135,2026-11-25T08:34:48.613175+00:00
+4bee991ac2e97f1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the Wu-Tang Clan had only one verse in their debut album Enter the Wu-Tang (36 Chambers)?
+A. GZA
+B. Inspectah Deck
+C. Masta Killa
+D. Method Man
+Answer:","[""GZA"", ""Inspectah Deck"", ""Masta Killa"", ""Method Man""]",http,0.0,16,none,"{""id"":""chatcmpl-t3duihg2emmx7icedfwwd"",""object"":""chat.completion"",""created"":1795595688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:34:49.470210+00:00
+4bee991ac2e97f1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the Wu-Tang Clan had only one verse in their debut album Enter the Wu-Tang (36 Chambers)?
+A. GZA
+B. Inspectah Deck
+C. Masta Killa
+D. Method Man
+Answer:","[""GZA"", ""Inspectah Deck"", ""Masta Killa"", ""Method Man""]",http,0.0,16,none,"{""id"":""chatcmpl-c5gp578mex4f1tnk96tu0s"",""object"":""chat.completion"",""created"":1795595688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8948,,MarianeAzar,20261125_084135,2026-11-25T08:34:50.365256+00:00
+95040b5cc41f502f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: George Orwell wrote this book, which is often considered a statement on government oversight.
+A. The Old Man and the Sea
+B. To Kill a Mockingbird
+C. Catcher and the Rye
+D. 1984
+Answer:","[""The Old Man and the Sea"", ""To Kill a Mockingbird"", ""Catcher and the Rye"", ""1984""]",http,0.0,16,none,"{""id"":""chatcmpl-dgjkqy8fqin260zwrzhhs"",""object"":""chat.completion"",""created"":1795595689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.882,,MarianeAzar,20261125_084135,2026-11-25T08:34:51.247523+00:00
+95040b5cc41f502f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: George Orwell wrote this book, which is often considered a statement on government oversight.
+A. The Old Man and the Sea
+B. To Kill a Mockingbird
+C. Catcher and the Rye
+D. 1984
+Answer:","[""The Old Man and the Sea"", ""To Kill a Mockingbird"", ""Catcher and the Rye"", ""1984""]",http,0.0,16,none,"{""id"":""chatcmpl-1j25vismbrp9l2z7agkyrr"",""object"":""chat.completion"",""created"":1795595690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8947,,MarianeAzar,20261125_084135,2026-11-25T08:34:52.142507+00:00
+ed18dedc6b6dabdf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?
+A. Iraq and Saudi Arabia
+B. Chad and Libya
+C. Israel and Jordan
+D. Egypt and Sudan
+Answer:","[""Iraq and Saudi Arabia"", ""Chad and Libya"", ""Israel and Jordan"", ""Egypt and Sudan""]",http,0.0,16,none,"{""id"":""chatcmpl-zi1fab4jrg9ulqu4nf163p"",""object"":""chat.completion"",""created"":1795595691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8892,,MarianeAzar,20261125_084135,2026-11-25T08:34:53.032142+00:00
+ed18dedc6b6dabdf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bir Tawil, an uninhabited track of land claimed by no country, is located along the border of which two countries?
+A. Iraq and Saudi Arabia
+B. Chad and Libya
+C. Israel and Jordan
+D. Egypt and Sudan
+Answer:","[""Iraq and Saudi Arabia"", ""Chad and Libya"", ""Israel and Jordan"", ""Egypt and Sudan""]",http,0.0,16,none,"{""id"":""chatcmpl-vc26wxhp1gnwr7f2dsjzor"",""object"":""chat.completion"",""created"":1795595692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8996,,MarianeAzar,20261125_084135,2026-11-25T08:34:53.932012+00:00
+d9d21c0a416dd664,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: David Baszucki was a co-founder of ROBLOX Corporation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d094qqii0x8ah8blvzjurr"",""object"":""chat.completion"",""created"":1795595693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.834,,MarianeAzar,20261125_084135,2026-11-25T08:34:54.767420+00:00
+d9d21c0a416dd664,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: David Baszucki was a co-founder of ROBLOX Corporation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iv4femv5ozdo5wzgmw43dg"",""object"":""chat.completion"",""created"":1795595694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:34:55.583079+00:00
+28b94b386b4fff45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Homestuck"" what is Dave Strider's guardian?
+A. Bro
+B. Becquerel
+C. Halley
+D. Doc Scratch
+Answer:","[""Bro"", ""Becquerel"", ""Halley"", ""Doc Scratch""]",http,0.0,16,none,"{""id"":""chatcmpl-wr98i8p6ako0ihv7q0ci8"",""object"":""chat.completion"",""created"":1795595695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8801,,MarianeAzar,20261125_084135,2026-11-25T08:34:56.463580+00:00
+28b94b386b4fff45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Homestuck"" what is Dave Strider's guardian?
+A. Bro
+B. Becquerel
+C. Halley
+D. Doc Scratch
+Answer:","[""Bro"", ""Becquerel"", ""Halley"", ""Doc Scratch""]",http,0.0,16,none,"{""id"":""chatcmpl-99ynrki8nlslwmw25bhq9"",""object"":""chat.completion"",""created"":1795595695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:34:57.324936+00:00
+8c400e735aec3d02,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Former United States President Bill Clinton famously played which instrument?
+A. Saxophone
+B. Piano
+C. Violin
+D. Baritone horn
+Answer:","[""Saxophone"", ""Piano"", ""Violin"", ""Baritone horn""]",http,0.0,16,none,"{""id"":""chatcmpl-9bkffe69bujmq1i1r077cg"",""object"":""chat.completion"",""created"":1795595696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261125_084135,2026-11-25T08:34:58.177270+00:00

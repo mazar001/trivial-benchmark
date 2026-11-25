@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e3b3b63b87922c39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Earl Grey tea is black tea flavoured with what?
+A. Honey
+B. Bergamot oil
+C. Vanilla
+D. Lavender
+Answer:","[""Honey"", ""Bergamot oil"", ""Vanilla"", ""Lavender""]",http,0.0,16,none,"{""id"":""chatcmpl-8qoblfpvsdmtwf33bwcmci"",""object"":""chat.completion"",""created"":1795594326,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9765,,MarianeAzar,20261125_084135,2026-11-25T08:12:08.390104+00:00
+e3b3b63b87922c39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Earl Grey tea is black tea flavoured with what?
+A. Honey
+B. Bergamot oil
+C. Vanilla
+D. Lavender
+Answer:","[""Honey"", ""Bergamot oil"", ""Vanilla"", ""Lavender""]",http,0.0,16,none,"{""id"":""chatcmpl-nnj7rh4zswcd717lglh10u"",""object"":""chat.completion"",""created"":1795594327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2278,,MarianeAzar,20261125_084135,2026-11-25T08:12:09.618135+00:00
+e2d8d836ef9c4f42,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The term Luddite originally applied to disgruntled workers in which industry?
+A. Textile
+B. Ceramics
+C. Farming
+D. Mining
+Answer:","[""Textile"", ""Ceramics"", ""Farming"", ""Mining""]",http,0.0,16,none,"{""id"":""chatcmpl-oaayhrvkq5uya2vuonl1r"",""object"":""chat.completion"",""created"":1795594329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1468,,MarianeAzar,20261125_084135,2026-11-25T08:12:10.765174+00:00
+e2d8d836ef9c4f42,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The term Luddite originally applied to disgruntled workers in which industry?
+A. Textile
+B. Ceramics
+C. Farming
+D. Mining
+Answer:","[""Textile"", ""Ceramics"", ""Farming"", ""Mining""]",http,0.0,16,none,"{""id"":""chatcmpl-drtbykai4h4a2t5btet3f"",""object"":""chat.completion"",""created"":1795594330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.913,,MarianeAzar,20261125_084135,2026-11-25T08:12:11.678373+00:00
+ec64afc3c739abf7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which eSports team came first place in The International Dota 2 Championship 2016?
+A. Digital Chaos
+B. Evil Geniuses
+C. Fnatic
+D. Wings Gaming
+Answer:","[""Digital Chaos"", ""Evil Geniuses"", ""Fnatic"", ""Wings Gaming""]",http,0.0,16,none,"{""id"":""chatcmpl-ftvwfhxujci251twjbz9cq"",""object"":""chat.completion"",""created"":1795594331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.23,,MarianeAzar,20261125_084135,2026-11-25T08:12:12.908653+00:00
+ec64afc3c739abf7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which eSports team came first place in The International Dota 2 Championship 2016?
+A. Digital Chaos
+B. Evil Geniuses
+C. Fnatic
+D. Wings Gaming
+Answer:","[""Digital Chaos"", ""Evil Geniuses"", ""Fnatic"", ""Wings Gaming""]",http,0.0,16,none,"{""id"":""chatcmpl-k9723jm4hsmkufj3j5o53l"",""object"":""chat.completion"",""created"":1795594332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2977,,MarianeAzar,20261125_084135,2026-11-25T08:12:14.206727+00:00
+1e7b15de0a6f55da,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Scoville scale, what is the hottest chemical?
+A. Dihydrocapsaicin
+B. Tinyatoxin
+C. Capsaicin
+D. Resiniferatoxin
+Answer:","[""Dihydrocapsaicin"", ""Tinyatoxin"", ""Capsaicin"", ""Resiniferatoxin""]",http,0.0,16,none,"{""id"":""chatcmpl-frapq4pvxuimypjvps1tmb"",""object"":""chat.completion"",""created"":1795594333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9436,,MarianeAzar,20261125_084135,2026-11-25T08:12:15.150735+00:00
+1e7b15de0a6f55da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Scoville scale, what is the hottest chemical?
+A. Dihydrocapsaicin
+B. Tinyatoxin
+C. Capsaicin
+D. Resiniferatoxin
+Answer:","[""Dihydrocapsaicin"", ""Tinyatoxin"", ""Capsaicin"", ""Resiniferatoxin""]",http,0.0,16,none,"{""id"":""chatcmpl-65rhco81usnr4ho0qz512"",""object"":""chat.completion"",""created"":1795594334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9548,,MarianeAzar,20261125_084135,2026-11-25T08:12:16.105678+00:00
+5393c06578233b29,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car brand does NOT belong to General Motors?
+A. Cadillac
+B. Buick
+C. Chevrolet
+D. Ford
+Answer:","[""Cadillac"", ""Buick"", ""Chevrolet"", ""Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-x2kxjhmrsbkw3q9b4z6g"",""object"":""chat.completion"",""created"":1795594335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3602,,MarianeAzar,20261125_084135,2026-11-25T08:12:17.466158+00:00
+5393c06578233b29,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car brand does NOT belong to General Motors?
+A. Cadillac
+B. Buick
+C. Chevrolet
+D. Ford
+Answer:","[""Cadillac"", ""Buick"", ""Chevrolet"", ""Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-vdg62n312aamjyd8oz9emh"",""object"":""chat.completion"",""created"":1795594336,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9643,,MarianeAzar,20261125_084135,2026-11-25T08:12:18.430549+00:00
+7ac4548bbf302385,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for time?
+A. Second
+B. Hour
+C. Day
+D. Minute
+Answer:","[""Second"", ""Hour"", ""Day"", ""Minute""]",http,0.0,16,none,"{""id"":""chatcmpl-a4g940l2wmhehqse85egob"",""object"":""chat.completion"",""created"":1795594337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9403,,MarianeAzar,20261125_084135,2026-11-25T08:12:19.371112+00:00
+7ac4548bbf302385,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for time?
+A. Second
+B. Hour
+C. Day
+D. Minute
+Answer:","[""Second"", ""Hour"", ""Day"", ""Minute""]",http,0.0,16,none,"{""id"":""chatcmpl-qqym5izjrpf5gy04pam3lb"",""object"":""chat.completion"",""created"":1795594338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2819,,MarianeAzar,20261125_084135,2026-11-25T08:12:20.653286+00:00
+258864f4c370290c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Formula E is an auto racing series that uses hybrid electric race cars.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tm7myxyqaddd26mm2p9ok"",""object"":""chat.completion"",""created"":1795594340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261125_084135,2026-11-25T08:12:21.512865+00:00
+258864f4c370290c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Formula E is an auto racing series that uses hybrid electric race cars.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-poc0rpezcsbws3d6ft335"",""object"":""chat.completion"",""created"":1795594340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9051,,MarianeAzar,20261125_084135,2026-11-25T08:12:22.418128+00:00
+5efb6f6005869861,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?
+A. Bull
+B. Horse
+C. Pig
+D. Ox
+Answer:","[""Bull"", ""Horse"", ""Pig"", ""Ox""]",http,0.0,16,none,"{""id"":""chatcmpl-mnvfpolhjubxf6im9rns4"",""object"":""chat.completion"",""created"":1795594341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4735,,MarianeAzar,20261125_084135,2026-11-25T08:12:23.894130+00:00
+5efb6f6005869861,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal did Queen Pasipahe sleep with before she gave birth to the Minotaur in Greek Mythology?
+A. Bull
+B. Horse
+C. Pig
+D. Ox
+Answer:","[""Bull"", ""Horse"", ""Pig"", ""Ox""]",http,0.0,16,none,"{""id"":""chatcmpl-mtnn0wyrgzlglmi0xm2fc"",""object"":""chat.completion"",""created"":1795594343,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1057,,MarianeAzar,20261125_084135,2026-11-25T08:12:25.000015+00:00
+158f3f4d16b666b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical artist was NOT featured as playable avatars in the game ""DJ Hero""?
+A. Daft Punk
+B. Dr. Dre
+C. DJ Shadow
+D. Grandmaster Flash
+Answer:","[""Daft Punk"", ""Dr. Dre"", ""DJ Shadow"", ""Grandmaster Flash""]",http,0.0,16,none,"{""id"":""chatcmpl-23ewh48k0q1qvj7ax7uv8h"",""object"":""chat.completion"",""created"":1795594344,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1358,,MarianeAzar,20261125_084135,2026-11-25T08:12:26.135979+00:00
+158f3f4d16b666b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical artist was NOT featured as playable avatars in the game ""DJ Hero""?
+A. Daft Punk
+B. Dr. Dre
+C. DJ Shadow
+D. Grandmaster Flash
+Answer:","[""Daft Punk"", ""Dr. Dre"", ""DJ Shadow"", ""Grandmaster Flash""]",http,0.0,16,none,"{""id"":""chatcmpl-1pkk5chof1d2r8qlaj7fbm"",""object"":""chat.completion"",""created"":1795594345,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9282,,MarianeAzar,20261125_084135,2026-11-25T08:12:27.064480+00:00
+3a06e5e2b7601364,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Tomb Raider"" icon Lara Croft was originally called...
+A. Laura Craft
+B. Laura Cruz
+C. Lara Craft
+D. Laura Croft
+Answer:","[""Laura Craft"", ""Laura Cruz"", ""Lara Craft"", ""Laura Croft""]",http,0.0,16,none,"{""id"":""chatcmpl-u2nux0fu5acddw7ionvn98"",""object"":""chat.completion"",""created"":1795594346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.951,,MarianeAzar,20261125_084135,2026-11-25T08:12:28.015710+00:00
+3a06e5e2b7601364,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Tomb Raider"" icon Lara Croft was originally called...
+A. Laura Craft
+B. Laura Cruz
+C. Lara Craft
+D. Laura Croft
+Answer:","[""Laura Craft"", ""Laura Cruz"", ""Lara Craft"", ""Laura Croft""]",http,0.0,16,none,"{""id"":""chatcmpl-al5cooh9o1art48ou2ruzt"",""object"":""chat.completion"",""created"":1795594347,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3399,,MarianeAzar,20261125_084135,2026-11-25T08:12:29.355861+00:00
+6fccbe7f9e1dacb2,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Republic of Malta is the smallest microstate worldwide.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-29ixoxt2912gbsvbzstg6r"",""object"":""chat.completion"",""created"":1795594348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8821,,MarianeAzar,20261125_084135,2026-11-25T08:12:30.238405+00:00
+6fccbe7f9e1dacb2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Republic of Malta is the smallest microstate worldwide.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fzzkcrzew3mdgezcsrovuv"",""object"":""chat.completion"",""created"":1795594349,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9163,,MarianeAzar,20261125_084135,2026-11-25T08:12:31.155026+00:00
+79e8b5f050e8bc10,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1939, Britain and France declared war on Germany after it invaded which country?
+A. Hungary
+B. Austria
+C. Czechoslovakia
+D. Poland
+Answer:","[""Hungary"", ""Austria"", ""Czechoslovakia"", ""Poland""]",http,0.0,16,none,"{""id"":""chatcmpl-ptru731xwv8p8wgpq8v46"",""object"":""chat.completion"",""created"":1795594350,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3605,,MarianeAzar,20261125_084135,2026-11-25T08:12:32.515712+00:00
+79e8b5f050e8bc10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1939, Britain and France declared war on Germany after it invaded which country?
+A. Hungary
+B. Austria
+C. Czechoslovakia
+D. Poland
+Answer:","[""Hungary"", ""Austria"", ""Czechoslovakia"", ""Poland""]",http,0.0,16,none,"{""id"":""chatcmpl-2wkfdfu61j9fnwrql2qg7t"",""object"":""chat.completion"",""created"":1795594351,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.932,,MarianeAzar,20261125_084135,2026-11-25T08:12:33.447918+00:00
+58ee8fc7aff94960,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the ""MP"" stand for in MP3?
+A. Moving Picture
+B. Music Player
+C. Multi Pass
+D. Micro Point
+Answer:","[""Moving Picture"", ""Music Player"", ""Multi Pass"", ""Micro Point""]",http,0.0,16,none,"{""id"":""chatcmpl-eixm0c0tkmklpvzf81rde"",""object"":""chat.completion"",""created"":1795594352,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""M"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9337,,MarianeAzar,20261125_084135,2026-11-25T08:12:34.382059+00:00

@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+72ae5647a1f637af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: TF2: What code does Soldier put into the door keypad in ""Meet the Spy""?
+A. 1432
+B. No code
+C. 1337
+D. 1111
+Answer:","[""1432"", ""No code"", ""1337"", ""1111""]",http,0.0,16,none,"{""id"":""chatcmpl-2tefjpi4qhprvlhh9nbvur"",""object"":""chat.completion"",""created"":1795554304,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8812,,MarianeAzar,20261124_215144,2026-11-24T21:05:05.905479+00:00
+16f275c62dd738a3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.
+A. Boxers
+B. Bulldogs
+C. Pugs
+D. Chihuahua
+Answer:","[""Boxers"", ""Bulldogs"", ""Pugs"", ""Chihuahua""]",http,0.0,16,none,"{""id"":""chatcmpl-yrqqxr394e92ntzabyuva"",""object"":""chat.completion"",""created"":1795554305,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261124_215144,2026-11-24T21:05:06.783924+00:00
+16f275c62dd738a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.
+A. Boxers
+B. Bulldogs
+C. Pugs
+D. Chihuahua
+Answer:","[""Boxers"", ""Bulldogs"", ""Pugs"", ""Chihuahua""]",http,0.0,16,none,"{""id"":""chatcmpl-pze3i07qp7q9hpwkkxbb"",""object"":""chat.completion"",""created"":1795554306,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9022,,MarianeAzar,20261124_215144,2026-11-24T21:05:07.686462+00:00
+b76304d6417fb9be,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Irish village in County Mayo built a tourism industry on the back of an alleged appearance by the Virgin Mary in 1879?
+A. Knock
+B. Ballycastle
+C. Swinford
+D. Turlough
+Answer:","[""Knock"", ""Ballycastle"", ""Swinford"", ""Turlough""]",http,0.0,16,none,"{""id"":""chatcmpl-exqii7z9npnb6dphuuoofl"",""object"":""chat.completion"",""created"":1795554307,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261124_215144,2026-11-24T21:05:08.548168+00:00
+b76304d6417fb9be,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Irish village in County Mayo built a tourism industry on the back of an alleged appearance by the Virgin Mary in 1879?
+A. Knock
+B. Ballycastle
+C. Swinford
+D. Turlough
+Answer:","[""Knock"", ""Ballycastle"", ""Swinford"", ""Turlough""]",http,0.0,16,none,"{""id"":""chatcmpl-rfjhhw75ernsm3rzlxhp2j"",""object"":""chat.completion"",""created"":1795554308,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9716,,MarianeAzar,20261124_215144,2026-11-24T21:05:09.520051+00:00
+6e010e751b589d0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Louis was known as 'The Sun King of France'?
+A. Louis XIV
+B. Louis XIII
+C. Louis XVI
+D. Louis XV
+Answer:","[""Louis XIV"", ""Louis XIII"", ""Louis XVI"", ""Louis XV""]",http,0.0,16,none,"{""id"":""chatcmpl-i1b7mfuo5af2yny6t84y2u"",""object"":""chat.completion"",""created"":1795554309,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261124_215144,2026-11-24T21:05:10.388262+00:00
+6e010e751b589d0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Louis was known as 'The Sun King of France'?
+A. Louis XIV
+B. Louis XIII
+C. Louis XVI
+D. Louis XV
+Answer:","[""Louis XIV"", ""Louis XIII"", ""Louis XVI"", ""Louis XV""]",http,0.0,16,none,"{""id"":""chatcmpl-25x1exy4md713yvg2nnq74c"",""object"":""chat.completion"",""created"":1795554310,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261124_215144,2026-11-24T21:05:11.252422+00:00
+bdd266232c7be5af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:
+A. Haplogroup J
+B. Haplogroup T
+C. Haplogroup L
+D. Haplogroup U
+Answer:","[""Haplogroup J"", ""Haplogroup T"", ""Haplogroup L"", ""Haplogroup U""]",http,0.0,16,none,"{""id"":""chatcmpl-fjq1s4jxttlf7whwgi3gjk"",""object"":""chat.completion"",""created"":1795554311,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8993,,MarianeAzar,20261124_215144,2026-11-24T21:05:12.152231+00:00
+bdd266232c7be5af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:
+A. Haplogroup J
+B. Haplogroup T
+C. Haplogroup L
+D. Haplogroup U
+Answer:","[""Haplogroup J"", ""Haplogroup T"", ""Haplogroup L"", ""Haplogroup U""]",http,0.0,16,none,"{""id"":""chatcmpl-jfr9yn8rttissjsl5pgpd"",""object"":""chat.completion"",""created"":1795554312,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261124_215144,2026-11-24T21:05:13.036010+00:00
+de215cd817d57612,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Fort Marlborough located?
+A. Dover
+B. London
+C. Singapore
+D. Bengkulu
+Answer:","[""Dover"", ""London"", ""Singapore"", ""Bengkulu""]",http,0.0,16,none,"{""id"":""chatcmpl-aes9ueilvsgojstphpjh9"",""object"":""chat.completion"",""created"":1795554312,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9804,,MarianeAzar,20261124_215144,2026-11-24T21:05:14.016699+00:00
+de215cd817d57612,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Fort Marlborough located?
+A. Dover
+B. London
+C. Singapore
+D. Bengkulu
+Answer:","[""Dover"", ""London"", ""Singapore"", ""Bengkulu""]",http,0.0,16,none,"{""id"":""chatcmpl-jxget2uqn3q6ypn35tfbg6"",""object"":""chat.completion"",""created"":1795554314,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0306,,MarianeAzar,20261124_215144,2026-11-24T21:05:15.047671+00:00
+edadf2c7672163c0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Need for Speed: Porsche Unleashed"", the player can only drive cars manufactured by Porsche.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f791w8psdbffmimhj7i8a8"",""object"":""chat.completion"",""created"":1795554314,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9601,,MarianeAzar,20261124_215144,2026-11-24T21:05:16.008035+00:00
+edadf2c7672163c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Need for Speed: Porsche Unleashed"", the player can only drive cars manufactured by Porsche.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mu9onrgzbzkao3ir2fw2k6"",""object"":""chat.completion"",""created"":1795554315,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8416,,MarianeAzar,20261124_215144,2026-11-24T21:05:16.849846+00:00
+fcf69ee251f38a32,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the French Revolution begin?
+A. 1789
+B. 1799
+C. 1823
+D. 1756
+Answer:","[""1789"", ""1799"", ""1823"", ""1756""]",http,0.0,16,none,"{""id"":""chatcmpl-ptz3n735kf1qbzp9h2n97"",""object"":""chat.completion"",""created"":1795554316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.012,,MarianeAzar,20261124_215144,2026-11-24T21:05:17.862156+00:00
+fcf69ee251f38a32,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the French Revolution begin?
+A. 1789
+B. 1799
+C. 1823
+D. 1756
+Answer:","[""1789"", ""1799"", ""1823"", ""1756""]",http,0.0,16,none,"{""id"":""chatcmpl-suwdhbxjovpyua0gftdmh"",""object"":""chat.completion"",""created"":1795554317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261124_215144,2026-11-24T21:05:18.726545+00:00
+9c30e7336e870354,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the cartoon 'SpongeBob SquarePants', what did the acronym E.V.I.L stand for?
+A. Every Villain Is Limes
+B. Every Villain Is Lemons
+C. Each Villain Is Lemonade
+D. Every Villain Is Lemonade
+Answer:","[""Every Villain Is Limes"", ""Every Villain Is Lemons"", ""Each Villain Is Lemonade"", ""Every Villain Is Lemonade""]",http,0.0,16,none,"{""id"":""chatcmpl-i93b1asa4k4s776b4szw2"",""object"":""chat.completion"",""created"":1795554318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9244,,MarianeAzar,20261124_215144,2026-11-24T21:05:19.651753+00:00
+9c30e7336e870354,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the cartoon 'SpongeBob SquarePants', what did the acronym E.V.I.L stand for?
+A. Every Villain Is Limes
+B. Every Villain Is Lemons
+C. Each Villain Is Lemonade
+D. Every Villain Is Lemonade
+Answer:","[""Every Villain Is Limes"", ""Every Villain Is Lemons"", ""Each Villain Is Lemonade"", ""Every Villain Is Lemonade""]",http,0.0,16,none,"{""id"":""chatcmpl-cvf5e0knnd8cm0v53j6pm"",""object"":""chat.completion"",""created"":1795554319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9279,,MarianeAzar,20261124_215144,2026-11-24T21:05:20.579941+00:00
+2386522f82ea2aa5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?
+A. Giaccherini
+B. Barzagli
+C. Insigne
+D. Pelle
+Answer:","[""Giaccherini"", ""Barzagli"", ""Insigne"", ""Pelle""]",http,0.0,16,none,"{""id"":""chatcmpl-o6rcz38xi0hz4y2w7wn04"",""object"":""chat.completion"",""created"":1795554320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0148,,MarianeAzar,20261124_215144,2026-11-24T21:05:21.595219+00:00
+2386522f82ea2aa5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?
+A. Giaccherini
+B. Barzagli
+C. Insigne
+D. Pelle
+Answer:","[""Giaccherini"", ""Barzagli"", ""Insigne"", ""Pelle""]",http,0.0,16,none,"{""id"":""chatcmpl-d83aq4qihzgahjl934cuue"",""object"":""chat.completion"",""created"":1795554321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9012,,MarianeAzar,20261124_215144,2026-11-24T21:05:22.496940+00:00
+3a690b7fb22faac5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Canada was ceded to Britain under the terms of the 1763 Treaty of Paris.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-te3q0idb15ijqyynyen23r"",""object"":""chat.completion"",""created"":1795554322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9391,,MarianeAzar,20261124_215144,2026-11-24T21:05:23.436227+00:00
+3a690b7fb22faac5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Canada was ceded to Britain under the terms of the 1763 Treaty of Paris.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yncptpn4i5qyl9lcqjnea"",""object"":""chat.completion"",""created"":1795554323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261124_215144,2026-11-24T21:05:24.280247+00:00
+fe078d370f1f75b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During development of ""Super Mario World"", Yoshi's hard saddle was originally which of these?
+A. A poffin
+B. A spike
+C. A slide of Gelatin
+D. A shell
+Answer:","[""A poffin"", ""A spike"", ""A slide of Gelatin"", ""A shell""]",http,0.0,16,none,"{""id"":""chatcmpl-1h33lschg3w42oksd9h0c5"",""object"":""chat.completion"",""created"":1795554324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261124_215144,2026-11-24T21:05:25.131766+00:00
+fe078d370f1f75b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During development of ""Super Mario World"", Yoshi's hard saddle was originally which of these?
+A. A poffin
+B. A spike
+C. A slide of Gelatin
+D. A shell
+Answer:","[""A poffin"", ""A spike"", ""A slide of Gelatin"", ""A shell""]",http,0.0,16,none,"{""id"":""chatcmpl-vvmii9liipe0w89wl1jhos"",""object"":""chat.completion"",""created"":1795554325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8851,,MarianeAzar,20261124_215144,2026-11-24T21:05:26.017290+00:00
+43eb11ed22c6fd5d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Norway has a larger land area than Sweden.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-91jr6xgq3ee5akh4q2vpv"",""object"":""chat.completion"",""created"":1795554325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8056,,MarianeAzar,20261124_215144,2026-11-24T21:05:26.823297+00:00
+43eb11ed22c6fd5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Norway has a larger land area than Sweden.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nxu8or9pedj1fh5zyd5r7w"",""object"":""chat.completion"",""created"":1795554326,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8192,,MarianeAzar,20261124_215144,2026-11-24T21:05:27.642658+00:00

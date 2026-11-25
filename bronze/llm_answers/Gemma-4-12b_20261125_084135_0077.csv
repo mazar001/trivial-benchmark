@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+3dbd074259024eb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which continent is considered the largest and most populous continent in the world?
+A. Africa
+B. North America
+C. Europe
+D. Asia
+Answer:","[""Africa"", ""North America"", ""Europe"", ""Asia""]",http,0.0,16,none,"{""id"":""chatcmpl-wtu1kqe2ljoidwoppagri"",""object"":""chat.completion"",""created"":1795594243,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4104,,MarianeAzar,20261125_084135,2026-11-25T08:10:45.112051+00:00
+753b517e0d08139f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which football player is featured on the international cover version of the video game FIFA 16?
+A. Wayne Rooney
+B. Cristiano Ronaldo
+C. David Beckham
+D. Lionel Messi
+Answer:","[""Wayne Rooney"", ""Cristiano Ronaldo"", ""David Beckham"", ""Lionel Messi""]",http,0.0,16,none,"{""id"":""chatcmpl-xl68eygpswlpyybn3wq1v"",""object"":""chat.completion"",""created"":1795594244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9086,,MarianeAzar,20261125_084135,2026-11-25T08:10:46.021053+00:00
+753b517e0d08139f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which football player is featured on the international cover version of the video game FIFA 16?
+A. Wayne Rooney
+B. Cristiano Ronaldo
+C. David Beckham
+D. Lionel Messi
+Answer:","[""Wayne Rooney"", ""Cristiano Ronaldo"", ""David Beckham"", ""Lionel Messi""]",http,0.0,16,none,"{""id"":""chatcmpl-09tetgbubi70pnh1kaey8tb"",""object"":""chat.completion"",""created"":1795594245,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9715,,MarianeAzar,20261125_084135,2026-11-25T08:10:46.992805+00:00
+09aa5d952796f611,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Soviet revolutionaries was exiled from the USSR and later assassinated in 1940 for criticizing Stalinism?
+A. Vladimir Lenin
+B. Mikhail Kalinin
+C. Lev Kamenev
+D. Leon Trotsky
+Answer:","[""Vladimir Lenin"", ""Mikhail Kalinin"", ""Lev Kamenev"", ""Leon Trotsky""]",http,0.0,16,none,"{""id"":""chatcmpl-aevxxm9g4tgskcd1lspzhr"",""object"":""chat.completion"",""created"":1795594246,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3995,,MarianeAzar,20261125_084135,2026-11-25T08:10:48.392481+00:00
+09aa5d952796f611,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Soviet revolutionaries was exiled from the USSR and later assassinated in 1940 for criticizing Stalinism?
+A. Vladimir Lenin
+B. Mikhail Kalinin
+C. Lev Kamenev
+D. Leon Trotsky
+Answer:","[""Vladimir Lenin"", ""Mikhail Kalinin"", ""Lev Kamenev"", ""Leon Trotsky""]",http,0.0,16,none,"{""id"":""chatcmpl-3g7jhasodbvbh12fsuwtl"",""object"":""chat.completion"",""created"":1795594247,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0697,,MarianeAzar,20261125_084135,2026-11-25T08:10:49.462368+00:00
+d01fc93a3082acaa,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Resident Evil 7"" is the first first-person Resident Evil game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t0ni3rcbprelib3u1djmhe"",""object"":""chat.completion"",""created"":1795594248,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.965,,MarianeAzar,20261125_084135,2026-11-25T08:10:50.427907+00:00
+d01fc93a3082acaa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Resident Evil 7"" is the first first-person Resident Evil game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-52hkrtn66w67xoeadjn5g9"",""object"":""chat.completion"",""created"":1795594249,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3786,,MarianeAzar,20261125_084135,2026-11-25T08:10:51.806727+00:00
+bbd1885b151eb855,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was The Velvet Underground's first album called?
+A. Loaded
+B. White Light / White Heat
+C. The Velvet Underground
+D. The Velvet Underground & Nico
+Answer:","[""Loaded"", ""White Light / White Heat"", ""The Velvet Underground"", ""The Velvet Underground & Nico""]",http,0.0,16,none,"{""id"":""chatcmpl-ynqatqlzeei23i3wyopcj7"",""object"":""chat.completion"",""created"":1795594251,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1315,,MarianeAzar,20261125_084135,2026-11-25T08:10:52.938610+00:00
+bbd1885b151eb855,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was The Velvet Underground's first album called?
+A. Loaded
+B. White Light / White Heat
+C. The Velvet Underground
+D. The Velvet Underground & Nico
+Answer:","[""Loaded"", ""White Light / White Heat"", ""The Velvet Underground"", ""The Velvet Underground & Nico""]",http,0.0,16,none,"{""id"":""chatcmpl-spirrodlfu82oyzwsl6yjm"",""object"":""chat.completion"",""created"":1795594252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9655,,MarianeAzar,20261125_084135,2026-11-25T08:10:53.904423+00:00
+5eac3320d7c72445,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Phoenix Wright: Ace Attorney"" which character is the District Chief of Police?
+A. Mike Meekins
+B. Miles Edgeworth
+C. Lana Skye
+D. Damon Gant
+Answer:","[""Mike Meekins"", ""Miles Edgeworth"", ""Lana Skye"", ""Damon Gant""]",http,0.0,16,none,"{""id"":""chatcmpl-bw1y0a0ztisyny5at2plik"",""object"":""chat.completion"",""created"":1795594253,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0209,,MarianeAzar,20261125_084135,2026-11-25T08:10:54.925861+00:00
+5eac3320d7c72445,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Phoenix Wright: Ace Attorney"" which character is the District Chief of Police?
+A. Mike Meekins
+B. Miles Edgeworth
+C. Lana Skye
+D. Damon Gant
+Answer:","[""Mike Meekins"", ""Miles Edgeworth"", ""Lana Skye"", ""Damon Gant""]",http,0.0,16,none,"{""id"":""chatcmpl-zg1dpg1jfkih88xww3jaq"",""object"":""chat.completion"",""created"":1795594254,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4533,,MarianeAzar,20261125_084135,2026-11-25T08:10:56.379526+00:00
+f10ae8588903c4c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: My Hero Academia's main character Midoriya goes by what superhero name?
+A. Deku
+B. All Might
+C. Saitama
+D. Kona
+Answer:","[""Deku"", ""All Might"", ""Saitama"", ""Kona""]",http,0.0,16,none,"{""id"":""chatcmpl-s8q1u27pz3fmilow7zsq"",""object"":""chat.completion"",""created"":1795594255,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9408,,MarianeAzar,20261125_084135,2026-11-25T08:10:57.320720+00:00
+f10ae8588903c4c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: My Hero Academia's main character Midoriya goes by what superhero name?
+A. Deku
+B. All Might
+C. Saitama
+D. Kona
+Answer:","[""Deku"", ""All Might"", ""Saitama"", ""Kona""]",http,0.0,16,none,"{""id"":""chatcmpl-6upjmwvj6cca2zibwvzpjt"",""object"":""chat.completion"",""created"":1795594256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.939,,MarianeAzar,20261125_084135,2026-11-25T08:10:58.259945+00:00
+3a04e19af38953e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: America's Strategic Defense System during the Cold War was nicknamed after this famous movie.
+A. Blade Runner
+B. Star Wars
+C. Jaws
+D. Alien
+Answer:","[""Blade Runner"", ""Star Wars"", ""Jaws"", ""Alien""]",http,0.0,16,none,"{""id"":""chatcmpl-qtytjf13lrvzi179puf4f"",""object"":""chat.completion"",""created"":1795594257,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2599,,MarianeAzar,20261125_084135,2026-11-25T08:10:59.520031+00:00
+3a04e19af38953e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: America's Strategic Defense System during the Cold War was nicknamed after this famous movie.
+A. Blade Runner
+B. Star Wars
+C. Jaws
+D. Alien
+Answer:","[""Blade Runner"", ""Star Wars"", ""Jaws"", ""Alien""]",http,0.0,16,none,"{""id"":""chatcmpl-lu30a16pa8e517bnmwal2l"",""object"":""chat.completion"",""created"":1795594258,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0833,,MarianeAzar,20261125_084135,2026-11-25T08:11:00.603697+00:00
+e81c13d6ba9de511,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The main objective of the German operation ""Case Blue"" during World War II was originally to capture what?
+A. Stalingrad
+B. Crimea
+C. Caucasus
+D. Voronezh
+Answer:","[""Stalingrad"", ""Crimea"", ""Caucasus"", ""Voronezh""]",http,0.0,16,none,"{""id"":""chatcmpl-sl4ven7oehmbhvsq9nv4wr"",""object"":""chat.completion"",""created"":1795594260,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.939,,MarianeAzar,20261125_084135,2026-11-25T08:11:01.543393+00:00
+e81c13d6ba9de511,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The main objective of the German operation ""Case Blue"" during World War II was originally to capture what?
+A. Stalingrad
+B. Crimea
+C. Caucasus
+D. Voronezh
+Answer:","[""Stalingrad"", ""Crimea"", ""Caucasus"", ""Voronezh""]",http,0.0,16,none,"{""id"":""chatcmpl-kogsm5fdj9g852jdvw8na6"",""object"":""chat.completion"",""created"":1795594261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0052,,MarianeAzar,20261125_084135,2026-11-25T08:11:02.548953+00:00
+c78f7102b71455fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Neptune's greek name was...
+A. Apollo
+B. Zeus
+C. Poseidon
+D. Ares
+Answer:","[""Apollo"", ""Zeus"", ""Poseidon"", ""Ares""]",http,0.0,16,none,"{""id"":""chatcmpl-eg9oyxx7y48nmwogahfkc"",""object"":""chat.completion"",""created"":1795594261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3761,,MarianeAzar,20261125_084135,2026-11-25T08:11:03.925379+00:00
+c78f7102b71455fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Neptune's greek name was...
+A. Apollo
+B. Zeus
+C. Poseidon
+D. Ares
+Answer:","[""Apollo"", ""Zeus"", ""Poseidon"", ""Ares""]",http,0.0,16,none,"{""id"":""chatcmpl-5aahxs9dl4xpji841i0db"",""object"":""chat.completion"",""created"":1795594263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9169,,MarianeAzar,20261125_084135,2026-11-25T08:11:04.842548+00:00
+6949c6f6ff124b23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first MMORPG to popularize the genre?
+A. Meridian 59
+B. World of Warcraft
+C. Guild Wars
+D. Ultima Online
+Answer:","[""Meridian 59"", ""World of Warcraft"", ""Guild Wars"", ""Ultima Online""]",http,0.0,16,none,"{""id"":""chatcmpl-rnd3f17gl38ntqzrl30w2"",""object"":""chat.completion"",""created"":1795594264,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9436,,MarianeAzar,20261125_084135,2026-11-25T08:11:05.786753+00:00
+6949c6f6ff124b23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first MMORPG to popularize the genre?
+A. Meridian 59
+B. World of Warcraft
+C. Guild Wars
+D. Ultima Online
+Answer:","[""Meridian 59"", ""World of Warcraft"", ""Guild Wars"", ""Ultima Online""]",http,0.0,16,none,"{""id"":""chatcmpl-nh3uaxhxpumlm1c7kjgq"",""object"":""chat.completion"",""created"":1795594265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4012,,MarianeAzar,20261125_084135,2026-11-25T08:11:07.188346+00:00
+ba32932168dfcea1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does TIE stand for in reference to the TIE Fighter in ""Star Wars""?
+A. Twin Ion Engine
+B. Twin Intercepter Engine
+C. Twin Iron Engine
+D. Twin Inception Engine
+Answer:","[""Twin Ion Engine"", ""Twin Intercepter Engine"", ""Twin Iron Engine"", ""Twin Inception Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-lvfzr3sfbxyuou470xie"",""object"":""chat.completion"",""created"":1795594266,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9245,,MarianeAzar,20261125_084135,2026-11-25T08:11:08.113182+00:00
+ba32932168dfcea1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does TIE stand for in reference to the TIE Fighter in ""Star Wars""?
+A. Twin Ion Engine
+B. Twin Intercepter Engine
+C. Twin Iron Engine
+D. Twin Inception Engine
+Answer:","[""Twin Ion Engine"", ""Twin Intercepter Engine"", ""Twin Iron Engine"", ""Twin Inception Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-osbdw7cnm8bciscciy7loc"",""object"":""chat.completion"",""created"":1795594267,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9846,,MarianeAzar,20261125_084135,2026-11-25T08:11:09.098065+00:00
+2c9ca47252f27622,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a world in the anime ""Buddyfight""?
+A. Star Dragon World
+B. Dragon World
+C. Darkness Dragon World
+D. Ancient Dragon World
+Answer:","[""Star Dragon World"", ""Dragon World"", ""Darkness Dragon World"", ""Ancient Dragon World""]",http,0.0,16,none,"{""id"":""chatcmpl-7lo46cmtem9xx1uwx7v2n"",""object"":""chat.completion"",""created"":1795594268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4106,,MarianeAzar,20261125_084135,2026-11-25T08:11:10.509027+00:00
+2c9ca47252f27622,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a world in the anime ""Buddyfight""?
+A. Star Dragon World
+B. Dragon World
+C. Darkness Dragon World
+D. Ancient Dragon World
+Answer:","[""Star Dragon World"", ""Dragon World"", ""Darkness Dragon World"", ""Ancient Dragon World""]",http,0.0,16,none,"{""id"":""chatcmpl-jddlmzowp4h2gzsj2cv4d"",""object"":""chat.completion"",""created"":1795594269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9574,,MarianeAzar,20261125_084135,2026-11-25T08:11:11.466753+00:00

@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+301ee477431b9248,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Simpsons, which war did Seymour Skinner serve in the USA Army as a Green Beret?
+A. World War 1
+B. Vietnam War
+C. Cold War
+D. World War 2
+Answer:","[""World War 1"", ""Vietnam War"", ""Cold War"", ""World War 2""]",http,0.0,16,none,"{""id"":""chatcmpl-raia0k733frrl8nhtq1g8"",""object"":""chat.completion"",""created"":1795558317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9067,,MarianeAzar,20261124_215144,2026-11-24T22:11:58.934514+00:00
+301ee477431b9248,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Simpsons, which war did Seymour Skinner serve in the USA Army as a Green Beret?
+A. World War 1
+B. Vietnam War
+C. Cold War
+D. World War 2
+Answer:","[""World War 1"", ""Vietnam War"", ""Cold War"", ""World War 2""]",http,0.0,16,none,"{""id"":""chatcmpl-o5t6k82ynxpkkp79vs91"",""object"":""chat.completion"",""created"":1795558318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9187,,MarianeAzar,20261124_215144,2026-11-24T22:11:59.853369+00:00
+df58e3cc5c12087e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year is on the flag of the US state Wisconsin?
+A. 1634
+B. 1848
+C. 1783
+D. 1901
+Answer:","[""1634"", ""1848"", ""1783"", ""1901""]",http,0.0,16,none,"{""id"":""chatcmpl-imggqwdfsup7s3bf9klwa"",""object"":""chat.completion"",""created"":1795558319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8898,,MarianeAzar,20261124_215144,2026-11-24T22:12:00.743302+00:00
+df58e3cc5c12087e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year is on the flag of the US state Wisconsin?
+A. 1634
+B. 1848
+C. 1783
+D. 1901
+Answer:","[""1634"", ""1848"", ""1783"", ""1901""]",http,0.0,16,none,"{""id"":""chatcmpl-84gzmfjfx8thiant6xxqm7"",""object"":""chat.completion"",""created"":1795558320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.89,,MarianeAzar,20261124_215144,2026-11-24T22:12:01.633514+00:00
+daf3f6e9999561b5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The cover of The Beatles album ""Abbey Road"" featured a Volkswagen Beetle in the background.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w6yv0u70w3o02jh53jf0b"",""object"":""chat.completion"",""created"":1795558321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8283,,MarianeAzar,20261124_215144,2026-11-24T22:12:02.461972+00:00
+daf3f6e9999561b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The cover of The Beatles album ""Abbey Road"" featured a Volkswagen Beetle in the background.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ywxk8hmfc1dgvghrn3k8ta"",""object"":""chat.completion"",""created"":1795558322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8409,,MarianeAzar,20261124_215144,2026-11-24T22:12:03.302992+00:00
+d45bc1d892590d54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Tron: Legacy, Kevin Flynn wrote a program to create the perfect system. What was the program's name?
+A. Clu
+B. Quorra
+C. Tron
+D. MCP
+Answer:","[""Clu"", ""Quorra"", ""Tron"", ""MCP""]",http,0.0,16,none,"{""id"":""chatcmpl-cupix5wgbwev17zgnects"",""object"":""chat.completion"",""created"":1795558323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261124_215144,2026-11-24T22:12:04.151284+00:00
+d45bc1d892590d54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Tron: Legacy, Kevin Flynn wrote a program to create the perfect system. What was the program's name?
+A. Clu
+B. Quorra
+C. Tron
+D. MCP
+Answer:","[""Clu"", ""Quorra"", ""Tron"", ""MCP""]",http,0.0,16,none,"{""id"":""chatcmpl-hvq3jn02wrg266n7wt84rf"",""object"":""chat.completion"",""created"":1795558324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.888,,MarianeAzar,20261124_215144,2026-11-24T22:12:05.039545+00:00
+9eb81b27f1492246,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Meg's full name in ""Family Guy""?
+A. Neil Griffin
+B. Megatron Griffin
+C. Megan Griffin
+D. Who-Cares Griffin
+Answer:","[""Neil Griffin"", ""Megatron Griffin"", ""Megan Griffin"", ""Who-Cares Griffin""]",http,0.0,16,none,"{""id"":""chatcmpl-4lx2ue1o118p2t12eeu9a"",""object"":""chat.completion"",""created"":1795558324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8872,,MarianeAzar,20261124_215144,2026-11-24T22:12:05.927293+00:00
+9eb81b27f1492246,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Meg's full name in ""Family Guy""?
+A. Neil Griffin
+B. Megatron Griffin
+C. Megan Griffin
+D. Who-Cares Griffin
+Answer:","[""Neil Griffin"", ""Megatron Griffin"", ""Megan Griffin"", ""Who-Cares Griffin""]",http,0.0,16,none,"{""id"":""chatcmpl-bglro285nrtcwptfmllel8"",""object"":""chat.completion"",""created"":1795558325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261124_215144,2026-11-24T22:12:06.792923+00:00
+0cffe12c796c1075,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Happy Face was created by commercial artist Harvey Ball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gtf4ghossqtra84jgbroq"",""object"":""chat.completion"",""created"":1795558326,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8028,,MarianeAzar,20261124_215144,2026-11-24T22:12:07.596467+00:00
+0cffe12c796c1075,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Happy Face was created by commercial artist Harvey Ball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ejh2xhj2ojcgfwey486s98"",""object"":""chat.completion"",""created"":1795558327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.809,,MarianeAzar,20261124_215144,2026-11-24T22:12:08.405656+00:00
+a7a4df36757871ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the Mona Lisa finished?
+A. 1511
+B. 1523
+C. 1487
+D. 1504
+Answer:","[""1511"", ""1523"", ""1487"", ""1504""]",http,0.0,16,none,"{""id"":""chatcmpl-a6x17elvlm9ccxmnn8n97o"",""object"":""chat.completion"",""created"":1795558328,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261124_215144,2026-11-24T22:12:09.257389+00:00
+a7a4df36757871ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the Mona Lisa finished?
+A. 1511
+B. 1523
+C. 1487
+D. 1504
+Answer:","[""1511"", ""1523"", ""1487"", ""1504""]",http,0.0,16,none,"{""id"":""chatcmpl-jifz3jukubimnu7fjwg4mq"",""object"":""chat.completion"",""created"":1795558329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9447,,MarianeAzar,20261124_215144,2026-11-24T22:12:10.202210+00:00
+8752086d21fb8aa7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these artists do NOT originate from France?
+A. Air
+B. Justice
+C. The Chemical Brothers
+D. Daft Punk
+Answer:","[""Air"", ""Justice"", ""The Chemical Brothers"", ""Daft Punk""]",http,0.0,16,none,"{""id"":""chatcmpl-s8rm0j0gu1g8bej70yayw"",""object"":""chat.completion"",""created"":1795558330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8447,,MarianeAzar,20261124_215144,2026-11-24T22:12:11.047011+00:00
+8752086d21fb8aa7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these artists do NOT originate from France?
+A. Air
+B. Justice
+C. The Chemical Brothers
+D. Daft Punk
+Answer:","[""Air"", ""Justice"", ""The Chemical Brothers"", ""Daft Punk""]",http,0.0,16,none,"{""id"":""chatcmpl-c2oayobdhv98icdetlnz15"",""object"":""chat.completion"",""created"":1795558330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8496,,MarianeAzar,20261124_215144,2026-11-24T22:12:11.896772+00:00
+69ac8adf273f18bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?
+A. Necessary Evil
+B. Full House
+C. The Great Artiste
+D. Enola Gay
+Answer:","[""Necessary Evil"", ""Full House"", ""The Great Artiste"", ""Enola Gay""]",http,0.0,16,none,"{""id"":""chatcmpl-yxoji390d87yp4nxe0bf6o"",""object"":""chat.completion"",""created"":1795558331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261124_215144,2026-11-24T22:12:12.757897+00:00
+69ac8adf273f18bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?
+A. Necessary Evil
+B. Full House
+C. The Great Artiste
+D. Enola Gay
+Answer:","[""Necessary Evil"", ""Full House"", ""The Great Artiste"", ""Enola Gay""]",http,0.0,16,none,"{""id"":""chatcmpl-8kfnhjc9zgefuo5iffq1cq"",""object"":""chat.completion"",""created"":1795558332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8799,,MarianeAzar,20261124_215144,2026-11-24T22:12:13.638032+00:00
+1757b49228d719bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT the name of an album released by American rapper Viper?
+A. Yo Wife Handcuffin' Me
+B. The Life of Pablo
+C. You'll Cowards Don't Even Smoke Crack
+D. Kill Urself My Man
+Answer:","[""Yo Wife Handcuffin' Me"", ""The Life of Pablo"", ""You'll Cowards Don't Even Smoke Crack"", ""Kill Urself My Man""]",http,0.0,16,none,"{""id"":""chatcmpl-8ijeyr5j0h3no6rg1hkqpo"",""object"":""chat.completion"",""created"":1795558333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9149,,MarianeAzar,20261124_215144,2026-11-24T22:12:14.553118+00:00
+1757b49228d719bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT the name of an album released by American rapper Viper?
+A. Yo Wife Handcuffin' Me
+B. The Life of Pablo
+C. You'll Cowards Don't Even Smoke Crack
+D. Kill Urself My Man
+Answer:","[""Yo Wife Handcuffin' Me"", ""The Life of Pablo"", ""You'll Cowards Don't Even Smoke Crack"", ""Kill Urself My Man""]",http,0.0,16,none,"{""id"":""chatcmpl-l0k3hf7xcriqx0w1efa4f"",""object"":""chat.completion"",""created"":1795558334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9006,,MarianeAzar,20261124_215144,2026-11-24T22:12:15.454060+00:00
+7901cdbddc192508,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many regular Sunken Sea Scrolls are there in ""Splatoon""?
+A. 5
+B. 27
+C. 32
+D. 30
+Answer:","[""5"", ""27"", ""32"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-4ix2kw5w34qa4xx8cosl1"",""object"":""chat.completion"",""created"":1795558335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261124_215144,2026-11-24T22:12:16.328351+00:00
+7901cdbddc192508,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many regular Sunken Sea Scrolls are there in ""Splatoon""?
+A. 5
+B. 27
+C. 32
+D. 30
+Answer:","[""5"", ""27"", ""32"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-cihciq9558llm2vnczfx57"",""object"":""chat.completion"",""created"":1795558336,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261124_215144,2026-11-24T22:12:17.188392+00:00
+86b1851aac4c7d3b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Winnie the Pooh's gloomy donkey friend?
+A. Piglet
+B. Kanga
+C. Eeyore
+D. Tigger
+Answer:","[""Piglet"", ""Kanga"", ""Eeyore"", ""Tigger""]",http,0.0,16,none,"{""id"":""chatcmpl-aahd1u5j24d6jfvy6xkp8"",""object"":""chat.completion"",""created"":1795558337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261124_215144,2026-11-24T22:12:18.058322+00:00
+86b1851aac4c7d3b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Winnie the Pooh's gloomy donkey friend?
+A. Piglet
+B. Kanga
+C. Eeyore
+D. Tigger
+Answer:","[""Piglet"", ""Kanga"", ""Eeyore"", ""Tigger""]",http,0.0,16,none,"{""id"":""chatcmpl-3zit35mr4dh4kzzzzc8dqf"",""object"":""chat.completion"",""created"":1795558337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8662,,MarianeAzar,20261124_215144,2026-11-24T22:12:18.924772+00:00
+a4a8f9f4f9ad21a5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is not a playable race in ""Final Fantasy XIV: A Realm Reborn""?
+A. Miqo'te
+B. Hume
+C. Lalafell
+D. Roegadyn
+Answer:","[""Miqo'te"", ""Hume"", ""Lalafell"", ""Roegadyn""]",http,0.0,16,none,"{""id"":""chatcmpl-f385489lrxcpw1q6w40g"",""object"":""chat.completion"",""created"":1795558338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261124_215144,2026-11-24T22:12:19.783734+00:00

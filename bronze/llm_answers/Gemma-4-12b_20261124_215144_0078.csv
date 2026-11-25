@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+27417b65f03624ee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Texas city is nicknamed ""The Yellow Rose of Texas""?
+A. Frisco
+B. Houston
+C. Amarillo
+D. Corpus Christi
+Answer:","[""Frisco"", ""Houston"", ""Amarillo"", ""Corpus Christi""]",http,0.0,16,none,"{""id"":""chatcmpl-dncrblwioh5i8m65zxr4wa"",""object"":""chat.completion"",""created"":1795560617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8947,,MarianeAzar,20261124_215144,2026-11-24T22:50:18.055140+00:00
+27417b65f03624ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Texas city is nicknamed ""The Yellow Rose of Texas""?
+A. Frisco
+B. Houston
+C. Amarillo
+D. Corpus Christi
+Answer:","[""Frisco"", ""Houston"", ""Amarillo"", ""Corpus Christi""]",http,0.0,16,none,"{""id"":""chatcmpl-anyrzkek47bn6ee5hicrin"",""object"":""chat.completion"",""created"":1795560617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8682,,MarianeAzar,20261124_215144,2026-11-24T22:50:18.923588+00:00
+88a8ca98ba7f9ea4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many square faces does a cube have?
+A. 10
+B. 4
+C. 6
+D. 8
+Answer:","[""10"", ""4"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-10bmvjbw1edlhkaflyxbxeu"",""object"":""chat.completion"",""created"":1795560618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261124_215144,2026-11-24T22:50:19.779191+00:00
+88a8ca98ba7f9ea4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many square faces does a cube have?
+A. 10
+B. 4
+C. 6
+D. 8
+Answer:","[""10"", ""4"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-aedooj0vvrah1yumzdonn"",""object"":""chat.completion"",""created"":1795560619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261124_215144,2026-11-24T22:50:20.630708+00:00
+58d84860104a7340,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", ""Richtofen"" is in possession of two filled blood vials belonging to who?
+A. Richtofen
+B. Jessica Rose and Jack Vincent
+C. Al Arlington and Sal DeLuca
+D. Sal DeLuca and Finn O'Leary
+Answer:","[""Richtofen"", ""Jessica Rose and Jack Vincent"", ""Al Arlington and Sal DeLuca"", ""Sal DeLuca and Finn O'Leary""]",http,0.0,16,none,"{""id"":""chatcmpl-va6rydd0nimo6do5ld32"",""object"":""chat.completion"",""created"":1795560620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8842,,MarianeAzar,20261124_215144,2026-11-24T22:50:21.515267+00:00
+58d84860104a7340,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", ""Richtofen"" is in possession of two filled blood vials belonging to who?
+A. Richtofen
+B. Jessica Rose and Jack Vincent
+C. Al Arlington and Sal DeLuca
+D. Sal DeLuca and Finn O'Leary
+Answer:","[""Richtofen"", ""Jessica Rose and Jack Vincent"", ""Al Arlington and Sal DeLuca"", ""Sal DeLuca and Finn O'Leary""]",http,0.0,16,none,"{""id"":""chatcmpl-ouuv7811imj5blx7fo54"",""object"":""chat.completion"",""created"":1795560621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9372,,MarianeAzar,20261124_215144,2026-11-24T22:50:22.452721+00:00
+3308c05185b3e7db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which film has been critically regarded as the best film of all time?
+A. Citizen Kane
+B. The Godfather Part II
+C. The Room
+D. Avatar
+Answer:","[""Citizen Kane"", ""The Godfather Part II"", ""The Room"", ""Avatar""]",http,0.0,16,none,"{""id"":""chatcmpl-n0a7nasz6mshglbkd58ge"",""object"":""chat.completion"",""created"":1795560622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261124_215144,2026-11-24T22:50:23.334607+00:00
+3308c05185b3e7db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which film has been critically regarded as the best film of all time?
+A. Citizen Kane
+B. The Godfather Part II
+C. The Room
+D. Avatar
+Answer:","[""Citizen Kane"", ""The Godfather Part II"", ""The Room"", ""Avatar""]",http,0.0,16,none,"{""id"":""chatcmpl-7jyoepv1q3akklqg3dsck"",""object"":""chat.completion"",""created"":1795560623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8848,,MarianeAzar,20261124_215144,2026-11-24T22:50:24.219669+00:00
+ecedf43085da54fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Doctor Who universe, how many times can a time lord normally regenerate?
+A. 11
+B. 15
+C. 12
+D. 13
+Answer:","[""11"", ""15"", ""12"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-p5zwjdtivpet93cbnlwls"",""object"":""chat.completion"",""created"":1795560624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261124_215144,2026-11-24T22:50:25.098785+00:00
+ecedf43085da54fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Doctor Who universe, how many times can a time lord normally regenerate?
+A. 11
+B. 15
+C. 12
+D. 13
+Answer:","[""11"", ""15"", ""12"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-ir5395n9epsr9b6ptcu9i"",""object"":""chat.completion"",""created"":1795560624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261124_215144,2026-11-24T22:50:25.957254+00:00
+9454055500845779,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which manga did the ""404 Girl"" from 4chan originate from?
+A. Clover
+B. Lucky Star
+C. Yotsuba&!
+D. Azumanga Daioh
+Answer:","[""Clover"", ""Lucky Star"", ""Yotsuba&!"", ""Azumanga Daioh""]",http,0.0,16,none,"{""id"":""chatcmpl-b9zw2rn7u8w3vvhkc6x4j2"",""object"":""chat.completion"",""created"":1795560625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8925,,MarianeAzar,20261124_215144,2026-11-24T22:50:26.850376+00:00
+9454055500845779,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which manga did the ""404 Girl"" from 4chan originate from?
+A. Clover
+B. Lucky Star
+C. Yotsuba&!
+D. Azumanga Daioh
+Answer:","[""Clover"", ""Lucky Star"", ""Yotsuba&!"", ""Azumanga Daioh""]",http,0.0,16,none,"{""id"":""chatcmpl-zrtadj10lzd7jrv8mulsk"",""object"":""chat.completion"",""created"":1795560626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.878,,MarianeAzar,20261124_215144,2026-11-24T22:50:27.728565+00:00
+16b8dd96c2adc45f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the currency of Poland?
+A. Krone
+B. Euro
+C. Ruble
+D. Złoty
+Answer:","[""Krone"", ""Euro"", ""Ruble"", ""Złoty""]",http,0.0,16,none,"{""id"":""chatcmpl-d3at40xwtb57w62udwff7"",""object"":""chat.completion"",""created"":1795560627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261124_215144,2026-11-24T22:50:28.588784+00:00
+16b8dd96c2adc45f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the currency of Poland?
+A. Krone
+B. Euro
+C. Ruble
+D. Złoty
+Answer:","[""Krone"", ""Euro"", ""Ruble"", ""Złoty""]",http,0.0,16,none,"{""id"":""chatcmpl-e79trj962lft8rpz3fna5q"",""object"":""chat.completion"",""created"":1795560628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261124_215144,2026-11-24T22:50:29.451544+00:00
+c48bb50ff2593ac1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?
+A. MSTRKRFT
+B. MGMT
+C. STRFKR
+D. SBTRKT
+Answer:","[""MSTRKRFT"", ""MGMT"", ""STRFKR"", ""SBTRKT""]",http,0.0,16,none,"{""id"":""chatcmpl-gnseauj61jsmpcokea2wsk"",""object"":""chat.completion"",""created"":1795560629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8696,,MarianeAzar,20261124_215144,2026-11-24T22:50:30.321436+00:00
+c48bb50ff2593ac1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?
+A. MSTRKRFT
+B. MGMT
+C. STRFKR
+D. SBTRKT
+Answer:","[""MSTRKRFT"", ""MGMT"", ""STRFKR"", ""SBTRKT""]",http,0.0,16,none,"{""id"":""chatcmpl-5lyi72w4fh7m7w3fyn7gpp"",""object"":""chat.completion"",""created"":1795560630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9007,,MarianeAzar,20261124_215144,2026-11-24T22:50:31.222597+00:00
+9571941d5a79b8f9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During the 2016 United States presidential election, the State of California possessed the most electoral votes, having 55.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9pt1iq0lmqpugq66edka"",""object"":""chat.completion"",""created"":1795560631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261124_215144,2026-11-24T22:50:32.084609+00:00
+9571941d5a79b8f9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During the 2016 United States presidential election, the State of California possessed the most electoral votes, having 55.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-73t5oaobb16whxztfnh8pl"",""object"":""chat.completion"",""created"":1795560631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261124_215144,2026-11-24T22:50:32.931095+00:00
+9ddb076f37b483ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car tire manufacturer is famous for its ""P Zero"" line?
+A. Pirelli
+B. Bridgestone
+C. Goodyear
+D. Michelin
+Answer:","[""Pirelli"", ""Bridgestone"", ""Goodyear"", ""Michelin""]",http,0.0,16,none,"{""id"":""chatcmpl-6wl95em7akjem2kb8o4hrd"",""object"":""chat.completion"",""created"":1795560632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261124_215144,2026-11-24T22:50:33.783698+00:00
+9ddb076f37b483ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car tire manufacturer is famous for its ""P Zero"" line?
+A. Pirelli
+B. Bridgestone
+C. Goodyear
+D. Michelin
+Answer:","[""Pirelli"", ""Bridgestone"", ""Goodyear"", ""Michelin""]",http,0.0,16,none,"{""id"":""chatcmpl-98y2htwcwjqh5civbblfjv"",""object"":""chat.completion"",""created"":1795560633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261124_215144,2026-11-24T22:50:34.646502+00:00
+ac62fca03dd95cc3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What breed of dog is ""Scooby Doo""?
+A. Pit bull
+B. Great Dane
+C. Doberman Pinscher
+D. Boxer
+Answer:","[""Pit bull"", ""Great Dane"", ""Doberman Pinscher"", ""Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-lzqb0unx4s75upa1sgsx"",""object"":""chat.completion"",""created"":1795560634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261124_215144,2026-11-24T22:50:35.503101+00:00
+ac62fca03dd95cc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What breed of dog is ""Scooby Doo""?
+A. Pit bull
+B. Great Dane
+C. Doberman Pinscher
+D. Boxer
+Answer:","[""Pit bull"", ""Great Dane"", ""Doberman Pinscher"", ""Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-3zj2jhe7eg8sllndkqwqpg"",""object"":""chat.completion"",""created"":1795560635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261124_215144,2026-11-24T22:50:36.351818+00:00
+12e70b254eb664e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did O, Canada officially become the national anthem?
+A. 1920
+B. 1880
+C. 1980
+D. 1950
+Answer:","[""1920"", ""1880"", ""1980"", ""1950""]",http,0.0,16,none,"{""id"":""chatcmpl-fowzwczc168seft0hb39hi"",""object"":""chat.completion"",""created"":1795560636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261124_215144,2026-11-24T22:50:37.212507+00:00
+12e70b254eb664e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did O, Canada officially become the national anthem?
+A. 1920
+B. 1880
+C. 1980
+D. 1950
+Answer:","[""1920"", ""1880"", ""1980"", ""1950""]",http,0.0,16,none,"{""id"":""chatcmpl-e91khdtkbs8lr3fij9ybu"",""object"":""chat.completion"",""created"":1795560637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8778,,MarianeAzar,20261124_215144,2026-11-24T22:50:38.090598+00:00
+186f90261dca6ae7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what Harry Potter book was a Horcrux first encountered?
+A. The Deathly Hallows
+B. The Chamber of Secrets
+C. The Half-Blood Prince
+D. The Goblet of Fire
+Answer:","[""The Deathly Hallows"", ""The Chamber of Secrets"", ""The Half-Blood Prince"", ""The Goblet of Fire""]",http,0.0,16,none,"{""id"":""chatcmpl-3lvn87ak9osv668l43j5v"",""object"":""chat.completion"",""created"":1795560637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261124_215144,2026-11-24T22:50:38.949420+00:00

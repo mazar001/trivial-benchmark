@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f94a83abcef69208,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: San Marino is the only country completely surrounded by another country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ozfzsosp0tmsjq2cfg3af"",""object"":""chat.completion"",""created"":1795593994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.325,,MarianeAzar,20261125_084135,2026-11-25T08:06:36.853003+00:00
+f94a83abcef69208,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: San Marino is the only country completely surrounded by another country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jzo85o0vlos5zuv0fc0yqj"",""object"":""chat.completion"",""created"":1795593996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0767,,MarianeAzar,20261125_084135,2026-11-25T08:06:37.929895+00:00
+282e47b6ef51c4f9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Irish musician Hozier released a music track in 2013 titled, ""Take Me to ______""
+A. Church
+B. Synagogue
+C. Temple
+D. Mosque
+Answer:","[""Church"", ""Synagogue"", ""Temple"", ""Mosque""]",http,0.0,16,none,"{""id"":""chatcmpl-u4mmx7byxbxzy133gcsj"",""object"":""chat.completion"",""created"":1795593997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0218,,MarianeAzar,20261125_084135,2026-11-25T08:06:38.952025+00:00
+282e47b6ef51c4f9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Irish musician Hozier released a music track in 2013 titled, ""Take Me to ______""
+A. Church
+B. Synagogue
+C. Temple
+D. Mosque
+Answer:","[""Church"", ""Synagogue"", ""Temple"", ""Mosque""]",http,0.0,16,none,"{""id"":""chatcmpl-43xb2ltdkhavonjqjekf1h"",""object"":""chat.completion"",""created"":1795593998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9906,,MarianeAzar,20261125_084135,2026-11-25T08:06:39.943020+00:00
+f074234919b9980c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which CS:GO eSports team won the major event ESL One Cologne 2016?
+A. Fnatic
+B. SK Gaming
+C. Virtus.pro
+D. Team Liquid
+Answer:","[""Fnatic"", ""SK Gaming"", ""Virtus.pro"", ""Team Liquid""]",http,0.0,16,none,"{""id"":""chatcmpl-edudito7x1jrs459qhokws"",""object"":""chat.completion"",""created"":1795593999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2709,,MarianeAzar,20261125_084135,2026-11-25T08:06:41.214347+00:00
+f074234919b9980c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which CS:GO eSports team won the major event ESL One Cologne 2016?
+A. Fnatic
+B. SK Gaming
+C. Virtus.pro
+D. Team Liquid
+Answer:","[""Fnatic"", ""SK Gaming"", ""Virtus.pro"", ""Team Liquid""]",http,0.0,16,none,"{""id"":""chatcmpl-kn91o45777m5wq8g6n0mf7"",""object"":""chat.completion"",""created"":1795594000,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0209,,MarianeAzar,20261125_084135,2026-11-25T08:06:42.235422+00:00
+fac1c3e7676c8921,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only nation that borders both Uruguay and Venezuela?
+A. Mexico
+B. Panama
+C. Chile
+D. Brazil
+Answer:","[""Mexico"", ""Panama"", ""Chile"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-imd1qgxiuafyjejzomuwe"",""object"":""chat.completion"",""created"":1795594001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1885,,MarianeAzar,20261125_084135,2026-11-25T08:06:43.424096+00:00
+fac1c3e7676c8921,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only nation that borders both Uruguay and Venezuela?
+A. Mexico
+B. Panama
+C. Chile
+D. Brazil
+Answer:","[""Mexico"", ""Panama"", ""Chile"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-54vedx6n0egv28bz89y24g"",""object"":""chat.completion"",""created"":1795594002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3169,,MarianeAzar,20261125_084135,2026-11-25T08:06:44.741230+00:00
+789a419670eff282,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country drives on the left side of the road?
+A. China
+B. Japan
+C. Russia
+D. Germany
+Answer:","[""China"", ""Japan"", ""Russia"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-35t3jjiiu79fs7ninpix5a"",""object"":""chat.completion"",""created"":1795594004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9241,,MarianeAzar,20261125_084135,2026-11-25T08:06:45.665559+00:00
+789a419670eff282,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country drives on the left side of the road?
+A. China
+B. Japan
+C. Russia
+D. Germany
+Answer:","[""China"", ""Japan"", ""Russia"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-o6bo4z65xoj1ao2s5baarg"",""object"":""chat.completion"",""created"":1795594005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9554,,MarianeAzar,20261125_084135,2026-11-25T08:06:46.621250+00:00
+af2fb1bf30289770,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in ""The Stanley Parable""?
+A. The Adventure Line
+B. The Boss
+C. Stanley
+D. The Narrator
+Answer:","[""The Adventure Line"", ""The Boss"", ""Stanley"", ""The Narrator""]",http,0.0,16,none,"{""id"":""chatcmpl-g6f3f1wlq5omarsf5k3wal"",""object"":""chat.completion"",""created"":1795594006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3483,,MarianeAzar,20261125_084135,2026-11-25T08:06:47.970120+00:00
+af2fb1bf30289770,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in ""The Stanley Parable""?
+A. The Adventure Line
+B. The Boss
+C. Stanley
+D. The Narrator
+Answer:","[""The Adventure Line"", ""The Boss"", ""Stanley"", ""The Narrator""]",http,0.0,16,none,"{""id"":""chatcmpl-kcx7145hohdq2j3yb05d"",""object"":""chat.completion"",""created"":1795594007,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9409,,MarianeAzar,20261125_084135,2026-11-25T08:06:48.911269+00:00
+ebdab72961106b35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these musicals won the Tony Award for Best Musical?
+A. Newsies
+B. Rent
+C. The Color Purple
+D. American Idiot
+Answer:","[""Newsies"", ""Rent"", ""The Color Purple"", ""American Idiot""]",http,0.0,16,none,"{""id"":""chatcmpl-7jorphz9uuac8g414nph"",""object"":""chat.completion"",""created"":1795594008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T08:06:49.784944+00:00
+ebdab72961106b35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these musicals won the Tony Award for Best Musical?
+A. Newsies
+B. Rent
+C. The Color Purple
+D. American Idiot
+Answer:","[""Newsies"", ""Rent"", ""The Color Purple"", ""American Idiot""]",http,0.0,16,none,"{""id"":""chatcmpl-s5srdk7c85me5up4kuzeuo"",""object"":""chat.completion"",""created"":1795594009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4458,,MarianeAzar,20261125_084135,2026-11-25T08:06:51.230955+00:00
+8aa8896426a97a5c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cartoons had a character named Heinz Doofenshmirtz?
+A. Phineas & Ferb
+B. Ren & Stimpy
+C. Batman: The Animated Series
+D. Ben 10
+Answer:","[""Phineas & Ferb"", ""Ren & Stimpy"", ""Batman: The Animated Series"", ""Ben 10""]",http,0.0,16,none,"{""id"":""chatcmpl-9dvq9yyt6fj0ggaa08xnd7s"",""object"":""chat.completion"",""created"":1795594010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9946,,MarianeAzar,20261125_084135,2026-11-25T08:06:52.225634+00:00
+8aa8896426a97a5c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cartoons had a character named Heinz Doofenshmirtz?
+A. Phineas & Ferb
+B. Ren & Stimpy
+C. Batman: The Animated Series
+D. Ben 10
+Answer:","[""Phineas & Ferb"", ""Ren & Stimpy"", ""Batman: The Animated Series"", ""Ben 10""]",http,0.0,16,none,"{""id"":""chatcmpl-lazaa7w8vnkgbn3xp66o9"",""object"":""chat.completion"",""created"":1795594011,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9672,,MarianeAzar,20261125_084135,2026-11-25T08:06:53.193008+00:00
+d96943693224c04d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Mean Girls"", who has breasts that tell when it's raining?
+A. Cady Heron
+B. Janice Ian
+C. Gretchen Weiners
+D. Karen Smith
+Answer:","[""Cady Heron"", ""Janice Ian"", ""Gretchen Weiners"", ""Karen Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-rxs405a169huciw7l8vtl"",""object"":""chat.completion"",""created"":1795594012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2961,,MarianeAzar,20261125_084135,2026-11-25T08:06:54.489324+00:00
+d96943693224c04d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Mean Girls"", who has breasts that tell when it's raining?
+A. Cady Heron
+B. Janice Ian
+C. Gretchen Weiners
+D. Karen Smith
+Answer:","[""Cady Heron"", ""Janice Ian"", ""Gretchen Weiners"", ""Karen Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-ro3ju70eniwhgy7au3rdo"",""object"":""chat.completion"",""created"":1795594013,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8884,,MarianeAzar,20261125_084135,2026-11-25T08:06:55.377889+00:00
+3f972a83dac20cd4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the most streamed artist on Spotify in 2019?
+A. Ariana Grande
+B. Drake
+C. Billie Eilish
+D. Post Malone
+Answer:","[""Ariana Grande"", ""Drake"", ""Billie Eilish"", ""Post Malone""]",http,0.0,16,none,"{""id"":""chatcmpl-9rj049kudqjv69mksx1r"",""object"":""chat.completion"",""created"":1795594014,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9449,,MarianeAzar,20261125_084135,2026-11-25T08:06:56.323068+00:00
+3f972a83dac20cd4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the most streamed artist on Spotify in 2019?
+A. Ariana Grande
+B. Drake
+C. Billie Eilish
+D. Post Malone
+Answer:","[""Ariana Grande"", ""Drake"", ""Billie Eilish"", ""Post Malone""]",http,0.0,16,none,"{""id"":""chatcmpl-9sosoaaly993gseq2vct0g"",""object"":""chat.completion"",""created"":1795594015,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3055,,MarianeAzar,20261125_084135,2026-11-25T08:06:57.628890+00:00
+58962c990bd5081b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Breaking Bad,"" which main character was planned to be killed in Season 1 but wasn't because the show creator liked the actor?
+A. Jesse Pinkman
+B. Saul Goodman
+C. Hank Schrader
+D. Gus Fring
+Answer:","[""Jesse Pinkman"", ""Saul Goodman"", ""Hank Schrader"", ""Gus Fring""]",http,0.0,16,none,"{""id"":""chatcmpl-6ys1ge87kevhb0aqe5w4e8"",""object"":""chat.completion"",""created"":1795594017,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9433,,MarianeAzar,20261125_084135,2026-11-25T08:06:58.572802+00:00
+58962c990bd5081b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Breaking Bad,"" which main character was planned to be killed in Season 1 but wasn't because the show creator liked the actor?
+A. Jesse Pinkman
+B. Saul Goodman
+C. Hank Schrader
+D. Gus Fring
+Answer:","[""Jesse Pinkman"", ""Saul Goodman"", ""Hank Schrader"", ""Gus Fring""]",http,0.0,16,none,"{""id"":""chatcmpl-ci65n49q7nkmt4oyyf4fjs"",""object"":""chat.completion"",""created"":1795594018,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2688,,MarianeAzar,20261125_084135,2026-11-25T08:06:59.841898+00:00
+b9fcfa61eda62ed2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the Italian firearms manufacturer Beretta founded?
+A. 1998
+B. 1526
+C. 1923
+D. 1776
+Answer:","[""1998"", ""1526"", ""1923"", ""1776""]",http,0.0,16,none,"{""id"":""chatcmpl-paeytixx8kn8zrkvdcjo1f"",""object"":""chat.completion"",""created"":1795594019,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3185,,MarianeAzar,20261125_084135,2026-11-25T08:07:01.161055+00:00
+b9fcfa61eda62ed2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the Italian firearms manufacturer Beretta founded?
+A. 1998
+B. 1526
+C. 1923
+D. 1776
+Answer:","[""1998"", ""1526"", ""1923"", ""1776""]",http,0.0,16,none,"{""id"":""chatcmpl-hg8rb44ek0fdbf6t2mhu2n"",""object"":""chat.completion"",""created"":1795594020,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9627,,MarianeAzar,20261125_084135,2026-11-25T08:07:02.124113+00:00
+09c64c8cace6f492,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the fourth digit of π?
+A. 2
+B. 4
+C. 1
+D. 3
+Answer:","[""2"", ""4"", ""1"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-fj843fzna2tpp7ei58xg9s"",""object"":""chat.completion"",""created"":1795594021,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2162,,MarianeAzar,20261125_084135,2026-11-25T08:07:03.340482+00:00

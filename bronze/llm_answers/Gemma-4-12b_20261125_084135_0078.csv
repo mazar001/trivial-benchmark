@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+9148234eadb02cb5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The biggest distinction between a eukaryotic cell and a prokaryotic cell is:
+A. The presence or absence of certain organelles
+B. The overall size
+C. The presence or absence of a nucleus
+D. The mode of reproduction
+Answer:","[""The presence or absence of certain organelles"", ""The overall size"", ""The presence or absence of a nucleus"", ""The mode of reproduction""]",http,0.0,16,none,"{""id"":""chatcmpl-t5324kklqsbza0e08xmbp"",""object"":""chat.completion"",""created"":1795594270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9627,,MarianeAzar,20261125_084135,2026-11-25T08:11:12.432161+00:00
+9148234eadb02cb5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The biggest distinction between a eukaryotic cell and a prokaryotic cell is:
+A. The presence or absence of certain organelles
+B. The overall size
+C. The presence or absence of a nucleus
+D. The mode of reproduction
+Answer:","[""The presence or absence of certain organelles"", ""The overall size"", ""The presence or absence of a nucleus"", ""The mode of reproduction""]",http,0.0,16,none,"{""id"":""chatcmpl-e7gil2z20t4r9fdkci7qh"",""object"":""chat.completion"",""created"":1795594271,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4964,,MarianeAzar,20261125_084135,2026-11-25T08:11:13.928838+00:00
+1431453604446d9c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?
+A. Radar
+B. Trapper
+C. Hawkeye
+D. Hot Lips
+Answer:","[""Radar"", ""Trapper"", ""Hawkeye"", ""Hot Lips""]",http,0.0,16,none,"{""id"":""chatcmpl-bfa7locatjpq49eri7xquh"",""object"":""chat.completion"",""created"":1795594273,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9774,,MarianeAzar,20261125_084135,2026-11-25T08:11:14.906455+00:00
+1431453604446d9c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?
+A. Radar
+B. Trapper
+C. Hawkeye
+D. Hot Lips
+Answer:","[""Radar"", ""Trapper"", ""Hawkeye"", ""Hot Lips""]",http,0.0,16,none,"{""id"":""chatcmpl-4lm0fo7revvcjj864t0w4c"",""object"":""chat.completion"",""created"":1795594274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9883,,MarianeAzar,20261125_084135,2026-11-25T08:11:15.895067+00:00
+5a61f2daaefc2814,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state was the first to allow women to vote in 1869?
+A. California
+B. Wyoming
+C. Virginia
+D. Delaware
+Answer:","[""California"", ""Wyoming"", ""Virginia"", ""Delaware""]",http,0.0,16,none,"{""id"":""chatcmpl-87cxjeearj3uqqp43eqprq"",""object"":""chat.completion"",""created"":1795594275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.373,,MarianeAzar,20261125_084135,2026-11-25T08:11:17.268383+00:00
+5a61f2daaefc2814,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state was the first to allow women to vote in 1869?
+A. California
+B. Wyoming
+C. Virginia
+D. Delaware
+Answer:","[""California"", ""Wyoming"", ""Virginia"", ""Delaware""]",http,0.0,16,none,"{""id"":""chatcmpl-h0emov6e3hb7dtdo2suu8b"",""object"":""chat.completion"",""created"":1795594276,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0007,,MarianeAzar,20261125_084135,2026-11-25T08:11:18.269349+00:00
+a76e75a1f62e7e40,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Call Of Duty: Zombies"" map ""Moon"", there is a secondary called the QED. What does QED stand for?
+A. Quality Edward Device
+B. Question Every Dog
+C. Quad Ectoplasmic Driver
+D. Quantum Entanglement Device
+Answer:","[""Quality Edward Device"", ""Question Every Dog"", ""Quad Ectoplasmic Driver"", ""Quantum Entanglement Device""]",http,0.0,16,none,"{""id"":""chatcmpl-shvc1rur2zcfek2q7kaagl"",""object"":""chat.completion"",""created"":1795594277,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9605,,MarianeAzar,20261125_084135,2026-11-25T08:11:19.230131+00:00
+a76e75a1f62e7e40,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Call Of Duty: Zombies"" map ""Moon"", there is a secondary called the QED. What does QED stand for?
+A. Quality Edward Device
+B. Question Every Dog
+C. Quad Ectoplasmic Driver
+D. Quantum Entanglement Device
+Answer:","[""Quality Edward Device"", ""Question Every Dog"", ""Quad Ectoplasmic Driver"", ""Quantum Entanglement Device""]",http,0.0,16,none,"{""id"":""chatcmpl-bqx3spg07cdhr6vdmyahsd"",""object"":""chat.completion"",""created"":1795594278,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3774,,MarianeAzar,20261125_084135,2026-11-25T08:11:20.607681+00:00
+e0a0dda0aef2788a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: May 16th of every year is known as __________ Day, named after a punk band prominent in the 1990s.
+A. Lit
+B. Lagwagon
+C. Goldfinger
+D. Less Than Jake
+Answer:","[""Lit"", ""Lagwagon"", ""Goldfinger"", ""Less Than Jake""]",http,0.0,16,none,"{""id"":""chatcmpl-f2md7xlr5iof4zuxo6a7jm"",""object"":""chat.completion"",""created"":1795594280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9642,,MarianeAzar,20261125_084135,2026-11-25T08:11:21.572097+00:00
+e0a0dda0aef2788a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: May 16th of every year is known as __________ Day, named after a punk band prominent in the 1990s.
+A. Lit
+B. Lagwagon
+C. Goldfinger
+D. Less Than Jake
+Answer:","[""Lit"", ""Lagwagon"", ""Goldfinger"", ""Less Than Jake""]",http,0.0,16,none,"{""id"":""chatcmpl-gzn3jq5dxsfo7g0i4shag"",""object"":""chat.completion"",""created"":1795594280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T08:11:22.469027+00:00
+285cc4dad73a520a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Harry Potter"" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?
+A. Knock in sequence
+B. Speak a password
+C. Rhythmically tap barrels with a wand
+D. Answer a riddle
+Answer:","[""Knock in sequence"", ""Speak a password"", ""Rhythmically tap barrels with a wand"", ""Answer a riddle""]",http,0.0,16,none,"{""id"":""chatcmpl-saiugvfnvncvf4xzu99r9"",""object"":""chat.completion"",""created"":1795594281,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2769,,MarianeAzar,20261125_084135,2026-11-25T08:11:23.746526+00:00
+285cc4dad73a520a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Harry Potter"" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?
+A. Knock in sequence
+B. Speak a password
+C. Rhythmically tap barrels with a wand
+D. Answer a riddle
+Answer:","[""Knock in sequence"", ""Speak a password"", ""Rhythmically tap barrels with a wand"", ""Answer a riddle""]",http,0.0,16,none,"{""id"":""chatcmpl-51brx8oneo4e7ik9z8y3s9"",""object"":""chat.completion"",""created"":1795594283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1038,,MarianeAzar,20261125_084135,2026-11-25T08:11:24.850563+00:00
+a9177caf3e232380,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the atomic mass of Carbon?
+A. 10
+B. 12
+C. 14
+D. 16
+Answer:","[""10"", ""12"", ""14"", ""16""]",http,0.0,16,none,"{""id"":""chatcmpl-dqix3cbiconowg1whipdw9"",""object"":""chat.completion"",""created"":1795594284,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9372,,MarianeAzar,20261125_084135,2026-11-25T08:11:25.788066+00:00
+a9177caf3e232380,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the atomic mass of Carbon?
+A. 10
+B. 12
+C. 14
+D. 16
+Answer:","[""10"", ""12"", ""14"", ""16""]",http,0.0,16,none,"{""id"":""chatcmpl-rdq8a4y59hcrft8unit1op"",""object"":""chat.completion"",""created"":1795594285,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9556,,MarianeAzar,20261125_084135,2026-11-25T08:11:26.743987+00:00
+45a5f5647027f3ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the popular Vocaloid: Hatsune Miku come out?
+A. 2010
+B. 2000
+C. 2007
+D. 2008
+Answer:","[""2010"", ""2000"", ""2007"", ""2008""]",http,0.0,16,none,"{""id"":""chatcmpl-pal972kt9ae877ta0xiwvt"",""object"":""chat.completion"",""created"":1795594286,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.275,,MarianeAzar,20261125_084135,2026-11-25T08:11:28.019360+00:00
+45a5f5647027f3ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the popular Vocaloid: Hatsune Miku come out?
+A. 2010
+B. 2000
+C. 2007
+D. 2008
+Answer:","[""2010"", ""2000"", ""2007"", ""2008""]",http,0.0,16,none,"{""id"":""chatcmpl-a0cywrpg6cnafc6gsqjs"",""object"":""chat.completion"",""created"":1795594287,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9687,,MarianeAzar,20261125_084135,2026-11-25T08:11:28.988388+00:00
+aca4bf3fba089b46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1983 hit with the song 'Africa'?
+A. Toto
+B. Steely Dan
+C. Foreigner
+D. Journey
+Answer:","[""Toto"", ""Steely Dan"", ""Foreigner"", ""Journey""]",http,0.0,16,none,"{""id"":""chatcmpl-eo3mfkb1avuenxw6duv6yq"",""object"":""chat.completion"",""created"":1795594288,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2769,,MarianeAzar,20261125_084135,2026-11-25T08:11:30.265518+00:00
+aca4bf3fba089b46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1983 hit with the song 'Africa'?
+A. Toto
+B. Steely Dan
+C. Foreigner
+D. Journey
+Answer:","[""Toto"", ""Steely Dan"", ""Foreigner"", ""Journey""]",http,0.0,16,none,"{""id"":""chatcmpl-9vpxp3egzqb5zbxarhbvby"",""object"":""chat.completion"",""created"":1795594289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1537,,MarianeAzar,20261125_084135,2026-11-25T08:11:31.419415+00:00
+393d8a0f3d13c6f3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Southeast Asian island of Borneo is politically divided among 3 countries.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x2r7v96iqtfss8x4few7"",""object"":""chat.completion"",""created"":1795594290,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8416,,MarianeAzar,20261125_084135,2026-11-25T08:11:32.261176+00:00
+393d8a0f3d13c6f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Southeast Asian island of Borneo is politically divided among 3 countries.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1sd6x4by1c4h549szf42qs"",""object"":""chat.completion"",""created"":1795594291,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2438,,MarianeAzar,20261125_084135,2026-11-25T08:11:33.505178+00:00
+317dad92c3a67e27,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the school in the anime and manga ""Gosick""?
+A. St. Augustine
+B. St. Mary
+C. St. Bernadette
+D. St. Marguerite
+Answer:","[""St. Augustine"", ""St. Mary"", ""St. Bernadette"", ""St. Marguerite""]",http,0.0,16,none,"{""id"":""chatcmpl-i3fvd4dag0814xrfo2jvt7"",""object"":""chat.completion"",""created"":1795594292,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3408,,MarianeAzar,20261125_084135,2026-11-25T08:11:34.847036+00:00
+317dad92c3a67e27,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the school in the anime and manga ""Gosick""?
+A. St. Augustine
+B. St. Mary
+C. St. Bernadette
+D. St. Marguerite
+Answer:","[""St. Augustine"", ""St. Mary"", ""St. Bernadette"", ""St. Marguerite""]",http,0.0,16,none,"{""id"":""chatcmpl-tzhcs6c15gb14xf65l97w"",""object"":""chat.completion"",""created"":1795594294,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9669,,MarianeAzar,20261125_084135,2026-11-25T08:11:35.814304+00:00
+513a59823f86be30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What character is NOT apart of the Grand Theft Auto series?
+A. Lester Crest
+B. Packie McReary
+C. Michael Cardenas
+D. Tommy Vercetti
+Answer:","[""Lester Crest"", ""Packie McReary"", ""Michael Cardenas"", ""Tommy Vercetti""]",http,0.0,16,none,"{""id"":""chatcmpl-jboepfli7bjsbokpkn0j0a"",""object"":""chat.completion"",""created"":1795594295,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9482,,MarianeAzar,20261125_084135,2026-11-25T08:11:36.763005+00:00
+513a59823f86be30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What character is NOT apart of the Grand Theft Auto series?
+A. Lester Crest
+B. Packie McReary
+C. Michael Cardenas
+D. Tommy Vercetti
+Answer:","[""Lester Crest"", ""Packie McReary"", ""Michael Cardenas"", ""Tommy Vercetti""]",http,0.0,16,none,"{""id"":""chatcmpl-6gux228sn0elwb5ulik5j"",""object"":""chat.completion"",""created"":1795594296,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5614,,MarianeAzar,20261125_084135,2026-11-25T08:11:38.324761+00:00
+cce610170fe29f75,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what is the Klingon death ritual?
+A. Look into sky and yell loudly in mourning.
+B. Split the deceased's earnings between bloodkin.
+C. Shoot into space in a torpedo casing.
+D. Kiss the jagged forehead before burial.
+Answer:","[""Look into sky and yell loudly in mourning."", ""Split the deceased's earnings between bloodkin."", ""Shoot into space in a torpedo casing."", ""Kiss the jagged forehead before burial.""]",http,0.0,16,none,"{""id"":""chatcmpl-2t7xhhvw5lw521fts1g194"",""object"":""chat.completion"",""created"":1795594297,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1607,,MarianeAzar,20261125_084135,2026-11-25T08:11:39.485818+00:00

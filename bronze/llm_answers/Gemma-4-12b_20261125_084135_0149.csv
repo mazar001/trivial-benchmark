@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8a1d4813ee0dbb77,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Marvel Universe, the planet of Svartalfheim is home to what race?
+A. Kronans
+B. Skrulls
+C. Frost Giants
+D. Dark Elves
+Answer:","[""Kronans"", ""Skrulls"", ""Frost Giants"", ""Dark Elves""]",http,0.0,16,none,"{""id"":""chatcmpl-g9s66ntlqpf28s6o3did3i"",""object"":""chat.completion"",""created"":1795596088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261125_084135,2026-11-25T08:41:30.253708+00:00
+616806af0b4dc694,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before ""Jurassic Park III"" was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?
+A. Baryonyx
+B. Suchomimus
+C. Velociraptor
+D. Tyrannosaurus Rex
+Answer:","[""Baryonyx"", ""Suchomimus"", ""Velociraptor"", ""Tyrannosaurus Rex""]",http,0.0,16,none,"{""id"":""chatcmpl-rzgkkv8gzxd5rrj2lhwk7r"",""object"":""chat.completion"",""created"":1795596089,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T08:41:31.123917+00:00
+616806af0b4dc694,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before ""Jurassic Park III"" was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?
+A. Baryonyx
+B. Suchomimus
+C. Velociraptor
+D. Tyrannosaurus Rex
+Answer:","[""Baryonyx"", ""Suchomimus"", ""Velociraptor"", ""Tyrannosaurus Rex""]",http,0.0,16,none,"{""id"":""chatcmpl-jydzrmcayzfkxisa5clupr"",""object"":""chat.completion"",""created"":1795596090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9553,,MarianeAzar,20261125_084135,2026-11-25T08:41:32.079914+00:00
+80f609690e985a49,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tfnh2vtece7lr9vwq80xsm"",""object"":""chat.completion"",""created"":1795596091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T08:41:32.953530+00:00
+80f609690e985a49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The NVidia GTX 1080 gets its name because it can only render at a 1920x1080 screen resolution.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h1oyaiwxct3f3x5che4ep"",""object"":""chat.completion"",""created"":1795596092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261125_084135,2026-11-25T08:41:33.825100+00:00
+dfbc24d1ffeb99af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:
+A. HD Graphics 500
+B. HD Graphics 700
+C. HD Graphics 600
+D. HD Graphics 7000
+Answer:","[""HD Graphics 500"", ""HD Graphics 700"", ""HD Graphics 600"", ""HD Graphics 7000""]",http,0.0,16,none,"{""id"":""chatcmpl-hlhnta11vhd89bs342t7yg"",""object"":""chat.completion"",""created"":1795596093,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9151,,MarianeAzar,20261125_084135,2026-11-25T08:41:34.740735+00:00
+dfbc24d1ffeb99af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The series of the Intel HD graphics generation succeeding that of the 5000 and 6000 series (Broadwell) is called:
+A. HD Graphics 500
+B. HD Graphics 700
+C. HD Graphics 600
+D. HD Graphics 7000
+Answer:","[""HD Graphics 500"", ""HD Graphics 700"", ""HD Graphics 600"", ""HD Graphics 7000""]",http,0.0,16,none,"{""id"":""chatcmpl-aaci5pqn0ypbzkxoo8ayyd"",""object"":""chat.completion"",""created"":1795596094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0275,,MarianeAzar,20261125_084135,2026-11-25T08:41:35.768401+00:00
+5dd4139800e2de78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Game released using the Build Engine?
+A. Duke Nukem 3D
+B. DOOM
+C. Witchaven
+D. William Shatner's Tekwar
+Answer:","[""Duke Nukem 3D"", ""DOOM"", ""Witchaven"", ""William Shatner's Tekwar""]",http,0.0,16,none,"{""id"":""chatcmpl-46fi38tenjqtrzc2f1kcus"",""object"":""chat.completion"",""created"":1795596095,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9211,,MarianeAzar,20261125_084135,2026-11-25T08:41:36.689797+00:00
+5dd4139800e2de78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Game released using the Build Engine?
+A. Duke Nukem 3D
+B. DOOM
+C. Witchaven
+D. William Shatner's Tekwar
+Answer:","[""Duke Nukem 3D"", ""DOOM"", ""Witchaven"", ""William Shatner's Tekwar""]",http,0.0,16,none,"{""id"":""chatcmpl-en5zi4uf57en4doc6f8pfi"",""object"":""chat.completion"",""created"":1795596096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8701,,MarianeAzar,20261125_084135,2026-11-25T08:41:37.560181+00:00
+83515557ba46d418,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the planned invasion of Japan towards the end of World War II?
+A. Operation Downfall
+B. Operation Aflame
+C. Operation Boarding Party
+D. Operation Ironclad
+Answer:","[""Operation Downfall"", ""Operation Aflame"", ""Operation Boarding Party"", ""Operation Ironclad""]",http,0.0,16,none,"{""id"":""chatcmpl-h4ueh0av9zr2xw2k4swcpv"",""object"":""chat.completion"",""created"":1795596096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T08:41:38.428168+00:00
+83515557ba46d418,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the planned invasion of Japan towards the end of World War II?
+A. Operation Downfall
+B. Operation Aflame
+C. Operation Boarding Party
+D. Operation Ironclad
+Answer:","[""Operation Downfall"", ""Operation Aflame"", ""Operation Boarding Party"", ""Operation Ironclad""]",http,0.0,16,none,"{""id"":""chatcmpl-tfhufx3yss5emv2xsaidg"",""object"":""chat.completion"",""created"":1795596097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9029,,MarianeAzar,20261125_084135,2026-11-25T08:41:39.331436+00:00
+d8431716ce4af31d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?
+A. Judaism
+B. Hinduism
+C. Buddhism
+D. Islam
+Answer:","[""Judaism"", ""Hinduism"", ""Buddhism"", ""Islam""]",http,0.0,16,none,"{""id"":""chatcmpl-aw0cr9pktbv2yrprm2vnf"",""object"":""chat.completion"",""created"":1795596098,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T08:41:40.189724+00:00
+d8431716ce4af31d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?
+A. Judaism
+B. Hinduism
+C. Buddhism
+D. Islam
+Answer:","[""Judaism"", ""Hinduism"", ""Buddhism"", ""Islam""]",http,0.0,16,none,"{""id"":""chatcmpl-gvgm6ihuv2s6x2p58i0v74"",""object"":""chat.completion"",""created"":1795596099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9055,,MarianeAzar,20261125_084135,2026-11-25T08:41:41.095530+00:00
+90b180ca869f7b6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did William the Conqueror take control of England?
+A. 901
+B. 1066
+C. 1123
+D. 1205
+Answer:","[""901"", ""1066"", ""1123"", ""1205""]",http,0.0,16,none,"{""id"":""chatcmpl-o40w02oit1qcjinqztdrli"",""object"":""chat.completion"",""created"":1795596100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:41:41.951380+00:00
+90b180ca869f7b6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did William the Conqueror take control of England?
+A. 901
+B. 1066
+C. 1123
+D. 1205
+Answer:","[""901"", ""1066"", ""1123"", ""1205""]",http,0.0,16,none,"{""id"":""chatcmpl-umpboqdi3unw8c21rmdp"",""object"":""chat.completion"",""created"":1795596101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9293,,MarianeAzar,20261125_084135,2026-11-25T08:41:42.880899+00:00
+596ea7d6f5054311,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ocean borders the west coast of the United States?
+A. Indian
+B. Pacific
+C. Arctic
+D. Atlantic
+Answer:","[""Indian"", ""Pacific"", ""Arctic"", ""Atlantic""]",http,0.0,16,none,"{""id"":""chatcmpl-jv0ir5zdicsn8wsgw859"",""object"":""chat.completion"",""created"":1795596102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8726,,MarianeAzar,20261125_084135,2026-11-25T08:41:43.753860+00:00
+596ea7d6f5054311,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ocean borders the west coast of the United States?
+A. Indian
+B. Pacific
+C. Arctic
+D. Atlantic
+Answer:","[""Indian"", ""Pacific"", ""Arctic"", ""Atlantic""]",http,0.0,16,none,"{""id"":""chatcmpl-0ifhsldk9wwo01ra59iqyr"",""object"":""chat.completion"",""created"":1795596103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T08:41:44.640984+00:00
+9ee53c44ae4de99d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Big the Cat is a playable character in ""Sonic Generations"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jtm9y2o9vj8ht4twfkv1a"",""object"":""chat.completion"",""created"":1795596104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T08:41:45.553722+00:00
+9ee53c44ae4de99d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Big the Cat is a playable character in ""Sonic Generations"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yvd3gfu5ptlul1og1x0e7b"",""object"":""chat.completion"",""created"":1795596104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8207,,MarianeAzar,20261125_084135,2026-11-25T08:41:46.374594+00:00
+569bbf1eb2fff821,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most frequently used letter in the english alphabet?
+A. E
+B. O
+C. A
+D. I
+Answer:","[""E"", ""O"", ""A"", ""I""]",http,0.0,16,none,"{""id"":""chatcmpl-6kcgh2482ufsqe8g9bb5h"",""object"":""chat.completion"",""created"":1795596105,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T08:41:47.238584+00:00
+569bbf1eb2fff821,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most frequently used letter in the english alphabet?
+A. E
+B. O
+C. A
+D. I
+Answer:","[""E"", ""O"", ""A"", ""I""]",http,0.0,16,none,"{""id"":""chatcmpl-ajtoqeasexb6wsawk17c"",""object"":""chat.completion"",""created"":1795596106,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9007,,MarianeAzar,20261125_084135,2026-11-25T08:41:48.139523+00:00
+d93cdef64b31949c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Africa?
+A. Mount Speke, Uganda
+B. Mount Kenya, Kenya
+C. Mount Kilimanjaro, Tanzania
+D. Mount Stanley, DR Congo/Uganda
+Answer:","[""Mount Speke, Uganda"", ""Mount Kenya, Kenya"", ""Mount Kilimanjaro, Tanzania"", ""Mount Stanley, DR Congo/Uganda""]",http,0.0,16,none,"{""id"":""chatcmpl-crb8nvngwo8ozyompqd8a"",""object"":""chat.completion"",""created"":1795596107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T08:41:49.004975+00:00
+d93cdef64b31949c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Africa?
+A. Mount Speke, Uganda
+B. Mount Kenya, Kenya
+C. Mount Kilimanjaro, Tanzania
+D. Mount Stanley, DR Congo/Uganda
+Answer:","[""Mount Speke, Uganda"", ""Mount Kenya, Kenya"", ""Mount Kilimanjaro, Tanzania"", ""Mount Stanley, DR Congo/Uganda""]",http,0.0,16,none,"{""id"":""chatcmpl-9y56n7ybok6gcj0kjxeg6c"",""object"":""chat.completion"",""created"":1795596108,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9169,,MarianeAzar,20261125_084135,2026-11-25T08:41:49.922224+00:00
+e8f304bf2299d669,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Re:Zero"" manga series, which of the following Sin Archbishops eats Rem's existence?
+A. Ley Batenkaitos
+B. Roy Alphard
+C. Petelgeuse Romanee-Conti
+D. Louis Arneb
+Answer:","[""Ley Batenkaitos"", ""Roy Alphard"", ""Petelgeuse Romanee-Conti"", ""Louis Arneb""]",http,0.0,16,none,"{""id"":""chatcmpl-mqyzfgezr7gaevcomk4jfm"",""object"":""chat.completion"",""created"":1795596109,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9343,,MarianeAzar,20261125_084135,2026-11-25T08:41:50.857505+00:00
+e8f304bf2299d669,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Re:Zero"" manga series, which of the following Sin Archbishops eats Rem's existence?
+A. Ley Batenkaitos
+B. Roy Alphard
+C. Petelgeuse Romanee-Conti
+D. Louis Arneb
+Answer:","[""Ley Batenkaitos"", ""Roy Alphard"", ""Petelgeuse Romanee-Conti"", ""Louis Arneb""]",http,0.0,16,none,"{""id"":""chatcmpl-zq91rmb6tz66grpjl9gb6"",""object"":""chat.completion"",""created"":1795596110,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9082,,MarianeAzar,20261125_084135,2026-11-25T08:41:51.765942+00:00

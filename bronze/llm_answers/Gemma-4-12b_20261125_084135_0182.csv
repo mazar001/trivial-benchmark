@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+fc857a05bc5c60ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these did mathematician Leonhard Euler NOT develop?
+A. A formula linking vertices, edges and faces on a graph
+B. A method of solving first-order differential equations
+C. An identity linking the numbers e, pi and i
+D. An improvement to the Fast Fourier Transform
+Answer:","[""A formula linking vertices, edges and faces on a graph"", ""A method of solving first-order differential equations"", ""An identity linking the numbers e, pi and i"", ""An improvement to the Fast Fourier Transform""]",http,0.0,16,none,"{""id"":""chatcmpl-vj07jg1uq4lli4s27o94af"",""object"":""chat.completion"",""created"":1795596815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261125_084135,2026-11-25T08:53:36.476340+00:00
+fc857a05bc5c60ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these did mathematician Leonhard Euler NOT develop?
+A. A formula linking vertices, edges and faces on a graph
+B. A method of solving first-order differential equations
+C. An identity linking the numbers e, pi and i
+D. An improvement to the Fast Fourier Transform
+Answer:","[""A formula linking vertices, edges and faces on a graph"", ""A method of solving first-order differential equations"", ""An identity linking the numbers e, pi and i"", ""An improvement to the Fast Fourier Transform""]",http,0.0,16,none,"{""id"":""chatcmpl-zttyaeb1bzqvtc92x7mfo"",""object"":""chat.completion"",""created"":1795596815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9107,,MarianeAzar,20261125_084135,2026-11-25T08:53:37.387221+00:00
+4f02442db042f4a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call of Duty: Zombies"", what group does Doctor Maxis work for?
+A. Group 935
+B. Group Reanimate
+C. Group Rezurrection
+D. Division 9
+Answer:","[""Group 935"", ""Group Reanimate"", ""Group Rezurrection"", ""Division 9""]",http,0.0,16,none,"{""id"":""chatcmpl-r7hsnl3a7e7tmjx3aqeth"",""object"":""chat.completion"",""created"":1795596816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8983,,MarianeAzar,20261125_084135,2026-11-25T08:53:38.285857+00:00
+4f02442db042f4a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call of Duty: Zombies"", what group does Doctor Maxis work for?
+A. Group 935
+B. Group Reanimate
+C. Group Rezurrection
+D. Division 9
+Answer:","[""Group 935"", ""Group Reanimate"", ""Group Rezurrection"", ""Division 9""]",http,0.0,16,none,"{""id"":""chatcmpl-tfltoqxwfok20u7934fkzj"",""object"":""chat.completion"",""created"":1795596817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8793,,MarianeAzar,20261125_084135,2026-11-25T08:53:39.165453+00:00
+b0aeea51a3ffa1dc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the founder of ""The Lego Group""?
+A. Ole Kirk Christiansen
+B. Kirstine Christiansen
+C. Jens Niels Christiansen
+D. Gerhardt Kirk Christiansen
+Answer:","[""Ole Kirk Christiansen"", ""Kirstine Christiansen"", ""Jens Niels Christiansen"", ""Gerhardt Kirk Christiansen""]",http,0.0,16,none,"{""id"":""chatcmpl-7wa1pw9hw3ebynndpv2fc6"",""object"":""chat.completion"",""created"":1795596818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T08:53:40.020561+00:00
+b0aeea51a3ffa1dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the founder of ""The Lego Group""?
+A. Ole Kirk Christiansen
+B. Kirstine Christiansen
+C. Jens Niels Christiansen
+D. Gerhardt Kirk Christiansen
+Answer:","[""Ole Kirk Christiansen"", ""Kirstine Christiansen"", ""Jens Niels Christiansen"", ""Gerhardt Kirk Christiansen""]",http,0.0,16,none,"{""id"":""chatcmpl-rxzy13khbkx8elx4pmai"",""object"":""chat.completion"",""created"":1795596819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8712,,MarianeAzar,20261125_084135,2026-11-25T08:53:40.892092+00:00
+521675476fbe1785,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The US state of New York has about as many inhabitants as?
+A. Poland
+B. Germany
+C. Hungary
+D. Romania
+Answer:","[""Poland"", ""Germany"", ""Hungary"", ""Romania""]",http,0.0,16,none,"{""id"":""chatcmpl-xfhaptpanwthiso5fqe3tg"",""object"":""chat.completion"",""created"":1795596820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T08:53:41.768472+00:00
+521675476fbe1785,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The US state of New York has about as many inhabitants as?
+A. Poland
+B. Germany
+C. Hungary
+D. Romania
+Answer:","[""Poland"", ""Germany"", ""Hungary"", ""Romania""]",http,0.0,16,none,"{""id"":""chatcmpl-x0gpib2inwbe534xq5plcw"",""object"":""chat.completion"",""created"":1795596821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261125_084135,2026-11-25T08:53:42.620089+00:00
+e7fcafb57de76690,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scatman John's real name was John Paul Larkin.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nl3se6nenkflbneynf1nls"",""object"":""chat.completion"",""created"":1795596822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7984,,MarianeAzar,20261125_084135,2026-11-25T08:53:43.418660+00:00
+e7fcafb57de76690,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scatman John's real name was John Paul Larkin.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xjuqbsvvpp0wqjjw0hcqtb"",""object"":""chat.completion"",""created"":1795596822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8154,,MarianeAzar,20261125_084135,2026-11-25T08:53:44.234209+00:00
+34068e801b9b717d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a normal distribution, 95% of the data lies within how many standard deviations of the mean?
+A. 3
+B. 1
+C. 4
+D. 2
+Answer:","[""3"", ""1"", ""4"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-gkds9tcq4g4fqi6bihhyi"",""object"":""chat.completion"",""created"":1795596823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8521,,MarianeAzar,20261125_084135,2026-11-25T08:53:45.086705+00:00
+34068e801b9b717d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a normal distribution, 95% of the data lies within how many standard deviations of the mean?
+A. 3
+B. 1
+C. 4
+D. 2
+Answer:","[""3"", ""1"", ""4"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-pav9eu8r0yj350bxmrvhd4"",""object"":""chat.completion"",""created"":1795596824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261125_084135,2026-11-25T08:53:45.968683+00:00
+0bb7fd35a2cc252f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chain restaurant increased sales after it was mentioned in the 2016 Beyoncé song: ""Formation""?
+A. Applebee's
+B. Red Lobster
+C. Outback Steakhouse
+D. TGI Fridays
+Answer:","[""Applebee's"", ""Red Lobster"", ""Outback Steakhouse"", ""TGI Fridays""]",http,0.0,16,none,"{""id"":""chatcmpl-lbklmd7bsdfdfacaf9ks"",""object"":""chat.completion"",""created"":1795596825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T08:53:46.839050+00:00
+0bb7fd35a2cc252f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chain restaurant increased sales after it was mentioned in the 2016 Beyoncé song: ""Formation""?
+A. Applebee's
+B. Red Lobster
+C. Outback Steakhouse
+D. TGI Fridays
+Answer:","[""Applebee's"", ""Red Lobster"", ""Outback Steakhouse"", ""TGI Fridays""]",http,0.0,16,none,"{""id"":""chatcmpl-spb01z8holsnkzz7ata1l"",""object"":""chat.completion"",""created"":1795596826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8851,,MarianeAzar,20261125_084135,2026-11-25T08:53:47.724433+00:00
+a1238ed59ffd1d37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games was not a launch title for the Nintendo Gamecube?
+A. Luigi’s Mansion
+B. Star Wars Rogue Squadron II
+C. Super Mario Sunshine
+D. Disney’s Tarzan Untamed
+Answer:","[""Luigi’s Mansion"", ""Star Wars Rogue Squadron II"", ""Super Mario Sunshine"", ""Disney’s Tarzan Untamed""]",http,0.0,16,none,"{""id"":""chatcmpl-ssb6d2wxlkabuod5f7wnno"",""object"":""chat.completion"",""created"":1795596827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T08:53:48.596689+00:00
+a1238ed59ffd1d37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games was not a launch title for the Nintendo Gamecube?
+A. Luigi’s Mansion
+B. Star Wars Rogue Squadron II
+C. Super Mario Sunshine
+D. Disney’s Tarzan Untamed
+Answer:","[""Luigi’s Mansion"", ""Star Wars Rogue Squadron II"", ""Super Mario Sunshine"", ""Disney’s Tarzan Untamed""]",http,0.0,16,none,"{""id"":""chatcmpl-dn67ct6psci4gwaf5ea3wp"",""object"":""chat.completion"",""created"":1795596828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8913,,MarianeAzar,20261125_084135,2026-11-25T08:53:49.488293+00:00
+31d9e2fcb8e03b89,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game The World Ends With You, all of these characters act as a game partner with Neku for a week except:
+A. Joshua
+B. Rhyme
+C. Beat
+D. Shiki
+Answer:","[""Joshua"", ""Rhyme"", ""Beat"", ""Shiki""]",http,0.0,16,none,"{""id"":""chatcmpl-pan6fnfi0yogiz92eeyq0a"",""object"":""chat.completion"",""created"":1795596828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261125_084135,2026-11-25T08:53:50.349011+00:00
+31d9e2fcb8e03b89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game The World Ends With You, all of these characters act as a game partner with Neku for a week except:
+A. Joshua
+B. Rhyme
+C. Beat
+D. Shiki
+Answer:","[""Joshua"", ""Rhyme"", ""Beat"", ""Shiki""]",http,0.0,16,none,"{""id"":""chatcmpl-st182jate7ibx2udrulatu"",""object"":""chat.completion"",""created"":1795596829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261125_084135,2026-11-25T08:53:51.235981+00:00
+25e14328b549a187,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language in Liechtenstein?
+A. French
+B. German
+C. English
+D. Italian
+Answer:","[""French"", ""German"", ""English"", ""Italian""]",http,0.0,16,none,"{""id"":""chatcmpl-ujin1p9irz8j1gpkjnpvzp"",""object"":""chat.completion"",""created"":1795596830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261125_084135,2026-11-25T08:53:52.089274+00:00
+25e14328b549a187,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language in Liechtenstein?
+A. French
+B. German
+C. English
+D. Italian
+Answer:","[""French"", ""German"", ""English"", ""Italian""]",http,0.0,16,none,"{""id"":""chatcmpl-k4loxosvivex5z4g1xya8g"",""object"":""chat.completion"",""created"":1795596831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T08:53:52.941013+00:00
+a61e0a4d1c0860ee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song is played during the ending credits of Guitar Hero: World Tour?
+A. King Crimson - 21st Century Schizoid Man
+B. Dragonforce - Through The Fire & The Flames
+C. Lynyrd Skynyrd - Free Bird
+D. Dream Theater - Pull Me Under
+Answer:","[""King Crimson - 21st Century Schizoid Man"", ""Dragonforce - Through The Fire & The Flames"", ""Lynyrd Skynyrd - Free Bird"", ""Dream Theater - Pull Me Under""]",http,0.0,16,none,"{""id"":""chatcmpl-d8tlfhqrsplsrjjsx31pp"",""object"":""chat.completion"",""created"":1795596832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8913,,MarianeAzar,20261125_084135,2026-11-25T08:53:53.832869+00:00
+a61e0a4d1c0860ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song is played during the ending credits of Guitar Hero: World Tour?
+A. King Crimson - 21st Century Schizoid Man
+B. Dragonforce - Through The Fire & The Flames
+C. Lynyrd Skynyrd - Free Bird
+D. Dream Theater - Pull Me Under
+Answer:","[""King Crimson - 21st Century Schizoid Man"", ""Dragonforce - Through The Fire & The Flames"", ""Lynyrd Skynyrd - Free Bird"", ""Dream Theater - Pull Me Under""]",http,0.0,16,none,"{""id"":""chatcmpl-xroz1zwcq3ff4czwpf3sh"",""object"":""chat.completion"",""created"":1795596833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9444,,MarianeAzar,20261125_084135,2026-11-25T08:53:54.777584+00:00
+b987fa145e6a74bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ontological argument for the proof of God's existence is first attributed to whom?
+A. Immanuel Kant
+B. Aristotle
+C. René Descartes
+D. Anselm of Canterbury
+Answer:","[""Immanuel Kant"", ""Aristotle"", ""René Descartes"", ""Anselm of Canterbury""]",http,0.0,16,none,"{""id"":""chatcmpl-olki3qgifu9hv1q3ur07kp"",""object"":""chat.completion"",""created"":1795596834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9033,,MarianeAzar,20261125_084135,2026-11-25T08:53:55.681199+00:00
+b987fa145e6a74bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ontological argument for the proof of God's existence is first attributed to whom?
+A. Immanuel Kant
+B. Aristotle
+C. René Descartes
+D. Anselm of Canterbury
+Answer:","[""Immanuel Kant"", ""Aristotle"", ""René Descartes"", ""Anselm of Canterbury""]",http,0.0,16,none,"{""id"":""chatcmpl-vi551pulaysjnov2fseoz"",""object"":""chat.completion"",""created"":1795596835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8709,,MarianeAzar,20261125_084135,2026-11-25T08:53:56.552299+00:00
+dec5a4949a789a5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Australia?
+A. Mount Ossa, Tasmania
+B. Mount Bartle Frere, Queensland
+C. Mount Zeil, Northern Territory
+D. Mount Kosciuszko, New South Wales
+Answer:","[""Mount Ossa, Tasmania"", ""Mount Bartle Frere, Queensland"", ""Mount Zeil, Northern Territory"", ""Mount Kosciuszko, New South Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-0zp3gpxhcttbezi3sbjvzve"",""object"":""chat.completion"",""created"":1795596835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8707,,MarianeAzar,20261125_084135,2026-11-25T08:53:57.423404+00:00

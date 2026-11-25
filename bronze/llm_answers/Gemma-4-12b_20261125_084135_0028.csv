@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+3f645d2bb634d9cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the nuclear power plant in Chernobyl melt down?
+A. 1998
+B. 1986
+C. 1975
+D. 1991
+Answer:","[""1998"", ""1986"", ""1975"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-yytvgk6nk8r4lychw8j0fe"",""object"":""chat.completion"",""created"":1795593100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8672,,MarianeAzar,20261125_084135,2026-11-25T07:51:41.996999+00:00
+3f645d2bb634d9cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the nuclear power plant in Chernobyl melt down?
+A. 1998
+B. 1986
+C. 1975
+D. 1991
+Answer:","[""1998"", ""1986"", ""1975"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-aip89swuwyhxfage14g9vp"",""object"":""chat.completion"",""created"":1795593101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8766,,MarianeAzar,20261125_084135,2026-11-25T07:51:42.873749+00:00
+eba3a280b630e4f4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which kind of algorithm is Ron Rivest not famous for creating?
+A. Asymmetric encryption
+B. Hashing algorithm
+C. Secret sharing scheme
+D. Stream cipher
+Answer:","[""Asymmetric encryption"", ""Hashing algorithm"", ""Secret sharing scheme"", ""Stream cipher""]",http,0.0,16,none,"{""id"":""chatcmpl-cavrrez079vg3p8x7ftgti"",""object"":""chat.completion"",""created"":1795593102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261125_084135,2026-11-25T07:51:43.737652+00:00
+eba3a280b630e4f4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which kind of algorithm is Ron Rivest not famous for creating?
+A. Asymmetric encryption
+B. Hashing algorithm
+C. Secret sharing scheme
+D. Stream cipher
+Answer:","[""Asymmetric encryption"", ""Hashing algorithm"", ""Secret sharing scheme"", ""Stream cipher""]",http,0.0,16,none,"{""id"":""chatcmpl-67yszi7qzmg225b8v1zkp7"",""object"":""chat.completion"",""created"":1795593103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T07:51:44.589375+00:00
+9d14ca6f6a8d5b79,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did ARPANET suffer a 4 hour long network crash?
+A. October 29, 1969
+B. October 27, 1980
+C. November 21, 1969
+D. December 9, 1991
+Answer:","[""October 29, 1969"", ""October 27, 1980"", ""November 21, 1969"", ""December 9, 1991""]",http,0.0,16,none,"{""id"":""chatcmpl-vj31jcfehge604oh5nkuc5"",""object"":""chat.completion"",""created"":1795593104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8935,,MarianeAzar,20261125_084135,2026-11-25T07:51:45.483104+00:00
+9d14ca6f6a8d5b79,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did ARPANET suffer a 4 hour long network crash?
+A. October 29, 1969
+B. October 27, 1980
+C. November 21, 1969
+D. December 9, 1991
+Answer:","[""October 29, 1969"", ""October 27, 1980"", ""November 21, 1969"", ""December 9, 1991""]",http,0.0,16,none,"{""id"":""chatcmpl-x9gne7hgpu2eosvtecpup"",""object"":""chat.completion"",""created"":1795593104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9274,,MarianeAzar,20261125_084135,2026-11-25T07:51:46.410789+00:00
+803c1e3cc903f8a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sign of the zodiac is represented by the Crab?
+A. Libra
+B. Sagittarius
+C. Cancer
+D. Virgo
+Answer:","[""Libra"", ""Sagittarius"", ""Cancer"", ""Virgo""]",http,0.0,16,none,"{""id"":""chatcmpl-8r9oe1wwvyjy3dzojdpx4"",""object"":""chat.completion"",""created"":1795593105,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T07:51:47.272762+00:00
+803c1e3cc903f8a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sign of the zodiac is represented by the Crab?
+A. Libra
+B. Sagittarius
+C. Cancer
+D. Virgo
+Answer:","[""Libra"", ""Sagittarius"", ""Cancer"", ""Virgo""]",http,0.0,16,none,"{""id"":""chatcmpl-m1kzv6ucvxlux0no72xsmb"",""object"":""chat.completion"",""created"":1795593106,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T07:51:48.123974+00:00
+1fd1335cac2fa19c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Raekwon the Chefs debut solo album?
+A. The Lex Diamond Story
+B. Shaolin vs Wu-Tang
+C. The Wild
+D. Only Built 4 Cuban Linx
+Answer:","[""The Lex Diamond Story"", ""Shaolin vs Wu-Tang"", ""The Wild"", ""Only Built 4 Cuban Linx""]",http,0.0,16,none,"{""id"":""chatcmpl-cp0eul1bk666zzdo1wy8gk"",""object"":""chat.completion"",""created"":1795593107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T07:51:48.978002+00:00
+1fd1335cac2fa19c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Raekwon the Chefs debut solo album?
+A. The Lex Diamond Story
+B. Shaolin vs Wu-Tang
+C. The Wild
+D. Only Built 4 Cuban Linx
+Answer:","[""The Lex Diamond Story"", ""Shaolin vs Wu-Tang"", ""The Wild"", ""Only Built 4 Cuban Linx""]",http,0.0,16,none,"{""id"":""chatcmpl-etet3rr6kgl98rpmzps6jl"",""object"":""chat.completion"",""created"":1795593108,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8998,,MarianeAzar,20261125_084135,2026-11-25T07:51:49.878106+00:00
+ff2ca5515776afb8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft lore, who was first to have the title ""The Ashbringer""?
+A. Alexandros Mograine
+B. Uther the Lightbringer
+C. Arthas Menethil
+D. Tirion Fordring
+Answer:","[""Alexandros Mograine"", ""Uther the Lightbringer"", ""Arthas Menethil"", ""Tirion Fordring""]",http,0.0,16,none,"{""id"":""chatcmpl-uvt45huanrir8impzhmv5s"",""object"":""chat.completion"",""created"":1795593109,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T07:51:50.751889+00:00
+ff2ca5515776afb8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft lore, who was first to have the title ""The Ashbringer""?
+A. Alexandros Mograine
+B. Uther the Lightbringer
+C. Arthas Menethil
+D. Tirion Fordring
+Answer:","[""Alexandros Mograine"", ""Uther the Lightbringer"", ""Arthas Menethil"", ""Tirion Fordring""]",http,0.0,16,none,"{""id"":""chatcmpl-or3cvamgonfun9xipnurk"",""object"":""chat.completion"",""created"":1795593110,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T07:51:51.639304+00:00
+c3405689c5dca54a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Area 51 is located in which US state?
+A. New Mexico
+B. Nevada
+C. Utah
+D. Arizona
+Answer:","[""New Mexico"", ""Nevada"", ""Utah"", ""Arizona""]",http,0.0,16,none,"{""id"":""chatcmpl-prlqzycluebx3qr8n1udss"",""object"":""chat.completion"",""created"":1795593111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261125_084135,2026-11-25T07:51:52.505710+00:00
+c3405689c5dca54a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Area 51 is located in which US state?
+A. New Mexico
+B. Nevada
+C. Utah
+D. Arizona
+Answer:","[""New Mexico"", ""Nevada"", ""Utah"", ""Arizona""]",http,0.0,16,none,"{""id"":""chatcmpl-a7efnn2g2wuqfmwgaa9wsd"",""object"":""chat.completion"",""created"":1795593111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T07:51:53.353327+00:00
+aeb2cccf3876d3d4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the Final Fantasy series developed by Square Enix?
+A. Yuji Horii
+B. Akira Toriyama
+C. Tetsuya Nomura
+D. Hironobu Sakaguchi
+Answer:","[""Yuji Horii"", ""Akira Toriyama"", ""Tetsuya Nomura"", ""Hironobu Sakaguchi""]",http,0.0,16,none,"{""id"":""chatcmpl-4lm1ugi5h9jnlxof79ysgp"",""object"":""chat.completion"",""created"":1795593112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8452,,MarianeAzar,20261125_084135,2026-11-25T07:51:54.198779+00:00
+aeb2cccf3876d3d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the Final Fantasy series developed by Square Enix?
+A. Yuji Horii
+B. Akira Toriyama
+C. Tetsuya Nomura
+D. Hironobu Sakaguchi
+Answer:","[""Yuji Horii"", ""Akira Toriyama"", ""Tetsuya Nomura"", ""Hironobu Sakaguchi""]",http,0.0,16,none,"{""id"":""chatcmpl-eh0o5wouu0nb2gv5xucpq"",""object"":""chat.completion"",""created"":1795593113,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.862,,MarianeAzar,20261125_084135,2026-11-25T07:51:55.061213+00:00
+52bdaa34299921a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the first moving picture depict?
+A. A crackling fire
+B. A woman in a dress
+C. A galloping horse
+D. A man walking
+Answer:","[""A crackling fire"", ""A woman in a dress"", ""A galloping horse"", ""A man walking""]",http,0.0,16,none,"{""id"":""chatcmpl-yz5ji5jcmabktyo9jg7oq"",""object"":""chat.completion"",""created"":1795593114,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T07:51:55.926734+00:00
+52bdaa34299921a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the first moving picture depict?
+A. A crackling fire
+B. A woman in a dress
+C. A galloping horse
+D. A man walking
+Answer:","[""A crackling fire"", ""A woman in a dress"", ""A galloping horse"", ""A man walking""]",http,0.0,16,none,"{""id"":""chatcmpl-n8lpwd7enfamjz3yeiaqej"",""object"":""chat.completion"",""created"":1795593115,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T07:51:56.781654+00:00
+cf10ff0e8b9e5b03,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rhode Island is actually located on the US mainland, despite its name.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tom3sgx8si8hejvob2lm6"",""object"":""chat.completion"",""created"":1795593116,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8149,,MarianeAzar,20261125_084135,2026-11-25T07:51:57.596734+00:00
+cf10ff0e8b9e5b03,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rhode Island is actually located on the US mainland, despite its name.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-taqhsbmtpgpsvzgck1c4k"",""object"":""chat.completion"",""created"":1795593117,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.812,,MarianeAzar,20261125_084135,2026-11-25T07:51:58.408877+00:00
+e09b978fd24c7d07,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the average amount of chinchillas born into a single litter?
+A. 10-15
+B. 15-18
+C. 2-3
+D. 5-8
+Answer:","[""10-15"", ""15-18"", ""2-3"", ""5-8""]",http,0.0,16,none,"{""id"":""chatcmpl-yii4beecvu6agbas4xg4r"",""object"":""chat.completion"",""created"":1795593117,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8501,,MarianeAzar,20261125_084135,2026-11-25T07:51:59.259391+00:00
+e09b978fd24c7d07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the average amount of chinchillas born into a single litter?
+A. 10-15
+B. 15-18
+C. 2-3
+D. 5-8
+Answer:","[""10-15"", ""15-18"", ""2-3"", ""5-8""]",http,0.0,16,none,"{""id"":""chatcmpl-fn08pep9xl5uhcny9bvym"",""object"":""chat.completion"",""created"":1795593118,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T07:52:00.146799+00:00
+8634608dd32b1099,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Muscle fiber is constructed of bundles small long organelles called what?
+A. Myocardium
+B. Epimysium
+C. Myofibrils
+D. Myofiaments
+Answer:","[""Myocardium"", ""Epimysium"", ""Myofibrils"", ""Myofiaments""]",http,0.0,16,none,"{""id"":""chatcmpl-hnl27latzmqgp3aebo8i95"",""object"":""chat.completion"",""created"":1795593119,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9091,,MarianeAzar,20261125_084135,2026-11-25T07:52:01.056342+00:00
+8634608dd32b1099,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Muscle fiber is constructed of bundles small long organelles called what?
+A. Myocardium
+B. Epimysium
+C. Myofibrils
+D. Myofiaments
+Answer:","[""Myocardium"", ""Epimysium"", ""Myofibrils"", ""Myofiaments""]",http,0.0,16,none,"{""id"":""chatcmpl-hyxjxhpyqelhuskvszffrd"",""object"":""chat.completion"",""created"":1795593120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T07:52:01.917266+00:00
+b3eedc8454feaeb4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Big Hero 6, what fictional city is the Big Hero 6 from?
+A. San Tokyo
+B. Sankyo
+C. Tokysisco
+D. San Fransokyo
+Answer:","[""San Tokyo"", ""Sankyo"", ""Tokysisco"", ""San Fransokyo""]",http,0.0,16,none,"{""id"":""chatcmpl-lzj8j4ha9lq643zp77vzec"",""object"":""chat.completion"",""created"":1795593121,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261125_084135,2026-11-25T07:52:02.771505+00:00

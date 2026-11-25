@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+33ee9f887aa1b946,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Laos?
+A. Vaduz
+B. Vientiane
+C. Tegucigalpa
+D. Tarawa
+Answer:","[""Vaduz"", ""Vientiane"", ""Tegucigalpa"", ""Tarawa""]",http,0.0,16,none,"{""id"":""chatcmpl-hvt0vro9hvhjof7qrmauz9"",""object"":""chat.completion"",""created"":1795593513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261125_084135,2026-11-25T07:58:35.007235+00:00
+29ba658803cd8562,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the term GPU stand for?
+A. Graphical Proprietary Unit
+B. Graphics Processing Unit
+C. Gaming Processor Unit
+D. Graphite Producing Unit
+Answer:","[""Graphical Proprietary Unit"", ""Graphics Processing Unit"", ""Gaming Processor Unit"", ""Graphite Producing Unit""]",http,0.0,16,none,"{""id"":""chatcmpl-xwk0xcj4xh7cmav2umt4f"",""object"":""chat.completion"",""created"":1795593514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9106,,MarianeAzar,20261125_084135,2026-11-25T07:58:35.918141+00:00
+29ba658803cd8562,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the term GPU stand for?
+A. Graphical Proprietary Unit
+B. Graphics Processing Unit
+C. Gaming Processor Unit
+D. Graphite Producing Unit
+Answer:","[""Graphical Proprietary Unit"", ""Graphics Processing Unit"", ""Gaming Processor Unit"", ""Graphite Producing Unit""]",http,0.0,16,none,"{""id"":""chatcmpl-omyarm98e1pk8dkehbtls"",""object"":""chat.completion"",""created"":1795593515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261125_084135,2026-11-25T07:58:36.805164+00:00
+19862697abf86bd9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?
+A. Europe and Asia
+B. Europe and Africa
+C. Europe, Africa and Asia
+D. Europe
+Answer:","[""Europe and Asia"", ""Europe and Africa"", ""Europe, Africa and Asia"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-atzgx604q44vetcrxkr7hp"",""object"":""chat.completion"",""created"":1795593516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8925,,MarianeAzar,20261125_084135,2026-11-25T07:58:37.697909+00:00
+19862697abf86bd9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which continent/s is the entire country of Spain specifically located when taking into account all of its territory?
+A. Europe and Asia
+B. Europe and Africa
+C. Europe, Africa and Asia
+D. Europe
+Answer:","[""Europe and Asia"", ""Europe and Africa"", ""Europe, Africa and Asia"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-byxn2c0xgfa3b1u5611s8d"",""object"":""chat.completion"",""created"":1795593517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.951,,MarianeAzar,20261125_084135,2026-11-25T07:58:38.649082+00:00
+e117b83263b8d3aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you play the Super Mario RPG and nap in a rented hotel room, you will wake up next to what familiar looking character?
+A. Link
+B. Wario
+C. Q*bert
+D. Solid Snake
+Answer:","[""Link"", ""Wario"", ""Q*bert"", ""Solid Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-cm80rrz8zeqhmgmuqmdq"",""object"":""chat.completion"",""created"":1795593518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9932,,MarianeAzar,20261125_084135,2026-11-25T07:58:39.642793+00:00
+e117b83263b8d3aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you play the Super Mario RPG and nap in a rented hotel room, you will wake up next to what familiar looking character?
+A. Link
+B. Wario
+C. Q*bert
+D. Solid Snake
+Answer:","[""Link"", ""Wario"", ""Q*bert"", ""Solid Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-93r8do9ufwkplxf9v6df"",""object"":""chat.completion"",""created"":1795593519,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9831,,MarianeAzar,20261125_084135,2026-11-25T07:58:40.626117+00:00
+1cc4841a0822b669,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Everest's favorite food in the Nickelodeon/Nick Jr. series ""PAW Patrol""?
+A. Steak
+B. Chicken
+C. Liver
+D. Caribou
+Answer:","[""Steak"", ""Chicken"", ""Liver"", ""Caribou""]",http,0.0,16,none,"{""id"":""chatcmpl-n6gkg3prmnv36eime213"",""object"":""chat.completion"",""created"":1795593520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8881,,MarianeAzar,20261125_084135,2026-11-25T07:58:41.514412+00:00
+1cc4841a0822b669,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Everest's favorite food in the Nickelodeon/Nick Jr. series ""PAW Patrol""?
+A. Steak
+B. Chicken
+C. Liver
+D. Caribou
+Answer:","[""Steak"", ""Chicken"", ""Liver"", ""Caribou""]",http,0.0,16,none,"{""id"":""chatcmpl-hnhnbfddrses9vwyf3mnyi"",""object"":""chat.completion"",""created"":1795593520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9492,,MarianeAzar,20261125_084135,2026-11-25T07:58:42.463825+00:00
+8bb3ca80bbe3bd93,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a type of stretch/deep tendon reflex?
+A. Ankle jerk reflex
+B. Scratch reflex
+C. Gag reflex
+D. Pupillary light reflex
+Answer:","[""Ankle jerk reflex"", ""Scratch reflex"", ""Gag reflex"", ""Pupillary light reflex""]",http,0.0,16,none,"{""id"":""chatcmpl-upo9hcbj9oazgsriqav78"",""object"":""chat.completion"",""created"":1795593521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8926,,MarianeAzar,20261125_084135,2026-11-25T07:58:43.356631+00:00
+8bb3ca80bbe3bd93,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a type of stretch/deep tendon reflex?
+A. Ankle jerk reflex
+B. Scratch reflex
+C. Gag reflex
+D. Pupillary light reflex
+Answer:","[""Ankle jerk reflex"", ""Scratch reflex"", ""Gag reflex"", ""Pupillary light reflex""]",http,0.0,16,none,"{""id"":""chatcmpl-57lftdznpnoropjxxc014d"",""object"":""chat.completion"",""created"":1795593522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9056,,MarianeAzar,20261125_084135,2026-11-25T07:58:44.262461+00:00
+ee0a7b80ba50ee48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Actress Susan Sarandon caught pneumonia during filming of which movie?
+A. Enchanted
+B. The Rocky Horror Picture Show
+C. Thelma and Louise
+D. Dead Man Walking
+Answer:","[""Enchanted"", ""The Rocky Horror Picture Show"", ""Thelma and Louise"", ""Dead Man Walking""]",http,0.0,16,none,"{""id"":""chatcmpl-6x903kdr133khhdoeo23ns"",""object"":""chat.completion"",""created"":1795593523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9594,,MarianeAzar,20261125_084135,2026-11-25T07:58:45.222167+00:00
+ee0a7b80ba50ee48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Actress Susan Sarandon caught pneumonia during filming of which movie?
+A. Enchanted
+B. The Rocky Horror Picture Show
+C. Thelma and Louise
+D. Dead Man Walking
+Answer:","[""Enchanted"", ""The Rocky Horror Picture Show"", ""Thelma and Louise"", ""Dead Man Walking""]",http,0.0,16,none,"{""id"":""chatcmpl-pg8gwid5hkfgg6ho51o9l"",""object"":""chat.completion"",""created"":1795593524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8807,,MarianeAzar,20261125_084135,2026-11-25T07:58:46.103195+00:00
+7d93311b86aa79c9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Stephen Chbosky wrote the book 'The Perks of Being A Wallflower'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y0j4dcq8k1i6yfu0kn3h2m"",""object"":""chat.completion"",""created"":1795593525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T07:58:46.968471+00:00
+7d93311b86aa79c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Stephen Chbosky wrote the book 'The Perks of Being A Wallflower'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kugeff5e8cds5z3ualzyy"",""object"":""chat.completion"",""created"":1795593526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8437,,MarianeAzar,20261125_084135,2026-11-25T07:58:47.812440+00:00
+f3d3d93e4b4699a3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Panama Canal was finished under the administration of which U.S. president?
+A. Franklin Delano Roosevelt
+B. Herbert Hoover
+C. Woodrow Wilson
+D. Theodore Roosevelt
+Answer:","[""Franklin Delano Roosevelt"", ""Herbert Hoover"", ""Woodrow Wilson"", ""Theodore Roosevelt""]",http,0.0,16,none,"{""id"":""chatcmpl-mf4uyq36r88t8u7vuiuog"",""object"":""chat.completion"",""created"":1795593527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T07:58:48.674738+00:00
+f3d3d93e4b4699a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Panama Canal was finished under the administration of which U.S. president?
+A. Franklin Delano Roosevelt
+B. Herbert Hoover
+C. Woodrow Wilson
+D. Theodore Roosevelt
+Answer:","[""Franklin Delano Roosevelt"", ""Herbert Hoover"", ""Woodrow Wilson"", ""Theodore Roosevelt""]",http,0.0,16,none,"{""id"":""chatcmpl-7lbklmtl1x6odbrhc6hyes"",""object"":""chat.completion"",""created"":1795593528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T07:58:49.531859+00:00
+44f66f74f9b86adb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Sherlock Holmes, ""If you eliminate the impossible, whatever remains, however improbable, must be the...""
+A. Truth
+B. Answer
+C. Source
+D. Cause
+Answer:","[""Truth"", ""Answer"", ""Source"", ""Cause""]",http,0.0,16,none,"{""id"":""chatcmpl-fgsdgq9c615pnqsr81r8jo"",""object"":""chat.completion"",""created"":1795593528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T07:58:50.390596+00:00
+44f66f74f9b86adb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Sherlock Holmes, ""If you eliminate the impossible, whatever remains, however improbable, must be the...""
+A. Truth
+B. Answer
+C. Source
+D. Cause
+Answer:","[""Truth"", ""Answer"", ""Source"", ""Cause""]",http,0.0,16,none,"{""id"":""chatcmpl-87oxzyy4lwk2mt3ghc2m"",""object"":""chat.completion"",""created"":1795593529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8718,,MarianeAzar,20261125_084135,2026-11-25T07:58:51.262659+00:00
+b2c07169987e724b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In computing terms, typically what does CLI stand for?
+A. Common Language Interface
+B. Control Line Interface
+C. Common Language Input
+D. Command Line Interface
+Answer:","[""Common Language Interface"", ""Control Line Interface"", ""Common Language Input"", ""Command Line Interface""]",http,0.0,16,none,"{""id"":""chatcmpl-pw9hbqfc68o0zopcwqdw"",""object"":""chat.completion"",""created"":1795593530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8724,,MarianeAzar,20261125_084135,2026-11-25T07:58:52.135355+00:00
+b2c07169987e724b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In computing terms, typically what does CLI stand for?
+A. Common Language Interface
+B. Control Line Interface
+C. Common Language Input
+D. Command Line Interface
+Answer:","[""Common Language Interface"", ""Control Line Interface"", ""Common Language Input"", ""Command Line Interface""]",http,0.0,16,none,"{""id"":""chatcmpl-o9jxnanimvijpodnvxpwdq"",""object"":""chat.completion"",""created"":1795593531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.882,,MarianeAzar,20261125_084135,2026-11-25T07:58:53.017665+00:00
+546c2c11156ff75e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?
+A. Robert Harley
+B. John Blunt
+C. John Churchill
+D. Daniel Defoe
+Answer:","[""Robert Harley"", ""John Blunt"", ""John Churchill"", ""Daniel Defoe""]",http,0.0,16,none,"{""id"":""chatcmpl-vifx73dj65k727y9ww7hun"",""object"":""chat.completion"",""created"":1795593532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T07:58:53.892015+00:00
+546c2c11156ff75e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?
+A. Robert Harley
+B. John Blunt
+C. John Churchill
+D. Daniel Defoe
+Answer:","[""Robert Harley"", ""John Blunt"", ""John Churchill"", ""Daniel Defoe""]",http,0.0,16,none,"{""id"":""chatcmpl-j7oebd3isjfbqs7dk76mn"",""object"":""chat.completion"",""created"":1795593533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T07:58:54.783290+00:00
+86f0c2fddd760bb4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to their longtime nickname, what kind of ""duo"" are Batman & Robin?
+A. Dynastic
+B. Dangerous
+C. Dynamic
+D. Delirious
+Answer:","[""Dynastic"", ""Dangerous"", ""Dynamic"", ""Delirious""]",http,0.0,16,none,"{""id"":""chatcmpl-n59hpdlzmbdkgdknvlr5fq"",""object"":""chat.completion"",""created"":1795593534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9232,,MarianeAzar,20261125_084135,2026-11-25T07:58:55.706808+00:00
+86f0c2fddd760bb4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to their longtime nickname, what kind of ""duo"" are Batman & Robin?
+A. Dynastic
+B. Dangerous
+C. Dynamic
+D. Delirious
+Answer:","[""Dynastic"", ""Dangerous"", ""Dynamic"", ""Delirious""]",http,0.0,16,none,"{""id"":""chatcmpl-x7uikoso0sdpzq8qht468d"",""object"":""chat.completion"",""created"":1795593535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T07:58:56.594346+00:00

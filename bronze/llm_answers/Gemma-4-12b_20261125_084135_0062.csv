@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+bc4865cdff9b3968,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which part from the JoJo's Bizarre Adventure manga is about a horse race across America?
+A. Part 6: Stone Ocean
+B. Part 5: Golden Wind
+C. Part 7: Steel Ball Run
+D. Part 3: Stardust Crusaders
+Answer:","[""Part 6: Stone Ocean"", ""Part 5: Golden Wind"", ""Part 7: Steel Ball Run"", ""Part 3: Stardust Crusaders""]",http,0.0,16,none,"{""id"":""chatcmpl-exga4p0yofeelizt5bdr0n"",""object"":""chat.completion"",""created"":1795593843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261125_084135,2026-11-25T08:04:05.116971+00:00
+bc4865cdff9b3968,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which part from the JoJo's Bizarre Adventure manga is about a horse race across America?
+A. Part 6: Stone Ocean
+B. Part 5: Golden Wind
+C. Part 7: Steel Ball Run
+D. Part 3: Stardust Crusaders
+Answer:","[""Part 6: Stone Ocean"", ""Part 5: Golden Wind"", ""Part 7: Steel Ball Run"", ""Part 3: Stardust Crusaders""]",http,0.0,16,none,"{""id"":""chatcmpl-5ph96mpq9q7v03yd4bl0b"",""object"":""chat.completion"",""created"":1795593844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9179,,MarianeAzar,20261125_084135,2026-11-25T08:04:06.035110+00:00
+2912221c712e724d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the stands from ""JoJo's Bizarre Adventure"" mimics the likeness of a tomato?
+A. Nut King Call
+B. Cream Starter
+C. Pearl Jam
+D. Red Hot Chili Pepper
+Answer:","[""Nut King Call"", ""Cream Starter"", ""Pearl Jam"", ""Red Hot Chili Pepper""]",http,0.0,16,none,"{""id"":""chatcmpl-xxtszglt9fkpdaoc5liym"",""object"":""chat.completion"",""created"":1795593845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T08:04:06.891919+00:00
+2912221c712e724d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the stands from ""JoJo's Bizarre Adventure"" mimics the likeness of a tomato?
+A. Nut King Call
+B. Cream Starter
+C. Pearl Jam
+D. Red Hot Chili Pepper
+Answer:","[""Nut King Call"", ""Cream Starter"", ""Pearl Jam"", ""Red Hot Chili Pepper""]",http,0.0,16,none,"{""id"":""chatcmpl-ta99dkp7fbrj8mgl544s1b"",""object"":""chat.completion"",""created"":1795593846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261125_084135,2026-11-25T08:04:07.775864+00:00
+67c9e230a0f0ccc6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard game of Monopoly, what colour are the two cheapest properties?
+A. Green
+B. Blue
+C. Yellow
+D. Brown
+Answer:","[""Green"", ""Blue"", ""Yellow"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-usd88eyb2m912b52c772dvk"",""object"":""chat.completion"",""created"":1795593847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9168,,MarianeAzar,20261125_084135,2026-11-25T08:04:08.692956+00:00
+67c9e230a0f0ccc6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard game of Monopoly, what colour are the two cheapest properties?
+A. Green
+B. Blue
+C. Yellow
+D. Brown
+Answer:","[""Green"", ""Blue"", ""Yellow"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-lmzqxh0ok4jh05szrs1tf"",""object"":""chat.completion"",""created"":1795593848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:04:09.566111+00:00
+3080b58db8b05c9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the French word for ""hat""?
+A. Casque
+B. Écharpe
+C. Chapeau
+D. Bonnet
+Answer:","[""Casque"", ""Écharpe"", ""Chapeau"", ""Bonnet""]",http,0.0,16,none,"{""id"":""chatcmpl-3ykr7ewqb3gp3d2u80v41p"",""object"":""chat.completion"",""created"":1795593848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:04:10.424405+00:00
+3080b58db8b05c9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the French word for ""hat""?
+A. Casque
+B. Écharpe
+C. Chapeau
+D. Bonnet
+Answer:","[""Casque"", ""Écharpe"", ""Chapeau"", ""Bonnet""]",http,0.0,16,none,"{""id"":""chatcmpl-8ua5ky58q57uj0nvmwzxk"",""object"":""chat.completion"",""created"":1795593849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T08:04:11.291065+00:00
+9c10dbe0e21adeee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gordon Freeman is said to have burnt and destroyed what food in the break room microwave?
+A. Pepperoni Pizza
+B. Chicken Soup
+C. Casserole
+D. Sub Sandwich
+Answer:","[""Pepperoni Pizza"", ""Chicken Soup"", ""Casserole"", ""Sub Sandwich""]",http,0.0,16,none,"{""id"":""chatcmpl-vuu4d8ronhgpsq2nhy0nke"",""object"":""chat.completion"",""created"":1795593850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8693,,MarianeAzar,20261125_084135,2026-11-25T08:04:12.160643+00:00
+9c10dbe0e21adeee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gordon Freeman is said to have burnt and destroyed what food in the break room microwave?
+A. Pepperoni Pizza
+B. Chicken Soup
+C. Casserole
+D. Sub Sandwich
+Answer:","[""Pepperoni Pizza"", ""Chicken Soup"", ""Casserole"", ""Sub Sandwich""]",http,0.0,16,none,"{""id"":""chatcmpl-tm08x25apgxvtajwef1in"",""object"":""chat.completion"",""created"":1795593851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8558,,MarianeAzar,20261125_084135,2026-11-25T08:04:13.016786+00:00
+367924fa6055641e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French word to travel is ""Travail""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o5kystvt8985luo5eu5j6g"",""object"":""chat.completion"",""created"":1795593852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8127,,MarianeAzar,20261125_084135,2026-11-25T08:04:13.829944+00:00
+367924fa6055641e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French word to travel is ""Travail""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n5f0nt549o88vkhy8c1q"",""object"":""chat.completion"",""created"":1795593853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8215,,MarianeAzar,20261125_084135,2026-11-25T08:04:14.651596+00:00
+57a890707f5c432a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Disgaea series, any character can equip any weapon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o366t7nxplzfydsa6cope"",""object"":""chat.completion"",""created"":1795593854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8046,,MarianeAzar,20261125_084135,2026-11-25T08:04:15.456378+00:00
+57a890707f5c432a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Disgaea series, any character can equip any weapon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d1j14s0s9ji43zfmjp6c"",""object"":""chat.completion"",""created"":1795593854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8293,,MarianeAzar,20261125_084135,2026-11-25T08:04:16.285904+00:00
+3f60d4a09f42fd0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which virtual assistant is developed by Amazon?
+A. Alexa
+B. Siri
+C. Cortana
+D. Google Assistant
+Answer:","[""Alexa"", ""Siri"", ""Cortana"", ""Google Assistant""]",http,0.0,16,none,"{""id"":""chatcmpl-23bb1wzz0hvsi1v9ghinwb"",""object"":""chat.completion"",""created"":1795593855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T08:04:17.159928+00:00
+3f60d4a09f42fd0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which virtual assistant is developed by Amazon?
+A. Alexa
+B. Siri
+C. Cortana
+D. Google Assistant
+Answer:","[""Alexa"", ""Siri"", ""Cortana"", ""Google Assistant""]",http,0.0,16,none,"{""id"":""chatcmpl-8m4lim46e7giajm3t6s5co"",""object"":""chat.completion"",""created"":1795593856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261125_084135,2026-11-25T08:04:18.014301+00:00
+8223dbaa0c2ea9b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An organic compound is considered an alcohol if it has what functional group?
+A. Hydroxyl
+B. Alkyl
+C. Aldehyde
+D. Carbonyl
+Answer:","[""Hydroxyl"", ""Alkyl"", ""Aldehyde"", ""Carbonyl""]",http,0.0,16,none,"{""id"":""chatcmpl-cow211jua0qbj7kfkj6i2d"",""object"":""chat.completion"",""created"":1795593857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T08:04:18.901625+00:00
+8223dbaa0c2ea9b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An organic compound is considered an alcohol if it has what functional group?
+A. Hydroxyl
+B. Alkyl
+C. Aldehyde
+D. Carbonyl
+Answer:","[""Hydroxyl"", ""Alkyl"", ""Aldehyde"", ""Carbonyl""]",http,0.0,16,none,"{""id"":""chatcmpl-vdawavahsjfjwze19ew46"",""object"":""chat.completion"",""created"":1795593858,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:04:19.760869+00:00
+47f3508bd6ef6c7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In TF2 Lore, what are the names of the Heavy's younger sisters?
+A. Yana and Bronislava
+B. Yanna and Gaba
+C. Anna and Bronislava
+D. Gaba and Anna
+Answer:","[""Yana and Bronislava"", ""Yanna and Gaba"", ""Anna and Bronislava"", ""Gaba and Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-fdiqjoali97j1d6p7kkh6p"",""object"":""chat.completion"",""created"":1795593859,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8776,,MarianeAzar,20261125_084135,2026-11-25T08:04:20.638740+00:00
+47f3508bd6ef6c7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In TF2 Lore, what are the names of the Heavy's younger sisters?
+A. Yana and Bronislava
+B. Yanna and Gaba
+C. Anna and Bronislava
+D. Gaba and Anna
+Answer:","[""Yana and Bronislava"", ""Yanna and Gaba"", ""Anna and Bronislava"", ""Gaba and Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-rjddqyln40lhtudui480zu"",""object"":""chat.completion"",""created"":1795593860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261125_084135,2026-11-25T08:04:21.516658+00:00
+487950eaa3ed29cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bones is hardest to break?
+A. Humerus
+B. Cranium
+C. Tibia
+D. Femur
+Answer:","[""Humerus"", ""Cranium"", ""Tibia"", ""Femur""]",http,0.0,16,none,"{""id"":""chatcmpl-nz7dzn3ix1ud3ptmhkus"",""object"":""chat.completion"",""created"":1795593860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261125_084135,2026-11-25T08:04:22.396123+00:00
+487950eaa3ed29cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bones is hardest to break?
+A. Humerus
+B. Cranium
+C. Tibia
+D. Femur
+Answer:","[""Humerus"", ""Cranium"", ""Tibia"", ""Femur""]",http,0.0,16,none,"{""id"":""chatcmpl-ehputwyfo2ms9hndz60c2n"",""object"":""chat.completion"",""created"":1795593861,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261125_084135,2026-11-25T08:04:23.264122+00:00
+345a0f81a7659e4d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was the Games of the XXII Olympiad held?
+A. Los Angeles
+B. Moscow
+C. Tokyo
+D. Barcelona
+Answer:","[""Los Angeles"", ""Moscow"", ""Tokyo"", ""Barcelona""]",http,0.0,16,none,"{""id"":""chatcmpl-9v8ffsbecwp4x976tndys"",""object"":""chat.completion"",""created"":1795593862,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:04:24.132481+00:00
+345a0f81a7659e4d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was the Games of the XXII Olympiad held?
+A. Los Angeles
+B. Moscow
+C. Tokyo
+D. Barcelona
+Answer:","[""Los Angeles"", ""Moscow"", ""Tokyo"", ""Barcelona""]",http,0.0,16,none,"{""id"":""chatcmpl-mkb01az7xsnhmufuxgu2m9"",""object"":""chat.completion"",""created"":1795593863,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8686,,MarianeAzar,20261125_084135,2026-11-25T08:04:25.001417+00:00
+adbade9e0c08157b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did ""The Big Bang Theory"" debut on CBS?
+A. 2006
+B. 2009
+C. 2007
+D. 2008
+Answer:","[""2006"", ""2009"", ""2007"", ""2008""]",http,0.0,16,none,"{""id"":""chatcmpl-a4yg6mw8quvlsoax31mq8q"",""object"":""chat.completion"",""created"":1795593864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261125_084135,2026-11-25T08:04:25.870825+00:00

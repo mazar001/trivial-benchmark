@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+926aa07655ab0932,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bill Cipher in the show ""Gravity Falls"" is the good guy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0v7ov9vr4hsectqpzr779a"",""object"":""chat.completion"",""created"":1795554416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8475,,MarianeAzar,20261124_215144,2026-11-24T21:06:57.332079+00:00
+926aa07655ab0932,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bill Cipher in the show ""Gravity Falls"" is the good guy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0gkuwucq404ak7m7a2rlr4"",""object"":""chat.completion"",""created"":1795554417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8203,,MarianeAzar,20261124_215144,2026-11-24T21:06:58.152524+00:00
+4c2471905cf1064b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Named after the mallow flower, mauve is a shade of what?
+A. Purple
+B. Pink
+C. Red
+D. Brown
+Answer:","[""Purple"", ""Pink"", ""Red"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-jbu02j5wtr7fxetwm0v3x"",""object"":""chat.completion"",""created"":1795554418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261124_215144,2026-11-24T21:06:59.008729+00:00
+4c2471905cf1064b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Named after the mallow flower, mauve is a shade of what?
+A. Purple
+B. Pink
+C. Red
+D. Brown
+Answer:","[""Purple"", ""Pink"", ""Red"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-q0bl93enb2o0dcj80w37169"",""object"":""chat.completion"",""created"":1795554418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8621,,MarianeAzar,20261124_215144,2026-11-24T21:06:59.871102+00:00
+84b17cac3e6ff2a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Tetris created by?
+A. William Higinbotham
+B. Alexey Pajitnov
+C. Allan Alcorn
+D. Toru Iwatani
+Answer:","[""William Higinbotham"", ""Alexey Pajitnov"", ""Allan Alcorn"", ""Toru Iwatani""]",http,0.0,16,none,"{""id"":""chatcmpl-qi01htzmuig270iuz8hg9"",""object"":""chat.completion"",""created"":1795554419,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261124_215144,2026-11-24T21:07:00.724064+00:00
+84b17cac3e6ff2a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Tetris created by?
+A. William Higinbotham
+B. Alexey Pajitnov
+C. Allan Alcorn
+D. Toru Iwatani
+Answer:","[""William Higinbotham"", ""Alexey Pajitnov"", ""Allan Alcorn"", ""Toru Iwatani""]",http,0.0,16,none,"{""id"":""chatcmpl-nd6wh4548rkxpjrpglbt"",""object"":""chat.completion"",""created"":1795554420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261124_215144,2026-11-24T21:07:01.585468+00:00
+9b66333c3f739920,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?
+A. Winny Hathersham
+B. Nanny Ogg
+C. Granny Weatherwax
+D. Magrat Garlick
+Answer:","[""Winny Hathersham"", ""Nanny Ogg"", ""Granny Weatherwax"", ""Magrat Garlick""]",http,0.0,16,none,"{""id"":""chatcmpl-7ohyrpse90kyxjzoaej7a"",""object"":""chat.completion"",""created"":1795554421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8799,,MarianeAzar,20261124_215144,2026-11-24T21:07:02.465607+00:00
+9b66333c3f739920,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?
+A. Winny Hathersham
+B. Nanny Ogg
+C. Granny Weatherwax
+D. Magrat Garlick
+Answer:","[""Winny Hathersham"", ""Nanny Ogg"", ""Granny Weatherwax"", ""Magrat Garlick""]",http,0.0,16,none,"{""id"":""chatcmpl-5gnvuli5cdfni5hc8duk1k"",""object"":""chat.completion"",""created"":1795554422,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261124_215144,2026-11-24T21:07:03.359548+00:00
+185499277a7e6329,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the Berlin Wall fall?
+A. 1991
+B. 1987
+C. 1993
+D. 1989
+Answer:","[""1991"", ""1987"", ""1993"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-veb3h71diyphlfu33yd2n"",""object"":""chat.completion"",""created"":1795554423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8836,,MarianeAzar,20261124_215144,2026-11-24T21:07:04.243539+00:00
+185499277a7e6329,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the Berlin Wall fall?
+A. 1991
+B. 1987
+C. 1993
+D. 1989
+Answer:","[""1991"", ""1987"", ""1993"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-6l2i6nwl0n4tlzp8wm15o"",""object"":""chat.completion"",""created"":1795554424,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261124_215144,2026-11-24T21:07:05.125465+00:00
+0ee91228e38d3c41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national museum will you find in Cooperstown, New York?
+A. Museum of Modern Art
+B. National Toy Hall of Fame
+C. National Baseball Hall of Fame
+D. Metropolitan Museum of Art
+Answer:","[""Museum of Modern Art"", ""National Toy Hall of Fame"", ""National Baseball Hall of Fame"", ""Metropolitan Museum of Art""]",http,0.0,16,none,"{""id"":""chatcmpl-bpolwsfg5j6n0b01obfqn"",""object"":""chat.completion"",""created"":1795554425,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261124_215144,2026-11-24T21:07:05.980238+00:00
+0ee91228e38d3c41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national museum will you find in Cooperstown, New York?
+A. Museum of Modern Art
+B. National Toy Hall of Fame
+C. National Baseball Hall of Fame
+D. Metropolitan Museum of Art
+Answer:","[""Museum of Modern Art"", ""National Toy Hall of Fame"", ""National Baseball Hall of Fame"", ""Metropolitan Museum of Art""]",http,0.0,16,none,"{""id"":""chatcmpl-7xd3vqefy5dxycx8nb02jn"",""object"":""chat.completion"",""created"":1795554425,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.883,,MarianeAzar,20261124_215144,2026-11-24T21:07:06.863406+00:00
+07e2f97bd02824c0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which European capital city gives its name to a 1981 song by Ultravox?
+A. Berlin
+B. Paris
+C. Brussels
+D. Vienna
+Answer:","[""Berlin"", ""Paris"", ""Brussels"", ""Vienna""]",http,0.0,16,none,"{""id"":""chatcmpl-pfa2zm1p7mnn3n7tcxlz1"",""object"":""chat.completion"",""created"":1795554426,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261124_215144,2026-11-24T21:07:07.714791+00:00
+07e2f97bd02824c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which European capital city gives its name to a 1981 song by Ultravox?
+A. Berlin
+B. Paris
+C. Brussels
+D. Vienna
+Answer:","[""Berlin"", ""Paris"", ""Brussels"", ""Vienna""]",http,0.0,16,none,"{""id"":""chatcmpl-tq8fy11uqvbuktywvkz0i"",""object"":""chat.completion"",""created"":1795554427,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261124_215144,2026-11-24T21:07:08.570538+00:00
+7cf81d35d227d2a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Folic acid is the synthetic form of which vitamin?
+A. Vitamin D
+B. Vitamin A
+C. Vitamin C
+D. Vitamin B
+Answer:","[""Vitamin D"", ""Vitamin A"", ""Vitamin C"", ""Vitamin B""]",http,0.0,16,none,"{""id"":""chatcmpl-ttxs2k0zxld3dvfv4u2jga"",""object"":""chat.completion"",""created"":1795554428,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261124_215144,2026-11-24T21:07:09.431907+00:00
+7cf81d35d227d2a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Folic acid is the synthetic form of which vitamin?
+A. Vitamin D
+B. Vitamin A
+C. Vitamin C
+D. Vitamin B
+Answer:","[""Vitamin D"", ""Vitamin A"", ""Vitamin C"", ""Vitamin B""]",http,0.0,16,none,"{""id"":""chatcmpl-lhi84epqplo4cmxvuk0ep1"",""object"":""chat.completion"",""created"":1795554429,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261124_215144,2026-11-24T21:07:10.287705+00:00
+2d8f053781a18ba1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created Ultron of Earth-616?
+A. Amadeus Cho
+B. Reed Richards
+C. Henry Pym
+D. Tony Stark
+Answer:","[""Amadeus Cho"", ""Reed Richards"", ""Henry Pym"", ""Tony Stark""]",http,0.0,16,none,"{""id"":""chatcmpl-u3uryph7k4coye0huyykyh"",""object"":""chat.completion"",""created"":1795554430,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261124_215144,2026-11-24T21:07:11.136552+00:00
+2d8f053781a18ba1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created Ultron of Earth-616?
+A. Amadeus Cho
+B. Reed Richards
+C. Henry Pym
+D. Tony Stark
+Answer:","[""Amadeus Cho"", ""Reed Richards"", ""Henry Pym"", ""Tony Stark""]",http,0.0,16,none,"{""id"":""chatcmpl-pkwlh7nr2pcknfgeq9i6fe"",""object"":""chat.completion"",""created"":1795554431,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8751,,MarianeAzar,20261124_215144,2026-11-24T21:07:12.011883+00:00
+530e62d2254055ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?
+A. Dirty Deeds Done Dirt Cheap
+B. God Bless The USA
+C. Filthy Acts Done For A Reasonable Price
+D. Civil War
+Answer:","[""Dirty Deeds Done Dirt Cheap"", ""God Bless The USA"", ""Filthy Acts Done For A Reasonable Price"", ""Civil War""]",http,0.0,16,none,"{""id"":""chatcmpl-obfmr87ix4t00l8pljap78bj"",""object"":""chat.completion"",""created"":1795554431,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261124_215144,2026-11-24T21:07:12.883621+00:00
+530e62d2254055ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Funny Valentine's stand in Jojo's Bizarre Adventure Part 7, Steel Ball Run?
+A. Dirty Deeds Done Dirt Cheap
+B. God Bless The USA
+C. Filthy Acts Done For A Reasonable Price
+D. Civil War
+Answer:","[""Dirty Deeds Done Dirt Cheap"", ""God Bless The USA"", ""Filthy Acts Done For A Reasonable Price"", ""Civil War""]",http,0.0,16,none,"{""id"":""chatcmpl-i38qkop6klf26gi41wzza"",""object"":""chat.completion"",""created"":1795554433,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.6899,,MarianeAzar,20261124_215144,2026-11-24T21:07:14.573835+00:00
+e888de1c61a818e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?
+A. Rick James
+B. Prince
+C. Michael Jackson
+D. Cameo
+Answer:","[""Rick James"", ""Prince"", ""Michael Jackson"", ""Cameo""]",http,0.0,16,none,"{""id"":""chatcmpl-99q4js2kwj84kdwhv2esoc"",""object"":""chat.completion"",""created"":1795554434,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8764,,MarianeAzar,20261124_215144,2026-11-24T21:07:15.450875+00:00
+e888de1c61a818e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?
+A. Rick James
+B. Prince
+C. Michael Jackson
+D. Cameo
+Answer:","[""Rick James"", ""Prince"", ""Michael Jackson"", ""Cameo""]",http,0.0,16,none,"{""id"":""chatcmpl-fw2am4qqpedoyeison8ip"",""object"":""chat.completion"",""created"":1795554435,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.862,,MarianeAzar,20261124_215144,2026-11-24T21:07:16.313120+00:00
+b9f99f9d1b0d495d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which Greek philosopher would you associate the phrase, ""I know that I know nothing""?
+A. Socrates
+B. Plato
+C. Pythagoras
+D. Aristotle
+Answer:","[""Socrates"", ""Plato"", ""Pythagoras"", ""Aristotle""]",http,0.0,16,none,"{""id"":""chatcmpl-gamg0vqtlqktiy15hnqog"",""object"":""chat.completion"",""created"":1795554436,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8469,,MarianeAzar,20261124_215144,2026-11-24T21:07:17.160339+00:00
+b9f99f9d1b0d495d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which Greek philosopher would you associate the phrase, ""I know that I know nothing""?
+A. Socrates
+B. Plato
+C. Pythagoras
+D. Aristotle
+Answer:","[""Socrates"", ""Plato"", ""Pythagoras"", ""Aristotle""]",http,0.0,16,none,"{""id"":""chatcmpl-90gffyynrjtcjmai1zbm8r"",""object"":""chat.completion"",""created"":1795554437,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261124_215144,2026-11-24T21:07:18.018020+00:00
+a23aa5573754d307,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to an interview with ""Super Mario Land 2"" game director Hiroji Kiyotake, what is Wario's favorite food?
+A. Crepes
+B. Pizza
+C. Cheese
+D. Garlic
+Answer:","[""Crepes"", ""Pizza"", ""Cheese"", ""Garlic""]",http,0.0,16,none,"{""id"":""chatcmpl-9upacph7hphajmkz8viytd"",""object"":""chat.completion"",""created"":1795554437,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261124_215144,2026-11-24T21:07:18.869742+00:00

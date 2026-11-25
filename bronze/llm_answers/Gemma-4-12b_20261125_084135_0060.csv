@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a5ce8ce0a2b8f428,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The K-Pop Boy Band BTS debuted in the year 2013.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-92agfr69nvbf71s8uxzdl"",""object"":""chat.completion"",""created"":1795593800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T08:03:21.464002+00:00
+a5ce8ce0a2b8f428,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The K-Pop Boy Band BTS debuted in the year 2013.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qr57kj1iy7tl8hhh33kqa"",""object"":""chat.completion"",""created"":1795593800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.845,,MarianeAzar,20261125_084135,2026-11-25T08:03:22.309195+00:00
+199e6c2be27f81b5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nova Scotia is on the east coast of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gbjh8so5yksdplcn2joa"",""object"":""chat.completion"",""created"":1795593801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.798,,MarianeAzar,20261125_084135,2026-11-25T08:03:23.107354+00:00
+199e6c2be27f81b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nova Scotia is on the east coast of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x3j55vrdgnzt31nw17ns"",""object"":""chat.completion"",""created"":1795593802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T08:03:23.968173+00:00
+238eb0ff85289115,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the early prototypes of the Sega Dreamcast controller resembled which of the following?
+A. Television Remote
+B. Flip Phone
+C. Tablet
+D. Hairdryer
+Answer:","[""Television Remote"", ""Flip Phone"", ""Tablet"", ""Hairdryer""]",http,0.0,16,none,"{""id"":""chatcmpl-m8aa3xvawveom13duyhub"",""object"":""chat.completion"",""created"":1795593803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8671,,MarianeAzar,20261125_084135,2026-11-25T08:03:24.835682+00:00
+238eb0ff85289115,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the early prototypes of the Sega Dreamcast controller resembled which of the following?
+A. Television Remote
+B. Flip Phone
+C. Tablet
+D. Hairdryer
+Answer:","[""Television Remote"", ""Flip Phone"", ""Tablet"", ""Hairdryer""]",http,0.0,16,none,"{""id"":""chatcmpl-b4ime4fp70ny8veagktfk"",""object"":""chat.completion"",""created"":1795593804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T08:03:25.702220+00:00
+ee60114e1ea48785,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American family band had a 1986 top 10 hit with the song 'Crush On You'?
+A. The Cover Girls
+B. The Jacksons
+C. DeBarge
+D. The Jets
+Answer:","[""The Cover Girls"", ""The Jacksons"", ""DeBarge"", ""The Jets""]",http,0.0,16,none,"{""id"":""chatcmpl-qu0fukoxxcsf17vcg0khjd"",""object"":""chat.completion"",""created"":1795593805,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8886,,MarianeAzar,20261125_084135,2026-11-25T08:03:26.591106+00:00
+ee60114e1ea48785,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American family band had a 1986 top 10 hit with the song 'Crush On You'?
+A. The Cover Girls
+B. The Jacksons
+C. DeBarge
+D. The Jets
+Answer:","[""The Cover Girls"", ""The Jacksons"", ""DeBarge"", ""The Jets""]",http,0.0,16,none,"{""id"":""chatcmpl-1agyatjepy3dlccothcwb"",""object"":""chat.completion"",""created"":1795593806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8888,,MarianeAzar,20261125_084135,2026-11-25T08:03:27.480237+00:00
+338dc14f1afaa961,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which novelty band was best known for their UK chart hits ""Combine Harvester"" and ""I Am a Cider Drinker"" in 1976?
+A. Goldie Lookin Chain
+B. The Firm
+C. The Wurzels
+D. Bonzo Dog Doo-Dah Band
+Answer:","[""Goldie Lookin Chain"", ""The Firm"", ""The Wurzels"", ""Bonzo Dog Doo-Dah Band""]",http,0.0,16,none,"{""id"":""chatcmpl-4bughx64z36boc4uqxgw5f"",""object"":""chat.completion"",""created"":1795593806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8943,,MarianeAzar,20261125_084135,2026-11-25T08:03:28.374799+00:00
+338dc14f1afaa961,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which novelty band was best known for their UK chart hits ""Combine Harvester"" and ""I Am a Cider Drinker"" in 1976?
+A. Goldie Lookin Chain
+B. The Firm
+C. The Wurzels
+D. Bonzo Dog Doo-Dah Band
+Answer:","[""Goldie Lookin Chain"", ""The Firm"", ""The Wurzels"", ""Bonzo Dog Doo-Dah Band""]",http,0.0,16,none,"{""id"":""chatcmpl-j59pvom6f0o9pzepcum7na"",""object"":""chat.completion"",""created"":1795593807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9411,,MarianeAzar,20261125_084135,2026-11-25T08:03:29.316338+00:00
+399199ed1dd9b69b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company developed the Xbox line of video game consoles?
+A. Microsoft
+B. Toshiba
+C. Sony
+D. IBM
+Answer:","[""Microsoft"", ""Toshiba"", ""Sony"", ""IBM""]",http,0.0,16,none,"{""id"":""chatcmpl-r48olyxvfnsvyoef4w7a"",""object"":""chat.completion"",""created"":1795593808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261125_084135,2026-11-25T08:03:30.195140+00:00
+399199ed1dd9b69b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company developed the Xbox line of video game consoles?
+A. Microsoft
+B. Toshiba
+C. Sony
+D. IBM
+Answer:","[""Microsoft"", ""Toshiba"", ""Sony"", ""IBM""]",http,0.0,16,none,"{""id"":""chatcmpl-580ugyg2spcn23wnhgj55"",""object"":""chat.completion"",""created"":1795593809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T08:03:31.050601+00:00
+a0e4a4801f3a2f67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the episode of SpongeBob SquarePants, ""Survival of the Idiots"", Spongebob called Patrick which nickname?
+A. Dirty Dan
+B. Pinhead
+C. Starfish
+D. Larry
+Answer:","[""Dirty Dan"", ""Pinhead"", ""Starfish"", ""Larry""]",http,0.0,16,none,"{""id"":""chatcmpl-jid2h1uy8nd9fwt530mqp"",""object"":""chat.completion"",""created"":1795593810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T08:03:31.911099+00:00
+a0e4a4801f3a2f67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the episode of SpongeBob SquarePants, ""Survival of the Idiots"", Spongebob called Patrick which nickname?
+A. Dirty Dan
+B. Pinhead
+C. Starfish
+D. Larry
+Answer:","[""Dirty Dan"", ""Pinhead"", ""Starfish"", ""Larry""]",http,0.0,16,none,"{""id"":""chatcmpl-so00b0c9jbqhclbrw55dcj"",""object"":""chat.completion"",""created"":1795593811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9394,,MarianeAzar,20261125_084135,2026-11-25T08:03:32.850732+00:00
+4f687130394b1d88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the People's Republic of China founded?
+A. December 6, 1950
+B. May 7, 1945
+C. October 1, 1949
+D. April 3, 1947
+Answer:","[""December 6, 1950"", ""May 7, 1945"", ""October 1, 1949"", ""April 3, 1947""]",http,0.0,16,none,"{""id"":""chatcmpl-w3up0blp6hkzhlxeeanpn"",""object"":""chat.completion"",""created"":1795593812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9167,,MarianeAzar,20261125_084135,2026-11-25T08:03:33.767768+00:00
+4f687130394b1d88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the People's Republic of China founded?
+A. December 6, 1950
+B. May 7, 1945
+C. October 1, 1949
+D. April 3, 1947
+Answer:","[""December 6, 1950"", ""May 7, 1945"", ""October 1, 1949"", ""April 3, 1947""]",http,0.0,16,none,"{""id"":""chatcmpl-58b84k4ejj9ggphqd1xqdr"",""object"":""chat.completion"",""created"":1795593813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:03:34.690177+00:00
+e3ae50e350e3b29c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which ""Call of Duty"" game are the ""Apothicons"" introduced in the Zombies mode?
+A. Call Of Duty: World At War
+B. Call Of Duty: Black Ops
+C. Call Of Duty: Black Ops III
+D. Call Of Duty: Black Ops II
+Answer:","[""Call Of Duty: World At War"", ""Call Of Duty: Black Ops"", ""Call Of Duty: Black Ops III"", ""Call Of Duty: Black Ops II""]",http,0.0,16,none,"{""id"":""chatcmpl-kk0puy9sg0a5yl6fhl3op"",""object"":""chat.completion"",""created"":1795593814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8961,,MarianeAzar,20261125_084135,2026-11-25T08:03:35.586489+00:00
+e3ae50e350e3b29c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which ""Call of Duty"" game are the ""Apothicons"" introduced in the Zombies mode?
+A. Call Of Duty: World At War
+B. Call Of Duty: Black Ops
+C. Call Of Duty: Black Ops III
+D. Call Of Duty: Black Ops II
+Answer:","[""Call Of Duty: World At War"", ""Call Of Duty: Black Ops"", ""Call Of Duty: Black Ops III"", ""Call Of Duty: Black Ops II""]",http,0.0,16,none,"{""id"":""chatcmpl-yz1wn6xywips3u4aa3nkp"",""object"":""chat.completion"",""created"":1795593815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9552,,MarianeAzar,20261125_084135,2026-11-25T08:03:36.541919+00:00
+c244899c418da341,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Titanic sink?
+A. 1941
+B. 1912
+C. 1930
+D. 1917
+Answer:","[""1941"", ""1912"", ""1930"", ""1917""]",http,0.0,16,none,"{""id"":""chatcmpl-erlwap9d3zjct7whcefvsr"",""object"":""chat.completion"",""created"":1795593815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9039,,MarianeAzar,20261125_084135,2026-11-25T08:03:37.446166+00:00
+c244899c418da341,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Titanic sink?
+A. 1941
+B. 1912
+C. 1930
+D. 1917
+Answer:","[""1941"", ""1912"", ""1930"", ""1917""]",http,0.0,16,none,"{""id"":""chatcmpl-edesdo7zkmc0tft9ymsvqf"",""object"":""chat.completion"",""created"":1795593816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:03:38.307664+00:00
+02056404e0dd119a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whistler was the codename of this Microsoft Operating System.
+A. Windows 95
+B. Windows 7
+C. Windows 2000
+D. Windows XP
+Answer:","[""Windows 95"", ""Windows 7"", ""Windows 2000"", ""Windows XP""]",http,0.0,16,none,"{""id"":""chatcmpl-kapaogb6sa9qlo1q0at6q"",""object"":""chat.completion"",""created"":1795593817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:03:39.169983+00:00
+02056404e0dd119a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whistler was the codename of this Microsoft Operating System.
+A. Windows 95
+B. Windows 7
+C. Windows 2000
+D. Windows XP
+Answer:","[""Windows 95"", ""Windows 7"", ""Windows 2000"", ""Windows XP""]",http,0.0,16,none,"{""id"":""chatcmpl-1rr0k08ghcl6phxvuz2as"",""object"":""chat.completion"",""created"":1795593818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8758,,MarianeAzar,20261125_084135,2026-11-25T08:03:40.046036+00:00
+f371a3df22babb0b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the beginning of the game ""Sonic Adventure"", what color Chaos Emerald does Tails own?
+A. Blue
+B. Purple
+C. Red
+D. Green
+Answer:","[""Blue"", ""Purple"", ""Red"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-b53rl98skeu46hwomq6bfk"",""object"":""chat.completion"",""created"":1795593819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8717,,MarianeAzar,20261125_084135,2026-11-25T08:03:40.918068+00:00
+f371a3df22babb0b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the beginning of the game ""Sonic Adventure"", what color Chaos Emerald does Tails own?
+A. Blue
+B. Purple
+C. Red
+D. Green
+Answer:","[""Blue"", ""Purple"", ""Red"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-hn6fhuy4zjo67ipl2h8j97"",""object"":""chat.completion"",""created"":1795593820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T08:03:41.774754+00:00
+939d30824c36dc1f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chartreuse is a color between yellow and what?
+A. Red
+B. Black
+C. Green
+D. Purple
+Answer:","[""Red"", ""Black"", ""Green"", ""Purple""]",http,0.0,16,none,"{""id"":""chatcmpl-nak2j8yxi5ivatekgbcyu"",""object"":""chat.completion"",""created"":1795593821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8482,,MarianeAzar,20261125_084135,2026-11-25T08:03:42.623388+00:00

@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+806c09de380399bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Super Mario World 2: Yoshi's Island"", which of these colors is NOT represented by a Yoshi?
+A. Brown
+B. Purple
+C. Red
+D. White
+Answer:","[""Brown"", ""Purple"", ""Red"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-8zc20mwjdfxcce8l76bp4r"",""object"":""chat.completion"",""created"":1795592689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T07:44:50.615083+00:00
+a156a30e305f95b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Beatle wrote and sang the song ""Why Don't We Do It in the Road"" after being inspired by seeing two monkeys copulating in the street?
+A. George
+B. John
+C. Ringo
+D. Paul
+Answer:","[""George"", ""John"", ""Ringo"", ""Paul""]",http,0.0,16,none,"{""id"":""chatcmpl-fe3mjrhqx2ek1rkke2s0x"",""object"":""chat.completion"",""created"":1795592690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.853,,MarianeAzar,20261125_084135,2026-11-25T07:44:51.468334+00:00
+a156a30e305f95b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Beatle wrote and sang the song ""Why Don't We Do It in the Road"" after being inspired by seeing two monkeys copulating in the street?
+A. George
+B. John
+C. Ringo
+D. Paul
+Answer:","[""George"", ""John"", ""Ringo"", ""Paul""]",http,0.0,16,none,"{""id"":""chatcmpl-mfr9thxziuo7piyhzj11oq"",""object"":""chat.completion"",""created"":1795592690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9018,,MarianeAzar,20261125_084135,2026-11-25T07:44:52.370535+00:00
+14e1348c5347b5a5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2012 animated film ""Wolf Children"", what are the names of the wolf children?
+A. Ame & Yuki
+B. Ame & Hana
+C. Hana & Yuki
+D. Chuck & Anna
+Answer:","[""Ame & Yuki"", ""Ame & Hana"", ""Hana & Yuki"", ""Chuck & Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-kz8c6v7145rro3easwfxe"",""object"":""chat.completion"",""created"":1795592691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.886,,MarianeAzar,20261125_084135,2026-11-25T07:44:53.256778+00:00
+14e1348c5347b5a5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2012 animated film ""Wolf Children"", what are the names of the wolf children?
+A. Ame & Yuki
+B. Ame & Hana
+C. Hana & Yuki
+D. Chuck & Anna
+Answer:","[""Ame & Yuki"", ""Ame & Hana"", ""Hana & Yuki"", ""Chuck & Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-kwnj4nl7nskctg4qbfb2p"",""object"":""chat.completion"",""created"":1795592692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261125_084135,2026-11-25T07:44:54.130225+00:00
+b69bcc619a611223,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which round does a WW2 M1 Garand fire?
+A. .308
+B. .30-06
+C. 7.62
+D. 7.62x51mm
+Answer:","["".308"", "".30-06"", ""7.62"", ""7.62x51mm""]",http,0.0,16,none,"{""id"":""chatcmpl-o5a56vusm6cjww2n4zupxj"",""object"":""chat.completion"",""created"":1795592693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8933,,MarianeAzar,20261125_084135,2026-11-25T07:44:55.024102+00:00
+b69bcc619a611223,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which round does a WW2 M1 Garand fire?
+A. .308
+B. .30-06
+C. 7.62
+D. 7.62x51mm
+Answer:","["".308"", "".30-06"", ""7.62"", ""7.62x51mm""]",http,0.0,16,none,"{""id"":""chatcmpl-emhkfmaaseanooquk8sok"",""object"":""chat.completion"",""created"":1795592694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8844,,MarianeAzar,20261125_084135,2026-11-25T07:44:55.908645+00:00
+8e375cd37dc22ea5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language of Bhutan?
+A. Ladakhi
+B. Groma
+C. Dzongkha
+D. Karen
+Answer:","[""Ladakhi"", ""Groma"", ""Dzongkha"", ""Karen""]",http,0.0,16,none,"{""id"":""chatcmpl-qawmesbwspniwe2nvgunc"",""object"":""chat.completion"",""created"":1795592695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.862,,MarianeAzar,20261125_084135,2026-11-25T07:44:56.771042+00:00
+8e375cd37dc22ea5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language of Bhutan?
+A. Ladakhi
+B. Groma
+C. Dzongkha
+D. Karen
+Answer:","[""Ladakhi"", ""Groma"", ""Dzongkha"", ""Karen""]",http,0.0,16,none,"{""id"":""chatcmpl-tysh2wyk1gy1zbdkyok1"",""object"":""chat.completion"",""created"":1795592696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8558,,MarianeAzar,20261125_084135,2026-11-25T07:44:57.627172+00:00
+b9b3b98de28045e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Killing Floor started as a mod for which Unreal Engine 2 game?
+A. Unreal Tournament 2004
+B. Postal
+C. Unreal Tournament 3
+D. Deus Ex: Invisible War
+Answer:","[""Unreal Tournament 2004"", ""Postal"", ""Unreal Tournament 3"", ""Deus Ex: Invisible War""]",http,0.0,16,none,"{""id"":""chatcmpl-lyrb0q932grj2rmcutkc9"",""object"":""chat.completion"",""created"":1795592697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T07:44:58.506487+00:00
+b9b3b98de28045e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Killing Floor started as a mod for which Unreal Engine 2 game?
+A. Unreal Tournament 2004
+B. Postal
+C. Unreal Tournament 3
+D. Deus Ex: Invisible War
+Answer:","[""Unreal Tournament 2004"", ""Postal"", ""Unreal Tournament 3"", ""Deus Ex: Invisible War""]",http,0.0,16,none,"{""id"":""chatcmpl-pikch4xx5e0vnlyks73iel"",""object"":""chat.completion"",""created"":1795592697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T07:44:59.392146+00:00
+ce25e3a7a35704c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's first video game console?
+A. Magnavox Odyssey
+B. Nintendo Color TV Game
+C. Atari 2600
+D. Coleco Telstar
+Answer:","[""Magnavox Odyssey"", ""Nintendo Color TV Game"", ""Atari 2600"", ""Coleco Telstar""]",http,0.0,16,none,"{""id"":""chatcmpl-j454bgjnfv7hiywzgh5kk"",""object"":""chat.completion"",""created"":1795592698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261125_084135,2026-11-25T07:45:00.261310+00:00
+ce25e3a7a35704c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's first video game console?
+A. Magnavox Odyssey
+B. Nintendo Color TV Game
+C. Atari 2600
+D. Coleco Telstar
+Answer:","[""Magnavox Odyssey"", ""Nintendo Color TV Game"", ""Atari 2600"", ""Coleco Telstar""]",http,0.0,16,none,"{""id"":""chatcmpl-a99d5ivoizfdi3ed07t7qv"",""object"":""chat.completion"",""created"":1795592699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261125_084135,2026-11-25T07:45:01.143358+00:00
+db6f65212dfaf145,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted the painting ""Nighthawks""?
+A. Johannes Vermeer
+B. Edward Hopper
+C. Salvador Dali
+D. Vincent van Gogh
+Answer:","[""Johannes Vermeer"", ""Edward Hopper"", ""Salvador Dali"", ""Vincent van Gogh""]",http,0.0,16,none,"{""id"":""chatcmpl-r1lxc0jmdzal9bsjlj7tv"",""object"":""chat.completion"",""created"":1795592700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9118,,MarianeAzar,20261125_084135,2026-11-25T07:45:02.055359+00:00
+db6f65212dfaf145,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted the painting ""Nighthawks""?
+A. Johannes Vermeer
+B. Edward Hopper
+C. Salvador Dali
+D. Vincent van Gogh
+Answer:","[""Johannes Vermeer"", ""Edward Hopper"", ""Salvador Dali"", ""Vincent van Gogh""]",http,0.0,16,none,"{""id"":""chatcmpl-3wzpya4a2vwu4cowe63ulg"",""object"":""chat.completion"",""created"":1795592701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8494,,MarianeAzar,20261125_084135,2026-11-25T07:45:02.905004+00:00
+fed91abf600afe92,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Russian oblast forms a border with Poland?
+A. Kaliningrad
+B. Nizhny Novgorod
+C. Samara
+D. Omsk
+Answer:","[""Kaliningrad"", ""Nizhny Novgorod"", ""Samara"", ""Omsk""]",http,0.0,16,none,"{""id"":""chatcmpl-p1j1ov2wo15wyjy7wm01o"",""object"":""chat.completion"",""created"":1795592702,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261125_084135,2026-11-25T07:45:03.758213+00:00
+fed91abf600afe92,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Russian oblast forms a border with Poland?
+A. Kaliningrad
+B. Nizhny Novgorod
+C. Samara
+D. Omsk
+Answer:","[""Kaliningrad"", ""Nizhny Novgorod"", ""Samara"", ""Omsk""]",http,0.0,16,none,"{""id"":""chatcmpl-c8qilk75f3svqhy6prlpp"",""object"":""chat.completion"",""created"":1795592703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:45:04.612178+00:00
+81f8cbf3b4124a90,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did Bethesda purchase the Fallout Series from?
+A. Blizzard Entertainment
+B. Capcom
+C. Interplay Entertainment
+D. Nintendo
+Answer:","[""Blizzard Entertainment"", ""Capcom"", ""Interplay Entertainment"", ""Nintendo""]",http,0.0,16,none,"{""id"":""chatcmpl-vn253adz8hqiroxcvf2j"",""object"":""chat.completion"",""created"":1795592704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.844,,MarianeAzar,20261125_084135,2026-11-25T07:45:05.456375+00:00
+81f8cbf3b4124a90,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did Bethesda purchase the Fallout Series from?
+A. Blizzard Entertainment
+B. Capcom
+C. Interplay Entertainment
+D. Nintendo
+Answer:","[""Blizzard Entertainment"", ""Capcom"", ""Interplay Entertainment"", ""Nintendo""]",http,0.0,16,none,"{""id"":""chatcmpl-pybv44w7l4curc6796snid"",""object"":""chat.completion"",""created"":1795592704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:45:06.306403+00:00
+eabccd6a00e71721,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?
+A. Hemlock
+B. Buckthorn
+C. Wolf's Bane
+D. Mistletoe
+Answer:","[""Hemlock"", ""Buckthorn"", ""Wolf's Bane"", ""Mistletoe""]",http,0.0,16,none,"{""id"":""chatcmpl-a42v7qtbgh4almoqxamo4"",""object"":""chat.completion"",""created"":1795592705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T07:45:07.157602+00:00
+eabccd6a00e71721,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse Mythology, Baldr was killed by Loki with a magical spear made from what plant?
+A. Hemlock
+B. Buckthorn
+C. Wolf's Bane
+D. Mistletoe
+Answer:","[""Hemlock"", ""Buckthorn"", ""Wolf's Bane"", ""Mistletoe""]",http,0.0,16,none,"{""id"":""chatcmpl-gvg19s6lm2rwlavow2ht"",""object"":""chat.completion"",""created"":1795592706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8793,,MarianeAzar,20261125_084135,2026-11-25T07:45:08.037157+00:00
+76e9df68d79f9601,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car manufacturer created the ""Aventador""?
+A. Pagani
+B. Ferrari
+C. Bugatti
+D. Lamborghini
+Answer:","[""Pagani"", ""Ferrari"", ""Bugatti"", ""Lamborghini""]",http,0.0,16,none,"{""id"":""chatcmpl-q6j2xjvq0upjjxor7xgtb"",""object"":""chat.completion"",""created"":1795592707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:45:08.887220+00:00
+76e9df68d79f9601,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car manufacturer created the ""Aventador""?
+A. Pagani
+B. Ferrari
+C. Bugatti
+D. Lamborghini
+Answer:","[""Pagani"", ""Ferrari"", ""Bugatti"", ""Lamborghini""]",http,0.0,16,none,"{""id"":""chatcmpl-glibg8s6apley3av1a9leo"",""object"":""chat.completion"",""created"":1795592708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8465,,MarianeAzar,20261125_084135,2026-11-25T07:45:09.733921+00:00
+37c9190eabc3c761,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why is the night sky dark?
+A. The universe is finite in age and size
+B. Dust clouds absorb light
+C. Quantum mechanics
+D. Redshift doesn't let us see distant stars
+Answer:","[""The universe is finite in age and size"", ""Dust clouds absorb light"", ""Quantum mechanics"", ""Redshift doesn't let us see distant stars""]",http,0.0,16,none,"{""id"":""chatcmpl-f9aot73hcj1tm7x7muqjr"",""object"":""chat.completion"",""created"":1795592709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T07:45:10.584014+00:00
+37c9190eabc3c761,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why is the night sky dark?
+A. The universe is finite in age and size
+B. Dust clouds absorb light
+C. Quantum mechanics
+D. Redshift doesn't let us see distant stars
+Answer:","[""The universe is finite in age and size"", ""Dust clouds absorb light"", ""Quantum mechanics"", ""Redshift doesn't let us see distant stars""]",http,0.0,16,none,"{""id"":""chatcmpl-d5lab638vzs7qw2e1khz"",""object"":""chat.completion"",""created"":1795592710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261125_084135,2026-11-25T07:45:11.459841+00:00

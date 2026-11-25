@@ -1,0 +1,184 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+22eb97a5272c9e5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game won the ""Games for Impact"" award in The Game Awards 2015?
+A. Rocket League
+B. Metal Gear Solid V: The Phantom Pain
+C. Life is Strange
+D. Ori and the Blind Forest
+Answer:","[""Rocket League"", ""Metal Gear Solid V: The Phantom Pain"", ""Life is Strange"", ""Ori and the Blind Forest""]",http,0.0,16,none,"{""id"":""chatcmpl-x1gr8l13zrnj87p9f0mdl"",""object"":""chat.completion"",""created"":1795593756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8829,,MarianeAzar,20261125_084135,2026-11-25T08:02:37.550279+00:00
+22eb97a5272c9e5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game won the ""Games for Impact"" award in The Game Awards 2015?
+A. Rocket League
+B. Metal Gear Solid V: The Phantom Pain
+C. Life is Strange
+D. Ori and the Blind Forest
+Answer:","[""Rocket League"", ""Metal Gear Solid V: The Phantom Pain"", ""Life is Strange"", ""Ori and the Blind Forest""]",http,0.0,16,none,"{""id"":""chatcmpl-bqayx2tizp71s4436cuva"",""object"":""chat.completion"",""created"":1795593756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9286,,MarianeAzar,20261125_084135,2026-11-25T08:02:38.479201+00:00
+68af70d0b2805285,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the title of the first Bond movie, released in 1962?
+A. Dr. No
+B. Thunderball
+C. From Russia with Love
+D. Goldfinger
+Answer:","[""Dr. No"", ""Thunderball"", ""From Russia with Love"", ""Goldfinger""]",http,0.0,16,none,"{""id"":""chatcmpl-8szitn4qj8875n8nmw3883"",""object"":""chat.completion"",""created"":1795593757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9291,,MarianeAzar,20261125_084135,2026-11-25T08:02:39.408547+00:00
+68af70d0b2805285,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the title of the first Bond movie, released in 1962?
+A. Dr. No
+B. Thunderball
+C. From Russia with Love
+D. Goldfinger
+Answer:","[""Dr. No"", ""Thunderball"", ""From Russia with Love"", ""Goldfinger""]",http,0.0,16,none,"{""id"":""chatcmpl-ruemlqr3p1a65lkw4q0d4a"",""object"":""chat.completion"",""created"":1795593758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:02:40.288413+00:00
+111364d780a10faf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet's boss fight?
+A. Flowering Night
+B. Pierrot of the Star-Spangled Banner
+C. U.N. Owen Was Her
+D. Septette for the Dead Princess
+Answer:","[""Flowering Night"", ""Pierrot of the Star-Spangled Banner"", ""U.N. Owen Was Her"", ""Septette for the Dead Princess""]",http,0.0,16,none,"{""id"":""chatcmpl-e9lvgm92nnohfq6ep4c1dc"",""object"":""chat.completion"",""created"":1795593759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8992,,MarianeAzar,20261125_084135,2026-11-25T08:02:41.187923+00:00
+111364d780a10faf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet's boss fight?
+A. Flowering Night
+B. Pierrot of the Star-Spangled Banner
+C. U.N. Owen Was Her
+D. Septette for the Dead Princess
+Answer:","[""Flowering Night"", ""Pierrot of the Star-Spangled Banner"", ""U.N. Owen Was Her"", ""Septette for the Dead Princess""]",http,0.0,16,none,"{""id"":""chatcmpl-ohxnhjf6s0qlzb34uo2ss"",""object"":""chat.completion"",""created"":1795593760,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.968,,MarianeAzar,20261125_084135,2026-11-25T08:02:42.156183+00:00
+aad8ed1aeca7f6af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these actors/actresses is NOT a part of the cast for the 2016 movie ""Suicide Squad""?
+A. Scarlett Johansson
+B. Margot Robbie
+C. Will Smith
+D. Jared Leto
+Answer:","[""Scarlett Johansson"", ""Margot Robbie"", ""Will Smith"", ""Jared Leto""]",http,0.0,16,none,"{""id"":""chatcmpl-uzuu9jy9dchz1wopm4jtf9"",""object"":""chat.completion"",""created"":1795593761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9141,,MarianeAzar,20261125_084135,2026-11-25T08:02:43.070519+00:00
+aad8ed1aeca7f6af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these actors/actresses is NOT a part of the cast for the 2016 movie ""Suicide Squad""?
+A. Scarlett Johansson
+B. Margot Robbie
+C. Will Smith
+D. Jared Leto
+Answer:","[""Scarlett Johansson"", ""Margot Robbie"", ""Will Smith"", ""Jared Leto""]",http,0.0,16,none,"{""id"":""chatcmpl-ufhppjtb86pzf4umncg4p"",""object"":""chat.completion"",""created"":1795593762,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9127,,MarianeAzar,20261125_084135,2026-11-25T08:02:43.983440+00:00
+3e2bc9b19924dd08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During World War 2, with tank was the most fear by the allies?
+A. Marder III
+B. Mks Matilda II
+C. PanzerKampfwagen VI Tiger
+D. PanzerKampfwagen V Panther
+Answer:","[""Marder III"", ""Mks Matilda II"", ""PanzerKampfwagen VI Tiger"", ""PanzerKampfwagen V Panther""]",http,0.0,16,none,"{""id"":""chatcmpl-hspxs6ovviqsafeodkbdfk"",""object"":""chat.completion"",""created"":1795593763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9217,,MarianeAzar,20261125_084135,2026-11-25T08:02:44.905415+00:00
+3e2bc9b19924dd08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During World War 2, with tank was the most fear by the allies?
+A. Marder III
+B. Mks Matilda II
+C. PanzerKampfwagen VI Tiger
+D. PanzerKampfwagen V Panther
+Answer:","[""Marder III"", ""Mks Matilda II"", ""PanzerKampfwagen VI Tiger"", ""PanzerKampfwagen V Panther""]",http,0.0,16,none,"{""id"":""chatcmpl-3oq9y82hxpep6irrh15af"",""object"":""chat.completion"",""created"":1795593764,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9005,,MarianeAzar,20261125_084135,2026-11-25T08:02:45.806198+00:00
+ea76408b26c0aa9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?
+A. 1990
+B. 1986
+C. 1982
+D. 1989
+Answer:","[""1990"", ""1986"", ""1982"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-twahcdag8dpqohl56eibn8"",""object"":""chat.completion"",""created"":1795593765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9133,,MarianeAzar,20261125_084135,2026-11-25T08:02:46.720053+00:00
+ea76408b26c0aa9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?
+A. 1990
+B. 1986
+C. 1982
+D. 1989
+Answer:","[""1990"", ""1986"", ""1982"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-h613ldfjkh9b3d1jiuycfd"",""object"":""chat.completion"",""created"":1795593766,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9167,,MarianeAzar,20261125_084135,2026-11-25T08:02:47.637072+00:00
+2407050de8e80f88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Xenoblade Chronicles X, which class has a sniper rifle as it's primary weapon?
+A. Winged Viper
+B. Partisan Eagle
+C. Bastion Warrior
+D. Blast Fencer
+Answer:","[""Winged Viper"", ""Partisan Eagle"", ""Bastion Warrior"", ""Blast Fencer""]",http,0.0,16,none,"{""id"":""chatcmpl-beyil89a6ylxu3l48nfras"",""object"":""chat.completion"",""created"":1795593767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T08:02:48.529726+00:00
+2407050de8e80f88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Xenoblade Chronicles X, which class has a sniper rifle as it's primary weapon?
+A. Winged Viper
+B. Partisan Eagle
+C. Bastion Warrior
+D. Blast Fencer
+Answer:","[""Winged Viper"", ""Partisan Eagle"", ""Bastion Warrior"", ""Blast Fencer""]",http,0.0,16,none,"{""id"":""chatcmpl-low8i5189jil67ucp03u7"",""object"":""chat.completion"",""created"":1795593767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8889,,MarianeAzar,20261125_084135,2026-11-25T08:02:49.418808+00:00
+95204be92d24455e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What geometric shape is generally used for stop signs?
+A. Hexagon
+B. Circle
+C. Triangle
+D. Octagon
+Answer:","[""Hexagon"", ""Circle"", ""Triangle"", ""Octagon""]",http,0.0,16,none,"{""id"":""chatcmpl-3ioj6vg2v5jjrgkd3k7xu8"",""object"":""chat.completion"",""created"":1795593768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9234,,MarianeAzar,20261125_084135,2026-11-25T08:02:50.342682+00:00
+95204be92d24455e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What geometric shape is generally used for stop signs?
+A. Hexagon
+B. Circle
+C. Triangle
+D. Octagon
+Answer:","[""Hexagon"", ""Circle"", ""Triangle"", ""Octagon""]",http,0.0,16,none,"{""id"":""chatcmpl-x5ifae8coiqe16kn5o96q"",""object"":""chat.completion"",""created"":1795593769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8686,,MarianeAzar,20261125_084135,2026-11-25T08:02:51.211688+00:00
+c62a69e937fc06b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Portal"" series, who was Cave Johnson's personal assistant?
+A. Jane
+B. Caroline
+C. Melissa
+D. Heather
+Answer:","[""Jane"", ""Caroline"", ""Melissa"", ""Heather""]",http,0.0,16,none,"{""id"":""chatcmpl-6psudmwnudcmpv3a2yz588"",""object"":""chat.completion"",""created"":1795593770,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9543,,MarianeAzar,20261125_084135,2026-11-25T08:02:52.166269+00:00
+c62a69e937fc06b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Portal"" series, who was Cave Johnson's personal assistant?
+A. Jane
+B. Caroline
+C. Melissa
+D. Heather
+Answer:","[""Jane"", ""Caroline"", ""Melissa"", ""Heather""]",http,0.0,16,none,"{""id"":""chatcmpl-y8zmslmqofe6owc2k8n0m"",""object"":""chat.completion"",""created"":1795593771,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:02:53.049163+00:00
+9f3ae40e202d6b62,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the first mammal successfully cloned?
+A. 1999
+B. 1985
+C. 1996
+D. 2009
+Answer:","[""1999"", ""1985"", ""1996"", ""2009""]",http,0.0,16,none,"{""id"":""chatcmpl-3ygec8rkp5yp17xp4j0jgg"",""object"":""chat.completion"",""created"":1795593772,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8909,,MarianeAzar,20261125_084135,2026-11-25T08:02:53.940238+00:00
+9f3ae40e202d6b62,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the first mammal successfully cloned?
+A. 1999
+B. 1985
+C. 1996
+D. 2009
+Answer:","[""1999"", ""1985"", ""1996"", ""2009""]",http,0.0,16,none,"{""id"":""chatcmpl-lno4wnpcnifo9hzbm0p6o"",""object"":""chat.completion"",""created"":1795593773,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9392,,MarianeAzar,20261125_084135,2026-11-25T08:02:54.879727+00:00
+4440c0ffd9b1345a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was the author of ""Username Evie""?
+A. Zoe Sugg
+B. Joe Weller
+C. Joe Sugg
+D. Alfie Deyes
+Answer:","[""Zoe Sugg"", ""Joe Weller"", ""Joe Sugg"", ""Alfie Deyes""]",http,0.0,16,none,"{""id"":""chatcmpl-yxbxfsccid0k8q21pmwo9l"",""object"":""chat.completion"",""created"":1795593774,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261125_084135,2026-11-25T08:02:55.759185+00:00
+4440c0ffd9b1345a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was the author of ""Username Evie""?
+A. Zoe Sugg
+B. Joe Weller
+C. Joe Sugg
+D. Alfie Deyes
+Answer:","[""Zoe Sugg"", ""Joe Weller"", ""Joe Sugg"", ""Alfie Deyes""]",http,0.0,16,none,"{""id"":""chatcmpl-ws5tw2krb1dexq843aajop"",""object"":""chat.completion"",""created"":1795593775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T08:02:56.620901+00:00
+e1d0ceed16a1763d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Neptunia"" series which nation does Neptune rule over?
+A. Leanbox
+B. Lowee
+C. Lastation
+D. Planeptune
+Answer:","[""Leanbox"", ""Lowee"", ""Lastation"", ""Planeptune""]",http,0.0,16,none,"{""id"":""chatcmpl-boxhujo6h1bs2h5nalryr"",""object"":""chat.completion"",""created"":1795593776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9448,,MarianeAzar,20261125_084135,2026-11-25T08:02:57.566093+00:00
+e1d0ceed16a1763d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Neptunia"" series which nation does Neptune rule over?
+A. Leanbox
+B. Lowee
+C. Lastation
+D. Planeptune
+Answer:","[""Leanbox"", ""Lowee"", ""Lastation"", ""Planeptune""]",http,0.0,16,none,"{""id"":""chatcmpl-05rkfgfy5i7aszq7ywzk7m"",""object"":""chat.completion"",""created"":1795593776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T08:02:58.427901+00:00
+0cba75119350ecf1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A wyvern is the same as a dragon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-icy5dyq2dsag2zckaar8vo"",""object"":""chat.completion"",""created"":1795593777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8252,,MarianeAzar,20261125_084135,2026-11-25T08:02:59.253293+00:00

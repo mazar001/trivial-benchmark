@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+da4b2f70df880c70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?
+A. Cabal
+B. Legion
+C. Corvus
+D. Icarus
+Answer:","[""Cabal"", ""Legion"", ""Corvus"", ""Icarus""]",http,0.0,16,none,"{""id"":""chatcmpl-479vocsxz05xk17b24j7mh"",""object"":""chat.completion"",""created"":1795554596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9822,,MarianeAzar,20261124_215144,2026-11-24T21:09:57.851268+00:00
+e3d9922875c58bb1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Foo Fighters?
+A. James Hetfield
+B. Little Red Riding Hood
+C. Dave Mustaine
+D. Dave Grohl
+Answer:","[""James Hetfield"", ""Little Red Riding Hood"", ""Dave Mustaine"", ""Dave Grohl""]",http,0.0,16,none,"{""id"":""chatcmpl-6bbsvqmabkbggldf86yvcb"",""object"":""chat.completion"",""created"":1795554597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.297,,MarianeAzar,20261124_215144,2026-11-24T21:09:59.148599+00:00
+e3d9922875c58bb1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Foo Fighters?
+A. James Hetfield
+B. Little Red Riding Hood
+C. Dave Mustaine
+D. Dave Grohl
+Answer:","[""James Hetfield"", ""Little Red Riding Hood"", ""Dave Mustaine"", ""Dave Grohl""]",http,0.0,16,none,"{""id"":""chatcmpl-fhjr88458uvpmi1dq2astf"",""object"":""chat.completion"",""created"":1795554599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9379,,MarianeAzar,20261124_215144,2026-11-24T21:10:00.086768+00:00
+5cfb30f40c5a5153,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the Scout in ""Team Fortress 2""?
+A. John
+B. Lance
+C. Walter
+D. Jeremy
+Answer:","[""John"", ""Lance"", ""Walter"", ""Jeremy""]",http,0.0,16,none,"{""id"":""chatcmpl-0sqe68kuxxehz43s8i7z2pj"",""object"":""chat.completion"",""created"":1795554600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2539,,MarianeAzar,20261124_215144,2026-11-24T21:10:01.340908+00:00
+5cfb30f40c5a5153,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the Scout in ""Team Fortress 2""?
+A. John
+B. Lance
+C. Walter
+D. Jeremy
+Answer:","[""John"", ""Lance"", ""Walter"", ""Jeremy""]",http,0.0,16,none,"{""id"":""chatcmpl-yzzj32wr1olii2z2y94eql"",""object"":""chat.completion"",""created"":1795554601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.341,,MarianeAzar,20261124_215144,2026-11-24T21:10:02.682222+00:00
+83a19d1dca6723cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The collapse of the Soviet Union took place in which year?
+A. 1990
+B. 1992
+C. 1991
+D. 1891
+Answer:","[""1990"", ""1992"", ""1991"", ""1891""]",http,0.0,16,none,"{""id"":""chatcmpl-79fjed13lqnfcvvxw55bcc"",""object"":""chat.completion"",""created"":1795554602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0754,,MarianeAzar,20261124_215144,2026-11-24T21:10:03.758294+00:00
+83a19d1dca6723cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The collapse of the Soviet Union took place in which year?
+A. 1990
+B. 1992
+C. 1991
+D. 1891
+Answer:","[""1990"", ""1992"", ""1991"", ""1891""]",http,0.0,16,none,"{""id"":""chatcmpl-qfqyz7locvadcsvabim7a"",""object"":""chat.completion"",""created"":1795554603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9473,,MarianeAzar,20261124_215144,2026-11-24T21:10:04.705955+00:00
+24583016a3c61c02,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the development code name for the ""Weatherlight"" expansion for ""Magic: The Gathering"", released in 1997?
+A. Decaf
+B. Mocha Latte
+C. Frappuccino
+D. Macchiato
+Answer:","[""Decaf"", ""Mocha Latte"", ""Frappuccino"", ""Macchiato""]",http,0.0,16,none,"{""id"":""chatcmpl-ym3vh2q2ntn57xdthziv7p"",""object"":""chat.completion"",""created"":1795554604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2802,,MarianeAzar,20261124_215144,2026-11-24T21:10:05.986398+00:00
+24583016a3c61c02,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the development code name for the ""Weatherlight"" expansion for ""Magic: The Gathering"", released in 1997?
+A. Decaf
+B. Mocha Latte
+C. Frappuccino
+D. Macchiato
+Answer:","[""Decaf"", ""Mocha Latte"", ""Frappuccino"", ""Macchiato""]",http,0.0,16,none,"{""id"":""chatcmpl-ff1yylhnnenls002ftp3sn"",""object"":""chat.completion"",""created"":1795554605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1832,,MarianeAzar,20261124_215144,2026-11-24T21:10:07.169758+00:00
+cf27fe4baddb0e3e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was William Frederick Cody better known as?
+A. Billy the Kid
+B. Wild Bill Hickok
+C. Buffalo Bill
+D. Pawnee Bill
+Answer:","[""Billy the Kid"", ""Wild Bill Hickok"", ""Buffalo Bill"", ""Pawnee Bill""]",http,0.0,16,none,"{""id"":""chatcmpl-4ga9vit87kzkxun50pzvd"",""object"":""chat.completion"",""created"":1795554607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0504,,MarianeAzar,20261124_215144,2026-11-24T21:10:08.220323+00:00
+cf27fe4baddb0e3e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was William Frederick Cody better known as?
+A. Billy the Kid
+B. Wild Bill Hickok
+C. Buffalo Bill
+D. Pawnee Bill
+Answer:","[""Billy the Kid"", ""Wild Bill Hickok"", ""Buffalo Bill"", ""Pawnee Bill""]",http,0.0,16,none,"{""id"":""chatcmpl-ck981512t69kzucb0151h"",""object"":""chat.completion"",""created"":1795554608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3115,,MarianeAzar,20261124_215144,2026-11-24T21:10:09.532119+00:00
+3202c122834c3434,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The internet browser Firefox is named after the Red Panda.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-isay8aqmjg9hqq76vel1"",""object"":""chat.completion"",""created"":1795554609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9079,,MarianeAzar,20261124_215144,2026-11-24T21:10:10.440204+00:00
+3202c122834c3434,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The internet browser Firefox is named after the Red Panda.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-30vu4hjnrh628fxnlj2w8r"",""object"":""chat.completion"",""created"":1795554610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.179,,MarianeAzar,20261124_215144,2026-11-24T21:10:11.619388+00:00
+27e16604d64b1628,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?
+A. Fleetwood Mac
+B. The Doobie Brothers
+C. Fools Gold
+D. The Eagles
+Answer:","[""Fleetwood Mac"", ""The Doobie Brothers"", ""Fools Gold"", ""The Eagles""]",http,0.0,16,none,"{""id"":""chatcmpl-aam8rkwjkivdjicq8qq9dr"",""object"":""chat.completion"",""created"":1795554611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1324,,MarianeAzar,20261124_215144,2026-11-24T21:10:12.752030+00:00
+27e16604d64b1628,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?
+A. Fleetwood Mac
+B. The Doobie Brothers
+C. Fools Gold
+D. The Eagles
+Answer:","[""Fleetwood Mac"", ""The Doobie Brothers"", ""Fools Gold"", ""The Eagles""]",http,0.0,16,none,"{""id"":""chatcmpl-uyi3hpjjmoiujtliqi3yhc"",""object"":""chat.completion"",""created"":1795554612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9445,,MarianeAzar,20261124_215144,2026-11-24T21:10:13.696749+00:00
+0e4842868abfe99f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of American rapper Pitbull?
+A. Benito Antonio Martinez Ocasio
+B. Belcalis Marlenis Almánzar
+C. Armando Christian Pérez
+D. Ramón Luis Ayala Rodríguez
+Answer:","[""Benito Antonio Martinez Ocasio"", ""Belcalis Marlenis Almánzar"", ""Armando Christian Pérez"", ""Ramón Luis Ayala Rodríguez""]",http,0.0,16,none,"{""id"":""chatcmpl-ui9mlomtxqbva9edbinkah"",""object"":""chat.completion"",""created"":1795554613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2485,,MarianeAzar,20261124_215144,2026-11-24T21:10:14.945513+00:00
+0e4842868abfe99f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of American rapper Pitbull?
+A. Benito Antonio Martinez Ocasio
+B. Belcalis Marlenis Almánzar
+C. Armando Christian Pérez
+D. Ramón Luis Ayala Rodríguez
+Answer:","[""Benito Antonio Martinez Ocasio"", ""Belcalis Marlenis Almánzar"", ""Armando Christian Pérez"", ""Ramón Luis Ayala Rodríguez""]",http,0.0,16,none,"{""id"":""chatcmpl-d27263va55iwasiytnldv"",""object"":""chat.completion"",""created"":1795554614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1028,,MarianeAzar,20261124_215144,2026-11-24T21:10:16.048561+00:00
+a1e91a18c85d36fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?
+A. Burgundy
+B. Blonde
+C. Black
+D. Brunette
+Answer:","[""Burgundy"", ""Blonde"", ""Black"", ""Brunette""]",http,0.0,16,none,"{""id"":""chatcmpl-kko3hodnmwgmaj54u5lxn"",""object"":""chat.completion"",""created"":1795554615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9512,,MarianeAzar,20261124_215144,2026-11-24T21:10:17+00:00
+a1e91a18c85d36fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?
+A. Burgundy
+B. Blonde
+C. Black
+D. Brunette
+Answer:","[""Burgundy"", ""Blonde"", ""Black"", ""Brunette""]",http,0.0,16,none,"{""id"":""chatcmpl-9nexr2en0g67mcl883pw2"",""object"":""chat.completion"",""created"":1795554616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2372,,MarianeAzar,20261124_215144,2026-11-24T21:10:18.237429+00:00
+be8a9712da8fbbd0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which cartoon family lives in 742 Evergreen Terrace, Springfield USA?
+A. The Flintstones
+B. The Simpsons
+C. The Griffins
+D. The Hills
+Answer:","[""The Flintstones"", ""The Simpsons"", ""The Griffins"", ""The Hills""]",http,0.0,16,none,"{""id"":""chatcmpl-1u1z75g394iekdlmfpt1wv"",""object"":""chat.completion"",""created"":1795554618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2863,,MarianeAzar,20261124_215144,2026-11-24T21:10:19.523963+00:00
+be8a9712da8fbbd0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which cartoon family lives in 742 Evergreen Terrace, Springfield USA?
+A. The Flintstones
+B. The Simpsons
+C. The Griffins
+D. The Hills
+Answer:","[""The Flintstones"", ""The Simpsons"", ""The Griffins"", ""The Hills""]",http,0.0,16,none,"{""id"":""chatcmpl-k36a29jvxveitwchy5lbe"",""object"":""chat.completion"",""created"":1795554619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.949,,MarianeAzar,20261124_215144,2026-11-24T21:10:20.473189+00:00
+92f509e31759edd2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Kentucky become the 15th state to join the union?
+A. 1792
+B. 1788
+C. 1782
+D. 1798
+Answer:","[""1792"", ""1788"", ""1782"", ""1798""]",http,0.0,16,none,"{""id"":""chatcmpl-z3lxgrt145qsvqf46dk1"",""object"":""chat.completion"",""created"":1795554620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.206,,MarianeAzar,20261124_215144,2026-11-24T21:10:21.679447+00:00
+92f509e31759edd2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Kentucky become the 15th state to join the union?
+A. 1792
+B. 1788
+C. 1782
+D. 1798
+Answer:","[""1792"", ""1788"", ""1782"", ""1798""]",http,0.0,16,none,"{""id"":""chatcmpl-33jx711wfdmsxcxostwue8"",""object"":""chat.completion"",""created"":1795554621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2072,,MarianeAzar,20261124_215144,2026-11-24T21:10:22.886927+00:00
+5f4f30c49695b7d4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Radiohead's first album?
+A. The Bends
+B. Kid A
+C. Pablo Honey
+D. A Moon Shaped Pool
+Answer:","[""The Bends"", ""Kid A"", ""Pablo Honey"", ""A Moon Shaped Pool""]",http,0.0,16,none,"{""id"":""chatcmpl-oqsu6ld4uyj6ebt33mjwvu"",""object"":""chat.completion"",""created"":1795554622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9169,,MarianeAzar,20261124_215144,2026-11-24T21:10:23.804259+00:00
+5f4f30c49695b7d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Radiohead's first album?
+A. The Bends
+B. Kid A
+C. Pablo Honey
+D. A Moon Shaped Pool
+Answer:","[""The Bends"", ""Kid A"", ""Pablo Honey"", ""A Moon Shaped Pool""]",http,0.0,16,none,"{""id"":""chatcmpl-e7u8668phi8lg2a9h39rid"",""object"":""chat.completion"",""created"":1795554623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2728,,MarianeAzar,20261124_215144,2026-11-24T21:10:25.077304+00:00

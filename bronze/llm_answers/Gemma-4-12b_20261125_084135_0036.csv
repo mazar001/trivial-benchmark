@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+47b7f42167addd49,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Twitch streamer is the vocalist for Red Vox?
+A. LIRIK
+B. Vinesauce
+C. Sodapoppin
+D. The8BitDrummer
+Answer:","[""LIRIK"", ""Vinesauce"", ""Sodapoppin"", ""The8BitDrummer""]",http,0.0,16,none,"{""id"":""chatcmpl-lnhyibguddqk4lyuu6d1gi"",""object"":""chat.completion"",""created"":1795593273,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T07:54:34.852261+00:00
+47b7f42167addd49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Twitch streamer is the vocalist for Red Vox?
+A. LIRIK
+B. Vinesauce
+C. Sodapoppin
+D. The8BitDrummer
+Answer:","[""LIRIK"", ""Vinesauce"", ""Sodapoppin"", ""The8BitDrummer""]",http,0.0,16,none,"{""id"":""chatcmpl-vfwi3az8p5ec24tl8vh6wn"",""object"":""chat.completion"",""created"":1795593274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T07:54:35.710656+00:00
+8053c5a177374aa0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the domain name for the country Tuvalu?
+A. .tt
+B. .tu
+C. .tv
+D. .tl
+Answer:","["".tt"", "".tu"", "".tv"", "".tl""]",http,0.0,16,none,"{""id"":""chatcmpl-75aq8s7x1qsd6c7v7x0k"",""object"":""chat.completion"",""created"":1795593275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8543,,MarianeAzar,20261125_084135,2026-11-25T07:54:36.565270+00:00
+8053c5a177374aa0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the domain name for the country Tuvalu?
+A. .tt
+B. .tu
+C. .tv
+D. .tl
+Answer:","["".tt"", "".tu"", "".tv"", "".tl""]",http,0.0,16,none,"{""id"":""chatcmpl-8bvnaihmg75pme4tkdue5"",""object"":""chat.completion"",""created"":1795593275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261125_084135,2026-11-25T07:54:37.417808+00:00
+b081cbd444794487,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Grande Valse"" is a phrase from the song ""Gran Vals"". What is that song segment known as?
+A. Droid Ringtone
+B. Microsoft Ringtone
+C. Hello Moto [Motorola Ringtone]
+D. Nokia Tune
+Answer:","[""Droid Ringtone"", ""Microsoft Ringtone"", ""Hello Moto [Motorola Ringtone]"", ""Nokia Tune""]",http,0.0,16,none,"{""id"":""chatcmpl-u82s872iymgqbcbt7pspjg"",""object"":""chat.completion"",""created"":1795593276,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T07:54:38.280833+00:00
+b081cbd444794487,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Grande Valse"" is a phrase from the song ""Gran Vals"". What is that song segment known as?
+A. Droid Ringtone
+B. Microsoft Ringtone
+C. Hello Moto [Motorola Ringtone]
+D. Nokia Tune
+Answer:","[""Droid Ringtone"", ""Microsoft Ringtone"", ""Hello Moto [Motorola Ringtone]"", ""Nokia Tune""]",http,0.0,16,none,"{""id"":""chatcmpl-mgr1kak4igouid6b5ctqw"",""object"":""chat.completion"",""created"":1795593277,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8935,,MarianeAzar,20261125_084135,2026-11-25T07:54:39.174715+00:00
+027e070dfc881128,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Smash Bros. series, which game first featured Luigi as a playable character?
+A. Super Smash Bros.
+B. Super Smash Bros. Melee
+C. Super Smash Bros. for Wii U
+D. Super Smash Bros. Brawl
+Answer:","[""Super Smash Bros."", ""Super Smash Bros. Melee"", ""Super Smash Bros. for Wii U"", ""Super Smash Bros. Brawl""]",http,0.0,16,none,"{""id"":""chatcmpl-7yg8m2zbwe91dfl8nbvo2o"",""object"":""chat.completion"",""created"":1795593278,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8758,,MarianeAzar,20261125_084135,2026-11-25T07:54:40.051389+00:00
+027e070dfc881128,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Smash Bros. series, which game first featured Luigi as a playable character?
+A. Super Smash Bros.
+B. Super Smash Bros. Melee
+C. Super Smash Bros. for Wii U
+D. Super Smash Bros. Brawl
+Answer:","[""Super Smash Bros."", ""Super Smash Bros. Melee"", ""Super Smash Bros. for Wii U"", ""Super Smash Bros. Brawl""]",http,0.0,16,none,"{""id"":""chatcmpl-3uhj29teqppns0sf1u98p"",""object"":""chat.completion"",""created"":1795593279,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9308,,MarianeAzar,20261125_084135,2026-11-25T07:54:40.982448+00:00
+9e0547f97f653e7b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, What was the original level cap?
+A. 60
+B. 70
+C. 100
+D. 50
+Answer:","[""60"", ""70"", ""100"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-u67kmfq04w4fldcvier3g"",""object"":""chat.completion"",""created"":1795593280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T07:54:41.875112+00:00
+9e0547f97f653e7b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, What was the original level cap?
+A. 60
+B. 70
+C. 100
+D. 50
+Answer:","[""60"", ""70"", ""100"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-xk4xlkkqit972kqh1syic6"",""object"":""chat.completion"",""created"":1795593281,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8722,,MarianeAzar,20261125_084135,2026-11-25T07:54:42.747578+00:00
+8733b29b2526f61b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the half-demon character in Divinity: Original Sin 2 who you talk to to transition between acts?
+A. Gawin
+B. Exter
+C. Malady
+D. Meister Siva
+Answer:","[""Gawin"", ""Exter"", ""Malady"", ""Meister Siva""]",http,0.0,16,none,"{""id"":""chatcmpl-6yrp54bag6a7qlqhfmlmi7"",""object"":""chat.completion"",""created"":1795593282,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8739,,MarianeAzar,20261125_084135,2026-11-25T07:54:43.622251+00:00
+8733b29b2526f61b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the half-demon character in Divinity: Original Sin 2 who you talk to to transition between acts?
+A. Gawin
+B. Exter
+C. Malady
+D. Meister Siva
+Answer:","[""Gawin"", ""Exter"", ""Malady"", ""Meister Siva""]",http,0.0,16,none,"{""id"":""chatcmpl-zizyqt19t9qmftgyhp68r"",""object"":""chat.completion"",""created"":1795593283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T07:54:44.507014+00:00
+ec3fd23d9541ac49,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team was the 2015-2016 NBA Champions?
+A. Toronto Raptors
+B. Golden State Warriors
+C. Cleveland Cavaliers
+D. Oklahoma City Thunders
+Answer:","[""Toronto Raptors"", ""Golden State Warriors"", ""Cleveland Cavaliers"", ""Oklahoma City Thunders""]",http,0.0,16,none,"{""id"":""chatcmpl-mc0ctgogvrfkfj448pel"",""object"":""chat.completion"",""created"":1795593283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8726,,MarianeAzar,20261125_084135,2026-11-25T07:54:45.379793+00:00
+ec3fd23d9541ac49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team was the 2015-2016 NBA Champions?
+A. Toronto Raptors
+B. Golden State Warriors
+C. Cleveland Cavaliers
+D. Oklahoma City Thunders
+Answer:","[""Toronto Raptors"", ""Golden State Warriors"", ""Cleveland Cavaliers"", ""Oklahoma City Thunders""]",http,0.0,16,none,"{""id"":""chatcmpl-4lnqui7byb87edrjoncp65"",""object"":""chat.completion"",""created"":1795593284,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8722,,MarianeAzar,20261125_084135,2026-11-25T07:54:46.252315+00:00
+25550c683cc60ce6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Stanley Kubrick's ""Dr. Strangelove"" (1964) originally ended with a large pie fight in the war room.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-55dpm4gnwmh4lc140rb8uc"",""object"":""chat.completion"",""created"":1795593285,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8206,,MarianeAzar,20261125_084135,2026-11-25T07:54:47.073003+00:00
+25550c683cc60ce6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Stanley Kubrick's ""Dr. Strangelove"" (1964) originally ended with a large pie fight in the war room.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i0chlz0hgeng9ls5ryab3t"",""object"":""chat.completion"",""created"":1795593286,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T07:54:47.938236+00:00
+f97ecf6988e7cea6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gabe Newell was born in which year?
+A. 1972
+B. 1962
+C. 1960
+D. 1970
+Answer:","[""1972"", ""1962"", ""1960"", ""1970""]",http,0.0,16,none,"{""id"":""chatcmpl-16nx5s570yjvwmd3b2q0z9"",""object"":""chat.completion"",""created"":1795593287,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T07:54:48.788490+00:00
+f97ecf6988e7cea6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gabe Newell was born in which year?
+A. 1972
+B. 1962
+C. 1960
+D. 1970
+Answer:","[""1972"", ""1962"", ""1960"", ""1970""]",http,0.0,16,none,"{""id"":""chatcmpl-7xtqm047e4mclumrrtc4e9"",""object"":""chat.completion"",""created"":1795593288,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T07:54:49.657158+00:00
+46856728b16e54d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the SS or Schutzstaffel established?
+A. September 1st, 1941
+B. April 4th, 1925
+C. March 8th, 1935
+D. February 21st, 1926
+Answer:","[""September 1st, 1941"", ""April 4th, 1925"", ""March 8th, 1935"", ""February 21st, 1926""]",http,0.0,16,none,"{""id"":""chatcmpl-lzdfyyid5yt9cvc88zgw"",""object"":""chat.completion"",""created"":1795593289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8878,,MarianeAzar,20261125_084135,2026-11-25T07:54:50.545283+00:00
+46856728b16e54d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the SS or Schutzstaffel established?
+A. September 1st, 1941
+B. April 4th, 1925
+C. March 8th, 1935
+D. February 21st, 1926
+Answer:","[""September 1st, 1941"", ""April 4th, 1925"", ""March 8th, 1935"", ""February 21st, 1926""]",http,0.0,16,none,"{""id"":""chatcmpl-hlwd0ymv5ahs7naa1xvi6"",""object"":""chat.completion"",""created"":1795593289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9092,,MarianeAzar,20261125_084135,2026-11-25T07:54:51.454794+00:00
+5f7d75a2ceecb8c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This field is sometimes known as “The Dismal Science.”
+A. Philosophy
+B. Politics
+C. Economics
+D. Physics
+Answer:","[""Philosophy"", ""Politics"", ""Economics"", ""Physics""]",http,0.0,16,none,"{""id"":""chatcmpl-n7qw8xv0ddq8e9x41bshnb"",""object"":""chat.completion"",""created"":1795593290,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8741,,MarianeAzar,20261125_084135,2026-11-25T07:54:52.329542+00:00
+5f7d75a2ceecb8c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This field is sometimes known as “The Dismal Science.”
+A. Philosophy
+B. Politics
+C. Economics
+D. Physics
+Answer:","[""Philosophy"", ""Politics"", ""Economics"", ""Physics""]",http,0.0,16,none,"{""id"":""chatcmpl-fjpg4kpvexvkuv9ilu6sgi"",""object"":""chat.completion"",""created"":1795593291,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:54:53.190704+00:00
+7994a220673cc916,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British monarch was also known as ""William of Orange""?
+A. William IV
+B. William III
+C. William II
+D. William I
+Answer:","[""William IV"", ""William III"", ""William II"", ""William I""]",http,0.0,16,none,"{""id"":""chatcmpl-6xm1tov7op99wdfp5cy4kh"",""object"":""chat.completion"",""created"":1795593292,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T07:54:54.049367+00:00
+7994a220673cc916,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British monarch was also known as ""William of Orange""?
+A. William IV
+B. William III
+C. William II
+D. William I
+Answer:","[""William IV"", ""William III"", ""William II"", ""William I""]",http,0.0,16,none,"{""id"":""chatcmpl-f03hp4to4sntpzhttsp8tk"",""object"":""chat.completion"",""created"":1795593293,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261125_084135,2026-11-25T07:54:54.912407+00:00
+c52c2c8b1ee46f5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The human right lung has how many lobes?
+A. 3
+B. 2
+C. 1
+D. 4
+Answer:","[""3"", ""2"", ""1"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-ngidgw0o5g0dpzjturrybc"",""object"":""chat.completion"",""created"":1795593294,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T07:54:55.776648+00:00

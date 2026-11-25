@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6a8a05311eaafc79,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Warhammer: End Times - Vermintide"", what is the name of the rat faction you fight in the game?
+A. The Horde
+B. Skaven
+C. Chaos
+D. Ratmen
+Answer:","[""The Horde"", ""Skaven"", ""Chaos"", ""Ratmen""]",http,0.0,16,none,"{""id"":""chatcmpl-ocoqp1ztq4alx2sya7ap5"",""object"":""chat.completion"",""created"":1795594105,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9681,,MarianeAzar,20261125_084135,2026-11-25T08:08:27.358410+00:00
+6a8a05311eaafc79,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Warhammer: End Times - Vermintide"", what is the name of the rat faction you fight in the game?
+A. The Horde
+B. Skaven
+C. Chaos
+D. Ratmen
+Answer:","[""The Horde"", ""Skaven"", ""Chaos"", ""Ratmen""]",http,0.0,16,none,"{""id"":""chatcmpl-rgxur5fa8a81dkxc5w86i1"",""object"":""chat.completion"",""created"":1795594106,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0024,,MarianeAzar,20261125_084135,2026-11-25T08:08:28.361105+00:00
+7f32d5c93c1e927d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English guitarist has the nickname ""Slowhand""?
+A. Mark Knopfler
+B. Eric Clapton
+C. Jeff Beck
+D. Jimmy Page
+Answer:","[""Mark Knopfler"", ""Eric Clapton"", ""Jeff Beck"", ""Jimmy Page""]",http,0.0,16,none,"{""id"":""chatcmpl-2tqurn3o5i1nk601p11qio"",""object"":""chat.completion"",""created"":1795594107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4269,,MarianeAzar,20261125_084135,2026-11-25T08:08:29.788271+00:00
+7f32d5c93c1e927d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English guitarist has the nickname ""Slowhand""?
+A. Mark Knopfler
+B. Eric Clapton
+C. Jeff Beck
+D. Jimmy Page
+Answer:","[""Mark Knopfler"", ""Eric Clapton"", ""Jeff Beck"", ""Jimmy Page""]",http,0.0,16,none,"{""id"":""chatcmpl-qz954abkqlevmgsx8u3qup"",""object"":""chat.completion"",""created"":1795594109,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0129,,MarianeAzar,20261125_084135,2026-11-25T08:08:30.801439+00:00
+0b14e54719c49e7c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: March 10th is also known as Mar10 Day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-84n31j07yfcjeaipplgv9"",""object"":""chat.completion"",""created"":1795594110,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8133,,MarianeAzar,20261125_084135,2026-11-25T08:08:31.615041+00:00
+0b14e54719c49e7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: March 10th is also known as Mar10 Day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fh77eq56oe7vurhn5q1rn"",""object"":""chat.completion"",""created"":1795594111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4162,,MarianeAzar,20261125_084135,2026-11-25T08:08:33.031431+00:00
+7607661cc982f6f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the island introduced in the ARMA III: APEX expansion pack?
+A. Stratis
+B. Altis
+C. Tanoa
+D. Malden
+Answer:","[""Stratis"", ""Altis"", ""Tanoa"", ""Malden""]",http,0.0,16,none,"{""id"":""chatcmpl-drqc0ddiwyxfonqw3gb6"",""object"":""chat.completion"",""created"":1795594112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0399,,MarianeAzar,20261125_084135,2026-11-25T08:08:34.071623+00:00
+7607661cc982f6f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the island introduced in the ARMA III: APEX expansion pack?
+A. Stratis
+B. Altis
+C. Tanoa
+D. Malden
+Answer:","[""Stratis"", ""Altis"", ""Tanoa"", ""Malden""]",http,0.0,16,none,"{""id"":""chatcmpl-hjh9n11sy9rin8v735t2p9"",""object"":""chat.completion"",""created"":1795594113,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.962,,MarianeAzar,20261125_084135,2026-11-25T08:08:35.033881+00:00
+a26f176a84087f4b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Morse code, which letter is indicated by 3 dots?
+A. O
+B. A
+C. C
+D. S
+Answer:","[""O"", ""A"", ""C"", ""S""]",http,0.0,16,none,"{""id"":""chatcmpl-hk4p2o1b2gl3m3qumk7ke"",""object"":""chat.completion"",""created"":1795594114,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""S"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.258,,MarianeAzar,20261125_084135,2026-11-25T08:08:36.292176+00:00
+a26f176a84087f4b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Morse code, which letter is indicated by 3 dots?
+A. O
+B. A
+C. C
+D. S
+Answer:","[""O"", ""A"", ""C"", ""S""]",http,0.0,16,none,"{""id"":""chatcmpl-kezu9dyf1w0ovskpoxktl"",""object"":""chat.completion"",""created"":1795594115,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""S"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9115,,MarianeAzar,20261125_084135,2026-11-25T08:08:37.203975+00:00
+57cb1f3e58e57ea4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The voice actor for which Portal 2 character was not a TV or film actor prior to the game?
+A. Cave Johnson
+B. Atlas / P-Body
+C. Wheatley
+D. GLaDOS
+Answer:","[""Cave Johnson"", ""Atlas / P-Body"", ""Wheatley"", ""GLaDOS""]",http,0.0,16,none,"{""id"":""chatcmpl-dp9j7klrdmm0oy9jrc9pnkm"",""object"":""chat.completion"",""created"":1795594116,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9659,,MarianeAzar,20261125_084135,2026-11-25T08:08:38.170501+00:00
+57cb1f3e58e57ea4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The voice actor for which Portal 2 character was not a TV or film actor prior to the game?
+A. Cave Johnson
+B. Atlas / P-Body
+C. Wheatley
+D. GLaDOS
+Answer:","[""Cave Johnson"", ""Atlas / P-Body"", ""Wheatley"", ""GLaDOS""]",http,0.0,16,none,"{""id"":""chatcmpl-rqdtf0tdi2rel0vthy8g7t"",""object"":""chat.completion"",""created"":1795594117,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4848,,MarianeAzar,20261125_084135,2026-11-25T08:08:39.655527+00:00
+0414ec9ef689dd38,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game, Nightmare was released in what year?
+A. 1991
+B. 1995
+C. 1992
+D. 1989
+Answer:","[""1991"", ""1995"", ""1992"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-fedqx118677k6pd5de8rjl"",""object"":""chat.completion"",""created"":1795594119,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1271,,MarianeAzar,20261125_084135,2026-11-25T08:08:40.783072+00:00
+0414ec9ef689dd38,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game, Nightmare was released in what year?
+A. 1991
+B. 1995
+C. 1992
+D. 1989
+Answer:","[""1991"", ""1995"", ""1992"", ""1989""]",http,0.0,16,none,"{""id"":""chatcmpl-guy7pp1agllmgi65syc8b"",""object"":""chat.completion"",""created"":1795594120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1654,,MarianeAzar,20261125_084135,2026-11-25T08:08:41.948771+00:00
+d56519af3f143023,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dee from ""It's Always Sunny in Philadelphia"" has dated all of the following guys EXCEPT
+A. Matthew ""Rickety Cricket"" Mara
+B. Colin the Thief
+C. Kevin Gallagher aka Lil' Kevin
+D. Ben the Soldier
+Answer:","[""Matthew \""Rickety Cricket\"" Mara"", ""Colin the Thief"", ""Kevin Gallagher aka Lil' Kevin"", ""Ben the Soldier""]",http,0.0,16,none,"{""id"":""chatcmpl-b3qlmvfzjxf1vepax7bdxo"",""object"":""chat.completion"",""created"":1795594121,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1457,,MarianeAzar,20261125_084135,2026-11-25T08:08:43.094775+00:00
+d56519af3f143023,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dee from ""It's Always Sunny in Philadelphia"" has dated all of the following guys EXCEPT
+A. Matthew ""Rickety Cricket"" Mara
+B. Colin the Thief
+C. Kevin Gallagher aka Lil' Kevin
+D. Ben the Soldier
+Answer:","[""Matthew \""Rickety Cricket\"" Mara"", ""Colin the Thief"", ""Kevin Gallagher aka Lil' Kevin"", ""Ben the Soldier""]",http,0.0,16,none,"{""id"":""chatcmpl-wblkt21nhosariglg3loy"",""object"":""chat.completion"",""created"":1795594122,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0768,,MarianeAzar,20261125_084135,2026-11-25T08:08:44.172002+00:00
+68ac7cb8c534d227,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the rules of the Danganronpa franchise, it states that a nighttime curfew for certain areas occurs between 12am and 8am.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-difsljpzyxuiame29cekkd"",""object"":""chat.completion"",""created"":1795594123,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9855,,MarianeAzar,20261125_084135,2026-11-25T08:08:45.157656+00:00
+68ac7cb8c534d227,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the rules of the Danganronpa franchise, it states that a nighttime curfew for certain areas occurs between 12am and 8am.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8vb0dhbeu4y6l6fs9xu23s"",""object"":""chat.completion"",""created"":1795594124,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3473,,MarianeAzar,20261125_084135,2026-11-25T08:08:46.505134+00:00
+b82da2a0a47f9337,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What historical time period was the center of the Assassin’s Creed movie (2016)?
+A. Colonial America
+B. French Revolution
+C. Spanish Inquisition
+D. Victorian England
+Answer:","[""Colonial America"", ""French Revolution"", ""Spanish Inquisition"", ""Victorian England""]",http,0.0,16,none,"{""id"":""chatcmpl-9ifz82orw1uwnvuxfe7ksg"",""object"":""chat.completion"",""created"":1795594125,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9249,,MarianeAzar,20261125_084135,2026-11-25T08:08:47.430263+00:00
+b82da2a0a47f9337,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What historical time period was the center of the Assassin’s Creed movie (2016)?
+A. Colonial America
+B. French Revolution
+C. Spanish Inquisition
+D. Victorian England
+Answer:","[""Colonial America"", ""French Revolution"", ""Spanish Inquisition"", ""Victorian England""]",http,0.0,16,none,"{""id"":""chatcmpl-8aahqfskaubmq1817ftbb"",""object"":""chat.completion"",""created"":1795594126,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9557,,MarianeAzar,20261125_084135,2026-11-25T08:08:48.386200+00:00
+63a9ca6b0875d2c7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Starbound"", the track played by the Decorated Music Box is named ""Atlas"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zkmr8kbv35flbatc06tv6a"",""object"":""chat.completion"",""created"":1795594127,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.38,,MarianeAzar,20261125_084135,2026-11-25T08:08:49.766669+00:00
+63a9ca6b0875d2c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Starbound"", the track played by the Decorated Music Box is named ""Atlas"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9lurdrapxznpd0h8uiwj"",""object"":""chat.completion"",""created"":1795594129,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1209,,MarianeAzar,20261125_084135,2026-11-25T08:08:50.887760+00:00
+4983e0ca4330360f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game Undertale, what Fun Value is required to obtain the Fake Hallway?
+A. 45
+B. 91
+C. 66
+D. 39
+Answer:","[""45"", ""91"", ""66"", ""39""]",http,0.0,16,none,"{""id"":""chatcmpl-8ap4l0phxcwt65naod8qs"",""object"":""chat.completion"",""created"":1795594130,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1321,,MarianeAzar,20261125_084135,2026-11-25T08:08:52.020351+00:00
+4983e0ca4330360f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game Undertale, what Fun Value is required to obtain the Fake Hallway?
+A. 45
+B. 91
+C. 66
+D. 39
+Answer:","[""45"", ""91"", ""66"", ""39""]",http,0.0,16,none,"{""id"":""chatcmpl-3w8kjptitu4n5rdzz2eyzn"",""object"":""chat.completion"",""created"":1795594131,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1036,,MarianeAzar,20261125_084135,2026-11-25T08:08:53.124219+00:00
+d46cbc4bd6c81189,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many players are there in an association football/soccer team?
+A. 8
+B. 11
+C. 9
+D. 10
+Answer:","[""8"", ""11"", ""9"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-4pcpveibpfwvxdlk3oizv"",""object"":""chat.completion"",""created"":1795594132,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9353,,MarianeAzar,20261125_084135,2026-11-25T08:08:54.059771+00:00

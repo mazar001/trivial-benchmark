@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a6282d7ef45641cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first Chancellor of a united Germany in 1871?
+A. Robert Koch
+B. Fredrick the 2nd
+C. Kaiser Wilhelm
+D. Otto Von Bismark
+Answer:","[""Robert Koch"", ""Fredrick the 2nd"", ""Kaiser Wilhelm"", ""Otto Von Bismark""]",http,0.0,16,none,"{""id"":""chatcmpl-o6em6zkyvr5ne4uh9t8xb"",""object"":""chat.completion"",""created"":1795593209,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9036,,MarianeAzar,20261125_084135,2026-11-25T07:53:30.521604+00:00
+0056b4a5c30e270c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Australia is greater than Greenland in size.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ydgxjeku9hf5tiqnj9nuen"",""object"":""chat.completion"",""created"":1795593209,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8123,,MarianeAzar,20261125_084135,2026-11-25T07:53:31.334081+00:00
+0056b4a5c30e270c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Australia is greater than Greenland in size.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k48ophtybtem9tuasoy7n"",""object"":""chat.completion"",""created"":1795593210,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.808,,MarianeAzar,20261125_084135,2026-11-25T07:53:32.142304+00:00
+2f9faa416dd5568d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Igneous rocks are formed by excessive heat and pressure.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zs4y3dmzz9l7r7de112wxo"",""object"":""chat.completion"",""created"":1795593211,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7841,,MarianeAzar,20261125_084135,2026-11-25T07:53:32.926558+00:00
+2f9faa416dd5568d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Igneous rocks are formed by excessive heat and pressure.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-97p55r85nllk13kug9ws5c"",""object"":""chat.completion"",""created"":1795593212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8113,,MarianeAzar,20261125_084135,2026-11-25T07:53:33.738054+00:00
+cbca0cb6a5d4529a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many paint and pastel versions of ""The Scream"" is Norwegian painter Edvard Munch believed to have produced?
+A. 4
+B. 1
+C. 3
+D. 2
+Answer:","[""4"", ""1"", ""3"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-6l1f29t5zrl2js4wdbu3fy"",""object"":""chat.completion"",""created"":1795593213,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T07:53:34.601907+00:00
+cbca0cb6a5d4529a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many paint and pastel versions of ""The Scream"" is Norwegian painter Edvard Munch believed to have produced?
+A. 4
+B. 1
+C. 3
+D. 2
+Answer:","[""4"", ""1"", ""3"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-vflfnv2ci4rerfsjqhzg0s"",""object"":""chat.completion"",""created"":1795593214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T07:53:35.486668+00:00
+09c7b73a4f116b45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Star Trek: The Next Generation, what is the name of Data's cat?
+A. Mittens
+B. Kitty
+C. Tom
+D. Spot
+Answer:","[""Mittens"", ""Kitty"", ""Tom"", ""Spot""]",http,0.0,16,none,"{""id"":""chatcmpl-sj4xw6es9aazuvml3xy4t"",""object"":""chat.completion"",""created"":1795593214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T07:53:36.342133+00:00
+09c7b73a4f116b45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Star Trek: The Next Generation, what is the name of Data's cat?
+A. Mittens
+B. Kitty
+C. Tom
+D. Spot
+Answer:","[""Mittens"", ""Kitty"", ""Tom"", ""Spot""]",http,0.0,16,none,"{""id"":""chatcmpl-k04a5w87l9n8iaij8rou"",""object"":""chat.completion"",""created"":1795593215,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261125_084135,2026-11-25T07:53:37.203000+00:00
+7aeb19637858c50a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Season One Championship of ""League of Legends"", the highest achievable rank was Diamond.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ocr0oc1lur83oytcsms6"",""object"":""chat.completion"",""created"":1795593216,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8397,,MarianeAzar,20261125_084135,2026-11-25T07:53:38.042839+00:00
+7aeb19637858c50a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Season One Championship of ""League of Legends"", the highest achievable rank was Diamond.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-77mlu4he9suhif7ecqv0ze"",""object"":""chat.completion"",""created"":1795593217,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8373,,MarianeAzar,20261125_084135,2026-11-25T07:53:38.880343+00:00
+9d30f0a2a67e754a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What North American tourist attraction is served by the ""Maid of the Mist"" tour company?
+A. Disney World
+B. Yosemite National Park
+C. Niagara Falls
+D. Whistler, British Columbia
+Answer:","[""Disney World"", ""Yosemite National Park"", ""Niagara Falls"", ""Whistler, British Columbia""]",http,0.0,16,none,"{""id"":""chatcmpl-c8qcg6n13tdetxepk9l1fu"",""object"":""chat.completion"",""created"":1795593218,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T07:53:39.730301+00:00
+9d30f0a2a67e754a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What North American tourist attraction is served by the ""Maid of the Mist"" tour company?
+A. Disney World
+B. Yosemite National Park
+C. Niagara Falls
+D. Whistler, British Columbia
+Answer:","[""Disney World"", ""Yosemite National Park"", ""Niagara Falls"", ""Whistler, British Columbia""]",http,0.0,16,none,"{""id"":""chatcmpl-qjmed1g1uqn5kxrappjb"",""object"":""chat.completion"",""created"":1795593219,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T07:53:40.623207+00:00
+0928caa16b4c8e96,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Romania?
+A. Bucharest
+B. Belgrade
+C. Budapest
+D. Bratislava
+Answer:","[""Bucharest"", ""Belgrade"", ""Budapest"", ""Bratislava""]",http,0.0,16,none,"{""id"":""chatcmpl-m2hff8wc7gnv1p8jxtglpa"",""object"":""chat.completion"",""created"":1795593220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T07:53:41.478635+00:00
+0928caa16b4c8e96,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Romania?
+A. Bucharest
+B. Belgrade
+C. Budapest
+D. Bratislava
+Answer:","[""Bucharest"", ""Belgrade"", ""Budapest"", ""Bratislava""]",http,0.0,16,none,"{""id"":""chatcmpl-j8l34ng84kosiedxr4atk"",""object"":""chat.completion"",""created"":1795593220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T07:53:42.347988+00:00
+0974ef02db9bc581,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Doki Doki Literature Club was developed in Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cfjfuvidppd3gjnn22ufkq"",""object"":""chat.completion"",""created"":1795593221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8181,,MarianeAzar,20261125_084135,2026-11-25T07:53:43.166514+00:00
+0974ef02db9bc581,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Doki Doki Literature Club was developed in Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-m1xiolz6f955smb2mbv4"",""object"":""chat.completion"",""created"":1795593222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8168,,MarianeAzar,20261125_084135,2026-11-25T07:53:43.983480+00:00
+d94087f2db31e311,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has three capital cities?
+A. United Kingdom
+B. South Africa
+C. China
+D. Somalia
+Answer:","[""United Kingdom"", ""South Africa"", ""China"", ""Somalia""]",http,0.0,16,none,"{""id"":""chatcmpl-0ul92ab7rn89z46xh6gmfx"",""object"":""chat.completion"",""created"":1795593223,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8689,,MarianeAzar,20261125_084135,2026-11-25T07:53:44.852701+00:00
+d94087f2db31e311,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has three capital cities?
+A. United Kingdom
+B. South Africa
+C. China
+D. Somalia
+Answer:","[""United Kingdom"", ""South Africa"", ""China"", ""Somalia""]",http,0.0,16,none,"{""id"":""chatcmpl-dp4ucp9z93mgwh9lvkcdbo"",""object"":""chat.completion"",""created"":1795593224,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261125_084135,2026-11-25T07:53:45.728649+00:00
+0e5990cafffce2f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a playable character in ""Enter The Gungeon?""
+A. The Cultist
+B. The Heavy
+C. The Bullet
+D. The Robot
+Answer:","[""The Cultist"", ""The Heavy"", ""The Bullet"", ""The Robot""]",http,0.0,16,none,"{""id"":""chatcmpl-x8ac1dkbej8jfx345ax45"",""object"":""chat.completion"",""created"":1795593225,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8425,,MarianeAzar,20261125_084135,2026-11-25T07:53:46.571399+00:00
+0e5990cafffce2f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a playable character in ""Enter The Gungeon?""
+A. The Cultist
+B. The Heavy
+C. The Bullet
+D. The Robot
+Answer:","[""The Cultist"", ""The Heavy"", ""The Bullet"", ""The Robot""]",http,0.0,16,none,"{""id"":""chatcmpl-kb0bxgj234nujew3j6gfg"",""object"":""chat.completion"",""created"":1795593226,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261125_084135,2026-11-25T07:53:47.428935+00:00
+d63f278e6cf82f15,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What snowy mob was added in Minecraft 1.10?
+A. Eskimos
+B. Penguins
+C. Polar bears
+D. Walking TNT
+Answer:","[""Eskimos"", ""Penguins"", ""Polar bears"", ""Walking TNT""]",http,0.0,16,none,"{""id"":""chatcmpl-5culiou76zpqswfntb6b7p"",""object"":""chat.completion"",""created"":1795593226,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8719,,MarianeAzar,20261125_084135,2026-11-25T07:53:48.301279+00:00
+d63f278e6cf82f15,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What snowy mob was added in Minecraft 1.10?
+A. Eskimos
+B. Penguins
+C. Polar bears
+D. Walking TNT
+Answer:","[""Eskimos"", ""Penguins"", ""Polar bears"", ""Walking TNT""]",http,0.0,16,none,"{""id"":""chatcmpl-telkubnlt555h468qvdpb"",""object"":""chat.completion"",""created"":1795593227,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:53:49.152376+00:00
+3b0abe1274d26b4f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?
+A. Spider
+B. Wild dog
+C. Monkey
+D. Crocodile
+Answer:","[""Spider"", ""Wild dog"", ""Monkey"", ""Crocodile""]",http,0.0,16,none,"{""id"":""chatcmpl-mvc5kazo6wqf87hgzicvf"",""object"":""chat.completion"",""created"":1795593228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T07:53:50.009321+00:00
+3b0abe1274d26b4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?
+A. Spider
+B. Wild dog
+C. Monkey
+D. Crocodile
+Answer:","[""Spider"", ""Wild dog"", ""Monkey"", ""Crocodile""]",http,0.0,16,none,"{""id"":""chatcmpl-0yfzdekl719cd7qlkrcdue"",""object"":""chat.completion"",""created"":1795593229,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8746,,MarianeAzar,20261125_084135,2026-11-25T07:53:50.884202+00:00

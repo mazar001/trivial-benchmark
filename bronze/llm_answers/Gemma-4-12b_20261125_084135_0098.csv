@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+42e5b4017901daa4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?
+A. Mewtwo
+B. Dr. Mario
+C. Roy
+D. Lucas
+Answer:","[""Mewtwo"", ""Dr. Mario"", ""Roy"", ""Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-l3xzg21zi5h71rme5xgqx2"",""object"":""chat.completion"",""created"":1795594829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0246,,MarianeAzar,20261125_084135,2026-11-25T08:20:30.810492+00:00
+42e5b4017901daa4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Smash Bros. series, which character was the first one to return to the series after being absent from a previous game?
+A. Mewtwo
+B. Dr. Mario
+C. Roy
+D. Lucas
+Answer:","[""Mewtwo"", ""Dr. Mario"", ""Roy"", ""Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-rtho6mosnipn7a0m4t5uw8"",""object"":""chat.completion"",""created"":1795594830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9722,,MarianeAzar,20261125_084135,2026-11-25T08:20:31.783125+00:00
+3a8e4d74501ef04e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released the album ""Sonic Highways"" in 2014?
+A. Nickelback
+B. The Flaming Lips
+C. Foo Fighters
+D. Coldplay
+Answer:","[""Nickelback"", ""The Flaming Lips"", ""Foo Fighters"", ""Coldplay""]",http,0.0,16,none,"{""id"":""chatcmpl-nu208y2x0mse0ie1o4uc9"",""object"":""chat.completion"",""created"":1795594831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.359,,MarianeAzar,20261125_084135,2026-11-25T08:20:33.142503+00:00
+3a8e4d74501ef04e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released the album ""Sonic Highways"" in 2014?
+A. Nickelback
+B. The Flaming Lips
+C. Foo Fighters
+D. Coldplay
+Answer:","[""Nickelback"", ""The Flaming Lips"", ""Foo Fighters"", ""Coldplay""]",http,0.0,16,none,"{""id"":""chatcmpl-vb0vr2sfrak9l9mjvphfd7"",""object"":""chat.completion"",""created"":1795594832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0004,,MarianeAzar,20261125_084135,2026-11-25T08:20:34.143250+00:00
+a6d7a222f3971bfb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?
+A. India
+B. Australia
+C. Canada
+D. Brazil
+Answer:","[""India"", ""Australia"", ""Canada"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-wlptcqa8aahkbqtnhy1gs"",""object"":""chat.completion"",""created"":1795594833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9474,,MarianeAzar,20261125_084135,2026-11-25T08:20:35.091852+00:00
+a6d7a222f3971bfb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?
+A. India
+B. Australia
+C. Canada
+D. Brazil
+Answer:","[""India"", ""Australia"", ""Canada"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-diub22m1brht2fvsxqqpaa"",""object"":""chat.completion"",""created"":1795594834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2973,,MarianeAzar,20261125_084135,2026-11-25T08:20:36.389309+00:00
+bc30af80fdedaf6c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Cats have whiskers under their legs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lzq450l8vkmgyqk9n7s1n"",""object"":""chat.completion"",""created"":1795594835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9089,,MarianeAzar,20261125_084135,2026-11-25T08:20:37.298433+00:00
+bc30af80fdedaf6c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Cats have whiskers under their legs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dr2sy2dg6r906zcekvuxxdo"",""object"":""chat.completion"",""created"":1795594836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1836,,MarianeAzar,20261125_084135,2026-11-25T08:20:38.482200+00:00
+4c5ca0b43bdd07e4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of Michael Jackson's albums sold the most copies?
+A. Thriller
+B. Dangerous
+C. Bad
+D. Off the Wall
+Answer:","[""Thriller"", ""Dangerous"", ""Bad"", ""Off the Wall""]",http,0.0,16,none,"{""id"":""chatcmpl-zcxq3yncye9o7okokn5di"",""object"":""chat.completion"",""created"":1795594837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.242,,MarianeAzar,20261125_084135,2026-11-25T08:20:39.724637+00:00
+4c5ca0b43bdd07e4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of Michael Jackson's albums sold the most copies?
+A. Thriller
+B. Dangerous
+C. Bad
+D. Off the Wall
+Answer:","[""Thriller"", ""Dangerous"", ""Bad"", ""Off the Wall""]",http,0.0,16,none,"{""id"":""chatcmpl-1ct40ovvpi89jiqpp1gpnc"",""object"":""chat.completion"",""created"":1795594839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9372,,MarianeAzar,20261125_084135,2026-11-25T08:20:40.662033+00:00
+34564601cd70d0a6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Super Mario Bros. was released in 1990.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5lncfvjeionume4cgucyur"",""object"":""chat.completion"",""created"":1795594840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1853,,MarianeAzar,20261125_084135,2026-11-25T08:20:41.847569+00:00
+34564601cd70d0a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Super Mario Bros. was released in 1990.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rxjotctrkbhvoqjexi6o5"",""object"":""chat.completion"",""created"":1795594841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2137,,MarianeAzar,20261125_084135,2026-11-25T08:20:43.061469+00:00
+cdd14a4f9daa214e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Half-Life, what is the name of the alien that attaches to heads?
+A. Facehugger
+B. Vortigaunt
+C. Bullsquid
+D. Headcrab
+Answer:","[""Facehugger"", ""Vortigaunt"", ""Bullsquid"", ""Headcrab""]",http,0.0,16,none,"{""id"":""chatcmpl-ajgbxykve7d4a77xw2ilms"",""object"":""chat.completion"",""created"":1795594842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9336,,MarianeAzar,20261125_084135,2026-11-25T08:20:43.995362+00:00
+cdd14a4f9daa214e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Half-Life, what is the name of the alien that attaches to heads?
+A. Facehugger
+B. Vortigaunt
+C. Bullsquid
+D. Headcrab
+Answer:","[""Facehugger"", ""Vortigaunt"", ""Bullsquid"", ""Headcrab""]",http,0.0,16,none,"{""id"":""chatcmpl-ppcpsia2t1j29os5f09csm"",""object"":""chat.completion"",""created"":1795594843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2112,,MarianeAzar,20261125_084135,2026-11-25T08:20:45.206798+00:00
+7b92a875e2b94b45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 10th season of Big Brother in the United States?
+A. Dan Gheesling
+B. Adam Jasinski
+C. Dick Donato
+D. Hayden Moss
+Answer:","[""Dan Gheesling"", ""Adam Jasinski"", ""Dick Donato"", ""Hayden Moss""]",http,0.0,16,none,"{""id"":""chatcmpl-2ha4yoebgr4huoqdydpa7"",""object"":""chat.completion"",""created"":1795594844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.133,,MarianeAzar,20261125_084135,2026-11-25T08:20:46.340201+00:00
+7b92a875e2b94b45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 10th season of Big Brother in the United States?
+A. Dan Gheesling
+B. Adam Jasinski
+C. Dick Donato
+D. Hayden Moss
+Answer:","[""Dan Gheesling"", ""Adam Jasinski"", ""Dick Donato"", ""Hayden Moss""]",http,0.0,16,none,"{""id"":""chatcmpl-vb4gvzcyufd2w7osbl95"",""object"":""chat.completion"",""created"":1795594845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9197,,MarianeAzar,20261125_084135,2026-11-25T08:20:47.260142+00:00
+38ca915498eef7a2,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Elementary, my dear Watson"" is a phrase that is never truly said within the Conan Doyle books of Sherlock Holmes.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mp4t8pm421ie52bxlfesm"",""object"":""chat.completion"",""created"":1795594846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2068,,MarianeAzar,20261125_084135,2026-11-25T08:20:48.467150+00:00
+38ca915498eef7a2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Elementary, my dear Watson"" is a phrase that is never truly said within the Conan Doyle books of Sherlock Holmes.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-za37wrcxyw8xa0pb8kp8p"",""object"":""chat.completion"",""created"":1795594847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9349,,MarianeAzar,20261125_084135,2026-11-25T08:20:49.402399+00:00
+207918b11e08454f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Minecraft first released to the public?
+A. September 17th, 2009
+B. October 7th, 2011
+C. November 18th, 2011
+D. May 17th, 2009
+Answer:","[""September 17th, 2009"", ""October 7th, 2011"", ""November 18th, 2011"", ""May 17th, 2009""]",http,0.0,16,none,"{""id"":""chatcmpl-4gcqlnkysi2jaudro7g91"",""object"":""chat.completion"",""created"":1795594848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9178,,MarianeAzar,20261125_084135,2026-11-25T08:20:50.320564+00:00
+207918b11e08454f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Minecraft first released to the public?
+A. September 17th, 2009
+B. October 7th, 2011
+C. November 18th, 2011
+D. May 17th, 2009
+Answer:","[""September 17th, 2009"", ""October 7th, 2011"", ""November 18th, 2011"", ""May 17th, 2009""]",http,0.0,16,none,"{""id"":""chatcmpl-fojt9k1ahgve2uj5j20jak"",""object"":""chat.completion"",""created"":1795594849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3378,,MarianeAzar,20261125_084135,2026-11-25T08:20:51.658601+00:00
+ca22ce0a87c0aced,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many seasons did the Sci-Fi television show ""Stargate Atlantis"" have?
+A. 7
+B. 5
+C. 10
+D. 2
+Answer:","[""7"", ""5"", ""10"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-zo7fcpo2fzfbl0n4jgv5bm"",""object"":""chat.completion"",""created"":1795594851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1687,,MarianeAzar,20261125_084135,2026-11-25T08:20:52.827940+00:00
+ca22ce0a87c0aced,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many seasons did the Sci-Fi television show ""Stargate Atlantis"" have?
+A. 7
+B. 5
+C. 10
+D. 2
+Answer:","[""7"", ""5"", ""10"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-ud3wbkb2p3anrd3jmb6u4"",""object"":""chat.completion"",""created"":1795594852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0251,,MarianeAzar,20261125_084135,2026-11-25T08:20:53.853249+00:00
+c9d4b8fb0d8db731,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the American state of Arizona?
+A. Montgomery
+B. Tallahassee
+C. Raleigh
+D. Phoenix
+Answer:","[""Montgomery"", ""Tallahassee"", ""Raleigh"", ""Phoenix""]",http,0.0,16,none,"{""id"":""chatcmpl-es7jrhcg10km0jbcgivzgk"",""object"":""chat.completion"",""created"":1795594853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9559,,MarianeAzar,20261125_084135,2026-11-25T08:20:54.809629+00:00
+c9d4b8fb0d8db731,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the American state of Arizona?
+A. Montgomery
+B. Tallahassee
+C. Raleigh
+D. Phoenix
+Answer:","[""Montgomery"", ""Tallahassee"", ""Raleigh"", ""Phoenix""]",http,0.0,16,none,"{""id"":""chatcmpl-z5jmfl8nhsnvuuq2a5h0y"",""object"":""chat.completion"",""created"":1795594854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2869,,MarianeAzar,20261125_084135,2026-11-25T08:20:56.096778+00:00
+c8ad4e357c1e37cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the number on Gerald's shirt in ""Hey Arnold!""?
+A. 33
+B. 83
+C. 88
+D. 38
+Answer:","[""33"", ""83"", ""88"", ""38""]",http,0.0,16,none,"{""id"":""chatcmpl-uelik1wk3rdnlgqer6rh3f"",""object"":""chat.completion"",""created"":1795594855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9355,,MarianeAzar,20261125_084135,2026-11-25T08:20:57.032469+00:00

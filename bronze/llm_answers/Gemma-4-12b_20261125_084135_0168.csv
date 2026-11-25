@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+9335de68f788787e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Ottoman Empire was dissolved after their loss in which war?
+A. Second Balkan War
+B. Crimean War
+C. Serbian Revolution
+D. World War I
+Answer:","[""Second Balkan War"", ""Crimean War"", ""Serbian Revolution"", ""World War I""]",http,0.0,16,none,"{""id"":""chatcmpl-bnft8qjufb94ym223u301s"",""object"":""chat.completion"",""created"":1795596509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T08:48:30.547549+00:00
+9335de68f788787e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Ottoman Empire was dissolved after their loss in which war?
+A. Second Balkan War
+B. Crimean War
+C. Serbian Revolution
+D. World War I
+Answer:","[""Second Balkan War"", ""Crimean War"", ""Serbian Revolution"", ""World War I""]",http,0.0,16,none,"{""id"":""chatcmpl-r6iso6kv8vh3trzdygf239"",""object"":""chat.completion"",""created"":1795596509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T08:48:31.411883+00:00
+3a8dd6449efc496b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Only one country in the world starts with the letter Q.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c48us6g8cd7ynpmrg73iz8"",""object"":""chat.completion"",""created"":1795596510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T08:48:32.267912+00:00
+3a8dd6449efc496b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Only one country in the world starts with the letter Q.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a4uh361meyhijm2x18t9a"",""object"":""chat.completion"",""created"":1795596511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.815,,MarianeAzar,20261125_084135,2026-11-25T08:48:33.083113+00:00
+92a38ee25a7970c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's longest venomous snake?
+A. King Cobra
+B. Inland Taipan
+C. Yellow Bellied Sea Snake
+D. Green Anaconda
+Answer:","[""King Cobra"", ""Inland Taipan"", ""Yellow Bellied Sea Snake"", ""Green Anaconda""]",http,0.0,16,none,"{""id"":""chatcmpl-pafh3f4ad0hv4ss38h573i"",""object"":""chat.completion"",""created"":1795596512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8424,,MarianeAzar,20261125_084135,2026-11-25T08:48:33.925770+00:00
+92a38ee25a7970c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's longest venomous snake?
+A. King Cobra
+B. Inland Taipan
+C. Yellow Bellied Sea Snake
+D. Green Anaconda
+Answer:","[""King Cobra"", ""Inland Taipan"", ""Yellow Bellied Sea Snake"", ""Green Anaconda""]",http,0.0,16,none,"{""id"":""chatcmpl-q228rebnanwjktmr2bcid"",""object"":""chat.completion"",""created"":1795596513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T08:48:34.775721+00:00
+54888141a3ddcd91,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Japanese district Akihabara is also known by what nickname?
+A. Moon Walk River
+B. Big Eyes
+C. Electric Town
+D. Otaku Central
+Answer:","[""Moon Walk River"", ""Big Eyes"", ""Electric Town"", ""Otaku Central""]",http,0.0,16,none,"{""id"":""chatcmpl-kej7nf6mttq1ggq6p4vizn"",""object"":""chat.completion"",""created"":1795596514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8486,,MarianeAzar,20261125_084135,2026-11-25T08:48:35.624602+00:00
+54888141a3ddcd91,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Japanese district Akihabara is also known by what nickname?
+A. Moon Walk River
+B. Big Eyes
+C. Electric Town
+D. Otaku Central
+Answer:","[""Moon Walk River"", ""Big Eyes"", ""Electric Town"", ""Otaku Central""]",http,0.0,16,none,"{""id"":""chatcmpl-3ic3kl9za35g2e2bq8fpkh"",""object"":""chat.completion"",""created"":1795596515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8879,,MarianeAzar,20261125_084135,2026-11-25T08:48:36.512770+00:00
+c59faa206bd737a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Resident Evil 2"", what is Leon Kennedy's middle name?
+A. Scott
+B. Sam
+C. Simon
+D. Shaun
+Answer:","[""Scott"", ""Sam"", ""Simon"", ""Shaun""]",http,0.0,16,none,"{""id"":""chatcmpl-zyq4gbzt6qfskmap3h8"",""object"":""chat.completion"",""created"":1795596515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:48:37.369322+00:00
+c59faa206bd737a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Resident Evil 2"", what is Leon Kennedy's middle name?
+A. Scott
+B. Sam
+C. Simon
+D. Shaun
+Answer:","[""Scott"", ""Sam"", ""Simon"", ""Shaun""]",http,0.0,16,none,"{""id"":""chatcmpl-hza852w77kjj7yfrapiiyc"",""object"":""chat.completion"",""created"":1795596516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T08:48:38.227165+00:00
+703ff28d0d2e8855,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the inflatable duck sacrified to the crowd at the end of Episode 34 of the 18th season of Big Brother?
+A. Pablo
+B. Esteban
+C. Duckster
+D. Carlos
+Answer:","[""Pablo"", ""Esteban"", ""Duckster"", ""Carlos""]",http,0.0,16,none,"{""id"":""chatcmpl-4kqeriuu4w8ixnkkkety"",""object"":""chat.completion"",""created"":1795596517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T08:48:39.084839+00:00
+703ff28d0d2e8855,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the inflatable duck sacrified to the crowd at the end of Episode 34 of the 18th season of Big Brother?
+A. Pablo
+B. Esteban
+C. Duckster
+D. Carlos
+Answer:","[""Pablo"", ""Esteban"", ""Duckster"", ""Carlos""]",http,0.0,16,none,"{""id"":""chatcmpl-oeau6cad4893muocyt92c"",""object"":""chat.completion"",""created"":1795596518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8895,,MarianeAzar,20261125_084135,2026-11-25T08:48:39.974646+00:00
+6ae325e246565190,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""HTML"" stands for Hypertext Markup Language.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wmkfawo5cemdtkfv8cyw6"",""object"":""chat.completion"",""created"":1795596519,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261125_084135,2026-11-25T08:48:40.826214+00:00
+6ae325e246565190,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""HTML"" stands for Hypertext Markup Language.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-te8lxgmwdrnocav51liq"",""object"":""chat.completion"",""created"":1795596520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8273,,MarianeAzar,20261125_084135,2026-11-25T08:48:41.653685+00:00
+aba6cb19f5621d88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The likeness of which president is featured on the rare $2 bill of USA currency?
+A. Martin Van Buren
+B. John Quincy Adams
+C. Ulysses Grant
+D. Thomas Jefferson
+Answer:","[""Martin Van Buren"", ""John Quincy Adams"", ""Ulysses Grant"", ""Thomas Jefferson""]",http,0.0,16,none,"{""id"":""chatcmpl-1lorh823kk6jxl2nnr6jc9c"",""object"":""chat.completion"",""created"":1795596521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:48:42.506514+00:00
+aba6cb19f5621d88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The likeness of which president is featured on the rare $2 bill of USA currency?
+A. Martin Van Buren
+B. John Quincy Adams
+C. Ulysses Grant
+D. Thomas Jefferson
+Answer:","[""Martin Van Buren"", ""John Quincy Adams"", ""Ulysses Grant"", ""Thomas Jefferson""]",http,0.0,16,none,"{""id"":""chatcmpl-d4z4i8c4a67vfk0wuki6b"",""object"":""chat.completion"",""created"":1795596521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8685,,MarianeAzar,20261125_084135,2026-11-25T08:48:43.375320+00:00
+d568f19aaa2971fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters are there in Yakuza 5?
+A. 3
+B. 1
+C. 2
+D. 5
+Answer:","[""3"", ""1"", ""2"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-ca6tq7jxe48jdal1zzpkgj"",""object"":""chat.completion"",""created"":1795596522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261125_084135,2026-11-25T08:48:44.226048+00:00
+d568f19aaa2971fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters are there in Yakuza 5?
+A. 3
+B. 1
+C. 2
+D. 5
+Answer:","[""3"", ""1"", ""2"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-loqivn3g0foeibp6s6g1p7"",""object"":""chat.completion"",""created"":1795596523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T08:48:45.090184+00:00
+dfaec881ff830513,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Star Trek"", Klingons respect William Shakespeare, they even suspect him having a Klingon lineage.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4f4hknvvywsbmbbhu9r1mw"",""object"":""chat.completion"",""created"":1795596524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8164,,MarianeAzar,20261125_084135,2026-11-25T08:48:45.906760+00:00
+dfaec881ff830513,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Star Trek"", Klingons respect William Shakespeare, they even suspect him having a Klingon lineage.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-05mia676nztwkusxml0yuej"",""object"":""chat.completion"",""created"":1795596525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8433,,MarianeAzar,20261125_084135,2026-11-25T08:48:46.750229+00:00
+6fc1a2e769ba8f52,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Paradox Interactive game ""Stellaris"" was released in 2016.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p86djdetnn6w07qhuh9x5"",""object"":""chat.completion"",""created"":1795596526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8244,,MarianeAzar,20261125_084135,2026-11-25T08:48:47.575289+00:00
+6fc1a2e769ba8f52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Paradox Interactive game ""Stellaris"" was released in 2016.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-owohjixlwuh8j1gk2uvex4"",""object"":""chat.completion"",""created"":1795596526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:48:48.435193+00:00
+c947547a32117a29,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the most common time signature for rock songs?
+A. 2/4
+B. 1/2
+C. 8/12
+D. 4/4
+Answer:","[""2/4"", ""1/2"", ""8/12"", ""4/4""]",http,0.0,16,none,"{""id"":""chatcmpl-og2qggr6lhfszbrc1somro"",""object"":""chat.completion"",""created"":1795596527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T08:48:49.291467+00:00
+c947547a32117a29,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the most common time signature for rock songs?
+A. 2/4
+B. 1/2
+C. 8/12
+D. 4/4
+Answer:","[""2/4"", ""1/2"", ""8/12"", ""4/4""]",http,0.0,16,none,"{""id"":""chatcmpl-gnal0sg4916xc8rw0ua3m"",""object"":""chat.completion"",""created"":1795596528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T08:48:50.163694+00:00
+ec8bc048e82579fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was NOT a playable character in the game Kingdom Hearts: Birth by Sleep?
+A. Ignis
+B. Ventus
+C. Aqua
+D. Terra
+Answer:","[""Ignis"", ""Ventus"", ""Aqua"", ""Terra""]",http,0.0,16,none,"{""id"":""chatcmpl-9j5y7uwcvnm9eg1jx5p3l"",""object"":""chat.completion"",""created"":1795596529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T08:48:51.023179+00:00

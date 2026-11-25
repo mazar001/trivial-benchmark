@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7cff4d1a89097c11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?
+A. Pope John Paul II
+B. Bang-Ding Ow
+C. Albert Putin
+D. The Polish President
+Answer:","[""Pope John Paul II"", ""Bang-Ding Ow"", ""Albert Putin"", ""The Polish President""]",http,0.0,16,none,"{""id"":""chatcmpl-kro89nghum9899kqcj234"",""object"":""chat.completion"",""created"":1795553534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9621,,MarianeAzar,20261124_215144,2026-11-24T20:52:15.193585+00:00
+096c1e5874ef7c6b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the German word for ""spoon""?
+A. Essstäbchen
+B. Gabel
+C. Löffel
+D. Messer
+Answer:","[""Essstäbchen"", ""Gabel"", ""Löffel"", ""Messer""]",http,0.0,16,none,"{""id"":""chatcmpl-jsu5ukvgyxu9dyeqorxms"",""object"":""chat.completion"",""created"":1795553535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2625,,MarianeAzar,20261124_215144,2026-11-24T20:52:16.456381+00:00
+096c1e5874ef7c6b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the German word for ""spoon""?
+A. Essstäbchen
+B. Gabel
+C. Löffel
+D. Messer
+Answer:","[""Essstäbchen"", ""Gabel"", ""Löffel"", ""Messer""]",http,0.0,16,none,"{""id"":""chatcmpl-nqkoax02vzacnggo3ug6t"",""object"":""chat.completion"",""created"":1795553536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3401,,MarianeAzar,20261124_215144,2026-11-24T20:52:17.796764+00:00
+5f3f0ceb26d2dc09,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is completely landlocked by South Africa?
+A. Lesotho
+B. Swaziland
+C. Zimbabwe
+D. Botswana
+Answer:","[""Lesotho"", ""Swaziland"", ""Zimbabwe"", ""Botswana""]",http,0.0,16,none,"{""id"":""chatcmpl-ei1kzovv6wmvmw4wvc0q7n"",""object"":""chat.completion"",""created"":1795553537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.017,,MarianeAzar,20261124_215144,2026-11-24T20:52:18.814109+00:00
+5f3f0ceb26d2dc09,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is completely landlocked by South Africa?
+A. Lesotho
+B. Swaziland
+C. Zimbabwe
+D. Botswana
+Answer:","[""Lesotho"", ""Swaziland"", ""Zimbabwe"", ""Botswana""]",http,0.0,16,none,"{""id"":""chatcmpl-mxejjmmp5pftlyt9n78bcj"",""object"":""chat.completion"",""created"":1795553538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9626,,MarianeAzar,20261124_215144,2026-11-24T20:52:19.777005+00:00
+7064c5156fce6a55,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A typical trait of the Expressionist art movement is to distort the world radically for emotional effect.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lqffr2coktly6dctbv51e"",""object"":""chat.completion"",""created"":1795553539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3286,,MarianeAzar,20261124_215144,2026-11-24T20:52:21.106000+00:00
+7064c5156fce6a55,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A typical trait of the Expressionist art movement is to distort the world radically for emotional effect.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9xs3875bdevyutn1o38mn"",""object"":""chat.completion"",""created"":1795553541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9866,,MarianeAzar,20261124_215144,2026-11-24T20:52:22.092746+00:00
+ecddc216a61f3548,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays ""Bruce Wayne"" in the 2008 movie ""The Dark Knight""?
+A. Heath Ledger
+B. Christian Bale
+C. Michael Caine
+D. Ron Dean
+Answer:","[""Heath Ledger"", ""Christian Bale"", ""Michael Caine"", ""Ron Dean""]",http,0.0,16,none,"{""id"":""chatcmpl-ki5csqz32tdgxd3jqcsbz"",""object"":""chat.completion"",""created"":1795553542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9429,,MarianeAzar,20261124_215144,2026-11-24T20:52:23.036030+00:00
+ecddc216a61f3548,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays ""Bruce Wayne"" in the 2008 movie ""The Dark Knight""?
+A. Heath Ledger
+B. Christian Bale
+C. Michael Caine
+D. Ron Dean
+Answer:","[""Heath Ledger"", ""Christian Bale"", ""Michael Caine"", ""Ron Dean""]",http,0.0,16,none,"{""id"":""chatcmpl-aqutn3wvzztfkgq1ljso2v"",""object"":""chat.completion"",""created"":1795553542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3077,,MarianeAzar,20261124_215144,2026-11-24T20:52:24.344063+00:00
+a36e0f19ffa763fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What device allows Tracer to manipulate her own time in the game ""Overwatch""?
+A. B.L.I.N.K
+B. Chronal Accelerator
+C. TMD (Time Manipulation Device)
+D. Spacial Displacement Manipulator
+Answer:","[""B.L.I.N.K"", ""Chronal Accelerator"", ""TMD (Time Manipulation Device)"", ""Spacial Displacement Manipulator""]",http,0.0,16,none,"{""id"":""chatcmpl-zo1h3dhk8cr22n7fllqnr"",""object"":""chat.completion"",""created"":1795553544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9395,,MarianeAzar,20261124_215144,2026-11-24T20:52:25.283856+00:00
+a36e0f19ffa763fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What device allows Tracer to manipulate her own time in the game ""Overwatch""?
+A. B.L.I.N.K
+B. Chronal Accelerator
+C. TMD (Time Manipulation Device)
+D. Spacial Displacement Manipulator
+Answer:","[""B.L.I.N.K"", ""Chronal Accelerator"", ""TMD (Time Manipulation Device)"", ""Spacial Displacement Manipulator""]",http,0.0,16,none,"{""id"":""chatcmpl-p6ky0y8l5skla8fnrdgqme"",""object"":""chat.completion"",""created"":1795553545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2616,,MarianeAzar,20261124_215144,2026-11-24T20:52:26.545689+00:00
+a2f72a63b5885d50,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices GLaDOS in the Portal games?
+A. Ellen McLain
+B. Natasha Radski
+C. Mary Kae Irvin
+D. Michelle Forbes
+Answer:","[""Ellen McLain"", ""Natasha Radski"", ""Mary Kae Irvin"", ""Michelle Forbes""]",http,0.0,16,none,"{""id"":""chatcmpl-uszwh9qh67r8xekgunxj1e"",""object"":""chat.completion"",""created"":1795553546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2957,,MarianeAzar,20261124_215144,2026-11-24T20:52:27.841679+00:00
+a2f72a63b5885d50,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices GLaDOS in the Portal games?
+A. Ellen McLain
+B. Natasha Radski
+C. Mary Kae Irvin
+D. Michelle Forbes
+Answer:","[""Ellen McLain"", ""Natasha Radski"", ""Mary Kae Irvin"", ""Michelle Forbes""]",http,0.0,16,none,"{""id"":""chatcmpl-co4cvgi1uqojiwjn45qtha"",""object"":""chat.completion"",""created"":1795553547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9498,,MarianeAzar,20261124_215144,2026-11-24T20:52:28.791764+00:00
+a3f610ecb8c7facb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Europe?
+A. Shkhara, Georgia
+B. Mount Elbrus, Russia
+C. Mont Blanc, France
+D. Mount Ararat, Turkey
+Answer:","[""Shkhara, Georgia"", ""Mount Elbrus, Russia"", ""Mont Blanc, France"", ""Mount Ararat, Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-1nse5z4gk9r6676xgde9l5"",""object"":""chat.completion"",""created"":1795553548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2368,,MarianeAzar,20261124_215144,2026-11-24T20:52:30.029023+00:00
+a3f610ecb8c7facb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Europe?
+A. Shkhara, Georgia
+B. Mount Elbrus, Russia
+C. Mont Blanc, France
+D. Mount Ararat, Turkey
+Answer:","[""Shkhara, Georgia"", ""Mount Elbrus, Russia"", ""Mont Blanc, France"", ""Mount Ararat, Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-ymh05im5mtodeop9nx7w3s"",""object"":""chat.completion"",""created"":1795553549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2528,,MarianeAzar,20261124_215144,2026-11-24T20:52:31.282107+00:00
+918b0be5f0d5ebe6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following chemicals are found in eggplant seeds?
+A. Mescaline
+B. Psilocybin
+C. Nicotine
+D. Cyanide
+Answer:","[""Mescaline"", ""Psilocybin"", ""Nicotine"", ""Cyanide""]",http,0.0,16,none,"{""id"":""chatcmpl-laa9ckgm2wc1czxdffut5z"",""object"":""chat.completion"",""created"":1795553551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9322,,MarianeAzar,20261124_215144,2026-11-24T20:52:32.215254+00:00
+918b0be5f0d5ebe6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following chemicals are found in eggplant seeds?
+A. Mescaline
+B. Psilocybin
+C. Nicotine
+D. Cyanide
+Answer:","[""Mescaline"", ""Psilocybin"", ""Nicotine"", ""Cyanide""]",http,0.0,16,none,"{""id"":""chatcmpl-ut1wdziwrpj8tqv1k7323e"",""object"":""chat.completion"",""created"":1795553552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2939,,MarianeAzar,20261124_215144,2026-11-24T20:52:33.509480+00:00
+697b6821746dc75a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Finnish DJ Darude's hit single released in October 1999?
+A. Sandstorm
+B. Dust Devil
+C. Khamsin
+D. Sirocco
+Answer:","[""Sandstorm"", ""Dust Devil"", ""Khamsin"", ""Sirocco""]",http,0.0,16,none,"{""id"":""chatcmpl-x442vrmvk6hrmocdbvxq2j"",""object"":""chat.completion"",""created"":1795553553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.287,,MarianeAzar,20261124_215144,2026-11-24T20:52:34.796748+00:00
+697b6821746dc75a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Finnish DJ Darude's hit single released in October 1999?
+A. Sandstorm
+B. Dust Devil
+C. Khamsin
+D. Sirocco
+Answer:","[""Sandstorm"", ""Dust Devil"", ""Khamsin"", ""Sirocco""]",http,0.0,16,none,"{""id"":""chatcmpl-7a7tb95pl68d044zoi9rcd"",""object"":""chat.completion"",""created"":1795553554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9605,,MarianeAzar,20261124_215144,2026-11-24T20:52:35.757527+00:00
+60e796f9db8f2d06,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?
+A. Tornados
+B. Typhoons
+C. Economic depression
+D. Samurai
+Answer:","[""Tornados"", ""Typhoons"", ""Economic depression"", ""Samurai""]",http,0.0,16,none,"{""id"":""chatcmpl-leifvfgfdj471fjrmxrd2"",""object"":""chat.completion"",""created"":1795553555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9432,,MarianeAzar,20261124_215144,2026-11-24T20:52:36.701078+00:00
+60e796f9db8f2d06,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?
+A. Tornados
+B. Typhoons
+C. Economic depression
+D. Samurai
+Answer:","[""Tornados"", ""Typhoons"", ""Economic depression"", ""Samurai""]",http,0.0,16,none,"{""id"":""chatcmpl-58ni8611nwowje916myuhs"",""object"":""chat.completion"",""created"":1795553556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4167,,MarianeAzar,20261124_215144,2026-11-24T20:52:38.118164+00:00
+dbcc41700555085c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This mobile OS held the largest market share in 2012.
+A. BlackBerry
+B. Android
+C. Symbian
+D. iOS
+Answer:","[""BlackBerry"", ""Android"", ""Symbian"", ""iOS""]",http,0.0,16,none,"{""id"":""chatcmpl-cxs25zwbrdcbmqc1yju0ia"",""object"":""chat.completion"",""created"":1795553558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9457,,MarianeAzar,20261124_215144,2026-11-24T20:52:39.064287+00:00
+dbcc41700555085c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This mobile OS held the largest market share in 2012.
+A. BlackBerry
+B. Android
+C. Symbian
+D. iOS
+Answer:","[""BlackBerry"", ""Android"", ""Symbian"", ""iOS""]",http,0.0,16,none,"{""id"":""chatcmpl-r5lf529tswpn762tzw8psq"",""object"":""chat.completion"",""created"":1795553558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9403,,MarianeAzar,20261124_215144,2026-11-24T20:52:40.004906+00:00
+fed3242bc6cef8e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Sims console game featured the Black Eyed Peas in the game?
+A. The Sims 2
+B. The Urbz: Sims In The City
+C. The Sims
+D. The Sims: Bustin Out
+Answer:","[""The Sims 2"", ""The Urbz: Sims In The City"", ""The Sims"", ""The Sims: Bustin Out""]",http,0.0,16,none,"{""id"":""chatcmpl-j2wrs1bx1rmjegdr1cp31s"",""object"":""chat.completion"",""created"":1795553559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4244,,MarianeAzar,20261124_215144,2026-11-24T20:52:41.429540+00:00
+fed3242bc6cef8e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Sims console game featured the Black Eyed Peas in the game?
+A. The Sims 2
+B. The Urbz: Sims In The City
+C. The Sims
+D. The Sims: Bustin Out
+Answer:","[""The Sims 2"", ""The Urbz: Sims In The City"", ""The Sims"", ""The Sims: Bustin Out""]",http,0.0,16,none,"{""id"":""chatcmpl-qmu1w9bnr5p8pisi97oq"",""object"":""chat.completion"",""created"":1795553561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1583,,MarianeAzar,20261124_215144,2026-11-24T20:52:42.588154+00:00

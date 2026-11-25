@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+24694f61cc0d5eac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""PAYDAY 2"", what weapon has the highest base weapon damage on a per-shot basis?
+A. Broomstick Pistol
+B. Thanatos .50 cal
+C. HRL-7
+D. Heavy Crossbow
+Answer:","[""Broomstick Pistol"", ""Thanatos .50 cal"", ""HRL-7"", ""Heavy Crossbow""]",http,0.0,16,none,"{""id"":""chatcmpl-q62w53xah901x7ax9ywgm4"",""object"":""chat.completion"",""created"":1795554567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.263,,MarianeAzar,20261124_215144,2026-11-24T21:09:28.976404+00:00
+24694f61cc0d5eac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""PAYDAY 2"", what weapon has the highest base weapon damage on a per-shot basis?
+A. Broomstick Pistol
+B. Thanatos .50 cal
+C. HRL-7
+D. Heavy Crossbow
+Answer:","[""Broomstick Pistol"", ""Thanatos .50 cal"", ""HRL-7"", ""Heavy Crossbow""]",http,0.0,16,none,"{""id"":""chatcmpl-bji5c33lh8bpaocxrtykli"",""object"":""chat.completion"",""created"":1795554568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9572,,MarianeAzar,20261124_215144,2026-11-24T21:09:29.933868+00:00
+d54e1c18eb577d60,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Apple was on the verge of bankruptcy in 1997 and was saved by Microsoft
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y3zcla77r0nymjeg044b4c"",""object"":""chat.completion"",""created"":1795554569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2247,,MarianeAzar,20261124_215144,2026-11-24T21:09:31.158745+00:00
+d54e1c18eb577d60,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Apple was on the verge of bankruptcy in 1997 and was saved by Microsoft
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ev5sfigxuapuhsfbqrbmim"",""object"":""chat.completion"",""created"":1795554571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3269,,MarianeAzar,20261124_215144,2026-11-24T21:09:32.485824+00:00
+3f7f567e74524948,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the cover of 'Abbey Road,' which of the Beatles is not wearing shoes?
+A. John Lennon
+B. Ringo Starr
+C. George Harrison
+D. Paul McCartney
+Answer:","[""John Lennon"", ""Ringo Starr"", ""George Harrison"", ""Paul McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-ldy3aaczoisrvs35q9au7d"",""object"":""chat.completion"",""created"":1795554572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0054,,MarianeAzar,20261124_215144,2026-11-24T21:09:33.491592+00:00
+3f7f567e74524948,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the cover of 'Abbey Road,' which of the Beatles is not wearing shoes?
+A. John Lennon
+B. Ringo Starr
+C. George Harrison
+D. Paul McCartney
+Answer:","[""John Lennon"", ""Ringo Starr"", ""George Harrison"", ""Paul McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-eaqsgo48wtdw9s0fskxjm"",""object"":""chat.completion"",""created"":1795554573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9835,,MarianeAzar,20261124_215144,2026-11-24T21:09:34.475406+00:00
+f46e7e1452ea6e4f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life universe, the Black Mesa Research Facility is located in which US state?
+A. Nevada
+B. Wyoming
+C. New Mexico
+D. Arizona
+Answer:","[""Nevada"", ""Wyoming"", ""New Mexico"", ""Arizona""]",http,0.0,16,none,"{""id"":""chatcmpl-qehpmrl17uqulnknbr5bk9"",""object"":""chat.completion"",""created"":1795554574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3019,,MarianeAzar,20261124_215144,2026-11-24T21:09:35.777715+00:00
+f46e7e1452ea6e4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life universe, the Black Mesa Research Facility is located in which US state?
+A. Nevada
+B. Wyoming
+C. New Mexico
+D. Arizona
+Answer:","[""Nevada"", ""Wyoming"", ""New Mexico"", ""Arizona""]",http,0.0,16,none,"{""id"":""chatcmpl-y67wrdtq6qawuvxk27uzh"",""object"":""chat.completion"",""created"":1795554575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9235,,MarianeAzar,20261124_215144,2026-11-24T21:09:36.701523+00:00
+602c61c3674c94f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Russian word for ""winter""?
+A. Zima
+B. Vesna
+C. Leto
+D. Osen'
+Answer:","[""Zima"", ""Vesna"", ""Leto"", ""Osen'""]",http,0.0,16,none,"{""id"":""chatcmpl-nlpr9tsulpg1m6mxneqk"",""object"":""chat.completion"",""created"":1795554576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2388,,MarianeAzar,20261124_215144,2026-11-24T21:09:37.940578+00:00
+602c61c3674c94f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Russian word for ""winter""?
+A. Zima
+B. Vesna
+C. Leto
+D. Osen'
+Answer:","[""Zima"", ""Vesna"", ""Leto"", ""Osen'""]",http,0.0,16,none,"{""id"":""chatcmpl-95wvcni4bua0kwusyjetwd"",""object"":""chat.completion"",""created"":1795554577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1472,,MarianeAzar,20261124_215144,2026-11-24T21:09:39.088017+00:00
+8b326f1071821c52,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which DC superhero was NOT included in the 2017 movie ""Justice League""?
+A. Green Arrow
+B. Wonder Woman
+C. Cyborg
+D. Batman
+Answer:","[""Green Arrow"", ""Wonder Woman"", ""Cyborg"", ""Batman""]",http,0.0,16,none,"{""id"":""chatcmpl-2j4oobhkwad6h6w3tylp8e"",""object"":""chat.completion"",""created"":1795554579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9635,,MarianeAzar,20261124_215144,2026-11-24T21:09:40.051874+00:00
+8b326f1071821c52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which DC superhero was NOT included in the 2017 movie ""Justice League""?
+A. Green Arrow
+B. Wonder Woman
+C. Cyborg
+D. Batman
+Answer:","[""Green Arrow"", ""Wonder Woman"", ""Cyborg"", ""Batman""]",http,0.0,16,none,"{""id"":""chatcmpl-w0xbrixr50bg6j2zbyizmg"",""object"":""chat.completion"",""created"":1795554580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5175,,MarianeAzar,20261124_215144,2026-11-24T21:09:41.569582+00:00
+e733f508b2578871,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'Islets of Langerhans' is found in which human organ?
+A. Pancreas
+B. Brain
+C. Kidney
+D. Liver
+Answer:","[""Pancreas"", ""Brain"", ""Kidney"", ""Liver""]",http,0.0,16,none,"{""id"":""chatcmpl-r6ez1iv55wqrqz6bqpu6f"",""object"":""chat.completion"",""created"":1795554582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.7542,,MarianeAzar,20261124_215144,2026-11-24T21:09:43.324012+00:00
+e733f508b2578871,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'Islets of Langerhans' is found in which human organ?
+A. Pancreas
+B. Brain
+C. Kidney
+D. Liver
+Answer:","[""Pancreas"", ""Brain"", ""Kidney"", ""Liver""]",http,0.0,16,none,"{""id"":""chatcmpl-89xhcb20mvnrzhvbw1g0bf"",""object"":""chat.completion"",""created"":1795554583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2593,,MarianeAzar,20261124_215144,2026-11-24T21:09:44.583530+00:00
+043fc024e9ab638c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Supernatural, what's is Sam's brothers name?
+A. Steve
+B. Mike
+C. Dean
+D. Dave
+Answer:","[""Steve"", ""Mike"", ""Dean"", ""Dave""]",http,0.0,16,none,"{""id"":""chatcmpl-atrc0n63v64yznqxctfmj"",""object"":""chat.completion"",""created"":1795554584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1677,,MarianeAzar,20261124_215144,2026-11-24T21:09:45.751511+00:00
+043fc024e9ab638c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Supernatural, what's is Sam's brothers name?
+A. Steve
+B. Mike
+C. Dean
+D. Dave
+Answer:","[""Steve"", ""Mike"", ""Dean"", ""Dave""]",http,0.0,16,none,"{""id"":""chatcmpl-7xco0lkrra2fwl5i8484ro"",""object"":""chat.completion"",""created"":1795554585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9529,,MarianeAzar,20261124_215144,2026-11-24T21:09:46.704717+00:00
+bf7df80cb4a029ed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was Portuguese explorer Ferdinand Magellan killed in 1521?
+A. Argentina
+B. Canary Islands
+C. Guam
+D. The Phillipines
+Answer:","[""Argentina"", ""Canary Islands"", ""Guam"", ""The Phillipines""]",http,0.0,16,none,"{""id"":""chatcmpl-8wybwqvw5tmjllbctcq3s"",""object"":""chat.completion"",""created"":1795554586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2324,,MarianeAzar,20261124_215144,2026-11-24T21:09:47.937452+00:00
+bf7df80cb4a029ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was Portuguese explorer Ferdinand Magellan killed in 1521?
+A. Argentina
+B. Canary Islands
+C. Guam
+D. The Phillipines
+Answer:","[""Argentina"", ""Canary Islands"", ""Guam"", ""The Phillipines""]",http,0.0,16,none,"{""id"":""chatcmpl-b6ar8xfwljswt7atzmmvz"",""object"":""chat.completion"",""created"":1795554587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.077,,MarianeAzar,20261124_215144,2026-11-24T21:09:49.014823+00:00
+c4844ff4ae9e450f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the canceled projected by Blizzard Entertainment that would be later become Overwatch?
+A. Titan
+B. Omega
+C. Omnic
+D. Ghost
+Answer:","[""Titan"", ""Omega"", ""Omnic"", ""Ghost""]",http,0.0,16,none,"{""id"":""chatcmpl-qdwfpxl5g5hbu745s3qih"",""object"":""chat.completion"",""created"":1795554588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9462,,MarianeAzar,20261124_215144,2026-11-24T21:09:49.961333+00:00
+c4844ff4ae9e450f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the canceled projected by Blizzard Entertainment that would be later become Overwatch?
+A. Titan
+B. Omega
+C. Omnic
+D. Ghost
+Answer:","[""Titan"", ""Omega"", ""Omnic"", ""Ghost""]",http,0.0,16,none,"{""id"":""chatcmpl-y1wl6hgc4dbjpp6zq7tdd"",""object"":""chat.completion"",""created"":1795554589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2312,,MarianeAzar,20261124_215144,2026-11-24T21:09:51.192837+00:00
+13220fefc74a7e87,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which series of games do you collect souls to empower you and buy weaponry and armor with?
+A. The Legend of Zelda
+B. Souls
+C. Final Fantasy
+D. Monster Hunter
+Answer:","[""The Legend of Zelda"", ""Souls"", ""Final Fantasy"", ""Monster Hunter""]",http,0.0,16,none,"{""id"":""chatcmpl-4yfj7xi8hmqm5v0bt753fo"",""object"":""chat.completion"",""created"":1795554591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2719,,MarianeAzar,20261124_215144,2026-11-24T21:09:52.465485+00:00
+13220fefc74a7e87,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which series of games do you collect souls to empower you and buy weaponry and armor with?
+A. The Legend of Zelda
+B. Souls
+C. Final Fantasy
+D. Monster Hunter
+Answer:","[""The Legend of Zelda"", ""Souls"", ""Final Fantasy"", ""Monster Hunter""]",http,0.0,16,none,"{""id"":""chatcmpl-dy4scs8zxolnmthj87dsi"",""object"":""chat.completion"",""created"":1795554592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9364,,MarianeAzar,20261124_215144,2026-11-24T21:09:53.402215+00:00
+5b3ec3a86a7039d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country claims ownership of the disputed state Kosovo?
+A. Macedonia
+B. Croatia
+C. Albania
+D. Serbia
+Answer:","[""Macedonia"", ""Croatia"", ""Albania"", ""Serbia""]",http,0.0,16,none,"{""id"":""chatcmpl-jsxysallk7nx8n94lyxmgc"",""object"":""chat.completion"",""created"":1795554593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2291,,MarianeAzar,20261124_215144,2026-11-24T21:09:54.631636+00:00
+5b3ec3a86a7039d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country claims ownership of the disputed state Kosovo?
+A. Macedonia
+B. Croatia
+C. Albania
+D. Serbia
+Answer:","[""Macedonia"", ""Croatia"", ""Albania"", ""Serbia""]",http,0.0,16,none,"{""id"":""chatcmpl-stbrulb179lnndjqdbxpg"",""object"":""chat.completion"",""created"":1795554594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3344,,MarianeAzar,20261124_215144,2026-11-24T21:09:55.966312+00:00
+da4b2f70df880c70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In CoD: Black Ops III, what is the name of the rogue A.I. antagonist?
+A. Cabal
+B. Legion
+C. Corvus
+D. Icarus
+Answer:","[""Cabal"", ""Legion"", ""Corvus"", ""Icarus""]",http,0.0,16,none,"{""id"":""chatcmpl-cieu1h2328ti3n3kahxv9"",""object"":""chat.completion"",""created"":1795554595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9004,,MarianeAzar,20261124_215144,2026-11-24T21:09:56.866992+00:00

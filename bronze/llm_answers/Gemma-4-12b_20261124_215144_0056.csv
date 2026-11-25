@@ -1,0 +1,148 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e9c8e22093df9dbe,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nintendo started out as a playing card manufacturer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xao6cqau8mrbx22i3wl5ur"",""object"":""chat.completion"",""created"":1795554962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2606,,MarianeAzar,20261124_215144,2026-11-24T21:16:03.827875+00:00
+e9c8e22093df9dbe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nintendo started out as a playing card manufacturer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gprnkzwk9zhdqn9hop83pr"",""object"":""chat.completion"",""created"":1795554963,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8974,,MarianeAzar,20261124_215144,2026-11-24T21:16:04.725397+00:00
+3c4cc8e07ec45ad5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The full English name of the car manufacturer BMW is Bavarian Motor Works
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zpzcc6k8yrav2zkwqaq0wa"",""object"":""chat.completion"",""created"":1795554964,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261124_215144,2026-11-24T21:16:05.609408+00:00
+3c4cc8e07ec45ad5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The full English name of the car manufacturer BMW is Bavarian Motor Works
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-es67nqjg0hacvnz5c3r8xa"",""object"":""chat.completion"",""created"":1795554965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3422,,MarianeAzar,20261124_215144,2026-11-24T21:16:06.951782+00:00
+e2a7c944d0ce3d6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Shrek"", what comedic actor voices Donkey?
+A. Richard Pryor
+B. Bernie Mac
+C. Eddie Murphy
+D. Chris Rock
+Answer:","[""Richard Pryor"", ""Bernie Mac"", ""Eddie Murphy"", ""Chris Rock""]",http,0.0,16,none,"{""id"":""chatcmpl-64o0kp7ihvagmz5y2gqxy"",""object"":""chat.completion"",""created"":1795554966,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9269,,MarianeAzar,20261124_215144,2026-11-24T21:16:07.878871+00:00
+e2a7c944d0ce3d6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Shrek"", what comedic actor voices Donkey?
+A. Richard Pryor
+B. Bernie Mac
+C. Eddie Murphy
+D. Chris Rock
+Answer:","[""Richard Pryor"", ""Bernie Mac"", ""Eddie Murphy"", ""Chris Rock""]",http,0.0,16,none,"{""id"":""chatcmpl-cia1l880htqh872ovb48r"",""object"":""chat.completion"",""created"":1795554967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9435,,MarianeAzar,20261124_215144,2026-11-24T21:16:08.822461+00:00
+8c143472f1a67b1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: List the following Iranic empires in chronological order:
+A. Median, Achaemenid, Parthian, Sassanid
+B. Median, Achaemenid, Sassanid, Parthian
+C. Achaemenid, Median, Parthian, Sassanid
+D. Achaemenid, Median, Sassanid, Parthian
+Answer:","[""Median, Achaemenid, Parthian, Sassanid"", ""Median, Achaemenid, Sassanid, Parthian"", ""Achaemenid, Median, Parthian, Sassanid"", ""Achaemenid, Median, Sassanid, Parthian""]",http,0.0,16,none,"{""id"":""chatcmpl-2jzrmehvzgi68y05si91ms"",""object"":""chat.completion"",""created"":1795554968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3569,,MarianeAzar,20261124_215144,2026-11-24T21:16:10.179441+00:00
+8c143472f1a67b1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: List the following Iranic empires in chronological order:
+A. Median, Achaemenid, Parthian, Sassanid
+B. Median, Achaemenid, Sassanid, Parthian
+C. Achaemenid, Median, Parthian, Sassanid
+D. Achaemenid, Median, Sassanid, Parthian
+Answer:","[""Median, Achaemenid, Parthian, Sassanid"", ""Median, Achaemenid, Sassanid, Parthian"", ""Achaemenid, Median, Parthian, Sassanid"", ""Achaemenid, Median, Sassanid, Parthian""]",http,0.0,16,none,"{""id"":""chatcmpl-iz1nkl8wlvm89qcikksz9n"",""object"":""chat.completion"",""created"":1795554970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":135,""completion_tokens"":2,""total_tokens"":137,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0168,,MarianeAzar,20261124_215144,2026-11-24T21:16:11.196422+00:00
+66d709b766e185d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for luminous intensity?
+A. Candela
+B. Faraday
+C. Coulomb
+D. Lumen
+Answer:","[""Candela"", ""Faraday"", ""Coulomb"", ""Lumen""]",http,0.0,16,none,"{""id"":""chatcmpl-xevpqyvcsp0y9zgufllhrp"",""object"":""chat.completion"",""created"":1795554971,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2267,,MarianeAzar,20261124_215144,2026-11-24T21:16:12.423316+00:00
+66d709b766e185d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for luminous intensity?
+A. Candela
+B. Faraday
+C. Coulomb
+D. Lumen
+Answer:","[""Candela"", ""Faraday"", ""Coulomb"", ""Lumen""]",http,0.0,16,none,"{""id"":""chatcmpl-cez47lkfuk87wtj413hko5"",""object"":""chat.completion"",""created"":1795554972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1326,,MarianeAzar,20261124_215144,2026-11-24T21:16:13.556155+00:00
+23e6cb9b26ebfd63,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original DOOM (1993) which of the following is NOT a cheat code?
+A. IDDQD
+B. IDCLIP
+C. IDFA
+D. IDSPISPOPD
+Answer:","[""IDDQD"", ""IDCLIP"", ""IDFA"", ""IDSPISPOPD""]",http,0.0,16,none,"{""id"":""chatcmpl-8uu9xlbny64hszvuusbga9"",""object"":""chat.completion"",""created"":1795554973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9039,,MarianeAzar,20261124_215144,2026-11-24T21:16:14.460320+00:00
+23e6cb9b26ebfd63,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original DOOM (1993) which of the following is NOT a cheat code?
+A. IDDQD
+B. IDCLIP
+C. IDFA
+D. IDSPISPOPD
+Answer:","[""IDDQD"", ""IDCLIP"", ""IDFA"", ""IDSPISPOPD""]",http,0.0,16,none,"{""id"":""chatcmpl-qhkq2dr4jqmk6rvmwn9q8"",""object"":""chat.completion"",""created"":1795554974,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.484,,MarianeAzar,20261124_215144,2026-11-24T21:16:15.944438+00:00
+6672b7fe0636d903,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Josh Mansour is part of what NRL team?
+A. Penrith Panthers
+B. Sydney Roosters
+C. North Queensland Cowboys
+D. Melbourne Storm
+Answer:","[""Penrith Panthers"", ""Sydney Roosters"", ""North Queensland Cowboys"", ""Melbourne Storm""]",http,0.0,16,none,"{""id"":""chatcmpl-i5jouirse8unyjnl2nbq"",""object"":""chat.completion"",""created"":1795554975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.2867,,MarianeAzar,20261124_215144,2026-11-24T21:16:16.231341+00:00
+6672b7fe0636d903,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Josh Mansour is part of what NRL team?
+A. Penrith Panthers
+B. Sydney Roosters
+C. North Queensland Cowboys
+D. Melbourne Storm
+Answer:","[""Penrith Panthers"", ""Sydney Roosters"", ""North Queensland Cowboys"", ""Melbourne Storm""]",http,0.0,16,none,"{""id"":""chatcmpl-xgw4d76tujn04mytjtu7jww"",""object"":""chat.completion"",""created"":1795554977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9413,,MarianeAzar,20261124_215144,2026-11-24T21:16:17.172974+00:00
+7380423c96b78bd6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Kerbol System (from Kerbal Space Program) includes a Saturn analogue.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sqszfiljqrdhqr516nbk"",""object"":""chat.completion"",""created"":1795554978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8945,,MarianeAzar,20261124_215144,2026-11-24T21:16:18.067564+00:00
+7380423c96b78bd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Kerbol System (from Kerbal Space Program) includes a Saturn analogue.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p5zqirk0m2r7qco5zg62i"",""object"":""chat.completion"",""created"":1795554979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3011,,MarianeAzar,20261124_215144,2026-11-24T21:16:19.368882+00:00
+faec94c32263eb82,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Adolf Hitler appointed as Chancellor of Germany?
+A. January 30, 1933
+B. September 1, 1939
+C. October 6, 1939
+D. February 27, 1933
+Answer:","[""January 30, 1933"", ""September 1, 1939"", ""October 6, 1939"", ""February 27, 1933""]",http,0.0,16,none,"{""id"":""chatcmpl-c47g1mfizi5gqlz10imkei"",""object"":""chat.completion"",""created"":1795554980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9559,,MarianeAzar,20261124_215144,2026-11-24T21:16:20.325042+00:00
+faec94c32263eb82,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Adolf Hitler appointed as Chancellor of Germany?
+A. January 30, 1933
+B. September 1, 1939
+C. October 6, 1939
+D. February 27, 1933
+Answer:","[""January 30, 1933"", ""September 1, 1939"", ""October 6, 1939"", ""February 27, 1933""]",http,0.0,16,none,"{""id"":""chatcmpl-bavgmlp65xjuuhc0oy3yva"",""object"":""chat.completion"",""created"":1795554981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.311,,MarianeAzar,20261124_215144,2026-11-24T21:16:21.636297+00:00
+759da1e4474cec5e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nick Mason is the only member to appear on every Pink Floyd album.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-31cxutogbrufhkbv873nq8"",""object"":""chat.completion"",""created"":1795554982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2527,,MarianeAzar,20261124_215144,2026-11-24T21:16:22.889154+00:00
+759da1e4474cec5e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nick Mason is the only member to appear on every Pink Floyd album.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5qgs9gjsoh50a072u7ktw"",""object"":""chat.completion"",""created"":1795554983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8927,,MarianeAzar,20261124_215144,2026-11-24T21:16:23.782043+00:00
+46db6d34df6171a3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: To become a ""one-hit wonder"" artist needs to release only one song per year.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f1ckky3ml6chixaqm8es"",""object"":""chat.completion"",""created"":1795554984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1906,,MarianeAzar,20261124_215144,2026-11-24T21:16:24.973179+00:00
+46db6d34df6171a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: To become a ""one-hit wonder"" artist needs to release only one song per year.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3qcvrc6k2gd7vuyzwnyo6q"",""object"":""chat.completion"",""created"":1795554985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2999,,MarianeAzar,20261124_215144,2026-11-24T21:16:26.273209+00:00
+918fcec987d8cb03,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many planets are there in the Solar System?
+A. 11
+B. 10
+C. 9
+D. 8
+Answer:","[""11"", ""10"", ""9"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-p7eg363eczb5rvh6kk5rit"",""object"":""chat.completion"",""created"":1795554987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9301,,MarianeAzar,20261124_215144,2026-11-24T21:16:27.203465+00:00
+918fcec987d8cb03,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many planets are there in the Solar System?
+A. 11
+B. 10
+C. 9
+D. 8
+Answer:","[""11"", ""10"", ""9"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-zyjsrcnaaaii8p4pij9wa"",""object"":""chat.completion"",""created"":1795554988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9353,,MarianeAzar,20261124_215144,2026-11-24T21:16:28.138918+00:00
+7a65bfb95f505b6e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medical term for the belly button is which of the following?
+A. Umbilicus
+B. Nares
+C. Nevus
+D. Paxillus
+Answer:","[""Umbilicus"", ""Nares"", ""Nevus"", ""Paxillus""]",http,0.0,16,none,"{""id"":""chatcmpl-ihwxtht4clo6hg2pi2i31x"",""object"":""chat.completion"",""created"":1795554989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3234,,MarianeAzar,20261124_215144,2026-11-24T21:16:29.462478+00:00

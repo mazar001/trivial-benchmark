@@ -1,0 +1,168 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cb778de4287edeaa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first president of the United States?
+A. George Washington
+B. Thomas Jefferson
+C. James K. Polk
+D. James Madison
+Answer:","[""George Washington"", ""Thomas Jefferson"", ""James K. Polk"", ""James Madison""]",http,0.0,16,none,"{""id"":""chatcmpl-022gf6dijonbkitek1c0poi"",""object"":""chat.completion"",""created"":1795554624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1083,,MarianeAzar,20261124_215144,2026-11-24T21:10:26.187990+00:00
+cb778de4287edeaa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first president of the United States?
+A. George Washington
+B. Thomas Jefferson
+C. James K. Polk
+D. James Madison
+Answer:","[""George Washington"", ""Thomas Jefferson"", ""James K. Polk"", ""James Madison""]",http,0.0,16,none,"{""id"":""chatcmpl-sdatxlmj73zkdpwbuug7"",""object"":""chat.completion"",""created"":1795554626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.121,,MarianeAzar,20261124_215144,2026-11-24T21:10:27.309285+00:00
+072aaed1c36ec9c7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is depicted on the US hundred dollar bill?
+A. Thomas Jefferson
+B. George Washington
+C. Abraham Lincoln
+D. Benjamin Franklin
+Answer:","[""Thomas Jefferson"", ""George Washington"", ""Abraham Lincoln"", ""Benjamin Franklin""]",http,0.0,16,none,"{""id"":""chatcmpl-w2w4wid1f0pthunw9kow2"",""object"":""chat.completion"",""created"":1795554627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1213,,MarianeAzar,20261124_215144,2026-11-24T21:10:28.431000+00:00
+072aaed1c36ec9c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is depicted on the US hundred dollar bill?
+A. Thomas Jefferson
+B. George Washington
+C. Abraham Lincoln
+D. Benjamin Franklin
+Answer:","[""Thomas Jefferson"", ""George Washington"", ""Abraham Lincoln"", ""Benjamin Franklin""]",http,0.0,16,none,"{""id"":""chatcmpl-22lbh9q5xsd130jzz16yrz"",""object"":""chat.completion"",""created"":1795554628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1321,,MarianeAzar,20261124_215144,2026-11-24T21:10:29.563602+00:00
+db733dd39ad76957,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The State of Queensland, Australia voted NO to a referendum for daylight savings in 1992.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xqnco06wyt8jszb9guw1jn"",""object"":""chat.completion"",""created"":1795554629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0894,,MarianeAzar,20261124_215144,2026-11-24T21:10:30.653177+00:00
+db733dd39ad76957,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The State of Queensland, Australia voted NO to a referendum for daylight savings in 1992.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a3oi8brrxpcmd89ydur6n"",""object"":""chat.completion"",""created"":1795554630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1238,,MarianeAzar,20261124_215144,2026-11-24T21:10:31.777203+00:00
+771cc26537e774c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which boxing personality was one of the presenters in the 1999 revival of It's a Knockout?
+A. Henry Cooper
+B. Joe Fraiser
+C. Muhammad Ali
+D. Frank Bruno
+Answer:","[""Henry Cooper"", ""Joe Fraiser"", ""Muhammad Ali"", ""Frank Bruno""]",http,0.0,16,none,"{""id"":""chatcmpl-zmnk2il2kaaacu668odt6r"",""object"":""chat.completion"",""created"":1795554631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1432,,MarianeAzar,20261124_215144,2026-11-24T21:10:32.920653+00:00
+771cc26537e774c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which boxing personality was one of the presenters in the 1999 revival of It's a Knockout?
+A. Henry Cooper
+B. Joe Fraiser
+C. Muhammad Ali
+D. Frank Bruno
+Answer:","[""Henry Cooper"", ""Joe Fraiser"", ""Muhammad Ali"", ""Frank Bruno""]",http,0.0,16,none,"{""id"":""chatcmpl-ks1h9hkno2nznnpxsfgq"",""object"":""chat.completion"",""created"":1795554632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.182,,MarianeAzar,20261124_215144,2026-11-24T21:10:34.102968+00:00
+8c96a0f8db6b89e6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a province in China?
+A. Fujian
+B. Yangtze
+C. Sichuan
+D. Guangdong
+Answer:","[""Fujian"", ""Yangtze"", ""Sichuan"", ""Guangdong""]",http,0.0,16,none,"{""id"":""chatcmpl-bbn0jgp195n9uy1zc053d"",""object"":""chat.completion"",""created"":1795554634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1503,,MarianeAzar,20261124_215144,2026-11-24T21:10:35.253701+00:00
+8c96a0f8db6b89e6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a province in China?
+A. Fujian
+B. Yangtze
+C. Sichuan
+D. Guangdong
+Answer:","[""Fujian"", ""Yangtze"", ""Sichuan"", ""Guangdong""]",http,0.0,16,none,"{""id"":""chatcmpl-2mq62ghhr8vvn0jo6jsqk"",""object"":""chat.completion"",""created"":1795554635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1447,,MarianeAzar,20261124_215144,2026-11-24T21:10:36.398607+00:00
+084c2f599e294e67,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Salt is 100% composed of Sodium.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-il73odlnn819s0sum2fzm"",""object"":""chat.completion"",""created"":1795554636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0713,,MarianeAzar,20261124_215144,2026-11-24T21:10:37.470237+00:00
+084c2f599e294e67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Salt is 100% composed of Sodium.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9hrn4snfcyn435h0hbgq"",""object"":""chat.completion"",""created"":1795554637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0944,,MarianeAzar,20261124_215144,2026-11-24T21:10:38.564854+00:00
+e0f775086c37c92e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American manufactured submachine gun was informally known by the American soldiers that used it as ""Grease Gun""?
+A. MAC-10
+B. Colt 9mm
+C. M3
+D. Thompson
+Answer:","[""MAC-10"", ""Colt 9mm"", ""M3"", ""Thompson""]",http,0.0,16,none,"{""id"":""chatcmpl-7akxl6lewxjmzj99te40e"",""object"":""chat.completion"",""created"":1795554638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1601,,MarianeAzar,20261124_215144,2026-11-24T21:10:39.725344+00:00
+e0f775086c37c92e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American manufactured submachine gun was informally known by the American soldiers that used it as ""Grease Gun""?
+A. MAC-10
+B. Colt 9mm
+C. M3
+D. Thompson
+Answer:","[""MAC-10"", ""Colt 9mm"", ""M3"", ""Thompson""]",http,0.0,16,none,"{""id"":""chatcmpl-d53b3c415vjprctee4ldvb"",""object"":""chat.completion"",""created"":1795554639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0043,,MarianeAzar,20261124_215144,2026-11-24T21:10:40.729942+00:00
+c9a17b6086cfb813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?
+A. 2010
+B. 2011
+C. 2013
+D. 2012
+Answer:","[""2010"", ""2011"", ""2013"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-qt7g4x5v444qo4wl70xye"",""object"":""chat.completion"",""created"":1795554640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3135,,MarianeAzar,20261124_215144,2026-11-24T21:10:42.043669+00:00
+c9a17b6086cfb813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the Oculus Rift revealed to the public through a Kickstarter campaign?
+A. 2010
+B. 2011
+C. 2013
+D. 2012
+Answer:","[""2010"", ""2011"", ""2013"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-etyncwse0p6pqt66stst1"",""object"":""chat.completion"",""created"":1795554641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3871,,MarianeAzar,20261124_215144,2026-11-24T21:10:43.430971+00:00
+4005a66cd299e973,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is considered the ""Father of Modern Philosophy""?
+A. Antoine Lavoiser
+B. Plato
+C. René Descartes
+D. Albert Einstein
+Answer:","[""Antoine Lavoiser"", ""Plato"", ""René Descartes"", ""Albert Einstein""]",http,0.0,16,none,"{""id"":""chatcmpl-eo2gu29tt8g72lmluunh"",""object"":""chat.completion"",""created"":1795554643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1281,,MarianeAzar,20261124_215144,2026-11-24T21:10:44.559432+00:00
+4005a66cd299e973,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is considered the ""Father of Modern Philosophy""?
+A. Antoine Lavoiser
+B. Plato
+C. René Descartes
+D. Albert Einstein
+Answer:","[""Antoine Lavoiser"", ""Plato"", ""René Descartes"", ""Albert Einstein""]",http,0.0,16,none,"{""id"":""chatcmpl-jhllnuwyeykkswc4dbn"",""object"":""chat.completion"",""created"":1795554644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0705,,MarianeAzar,20261124_215144,2026-11-24T21:10:45.630282+00:00
+4f2986d297799862,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?
+A. Spruce Goose
+B. Noah's Ark
+C. Trojan Horse
+D. Fat Man
+Answer:","[""Spruce Goose"", ""Noah's Ark"", ""Trojan Horse"", ""Fat Man""]",http,0.0,16,none,"{""id"":""chatcmpl-whp4kwgjaospppcoig4gmn"",""object"":""chat.completion"",""created"":1795554645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9738,,MarianeAzar,20261124_215144,2026-11-24T21:10:46.604319+00:00
+4f2986d297799862,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the nickname given to the Hughes H-4 Hercules, a heavy transport flying boat which achieved flight in 1947?
+A. Spruce Goose
+B. Noah's Ark
+C. Trojan Horse
+D. Fat Man
+Answer:","[""Spruce Goose"", ""Noah's Ark"", ""Trojan Horse"", ""Fat Man""]",http,0.0,16,none,"{""id"":""chatcmpl-cc57f99mfwjf4zu22yomp"",""object"":""chat.completion"",""created"":1795554646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2697,,MarianeAzar,20261124_215144,2026-11-24T21:10:47.874418+00:00
+8217a24cb1370be1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The term ""scientist"" was coined in which year?
+A. 1833
+B. 1933
+C. 1942
+D. 1796
+Answer:","[""1833"", ""1933"", ""1942"", ""1796""]",http,0.0,16,none,"{""id"":""chatcmpl-dcbbmas7azopi8hldychmj"",""object"":""chat.completion"",""created"":1795554647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.181,,MarianeAzar,20261124_215144,2026-11-24T21:10:49.055692+00:00
+8217a24cb1370be1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The term ""scientist"" was coined in which year?
+A. 1833
+B. 1933
+C. 1942
+D. 1796
+Answer:","[""1833"", ""1933"", ""1942"", ""1796""]",http,0.0,16,none,"{""id"":""chatcmpl-tyl6g9tuu5sqcgwry7w4xf"",""object"":""chat.completion"",""created"":1795554649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0851,,MarianeAzar,20261124_215144,2026-11-24T21:10:50.141091+00:00
+501c4d5d45340f57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which year was the third Super Bowl held?
+A. 1971
+B. 1970
+C. 1969
+D. 1968
+Answer:","[""1971"", ""1970"", ""1969"", ""1968""]",http,0.0,16,none,"{""id"":""chatcmpl-65kdc3cu3h5p0bkw4s9d7"",""object"":""chat.completion"",""created"":1795554650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3191,,MarianeAzar,20261124_215144,2026-11-24T21:10:51.460474+00:00
+501c4d5d45340f57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which year was the third Super Bowl held?
+A. 1971
+B. 1970
+C. 1969
+D. 1968
+Answer:","[""1971"", ""1970"", ""1969"", ""1968""]",http,0.0,16,none,"{""id"":""chatcmpl-oedrlli0ncpsbpfp801kw"",""object"":""chat.completion"",""created"":1795554651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9544,,MarianeAzar,20261124_215144,2026-11-24T21:10:52.415237+00:00
+af16fb82b165b9f5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Faust is a playable character in ""Guilty Gear Xrd Revelator"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7rsb8jctmug5f0r1bphz3d"",""object"":""chat.completion"",""created"":1795554652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1889,,MarianeAzar,20261124_215144,2026-11-24T21:10:53.604368+00:00

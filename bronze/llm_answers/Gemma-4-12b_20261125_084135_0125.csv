@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+44a42c735089863e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the subtitle for Gran Turismo 3?
+A. A-Spec
+B. Championship
+C. Drive
+D. Nitro
+Answer:","[""A-Spec"", ""Championship"", ""Drive"", ""Nitro""]",http,0.0,16,none,"{""id"":""chatcmpl-esgsqizsuyf9fp4fxz7row"",""object"":""chat.completion"",""created"":1795595567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8507,,MarianeAzar,20261125_084135,2026-11-25T08:32:48.505881+00:00
+181721db3cfcf675,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the Foo Fighters was previously the drummer for Nirvana?
+A. Dave Grohl
+B. Nate Mendel
+C. Chris Shiflett
+D. Taylor Hawkins
+Answer:","[""Dave Grohl"", ""Nate Mendel"", ""Chris Shiflett"", ""Taylor Hawkins""]",http,0.0,16,none,"{""id"":""chatcmpl-x05e8e717mkizh1ksqksn"",""object"":""chat.completion"",""created"":1795595567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:32:49.366257+00:00
+181721db3cfcf675,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the Foo Fighters was previously the drummer for Nirvana?
+A. Dave Grohl
+B. Nate Mendel
+C. Chris Shiflett
+D. Taylor Hawkins
+Answer:","[""Dave Grohl"", ""Nate Mendel"", ""Chris Shiflett"", ""Taylor Hawkins""]",http,0.0,16,none,"{""id"":""chatcmpl-k14auwyvligpucfhzygk8"",""object"":""chat.completion"",""created"":1795595568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261125_084135,2026-11-25T08:32:50.224607+00:00
+20f69f9b15400635,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the protagonist in the movie Commando (1985)?
+A. Harry Tasker
+B. John Matrix
+C. Douglas Quaid
+D. Ben Richards
+Answer:","[""Harry Tasker"", ""John Matrix"", ""Douglas Quaid"", ""Ben Richards""]",http,0.0,16,none,"{""id"":""chatcmpl-5c7qqm0e7ca98706xsul5"",""object"":""chat.completion"",""created"":1795595569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261125_084135,2026-11-25T08:32:51.076778+00:00
+20f69f9b15400635,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the protagonist in the movie Commando (1985)?
+A. Harry Tasker
+B. John Matrix
+C. Douglas Quaid
+D. Ben Richards
+Answer:","[""Harry Tasker"", ""John Matrix"", ""Douglas Quaid"", ""Ben Richards""]",http,0.0,16,none,"{""id"":""chatcmpl-xf4wkdkiruxh3iz72oqth"",""object"":""chat.completion"",""created"":1795595570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8707,,MarianeAzar,20261125_084135,2026-11-25T08:32:51.947719+00:00
+9de8cbe0156f1f08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?
+A. Bragi
+B. Ymir
+C. Nidhogg
+D. Odin
+Answer:","[""Bragi"", ""Ymir"", ""Nidhogg"", ""Odin""]",http,0.0,16,none,"{""id"":""chatcmpl-g1lvleeh94hwyvfdmfm3r"",""object"":""chat.completion"",""created"":1795595571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:32:52.808858+00:00
+9de8cbe0156f1f08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?
+A. Bragi
+B. Ymir
+C. Nidhogg
+D. Odin
+Answer:","[""Bragi"", ""Ymir"", ""Nidhogg"", ""Odin""]",http,0.0,16,none,"{""id"":""chatcmpl-f1y7z38y2ebwirx8hpf7mb"",""object"":""chat.completion"",""created"":1795595572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8822,,MarianeAzar,20261125_084135,2026-11-25T08:32:53.691545+00:00
+37f4fbc0e6bd72d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need for Speed: Most Wanted (2005), what was the name of the main antagonist?
+A. Hector ""Ming"" Domingo
+B. Clarence ""Razor"" Callahan
+C. Toru ""Bull"" Sato
+D. Karl ""Baron"" Smit
+Answer:","[""Hector \""Ming\"" Domingo"", ""Clarence \""Razor\"" Callahan"", ""Toru \""Bull\"" Sato"", ""Karl \""Baron\"" Smit""]",http,0.0,16,none,"{""id"":""chatcmpl-hsp6x2nkxy9t3gxs9z4q9r"",""object"":""chat.completion"",""created"":1795595573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:32:54.571643+00:00
+37f4fbc0e6bd72d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need for Speed: Most Wanted (2005), what was the name of the main antagonist?
+A. Hector ""Ming"" Domingo
+B. Clarence ""Razor"" Callahan
+C. Toru ""Bull"" Sato
+D. Karl ""Baron"" Smit
+Answer:","[""Hector \""Ming\"" Domingo"", ""Clarence \""Razor\"" Callahan"", ""Toru \""Bull\"" Sato"", ""Karl \""Baron\"" Smit""]",http,0.0,16,none,"{""id"":""chatcmpl-j5ualrtckcxb4gq5xlsok"",""object"":""chat.completion"",""created"":1795595574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9002,,MarianeAzar,20261125_084135,2026-11-25T08:32:55.472222+00:00
+82e13eae5355fe3f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Romanian belongs to the Romance language family, shared with French, Spanish, Portuguese and Italian.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rl3y6k5ex3e2deja45mz7s"",""object"":""chat.completion"",""created"":1795595574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T08:32:56.331060+00:00
+82e13eae5355fe3f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Romanian belongs to the Romance language family, shared with French, Spanish, Portuguese and Italian.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kcrwkkrb0nkyp05liwrmua"",""object"":""chat.completion"",""created"":1795595575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:32:57.208209+00:00
+bb9d4ae259b91559,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these NHL teams have never moved since their inception?
+A. Dallas Stars
+B. St. Louis Blues
+C. New Jersey Devils
+D. Carolina Hurricanes
+Answer:","[""Dallas Stars"", ""St. Louis Blues"", ""New Jersey Devils"", ""Carolina Hurricanes""]",http,0.0,16,none,"{""id"":""chatcmpl-rce3ub9mgd987z0fy3z3y"",""object"":""chat.completion"",""created"":1795595576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261125_084135,2026-11-25T08:32:58.059054+00:00
+bb9d4ae259b91559,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these NHL teams have never moved since their inception?
+A. Dallas Stars
+B. St. Louis Blues
+C. New Jersey Devils
+D. Carolina Hurricanes
+Answer:","[""Dallas Stars"", ""St. Louis Blues"", ""New Jersey Devils"", ""Carolina Hurricanes""]",http,0.0,16,none,"{""id"":""chatcmpl-xcog2zw6jb7o1x3agvx3t"",""object"":""chat.completion"",""created"":1795595577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8701,,MarianeAzar,20261125_084135,2026-11-25T08:32:58.929492+00:00
+b02d747f6c0794cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In programming, the ternary operator is mostly defined with what symbol(s)?
+A. ?:
+B. ??
+C. if then
+D. ?
+Answer:","[""?:"", ""??"", ""if then"", ""?""]",http,0.0,16,none,"{""id"":""chatcmpl-yaj4kx39zrzt1sacaztds"",""object"":""chat.completion"",""created"":1795595578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T08:32:59.781784+00:00
+b02d747f6c0794cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In programming, the ternary operator is mostly defined with what symbol(s)?
+A. ?:
+B. ??
+C. if then
+D. ?
+Answer:","[""?:"", ""??"", ""if then"", ""?""]",http,0.0,16,none,"{""id"":""chatcmpl-yry2eflxmu0tou7hu33l2"",""object"":""chat.completion"",""created"":1795595579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8726,,MarianeAzar,20261125_084135,2026-11-25T08:33:00.654720+00:00
+4acf6e2340ed81d2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Snakes and lizards are known to flick their tongue, this behavior is to?
+A. Threaten other species
+B. Capture scent particles
+C. Taste the sweet air
+D. Attract female mates
+Answer:","[""Threaten other species"", ""Capture scent particles"", ""Taste the sweet air"", ""Attract female mates""]",http,0.0,16,none,"{""id"":""chatcmpl-uhlsmttm0cndguw702hh"",""object"":""chat.completion"",""created"":1795595580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:33:01.519660+00:00
+4acf6e2340ed81d2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Snakes and lizards are known to flick their tongue, this behavior is to?
+A. Threaten other species
+B. Capture scent particles
+C. Taste the sweet air
+D. Attract female mates
+Answer:","[""Threaten other species"", ""Capture scent particles"", ""Taste the sweet air"", ""Attract female mates""]",http,0.0,16,none,"{""id"":""chatcmpl-kj1f9fbx9sgr4p4nrsci3"",""object"":""chat.completion"",""created"":1795595580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T08:33:02.396386+00:00
+48c47833e342bb6a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""League of Legends"", there exists four different types of Dragon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y34vnzve9226zvpwdn2ci"",""object"":""chat.completion"",""created"":1795595581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7923,,MarianeAzar,20261125_084135,2026-11-25T08:33:03.188867+00:00
+48c47833e342bb6a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""League of Legends"", there exists four different types of Dragon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3tttg4cm0wu4103tpt9j"",""object"":""chat.completion"",""created"":1795595582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8152,,MarianeAzar,20261125_084135,2026-11-25T08:33:04.004289+00:00
+aa6d977e99d730b2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the movie ""Police Academy"" released?
+A. 1984
+B. 1983
+C. 1985
+D. 1986
+Answer:","[""1984"", ""1983"", ""1985"", ""1986""]",http,0.0,16,none,"{""id"":""chatcmpl-kyot0owbtsl723cmccamf"",""object"":""chat.completion"",""created"":1795595583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T08:33:04.857103+00:00
+aa6d977e99d730b2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the movie ""Police Academy"" released?
+A. 1984
+B. 1983
+C. 1985
+D. 1986
+Answer:","[""1984"", ""1983"", ""1985"", ""1986""]",http,0.0,16,none,"{""id"":""chatcmpl-hfniyb1g1ttdr6754g3n"",""object"":""chat.completion"",""created"":1795595584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T08:33:05.748275+00:00
+775a2486e1084624,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the queen's pet in A Bug's Life?
+A. Dot
+B. Aphie
+C. Hopper
+D. Flik
+Answer:","[""Dot"", ""Aphie"", ""Hopper"", ""Flik""]",http,0.0,16,none,"{""id"":""chatcmpl-qxaz2r1bziedxlvtobcqx7"",""object"":""chat.completion"",""created"":1795595585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:33:06.609425+00:00
+775a2486e1084624,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the queen's pet in A Bug's Life?
+A. Dot
+B. Aphie
+C. Hopper
+D. Flik
+Answer:","[""Dot"", ""Aphie"", ""Hopper"", ""Flik""]",http,0.0,16,none,"{""id"":""chatcmpl-movryi5zt5sjxlrlqjgd"",""object"":""chat.completion"",""created"":1795595586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8819,,MarianeAzar,20261125_084135,2026-11-25T08:33:07.491574+00:00
+b810aa565b9f5f5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Netflix founded?
+A. 2004
+B. 1999
+C. 1997
+D. 2001
+Answer:","[""2004"", ""1999"", ""1997"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-dfjig639mwdu1wopfo2ndp"",""object"":""chat.completion"",""created"":1795595586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8421,,MarianeAzar,20261125_084135,2026-11-25T08:33:08.334104+00:00
+b810aa565b9f5f5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Netflix founded?
+A. 2004
+B. 1999
+C. 1997
+D. 2001
+Answer:","[""2004"", ""1999"", ""1997"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-1w7974eednbsqd3z4dc1"",""object"":""chat.completion"",""created"":1795595587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T08:33:09.192839+00:00

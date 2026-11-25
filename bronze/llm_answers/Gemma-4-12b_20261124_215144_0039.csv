@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+bd279337032ea095,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the hip hop group Kanye West was a member of in the late 90s?
+A. The Beat-Busters
+B. The Kickstarters
+C. The Go-Getters
+D. The Jumpers
+Answer:","[""The Beat-Busters"", ""The Kickstarters"", ""The Go-Getters"", ""The Jumpers""]",http,0.0,16,none,"{""id"":""chatcmpl-k8hk6lvvevra4q0fmcwk1"",""object"":""chat.completion"",""created"":1795554482,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261124_215144,2026-11-24T21:08:03.103862+00:00
+5321c3ed571453d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did Albert Einstein win the Nobel Prize for in 1921?
+A. Photoelectric Effect
+B. Zero-Point Energy
+C. Wave-Particle Duality
+D. Relativity
+Answer:","[""Photoelectric Effect"", ""Zero-Point Energy"", ""Wave-Particle Duality"", ""Relativity""]",http,0.0,16,none,"{""id"":""chatcmpl-mun5yl2cv1bhvw4vila28"",""object"":""chat.completion"",""created"":1795554483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8958,,MarianeAzar,20261124_215144,2026-11-24T21:08:03.999866+00:00
+5321c3ed571453d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did Albert Einstein win the Nobel Prize for in 1921?
+A. Photoelectric Effect
+B. Zero-Point Energy
+C. Wave-Particle Duality
+D. Relativity
+Answer:","[""Photoelectric Effect"", ""Zero-Point Energy"", ""Wave-Particle Duality"", ""Relativity""]",http,0.0,16,none,"{""id"":""chatcmpl-7mg74irszuw7gluam5v0l5"",""object"":""chat.completion"",""created"":1795554483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261124_215144,2026-11-24T21:08:04.879531+00:00
+6b41eaf973361b59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does CPU stand for?
+A. Computer Personal Unit
+B. Central Processing Unit
+C. Central Processor Unit
+D. Central Process Unit
+Answer:","[""Computer Personal Unit"", ""Central Processing Unit"", ""Central Processor Unit"", ""Central Process Unit""]",http,0.0,16,none,"{""id"":""chatcmpl-i515ux0cqpuammvol066j"",""object"":""chat.completion"",""created"":1795554484,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261124_215144,2026-11-24T21:08:05.745128+00:00
+6b41eaf973361b59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does CPU stand for?
+A. Computer Personal Unit
+B. Central Processing Unit
+C. Central Processor Unit
+D. Central Process Unit
+Answer:","[""Computer Personal Unit"", ""Central Processing Unit"", ""Central Processor Unit"", ""Central Process Unit""]",http,0.0,16,none,"{""id"":""chatcmpl-9h3tf59zeln11wy4xi22vo"",""object"":""chat.completion"",""created"":1795554485,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261124_215144,2026-11-24T21:08:06.605639+00:00
+ab6def97f4725e40,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?
+A. Water Works
+B. Electric Company
+C. Community Chest
+D. Chance
+Answer:","[""Water Works"", ""Electric Company"", ""Community Chest"", ""Chance""]",http,0.0,16,none,"{""id"":""chatcmpl-jzdwaz22fj5bjbicaozlx"",""object"":""chat.completion"",""created"":1795554486,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8551,,MarianeAzar,20261124_215144,2026-11-24T21:08:07.461371+00:00
+ab6def97f4725e40,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?
+A. Water Works
+B. Electric Company
+C. Community Chest
+D. Chance
+Answer:","[""Water Works"", ""Electric Company"", ""Community Chest"", ""Chance""]",http,0.0,16,none,"{""id"":""chatcmpl-860ghaziw16sz2x8ozwzv"",""object"":""chat.completion"",""created"":1795554487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261124_215144,2026-11-24T21:08:08.337244+00:00
+bc325f59a306e57d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs did Jimi Hendrix cover?
+A. All Along the Watchtower
+B. Sgt. Pepper's Lonely Hearts Club Band
+C. All of these songs
+D. House of the Rising Sun
+Answer:","[""All Along the Watchtower"", ""Sgt. Pepper's Lonely Hearts Club Band"", ""All of these songs"", ""House of the Rising Sun""]",http,0.0,16,none,"{""id"":""chatcmpl-c7imq70c3eduot19vllcy"",""object"":""chat.completion"",""created"":1795554488,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261124_215144,2026-11-24T21:08:09.203971+00:00
+bc325f59a306e57d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs did Jimi Hendrix cover?
+A. All Along the Watchtower
+B. Sgt. Pepper's Lonely Hearts Club Band
+C. All of these songs
+D. House of the Rising Sun
+Answer:","[""All Along the Watchtower"", ""Sgt. Pepper's Lonely Hearts Club Band"", ""All of these songs"", ""House of the Rising Sun""]",http,0.0,16,none,"{""id"":""chatcmpl-ufejg5xt54fjyr5xpb021q"",""object"":""chat.completion"",""created"":1795554489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261124_215144,2026-11-24T21:08:10.081221+00:00
+f61a1d1b187dc4f6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?
+A. Crown
+B. Sickle
+C. Tree
+D. Bird
+Answer:","[""Crown"", ""Sickle"", ""Tree"", ""Bird""]",http,0.0,16,none,"{""id"":""chatcmpl-5xavaevzqrrv7obejb785"",""object"":""chat.completion"",""created"":1795554489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8664,,MarianeAzar,20261124_215144,2026-11-24T21:08:10.947881+00:00
+f61a1d1b187dc4f6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?
+A. Crown
+B. Sickle
+C. Tree
+D. Bird
+Answer:","[""Crown"", ""Sickle"", ""Tree"", ""Bird""]",http,0.0,16,none,"{""id"":""chatcmpl-sdk7hrw1zng74i3d7zisx8"",""object"":""chat.completion"",""created"":1795554490,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8771,,MarianeAzar,20261124_215144,2026-11-24T21:08:11.825239+00:00
+03b33a75350317e6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these places is a location in Cornwall?
+A. Alicante
+B. Barcelona
+C. Lisbon
+D. Madrid
+Answer:","[""Alicante"", ""Barcelona"", ""Lisbon"", ""Madrid""]",http,0.0,16,none,"{""id"":""chatcmpl-wmbxkqh30k9smey0efusie"",""object"":""chat.completion"",""created"":1795554491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""None of the options provided are locations in Cornwall. All four cities listed are in"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""length""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":16,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",2.7239,,MarianeAzar,20261124_215144,2026-11-24T21:08:14.550025+00:00
+03b33a75350317e6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these places is a location in Cornwall?
+A. Alicante
+B. Barcelona
+C. Lisbon
+D. Madrid
+Answer:","[""Alicante"", ""Barcelona"", ""Lisbon"", ""Madrid""]",http,0.0,16,none,"{""id"":""chatcmpl-cqrha37y30t6blnftzitg5"",""object"":""chat.completion"",""created"":1795554494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""None of the options provided are locations in Cornwall. All four cities listed (Alic"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""length""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":16,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",2.7195,,MarianeAzar,20261124_215144,2026-11-24T21:08:17.269921+00:00
+b446041723b06efa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the aircraft registration for the last Concorde built?
+A. G-BOAF
+B. G-BOAC
+C. F-BVFF
+D. F-BTSC
+Answer:","[""G-BOAF"", ""G-BOAC"", ""F-BVFF"", ""F-BTSC""]",http,0.0,16,none,"{""id"":""chatcmpl-wcqz25pe45mw6yxjadyui"",""object"":""chat.completion"",""created"":1795554497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261124_215144,2026-11-24T21:08:18.149058+00:00
+b446041723b06efa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the aircraft registration for the last Concorde built?
+A. G-BOAF
+B. G-BOAC
+C. F-BVFF
+D. F-BTSC
+Answer:","[""G-BOAF"", ""G-BOAC"", ""F-BVFF"", ""F-BTSC""]",http,0.0,16,none,"{""id"":""chatcmpl-5h6k96ng0p489kcycy08kg"",""object"":""chat.completion"",""created"":1795554498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261124_215144,2026-11-24T21:08:19.005992+00:00
+9dec2dfbe09309ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest non-continental island in the world?
+A. Greenland
+B. New Guinea
+C. Borneo
+D. Madagascar
+Answer:","[""Greenland"", ""New Guinea"", ""Borneo"", ""Madagascar""]",http,0.0,16,none,"{""id"":""chatcmpl-3tchkhx35gdt1mx829vvg"",""object"":""chat.completion"",""created"":1795554498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261124_215144,2026-11-24T21:08:19.857453+00:00
+9dec2dfbe09309ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest non-continental island in the world?
+A. Greenland
+B. New Guinea
+C. Borneo
+D. Madagascar
+Answer:","[""Greenland"", ""New Guinea"", ""Borneo"", ""Madagascar""]",http,0.0,16,none,"{""id"":""chatcmpl-amxjgrf3n1uxwz6tt7qxh8"",""object"":""chat.completion"",""created"":1795554499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9499,,MarianeAzar,20261124_215144,2026-11-24T21:08:20.807628+00:00
+f0c9e95b3e6f926f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In JoJo's Bizarre Adventure, who says ""Yare yare daze""?
+A. Koichi Hirose
+B. Jotaro Kujo
+C. Jolyne Cujoh
+D. Joseph Joestar
+Answer:","[""Koichi Hirose"", ""Jotaro Kujo"", ""Jolyne Cujoh"", ""Joseph Joestar""]",http,0.0,16,none,"{""id"":""chatcmpl-tonunc9pvrnd7ig7kuh1"",""object"":""chat.completion"",""created"":1795554500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.35,,MarianeAzar,20261124_215144,2026-11-24T21:08:22.157797+00:00
+f0c9e95b3e6f926f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In JoJo's Bizarre Adventure, who says ""Yare yare daze""?
+A. Koichi Hirose
+B. Jotaro Kujo
+C. Jolyne Cujoh
+D. Joseph Joestar
+Answer:","[""Koichi Hirose"", ""Jotaro Kujo"", ""Jolyne Cujoh"", ""Joseph Joestar""]",http,0.0,16,none,"{""id"":""chatcmpl-tf5jbn0z98m0dz7ivbo4lbr"",""object"":""chat.completion"",""created"":1795554502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9769,,MarianeAzar,20261124_215144,2026-11-24T21:08:23.134886+00:00
+a6d7cca31e4cd7ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the Maximum Level in World of Warcraft: Battle for Azeroth?
+A. 100
+B. 120
+C. 150
+D. 90
+Answer:","[""100"", ""120"", ""150"", ""90""]",http,0.0,16,none,"{""id"":""chatcmpl-m79ts46ph1zg4su5vd12"",""object"":""chat.completion"",""created"":1795554503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9656,,MarianeAzar,20261124_215144,2026-11-24T21:08:24.100907+00:00
+a6d7cca31e4cd7ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the Maximum Level in World of Warcraft: Battle for Azeroth?
+A. 100
+B. 120
+C. 150
+D. 90
+Answer:","[""100"", ""120"", ""150"", ""90""]",http,0.0,16,none,"{""id"":""chatcmpl-kptwac1777sphovd3cgusb"",""object"":""chat.completion"",""created"":1795554504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3974,,MarianeAzar,20261124_215144,2026-11-24T21:08:25.498554+00:00
+6fa3ad8763405311,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""To Love-Ru"" series, how many Trans-weapons were created?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-odhtrnw9fkfn4x6gaijo"",""object"":""chat.completion"",""created"":1795554505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9594,,MarianeAzar,20261124_215144,2026-11-24T21:08:26.458135+00:00
+6fa3ad8763405311,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""To Love-Ru"" series, how many Trans-weapons were created?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-f3w6avhxbsw3fm3ghqubr"",""object"":""chat.completion"",""created"":1795554506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9511,,MarianeAzar,20261124_215144,2026-11-24T21:08:27.409326+00:00
+9692ce20897fb6e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which canal connects the Mediterranean Sea with the Red Sea?
+A. Suez Canal
+B. Sinai Canal
+C. Panama Canal
+D. Qaraqum Canal
+Answer:","[""Suez Canal"", ""Sinai Canal"", ""Panama Canal"", ""Qaraqum Canal""]",http,0.0,16,none,"{""id"":""chatcmpl-qap4ouyeecnk7jqmollev"",""object"":""chat.completion"",""created"":1795554507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4486,,MarianeAzar,20261124_215144,2026-11-24T21:08:28.858124+00:00
+9692ce20897fb6e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which canal connects the Mediterranean Sea with the Red Sea?
+A. Suez Canal
+B. Sinai Canal
+C. Panama Canal
+D. Qaraqum Canal
+Answer:","[""Suez Canal"", ""Sinai Canal"", ""Panama Canal"", ""Qaraqum Canal""]",http,0.0,16,none,"{""id"":""chatcmpl-gsurzimcg9foksz76gnut"",""object"":""chat.completion"",""created"":1795554508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0666,,MarianeAzar,20261124_215144,2026-11-24T21:08:29.924963+00:00

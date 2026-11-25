@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+eb6fba69779b5c66,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT one of Aesop's fables?
+A. The Fox and the Hound
+B. The Fox and the Grapes
+C. The Frog and the Ox
+D. The Tortoise and the Hare
+Answer:","[""The Fox and the Hound"", ""The Fox and the Grapes"", ""The Frog and the Ox"", ""The Tortoise and the Hare""]",http,0.0,16,none,"{""id"":""chatcmpl-ct09795o52s9kj6ua6c37d"",""object"":""chat.completion"",""created"":1795593360,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T07:56:01.476838+00:00
+eb6fba69779b5c66,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT one of Aesop's fables?
+A. The Fox and the Hound
+B. The Fox and the Grapes
+C. The Frog and the Ox
+D. The Tortoise and the Hare
+Answer:","[""The Fox and the Hound"", ""The Fox and the Grapes"", ""The Frog and the Ox"", ""The Tortoise and the Hare""]",http,0.0,16,none,"{""id"":""chatcmpl-dbgkhplk9mkjc2v70gg1ur"",""object"":""chat.completion"",""created"":1795593360,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8905,,MarianeAzar,20261125_084135,2026-11-25T07:56:02.367585+00:00
+273b9ede3a9530f4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Microsoft release the original Xbox console in North America?
+A. 1998
+B. 1996
+C. 2003
+D. 2001
+Answer:","[""1998"", ""1996"", ""2003"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-bbwn5ke7jkxs1jr9h2spk"",""object"":""chat.completion"",""created"":1795593361,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8707,,MarianeAzar,20261125_084135,2026-11-25T07:56:03.238527+00:00
+273b9ede3a9530f4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Microsoft release the original Xbox console in North America?
+A. 1998
+B. 1996
+C. 2003
+D. 2001
+Answer:","[""1998"", ""1996"", ""2003"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-egmws84tjitvwhnvedf4"",""object"":""chat.completion"",""created"":1795593362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8833,,MarianeAzar,20261125_084135,2026-11-25T07:56:04.122062+00:00
+97b7d8196cd4a03d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: TF2: The Heavy's voice actor, Gary Schwartz, voices the Demoman as well
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-aorrzk94xwv61tdoxl61by"",""object"":""chat.completion"",""created"":1795593363,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8244,,MarianeAzar,20261125_084135,2026-11-25T07:56:04.946667+00:00
+97b7d8196cd4a03d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: TF2: The Heavy's voice actor, Gary Schwartz, voices the Demoman as well
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ak4av670pswhyri0nct82"",""object"":""chat.completion"",""created"":1795593364,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T07:56:05.809797+00:00
+7c3776505d65973e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the award winning musical ""In The Heights""?
+A. Lin-Manuel Miranda
+B. John Phillips Sousa
+C. Steven Sondheim
+D. Francis Scott Key
+Answer:","[""Lin-Manuel Miranda"", ""John Phillips Sousa"", ""Steven Sondheim"", ""Francis Scott Key""]",http,0.0,16,none,"{""id"":""chatcmpl-ipbljwswwsmdzkm5jgz7"",""object"":""chat.completion"",""created"":1795593365,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T07:56:06.662522+00:00
+7c3776505d65973e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the award winning musical ""In The Heights""?
+A. Lin-Manuel Miranda
+B. John Phillips Sousa
+C. Steven Sondheim
+D. Francis Scott Key
+Answer:","[""Lin-Manuel Miranda"", ""John Phillips Sousa"", ""Steven Sondheim"", ""Francis Scott Key""]",http,0.0,16,none,"{""id"":""chatcmpl-63a9z2te6ix6ozervq11i3"",""object"":""chat.completion"",""created"":1795593366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8631,,MarianeAzar,20261125_084135,2026-11-25T07:56:07.525854+00:00
+25939cf2d56a9498,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which film star has his statue in Leicester Square?
+A. Alfred Hitchcock
+B. Paul Newman
+C. Rowan Atkinson
+D. Charlie Chaplin
+Answer:","[""Alfred Hitchcock"", ""Paul Newman"", ""Rowan Atkinson"", ""Charlie Chaplin""]",http,0.0,16,none,"{""id"":""chatcmpl-ty67cvoq5zh1llbyzz77xc"",""object"":""chat.completion"",""created"":1795593366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8436,,MarianeAzar,20261125_084135,2026-11-25T07:56:08.369677+00:00
+25939cf2d56a9498,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which film star has his statue in Leicester Square?
+A. Alfred Hitchcock
+B. Paul Newman
+C. Rowan Atkinson
+D. Charlie Chaplin
+Answer:","[""Alfred Hitchcock"", ""Paul Newman"", ""Rowan Atkinson"", ""Charlie Chaplin""]",http,0.0,16,none,"{""id"":""chatcmpl-nr81zxnia2idwn5jd5ss"",""object"":""chat.completion"",""created"":1795593367,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T07:56:09.221193+00:00
+077f1afb029b6e3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which United Nations principal organ has been suspended since 1994?
+A. General Assembly
+B. Economic and Social Council
+C. Trusteeship Council
+D. Secretariat
+Answer:","[""General Assembly"", ""Economic and Social Council"", ""Trusteeship Council"", ""Secretariat""]",http,0.0,16,none,"{""id"":""chatcmpl-a2cgc4vozwsqme56bvwqc"",""object"":""chat.completion"",""created"":1795593368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8692,,MarianeAzar,20261125_084135,2026-11-25T07:56:10.090711+00:00
+077f1afb029b6e3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which United Nations principal organ has been suspended since 1994?
+A. General Assembly
+B. Economic and Social Council
+C. Trusteeship Council
+D. Secretariat
+Answer:","[""General Assembly"", ""Economic and Social Council"", ""Trusteeship Council"", ""Secretariat""]",http,0.0,16,none,"{""id"":""chatcmpl-jq9rfghq0ax8le138koj8"",""object"":""chat.completion"",""created"":1795593369,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261125_084135,2026-11-25T07:56:10.958992+00:00
+7a231bb3512d4e28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the average lifespan of a domestic rabbit?
+A. 1-2 years
+B. 4-7 years
+C. 8-12 years
+D. 14-20 years
+Answer:","[""1-2 years"", ""4-7 years"", ""8-12 years"", ""14-20 years""]",http,0.0,16,none,"{""id"":""chatcmpl-fy038z7w158vtzg0myny3o"",""object"":""chat.completion"",""created"":1795593370,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8617,,MarianeAzar,20261125_084135,2026-11-25T07:56:11.820993+00:00
+7a231bb3512d4e28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the average lifespan of a domestic rabbit?
+A. 1-2 years
+B. 4-7 years
+C. 8-12 years
+D. 14-20 years
+Answer:","[""1-2 years"", ""4-7 years"", ""8-12 years"", ""14-20 years""]",http,0.0,16,none,"{""id"":""chatcmpl-yyf3a67ygoep7seojyku1"",""object"":""chat.completion"",""created"":1795593371,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261125_084135,2026-11-25T07:56:12.717783+00:00
+05f1dffdc63cfae1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The numbering system with a radix of 16 is more commonly referred to as
+A. Duodecimal
+B. Octal
+C. Binary
+D. Hexidecimal
+Answer:","[""Duodecimal"", ""Octal"", ""Binary"", ""Hexidecimal""]",http,0.0,16,none,"{""id"":""chatcmpl-fcrjmfbk6rr748mmin38n"",""object"":""chat.completion"",""created"":1795593372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8874,,MarianeAzar,20261125_084135,2026-11-25T07:56:13.605467+00:00
+05f1dffdc63cfae1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The numbering system with a radix of 16 is more commonly referred to as
+A. Duodecimal
+B. Octal
+C. Binary
+D. Hexidecimal
+Answer:","[""Duodecimal"", ""Octal"", ""Binary"", ""Hexidecimal""]",http,0.0,16,none,"{""id"":""chatcmpl-1kbdndrpykl8p2f0gdbm59"",""object"":""chat.completion"",""created"":1795593373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:56:14.466635+00:00
+ec22d3497eeeb6d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the profession of Elon Musk's mom, Maye Musk?
+A. Biologist
+B. Professor
+C. Model
+D. Musician
+Answer:","[""Biologist"", ""Professor"", ""Model"", ""Musician""]",http,0.0,16,none,"{""id"":""chatcmpl-l6v88alg4s5r7fdr81vvo"",""object"":""chat.completion"",""created"":1795593373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T07:56:15.326994+00:00
+ec22d3497eeeb6d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the profession of Elon Musk's mom, Maye Musk?
+A. Biologist
+B. Professor
+C. Model
+D. Musician
+Answer:","[""Biologist"", ""Professor"", ""Model"", ""Musician""]",http,0.0,16,none,"{""id"":""chatcmpl-xeem212fiwgqahxdghlk5"",""object"":""chat.completion"",""created"":1795593374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261125_084135,2026-11-25T07:56:16.213969+00:00
+4a5667bf9328f314,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: El Niño pushes warm water to the coasts of the Western Pacific during winter.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i24wcd75ayksojojtutty"",""object"":""chat.completion"",""created"":1795593375,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8932,,MarianeAzar,20261125_084135,2026-11-25T07:56:17.107301+00:00
+4a5667bf9328f314,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: El Niño pushes warm water to the coasts of the Western Pacific during winter.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9rix1o963e51gug5eg7vep"",""object"":""chat.completion"",""created"":1795593376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8249,,MarianeAzar,20261125_084135,2026-11-25T07:56:17.932405+00:00
+e0907ad668d9800f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which genre of Hip Hop does MC Frontalot rap?
+A. Christian
+B. Horrorcore
+C. Nerdcore
+D. Crunk
+Answer:","[""Christian"", ""Horrorcore"", ""Nerdcore"", ""Crunk""]",http,0.0,16,none,"{""id"":""chatcmpl-6xvrk47pvs8ockw1f6zk2s"",""object"":""chat.completion"",""created"":1795593377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T07:56:18.804469+00:00
+e0907ad668d9800f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which genre of Hip Hop does MC Frontalot rap?
+A. Christian
+B. Horrorcore
+C. Nerdcore
+D. Crunk
+Answer:","[""Christian"", ""Horrorcore"", ""Nerdcore"", ""Crunk""]",http,0.0,16,none,"{""id"":""chatcmpl-1qgd05c9k9auo8d6mtlm4"",""object"":""chat.completion"",""created"":1795593378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.853,,MarianeAzar,20261125_084135,2026-11-25T07:56:19.657772+00:00
+8b9354bffeb485b2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following landmarks is not located in New York City?
+A. Lincoln Memorial
+B. Central Park
+C. Empire State Building
+D. Times Square
+Answer:","[""Lincoln Memorial"", ""Central Park"", ""Empire State Building"", ""Times Square""]",http,0.0,16,none,"{""id"":""chatcmpl-0ugzi5jxv5yvv4imunur0e"",""object"":""chat.completion"",""created"":1795593379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T07:56:20.523072+00:00
+8b9354bffeb485b2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following landmarks is not located in New York City?
+A. Lincoln Memorial
+B. Central Park
+C. Empire State Building
+D. Times Square
+Answer:","[""Lincoln Memorial"", ""Central Park"", ""Empire State Building"", ""Times Square""]",http,0.0,16,none,"{""id"":""chatcmpl-4uthw5kxmmvk8waifdc7y"",""object"":""chat.completion"",""created"":1795593379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8927,,MarianeAzar,20261125_084135,2026-11-25T07:56:21.415969+00:00
+ae22bc6aa695f0aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?
+A. Italian Grand Prix
+B. Brazilian Grand Prix
+C. Japanese Grand Prix
+D. Monaco Grand Prix
+Answer:","[""Italian Grand Prix"", ""Brazilian Grand Prix"", ""Japanese Grand Prix"", ""Monaco Grand Prix""]",http,0.0,16,none,"{""id"":""chatcmpl-b3a6mctho3rbzmq84cgy"",""object"":""chat.completion"",""created"":1795593380,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T07:56:22.281135+00:00

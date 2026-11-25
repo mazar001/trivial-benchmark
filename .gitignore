@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+target/
+logs/
+dbt_packages/
+.user.yml
+gold/*.duckdb
+gold/*.duckdb.wal
+*.log
+*.parquet.tmp
+.env

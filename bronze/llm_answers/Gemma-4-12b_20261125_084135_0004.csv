@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ce086eed20878d5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were Marcel Duchamp's readymades?
+A. utilitarian objects elevated to the status of art
+B. paintings with a barely visible outlined square
+C. a group of identical steel boxes jutting from the wall
+D. a series focused on color and light as opposed to line and shape
+Answer:","[""utilitarian objects elevated to the status of art"", ""paintings with a barely visible outlined square"", ""a group of identical steel boxes jutting from the wall"", ""a series focused on color and light as opposed to line and shape""]",http,0.0,16,none,"{""id"":""chatcmpl-hy7hym183ruwyx2p218gx"",""object"":""chat.completion"",""created"":1795592581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8961,,MarianeAzar,20261125_084135,2026-11-25T07:43:02.770383+00:00
+ce086eed20878d5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were Marcel Duchamp's readymades?
+A. utilitarian objects elevated to the status of art
+B. paintings with a barely visible outlined square
+C. a group of identical steel boxes jutting from the wall
+D. a series focused on color and light as opposed to line and shape
+Answer:","[""utilitarian objects elevated to the status of art"", ""paintings with a barely visible outlined square"", ""a group of identical steel boxes jutting from the wall"", ""a series focused on color and light as opposed to line and shape""]",http,0.0,16,none,"{""id"":""chatcmpl-dlle8uce6e6v2piprttj3"",""object"":""chat.completion"",""created"":1795592582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9331,,MarianeAzar,20261125_084135,2026-11-25T07:43:03.703750+00:00
+fcd08309d04ccd54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in the video game ""Just Cause 3""?
+A. Mario Frigo
+B. Rico Rodriguez
+C. Tom Sheldon
+D. Marcus Holloway
+Answer:","[""Mario Frigo"", ""Rico Rodriguez"", ""Tom Sheldon"", ""Marcus Holloway""]",http,0.0,16,none,"{""id"":""chatcmpl-m72n961tpen39s5fkvi56r"",""object"":""chat.completion"",""created"":1795592583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.882,,MarianeAzar,20261125_084135,2026-11-25T07:43:04.585872+00:00
+fcd08309d04ccd54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in the video game ""Just Cause 3""?
+A. Mario Frigo
+B. Rico Rodriguez
+C. Tom Sheldon
+D. Marcus Holloway
+Answer:","[""Mario Frigo"", ""Rico Rodriguez"", ""Tom Sheldon"", ""Marcus Holloway""]",http,0.0,16,none,"{""id"":""chatcmpl-eoxsxxetsznykgpz6z4olk"",""object"":""chat.completion"",""created"":1795592584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T07:43:05.435483+00:00
+7ae6a4557b0bdff5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the villian in the 2015 Russian-American Sci-Fi Movie ""Hardcore Henry""?
+A. Estelle
+B. Akan
+C. Jimmy
+D. Henry
+Answer:","[""Estelle"", ""Akan"", ""Jimmy"", ""Henry""]",http,0.0,16,none,"{""id"":""chatcmpl-4b3h7m3eeigd8pmwbyux9"",""object"":""chat.completion"",""created"":1795592584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:43:06.285518+00:00
+7ae6a4557b0bdff5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the villian in the 2015 Russian-American Sci-Fi Movie ""Hardcore Henry""?
+A. Estelle
+B. Akan
+C. Jimmy
+D. Henry
+Answer:","[""Estelle"", ""Akan"", ""Jimmy"", ""Henry""]",http,0.0,16,none,"{""id"":""chatcmpl-fjcmtmf27bn374c0vpry"",""object"":""chat.completion"",""created"":1795592585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T07:43:07.185286+00:00
+e6b44881f6dfe882,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mathematician Euler's first name?
+A. Leonhard
+B. Ajan
+C. Lionel
+D. Andrin
+Answer:","[""Leonhard"", ""Ajan"", ""Lionel"", ""Andrin""]",http,0.0,16,none,"{""id"":""chatcmpl-j0prbtjb27sswijc4k2tn"",""object"":""chat.completion"",""created"":1795592586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261125_084135,2026-11-25T07:43:08.049412+00:00
+e6b44881f6dfe882,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mathematician Euler's first name?
+A. Leonhard
+B. Ajan
+C. Lionel
+D. Andrin
+Answer:","[""Leonhard"", ""Ajan"", ""Lionel"", ""Andrin""]",http,0.0,16,none,"{""id"":""chatcmpl-ju1upe62msbfwo0blmj9t"",""object"":""chat.completion"",""created"":1795592587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T07:43:08.902494+00:00
+6ff0207f096e71fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Star Trek universe, what color is Vulcan blood?
+A. Blue
+B. Red
+C. Green
+D. Purple
+Answer:","[""Blue"", ""Red"", ""Green"", ""Purple""]",http,0.0,16,none,"{""id"":""chatcmpl-tgx1eq9sqp81uge9k86u5"",""object"":""chat.completion"",""created"":1795592588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T07:43:09.757391+00:00
+6ff0207f096e71fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Star Trek universe, what color is Vulcan blood?
+A. Blue
+B. Red
+C. Green
+D. Purple
+Answer:","[""Blue"", ""Red"", ""Green"", ""Purple""]",http,0.0,16,none,"{""id"":""chatcmpl-nkjazoz7efdx5tbiv02fgo"",""object"":""chat.completion"",""created"":1795592589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8502,,MarianeAzar,20261125_084135,2026-11-25T07:43:10.607882+00:00
+8fbf7c03732fd119,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which greek god/goddess tossed a golden apple with the words ""for the fairest"" into the middle of the feast of the gods?
+A. Eris
+B. Artemis
+C. Hades
+D. Ares
+Answer:","[""Eris"", ""Artemis"", ""Hades"", ""Ares""]",http,0.0,16,none,"{""id"":""chatcmpl-p2jxvxqxygao0o0p5izbqb"",""object"":""chat.completion"",""created"":1795592590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T07:43:11.466542+00:00
+8fbf7c03732fd119,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which greek god/goddess tossed a golden apple with the words ""for the fairest"" into the middle of the feast of the gods?
+A. Eris
+B. Artemis
+C. Hades
+D. Ares
+Answer:","[""Eris"", ""Artemis"", ""Hades"", ""Ares""]",http,0.0,16,none,"{""id"":""chatcmpl-v316oct5kbg6iilvbgu7l5"",""object"":""chat.completion"",""created"":1795592590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261125_084135,2026-11-25T07:43:12.350478+00:00
+18fc68b0fc97d17e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these programming languages is a low-level language?
+A. C#
+B. Python
+C. Pascal
+D. Assembly
+Answer:","[""C#"", ""Python"", ""Pascal"", ""Assembly""]",http,0.0,16,none,"{""id"":""chatcmpl-dhxmu74bgo746f6rdgpwl3"",""object"":""chat.completion"",""created"":1795592591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8704,,MarianeAzar,20261125_084135,2026-11-25T07:43:13.221122+00:00
+18fc68b0fc97d17e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these programming languages is a low-level language?
+A. C#
+B. Python
+C. Pascal
+D. Assembly
+Answer:","[""C#"", ""Python"", ""Pascal"", ""Assembly""]",http,0.0,16,none,"{""id"":""chatcmpl-5e3u7je3lls6870bvznhq3"",""object"":""chat.completion"",""created"":1795592592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T07:43:14.075494+00:00
+846893de42618c03,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The four strings on a violin are the G string, D string, A string, and...
+A. E string
+B. C string
+C. B string
+D. F string
+Answer:","[""E string"", ""C string"", ""B string"", ""F string""]",http,0.0,16,none,"{""id"":""chatcmpl-nt5tgqq7nekxchm2jkp9jf"",""object"":""chat.completion"",""created"":1795592593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8679,,MarianeAzar,20261125_084135,2026-11-25T07:43:14.943608+00:00
+846893de42618c03,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The four strings on a violin are the G string, D string, A string, and...
+A. E string
+B. C string
+C. B string
+D. F string
+Answer:","[""E string"", ""C string"", ""B string"", ""F string""]",http,0.0,16,none,"{""id"":""chatcmpl-9vnsvqraqefu261memmt8"",""object"":""chat.completion"",""created"":1795592594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T07:43:15.812059+00:00
+9e77e4f61268a06a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Santorini is an island belonging to what European Country?
+A. Spain
+B. Italy
+C. Greece
+D. Turkey
+Answer:","[""Spain"", ""Italy"", ""Greece"", ""Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-acl94igfxrl8pmln4q32ys"",""object"":""chat.completion"",""created"":1795592595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261125_084135,2026-11-25T07:43:16.674336+00:00
+9e77e4f61268a06a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Santorini is an island belonging to what European Country?
+A. Spain
+B. Italy
+C. Greece
+D. Turkey
+Answer:","[""Spain"", ""Italy"", ""Greece"", ""Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-69qnvjwsttsef038jzsf8"",""object"":""chat.completion"",""created"":1795592596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.847,,MarianeAzar,20261125_084135,2026-11-25T07:43:17.521637+00:00
+025a35d599840589,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: NCIS stands for ""Navy Corps Investigative Service""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a74684m3bcomqv5gyfp7e"",""object"":""chat.completion"",""created"":1795592596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8037,,MarianeAzar,20261125_084135,2026-11-25T07:43:18.325541+00:00
+025a35d599840589,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: NCIS stands for ""Navy Corps Investigative Service""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w53ekh4ot8meunp5ro9hz"",""object"":""chat.completion"",""created"":1795592597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8062,,MarianeAzar,20261125_084135,2026-11-25T07:43:19.131887+00:00
+9cda3eed2371d00a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Quran is the holy book of which Abrahamic religion?
+A. Christianity
+B. Islam
+C. Rastafarianism
+D. Judaism
+Answer:","[""Christianity"", ""Islam"", ""Rastafarianism"", ""Judaism""]",http,0.0,16,none,"{""id"":""chatcmpl-8xxvxhk2k6bznmin90cbj"",""object"":""chat.completion"",""created"":1795592598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T07:43:19.981109+00:00
+9cda3eed2371d00a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Quran is the holy book of which Abrahamic religion?
+A. Christianity
+B. Islam
+C. Rastafarianism
+D. Judaism
+Answer:","[""Christianity"", ""Islam"", ""Rastafarianism"", ""Judaism""]",http,0.0,16,none,"{""id"":""chatcmpl-wzgms15c2tsor423fgies"",""object"":""chat.completion"",""created"":1795592599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:43:20.837319+00:00
+4209ff079205c8ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?
+A. Chinese Taipei
+B. Republic of Taipei
+C. Republic of Taiwan
+D. Chinese Taiwan
+Answer:","[""Chinese Taipei"", ""Republic of Taipei"", ""Republic of Taiwan"", ""Chinese Taiwan""]",http,0.0,16,none,"{""id"":""chatcmpl-t00fktbxgq68agpsj28ai"",""object"":""chat.completion"",""created"":1795592600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:43:21.698497+00:00
+4209ff079205c8ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Due to the Nagoya Resolution, China agreed to allow Taiwan to compete separately in international sporting events under what name?
+A. Chinese Taipei
+B. Republic of Taipei
+C. Republic of Taiwan
+D. Chinese Taiwan
+Answer:","[""Chinese Taipei"", ""Republic of Taipei"", ""Republic of Taiwan"", ""Chinese Taiwan""]",http,0.0,16,none,"{""id"":""chatcmpl-y2ksxpl2kwggpp7urm6c4i"",""object"":""chat.completion"",""created"":1795592601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8755,,MarianeAzar,20261125_084135,2026-11-25T07:43:22.574666+00:00
+0690eb11cc650284,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who designed the Chupa Chups logo?
+A. Vincent van Gogh
+B. Andy Warhol
+C. Pablo Picasso
+D. Salvador Dali
+Answer:","[""Vincent van Gogh"", ""Andy Warhol"", ""Pablo Picasso"", ""Salvador Dali""]",http,0.0,16,none,"{""id"":""chatcmpl-6kvodxta75l23y4042yx"",""object"":""chat.completion"",""created"":1795592602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8494,,MarianeAzar,20261125_084135,2026-11-25T07:43:23.424353+00:00

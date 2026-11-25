@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+28dd72b363409d33,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When does ""Rogue One: A Star Wars Story"" take place chronologically in the series?
+A. After Episode 6
+B. Before Episode 1
+C. Between Episode 4 and 5
+D. Between Episode 3 and 4
+Answer:","[""After Episode 6"", ""Before Episode 1"", ""Between Episode 4 and 5"", ""Between Episode 3 and 4""]",http,0.0,16,none,"{""id"":""chatcmpl-0sjp31wpk1j0qxocoq8g75"",""object"":""chat.completion"",""created"":1795595653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9016,,MarianeAzar,20261125_084135,2026-11-25T08:34:15.079267+00:00
+e491c7251fc31a5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices the infamous Citadel Station A.I known as S.H.O.D.A.N, in the System Shock games?
+A. Terri Brosius
+B. Jenn Taylor
+C. Lori Alan
+D. Jennifer Hale
+Answer:","[""Terri Brosius"", ""Jenn Taylor"", ""Lori Alan"", ""Jennifer Hale""]",http,0.0,16,none,"{""id"":""chatcmpl-y85oo4zkpdo0xhd5l3wv"",""object"":""chat.completion"",""created"":1795595654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T08:34:15.966654+00:00
+e491c7251fc31a5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices the infamous Citadel Station A.I known as S.H.O.D.A.N, in the System Shock games?
+A. Terri Brosius
+B. Jenn Taylor
+C. Lori Alan
+D. Jennifer Hale
+Answer:","[""Terri Brosius"", ""Jenn Taylor"", ""Lori Alan"", ""Jennifer Hale""]",http,0.0,16,none,"{""id"":""chatcmpl-pu2dafapseqgpwtprfqnh"",""object"":""chat.completion"",""created"":1795595655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9064,,MarianeAzar,20261125_084135,2026-11-25T08:34:16.873245+00:00
+c30c69c14393b6a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Spitfire L.F. Mk IX had what engine?
+A. Merlin X
+B. Griffon 65
+C. Merlin 66
+D. Merlin 50
+Answer:","[""Merlin X"", ""Griffon 65"", ""Merlin 66"", ""Merlin 50""]",http,0.0,16,none,"{""id"":""chatcmpl-xanocigpbybdlamm1qb8ns"",""object"":""chat.completion"",""created"":1795595656,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8813,,MarianeAzar,20261125_084135,2026-11-25T08:34:17.754781+00:00
+c30c69c14393b6a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Spitfire L.F. Mk IX had what engine?
+A. Merlin X
+B. Griffon 65
+C. Merlin 66
+D. Merlin 50
+Answer:","[""Merlin X"", ""Griffon 65"", ""Merlin 66"", ""Merlin 50""]",http,0.0,16,none,"{""id"":""chatcmpl-hkwzc8sa87bm666lz1bhwg"",""object"":""chat.completion"",""created"":1795595657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:34:18.640660+00:00
+11d6b4e7705504c1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?
+A. The MGM Grand
+B. The Flamingo
+C. The Sands
+D. The Sahara
+Answer:","[""The MGM Grand"", ""The Flamingo"", ""The Sands"", ""The Sahara""]",http,0.0,16,none,"{""id"":""chatcmpl-yw9l50jox7o6ba9vxeoejw"",""object"":""chat.completion"",""created"":1795595658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261125_084135,2026-11-25T08:34:19.507429+00:00
+11d6b4e7705504c1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?
+A. The MGM Grand
+B. The Flamingo
+C. The Sands
+D. The Sahara
+Answer:","[""The MGM Grand"", ""The Flamingo"", ""The Sands"", ""The Sahara""]",http,0.0,16,none,"{""id"":""chatcmpl-w8blbbrl4opjfoglebrc3"",""object"":""chat.completion"",""created"":1795595658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261125_084135,2026-11-25T08:34:20.373785+00:00
+0427c0cb3f799c26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is centralism?
+A. Concentration of power and authority in a central organization.
+B. The grey area in the spectrum of political left and right.
+C. Conforming to one single common political agenda.
+D. Remaining politically neutral.
+Answer:","[""Concentration of power and authority in a central organization."", ""The grey area in the spectrum of political left and right."", ""Conforming to one single common political agenda."", ""Remaining politically neutral.""]",http,0.0,16,none,"{""id"":""chatcmpl-bfn2cstjiw72vuv697gj0h"",""object"":""chat.completion"",""created"":1795595659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8694,,MarianeAzar,20261125_084135,2026-11-25T08:34:21.243587+00:00
+0427c0cb3f799c26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is centralism?
+A. Concentration of power and authority in a central organization.
+B. The grey area in the spectrum of political left and right.
+C. Conforming to one single common political agenda.
+D. Remaining politically neutral.
+Answer:","[""Concentration of power and authority in a central organization."", ""The grey area in the spectrum of political left and right."", ""Conforming to one single common political agenda."", ""Remaining politically neutral.""]",http,0.0,16,none,"{""id"":""chatcmpl-octk98d2r8bvfdkgeqaz"",""object"":""chat.completion"",""created"":1795595660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.908,,MarianeAzar,20261125_084135,2026-11-25T08:34:22.151866+00:00
+f9e85b4688be9453,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who composed the theme song for The Simpsons?
+A. Hans Zimmer
+B. Danny Elfman
+C. John Williams
+D. Ennio Morricone
+Answer:","[""Hans Zimmer"", ""Danny Elfman"", ""John Williams"", ""Ennio Morricone""]",http,0.0,16,none,"{""id"":""chatcmpl-86k8it6uzpnnsc4oretdg"",""object"":""chat.completion"",""created"":1795595661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9325,,MarianeAzar,20261125_084135,2026-11-25T08:34:23.084826+00:00
+f9e85b4688be9453,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who composed the theme song for The Simpsons?
+A. Hans Zimmer
+B. Danny Elfman
+C. John Williams
+D. Ennio Morricone
+Answer:","[""Hans Zimmer"", ""Danny Elfman"", ""John Williams"", ""Ennio Morricone""]",http,0.0,16,none,"{""id"":""chatcmpl-xyzwytt6ze915h0310knlt"",""object"":""chat.completion"",""created"":1795595662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8753,,MarianeAzar,20261125_084135,2026-11-25T08:34:23.960468+00:00
+cca3757195de75a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?
+A. The Hoot Owl
+B. The Oracle
+C. The Champ
+D. The Kingfish
+Answer:","[""The Hoot Owl"", ""The Oracle"", ""The Champ"", ""The Kingfish""]",http,0.0,16,none,"{""id"":""chatcmpl-wyyrmxmklgpn1ipaoq2m"",""object"":""chat.completion"",""created"":1795595663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9617,,MarianeAzar,20261125_084135,2026-11-25T08:34:24.922679+00:00
+cca3757195de75a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the personal nickname of the 40th Governor of the US State Louisiana, Huey Long?
+A. The Hoot Owl
+B. The Oracle
+C. The Champ
+D. The Kingfish
+Answer:","[""The Hoot Owl"", ""The Oracle"", ""The Champ"", ""The Kingfish""]",http,0.0,16,none,"{""id"":""chatcmpl-cyp4zi3jq5gy8ej24bv1a"",""object"":""chat.completion"",""created"":1795595664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8894,,MarianeAzar,20261125_084135,2026-11-25T08:34:25.812323+00:00
+99deead627718179,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first company to use the term ""Golden Master""?
+A. Apple
+B. Microsoft
+C. IBM
+D. Google
+Answer:","[""Apple"", ""Microsoft"", ""IBM"", ""Google""]",http,0.0,16,none,"{""id"":""chatcmpl-uynymmm7o8fnk2xdde786"",""object"":""chat.completion"",""created"":1795595665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261125_084135,2026-11-25T08:34:26.664883+00:00
+99deead627718179,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first company to use the term ""Golden Master""?
+A. Apple
+B. Microsoft
+C. IBM
+D. Google
+Answer:","[""Apple"", ""Microsoft"", ""IBM"", ""Google""]",http,0.0,16,none,"{""id"":""chatcmpl-j9cww4cuzgyy07137zfj"",""object"":""chat.completion"",""created"":1795595666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:34:27.526030+00:00
+287c8d4e00638fd8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Tiananmen Square protests of 1989 were held in Hong Kong.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i4crr46fizkaf5ft3z02yp"",""object"":""chat.completion"",""created"":1795595666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8289,,MarianeAzar,20261125_084135,2026-11-25T08:34:28.355606+00:00
+287c8d4e00638fd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Tiananmen Square protests of 1989 were held in Hong Kong.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c1qmc0mwuqwjh6tv5nzln"",""object"":""chat.completion"",""created"":1795595667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T08:34:29.220721+00:00
+67c4a7869eb1495a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Min Yoongi from South Korea boy band ""BTS"" born in?
+A. 1995
+B. 1992
+C. 1993
+D. 1994
+Answer:","[""1995"", ""1992"", ""1993"", ""1994""]",http,0.0,16,none,"{""id"":""chatcmpl-6dn1264rwndy5dagxi00n"",""object"":""chat.completion"",""created"":1795595668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:34:30.086695+00:00
+67c4a7869eb1495a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Min Yoongi from South Korea boy band ""BTS"" born in?
+A. 1995
+B. 1992
+C. 1993
+D. 1994
+Answer:","[""1995"", ""1992"", ""1993"", ""1994""]",http,0.0,16,none,"{""id"":""chatcmpl-fe4wqirwdf4n3fzwo4mhc"",""object"":""chat.completion"",""created"":1795595669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9214,,MarianeAzar,20261125_084135,2026-11-25T08:34:31.008410+00:00
+b784dc5643e58bb3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout: New Vegas, upon starting each one of the four campaign DLCs, which one of them does not have a warning screen/recommended level?
+A. Dead Money
+B. Old World Blues
+C. Honest Hearts
+D. Lonesome Road
+Answer:","[""Dead Money"", ""Old World Blues"", ""Honest Hearts"", ""Lonesome Road""]",http,0.0,16,none,"{""id"":""chatcmpl-imqfl5i0odakjamjveo59"",""object"":""chat.completion"",""created"":1795595670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8847,,MarianeAzar,20261125_084135,2026-11-25T08:34:31.893518+00:00
+b784dc5643e58bb3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout: New Vegas, upon starting each one of the four campaign DLCs, which one of them does not have a warning screen/recommended level?
+A. Dead Money
+B. Old World Blues
+C. Honest Hearts
+D. Lonesome Road
+Answer:","[""Dead Money"", ""Old World Blues"", ""Honest Hearts"", ""Lonesome Road""]",http,0.0,16,none,"{""id"":""chatcmpl-zl4rpgan3ja1o1g5cv079"",""object"":""chat.completion"",""created"":1795595671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9223,,MarianeAzar,20261125_084135,2026-11-25T08:34:32.816370+00:00
+981ab386e6a102ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song plays in the ending credits of the anime ""Ergo Proxy""?
+A. Bittersweet Symphony
+B. Sadistic Summer
+C. Paranoid Android
+D. Mad World
+Answer:","[""Bittersweet Symphony"", ""Sadistic Summer"", ""Paranoid Android"", ""Mad World""]",http,0.0,16,none,"{""id"":""chatcmpl-2duif33um9gksw5mr07dw"",""object"":""chat.completion"",""created"":1795595672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261125_084135,2026-11-25T08:34:33.703542+00:00
+981ab386e6a102ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song plays in the ending credits of the anime ""Ergo Proxy""?
+A. Bittersweet Symphony
+B. Sadistic Summer
+C. Paranoid Android
+D. Mad World
+Answer:","[""Bittersweet Symphony"", ""Sadistic Summer"", ""Paranoid Android"", ""Mad World""]",http,0.0,16,none,"{""id"":""chatcmpl-ayakpmv0pttu8vgq4z9c"",""object"":""chat.completion"",""created"":1795595673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8878,,MarianeAzar,20261125_084135,2026-11-25T08:34:34.591787+00:00
+a81a12f3f8a82c8b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical group won the Brit Awards in 1985, with George Michael as a member?
+A. Frankie Goes to Hollywood
+B. U2
+C. Wham!
+D. Culture Club
+Answer:","[""Frankie Goes to Hollywood"", ""U2"", ""Wham!"", ""Culture Club""]",http,0.0,16,none,"{""id"":""chatcmpl-38n1t370l3d6y8wzek1goe"",""object"":""chat.completion"",""created"":1795595674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:34:35.453214+00:00
+a81a12f3f8a82c8b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical group won the Brit Awards in 1985, with George Michael as a member?
+A. Frankie Goes to Hollywood
+B. U2
+C. Wham!
+D. Culture Club
+Answer:","[""Frankie Goes to Hollywood"", ""U2"", ""Wham!"", ""Culture Club""]",http,0.0,16,none,"{""id"":""chatcmpl-b8obt3uxmuv9lijw8k4a6"",""object"":""chat.completion"",""created"":1795595674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T08:34:36.340737+00:00

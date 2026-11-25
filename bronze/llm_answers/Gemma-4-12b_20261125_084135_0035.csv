@@ -1,0 +1,177 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0dc6503d9c2dadb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brezhnev was the 5th leader of the USSR.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sveqfbrmietwssk9s8597"",""object"":""chat.completion"",""created"":1795593251,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8199,,MarianeAzar,20261125_084135,2026-11-25T07:54:13.215171+00:00
+1a8ebda9a32b7724,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the abbreviation ""CH""?
+A. Switzerland
+B. Canada
+C. China
+D. No Country
+Answer:","[""Switzerland"", ""Canada"", ""China"", ""No Country""]",http,0.0,16,none,"{""id"":""chatcmpl-xwdumymxxj3ifgem5ys3"",""object"":""chat.completion"",""created"":1795593252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261125_084135,2026-11-25T07:54:14.062621+00:00
+1a8ebda9a32b7724,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the abbreviation ""CH""?
+A. Switzerland
+B. Canada
+C. China
+D. No Country
+Answer:","[""Switzerland"", ""Canada"", ""China"", ""No Country""]",http,0.0,16,none,"{""id"":""chatcmpl-clx0fvmue6fuzckuzblmxb"",""object"":""chat.completion"",""created"":1795593253,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T07:54:14.913461+00:00
+5b35026abe63dd24,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the very first video uploaded to YouTube?
+A. tribute
+B. Me at the zoo
+C. carrie rides a truck
+D. Her new puppy from great grandpa vern.
+Answer:","[""tribute"", ""Me at the zoo"", ""carrie rides a truck"", ""Her new puppy from great grandpa vern.""]",http,0.0,16,none,"{""id"":""chatcmpl-klj0bwwgqhhktreimxrvqg"",""object"":""chat.completion"",""created"":1795593254,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:54:15.764605+00:00
+5b35026abe63dd24,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the very first video uploaded to YouTube?
+A. tribute
+B. Me at the zoo
+C. carrie rides a truck
+D. Her new puppy from great grandpa vern.
+Answer:","[""tribute"", ""Me at the zoo"", ""carrie rides a truck"", ""Her new puppy from great grandpa vern.""]",http,0.0,16,none,"{""id"":""chatcmpl-imx077rgwmj4y9pf72hauw"",""object"":""chat.completion"",""created"":1795593255,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9002,,MarianeAzar,20261125_084135,2026-11-25T07:54:16.665103+00:00
+ab2c10bbbe8f8fd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is the Hussarya supercar, made by the car manufacturer ""Arrinera"", assembled in?
+A. Poland
+B. China
+C. Sweden
+D. Italy
+Answer:","[""Poland"", ""China"", ""Sweden"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-noyg04jjjx9auzzafwng76"",""object"":""chat.completion"",""created"":1795593256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T07:54:17.532628+00:00
+ab2c10bbbe8f8fd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is the Hussarya supercar, made by the car manufacturer ""Arrinera"", assembled in?
+A. Poland
+B. China
+C. Sweden
+D. Italy
+Answer:","[""Poland"", ""China"", ""Sweden"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-9q136a230rxsgaimclsv"",""object"":""chat.completion"",""created"":1795593256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T07:54:18.393696+00:00
+8112e7856465151b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the national animal of India?
+A. Camel
+B. Lion
+C. Horse
+D. Tiger
+Answer:","[""Camel"", ""Lion"", ""Horse"", ""Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-fklbt03xzv4ckonghpu45"",""object"":""chat.completion"",""created"":1795593257,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:54:19.247632+00:00
+8112e7856465151b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the national animal of India?
+A. Camel
+B. Lion
+C. Horse
+D. Tiger
+Answer:","[""Camel"", ""Lion"", ""Horse"", ""Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-jpfb4ti6flrcpsnhgomugp"",""object"":""chat.completion"",""created"":1795593258,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:54:20.103758+00:00
+38c19f7c2042013f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Phil Fish was the designer of which game?
+A. Super Meat Boy
+B. Hotline Miami
+C. Fez
+D. FTL
+Answer:","[""Super Meat Boy"", ""Hotline Miami"", ""Fez"", ""FTL""]",http,0.0,16,none,"{""id"":""chatcmpl-znk58zmwmpaty19hft8y6"",""object"":""chat.completion"",""created"":1795593259,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261125_084135,2026-11-25T07:54:20.953499+00:00
+38c19f7c2042013f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Phil Fish was the designer of which game?
+A. Super Meat Boy
+B. Hotline Miami
+C. Fez
+D. FTL
+Answer:","[""Super Meat Boy"", ""Hotline Miami"", ""Fez"", ""FTL""]",http,0.0,16,none,"{""id"":""chatcmpl-ebn9bls9wciszkll19ik2"",""object"":""chat.completion"",""created"":1795593260,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8669,,MarianeAzar,20261125_084135,2026-11-25T07:54:21.820610+00:00
+fda149d1e0336a76,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you were to code software in this language you'd only be able to type 0's and 1's.
+A. JavaScript
+B. C++
+C. Python
+D. Binary
+Answer:","[""JavaScript"", ""C++"", ""Python"", ""Binary""]",http,0.0,16,none,"{""id"":""chatcmpl-w1hoqwl1jkbvbsqcqnh4i"",""object"":""chat.completion"",""created"":1795593261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8899,,MarianeAzar,20261125_084135,2026-11-25T07:54:22.711047+00:00
+fda149d1e0336a76,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you were to code software in this language you'd only be able to type 0's and 1's.
+A. JavaScript
+B. C++
+C. Python
+D. Binary
+Answer:","[""JavaScript"", ""C++"", ""Python"", ""Binary""]",http,0.0,16,none,"{""id"":""chatcmpl-msuphbd0r3hl4g58swtrzf"",""object"":""chat.completion"",""created"":1795593262,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T07:54:23.581847+00:00
+1978e10d59964e4d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: As of February 2019, the ""Donkey Kong Country"" series only had released five games (not counting remakes or ports).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fs9caledyx4wfz0247imr"",""object"":""chat.completion"",""created"":1795593263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261125_084135,2026-11-25T07:54:24.446442+00:00
+1978e10d59964e4d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: As of February 2019, the ""Donkey Kong Country"" series only had released five games (not counting remakes or ports).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-trpasj1396co34otz2dlsi"",""object"":""chat.completion"",""created"":1795593263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261125_084135,2026-11-25T07:54:25.290464+00:00
+7a4de1b7524a57e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: J.K. Rowling completed ""Harry Potter and the Deathly Hallows"" in which hotel in Edinburgh, Scotland?
+A. Hotel Novotel
+B. Sheraton Grand Hotel & Spa
+C. The Balmoral
+D. The Dunstane Hotel
+Answer:","[""Hotel Novotel"", ""Sheraton Grand Hotel & Spa"", ""The Balmoral"", ""The Dunstane Hotel""]",http,0.0,16,none,"{""id"":""chatcmpl-y6ovufwozvlrm6x5srcse8"",""object"":""chat.completion"",""created"":1795593264,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T07:54:26.148895+00:00
+7a4de1b7524a57e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: J.K. Rowling completed ""Harry Potter and the Deathly Hallows"" in which hotel in Edinburgh, Scotland?
+A. Hotel Novotel
+B. Sheraton Grand Hotel & Spa
+C. The Balmoral
+D. The Dunstane Hotel
+Answer:","[""Hotel Novotel"", ""Sheraton Grand Hotel & Spa"", ""The Balmoral"", ""The Dunstane Hotel""]",http,0.0,16,none,"{""id"":""chatcmpl-28mwwv3f40mny5uq278n5"",""object"":""chat.completion"",""created"":1795593265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9144,,MarianeAzar,20261125_084135,2026-11-25T07:54:27.063565+00:00
+984f3cf15308b530,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the oldest member of The Beatles?
+A. John Lennon
+B. Paul McCartney
+C. Ringo Starr
+D. George Harrison
+Answer:","[""John Lennon"", ""Paul McCartney"", ""Ringo Starr"", ""George Harrison""]",http,0.0,16,none,"{""id"":""chatcmpl-9mbhlms0skdrqjcfn15kh"",""object"":""chat.completion"",""created"":1795593266,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261125_084135,2026-11-25T07:54:27.917826+00:00
+984f3cf15308b530,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the oldest member of The Beatles?
+A. John Lennon
+B. Paul McCartney
+C. Ringo Starr
+D. George Harrison
+Answer:","[""John Lennon"", ""Paul McCartney"", ""Ringo Starr"", ""George Harrison""]",http,0.0,16,none,"{""id"":""chatcmpl-mbm8tfcc8e8ox1lp2w8apo"",""object"":""chat.completion"",""created"":1795593267,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:54:28.773999+00:00
+c50532f7716c781e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League
+A. 49
+B. 22
+C. 38
+D. 51
+Answer:","[""49"", ""22"", ""38"", ""51""]",http,0.0,16,none,"{""id"":""chatcmpl-p7vk6wewps9phuozsngqej"",""object"":""chat.completion"",""created"":1795593268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8675,,MarianeAzar,20261125_084135,2026-11-25T07:54:29.641782+00:00
+c50532f7716c781e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League
+A. 49
+B. 22
+C. 38
+D. 51
+Answer:","[""49"", ""22"", ""38"", ""51""]",http,0.0,16,none,"{""id"":""chatcmpl-0f6tlukj4gm6c93kc40y5t"",""object"":""chat.completion"",""created"":1795593269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261125_084135,2026-11-25T07:54:30.532369+00:00
+70757cfc178ebe7f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first level in ""Call of Duty: World at War""?
+A. Eviction
+B. Vendetta
+C. Ring of Steel
+D. Semper Fi
+Answer:","[""Eviction"", ""Vendetta"", ""Ring of Steel"", ""Semper Fi""]",http,0.0,16,none,"{""id"":""chatcmpl-lvacjit3kbkdxon7go5r"",""object"":""chat.completion"",""created"":1795593269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.863,,MarianeAzar,20261125_084135,2026-11-25T07:54:31.395899+00:00
+70757cfc178ebe7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first level in ""Call of Duty: World at War""?
+A. Eviction
+B. Vendetta
+C. Ring of Steel
+D. Semper Fi
+Answer:","[""Eviction"", ""Vendetta"", ""Ring of Steel"", ""Semper Fi""]",http,0.0,16,none,"{""id"":""chatcmpl-y40277gkromngk1v75y2lf"",""object"":""chat.completion"",""created"":1795593270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8764,,MarianeAzar,20261125_084135,2026-11-25T07:54:32.272547+00:00
+b9dba940b367de63,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How does a centrifuge separate heavy and light particles?
+A. Vibrating
+B. Sifting
+C. Spinning
+D. Ionizing
+Answer:","[""Vibrating"", ""Sifting"", ""Spinning"", ""Ionizing""]",http,0.0,16,none,"{""id"":""chatcmpl-jte7yiwuqc39yk2n4h9w5"",""object"":""chat.completion"",""created"":1795593271,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:54:33.123623+00:00
+b9dba940b367de63,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How does a centrifuge separate heavy and light particles?
+A. Vibrating
+B. Sifting
+C. Spinning
+D. Ionizing
+Answer:","[""Vibrating"", ""Sifting"", ""Spinning"", ""Ionizing""]",http,0.0,16,none,"{""id"":""chatcmpl-naswclz01fmak20c0dxjiv"",""object"":""chat.completion"",""created"":1795593272,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T07:54:33.973820+00:00

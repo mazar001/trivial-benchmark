@@ -1,0 +1,144 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cb9aee015d19ea28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the pirate that sings the intro to ""Spongebob Squarepants""?
+A. Painty
+B. Larry
+C. Patchy
+D. Lloyd
+Answer:","[""Painty"", ""Larry"", ""Patchy"", ""Lloyd""]",http,0.0,16,none,"{""id"":""chatcmpl-yfr9swq7kyqxshe7ju8cxl"",""object"":""chat.completion"",""created"":1795553962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3516,,MarianeAzar,20261124_215144,2026-11-24T20:59:24.196853+00:00
+cb9aee015d19ea28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the pirate that sings the intro to ""Spongebob Squarepants""?
+A. Painty
+B. Larry
+C. Patchy
+D. Lloyd
+Answer:","[""Painty"", ""Larry"", ""Patchy"", ""Lloyd""]",http,0.0,16,none,"{""id"":""chatcmpl-1gi0cp9ii4olpevotcirn"",""object"":""chat.completion"",""created"":1795553964,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9651,,MarianeAzar,20261124_215144,2026-11-24T20:59:25.162179+00:00
+5366ee0cc14719c8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Spitfire originated from a racing plane.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xx613a552mf842sqmom8"",""object"":""chat.completion"",""created"":1795553965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8899,,MarianeAzar,20261124_215144,2026-11-24T20:59:26.052301+00:00
+5366ee0cc14719c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Spitfire originated from a racing plane.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b2w6jbs6kbm02eogg3jun"",""object"":""chat.completion"",""created"":1795553965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3157,,MarianeAzar,20261124_215144,2026-11-24T20:59:27.368198+00:00
+356c039f3bcf04db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to ""Star Wars"" lore, which planet does Obi-Wan Kenobi come from?
+A. Alderaan
+B. Naboo
+C. Stewjon
+D. Tatooine
+Answer:","[""Alderaan"", ""Naboo"", ""Stewjon"", ""Tatooine""]",http,0.0,16,none,"{""id"":""chatcmpl-4nf949dp6akzlloek71vcn"",""object"":""chat.completion"",""created"":1795553967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0112,,MarianeAzar,20261124_215144,2026-11-24T20:59:28.379662+00:00
+356c039f3bcf04db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to ""Star Wars"" lore, which planet does Obi-Wan Kenobi come from?
+A. Alderaan
+B. Naboo
+C. Stewjon
+D. Tatooine
+Answer:","[""Alderaan"", ""Naboo"", ""Stewjon"", ""Tatooine""]",http,0.0,16,none,"{""id"":""chatcmpl-7hacluzbid9zb716k6k0z"",""object"":""chat.completion"",""created"":1795553968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9458,,MarianeAzar,20261124_215144,2026-11-24T20:59:29.325744+00:00
+703918d1681d36d6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The programming language ""Python"" is based off a modified version of ""JavaScript"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9jlhklnsfgt0kvduzne6rv"",""object"":""chat.completion"",""created"":1795553969,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3403,,MarianeAzar,20261124_215144,2026-11-24T20:59:30.666269+00:00
+703918d1681d36d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The programming language ""Python"" is based off a modified version of ""JavaScript"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gkep852g6ccvshs1ysloyf"",""object"":""chat.completion"",""created"":1795553970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1558,,MarianeAzar,20261124_215144,2026-11-24T20:59:31.822174+00:00
+76e3925fd86f1299,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?
+A. Lesotho & Swaziland
+B. Zambia & Zimbabwe
+C. Rwanda & Burundi
+D. Togo & Benin
+Answer:","[""Lesotho & Swaziland"", ""Zambia & Zimbabwe"", ""Rwanda & Burundi"", ""Togo & Benin""]",http,0.0,16,none,"{""id"":""chatcmpl-9foaese0gb9h7gi63y4gb9"",""object"":""chat.completion"",""created"":1795553971,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9609,,MarianeAzar,20261124_215144,2026-11-24T20:59:32.783315+00:00
+76e3925fd86f1299,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which two modern-day countries used to be known as the region of Rhodesia between the 1890s and 1980?
+A. Lesotho & Swaziland
+B. Zambia & Zimbabwe
+C. Rwanda & Burundi
+D. Togo & Benin
+Answer:","[""Lesotho & Swaziland"", ""Zambia & Zimbabwe"", ""Rwanda & Burundi"", ""Togo & Benin""]",http,0.0,16,none,"{""id"":""chatcmpl-0wj7sz6ip9yoktgivxhwi1k"",""object"":""chat.completion"",""created"":1795553972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2888,,MarianeAzar,20261124_215144,2026-11-24T20:59:34.072436+00:00
+b662747e77c744b9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A universal set, or a set that contains all sets, exists.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-96wvlcvwxx6glugyu8nq2"",""object"":""chat.completion"",""created"":1795553973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0674,,MarianeAzar,20261124_215144,2026-11-24T20:59:35.140327+00:00
+b662747e77c744b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A universal set, or a set that contains all sets, exists.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2c6b4z83d3rdzlym4lkdd"",""object"":""chat.completion"",""created"":1795553975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9218,,MarianeAzar,20261124_215144,2026-11-24T20:59:36.062310+00:00
+950bd2828d230a46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Legend of Zelda: Ocarina of Time,"" what is the maximum amount of rupees that Link can carry?
+A. 999
+B. 5000
+C. 500
+D. 1000
+Answer:","[""999"", ""5000"", ""500"", ""1000""]",http,0.0,16,none,"{""id"":""chatcmpl-jspjs89mgg8agpdxmezivf"",""object"":""chat.completion"",""created"":1795553975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4654,,MarianeAzar,20261124_215144,2026-11-24T20:59:37.528022+00:00
+950bd2828d230a46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Legend of Zelda: Ocarina of Time,"" what is the maximum amount of rupees that Link can carry?
+A. 999
+B. 5000
+C. 500
+D. 1000
+Answer:","[""999"", ""5000"", ""500"", ""1000""]",http,0.0,16,none,"{""id"":""chatcmpl-swz9frikuiphhepmcwsiew"",""object"":""chat.completion"",""created"":1795553977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0048,,MarianeAzar,20261124_215144,2026-11-24T20:59:38.533270+00:00
+8f69956db32ca863,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Waylon Smithers from ""The Simpsons"" was originally black when he first appeared in the series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h2m0r2oa6evwgovabg2u3"",""object"":""chat.completion"",""created"":1795553978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9659,,MarianeAzar,20261124_215144,2026-11-24T20:59:39.499429+00:00
+8f69956db32ca863,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Waylon Smithers from ""The Simpsons"" was originally black when he first appeared in the series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y2m42drbtz5syp32g1gbt"",""object"":""chat.completion"",""created"":1795553979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4332,,MarianeAzar,20261124_215144,2026-11-24T20:59:40.932802+00:00
+ef6f23f977b2c99b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why were only only 300,000 copies of Uniracers were produced?
+A. DMA Designs was sued by Pixar, preventing more copies from being produced
+B. There was a disagreement between DMA Designs and Nintendo
+C. No public information is available
+D. It didn't sell well due to poor review scores
+Answer:","[""DMA Designs was sued by Pixar, preventing more copies from being produced"", ""There was a disagreement between DMA Designs and Nintendo"", ""No public information is available"", ""It didn't sell well due to poor review scores""]",http,0.0,16,none,"{""id"":""chatcmpl-38tewwx0c6ek92h1bgq70n"",""object"":""chat.completion"",""created"":1795553980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0018,,MarianeAzar,20261124_215144,2026-11-24T20:59:41.934895+00:00
+ef6f23f977b2c99b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why were only only 300,000 copies of Uniracers were produced?
+A. DMA Designs was sued by Pixar, preventing more copies from being produced
+B. There was a disagreement between DMA Designs and Nintendo
+C. No public information is available
+D. It didn't sell well due to poor review scores
+Answer:","[""DMA Designs was sued by Pixar, preventing more copies from being produced"", ""There was a disagreement between DMA Designs and Nintendo"", ""No public information is available"", ""It didn't sell well due to poor review scores""]",http,0.0,16,none,"{""id"":""chatcmpl-85lybrriniiup2b1ukn68"",""object"":""chat.completion"",""created"":1795553981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":132,""completion_tokens"":2,""total_tokens"":134,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3519,,MarianeAzar,20261124_215144,2026-11-24T20:59:43.287464+00:00
+6868988b1282b5bd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tony Hawk's extreme sports videogames revolve around performing professional BMX tricks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i4k943veruc1p9o4pt5b1a"",""object"":""chat.completion"",""created"":1795553983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3326,,MarianeAzar,20261124_215144,2026-11-24T20:59:44.620276+00:00
+6868988b1282b5bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tony Hawk's extreme sports videogames revolve around performing professional BMX tricks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t3jkvjmnnvfp7i5tatqna"",""object"":""chat.completion"",""created"":1795553984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.892,,MarianeAzar,20261124_215144,2026-11-24T20:59:45.512471+00:00
+2edf1ffe5f79ca3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rick And Morty"", who shot ""Mr. Poopybutthole"" in the episode ""Total Rickall""?
+A. Rick
+B. Beth
+C. Morty
+D. Jerry
+Answer:","[""Rick"", ""Beth"", ""Morty"", ""Jerry""]",http,0.0,16,none,"{""id"":""chatcmpl-yrdlokthmf9cwe9ex9k1j"",""object"":""chat.completion"",""created"":1795553985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8896,,MarianeAzar,20261124_215144,2026-11-24T20:59:46.402745+00:00
+2edf1ffe5f79ca3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rick And Morty"", who shot ""Mr. Poopybutthole"" in the episode ""Total Rickall""?
+A. Rick
+B. Beth
+C. Morty
+D. Jerry
+Answer:","[""Rick"", ""Beth"", ""Morty"", ""Jerry""]",http,0.0,16,none,"{""id"":""chatcmpl-n4ada4t86drrouioaeqe9"",""object"":""chat.completion"",""created"":1795553986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4654,,MarianeAzar,20261124_215144,2026-11-24T20:59:47.868430+00:00
+51205164e0899858,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many rivers are in Saudi Arabia?
+A. 0
+B. 3
+C. 1
+D. 2
+Answer:","[""0"", ""3"", ""1"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-8n4kgdyhx4q323b3yrvsee"",""object"":""chat.completion"",""created"":1795553987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9476,,MarianeAzar,20261124_215144,2026-11-24T20:59:48.816358+00:00
+51205164e0899858,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many rivers are in Saudi Arabia?
+A. 0
+B. 3
+C. 1
+D. 2
+Answer:","[""0"", ""3"", ""1"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-87totvm8fstw8jx67do0dn"",""object"":""chat.completion"",""created"":1795553988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9449,,MarianeAzar,20261124_215144,2026-11-24T20:59:49.761749+00:00
+5de5d8e10fc68714,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Deus Ex (2000) does not feature the World Trade Center because it was destroyed by terrorist attacks according to the game's plot.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u4icymaj3ziufl4yoakg"",""object"":""chat.completion"",""created"":1795553989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4113,,MarianeAzar,20261124_215144,2026-11-24T20:59:51.173391+00:00

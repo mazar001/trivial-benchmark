@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7bdf52bd868266d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries is an island?
+A. Djibouti
+B. Azerbaijan
+C. El Salvador
+D. Cyprus
+Answer:","[""Djibouti"", ""Azerbaijan"", ""El Salvador"", ""Cyprus""]",http,0.0,16,none,"{""id"":""chatcmpl-3b0eoixqvig3zkzkca6qcg"",""object"":""chat.completion"",""created"":1795595610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:33:31.635471+00:00
+878f54e26a2ffc7f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Night on Bald Mountain was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wxgpsx95hc81es20tksujb"",""object"":""chat.completion"",""created"":1795595611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8177,,MarianeAzar,20261125_084135,2026-11-25T08:33:32.453554+00:00
+878f54e26a2ffc7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Night on Bald Mountain was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u0cim71e6ebeg4vi3zbq9"",""object"":""chat.completion"",""created"":1795595611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:33:33.304723+00:00
+1e426b8af7a7f0d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the default name of the Vampire character in ""Shining Soul 2"".
+A. Dracuul
+B. Sachs
+C. Bloodstar
+D. Alucard
+Answer:","[""Dracuul"", ""Sachs"", ""Bloodstar"", ""Alucard""]",http,0.0,16,none,"{""id"":""chatcmpl-jitc4w7vakzxp8o1rx9a"",""object"":""chat.completion"",""created"":1795595612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8475,,MarianeAzar,20261125_084135,2026-11-25T08:33:34.152489+00:00
+1e426b8af7a7f0d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the default name of the Vampire character in ""Shining Soul 2"".
+A. Dracuul
+B. Sachs
+C. Bloodstar
+D. Alucard
+Answer:","[""Dracuul"", ""Sachs"", ""Bloodstar"", ""Alucard""]",http,0.0,16,none,"{""id"":""chatcmpl-77ms6105sadptltbsv2ow"",""object"":""chat.completion"",""created"":1795595613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8635,,MarianeAzar,20261125_084135,2026-11-25T08:33:35.016241+00:00
+e8cdf3566cba64f4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main CPU is the Sega Mega Drive / Sega Genesis?
+A. Motorola 68000
+B. Zilog Z80
+C. Intel 8088
+D. Yamaha YM2612
+Answer:","[""Motorola 68000"", ""Zilog Z80"", ""Intel 8088"", ""Yamaha YM2612""]",http,0.0,16,none,"{""id"":""chatcmpl-ek8rvnyr3k14jg0zqlhj8h"",""object"":""chat.completion"",""created"":1795595614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:33:35.873590+00:00
+e8cdf3566cba64f4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main CPU is the Sega Mega Drive / Sega Genesis?
+A. Motorola 68000
+B. Zilog Z80
+C. Intel 8088
+D. Yamaha YM2612
+Answer:","[""Motorola 68000"", ""Zilog Z80"", ""Intel 8088"", ""Yamaha YM2612""]",http,0.0,16,none,"{""id"":""chatcmpl-3bj60mztjrwwq8ggag7f0m"",""object"":""chat.completion"",""created"":1795595615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T08:33:36.764143+00:00
+53c195098132d2ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?
+A. Phoenix Connexion
+B. Elite Crew
+C. BOPE
+D. GSG-9
+Answer:","[""Phoenix Connexion"", ""Elite Crew"", ""BOPE"", ""GSG-9""]",http,0.0,16,none,"{""id"":""chatcmpl-vztuomaui0tsts0b056el"",""object"":""chat.completion"",""created"":1795595616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8543,,MarianeAzar,20261125_084135,2026-11-25T08:33:37.618658+00:00
+53c195098132d2ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a faction included in the game Counter-Strike: Global Offensive?
+A. Phoenix Connexion
+B. Elite Crew
+C. BOPE
+D. GSG-9
+Answer:","[""Phoenix Connexion"", ""Elite Crew"", ""BOPE"", ""GSG-9""]",http,0.0,16,none,"{""id"":""chatcmpl-ka4xesz85sld1qd7yrdzf5"",""object"":""chat.completion"",""created"":1795595617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8864,,MarianeAzar,20261125_084135,2026-11-25T08:33:38.505697+00:00
+3075aea0176c7e57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for the ""Polar Bear""?
+A. Ursus Arctos
+B. Ursus Maritimus
+C. Ursus Spelaeus
+D. Polar Bear
+Answer:","[""Ursus Arctos"", ""Ursus Maritimus"", ""Ursus Spelaeus"", ""Polar Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-ol31fgxcq2ddap9edf1ab"",""object"":""chat.completion"",""created"":1795595617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:33:39.367391+00:00
+3075aea0176c7e57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for the ""Polar Bear""?
+A. Ursus Arctos
+B. Ursus Maritimus
+C. Ursus Spelaeus
+D. Polar Bear
+Answer:","[""Ursus Arctos"", ""Ursus Maritimus"", ""Ursus Spelaeus"", ""Polar Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-qn7tkpaicvsq10wqxas0sf"",""object"":""chat.completion"",""created"":1795595618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261125_084135,2026-11-25T08:33:40.234452+00:00
+f2f94eefe3ee2bc3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Nike apparel and footwear brand takes it's name from the Greek goddess of what?
+A. Strength
+B. Courage
+C. Honor
+D. Victory
+Answer:","[""Strength"", ""Courage"", ""Honor"", ""Victory""]",http,0.0,16,none,"{""id"":""chatcmpl-ff8w3pdzkc5b18ffdpq9"",""object"":""chat.completion"",""created"":1795595619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:33:41.091856+00:00
+f2f94eefe3ee2bc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Nike apparel and footwear brand takes it's name from the Greek goddess of what?
+A. Strength
+B. Courage
+C. Honor
+D. Victory
+Answer:","[""Strength"", ""Courage"", ""Honor"", ""Victory""]",http,0.0,16,none,"{""id"":""chatcmpl-hbri7otgerjmc08fj77b"",""object"":""chat.completion"",""created"":1795595620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8693,,MarianeAzar,20261125_084135,2026-11-25T08:33:41.961379+00:00
+c8270764e2435748,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2010 song ""Eenie Meenie"" was a collaboration between which two popular artists?
+A. Lady Gaga & Beyoncé
+B. Sean Kingston & Justin Bieber
+C. Usher & Pitbull
+D. Eminem & Rihanna
+Answer:","[""Lady Gaga & Beyoncé"", ""Sean Kingston & Justin Bieber"", ""Usher & Pitbull"", ""Eminem & Rihanna""]",http,0.0,16,none,"{""id"":""chatcmpl-1ftk56s70sxskjdp9r8zld"",""object"":""chat.completion"",""created"":1795595621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261125_084135,2026-11-25T08:33:42.812816+00:00
+c8270764e2435748,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2010 song ""Eenie Meenie"" was a collaboration between which two popular artists?
+A. Lady Gaga & Beyoncé
+B. Sean Kingston & Justin Bieber
+C. Usher & Pitbull
+D. Eminem & Rihanna
+Answer:","[""Lady Gaga & Beyoncé"", ""Sean Kingston & Justin Bieber"", ""Usher & Pitbull"", ""Eminem & Rihanna""]",http,0.0,16,none,"{""id"":""chatcmpl-90or3tdp0rdsymr3lyssk"",""object"":""chat.completion"",""created"":1795595622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.881,,MarianeAzar,20261125_084135,2026-11-25T08:33:43.694142+00:00
+ffb31dbd35a1cc9d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did the World Wide Web go online?
+A. November 12, 1990
+B. December 20, 1990
+C. November 24, 1995
+D. December 17, 1996
+Answer:","[""November 12, 1990"", ""December 20, 1990"", ""November 24, 1995"", ""December 17, 1996""]",http,0.0,16,none,"{""id"":""chatcmpl-g6ila0f52x45b48l99kag8"",""object"":""chat.completion"",""created"":1795595623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.895,,MarianeAzar,20261125_084135,2026-11-25T08:33:44.590719+00:00
+ffb31dbd35a1cc9d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did the World Wide Web go online?
+A. November 12, 1990
+B. December 20, 1990
+C. November 24, 1995
+D. December 17, 1996
+Answer:","[""November 12, 1990"", ""December 20, 1990"", ""November 24, 1995"", ""December 17, 1996""]",http,0.0,16,none,"{""id"":""chatcmpl-dz5eidw8rkkscwwlzltzb"",""object"":""chat.completion"",""created"":1795595624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9275,,MarianeAzar,20261125_084135,2026-11-25T08:33:45.518597+00:00
+e461d7e783e68516,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to a song by Belinda Carlisle, Heaven is a place on what?
+A. Venus
+B. Mars
+C. Earth
+D. Uranus
+Answer:","[""Venus"", ""Mars"", ""Earth"", ""Uranus""]",http,0.0,16,none,"{""id"":""chatcmpl-6pbeudzl3inb2j8a3kclls"",""object"":""chat.completion"",""created"":1795595624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8998,,MarianeAzar,20261125_084135,2026-11-25T08:33:46.418640+00:00
+e461d7e783e68516,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to a song by Belinda Carlisle, Heaven is a place on what?
+A. Venus
+B. Mars
+C. Earth
+D. Uranus
+Answer:","[""Venus"", ""Mars"", ""Earth"", ""Uranus""]",http,0.0,16,none,"{""id"":""chatcmpl-3mj2hrfmid7e9hyfnns6sc"",""object"":""chat.completion"",""created"":1795595625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T08:33:47.275338+00:00
+ea37a9ebc28305f3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote ""The Scarlet Letter"", published in 1850?
+A. Catherine Maria Sedgwick
+B. Washington Irving
+C. Nathaniel Hawthorne
+D. James Fenimore Cooper
+Answer:","[""Catherine Maria Sedgwick"", ""Washington Irving"", ""Nathaniel Hawthorne"", ""James Fenimore Cooper""]",http,0.0,16,none,"{""id"":""chatcmpl-5pw989pf7o9dxmz3flnqv4"",""object"":""chat.completion"",""created"":1795595626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8486,,MarianeAzar,20261125_084135,2026-11-25T08:33:48.124294+00:00
+ea37a9ebc28305f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote ""The Scarlet Letter"", published in 1850?
+A. Catherine Maria Sedgwick
+B. Washington Irving
+C. Nathaniel Hawthorne
+D. James Fenimore Cooper
+Answer:","[""Catherine Maria Sedgwick"", ""Washington Irving"", ""Nathaniel Hawthorne"", ""James Fenimore Cooper""]",http,0.0,16,none,"{""id"":""chatcmpl-1hb063jcebtu5jh46fgc5"",""object"":""chat.completion"",""created"":1795595627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261125_084135,2026-11-25T08:33:49.002613+00:00
+3a528c478be56ba2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the the first episode of Doctor Who to air in 1963?
+A. The Daleks
+B. The Aztecs
+C. An Unearthly Child
+D. The Edge of Destruction
+Answer:","[""The Daleks"", ""The Aztecs"", ""An Unearthly Child"", ""The Edge of Destruction""]",http,0.0,16,none,"{""id"":""chatcmpl-qjw0xcarkakqkvox9al3s"",""object"":""chat.completion"",""created"":1795595628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261125_084135,2026-11-25T08:33:49.870124+00:00
+3a528c478be56ba2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the the first episode of Doctor Who to air in 1963?
+A. The Daleks
+B. The Aztecs
+C. An Unearthly Child
+D. The Edge of Destruction
+Answer:","[""The Daleks"", ""The Aztecs"", ""An Unearthly Child"", ""The Edge of Destruction""]",http,0.0,16,none,"{""id"":""chatcmpl-olfkrh0eoke8yjodfk1t5"",""object"":""chat.completion"",""created"":1795595629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8895,,MarianeAzar,20261125_084135,2026-11-25T08:33:50.759793+00:00
+7eff17021448e6d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Undertale, what's the prize for answering correctly?
+A. Money
+B. Mercy
+C. More questions
+D. New car
+Answer:","[""Money"", ""Mercy"", ""More questions"", ""New car""]",http,0.0,16,none,"{""id"":""chatcmpl-yh23c72mfzfp729pgtxam"",""object"":""chat.completion"",""created"":1795595630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:33:51.611001+00:00
+7eff17021448e6d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Undertale, what's the prize for answering correctly?
+A. Money
+B. Mercy
+C. More questions
+D. New car
+Answer:","[""Money"", ""Mercy"", ""More questions"", ""New car""]",http,0.0,16,none,"{""id"":""chatcmpl-m68gdgwgvpkawpox1w8dv9"",""object"":""chat.completion"",""created"":1795595631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:33:52.467289+00:00

@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+9df6ddc7c00436d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Going by the International Code of Signals, which single flag is interpreted as ""I require assistance (not distress)""?
+A. Kilo
+B. Victor
+C. Delta
+D. Papa
+Answer:","[""Kilo"", ""Victor"", ""Delta"", ""Papa""]",http,0.0,16,none,"{""id"":""chatcmpl-9u8t8ryth6vo9kbvdtryf"",""object"":""chat.completion"",""created"":1795592495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1454,,MarianeAzar,20261125_084135,2026-11-25T07:41:36.581019+00:00
+9adde35f701edc31,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The New York Times slogan is, “All the News That’s Fit to…”
+A. Look
+B. Read
+C. Print
+D. Digest
+Answer:","[""Look"", ""Read"", ""Print"", ""Digest""]",http,0.0,16,none,"{""id"":""chatcmpl-b4xwup2ipjgq28hv4c5v1g"",""object"":""chat.completion"",""created"":1795592496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T07:41:37.461024+00:00
+dc0c605adee20bc3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Gambia is a nation found on which continent?
+A. Europe
+B. South America
+C. Asia
+D. Africa
+Answer:","[""Europe"", ""South America"", ""Asia"", ""Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-m5spnbehhta09526u82fzcf"",""object"":""chat.completion"",""created"":1795592496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261125_084135,2026-11-25T07:41:38.319270+00:00
+dc0c605adee20bc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Gambia is a nation found on which continent?
+A. Europe
+B. South America
+C. Asia
+D. Africa
+Answer:","[""Europe"", ""South America"", ""Asia"", ""Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-3pynis745tw87bhaw36puo"",""object"":""chat.completion"",""created"":1795592497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T07:41:39.173860+00:00
+d509e7bb3fea5211,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: English new wave musician Gary Numan founded the video game development company Facepunch Studios in March 2009.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nk0396vy67tmidrluzqpwj"",""object"":""chat.completion"",""created"":1795592498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.6698,,MarianeAzar,20261125_084135,2026-11-25T07:41:39.843819+00:00
+d509e7bb3fea5211,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: English new wave musician Gary Numan founded the video game development company Facepunch Studios in March 2009.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a7aly37rbi6gueobssvk1o"",""object"":""chat.completion"",""created"":1795592499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.838,,MarianeAzar,20261125_084135,2026-11-25T07:41:40.681937+00:00
+0d17d4565abbf0a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character of ""Metal Gear Solid 3""?
+A. Liquid Snake
+B. Solid Snake
+C. Naked Snake
+D. Venom Snake
+Answer:","[""Liquid Snake"", ""Solid Snake"", ""Naked Snake"", ""Venom Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-6xsxyfqzl6rdr5t803bibm"",""object"":""chat.completion"",""created"":1795592500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8627,,MarianeAzar,20261125_084135,2026-11-25T07:41:41.544780+00:00
+0d17d4565abbf0a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character of ""Metal Gear Solid 3""?
+A. Liquid Snake
+B. Solid Snake
+C. Naked Snake
+D. Venom Snake
+Answer:","[""Liquid Snake"", ""Solid Snake"", ""Naked Snake"", ""Venom Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-14lwtt4o79xites3zswjh1s"",""object"":""chat.completion"",""created"":1795592500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T07:41:42.400578+00:00
+2db34d46a25042ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the most populous city in the Americas in 2015?
+A. New York
+B. Mexico City
+C. Los Angeles
+D. São Paulo
+Answer:","[""New York"", ""Mexico City"", ""Los Angeles"", ""São Paulo""]",http,0.0,16,none,"{""id"":""chatcmpl-73odiiuxtswhaij2f3y0gc"",""object"":""chat.completion"",""created"":1795592501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:41:43.261579+00:00
+2db34d46a25042ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the most populous city in the Americas in 2015?
+A. New York
+B. Mexico City
+C. Los Angeles
+D. São Paulo
+Answer:","[""New York"", ""Mexico City"", ""Los Angeles"", ""São Paulo""]",http,0.0,16,none,"{""id"":""chatcmpl-eyfc24rk306iw54p987zfn"",""object"":""chat.completion"",""created"":1795592502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261125_084135,2026-11-25T07:41:44.113597+00:00
+41e3baf76bdd0d99,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The freshwater amphibian, the Axolotl, can regrow it's limbs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7qp65j5c8y9wfudxtq2yti"",""object"":""chat.completion"",""created"":1795592503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8196,,MarianeAzar,20261125_084135,2026-11-25T07:41:44.933542+00:00
+41e3baf76bdd0d99,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The freshwater amphibian, the Axolotl, can regrow it's limbs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zqh140j7jrov105wrz4jvs"",""object"":""chat.completion"",""created"":1795592504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.839,,MarianeAzar,20261125_084135,2026-11-25T07:41:45.772650+00:00
+9415e0b9da4b9a30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a computer science algorithm?
+A. Float Sort
+B. Merge Sort
+C. Bubble Sort
+D. Quick Sort
+Answer:","[""Float Sort"", ""Merge Sort"", ""Bubble Sort"", ""Quick Sort""]",http,0.0,16,none,"{""id"":""chatcmpl-pzza9p293f9klkdcyw2g5q"",""object"":""chat.completion"",""created"":1795592505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T07:41:46.620229+00:00
+9415e0b9da4b9a30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a computer science algorithm?
+A. Float Sort
+B. Merge Sort
+C. Bubble Sort
+D. Quick Sort
+Answer:","[""Float Sort"", ""Merge Sort"", ""Bubble Sort"", ""Quick Sort""]",http,0.0,16,none,"{""id"":""chatcmpl-bt3uootfzwg2dmgq0kc9jq"",""object"":""chat.completion"",""created"":1795592506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261125_084135,2026-11-25T07:41:47.479848+00:00
+29003282d0a8e435,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Magic: The Gathering, what term for blocking was established in the Portal set?
+A. Blocking
+B. Shielding
+C. Intercepting
+D. Resisting
+Answer:","[""Blocking"", ""Shielding"", ""Intercepting"", ""Resisting""]",http,0.0,16,none,"{""id"":""chatcmpl-2tb6k1dyi8l6pgndwtsq8n"",""object"":""chat.completion"",""created"":1795592506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:41:48.333694+00:00
+29003282d0a8e435,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Magic: The Gathering, what term for blocking was established in the Portal set?
+A. Blocking
+B. Shielding
+C. Intercepting
+D. Resisting
+Answer:","[""Blocking"", ""Shielding"", ""Intercepting"", ""Resisting""]",http,0.0,16,none,"{""id"":""chatcmpl-hie5iovihzjox5s6jj4hv"",""object"":""chat.completion"",""created"":1795592507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T07:41:49.190970+00:00
+4c22de689abdfe2b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former boy-band star released hit solo single ""Angels"" in 1997?
+A. Gary Barlow
+B. Harry Styles
+C. Justin Timberlake
+D. Robbie Williams
+Answer:","[""Gary Barlow"", ""Harry Styles"", ""Justin Timberlake"", ""Robbie Williams""]",http,0.0,16,none,"{""id"":""chatcmpl-2cdpiiuej1hhyd16gdlhos"",""object"":""chat.completion"",""created"":1795592508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261125_084135,2026-11-25T07:41:50.057196+00:00
+4c22de689abdfe2b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former boy-band star released hit solo single ""Angels"" in 1997?
+A. Gary Barlow
+B. Harry Styles
+C. Justin Timberlake
+D. Robbie Williams
+Answer:","[""Gary Barlow"", ""Harry Styles"", ""Justin Timberlake"", ""Robbie Williams""]",http,0.0,16,none,"{""id"":""chatcmpl-u7majrne3vlhpirnd9bbf6"",""object"":""chat.completion"",""created"":1795592509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8711,,MarianeAzar,20261125_084135,2026-11-25T07:41:50.928545+00:00
+53f9517c1281916a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what temperature does temp in °C equal temp in °F?
+A. +40
+B. -40
+C. 0
+D. +100
+Answer:","[""+40"", ""-40"", ""0"", ""+100""]",http,0.0,16,none,"{""id"":""chatcmpl-fg9ggkli0p0m7ivntv5aqi"",""object"":""chat.completion"",""created"":1795592510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8793,,MarianeAzar,20261125_084135,2026-11-25T07:41:51.808014+00:00
+53f9517c1281916a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what temperature does temp in °C equal temp in °F?
+A. +40
+B. -40
+C. 0
+D. +100
+Answer:","[""+40"", ""-40"", ""0"", ""+100""]",http,0.0,16,none,"{""id"":""chatcmpl-39vwteu5zbujqblmf1hldb"",""object"":""chat.completion"",""created"":1795592511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T07:41:52.681915+00:00
+dd8f537ae5e3b856,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2012, which movie won every category in the 32nd ""Golden Raspberry Awards""?
+A. Thor
+B. The King's Speech
+C. Jack and Jill
+D. The Girl with the Dragon Tattoo
+Answer:","[""Thor"", ""The King's Speech"", ""Jack and Jill"", ""The Girl with the Dragon Tattoo""]",http,0.0,16,none,"{""id"":""chatcmpl-5wklnuxi4b41agv24j9y8qi"",""object"":""chat.completion"",""created"":1795592512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T07:41:53.540176+00:00
+dd8f537ae5e3b856,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2012, which movie won every category in the 32nd ""Golden Raspberry Awards""?
+A. Thor
+B. The King's Speech
+C. Jack and Jill
+D. The Girl with the Dragon Tattoo
+Answer:","[""Thor"", ""The King's Speech"", ""Jack and Jill"", ""The Girl with the Dragon Tattoo""]",http,0.0,16,none,"{""id"":""chatcmpl-is6kcttqkrti5i907a7gt"",""object"":""chat.completion"",""created"":1795592512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9043,,MarianeAzar,20261125_084135,2026-11-25T07:41:54.444571+00:00
+1c25799e7590c12e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Neanderthals were a direct ancestor of modern humans.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ozr7c8mvgudvmslbfbl1d"",""object"":""chat.completion"",""created"":1795592513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8297,,MarianeAzar,20261125_084135,2026-11-25T07:41:55.274433+00:00
+1c25799e7590c12e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Neanderthals were a direct ancestor of modern humans.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dr3jfsw9zpb27m4s9lzm6y"",""object"":""chat.completion"",""created"":1795592514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8082,,MarianeAzar,20261125_084135,2026-11-25T07:41:56.082764+00:00
+a15759c28a67e7d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Slovakia?
+A. Sofia
+B. Bratislava
+C. Sarajevo
+D. Ljubljana
+Answer:","[""Sofia"", ""Bratislava"", ""Sarajevo"", ""Ljubljana""]",http,0.0,16,none,"{""id"":""chatcmpl-1adwa8qe93ribugkmtfdxi7"",""object"":""chat.completion"",""created"":1795592515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T07:41:56.950470+00:00

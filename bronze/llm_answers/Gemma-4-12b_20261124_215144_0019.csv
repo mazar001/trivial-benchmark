@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+02e43fb8db10ead8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a real tectonic plate?
+A. North American Plate
+B. Eurasian Plate
+C. Nazca Plate
+D. Atlantic Plate
+Answer:","[""North American Plate"", ""Eurasian Plate"", ""Nazca Plate"", ""Atlantic Plate""]",http,0.0,16,none,"{""id"":""chatcmpl-jojqp0t4qd40u4o7j4kxj"",""object"":""chat.completion"",""created"":1795554038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8521,,MarianeAzar,20261124_215144,2026-11-24T21:00:39.178058+00:00
+645c4f1da9523431,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Death Grips Front Man, MC Ride?
+A. Stanley Burrell
+B. Stefan Burnett
+C. Andy Morin
+D. Zach Hill
+Answer:","[""Stanley Burrell"", ""Stefan Burnett"", ""Andy Morin"", ""Zach Hill""]",http,0.0,16,none,"{""id"":""chatcmpl-9rpenuh8d79pzqid9fwhjp"",""object"":""chat.completion"",""created"":1795554039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261124_215144,2026-11-24T21:00:40.027001+00:00
+645c4f1da9523431,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Death Grips Front Man, MC Ride?
+A. Stanley Burrell
+B. Stefan Burnett
+C. Andy Morin
+D. Zach Hill
+Answer:","[""Stanley Burrell"", ""Stefan Burnett"", ""Andy Morin"", ""Zach Hill""]",http,0.0,16,none,"{""id"":""chatcmpl-fq5vow5a5caqdw7ru2a8e"",""object"":""chat.completion"",""created"":1795554039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9113,,MarianeAzar,20261124_215144,2026-11-24T21:00:40.938757+00:00
+e33656c065b0a066,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the capital of Turkey?
+A. Bursa
+B. Izmir
+C. Ankara
+D. Istanbul
+Answer:","[""Bursa"", ""Izmir"", ""Ankara"", ""Istanbul""]",http,0.0,16,none,"{""id"":""chatcmpl-7tri8nsa7bvgzt234zcpmh"",""object"":""chat.completion"",""created"":1795554040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.847,,MarianeAzar,20261124_215144,2026-11-24T21:00:41.786062+00:00
+e33656c065b0a066,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the capital of Turkey?
+A. Bursa
+B. Izmir
+C. Ankara
+D. Istanbul
+Answer:","[""Bursa"", ""Izmir"", ""Ankara"", ""Istanbul""]",http,0.0,16,none,"{""id"":""chatcmpl-5bcd6bl4ajanoorznlpelt"",""object"":""chat.completion"",""created"":1795554041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261124_215144,2026-11-24T21:00:42.639448+00:00
+fe7cde6a67210c78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the height of Kingda Ka, the tallest roller coaster in the world from 2005 to 2024?
+A. 429 ft
+B. 456 ft
+C. 396 ft
+D. 500 ft
+Answer:","[""429 ft"", ""456 ft"", ""396 ft"", ""500 ft""]",http,0.0,16,none,"{""id"":""chatcmpl-gfit1futxfpv0we0sx7ef"",""object"":""chat.completion"",""created"":1795554042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8896,,MarianeAzar,20261124_215144,2026-11-24T21:00:43.531884+00:00
+fe7cde6a67210c78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the height of Kingda Ka, the tallest roller coaster in the world from 2005 to 2024?
+A. 429 ft
+B. 456 ft
+C. 396 ft
+D. 500 ft
+Answer:","[""429 ft"", ""456 ft"", ""396 ft"", ""500 ft""]",http,0.0,16,none,"{""id"":""chatcmpl-ppm2hj40objtnoxn474mvn"",""object"":""chat.completion"",""created"":1795554043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0453,,MarianeAzar,20261124_215144,2026-11-24T21:00:44.577438+00:00
+18f58d0546ecdd30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""To Love-Ru: Darkness"", which of the girls attempt making a harem for Rito Yuuki?
+A. Mea Kurosaki
+B. Yami (Golden Darkness)
+C. Haruna Sairenji
+D. Momo Deviluke
+Answer:","[""Mea Kurosaki"", ""Yami (Golden Darkness)"", ""Haruna Sairenji"", ""Momo Deviluke""]",http,0.0,16,none,"{""id"":""chatcmpl-yuew4lhx01fuz5kujpot1"",""object"":""chat.completion"",""created"":1795554044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9696,,MarianeAzar,20261124_215144,2026-11-24T21:00:45.547334+00:00
+18f58d0546ecdd30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""To Love-Ru: Darkness"", which of the girls attempt making a harem for Rito Yuuki?
+A. Mea Kurosaki
+B. Yami (Golden Darkness)
+C. Haruna Sairenji
+D. Momo Deviluke
+Answer:","[""Mea Kurosaki"", ""Yami (Golden Darkness)"", ""Haruna Sairenji"", ""Momo Deviluke""]",http,0.0,16,none,"{""id"":""chatcmpl-fnjf71d6h46ndi89qc79p"",""object"":""chat.completion"",""created"":1795554045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9213,,MarianeAzar,20261124_215144,2026-11-24T21:00:46.468999+00:00
+486c6b10c9c63f5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the total length of the Titanic?
+A. 825 ft | 251.5 m
+B. 759 ft | 231.3 m
+C. 882 ft | 268.8 m
+D. 1042 ft | 317.6 m
+Answer:","[""825 ft | 251.5 m"", ""759 ft | 231.3 m"", ""882 ft | 268.8 m"", ""1042 ft | 317.6 m""]",http,0.0,16,none,"{""id"":""chatcmpl-shqocvsi8rqlkwhigib6n"",""object"":""chat.completion"",""created"":1795554046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0236,,MarianeAzar,20261124_215144,2026-11-24T21:00:47.492958+00:00
+486c6b10c9c63f5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the total length of the Titanic?
+A. 825 ft | 251.5 m
+B. 759 ft | 231.3 m
+C. 882 ft | 268.8 m
+D. 1042 ft | 317.6 m
+Answer:","[""825 ft | 251.5 m"", ""759 ft | 231.3 m"", ""882 ft | 268.8 m"", ""1042 ft | 317.6 m""]",http,0.0,16,none,"{""id"":""chatcmpl-20e4427r7nirvj7zhh5mph"",""object"":""chat.completion"",""created"":1795554047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":135,""completion_tokens"":2,""total_tokens"":137,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.025,,MarianeAzar,20261124_215144,2026-11-24T21:00:48.518310+00:00
+ca012146990616de,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie served as the KTMA pilot episode for the show ""Mystery Science Theater 3000""?
+A. The Crawling Eye
+B. The Robot Vs. The Aztec Mummy
+C. Plan 9 From Outer Space
+D. The Green Slime
+Answer:","[""The Crawling Eye"", ""The Robot Vs. The Aztec Mummy"", ""Plan 9 From Outer Space"", ""The Green Slime""]",http,0.0,16,none,"{""id"":""chatcmpl-a0k4cn3rilwhafumvls4qm"",""object"":""chat.completion"",""created"":1795554048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0225,,MarianeAzar,20261124_215144,2026-11-24T21:00:49.541145+00:00
+ca012146990616de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie served as the KTMA pilot episode for the show ""Mystery Science Theater 3000""?
+A. The Crawling Eye
+B. The Robot Vs. The Aztec Mummy
+C. Plan 9 From Outer Space
+D. The Green Slime
+Answer:","[""The Crawling Eye"", ""The Robot Vs. The Aztec Mummy"", ""Plan 9 From Outer Space"", ""The Green Slime""]",http,0.0,16,none,"{""id"":""chatcmpl-98j8rszp6bpcb8n6jfvadw"",""object"":""chat.completion"",""created"":1795554049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261124_215144,2026-11-24T21:00:50.454113+00:00
+48847cf2d4f73dea,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Subnautica"", a ""Spadefish"" will attack you.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zd0mla4rn8ge06jxtb1sjn"",""object"":""chat.completion"",""created"":1795554050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.902,,MarianeAzar,20261124_215144,2026-11-24T21:00:51.356372+00:00
+48847cf2d4f73dea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Subnautica"", a ""Spadefish"" will attack you.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-z82quyqizh8e66x5rqma0u"",""object"":""chat.completion"",""created"":1795554051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8445,,MarianeAzar,20261124_215144,2026-11-24T21:00:52.201271+00:00
+57e3c9ee40447755,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first successful and commercially viable photographic technique?
+A. Kodachrome film
+B. Collodion process
+C. The Daguerreotype
+D. The Turin Shroud
+Answer:","[""Kodachrome film"", ""Collodion process"", ""The Daguerreotype"", ""The Turin Shroud""]",http,0.0,16,none,"{""id"":""chatcmpl-h30yzel2d46pyhkaoaac3"",""object"":""chat.completion"",""created"":1795554052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.863,,MarianeAzar,20261124_215144,2026-11-24T21:00:53.064924+00:00
+57e3c9ee40447755,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first successful and commercially viable photographic technique?
+A. Kodachrome film
+B. Collodion process
+C. The Daguerreotype
+D. The Turin Shroud
+Answer:","[""Kodachrome film"", ""Collodion process"", ""The Daguerreotype"", ""The Turin Shroud""]",http,0.0,16,none,"{""id"":""chatcmpl-davpino1nsomxk8sv8ullc"",""object"":""chat.completion"",""created"":1795554052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261124_215144,2026-11-24T21:00:53.931371+00:00
+0f9676ff450f5544,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote and directed the 1986 film 'Platoon'?
+A. Stanley Kubrick
+B. Oliver Stone
+C. Francis Ford Coppola
+D. Michael Cimino
+Answer:","[""Stanley Kubrick"", ""Oliver Stone"", ""Francis Ford Coppola"", ""Michael Cimino""]",http,0.0,16,none,"{""id"":""chatcmpl-jj5d3tjj7idqix4cm3hap8"",""object"":""chat.completion"",""created"":1795554053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9349,,MarianeAzar,20261124_215144,2026-11-24T21:00:54.866534+00:00
+0f9676ff450f5544,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote and directed the 1986 film 'Platoon'?
+A. Stanley Kubrick
+B. Oliver Stone
+C. Francis Ford Coppola
+D. Michael Cimino
+Answer:","[""Stanley Kubrick"", ""Oliver Stone"", ""Francis Ford Coppola"", ""Michael Cimino""]",http,0.0,16,none,"{""id"":""chatcmpl-p3d2z3wef9cr0gf1j570l"",""object"":""chat.completion"",""created"":1795554054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261124_215144,2026-11-24T21:00:55.718113+00:00
+80bd41f3b1d56f95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these pairs contains two Valve games set in the same universe?
+A. Portal and Left 4 Dead
+B. Half-life and Counter Strike
+C. Half-life and Left 4 Dead
+D. Half-life and Portal
+Answer:","[""Portal and Left 4 Dead"", ""Half-life and Counter Strike"", ""Half-life and Left 4 Dead"", ""Half-life and Portal""]",http,0.0,16,none,"{""id"":""chatcmpl-tis800k4dfa3c8iwupjz3p"",""object"":""chat.completion"",""created"":1795554055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8696,,MarianeAzar,20261124_215144,2026-11-24T21:00:56.588370+00:00
+80bd41f3b1d56f95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these pairs contains two Valve games set in the same universe?
+A. Portal and Left 4 Dead
+B. Half-life and Counter Strike
+C. Half-life and Left 4 Dead
+D. Half-life and Portal
+Answer:","[""Portal and Left 4 Dead"", ""Half-life and Counter Strike"", ""Half-life and Left 4 Dead"", ""Half-life and Portal""]",http,0.0,16,none,"{""id"":""chatcmpl-tp1n2jmpp6ikqr7tmcfo7"",""object"":""chat.completion"",""created"":1795554056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.915,,MarianeAzar,20261124_215144,2026-11-24T21:00:57.503666+00:00
+d9d1f7a0cc9bf433,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How does the character Dragowizard, Qinus Axia's from the anime ""Buddyfight"" differ between the Japanese and English dubs?
+A. Different Appearance
+B. Different Gender
+C. Different Body Proportions
+D. Different Backstory
+Answer:","[""Different Appearance"", ""Different Gender"", ""Different Body Proportions"", ""Different Backstory""]",http,0.0,16,none,"{""id"":""chatcmpl-8n0n4dxubqoh7xujt9463u"",""object"":""chat.completion"",""created"":1795554057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261124_215144,2026-11-24T21:00:58.396015+00:00
+d9d1f7a0cc9bf433,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How does the character Dragowizard, Qinus Axia's from the anime ""Buddyfight"" differ between the Japanese and English dubs?
+A. Different Appearance
+B. Different Gender
+C. Different Body Proportions
+D. Different Backstory
+Answer:","[""Different Appearance"", ""Different Gender"", ""Different Body Proportions"", ""Different Backstory""]",http,0.0,16,none,"{""id"":""chatcmpl-griaswkf3hhe3at0mm8jbr"",""object"":""chat.completion"",""created"":1795554058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8955,,MarianeAzar,20261124_215144,2026-11-24T21:00:59.291760+00:00
+8be2740d577298ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who founded the Khan Academy?
+A. Ben Khan
+B. Kitt Khan
+C. Sal Khan
+D. Adel Khan
+Answer:","[""Ben Khan"", ""Kitt Khan"", ""Sal Khan"", ""Adel Khan""]",http,0.0,16,none,"{""id"":""chatcmpl-x74a4zkd5kbaj0ysbgkb0c"",""object"":""chat.completion"",""created"":1795554059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8988,,MarianeAzar,20261124_215144,2026-11-24T21:01:00.190871+00:00
+8be2740d577298ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who founded the Khan Academy?
+A. Ben Khan
+B. Kitt Khan
+C. Sal Khan
+D. Adel Khan
+Answer:","[""Ben Khan"", ""Kitt Khan"", ""Sal Khan"", ""Adel Khan""]",http,0.0,16,none,"{""id"":""chatcmpl-lj8bfdlwwpimu5aues67t"",""object"":""chat.completion"",""created"":1795554060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261124_215144,2026-11-24T21:01:01.044118+00:00

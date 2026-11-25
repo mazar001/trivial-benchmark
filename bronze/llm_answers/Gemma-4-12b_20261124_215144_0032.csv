@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1ea293dbd9461f4f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the webcomic Homestuck, the first character introduced is Dave Strider.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-leo6k1eanbgpdh5oncdquh"",""object"":""chat.completion"",""created"":1795554327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8143,,MarianeAzar,20261124_215144,2026-11-24T21:05:28.458999+00:00
+1ea293dbd9461f4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the webcomic Homestuck, the first character introduced is Dave Strider.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0u0ybmqlj0fl3vz6iqizv"",""object"":""chat.completion"",""created"":1795554328,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9188,,MarianeAzar,20261124_215144,2026-11-24T21:05:29.378180+00:00
+8c54eca7f2938373,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous New York Yankees outfielder did Marilyn Monroe marry?
+A. Babe Ruth
+B. Joe DiMaggio
+C. Mason Williams
+D. Tino Martinez
+Answer:","[""Babe Ruth"", ""Joe DiMaggio"", ""Mason Williams"", ""Tino Martinez""]",http,0.0,16,none,"{""id"":""chatcmpl-26g3l9p3c0g35rd75079tz"",""object"":""chat.completion"",""created"":1795554329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.845,,MarianeAzar,20261124_215144,2026-11-24T21:05:30.223464+00:00
+8c54eca7f2938373,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous New York Yankees outfielder did Marilyn Monroe marry?
+A. Babe Ruth
+B. Joe DiMaggio
+C. Mason Williams
+D. Tino Martinez
+Answer:","[""Babe Ruth"", ""Joe DiMaggio"", ""Mason Williams"", ""Tino Martinez""]",http,0.0,16,none,"{""id"":""chatcmpl-pxjhpkb1ljilrcpov46ax"",""object"":""chat.completion"",""created"":1795554330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261124_215144,2026-11-24T21:05:31.085307+00:00
+2c939380320399b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who recorded the album called ""Down to the Moon"" in 1986?
+A. Jean-Michel Jarre
+B. Bing Crosby
+C. Enya
+D. Andreas Vollenweider
+Answer:","[""Jean-Michel Jarre"", ""Bing Crosby"", ""Enya"", ""Andreas Vollenweider""]",http,0.0,16,none,"{""id"":""chatcmpl-29fcnva7ya755dh3pgzxaa"",""object"":""chat.completion"",""created"":1795554330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261124_215144,2026-11-24T21:05:31.940967+00:00
+2c939380320399b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who recorded the album called ""Down to the Moon"" in 1986?
+A. Jean-Michel Jarre
+B. Bing Crosby
+C. Enya
+D. Andreas Vollenweider
+Answer:","[""Jean-Michel Jarre"", ""Bing Crosby"", ""Enya"", ""Andreas Vollenweider""]",http,0.0,16,none,"{""id"":""chatcmpl-rnwq4widttaguitaftsaz"",""object"":""chat.completion"",""created"":1795554331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8793,,MarianeAzar,20261124_215144,2026-11-24T21:05:32.820549+00:00
+99613e0387567c23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard atomic weight of a Plutonium nucleus?
+A. 481
+B. 94
+C. 244
+D. 128
+Answer:","[""481"", ""94"", ""244"", ""128""]",http,0.0,16,none,"{""id"":""chatcmpl-kpe4dwmb9msn2c4ksqdi3"",""object"":""chat.completion"",""created"":1795554332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8791,,MarianeAzar,20261124_215144,2026-11-24T21:05:33.699870+00:00
+99613e0387567c23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard atomic weight of a Plutonium nucleus?
+A. 481
+B. 94
+C. 244
+D. 128
+Answer:","[""481"", ""94"", ""244"", ""128""]",http,0.0,16,none,"{""id"":""chatcmpl-20gnrkf6oe7wog9pdkzydc"",""object"":""chat.completion"",""created"":1795554333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261124_215144,2026-11-24T21:05:34.561409+00:00
+ad244ea6df65e057,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the beta version of the 1986 game ""The Legend of Zelda"", players have the choice between a sword and what other item?
+A. Crossbow
+B. Slingshot
+C. Boomerang
+D. Spear
+Answer:","[""Crossbow"", ""Slingshot"", ""Boomerang"", ""Spear""]",http,0.0,16,none,"{""id"":""chatcmpl-tx5ky4jbz3fe9a0jkb1yt"",""object"":""chat.completion"",""created"":1795554334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261124_215144,2026-11-24T21:05:35.427112+00:00
+ad244ea6df65e057,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the beta version of the 1986 game ""The Legend of Zelda"", players have the choice between a sword and what other item?
+A. Crossbow
+B. Slingshot
+C. Boomerang
+D. Spear
+Answer:","[""Crossbow"", ""Slingshot"", ""Boomerang"", ""Spear""]",http,0.0,16,none,"{""id"":""chatcmpl-l008pe50vp8wyfxh6misko"",""object"":""chat.completion"",""created"":1795554335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9201,,MarianeAzar,20261124_215144,2026-11-24T21:05:36.347545+00:00
+0a9621605ff0ca6c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what prison was Adolf Hitler held in 1924?
+A. Landsberg Prison
+B. Spandau Prison
+C. Hohenasperg
+D. Ebrach Abbey
+Answer:","[""Landsberg Prison"", ""Spandau Prison"", ""Hohenasperg"", ""Ebrach Abbey""]",http,0.0,16,none,"{""id"":""chatcmpl-czs5zy1im3omrkg05lty5p"",""object"":""chat.completion"",""created"":1795554336,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9253,,MarianeAzar,20261124_215144,2026-11-24T21:05:37.273427+00:00
+0a9621605ff0ca6c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what prison was Adolf Hitler held in 1924?
+A. Landsberg Prison
+B. Spandau Prison
+C. Hohenasperg
+D. Ebrach Abbey
+Answer:","[""Landsberg Prison"", ""Spandau Prison"", ""Hohenasperg"", ""Ebrach Abbey""]",http,0.0,16,none,"{""id"":""chatcmpl-w1fxfyiobjdqjnap1od26"",""object"":""chat.completion"",""created"":1795554337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9199,,MarianeAzar,20261124_215144,2026-11-24T21:05:38.193643+00:00
+58edbaf6009c2792,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which survivor in Left 4 Dead sacrificed themself to save the other survivors?
+A. Zoey
+B. Francis
+C. Louis
+D. Bill
+Answer:","[""Zoey"", ""Francis"", ""Louis"", ""Bill""]",http,0.0,16,none,"{""id"":""chatcmpl-n8upnb9e747iboz5n3kjd"",""object"":""chat.completion"",""created"":1795554338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9162,,MarianeAzar,20261124_215144,2026-11-24T21:05:39.110088+00:00
+58edbaf6009c2792,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which survivor in Left 4 Dead sacrificed themself to save the other survivors?
+A. Zoey
+B. Francis
+C. Louis
+D. Bill
+Answer:","[""Zoey"", ""Francis"", ""Louis"", ""Bill""]",http,0.0,16,none,"{""id"":""chatcmpl-h4ev0e2y9pi0tnr7mw506cb"",""object"":""chat.completion"",""created"":1795554339,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261124_215144,2026-11-24T21:05:39.973196+00:00
+2d5023a46d1f789e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Paul Gauguin moved to which country in 1895?
+A. Lithuania
+B. France
+C. Atuona
+D. Tahiti
+Answer:","[""Lithuania"", ""France"", ""Atuona"", ""Tahiti""]",http,0.0,16,none,"{""id"":""chatcmpl-4zrl984iksxaujlorb2fzr"",""object"":""chat.completion"",""created"":1795554339,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261124_215144,2026-11-24T21:05:40.851982+00:00
+2d5023a46d1f789e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Paul Gauguin moved to which country in 1895?
+A. Lithuania
+B. France
+C. Atuona
+D. Tahiti
+Answer:","[""Lithuania"", ""France"", ""Atuona"", ""Tahiti""]",http,0.0,16,none,"{""id"":""chatcmpl-engytp4nu98oz9p04pvnuq"",""object"":""chat.completion"",""created"":1795554340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9142,,MarianeAzar,20261124_215144,2026-11-24T21:05:41.766415+00:00
+b06f9ea0c59af779,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these games was NOT developed by Markus Persson?
+A. Minecraft
+B. Dwarf Fortress
+C. 0x10c
+D. Wurm Online
+Answer:","[""Minecraft"", ""Dwarf Fortress"", ""0x10c"", ""Wurm Online""]",http,0.0,16,none,"{""id"":""chatcmpl-jbpvm5dh4eqmtwaplosl77"",""object"":""chat.completion"",""created"":1795554341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261124_215144,2026-11-24T21:05:42.623937+00:00
+b06f9ea0c59af779,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these games was NOT developed by Markus Persson?
+A. Minecraft
+B. Dwarf Fortress
+C. 0x10c
+D. Wurm Online
+Answer:","[""Minecraft"", ""Dwarf Fortress"", ""0x10c"", ""Wurm Online""]",http,0.0,16,none,"{""id"":""chatcmpl-wl28noyz4na81q0zs0qeyl"",""object"":""chat.completion"",""created"":1795554342,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261124_215144,2026-11-24T21:05:43.483807+00:00
+9f43ffa783c107fd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p99tsms8vy8ztoo26cvhdh"",""object"":""chat.completion"",""created"":1795554343,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261124_215144,2026-11-24T21:05:44.332115+00:00
+9f43ffa783c107fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Instant mashed potatoes were invented by Canadian Edward Asselbergs in 1962.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2jad41wtkpb8708l4zhhdt"",""object"":""chat.completion"",""created"":1795554344,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9177,,MarianeAzar,20261124_215144,2026-11-24T21:05:45.250109+00:00
+f9bc93e790f82fae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the robot in the 1951 science fiction film classic 'The Day the Earth Stood Still'?
+A. Colossus
+B. Robby
+C. Box
+D. Gort
+Answer:","[""Colossus"", ""Robby"", ""Box"", ""Gort""]",http,0.0,16,none,"{""id"":""chatcmpl-uanvgaptfjs0vsyvgfjkqc"",""object"":""chat.completion"",""created"":1795554345,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8819,,MarianeAzar,20261124_215144,2026-11-24T21:05:46.132657+00:00
+f9bc93e790f82fae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the robot in the 1951 science fiction film classic 'The Day the Earth Stood Still'?
+A. Colossus
+B. Robby
+C. Box
+D. Gort
+Answer:","[""Colossus"", ""Robby"", ""Box"", ""Gort""]",http,0.0,16,none,"{""id"":""chatcmpl-eu51pn1x37q8hzd4mjlfx"",""object"":""chat.completion"",""created"":1795554346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8896,,MarianeAzar,20261124_215144,2026-11-24T21:05:47.022613+00:00
+cf342a43b90c358b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following created and directed the Katamari Damacy series?
+A. Keita Takahashi
+B. Shu Takumi
+C. Hideki Kamiya
+D. Shinji Mikami
+Answer:","[""Keita Takahashi"", ""Shu Takumi"", ""Hideki Kamiya"", ""Shinji Mikami""]",http,0.0,16,none,"{""id"":""chatcmpl-z0534axfz17war5xs9p1v"",""object"":""chat.completion"",""created"":1795554346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261124_215144,2026-11-24T21:05:47.879708+00:00
+cf342a43b90c358b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following created and directed the Katamari Damacy series?
+A. Keita Takahashi
+B. Shu Takumi
+C. Hideki Kamiya
+D. Shinji Mikami
+Answer:","[""Keita Takahashi"", ""Shu Takumi"", ""Hideki Kamiya"", ""Shinji Mikami""]",http,0.0,16,none,"{""id"":""chatcmpl-4e1fl3rf912aw2tlfgmyn"",""object"":""chat.completion"",""created"":1795554347,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8821,,MarianeAzar,20261124_215144,2026-11-24T21:05:48.762094+00:00
+fe4ed46e434e2098,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What two characters from the game Undertale are never in a relationship or not related?
+A. Alphys & Undyne
+B. Sans & Papyrus
+C. Toriel & Asgore
+D. Frisk & Chara
+Answer:","[""Alphys & Undyne"", ""Sans & Papyrus"", ""Toriel & Asgore"", ""Frisk & Chara""]",http,0.0,16,none,"{""id"":""chatcmpl-ctpa39hhky49u8x2uwb9e"",""object"":""chat.completion"",""created"":1795554348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8719,,MarianeAzar,20261124_215144,2026-11-24T21:05:49.634307+00:00

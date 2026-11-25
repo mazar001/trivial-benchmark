@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+25eed763f9609c58,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many moons does the Earth have?
+A. 2
+B. 0
+C. 1
+D. 3
+Answer:","[""2"", ""0"", ""1"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-usw1f7td9dsi4wool9nuap"",""object"":""chat.completion"",""created"":1795596660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:51:01.717008+00:00
+f3bd00809572826c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which dictator killed the most people?
+A. Joseph Stalin
+B. Adolf Hitler
+C. Mao Zedong
+D. Kim Il Sung
+Answer:","[""Joseph Stalin"", ""Adolf Hitler"", ""Mao Zedong"", ""Kim Il Sung""]",http,0.0,16,none,"{""id"":""chatcmpl-n12sa2p464oge5tq3ccohb"",""object"":""chat.completion"",""created"":1795596661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T08:51:02.571722+00:00
+f3bd00809572826c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which dictator killed the most people?
+A. Joseph Stalin
+B. Adolf Hitler
+C. Mao Zedong
+D. Kim Il Sung
+Answer:","[""Joseph Stalin"", ""Adolf Hitler"", ""Mao Zedong"", ""Kim Il Sung""]",http,0.0,16,none,"{""id"":""chatcmpl-pu77diuzm1781nay4sj6"",""object"":""chat.completion"",""created"":1795596661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T08:51:03.430318+00:00
+8bf25e0bd3c23ea0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which European city is known as the ""City of Light""?
+A. Rome
+B. Paris
+C. Madrid
+D. London
+Answer:","[""Rome"", ""Paris"", ""Madrid"", ""London""]",http,0.0,16,none,"{""id"":""chatcmpl-umsnv09ylpcrc1rd89fvn"",""object"":""chat.completion"",""created"":1795596662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8453,,MarianeAzar,20261125_084135,2026-11-25T08:51:04.275756+00:00
+8bf25e0bd3c23ea0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which European city is known as the ""City of Light""?
+A. Rome
+B. Paris
+C. Madrid
+D. London
+Answer:","[""Rome"", ""Paris"", ""Madrid"", ""London""]",http,0.0,16,none,"{""id"":""chatcmpl-uav5tc4o8siwlpdpy868f"",""object"":""chat.completion"",""created"":1795596663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261125_084135,2026-11-25T08:51:05.129993+00:00
+60a27ac78db9ab2f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which singer provided the voice of Metroid's Mother Brain in the animated series ""Captain N: The Game Master""?
+A. Joan Jett
+B. Janet Jackson
+C. Levi Stubbs
+D. Freddie Mercury
+Answer:","[""Joan Jett"", ""Janet Jackson"", ""Levi Stubbs"", ""Freddie Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-3895k8kftpcapmz1nj7yzc"",""object"":""chat.completion"",""created"":1795596664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8525,,MarianeAzar,20261125_084135,2026-11-25T08:51:05.983275+00:00
+60a27ac78db9ab2f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which singer provided the voice of Metroid's Mother Brain in the animated series ""Captain N: The Game Master""?
+A. Joan Jett
+B. Janet Jackson
+C. Levi Stubbs
+D. Freddie Mercury
+Answer:","[""Joan Jett"", ""Janet Jackson"", ""Levi Stubbs"", ""Freddie Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-fjdj3hav9nqt0pa975laz"",""object"":""chat.completion"",""created"":1795596665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8918,,MarianeAzar,20261125_084135,2026-11-25T08:51:06.875558+00:00
+b7dac6acc38f86fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mineral has the lowest number on the Mohs scale?
+A. Diamond
+B. Quartz
+C. Talc
+D. Gypsum
+Answer:","[""Diamond"", ""Quartz"", ""Talc"", ""Gypsum""]",http,0.0,16,none,"{""id"":""chatcmpl-il9vq4hryqm4t5hdsl3z4i"",""object"":""chat.completion"",""created"":1795596666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T08:51:07.729328+00:00
+b7dac6acc38f86fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mineral has the lowest number on the Mohs scale?
+A. Diamond
+B. Quartz
+C. Talc
+D. Gypsum
+Answer:","[""Diamond"", ""Quartz"", ""Talc"", ""Gypsum""]",http,0.0,16,none,"{""id"":""chatcmpl-i90aeca00e66n4y6i58fk"",""object"":""chat.completion"",""created"":1795596667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T08:51:08.591814+00:00
+b27bf7978498587c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the boss round featured in the ""Call Of Duty: Zombies"" map ""Five""?
+A. Jumping Jacks
+B. Napalm Zombie
+C. Hellhounds
+D. The Pentagon Thief
+Answer:","[""Jumping Jacks"", ""Napalm Zombie"", ""Hellhounds"", ""The Pentagon Thief""]",http,0.0,16,none,"{""id"":""chatcmpl-0aeq5a167olobvo38fl52kc"",""object"":""chat.completion"",""created"":1795596668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8553,,MarianeAzar,20261125_084135,2026-11-25T08:51:09.447728+00:00
+b27bf7978498587c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the boss round featured in the ""Call Of Duty: Zombies"" map ""Five""?
+A. Jumping Jacks
+B. Napalm Zombie
+C. Hellhounds
+D. The Pentagon Thief
+Answer:","[""Jumping Jacks"", ""Napalm Zombie"", ""Hellhounds"", ""The Pentagon Thief""]",http,0.0,16,none,"{""id"":""chatcmpl-gxqc3iutr6q79e5idmbev"",""object"":""chat.completion"",""created"":1795596668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T08:51:10.327834+00:00
+e76bda1d7a56ceb1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How old was the famous King Tutankhamen (Tut) when he died?
+A. 30
+B. 19
+C. 21
+D. 15
+Answer:","[""30"", ""19"", ""21"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-vai6k76yvc9y15whbqedyh"",""object"":""chat.completion"",""created"":1795596669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8693,,MarianeAzar,20261125_084135,2026-11-25T08:51:11.197489+00:00
+e76bda1d7a56ceb1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How old was the famous King Tutankhamen (Tut) when he died?
+A. 30
+B. 19
+C. 21
+D. 15
+Answer:","[""30"", ""19"", ""21"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-u7e1gpvvnnad1jr1o3lqp"",""object"":""chat.completion"",""created"":1795596670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.904,,MarianeAzar,20261125_084135,2026-11-25T08:51:12.101730+00:00
+f6e95a7b322311ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In blood typing, the (+) and (-) marker after an A, B, AB, or O is called Rh factor. Which of the following is the source of its discovery?
+A. Rheumatism Patients
+B. Rhizomes
+C. Rhesus Monkeys
+D. Red-Haired People
+Answer:","[""Rheumatism Patients"", ""Rhizomes"", ""Rhesus Monkeys"", ""Red-Haired People""]",http,0.0,16,none,"{""id"":""chatcmpl-u4pwmyat3ljirlby12fm"",""object"":""chat.completion"",""created"":1795596671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261125_084135,2026-11-25T08:51:12.988717+00:00
+f6e95a7b322311ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In blood typing, the (+) and (-) marker after an A, B, AB, or O is called Rh factor. Which of the following is the source of its discovery?
+A. Rheumatism Patients
+B. Rhizomes
+C. Rhesus Monkeys
+D. Red-Haired People
+Answer:","[""Rheumatism Patients"", ""Rhizomes"", ""Rhesus Monkeys"", ""Red-Haired People""]",http,0.0,16,none,"{""id"":""chatcmpl-38wty33a0h2y3ubnbfjze"",""object"":""chat.completion"",""created"":1795596672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9103,,MarianeAzar,20261125_084135,2026-11-25T08:51:13.899461+00:00
+59d5e33762f69fe6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?
+A. Boris Yeltsin
+B. Leonid Brezhnev
+C. Nikita Khrushchev
+D. Mikhail Gorbachev
+Answer:","[""Boris Yeltsin"", ""Leonid Brezhnev"", ""Nikita Khrushchev"", ""Mikhail Gorbachev""]",http,0.0,16,none,"{""id"":""chatcmpl-144p8j274zivo4ysd43z8b"",""object"":""chat.completion"",""created"":1795596673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.895,,MarianeAzar,20261125_084135,2026-11-25T08:51:14.795181+00:00
+59d5e33762f69fe6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who succeeded Joseph Stalin as General Secretary of the Communist Party of the Soviet Union?
+A. Boris Yeltsin
+B. Leonid Brezhnev
+C. Nikita Khrushchev
+D. Mikhail Gorbachev
+Answer:","[""Boris Yeltsin"", ""Leonid Brezhnev"", ""Nikita Khrushchev"", ""Mikhail Gorbachev""]",http,0.0,16,none,"{""id"":""chatcmpl-v3ojpu1lx4l3ke33okhkbu"",""object"":""chat.completion"",""created"":1795596674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T08:51:15.682542+00:00
+5207f7c20d3de593,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color/colour is a polar bear's skin?
+A. Black
+B. Pink
+C. Green
+D. White
+Answer:","[""Black"", ""Pink"", ""Green"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-1eav3689d4o78vdjtxw61b"",""object"":""chat.completion"",""created"":1795596675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:51:16.535452+00:00
+5207f7c20d3de593,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color/colour is a polar bear's skin?
+A. Black
+B. Pink
+C. Green
+D. White
+Answer:","[""Black"", ""Pink"", ""Green"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-fs14rkh7ij8hwszs07kj69"",""object"":""chat.completion"",""created"":1795596675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8664,,MarianeAzar,20261125_084135,2026-11-25T08:51:17.402172+00:00
+0edfc90f937da792,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Lord of the Rings: The Two Towers, where are the party of orcs taking the hobbits?
+A. Isengard
+B. Moria
+C. Rivendell
+D. Mordor
+Answer:","[""Isengard"", ""Moria"", ""Rivendell"", ""Mordor""]",http,0.0,16,none,"{""id"":""chatcmpl-ld118afpmwnjh61e60fc1"",""object"":""chat.completion"",""created"":1795596676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261125_084135,2026-11-25T08:51:18.268755+00:00
+0edfc90f937da792,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Lord of the Rings: The Two Towers, where are the party of orcs taking the hobbits?
+A. Isengard
+B. Moria
+C. Rivendell
+D. Mordor
+Answer:","[""Isengard"", ""Moria"", ""Rivendell"", ""Mordor""]",http,0.0,16,none,"{""id"":""chatcmpl-bcbkikey2un6wbld2kpph3"",""object"":""chat.completion"",""created"":1795596677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261125_084135,2026-11-25T08:51:19.150488+00:00
+15d1f6ca9459a66c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Division Bell"" is the final album of the progressive rock band Pink Floyd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fx7qwbn7k8tlbvzm2fwmvn"",""object"":""chat.completion"",""created"":1795596678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:51:20.000162+00:00
+15d1f6ca9459a66c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Division Bell"" is the final album of the progressive rock band Pink Floyd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fc30aznlwl6us060zb4w9f"",""object"":""chat.completion"",""created"":1795596679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8337,,MarianeAzar,20261125_084135,2026-11-25T08:51:20.834101+00:00
+6109cab79686c3b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The killer in the 1981 film 'My Bloody Valentine' wears what sort of outfit?
+A. Santa suit
+B. Clown costume
+C. Police uniform
+D. Mining gear
+Answer:","[""Santa suit"", ""Clown costume"", ""Police uniform"", ""Mining gear""]",http,0.0,16,none,"{""id"":""chatcmpl-g7pbkhxn9gtqjdpiut6rek"",""object"":""chat.completion"",""created"":1795596680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T08:51:21.686057+00:00
+6109cab79686c3b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The killer in the 1981 film 'My Bloody Valentine' wears what sort of outfit?
+A. Santa suit
+B. Clown costume
+C. Police uniform
+D. Mining gear
+Answer:","[""Santa suit"", ""Clown costume"", ""Police uniform"", ""Mining gear""]",http,0.0,16,none,"{""id"":""chatcmpl-fvzn1k2qrimqzid734d"",""object"":""chat.completion"",""created"":1795596681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261125_084135,2026-11-25T08:51:22.558415+00:00

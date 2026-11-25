@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e0b8d971e0fe0ab5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Japanese islands is the largest by area?
+A. Okinawa
+B. Shikoku
+C. Odaiba
+D. Iki
+Answer:","[""Okinawa"", ""Shikoku"", ""Odaiba"", ""Iki""]",http,0.0,16,none,"{""id"":""chatcmpl-5ho042yk44bv257i1f5pzt"",""object"":""chat.completion"",""created"":1795594690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2127,,MarianeAzar,20261125_084135,2026-11-25T08:18:12.159844+00:00
+522b46a4ab169565,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""K"" in ""K-Pop"" stands for which word?
+A. Kazakhstan
+B. Korean
+C. Kuwaiti
+D. Kenyan
+Answer:","[""Kazakhstan"", ""Korean"", ""Kuwaiti"", ""Kenyan""]",http,0.0,16,none,"{""id"":""chatcmpl-642v95g71g7n5bhmqpuzy"",""object"":""chat.completion"",""created"":1795594691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3112,,MarianeAzar,20261125_084135,2026-11-25T08:18:13.471381+00:00
+522b46a4ab169565,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""K"" in ""K-Pop"" stands for which word?
+A. Kazakhstan
+B. Korean
+C. Kuwaiti
+D. Kenyan
+Answer:","[""Kazakhstan"", ""Korean"", ""Kuwaiti"", ""Kenyan""]",http,0.0,16,none,"{""id"":""chatcmpl-m3un4sctol8rt8fxhfkfn"",""object"":""chat.completion"",""created"":1795594692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.908,,MarianeAzar,20261125_084135,2026-11-25T08:18:14.379548+00:00
+7841ce7acbf72b4c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Amsterdam Centraal station is twinned with what station?
+A. Frankfurt (Main) Hauptbahnhof
+B. Brussels Midi
+C. Paris Gare du Nord
+D. London Liverpool Street
+Answer:","[""Frankfurt (Main) Hauptbahnhof"", ""Brussels Midi"", ""Paris Gare du Nord"", ""London Liverpool Street""]",http,0.0,16,none,"{""id"":""chatcmpl-msowmhhlzy47g7h2zwjjs"",""object"":""chat.completion"",""created"":1795594693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9687,,MarianeAzar,20261125_084135,2026-11-25T08:18:15.348568+00:00
+7841ce7acbf72b4c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Amsterdam Centraal station is twinned with what station?
+A. Frankfurt (Main) Hauptbahnhof
+B. Brussels Midi
+C. Paris Gare du Nord
+D. London Liverpool Street
+Answer:","[""Frankfurt (Main) Hauptbahnhof"", ""Brussels Midi"", ""Paris Gare du Nord"", ""London Liverpool Street""]",http,0.0,16,none,"{""id"":""chatcmpl-f1eiaoix1ra65yh9qg7cse"",""object"":""chat.completion"",""created"":1795594694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3035,,MarianeAzar,20261125_084135,2026-11-25T08:18:16.652313+00:00
+0e03efd57688e9a2,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Greenland is covered with grass and Iceland covered with ice.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sjvvspo2c4w0mo18bc84"",""object"":""chat.completion"",""created"":1795594696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8806,,MarianeAzar,20261125_084135,2026-11-25T08:18:17.533776+00:00
+0e03efd57688e9a2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Greenland is covered with grass and Iceland covered with ice.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fqwz4sbyjajydra431ss"",""object"":""chat.completion"",""created"":1795594696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.191,,MarianeAzar,20261125_084135,2026-11-25T08:18:18.725003+00:00
+dd5eef7b3364f643,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries is within the Eurozone but outside of the Schengen Area?
+A. Cyprus
+B. Malta
+C. Greece
+D. Portugal
+Answer:","[""Cyprus"", ""Malta"", ""Greece"", ""Portugal""]",http,0.0,16,none,"{""id"":""chatcmpl-zk85gdpseif5h96lylq6pj"",""object"":""chat.completion"",""created"":1795594698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3167,,MarianeAzar,20261125_084135,2026-11-25T08:18:20.041997+00:00
+dd5eef7b3364f643,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries is within the Eurozone but outside of the Schengen Area?
+A. Cyprus
+B. Malta
+C. Greece
+D. Portugal
+Answer:","[""Cyprus"", ""Malta"", ""Greece"", ""Portugal""]",http,0.0,16,none,"{""id"":""chatcmpl-e2y15xure594w4gbivcqff"",""object"":""chat.completion"",""created"":1795594699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9551,,MarianeAzar,20261125_084135,2026-11-25T08:18:20.997596+00:00
+78a6472fbc3bde30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch,"" what is the hero McCree's full name?
+A. Jamison ""Deadeye"" Fawkes
+B. Jesse McCree
+C. Gabriel Reyes
+D. Jack ""McCree"" Morrison
+Answer:","[""Jamison \""Deadeye\"" Fawkes"", ""Jesse McCree"", ""Gabriel Reyes"", ""Jack \""McCree\"" Morrison""]",http,0.0,16,none,"{""id"":""chatcmpl-p92n0d0oyagps7mi6lxek"",""object"":""chat.completion"",""created"":1795594700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9523,,MarianeAzar,20261125_084135,2026-11-25T08:18:21.950247+00:00
+78a6472fbc3bde30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch,"" what is the hero McCree's full name?
+A. Jamison ""Deadeye"" Fawkes
+B. Jesse McCree
+C. Gabriel Reyes
+D. Jack ""McCree"" Morrison
+Answer:","[""Jamison \""Deadeye\"" Fawkes"", ""Jesse McCree"", ""Gabriel Reyes"", ""Jack \""McCree\"" Morrison""]",http,0.0,16,none,"{""id"":""chatcmpl-o7grspan45lpaox98tao8"",""object"":""chat.completion"",""created"":1795594701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4149,,MarianeAzar,20261125_084135,2026-11-25T08:18:23.365419+00:00
+e6672ea4f5f29de5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is ""James Rolfe"" better known as?
+A. PewDiePie
+B. The Angry Video Game Nerd
+C. TotalBiscuit
+D. PeanutButterGamer
+Answer:","[""PewDiePie"", ""The Angry Video Game Nerd"", ""TotalBiscuit"", ""PeanutButterGamer""]",http,0.0,16,none,"{""id"":""chatcmpl-30ahathfxcbtptiof1vwoo"",""object"":""chat.completion"",""created"":1795594702,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9383,,MarianeAzar,20261125_084135,2026-11-25T08:18:24.304016+00:00
+e6672ea4f5f29de5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is ""James Rolfe"" better known as?
+A. PewDiePie
+B. The Angry Video Game Nerd
+C. TotalBiscuit
+D. PeanutButterGamer
+Answer:","[""PewDiePie"", ""The Angry Video Game Nerd"", ""TotalBiscuit"", ""PeanutButterGamer""]",http,0.0,16,none,"{""id"":""chatcmpl-814nfeadwnnk1zctjeiuic"",""object"":""chat.completion"",""created"":1795594703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9516,,MarianeAzar,20261125_084135,2026-11-25T08:18:25.255947+00:00
+e52cda7c2214f519,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what is the name of the Pack-A-Punched Crossbow?
+A. Awful Lawton
+B. Longinus
+C. Predator
+D. V-R11
+Answer:","[""Awful Lawton"", ""Longinus"", ""Predator"", ""V-R11""]",http,0.0,16,none,"{""id"":""chatcmpl-2jsdh82h4cd1pvqbdfliln"",""object"":""chat.completion"",""created"":1795594704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4632,,MarianeAzar,20261125_084135,2026-11-25T08:18:26.719589+00:00
+e52cda7c2214f519,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what is the name of the Pack-A-Punched Crossbow?
+A. Awful Lawton
+B. Longinus
+C. Predator
+D. V-R11
+Answer:","[""Awful Lawton"", ""Longinus"", ""Predator"", ""V-R11""]",http,0.0,16,none,"{""id"":""chatcmpl-diif1nz2lqhukdke6g6r2n"",""object"":""chat.completion"",""created"":1795594706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1619,,MarianeAzar,20261125_084135,2026-11-25T08:18:27.881727+00:00
+70438fc7f5a2ad54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Halo"" franchise, in what country is New Mombasa?
+A. Kenya
+B. Turkey
+C. Slovakia
+D. India
+Answer:","[""Kenya"", ""Turkey"", ""Slovakia"", ""India""]",http,0.0,16,none,"{""id"":""chatcmpl-9t3ycixt1jepubdawlu4pc"",""object"":""chat.completion"",""created"":1795594707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9483,,MarianeAzar,20261125_084135,2026-11-25T08:18:28.830366+00:00
+70438fc7f5a2ad54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Halo"" franchise, in what country is New Mombasa?
+A. Kenya
+B. Turkey
+C. Slovakia
+D. India
+Answer:","[""Kenya"", ""Turkey"", ""Slovakia"", ""India""]",http,0.0,16,none,"{""id"":""chatcmpl-epdmxfq0hvchepg04trrkw"",""object"":""chat.completion"",""created"":1795594708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9427,,MarianeAzar,20261125_084135,2026-11-25T08:18:29.773266+00:00
+bbf1eee8f35cdb22,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Perk-A-Cola"" in ""Call Of Duty: Zombies"" was ""reworked"" in ""Call of Duty: Black Ops II""?
+A. Juggernog
+B. Mule Kick
+C. Who's Who
+D. Double Tap Root Beer
+Answer:","[""Juggernog"", ""Mule Kick"", ""Who's Who"", ""Double Tap Root Beer""]",http,0.0,16,none,"{""id"":""chatcmpl-in60ljpoh78form5vprsur"",""object"":""chat.completion"",""created"":1795594709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4035,,MarianeAzar,20261125_084135,2026-11-25T08:18:31.177239+00:00
+bbf1eee8f35cdb22,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Perk-A-Cola"" in ""Call Of Duty: Zombies"" was ""reworked"" in ""Call of Duty: Black Ops II""?
+A. Juggernog
+B. Mule Kick
+C. Who's Who
+D. Double Tap Root Beer
+Answer:","[""Juggernog"", ""Mule Kick"", ""Who's Who"", ""Double Tap Root Beer""]",http,0.0,16,none,"{""id"":""chatcmpl-eitnjak2ddebsfyox3mxa"",""object"":""chat.completion"",""created"":1795594710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9704,,MarianeAzar,20261125_084135,2026-11-25T08:18:32.147920+00:00
+894aa6ae3641928c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is used to show that Earth spins on an axis?
+A. Polaris
+B. Foucault Pendulum
+C. Sundial
+D. Tectonic Plates
+Answer:","[""Polaris"", ""Foucault Pendulum"", ""Sundial"", ""Tectonic Plates""]",http,0.0,16,none,"{""id"":""chatcmpl-z0tg4ttc9rp0jcjm437b14"",""object"":""chat.completion"",""created"":1795594711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9867,,MarianeAzar,20261125_084135,2026-11-25T08:18:33.135140+00:00
+894aa6ae3641928c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is used to show that Earth spins on an axis?
+A. Polaris
+B. Foucault Pendulum
+C. Sundial
+D. Tectonic Plates
+Answer:","[""Polaris"", ""Foucault Pendulum"", ""Sundial"", ""Tectonic Plates""]",http,0.0,16,none,"{""id"":""chatcmpl-kyh9s2n53hml0zdpz460d"",""object"":""chat.completion"",""created"":1795594712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3032,,MarianeAzar,20261125_084135,2026-11-25T08:18:34.438572+00:00
+70197e4c9b528e7d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?
+A. Canids
+B. Hominids
+C. Felids
+D. Cervids
+Answer:","[""Canids"", ""Hominids"", ""Felids"", ""Cervids""]",http,0.0,16,none,"{""id"":""chatcmpl-zd2x9dr8rkhvdxer26dxn"",""object"":""chat.completion"",""created"":1795594713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9447,,MarianeAzar,20261125_084135,2026-11-25T08:18:35.383945+00:00
+70197e4c9b528e7d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?
+A. Canids
+B. Hominids
+C. Felids
+D. Cervids
+Answer:","[""Canids"", ""Hominids"", ""Felids"", ""Cervids""]",http,0.0,16,none,"{""id"":""chatcmpl-flj4v4w5bvrl866n4aw5li"",""object"":""chat.completion"",""created"":1795594714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2509,,MarianeAzar,20261125_084135,2026-11-25T08:18:36.635103+00:00
+5fdb13fedbbef643,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following computer components can be built using only NAND gates?
+A. ALU
+B. Register
+C. CPU
+D. RAM
+Answer:","[""ALU"", ""Register"", ""CPU"", ""RAM""]",http,0.0,16,none,"{""id"":""chatcmpl-v7vxcdti2eiu96x01pool"",""object"":""chat.completion"",""created"":1795594716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3101,,MarianeAzar,20261125_084135,2026-11-25T08:18:37.945531+00:00
+5fdb13fedbbef643,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following computer components can be built using only NAND gates?
+A. ALU
+B. Register
+C. CPU
+D. RAM
+Answer:","[""ALU"", ""Register"", ""CPU"", ""RAM""]",http,0.0,16,none,"{""id"":""chatcmpl-s9k8iijy9mcbgvngrzgn"",""object"":""chat.completion"",""created"":1795594717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0205,,MarianeAzar,20261125_084135,2026-11-25T08:18:38.966312+00:00

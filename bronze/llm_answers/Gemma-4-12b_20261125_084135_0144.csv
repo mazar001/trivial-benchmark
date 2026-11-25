@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+427dd80ec2bca74d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the NBC show Community, whose catch-phrase was ""Pop! Pop!""?
+A. Star Burns
+B. Magnitude
+C. Senoir Chang
+D. Leonard
+Answer:","[""Star Burns"", ""Magnitude"", ""Senoir Chang"", ""Leonard""]",http,0.0,16,none,"{""id"":""chatcmpl-bl6m724ynxar1et5zjoyza"",""object"":""chat.completion"",""created"":1795595979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T08:39:40.645593+00:00
+427dd80ec2bca74d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the NBC show Community, whose catch-phrase was ""Pop! Pop!""?
+A. Star Burns
+B. Magnitude
+C. Senoir Chang
+D. Leonard
+Answer:","[""Star Burns"", ""Magnitude"", ""Senoir Chang"", ""Leonard""]",http,0.0,16,none,"{""id"":""chatcmpl-o7bao7tnuxi54phgur50o"",""object"":""chat.completion"",""created"":1795595980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T08:39:41.512825+00:00
+d35f2bb7ee37ed6f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a real Pokémon?
+A. Mandibuzz
+B. Araquanid
+C. Luminid
+D. Dragalge
+Answer:","[""Mandibuzz"", ""Araquanid"", ""Luminid"", ""Dragalge""]",http,0.0,16,none,"{""id"":""chatcmpl-65ehmvm3pjqthbwh1d747"",""object"":""chat.completion"",""created"":1795595980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:39:42.377544+00:00
+d35f2bb7ee37ed6f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a real Pokémon?
+A. Mandibuzz
+B. Araquanid
+C. Luminid
+D. Dragalge
+Answer:","[""Mandibuzz"", ""Araquanid"", ""Luminid"", ""Dragalge""]",http,0.0,16,none,"{""id"":""chatcmpl-i7lj7b3o8v4ediypty30c"",""object"":""chat.completion"",""created"":1795595981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T08:39:43.246224+00:00
+82d3c29cbe27ffd3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1984 movie ""The Terminator"", what model number is the Terminator portrayed by Arnold Schwarzenegger?
+A. T-1000
+B. T-888
+C. I-950
+D. T-800
+Answer:","[""T-1000"", ""T-888"", ""I-950"", ""T-800""]",http,0.0,16,none,"{""id"":""chatcmpl-7imb3u7fillu1iiohbf54c"",""object"":""chat.completion"",""created"":1795595982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8776,,MarianeAzar,20261125_084135,2026-11-25T08:39:44.124208+00:00
+82d3c29cbe27ffd3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1984 movie ""The Terminator"", what model number is the Terminator portrayed by Arnold Schwarzenegger?
+A. T-1000
+B. T-888
+C. I-950
+D. T-800
+Answer:","[""T-1000"", ""T-888"", ""I-950"", ""T-800""]",http,0.0,16,none,"{""id"":""chatcmpl-b2wj83ib2qghfuf4b3cx5"",""object"":""chat.completion"",""created"":1795595983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9058,,MarianeAzar,20261125_084135,2026-11-25T08:39:45.030256+00:00
+a99044988c9a280c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are human nails made of?
+A. Keratin
+B. Calcium
+C. Bone
+D. Chitin
+Answer:","[""Keratin"", ""Calcium"", ""Bone"", ""Chitin""]",http,0.0,16,none,"{""id"":""chatcmpl-p6rqy8fdzmsi1w42811eq"",""object"":""chat.completion"",""created"":1795595984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261125_084135,2026-11-25T08:39:45.911998+00:00
+a99044988c9a280c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are human nails made of?
+A. Keratin
+B. Calcium
+C. Bone
+D. Chitin
+Answer:","[""Keratin"", ""Calcium"", ""Bone"", ""Chitin""]",http,0.0,16,none,"{""id"":""chatcmpl-m2gm82plydbhqggj0f7thb"",""object"":""chat.completion"",""created"":1795595985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T08:39:46.767431+00:00
+699f81c23c68e790,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse Mythology, what is the name of the symbol commonly referred to as the ""Tree of Life""?
+A. Ymir
+B. Tree of the Earth
+C. Odin's Roots
+D. Yggdrasil
+Answer:","[""Ymir"", ""Tree of the Earth"", ""Odin's Roots"", ""Yggdrasil""]",http,0.0,16,none,"{""id"":""chatcmpl-ydpaswl6avn1rzxwzqb1"",""object"":""chat.completion"",""created"":1795595986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8558,,MarianeAzar,20261125_084135,2026-11-25T08:39:47.623502+00:00
+699f81c23c68e790,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Norse Mythology, what is the name of the symbol commonly referred to as the ""Tree of Life""?
+A. Ymir
+B. Tree of the Earth
+C. Odin's Roots
+D. Yggdrasil
+Answer:","[""Ymir"", ""Tree of the Earth"", ""Odin's Roots"", ""Yggdrasil""]",http,0.0,16,none,"{""id"":""chatcmpl-bju9nfbyklet1z5ds5gvqb"",""object"":""chat.completion"",""created"":1795595987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8944,,MarianeAzar,20261125_084135,2026-11-25T08:39:48.518140+00:00
+effcdbfb90a12897,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The term ""Spam"" came before the food product ""Spam"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-70vl68wg0a88bv52oouiv6"",""object"":""chat.completion"",""created"":1795595987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.822,,MarianeAzar,20261125_084135,2026-11-25T08:39:49.340486+00:00
+effcdbfb90a12897,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The term ""Spam"" came before the food product ""Spam"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bwub4gzxeeqxuvsstvab4"",""object"":""chat.completion"",""created"":1795595988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8276,,MarianeAzar,20261125_084135,2026-11-25T08:39:50.168245+00:00
+13b37760f04a65b8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: California is larger than Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-64ec2oxkgim6hco372sigg"",""object"":""chat.completion"",""created"":1795595989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7821,,MarianeAzar,20261125_084135,2026-11-25T08:39:50.950521+00:00
+13b37760f04a65b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: California is larger than Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gbpwz4aw29jb6kf9e5wvf"",""object"":""chat.completion"",""created"":1795595990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.815,,MarianeAzar,20261125_084135,2026-11-25T08:39:51.765732+00:00
+8b2666a82eac523a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic Disneyland attraction was closed in 2017 to be remodeled as a ""Guardians of the Galaxy"" themed ride?
+A. The Haunted Mansion
+B. Pirates of the Caribbean
+C. Twilight Zone Tower of Terror
+D. Peter Pan's Flight
+Answer:","[""The Haunted Mansion"", ""Pirates of the Caribbean"", ""Twilight Zone Tower of Terror"", ""Peter Pan's Flight""]",http,0.0,16,none,"{""id"":""chatcmpl-aooueet9buqbmcwwp4vsi"",""object"":""chat.completion"",""created"":1795595991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8912,,MarianeAzar,20261125_084135,2026-11-25T08:39:52.657214+00:00
+8b2666a82eac523a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic Disneyland attraction was closed in 2017 to be remodeled as a ""Guardians of the Galaxy"" themed ride?
+A. The Haunted Mansion
+B. Pirates of the Caribbean
+C. Twilight Zone Tower of Terror
+D. Peter Pan's Flight
+Answer:","[""The Haunted Mansion"", ""Pirates of the Caribbean"", ""Twilight Zone Tower of Terror"", ""Peter Pan's Flight""]",http,0.0,16,none,"{""id"":""chatcmpl-bo7556jpjzgwd6r75oxog"",""object"":""chat.completion"",""created"":1795595992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9052,,MarianeAzar,20261125_084135,2026-11-25T08:39:53.562706+00:00
+f82af6191125b4e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Japanese islands is the biggest?
+A. Kyushu
+B. Honshu
+C. Hokkaido
+D. Shikoku
+Answer:","[""Kyushu"", ""Honshu"", ""Hokkaido"", ""Shikoku""]",http,0.0,16,none,"{""id"":""chatcmpl-akpxwpm41nfbn7wl27f1dk"",""object"":""chat.completion"",""created"":1795595992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8846,,MarianeAzar,20261125_084135,2026-11-25T08:39:54.447760+00:00
+f82af6191125b4e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Japanese islands is the biggest?
+A. Kyushu
+B. Honshu
+C. Hokkaido
+D. Shikoku
+Answer:","[""Kyushu"", ""Honshu"", ""Hokkaido"", ""Shikoku""]",http,0.0,16,none,"{""id"":""chatcmpl-mplhukcdqxcv00b8e46kr"",""object"":""chat.completion"",""created"":1795595993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:39:55.312469+00:00
+6ab69e7a332534d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first recorded object to ever reach space?
+A. American Manhole Cover
+B. Bumper-WAC
+C. Sputnik I
+D. Sputnik II
+Answer:","[""American Manhole Cover"", ""Bumper-WAC"", ""Sputnik I"", ""Sputnik II""]",http,0.0,16,none,"{""id"":""chatcmpl-1wb6n7ztak2vvawsbgy12e"",""object"":""chat.completion"",""created"":1795595994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8911,,MarianeAzar,20261125_084135,2026-11-25T08:39:56.203813+00:00
+6ab69e7a332534d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first recorded object to ever reach space?
+A. American Manhole Cover
+B. Bumper-WAC
+C. Sputnik I
+D. Sputnik II
+Answer:","[""American Manhole Cover"", ""Bumper-WAC"", ""Sputnik I"", ""Sputnik II""]",http,0.0,16,none,"{""id"":""chatcmpl-3yfa6cuf6lnjyw3b89ldrs"",""object"":""chat.completion"",""created"":1795595995,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T08:39:57.068877+00:00
+e6a35484d2d2a135,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Cook, Serve, Delicious!, which food is NOT included in the game?
+A. Lasagna
+B. Shish Kabob
+C. Pie
+D. Hamburger
+Answer:","[""Lasagna"", ""Shish Kabob"", ""Pie"", ""Hamburger""]",http,0.0,16,none,"{""id"":""chatcmpl-jzkofzqdezcffls11tgmlb"",""object"":""chat.completion"",""created"":1795595996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8987,,MarianeAzar,20261125_084135,2026-11-25T08:39:57.967886+00:00
+e6a35484d2d2a135,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Cook, Serve, Delicious!, which food is NOT included in the game?
+A. Lasagna
+B. Shish Kabob
+C. Pie
+D. Hamburger
+Answer:","[""Lasagna"", ""Shish Kabob"", ""Pie"", ""Hamburger""]",http,0.0,16,none,"{""id"":""chatcmpl-t49ipnnowarppsbv52434i"",""object"":""chat.completion"",""created"":1795595997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261125_084135,2026-11-25T08:39:58.835951+00:00
+15029e0aac4a800f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the 15th letter of the Greek alphabet?
+A. Sigma (Σ)
+B. Nu (Ν)
+C. Pi (Π)
+D. Omicron (Ο)
+Answer:","[""Sigma (Σ)"", ""Nu (Ν)"", ""Pi (Π)"", ""Omicron (Ο)""]",http,0.0,16,none,"{""id"":""chatcmpl-n96dapp4hm7kn3yi4v1ds"",""object"":""chat.completion"",""created"":1795595998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:39:59.695497+00:00
+15029e0aac4a800f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the 15th letter of the Greek alphabet?
+A. Sigma (Σ)
+B. Nu (Ν)
+C. Pi (Π)
+D. Omicron (Ο)
+Answer:","[""Sigma (Σ)"", ""Nu (Ν)"", ""Pi (Π)"", ""Omicron (Ο)""]",http,0.0,16,none,"{""id"":""chatcmpl-djewnl0losp0bzf4yqpt"",""object"":""chat.completion"",""created"":1795595999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8745,,MarianeAzar,20261125_084135,2026-11-25T08:40:00.570251+00:00
+5a4a8f3e232296bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Alan Reed is known for providing the voice of which character?
+A. Bugs Bunny
+B. Fangface
+C. G.I. Joe
+D. Fred Flintstone
+Answer:","[""Bugs Bunny"", ""Fangface"", ""G.I. Joe"", ""Fred Flintstone""]",http,0.0,16,none,"{""id"":""chatcmpl-g5sc54p5elwbqmvagpksac"",""object"":""chat.completion"",""created"":1795595999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T08:40:01.425339+00:00

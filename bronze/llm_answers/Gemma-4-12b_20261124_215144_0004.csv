@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+078eb50c9c32569f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of dog is 'Handsome Dan', the mascot of Yale University?
+A. Bulldog
+B. Pug
+C. Yorkshire Terrier
+D. Boxer
+Answer:","[""Bulldog"", ""Pug"", ""Yorkshire Terrier"", ""Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-e3ji6f3plw9om4whw8wmh"",""object"":""chat.completion"",""created"":1795553619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1221,,MarianeAzar,20261124_215144,2026-11-24T20:53:41.093297+00:00
+078eb50c9c32569f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of dog is 'Handsome Dan', the mascot of Yale University?
+A. Bulldog
+B. Pug
+C. Yorkshire Terrier
+D. Boxer
+Answer:","[""Bulldog"", ""Pug"", ""Yorkshire Terrier"", ""Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-xqlpujxplotxtbzkn8tkf"",""object"":""chat.completion"",""created"":1795553621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9626,,MarianeAzar,20261124_215144,2026-11-24T20:53:42.056193+00:00
+7debcacfb5a1f1d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country is located the municipality of Arteijo?
+A. Belgium
+B. Morocco
+C. France
+D. Spain
+Answer:","[""Belgium"", ""Morocco"", ""France"", ""Spain""]",http,0.0,16,none,"{""id"":""chatcmpl-cf6xcnh039vmx6jtt70x8k"",""object"":""chat.completion"",""created"":1795553621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2158,,MarianeAzar,20261124_215144,2026-11-24T20:53:43.272287+00:00
+7debcacfb5a1f1d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country is located the municipality of Arteijo?
+A. Belgium
+B. Morocco
+C. France
+D. Spain
+Answer:","[""Belgium"", ""Morocco"", ""France"", ""Spain""]",http,0.0,16,none,"{""id"":""chatcmpl-e17z24shrxioktmyjwax8"",""object"":""chat.completion"",""created"":1795553623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2798,,MarianeAzar,20261124_215144,2026-11-24T20:53:44.552501+00:00
+b18b315db4b26bb4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the bloodiest single-day battle during the American Civil War?
+A. The Siege of Vicksburg
+B. The Battle of Gettysburg
+C. The Battle of Antietam
+D. The Battles of Chancellorsville
+Answer:","[""The Siege of Vicksburg"", ""The Battle of Gettysburg"", ""The Battle of Antietam"", ""The Battles of Chancellorsville""]",http,0.0,16,none,"{""id"":""chatcmpl-qovi0y7bbb8bf3lkggsrd9"",""object"":""chat.completion"",""created"":1795553624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9438,,MarianeAzar,20261124_215144,2026-11-24T20:53:45.496595+00:00
+b18b315db4b26bb4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the bloodiest single-day battle during the American Civil War?
+A. The Siege of Vicksburg
+B. The Battle of Gettysburg
+C. The Battle of Antietam
+D. The Battles of Chancellorsville
+Answer:","[""The Siege of Vicksburg"", ""The Battle of Gettysburg"", ""The Battle of Antietam"", ""The Battles of Chancellorsville""]",http,0.0,16,none,"{""id"":""chatcmpl-77mx3cjns05zc14ommpbl"",""object"":""chat.completion"",""created"":1795553625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2318,,MarianeAzar,20261124_215144,2026-11-24T20:53:46.728605+00:00
+8848457b358d316e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", Coalescence is the name for the ultimate of which hero?
+A. Symmetra
+B. Zenyatta
+C. Moira
+D. Torbjorn
+Answer:","[""Symmetra"", ""Zenyatta"", ""Moira"", ""Torbjorn""]",http,0.0,16,none,"{""id"":""chatcmpl-uvfqy5cbbazif0wljy8n"",""object"":""chat.completion"",""created"":1795553626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1946,,MarianeAzar,20261124_215144,2026-11-24T20:53:47.923448+00:00
+8848457b358d316e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", Coalescence is the name for the ultimate of which hero?
+A. Symmetra
+B. Zenyatta
+C. Moira
+D. Torbjorn
+Answer:","[""Symmetra"", ""Zenyatta"", ""Moira"", ""Torbjorn""]",http,0.0,16,none,"{""id"":""chatcmpl-013yuq432ymrur9qcw8bb"",""object"":""chat.completion"",""created"":1795553627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9536,,MarianeAzar,20261124_215144,2026-11-24T20:53:48.877338+00:00
+c4d23f42c62dd398,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car is the first mass-produced hybrid vehicle?
+A. Peugeot 308 R HYbrid
+B. Toyota Prius
+C. Chevrolet Volt
+D. Honda Fit
+Answer:","[""Peugeot 308 R HYbrid"", ""Toyota Prius"", ""Chevrolet Volt"", ""Honda Fit""]",http,0.0,16,none,"{""id"":""chatcmpl-ccychpsxzods5v1uxjg0nc"",""object"":""chat.completion"",""created"":1795553628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4532,,MarianeAzar,20261124_215144,2026-11-24T20:53:50.330828+00:00
+c4d23f42c62dd398,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car is the first mass-produced hybrid vehicle?
+A. Peugeot 308 R HYbrid
+B. Toyota Prius
+C. Chevrolet Volt
+D. Honda Fit
+Answer:","[""Peugeot 308 R HYbrid"", ""Toyota Prius"", ""Chevrolet Volt"", ""Honda Fit""]",http,0.0,16,none,"{""id"":""chatcmpl-yl97wqfsxy5y4c05wd9gd"",""object"":""chat.completion"",""created"":1795553630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9575,,MarianeAzar,20261124_215144,2026-11-24T20:53:51.288572+00:00
+0255c0d6b223e3db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was featured in the song ""Words"" by Feint?
+A. Danyka Nadeau
+B. Laura Brehm
+C. Anna Yvette
+D. Veela
+Answer:","[""Danyka Nadeau"", ""Laura Brehm"", ""Anna Yvette"", ""Veela""]",http,0.0,16,none,"{""id"":""chatcmpl-bu050e8x7gln8e0jmt4brf"",""object"":""chat.completion"",""created"":1795553631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9438,,MarianeAzar,20261124_215144,2026-11-24T20:53:52.233182+00:00
+0255c0d6b223e3db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was featured in the song ""Words"" by Feint?
+A. Danyka Nadeau
+B. Laura Brehm
+C. Anna Yvette
+D. Veela
+Answer:","[""Danyka Nadeau"", ""Laura Brehm"", ""Anna Yvette"", ""Veela""]",http,0.0,16,none,"{""id"":""chatcmpl-lyd3bjxbih27y52ivf5br"",""object"":""chat.completion"",""created"":1795553632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5578,,MarianeAzar,20261124_215144,2026-11-24T20:53:53.791267+00:00
+ee4a5cc912d3cefb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the browser game Kantai Collection heavily inspired by?
+A. Manga
+B. World of Warcraft
+C. An Anime
+D. Second World War
+Answer:","[""Manga"", ""World of Warcraft"", ""An Anime"", ""Second World War""]",http,0.0,16,none,"{""id"":""chatcmpl-dxl4664oz6egmi52k966ou"",""object"":""chat.completion"",""created"":1795553633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9437,,MarianeAzar,20261124_215144,2026-11-24T20:53:54.735148+00:00
+ee4a5cc912d3cefb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the browser game Kantai Collection heavily inspired by?
+A. Manga
+B. World of Warcraft
+C. An Anime
+D. Second World War
+Answer:","[""Manga"", ""World of Warcraft"", ""An Anime"", ""Second World War""]",http,0.0,16,none,"{""id"":""chatcmpl-z3xwxajpsc5wyclz63p5u"",""object"":""chat.completion"",""created"":1795553634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9456,,MarianeAzar,20261124_215144,2026-11-24T20:53:55.681078+00:00
+1f773afc5a2db52a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: AMD created the first consumer 64-bit processor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xbha71inirqcdmpg9i7bk"",""object"":""chat.completion"",""created"":1795553635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3271,,MarianeAzar,20261124_215144,2026-11-24T20:53:57.008332+00:00
+1f773afc5a2db52a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: AMD created the first consumer 64-bit processor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xfbhlftsd6ndu7jtdhnsu"",""object"":""chat.completion"",""created"":1795553636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8997,,MarianeAzar,20261124_215144,2026-11-24T20:53:57.908207+00:00
+d85a417e969eb060,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Neil Armstrong and Buzz Aldrin land on the moon?
+A. 1973
+B. 1965
+C. 1966
+D. 1969
+Answer:","[""1973"", ""1965"", ""1966"", ""1969""]",http,0.0,16,none,"{""id"":""chatcmpl-jgk88hh90nk7kqsslt4hs"",""object"":""chat.completion"",""created"":1795553637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9469,,MarianeAzar,20261124_215144,2026-11-24T20:53:58.855261+00:00
+d85a417e969eb060,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Neil Armstrong and Buzz Aldrin land on the moon?
+A. 1973
+B. 1965
+C. 1966
+D. 1969
+Answer:","[""1973"", ""1965"", ""1966"", ""1969""]",http,0.0,16,none,"{""id"":""chatcmpl-7fnt1il7x2kdrwrwvii2b"",""object"":""chat.completion"",""created"":1795553638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3366,,MarianeAzar,20261124_215144,2026-11-24T20:54:00.192072+00:00
+0afb79f70bc472cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the code name for the ""Nintendo Gamecube""?
+A. Nitro
+B. Revolution
+C. Dolphin
+D. Atlantis
+Answer:","[""Nitro"", ""Revolution"", ""Dolphin"", ""Atlantis""]",http,0.0,16,none,"{""id"":""chatcmpl-eo16nwknamcbix5a805p7t"",""object"":""chat.completion"",""created"":1795553640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9722,,MarianeAzar,20261124_215144,2026-11-24T20:54:01.164485+00:00
+0afb79f70bc472cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the code name for the ""Nintendo Gamecube""?
+A. Nitro
+B. Revolution
+C. Dolphin
+D. Atlantis
+Answer:","[""Nitro"", ""Revolution"", ""Dolphin"", ""Atlantis""]",http,0.0,16,none,"{""id"":""chatcmpl-0hmwtpyy4iyuj9m08qqhdi"",""object"":""chat.completion"",""created"":1795553641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.202,,MarianeAzar,20261124_215144,2026-11-24T20:54:02.366746+00:00
+511f49ae5e99ca41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Dark Souls"" series does the player play as the ""Ashen One""?
+A. Dark Souls I
+B. Dark Souls III
+C. Demon Souls
+D. Bloodborne
+Answer:","[""Dark Souls I"", ""Dark Souls III"", ""Demon Souls"", ""Bloodborne""]",http,0.0,16,none,"{""id"":""chatcmpl-r5zz6p6z2acml6x03dvtro"",""object"":""chat.completion"",""created"":1795553642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1531,,MarianeAzar,20261124_215144,2026-11-24T20:54:03.520558+00:00
+511f49ae5e99ca41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Dark Souls"" series does the player play as the ""Ashen One""?
+A. Dark Souls I
+B. Dark Souls III
+C. Demon Souls
+D. Bloodborne
+Answer:","[""Dark Souls I"", ""Dark Souls III"", ""Demon Souls"", ""Bloodborne""]",http,0.0,16,none,"{""id"":""chatcmpl-myd22inn7f8jcoev17nb3"",""object"":""chat.completion"",""created"":1795553643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1268,,MarianeAzar,20261124_215144,2026-11-24T20:54:04.647539+00:00
+9c333da6c0ef4d46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Mudokons are rescuable in ""Oddworld: New 'N' Tasty""?
+A. 301
+B. 300
+C. 50
+D. 299
+Answer:","[""301"", ""300"", ""50"", ""299""]",http,0.0,16,none,"{""id"":""chatcmpl-hq88n6znm679v6ottvugu"",""object"":""chat.completion"",""created"":1795553644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3139,,MarianeAzar,20261124_215144,2026-11-24T20:54:05.961625+00:00
+9c333da6c0ef4d46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Mudokons are rescuable in ""Oddworld: New 'N' Tasty""?
+A. 301
+B. 300
+C. 50
+D. 299
+Answer:","[""301"", ""300"", ""50"", ""299""]",http,0.0,16,none,"{""id"":""chatcmpl-ls3w4d73qx81hmqx8fz6ii"",""object"":""chat.completion"",""created"":1795553645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0461,,MarianeAzar,20261124_215144,2026-11-24T20:54:07.007968+00:00
+32ec85ce05db1e6b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which classic horror character killed Elizabeth Lavenza?
+A. Frankenstein's Monster
+B. Werewolf
+C. Count Dracula
+D. The Creature from the Black Lagoon
+Answer:","[""Frankenstein's Monster"", ""Werewolf"", ""Count Dracula"", ""The Creature from the Black Lagoon""]",http,0.0,16,none,"{""id"":""chatcmpl-v80jv6wuhilhwa4wczqptk"",""object"":""chat.completion"",""created"":1795553646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9401,,MarianeAzar,20261124_215144,2026-11-24T20:54:07.948321+00:00

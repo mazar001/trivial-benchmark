@@ -1,0 +1,76 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e0bffe32b5a71bfc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?
+A. 2 Months
+B. 1 Week
+C. 3 Weeks
+D. 1 Month
+Answer:","[""2 Months"", ""1 Week"", ""3 Weeks"", ""1 Month""]",http,0.0,16,none,"{""id"":""chatcmpl-i8ntpudnz4dp6w68hx6o08"",""object"":""chat.completion"",""created"":1795553169,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1717,,MarianeAzar,20261124_214609,2026-11-24T20:46:10.326808+00:00
+e0bffe32b5a71bfc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long did it take the motorized window washers of the original World Trade Center to clean the entire exterior of the building?
+A. 2 Months
+B. 1 Week
+C. 3 Weeks
+D. 1 Month
+Answer:","[""2 Months"", ""1 Week"", ""3 Weeks"", ""1 Month""]",http,0.0,16,none,"{""id"":""chatcmpl-2i61hjze8twk7yanoswouq"",""object"":""chat.completion"",""created"":1795553170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5587,,MarianeAzar,20261124_214609,2026-11-24T20:46:11.885744+00:00
+2261cc29c828bdfe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the title of Sakamoto Kyu's song ""Ue o Muite Arukou"" (I Look Up As I Walk) changed to in the United States?
+A. Sukiyaki
+B. Oden
+C. Sushi
+D. Takoyaki
+Answer:","[""Sukiyaki"", ""Oden"", ""Sushi"", ""Takoyaki""]",http,0.0,16,none,"{""id"":""chatcmpl-dnv1d9943z1hbwj79x6ak"",""object"":""chat.completion"",""created"":1795553171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9833,,MarianeAzar,20261124_214609,2026-11-24T20:46:12.869717+00:00
+2261cc29c828bdfe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the title of Sakamoto Kyu's song ""Ue o Muite Arukou"" (I Look Up As I Walk) changed to in the United States?
+A. Sukiyaki
+B. Oden
+C. Sushi
+D. Takoyaki
+Answer:","[""Sukiyaki"", ""Oden"", ""Sushi"", ""Takoyaki""]",http,0.0,16,none,"{""id"":""chatcmpl-njn76ozf9dg5cecb7tapt"",""object"":""chat.completion"",""created"":1795553172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3225,,MarianeAzar,20261124_214609,2026-11-24T20:46:14.192540+00:00
+6dbec5c2403b97cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the video game publisher ""Ubisoft"" founded ?
+A. April 1990
+B. March 1986
+C. August 1956
+D. June 2001
+Answer:","[""April 1990"", ""March 1986"", ""August 1956"", ""June 2001""]",http,0.0,16,none,"{""id"":""chatcmpl-u8x02j39jd9xgqgjlh7dqb"",""object"":""chat.completion"",""created"":1795553174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3662,,MarianeAzar,20261124_214609,2026-11-24T20:46:15.559150+00:00
+6dbec5c2403b97cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the video game publisher ""Ubisoft"" founded ?
+A. April 1990
+B. March 1986
+C. August 1956
+D. June 2001
+Answer:","[""April 1990"", ""March 1986"", ""August 1956"", ""June 2001""]",http,0.0,16,none,"{""id"":""chatcmpl-vsadeon4d1jvm96lu7apa"",""object"":""chat.completion"",""created"":1795553175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.056,,MarianeAzar,20261124_214609,2026-11-24T20:46:16.615564+00:00
+9470dbf56353c092,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the United States Constitution, how old must a person be to be elected President of the United States?
+A. 40
+B. 35
+C. 45
+D. 30
+Answer:","[""40"", ""35"", ""45"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-bw0mwvax5evsdxwarmejkr"",""object"":""chat.completion"",""created"":1795553176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9675,,MarianeAzar,20261124_214609,2026-11-24T20:46:17.583510+00:00
+9470dbf56353c092,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the United States Constitution, how old must a person be to be elected President of the United States?
+A. 40
+B. 35
+C. 45
+D. 30
+Answer:","[""40"", ""35"", ""45"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-3ixtix6hwucqtiqzpqei"",""object"":""chat.completion"",""created"":1795553177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4329,,MarianeAzar,20261124_214609,2026-11-24T20:46:19.016915+00:00
+09699a5619401d47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Inuyasha"", what are the heros are looking to collect?
+A. Rave Stones
+B. Dragon Balls
+C. Jewel Shards
+D. Sacred Stones
+Answer:","[""Rave Stones"", ""Dragon Balls"", ""Jewel Shards"", ""Sacred Stones""]",http,0.0,16,none,"{""id"":""chatcmpl-bilftgrubcqfjorta8jmns"",""object"":""chat.completion"",""created"":1795553178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9636,,MarianeAzar,20261124_214609,2026-11-24T20:46:19.980896+00:00
+09699a5619401d47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Inuyasha"", what are the heros are looking to collect?
+A. Rave Stones
+B. Dragon Balls
+C. Jewel Shards
+D. Sacred Stones
+Answer:","[""Rave Stones"", ""Dragon Balls"", ""Jewel Shards"", ""Sacred Stones""]",http,0.0,16,none,"{""id"":""chatcmpl-tv14scyc0jsa7l8kt05ir"",""object"":""chat.completion"",""created"":1795553179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9926,,MarianeAzar,20261124_214609,2026-11-24T20:46:20.973868+00:00

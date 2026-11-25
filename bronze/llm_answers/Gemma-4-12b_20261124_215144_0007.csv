@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1abf3b7584bbaa59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Pizza Tower"", what is the protagonist's name?
+A. Pastachio
+B. Pepper
+C. Peppino
+D. Spinachio
+Answer:","[""Pastachio"", ""Pepper"", ""Peppino"", ""Spinachio""]",http,0.0,16,none,"{""id"":""chatcmpl-m93ccnauw1my0xmdggzf4a"",""object"":""chat.completion"",""created"":1795553705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9498,,MarianeAzar,20261124_215144,2026-11-24T20:55:06.374007+00:00
+ab3a433a4769ae5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many points did LeBron James score in his first NBA game?
+A. 41
+B. 19
+C. 69
+D. 25
+Answer:","[""41"", ""19"", ""69"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-4krieu6zra9taoo1ic0moc"",""object"":""chat.completion"",""created"":1795553706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4608,,MarianeAzar,20261124_215144,2026-11-24T20:55:07.835147+00:00
+ab3a433a4769ae5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many points did LeBron James score in his first NBA game?
+A. 41
+B. 19
+C. 69
+D. 25
+Answer:","[""41"", ""19"", ""69"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-mrqk3i628yngj71o8ejqf"",""object"":""chat.completion"",""created"":1795553707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0161,,MarianeAzar,20261124_215144,2026-11-24T20:55:08.851456+00:00
+01c8108b89b5a69d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011 Grammys.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3n9vwtug41x0x52l64rx6b"",""object"":""chat.completion"",""created"":1795553708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9277,,MarianeAzar,20261124_215144,2026-11-24T20:55:09.779378+00:00
+01c8108b89b5a69d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011 Grammys.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fniwz8lwla6rhthxuf4jim"",""object"":""chat.completion"",""created"":1795553709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.393,,MarianeAzar,20261124_215144,2026-11-24T20:55:11.172654+00:00
+bb9219fa84242868,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The British Rail Class 700, Class 707 and the Class 717 are part of what train family?
+A. Desiro City
+B. Electrostar
+C. Aventra
+D. Networker
+Answer:","[""Desiro City"", ""Electrostar"", ""Aventra"", ""Networker""]",http,0.0,16,none,"{""id"":""chatcmpl-660imos5o1kuu11008ftin"",""object"":""chat.completion"",""created"":1795553711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9559,,MarianeAzar,20261124_215144,2026-11-24T20:55:12.129326+00:00
+bb9219fa84242868,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The British Rail Class 700, Class 707 and the Class 717 are part of what train family?
+A. Desiro City
+B. Electrostar
+C. Aventra
+D. Networker
+Answer:","[""Desiro City"", ""Electrostar"", ""Aventra"", ""Networker""]",http,0.0,16,none,"{""id"":""chatcmpl-g1wwge4p2n7h7htp5gjuf6"",""object"":""chat.completion"",""created"":1795553712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2956,,MarianeAzar,20261124_215144,2026-11-24T20:55:13.425303+00:00
+c4d9f45d04d0d15c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the International System of Quantities refer 1024 bytes as?
+A. Kilobyte
+B. Kibibyte
+C. Kelobyte
+D. Kylobyte
+Answer:","[""Kilobyte"", ""Kibibyte"", ""Kelobyte"", ""Kylobyte""]",http,0.0,16,none,"{""id"":""chatcmpl-c4gd020d5o8f1c9jge1a0n"",""object"":""chat.completion"",""created"":1795553713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2821,,MarianeAzar,20261124_215144,2026-11-24T20:55:14.707609+00:00
+c4d9f45d04d0d15c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the International System of Quantities refer 1024 bytes as?
+A. Kilobyte
+B. Kibibyte
+C. Kelobyte
+D. Kylobyte
+Answer:","[""Kilobyte"", ""Kibibyte"", ""Kelobyte"", ""Kylobyte""]",http,0.0,16,none,"{""id"":""chatcmpl-up0o0m7iarqjcsjyt5xbme"",""object"":""chat.completion"",""created"":1795553714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9563,,MarianeAzar,20261124_215144,2026-11-24T20:55:15.664089+00:00
+8d53b82187b6e289,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital city of Bermuda?
+A. San Juan
+B. Santo Dominigo
+C. Havana
+D. Hamilton
+Answer:","[""San Juan"", ""Santo Dominigo"", ""Havana"", ""Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-c46i6k6qfse79vjz617g6a"",""object"":""chat.completion"",""created"":1795553715,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2678,,MarianeAzar,20261124_215144,2026-11-24T20:55:16.932258+00:00
+8d53b82187b6e289,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital city of Bermuda?
+A. San Juan
+B. Santo Dominigo
+C. Havana
+D. Hamilton
+Answer:","[""San Juan"", ""Santo Dominigo"", ""Havana"", ""Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-5n0dvwf0zbgh314o6sjsot"",""object"":""chat.completion"",""created"":1795553716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.228,,MarianeAzar,20261124_215144,2026-11-24T20:55:18.160619+00:00
+4bbe1ea46261572d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The painting ""Guernica"" by Pablo Picasso expressed emotions of dread in response to which war?
+A. Spanish Civil War
+B. Spanish-American War
+C. World War I
+D. The Crimean War
+Answer:","[""Spanish Civil War"", ""Spanish-American War"", ""World War I"", ""The Crimean War""]",http,0.0,16,none,"{""id"":""chatcmpl-0ovsn0kxny6dev1oib8zyrj"",""object"":""chat.completion"",""created"":1795553718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9397,,MarianeAzar,20261124_215144,2026-11-24T20:55:19.100643+00:00
+4bbe1ea46261572d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The painting ""Guernica"" by Pablo Picasso expressed emotions of dread in response to which war?
+A. Spanish Civil War
+B. Spanish-American War
+C. World War I
+D. The Crimean War
+Answer:","[""Spanish Civil War"", ""Spanish-American War"", ""World War I"", ""The Crimean War""]",http,0.0,16,none,"{""id"":""chatcmpl-dy95kjk5ek965hyzx0qgti"",""object"":""chat.completion"",""created"":1795553719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9035,,MarianeAzar,20261124_215144,2026-11-24T20:55:20.004439+00:00
+f879a086df8a079e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?
+A. The Federation of Empires
+B. The Central Powers
+C. The Axis Powers
+D. Authoritarian Alliance
+Answer:","[""The Federation of Empires"", ""The Central Powers"", ""The Axis Powers"", ""Authoritarian Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-vmbez4s9hpr9ckdku9s6ap"",""object"":""chat.completion"",""created"":1795553719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2813,,MarianeAzar,20261124_215144,2026-11-24T20:55:21.286250+00:00
+f879a086df8a079e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?
+A. The Federation of Empires
+B. The Central Powers
+C. The Axis Powers
+D. Authoritarian Alliance
+Answer:","[""The Federation of Empires"", ""The Central Powers"", ""The Axis Powers"", ""Authoritarian Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-mm4tn7ho5ea2iuedohitm6"",""object"":""chat.completion"",""created"":1795553721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0554,,MarianeAzar,20261124_215144,2026-11-24T20:55:22.342130+00:00
+b6b33bb2c6e2c1a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company developed the vocaloid Hatsune Miku?
+A. Sony
+B. Yamaha Corporation
+C. Sega
+D. Crypton Future Media
+Answer:","[""Sony"", ""Yamaha Corporation"", ""Sega"", ""Crypton Future Media""]",http,0.0,16,none,"{""id"":""chatcmpl-ixwnt1dhx4sjyk55r0prm"",""object"":""chat.completion"",""created"":1795553722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0032,,MarianeAzar,20261124_215144,2026-11-24T20:55:23.346060+00:00
+b6b33bb2c6e2c1a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company developed the vocaloid Hatsune Miku?
+A. Sony
+B. Yamaha Corporation
+C. Sega
+D. Crypton Future Media
+Answer:","[""Sony"", ""Yamaha Corporation"", ""Sega"", ""Crypton Future Media""]",http,0.0,16,none,"{""id"":""chatcmpl-5875y2toorngmtl3abye05"",""object"":""chat.completion"",""created"":1795553723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3876,,MarianeAzar,20261124_215144,2026-11-24T20:55:24.734007+00:00
+5bdbfd293f084187,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many planets make up our Solar System?
+A. 7
+B. 6
+C. 8
+D. 9
+Answer:","[""7"", ""6"", ""8"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-vmfb7iw35mmj2t7v9g1wj"",""object"":""chat.completion"",""created"":1795553724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9374,,MarianeAzar,20261124_215144,2026-11-24T20:55:25.671790+00:00
+5bdbfd293f084187,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many planets make up our Solar System?
+A. 7
+B. 6
+C. 8
+D. 9
+Answer:","[""7"", ""6"", ""8"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-e34wxa8wyhftf2ca5f4ca"",""object"":""chat.completion"",""created"":1795553725,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2425,,MarianeAzar,20261124_215144,2026-11-24T20:55:26.914494+00:00
+11167acd911bce2f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: One of Barack Obama's United States presidential campaign slogan's was ""Yes We Can"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5pfhgot7l6pkhp5xtjybz"",""object"":""chat.completion"",""created"":1795553726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2593,,MarianeAzar,20261124_215144,2026-11-24T20:55:28.174046+00:00
+11167acd911bce2f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: One of Barack Obama's United States presidential campaign slogan's was ""Yes We Can"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gtktcoo8fyht1vk7whxdoa"",""object"":""chat.completion"",""created"":1795553728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9366,,MarianeAzar,20261124_215144,2026-11-24T20:55:29.110875+00:00
+d28398a7c7031a6b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical instrument is nicknamed 'the clown of the orchestra'?
+A. Flute
+B. Bassoon
+C. Tuba
+D. Piccolo
+Answer:","[""Flute"", ""Bassoon"", ""Tuba"", ""Piccolo""]",http,0.0,16,none,"{""id"":""chatcmpl-tbfimw56jblm4bb02rsu"",""object"":""chat.completion"",""created"":1795553729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0401,,MarianeAzar,20261124_215144,2026-11-24T20:55:30.151512+00:00
+d28398a7c7031a6b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical instrument is nicknamed 'the clown of the orchestra'?
+A. Flute
+B. Bassoon
+C. Tuba
+D. Piccolo
+Answer:","[""Flute"", ""Bassoon"", ""Tuba"", ""Piccolo""]",http,0.0,16,none,"{""id"":""chatcmpl-gskw3j9np0tuawipv5s5w"",""object"":""chat.completion"",""created"":1795553730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3011,,MarianeAzar,20261124_215144,2026-11-24T20:55:31.452912+00:00
+f4c52d24fd1202db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1985 Toyota Corolla ""AE86"" was the hero car for what anime?
+A. Ex Driver
+B. Ghost MF
+C. Initial D
+D. Wangan Midnight
+Answer:","[""Ex Driver"", ""Ghost MF"", ""Initial D"", ""Wangan Midnight""]",http,0.0,16,none,"{""id"":""chatcmpl-42hzw2a0m55ajcmepmenvp"",""object"":""chat.completion"",""created"":1795553731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0028,,MarianeAzar,20261124_215144,2026-11-24T20:55:32.456227+00:00
+f4c52d24fd1202db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1985 Toyota Corolla ""AE86"" was the hero car for what anime?
+A. Ex Driver
+B. Ghost MF
+C. Initial D
+D. Wangan Midnight
+Answer:","[""Ex Driver"", ""Ghost MF"", ""Initial D"", ""Wangan Midnight""]",http,0.0,16,none,"{""id"":""chatcmpl-wi74g73h4x5zyt6vaj2b9"",""object"":""chat.completion"",""created"":1795553732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0444,,MarianeAzar,20261124_215144,2026-11-24T20:55:33.500939+00:00

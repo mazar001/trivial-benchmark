@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cfe24e84cfc185a3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard frame rate for animation?
+A. 60 FPS
+B. 12 FPS
+C. 24 FPS
+D. 30 FPS
+Answer:","[""60 FPS"", ""12 FPS"", ""24 FPS"", ""30 FPS""]",http,0.0,16,none,"{""id"":""chatcmpl-j030uqk7kdmhsndkol748"",""object"":""chat.completion"",""created"":1795554235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8449,,MarianeAzar,20261124_215144,2026-11-24T21:03:56.860777+00:00
+cfe24e84cfc185a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard frame rate for animation?
+A. 60 FPS
+B. 12 FPS
+C. 24 FPS
+D. 30 FPS
+Answer:","[""60 FPS"", ""12 FPS"", ""24 FPS"", ""30 FPS""]",http,0.0,16,none,"{""id"":""chatcmpl-sh65k7oaxgqelyekim04p"",""object"":""chat.completion"",""created"":1795554236,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261124_215144,2026-11-24T21:03:57.721518+00:00
+7e9b290ff86aaabf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Star Wars"" universe, what species is Grand Admiral Thrawn?
+A. Pantorans
+B. Chiss
+C. Gungans
+D. Twi'lek
+Answer:","[""Pantorans"", ""Chiss"", ""Gungans"", ""Twi'lek""]",http,0.0,16,none,"{""id"":""chatcmpl-vxy3kktdthbr72rln7z7q"",""object"":""chat.completion"",""created"":1795554237,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261124_215144,2026-11-24T21:03:58.575747+00:00
+7e9b290ff86aaabf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Star Wars"" universe, what species is Grand Admiral Thrawn?
+A. Pantorans
+B. Chiss
+C. Gungans
+D. Twi'lek
+Answer:","[""Pantorans"", ""Chiss"", ""Gungans"", ""Twi'lek""]",http,0.0,16,none,"{""id"":""chatcmpl-6uhazkam3e9igq0k561w"",""object"":""chat.completion"",""created"":1795554238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9201,,MarianeAzar,20261124_215144,2026-11-24T21:03:59.496253+00:00
+b43f4bfb4f429b59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the protagonist of the videogame ""Dead Rising 2""?
+A. Katie Greene
+B. Nick Ramos
+C. Frank West
+D. Chuck Greene
+Answer:","[""Katie Greene"", ""Nick Ramos"", ""Frank West"", ""Chuck Greene""]",http,0.0,16,none,"{""id"":""chatcmpl-lh4fvp2zcrna0s7ou5n21o"",""object"":""chat.completion"",""created"":1795554239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9194,,MarianeAzar,20261124_215144,2026-11-24T21:04:00.416031+00:00
+b43f4bfb4f429b59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the protagonist of the videogame ""Dead Rising 2""?
+A. Katie Greene
+B. Nick Ramos
+C. Frank West
+D. Chuck Greene
+Answer:","[""Katie Greene"", ""Nick Ramos"", ""Frank West"", ""Chuck Greene""]",http,0.0,16,none,"{""id"":""chatcmpl-loo26grr6x9lx7hv2q71ma"",""object"":""chat.completion"",""created"":1795554240,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261124_215144,2026-11-24T21:04:01.288301+00:00
+4f0913a67ddc8814,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these aliases has NOT been used by electronic musician Aphex Twin?
+A. Caustic Window
+B. Bradley Strider
+C. Burial
+D. GAK
+Answer:","[""Caustic Window"", ""Bradley Strider"", ""Burial"", ""GAK""]",http,0.0,16,none,"{""id"":""chatcmpl-tyvz09x7frp0y3upmbyhxym"",""object"":""chat.completion"",""created"":1795554241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261124_215144,2026-11-24T21:04:02.155291+00:00
+4f0913a67ddc8814,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these aliases has NOT been used by electronic musician Aphex Twin?
+A. Caustic Window
+B. Bradley Strider
+C. Burial
+D. GAK
+Answer:","[""Caustic Window"", ""Bradley Strider"", ""Burial"", ""GAK""]",http,0.0,16,none,"{""id"":""chatcmpl-x6mw2s1gp1cg6qoxlrb0cc"",""object"":""chat.completion"",""created"":1795554242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8551,,MarianeAzar,20261124_215144,2026-11-24T21:04:03.010588+00:00
+a162bd00db015167,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries does ""JoJo's Bizarre Adventure: Stardust Crusaders"" not take place in?
+A. Pakistan
+B. India
+C. Philippines
+D. Egypt
+Answer:","[""Pakistan"", ""India"", ""Philippines"", ""Egypt""]",http,0.0,16,none,"{""id"":""chatcmpl-o5u8ick9cle5s182tb0n5"",""object"":""chat.completion"",""created"":1795554242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8961,,MarianeAzar,20261124_215144,2026-11-24T21:04:03.907383+00:00
+a162bd00db015167,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries does ""JoJo's Bizarre Adventure: Stardust Crusaders"" not take place in?
+A. Pakistan
+B. India
+C. Philippines
+D. Egypt
+Answer:","[""Pakistan"", ""India"", ""Philippines"", ""Egypt""]",http,0.0,16,none,"{""id"":""chatcmpl-s3fnaohx9qeehsxuctmsg7"",""object"":""chat.completion"",""created"":1795554243,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8898,,MarianeAzar,20261124_215144,2026-11-24T21:04:04.797603+00:00
+70a8b0bfc00e0584,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel ""The Lord of The Rings"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-05nhsei7nq2ii422b72dfer"",""object"":""chat.completion"",""created"":1795554244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261124_215144,2026-11-24T21:04:05.649125+00:00
+70a8b0bfc00e0584,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shub-Niggurath is a creature that was created by J. R. R. Tolkien in his novel ""The Lord of The Rings"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-s7rdmfvwrcszjj42g2ghxf"",""object"":""chat.completion"",""created"":1795554245,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261124_215144,2026-11-24T21:04:06.500844+00:00
+3925313e84b30928,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Michael Crichton's novel ""Jurassic Park"", John Hammond meets his demise at the claws of which dinosaur?
+A. Tyrannosaurus Rex
+B. Dilophosaurus
+C. Procompsognathus
+D. Velociraptor
+Answer:","[""Tyrannosaurus Rex"", ""Dilophosaurus"", ""Procompsognathus"", ""Velociraptor""]",http,0.0,16,none,"{""id"":""chatcmpl-itx7h6u3woan7krcwcgasl"",""object"":""chat.completion"",""created"":1795554246,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261124_215144,2026-11-24T21:04:07.360134+00:00
+3925313e84b30928,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Michael Crichton's novel ""Jurassic Park"", John Hammond meets his demise at the claws of which dinosaur?
+A. Tyrannosaurus Rex
+B. Dilophosaurus
+C. Procompsognathus
+D. Velociraptor
+Answer:","[""Tyrannosaurus Rex"", ""Dilophosaurus"", ""Procompsognathus"", ""Velociraptor""]",http,0.0,16,none,"{""id"":""chatcmpl-30afxkhbpm2w1v83taxjec"",""object"":""chat.completion"",""created"":1795554247,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9114,,MarianeAzar,20261124_215144,2026-11-24T21:04:08.271836+00:00
+e268dfd9cb7f7795,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Valve Corporation is an American video game developer located in which city?
+A. Seattle, Washington
+B. San Francisco, California
+C. Bellevue, Washington
+D. Austin, Texas
+Answer:","[""Seattle, Washington"", ""San Francisco, California"", ""Bellevue, Washington"", ""Austin, Texas""]",http,0.0,16,none,"{""id"":""chatcmpl-i1shpm0nnvlxk9a96o1bsq"",""object"":""chat.completion"",""created"":1795554248,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8848,,MarianeAzar,20261124_215144,2026-11-24T21:04:09.156988+00:00
+e268dfd9cb7f7795,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Valve Corporation is an American video game developer located in which city?
+A. Seattle, Washington
+B. San Francisco, California
+C. Bellevue, Washington
+D. Austin, Texas
+Answer:","[""Seattle, Washington"", ""San Francisco, California"", ""Bellevue, Washington"", ""Austin, Texas""]",http,0.0,16,none,"{""id"":""chatcmpl-9k7bkevgbb9ab7nqt0otn"",""object"":""chat.completion"",""created"":1795554249,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",2.7722,,MarianeAzar,20261124_215144,2026-11-24T21:04:11.929476+00:00
+b89d2f739b3e053c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of electrical capacitance?
+A. Watt
+B. Gauss
+C. Henry
+D. Farad
+Answer:","[""Watt"", ""Gauss"", ""Henry"", ""Farad""]",http,0.0,16,none,"{""id"":""chatcmpl-rz9g3l1axpfzmym8ncx7f"",""object"":""chat.completion"",""created"":1795554252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.6667,,MarianeAzar,20261124_215144,2026-11-24T21:04:13.596327+00:00
+b89d2f739b3e053c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of electrical capacitance?
+A. Watt
+B. Gauss
+C. Henry
+D. Farad
+Answer:","[""Watt"", ""Gauss"", ""Henry"", ""Farad""]",http,0.0,16,none,"{""id"":""chatcmpl-amvp9jgsd8va002x8gzepk"",""object"":""chat.completion"",""created"":1795554253,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261124_215144,2026-11-24T21:04:14.452681+00:00
+f8854836d6b9cf31,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the child performing the Black Sacrament, in The Elder Scrolls V: Skyrim?
+A. Aventus Aretino
+B. Arngeir
+C. Aval Atheron
+D. Proventus Avenicci
+Answer:","[""Aventus Aretino"", ""Arngeir"", ""Aval Atheron"", ""Proventus Avenicci""]",http,0.0,16,none,"{""id"":""chatcmpl-32t876zdbjlydhzv9yeb2"",""object"":""chat.completion"",""created"":1795554254,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261124_215144,2026-11-24T21:04:15.339946+00:00
+f8854836d6b9cf31,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the child performing the Black Sacrament, in The Elder Scrolls V: Skyrim?
+A. Aventus Aretino
+B. Arngeir
+C. Aval Atheron
+D. Proventus Avenicci
+Answer:","[""Aventus Aretino"", ""Arngeir"", ""Aval Atheron"", ""Proventus Avenicci""]",http,0.0,16,none,"{""id"":""chatcmpl-nedo6pwpy1stjixaa9a62i"",""object"":""chat.completion"",""created"":1795554255,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9117,,MarianeAzar,20261124_215144,2026-11-24T21:04:16.251847+00:00
+c3601d8b822cea0c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Rumble"" by Link Wray is the only instrumental song to ever have been banned from US radio.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k824tko21dqrqfa57uyog"",""object"":""chat.completion"",""created"":1795554256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8776,,MarianeAzar,20261124_215144,2026-11-24T21:04:17.129848+00:00
+c3601d8b822cea0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Rumble"" by Link Wray is the only instrumental song to ever have been banned from US radio.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yx250onxwxp5mxugkawhox"",""object"":""chat.completion"",""created"":1795554257,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8812,,MarianeAzar,20261124_215144,2026-11-24T21:04:18.011252+00:00
+1fa6cc977ec3e65d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Gosho Aoyama Made This Series: (Detective Conan / Case Closed!)
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gpu6urw744hh4m95pzvwar"",""object"":""chat.completion"",""created"":1795554257,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8141,,MarianeAzar,20261124_215144,2026-11-24T21:04:18.825631+00:00
+1fa6cc977ec3e65d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Gosho Aoyama Made This Series: (Detective Conan / Case Closed!)
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hvxtr3546acyosdkrsorcr"",""object"":""chat.completion"",""created"":1795554258,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.82,,MarianeAzar,20261124_215144,2026-11-24T21:04:19.645865+00:00
+5da2dee66f11cf05,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The character that would eventually become Dr. Eggman was considered for the role of Sega's new flagship mascot before Sonic was.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jvh0mp5uc4pg6abr2w2lg"",""object"":""chat.completion"",""created"":1795554259,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8263,,MarianeAzar,20261124_215144,2026-11-24T21:04:20.472397+00:00

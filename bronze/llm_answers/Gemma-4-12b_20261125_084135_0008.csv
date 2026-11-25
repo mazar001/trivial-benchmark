@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a94f79e23dea8328,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you are caught ""Goldbricking"", what are you doing wrong?
+A. Smoking
+B. Cheating
+C. Slacking
+D. Stealing
+Answer:","[""Smoking"", ""Cheating"", ""Slacking"", ""Stealing""]",http,0.0,16,none,"{""id"":""chatcmpl-rl77j4gbptgf41ewrjlbi"",""object"":""chat.completion"",""created"":1795592667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T07:44:29.194397+00:00
+a94f79e23dea8328,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If you are caught ""Goldbricking"", what are you doing wrong?
+A. Smoking
+B. Cheating
+C. Slacking
+D. Stealing
+Answer:","[""Smoking"", ""Cheating"", ""Slacking"", ""Stealing""]",http,0.0,16,none,"{""id"":""chatcmpl-t5h9r5dm4rjcaqu6hv4hk"",""object"":""chat.completion"",""created"":1795592668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T07:44:30.050293+00:00
+fbbaf4277120e2ea,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Daft Punk's first studio album?
+A. Human After All
+B. Random Access Memories
+C. Homework
+D. Discovery
+Answer:","[""Human After All"", ""Random Access Memories"", ""Homework"", ""Discovery""]",http,0.0,16,none,"{""id"":""chatcmpl-3v61aqxlkv7hd3j3tgyje8"",""object"":""chat.completion"",""created"":1795592669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T07:44:30.900014+00:00
+fbbaf4277120e2ea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Daft Punk's first studio album?
+A. Human After All
+B. Random Access Memories
+C. Homework
+D. Discovery
+Answer:","[""Human After All"", ""Random Access Memories"", ""Homework"", ""Discovery""]",http,0.0,16,none,"{""id"":""chatcmpl-kk66iovmuupeur53waf58"",""object"":""chat.completion"",""created"":1795592670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T07:44:31.754378+00:00
+e8815a4545166258,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Team Fortress 2"", which class is able to double jump?
+A. Pyro
+B. Scout
+C. Engineer
+D. Spy
+Answer:","[""Pyro"", ""Scout"", ""Engineer"", ""Spy""]",http,0.0,16,none,"{""id"":""chatcmpl-5jxbu7275cavqp67e54kvp"",""object"":""chat.completion"",""created"":1795592671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261125_084135,2026-11-25T07:44:32.603695+00:00
+e8815a4545166258,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Team Fortress 2"", which class is able to double jump?
+A. Pyro
+B. Scout
+C. Engineer
+D. Spy
+Answer:","[""Pyro"", ""Scout"", ""Engineer"", ""Spy""]",http,0.0,16,none,"{""id"":""chatcmpl-zoh0729aa12inm4ibrzhg"",""object"":""chat.completion"",""created"":1795592672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T07:44:33.460203+00:00
+6f8e3f81f58085c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main ship used by Commander Shepard in the Mass Effect Franchise called?
+A. Osiris
+B. Normandy
+C. Endeavour
+D. Infinity
+Answer:","[""Osiris"", ""Normandy"", ""Endeavour"", ""Infinity""]",http,0.0,16,none,"{""id"":""chatcmpl-sl34oca810kbe9i04i7539"",""object"":""chat.completion"",""created"":1795592672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8468,,MarianeAzar,20261125_084135,2026-11-25T07:44:34.307203+00:00
+6f8e3f81f58085c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main ship used by Commander Shepard in the Mass Effect Franchise called?
+A. Osiris
+B. Normandy
+C. Endeavour
+D. Infinity
+Answer:","[""Osiris"", ""Normandy"", ""Endeavour"", ""Infinity""]",http,0.0,16,none,"{""id"":""chatcmpl-52hzihin767cv8ajx3xnd8"",""object"":""chat.completion"",""created"":1795592673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8494,,MarianeAzar,20261125_084135,2026-11-25T07:44:35.156823+00:00
+cf15d2a797e14142,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is not written in its native language?
+A. Suomi
+B. Slovaško
+C. Elláda
+D. Schweiz
+Answer:","[""Suomi"", ""Slovaško"", ""Elláda"", ""Schweiz""]",http,0.0,16,none,"{""id"":""chatcmpl-lmcr4ela0pnm9i8ggcgls"",""object"":""chat.completion"",""created"":1795592674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:44:36.012897+00:00
+cf15d2a797e14142,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is not written in its native language?
+A. Suomi
+B. Slovaško
+C. Elláda
+D. Schweiz
+Answer:","[""Suomi"", ""Slovaško"", ""Elláda"", ""Schweiz""]",http,0.0,16,none,"{""id"":""chatcmpl-huazkj6iufg5xde90fwtyc"",""object"":""chat.completion"",""created"":1795592675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:44:36.867017+00:00
+d8cf376641f0679d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the star of the AMC series Breaking Bad?
+A. Skyler White
+B. Saul Goodman
+C. Jesse Pinkman
+D. Walter White
+Answer:","[""Skyler White"", ""Saul Goodman"", ""Jesse Pinkman"", ""Walter White""]",http,0.0,16,none,"{""id"":""chatcmpl-n4g3edstxif2koo7aofsns"",""object"":""chat.completion"",""created"":1795592676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8735,,MarianeAzar,20261125_084135,2026-11-25T07:44:37.740955+00:00
+d8cf376641f0679d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the star of the AMC series Breaking Bad?
+A. Skyler White
+B. Saul Goodman
+C. Jesse Pinkman
+D. Walter White
+Answer:","[""Skyler White"", ""Saul Goodman"", ""Jesse Pinkman"", ""Walter White""]",http,0.0,16,none,"{""id"":""chatcmpl-uc52otv8pi2m4cchtc4oa"",""object"":""chat.completion"",""created"":1795592677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261125_084135,2026-11-25T07:44:38.590289+00:00
+baec8a3afb681214,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?
+A. Fiji
+B. Vanuatu
+C. New Zealand
+D. Hawaii
+Answer:","[""Fiji"", ""Vanuatu"", ""New Zealand"", ""Hawaii""]",http,0.0,16,none,"{""id"":""chatcmpl-n8lejryo9ooww82351ii8"",""object"":""chat.completion"",""created"":1795592678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261125_084135,2026-11-25T07:44:39.441678+00:00
+baec8a3afb681214,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Maori hold that which island nation was founded by Kupe, who discovered it under a long white cloud?
+A. Fiji
+B. Vanuatu
+C. New Zealand
+D. Hawaii
+Answer:","[""Fiji"", ""Vanuatu"", ""New Zealand"", ""Hawaii""]",http,0.0,16,none,"{""id"":""chatcmpl-subphggvenbh1tiblgoj1"",""object"":""chat.completion"",""created"":1795592678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T07:44:40.300345+00:00
+8d354eb93bec8ec3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The retail disc of Tony Hawk's Pro Skater 5 only comes with the tutorial.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t6f6bsa658m91nklzzgl5"",""object"":""chat.completion"",""created"":1795592679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8114,,MarianeAzar,20261125_084135,2026-11-25T07:44:41.111899+00:00
+8d354eb93bec8ec3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The retail disc of Tony Hawk's Pro Skater 5 only comes with the tutorial.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hkmy4uhc0dia6x20xtr0z"",""object"":""chat.completion"",""created"":1795592680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8404,,MarianeAzar,20261125_084135,2026-11-25T07:44:41.952524+00:00
+6812c2756ab8dcbf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country was the 1992 Summer Olympics Games held?
+A. USA
+B. Spain
+C. Russia
+D. Korea
+Answer:","[""USA"", ""Spain"", ""Russia"", ""Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-npyidlb4rqe5zzgo3yq3c"",""object"":""chat.completion"",""created"":1795592681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8749,,MarianeAzar,20261125_084135,2026-11-25T07:44:42.827602+00:00
+6812c2756ab8dcbf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country was the 1992 Summer Olympics Games held?
+A. USA
+B. Spain
+C. Russia
+D. Korea
+Answer:","[""USA"", ""Spain"", ""Russia"", ""Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-ar5524dw74waeab53y55kl"",""object"":""chat.completion"",""created"":1795592682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T07:44:43.685021+00:00
+f32331ccaee91871,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Snakes and Ladders was originally created in India?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h2p9tp98iyf71x1k7460gu"",""object"":""chat.completion"",""created"":1795592683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8283,,MarianeAzar,20261125_084135,2026-11-25T07:44:44.513512+00:00
+f32331ccaee91871,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Snakes and Ladders was originally created in India?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nocbgxdbj3orb7q27t9wa"",""object"":""chat.completion"",""created"":1795592683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8059,,MarianeAzar,20261125_084135,2026-11-25T07:44:45.319616+00:00
+df41641364a1c5d6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Fire Emblem: Shadow Dragon"", what is the central protagonist's name?
+A. Eliwood
+B. Marth
+C. Robin
+D. Roy
+Answer:","[""Eliwood"", ""Marth"", ""Robin"", ""Roy""]",http,0.0,16,none,"{""id"":""chatcmpl-rnbumycxury3dm31w958"",""object"":""chat.completion"",""created"":1795592684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8421,,MarianeAzar,20261125_084135,2026-11-25T07:44:46.162264+00:00
+df41641364a1c5d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Fire Emblem: Shadow Dragon"", what is the central protagonist's name?
+A. Eliwood
+B. Marth
+C. Robin
+D. Roy
+Answer:","[""Eliwood"", ""Marth"", ""Robin"", ""Roy""]",http,0.0,16,none,"{""id"":""chatcmpl-o9ow0q5ycu05ay109smsfr"",""object"":""chat.completion"",""created"":1795592685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9187,,MarianeAzar,20261125_084135,2026-11-25T07:44:47.081252+00:00
+2d8871f30a854199,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV Show ""Donkey Kong Country"", which episode did the song ""Eddie, Let Me Go Back To My Home"" play in?
+A. Ape-Nesia
+B. It's a Wonderful Life
+C. Message In A Bottle Show
+D. To The Moon Baboon
+Answer:","[""Ape-Nesia"", ""It's a Wonderful Life"", ""Message In A Bottle Show"", ""To The Moon Baboon""]",http,0.0,16,none,"{""id"":""chatcmpl-hjdzhcjwaohaqp0a4u92ja"",""object"":""chat.completion"",""created"":1795592686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.886,,MarianeAzar,20261125_084135,2026-11-25T07:44:47.967542+00:00
+2d8871f30a854199,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV Show ""Donkey Kong Country"", which episode did the song ""Eddie, Let Me Go Back To My Home"" play in?
+A. Ape-Nesia
+B. It's a Wonderful Life
+C. Message In A Bottle Show
+D. To The Moon Baboon
+Answer:","[""Ape-Nesia"", ""It's a Wonderful Life"", ""Message In A Bottle Show"", ""To The Moon Baboon""]",http,0.0,16,none,"{""id"":""chatcmpl-50kpyu53i0ct8rldthydn"",""object"":""chat.completion"",""created"":1795592687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9224,,MarianeAzar,20261125_084135,2026-11-25T07:44:48.890166+00:00
+806c09de380399bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Super Mario World 2: Yoshi's Island"", which of these colors is NOT represented by a Yoshi?
+A. Brown
+B. Purple
+C. Red
+D. White
+Answer:","[""Brown"", ""Purple"", ""Red"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-mkmz46u0dmff8hljl9c1nr"",""object"":""chat.completion"",""created"":1795592688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T07:44:49.751871+00:00

@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d371f977a9b09f84,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Sqiudward's bad painting in the Spongebob episode ""Artist Unknown?""
+A. Rippy Bits
+B. Bold and Brash
+C. Squidward en Repose
+D. Tilted Perspectives
+Answer:","[""Rippy Bits"", ""Bold and Brash"", ""Squidward en Repose"", ""Tilted Perspectives""]",http,0.0,16,none,"{""id"":""chatcmpl-vf6ysf8qnlp86pkksng1or"",""object"":""chat.completion"",""created"":1795558556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.901,,MarianeAzar,20261124_215144,2026-11-24T22:15:57.724546+00:00
+c1ddf64cb6284f05,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?
+A. The Witcher
+B. The Elder Scrolls
+C. Neverwinter Nights
+D. Lord of the Rings
+Answer:","[""The Witcher"", ""The Elder Scrolls"", ""Neverwinter Nights"", ""Lord of the Rings""]",http,0.0,16,none,"{""id"":""chatcmpl-y4sszo36q1my4wus5f9o2n"",""object"":""chat.completion"",""created"":1795558557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8975,,MarianeAzar,20261124_215144,2026-11-24T22:15:58.622150+00:00
+c1ddf64cb6284f05,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?
+A. The Witcher
+B. The Elder Scrolls
+C. Neverwinter Nights
+D. Lord of the Rings
+Answer:","[""The Witcher"", ""The Elder Scrolls"", ""Neverwinter Nights"", ""Lord of the Rings""]",http,0.0,16,none,"{""id"":""chatcmpl-2m44zgkq0g37nhg11cnm8"",""object"":""chat.completion"",""created"":1795558558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9273,,MarianeAzar,20261124_215144,2026-11-24T22:15:59.549727+00:00
+a1259f18e6a182b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?
+A. 3
+B. 2
+C. 1
+D. 0
+Answer:","[""3"", ""2"", ""1"", ""0""]",http,0.0,16,none,"{""id"":""chatcmpl-vjvr4ngisowrzcu63x9on"",""object"":""chat.completion"",""created"":1795558559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8985,,MarianeAzar,20261124_215144,2026-11-24T22:16:00.448473+00:00
+a1259f18e6a182b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In United States history, how many vice presidents did Franklin D. Roosevelt have during his time in office as president?
+A. 3
+B. 2
+C. 1
+D. 0
+Answer:","[""3"", ""2"", ""1"", ""0""]",http,0.0,16,none,"{""id"":""chatcmpl-l3sp53jbsrmy3a3ccnda"",""object"":""chat.completion"",""created"":1795558560,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8952,,MarianeAzar,20261124_215144,2026-11-24T22:16:01.343954+00:00
+ad2d105992fcb774,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In South Park, what is Stan's surname?
+A. Tweak
+B. Marsh
+C. Stotch
+D. Broflovski
+Answer:","[""Tweak"", ""Marsh"", ""Stotch"", ""Broflovski""]",http,0.0,16,none,"{""id"":""chatcmpl-ueri16ckxxmvcy04zha9o"",""object"":""chat.completion"",""created"":1795558561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8755,,MarianeAzar,20261124_215144,2026-11-24T22:16:02.220096+00:00
+ad2d105992fcb774,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In South Park, what is Stan's surname?
+A. Tweak
+B. Marsh
+C. Stotch
+D. Broflovski
+Answer:","[""Tweak"", ""Marsh"", ""Stotch"", ""Broflovski""]",http,0.0,16,none,"{""id"":""chatcmpl-u5pqdt84vzdmsofxyzua8k"",""object"":""chat.completion"",""created"":1795558562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261124_215144,2026-11-24T22:16:03.074454+00:00
+beaad4ccc8d10ea8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following pitchers was named National League Rookie of the Year for the 2013 season?
+A. Jose Fernandez
+B. Shelby Miller
+C. Jacob deGrom
+D. Matt Harvey
+Answer:","[""Jose Fernandez"", ""Shelby Miller"", ""Jacob deGrom"", ""Matt Harvey""]",http,0.0,16,none,"{""id"":""chatcmpl-v98fx4k4i3twsf2d8wy1xo"",""object"":""chat.completion"",""created"":1795558562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8662,,MarianeAzar,20261124_215144,2026-11-24T22:16:03.940882+00:00
+beaad4ccc8d10ea8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following pitchers was named National League Rookie of the Year for the 2013 season?
+A. Jose Fernandez
+B. Shelby Miller
+C. Jacob deGrom
+D. Matt Harvey
+Answer:","[""Jose Fernandez"", ""Shelby Miller"", ""Jacob deGrom"", ""Matt Harvey""]",http,0.0,16,none,"{""id"":""chatcmpl-hdfzhm9gy6q7p5mge3wpor"",""object"":""chat.completion"",""created"":1795558563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8764,,MarianeAzar,20261124_215144,2026-11-24T22:16:04.817573+00:00
+266aba48e41da006,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By how many minutes are you late to work in ""Half-Life""?
+A. 5
+B. 15
+C. 30
+D. 60
+Answer:","[""5"", ""15"", ""30"", ""60""]",http,0.0,16,none,"{""id"":""chatcmpl-3kzcloratry0eixv9kv6hwm"",""object"":""chat.completion"",""created"":1795558564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261124_215144,2026-11-24T22:16:05.683487+00:00
+266aba48e41da006,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By how many minutes are you late to work in ""Half-Life""?
+A. 5
+B. 15
+C. 30
+D. 60
+Answer:","[""5"", ""15"", ""30"", ""60""]",http,0.0,16,none,"{""id"":""chatcmpl-pwzn3tjcij5tzu9slw6lt"",""object"":""chat.completion"",""created"":1795558565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261124_215144,2026-11-24T22:16:06.547481+00:00
+4c05a40d54af8c79,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the supercomputer located in the control room in ""Jurassic Park"" (1993)?
+A. Cray X-MP
+B. IBM Blue Gene/Q
+C. Thinking Machines CM-5
+D. Cray XK7
+Answer:","[""Cray X-MP"", ""IBM Blue Gene/Q"", ""Thinking Machines CM-5"", ""Cray XK7""]",http,0.0,16,none,"{""id"":""chatcmpl-oaygzy9qrkiw7r6it2hycs"",""object"":""chat.completion"",""created"":1795558566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8961,,MarianeAzar,20261124_215144,2026-11-24T22:16:07.444048+00:00
+4c05a40d54af8c79,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the supercomputer located in the control room in ""Jurassic Park"" (1993)?
+A. Cray X-MP
+B. IBM Blue Gene/Q
+C. Thinking Machines CM-5
+D. Cray XK7
+Answer:","[""Cray X-MP"", ""IBM Blue Gene/Q"", ""Thinking Machines CM-5"", ""Cray XK7""]",http,0.0,16,none,"{""id"":""chatcmpl-uaroqcuo924zfyplcpopj"",""object"":""chat.completion"",""created"":1795558567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9062,,MarianeAzar,20261124_215144,2026-11-24T22:16:08.350557+00:00
+9775f29fc16d7926,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Greek god was the god of the Sun?
+A. Helios
+B. Zeus
+C. Poseidon
+D. Hades
+Answer:","[""Helios"", ""Zeus"", ""Poseidon"", ""Hades""]",http,0.0,16,none,"{""id"":""chatcmpl-gcqo2uvnttd6wa273b9i6n"",""object"":""chat.completion"",""created"":1795558568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261124_215144,2026-11-24T22:16:09.236936+00:00
+9775f29fc16d7926,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Greek god was the god of the Sun?
+A. Helios
+B. Zeus
+C. Poseidon
+D. Hades
+Answer:","[""Helios"", ""Zeus"", ""Poseidon"", ""Hades""]",http,0.0,16,none,"{""id"":""chatcmpl-a6s6jp5lwzfu62shk868o9"",""object"":""chat.completion"",""created"":1795558569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8743,,MarianeAzar,20261124_215144,2026-11-24T22:16:10.111542+00:00
+137ea6778b55917f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Disney classics was released in 1970?
+A. The Aristocats
+B. The Little Mermaid
+C. The Fox and the Hound
+D. One Hundred and One Dalmatians
+Answer:","[""The Aristocats"", ""The Little Mermaid"", ""The Fox and the Hound"", ""One Hundred and One Dalmatians""]",http,0.0,16,none,"{""id"":""chatcmpl-mbfisqp3mii9ywqavubf8"",""object"":""chat.completion"",""created"":1795558570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8982,,MarianeAzar,20261124_215144,2026-11-24T22:16:11.010324+00:00
+137ea6778b55917f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Disney classics was released in 1970?
+A. The Aristocats
+B. The Little Mermaid
+C. The Fox and the Hound
+D. One Hundred and One Dalmatians
+Answer:","[""The Aristocats"", ""The Little Mermaid"", ""The Fox and the Hound"", ""One Hundred and One Dalmatians""]",http,0.0,16,none,"{""id"":""chatcmpl-vshuqn867cpvzjvuc8k69"",""object"":""chat.completion"",""created"":1795558570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8901,,MarianeAzar,20261124_215144,2026-11-24T22:16:11.900712+00:00
+ff6a24ca56103e08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the French word for ""fish""?
+A. escargot
+B. fiche
+C. mer
+D. poisson
+Answer:","[""escargot"", ""fiche"", ""mer"", ""poisson""]",http,0.0,16,none,"{""id"":""chatcmpl-mz59ghgqduc160h868j0g"",""object"":""chat.completion"",""created"":1795558571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261124_215144,2026-11-24T22:16:12.780435+00:00
+ff6a24ca56103e08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the French word for ""fish""?
+A. escargot
+B. fiche
+C. mer
+D. poisson
+Answer:","[""escargot"", ""fiche"", ""mer"", ""poisson""]",http,0.0,16,none,"{""id"":""chatcmpl-fvnariyohxjp87hpnqtwi"",""object"":""chat.completion"",""created"":1795558572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261124_215144,2026-11-24T22:16:13.643377+00:00
+8a93c358056e5b1f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which British seaside town was the BBC sitcom ""Fawlty Towers"" set?
+A. Great Yarmouth
+B. Blackpool
+C. Torquay
+D. Bournemouth
+Answer:","[""Great Yarmouth"", ""Blackpool"", ""Torquay"", ""Bournemouth""]",http,0.0,16,none,"{""id"":""chatcmpl-fx46vopfg950ha97sxks5wm"",""object"":""chat.completion"",""created"":1795558573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8741,,MarianeAzar,20261124_215144,2026-11-24T22:16:14.517742+00:00
+8a93c358056e5b1f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which British seaside town was the BBC sitcom ""Fawlty Towers"" set?
+A. Great Yarmouth
+B. Blackpool
+C. Torquay
+D. Bournemouth
+Answer:","[""Great Yarmouth"", ""Blackpool"", ""Torquay"", ""Bournemouth""]",http,0.0,16,none,"{""id"":""chatcmpl-3bmjjgpxcowxtre7phdsns"",""object"":""chat.completion"",""created"":1795558574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261124_215144,2026-11-24T22:16:15.378748+00:00
+0b246d2d4e21998a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Call Of Duty: Zombies"", you can upgrade the ""Apothicon Servant"" in the ""Shadows Of Evil"" map.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-phq7cagapui084jvj3f0w57"",""object"":""chat.completion"",""created"":1795558575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8223,,MarianeAzar,20261124_215144,2026-11-24T22:16:16.201150+00:00
+0b246d2d4e21998a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Call Of Duty: Zombies"", you can upgrade the ""Apothicon Servant"" in the ""Shadows Of Evil"" map.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j21gufnnekoqmd3ii3x2kc"",""object"":""chat.completion"",""created"":1795558576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8411,,MarianeAzar,20261124_215144,2026-11-24T22:16:17.042432+00:00
+118e4778cf01f81d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which continent do sweet potatoes originally come from?
+A. Asia
+B. Africa
+C. Europe
+D. South America
+Answer:","[""Asia"", ""Africa"", ""Europe"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-9i8uyrhz1t4t5l2uikuuc9"",""object"":""chat.completion"",""created"":1795558576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8407,,MarianeAzar,20261124_215144,2026-11-24T22:16:17.883385+00:00
+118e4778cf01f81d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which continent do sweet potatoes originally come from?
+A. Asia
+B. Africa
+C. Europe
+D. South America
+Answer:","[""Asia"", ""Africa"", ""Europe"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-a40c8p7ret9zxb1r92pgq"",""object"":""chat.completion"",""created"":1795558577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8468,,MarianeAzar,20261124_215144,2026-11-24T22:16:18.730315+00:00

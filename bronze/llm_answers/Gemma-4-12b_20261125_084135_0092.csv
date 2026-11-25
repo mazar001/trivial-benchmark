@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+de95879f888910a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Quadrangularis Reversum is best described as which of the following?
+A. A geometric theorem
+B. A chess move
+C. A percussion instrument
+D. A building in Oxford University
+Answer:","[""A geometric theorem"", ""A chess move"", ""A percussion instrument"", ""A building in Oxford University""]",http,0.0,16,none,"{""id"":""chatcmpl-nim9ders3q875m3wyokym3"",""object"":""chat.completion"",""created"":1795594662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2144,,MarianeAzar,20261125_084135,2026-11-25T08:17:44.732605+00:00
+de95879f888910a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Quadrangularis Reversum is best described as which of the following?
+A. A geometric theorem
+B. A chess move
+C. A percussion instrument
+D. A building in Oxford University
+Answer:","[""A geometric theorem"", ""A chess move"", ""A percussion instrument"", ""A building in Oxford University""]",http,0.0,16,none,"{""id"":""chatcmpl-cx036pt92mqns57dyp3fyg"",""object"":""chat.completion"",""created"":1795594664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2859,,MarianeAzar,20261125_084135,2026-11-25T08:17:46.018772+00:00
+bf93cec1883fdf17,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The names of Roxas's Keyblades in Kingdom Hearts are ""Oathkeeper"" and ""Oblivion"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-drsngkaoc6whh9pmzay6aw"",""object"":""chat.completion"",""created"":1795594665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261125_084135,2026-11-25T08:17:46.883697+00:00
+bf93cec1883fdf17,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The names of Roxas's Keyblades in Kingdom Hearts are ""Oathkeeper"" and ""Oblivion"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kh4adl8f3xl0v9fhbf1t"",""object"":""chat.completion"",""created"":1795594666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9295,,MarianeAzar,20261125_084135,2026-11-25T08:17:47.813372+00:00
+c3c00768f1cab51a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An organism described as ""heliotropic"" has a tendancy to move towards which of these things?
+A. Trees
+B. Light
+C. Water
+D. Pollen
+Answer:","[""Trees"", ""Light"", ""Water"", ""Pollen""]",http,0.0,16,none,"{""id"":""chatcmpl-pc3y5oenlg2t82mqrkcj"",""object"":""chat.completion"",""created"":1795594667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3946,,MarianeAzar,20261125_084135,2026-11-25T08:17:49.208253+00:00
+c3c00768f1cab51a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An organism described as ""heliotropic"" has a tendancy to move towards which of these things?
+A. Trees
+B. Light
+C. Water
+D. Pollen
+Answer:","[""Trees"", ""Light"", ""Water"", ""Pollen""]",http,0.0,16,none,"{""id"":""chatcmpl-21f4gahofzfbh2aui6as3f"",""object"":""chat.completion"",""created"":1795594668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0281,,MarianeAzar,20261125_084135,2026-11-25T08:17:50.236541+00:00
+672e6e237c03e7e8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Roman god of fire?
+A. Apollo
+B. Jupiter
+C. Vulcan
+D. Mercury
+Answer:","[""Apollo"", ""Jupiter"", ""Vulcan"", ""Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-xhy03nujnvhif2vagaz3y"",""object"":""chat.completion"",""created"":1795594669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9381,,MarianeAzar,20261125_084135,2026-11-25T08:17:51.174943+00:00
+672e6e237c03e7e8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Roman god of fire?
+A. Apollo
+B. Jupiter
+C. Vulcan
+D. Mercury
+Answer:","[""Apollo"", ""Jupiter"", ""Vulcan"", ""Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-23jxodqwqovbp2aadyxrlb"",""object"":""chat.completion"",""created"":1795594670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3679,,MarianeAzar,20261125_084135,2026-11-25T08:17:52.543066+00:00
+bd2679c229622ae9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dota 2, what is Earthshaker's real name?
+A. Carl
+B. Barathrum
+C. Raigor Stonehoof
+D. Banehallow Ambry
+Answer:","[""Carl"", ""Barathrum"", ""Raigor Stonehoof"", ""Banehallow Ambry""]",http,0.0,16,none,"{""id"":""chatcmpl-8tk4gnouuxhxgd6ygawp4n"",""object"":""chat.completion"",""created"":1795594671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9865,,MarianeAzar,20261125_084135,2026-11-25T08:17:53.529778+00:00
+bd2679c229622ae9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dota 2, what is Earthshaker's real name?
+A. Carl
+B. Barathrum
+C. Raigor Stonehoof
+D. Banehallow Ambry
+Answer:","[""Carl"", ""Barathrum"", ""Raigor Stonehoof"", ""Banehallow Ambry""]",http,0.0,16,none,"{""id"":""chatcmpl-nt07sztd9mjwpk6xmdqy"",""object"":""chat.completion"",""created"":1795594672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9838,,MarianeAzar,20261125_084135,2026-11-25T08:17:54.513788+00:00
+7900f45dcf02884c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a main playable character in ""Grand Theft Auto V""?
+A. Lamar
+B. Michael
+C. Franklin
+D. Trevor
+Answer:","[""Lamar"", ""Michael"", ""Franklin"", ""Trevor""]",http,0.0,16,none,"{""id"":""chatcmpl-c7i216n99mjkdv5cadowk8"",""object"":""chat.completion"",""created"":1795594673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3856,,MarianeAzar,20261125_084135,2026-11-25T08:17:55.900313+00:00
+7900f45dcf02884c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a main playable character in ""Grand Theft Auto V""?
+A. Lamar
+B. Michael
+C. Franklin
+D. Trevor
+Answer:","[""Lamar"", ""Michael"", ""Franklin"", ""Trevor""]",http,0.0,16,none,"{""id"":""chatcmpl-ve1bmjsq9vf6wb0960873a"",""object"":""chat.completion"",""created"":1795594675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0212,,MarianeAzar,20261125_084135,2026-11-25T08:17:56.921812+00:00
+7da7e9e8d1d231cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Apollo mission was the first one to land on the Moon?
+A. Apollo 13
+B. Apollo 11
+C. Apollo 9
+D. Apollo 10
+Answer:","[""Apollo 13"", ""Apollo 11"", ""Apollo 9"", ""Apollo 10""]",http,0.0,16,none,"{""id"":""chatcmpl-0o9bfylsy9p9qpjj2t67qe"",""object"":""chat.completion"",""created"":1795594676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9384,,MarianeAzar,20261125_084135,2026-11-25T08:17:57.860463+00:00
+7da7e9e8d1d231cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Apollo mission was the first one to land on the Moon?
+A. Apollo 13
+B. Apollo 11
+C. Apollo 9
+D. Apollo 10
+Answer:","[""Apollo 13"", ""Apollo 11"", ""Apollo 9"", ""Apollo 10""]",http,0.0,16,none,"{""id"":""chatcmpl-nwg5o6c3jrr16q17dt6za"",""object"":""chat.completion"",""created"":1795594677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4279,,MarianeAzar,20261125_084135,2026-11-25T08:17:59.288687+00:00
+2947fd05ae152f61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the unofficial name for Germany between 1919 and 1933?
+A. Weimar Republic
+B. Federal Republic of Germany
+C. German Democratic Republic
+D. Oesterreich
+Answer:","[""Weimar Republic"", ""Federal Republic of Germany"", ""German Democratic Republic"", ""Oesterreich""]",http,0.0,16,none,"{""id"":""chatcmpl-0tygvgwk9npil01gdzowf4"",""object"":""chat.completion"",""created"":1795594678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9601,,MarianeAzar,20261125_084135,2026-11-25T08:18:00.249119+00:00
+2947fd05ae152f61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the unofficial name for Germany between 1919 and 1933?
+A. Weimar Republic
+B. Federal Republic of Germany
+C. German Democratic Republic
+D. Oesterreich
+Answer:","[""Weimar Republic"", ""Federal Republic of Germany"", ""German Democratic Republic"", ""Oesterreich""]",http,0.0,16,none,"{""id"":""chatcmpl-6pckqifm0g8753q4dy6yso"",""object"":""chat.completion"",""created"":1795594679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9691,,MarianeAzar,20261125_084135,2026-11-25T08:18:01.218465+00:00
+470ffe44921b8f88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?
+A. Corsica
+B. St. Helena
+C. Elba
+D. Canary
+Answer:","[""Corsica"", ""St. Helena"", ""Elba"", ""Canary""]",http,0.0,16,none,"{""id"":""chatcmpl-osmtsxgwh1prver30plxc"",""object"":""chat.completion"",""created"":1795594680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2584,,MarianeAzar,20261125_084135,2026-11-25T08:18:02.477509+00:00
+470ffe44921b8f88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?
+A. Corsica
+B. St. Helena
+C. Elba
+D. Canary
+Answer:","[""Corsica"", ""St. Helena"", ""Elba"", ""Canary""]",http,0.0,16,none,"{""id"":""chatcmpl-y3fld5v3eabmp7liokusmm"",""object"":""chat.completion"",""created"":1795594681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0716,,MarianeAzar,20261125_084135,2026-11-25T08:18:03.549265+00:00
+15764e3b3bdca9f5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What lies at the center of our galaxy?
+A. A black hole
+B. A quasar
+C. A supernova
+D. A wormhole
+Answer:","[""A black hole"", ""A quasar"", ""A supernova"", ""A wormhole""]",http,0.0,16,none,"{""id"":""chatcmpl-hnldwhcmg5v2xtftzppnl5"",""object"":""chat.completion"",""created"":1795594682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9412,,MarianeAzar,20261125_084135,2026-11-25T08:18:04.490765+00:00
+15764e3b3bdca9f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What lies at the center of our galaxy?
+A. A black hole
+B. A quasar
+C. A supernova
+D. A wormhole
+Answer:","[""A black hole"", ""A quasar"", ""A supernova"", ""A wormhole""]",http,0.0,16,none,"{""id"":""chatcmpl-2skdw9t0w6ossqoskijcw"",""object"":""chat.completion"",""created"":1795594683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2529,,MarianeAzar,20261125_084135,2026-11-25T08:18:05.744129+00:00
+72ea76b407dbb281,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sea sponges can have hearts.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wq7rom0vkdllitrutz1jm"",""object"":""chat.completion"",""created"":1795594685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1999,,MarianeAzar,20261125_084135,2026-11-25T08:18:06.944500+00:00
+72ea76b407dbb281,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sea sponges can have hearts.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eh8r4udtoiff3gvbhtceb"",""object"":""chat.completion"",""created"":1795594686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8949,,MarianeAzar,20261125_084135,2026-11-25T08:18:07.839540+00:00
+ced7a6644e8f4ee6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what medium was ""Clannad"" first created?
+A. Visual novel
+B. Anime
+C. Light novel
+D. Manga
+Answer:","[""Visual novel"", ""Anime"", ""Light novel"", ""Manga""]",http,0.0,16,none,"{""id"":""chatcmpl-r9fxd13i6zuhzhn9st0ao"",""object"":""chat.completion"",""created"":1795594687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9289,,MarianeAzar,20261125_084135,2026-11-25T08:18:08.768853+00:00
+ced7a6644e8f4ee6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what medium was ""Clannad"" first created?
+A. Visual novel
+B. Anime
+C. Light novel
+D. Manga
+Answer:","[""Visual novel"", ""Anime"", ""Light novel"", ""Manga""]",http,0.0,16,none,"{""id"":""chatcmpl-eaj94doydmtouuhndp2gsc"",""object"":""chat.completion"",""created"":1795594688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2696,,MarianeAzar,20261125_084135,2026-11-25T08:18:10.038689+00:00
+e0b8d971e0fe0ab5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Japanese islands is the largest by area?
+A. Okinawa
+B. Shikoku
+C. Odaiba
+D. Iki
+Answer:","[""Okinawa"", ""Shikoku"", ""Odaiba"", ""Iki""]",http,0.0,16,none,"{""id"":""chatcmpl-cnp9mh7frwvljrv9f4qmsk"",""object"":""chat.completion"",""created"":1795594689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:18:10.944996+00:00

@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+97c925fa45526bd6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Boolean value of ""0"" represents which of these words?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hi8unj10pysvxjz57ui0kr"",""object"":""chat.completion"",""created"":1795592971,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.794,,MarianeAzar,20261125_084135,2026-11-25T07:49:32.893766+00:00
+97c925fa45526bd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Boolean value of ""0"" represents which of these words?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3rt50r7bq18t3ocv0tqchn"",""object"":""chat.completion"",""created"":1795592972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8247,,MarianeAzar,20261125_084135,2026-11-25T07:49:33.718662+00:00
+fe474570b7a94229,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many bones are in the human body?
+A. 200
+B. 206
+C. 203
+D. 209
+Answer:","[""200"", ""206"", ""203"", ""209""]",http,0.0,16,none,"{""id"":""chatcmpl-toa4jjaqihe8vr40p6lk5m"",""object"":""chat.completion"",""created"":1795592973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261125_084135,2026-11-25T07:49:34.571166+00:00
+fe474570b7a94229,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many bones are in the human body?
+A. 200
+B. 206
+C. 203
+D. 209
+Answer:","[""200"", ""206"", ""203"", ""209""]",http,0.0,16,none,"{""id"":""chatcmpl-np5lc28564qbzw82d4vdh"",""object"":""chat.completion"",""created"":1795592974,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T07:49:35.429428+00:00
+235fec9426615be3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Psychology is the science of behavior and mind.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-39jztfnajemxyyndnyfms"",""object"":""chat.completion"",""created"":1795592974,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.801,,MarianeAzar,20261125_084135,2026-11-25T07:49:36.230624+00:00
+235fec9426615be3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Psychology is the science of behavior and mind.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4phuwvohlgdu3j3fknmvji"",""object"":""chat.completion"",""created"":1795592975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8084,,MarianeAzar,20261125_084135,2026-11-25T07:49:37.039171+00:00
+293f00c61596becd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2014, over 6 million General Motors vehicles were recalled due to what critical flaw?
+A. Faulty brake pads
+B. Breaking fuel lines
+C. Malfunctioning gas pedal
+D. Faulty ignition switch
+Answer:","[""Faulty brake pads"", ""Breaking fuel lines"", ""Malfunctioning gas pedal"", ""Faulty ignition switch""]",http,0.0,16,none,"{""id"":""chatcmpl-dmi6pc483c985qiq1hx0e"",""object"":""chat.completion"",""created"":1795592976,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8852,,MarianeAzar,20261125_084135,2026-11-25T07:49:37.924596+00:00
+293f00c61596becd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2014, over 6 million General Motors vehicles were recalled due to what critical flaw?
+A. Faulty brake pads
+B. Breaking fuel lines
+C. Malfunctioning gas pedal
+D. Faulty ignition switch
+Answer:","[""Faulty brake pads"", ""Breaking fuel lines"", ""Malfunctioning gas pedal"", ""Faulty ignition switch""]",http,0.0,16,none,"{""id"":""chatcmpl-1687yia6cuy5j883r694y8"",""object"":""chat.completion"",""created"":1795592977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T07:49:38.809406+00:00
+aa8891c40a5b177a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the extra pedal on a manual or standard transmission car?
+A. Clutch
+B. Booster
+C. Shifter
+D. Parking Brake
+Answer:","[""Clutch"", ""Booster"", ""Shifter"", ""Parking Brake""]",http,0.0,16,none,"{""id"":""chatcmpl-gird8y5oy0n3d30g1zi182"",""object"":""chat.completion"",""created"":1795592978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8467,,MarianeAzar,20261125_084135,2026-11-25T07:49:39.656428+00:00
+aa8891c40a5b177a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the extra pedal on a manual or standard transmission car?
+A. Clutch
+B. Booster
+C. Shifter
+D. Parking Brake
+Answer:","[""Clutch"", ""Booster"", ""Shifter"", ""Parking Brake""]",http,0.0,16,none,"{""id"":""chatcmpl-mbqzgl385i08wbpogb26dt"",""object"":""chat.completion"",""created"":1795592979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8754,,MarianeAzar,20261125_084135,2026-11-25T07:49:40.532051+00:00
+271af25cebde2570,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is the iconic arcade character Q*Bert?
+A. Green
+B. Blue
+C. Orange
+D. Brown
+Answer:","[""Green"", ""Blue"", ""Orange"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-7205f4v95r3ymyroh12d9j"",""object"":""chat.completion"",""created"":1795592979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8669,,MarianeAzar,20261125_084135,2026-11-25T07:49:41.399461+00:00
+271af25cebde2570,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is the iconic arcade character Q*Bert?
+A. Green
+B. Blue
+C. Orange
+D. Brown
+Answer:","[""Green"", ""Blue"", ""Orange"", ""Brown""]",http,0.0,16,none,"{""id"":""chatcmpl-vrxsr9dpaccvd5knpvrgg"",""object"":""chat.completion"",""created"":1795592980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8479,,MarianeAzar,20261125_084135,2026-11-25T07:49:42.247600+00:00
+b28125a1bcd791fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year was the pen and paper RPG ""Deadlands"" released?
+A. 1993
+B. 1999
+C. 2003
+D. 1996
+Answer:","[""1993"", ""1999"", ""2003"", ""1996""]",http,0.0,16,none,"{""id"":""chatcmpl-bxt41sqjcedhwbux7784l4"",""object"":""chat.completion"",""created"":1795592981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T07:49:43.102484+00:00
+b28125a1bcd791fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year was the pen and paper RPG ""Deadlands"" released?
+A. 1993
+B. 1999
+C. 2003
+D. 1996
+Answer:","[""1993"", ""1999"", ""2003"", ""1996""]",http,0.0,16,none,"{""id"":""chatcmpl-7jkaz5a5kxj82uwn9tgpsq"",""object"":""chat.completion"",""created"":1795592982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8783,,MarianeAzar,20261125_084135,2026-11-25T07:49:43.981016+00:00
+d2c8ce481dca4062,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The iPhone 3G was the second iPhone generation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kdm72izyut8vb2f5qj22q"",""object"":""chat.completion"",""created"":1795592983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.832,,MarianeAzar,20261125_084135,2026-11-25T07:49:44.813237+00:00
+d2c8ce481dca4062,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The iPhone 3G was the second iPhone generation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k4vzxoz2bd8k7hkne7bkm8"",""object"":""chat.completion"",""created"":1795592984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8115,,MarianeAzar,20261125_084135,2026-11-25T07:49:45.624910+00:00
+f6d23a95be1f5f80,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Nuclear Throne, which character starts with the least HP?
+A. Rebel
+B. Yung Venuz (Y.V.)
+C. Crystal
+D. Melting
+Answer:","[""Rebel"", ""Yung Venuz (Y.V.)"", ""Crystal"", ""Melting""]",http,0.0,16,none,"{""id"":""chatcmpl-kmluej4xzudecfg6b4ao7"",""object"":""chat.completion"",""created"":1795592985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T07:49:46.484214+00:00
+f6d23a95be1f5f80,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Nuclear Throne, which character starts with the least HP?
+A. Rebel
+B. Yung Venuz (Y.V.)
+C. Crystal
+D. Melting
+Answer:","[""Rebel"", ""Yung Venuz (Y.V.)"", ""Crystal"", ""Melting""]",http,0.0,16,none,"{""id"":""chatcmpl-09wj2g4fjoj8zazukn07h2l"",""object"":""chat.completion"",""created"":1795592985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T07:49:47.347879+00:00
+a9db357e3c9c1e01,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Timbuktu located?
+A. Azerbaijan, Asia
+B. Mauritania, Africa
+C. Bangladesh, Asia
+D. Mali, Africa
+Answer:","[""Azerbaijan, Asia"", ""Mauritania, Africa"", ""Bangladesh, Asia"", ""Mali, Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-lbdgs07sorsexoxrknj5aj"",""object"":""chat.completion"",""created"":1795592986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T07:49:48.226292+00:00
+a9db357e3c9c1e01,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Timbuktu located?
+A. Azerbaijan, Asia
+B. Mauritania, Africa
+C. Bangladesh, Asia
+D. Mali, Africa
+Answer:","[""Azerbaijan, Asia"", ""Mauritania, Africa"", ""Bangladesh, Asia"", ""Mali, Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-snzeq01t75aqwljb284gi"",""object"":""chat.completion"",""created"":1795592987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T07:49:49.084373+00:00
+82c727ec667b02ef,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A defibrillator is used to start up a heartbeat once a heart has stopped beating.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-148ox7afr2hqhmrjmeiy2"",""object"":""chat.completion"",""created"":1795592988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8347,,MarianeAzar,20261125_084135,2026-11-25T07:49:49.919546+00:00
+82c727ec667b02ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A defibrillator is used to start up a heartbeat once a heart has stopped beating.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u662yw5z4ahdr88hy53qm"",""object"":""chat.completion"",""created"":1795592989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8369,,MarianeAzar,20261125_084135,2026-11-25T07:49:50.756615+00:00
+e787c06b58de54e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Call Of Duty: Zombies"" map ""Origins"", how many numbered power generators are there?
+A. 3
+B. 5
+C. 6
+D. 8
+Answer:","[""3"", ""5"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-b62px38h3asigsa9sjjf3d"",""object"":""chat.completion"",""created"":1795592990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.853,,MarianeAzar,20261125_084135,2026-11-25T07:49:51.609886+00:00
+e787c06b58de54e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Call Of Duty: Zombies"" map ""Origins"", how many numbered power generators are there?
+A. 3
+B. 5
+C. 6
+D. 8
+Answer:","[""3"", ""5"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-ja2ela6k8wrfwul8warpn5"",""object"":""chat.completion"",""created"":1795592991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T07:49:52.489136+00:00
+02039edfee637335,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which programming language was developed by Sun Microsystems in 1995?
+A. C++
+B. Java
+C. Python
+D. Solaris OS
+Answer:","[""C++"", ""Java"", ""Python"", ""Solaris OS""]",http,0.0,16,none,"{""id"":""chatcmpl-t4ulkrk26hsi7lj6tt77m"",""object"":""chat.completion"",""created"":1795592991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8719,,MarianeAzar,20261125_084135,2026-11-25T07:49:53.361349+00:00

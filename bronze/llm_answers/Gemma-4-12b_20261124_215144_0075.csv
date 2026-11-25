@@ -1,0 +1,177 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6dca4f4367f24ddd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There aren't any live-action clones in ""Star Wars: Episode III - Revenge of the Sith"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lvmu1vlckcr8n45ebozpbc"",""object"":""chat.completion"",""created"":1795558600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8429,,MarianeAzar,20261124_215144,2026-11-24T22:16:41.284303+00:00
+477d2bde0ba39c14,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The original ending of ""Little Shop Of Horrors"" has the plants taking over the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x6gpfx690ks3g56tqgpw4r"",""object"":""chat.completion"",""created"":1795558601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8211,,MarianeAzar,20261124_215144,2026-11-24T22:16:42.105556+00:00
+477d2bde0ba39c14,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The original ending of ""Little Shop Of Horrors"" has the plants taking over the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-s1xhvukekceqscn3fz0j8a"",""object"":""chat.completion"",""created"":1795558602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.848,,MarianeAzar,20261124_215144,2026-11-24T22:16:42.953635+00:00
+09258284e2421f28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?
+A. Rabbit
+B. Tigger
+C. Gopher
+D. Heffalumps
+Answer:","[""Rabbit"", ""Tigger"", ""Gopher"", ""Heffalumps""]",http,0.0,16,none,"{""id"":""chatcmpl-v90glgit20gk73sho6xpmg"",""object"":""chat.completion"",""created"":1795558602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261124_215144,2026-11-24T22:16:43.802578+00:00
+09258284e2421f28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What character in the Winnie the Pooh films was added by Disney and does not appear in the original books?
+A. Rabbit
+B. Tigger
+C. Gopher
+D. Heffalumps
+Answer:","[""Rabbit"", ""Tigger"", ""Gopher"", ""Heffalumps""]",http,0.0,16,none,"{""id"":""chatcmpl-qutptmz17zj119h6sjs6"",""object"":""chat.completion"",""created"":1795558603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8955,,MarianeAzar,20261124_215144,2026-11-24T22:16:44.698235+00:00
+f34d90cc188fab26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sciophobia is the fear of what?
+A. Eating
+B. Transportation
+C. Bright lights
+D. Shadows
+Answer:","[""Eating"", ""Transportation"", ""Bright lights"", ""Shadows""]",http,0.0,16,none,"{""id"":""chatcmpl-fj2uw2gvokl44jp4k0hiqm"",""object"":""chat.completion"",""created"":1795558604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8769,,MarianeAzar,20261124_215144,2026-11-24T22:16:45.575809+00:00
+f34d90cc188fab26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sciophobia is the fear of what?
+A. Eating
+B. Transportation
+C. Bright lights
+D. Shadows
+Answer:","[""Eating"", ""Transportation"", ""Bright lights"", ""Shadows""]",http,0.0,16,none,"{""id"":""chatcmpl-t05rmk4pubbfuwbrgasbt"",""object"":""chat.completion"",""created"":1795558605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261124_215144,2026-11-24T22:16:46.430574+00:00
+835155617569b3f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of India?
+A. New Delhi
+B. Montreal
+C. Beijing
+D. Tithi
+Answer:","[""New Delhi"", ""Montreal"", ""Beijing"", ""Tithi""]",http,0.0,16,none,"{""id"":""chatcmpl-pz86h8zqkl43nyn1pvho"",""object"":""chat.completion"",""created"":1795558606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261124_215144,2026-11-24T22:16:47.291985+00:00
+835155617569b3f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of India?
+A. New Delhi
+B. Montreal
+C. Beijing
+D. Tithi
+Answer:","[""New Delhi"", ""Montreal"", ""Beijing"", ""Tithi""]",http,0.0,16,none,"{""id"":""chatcmpl-k7lagt3utkr3jwlri7juwh"",""object"":""chat.completion"",""created"":1795558607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261124_215144,2026-11-24T22:16:48.140733+00:00
+fb56cc4baa41c20a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This composer worked on the 2003 TV series Battlestar Galatica.
+A. Jeremy Soule
+B. Ramin Djawadi
+C. Harry Gregson-Williams
+D. Bear McCreary
+Answer:","[""Jeremy Soule"", ""Ramin Djawadi"", ""Harry Gregson-Williams"", ""Bear McCreary""]",http,0.0,16,none,"{""id"":""chatcmpl-o8e61qjka4rdt1jb56lqf"",""object"":""chat.completion"",""created"":1795558608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261124_215144,2026-11-24T22:16:48.992630+00:00
+fb56cc4baa41c20a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This composer worked on the 2003 TV series Battlestar Galatica.
+A. Jeremy Soule
+B. Ramin Djawadi
+C. Harry Gregson-Williams
+D. Bear McCreary
+Answer:","[""Jeremy Soule"", ""Ramin Djawadi"", ""Harry Gregson-Williams"", ""Bear McCreary""]",http,0.0,16,none,"{""id"":""chatcmpl-yhwa5tvp9cs9qex9mxbn"",""object"":""chat.completion"",""created"":1795558608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8986,,MarianeAzar,20261124_215144,2026-11-24T22:16:49.891340+00:00
+9e1e56ab1fe285c0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British writer wrote for both Doctor Who and Sherlock?
+A. Phil Ford
+B. Steven Moffatt
+C. Russell T Davies
+D. Toby Whithouse
+Answer:","[""Phil Ford"", ""Steven Moffatt"", ""Russell T Davies"", ""Toby Whithouse""]",http,0.0,16,none,"{""id"":""chatcmpl-hvxkpgnuezata1m6le2rg"",""object"":""chat.completion"",""created"":1795558609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261124_215144,2026-11-24T22:16:50.764562+00:00
+9e1e56ab1fe285c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British writer wrote for both Doctor Who and Sherlock?
+A. Phil Ford
+B. Steven Moffatt
+C. Russell T Davies
+D. Toby Whithouse
+Answer:","[""Phil Ford"", ""Steven Moffatt"", ""Russell T Davies"", ""Toby Whithouse""]",http,0.0,16,none,"{""id"":""chatcmpl-3f7g4n6h7r30r5y677vdf8"",""object"":""chat.completion"",""created"":1795558610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261124_215144,2026-11-24T22:16:51.627373+00:00
+a1dcde8ccad90955,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which celebrity announced his presidency in 2015?
+A. Miley Cyrus
+B. Donald Trump
+C. Kanye West
+D. Leonardo DiCaprio
+Answer:","[""Miley Cyrus"", ""Donald Trump"", ""Kanye West"", ""Leonardo DiCaprio""]",http,0.0,16,none,"{""id"":""chatcmpl-vro6qgtqmwax0mezywzmc"",""object"":""chat.completion"",""created"":1795558611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261124_215144,2026-11-24T22:16:52.483037+00:00
+a1dcde8ccad90955,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which celebrity announced his presidency in 2015?
+A. Miley Cyrus
+B. Donald Trump
+C. Kanye West
+D. Leonardo DiCaprio
+Answer:","[""Miley Cyrus"", ""Donald Trump"", ""Kanye West"", ""Leonardo DiCaprio""]",http,0.0,16,none,"{""id"":""chatcmpl-9en76xp0qwq177cyj79h9g"",""object"":""chat.completion"",""created"":1795558612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261124_215144,2026-11-24T22:16:53.337942+00:00
+f30ab2cc4eead9ed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is “The Sport of Kings”?
+A. Horse Racing
+B. Chess
+C. Jousting
+D. Fencing
+Answer:","[""Horse Racing"", ""Chess"", ""Jousting"", ""Fencing""]",http,0.0,16,none,"{""id"":""chatcmpl-z85tuh2m3jj41nmmilvt"",""object"":""chat.completion"",""created"":1795558613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8621,,MarianeAzar,20261124_215144,2026-11-24T22:16:54.200561+00:00
+f30ab2cc4eead9ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is “The Sport of Kings”?
+A. Horse Racing
+B. Chess
+C. Jousting
+D. Fencing
+Answer:","[""Horse Racing"", ""Chess"", ""Jousting"", ""Fencing""]",http,0.0,16,none,"{""id"":""chatcmpl-65eyimac62hm855mqbeo1"",""object"":""chat.completion"",""created"":1795558614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.845,,MarianeAzar,20261124_215144,2026-11-24T22:16:55.045870+00:00
+2b35a10ec8771687,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?
+A. Gilles Villeneuve
+B. Ayrton Senna
+C. Ronald Ratzenberger
+D. Jules Bianchi
+Answer:","[""Gilles Villeneuve"", ""Ayrton Senna"", ""Ronald Ratzenberger"", ""Jules Bianchi""]",http,0.0,16,none,"{""id"":""chatcmpl-pqsdwy0t0j2l2twh6vy1u"",""object"":""chat.completion"",""created"":1795558614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261124_215144,2026-11-24T22:16:55.903131+00:00
+2b35a10ec8771687,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?
+A. Gilles Villeneuve
+B. Ayrton Senna
+C. Ronald Ratzenberger
+D. Jules Bianchi
+Answer:","[""Gilles Villeneuve"", ""Ayrton Senna"", ""Ronald Ratzenberger"", ""Jules Bianchi""]",http,0.0,16,none,"{""id"":""chatcmpl-yt4plnxiqzuegu29bppem"",""object"":""chat.completion"",""created"":1795558615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8761,,MarianeAzar,20261124_215144,2026-11-24T22:16:56.779548+00:00
+0168221a34a018be,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the only US president to serve two non-consecutive terms in office?
+A. Grover Cleveland
+B. Thomas Jefferson
+C. Franklin D. Roosevelt
+D. James K. Polk
+Answer:","[""Grover Cleveland"", ""Thomas Jefferson"", ""Franklin D. Roosevelt"", ""James K. Polk""]",http,0.0,16,none,"{""id"":""chatcmpl-tnalhq7xurez1rzke3xji"",""object"":""chat.completion"",""created"":1795558616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8723,,MarianeAzar,20261124_215144,2026-11-24T22:16:57.652214+00:00
+0168221a34a018be,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the only US president to serve two non-consecutive terms in office?
+A. Grover Cleveland
+B. Thomas Jefferson
+C. Franklin D. Roosevelt
+D. James K. Polk
+Answer:","[""Grover Cleveland"", ""Thomas Jefferson"", ""Franklin D. Roosevelt"", ""James K. Polk""]",http,0.0,16,none,"{""id"":""chatcmpl-calv2hcftbkbp4q6e7w1ta"",""object"":""chat.completion"",""created"":1795558617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261124_215144,2026-11-24T22:16:58.524439+00:00
+1592593de03ada24,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What alcoholic drink is mainly made from juniper berries?
+A. Tequila
+B. Vodka
+C. Gin
+D. Rum
+Answer:","[""Tequila"", ""Vodka"", ""Gin"", ""Rum""]",http,0.0,16,none,"{""id"":""chatcmpl-qk9dqju59duwji2oj1amt"",""object"":""chat.completion"",""created"":1795558618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8724,,MarianeAzar,20261124_215144,2026-11-24T22:16:59.396968+00:00
+1592593de03ada24,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What alcoholic drink is mainly made from juniper berries?
+A. Tequila
+B. Vodka
+C. Gin
+D. Rum
+Answer:","[""Tequila"", ""Vodka"", ""Gin"", ""Rum""]",http,0.0,16,none,"{""id"":""chatcmpl-fx2gac7fgztarr4646htlb"",""object"":""chat.completion"",""created"":1795558619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261124_215144,2026-11-24T22:17:00.273519+00:00
+58e31041ef51bab5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Donkey Kong died in the ""Donkey Kong Country"" episode ""It's a Wonderful Life"", who was his guardian angel?
+A. Kiddy Kong
+B. King K. Rool
+C. Eddie the Mean Old Yeti
+D. Diddy Kong
+Answer:","[""Kiddy Kong"", ""King K. Rool"", ""Eddie the Mean Old Yeti"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-edketaubung2hvqmn67s6i"",""object"":""chat.completion"",""created"":1795558620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8945,,MarianeAzar,20261124_215144,2026-11-24T22:17:01.168377+00:00
+58e31041ef51bab5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Donkey Kong died in the ""Donkey Kong Country"" episode ""It's a Wonderful Life"", who was his guardian angel?
+A. Kiddy Kong
+B. King K. Rool
+C. Eddie the Mean Old Yeti
+D. Diddy Kong
+Answer:","[""Kiddy Kong"", ""King K. Rool"", ""Eddie the Mean Old Yeti"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-dqb75z5a0tal1jnb04utkp"",""object"":""chat.completion"",""created"":1795558621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9295,,MarianeAzar,20261124_215144,2026-11-24T22:17:02.098149+00:00

@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+154f756bc47a9886,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Canada's largest island?
+A. Newfoundland
+B. Baffin Island
+C. Prince Edward Island
+D. Vancouver Island
+Answer:","[""Newfoundland"", ""Baffin Island"", ""Prince Edward Island"", ""Vancouver Island""]",http,0.0,16,none,"{""id"":""chatcmpl-s3l2pb4mw8twai0mwesk"",""object"":""chat.completion"",""created"":1795596704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9275,,MarianeAzar,20261125_084135,2026-11-25T08:51:46.105470+00:00
+8e1da5a319325e10,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following originated as a manga?
+A. Akira
+B. Cowboy Bebop
+C. High School DxD
+D. Gurren Lagann
+Answer:","[""Akira"", ""Cowboy Bebop"", ""High School DxD"", ""Gurren Lagann""]",http,0.0,16,none,"{""id"":""chatcmpl-8in82hr9jn3ucukhy24i7"",""object"":""chat.completion"",""created"":1795596705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9661,,MarianeAzar,20261125_084135,2026-11-25T08:51:47.071998+00:00
+8e1da5a319325e10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following originated as a manga?
+A. Akira
+B. Cowboy Bebop
+C. High School DxD
+D. Gurren Lagann
+Answer:","[""Akira"", ""Cowboy Bebop"", ""High School DxD"", ""Gurren Lagann""]",http,0.0,16,none,"{""id"":""chatcmpl-z1qcbna7o9972tflyw8dd"",""object"":""chat.completion"",""created"":1795596706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261125_084135,2026-11-25T08:51:47.931042+00:00
+9e9ea3dc3ff058ea,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The name of technology company HP stands for what?
+A. Howard Packmann
+B. Hewlett-Packard
+C. Hellman-Pohl
+D. Husker-Pollosk
+Answer:","[""Howard Packmann"", ""Hewlett-Packard"", ""Hellman-Pohl"", ""Husker-Pollosk""]",http,0.0,16,none,"{""id"":""chatcmpl-j4064j2k5zev9vkqutoszp"",""object"":""chat.completion"",""created"":1795596707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T08:51:48.794201+00:00
+9e9ea3dc3ff058ea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The name of technology company HP stands for what?
+A. Howard Packmann
+B. Hewlett-Packard
+C. Hellman-Pohl
+D. Husker-Pollosk
+Answer:","[""Howard Packmann"", ""Hewlett-Packard"", ""Hellman-Pohl"", ""Husker-Pollosk""]",http,0.0,16,none,"{""id"":""chatcmpl-cino50j3vsrfds502zkt"",""object"":""chat.completion"",""created"":1795596708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9373,,MarianeAzar,20261125_084135,2026-11-25T08:51:49.731763+00:00
+f499720b927c087a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""science"" stems from the word ""scire"" meaning what?
+A. To measure
+B. To live
+C. To count
+D. To know
+Answer:","[""To measure"", ""To live"", ""To count"", ""To know""]",http,0.0,16,none,"{""id"":""chatcmpl-f3dngly3k2oswy6nxxhnxk"",""object"":""chat.completion"",""created"":1795596709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4892,,MarianeAzar,20261125_084135,2026-11-25T08:51:51.221624+00:00
+f499720b927c087a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""science"" stems from the word ""scire"" meaning what?
+A. To measure
+B. To live
+C. To count
+D. To know
+Answer:","[""To measure"", ""To live"", ""To count"", ""To know""]",http,0.0,16,none,"{""id"":""chatcmpl-o8dqskdyk8an0ckkn3h03"",""object"":""chat.completion"",""created"":1795596710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9141,,MarianeAzar,20261125_084135,2026-11-25T08:51:52.136049+00:00
+296b1869e0150209,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the Battle of the Bulge end?
+A. December 16, 1944
+B. January 25, 1945
+C. December 7, 1941
+D. August 6, 1945
+Answer:","[""December 16, 1944"", ""January 25, 1945"", ""December 7, 1941"", ""August 6, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-8u4qnrz3rbm9cr0euebjkj"",""object"":""chat.completion"",""created"":1795596711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8846,,MarianeAzar,20261125_084135,2026-11-25T08:51:53.021128+00:00
+296b1869e0150209,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the Battle of the Bulge end?
+A. December 16, 1944
+B. January 25, 1945
+C. December 7, 1941
+D. August 6, 1945
+Answer:","[""December 16, 1944"", ""January 25, 1945"", ""December 7, 1941"", ""August 6, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-emne190bo9dyn36kvlr0q"",""object"":""chat.completion"",""created"":1795596712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9728,,MarianeAzar,20261125_084135,2026-11-25T08:51:53.994190+00:00
+a6dd0a9afcbccd52,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who led the Communist Revolution of Russia?
+A. Vladimir Lenin
+B. Joseph Stalin
+C. Vladimir Putin
+D. Mikhail Gorbachev
+Answer:","[""Vladimir Lenin"", ""Joseph Stalin"", ""Vladimir Putin"", ""Mikhail Gorbachev""]",http,0.0,16,none,"{""id"":""chatcmpl-l0s9xs4k2ei9oy77jz8us7"",""object"":""chat.completion"",""created"":1795596713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9031,,MarianeAzar,20261125_084135,2026-11-25T08:51:54.897821+00:00
+a6dd0a9afcbccd52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who led the Communist Revolution of Russia?
+A. Vladimir Lenin
+B. Joseph Stalin
+C. Vladimir Putin
+D. Mikhail Gorbachev
+Answer:","[""Vladimir Lenin"", ""Joseph Stalin"", ""Vladimir Putin"", ""Mikhail Gorbachev""]",http,0.0,16,none,"{""id"":""chatcmpl-tb2h0wxbknshb1awabrfxe"",""object"":""chat.completion"",""created"":1795596714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T08:51:55.759322+00:00
+6f692af3ca80d29b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", which hero is able to wallride?
+A. Mercy
+B. Sombra
+C. Reinhardt
+D. Lucio
+Answer:","[""Mercy"", ""Sombra"", ""Reinhardt"", ""Lucio""]",http,0.0,16,none,"{""id"":""chatcmpl-h921zazsil9jle071nc6wf"",""object"":""chat.completion"",""created"":1795596715,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9242,,MarianeAzar,20261125_084135,2026-11-25T08:51:56.683806+00:00
+6f692af3ca80d29b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", which hero is able to wallride?
+A. Mercy
+B. Sombra
+C. Reinhardt
+D. Lucio
+Answer:","[""Mercy"", ""Sombra"", ""Reinhardt"", ""Lucio""]",http,0.0,16,none,"{""id"":""chatcmpl-e5enqc9cnvqbsuod5kfogs"",""object"":""chat.completion"",""created"":1795596716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8901,,MarianeAzar,20261125_084135,2026-11-25T08:51:57.574078+00:00
+6d25ec9e583a664a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the play 'Angels in America'?
+A. Matthew Lopez
+B. Tony Kusher
+C. Anthony Neilson
+D. Tom Stoppard
+Answer:","[""Matthew Lopez"", ""Tony Kusher"", ""Anthony Neilson"", ""Tom Stoppard""]",http,0.0,16,none,"{""id"":""chatcmpl-j6lyquypdqprnl6ryr5a8q"",""object"":""chat.completion"",""created"":1795596717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261125_084135,2026-11-25T08:51:58.432023+00:00
+6d25ec9e583a664a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the play 'Angels in America'?
+A. Matthew Lopez
+B. Tony Kusher
+C. Anthony Neilson
+D. Tom Stoppard
+Answer:","[""Matthew Lopez"", ""Tony Kusher"", ""Anthony Neilson"", ""Tom Stoppard""]",http,0.0,16,none,"{""id"":""chatcmpl-gdehl9ewynses3ukdjkk7a"",""object"":""chat.completion"",""created"":1795596717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:51:59.290583+00:00
+465d28c8cb3f2a75,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was James Coburn's last film role before his death?
+A. Snow Dogs
+B. American Gun
+C. Monsters Inc
+D. Texas Rangers
+Answer:","[""Snow Dogs"", ""American Gun"", ""Monsters Inc"", ""Texas Rangers""]",http,0.0,16,none,"{""id"":""chatcmpl-7qcowr6811n1op4e0qjqcl"",""object"":""chat.completion"",""created"":1795596718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261125_084135,2026-11-25T08:52:00.148076+00:00
+465d28c8cb3f2a75,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was James Coburn's last film role before his death?
+A. Snow Dogs
+B. American Gun
+C. Monsters Inc
+D. Texas Rangers
+Answer:","[""Snow Dogs"", ""American Gun"", ""Monsters Inc"", ""Texas Rangers""]",http,0.0,16,none,"{""id"":""chatcmpl-vbbheu01p1zka6npdyy38"",""object"":""chat.completion"",""created"":1795596719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:52:01.004644+00:00
+73648b5b6f355050,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Doctor Who"" star David Tennant performed in a rendition of which Shakespearean play?
+A. The Tempest
+B. The Taming of the Shrew
+C. Hamlet
+D. Othello
+Answer:","[""The Tempest"", ""The Taming of the Shrew"", ""Hamlet"", ""Othello""]",http,0.0,16,none,"{""id"":""chatcmpl-8o6lco0u6goif98r3x7whb"",""object"":""chat.completion"",""created"":1795596720,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9093,,MarianeAzar,20261125_084135,2026-11-25T08:52:01.914260+00:00
+73648b5b6f355050,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Doctor Who"" star David Tennant performed in a rendition of which Shakespearean play?
+A. The Tempest
+B. The Taming of the Shrew
+C. Hamlet
+D. Othello
+Answer:","[""The Tempest"", ""The Taming of the Shrew"", ""Hamlet"", ""Othello""]",http,0.0,16,none,"{""id"":""chatcmpl-r13bamkuvyovmhea4jcv5"",""object"":""chat.completion"",""created"":1795596721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8745,,MarianeAzar,20261125_084135,2026-11-25T08:52:02.788925+00:00
+8fa0d210fc0c1cd5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The song ""Twin Size Mattress"" was written by which band?
+A. The Wonder Years
+B. The Front Bottoms
+C. Twenty One Pilots
+D. The Smith Street Band
+Answer:","[""The Wonder Years"", ""The Front Bottoms"", ""Twenty One Pilots"", ""The Smith Street Band""]",http,0.0,16,none,"{""id"":""chatcmpl-dexutshca4dd2bczkb5lr"",""object"":""chat.completion"",""created"":1795596722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8722,,MarianeAzar,20261125_084135,2026-11-25T08:52:03.661432+00:00
+8fa0d210fc0c1cd5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The song ""Twin Size Mattress"" was written by which band?
+A. The Wonder Years
+B. The Front Bottoms
+C. Twenty One Pilots
+D. The Smith Street Band
+Answer:","[""The Wonder Years"", ""The Front Bottoms"", ""Twenty One Pilots"", ""The Smith Street Band""]",http,0.0,16,none,"{""id"":""chatcmpl-alw9vycneltf4siotgbxr"",""object"":""chat.completion"",""created"":1795596723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8911,,MarianeAzar,20261125_084135,2026-11-25T08:52:04.552828+00:00
+568244b57013f5ca,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ls7harzu8tn9dwoxqppcll"",""object"":""chat.completion"",""created"":1795596723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:52:05.418791+00:00
+568244b57013f5ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the play Oedipus Rex, Oedipus kills his father due to jealousy in loving his mother.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xpxi2w0vqposn1mbs8jd"",""object"":""chat.completion"",""created"":1795596724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8405,,MarianeAzar,20261125_084135,2026-11-25T08:52:06.259664+00:00
+8c492786a1269861,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""Garry's Mod"" released?
+A. December 24, 2004
+B. November 13, 2004
+C. November 12, 2004
+D. December 13, 2004
+Answer:","[""December 24, 2004"", ""November 13, 2004"", ""November 12, 2004"", ""December 13, 2004""]",http,0.0,16,none,"{""id"":""chatcmpl-cixx5rm8cadfjkafp65f8v"",""object"":""chat.completion"",""created"":1795596725,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9088,,MarianeAzar,20261125_084135,2026-11-25T08:52:07.168753+00:00
+8c492786a1269861,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""Garry's Mod"" released?
+A. December 24, 2004
+B. November 13, 2004
+C. November 12, 2004
+D. December 13, 2004
+Answer:","[""December 24, 2004"", ""November 13, 2004"", ""November 12, 2004"", ""December 13, 2004""]",http,0.0,16,none,"{""id"":""chatcmpl-hvg4swu148oxeow4rd0e"",""object"":""chat.completion"",""created"":1795596726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0526,,MarianeAzar,20261125_084135,2026-11-25T08:52:08.221606+00:00

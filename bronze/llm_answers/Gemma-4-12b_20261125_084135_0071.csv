@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+9e99bd835c1784fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The UEFA Champions League is an annual club football competition featuring clubs from which continent?
+A. Africa
+B. Europe
+C. Asia
+D. South America
+Answer:","[""Africa"", ""Europe"", ""Asia"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-qe6cv9t3l28szg9zcx0t19"",""object"":""chat.completion"",""created"":1795594078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3247,,MarianeAzar,20261125_084135,2026-11-25T08:07:59.903648+00:00
+be2fad7c3dace6ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?
+A. Samurai
+B. Ninja
+C. Shogun
+D. Shinobi
+Answer:","[""Samurai"", ""Ninja"", ""Shogun"", ""Shinobi""]",http,0.0,16,none,"{""id"":""chatcmpl-lgnasa8l75h3t4s6dg11"",""object"":""chat.completion"",""created"":1795594079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9555,,MarianeAzar,20261125_084135,2026-11-25T08:08:00.859521+00:00
+be2fad7c3dace6ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name given to Japanese military dictators who ruled the country through the 12th and 19th Century?
+A. Samurai
+B. Ninja
+C. Shogun
+D. Shinobi
+Answer:","[""Samurai"", ""Ninja"", ""Shogun"", ""Shinobi""]",http,0.0,16,none,"{""id"":""chatcmpl-96c4dyrml3s1b1vm6qoxqlj"",""object"":""chat.completion"",""created"":1795594080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9729,,MarianeAzar,20261125_084135,2026-11-25T08:08:01.832767+00:00
+81038950053897cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What play is the quote ""Hell is other people"" from?
+A. The Flies
+B. The Devil and the Good Lord
+C. No Exit
+D. The Condemned of Altona
+Answer:","[""The Flies"", ""The Devil and the Good Lord"", ""No Exit"", ""The Condemned of Altona""]",http,0.0,16,none,"{""id"":""chatcmpl-fu16urak3xi73aah4u4ggf"",""object"":""chat.completion"",""created"":1795594081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3979,,MarianeAzar,20261125_084135,2026-11-25T08:08:03.231027+00:00
+81038950053897cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What play is the quote ""Hell is other people"" from?
+A. The Flies
+B. The Devil and the Good Lord
+C. No Exit
+D. The Condemned of Altona
+Answer:","[""The Flies"", ""The Devil and the Good Lord"", ""No Exit"", ""The Condemned of Altona""]",http,0.0,16,none,"{""id"":""chatcmpl-8nnqgl9mj3iho19ee1hf7q"",""object"":""chat.completion"",""created"":1795594082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9691,,MarianeAzar,20261125_084135,2026-11-25T08:08:04.200326+00:00
+f600e395ba3a40f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these blocks in ""Minecraft"" has the lowest blast resistance?
+A. Water
+B. Wood Planks
+C. Sand
+D. End Stone
+Answer:","[""Water"", ""Wood Planks"", ""Sand"", ""End Stone""]",http,0.0,16,none,"{""id"":""chatcmpl-csof09mm969aypi7kkgu8"",""object"":""chat.completion"",""created"":1795594083,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9781,,MarianeAzar,20261125_084135,2026-11-25T08:08:05.178776+00:00
+f600e395ba3a40f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these blocks in ""Minecraft"" has the lowest blast resistance?
+A. Water
+B. Wood Planks
+C. Sand
+D. End Stone
+Answer:","[""Water"", ""Wood Planks"", ""Sand"", ""End Stone""]",http,0.0,16,none,"{""id"":""chatcmpl-tlqyld6ux2h3twf2yh9dr4"",""object"":""chat.completion"",""created"":1795594084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2545,,MarianeAzar,20261125_084135,2026-11-25T08:08:06.433707+00:00
+11a7ed23063d85e6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who released the 1991 album ""Out of Time""?
+A. The Rolling Stones
+B. Coldplay
+C. U2
+D. R.E.M.
+Answer:","[""The Rolling Stones"", ""Coldplay"", ""U2"", ""R.E.M.""]",http,0.0,16,none,"{""id"":""chatcmpl-61x72lk4coe6pl44g8ix"",""object"":""chat.completion"",""created"":1795594085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9449,,MarianeAzar,20261125_084135,2026-11-25T08:08:07.379107+00:00
+11a7ed23063d85e6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who released the 1991 album ""Out of Time""?
+A. The Rolling Stones
+B. Coldplay
+C. U2
+D. R.E.M.
+Answer:","[""The Rolling Stones"", ""Coldplay"", ""U2"", ""R.E.M.""]",http,0.0,16,none,"{""id"":""chatcmpl-lvausbws1sy47x4uxrzn"",""object"":""chat.completion"",""created"":1795594086,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9064,,MarianeAzar,20261125_084135,2026-11-25T08:08:08.285806+00:00
+815485cc657a8c0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Harvard architecture for micro-controllers added which additional bus?
+A. Instruction
+B. Address
+C. Control
+D. Data
+Answer:","[""Instruction"", ""Address"", ""Control"", ""Data""]",http,0.0,16,none,"{""id"":""chatcmpl-59anrbzu8x9e15f4t9wrk"",""object"":""chat.completion"",""created"":1795594087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2132,,MarianeAzar,20261125_084135,2026-11-25T08:08:09.499409+00:00
+815485cc657a8c0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Harvard architecture for micro-controllers added which additional bus?
+A. Instruction
+B. Address
+C. Control
+D. Data
+Answer:","[""Instruction"", ""Address"", ""Control"", ""Data""]",http,0.0,16,none,"{""id"":""chatcmpl-a4edv8ir9psz98isak1gv"",""object"":""chat.completion"",""created"":1795594088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2554,,MarianeAzar,20261125_084135,2026-11-25T08:08:10.755374+00:00
+bc339def98ba2d63,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following superheros did Wonder Woman NOT have a love interest in?
+A. Green Arrow
+B. Batman
+C. Superman
+D. Steve Trevor
+Answer:","[""Green Arrow"", ""Batman"", ""Superman"", ""Steve Trevor""]",http,0.0,16,none,"{""id"":""chatcmpl-qnhg3u4htui282b378rlle"",""object"":""chat.completion"",""created"":1795594090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9432,,MarianeAzar,20261125_084135,2026-11-25T08:08:11.699000+00:00
+bc339def98ba2d63,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following superheros did Wonder Woman NOT have a love interest in?
+A. Green Arrow
+B. Batman
+C. Superman
+D. Steve Trevor
+Answer:","[""Green Arrow"", ""Batman"", ""Superman"", ""Steve Trevor""]",http,0.0,16,none,"{""id"":""chatcmpl-e1esqjn81rrdw3uc1lhgo"",""object"":""chat.completion"",""created"":1795594091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9546,,MarianeAzar,20261125_084135,2026-11-25T08:08:12.653886+00:00
+b759e5951c415dde,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Water is naturally coloured blue.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zh2ey8oyfoldai8ujo8c4c"",""object"":""chat.completion"",""created"":1795594092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3341,,MarianeAzar,20261125_084135,2026-11-25T08:08:13.988164+00:00
+b759e5951c415dde,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Water is naturally coloured blue.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ph7340blcbs96sa9353x"",""object"":""chat.completion"",""created"":1795594093,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9878,,MarianeAzar,20261125_084135,2026-11-25T08:08:14.976112+00:00
+1896f1225a7c591e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these artists did NOT remix the song ""Faded"" by Alan Walker?
+A. Slushii
+B. Dash Berlin
+C. Skrillex
+D. Tiësto
+Answer:","[""Slushii"", ""Dash Berlin"", ""Skrillex"", ""Tiësto""]",http,0.0,16,none,"{""id"":""chatcmpl-4nj1unw93g5ovsq9p6x9o"",""object"":""chat.completion"",""created"":1795594094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8735,,MarianeAzar,20261125_084135,2026-11-25T08:08:15.850223+00:00
+1896f1225a7c591e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these artists did NOT remix the song ""Faded"" by Alan Walker?
+A. Slushii
+B. Dash Berlin
+C. Skrillex
+D. Tiësto
+Answer:","[""Slushii"", ""Dash Berlin"", ""Skrillex"", ""Tiësto""]",http,0.0,16,none,"{""id"":""chatcmpl-1wrtemcbawcizkx3eaguu8"",""object"":""chat.completion"",""created"":1795594095,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5466,,MarianeAzar,20261125_084135,2026-11-25T08:08:17.397059+00:00
+1c72a600eb5061d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?
+A. Ming Tea
+B. Cough Fi
+C. Mister E
+D. Spear Mint
+Answer:","[""Ming Tea"", ""Cough Fi"", ""Mister E"", ""Spear Mint""]",http,0.0,16,none,"{""id"":""chatcmpl-rg6ux92wumc7buajvnehkx"",""object"":""chat.completion"",""created"":1795594096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1274,,MarianeAzar,20261125_084135,2026-11-25T08:08:18.524707+00:00
+1c72a600eb5061d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the fictional retro-mod band starring Austin Powers as the lead vocalist?
+A. Ming Tea
+B. Cough Fi
+C. Mister E
+D. Spear Mint
+Answer:","[""Ming Tea"", ""Cough Fi"", ""Mister E"", ""Spear Mint""]",http,0.0,16,none,"{""id"":""chatcmpl-1cb30fh859t8ydg82v1wd"",""object"":""chat.completion"",""created"":1795594097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1395,,MarianeAzar,20261125_084135,2026-11-25T08:08:19.664488+00:00
+422c9f06b5eef020,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What number does the Roman numeral ""D"" stand for?
+A. 50
+B. 1000
+C. 100
+D. 500
+Answer:","[""50"", ""1000"", ""100"", ""500""]",http,0.0,16,none,"{""id"":""chatcmpl-6b9jtk2jlw2vfiibqxzt3m"",""object"":""chat.completion"",""created"":1795594099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9545,,MarianeAzar,20261125_084135,2026-11-25T08:08:20.619458+00:00
+422c9f06b5eef020,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What number does the Roman numeral ""D"" stand for?
+A. 50
+B. 1000
+C. 100
+D. 500
+Answer:","[""50"", ""1000"", ""100"", ""500""]",http,0.0,16,none,"{""id"":""chatcmpl-6dzvd616i6qg4ekp01uwib"",""object"":""chat.completion"",""created"":1795594100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9749,,MarianeAzar,20261125_084135,2026-11-25T08:08:21.594621+00:00
+b7d18d3d5bc5bc45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Team Fortress 2"", how much health does a scout have when overhealed?
+A. 195
+B. 225
+C. 215
+D. 185
+Answer:","[""195"", ""225"", ""215"", ""185""]",http,0.0,16,none,"{""id"":""chatcmpl-bfzdhzb5o9tu18omebprwb"",""object"":""chat.completion"",""created"":1795594101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4191,,MarianeAzar,20261125_084135,2026-11-25T08:08:23.013977+00:00
+b7d18d3d5bc5bc45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Team Fortress 2"", how much health does a scout have when overhealed?
+A. 195
+B. 225
+C. 215
+D. 185
+Answer:","[""195"", ""225"", ""215"", ""185""]",http,0.0,16,none,"{""id"":""chatcmpl-rd2dcqfcluj57jrf62sz"",""object"":""chat.completion"",""created"":1795594102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.983,,MarianeAzar,20261125_084135,2026-11-25T08:08:23.997300+00:00
+05962701133c89a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Copy Abilities was only featured in ""Kirby & The Amazing Mirror""?
+A. Magic
+B. Missile
+C. Smash
+D. Mini
+Answer:","[""Magic"", ""Missile"", ""Smash"", ""Mini""]",http,0.0,16,none,"{""id"":""chatcmpl-f96rzsqi94ivreljw733yi"",""object"":""chat.completion"",""created"":1795594103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9846,,MarianeAzar,20261125_084135,2026-11-25T08:08:24.982140+00:00
+05962701133c89a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Copy Abilities was only featured in ""Kirby & The Amazing Mirror""?
+A. Magic
+B. Missile
+C. Smash
+D. Mini
+Answer:","[""Magic"", ""Missile"", ""Smash"", ""Mini""]",http,0.0,16,none,"{""id"":""chatcmpl-4puapmbx8gmlqccpk8pqal"",""object"":""chat.completion"",""created"":1795594104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.405,,MarianeAzar,20261125_084135,2026-11-25T08:08:26.387413+00:00

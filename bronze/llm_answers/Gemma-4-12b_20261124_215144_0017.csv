@@ -1,0 +1,185 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5de5d8e10fc68714,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Deus Ex (2000) does not feature the World Trade Center because it was destroyed by terrorist attacks according to the game's plot.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4lhfkwwkryjgwu0q299344"",""object"":""chat.completion"",""created"":1795553991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0084,,MarianeAzar,20261124_215144,2026-11-24T20:59:52.184829+00:00
+7e7f39342df62b2b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following languages does NOT use the Latin alphabet?
+A. Vietnamese
+B. Georgian
+C. Turkish
+D. Swahili
+Answer:","[""Vietnamese"", ""Georgian"", ""Turkish"", ""Swahili""]",http,0.0,16,none,"{""id"":""chatcmpl-hz60m2o3sx6c7wfesnfw"",""object"":""chat.completion"",""created"":1795553992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0357,,MarianeAzar,20261124_215144,2026-11-24T20:59:53.220956+00:00
+7e7f39342df62b2b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following languages does NOT use the Latin alphabet?
+A. Vietnamese
+B. Georgian
+C. Turkish
+D. Swahili
+Answer:","[""Vietnamese"", ""Georgian"", ""Turkish"", ""Swahili""]",http,0.0,16,none,"{""id"":""chatcmpl-sm7k5y8w2idsyo9qgqu6v"",""object"":""chat.completion"",""created"":1795553993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2266,,MarianeAzar,20261124_215144,2026-11-24T20:59:54.447793+00:00
+98ae5a76a11f5b90,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Kingdom Hearts, how many members does Organization XIII have in total?
+A. 14
+B. 12
+C. 10
+D. 13
+Answer:","[""14"", ""12"", ""10"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-shh5ugxxfgmkda9pm4d7d"",""object"":""chat.completion"",""created"":1795553994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.025,,MarianeAzar,20261124_215144,2026-11-24T20:59:55.473758+00:00
+98ae5a76a11f5b90,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Kingdom Hearts, how many members does Organization XIII have in total?
+A. 14
+B. 12
+C. 10
+D. 13
+Answer:","[""14"", ""12"", ""10"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-u22xgiaj9pr8vucdqztniv"",""object"":""chat.completion"",""created"":1795553995,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.342,,MarianeAzar,20261124_215144,2026-11-24T20:59:56.816174+00:00
+0f567e42b11ff90a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Animal Crossing, who is the manager of the town shop?
+A. Gracie
+B. K.K. Slider
+C. Mr. Resetti
+D. Tom Nook
+Answer:","[""Gracie"", ""K.K. Slider"", ""Mr. Resetti"", ""Tom Nook""]",http,0.0,16,none,"{""id"":""chatcmpl-jipvm3y0yd1279ig7zqei"",""object"":""chat.completion"",""created"":1795553996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1225,,MarianeAzar,20261124_215144,2026-11-24T20:59:57.939366+00:00
+0f567e42b11ff90a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Animal Crossing, who is the manager of the town shop?
+A. Gracie
+B. K.K. Slider
+C. Mr. Resetti
+D. Tom Nook
+Answer:","[""Gracie"", ""K.K. Slider"", ""Mr. Resetti"", ""Tom Nook""]",http,0.0,16,none,"{""id"":""chatcmpl-s82egut3a0jh6aubvjbakb"",""object"":""chat.completion"",""created"":1795553997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0532,,MarianeAzar,20261124_215144,2026-11-24T20:59:58.992810+00:00
+62486ddc3e4609fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a dartboard, what number is directly opposite No. 1?
+A. 20
+B. 15
+C. 19
+D. 12
+Answer:","[""20"", ""15"", ""19"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-k16mge4fpmtpwef01qx7r"",""object"":""chat.completion"",""created"":1795553998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9856,,MarianeAzar,20261124_215144,2026-11-24T20:59:59.978609+00:00
+62486ddc3e4609fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a dartboard, what number is directly opposite No. 1?
+A. 20
+B. 15
+C. 19
+D. 12
+Answer:","[""20"", ""15"", ""19"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-dmbstvfm8jc6w4w8yy4b4k"",""object"":""chat.completion"",""created"":1795553999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3311,,MarianeAzar,20261124_215144,2026-11-24T21:00:01.309919+00:00
+68fdc16f0d2c2b7d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In aeronautics, flaps and slats are used to control what on an aircraft?
+A. Weight
+B. Drag
+C. Thrust
+D. Lift
+Answer:","[""Weight"", ""Drag"", ""Thrust"", ""Lift""]",http,0.0,16,none,"{""id"":""chatcmpl-mfrywtjsjrm8kivw650i2"",""object"":""chat.completion"",""created"":1795554001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9613,,MarianeAzar,20261124_215144,2026-11-24T21:00:02.271525+00:00
+68fdc16f0d2c2b7d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In aeronautics, flaps and slats are used to control what on an aircraft?
+A. Weight
+B. Drag
+C. Thrust
+D. Lift
+Answer:","[""Weight"", ""Drag"", ""Thrust"", ""Lift""]",http,0.0,16,none,"{""id"":""chatcmpl-w88klvw70u8she3uxx8kf"",""object"":""chat.completion"",""created"":1795554002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9481,,MarianeAzar,20261124_215144,2026-11-24T21:00:03.219865+00:00
+4dd912e3521cedc8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many furlongs are there in a mile?
+A. Eight
+B. Four
+C. Two
+D. Six
+Answer:","[""Eight"", ""Four"", ""Two"", ""Six""]",http,0.0,16,none,"{""id"":""chatcmpl-wn0yecdxztm5rj1ym66ry"",""object"":""chat.completion"",""created"":1795554003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3335,,MarianeAzar,20261124_215144,2026-11-24T21:00:04.553629+00:00
+4dd912e3521cedc8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many furlongs are there in a mile?
+A. Eight
+B. Four
+C. Two
+D. Six
+Answer:","[""Eight"", ""Four"", ""Two"", ""Six""]",http,0.0,16,none,"{""id"":""chatcmpl-waelr0ufwijfl56d8kof9f"",""object"":""chat.completion"",""created"":1795554004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9545,,MarianeAzar,20261124_215144,2026-11-24T21:00:05.508558+00:00
+65a35d6654b063f5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Starbound races has a Wild West culture?
+A. Avian
+B. Novakid
+C. Human
+D. Hylotl
+Answer:","[""Avian"", ""Novakid"", ""Human"", ""Hylotl""]",http,0.0,16,none,"{""id"":""chatcmpl-ihee1fvkg988uatmtzjhds"",""object"":""chat.completion"",""created"":1795554005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261124_215144,2026-11-24T21:00:06.360023+00:00
+65a35d6654b063f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Starbound races has a Wild West culture?
+A. Avian
+B. Novakid
+C. Human
+D. Hylotl
+Answer:","[""Avian"", ""Novakid"", ""Human"", ""Hylotl""]",http,0.0,16,none,"{""id"":""chatcmpl-rdo9oqhrgxgu31qcrkua59"",""object"":""chat.completion"",""created"":1795554006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261124_215144,2026-11-24T21:00:07.250704+00:00
+4b0b661b430fd979,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in ""Life is Strange""?
+A. Victoria Chase
+B. Stella Hill
+C. Maxine Caulfield
+D. Chloe Price
+Answer:","[""Victoria Chase"", ""Stella Hill"", ""Maxine Caulfield"", ""Chloe Price""]",http,0.0,16,none,"{""id"":""chatcmpl-k7g2g568qakvaz68kim03d"",""object"":""chat.completion"",""created"":1795554007,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9195,,MarianeAzar,20261124_215144,2026-11-24T21:00:08.170883+00:00
+4b0b661b430fd979,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in ""Life is Strange""?
+A. Victoria Chase
+B. Stella Hill
+C. Maxine Caulfield
+D. Chloe Price
+Answer:","[""Victoria Chase"", ""Stella Hill"", ""Maxine Caulfield"", ""Chloe Price""]",http,0.0,16,none,"{""id"":""chatcmpl-cvclp7l77jg3cd4nl6w0jz"",""object"":""chat.completion"",""created"":1795554008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261124_215144,2026-11-24T21:00:09.023838+00:00
+78240c1e4558cee7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these jersey numbers has Shaquille O'Neal never worn?
+A. 33
+B. 32
+C. 35
+D. 36
+Answer:","[""33"", ""32"", ""35"", ""36""]",http,0.0,16,none,"{""id"":""chatcmpl-075rbqs76rzprg3kwe71bk"",""object"":""chat.completion"",""created"":1795554009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9568,,MarianeAzar,20261124_215144,2026-11-24T21:00:09.980886+00:00
+78240c1e4558cee7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these jersey numbers has Shaquille O'Neal never worn?
+A. 33
+B. 32
+C. 35
+D. 36
+Answer:","[""33"", ""32"", ""35"", ""36""]",http,0.0,16,none,"{""id"":""chatcmpl-3pu77do5jipghwtgzly9k8"",""object"":""chat.completion"",""created"":1795554009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261124_215144,2026-11-24T21:00:10.843008+00:00
+7e47f5655019386a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard set of playing cards, which is the only king without a moustache?
+A. Hearts
+B. Spades
+C. Diamonds
+D. Clubs
+Answer:","[""Hearts"", ""Spades"", ""Diamonds"", ""Clubs""]",http,0.0,16,none,"{""id"":""chatcmpl-dnr8fbegcluudqnwtdw0vi"",""object"":""chat.completion"",""created"":1795554010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261124_215144,2026-11-24T21:00:11.690907+00:00
+7e47f5655019386a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard set of playing cards, which is the only king without a moustache?
+A. Hearts
+B. Spades
+C. Diamonds
+D. Clubs
+Answer:","[""Hearts"", ""Spades"", ""Diamonds"", ""Clubs""]",http,0.0,16,none,"{""id"":""chatcmpl-z3nuzd3xunsvvz0rz2rzxa"",""object"":""chat.completion"",""created"":1795554011,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261124_215144,2026-11-24T21:00:12.573104+00:00
+a36ec18c3d382d37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mad Max franchise, what type of car is the Pursuit Special driven by Max?
+A. Ford Falcon
+B. Holden Monaro
+C. Pontiac Firebird
+D. Chrysler Valiant Charger
+Answer:","[""Ford Falcon"", ""Holden Monaro"", ""Pontiac Firebird"", ""Chrysler Valiant Charger""]",http,0.0,16,none,"{""id"":""chatcmpl-iwkmxp4mwj02ebl0j9bh5b"",""object"":""chat.completion"",""created"":1795554012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261124_215144,2026-11-24T21:00:13.436608+00:00
+a36ec18c3d382d37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mad Max franchise, what type of car is the Pursuit Special driven by Max?
+A. Ford Falcon
+B. Holden Monaro
+C. Pontiac Firebird
+D. Chrysler Valiant Charger
+Answer:","[""Ford Falcon"", ""Holden Monaro"", ""Pontiac Firebird"", ""Chrysler Valiant Charger""]",http,0.0,16,none,"{""id"":""chatcmpl-8a31v74hoo4j2hj06j5ik"",""object"":""chat.completion"",""created"":1795554013,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9811,,MarianeAzar,20261124_215144,2026-11-24T21:00:14.417974+00:00
+253f222cd684a76e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: '74–'75 is a 1993 single from the album Ring by what American band?
+A. R.E.M.
+B. The Connells
+C. The Bangles
+D. The Ocean Blue
+Answer:","[""R.E.M."", ""The Connells"", ""The Bangles"", ""The Ocean Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-8uocpyphvh8v3758qk0mm9"",""object"":""chat.completion"",""created"":1795554014,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8708,,MarianeAzar,20261124_215144,2026-11-24T21:00:15.289080+00:00
+253f222cd684a76e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: '74–'75 is a 1993 single from the album Ring by what American band?
+A. R.E.M.
+B. The Connells
+C. The Bangles
+D. The Ocean Blue
+Answer:","[""R.E.M."", ""The Connells"", ""The Bangles"", ""The Ocean Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-ekl5b2z43rm33pzfwj6y95"",""object"":""chat.completion"",""created"":1795554015,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261124_215144,2026-11-24T21:00:16.179673+00:00

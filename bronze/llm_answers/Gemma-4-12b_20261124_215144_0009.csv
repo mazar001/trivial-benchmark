@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+288330eee0b55469,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the number of keys on a standard Windows Keyboard?
+A. 64
+B. 94
+C. 104
+D. 76
+Answer:","[""64"", ""94"", ""104"", ""76""]",http,0.0,16,none,"{""id"":""chatcmpl-of5ihj3pmnhxvwxtkfubr"",""object"":""chat.completion"",""created"":1795553762,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9962,,MarianeAzar,20261124_215144,2026-11-24T20:56:03.125180+00:00
+0b341bc45f9869bc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sean Connery wasn't in ""Indiana Jones and the Kingdom of the Crystal Skull"" because he found retirement too enjoyable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p18te8ipr189msm1bpvyj"",""object"":""chat.completion"",""created"":1795553763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4326,,MarianeAzar,20261124_215144,2026-11-24T20:56:04.557973+00:00
+0b341bc45f9869bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sean Connery wasn't in ""Indiana Jones and the Kingdom of the Crystal Skull"" because he found retirement too enjoyable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d6752zi62jefagoipmombp"",""object"":""chat.completion"",""created"":1795553764,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0239,,MarianeAzar,20261124_215144,2026-11-24T20:56:05.582061+00:00
+928428c32481e912,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mary Shelley is the author of what classic horror story?
+A. Dracula
+B. Strange Case of Dr Jekyll and Mr Hyde
+C. Frankenstein
+D. The Legend of Sleepy Hollow
+Answer:","[""Dracula"", ""Strange Case of Dr Jekyll and Mr Hyde"", ""Frankenstein"", ""The Legend of Sleepy Hollow""]",http,0.0,16,none,"{""id"":""chatcmpl-j7y1dqfx1tjq4x5fzg9xxm"",""object"":""chat.completion"",""created"":1795553765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9436,,MarianeAzar,20261124_215144,2026-11-24T20:56:06.525914+00:00
+928428c32481e912,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mary Shelley is the author of what classic horror story?
+A. Dracula
+B. Strange Case of Dr Jekyll and Mr Hyde
+C. Frankenstein
+D. The Legend of Sleepy Hollow
+Answer:","[""Dracula"", ""Strange Case of Dr Jekyll and Mr Hyde"", ""Frankenstein"", ""The Legend of Sleepy Hollow""]",http,0.0,16,none,"{""id"":""chatcmpl-r994txf1jvku3atgmtegld"",""object"":""chat.completion"",""created"":1795553766,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4118,,MarianeAzar,20261124_215144,2026-11-24T20:56:07.937981+00:00
+a7c359eadb78bf17,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?
+A. Abraham Lincoln
+B. George Washington
+C. Thomas Jefferson
+D. James Monroe
+Answer:","[""Abraham Lincoln"", ""George Washington"", ""Thomas Jefferson"", ""James Monroe""]",http,0.0,16,none,"{""id"":""chatcmpl-ul3g9hwbrbixhenhesbqm"",""object"":""chat.completion"",""created"":1795553767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0317,,MarianeAzar,20261124_215144,2026-11-24T20:56:08.970557+00:00
+a7c359eadb78bf17,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?
+A. Abraham Lincoln
+B. George Washington
+C. Thomas Jefferson
+D. James Monroe
+Answer:","[""Abraham Lincoln"", ""George Washington"", ""Thomas Jefferson"", ""James Monroe""]",http,0.0,16,none,"{""id"":""chatcmpl-xscp4448vh9bjfeo6h5s9u"",""object"":""chat.completion"",""created"":1795553768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0155,,MarianeAzar,20261124_215144,2026-11-24T20:56:09.986456+00:00
+57f9574e28513d17,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?
+A. Auto Union
+B. Mercedes Benz
+C. Bentley
+D. Alfa Romeo
+Answer:","[""Auto Union"", ""Mercedes Benz"", ""Bentley"", ""Alfa Romeo""]",http,0.0,16,none,"{""id"":""chatcmpl-jlglsrcsjv6z1sydywztk"",""object"":""chat.completion"",""created"":1795553769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.432,,MarianeAzar,20261124_215144,2026-11-24T20:56:11.418771+00:00
+57f9574e28513d17,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?
+A. Auto Union
+B. Mercedes Benz
+C. Bentley
+D. Alfa Romeo
+Answer:","[""Auto Union"", ""Mercedes Benz"", ""Bentley"", ""Alfa Romeo""]",http,0.0,16,none,"{""id"":""chatcmpl-lqw0ea48p7ghjy6s7yw2g"",""object"":""chat.completion"",""created"":1795553771,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0254,,MarianeAzar,20261124_215144,2026-11-24T20:56:12.444465+00:00
+a3184d233f4cb768,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who composed the soundtrack for the game VVVVVV?
+A. Danny Baranowsky
+B. Magnus Pålsson
+C. Joel Zimmerman
+D. Terry Cavanagh
+Answer:","[""Danny Baranowsky"", ""Magnus Pålsson"", ""Joel Zimmerman"", ""Terry Cavanagh""]",http,0.0,16,none,"{""id"":""chatcmpl-ctmfibbnpbl4lg0namu77i"",""object"":""chat.completion"",""created"":1795553772,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0223,,MarianeAzar,20261124_215144,2026-11-24T20:56:13.467192+00:00
+a3184d233f4cb768,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who composed the soundtrack for the game VVVVVV?
+A. Danny Baranowsky
+B. Magnus Pålsson
+C. Joel Zimmerman
+D. Terry Cavanagh
+Answer:","[""Danny Baranowsky"", ""Magnus Pålsson"", ""Joel Zimmerman"", ""Terry Cavanagh""]",http,0.0,16,none,"{""id"":""chatcmpl-qrd6xnacopmau6334gkbms"",""object"":""chat.completion"",""created"":1795553773,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3767,,MarianeAzar,20261124_215144,2026-11-24T20:56:14.844139+00:00
+f2d5614e0ac42d28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many trophies are there in ""Super Smash Bros. for Nintendo 3DS""?
+A. 685
+B. 716
+C. 1155
+D. 1360
+Answer:","[""685"", ""716"", ""1155"", ""1360""]",http,0.0,16,none,"{""id"":""chatcmpl-qvfet9nn9lhwgitywbfjx9"",""object"":""chat.completion"",""created"":1795553774,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1334,,MarianeAzar,20261124_215144,2026-11-24T20:56:15.977878+00:00
+f2d5614e0ac42d28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many trophies are there in ""Super Smash Bros. for Nintendo 3DS""?
+A. 685
+B. 716
+C. 1155
+D. 1360
+Answer:","[""685"", ""716"", ""1155"", ""1360""]",http,0.0,16,none,"{""id"":""chatcmpl-b5fcldqe19mteqdh2431td"",""object"":""chat.completion"",""created"":1795553775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9726,,MarianeAzar,20261124_215144,2026-11-24T20:56:16.950824+00:00
+63ceb9cc8f907a77,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters were there in Street Fighter II: Champion Edition?
+A. 17
+B. 12
+C. 16
+D. 8
+Answer:","[""17"", ""12"", ""16"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-yhd50sy34lqqgvzlhcqs"",""object"":""chat.completion"",""created"":1795553776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0489,,MarianeAzar,20261124_215144,2026-11-24T20:56:18.000189+00:00
+63ceb9cc8f907a77,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters were there in Street Fighter II: Champion Edition?
+A. 17
+B. 12
+C. 16
+D. 8
+Answer:","[""17"", ""12"", ""16"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-r6eic64s7fp2pnl4xn7f6"",""object"":""chat.completion"",""created"":1795553777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4057,,MarianeAzar,20261124_215144,2026-11-24T20:56:19.406212+00:00
+eebb300da4533432,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song includes the words ""Numa Numa"" which was subject to a Viral Video in 2004?
+A. Dragostea Din Tei
+B. Gangnam Style
+C. Asereje
+D. Despacito
+Answer:","[""Dragostea Din Tei"", ""Gangnam Style"", ""Asereje"", ""Despacito""]",http,0.0,16,none,"{""id"":""chatcmpl-rc9ec2ct5oq1u4y0ecq1r"",""object"":""chat.completion"",""created"":1795553779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9911,,MarianeAzar,20261124_215144,2026-11-24T20:56:20.397829+00:00
+eebb300da4533432,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song includes the words ""Numa Numa"" which was subject to a Viral Video in 2004?
+A. Dragostea Din Tei
+B. Gangnam Style
+C. Asereje
+D. Despacito
+Answer:","[""Dragostea Din Tei"", ""Gangnam Style"", ""Asereje"", ""Despacito""]",http,0.0,16,none,"{""id"":""chatcmpl-r5o38czfjaorj4tpr2hi8"",""object"":""chat.completion"",""created"":1795553780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3557,,MarianeAzar,20261124_215144,2026-11-24T20:56:21.753803+00:00
+ccbbebab7f3cab2d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The singer Billie Holiday was also known as ""Lady Day"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xjdcvfmhpznc9pkqva411n"",""object"":""chat.completion"",""created"":1795553781,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1264,,MarianeAzar,20261124_215144,2026-11-24T20:56:22.880378+00:00
+ccbbebab7f3cab2d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The singer Billie Holiday was also known as ""Lady Day"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7z2xqiir4ftduwf2fksk4t"",""object"":""chat.completion"",""created"":1795553782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8978,,MarianeAzar,20261124_215144,2026-11-24T20:56:23.778335+00:00
+28e0724ef461f39b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the only fighter in the game ""Super Smash Bros. Melee"" capable of dealing damage with their taunt animation?
+A. Luigi
+B. Mr. Game & Watch
+C. Jigglypuff
+D. Pichu
+Answer:","[""Luigi"", ""Mr. Game & Watch"", ""Jigglypuff"", ""Pichu""]",http,0.0,16,none,"{""id"":""chatcmpl-whd7n76x47c5f1y35tza"",""object"":""chat.completion"",""created"":1795553783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2256,,MarianeAzar,20261124_215144,2026-11-24T20:56:25.004166+00:00
+28e0724ef461f39b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the only fighter in the game ""Super Smash Bros. Melee"" capable of dealing damage with their taunt animation?
+A. Luigi
+B. Mr. Game & Watch
+C. Jigglypuff
+D. Pichu
+Answer:","[""Luigi"", ""Mr. Game & Watch"", ""Jigglypuff"", ""Pichu""]",http,0.0,16,none,"{""id"":""chatcmpl-oagzup96dj112gyhetscs"",""object"":""chat.completion"",""created"":1795553784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2366,,MarianeAzar,20261124_215144,2026-11-24T20:56:26.241066+00:00
+1ed59ed819014736,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 13 months in the Ethiopian calendar.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-uwfpd856j3otxxdvyzow"",""object"":""chat.completion"",""created"":1795553786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.908,,MarianeAzar,20261124_215144,2026-11-24T20:56:27.149250+00:00
+1ed59ed819014736,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 13 months in the Ethiopian calendar.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yplll5rha7no41susi2l7"",""object"":""chat.completion"",""created"":1795553787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4233,,MarianeAzar,20261124_215144,2026-11-24T20:56:28.572788+00:00
+30efce14ee3274b7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rannamaari was a sea demon that haunted the people of the Maldives and had to be appeased monthly with the sacrifice of a virgin girl.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f2uoqu447gdjye8rcy94q8"",""object"":""chat.completion"",""created"":1795553788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1251,,MarianeAzar,20261124_215144,2026-11-24T20:56:29.698004+00:00
+30efce14ee3274b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rannamaari was a sea demon that haunted the people of the Maldives and had to be appeased monthly with the sacrifice of a virgin girl.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9skzwpn9ihvrxgt4pzqot"",""object"":""chat.completion"",""created"":1795553789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0746,,MarianeAzar,20261124_215144,2026-11-24T20:56:30.772784+00:00

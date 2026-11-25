@@ -1,0 +1,145 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0cba75119350ecf1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A wyvern is the same as a dragon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hazl5di25gevb3kojjhzgb"",""object"":""chat.completion"",""created"":1795593778,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8253,,MarianeAzar,20261125_084135,2026-11-25T08:03:00.080523+00:00
+3cec3e73eae94509,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the common term for bovine spongiform encephalopathy (BSE)?
+A. Milk fever
+B. Mad Cow disease
+C. Weil's disease
+D. Foot-and-mouth disease
+Answer:","[""Milk fever"", ""Mad Cow disease"", ""Weil's disease"", ""Foot-and-mouth disease""]",http,0.0,16,none,"{""id"":""chatcmpl-xw1tul1mg4d142j05nn4kul"",""object"":""chat.completion"",""created"":1795593779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:03:00.936283+00:00
+3cec3e73eae94509,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the common term for bovine spongiform encephalopathy (BSE)?
+A. Milk fever
+B. Mad Cow disease
+C. Weil's disease
+D. Foot-and-mouth disease
+Answer:","[""Milk fever"", ""Mad Cow disease"", ""Weil's disease"", ""Foot-and-mouth disease""]",http,0.0,16,none,"{""id"":""chatcmpl-0ie2h1ovy2k8zk2w4gobh"",""object"":""chat.completion"",""created"":1795593780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9058,,MarianeAzar,20261125_084135,2026-11-25T08:03:01.842364+00:00
+e7022c487e9b6203,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The 1969 Frank Sinatra Song ""My Way"" was ironically not written by him.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k6qfkqx3hhe6lxsgp7dj8"",""object"":""chat.completion"",""created"":1795593781,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8733,,MarianeAzar,20261125_084135,2026-11-25T08:03:02.715845+00:00
+e7022c487e9b6203,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The 1969 Frank Sinatra Song ""My Way"" was ironically not written by him.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hwqi57sogm55gwsvmoj5if"",""object"":""chat.completion"",""created"":1795593782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8483,,MarianeAzar,20261125_084135,2026-11-25T08:03:03.564344+00:00
+337651331955fb4c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the American singer ""Pitbull"" from?
+A. Boston
+B. St. Louis
+C. Miami
+D. Kodiak
+Answer:","[""Boston"", ""St. Louis"", ""Miami"", ""Kodiak""]",http,0.0,16,none,"{""id"":""chatcmpl-bidmijwj194v39svqeca9"",""object"":""chat.completion"",""created"":1795593782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8792,,MarianeAzar,20261125_084135,2026-11-25T08:03:04.444037+00:00
+337651331955fb4c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the American singer ""Pitbull"" from?
+A. Boston
+B. St. Louis
+C. Miami
+D. Kodiak
+Answer:","[""Boston"", ""St. Louis"", ""Miami"", ""Kodiak""]",http,0.0,16,none,"{""id"":""chatcmpl-n0ouolshlcqox0uinh32k"",""object"":""chat.completion"",""created"":1795593783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261125_084135,2026-11-25T08:03:05.303124+00:00
+af4d13f8d56f7293,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A flock of crows is known as a homicide.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vyw1hienqruchb7u0yzbg"",""object"":""chat.completion"",""created"":1795593784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8069,,MarianeAzar,20261125_084135,2026-11-25T08:03:06.110212+00:00
+af4d13f8d56f7293,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A flock of crows is known as a homicide.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dkjerzdj58cmtj29p8vt9"",""object"":""chat.completion"",""created"":1795593785,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8117,,MarianeAzar,20261125_084135,2026-11-25T08:03:06.922106+00:00
+698f88423796c5dc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: French is an official language in Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-evjj5g7ki1uvexzzfuea"",""object"":""chat.completion"",""created"":1795593786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7999,,MarianeAzar,20261125_084135,2026-11-25T08:03:07.722209+00:00
+698f88423796c5dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: French is an official language in Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hrdby0y08pdotwe974o5lo"",""object"":""chat.completion"",""created"":1795593787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8134,,MarianeAzar,20261125_084135,2026-11-25T08:03:08.535783+00:00
+c4f147401f74fa77,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the longest bone in the human body?
+A. Ulna
+B. Femur
+C. Fibula
+D. Scapula
+Answer:","[""Ulna"", ""Femur"", ""Fibula"", ""Scapula""]",http,0.0,16,none,"{""id"":""chatcmpl-yzaekx0m9trz1drc42s8ea"",""object"":""chat.completion"",""created"":1795593787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T08:03:09.394303+00:00
+c4f147401f74fa77,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the longest bone in the human body?
+A. Ulna
+B. Femur
+C. Fibula
+D. Scapula
+Answer:","[""Ulna"", ""Femur"", ""Fibula"", ""Scapula""]",http,0.0,16,none,"{""id"":""chatcmpl-hgop2e2jnzweg5b3zo5in"",""object"":""chat.completion"",""created"":1795593788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:03:10.260286+00:00
+c62b0891e9fea04e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the first Transformers movie released?
+A. 1984
+B. 2009
+C. 1986
+D. 2007
+Answer:","[""1984"", ""2009"", ""1986"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-8ux9pj3spunmygd5cytnq"",""object"":""chat.completion"",""created"":1795593789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8885,,MarianeAzar,20261125_084135,2026-11-25T08:03:11.149070+00:00
+c62b0891e9fea04e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the first Transformers movie released?
+A. 1984
+B. 2009
+C. 1986
+D. 2007
+Answer:","[""1984"", ""2009"", ""1986"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-k0ndeq27lwd17tk1w8yr"",""object"":""chat.completion"",""created"":1795593790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9294,,MarianeAzar,20261125_084135,2026-11-25T08:03:12.078579+00:00
+a808a93989125ee8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2008, Usain Bolt set the world record for the 100 meters with one shoelace untied.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-npejqnvzl0prsafsh70h"",""object"":""chat.completion"",""created"":1795593791,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T08:03:12.933332+00:00
+a808a93989125ee8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2008, Usain Bolt set the world record for the 100 meters with one shoelace untied.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fqyh520t6ybw2rasyf6cui"",""object"":""chat.completion"",""created"":1795593792,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8357,,MarianeAzar,20261125_084135,2026-11-25T08:03:13.769242+00:00
+bd7210c6a4036e82,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Sid Meier's Civilization V, which World Wonder can only be built in cities on or next to a desert?
+A. Alhambra
+B. Mausoleum of Maussollos
+C. Petra
+D. The Pyramids
+Answer:","[""Alhambra"", ""Mausoleum of Maussollos"", ""Petra"", ""The Pyramids""]",http,0.0,16,none,"{""id"":""chatcmpl-tg9zpib2agchfoccq5pp"",""object"":""chat.completion"",""created"":1795593793,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8683,,MarianeAzar,20261125_084135,2026-11-25T08:03:14.637883+00:00
+bd7210c6a4036e82,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Sid Meier's Civilization V, which World Wonder can only be built in cities on or next to a desert?
+A. Alhambra
+B. Mausoleum of Maussollos
+C. Petra
+D. The Pyramids
+Answer:","[""Alhambra"", ""Mausoleum of Maussollos"", ""Petra"", ""The Pyramids""]",http,0.0,16,none,"{""id"":""chatcmpl-xnh7avy5q0tljdnqwjbkze"",""object"":""chat.completion"",""created"":1795593794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9072,,MarianeAzar,20261125_084135,2026-11-25T08:03:15.545460+00:00
+f821246805ea47dd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name represents the letter ""M"" in the NATO phonetic alphabet?
+A. Mike
+B. Max
+C. Mark
+D. Matthew
+Answer:","[""Mike"", ""Max"", ""Mark"", ""Matthew""]",http,0.0,16,none,"{""id"":""chatcmpl-nx2j0tuod9o90y92k3in"",""object"":""chat.completion"",""created"":1795593794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8859,,MarianeAzar,20261125_084135,2026-11-25T08:03:16.431585+00:00
+f821246805ea47dd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name represents the letter ""M"" in the NATO phonetic alphabet?
+A. Mike
+B. Max
+C. Mark
+D. Matthew
+Answer:","[""Mike"", ""Max"", ""Mark"", ""Matthew""]",http,0.0,16,none,"{""id"":""chatcmpl-dodyf18kwvaqfqp2wc3gr"",""object"":""chat.completion"",""created"":1795593795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T08:03:17.299335+00:00
+ab97841e75967693,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The National Animal of Scotland is the Unicorn.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bidxmosf01b850v34nmyhu"",""object"":""chat.completion"",""created"":1795593796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7903,,MarianeAzar,20261125_084135,2026-11-25T08:03:18.089761+00:00
+ab97841e75967693,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The National Animal of Scotland is the Unicorn.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cuwk2webrr6ni2fobdt0nb"",""object"":""chat.completion"",""created"":1795593797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8106,,MarianeAzar,20261125_084135,2026-11-25T08:03:18.900734+00:00
+d776c2b289b79aee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the family that the domestic cat is a member of?
+A. Felinae
+B. Felis
+C. Cat
+D. Felidae
+Answer:","[""Felinae"", ""Felis"", ""Cat"", ""Felidae""]",http,0.0,16,none,"{""id"":""chatcmpl-a0muhv4rw9thp7cxyfsxl"",""object"":""chat.completion"",""created"":1795593798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T08:03:19.747266+00:00
+d776c2b289b79aee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the family that the domestic cat is a member of?
+A. Felinae
+B. Felis
+C. Cat
+D. Felidae
+Answer:","[""Felinae"", ""Felis"", ""Cat"", ""Felidae""]",http,0.0,16,none,"{""id"":""chatcmpl-2ui22do79ew5hd5yg3kmz2"",""object"":""chat.completion"",""created"":1795593799,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8673,,MarianeAzar,20261125_084135,2026-11-25T08:03:20.614783+00:00

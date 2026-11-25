@@ -1,0 +1,176 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1d9c5aa7ba000314,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following carbonated soft drinks were introduced first?
+A. Coca-Cola
+B. Dr. Pepper
+C. Sprite
+D. Mountain Dew
+Answer:","[""Coca-Cola"", ""Dr. Pepper"", ""Sprite"", ""Mountain Dew""]",http,0.0,16,none,"{""id"":""chatcmpl-uaxfutoqwtoy2o8xgq0vx"",""object"":""chat.completion"",""created"":1795595849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261125_084135,2026-11-25T08:37:31.033962+00:00
+1d9c5aa7ba000314,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following carbonated soft drinks were introduced first?
+A. Coca-Cola
+B. Dr. Pepper
+C. Sprite
+D. Mountain Dew
+Answer:","[""Coca-Cola"", ""Dr. Pepper"", ""Sprite"", ""Mountain Dew""]",http,0.0,16,none,"{""id"":""chatcmpl-7zma8siz45q4m3hddazrn8"",""object"":""chat.completion"",""created"":1795595850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:37:31.899821+00:00
+42f6eafc422be376,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which episode of the Phantasy Star Online series is exclusive to the Nintendo Gamecube?
+A. Episode III
+B. Episode IV
+C. Episode II
+D. Episode I
+Answer:","[""Episode III"", ""Episode IV"", ""Episode II"", ""Episode I""]",http,0.0,16,none,"{""id"":""chatcmpl-em8sq5agp785hoxg4f2pfb"",""object"":""chat.completion"",""created"":1795595851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261125_084135,2026-11-25T08:37:32.768057+00:00
+42f6eafc422be376,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which episode of the Phantasy Star Online series is exclusive to the Nintendo Gamecube?
+A. Episode III
+B. Episode IV
+C. Episode II
+D. Episode I
+Answer:","[""Episode III"", ""Episode IV"", ""Episode II"", ""Episode I""]",http,0.0,16,none,"{""id"":""chatcmpl-nmf1ns2b5akrcxicpvcmmt"",""object"":""chat.completion"",""created"":1795595852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261125_084135,2026-11-25T08:37:33.622258+00:00
+e2d7f1fcb4515beb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?
+A. The Tremeloes
+B. The Ventures
+C. The Spotnicks
+D. The Tornados
+Answer:","[""The Tremeloes"", ""The Ventures"", ""The Spotnicks"", ""The Tornados""]",http,0.0,16,none,"{""id"":""chatcmpl-nthwdy5wbybicuf5p4ywk"",""object"":""chat.completion"",""created"":1795595853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:37:34.488194+00:00
+e2d7f1fcb4515beb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?
+A. The Tremeloes
+B. The Ventures
+C. The Spotnicks
+D. The Tornados
+Answer:","[""The Tremeloes"", ""The Ventures"", ""The Spotnicks"", ""The Tornados""]",http,0.0,16,none,"{""id"":""chatcmpl-6r815bovmj36tfm9cvsphi"",""object"":""chat.completion"",""created"":1795595853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9121,,MarianeAzar,20261125_084135,2026-11-25T08:37:35.400530+00:00
+7535a4a03ebe7f01,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 1967, a magazine published a story about extracting hallucinogenic chemicals from bananas to raise moral questions about banning drugs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-g0qkx8zqc6txycr365zlw"",""object"":""chat.completion"",""created"":1795595854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:37:36.253073+00:00
+7535a4a03ebe7f01,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 1967, a magazine published a story about extracting hallucinogenic chemicals from bananas to raise moral questions about banning drugs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qhzcb5gsxek1vwpppwx2f2"",""object"":""chat.completion"",""created"":1795595855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:37:37.108862+00:00
+9a97f7bd48a06b30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in Danganronpa 2: Goodbye Despair?
+A. Hajime Hinata
+B. Nagito Komaeda
+C. Makoto Naegi
+D. Junko Enoshima
+Answer:","[""Hajime Hinata"", ""Nagito Komaeda"", ""Makoto Naegi"", ""Junko Enoshima""]",http,0.0,16,none,"{""id"":""chatcmpl-8v40d59pxc3pt2rd1mav9j"",""object"":""chat.completion"",""created"":1795595856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:37:37.970597+00:00
+9a97f7bd48a06b30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in Danganronpa 2: Goodbye Despair?
+A. Hajime Hinata
+B. Nagito Komaeda
+C. Makoto Naegi
+D. Junko Enoshima
+Answer:","[""Hajime Hinata"", ""Nagito Komaeda"", ""Makoto Naegi"", ""Junko Enoshima""]",http,0.0,16,none,"{""id"":""chatcmpl-3n9lznc3zpver6qlu11dvm"",""object"":""chat.completion"",""created"":1795595857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:37:38.856510+00:00
+2ee7d38200605b70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The city of Rockport is featured in which of the following video games?
+A. Infamous 2
+B. Saints Row: The Third
+C. Burnout Revenge
+D. Need for Speed: Most Wanted (2005)
+Answer:","[""Infamous 2"", ""Saints Row: The Third"", ""Burnout Revenge"", ""Need for Speed: Most Wanted (2005)""]",http,0.0,16,none,"{""id"":""chatcmpl-e5957hh11w99pwsqd0qoz"",""object"":""chat.completion"",""created"":1795595858,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:37:39.715665+00:00
+2ee7d38200605b70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The city of Rockport is featured in which of the following video games?
+A. Infamous 2
+B. Saints Row: The Third
+C. Burnout Revenge
+D. Need for Speed: Most Wanted (2005)
+Answer:","[""Infamous 2"", ""Saints Row: The Third"", ""Burnout Revenge"", ""Need for Speed: Most Wanted (2005)""]",http,0.0,16,none,"{""id"":""chatcmpl-c4xcczvnu5u6cdmocba1sf"",""object"":""chat.completion"",""created"":1795595859,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9054,,MarianeAzar,20261125_084135,2026-11-25T08:37:40.621261+00:00
+2081b6d4c4e0c5e9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Panic! At the Disco's sixth album ""Pray For The Wicked"" was released on which date?
+A. March 13, 2018
+B. February 21, 2018
+C. June 22, 2018
+D. May 9, 2018
+Answer:","[""March 13, 2018"", ""February 21, 2018"", ""June 22, 2018"", ""May 9, 2018""]",http,0.0,16,none,"{""id"":""chatcmpl-de41588ai1krfdjewnvkjh"",""object"":""chat.completion"",""created"":1795595860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9291,,MarianeAzar,20261125_084135,2026-11-25T08:37:41.550673+00:00
+2081b6d4c4e0c5e9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Panic! At the Disco's sixth album ""Pray For The Wicked"" was released on which date?
+A. March 13, 2018
+B. February 21, 2018
+C. June 22, 2018
+D. May 9, 2018
+Answer:","[""March 13, 2018"", ""February 21, 2018"", ""June 22, 2018"", ""May 9, 2018""]",http,0.0,16,none,"{""id"":""chatcmpl-hpmdltcs9prkgswn563js9"",""object"":""chat.completion"",""created"":1795595860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9393,,MarianeAzar,20261125_084135,2026-11-25T08:37:42.490191+00:00
+296c29168598d334,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft the default UI color that signifies Druid is what?
+A. Green
+B. Orange
+C. Brown
+D. Blue
+Answer:","[""Green"", ""Orange"", ""Brown"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-h1u96n6iuc5zd5ymyi5abr"",""object"":""chat.completion"",""created"":1795595861,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9364,,MarianeAzar,20261125_084135,2026-11-25T08:37:43.426903+00:00
+296c29168598d334,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft the default UI color that signifies Druid is what?
+A. Green
+B. Orange
+C. Brown
+D. Blue
+Answer:","[""Green"", ""Orange"", ""Brown"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-ykotahixu3qjzoc6uikqa"",""object"":""chat.completion"",""created"":1795595862,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T08:37:44.287936+00:00
+adcef8603d2172d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these American singers and songwriters won a Nobel Prize in Literature?
+A. Johnny Cash
+B. Alice Cooper
+C. Buddy Holly
+D. Bob Dylan
+Answer:","[""Johnny Cash"", ""Alice Cooper"", ""Buddy Holly"", ""Bob Dylan""]",http,0.0,16,none,"{""id"":""chatcmpl-qmlfsp4mzy25pw7s2hpof"",""object"":""chat.completion"",""created"":1795595863,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T08:37:45.146067+00:00
+adcef8603d2172d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these American singers and songwriters won a Nobel Prize in Literature?
+A. Johnny Cash
+B. Alice Cooper
+C. Buddy Holly
+D. Bob Dylan
+Answer:","[""Johnny Cash"", ""Alice Cooper"", ""Buddy Holly"", ""Bob Dylan""]",http,0.0,16,none,"{""id"":""chatcmpl-xg3cxk7n0glkhv41p3qq3"",""object"":""chat.completion"",""created"":1795595864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T08:37:46.014792+00:00
+ddc8c5d5384da55c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", which map features the ""Fly Trap"" easter egg?
+A. Tranzit
+B. Der Riese
+C. Call Of The Dead
+D. Shi No Numa
+Answer:","[""Tranzit"", ""Der Riese"", ""Call Of The Dead"", ""Shi No Numa""]",http,0.0,16,none,"{""id"":""chatcmpl-8qcny5as4freb4qjgb4qah"",""object"":""chat.completion"",""created"":1795595865,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T08:37:46.872265+00:00
+ddc8c5d5384da55c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", which map features the ""Fly Trap"" easter egg?
+A. Tranzit
+B. Der Riese
+C. Call Of The Dead
+D. Shi No Numa
+Answer:","[""Tranzit"", ""Der Riese"", ""Call Of The Dead"", ""Shi No Numa""]",http,0.0,16,none,"{""id"":""chatcmpl-3sb13do1hdseq2ju64v1vq"",""object"":""chat.completion"",""created"":1795595866,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8807,,MarianeAzar,20261125_084135,2026-11-25T08:37:47.753296+00:00
+d444a01f5c172c9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character in the ""Animal Crossing"" series uses the phrase ""zip zoom"" when talking to the player?
+A. Mallary
+B. Bill
+C. Drake
+D. Scoot
+Answer:","[""Mallary"", ""Bill"", ""Drake"", ""Scoot""]",http,0.0,16,none,"{""id"":""chatcmpl-l2pt7vvw6tco3f1e9w3ir"",""object"":""chat.completion"",""created"":1795595867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261125_084135,2026-11-25T08:37:48.638567+00:00
+d444a01f5c172c9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character in the ""Animal Crossing"" series uses the phrase ""zip zoom"" when talking to the player?
+A. Mallary
+B. Bill
+C. Drake
+D. Scoot
+Answer:","[""Mallary"", ""Bill"", ""Drake"", ""Scoot""]",http,0.0,16,none,"{""id"":""chatcmpl-qv26a40993aunkb2kvlafb"",""object"":""chat.completion"",""created"":1795595868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:37:49.495854+00:00
+edfe51d75e868a96,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was sultan Saladin?
+A. Arab
+B. Kurdish
+C. Syrian
+D. Egyptian
+Answer:","[""Arab"", ""Kurdish"", ""Syrian"", ""Egyptian""]",http,0.0,16,none,"{""id"":""chatcmpl-r9la5eptp82n6fc0bbwcf"",""object"":""chat.completion"",""created"":1795595868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T08:37:50.350202+00:00
+edfe51d75e868a96,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was sultan Saladin?
+A. Arab
+B. Kurdish
+C. Syrian
+D. Egyptian
+Answer:","[""Arab"", ""Kurdish"", ""Syrian"", ""Egyptian""]",http,0.0,16,none,"{""id"":""chatcmpl-cs8212mcytav3h3onndxth"",""object"":""chat.completion"",""created"":1795595869,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T08:37:51.210437+00:00
+dc2a5044b8c409d7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The flag of South Africa features 7 colours.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ty3z63y9ysyitmv83fsw9"",""object"":""chat.completion"",""created"":1795595870,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7988,,MarianeAzar,20261125_084135,2026-11-25T08:37:52.009477+00:00

@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6fbbe4a0863c2b13,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: E = MC3
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0qr87s72kz3qm52vgn060ms"",""object"":""chat.completion"",""created"":1795597056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8157,,MarianeAzar,20261125_084135,2026-11-25T08:57:38.375217+00:00
+b78b202c4f4c0311,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2010, Twitter and the United States Library of Congress partnered together to archive every tweet by American citizens.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qgz47wf3manr3wzatgsdkr"",""object"":""chat.completion"",""created"":1795597057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8184,,MarianeAzar,20261125_084135,2026-11-25T08:57:39.193709+00:00
+b78b202c4f4c0311,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 2010, Twitter and the United States Library of Congress partnered together to archive every tweet by American citizens.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0s9smcs9pwy1dpkmf5zox4i"",""object"":""chat.completion"",""created"":1795597058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T08:57:40.087629+00:00
+d9f6e9f041d79960,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first names of the first father and son pair that were both Prime Ministers of Canada?
+A. Brian and Pierre
+B. John and Louis
+C. Justin and Pierre
+D. Brian and Justin
+Answer:","[""Brian and Pierre"", ""John and Louis"", ""Justin and Pierre"", ""Brian and Justin""]",http,0.0,16,none,"{""id"":""chatcmpl-qtg4rghswlquuthllz8co"",""object"":""chat.completion"",""created"":1795597059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9731,,MarianeAzar,20261125_084135,2026-11-25T08:57:41.061247+00:00
+d9f6e9f041d79960,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first names of the first father and son pair that were both Prime Ministers of Canada?
+A. Brian and Pierre
+B. John and Louis
+C. Justin and Pierre
+D. Brian and Justin
+Answer:","[""Brian and Pierre"", ""John and Louis"", ""Justin and Pierre"", ""Brian and Justin""]",http,0.0,16,none,"{""id"":""chatcmpl-4jzxdhynglq77minpc7x62"",""object"":""chat.completion"",""created"":1795597060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9066,,MarianeAzar,20261125_084135,2026-11-25T08:57:41.968117+00:00
+5fab4428ce726d28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated the 2016 anime ""Mob Psycho 100""?
+A. Shaft
+B. Bones
+C. A-1 Pictures
+D. Madhouse
+Answer:","[""Shaft"", ""Bones"", ""A-1 Pictures"", ""Madhouse""]",http,0.0,16,none,"{""id"":""chatcmpl-rqqxgrrqx09460uvm44j1s"",""object"":""chat.completion"",""created"":1795597061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.043,,MarianeAzar,20261125_084135,2026-11-25T08:57:43.011746+00:00
+5fab4428ce726d28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated the 2016 anime ""Mob Psycho 100""?
+A. Shaft
+B. Bones
+C. A-1 Pictures
+D. Madhouse
+Answer:","[""Shaft"", ""Bones"", ""A-1 Pictures"", ""Madhouse""]",http,0.0,16,none,"{""id"":""chatcmpl-6poiv5qsy95hwav1yqohk"",""object"":""chat.completion"",""created"":1795597062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9066,,MarianeAzar,20261125_084135,2026-11-25T08:57:43.918633+00:00
+f011d582177add1e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is an album by punk rock band Anti-Flag?
+A. 21st Century Breakdown
+B. For Blood And Empire
+C. No Pads, No Helmets...Just Balls
+D. Infinity On High
+Answer:","[""21st Century Breakdown"", ""For Blood And Empire"", ""No Pads, No Helmets...Just Balls"", ""Infinity On High""]",http,0.0,16,none,"{""id"":""chatcmpl-tkv21il68paz9lcl1puru"",""object"":""chat.completion"",""created"":1795597063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T08:57:44.776527+00:00
+f011d582177add1e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is an album by punk rock band Anti-Flag?
+A. 21st Century Breakdown
+B. For Blood And Empire
+C. No Pads, No Helmets...Just Balls
+D. Infinity On High
+Answer:","[""21st Century Breakdown"", ""For Blood And Empire"", ""No Pads, No Helmets...Just Balls"", ""Infinity On High""]",http,0.0,16,none,"{""id"":""chatcmpl-hiwarxqb74wys9z1kbeo5"",""object"":""chat.completion"",""created"":1795597064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9376,,MarianeAzar,20261125_084135,2026-11-25T08:57:45.714440+00:00
+daa2289a6856b68c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Super Mario video game when they introduce Bowser Jr. for the first time?
+A. Super Mario Sunshine
+B. Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey
+C. Mario Party series
+D. Super Mario Galaxy
+Answer:","[""Super Mario Sunshine"", ""Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey"", ""Mario Party series"", ""Super Mario Galaxy""]",http,0.0,16,none,"{""id"":""chatcmpl-7grxfch75476a0xrww5jnw"",""object"":""chat.completion"",""created"":1795597065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.972,,MarianeAzar,20261125_084135,2026-11-25T08:57:46.686989+00:00
+daa2289a6856b68c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Super Mario video game when they introduce Bowser Jr. for the first time?
+A. Super Mario Sunshine
+B. Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey
+C. Mario Party series
+D. Super Mario Galaxy
+Answer:","[""Super Mario Sunshine"", ""Mario & Luigi: Bowser's Inside Story + Bowser Jr.'s Journey"", ""Mario Party series"", ""Super Mario Galaxy""]",http,0.0,16,none,"{""id"":""chatcmpl-jzb0cjaupoh6ie2b2u2jg"",""object"":""chat.completion"",""created"":1795597066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9184,,MarianeAzar,20261125_084135,2026-11-25T08:57:47.605791+00:00
+9be4acdb11684bd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters from Final Fantasy VIII primarily spoke in one word sentences?
+A. Seifer
+B. Fujin
+C. Raijin
+D. Zell
+Answer:","[""Seifer"", ""Fujin"", ""Raijin"", ""Zell""]",http,0.0,16,none,"{""id"":""chatcmpl-8edijwihxc70gs4zd42uxl7"",""object"":""chat.completion"",""created"":1795597067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0253,,MarianeAzar,20261125_084135,2026-11-25T08:57:48.632401+00:00
+9be4acdb11684bd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters from Final Fantasy VIII primarily spoke in one word sentences?
+A. Seifer
+B. Fujin
+C. Raijin
+D. Zell
+Answer:","[""Seifer"", ""Fujin"", ""Raijin"", ""Zell""]",http,0.0,16,none,"{""id"":""chatcmpl-31eajlc05vu7odb7attyfi"",""object"":""chat.completion"",""created"":1795597068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8914,,MarianeAzar,20261125_084135,2026-11-25T08:57:49.524058+00:00
+efc92b6a771fc1d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Japanese word for ""university""?
+A. Daigaku
+B. Jimusho
+C. Shokudou
+D. Toshokan
+Answer:","[""Daigaku"", ""Jimusho"", ""Shokudou"", ""Toshokan""]",http,0.0,16,none,"{""id"":""chatcmpl-qknri2v8gkochasbgxnor"",""object"":""chat.completion"",""created"":1795597068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9054,,MarianeAzar,20261125_084135,2026-11-25T08:57:50.430134+00:00
+efc92b6a771fc1d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Japanese word for ""university""?
+A. Daigaku
+B. Jimusho
+C. Shokudou
+D. Toshokan
+Answer:","[""Daigaku"", ""Jimusho"", ""Shokudou"", ""Toshokan""]",http,0.0,16,none,"{""id"":""chatcmpl-6w8zn1qcsjuw9kymljwoeh"",""object"":""chat.completion"",""created"":1795597070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0569,,MarianeAzar,20261125_084135,2026-11-25T08:57:51.487455+00:00
+35f5d6c1c5586f45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which author and poet famously wrote the line, ""The female of the species is more deadly than the male""?
+A. William Wordsworth
+B. William Shakespeare
+C. Edgar Allan Poe
+D. Rudyard Kipling
+Answer:","[""William Wordsworth"", ""William Shakespeare"", ""Edgar Allan Poe"", ""Rudyard Kipling""]",http,0.0,16,none,"{""id"":""chatcmpl-epjdsef93a5e9fwhs8m0y"",""object"":""chat.completion"",""created"":1795597070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261125_084135,2026-11-25T08:57:52.339636+00:00
+35f5d6c1c5586f45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which author and poet famously wrote the line, ""The female of the species is more deadly than the male""?
+A. William Wordsworth
+B. William Shakespeare
+C. Edgar Allan Poe
+D. Rudyard Kipling
+Answer:","[""William Wordsworth"", ""William Shakespeare"", ""Edgar Allan Poe"", ""Rudyard Kipling""]",http,0.0,16,none,"{""id"":""chatcmpl-t8va5rerbgqhcojogab3fh"",""object"":""chat.completion"",""created"":1795597071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T08:57:53.215857+00:00
+308766e70a0adcf6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last song on the first Panic! At the Disco album?
+A. Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off
+B. Nails for Breakfast, Tacks for Snacks
+C. Build God, Then We'll Talk
+D. I Write Sins Not Tragedies
+Answer:","[""Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off"", ""Nails for Breakfast, Tacks for Snacks"", ""Build God, Then We'll Talk"", ""I Write Sins Not Tragedies""]",http,0.0,16,none,"{""id"":""chatcmpl-arcy0asosbpcndqxi3yyar"",""object"":""chat.completion"",""created"":1795597072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9137,,MarianeAzar,20261125_084135,2026-11-25T08:57:54.129830+00:00
+308766e70a0adcf6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last song on the first Panic! At the Disco album?
+A. Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off
+B. Nails for Breakfast, Tacks for Snacks
+C. Build God, Then We'll Talk
+D. I Write Sins Not Tragedies
+Answer:","[""Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off"", ""Nails for Breakfast, Tacks for Snacks"", ""Build God, Then We'll Talk"", ""I Write Sins Not Tragedies""]",http,0.0,16,none,"{""id"":""chatcmpl-n3k51w1ig54fnvrel1m3s"",""object"":""chat.completion"",""created"":1795597073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":127,""completion_tokens"":2,""total_tokens"":129,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9444,,MarianeAzar,20261125_084135,2026-11-25T08:57:55.074505+00:00
+282f00a072686959,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What album did Gorillaz release in 2017?
+A. Plastic Beach
+B. Humanz
+C. The Fall
+D. Demon Days
+Answer:","[""Plastic Beach"", ""Humanz"", ""The Fall"", ""Demon Days""]",http,0.0,16,none,"{""id"":""chatcmpl-u0ew5oj6itmbtau8hot"",""object"":""chat.completion"",""created"":1795597074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9141,,MarianeAzar,20261125_084135,2026-11-25T08:57:55.988854+00:00
+282f00a072686959,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What album did Gorillaz release in 2017?
+A. Plastic Beach
+B. Humanz
+C. The Fall
+D. Demon Days
+Answer:","[""Plastic Beach"", ""Humanz"", ""The Fall"", ""Demon Days""]",http,0.0,16,none,"{""id"":""chatcmpl-c79qk2hqkhczptn77n9q"",""object"":""chat.completion"",""created"":1795597075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8711,,MarianeAzar,20261125_084135,2026-11-25T08:57:56.860188+00:00
+ea00fc12b84f602a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The LS1 engine is how many cubic inches?
+A. 360
+B. 355
+C. 346
+D. 350
+Answer:","[""360"", ""355"", ""346"", ""350""]",http,0.0,16,none,"{""id"":""chatcmpl-1zyhdwslcoclqvubknxpel"",""object"":""chat.completion"",""created"":1795597076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261125_084135,2026-11-25T08:57:57.734086+00:00
+ea00fc12b84f602a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The LS1 engine is how many cubic inches?
+A. 360
+B. 355
+C. 346
+D. 350
+Answer:","[""360"", ""355"", ""346"", ""350""]",http,0.0,16,none,"{""id"":""chatcmpl-2gqj7oly6wesvylzuw8cfb"",""object"":""chat.completion"",""created"":1795597077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T08:57:58.601988+00:00
+730977d51f2eddad,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Metallica collaborated with Rowan Atkinson's Mr Bean on a 1992 comic relief single.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5uzklk8abvkq12rtpqztun"",""object"":""chat.completion"",""created"":1795597078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8279,,MarianeAzar,20261125_084135,2026-11-25T08:57:59.430091+00:00
+730977d51f2eddad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Metallica collaborated with Rowan Atkinson's Mr Bean on a 1992 comic relief single.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4f8rhdwv0f31h82qg2co61"",""object"":""chat.completion"",""created"":1795597078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8427,,MarianeAzar,20261125_084135,2026-11-25T08:58:00.272966+00:00

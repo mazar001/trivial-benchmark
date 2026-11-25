@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1e403a1bc977bb67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sonatas did Ludwig van Beethoven write?
+A. 32
+B. 21
+C. 31
+D. 50
+Answer:","[""32"", ""21"", ""31"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-uqfk2stentdy244a5cfj8"",""object"":""chat.completion"",""created"":1795593734,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8548,,MarianeAzar,20261125_084135,2026-11-25T08:02:16.038669+00:00
+b3f4347e7b764268,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these companies does NOT manufacture motorcycles?
+A. Kawasaki
+B. Yamaha
+C. Honda
+D. Toyota
+Answer:","[""Kawasaki"", ""Yamaha"", ""Honda"", ""Toyota""]",http,0.0,16,none,"{""id"":""chatcmpl-rzlucgva54gcfwox0ng9"",""object"":""chat.completion"",""created"":1795593735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8442,,MarianeAzar,20261125_084135,2026-11-25T08:02:16.883126+00:00
+b3f4347e7b764268,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these companies does NOT manufacture motorcycles?
+A. Kawasaki
+B. Yamaha
+C. Honda
+D. Toyota
+Answer:","[""Kawasaki"", ""Yamaha"", ""Honda"", ""Toyota""]",http,0.0,16,none,"{""id"":""chatcmpl-ocatjwgoi2o11rqpbbvlk"",""object"":""chat.completion"",""created"":1795593736,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261125_084135,2026-11-25T08:02:17.745812+00:00
+a2524c1458f9fac0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A caterpillar has more muscles than humans do.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xa5758q1l4ifwxtfixkc"",""object"":""chat.completion"",""created"":1795593737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7952,,MarianeAzar,20261125_084135,2026-11-25T08:02:18.541128+00:00
+a2524c1458f9fac0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A caterpillar has more muscles than humans do.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o7f0zb4nu9mequ2hi45i04"",""object"":""chat.completion"",""created"":1795593737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.809,,MarianeAzar,20261125_084135,2026-11-25T08:02:19.350288+00:00
+2614046c7f095042,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are Panama hats made out of?
+A. Straw
+B. Flax
+C. Hemp
+D. Silk
+Answer:","[""Straw"", ""Flax"", ""Hemp"", ""Silk""]",http,0.0,16,none,"{""id"":""chatcmpl-ytzj10pzhrkksi2x0bgyk8"",""object"":""chat.completion"",""created"":1795593738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8478,,MarianeAzar,20261125_084135,2026-11-25T08:02:20.198476+00:00
+2614046c7f095042,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are Panama hats made out of?
+A. Straw
+B. Flax
+C. Hemp
+D. Silk
+Answer:","[""Straw"", ""Flax"", ""Hemp"", ""Silk""]",http,0.0,16,none,"{""id"":""chatcmpl-ch43j2vtbzks5n2k6nncd"",""object"":""chat.completion"",""created"":1795593739,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8394,,MarianeAzar,20261125_084135,2026-11-25T08:02:21.038138+00:00
+352a649b431ee942,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does ""hippopotamus"" mean and in what langauge?
+A. River Horse (Greek)
+B. Fat Pig (Greek)
+C. River Horse (Latin)
+D. Fat Pig (Latin)
+Answer:","[""River Horse (Greek)"", ""Fat Pig (Greek)"", ""River Horse (Latin)"", ""Fat Pig (Latin)""]",http,0.0,16,none,"{""id"":""chatcmpl-uzojubcmfkaheq2n8hrzf"",""object"":""chat.completion"",""created"":1795593740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:02:21.899576+00:00
+352a649b431ee942,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does ""hippopotamus"" mean and in what langauge?
+A. River Horse (Greek)
+B. Fat Pig (Greek)
+C. River Horse (Latin)
+D. Fat Pig (Latin)
+Answer:","[""River Horse (Greek)"", ""Fat Pig (Greek)"", ""River Horse (Latin)"", ""Fat Pig (Latin)""]",http,0.0,16,none,"{""id"":""chatcmpl-q75ph5jbdrobk2p6je20d"",""object"":""chat.completion"",""created"":1795593741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.885,,MarianeAzar,20261125_084135,2026-11-25T08:02:22.784876+00:00
+f48cf3dd6286d46d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rabbits are carnivores.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dxvbaevcbxbkb94yw30ua"",""object"":""chat.completion"",""created"":1795593742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8186,,MarianeAzar,20261125_084135,2026-11-25T08:02:23.603702+00:00
+f48cf3dd6286d46d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rabbits are carnivores.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ln299eszvsmw1evcy5qedc"",""object"":""chat.completion"",""created"":1795593743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8194,,MarianeAzar,20261125_084135,2026-11-25T08:02:24.423202+00:00
+8b66c1cd573adf9c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show ""Cheers"", Sam Malone was a former relief pitcher for which baseball team?
+A. New York Mets
+B. Boston Red Sox
+C. Baltimore Orioles
+D. Milwaukee Brewers
+Answer:","[""New York Mets"", ""Boston Red Sox"", ""Baltimore Orioles"", ""Milwaukee Brewers""]",http,0.0,16,none,"{""id"":""chatcmpl-uwdnblqybdgdpzfqop6zj"",""object"":""chat.completion"",""created"":1795593743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8507,,MarianeAzar,20261125_084135,2026-11-25T08:02:25.274149+00:00
+8b66c1cd573adf9c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show ""Cheers"", Sam Malone was a former relief pitcher for which baseball team?
+A. New York Mets
+B. Boston Red Sox
+C. Baltimore Orioles
+D. Milwaukee Brewers
+Answer:","[""New York Mets"", ""Boston Red Sox"", ""Baltimore Orioles"", ""Milwaukee Brewers""]",http,0.0,16,none,"{""id"":""chatcmpl-xjsixi2yes5ne012tixy"",""object"":""chat.completion"",""created"":1795593744,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8831,,MarianeAzar,20261125_084135,2026-11-25T08:02:26.157444+00:00
+4bbcfc14aeee4413,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1974 Christmas flick ""The Year Without a Santa Claus,"" what are the names of the two elves who help Mrs. Claus save Christmas?
+A. Buddy & Bobby
+B. Jingle & Jangle
+C. Snowflake & Icicle
+D. Holly & Jolly
+Answer:","[""Buddy & Bobby"", ""Jingle & Jangle"", ""Snowflake & Icicle"", ""Holly & Jolly""]",http,0.0,16,none,"{""id"":""chatcmpl-n0asfez42l8gg91b57gev"",""object"":""chat.completion"",""created"":1795593745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:02:27.037568+00:00
+4bbcfc14aeee4413,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1974 Christmas flick ""The Year Without a Santa Claus,"" what are the names of the two elves who help Mrs. Claus save Christmas?
+A. Buddy & Bobby
+B. Jingle & Jangle
+C. Snowflake & Icicle
+D. Holly & Jolly
+Answer:","[""Buddy & Bobby"", ""Jingle & Jangle"", ""Snowflake & Icicle"", ""Holly & Jolly""]",http,0.0,16,none,"{""id"":""chatcmpl-hxqcteqylvbpbgvvb7o48b"",""object"":""chat.completion"",""created"":1795593746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9323,,MarianeAzar,20261125_084135,2026-11-25T08:02:27.970147+00:00
+ff8756f28aa50744,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name does the little headcrab in ""Half Life 2"" have?
+A. Jerry
+B. Drett
+C. Lamarr
+D. Jumperr
+Answer:","[""Jerry"", ""Drett"", ""Lamarr"", ""Jumperr""]",http,0.0,16,none,"{""id"":""chatcmpl-w4kemgrph8sbneonun7hnq"",""object"":""chat.completion"",""created"":1795593747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:02:28.839039+00:00
+ff8756f28aa50744,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name does the little headcrab in ""Half Life 2"" have?
+A. Jerry
+B. Drett
+C. Lamarr
+D. Jumperr
+Answer:","[""Jerry"", ""Drett"", ""Lamarr"", ""Jumperr""]",http,0.0,16,none,"{""id"":""chatcmpl-80wvfakta9b6n3fcgif9ct"",""object"":""chat.completion"",""created"":1795593748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8878,,MarianeAzar,20261125_084135,2026-11-25T08:02:29.727170+00:00
+5aadde4d8ba61310,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?
+A. Odysseus
+B. Daedalus
+C. Jason
+D. Castor
+Answer:","[""Odysseus"", ""Daedalus"", ""Jason"", ""Castor""]",http,0.0,16,none,"{""id"":""chatcmpl-uy9pbfbsyhn4c1cvccwfa8"",""object"":""chat.completion"",""created"":1795593749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261125_084135,2026-11-25T08:02:30.594809+00:00
+5aadde4d8ba61310,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?
+A. Odysseus
+B. Daedalus
+C. Jason
+D. Castor
+Answer:","[""Odysseus"", ""Daedalus"", ""Jason"", ""Castor""]",http,0.0,16,none,"{""id"":""chatcmpl-2vpe5n8k0eve9sipmsoxt5"",""object"":""chat.completion"",""created"":1795593750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:02:31.472077+00:00
+6c33ff16d7c31ea6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what temperature does water boil?
+A. 181°F
+B. 178°F
+C. 200°F
+D. 212°F
+Answer:","[""181°F"", ""178°F"", ""200°F"", ""212°F""]",http,0.0,16,none,"{""id"":""chatcmpl-2fbqq05hy1x7bler5d4s44"",""object"":""chat.completion"",""created"":1795593750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T08:02:32.329856+00:00
+6c33ff16d7c31ea6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what temperature does water boil?
+A. 181°F
+B. 178°F
+C. 200°F
+D. 212°F
+Answer:","[""181°F"", ""178°F"", ""200°F"", ""212°F""]",http,0.0,16,none,"{""id"":""chatcmpl-889wp5g8fprk4mkzhz80c"",""object"":""chat.completion"",""created"":1795593751,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261125_084135,2026-11-25T08:02:33.208592+00:00
+49b34909eb8f6a16,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the 1988 film ""Akira"", Tetsuo ends up destroying Tokyo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rfekd2gr75121p7xtku7j"",""object"":""chat.completion"",""created"":1795593752,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8401,,MarianeAzar,20261125_084135,2026-11-25T08:02:34.048928+00:00
+49b34909eb8f6a16,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the 1988 film ""Akira"", Tetsuo ends up destroying Tokyo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sl9qxd0933e5qmmrr7i0a"",""object"":""chat.completion"",""created"":1795593753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261125_084135,2026-11-25T08:02:34.900682+00:00
+c38798c204076c2d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sting, the lead vocalist of The Police, primarily plays what instrument?
+A. Guitar
+B. Keyboards
+C. Bass Guitar
+D. Drums
+Answer:","[""Guitar"", ""Keyboards"", ""Bass Guitar"", ""Drums""]",http,0.0,16,none,"{""id"":""chatcmpl-v1v5wm5e92b2mx1oeea0cv"",""object"":""chat.completion"",""created"":1795593754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8959,,MarianeAzar,20261125_084135,2026-11-25T08:02:35.796913+00:00
+c38798c204076c2d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sting, the lead vocalist of The Police, primarily plays what instrument?
+A. Guitar
+B. Keyboards
+C. Bass Guitar
+D. Drums
+Answer:","[""Guitar"", ""Keyboards"", ""Bass Guitar"", ""Drums""]",http,0.0,16,none,"{""id"":""chatcmpl-3ykj5vrehme5et9e8f36wm"",""object"":""chat.completion"",""created"":1795593755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8679,,MarianeAzar,20261125_084135,2026-11-25T08:02:36.665052+00:00

@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+24a5e2d31b03d47a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these track-and-field events is NOT included in the Olympic men's decathlon?
+A. Pole vault
+B. Hammer throw
+C. Shot put
+D. Long jump
+Answer:","[""Pole vault"", ""Hammer throw"", ""Shot put"", ""Long jump""]",http,0.0,16,none,"{""id"":""chatcmpl-i5141mkjh7hlz7l2kqxy"",""object"":""chat.completion"",""created"":1795558622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8873,,MarianeAzar,20261124_215144,2026-11-24T22:17:02.988264+00:00
+24a5e2d31b03d47a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these track-and-field events is NOT included in the Olympic men's decathlon?
+A. Pole vault
+B. Hammer throw
+C. Shot put
+D. Long jump
+Answer:","[""Pole vault"", ""Hammer throw"", ""Shot put"", ""Long jump""]",http,0.0,16,none,"{""id"":""chatcmpl-7w553e4fwbeo9hrzr6jqyd"",""object"":""chat.completion"",""created"":1795558622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8923,,MarianeAzar,20261124_215144,2026-11-24T22:17:03.880993+00:00
+21aeb0d37ca3b4ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the northernmost human settlement with year round inhabitants?
+A. Alert, Canada
+B. Honningsvåg, Norway
+C. McMurdo Station, Antarctica
+D. Nagurskoye, Russia
+Answer:","[""Alert, Canada"", ""Honningsvåg, Norway"", ""McMurdo Station, Antarctica"", ""Nagurskoye, Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-0xwcnxjm6ocg1jnzg5t6w9"",""object"":""chat.completion"",""created"":1795558623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261124_215144,2026-11-24T22:17:04.754066+00:00
+21aeb0d37ca3b4ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the northernmost human settlement with year round inhabitants?
+A. Alert, Canada
+B. Honningsvåg, Norway
+C. McMurdo Station, Antarctica
+D. Nagurskoye, Russia
+Answer:","[""Alert, Canada"", ""Honningsvåg, Norway"", ""McMurdo Station, Antarctica"", ""Nagurskoye, Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-0wmpscg9c9wj929i5egpbeb"",""object"":""chat.completion"",""created"":1795558624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261124_215144,2026-11-24T22:17:05.645057+00:00
+4bb207e8f35fd46f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a god in Norse Mythology.
+A. Tyr
+B. Snotra
+C. Loki
+D. Jens
+Answer:","[""Tyr"", ""Snotra"", ""Loki"", ""Jens""]",http,0.0,16,none,"{""id"":""chatcmpl-drsvyjrwrju4dby847kboy"",""object"":""chat.completion"",""created"":1795558625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261124_215144,2026-11-24T22:17:06.501775+00:00
+4bb207e8f35fd46f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a god in Norse Mythology.
+A. Tyr
+B. Snotra
+C. Loki
+D. Jens
+Answer:","[""Tyr"", ""Snotra"", ""Loki"", ""Jens""]",http,0.0,16,none,"{""id"":""chatcmpl-7dtk7smch9qutl53pvegym"",""object"":""chat.completion"",""created"":1795558626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261124_215144,2026-11-24T22:17:07.358654+00:00
+49e0616c494b4316,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT one of Donald Trump's children?
+A. Julius
+B. Ivanka
+C. Eric
+D. Donald Jr.
+Answer:","[""Julius"", ""Ivanka"", ""Eric"", ""Donald Jr.""]",http,0.0,16,none,"{""id"":""chatcmpl-am97vs5p1c4xq051kcfaae"",""object"":""chat.completion"",""created"":1795558627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261124_215144,2026-11-24T22:17:08.248154+00:00
+49e0616c494b4316,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT one of Donald Trump's children?
+A. Julius
+B. Ivanka
+C. Eric
+D. Donald Jr.
+Answer:","[""Julius"", ""Ivanka"", ""Eric"", ""Donald Jr.""]",http,0.0,16,none,"{""id"":""chatcmpl-yiu2r1pd64fd2vvyo778a"",""object"":""chat.completion"",""created"":1795558628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261124_215144,2026-11-24T22:17:09.102138+00:00
+140f6c0c7b2cfa73,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British band did Keith Moon play in until his death in 1978?
+A. The Small Faces
+B. The Yardbirds
+C. The Kinks
+D. The Who
+Answer:","[""The Small Faces"", ""The Yardbirds"", ""The Kinks"", ""The Who""]",http,0.0,16,none,"{""id"":""chatcmpl-71y94mrha5prbaj8pkv22b"",""object"":""chat.completion"",""created"":1795558629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261124_215144,2026-11-24T22:17:09.967200+00:00
+140f6c0c7b2cfa73,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British band did Keith Moon play in until his death in 1978?
+A. The Small Faces
+B. The Yardbirds
+C. The Kinks
+D. The Who
+Answer:","[""The Small Faces"", ""The Yardbirds"", ""The Kinks"", ""The Who""]",http,0.0,16,none,"{""id"":""chatcmpl-mo5w9u1ly8a85mdmh1gmi"",""object"":""chat.completion"",""created"":1795558629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261124_215144,2026-11-24T22:17:10.839070+00:00
+f904d18b010ef898,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these people has been in the band ''Metallica'' in the past?
+A. Kurt Cobain
+B. Joey Belladonna
+C. Dave Mustaine
+D. Dave Lombardo
+Answer:","[""Kurt Cobain"", ""Joey Belladonna"", ""Dave Mustaine"", ""Dave Lombardo""]",http,0.0,16,none,"{""id"":""chatcmpl-t0vz5fmdx62675i4oqra"",""object"":""chat.completion"",""created"":1795558630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261124_215144,2026-11-24T22:17:11.703864+00:00
+f904d18b010ef898,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these people has been in the band ''Metallica'' in the past?
+A. Kurt Cobain
+B. Joey Belladonna
+C. Dave Mustaine
+D. Dave Lombardo
+Answer:","[""Kurt Cobain"", ""Joey Belladonna"", ""Dave Mustaine"", ""Dave Lombardo""]",http,0.0,16,none,"{""id"":""chatcmpl-mukz1pyupsdtxregtf21d"",""object"":""chat.completion"",""created"":1795558631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8803,,MarianeAzar,20261124_215144,2026-11-24T22:17:12.584500+00:00
+f38ca889c58e9842,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many teeth does the average adult mouth have (except for wisdom teeth)?
+A. 36
+B. 20
+C. 28
+D. 32
+Answer:","[""36"", ""20"", ""28"", ""32""]",http,0.0,16,none,"{""id"":""chatcmpl-za7q0ns5mbb470r6x1j3sw"",""object"":""chat.completion"",""created"":1795558632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8921,,MarianeAzar,20261124_215144,2026-11-24T22:17:13.476869+00:00
+f38ca889c58e9842,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many teeth does the average adult mouth have (except for wisdom teeth)?
+A. 36
+B. 20
+C. 28
+D. 32
+Answer:","[""36"", ""20"", ""28"", ""32""]",http,0.0,16,none,"{""id"":""chatcmpl-1clntubqmqu07nneqlvju05"",""object"":""chat.completion"",""created"":1795558633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8996,,MarianeAzar,20261124_215144,2026-11-24T22:17:14.376782+00:00
+1e769cf6f478100f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of the body produces insulin?
+A. Pancreas
+B. Liver
+C. Stomach
+D. Kidney
+Answer:","[""Pancreas"", ""Liver"", ""Stomach"", ""Kidney""]",http,0.0,16,none,"{""id"":""chatcmpl-xndmoqnx11ix2l9q3nkwl"",""object"":""chat.completion"",""created"":1795558634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261124_215144,2026-11-24T22:17:15.225167+00:00
+1e769cf6f478100f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of the body produces insulin?
+A. Pancreas
+B. Liver
+C. Stomach
+D. Kidney
+Answer:","[""Pancreas"", ""Liver"", ""Stomach"", ""Kidney""]",http,0.0,16,none,"{""id"":""chatcmpl-w11lf2h55ljowaio9egq"",""object"":""chat.completion"",""created"":1795558635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261124_215144,2026-11-24T22:17:16.080358+00:00
+725339561f12dd21,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which TV chef wrote an autobiography titled ""Humble Pie""?
+A. Antony Worrall Thompson
+B. Gordon Ramsay
+C. Jamie Oliver
+D. Ainsley Harriott
+Answer:","[""Antony Worrall Thompson"", ""Gordon Ramsay"", ""Jamie Oliver"", ""Ainsley Harriott""]",http,0.0,16,none,"{""id"":""chatcmpl-o1i02vs3rioq4iffh2ug"",""object"":""chat.completion"",""created"":1795558635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261124_215144,2026-11-24T22:17:16.948875+00:00
+725339561f12dd21,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which TV chef wrote an autobiography titled ""Humble Pie""?
+A. Antony Worrall Thompson
+B. Gordon Ramsay
+C. Jamie Oliver
+D. Ainsley Harriott
+Answer:","[""Antony Worrall Thompson"", ""Gordon Ramsay"", ""Jamie Oliver"", ""Ainsley Harriott""]",http,0.0,16,none,"{""id"":""chatcmpl-au2qn3n94ja5tp831m9j9v"",""object"":""chat.completion"",""created"":1795558636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8617,,MarianeAzar,20261124_215144,2026-11-24T22:17:17.810910+00:00
+cc183101e650b504,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which president erased the national debt of the United States?
+A. Ronald Reagan
+B. Franklin Roosevelt
+C. Andrew Jackson
+D. John F. Kennedy
+Answer:","[""Ronald Reagan"", ""Franklin Roosevelt"", ""Andrew Jackson"", ""John F. Kennedy""]",http,0.0,16,none,"{""id"":""chatcmpl-c0xauvq2o7etgvvntxu5zo"",""object"":""chat.completion"",""created"":1795558637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""None of the above (The U.S. national debt has never been fully"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""length""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":16,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",2.7356,,MarianeAzar,20261124_215144,2026-11-24T22:17:20.546781+00:00
+cc183101e650b504,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which president erased the national debt of the United States?
+A. Ronald Reagan
+B. Franklin Roosevelt
+C. Andrew Jackson
+D. John F. Kennedy
+Answer:","[""Ronald Reagan"", ""Franklin Roosevelt"", ""Andrew Jackson"", ""John F. Kennedy""]",http,0.0,16,none,"{""id"":""chatcmpl-uf4a1dvfwily7lshgo6r"",""object"":""chat.completion"",""created"":1795558640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261124_215144,2026-11-24T22:17:21.404728+00:00
+2b8e99399becc77d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Game Development company made No Man's Sky?
+A. Valve
+B. Dovetail Games
+C. Blizzard Entertainment
+D. Hello Games
+Answer:","[""Valve"", ""Dovetail Games"", ""Blizzard Entertainment"", ""Hello Games""]",http,0.0,16,none,"{""id"":""chatcmpl-ii4215e1huqtcupldxzlck"",""object"":""chat.completion"",""created"":1795558641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261124_215144,2026-11-24T22:17:22.251904+00:00
+2b8e99399becc77d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Game Development company made No Man's Sky?
+A. Valve
+B. Dovetail Games
+C. Blizzard Entertainment
+D. Hello Games
+Answer:","[""Valve"", ""Dovetail Games"", ""Blizzard Entertainment"", ""Hello Games""]",http,0.0,16,none,"{""id"":""chatcmpl-8y04kefad4bg9wsyridexb"",""object"":""chat.completion"",""created"":1795558642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261124_215144,2026-11-24T22:17:23.109521+00:00
+7cf586cefed78862,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which star actor was in ""Top Gun"", ""Jerry Maguire"" and ""Born on the Fourth of July""?
+A. John Travolta
+B. Tom Cruise
+C. Kelly McGillis
+D. George Clooney
+Answer:","[""John Travolta"", ""Tom Cruise"", ""Kelly McGillis"", ""George Clooney""]",http,0.0,16,none,"{""id"":""chatcmpl-sst28btz7g81nhhxfveds"",""object"":""chat.completion"",""created"":1795558643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8548,,MarianeAzar,20261124_215144,2026-11-24T22:17:23.964741+00:00
+7cf586cefed78862,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which star actor was in ""Top Gun"", ""Jerry Maguire"" and ""Born on the Fourth of July""?
+A. John Travolta
+B. Tom Cruise
+C. Kelly McGillis
+D. George Clooney
+Answer:","[""John Travolta"", ""Tom Cruise"", ""Kelly McGillis"", ""George Clooney""]",http,0.0,16,none,"{""id"":""chatcmpl-pesyna660ksm2rdc56tkx"",""object"":""chat.completion"",""created"":1795558643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.885,,MarianeAzar,20261124_215144,2026-11-24T22:17:24.850158+00:00
+dac2cc888d2aa76f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the computer software acronym JVM stand for?
+A. Just Virtual Machine
+B. Java Virtual Machine
+C. Java Visual Machine
+D. Java Vendor Machine
+Answer:","[""Just Virtual Machine"", ""Java Virtual Machine"", ""Java Visual Machine"", ""Java Vendor Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-4p4tfnktu0qlopxtyqo6ke"",""object"":""chat.completion"",""created"":1795558644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8911,,MarianeAzar,20261124_215144,2026-11-24T22:17:25.741665+00:00

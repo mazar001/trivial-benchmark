@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+40e094f1ffd73dd8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Albert Einstein won a noble prize for his theory of relativity.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q98jvacpqfsee7vrrftp"",""object"":""chat.completion"",""created"":1795593713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7891,,MarianeAzar,20261125_084135,2026-11-25T08:01:54.433150+00:00
+40e094f1ffd73dd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Albert Einstein won a noble prize for his theory of relativity.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b0lhyqrxcffx7whd9fxxb"",""object"":""chat.completion"",""created"":1795593713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8138,,MarianeAzar,20261125_084135,2026-11-25T08:01:55.247180+00:00
+bfbe4889bf93ab4b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""dozen"" usually refers to a group of how many objects?
+A. 6
+B. 10
+C. 20
+D. 12
+Answer:","[""6"", ""10"", ""20"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-mh4zl7emojq482pktwcc8b"",""object"":""chat.completion"",""created"":1795593714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:01:56.109092+00:00
+bfbe4889bf93ab4b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The word ""dozen"" usually refers to a group of how many objects?
+A. 6
+B. 10
+C. 20
+D. 12
+Answer:","[""6"", ""10"", ""20"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-ka3808i5i8d8ah65a4gd"",""object"":""chat.completion"",""created"":1795593715,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8719,,MarianeAzar,20261125_084135,2026-11-25T08:01:56.981211+00:00
+98015fe67bd0b4ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Final Fantasy XV released?
+A. November 29th, 2016
+B. November 30th, 2016
+C. October 25th, 2016
+D. December 31th, 2016
+Answer:","[""November 29th, 2016"", ""November 30th, 2016"", ""October 25th, 2016"", ""December 31th, 2016""]",http,0.0,16,none,"{""id"":""chatcmpl-pjpjnu6fgwkbg1o6ikx9"",""object"":""chat.completion"",""created"":1795593716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.929,,MarianeAzar,20261125_084135,2026-11-25T08:01:57.910623+00:00
+98015fe67bd0b4ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Final Fantasy XV released?
+A. November 29th, 2016
+B. November 30th, 2016
+C. October 25th, 2016
+D. December 31th, 2016
+Answer:","[""November 29th, 2016"", ""November 30th, 2016"", ""October 25th, 2016"", ""December 31th, 2016""]",http,0.0,16,none,"{""id"":""chatcmpl-1jswlsi2xogx646d086h4"",""object"":""chat.completion"",""created"":1795593717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9115,,MarianeAzar,20261125_084135,2026-11-25T08:01:58.822444+00:00
+784e884cbccf9892,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the capital of the United States of America?
+A. Albany
+B. Seattle
+C. Washington D.C
+D. Los Angeles
+Answer:","[""Albany"", ""Seattle"", ""Washington D.C"", ""Los Angeles""]",http,0.0,16,none,"{""id"":""chatcmpl-az3no1gq9zmtqxx4aebcps"",""object"":""chat.completion"",""created"":1795593718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:01:59.689191+00:00
+784e884cbccf9892,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the capital of the United States of America?
+A. Albany
+B. Seattle
+C. Washington D.C
+D. Los Angeles
+Answer:","[""Albany"", ""Seattle"", ""Washington D.C"", ""Los Angeles""]",http,0.0,16,none,"{""id"":""chatcmpl-9y1jbyudrjnvn82xe4y77"",""object"":""chat.completion"",""created"":1795593719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:02:00.551998+00:00
+7e7aff19ac2e399d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT an Australian state or territory?
+A. Alberta
+B. Queensland
+C. Victoria
+D. New South Wales
+Answer:","[""Alberta"", ""Queensland"", ""Victoria"", ""New South Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-sl3tk4763gqam89sj4fw2"",""object"":""chat.completion"",""created"":1795593719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:02:01.411445+00:00
+7e7aff19ac2e399d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT an Australian state or territory?
+A. Alberta
+B. Queensland
+C. Victoria
+D. New South Wales
+Answer:","[""Alberta"", ""Queensland"", ""Victoria"", ""New South Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-zgwb6asqo9ik2g72iuwekh"",""object"":""chat.completion"",""created"":1795593720,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:02:02.279787+00:00
+fba7988565d904df,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Disney's ""Toontown Online"", which of these species wasn't available as a Toon?
+A. Monkey
+B. Bear
+C. Cow
+D. Pig
+Answer:","[""Monkey"", ""Bear"", ""Cow"", ""Pig""]",http,0.0,16,none,"{""id"":""chatcmpl-lh1ydmfw39mcyq7orcqie"",""object"":""chat.completion"",""created"":1795593721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8465,,MarianeAzar,20261125_084135,2026-11-25T08:02:03.126810+00:00
+fba7988565d904df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Disney's ""Toontown Online"", which of these species wasn't available as a Toon?
+A. Monkey
+B. Bear
+C. Cow
+D. Pig
+Answer:","[""Monkey"", ""Bear"", ""Cow"", ""Pig""]",http,0.0,16,none,"{""id"":""chatcmpl-z17kzu90a6cdno5n4w357m"",""object"":""chat.completion"",""created"":1795593722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261125_084135,2026-11-25T08:02:03.985270+00:00
+4ada1575367d5129,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What polymer is used to make CDs, safety goggles and riot shields?
+A. Nylon
+B. Bakelite
+C. Rubber
+D. Polycarbonate
+Answer:","[""Nylon"", ""Bakelite"", ""Rubber"", ""Polycarbonate""]",http,0.0,16,none,"{""id"":""chatcmpl-w0vzb0rfmo1lcxy9k7jo"",""object"":""chat.completion"",""created"":1795593723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9552,,MarianeAzar,20261125_084135,2026-11-25T08:02:04.940692+00:00
+4ada1575367d5129,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What polymer is used to make CDs, safety goggles and riot shields?
+A. Nylon
+B. Bakelite
+C. Rubber
+D. Polycarbonate
+Answer:","[""Nylon"", ""Bakelite"", ""Rubber"", ""Polycarbonate""]",http,0.0,16,none,"{""id"":""chatcmpl-scwc3o3gc5iwevlhiv3sm"",""object"":""chat.completion"",""created"":1795593724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261125_084135,2026-11-25T08:02:05.803321+00:00
+5f679884e77d86bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many federal states does Germany have?
+A. 25
+B. 16
+C. 32
+D. 13
+Answer:","[""25"", ""16"", ""32"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-rsbldrbzxo5t99oozopcx"",""object"":""chat.completion"",""created"":1795593725,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8551,,MarianeAzar,20261125_084135,2026-11-25T08:02:06.658820+00:00
+5f679884e77d86bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many federal states does Germany have?
+A. 25
+B. 16
+C. 32
+D. 13
+Answer:","[""25"", ""16"", ""32"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-tr055zlttod75z71sd87ky"",""object"":""chat.completion"",""created"":1795593726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:02:07.515288+00:00
+c9d45be7ab44fb18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a Tetris piece called?
+A. Tetris
+B. Tetratile
+C. Tetripiece
+D. Tetromino
+Answer:","[""Tetris"", ""Tetratile"", ""Tetripiece"", ""Tetromino""]",http,0.0,16,none,"{""id"":""chatcmpl-7ca12iyolopbs5vvm7cr56"",""object"":""chat.completion"",""created"":1795593726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8441,,MarianeAzar,20261125_084135,2026-11-25T08:02:08.359710+00:00
+c9d45be7ab44fb18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a Tetris piece called?
+A. Tetris
+B. Tetratile
+C. Tetripiece
+D. Tetromino
+Answer:","[""Tetris"", ""Tetratile"", ""Tetripiece"", ""Tetromino""]",http,0.0,16,none,"{""id"":""chatcmpl-4jtgppf88yxi1tf1ogz46"",""object"":""chat.completion"",""created"":1795593727,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:02:09.213385+00:00
+e18819cdb75d4937,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Indonesia?
+A. Palembang
+B. Jakarta
+C. Medan
+D. Bandung
+Answer:","[""Palembang"", ""Jakarta"", ""Medan"", ""Bandung""]",http,0.0,16,none,"{""id"":""chatcmpl-2uyeu1fgutpfkroacme2av"",""object"":""chat.completion"",""created"":1795593728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8418,,MarianeAzar,20261125_084135,2026-11-25T08:02:10.055531+00:00
+e18819cdb75d4937,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Indonesia?
+A. Palembang
+B. Jakarta
+C. Medan
+D. Bandung
+Answer:","[""Palembang"", ""Jakarta"", ""Medan"", ""Bandung""]",http,0.0,16,none,"{""id"":""chatcmpl-l89cbok8j2gi4z3yt2p5ro"",""object"":""chat.completion"",""created"":1795593729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8424,,MarianeAzar,20261125_084135,2026-11-25T08:02:10.898241+00:00
+fc59d4ad7e2a4363,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many colors are there in a rainbow?
+A. 10
+B. 8
+C. 7
+D. 9
+Answer:","[""10"", ""8"", ""7"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-zyriz628atgr975smxj7xi"",""object"":""chat.completion"",""created"":1795593730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261125_084135,2026-11-25T08:02:11.753534+00:00
+fc59d4ad7e2a4363,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many colors are there in a rainbow?
+A. 10
+B. 8
+C. 7
+D. 9
+Answer:","[""10"", ""8"", ""7"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-m86rkyz4eon74a42rr3g"",""object"":""chat.completion"",""created"":1795593731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T08:02:12.607749+00:00
+9de14e9fc41599d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Touhou character is a Hell Raven?
+A. Marisa Kirisame
+B. Aya Shameimaru
+C. Flandre Scarlet
+D. Utsuho Reiuji
+Answer:","[""Marisa Kirisame"", ""Aya Shameimaru"", ""Flandre Scarlet"", ""Utsuho Reiuji""]",http,0.0,16,none,"{""id"":""chatcmpl-jkdbxqf1zl3k7onm0aerd"",""object"":""chat.completion"",""created"":1795593732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T08:02:13.460609+00:00
+9de14e9fc41599d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Touhou character is a Hell Raven?
+A. Marisa Kirisame
+B. Aya Shameimaru
+C. Flandre Scarlet
+D. Utsuho Reiuji
+Answer:","[""Marisa Kirisame"", ""Aya Shameimaru"", ""Flandre Scarlet"", ""Utsuho Reiuji""]",http,0.0,16,none,"{""id"":""chatcmpl-kjqppa6nd6c7l6j5drdpe"",""object"":""chat.completion"",""created"":1795593732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:02:14.326588+00:00
+1e403a1bc977bb67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sonatas did Ludwig van Beethoven write?
+A. 32
+B. 21
+C. 31
+D. 50
+Answer:","[""32"", ""21"", ""31"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-iw15vhfwghihwv8yhjcvg"",""object"":""chat.completion"",""created"":1795593733,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:02:15.183196+00:00

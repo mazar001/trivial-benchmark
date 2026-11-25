@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7176075e5b4648cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the final villain in the manga series ""Bleach""?
+A. Juhabach
+B. Juha Bach
+C. Yuhabah
+D. Yhwach
+Answer:","[""Juhabach"", ""Juha Bach"", ""Yuhabah"", ""Yhwach""]",http,0.0,16,none,"{""id"":""chatcmpl-9k2lvkhjon77zc2wb0o24"",""object"":""chat.completion"",""created"":1795594578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4241,,MarianeAzar,20261125_084135,2026-11-25T08:16:20.816958+00:00
+057bb5fe44054db3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist of Dead Rising 3 is called Chuck Greene.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hi6pytvx0k99sjmq5csxdc"",""object"":""chat.completion"",""created"":1795594580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261125_084135,2026-11-25T08:16:21.713626+00:00
+057bb5fe44054db3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist of Dead Rising 3 is called Chuck Greene.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lhgib8lmcfb47oigsy4nwq"",""object"":""chat.completion"",""created"":1795594581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9227,,MarianeAzar,20261125_084135,2026-11-25T08:16:22.636543+00:00
+ec5837f6dd7f45f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first 6 digits of the number ""Pi""?
+A. 3.12423
+B. 3.14169
+C. 3.25812
+D. 3.14159
+Answer:","[""3.12423"", ""3.14169"", ""3.25812"", ""3.14159""]",http,0.0,16,none,"{""id"":""chatcmpl-1ozzchqunjwa5ewgb60xq"",""object"":""chat.completion"",""created"":1795594582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.354,,MarianeAzar,20261125_084135,2026-11-25T08:16:23.990826+00:00
+ec5837f6dd7f45f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first 6 digits of the number ""Pi""?
+A. 3.12423
+B. 3.14169
+C. 3.25812
+D. 3.14159
+Answer:","[""3.12423"", ""3.14169"", ""3.25812"", ""3.14159""]",http,0.0,16,none,"{""id"":""chatcmpl-1ms92u0methlxqjst748i"",""object"":""chat.completion"",""created"":1795594583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0049,,MarianeAzar,20261125_084135,2026-11-25T08:16:24.996261+00:00
+ee42a06b105e3b97,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sport is NOT traditionally played during the Mongolian Naadam festival?
+A. Archery
+B. Wrestling
+C. Horse-Racing
+D. American Football
+Answer:","[""Archery"", ""Wrestling"", ""Horse-Racing"", ""American Football""]",http,0.0,16,none,"{""id"":""chatcmpl-f6j9hd7sc9f2prxp3wcb"",""object"":""chat.completion"",""created"":1795594584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2606,,MarianeAzar,20261125_084135,2026-11-25T08:16:26.260717+00:00
+ee42a06b105e3b97,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sport is NOT traditionally played during the Mongolian Naadam festival?
+A. Archery
+B. Wrestling
+C. Horse-Racing
+D. American Football
+Answer:","[""Archery"", ""Wrestling"", ""Horse-Racing"", ""American Football""]",http,0.0,16,none,"{""id"":""chatcmpl-fvunhs8rx6bave7pkjoil5"",""object"":""chat.completion"",""created"":1795594585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2459,,MarianeAzar,20261125_084135,2026-11-25T08:16:27.507104+00:00
+77d17eaf9c3bd93e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT considered a woodwind instrument?
+A. Oboe
+B. Clarinet
+C. Trombone
+D. Bassoon
+Answer:","[""Oboe"", ""Clarinet"", ""Trombone"", ""Bassoon""]",http,0.0,16,none,"{""id"":""chatcmpl-qd0jphb4gvgzkhax8o7jgt"",""object"":""chat.completion"",""created"":1795594586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9319,,MarianeAzar,20261125_084135,2026-11-25T08:16:28.439294+00:00
+77d17eaf9c3bd93e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT considered a woodwind instrument?
+A. Oboe
+B. Clarinet
+C. Trombone
+D. Bassoon
+Answer:","[""Oboe"", ""Clarinet"", ""Trombone"", ""Bassoon""]",http,0.0,16,none,"{""id"":""chatcmpl-28g8950rczffg1bp5s24xe"",""object"":""chat.completion"",""created"":1795594587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2565,,MarianeAzar,20261125_084135,2026-11-25T08:16:29.696014+00:00
+46a0dfd443dc4caa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What TV show is about a grandfather dragging his grandson around on adventures?
+A. Rick & Morty
+B. American Dad
+C. South Park
+D. Family Guy
+Answer:","[""Rick & Morty"", ""American Dad"", ""South Park"", ""Family Guy""]",http,0.0,16,none,"{""id"":""chatcmpl-lx1a90l634twow27aamwy"",""object"":""chat.completion"",""created"":1795594589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3482,,MarianeAzar,20261125_084135,2026-11-25T08:16:31.044420+00:00
+46a0dfd443dc4caa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What TV show is about a grandfather dragging his grandson around on adventures?
+A. Rick & Morty
+B. American Dad
+C. South Park
+D. Family Guy
+Answer:","[""Rick & Morty"", ""American Dad"", ""South Park"", ""Family Guy""]",http,0.0,16,none,"{""id"":""chatcmpl-50yvznfdyh618c3rctp0pa"",""object"":""chat.completion"",""created"":1795594590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1351,,MarianeAzar,20261125_084135,2026-11-25T08:16:32.180250+00:00
+6ddd875015898008,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these automotive brands originated in Sweden?
+A. Lincoln
+B. Mercedes
+C. Volvo
+D. Acura
+Answer:","[""Lincoln"", ""Mercedes"", ""Volvo"", ""Acura""]",http,0.0,16,none,"{""id"":""chatcmpl-et5ertbavpbupd8w783ums"",""object"":""chat.completion"",""created"":1795594591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9416,,MarianeAzar,20261125_084135,2026-11-25T08:16:33.122315+00:00
+6ddd875015898008,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these automotive brands originated in Sweden?
+A. Lincoln
+B. Mercedes
+C. Volvo
+D. Acura
+Answer:","[""Lincoln"", ""Mercedes"", ""Volvo"", ""Acura""]",http,0.0,16,none,"{""id"":""chatcmpl-tdmh8k0llcjf0zh1rj5cas"",""object"":""chat.completion"",""created"":1795594592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.955,,MarianeAzar,20261125_084135,2026-11-25T08:16:34.077625+00:00
+6e04e6482a4461ed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Peter Molyneux was the founder of Bullfrog Productions.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wsjo9wt57ljwkr46x7036"",""object"":""chat.completion"",""created"":1795594593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4259,,MarianeAzar,20261125_084135,2026-11-25T08:16:35.503843+00:00
+6e04e6482a4461ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Peter Molyneux was the founder of Bullfrog Productions.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2lvlughkdumun1gs449i9"",""object"":""chat.completion"",""created"":1795594594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9073,,MarianeAzar,20261125_084135,2026-11-25T08:16:36.411276+00:00
+f7f928b2554b9188,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?
+A. Skylake
+B. Coffee Lake
+C. Sandy Bridge
+D. Broadwell
+Answer:","[""Skylake"", ""Coffee Lake"", ""Sandy Bridge"", ""Broadwell""]",http,0.0,16,none,"{""id"":""chatcmpl-w8vqq9vyq7qy7qetlxhail"",""object"":""chat.completion"",""created"":1795594595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9302,,MarianeAzar,20261125_084135,2026-11-25T08:16:37.341964+00:00
+f7f928b2554b9188,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?
+A. Skylake
+B. Coffee Lake
+C. Sandy Bridge
+D. Broadwell
+Answer:","[""Skylake"", ""Coffee Lake"", ""Sandy Bridge"", ""Broadwell""]",http,0.0,16,none,"{""id"":""chatcmpl-8x0cqgipilpwkcp3d80z9"",""object"":""chat.completion"",""created"":1795594596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4859,,MarianeAzar,20261125_084135,2026-11-25T08:16:38.828257+00:00
+3e46ab5aac1ac5ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Death Valley's Badwater Basin is North America's point of lowest elevation at how many feet below sea level?
+A. 282 feet
+B. 1,640 feet
+C. 79 feet
+D. 12,092 feet
+Answer:","[""282 feet"", ""1,640 feet"", ""79 feet"", ""12,092 feet""]",http,0.0,16,none,"{""id"":""chatcmpl-4jz8oq7hgqua7p0c7c6f"",""object"":""chat.completion"",""created"":1795594598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9816,,MarianeAzar,20261125_084135,2026-11-25T08:16:39.810089+00:00
+3e46ab5aac1ac5ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Death Valley's Badwater Basin is North America's point of lowest elevation at how many feet below sea level?
+A. 282 feet
+B. 1,640 feet
+C. 79 feet
+D. 12,092 feet
+Answer:","[""282 feet"", ""1,640 feet"", ""79 feet"", ""12,092 feet""]",http,0.0,16,none,"{""id"":""chatcmpl-scnvdpzu0rlquc08odhe"",""object"":""chat.completion"",""created"":1795594599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0209,,MarianeAzar,20261125_084135,2026-11-25T08:16:40.831258+00:00
+e84900b78f493964,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following rings from the DC Comics' ""Lantern Corps"" are classified as Parasitic?
+A. Indigo (Compassion)
+B. Green (Willpower)
+C. Yellow (Fear)
+D. White (Life)
+Answer:","[""Indigo (Compassion)"", ""Green (Willpower)"", ""Yellow (Fear)"", ""White (Life)""]",http,0.0,16,none,"{""id"":""chatcmpl-t5gdznqf0ked9oxqjr6s6"",""object"":""chat.completion"",""created"":1795594600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3512,,MarianeAzar,20261125_084135,2026-11-25T08:16:42.183078+00:00
+e84900b78f493964,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following rings from the DC Comics' ""Lantern Corps"" are classified as Parasitic?
+A. Indigo (Compassion)
+B. Green (Willpower)
+C. Yellow (Fear)
+D. White (Life)
+Answer:","[""Indigo (Compassion)"", ""Green (Willpower)"", ""Yellow (Fear)"", ""White (Life)""]",http,0.0,16,none,"{""id"":""chatcmpl-ufi9zprrwfe5sl38dfl4uj"",""object"":""chat.completion"",""created"":1795594601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9714,,MarianeAzar,20261125_084135,2026-11-25T08:16:43.154726+00:00
+56dd2bbe3787de25,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following correctly describes Japanese word order?
+A. Verb Object Subject
+B. Subject Object Verb
+C. Subject Verb Object
+D. Verb Subject Object
+Answer:","[""Verb Object Subject"", ""Subject Object Verb"", ""Subject Verb Object"", ""Verb Subject Object""]",http,0.0,16,none,"{""id"":""chatcmpl-nuo4m16gfcjdiekuu9iw9"",""object"":""chat.completion"",""created"":1795594602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2288,,MarianeAzar,20261125_084135,2026-11-25T08:16:44.383704+00:00
+56dd2bbe3787de25,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following correctly describes Japanese word order?
+A. Verb Object Subject
+B. Subject Object Verb
+C. Subject Verb Object
+D. Verb Subject Object
+Answer:","[""Verb Object Subject"", ""Subject Object Verb"", ""Subject Verb Object"", ""Verb Subject Object""]",http,0.0,16,none,"{""id"":""chatcmpl-ga9jyhn6e5f6gkoqp1dot"",""object"":""chat.completion"",""created"":1795594603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3202,,MarianeAzar,20261125_084135,2026-11-25T08:16:45.706224+00:00
+28fb1dc8e5ce193d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does Stephen King's ""IT"" take place?
+A. Kingsland, Texas
+B. Innsmouth, Massachusetts
+C. Derry, Maine
+D. Rockford, Illinois
+Answer:","[""Kingsland, Texas"", ""Innsmouth, Massachusetts"", ""Derry, Maine"", ""Rockford, Illinois""]",http,0.0,16,none,"{""id"":""chatcmpl-u5g2j8i2e5gsd87li1fevr"",""object"":""chat.completion"",""created"":1795594605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9136,,MarianeAzar,20261125_084135,2026-11-25T08:16:46.620409+00:00
+28fb1dc8e5ce193d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does Stephen King's ""IT"" take place?
+A. Kingsland, Texas
+B. Innsmouth, Massachusetts
+C. Derry, Maine
+D. Rockford, Illinois
+Answer:","[""Kingsland, Texas"", ""Innsmouth, Massachusetts"", ""Derry, Maine"", ""Rockford, Illinois""]",http,0.0,16,none,"{""id"":""chatcmpl-yvnl0a5j5cofartgw6e5"",""object"":""chat.completion"",""created"":1795594606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9641,,MarianeAzar,20261125_084135,2026-11-25T08:16:47.584814+00:00

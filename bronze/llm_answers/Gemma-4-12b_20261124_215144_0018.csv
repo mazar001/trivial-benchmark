@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+2a341c86dae80180,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?
+A. The Velvet Underground & Nico
+B. Unknown Pleasures
+C. The Dark Side of the Moon
+D. London Calling
+Answer:","[""The Velvet Underground & Nico"", ""Unknown Pleasures"", ""The Dark Side of the Moon"", ""London Calling""]",http,0.0,16,none,"{""id"":""chatcmpl-nttyhjcpdyauu8hof8fq9"",""object"":""chat.completion"",""created"":1795554016,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8757,,MarianeAzar,20261124_215144,2026-11-24T21:00:17.057595+00:00
+2a341c86dae80180,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?
+A. The Velvet Underground & Nico
+B. Unknown Pleasures
+C. The Dark Side of the Moon
+D. London Calling
+Answer:","[""The Velvet Underground & Nico"", ""Unknown Pleasures"", ""The Dark Side of the Moon"", ""London Calling""]",http,0.0,16,none,"{""id"":""chatcmpl-w7fvdzpj6ondyi9hkofs4c"",""object"":""chat.completion"",""created"":1795554016,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9437,,MarianeAzar,20261124_215144,2026-11-24T21:00:18.001723+00:00
+301ed25102dab6e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The title of Adolf Hitler's autobiography ""Mein Kampf"" is what when translated to English?
+A. My Hatred
+B. My Struggle
+C. My Desire
+D. My Sadness
+Answer:","[""My Hatred"", ""My Struggle"", ""My Desire"", ""My Sadness""]",http,0.0,16,none,"{""id"":""chatcmpl-sykdt2vp84xtmxj0hrud"",""object"":""chat.completion"",""created"":1795554017,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9206,,MarianeAzar,20261124_215144,2026-11-24T21:00:18.922637+00:00
+301ed25102dab6e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The title of Adolf Hitler's autobiography ""Mein Kampf"" is what when translated to English?
+A. My Hatred
+B. My Struggle
+C. My Desire
+D. My Sadness
+Answer:","[""My Hatred"", ""My Struggle"", ""My Desire"", ""My Sadness""]",http,0.0,16,none,"{""id"":""chatcmpl-4rio4w7towefdjmvomdhel"",""object"":""chat.completion"",""created"":1795554018,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8846,,MarianeAzar,20261124_215144,2026-11-24T21:00:19.807574+00:00
+85e33d70d71ba6e9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The United States was a member of the League of Nations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3yr6bxz6quo5ekka0m3m3r"",""object"":""chat.completion"",""created"":1795554019,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8092,,MarianeAzar,20261124_215144,2026-11-24T21:00:20.617351+00:00
+85e33d70d71ba6e9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The United States was a member of the League of Nations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h0kdnom8cnqf9zr6iqzsir"",""object"":""chat.completion"",""created"":1795554020,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8115,,MarianeAzar,20261124_215144,2026-11-24T21:00:21.429050+00:00
+9a71be815509b9b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Kanye West at 2009 VMA's interrupted which celebrity?
+A. Beyonce
+B. MF DOOM
+C. Beck
+D. Taylor Swift
+Answer:","[""Beyonce"", ""MF DOOM"", ""Beck"", ""Taylor Swift""]",http,0.0,16,none,"{""id"":""chatcmpl-4nngpaie8mghvxvwn5bg2"",""object"":""chat.completion"",""created"":1795554021,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261124_215144,2026-11-24T21:00:22.276418+00:00
+9a71be815509b9b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Kanye West at 2009 VMA's interrupted which celebrity?
+A. Beyonce
+B. MF DOOM
+C. Beck
+D. Taylor Swift
+Answer:","[""Beyonce"", ""MF DOOM"", ""Beck"", ""Taylor Swift""]",http,0.0,16,none,"{""id"":""chatcmpl-0biuildhbu85ny23nvq3pi"",""object"":""chat.completion"",""created"":1795554022,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261124_215144,2026-11-24T21:00:23.136452+00:00
+d43d928cae9f0209,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""To Love-Ru"" Manga was started in what year?
+A. 2004
+B. 2005
+C. 2006
+D. 2007
+Answer:","[""2004"", ""2005"", ""2006"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-uxnxkdkz42mgfxv9e2czbt"",""object"":""chat.completion"",""created"":1795554023,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261124_215144,2026-11-24T21:00:23.987973+00:00
+d43d928cae9f0209,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""To Love-Ru"" Manga was started in what year?
+A. 2004
+B. 2005
+C. 2006
+D. 2007
+Answer:","[""2004"", ""2005"", ""2006"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-1igabo5skikkkka34xog9"",""object"":""chat.completion"",""created"":1795554023,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261124_215144,2026-11-24T21:00:24.872020+00:00
+f645565804472df7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote ""A Tale of Two Cities""?
+A. Roald Dahl
+B. Mark Twain
+C. Charles Dickens
+D. Charles Darwin
+Answer:","[""Roald Dahl"", ""Mark Twain"", ""Charles Dickens"", ""Charles Darwin""]",http,0.0,16,none,"{""id"":""chatcmpl-x2p0yojjocs6ldlg7c7175"",""object"":""chat.completion"",""created"":1795554024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8836,,MarianeAzar,20261124_215144,2026-11-24T21:00:25.756302+00:00
+f645565804472df7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote ""A Tale of Two Cities""?
+A. Roald Dahl
+B. Mark Twain
+C. Charles Dickens
+D. Charles Darwin
+Answer:","[""Roald Dahl"", ""Mark Twain"", ""Charles Dickens"", ""Charles Darwin""]",http,0.0,16,none,"{""id"":""chatcmpl-gpjbf864mamdrcr8tyoj"",""object"":""chat.completion"",""created"":1795554025,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261124_215144,2026-11-24T21:00:26.614318+00:00
+947f89fa0111a605,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first vehicle that came with air conditioning as a factory standard?
+A. Ford
+B. Hudson
+C. Tucker
+D. Packard
+Answer:","[""Ford"", ""Hudson"", ""Tucker"", ""Packard""]",http,0.0,16,none,"{""id"":""chatcmpl-362ckkk82iffa286gc7ar8"",""object"":""chat.completion"",""created"":1795554026,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261124_215144,2026-11-24T21:00:27.460432+00:00
+947f89fa0111a605,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first vehicle that came with air conditioning as a factory standard?
+A. Ford
+B. Hudson
+C. Tucker
+D. Packard
+Answer:","[""Ford"", ""Hudson"", ""Tucker"", ""Packard""]",http,0.0,16,none,"{""id"":""chatcmpl-pl46l0z6g4ai52nkqclof"",""object"":""chat.completion"",""created"":1795554027,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261124_215144,2026-11-24T21:00:28.344824+00:00
+cbaf8797e48fdc61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?
+A. United Arab Emirates
+B. Qatar
+C. Kuwait
+D. Jordan
+Answer:","[""United Arab Emirates"", ""Qatar"", ""Kuwait"", ""Jordan""]",http,0.0,16,none,"{""id"":""chatcmpl-r644sbxgnj8jiexxvkifn"",""object"":""chat.completion"",""created"":1795554028,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0237,,MarianeAzar,20261124_215144,2026-11-24T21:00:29.368990+00:00
+cbaf8797e48fdc61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Arab countries does NOT have a flag containing only Pan-Arab colours?
+A. United Arab Emirates
+B. Qatar
+C. Kuwait
+D. Jordan
+Answer:","[""United Arab Emirates"", ""Qatar"", ""Kuwait"", ""Jordan""]",http,0.0,16,none,"{""id"":""chatcmpl-rmeh23ce5lwzxp628d0c"",""object"":""chat.completion"",""created"":1795554029,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9205,,MarianeAzar,20261124_215144,2026-11-24T21:00:30.289815+00:00
+febe18d926d509ee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Arabic word for ""moon""?
+A. Shams
+B. Najma
+C. Kawkab
+D. Qamar
+Answer:","[""Shams"", ""Najma"", ""Kawkab"", ""Qamar""]",http,0.0,16,none,"{""id"":""chatcmpl-kd82x8y1msskzu17lvcs8"",""object"":""chat.completion"",""created"":1795554030,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261124_215144,2026-11-24T21:00:31.151710+00:00
+febe18d926d509ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Arabic word for ""moon""?
+A. Shams
+B. Najma
+C. Kawkab
+D. Qamar
+Answer:","[""Shams"", ""Najma"", ""Kawkab"", ""Qamar""]",http,0.0,16,none,"{""id"":""chatcmpl-5qzczjm3hg3thm19ttdwja"",""object"":""chat.completion"",""created"":1795554031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261124_215144,2026-11-24T21:00:32.009382+00:00
+46b75fd50066e894,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show ""Mad Men"", what was Donald Draper's birthname?
+A. Michael ""Mikey"" Wilhelm
+B. Richard ""Dick"" Whitman
+C. John Ashbury
+D. Donald Draper
+Answer:","[""Michael \""Mikey\"" Wilhelm"", ""Richard \""Dick\"" Whitman"", ""John Ashbury"", ""Donald Draper""]",http,0.0,16,none,"{""id"":""chatcmpl-435phfgv4badp3qbhvq5xu"",""object"":""chat.completion"",""created"":1795554031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261124_215144,2026-11-24T21:00:32.874130+00:00
+46b75fd50066e894,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV show ""Mad Men"", what was Donald Draper's birthname?
+A. Michael ""Mikey"" Wilhelm
+B. Richard ""Dick"" Whitman
+C. John Ashbury
+D. Donald Draper
+Answer:","[""Michael \""Mikey\"" Wilhelm"", ""Richard \""Dick\"" Whitman"", ""John Ashbury"", ""Donald Draper""]",http,0.0,16,none,"{""id"":""chatcmpl-q0vz8anhhe4xqc6wkdjpw"",""object"":""chat.completion"",""created"":1795554032,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9996,,MarianeAzar,20261124_215144,2026-11-24T21:00:33.873973+00:00
+f5c03419b64f3238,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which country does France share its largest land border
+A. Spain
+B. Brazil
+C. Canada
+D. Germany
+Answer:","[""Spain"", ""Brazil"", ""Canada"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-7yg81fyk154t9vq400rqc"",""object"":""chat.completion"",""created"":1795554033,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261124_215144,2026-11-24T21:00:34.734573+00:00
+f5c03419b64f3238,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which country does France share its largest land border
+A. Spain
+B. Brazil
+C. Canada
+D. Germany
+Answer:","[""Spain"", ""Brazil"", ""Canada"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-m2vneiv7ycwlvi5m6quj"",""object"":""chat.completion"",""created"":1795554034,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261124_215144,2026-11-24T21:00:35.603812+00:00
+1dbe39bfef825867,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in the webcomic Gunnerkrigg Court by Tom Siddell?
+A. Antimony
+B. Cobalt
+C. Bismuth
+D. Mercury
+Answer:","[""Antimony"", ""Cobalt"", ""Bismuth"", ""Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-6twmb0ox2yvd31en0mk9d9"",""object"":""chat.completion"",""created"":1795554035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9322,,MarianeAzar,20261124_215144,2026-11-24T21:00:36.536266+00:00
+1dbe39bfef825867,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in the webcomic Gunnerkrigg Court by Tom Siddell?
+A. Antimony
+B. Cobalt
+C. Bismuth
+D. Mercury
+Answer:","[""Antimony"", ""Cobalt"", ""Bismuth"", ""Mercury""]",http,0.0,16,none,"{""id"":""chatcmpl-kq8ksor8unafgpjhhot58d"",""object"":""chat.completion"",""created"":1795554036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9198,,MarianeAzar,20261124_215144,2026-11-24T21:00:37.456344+00:00
+02e43fb8db10ead8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a real tectonic plate?
+A. North American Plate
+B. Eurasian Plate
+C. Nazca Plate
+D. Atlantic Plate
+Answer:","[""North American Plate"", ""Eurasian Plate"", ""Nazca Plate"", ""Atlantic Plate""]",http,0.0,16,none,"{""id"":""chatcmpl-4z5vgltoshucq2r77014iu"",""object"":""chat.completion"",""created"":1795554037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8662,,MarianeAzar,20261124_215144,2026-11-24T21:00:38.322833+00:00

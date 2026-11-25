@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7924e71da7eb265e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Halley's Comet, which will not appear again until the year 2061, previously approach Earth?
+A. 1909
+B. 2001
+C. 1942
+D. 1986
+Answer:","[""1909"", ""2001"", ""1942"", ""1986""]",http,0.0,16,none,"{""id"":""chatcmpl-1k81t494ias7ee7rfb85ym"",""object"":""chat.completion"",""created"":1795594410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0188,,MarianeAzar,20261125_084135,2026-11-25T08:13:31.753469+00:00
+4217371b6f1f0a73,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many letters are in the English alphabet?
+A. 26
+B. 30
+C. 17
+D. 5
+Answer:","[""26"", ""30"", ""17"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-8oeunwk15hoj1yut6b70jb"",""object"":""chat.completion"",""created"":1795594411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9522,,MarianeAzar,20261125_084135,2026-11-25T08:13:32.705960+00:00
+4217371b6f1f0a73,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many letters are in the English alphabet?
+A. 26
+B. 30
+C. 17
+D. 5
+Answer:","[""26"", ""30"", ""17"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-qb83vlyn9cmenmdyutl3k4"",""object"":""chat.completion"",""created"":1795594412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4764,,MarianeAzar,20261125_084135,2026-11-25T08:13:34.182610+00:00
+d6712fe516d9794d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Queen Elizabeth II born?
+A. 1930
+B. 1926
+C. 1923
+D. 1929
+Answer:","[""1930"", ""1926"", ""1923"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-h7s32yybl09s65aksxbtgt"",""object"":""chat.completion"",""created"":1795594413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9508,,MarianeAzar,20261125_084135,2026-11-25T08:13:35.133627+00:00
+d6712fe516d9794d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Queen Elizabeth II born?
+A. 1930
+B. 1926
+C. 1923
+D. 1929
+Answer:","[""1930"", ""1926"", ""1923"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-bm4gyjjlsqanr6nh7nj"",""object"":""chat.completion"",""created"":1795594414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9584,,MarianeAzar,20261125_084135,2026-11-25T08:13:36.092269+00:00
+b5cf179b0a2c29fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original Doctor Who series (1963), fourth doctor Tom Baker's scarf was how long?
+A. 10 Meters
+B. 5 Meters
+C. 2 Meters
+D. 7 Meters
+Answer:","[""10 Meters"", ""5 Meters"", ""2 Meters"", ""7 Meters""]",http,0.0,16,none,"{""id"":""chatcmpl-15za03ha4xw4il7xa3h55j"",""object"":""chat.completion"",""created"":1795594415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4196,,MarianeAzar,20261125_084135,2026-11-25T08:13:37.512193+00:00
+b5cf179b0a2c29fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original Doctor Who series (1963), fourth doctor Tom Baker's scarf was how long?
+A. 10 Meters
+B. 5 Meters
+C. 2 Meters
+D. 7 Meters
+Answer:","[""10 Meters"", ""5 Meters"", ""2 Meters"", ""7 Meters""]",http,0.0,16,none,"{""id"":""chatcmpl-4kc9tt9jcqxeu8xlwjuv17"",""object"":""chat.completion"",""created"":1795594416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9904,,MarianeAzar,20261125_084135,2026-11-25T08:13:38.502808+00:00
+ec2236bd9ea8c466,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Taylor Swift born?
+A. 1990
+B. 1989
+C. 1988
+D. 1987
+Answer:","[""1990"", ""1989"", ""1988"", ""1987""]",http,0.0,16,none,"{""id"":""chatcmpl-s0ivp7p8y8bufig8g1oiba"",""object"":""chat.completion"",""created"":1795594417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9554,,MarianeAzar,20261125_084135,2026-11-25T08:13:39.458464+00:00
+ec2236bd9ea8c466,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Taylor Swift born?
+A. 1990
+B. 1989
+C. 1988
+D. 1987
+Answer:","[""1990"", ""1989"", ""1988"", ""1987""]",http,0.0,16,none,"{""id"":""chatcmpl-6twr5p9nquib5zr9scxq"",""object"":""chat.completion"",""created"":1795594418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3096,,MarianeAzar,20261125_084135,2026-11-25T08:13:40.768286+00:00
+01655c7cffca478f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Santa Claus"" is a variety of melon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q0die9ty3r80p5q6t5vz6n"",""object"":""chat.completion"",""created"":1795594420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261125_084135,2026-11-25T08:13:41.657461+00:00
+01655c7cffca478f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Santa Claus"" is a variety of melon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xmcrh2z3t9jdjiw6t3drm"",""object"":""chat.completion"",""created"":1795594421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2046,,MarianeAzar,20261125_084135,2026-11-25T08:13:42.862190+00:00
+6840356a1f2d0131,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Canadian reggae musician had a 1993 hit with the song 'Informer'?
+A. Hail
+B. Snow
+C. Rain
+D. Sleet
+Answer:","[""Hail"", ""Snow"", ""Rain"", ""Sleet""]",http,0.0,16,none,"{""id"":""chatcmpl-mm0xww30wlx4hlq8up5tc"",""object"":""chat.completion"",""created"":1795594422,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3412,,MarianeAzar,20261125_084135,2026-11-25T08:13:44.203560+00:00
+6840356a1f2d0131,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Canadian reggae musician had a 1993 hit with the song 'Informer'?
+A. Hail
+B. Snow
+C. Rain
+D. Sleet
+Answer:","[""Hail"", ""Snow"", ""Rain"", ""Sleet""]",http,0.0,16,none,"{""id"":""chatcmpl-fu1ri4mt06ananmxqkh3wi"",""object"":""chat.completion"",""created"":1795594423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9443,,MarianeAzar,20261125_084135,2026-11-25T08:13:45.148155+00:00
+cbe4a1e9a56d7351,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Windows 7 operating system has six main editions.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-g1sv4b9mdmdei3lpfo5vp5"",""object"":""chat.completion"",""created"":1795594424,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261125_084135,2026-11-25T08:13:46.035330+00:00
+cbe4a1e9a56d7351,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Windows 7 operating system has six main editions.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1b1brn6o1m7zptr7izyj4f"",""object"":""chat.completion"",""created"":1795594425,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2304,,MarianeAzar,20261125_084135,2026-11-25T08:13:47.265935+00:00
+722fa563f97b773a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which retired American football quarterback played himself in 'Ace Ventura: Pet Detective' and 'Little Nicky'?
+A. Joe Montana
+B. Dan Marino
+C. Tom Brady
+D. John Elway
+Answer:","[""Joe Montana"", ""Dan Marino"", ""Tom Brady"", ""John Elway""]",http,0.0,16,none,"{""id"":""chatcmpl-4umufp90wt7im07frvnpv"",""object"":""chat.completion"",""created"":1795594426,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.911,,MarianeAzar,20261125_084135,2026-11-25T08:13:48.177556+00:00
+722fa563f97b773a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which retired American football quarterback played himself in 'Ace Ventura: Pet Detective' and 'Little Nicky'?
+A. Joe Montana
+B. Dan Marino
+C. Tom Brady
+D. John Elway
+Answer:","[""Joe Montana"", ""Dan Marino"", ""Tom Brady"", ""John Elway""]",http,0.0,16,none,"{""id"":""chatcmpl-nakiyq4bqh7qpgt8ymqx3"",""object"":""chat.completion"",""created"":1795594427,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2764,,MarianeAzar,20261125_084135,2026-11-25T08:13:49.454186+00:00
+6e1dcc55051b00b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In standard Monopoly, what's the rent if you land on Park Place with no houses?
+A. $45
+B. $30
+C. $50
+D. $35
+Answer:","[""$45"", ""$30"", ""$50"", ""$35""]",http,0.0,16,none,"{""id"":""chatcmpl-73ulykagqmzj7aa02x99"",""object"":""chat.completion"",""created"":1795594428,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3585,,MarianeAzar,20261125_084135,2026-11-25T08:13:50.813023+00:00
+6e1dcc55051b00b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In standard Monopoly, what's the rent if you land on Park Place with no houses?
+A. $45
+B. $30
+C. $50
+D. $35
+Answer:","[""$45"", ""$30"", ""$50"", ""$35""]",http,0.0,16,none,"{""id"":""chatcmpl-08z3fj85y8ulbmwwixpelpa"",""object"":""chat.completion"",""created"":1795594430,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1574,,MarianeAzar,20261125_084135,2026-11-25T08:13:51.970687+00:00
+ee49db3f21f9cc7d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of Ho Chi Minh City?
+A. Hanoi
+B. Angkor Wat
+C. Dar Es Salaam
+D. Saigon
+Answer:","[""Hanoi"", ""Angkor Wat"", ""Dar Es Salaam"", ""Saigon""]",http,0.0,16,none,"{""id"":""chatcmpl-ketb1tdyetdfcfonav8pl"",""object"":""chat.completion"",""created"":1795594431,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0196,,MarianeAzar,20261125_084135,2026-11-25T08:13:52.990495+00:00
+ee49db3f21f9cc7d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of Ho Chi Minh City?
+A. Hanoi
+B. Angkor Wat
+C. Dar Es Salaam
+D. Saigon
+Answer:","[""Hanoi"", ""Angkor Wat"", ""Dar Es Salaam"", ""Saigon""]",http,0.0,16,none,"{""id"":""chatcmpl-h2ssz3iy6ul1mdprfn8ord"",""object"":""chat.completion"",""created"":1795594432,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9439,,MarianeAzar,20261125_084135,2026-11-25T08:13:53.934659+00:00
+94243b8ff63e064e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Mario Kart 64"", Waluigi is a playable character.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tpy64aoj20g17lo55b4mp1"",""object"":""chat.completion"",""created"":1795594433,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3472,,MarianeAzar,20261125_084135,2026-11-25T08:13:55.282020+00:00
+94243b8ff63e064e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Mario Kart 64"", Waluigi is a playable character.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gbyarizl04or1q5o64w7ol"",""object"":""chat.completion"",""created"":1795594434,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9785,,MarianeAzar,20261125_084135,2026-11-25T08:13:56.260708+00:00
+d6e3c0b3d4f04508,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?
+A. Goat
+B. Horse
+C. Wolf
+D. Elephant
+Answer:","[""Goat"", ""Horse"", ""Wolf"", ""Elephant""]",http,0.0,16,none,"{""id"":""chatcmpl-163gohjhyxa54vp8a192sv"",""object"":""chat.completion"",""created"":1795594435,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9963,,MarianeAzar,20261125_084135,2026-11-25T08:13:57.257304+00:00
+d6e3c0b3d4f04508,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?
+A. Goat
+B. Horse
+C. Wolf
+D. Elephant
+Answer:","[""Goat"", ""Horse"", ""Wolf"", ""Elephant""]",http,0.0,16,none,"{""id"":""chatcmpl-aqa4bbreed9cmlt5mcoaf4"",""object"":""chat.completion"",""created"":1795594436,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4145,,MarianeAzar,20261125_084135,2026-11-25T08:13:58.672014+00:00

@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+25d7c8f06a6bf6fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters was considered, but ultimately not included, for Super Smash Bros. Melee?
+A. Wave Racer
+B. Mega Man
+C. James Bond
+D. Diddy Kong
+Answer:","[""Wave Racer"", ""Mega Man"", ""James Bond"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-tn2wmo8z5eb06kkddo2zvld"",""object"":""chat.completion"",""created"":1795597035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8696,,MarianeAzar,20261125_084135,2026-11-25T08:57:16.956823+00:00
+25d7c8f06a6bf6fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters was considered, but ultimately not included, for Super Smash Bros. Melee?
+A. Wave Racer
+B. Mega Man
+C. James Bond
+D. Diddy Kong
+Answer:","[""Wave Racer"", ""Mega Man"", ""James Bond"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-du1aj5qf2ndwqr5xf770il"",""object"":""chat.completion"",""created"":1795597036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8934,,MarianeAzar,20261125_084135,2026-11-25T08:57:17.850458+00:00
+9c0822e73f2f5f83,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these following weapon or equipment exists in Counter Strike but not in Counter Strike: Source?
+A. Molotov Cocktail
+B. Tactical Shield
+C. MP5 Navy
+D. TMP
+Answer:","[""Molotov Cocktail"", ""Tactical Shield"", ""MP5 Navy"", ""TMP""]",http,0.0,16,none,"{""id"":""chatcmpl-hlaeafhqqtl15mygxa3we"",""object"":""chat.completion"",""created"":1795597037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8742,,MarianeAzar,20261125_084135,2026-11-25T08:57:18.724879+00:00
+9c0822e73f2f5f83,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these following weapon or equipment exists in Counter Strike but not in Counter Strike: Source?
+A. Molotov Cocktail
+B. Tactical Shield
+C. MP5 Navy
+D. TMP
+Answer:","[""Molotov Cocktail"", ""Tactical Shield"", ""MP5 Navy"", ""TMP""]",http,0.0,16,none,"{""id"":""chatcmpl-cl8lg7m0pt69rzs86bg7k6"",""object"":""chat.completion"",""created"":1795597038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8621,,MarianeAzar,20261125_084135,2026-11-25T08:57:19.587250+00:00
+0484e550c38f7419,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The original Roman alphabet lacked the following letters EXCEPT:
+A. X
+B. J
+C. W
+D. U
+Answer:","[""X"", ""J"", ""W"", ""U""]",http,0.0,16,none,"{""id"":""chatcmpl-z8x6ss077kxlle4v5dgm"",""object"":""chat.completion"",""created"":1795597039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8496,,MarianeAzar,20261125_084135,2026-11-25T08:57:20.437221+00:00
+0484e550c38f7419,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The original Roman alphabet lacked the following letters EXCEPT:
+A. X
+B. J
+C. W
+D. U
+Answer:","[""X"", ""J"", ""W"", ""U""]",http,0.0,16,none,"{""id"":""chatcmpl-5oqvje064n7da0ybldqe67"",""object"":""chat.completion"",""created"":1795597039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8617,,MarianeAzar,20261125_084135,2026-11-25T08:57:21.299135+00:00
+3f3f41a6e9ebd8c1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pete Townshend was the first musician to destroy their intrument live on stage.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bqlx62mc79j2tfzwj923ga"",""object"":""chat.completion"",""created"":1795597040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8196,,MarianeAzar,20261125_084135,2026-11-25T08:57:22.119009+00:00
+3f3f41a6e9ebd8c1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pete Townshend was the first musician to destroy their intrument live on stage.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zfsrtgo8t5jz3lep8j1cl"",""object"":""chat.completion"",""created"":1795597041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8452,,MarianeAzar,20261125_084135,2026-11-25T08:57:22.964407+00:00
+5fc0bb346f1bca39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?
+A. 2015
+B. 2012
+C. 2008
+D. 2017
+Answer:","[""2015"", ""2012"", ""2008"", ""2017""]",http,0.0,16,none,"{""id"":""chatcmpl-xgamh6linn96pzmze2ij59"",""object"":""chat.completion"",""created"":1795597042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8866,,MarianeAzar,20261125_084135,2026-11-25T08:57:23.852369+00:00
+5fc0bb346f1bca39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Starting from 2000, China banned manufacturing and sales of all video game consoles. On which year was this ban lifted?
+A. 2015
+B. 2012
+C. 2008
+D. 2017
+Answer:","[""2015"", ""2012"", ""2008"", ""2017""]",http,0.0,16,none,"{""id"":""chatcmpl-q9fr2fcd3kj28pbor60guz"",""object"":""chat.completion"",""created"":1795597043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9317,,MarianeAzar,20261125_084135,2026-11-25T08:57:24.784347+00:00
+638675733cc69ee6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which programming language shares its name with an island in Indonesia?
+A. C
+B. Jakarta
+C. Java
+D. Python
+Answer:","[""C"", ""Jakarta"", ""Java"", ""Python""]",http,0.0,16,none,"{""id"":""chatcmpl-7f1f8noa7nsn0rxd4grq4o"",""object"":""chat.completion"",""created"":1795597044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8953,,MarianeAzar,20261125_084135,2026-11-25T08:57:25.680014+00:00
+638675733cc69ee6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which programming language shares its name with an island in Indonesia?
+A. C
+B. Jakarta
+C. Java
+D. Python
+Answer:","[""C"", ""Jakarta"", ""Java"", ""Python""]",http,0.0,16,none,"{""id"":""chatcmpl-z73ug8zujkkmreh26ift"",""object"":""chat.completion"",""created"":1795597045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:57:26.538409+00:00
+100dd14a1a443c88,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Monster Hunter Generations, guild style is a type of hunting style.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4r7o4gwpkoonmnc1d88ow"",""object"":""chat.completion"",""created"":1795597045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7941,,MarianeAzar,20261125_084135,2026-11-25T08:57:27.332768+00:00
+100dd14a1a443c88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Monster Hunter Generations, guild style is a type of hunting style.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dig91j1mn8k52f1tvuyt2j"",""object"":""chat.completion"",""created"":1795597046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8287,,MarianeAzar,20261125_084135,2026-11-25T08:57:28.161692+00:00
+8403d0b6c477e430,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game series ""Titanfall"" runs on the Unreal Engine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sqj2ia9qt3fidqkyr29w4"",""object"":""chat.completion"",""created"":1795597047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8027,,MarianeAzar,20261125_084135,2026-11-25T08:57:28.964611+00:00
+8403d0b6c477e430,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game series ""Titanfall"" runs on the Unreal Engine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-at4glfdc72rfyhravxwdqo"",""object"":""chat.completion"",""created"":1795597048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:57:29.825730+00:00
+9b89883b77f7f0fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Overlord Anime who was Cocytus made by?
+A. Ulbert Alain Odle
+B. Peroroncino
+C. Warrior Takemikazuchi
+D. Bukubukuchagama
+Answer:","[""Ulbert Alain Odle"", ""Peroroncino"", ""Warrior Takemikazuchi"", ""Bukubukuchagama""]",http,0.0,16,none,"{""id"":""chatcmpl-vqqb4tq271kz22ak657kl"",""object"":""chat.completion"",""created"":1795597049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:57:30.675659+00:00
+9b89883b77f7f0fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Overlord Anime who was Cocytus made by?
+A. Ulbert Alain Odle
+B. Peroroncino
+C. Warrior Takemikazuchi
+D. Bukubukuchagama
+Answer:","[""Ulbert Alain Odle"", ""Peroroncino"", ""Warrior Takemikazuchi"", ""Bukubukuchagama""]",http,0.0,16,none,"{""id"":""chatcmpl-fdzwtb7qsqmg7rvttrt85a"",""object"":""chat.completion"",""created"":1795597050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8926,,MarianeAzar,20261125_084135,2026-11-25T08:57:31.568579+00:00
+37147e7e8b6c1c28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sharps are in the key signature of G-sharp minor?
+A. 3
+B. 5
+C. 0
+D. 7
+Answer:","[""3"", ""5"", ""0"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-mtqjpckl06quaghyiovqbp"",""object"":""chat.completion"",""created"":1795597051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:57:32.433817+00:00
+37147e7e8b6c1c28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sharps are in the key signature of G-sharp minor?
+A. 3
+B. 5
+C. 0
+D. 7
+Answer:","[""3"", ""5"", ""0"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-2rifc7xf4bhkawn1wy3qzf"",""object"":""chat.completion"",""created"":1795597051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:57:33.291064+00:00
+ba64c3769383d412,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Manfred von Richthofen's nickname?
+A. The High Flying Ace
+B. The Red Baron
+C. The Blue Serpent
+D. The Germany Gunner
+Answer:","[""The High Flying Ace"", ""The Red Baron"", ""The Blue Serpent"", ""The Germany Gunner""]",http,0.0,16,none,"{""id"":""chatcmpl-z1jfxat7rj05fam00dhu84"",""object"":""chat.completion"",""created"":1795597052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.863,,MarianeAzar,20261125_084135,2026-11-25T08:57:34.154389+00:00
+ba64c3769383d412,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Manfred von Richthofen's nickname?
+A. The High Flying Ace
+B. The Red Baron
+C. The Blue Serpent
+D. The Germany Gunner
+Answer:","[""The High Flying Ace"", ""The Red Baron"", ""The Blue Serpent"", ""The Germany Gunner""]",http,0.0,16,none,"{""id"":""chatcmpl-yziuvrnro0k7mcaz4f6tp"",""object"":""chat.completion"",""created"":1795597053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261125_084135,2026-11-25T08:57:35.013290+00:00
+bb9292839a370cb2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the band Rammstein hail from?
+A. Armenia
+B. Austria
+C. Germany
+D. Belgium
+Answer:","[""Armenia"", ""Austria"", ""Germany"", ""Belgium""]",http,0.0,16,none,"{""id"":""chatcmpl-q5621kjlcf2eydhzhi93a"",""object"":""chat.completion"",""created"":1795597054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T08:57:35.879873+00:00
+bb9292839a370cb2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the band Rammstein hail from?
+A. Armenia
+B. Austria
+C. Germany
+D. Belgium
+Answer:","[""Armenia"", ""Austria"", ""Germany"", ""Belgium""]",http,0.0,16,none,"{""id"":""chatcmpl-habr8in21gaoouc5imvnp"",""object"":""chat.completion"",""created"":1795597055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8773,,MarianeAzar,20261125_084135,2026-11-25T08:57:36.757378+00:00
+6fbbe4a0863c2b13,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: E = MC3
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-njarfs4aauo595g8ukr2md"",""object"":""chat.completion"",""created"":1795597056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":43,""completion_tokens"":2,""total_tokens"":45,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7992,,MarianeAzar,20261125_084135,2026-11-25T08:57:37.557164+00:00

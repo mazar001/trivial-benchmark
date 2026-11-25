@@ -1,0 +1,185 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a4aa39a609872626,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Minions"" was released on the June 10th, 2015.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1rhz8zllf6c5dj2lo0mgdm"",""object"":""chat.completion"",""created"":1795595248,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9083,,MarianeAzar,20261125_084135,2026-11-25T08:27:29.754022+00:00
+5573754d5d76f983,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Along with Oxygen, which element is primarily responsible for the sky appearing blue?
+A. Helium
+B. Nitrogen
+C. Hydrogen
+D. Carbon
+Answer:","[""Helium"", ""Nitrogen"", ""Hydrogen"", ""Carbon""]",http,0.0,16,none,"{""id"":""chatcmpl-ba1176ff6gh0q0ewtm1p63"",""object"":""chat.completion"",""created"":1795595249,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9696,,MarianeAzar,20261125_084135,2026-11-25T08:27:30.724322+00:00
+5573754d5d76f983,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Along with Oxygen, which element is primarily responsible for the sky appearing blue?
+A. Helium
+B. Nitrogen
+C. Hydrogen
+D. Carbon
+Answer:","[""Helium"", ""Nitrogen"", ""Hydrogen"", ""Carbon""]",http,0.0,16,none,"{""id"":""chatcmpl-xt9mbzvpvyr0b3szr10eqlj"",""object"":""chat.completion"",""created"":1795595250,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2657,,MarianeAzar,20261125_084135,2026-11-25T08:27:31.990266+00:00
+0e08b9303a3216c5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Pokémon Diamond & Pearl released in Japan?
+A. 2007
+B. 2008
+C. 2006
+D. 2009
+Answer:","[""2007"", ""2008"", ""2006"", ""2009""]",http,0.0,16,none,"{""id"":""chatcmpl-684ddm1jt4fmirc0r9uqud"",""object"":""chat.completion"",""created"":1795595251,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9395,,MarianeAzar,20261125_084135,2026-11-25T08:27:32.930214+00:00
+0e08b9303a3216c5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Pokémon Diamond & Pearl released in Japan?
+A. 2007
+B. 2008
+C. 2006
+D. 2009
+Answer:","[""2007"", ""2008"", ""2006"", ""2009""]",http,0.0,16,none,"{""id"":""chatcmpl-8hvuuw88v2rmks1iccd30o"",""object"":""chat.completion"",""created"":1795595252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2746,,MarianeAzar,20261125_084135,2026-11-25T08:27:34.205023+00:00
+893f8a9c18affb72,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many timezones does Russia have?
+A. 11
+B. 6
+C. 16
+D. 24
+Answer:","[""11"", ""6"", ""16"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-nyxlg0nntdguc766h88axe"",""object"":""chat.completion"",""created"":1795595253,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3148,,MarianeAzar,20261125_084135,2026-11-25T08:27:35.520312+00:00
+893f8a9c18affb72,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many timezones does Russia have?
+A. 11
+B. 6
+C. 16
+D. 24
+Answer:","[""11"", ""6"", ""16"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-s7s3c4ehs7veqp6qunsed"",""object"":""chat.completion"",""created"":1795595254,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0179,,MarianeAzar,20261125_084135,2026-11-25T08:27:36.538479+00:00
+08b0792d2772bce5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following stars was not mentioned in the lyrics of Madonna's ""Vogue""?
+A. Lana Turner
+B. Mae West
+C. Marlene Dietrich
+D. Grace Kelly
+Answer:","[""Lana Turner"", ""Mae West"", ""Marlene Dietrich"", ""Grace Kelly""]",http,0.0,16,none,"{""id"":""chatcmpl-b6s4fbu78st4vugje6ilf"",""object"":""chat.completion"",""created"":1795595255,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9655,,MarianeAzar,20261125_084135,2026-11-25T08:27:37.504384+00:00
+08b0792d2772bce5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following stars was not mentioned in the lyrics of Madonna's ""Vogue""?
+A. Lana Turner
+B. Mae West
+C. Marlene Dietrich
+D. Grace Kelly
+Answer:","[""Lana Turner"", ""Mae West"", ""Marlene Dietrich"", ""Grace Kelly""]",http,0.0,16,none,"{""id"":""chatcmpl-34wst5czf5l5ptoshvsej9"",""object"":""chat.completion"",""created"":1795595256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3783,,MarianeAzar,20261125_084135,2026-11-25T08:27:38.883065+00:00
+6c88e984caeeb8f3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the colossal titan in ""Attack On Titan""?
+A. Sasha
+B. Bertolt Hoover
+C. Reiner
+D. Eren
+Answer:","[""Sasha"", ""Bertolt Hoover"", ""Reiner"", ""Eren""]",http,0.0,16,none,"{""id"":""chatcmpl-r8x219unmafg8b5u2abwb"",""object"":""chat.completion"",""created"":1795595258,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0347,,MarianeAzar,20261125_084135,2026-11-25T08:27:39.918039+00:00
+6c88e984caeeb8f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the colossal titan in ""Attack On Titan""?
+A. Sasha
+B. Bertolt Hoover
+C. Reiner
+D. Eren
+Answer:","[""Sasha"", ""Bertolt Hoover"", ""Reiner"", ""Eren""]",http,0.0,16,none,"{""id"":""chatcmpl-y9rybjtm5uoaftnpuwntee"",""object"":""chat.completion"",""created"":1795595259,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9684,,MarianeAzar,20261125_084135,2026-11-25T08:27:40.887041+00:00
+bd5f3ef9281910df,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of rocky region that spans most of eastern Canada?
+A. Rocky Mountains
+B. Appalachian Mountains
+C. Himalayas
+D. Canadian Shield
+Answer:","[""Rocky Mountains"", ""Appalachian Mountains"", ""Himalayas"", ""Canadian Shield""]",http,0.0,16,none,"{""id"":""chatcmpl-zijfot046bb4htpcnhfs"",""object"":""chat.completion"",""created"":1795595260,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3892,,MarianeAzar,20261125_084135,2026-11-25T08:27:42.276631+00:00
+bd5f3ef9281910df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of rocky region that spans most of eastern Canada?
+A. Rocky Mountains
+B. Appalachian Mountains
+C. Himalayas
+D. Canadian Shield
+Answer:","[""Rocky Mountains"", ""Appalachian Mountains"", ""Himalayas"", ""Canadian Shield""]",http,0.0,16,none,"{""id"":""chatcmpl-gvmtr6iq7zvy837xlzyqxf"",""object"":""chat.completion"",""created"":1795595261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9456,,MarianeAzar,20261125_084135,2026-11-25T08:27:43.222330+00:00
+9c3c52c47bf76515,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is one of the co-princes of Andorra?
+A. The monarch of the UK
+B. The Pope
+C. The president of France
+D. No-one (the position is vacant)
+Answer:","[""The monarch of the UK"", ""The Pope"", ""The president of France"", ""No-one (the position is vacant)""]",http,0.0,16,none,"{""id"":""chatcmpl-hv573cykdb50pda10seov"",""object"":""chat.completion"",""created"":1795595262,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9766,,MarianeAzar,20261125_084135,2026-11-25T08:27:44.199135+00:00
+9c3c52c47bf76515,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is one of the co-princes of Andorra?
+A. The monarch of the UK
+B. The Pope
+C. The president of France
+D. No-one (the position is vacant)
+Answer:","[""The monarch of the UK"", ""The Pope"", ""The president of France"", ""No-one (the position is vacant)""]",http,0.0,16,none,"{""id"":""chatcmpl-5jxbhiaoz58c9hac2vyzbk"",""object"":""chat.completion"",""created"":1795595263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3885,,MarianeAzar,20261125_084135,2026-11-25T08:27:45.587864+00:00
+aa23e00ef1501b7a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The games Cry of Fear, Natural Selection and Counter-Strike were originally mods for what video game?
+A. Arma 2
+B. Warcraft III
+C. Half-Life
+D. Doom
+Answer:","[""Arma 2"", ""Warcraft III"", ""Half-Life"", ""Doom""]",http,0.0,16,none,"{""id"":""chatcmpl-z4snw9ala63rqyd9nxt7o"",""object"":""chat.completion"",""created"":1795595265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9402,,MarianeAzar,20261125_084135,2026-11-25T08:27:46.528721+00:00
+aa23e00ef1501b7a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The games Cry of Fear, Natural Selection and Counter-Strike were originally mods for what video game?
+A. Arma 2
+B. Warcraft III
+C. Half-Life
+D. Doom
+Answer:","[""Arma 2"", ""Warcraft III"", ""Half-Life"", ""Doom""]",http,0.0,16,none,"{""id"":""chatcmpl-jwc66er2vtfi6ypyye4r"",""object"":""chat.completion"",""created"":1795595265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9204,,MarianeAzar,20261125_084135,2026-11-25T08:27:47.449357+00:00
+f7e1e304300f8ebd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many zombies need to be killed to get the ""Zombie Genocider"" achievement in Dead Rising (2006)?
+A. 53,595
+B. 53,593
+C. 53,594
+D. 53,596
+Answer:","[""53,595"", ""53,593"", ""53,594"", ""53,596""]",http,0.0,16,none,"{""id"":""chatcmpl-mpw7wsiindx3gjt37ray"",""object"":""chat.completion"",""created"":1795595266,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5112,,MarianeAzar,20261125_084135,2026-11-25T08:27:48.961067+00:00
+f7e1e304300f8ebd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many zombies need to be killed to get the ""Zombie Genocider"" achievement in Dead Rising (2006)?
+A. 53,595
+B. 53,593
+C. 53,594
+D. 53,596
+Answer:","[""53,595"", ""53,593"", ""53,594"", ""53,596""]",http,0.0,16,none,"{""id"":""chatcmpl-815jjzc53faektvi13lue4"",""object"":""chat.completion"",""created"":1795595268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":127,""completion_tokens"":2,""total_tokens"":129,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1389,,MarianeAzar,20261125_084135,2026-11-25T08:27:50.100303+00:00
+22248f95dad54ea5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Xenoblade Chronicles 2"", Which party member cannot use normal blades?
+A. Zeke
+B. Nia
+C. Rex
+D. Tora
+Answer:","[""Zeke"", ""Nia"", ""Rex"", ""Tora""]",http,0.0,16,none,"{""id"":""chatcmpl-khc8iafpcykmygya27dm2c"",""object"":""chat.completion"",""created"":1795595269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9703,,MarianeAzar,20261125_084135,2026-11-25T08:27:51.070835+00:00
+22248f95dad54ea5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Xenoblade Chronicles 2"", Which party member cannot use normal blades?
+A. Zeke
+B. Nia
+C. Rex
+D. Tora
+Answer:","[""Zeke"", ""Nia"", ""Rex"", ""Tora""]",http,0.0,16,none,"{""id"":""chatcmpl-nw8jydiq5nhfxa9vts648"",""object"":""chat.completion"",""created"":1795595270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2715,,MarianeAzar,20261125_084135,2026-11-25T08:27:52.342755+00:00
+51c674645e7d3b39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which years did the Battle of Gallipoli take place?
+A. 1914 - 1915
+B. 1914 - 1918
+C. 1915 - 1916
+D. 1915 - 1918
+Answer:","[""1914 - 1915"", ""1914 - 1918"", ""1915 - 1916"", ""1915 - 1918""]",http,0.0,16,none,"{""id"":""chatcmpl-sl21158n3g6s28e8czcrs"",""object"":""chat.completion"",""created"":1795595271,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2575,,MarianeAzar,20261125_084135,2026-11-25T08:27:53.600789+00:00
+51c674645e7d3b39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which years did the Battle of Gallipoli take place?
+A. 1914 - 1915
+B. 1914 - 1918
+C. 1915 - 1916
+D. 1915 - 1918
+Answer:","[""1914 - 1915"", ""1914 - 1918"", ""1915 - 1916"", ""1915 - 1918""]",http,0.0,16,none,"{""id"":""chatcmpl-x5osntrmkqhpn1x503osph"",""object"":""chat.completion"",""created"":1795595273,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":130,""completion_tokens"":2,""total_tokens"":132,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9882,,MarianeAzar,20261125_084135,2026-11-25T08:27:54.589223+00:00
+0ec7a15932e95b23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the security vulnerability found in Bash in 2014?
+A. Bashbug
+B. Heartbleed
+C. Stagefright
+D. Shellshock
+Answer:","[""Bashbug"", ""Heartbleed"", ""Stagefright"", ""Shellshock""]",http,0.0,16,none,"{""id"":""chatcmpl-tln4lbi638du6hhab6zrte"",""object"":""chat.completion"",""created"":1795595274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.29,,MarianeAzar,20261125_084135,2026-11-25T08:27:55.879445+00:00
+0ec7a15932e95b23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the security vulnerability found in Bash in 2014?
+A. Bashbug
+B. Heartbleed
+C. Stagefright
+D. Shellshock
+Answer:","[""Bashbug"", ""Heartbleed"", ""Stagefright"", ""Shellshock""]",http,0.0,16,none,"{""id"":""chatcmpl-x0tzfmk0eo5zmrwepjx"",""object"":""chat.completion"",""created"":1795595275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.324,,MarianeAzar,20261125_084135,2026-11-25T08:27:57.203678+00:00

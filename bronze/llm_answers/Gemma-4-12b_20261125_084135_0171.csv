@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0c6b9bcca09434cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the longest river in Europe?
+A. Volga
+B. Danube
+C. Rhine
+D. Thames
+Answer:","[""Volga"", ""Danube"", ""Rhine"", ""Thames""]",http,0.0,16,none,"{""id"":""chatcmpl-t2thkt16lg9qsz0jvhpb8"",""object"":""chat.completion"",""created"":1795596573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8479,,MarianeAzar,20261125_084135,2026-11-25T08:49:34.986085+00:00
+5e240a2b516ad210,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""British Invasion"" was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?
+A. 50's
+B. 60's
+C. 40's
+D. 30's
+Answer:","[""50's"", ""60's"", ""40's"", ""30's""]",http,0.0,16,none,"{""id"":""chatcmpl-xqc33v6m6xe04wv8g2brb"",""object"":""chat.completion"",""created"":1795596574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261125_084135,2026-11-25T08:49:35.858468+00:00
+5e240a2b516ad210,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""British Invasion"" was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?
+A. 50's
+B. 60's
+C. 40's
+D. 30's
+Answer:","[""50's"", ""60's"", ""40's"", ""30's""]",http,0.0,16,none,"{""id"":""chatcmpl-pvfhcecjoikh1dj4h2562v"",""object"":""chat.completion"",""created"":1795596575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9696,,MarianeAzar,20261125_084135,2026-11-25T08:49:36.828337+00:00
+bfe968bcc619a831,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Sanrio character was introduced in 1996?
+A. Badtz-Maru
+B. Kerropi
+C. My Melody
+D. Pompompurin
+Answer:","[""Badtz-Maru"", ""Kerropi"", ""My Melody"", ""Pompompurin""]",http,0.0,16,none,"{""id"":""chatcmpl-b9gihi0qjk8tlmj7o8rya"",""object"":""chat.completion"",""created"":1795596576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8858,,MarianeAzar,20261125_084135,2026-11-25T08:49:37.714374+00:00
+bfe968bcc619a831,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Sanrio character was introduced in 1996?
+A. Badtz-Maru
+B. Kerropi
+C. My Melody
+D. Pompompurin
+Answer:","[""Badtz-Maru"", ""Kerropi"", ""My Melody"", ""Pompompurin""]",http,0.0,16,none,"{""id"":""chatcmpl-gqjnjt4yqygydj6dlxvz"",""object"":""chat.completion"",""created"":1795596577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:49:38.591852+00:00
+0ff601aa5a454039,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Five dollars is worth how many nickels?
+A. 100
+B. 50
+C. 69
+D. 25
+Answer:","[""100"", ""50"", ""69"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-o9oy11pqsez442fbinijl"",""object"":""chat.completion"",""created"":1795596578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:49:39.447700+00:00
+0ff601aa5a454039,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Five dollars is worth how many nickels?
+A. 100
+B. 50
+C. 69
+D. 25
+Answer:","[""100"", ""50"", ""69"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-3mhce04lwj3idiwg3j661k"",""object"":""chat.completion"",""created"":1795596578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8687,,MarianeAzar,20261125_084135,2026-11-25T08:49:40.316650+00:00
+66c62b9c6c1fcd53,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Magicka"", which two elements are combined to cast the spell, ""Nullify""?
+A. Lightning + Life
+B. Lightning + Shield
+C. Arcane + Life
+D. Arcane + Shield
+Answer:","[""Lightning + Life"", ""Lightning + Shield"", ""Arcane + Life"", ""Arcane + Shield""]",http,0.0,16,none,"{""id"":""chatcmpl-cihx23b7kirmp31920znoc"",""object"":""chat.completion"",""created"":1795596579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8671,,MarianeAzar,20261125_084135,2026-11-25T08:49:41.184010+00:00
+66c62b9c6c1fcd53,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Magicka"", which two elements are combined to cast the spell, ""Nullify""?
+A. Lightning + Life
+B. Lightning + Shield
+C. Arcane + Life
+D. Arcane + Shield
+Answer:","[""Lightning + Life"", ""Lightning + Shield"", ""Arcane + Life"", ""Arcane + Shield""]",http,0.0,16,none,"{""id"":""chatcmpl-2kyv2u417xexbtaviy8oyo"",""object"":""chat.completion"",""created"":1795596580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8915,,MarianeAzar,20261125_084135,2026-11-25T08:49:42.075755+00:00
+37009a3316ff3a39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What team won the 2016 MLS Cup?
+A. Colorado Rapids
+B. Toronto FC
+C. Montreal Impact
+D. Seattle Sounders
+Answer:","[""Colorado Rapids"", ""Toronto FC"", ""Montreal Impact"", ""Seattle Sounders""]",http,0.0,16,none,"{""id"":""chatcmpl-aibqr2x846tvs2irvu9re"",""object"":""chat.completion"",""created"":1795596581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:49:42.941978+00:00
+37009a3316ff3a39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What team won the 2016 MLS Cup?
+A. Colorado Rapids
+B. Toronto FC
+C. Montreal Impact
+D. Seattle Sounders
+Answer:","[""Colorado Rapids"", ""Toronto FC"", ""Montreal Impact"", ""Seattle Sounders""]",http,0.0,16,none,"{""id"":""chatcmpl-4c8kbhr55hxx7ee5xgh12b"",""object"":""chat.completion"",""created"":1795596582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8812,,MarianeAzar,20261125_084135,2026-11-25T08:49:43.823436+00:00
+c1ff1bb9791f5962,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The acronym DOTA stands for
+A. Defense of the Ancients
+B. Defense of the Animated
+C. Defense of the Artifacts
+D. Defense of the Antiques
+Answer:","[""Defense of the Ancients"", ""Defense of the Animated"", ""Defense of the Artifacts"", ""Defense of the Antiques""]",http,0.0,16,none,"{""id"":""chatcmpl-ka4e47xd0zsxe831f0oxt"",""object"":""chat.completion"",""created"":1795596583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:49:44.679742+00:00
+c1ff1bb9791f5962,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The acronym DOTA stands for
+A. Defense of the Ancients
+B. Defense of the Animated
+C. Defense of the Artifacts
+D. Defense of the Antiques
+Answer:","[""Defense of the Ancients"", ""Defense of the Animated"", ""Defense of the Artifacts"", ""Defense of the Antiques""]",http,0.0,16,none,"{""id"":""chatcmpl-c5g2272jsyo8er3ucw1kxr"",""object"":""chat.completion"",""created"":1795596584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:49:45.546478+00:00
+28f72618f02c6e4d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the movie The Revenant, DiCaprio's character hunts down the killer of his son.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x57aucrgm3hyj0sayfr0h"",""object"":""chat.completion"",""created"":1795596584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T08:49:46.415882+00:00
+28f72618f02c6e4d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the movie The Revenant, DiCaprio's character hunts down the killer of his son.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rqnimftvjho4g4nztrs2x3"",""object"":""chat.completion"",""created"":1795596585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T08:49:47.272880+00:00
+7985ae423d26c19c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Future Diary"", what is the name of Yuno Gasai's Phone Diary?
+A. Justice Diary
+B. Escape Diary
+C. Yukiteru Diary
+D. Murder Diary
+Answer:","[""Justice Diary"", ""Escape Diary"", ""Yukiteru Diary"", ""Murder Diary""]",http,0.0,16,none,"{""id"":""chatcmpl-hfwvd9yum3pzvpd8rtyy8e"",""object"":""chat.completion"",""created"":1795596586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T08:49:48.128238+00:00
+7985ae423d26c19c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Future Diary"", what is the name of Yuno Gasai's Phone Diary?
+A. Justice Diary
+B. Escape Diary
+C. Yukiteru Diary
+D. Murder Diary
+Answer:","[""Justice Diary"", ""Escape Diary"", ""Yukiteru Diary"", ""Murder Diary""]",http,0.0,16,none,"{""id"":""chatcmpl-rza8fi23cxvbgstwt4u1"",""object"":""chat.completion"",""created"":1795596587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T08:49:49.004630+00:00
+6606d933fc6c7be1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pink Guy's debut album was ""Pink Season"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7au919o4jgle1wf787e6bb"",""object"":""chat.completion"",""created"":1795596588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:49:49.820272+00:00
+6606d933fc6c7be1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pink Guy's debut album was ""Pink Season"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-72vp1jhonbii61lljbsb9"",""object"":""chat.completion"",""created"":1795596589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8081,,MarianeAzar,20261125_084135,2026-11-25T08:49:50.628406+00:00
+8334ad939e72d282,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Undertale, having a ""Fun Value"" set to 56-57 will play the ""Wrong Number Song Call"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-03a9cbj95n0ne7y1i5by0g9"",""object"":""chat.completion"",""created"":1795596590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8334,,MarianeAzar,20261125_084135,2026-11-25T08:49:51.461861+00:00
+8334ad939e72d282,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Undertale, having a ""Fun Value"" set to 56-57 will play the ""Wrong Number Song Call"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vhcmzw5q8nfeioh6tdym6"",""object"":""chat.completion"",""created"":1795596590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T08:49:52.326725+00:00
+255d7eb80b3f4c6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did the animation for Peter Gabriel's Video Sledgehammer (1986)?
+A. VIZ Media
+B. Aardman Animations
+C. Illumination Entertainment
+D. HIT Entertainment
+Answer:","[""VIZ Media"", ""Aardman Animations"", ""Illumination Entertainment"", ""HIT Entertainment""]",http,0.0,16,none,"{""id"":""chatcmpl-p47vj3gtfjbge9nqkcb4pq"",""object"":""chat.completion"",""created"":1795596591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T08:49:53.179573+00:00
+255d7eb80b3f4c6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did the animation for Peter Gabriel's Video Sledgehammer (1986)?
+A. VIZ Media
+B. Aardman Animations
+C. Illumination Entertainment
+D. HIT Entertainment
+Answer:","[""VIZ Media"", ""Aardman Animations"", ""Illumination Entertainment"", ""HIT Entertainment""]",http,0.0,16,none,"{""id"":""chatcmpl-lnhk2ob8ffn1hkcifbv7s"",""object"":""chat.completion"",""created"":1795596592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9012,,MarianeAzar,20261125_084135,2026-11-25T08:49:54.081099+00:00
+8829daf5c33f1de8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Peyton Manning retired after winning Super Bowl XLIX.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-39nflx7dzwzea73s3k4n8r"",""object"":""chat.completion"",""created"":1795596593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8014,,MarianeAzar,20261125_084135,2026-11-25T08:49:54.883197+00:00
+8829daf5c33f1de8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Peyton Manning retired after winning Super Bowl XLIX.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w4wkebdcqbdigb51i0wxe"",""object"":""chat.completion"",""created"":1795596594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8229,,MarianeAzar,20261125_084135,2026-11-25T08:49:55.706307+00:00

@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+778e8bd4073a5d31,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Japanese art of folding paper into decorative shapes and figures?
+A. Origami
+B. Sumi-e
+C. Ukiyo-e
+D. Haiku
+Answer:","[""Origami"", ""Sumi-e"", ""Ukiyo-e"", ""Haiku""]",http,0.0,16,none,"{""id"":""chatcmpl-e32qcrada8anm3uc6xeded"",""object"":""chat.completion"",""created"":1795595023,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3385,,MarianeAzar,20261125_084135,2026-11-25T08:23:44.916936+00:00
+a8144edc990c7986,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Street Fighter franchise, what's Ken's surname?
+A. Masters
+B. Michaels
+C. Morrison
+D. Mitchell
+Answer:","[""Masters"", ""Michaels"", ""Morrison"", ""Mitchell""]",http,0.0,16,none,"{""id"":""chatcmpl-8433cgcspo4h2w4sbd8utb"",""object"":""chat.completion"",""created"":1795595024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9832,,MarianeAzar,20261125_084135,2026-11-25T08:23:45.900584+00:00
+a8144edc990c7986,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Street Fighter franchise, what's Ken's surname?
+A. Masters
+B. Michaels
+C. Morrison
+D. Mitchell
+Answer:","[""Masters"", ""Michaels"", ""Morrison"", ""Mitchell""]",http,0.0,16,none,"{""id"":""chatcmpl-kd3ejprl6ag6j2tkjutyb"",""object"":""chat.completion"",""created"":1795595025,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3226,,MarianeAzar,20261125_084135,2026-11-25T08:23:47.223456+00:00
+488f50b0f530f48f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following vehicles featured a full glass roof at base model?
+A. Renault Avantime
+B. Chevy Volt
+C. Honda Odyssey
+D. Mercedes-Benz A-Class
+Answer:","[""Renault Avantime"", ""Chevy Volt"", ""Honda Odyssey"", ""Mercedes-Benz A-Class""]",http,0.0,16,none,"{""id"":""chatcmpl-a00c08eno1us2pufztp8c"",""object"":""chat.completion"",""created"":1795595026,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3397,,MarianeAzar,20261125_084135,2026-11-25T08:23:48.563543+00:00
+488f50b0f530f48f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following vehicles featured a full glass roof at base model?
+A. Renault Avantime
+B. Chevy Volt
+C. Honda Odyssey
+D. Mercedes-Benz A-Class
+Answer:","[""Renault Avantime"", ""Chevy Volt"", ""Honda Odyssey"", ""Mercedes-Benz A-Class""]",http,0.0,16,none,"{""id"":""chatcmpl-usnj7f3631vazdbdqe2wj"",""object"":""chat.completion"",""created"":1795595028,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1227,,MarianeAzar,20261125_084135,2026-11-25T08:23:49.686495+00:00
+fcd55c0bb538472c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Toronto is the capital city of the North American country of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-heelxnufmwddvk1z0kmmvh"",""object"":""chat.completion"",""created"":1795595029,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1028,,MarianeAzar,20261125_084135,2026-11-25T08:23:50.789724+00:00
+fcd55c0bb538472c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Toronto is the capital city of the North American country of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xb3vd0l2rxeq6p627ctsp"",""object"":""chat.completion"",""created"":1795595030,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8992,,MarianeAzar,20261125_084135,2026-11-25T08:23:51.689397+00:00
+71652a54c80ecddd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Greek god of peaceful deaths?
+A. Hades
+B. Thanatos
+C. Tartarus
+D. Moros
+Answer:","[""Hades"", ""Thanatos"", ""Tartarus"", ""Moros""]",http,0.0,16,none,"{""id"":""chatcmpl-f8hd438ru3i3i9xei36svh"",""object"":""chat.completion"",""created"":1795595031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9779,,MarianeAzar,20261125_084135,2026-11-25T08:23:52.667784+00:00
+71652a54c80ecddd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Greek god of peaceful deaths?
+A. Hades
+B. Thanatos
+C. Tartarus
+D. Moros
+Answer:","[""Hades"", ""Thanatos"", ""Tartarus"", ""Moros""]",http,0.0,16,none,"{""id"":""chatcmpl-v4r5vkaojvmvu6i2o6d"",""object"":""chat.completion"",""created"":1795595032,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4889,,MarianeAzar,20261125_084135,2026-11-25T08:23:54.156961+00:00
+b90787280a6edaab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?
+A. A Copy of Bonestorm 2
+B. $5
+C. A Giant Gobstopper
+D. $100
+Answer:","[""A Copy of Bonestorm 2"", ""$5"", ""A Giant Gobstopper"", ""$100""]",http,0.0,16,none,"{""id"":""chatcmpl-48shtdutytb86qsjhghhkb"",""object"":""chat.completion"",""created"":1795595033,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0138,,MarianeAzar,20261125_084135,2026-11-25T08:23:55.171015+00:00
+b90787280a6edaab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?
+A. A Copy of Bonestorm 2
+B. $5
+C. A Giant Gobstopper
+D. $100
+Answer:","[""A Copy of Bonestorm 2"", ""$5"", ""A Giant Gobstopper"", ""$100""]",http,0.0,16,none,"{""id"":""chatcmpl-ad10cnfm4xhwcovmekx8u"",""object"":""chat.completion"",""created"":1795595034,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.986,,MarianeAzar,20261125_084135,2026-11-25T08:23:56.157228+00:00
+fa7ae98b3a00b257,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following cities is the capital of Latvia?
+A. Minsk
+B. Riga
+C. Tallinn
+D. Vilnius
+Answer:","[""Minsk"", ""Riga"", ""Tallinn"", ""Vilnius""]",http,0.0,16,none,"{""id"":""chatcmpl-8wd7qwi9gadjwoch073uj"",""object"":""chat.completion"",""created"":1795595035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4081,,MarianeAzar,20261125_084135,2026-11-25T08:23:57.565623+00:00
+fa7ae98b3a00b257,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following cities is the capital of Latvia?
+A. Minsk
+B. Riga
+C. Tallinn
+D. Vilnius
+Answer:","[""Minsk"", ""Riga"", ""Tallinn"", ""Vilnius""]",http,0.0,16,none,"{""id"":""chatcmpl-j1q6zmc077ij1vqa6o8k3q"",""object"":""chat.completion"",""created"":1795595037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.014,,MarianeAzar,20261125_084135,2026-11-25T08:23:58.579928+00:00
+563cc6a3e34c4f77,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iafcqq0hah8czxuvdh50v7"",""object"":""chat.completion"",""created"":1795595038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9152,,MarianeAzar,20261125_084135,2026-11-25T08:23:59.495369+00:00
+563cc6a3e34c4f77,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Matt Damon played an astronaut stranded on an extraterrestrial planet in both of the movies Interstellar and The Martian.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-inkq8rojpfow007t2y1xh"",""object"":""chat.completion"",""created"":1795595038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2871,,MarianeAzar,20261125_084135,2026-11-25T08:24:00.782618+00:00
+a700aa54bdbbc119,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: American illustrator and writer Maurice Sendak is most well-known for writing which children's book?
+A. The Cat in the Hat
+B. The Neverending Story
+C. Where The Wild Things Are
+D. Charlie and the Chocolate Factory
+Answer:","[""The Cat in the Hat"", ""The Neverending Story"", ""Where The Wild Things Are"", ""Charlie and the Chocolate Factory""]",http,0.0,16,none,"{""id"":""chatcmpl-lnhrccsn8we5vv69xaoho"",""object"":""chat.completion"",""created"":1795595040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9834,,MarianeAzar,20261125_084135,2026-11-25T08:24:01.767392+00:00
+a700aa54bdbbc119,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: American illustrator and writer Maurice Sendak is most well-known for writing which children's book?
+A. The Cat in the Hat
+B. The Neverending Story
+C. Where The Wild Things Are
+D. Charlie and the Chocolate Factory
+Answer:","[""The Cat in the Hat"", ""The Neverending Story"", ""Where The Wild Things Are"", ""Charlie and the Chocolate Factory""]",http,0.0,16,none,"{""id"":""chatcmpl-bsk1bmbwni88hoxujl0wx9"",""object"":""chat.completion"",""created"":1795595041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.285,,MarianeAzar,20261125_084135,2026-11-25T08:24:03.052511+00:00
+6d83d221a41412b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Pong released?
+A. November 29, 1970
+B. March 29, 2017
+C. December 14, 1974
+D. November 29, 1972
+Answer:","[""November 29, 1970"", ""March 29, 2017"", ""December 14, 1974"", ""November 29, 1972""]",http,0.0,16,none,"{""id"":""chatcmpl-a3ojeb8gdmkipp0yg8k0g"",""object"":""chat.completion"",""created"":1795595042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4005,,MarianeAzar,20261125_084135,2026-11-25T08:24:04.453201+00:00
+6d83d221a41412b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Pong released?
+A. November 29, 1970
+B. March 29, 2017
+C. December 14, 1974
+D. November 29, 1972
+Answer:","[""November 29, 1970"", ""March 29, 2017"", ""December 14, 1974"", ""November 29, 1972""]",http,0.0,16,none,"{""id"":""chatcmpl-5e2husd37j59p3mgywv19t"",""object"":""chat.completion"",""created"":1795595043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9856,,MarianeAzar,20261125_084135,2026-11-25T08:24:05.439291+00:00
+9ae6e5d59ea74d0c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Iconic cartoon character Mickey Mouse made his onscreen debut in what year?
+A. 1928
+B. 1922
+C. 1932
+D. 1929
+Answer:","[""1928"", ""1922"", ""1932"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-txc1b9aowy313u6skvbd6"",""object"":""chat.completion"",""created"":1795595044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2696,,MarianeAzar,20261125_084135,2026-11-25T08:24:06.709201+00:00
+9ae6e5d59ea74d0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Iconic cartoon character Mickey Mouse made his onscreen debut in what year?
+A. 1928
+B. 1922
+C. 1932
+D. 1929
+Answer:","[""1928"", ""1922"", ""1932"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-hax9upltmtqhx3m852jkc"",""object"":""chat.completion"",""created"":1795595046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2018,,MarianeAzar,20261125_084135,2026-11-25T08:24:07.911169+00:00
+e63adbdce3870ecb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first explorer to sail to North America?
+A. Ferdinand Magellan
+B. Amerigo Vespucci
+C. Christopher Columbus
+D. Leif Erikson
+Answer:","[""Ferdinand Magellan"", ""Amerigo Vespucci"", ""Christopher Columbus"", ""Leif Erikson""]",http,0.0,16,none,"{""id"":""chatcmpl-ha3dmpwh2x5240hip3lrp1"",""object"":""chat.completion"",""created"":1795595047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9659,,MarianeAzar,20261125_084135,2026-11-25T08:24:08.877528+00:00
+e63adbdce3870ecb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first explorer to sail to North America?
+A. Ferdinand Magellan
+B. Amerigo Vespucci
+C. Christopher Columbus
+D. Leif Erikson
+Answer:","[""Ferdinand Magellan"", ""Amerigo Vespucci"", ""Christopher Columbus"", ""Leif Erikson""]",http,0.0,16,none,"{""id"":""chatcmpl-w31dcovggfiqe8zdrr9uam"",""object"":""chat.completion"",""created"":1795595048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4774,,MarianeAzar,20261125_084135,2026-11-25T08:24:10.355242+00:00
+9ed3923a9c71b3fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is what?
+A. Ultimate Gambler
+B. Ultimate Swimmer
+C. Ultimate Detective
+D. Ultimate Dancer
+Answer:","[""Ultimate Gambler"", ""Ultimate Swimmer"", ""Ultimate Detective"", ""Ultimate Dancer""]",http,0.0,16,none,"{""id"":""chatcmpl-ga02lz3e3etbybqjjgqfpr"",""object"":""chat.completion"",""created"":1795595049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0815,,MarianeAzar,20261125_084135,2026-11-25T08:24:11.437230+00:00
+9ed3923a9c71b3fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Danganronpa: Happy Trigger Havoc, the character Aoi Asahina's ultimate ability is what?
+A. Ultimate Gambler
+B. Ultimate Swimmer
+C. Ultimate Detective
+D. Ultimate Dancer
+Answer:","[""Ultimate Gambler"", ""Ultimate Swimmer"", ""Ultimate Detective"", ""Ultimate Dancer""]",http,0.0,16,none,"{""id"":""chatcmpl-a2sxe9o7016lqd7iii06jl"",""object"":""chat.completion"",""created"":1795595050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9919,,MarianeAzar,20261125_084135,2026-11-25T08:24:12.429410+00:00

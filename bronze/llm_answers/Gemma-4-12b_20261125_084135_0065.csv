@@ -1,0 +1,185 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+42718ddfe03247fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Joko Widodo has appeared in the cover of a TIME magazine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rlho8kujehfsnnyhnfkdd"",""object"":""chat.completion"",""created"":1795593911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2992,,MarianeAzar,20261125_084135,2026-11-25T08:05:13.606702+00:00
+eb9fa8955b435381,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which person from ""JoJo's Bizarre Adventure"" does NOT house a reference to a band, artist, or song earlier than 1980?
+A. Jolyne Cujoh
+B. Johnny Joestar
+C. Josuke Higashikata
+D. Giorno Giovanna
+Answer:","[""Jolyne Cujoh"", ""Johnny Joestar"", ""Josuke Higashikata"", ""Giorno Giovanna""]",http,0.0,16,none,"{""id"":""chatcmpl-h6tpik8ncshcgw2md557vu"",""object"":""chat.completion"",""created"":1795593913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9602,,MarianeAzar,20261125_084135,2026-11-25T08:05:14.567339+00:00
+eb9fa8955b435381,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which person from ""JoJo's Bizarre Adventure"" does NOT house a reference to a band, artist, or song earlier than 1980?
+A. Jolyne Cujoh
+B. Johnny Joestar
+C. Josuke Higashikata
+D. Giorno Giovanna
+Answer:","[""Jolyne Cujoh"", ""Johnny Joestar"", ""Josuke Higashikata"", ""Giorno Giovanna""]",http,0.0,16,none,"{""id"":""chatcmpl-slkxy96ca2z0tuo8sj5n"",""object"":""chat.completion"",""created"":1795593913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.912,,MarianeAzar,20261125_084135,2026-11-25T08:05:15.479615+00:00
+91ec0132fb5896d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Bojack Horseman characters is a human?
+A. Princess Carolyn
+B. Lennie Turtletaub
+C. Tom Jumbo-Grumbo
+D. Todd Chavez
+Answer:","[""Princess Carolyn"", ""Lennie Turtletaub"", ""Tom Jumbo-Grumbo"", ""Todd Chavez""]",http,0.0,16,none,"{""id"":""chatcmpl-7shnszg589br9rzwk70r9r"",""object"":""chat.completion"",""created"":1795593914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.99,,MarianeAzar,20261125_084135,2026-11-25T08:05:16.469992+00:00
+91ec0132fb5896d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Bojack Horseman characters is a human?
+A. Princess Carolyn
+B. Lennie Turtletaub
+C. Tom Jumbo-Grumbo
+D. Todd Chavez
+Answer:","[""Princess Carolyn"", ""Lennie Turtletaub"", ""Tom Jumbo-Grumbo"", ""Todd Chavez""]",http,0.0,16,none,"{""id"":""chatcmpl-qloimf1f7sorgsm283t8qs"",""object"":""chat.completion"",""created"":1795593915,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2919,,MarianeAzar,20261125_084135,2026-11-25T08:05:17.762153+00:00
+b4bdc0647f9eccfe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1969 Cartoon show ""Dastardly and Muttley in Their Flying Machines"", which were NOT one of the lyrics in the opening theme?
+A. Jab him
+B. Tab him
+C. Stab him
+D. Nab him
+Answer:","[""Jab him"", ""Tab him"", ""Stab him"", ""Nab him""]",http,0.0,16,none,"{""id"":""chatcmpl-3ce5nxlz4zpb6h8u3qdonm"",""object"":""chat.completion"",""created"":1795593917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9489,,MarianeAzar,20261125_084135,2026-11-25T08:05:18.711631+00:00
+b4bdc0647f9eccfe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1969 Cartoon show ""Dastardly and Muttley in Their Flying Machines"", which were NOT one of the lyrics in the opening theme?
+A. Jab him
+B. Tab him
+C. Stab him
+D. Nab him
+Answer:","[""Jab him"", ""Tab him"", ""Stab him"", ""Nab him""]",http,0.0,16,none,"{""id"":""chatcmpl-9jmxbplrx88vkg5ri8nn4"",""object"":""chat.completion"",""created"":1795593918,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9215,,MarianeAzar,20261125_084135,2026-11-25T08:05:19.633400+00:00
+2975a9a098b7bf28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Mario Bros. series, what game is the ""Carrot"" power-up from?
+A. Super Mario Land 2: The 6 Golden Coins
+B. Super Mario World
+C. Super Mario Land
+D. Super Mario 3D Land
+Answer:","[""Super Mario Land 2: The 6 Golden Coins"", ""Super Mario World"", ""Super Mario Land"", ""Super Mario 3D Land""]",http,0.0,16,none,"{""id"":""chatcmpl-5byiao0uxprjdaz4oaqr6"",""object"":""chat.completion"",""created"":1795593919,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.993,,MarianeAzar,20261125_084135,2026-11-25T08:05:20.626587+00:00
+2975a9a098b7bf28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Mario Bros. series, what game is the ""Carrot"" power-up from?
+A. Super Mario Land 2: The 6 Golden Coins
+B. Super Mario World
+C. Super Mario Land
+D. Super Mario 3D Land
+Answer:","[""Super Mario Land 2: The 6 Golden Coins"", ""Super Mario World"", ""Super Mario Land"", ""Super Mario 3D Land""]",http,0.0,16,none,"{""id"":""chatcmpl-tlj7jhodoro4grtzcwcfmp"",""object"":""chat.completion"",""created"":1795593920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3927,,MarianeAzar,20261125_084135,2026-11-25T08:05:22.019528+00:00
+b7e537673d8ceb94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which brass instrument has the lowest pitch in an orchestra?
+A. Trumpet
+B. Trombone
+C. Tuba
+D. Saxophone
+Answer:","[""Trumpet"", ""Trombone"", ""Tuba"", ""Saxophone""]",http,0.0,16,none,"{""id"":""chatcmpl-n989a7wlb6rlduyhimz1"",""object"":""chat.completion"",""created"":1795593921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9566,,MarianeAzar,20261125_084135,2026-11-25T08:05:22.976359+00:00
+b7e537673d8ceb94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which brass instrument has the lowest pitch in an orchestra?
+A. Trumpet
+B. Trombone
+C. Tuba
+D. Saxophone
+Answer:","[""Trumpet"", ""Trombone"", ""Tuba"", ""Saxophone""]",http,0.0,16,none,"{""id"":""chatcmpl-wtpyntq9nwk8ok0vvns3ox"",""object"":""chat.completion"",""created"":1795593922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8679,,MarianeAzar,20261125_084135,2026-11-25T08:05:23.844548+00:00
+01bc66c53ce27e18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Saul Hudson (Slash) of the band Guns N' Roses is known for playing what type of guitar?
+A. LsL Mongrel
+B. Fender Stratocaster
+C. Gretsch Falcon
+D. Les Paul Standard
+Answer:","[""LsL Mongrel"", ""Fender Stratocaster"", ""Gretsch Falcon"", ""Les Paul Standard""]",http,0.0,16,none,"{""id"":""chatcmpl-uifl7xgr3jac9lorgn0p"",""object"":""chat.completion"",""created"":1795593923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2871,,MarianeAzar,20261125_084135,2026-11-25T08:05:25.131967+00:00
+01bc66c53ce27e18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Saul Hudson (Slash) of the band Guns N' Roses is known for playing what type of guitar?
+A. LsL Mongrel
+B. Fender Stratocaster
+C. Gretsch Falcon
+D. Les Paul Standard
+Answer:","[""LsL Mongrel"", ""Fender Stratocaster"", ""Gretsch Falcon"", ""Les Paul Standard""]",http,0.0,16,none,"{""id"":""chatcmpl-s5foy9ctfdk6fu0fjj4q"",""object"":""chat.completion"",""created"":1795593924,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1686,,MarianeAzar,20261125_084135,2026-11-25T08:05:26.300812+00:00
+0ae7b141739dd089,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bugs Bunny, Tony the Tiger, and other bipedal animal characters are known as what type of character?
+A. Anthrogenetic
+B. Anthropomorphic
+C. Anthrologic
+D. Anthropolegic
+Answer:","[""Anthrogenetic"", ""Anthropomorphic"", ""Anthrologic"", ""Anthropolegic""]",http,0.0,16,none,"{""id"":""chatcmpl-gwwwikx0s0r1y9a3djgiad"",""object"":""chat.completion"",""created"":1795593925,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0271,,MarianeAzar,20261125_084135,2026-11-25T08:05:27.328217+00:00
+0ae7b141739dd089,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bugs Bunny, Tony the Tiger, and other bipedal animal characters are known as what type of character?
+A. Anthrogenetic
+B. Anthropomorphic
+C. Anthrologic
+D. Anthropolegic
+Answer:","[""Anthrogenetic"", ""Anthropomorphic"", ""Anthrologic"", ""Anthropolegic""]",http,0.0,16,none,"{""id"":""chatcmpl-83eelv66c5iv4ubck04w0l"",""object"":""chat.completion"",""created"":1795593926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.989,,MarianeAzar,20261125_084135,2026-11-25T08:05:28.317467+00:00
+fa6a9ba698009b55,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2015 Formula 1 World Championship?
+A. Nico Rosberg
+B. Sebastian Vettel
+C. Lewis Hamilton
+D. Jenson Button
+Answer:","[""Nico Rosberg"", ""Sebastian Vettel"", ""Lewis Hamilton"", ""Jenson Button""]",http,0.0,16,none,"{""id"":""chatcmpl-d4cjclz48dvy10tyq1qcb"",""object"":""chat.completion"",""created"":1795593927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.355,,MarianeAzar,20261125_084135,2026-11-25T08:05:29.673020+00:00
+fa6a9ba698009b55,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2015 Formula 1 World Championship?
+A. Nico Rosberg
+B. Sebastian Vettel
+C. Lewis Hamilton
+D. Jenson Button
+Answer:","[""Nico Rosberg"", ""Sebastian Vettel"", ""Lewis Hamilton"", ""Jenson Button""]",http,0.0,16,none,"{""id"":""chatcmpl-bzfcf8679gnprqgpmrgoe"",""object"":""chat.completion"",""created"":1795593929,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9619,,MarianeAzar,20261125_084135,2026-11-25T08:05:30.635267+00:00
+cdd5ebb46a5788d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most expensive weapon in Counter-Strike: Global Offensive?
+A. R8 Revolver
+B. M4A1
+C. AWP
+D. Scar-20/G3SG1
+Answer:","[""R8 Revolver"", ""M4A1"", ""AWP"", ""Scar-20/G3SG1""]",http,0.0,16,none,"{""id"":""chatcmpl-d2alsi9pmk68rnpfb2lew"",""object"":""chat.completion"",""created"":1795593930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T08:05:31.496161+00:00
+cdd5ebb46a5788d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most expensive weapon in Counter-Strike: Global Offensive?
+A. R8 Revolver
+B. M4A1
+C. AWP
+D. Scar-20/G3SG1
+Answer:","[""R8 Revolver"", ""M4A1"", ""AWP"", ""Scar-20/G3SG1""]",http,0.0,16,none,"{""id"":""chatcmpl-o39h3p33gv7q4llv212nae"",""object"":""chat.completion"",""created"":1795593930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.476,,MarianeAzar,20261125_084135,2026-11-25T08:05:32.972458+00:00
+d6e3fb53b2bf2bdf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""The Hobbit"", who kills Smaug?
+A. Gandalf the Grey
+B. Bilbo Baggins
+C. Bard
+D. Frodo
+Answer:","[""Gandalf the Grey"", ""Bilbo Baggins"", ""Bard"", ""Frodo""]",http,0.0,16,none,"{""id"":""chatcmpl-4l44e3nlzdaulo06s0tol"",""object"":""chat.completion"",""created"":1795593932,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9576,,MarianeAzar,20261125_084135,2026-11-25T08:05:33.930336+00:00
+d6e3fb53b2bf2bdf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""The Hobbit"", who kills Smaug?
+A. Gandalf the Grey
+B. Bilbo Baggins
+C. Bard
+D. Frodo
+Answer:","[""Gandalf the Grey"", ""Bilbo Baggins"", ""Bard"", ""Frodo""]",http,0.0,16,none,"{""id"":""chatcmpl-etue1rx9d1a7dwnl56yslq"",""object"":""chat.completion"",""created"":1795593933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9487,,MarianeAzar,20261125_084135,2026-11-25T08:05:34.879161+00:00
+ab0ce14a41d4b56c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Formula One driver was nicknamed 'The Professor'?
+A. Emerson Fittipaldi
+B. Alain Prost
+C. Niki Lauda
+D. Ayrton Senna
+Answer:","[""Emerson Fittipaldi"", ""Alain Prost"", ""Niki Lauda"", ""Ayrton Senna""]",http,0.0,16,none,"{""id"":""chatcmpl-il2ftyj9ewpgv7nmdympvp"",""object"":""chat.completion"",""created"":1795593934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3068,,MarianeAzar,20261125_084135,2026-11-25T08:05:36.186136+00:00
+ab0ce14a41d4b56c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Formula One driver was nicknamed 'The Professor'?
+A. Emerson Fittipaldi
+B. Alain Prost
+C. Niki Lauda
+D. Ayrton Senna
+Answer:","[""Emerson Fittipaldi"", ""Alain Prost"", ""Niki Lauda"", ""Ayrton Senna""]",http,0.0,16,none,"{""id"":""chatcmpl-c5jxwx6hfqn69h2e44j89x"",""object"":""chat.completion"",""created"":1795593935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9315,,MarianeAzar,20261125_084135,2026-11-25T08:05:37.117790+00:00
+c15a24a3bed1b3fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the closest planet to our solar system's sun?
+A. Mars
+B. Jupiter
+C. Mercury
+D. Earth
+Answer:","[""Mars"", ""Jupiter"", ""Mercury"", ""Earth""]",http,0.0,16,none,"{""id"":""chatcmpl-ws3chod2u1mw6671gfmag"",""object"":""chat.completion"",""created"":1795593936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.947,,MarianeAzar,20261125_084135,2026-11-25T08:05:38.065007+00:00
+c15a24a3bed1b3fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the closest planet to our solar system's sun?
+A. Mars
+B. Jupiter
+C. Mercury
+D. Earth
+Answer:","[""Mars"", ""Jupiter"", ""Mercury"", ""Earth""]",http,0.0,16,none,"{""id"":""chatcmpl-blwugyrggzqjnk2dnywt9g"",""object"":""chat.completion"",""created"":1795593937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4399,,MarianeAzar,20261125_084135,2026-11-25T08:05:39.505089+00:00

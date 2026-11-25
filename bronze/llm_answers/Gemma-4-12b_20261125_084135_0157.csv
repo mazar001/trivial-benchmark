@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f98d8cabd37bfa23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Volkswagen's legendary VR6 engine has cylinders positioned at what degree angle?
+A. 45 Degree
+B. 30 Degree
+C. 15 Degree
+D. 90 Degree
+Answer:","[""45 Degree"", ""30 Degree"", ""15 Degree"", ""90 Degree""]",http,0.0,16,none,"{""id"":""chatcmpl-1ce6ebj5qpcnjmvvix48m9"",""object"":""chat.completion"",""created"":1795596269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8929,,MarianeAzar,20261125_084135,2026-11-25T08:44:30.656879+00:00
+fff9eafca353db4e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who performed the guitar solo on Michael Jackson's hit ""Beat It""?
+A. Kirk Hammett
+B. Eddie Van Halen
+C. Zakk Wylde
+D. Steve Vai
+Answer:","[""Kirk Hammett"", ""Eddie Van Halen"", ""Zakk Wylde"", ""Steve Vai""]",http,0.0,16,none,"{""id"":""chatcmpl-rxqwr37s9sgvxx080ft2i"",""object"":""chat.completion"",""created"":1795596270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8957,,MarianeAzar,20261125_084135,2026-11-25T08:44:31.552867+00:00
+fff9eafca353db4e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who performed the guitar solo on Michael Jackson's hit ""Beat It""?
+A. Kirk Hammett
+B. Eddie Van Halen
+C. Zakk Wylde
+D. Steve Vai
+Answer:","[""Kirk Hammett"", ""Eddie Van Halen"", ""Zakk Wylde"", ""Steve Vai""]",http,0.0,16,none,"{""id"":""chatcmpl-ixbu5tebm69lbzbtxg4fh"",""object"":""chat.completion"",""created"":1795596270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261125_084135,2026-11-25T08:44:32.415569+00:00
+1d71da29800632fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of Crash Bandicoot?
+A. Coco Bandicoot
+B. Wally Wombat
+C. Willie Wombat
+D. Marvelous Mole
+Answer:","[""Coco Bandicoot"", ""Wally Wombat"", ""Willie Wombat"", ""Marvelous Mole""]",http,0.0,16,none,"{""id"":""chatcmpl-z5d59lg1f5i1xqoh5ee5"",""object"":""chat.completion"",""created"":1795596271,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261125_084135,2026-11-25T08:44:33.275042+00:00
+1d71da29800632fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of Crash Bandicoot?
+A. Coco Bandicoot
+B. Wally Wombat
+C. Willie Wombat
+D. Marvelous Mole
+Answer:","[""Coco Bandicoot"", ""Wally Wombat"", ""Willie Wombat"", ""Marvelous Mole""]",http,0.0,16,none,"{""id"":""chatcmpl-5p4pb3zdyjb97nw6n9ytmo"",""object"":""chat.completion"",""created"":1795596272,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.973,,MarianeAzar,20261125_084135,2026-11-25T08:44:34.248341+00:00
+cb4a5c3bc4c0d0b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character of the anime ""One-Punch Man""?
+A. Genos
+B. King
+C. Sonic
+D. Saitama
+Answer:","[""Genos"", ""King"", ""Sonic"", ""Saitama""]",http,0.0,16,none,"{""id"":""chatcmpl-w6z0ewgqaenek5apo3im3"",""object"":""chat.completion"",""created"":1795596273,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:44:35.114565+00:00
+cb4a5c3bc4c0d0b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character of the anime ""One-Punch Man""?
+A. Genos
+B. King
+C. Sonic
+D. Saitama
+Answer:","[""Genos"", ""King"", ""Sonic"", ""Saitama""]",http,0.0,16,none,"{""id"":""chatcmpl-cuygaay1prbg7j81tdyhi"",""object"":""chat.completion"",""created"":1795596274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9045,,MarianeAzar,20261125_084135,2026-11-25T08:44:36.019281+00:00
+97bfd6450702afd6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?
+A. Plan 9 from Outer Space
+B. It Came from Outer Space
+C. The Man from Planet X
+D. The Day The Earth Stood Still
+Answer:","[""Plan 9 from Outer Space"", ""It Came from Outer Space"", ""The Man from Planet X"", ""The Day The Earth Stood Still""]",http,0.0,16,none,"{""id"":""chatcmpl-t90yt5bvxiua8cw2bbbh9"",""object"":""chat.completion"",""created"":1795596275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T08:44:36.910286+00:00
+97bfd6450702afd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which sci-fi cult films plot concerns aliens attempting to prevent humans from creating a doomsday weapon?
+A. Plan 9 from Outer Space
+B. It Came from Outer Space
+C. The Man from Planet X
+D. The Day The Earth Stood Still
+Answer:","[""Plan 9 from Outer Space"", ""It Came from Outer Space"", ""The Man from Planet X"", ""The Day The Earth Stood Still""]",http,0.0,16,none,"{""id"":""chatcmpl-0uoa8lnb77vavuh1h0i9ovs"",""object"":""chat.completion"",""created"":1795596276,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9034,,MarianeAzar,20261125_084135,2026-11-25T08:44:37.814004+00:00
+e33c6b94b4f3b5ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which mall does ""Dead Rising"" take place?
+A. Liberty Mall
+B. Twin Pines Mall
+C. Willamette Parkview Mall
+D. Central Square Shopping Center
+Answer:","[""Liberty Mall"", ""Twin Pines Mall"", ""Willamette Parkview Mall"", ""Central Square Shopping Center""]",http,0.0,16,none,"{""id"":""chatcmpl-pkpr3l1hszkcgzlb7eu1h"",""object"":""chat.completion"",""created"":1795596277,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9756,,MarianeAzar,20261125_084135,2026-11-25T08:44:38.789905+00:00
+e33c6b94b4f3b5ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which mall does ""Dead Rising"" take place?
+A. Liberty Mall
+B. Twin Pines Mall
+C. Willamette Parkview Mall
+D. Central Square Shopping Center
+Answer:","[""Liberty Mall"", ""Twin Pines Mall"", ""Willamette Parkview Mall"", ""Central Square Shopping Center""]",http,0.0,16,none,"{""id"":""chatcmpl-78reqig989djrptinn2wnm"",""object"":""chat.completion"",""created"":1795596278,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:44:39.663117+00:00
+72ace230ef4a3414,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Clint Eastwood star as Inspector Harry Callahan in the film ""Dirty Harry""?
+A. 1983
+B. 1971
+C. 1969
+D. 1975
+Answer:","[""1983"", ""1971"", ""1969"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-pa3n4pgfpfcylf3f6yyshb"",""object"":""chat.completion"",""created"":1795596279,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8752,,MarianeAzar,20261125_084135,2026-11-25T08:44:40.538520+00:00
+72ace230ef4a3414,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Clint Eastwood star as Inspector Harry Callahan in the film ""Dirty Harry""?
+A. 1983
+B. 1971
+C. 1969
+D. 1975
+Answer:","[""1983"", ""1971"", ""1969"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-lghhxra3z6n64iozrb0ad8"",""object"":""chat.completion"",""created"":1795596279,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9015,,MarianeAzar,20261125_084135,2026-11-25T08:44:41.440242+00:00
+2b1ee57755a6800c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What CS:GO case contains the Butterfly Knife?
+A. Vanguard Case
+B. Esports 2014 Case
+C. Shadow Case
+D. Breakout Case
+Answer:","[""Vanguard Case"", ""Esports 2014 Case"", ""Shadow Case"", ""Breakout Case""]",http,0.0,16,none,"{""id"":""chatcmpl-j36pbjn6omo7561u0zusi6"",""object"":""chat.completion"",""created"":1795596280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.088,,MarianeAzar,20261125_084135,2026-11-25T08:44:42.528797+00:00
+2b1ee57755a6800c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What CS:GO case contains the Butterfly Knife?
+A. Vanguard Case
+B. Esports 2014 Case
+C. Shadow Case
+D. Breakout Case
+Answer:","[""Vanguard Case"", ""Esports 2014 Case"", ""Shadow Case"", ""Breakout Case""]",http,0.0,16,none,"{""id"":""chatcmpl-xy9nvlgzx2f0kdoyddf2h"",""object"":""chat.completion"",""created"":1795596281,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:44:43.392417+00:00
+d007c3f73b226889,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard Monopoly board, how much do you have to pay for Tennessee Ave?
+A. $180
+B. $220
+C. $160
+D. $200
+Answer:","[""$180"", ""$220"", ""$160"", ""$200""]",http,0.0,16,none,"{""id"":""chatcmpl-l1dfonsfx3eutcym0m5kub"",""object"":""chat.completion"",""created"":1795596282,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9796,,MarianeAzar,20261125_084135,2026-11-25T08:44:44.373180+00:00
+d007c3f73b226889,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard Monopoly board, how much do you have to pay for Tennessee Ave?
+A. $180
+B. $220
+C. $160
+D. $200
+Answer:","[""$180"", ""$220"", ""$160"", ""$200""]",http,0.0,16,none,"{""id"":""chatcmpl-g9yeyf7e8sogb97zbu3264"",""object"":""chat.completion"",""created"":1795596283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8931,,MarianeAzar,20261125_084135,2026-11-25T08:44:45.266528+00:00
+f23e29efb59e3c3d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The song ""Megalovania"" by Toby Fox made its third appearence in the 2015 RPG ""Undertale"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ljztf1q9lcq8l0sksiy9"",""object"":""chat.completion"",""created"":1795596284,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9118,,MarianeAzar,20261125_084135,2026-11-25T08:44:46.178617+00:00
+f23e29efb59e3c3d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The song ""Megalovania"" by Toby Fox made its third appearence in the 2015 RPG ""Undertale"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jbhncn6jwis4fzjaiyt2sf"",""object"":""chat.completion"",""created"":1795596285,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9489,,MarianeAzar,20261125_084135,2026-11-25T08:44:47.127696+00:00
+a54ea344a09e6c29,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Tibia"" is found in which part of the body?
+A. Head
+B. Leg
+C. Hand
+D. Arm
+Answer:","[""Head"", ""Leg"", ""Hand"", ""Arm""]",http,0.0,16,none,"{""id"":""chatcmpl-jzahfejdxcbof9p3lkmc1g"",""object"":""chat.completion"",""created"":1795596286,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8959,,MarianeAzar,20261125_084135,2026-11-25T08:44:48.024199+00:00
+a54ea344a09e6c29,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Tibia"" is found in which part of the body?
+A. Head
+B. Leg
+C. Hand
+D. Arm
+Answer:","[""Head"", ""Leg"", ""Hand"", ""Arm""]",http,0.0,16,none,"{""id"":""chatcmpl-mq8kccuhjccty0nxtwjdnc"",""object"":""chat.completion"",""created"":1795596287,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9191,,MarianeAzar,20261125_084135,2026-11-25T08:44:48.943690+00:00
+1201035575ddb851,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.
+A. high, some
+B. low, some
+C. high, all
+D. low, all
+Answer:","[""high, some"", ""low, some"", ""high, all"", ""low, all""]",http,0.0,16,none,"{""id"":""chatcmpl-bc78b3pockf6j0n2chb7ly"",""object"":""chat.completion"",""created"":1795596288,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.929,,MarianeAzar,20261125_084135,2026-11-25T08:44:49.872984+00:00
+1201035575ddb851,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Axiom of Preventive Medicine states that people with ___ risk for a disease should be screened and we should treat ___ of those people.
+A. high, some
+B. low, some
+C. high, all
+D. low, all
+Answer:","[""high, some"", ""low, some"", ""high, all"", ""low, all""]",http,0.0,16,none,"{""id"":""chatcmpl-ti3x922abrwpsr8myafuj"",""object"":""chat.completion"",""created"":1795596289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9896,,MarianeAzar,20261125_084135,2026-11-25T08:44:50.863078+00:00
+7f96be33a51cd2bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries share a land border with Russia? (Not including disputed territories)
+A. 14
+B. 8
+C. 12
+D. 10
+Answer:","[""14"", ""8"", ""12"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-br5605tllx0t5qklokht8d"",""object"":""chat.completion"",""created"":1795596290,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8923,,MarianeAzar,20261125_084135,2026-11-25T08:44:51.755778+00:00
+7f96be33a51cd2bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries share a land border with Russia? (Not including disputed territories)
+A. 14
+B. 8
+C. 12
+D. 10
+Answer:","[""14"", ""8"", ""12"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-mmexn93x0777eicvn651t"",""object"":""chat.completion"",""created"":1795596291,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0408,,MarianeAzar,20261125_084135,2026-11-25T08:44:52.796876+00:00

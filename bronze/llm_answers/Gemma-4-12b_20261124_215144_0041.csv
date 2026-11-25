@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0192e2e290cb4575,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state has the highest population?
+A. Texas
+B. California
+C. Florida
+D. New York
+Answer:","[""Texas"", ""California"", ""Florida"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-66rbyfjk5o2xqb2r80gk2"",""object"":""chat.completion"",""created"":1795554539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.969,,MarianeAzar,20261124_215144,2026-11-24T21:09:00.076362+00:00
+6210f94229564ccd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the first Indian movie submitted for an Oscar?
+A. 1957
+B. 1938
+C. 1962
+D. 1954
+Answer:","[""1957"", ""1938"", ""1962"", ""1954""]",http,0.0,16,none,"{""id"":""chatcmpl-5yieurzueed8sas1z5fb8n"",""object"":""chat.completion"",""created"":1795554539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3662,,MarianeAzar,20261124_215144,2026-11-24T21:09:01.442770+00:00
+6210f94229564ccd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the first Indian movie submitted for an Oscar?
+A. 1957
+B. 1938
+C. 1962
+D. 1954
+Answer:","[""1957"", ""1938"", ""1962"", ""1954""]",http,0.0,16,none,"{""id"":""chatcmpl-j5k9vjalre984nvb0kezab"",""object"":""chat.completion"",""created"":1795554541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9416,,MarianeAzar,20261124_215144,2026-11-24T21:09:02.384710+00:00
+fb4c91ad67fc41e9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was Josef Stalin born in?
+A. Russia
+B. Germany
+C. Poland
+D. Georgia
+Answer:","[""Russia"", ""Germany"", ""Poland"", ""Georgia""]",http,0.0,16,none,"{""id"":""chatcmpl-kp6nonz1gtiw8kcoyycymk"",""object"":""chat.completion"",""created"":1795554542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2586,,MarianeAzar,20261124_215144,2026-11-24T21:09:03.643614+00:00
+fb4c91ad67fc41e9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was Josef Stalin born in?
+A. Russia
+B. Germany
+C. Poland
+D. Georgia
+Answer:","[""Russia"", ""Germany"", ""Poland"", ""Georgia""]",http,0.0,16,none,"{""id"":""chatcmpl-ys84np5hqbxg5req5251j"",""object"":""chat.completion"",""created"":1795554543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.255,,MarianeAzar,20261124_215144,2026-11-24T21:09:04.898907+00:00
+8e422e2d9e128ef4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the famous line Vaas says in ""Far Cry 3""?
+A. Maybe your best course...would be to tread lightly.
+B. You're my b*tch!
+C. Have I failed to entertain you?
+D. Did I ever tell you the definition of Insanity?
+Answer:","[""Maybe your best course...would be to tread lightly."", ""You're my b*tch!"", ""Have I failed to entertain you?"", ""Did I ever tell you the definition of Insanity?""]",http,0.0,16,none,"{""id"":""chatcmpl-6ykdw6wf9phnyl0r813rt"",""object"":""chat.completion"",""created"":1795554544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9659,,MarianeAzar,20261124_215144,2026-11-24T21:09:05.865873+00:00
+8e422e2d9e128ef4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the famous line Vaas says in ""Far Cry 3""?
+A. Maybe your best course...would be to tread lightly.
+B. You're my b*tch!
+C. Have I failed to entertain you?
+D. Did I ever tell you the definition of Insanity?
+Answer:","[""Maybe your best course...would be to tread lightly."", ""You're my b*tch!"", ""Have I failed to entertain you?"", ""Did I ever tell you the definition of Insanity?""]",http,0.0,16,none,"{""id"":""chatcmpl-wfv4zzg29sqvhtmnmjjwfh"",""object"":""chat.completion"",""created"":1795554545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3213,,MarianeAzar,20261124_215144,2026-11-24T21:09:07.187427+00:00
+cc28cab7b2c7d2ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bridgetown is the capital of which island country in the Carribean?
+A. Jamaica‎
+B. Cuba
+C. Dominica
+D. Barbados
+Answer:","[""Jamaica‎"", ""Cuba"", ""Dominica"", ""Barbados""]",http,0.0,16,none,"{""id"":""chatcmpl-rimtj98gqiniq4m608qr2o"",""object"":""chat.completion"",""created"":1795554547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3617,,MarianeAzar,20261124_215144,2026-11-24T21:09:08.549428+00:00
+cc28cab7b2c7d2ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bridgetown is the capital of which island country in the Carribean?
+A. Jamaica‎
+B. Cuba
+C. Dominica
+D. Barbados
+Answer:","[""Jamaica‎"", ""Cuba"", ""Dominica"", ""Barbados""]",http,0.0,16,none,"{""id"":""chatcmpl-lk9jv3nffdh8arfc804tbp"",""object"":""chat.completion"",""created"":1795554548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0305,,MarianeAzar,20261124_215144,2026-11-24T21:09:09.580393+00:00
+48be1696377a550f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest country in the world?
+A. China
+B. Russia
+C. United States
+D. Canada
+Answer:","[""China"", ""Russia"", ""United States"", ""Canada""]",http,0.0,16,none,"{""id"":""chatcmpl-mp4rmm5ihak3thpode1qrb"",""object"":""chat.completion"",""created"":1795554549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.949,,MarianeAzar,20261124_215144,2026-11-24T21:09:10.529755+00:00
+48be1696377a550f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest country in the world?
+A. China
+B. Russia
+C. United States
+D. Canada
+Answer:","[""China"", ""Russia"", ""United States"", ""Canada""]",http,0.0,16,none,"{""id"":""chatcmpl-jnnt7v83fx9qj9pxfpji7"",""object"":""chat.completion"",""created"":1795554550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.361,,MarianeAzar,20261124_215144,2026-11-24T21:09:11.891191+00:00
+ae9ac9cfa012a80a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a playable character in the 2005 video game Killer7?
+A. Coyote Smith
+B. Mask de Smith
+C. Frank Smith
+D. Dan Smith
+Answer:","[""Coyote Smith"", ""Mask de Smith"", ""Frank Smith"", ""Dan Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-b89umrpv2sn3cgf1w8yrhl"",""object"":""chat.completion"",""created"":1795554551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9312,,MarianeAzar,20261124_215144,2026-11-24T21:09:12.822642+00:00
+ae9ac9cfa012a80a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a playable character in the 2005 video game Killer7?
+A. Coyote Smith
+B. Mask de Smith
+C. Frank Smith
+D. Dan Smith
+Answer:","[""Coyote Smith"", ""Mask de Smith"", ""Frank Smith"", ""Dan Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-u9q2zr9fnskdpky5697w"",""object"":""chat.completion"",""created"":1795554552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9474,,MarianeAzar,20261124_215144,2026-11-24T21:09:13.770359+00:00
+d4b091ed90876a0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Napoleon Bonaparte crowned emperor of the French?
+A. March 8th 1803
+B. October 15th 1804
+C. July 3rd 1802
+D. December 2nd 1804
+Answer:","[""March 8th 1803"", ""October 15th 1804"", ""July 3rd 1802"", ""December 2nd 1804""]",http,0.0,16,none,"{""id"":""chatcmpl-od3d9541ydg9jjqeqcmyu"",""object"":""chat.completion"",""created"":1795554553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3839,,MarianeAzar,20261124_215144,2026-11-24T21:09:15.154547+00:00
+d4b091ed90876a0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Napoleon Bonaparte crowned emperor of the French?
+A. March 8th 1803
+B. October 15th 1804
+C. July 3rd 1802
+D. December 2nd 1804
+Answer:","[""March 8th 1803"", ""October 15th 1804"", ""July 3rd 1802"", ""December 2nd 1804""]",http,0.0,16,none,"{""id"":""chatcmpl-8er640x33djxirthow8ir"",""object"":""chat.completion"",""created"":1795554555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9943,,MarianeAzar,20261124_215144,2026-11-24T21:09:16.149149+00:00
+1d1f6ab192fea841,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the lead singer and frontman of rock band R.E.M?
+A. Michael Stipe
+B. George Michael
+C. Thom Yorke
+D. Chris Martin
+Answer:","[""Michael Stipe"", ""George Michael"", ""Thom Yorke"", ""Chris Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-uko0opvaieizunnqxb9qxd"",""object"":""chat.completion"",""created"":1795554556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2474,,MarianeAzar,20261124_215144,2026-11-24T21:09:17.397573+00:00
+1d1f6ab192fea841,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the lead singer and frontman of rock band R.E.M?
+A. Michael Stipe
+B. George Michael
+C. Thom Yorke
+D. Chris Martin
+Answer:","[""Michael Stipe"", ""George Michael"", ""Thom Yorke"", ""Chris Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-2fav72tbqvk63we3lobvx5"",""object"":""chat.completion"",""created"":1795554557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3296,,MarianeAzar,20261124_215144,2026-11-24T21:09:18.727412+00:00
+3d7890efcdf0061c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the African-American cultural explosion centered in upper Manhattan during the 1920s and 1930s?
+A. Bed-Stuy Renaissance
+B. Inwood Renaissance
+C. Upper East Renaissance
+D. Harlem Renaissance
+Answer:","[""Bed-Stuy Renaissance"", ""Inwood Renaissance"", ""Upper East Renaissance"", ""Harlem Renaissance""]",http,0.0,16,none,"{""id"":""chatcmpl-t7ok2d9dy4p98fb1ltguzj"",""object"":""chat.completion"",""created"":1795554558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0574,,MarianeAzar,20261124_215144,2026-11-24T21:09:19.785056+00:00
+3d7890efcdf0061c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the African-American cultural explosion centered in upper Manhattan during the 1920s and 1930s?
+A. Bed-Stuy Renaissance
+B. Inwood Renaissance
+C. Upper East Renaissance
+D. Harlem Renaissance
+Answer:","[""Bed-Stuy Renaissance"", ""Inwood Renaissance"", ""Upper East Renaissance"", ""Harlem Renaissance""]",http,0.0,16,none,"{""id"":""chatcmpl-ak47kxudz2o7vz1j4wnltj"",""object"":""chat.completion"",""created"":1795554559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9797,,MarianeAzar,20261124_215144,2026-11-24T21:09:20.765008+00:00
+fbec05d37c6ca081,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the stuffed lion in Bleach?
+A. Jo
+B. Urdiu
+C. Chad
+D. Kon
+Answer:","[""Jo"", ""Urdiu"", ""Chad"", ""Kon""]",http,0.0,16,none,"{""id"":""chatcmpl-5hq2hy9vd9fe5kue8v7guq"",""object"":""chat.completion"",""created"":1795554560,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3788,,MarianeAzar,20261124_215144,2026-11-24T21:09:22.144133+00:00
+fbec05d37c6ca081,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the stuffed lion in Bleach?
+A. Jo
+B. Urdiu
+C. Chad
+D. Kon
+Answer:","[""Jo"", ""Urdiu"", ""Chad"", ""Kon""]",http,0.0,16,none,"{""id"":""chatcmpl-tu2cb5hpq8qmi2hafeepe"",""object"":""chat.completion"",""created"":1795554562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0169,,MarianeAzar,20261124_215144,2026-11-24T21:09:23.161248+00:00
+99e2c2780ac2b75d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which Mario game did the Mega Mushroom make its debut?
+A. Mario Kart Wii
+B. New Super Mario Bros.
+C. Mario Party 4
+D. Super Mario 3D World
+Answer:","[""Mario Kart Wii"", ""New Super Mario Bros."", ""Mario Party 4"", ""Super Mario 3D World""]",http,0.0,16,none,"{""id"":""chatcmpl-casnan3cvocuxzrljdje9j"",""object"":""chat.completion"",""created"":1795554563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9405,,MarianeAzar,20261124_215144,2026-11-24T21:09:24.102671+00:00
+99e2c2780ac2b75d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which Mario game did the Mega Mushroom make its debut?
+A. Mario Kart Wii
+B. New Super Mario Bros.
+C. Mario Party 4
+D. Super Mario 3D World
+Answer:","[""Mario Kart Wii"", ""New Super Mario Bros."", ""Mario Party 4"", ""Super Mario 3D World""]",http,0.0,16,none,"{""id"":""chatcmpl-saiarbianriazme26qrnd"",""object"":""chat.completion"",""created"":1795554564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4126,,MarianeAzar,20261124_215144,2026-11-24T21:09:25.515591+00:00
+f7caf378adf6320e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Kirito and Asuna are main characters from which anime?
+A. Death Note
+B. Fairy Tail
+C. One Piece
+D. Sword Art Online
+Answer:","[""Death Note"", ""Fairy Tail"", ""One Piece"", ""Sword Art Online""]",http,0.0,16,none,"{""id"":""chatcmpl-1z0cpcj5g166ol4rd2l4by"",""object"":""chat.completion"",""created"":1795554565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9563,,MarianeAzar,20261124_215144,2026-11-24T21:09:26.472152+00:00
+f7caf378adf6320e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Kirito and Asuna are main characters from which anime?
+A. Death Note
+B. Fairy Tail
+C. One Piece
+D. Sword Art Online
+Answer:","[""Death Note"", ""Fairy Tail"", ""One Piece"", ""Sword Art Online""]",http,0.0,16,none,"{""id"":""chatcmpl-ngm2i0rpc8uaom5nfjpwc"",""object"":""chat.completion"",""created"":1795554566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2393,,MarianeAzar,20261124_215144,2026-11-24T21:09:27.711759+00:00

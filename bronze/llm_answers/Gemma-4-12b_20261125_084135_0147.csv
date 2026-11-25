@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+67391ac569e930a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Waluigi's first appearance was in what game?
+A. Super Smash Bros. Ultimate
+B. Mario Tennis 64 (N64)
+C. Wario Land: Super Mario Land 3
+D. Mario Party (N64)
+Answer:","[""Super Smash Bros. Ultimate"", ""Mario Tennis 64 (N64)"", ""Wario Land: Super Mario Land 3"", ""Mario Party (N64)""]",http,0.0,16,none,"{""id"":""chatcmpl-4kc7wmte97lhwzpd0gmgif"",""object"":""chat.completion"",""created"":1795596044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.923,,MarianeAzar,20261125_084135,2026-11-25T08:40:45.902674+00:00
+1be246cb2cfdd7a0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Final Fantasy XIV, what is the name of the Deep Dungeon that was introduced in the expansion pack, Heavensward?
+A. Aetherochemical Research Facility
+B. Palace of the Dead
+C. Heaven on High
+D. Sunken Temple of Qarn
+Answer:","[""Aetherochemical Research Facility"", ""Palace of the Dead"", ""Heaven on High"", ""Sunken Temple of Qarn""]",http,0.0,16,none,"{""id"":""chatcmpl-7hiefnsxe0a9hmnryhek5s"",""object"":""chat.completion"",""created"":1795596045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9069,,MarianeAzar,20261125_084135,2026-11-25T08:40:46.810078+00:00
+1be246cb2cfdd7a0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Final Fantasy XIV, what is the name of the Deep Dungeon that was introduced in the expansion pack, Heavensward?
+A. Aetherochemical Research Facility
+B. Palace of the Dead
+C. Heaven on High
+D. Sunken Temple of Qarn
+Answer:","[""Aetherochemical Research Facility"", ""Palace of the Dead"", ""Heaven on High"", ""Sunken Temple of Qarn""]",http,0.0,16,none,"{""id"":""chatcmpl-tzbvm4yep8tcm71h13wr6e"",""object"":""chat.completion"",""created"":1795596046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.919,,MarianeAzar,20261125_084135,2026-11-25T08:40:47.729427+00:00
+e601f17e996d5f8d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scotland voted to become an independent country during the referendum from September 2014.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mjrxfiaig445ohrqnt7a6"",""object"":""chat.completion"",""created"":1795596047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8456,,MarianeAzar,20261125_084135,2026-11-25T08:40:48.575302+00:00
+e601f17e996d5f8d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scotland voted to become an independent country during the referendum from September 2014.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3b5xbhsr2ysg9ndcs9tboq"",""object"":""chat.completion"",""created"":1795596048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8423,,MarianeAzar,20261125_084135,2026-11-25T08:40:49.417755+00:00
+9d26575d3a9a3aec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these stars is the largest?
+A. Betelgeuse
+B. VY Canis Majoris
+C. RW Cephei
+D. UY Scuti
+Answer:","[""Betelgeuse"", ""VY Canis Majoris"", ""RW Cephei"", ""UY Scuti""]",http,0.0,16,none,"{""id"":""chatcmpl-tksol3or7obksf7tvl2s7m"",""object"":""chat.completion"",""created"":1795596048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:40:50.267966+00:00
+9d26575d3a9a3aec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these stars is the largest?
+A. Betelgeuse
+B. VY Canis Majoris
+C. RW Cephei
+D. UY Scuti
+Answer:","[""Betelgeuse"", ""VY Canis Majoris"", ""RW Cephei"", ""UY Scuti""]",http,0.0,16,none,"{""id"":""chatcmpl-akr8rrnrzu6xosyu19ul7g"",""object"":""chat.completion"",""created"":1795596049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261125_084135,2026-11-25T08:40:51.145059+00:00
+8737f2937409f9b0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bulls are attracted to the color red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t4xfj6kaahkpl5l4z23ae"",""object"":""chat.completion"",""created"":1795596050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8163,,MarianeAzar,20261125_084135,2026-11-25T08:40:51.961496+00:00
+8737f2937409f9b0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bulls are attracted to the color red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5q20otafiuv22zjyb8l3r"",""object"":""chat.completion"",""created"":1795596051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8142,,MarianeAzar,20261125_084135,2026-11-25T08:40:52.775840+00:00
+dd718d32b361f3b0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Russia passed a law in 2013 which outlaws telling children that homosexuals exist.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x800saqlyybb13g6ikuc1"",""object"":""chat.completion"",""created"":1795596052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8154,,MarianeAzar,20261125_084135,2026-11-25T08:40:53.591469+00:00
+dd718d32b361f3b0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Russia passed a law in 2013 which outlaws telling children that homosexuals exist.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d44pq5j9gtefj14uluqbki"",""object"":""chat.completion"",""created"":1795596053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8387,,MarianeAzar,20261125_084135,2026-11-25T08:40:54.430415+00:00
+6b897e95371ea36b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?
+A. 6
+B. 4
+C. 5
+D. 3
+Answer:","[""6"", ""4"", ""5"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-b3gd6xe5y95flgy6g2yqyl"",""object"":""chat.completion"",""created"":1795596053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8926,,MarianeAzar,20261125_084135,2026-11-25T08:40:55.323694+00:00
+6b897e95371ea36b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Fields Medal, one of the most sought after awards in mathematics, is awarded every how many years?
+A. 6
+B. 4
+C. 5
+D. 3
+Answer:","[""6"", ""4"", ""5"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-an2gfbuf1zp4xvqf3kg0fg"",""object"":""chat.completion"",""created"":1795596054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9477,,MarianeAzar,20261125_084135,2026-11-25T08:40:56.271525+00:00
+072444f6ef7453e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Neil Hamburger is played by which comedian?
+A. Tim Heidecker
+B. Nathan Fielder
+C. Gregg Turkington
+D. Todd Glass
+Answer:","[""Tim Heidecker"", ""Nathan Fielder"", ""Gregg Turkington"", ""Todd Glass""]",http,0.0,16,none,"{""id"":""chatcmpl-h805hqeq13wgfiua5joi6n"",""object"":""chat.completion"",""created"":1795596055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:40:57.132548+00:00
+072444f6ef7453e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Neil Hamburger is played by which comedian?
+A. Tim Heidecker
+B. Nathan Fielder
+C. Gregg Turkington
+D. Todd Glass
+Answer:","[""Tim Heidecker"", ""Nathan Fielder"", ""Gregg Turkington"", ""Todd Glass""]",http,0.0,16,none,"{""id"":""chatcmpl-c28w0t4o5wj1jv4w492kqoj"",""object"":""chat.completion"",""created"":1795596056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:40:57.992443+00:00
+9bd7e5c9ed3f8a8c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the maximum value of a 32-bit signed binary integer?
+A. 2048
+B. 255
+C. 2,147,483,647
+D. 9,223,372,036,854,775,807
+Answer:","[""2048"", ""255"", ""2,147,483,647"", ""9,223,372,036,854,775,807""]",http,0.0,16,none,"{""id"":""chatcmpl-6cpk7af7g9b6sdi86zjqj"",""object"":""chat.completion"",""created"":1795596057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9281,,MarianeAzar,20261125_084135,2026-11-25T08:40:58.921617+00:00
+9bd7e5c9ed3f8a8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the maximum value of a 32-bit signed binary integer?
+A. 2048
+B. 255
+C. 2,147,483,647
+D. 9,223,372,036,854,775,807
+Answer:","[""2048"", ""255"", ""2,147,483,647"", ""9,223,372,036,854,775,807""]",http,0.0,16,none,"{""id"":""chatcmpl-llu9w96yooumq3rsw30uo"",""object"":""chat.completion"",""created"":1795596058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":138,""completion_tokens"":2,""total_tokens"":140,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9989,,MarianeAzar,20261125_084135,2026-11-25T08:40:59.920716+00:00
+ee8b12d71c55cc27,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?
+A. Bill Gates
+B. Alan Sugar
+C. Richard Branson
+D. Donald Trump
+Answer:","[""Bill Gates"", ""Alan Sugar"", ""Richard Branson"", ""Donald Trump""]",http,0.0,16,none,"{""id"":""chatcmpl-vlq4kkv7hxeuqd6duka0v"",""object"":""chat.completion"",""created"":1795596059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T08:41:00.811436+00:00
+ee8b12d71c55cc27,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Virgin Trains, Virgin Atlantic and Virgin Racing, are all companies owned by which famous entrepreneur?
+A. Bill Gates
+B. Alan Sugar
+C. Richard Branson
+D. Donald Trump
+Answer:","[""Bill Gates"", ""Alan Sugar"", ""Richard Branson"", ""Donald Trump""]",http,0.0,16,none,"{""id"":""chatcmpl-0mnajw0yp0h875go4iqbooj"",""object"":""chat.completion"",""created"":1795596060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.923,,MarianeAzar,20261125_084135,2026-11-25T08:41:01.734751+00:00
+401800a6f68eed15,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Worms"" series of video games, which of these weapons is affected by wind?
+A. Mortar
+B. Grenade
+C. Air Strike
+D. Bazooka
+Answer:","[""Mortar"", ""Grenade"", ""Air Strike"", ""Bazooka""]",http,0.0,16,none,"{""id"":""chatcmpl-unfbw920fr80zna38ycexkb"",""object"":""chat.completion"",""created"":1795596061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8927,,MarianeAzar,20261125_084135,2026-11-25T08:41:02.627951+00:00
+401800a6f68eed15,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Worms"" series of video games, which of these weapons is affected by wind?
+A. Mortar
+B. Grenade
+C. Air Strike
+D. Bazooka
+Answer:","[""Mortar"", ""Grenade"", ""Air Strike"", ""Bazooka""]",http,0.0,16,none,"{""id"":""chatcmpl-wg5w6jwodxvxgde536xa"",""object"":""chat.completion"",""created"":1795596062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:41:03.494125+00:00
+f76018e21ddbf8f3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does a funambulist walk on?
+A. Broken Glass
+B. The Moon
+C. A Tight Rope
+D. Balls
+Answer:","[""Broken Glass"", ""The Moon"", ""A Tight Rope"", ""Balls""]",http,0.0,16,none,"{""id"":""chatcmpl-o5i443fxmck1vzmu4v8k3d"",""object"":""chat.completion"",""created"":1795596062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T08:41:04.367915+00:00
+f76018e21ddbf8f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does a funambulist walk on?
+A. Broken Glass
+B. The Moon
+C. A Tight Rope
+D. Balls
+Answer:","[""Broken Glass"", ""The Moon"", ""A Tight Rope"", ""Balls""]",http,0.0,16,none,"{""id"":""chatcmpl-2almol3qer237mb7pc4hck"",""object"":""chat.completion"",""created"":1795596063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9376,,MarianeAzar,20261125_084135,2026-11-25T08:41:05.305815+00:00
+37a6caad2609bc06,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""ALF"", what was ALF's real name?
+A. Gordon Shumway
+B. Gordon von Gam
+C. Gordon Foster
+D. Gordon Milipp
+Answer:","[""Gordon Shumway"", ""Gordon von Gam"", ""Gordon Foster"", ""Gordon Milipp""]",http,0.0,16,none,"{""id"":""chatcmpl-og6f45q24lgxdbhhuml6m"",""object"":""chat.completion"",""created"":1795596064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T08:41:06.196707+00:00
+37a6caad2609bc06,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""ALF"", what was ALF's real name?
+A. Gordon Shumway
+B. Gordon von Gam
+C. Gordon Foster
+D. Gordon Milipp
+Answer:","[""Gordon Shumway"", ""Gordon von Gam"", ""Gordon Foster"", ""Gordon Milipp""]",http,0.0,16,none,"{""id"":""chatcmpl-s8gymlfi4rd7zwd51576f"",""object"":""chat.completion"",""created"":1795596065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:41:07.053916+00:00

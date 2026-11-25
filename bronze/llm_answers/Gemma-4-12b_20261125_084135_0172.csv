@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+bb773d6d29c5211e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these was NOT a launch title for the Nintendo 64?
+A. Mario Kart 64
+B. Super Mario 64
+C. Saikyō Habu Shōgi
+D. Pilotwings 64
+Answer:","[""Mario Kart 64"", ""Super Mario 64"", ""Saikyō Habu Shōgi"", ""Pilotwings 64""]",http,0.0,16,none,"{""id"":""chatcmpl-xj1av799h7r2fns8dy7dz"",""object"":""chat.completion"",""created"":1795596595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8708,,MarianeAzar,20261125_084135,2026-11-25T08:49:56.581013+00:00
+bb773d6d29c5211e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these was NOT a launch title for the Nintendo 64?
+A. Mario Kart 64
+B. Super Mario 64
+C. Saikyō Habu Shōgi
+D. Pilotwings 64
+Answer:","[""Mario Kart 64"", ""Super Mario 64"", ""Saikyō Habu Shōgi"", ""Pilotwings 64""]",http,0.0,16,none,"{""id"":""chatcmpl-pceuk2xzrmnd8s4ir91tt7"",""object"":""chat.completion"",""created"":1795596596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8962,,MarianeAzar,20261125_084135,2026-11-25T08:49:57.477503+00:00
+591fa481cc3772bf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Fergie's debut album called?
+A. Fergalicious
+B. The Sweet Escape
+C. The Dutchess
+D. Loose
+Answer:","[""Fergalicious"", ""The Sweet Escape"", ""The Dutchess"", ""Loose""]",http,0.0,16,none,"{""id"":""chatcmpl-k5o7m5dt86jata9coa9ghh"",""object"":""chat.completion"",""created"":1795596596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8725,,MarianeAzar,20261125_084135,2026-11-25T08:49:58.350156+00:00
+591fa481cc3772bf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Fergie's debut album called?
+A. Fergalicious
+B. The Sweet Escape
+C. The Dutchess
+D. Loose
+Answer:","[""Fergalicious"", ""The Sweet Escape"", ""The Dutchess"", ""Loose""]",http,0.0,16,none,"{""id"":""chatcmpl-iau93hklh7epygs7t0po"",""object"":""chat.completion"",""created"":1795596597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T08:49:59.211143+00:00
+421e03cf8d089962,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which year was the album ""Floral Shoppe"" by Macintosh Plus released?
+A. 2014
+B. 2011
+C. 2012
+D. 2013
+Answer:","[""2014"", ""2011"", ""2012"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-e27nni3podaw00o4buc7vb"",""object"":""chat.completion"",""created"":1795596598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261125_084135,2026-11-25T08:50:00.079153+00:00
+421e03cf8d089962,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which year was the album ""Floral Shoppe"" by Macintosh Plus released?
+A. 2014
+B. 2011
+C. 2012
+D. 2013
+Answer:","[""2014"", ""2011"", ""2012"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-risdil06v1mrozgz13e2"",""object"":""chat.completion"",""created"":1795596599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8918,,MarianeAzar,20261125_084135,2026-11-25T08:50:00.971153+00:00
+7706ac13bd378a40,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?
+A. Dollar Sign
+B. Percent Sign
+C. Exclamation Mark
+D. Asterisk
+Answer:","[""Dollar Sign"", ""Percent Sign"", ""Exclamation Mark"", ""Asterisk""]",http,0.0,16,none,"{""id"":""chatcmpl-5g1yfjwurrg8gcv182ujyn"",""object"":""chat.completion"",""created"":1795596600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T08:50:01.827174+00:00
+7706ac13bd378a40,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard American QWERTY keyboard, what symbol will you enter if you hold the shift key and press 1?
+A. Dollar Sign
+B. Percent Sign
+C. Exclamation Mark
+D. Asterisk
+Answer:","[""Dollar Sign"", ""Percent Sign"", ""Exclamation Mark"", ""Asterisk""]",http,0.0,16,none,"{""id"":""chatcmpl-ylvdidxrtigm2jrhdn1ll"",""object"":""chat.completion"",""created"":1795596601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261125_084135,2026-11-25T08:50:02.707573+00:00
+cb4b74a9ce620948,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Grand Patriotic War in the USSR concluded?
+A. September 2nd, 1945
+B. August 9th, 1945
+C. May 9th, 1945
+D. December 11th, 1945
+Answer:","[""September 2nd, 1945"", ""August 9th, 1945"", ""May 9th, 1945"", ""December 11th, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-d30lqpympv1wkbkys5wqk"",""object"":""chat.completion"",""created"":1795596602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261125_084135,2026-11-25T08:50:03.594480+00:00
+cb4b74a9ce620948,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Grand Patriotic War in the USSR concluded?
+A. September 2nd, 1945
+B. August 9th, 1945
+C. May 9th, 1945
+D. December 11th, 1945
+Answer:","[""September 2nd, 1945"", ""August 9th, 1945"", ""May 9th, 1945"", ""December 11th, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-g5casgec766zpa6jx9opd"",""object"":""chat.completion"",""created"":1795596603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9239,,MarianeAzar,20261125_084135,2026-11-25T08:50:04.518629+00:00
+9345831721adf785,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was the ancient city of Pompeii?
+A. Italy
+B. Pompilanus
+C. East Africa
+D. South America
+Answer:","[""Italy"", ""Pompilanus"", ""East Africa"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-xv71x8y3aniz9fghq9fj9"",""object"":""chat.completion"",""created"":1795596603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261125_084135,2026-11-25T08:50:05.411205+00:00
+9345831721adf785,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was the ancient city of Pompeii?
+A. Italy
+B. Pompilanus
+C. East Africa
+D. South America
+Answer:","[""Italy"", ""Pompilanus"", ""East Africa"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-mq9mgb0n7p8q0fgxi5es8j"",""object"":""chat.completion"",""created"":1795596604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8493,,MarianeAzar,20261125_084135,2026-11-25T08:50:06.260772+00:00
+8b00bb70bc8bc835,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the metal band Slipknot, there are 9 members, which member labelled themselves number 6?
+A. Shawn Crahan (Clown)
+B. Cory Taylor
+C. Sid Wilson
+D. Mick Thomson
+Answer:","[""Shawn Crahan (Clown)"", ""Cory Taylor"", ""Sid Wilson"", ""Mick Thomson""]",http,0.0,16,none,"{""id"":""chatcmpl-t01mh8cjtak7qq5mj657"",""object"":""chat.completion"",""created"":1795596605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T08:50:07.127366+00:00
+8b00bb70bc8bc835,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the metal band Slipknot, there are 9 members, which member labelled themselves number 6?
+A. Shawn Crahan (Clown)
+B. Cory Taylor
+C. Sid Wilson
+D. Mick Thomson
+Answer:","[""Shawn Crahan (Clown)"", ""Cory Taylor"", ""Sid Wilson"", ""Mick Thomson""]",http,0.0,16,none,"{""id"":""chatcmpl-wvutlvdpxkp89mhiohby5n"",""object"":""chat.completion"",""created"":1795596606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8922,,MarianeAzar,20261125_084135,2026-11-25T08:50:08.019908+00:00
+292c1afa3a3b39fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries does NOT recognize Armenia as an independent country?
+A. Iran
+B. Turkey
+C. Pakistan
+D. Azerbaijan
+Answer:","[""Iran"", ""Turkey"", ""Pakistan"", ""Azerbaijan""]",http,0.0,16,none,"{""id"":""chatcmpl-ac33lxwb8b80jccynfag5o5"",""object"":""chat.completion"",""created"":1795596607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261125_084135,2026-11-25T08:50:08.869385+00:00
+292c1afa3a3b39fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries does NOT recognize Armenia as an independent country?
+A. Iran
+B. Turkey
+C. Pakistan
+D. Azerbaijan
+Answer:","[""Iran"", ""Turkey"", ""Pakistan"", ""Azerbaijan""]",http,0.0,16,none,"{""id"":""chatcmpl-vfugd8wh4wc84ky964h15d"",""object"":""chat.completion"",""created"":1795596608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261125_084135,2026-11-25T08:50:09.740982+00:00
+316357f9c09d824e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character does the player play as in the video game ""Bastion""?
+A. Zia
+B. Zulf
+C. The Kid
+D. Rucks
+Answer:","[""Zia"", ""Zulf"", ""The Kid"", ""Rucks""]",http,0.0,16,none,"{""id"":""chatcmpl-n8wv6wksb4ahpkdxamwyl"",""object"":""chat.completion"",""created"":1795596609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261125_084135,2026-11-25T08:50:10.598645+00:00
+316357f9c09d824e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character does the player play as in the video game ""Bastion""?
+A. Zia
+B. Zulf
+C. The Kid
+D. Rucks
+Answer:","[""Zia"", ""Zulf"", ""The Kid"", ""Rucks""]",http,0.0,16,none,"{""id"":""chatcmpl-t4j7afbi7yd25vulebsgh9"",""object"":""chat.completion"",""created"":1795596610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8692,,MarianeAzar,20261125_084135,2026-11-25T08:50:11.468316+00:00
+5b3bf13e21de9c4a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In AMC's ""The Walking Dead,"" the characters Rick, Carl, Daryl, Morgan, Carol and Maggie were introduced in Season 1.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-arqj9y8gj4xhe1w0dqmn"",""object"":""chat.completion"",""created"":1795596610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8238,,MarianeAzar,20261125_084135,2026-11-25T08:50:12.292382+00:00
+5b3bf13e21de9c4a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In AMC's ""The Walking Dead,"" the characters Rick, Carl, Daryl, Morgan, Carol and Maggie were introduced in Season 1.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hgory174rvf6savfhg9j5"",""object"":""chat.completion"",""created"":1795596611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8449,,MarianeAzar,20261125_084135,2026-11-25T08:50:13.137493+00:00
+46fec708553fd5b8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Clefairy was intended to be Ash's starting Pokémon in the pilot episode of the cartoon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2u4pctppdctv9cdjixvz8m"",""object"":""chat.completion"",""created"":1795596612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8162,,MarianeAzar,20261125_084135,2026-11-25T08:50:13.954473+00:00
+46fec708553fd5b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Clefairy was intended to be Ash's starting Pokémon in the pilot episode of the cartoon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kupn0e5izcsj9vx85dfqu"",""object"":""chat.completion"",""created"":1795596613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8969,,MarianeAzar,20261125_084135,2026-11-25T08:50:14.851498+00:00
+e9682c15bae59d38,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ana was added as a new hero for the game Overwatch on July 19th, 2016.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jex8r5rcngdzmrugqzyfsq"",""object"":""chat.completion"",""created"":1795596614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.829,,MarianeAzar,20261125_084135,2026-11-25T08:50:15.680861+00:00
+e9682c15bae59d38,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ana was added as a new hero for the game Overwatch on July 19th, 2016.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-301t7t6w1kx7c3y10vs2gx"",""object"":""chat.completion"",""created"":1795596615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261125_084135,2026-11-25T08:50:16.533286+00:00
+498d8fa46ee74c70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of South Korea?
+A. Kitakyushu
+B. Pyongyang
+C. Taegu
+D. Seoul
+Answer:","[""Kitakyushu"", ""Pyongyang"", ""Taegu"", ""Seoul""]",http,0.0,16,none,"{""id"":""chatcmpl-v3tcnv7or4z3o4jzwztq"",""object"":""chat.completion"",""created"":1795596615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8465,,MarianeAzar,20261125_084135,2026-11-25T08:50:17.380306+00:00

@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a9ea10245f07cee8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Paper Mario: The Thousand Year Door"", what is Hooktail's weakness?
+A. The Hammer
+B. The ""Ice Storm"" Item
+C. Attacks from Koopas
+D. The Sound of Crickets
+Answer:","[""The Hammer"", ""The \""Ice Storm\"" Item"", ""Attacks from Koopas"", ""The Sound of Crickets""]",http,0.0,16,none,"{""id"":""chatcmpl-bsvve238dyu28wwl0ptmeu"",""object"":""chat.completion"",""created"":1795596487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T08:48:08.963086+00:00
+56222e2ae333c99a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made the discovery of X-rays?
+A. Albert Einstein
+B. Thomas Alva Edison
+C. Wilhelm Conrad Röntgen
+D. James Watt
+Answer:","[""Albert Einstein"", ""Thomas Alva Edison"", ""Wilhelm Conrad Röntgen"", ""James Watt""]",http,0.0,16,none,"{""id"":""chatcmpl-mlylsd169vagnxr466ps28"",""object"":""chat.completion"",""created"":1795596488,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9001,,MarianeAzar,20261125_084135,2026-11-25T08:48:09.863454+00:00
+56222e2ae333c99a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made the discovery of X-rays?
+A. Albert Einstein
+B. Thomas Alva Edison
+C. Wilhelm Conrad Röntgen
+D. James Watt
+Answer:","[""Albert Einstein"", ""Thomas Alva Edison"", ""Wilhelm Conrad Röntgen"", ""James Watt""]",http,0.0,16,none,"{""id"":""chatcmpl-uw9y991bmaolnr73hevzb"",""object"":""chat.completion"",""created"":1795596489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8808,,MarianeAzar,20261125_084135,2026-11-25T08:48:10.744557+00:00
+99f237d377db611d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What engine is in the Lexus SC400?
+A. 5M-GE
+B. 7M-GTE
+C. 1UZ-FE
+D. 2JZ-GTE
+Answer:","[""5M-GE"", ""7M-GTE"", ""1UZ-FE"", ""2JZ-GTE""]",http,0.0,16,none,"{""id"":""chatcmpl-ui7qtt0bpmfx2na7cbase"",""object"":""chat.completion"",""created"":1795596490,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.873,,MarianeAzar,20261125_084135,2026-11-25T08:48:11.618301+00:00
+99f237d377db611d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What engine is in the Lexus SC400?
+A. 5M-GE
+B. 7M-GTE
+C. 1UZ-FE
+D. 2JZ-GTE
+Answer:","[""5M-GE"", ""7M-GTE"", ""1UZ-FE"", ""2JZ-GTE""]",http,0.0,16,none,"{""id"":""chatcmpl-bht0grt1319xhvxfv3dk9"",""object"":""chat.completion"",""created"":1795596491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8813,,MarianeAzar,20261125_084135,2026-11-25T08:48:12.499851+00:00
+1e67720f6673b43a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the inspector in the series ""On the Buses""?
+A. Naily
+B. Blakey
+C. Gally
+D. Harper
+Answer:","[""Naily"", ""Blakey"", ""Gally"", ""Harper""]",http,0.0,16,none,"{""id"":""chatcmpl-ueihd1m3ujvch43u00th"",""object"":""chat.completion"",""created"":1795596491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8443,,MarianeAzar,20261125_084135,2026-11-25T08:48:13.344718+00:00
+1e67720f6673b43a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the inspector in the series ""On the Buses""?
+A. Naily
+B. Blakey
+C. Gally
+D. Harper
+Answer:","[""Naily"", ""Blakey"", ""Gally"", ""Harper""]",http,0.0,16,none,"{""id"":""chatcmpl-ub46vnq39h1ztbs1syg8z"",""object"":""chat.completion"",""created"":1795596492,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T08:48:14.198079+00:00
+fc6e2543bb65c9b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: For the film ""Raiders of The Lost Ark"", what was Harrison Ford sick with during the filming of the Cairo chase?
+A. Acid Reflux
+B. Anemia
+C. Constipation
+D. Dysentery
+Answer:","[""Acid Reflux"", ""Anemia"", ""Constipation"", ""Dysentery""]",http,0.0,16,none,"{""id"":""chatcmpl-7o0pbtkqqnn6ko97d6w2"",""object"":""chat.completion"",""created"":1795596493,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:48:15.056203+00:00
+fc6e2543bb65c9b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: For the film ""Raiders of The Lost Ark"", what was Harrison Ford sick with during the filming of the Cairo chase?
+A. Acid Reflux
+B. Anemia
+C. Constipation
+D. Dysentery
+Answer:","[""Acid Reflux"", ""Anemia"", ""Constipation"", ""Dysentery""]",http,0.0,16,none,"{""id"":""chatcmpl-8p2eyf8eueoio5aipg0d9j"",""object"":""chat.completion"",""created"":1795596494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261125_084135,2026-11-25T08:48:15.942976+00:00
+420a4a93a6e7e02c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a game of snooker, what colour ball is worth 3 points?
+A. Brown
+B. Green
+C. Yellow
+D. Blue
+Answer:","[""Brown"", ""Green"", ""Yellow"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-9wa36n46wo5g48waum982"",""object"":""chat.completion"",""created"":1795596495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:48:16.804410+00:00
+420a4a93a6e7e02c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a game of snooker, what colour ball is worth 3 points?
+A. Brown
+B. Green
+C. Yellow
+D. Blue
+Answer:","[""Brown"", ""Green"", ""Yellow"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-5xaesmalnq0a16j9d94cwf"",""object"":""chat.completion"",""created"":1795596496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:48:17.657164+00:00
+73251d7bedb3db59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the Three Virtues of Bionicle?
+A. Work, Play, Live
+B. Forge, Build, Fight
+C. Build, Play, Change
+D. Unity, Duty, Destiny
+Answer:","[""Work, Play, Live"", ""Forge, Build, Fight"", ""Build, Play, Change"", ""Unity, Duty, Destiny""]",http,0.0,16,none,"{""id"":""chatcmpl-19i5qqe0052ritcv0gxk3r"",""object"":""chat.completion"",""created"":1795596497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T08:48:18.514424+00:00
+73251d7bedb3db59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the Three Virtues of Bionicle?
+A. Work, Play, Live
+B. Forge, Build, Fight
+C. Build, Play, Change
+D. Unity, Duty, Destiny
+Answer:","[""Work, Play, Live"", ""Forge, Build, Fight"", ""Build, Play, Change"", ""Unity, Duty, Destiny""]",http,0.0,16,none,"{""id"":""chatcmpl-1k5c825bz0crvcn8kzej9k"",""object"":""chat.completion"",""created"":1795596497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8774,,MarianeAzar,20261125_084135,2026-11-25T08:48:19.392135+00:00
+c19307640cf407d6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did Gabe Newell work at before founding Valve Corporation?
+A. Apple
+B. Yahoo
+C. Google
+D. Microsoft
+Answer:","[""Apple"", ""Yahoo"", ""Google"", ""Microsoft""]",http,0.0,16,none,"{""id"":""chatcmpl-lglbl4sw5kif9rk1oxt7tq"",""object"":""chat.completion"",""created"":1795596498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261125_084135,2026-11-25T08:48:20.244261+00:00
+c19307640cf407d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company did Gabe Newell work at before founding Valve Corporation?
+A. Apple
+B. Yahoo
+C. Google
+D. Microsoft
+Answer:","[""Apple"", ""Yahoo"", ""Google"", ""Microsoft""]",http,0.0,16,none,"{""id"":""chatcmpl-i3ji9nwf2wrka3oc9ihg9"",""object"":""chat.completion"",""created"":1795596499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.871,,MarianeAzar,20261125_084135,2026-11-25T08:48:21.115705+00:00
+825b83b1efcd2ae7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What film did James Cameron's Avatar dethrone as the highest-grossing film ever?
+A. Titanic
+B. Star Wars
+C. Gone with the Wind
+D. Jaws
+Answer:","[""Titanic"", ""Star Wars"", ""Gone with the Wind"", ""Jaws""]",http,0.0,16,none,"{""id"":""chatcmpl-olqrhz658tm9068qlc88r"",""object"":""chat.completion"",""created"":1795596500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T08:48:21.977774+00:00
+825b83b1efcd2ae7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What film did James Cameron's Avatar dethrone as the highest-grossing film ever?
+A. Titanic
+B. Star Wars
+C. Gone with the Wind
+D. Jaws
+Answer:","[""Titanic"", ""Star Wars"", ""Gone with the Wind"", ""Jaws""]",http,0.0,16,none,"{""id"":""chatcmpl-ojsv79rl55alp5fpms4m"",""object"":""chat.completion"",""created"":1795596501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261125_084135,2026-11-25T08:48:22.833917+00:00
+640befeaff2f43a2,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The binary number ""101001101"" is equivalent to the Decimal number ""334""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ypfpr2gazvn67q9585vpkn"",""object"":""chat.completion"",""created"":1795596502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8192,,MarianeAzar,20261125_084135,2026-11-25T08:48:23.653481+00:00
+640befeaff2f43a2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The binary number ""101001101"" is equivalent to the Decimal number ""334""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qt9gfhm3d0prspd0y2sux"",""object"":""chat.completion"",""created"":1795596503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8372,,MarianeAzar,20261125_084135,2026-11-25T08:48:24.490837+00:00
+8485dc3077a2e696,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Halo series, which era of SPARTAN is Master Chief?
+A. SPARTAN-I
+B. SPARTAN-III
+C. SPARTAN-II
+D. SPARTAN-IV
+Answer:","[""SPARTAN-I"", ""SPARTAN-III"", ""SPARTAN-II"", ""SPARTAN-IV""]",http,0.0,16,none,"{""id"":""chatcmpl-b0vw6isii35ukndpqujfyl"",""object"":""chat.completion"",""created"":1795596503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:48:25.345808+00:00
+8485dc3077a2e696,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Halo series, which era of SPARTAN is Master Chief?
+A. SPARTAN-I
+B. SPARTAN-III
+C. SPARTAN-II
+D. SPARTAN-IV
+Answer:","[""SPARTAN-I"", ""SPARTAN-III"", ""SPARTAN-II"", ""SPARTAN-IV""]",http,0.0,16,none,"{""id"":""chatcmpl-agcw3tq0xtr0b1uo14mjx7j"",""object"":""chat.completion"",""created"":1795596504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:48:26.231738+00:00
+3cf5f1ae33de9ed3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who are the original creators of Rachet & Clank?
+A. Insomniac Games
+B. Rare
+C. PixelTail Games
+D. Bethesda
+Answer:","[""Insomniac Games"", ""Rare"", ""PixelTail Games"", ""Bethesda""]",http,0.0,16,none,"{""id"":""chatcmpl-n6ep9h9knnhxmeijduoj9c"",""object"":""chat.completion"",""created"":1795596505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8956,,MarianeAzar,20261125_084135,2026-11-25T08:48:27.136971+00:00
+3cf5f1ae33de9ed3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who are the original creators of Rachet & Clank?
+A. Insomniac Games
+B. Rare
+C. PixelTail Games
+D. Bethesda
+Answer:","[""Insomniac Games"", ""Rare"", ""PixelTail Games"", ""Bethesda""]",http,0.0,16,none,"{""id"":""chatcmpl-lztulvjzxpi8e3geu4tvi"",""object"":""chat.completion"",""created"":1795596506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261125_084135,2026-11-25T08:48:27.992064+00:00
+1faa0ed7461e86a5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Manchester United's leading appearance maker?
+A. David Beckham
+B. Wayne Rooney
+C. Eric Cantona
+D. Ryan Giggs
+Answer:","[""David Beckham"", ""Wayne Rooney"", ""Eric Cantona"", ""Ryan Giggs""]",http,0.0,16,none,"{""id"":""chatcmpl-cyojm35p8sn31j5gn98ox5"",""object"":""chat.completion"",""created"":1795596507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261125_084135,2026-11-25T08:48:28.836106+00:00
+1faa0ed7461e86a5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Manchester United's leading appearance maker?
+A. David Beckham
+B. Wayne Rooney
+C. Eric Cantona
+D. Ryan Giggs
+Answer:","[""David Beckham"", ""Wayne Rooney"", ""Eric Cantona"", ""Ryan Giggs""]",http,0.0,16,none,"{""id"":""chatcmpl-ff8gtxcze2eki03jion99"",""object"":""chat.completion"",""created"":1795596508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T08:48:29.690758+00:00

@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+739085a279dd0299,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the default theme that is installed with Windows XP?
+A. Bliss
+B. Luna
+C. Neptune
+D. Whistler
+Answer:","[""Bliss"", ""Luna"", ""Neptune"", ""Whistler""]",http,0.0,16,none,"{""id"":""chatcmpl-nukhv7pu2pgq64vgdi3ga"",""object"":""chat.completion"",""created"":1795592559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T07:42:41.207210+00:00
+7edcbb6aed4d3a68,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Ruby Rose's weapon from RWBY?
+A. Crescent Rose
+B. Crooked Scythe
+C. Thorned Rosebud
+D. Magnhild
+Answer:","[""Crescent Rose"", ""Crooked Scythe"", ""Thorned Rosebud"", ""Magnhild""]",http,0.0,16,none,"{""id"":""chatcmpl-mrwg7nhyvxernk87rc0f3"",""object"":""chat.completion"",""created"":1795592560,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8865,,MarianeAzar,20261125_084135,2026-11-25T07:42:42.094121+00:00
+7edcbb6aed4d3a68,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Ruby Rose's weapon from RWBY?
+A. Crescent Rose
+B. Crooked Scythe
+C. Thorned Rosebud
+D. Magnhild
+Answer:","[""Crescent Rose"", ""Crooked Scythe"", ""Thorned Rosebud"", ""Magnhild""]",http,0.0,16,none,"{""id"":""chatcmpl-2hmpwobos1lh9va52hddhr"",""object"":""chat.completion"",""created"":1795592561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T07:42:42.949984+00:00
+e7762388e6ec0be5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Elder Scrolls V: Skyrim, who is the jester in the dark brotherhood?
+A. Archimedes
+B. Lucien Lachance
+C. Astrid
+D. Cicero
+Answer:","[""Archimedes"", ""Lucien Lachance"", ""Astrid"", ""Cicero""]",http,0.0,16,none,"{""id"":""chatcmpl-ypyu1az01njebuelv77xon"",""object"":""chat.completion"",""created"":1795592562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261125_084135,2026-11-25T07:42:43.827721+00:00
+e7762388e6ec0be5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Elder Scrolls V: Skyrim, who is the jester in the dark brotherhood?
+A. Archimedes
+B. Lucien Lachance
+C. Astrid
+D. Cicero
+Answer:","[""Archimedes"", ""Lucien Lachance"", ""Astrid"", ""Cicero""]",http,0.0,16,none,"{""id"":""chatcmpl-941fvcmee3ibjqas0n35y"",""object"":""chat.completion"",""created"":1795592563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8595,,MarianeAzar,20261125_084135,2026-11-25T07:42:44.687496+00:00
+1c436feb844bbe57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, the Antiquities, Ice Age, and Alliances expansions take place on which continent?
+A. Aerona
+B. Terisiare
+C. Shiv
+D. Jamuraa
+Answer:","[""Aerona"", ""Terisiare"", ""Shiv"", ""Jamuraa""]",http,0.0,16,none,"{""id"":""chatcmpl-08he7r3crolm9oqhz4gjl4v"",""object"":""chat.completion"",""created"":1795592564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8533,,MarianeAzar,20261125_084135,2026-11-25T07:42:45.541295+00:00
+1c436feb844bbe57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, the Antiquities, Ice Age, and Alliances expansions take place on which continent?
+A. Aerona
+B. Terisiare
+C. Shiv
+D. Jamuraa
+Answer:","[""Aerona"", ""Terisiare"", ""Shiv"", ""Jamuraa""]",http,0.0,16,none,"{""id"":""chatcmpl-vw0et833pcdtby5sx0rxsn"",""object"":""chat.completion"",""created"":1795592564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.88,,MarianeAzar,20261125_084135,2026-11-25T07:42:46.421473+00:00
+4284d797a05f2486,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Rocket League is a game which features..
+A. Submarines
+B. Cars
+C. Helicopters
+D. Planes
+Answer:","[""Submarines"", ""Cars"", ""Helicopters"", ""Planes""]",http,0.0,16,none,"{""id"":""chatcmpl-z5mqysqaosb0hr1kxout"",""object"":""chat.completion"",""created"":1795592565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T07:42:47.283901+00:00
+4284d797a05f2486,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Rocket League is a game which features..
+A. Submarines
+B. Cars
+C. Helicopters
+D. Planes
+Answer:","[""Submarines"", ""Cars"", ""Helicopters"", ""Planes""]",http,0.0,16,none,"{""id"":""chatcmpl-ktcbk5whmnljx9n4xpeqs"",""object"":""chat.completion"",""created"":1795592566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8471,,MarianeAzar,20261125_084135,2026-11-25T07:42:48.131235+00:00
+92cd5e7f699e6c08,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: You can tell the age of a ladybird by counting the spots on his back.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j4nd4e1enhrfo9h466man"",""object"":""chat.completion"",""created"":1795592567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8383,,MarianeAzar,20261125_084135,2026-11-25T07:42:48.969899+00:00
+92cd5e7f699e6c08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: You can tell the age of a ladybird by counting the spots on his back.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h6fu4sfsuupstsp95nkj4q"",""object"":""chat.completion"",""created"":1795592568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8405,,MarianeAzar,20261125_084135,2026-11-25T07:42:49.810557+00:00
+60eb1963d5a12f08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which town is the setting for the Disney movie The Love Bug (1968)?
+A. Sacramento
+B. San Francisco
+C. San Jose
+D. Los Angeles
+Answer:","[""Sacramento"", ""San Francisco"", ""San Jose"", ""Los Angeles""]",http,0.0,16,none,"{""id"":""chatcmpl-vonllhp8d8h1jsb4h7wq"",""object"":""chat.completion"",""created"":1795592569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8434,,MarianeAzar,20261125_084135,2026-11-25T07:42:50.654699+00:00
+60eb1963d5a12f08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which town is the setting for the Disney movie The Love Bug (1968)?
+A. Sacramento
+B. San Francisco
+C. San Jose
+D. Los Angeles
+Answer:","[""Sacramento"", ""San Francisco"", ""San Jose"", ""Los Angeles""]",http,0.0,16,none,"{""id"":""chatcmpl-079ucnc4iyo9e2tqnwu3os"",""object"":""chat.completion"",""created"":1795592570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261125_084135,2026-11-25T07:42:51.518192+00:00
+3433af992e6121d4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is 47 prefectures in Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iyabp1vohnhylba4lvpc3"",""object"":""chat.completion"",""created"":1795592570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8216,,MarianeAzar,20261125_084135,2026-11-25T07:42:52.340039+00:00
+3433af992e6121d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is 47 prefectures in Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-39bxs9k478h5zpdgi0racu"",""object"":""chat.completion"",""created"":1795592571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8127,,MarianeAzar,20261125_084135,2026-11-25T07:42:53.152889+00:00
+3e39b542e3b0c436,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name for a male bee that comes from an unfertilized egg?
+A. Drone
+B. Male
+C. Worker
+D. Soldier
+Answer:","[""Drone"", ""Male"", ""Worker"", ""Soldier""]",http,0.0,16,none,"{""id"":""chatcmpl-a2fl9vafa6hvr3d02ly6mj"",""object"":""chat.completion"",""created"":1795592572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261125_084135,2026-11-25T07:42:54.030069+00:00
+3e39b542e3b0c436,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name for a male bee that comes from an unfertilized egg?
+A. Drone
+B. Male
+C. Worker
+D. Soldier
+Answer:","[""Drone"", ""Male"", ""Worker"", ""Soldier""]",http,0.0,16,none,"{""id"":""chatcmpl-858xrv8aaww11rcyw9qfjnc"",""object"":""chat.completion"",""created"":1795592573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8476,,MarianeAzar,20261125_084135,2026-11-25T07:42:54.877969+00:00
+0240963982bf7f64,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Swedish DJ Tim Bergling, who produced songs such as ""Levels"" and ""Wake Me Up"", is better known under what alias?
+A. Alesso
+B. deadmau5
+C. Skrillex
+D. Avicii
+Answer:","[""Alesso"", ""deadmau5"", ""Skrillex"", ""Avicii""]",http,0.0,16,none,"{""id"":""chatcmpl-h2ycyagu2bohplvm1q31v4"",""object"":""chat.completion"",""created"":1795592574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T07:42:55.731116+00:00
+0240963982bf7f64,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Swedish DJ Tim Bergling, who produced songs such as ""Levels"" and ""Wake Me Up"", is better known under what alias?
+A. Alesso
+B. deadmau5
+C. Skrillex
+D. Avicii
+Answer:","[""Alesso"", ""deadmau5"", ""Skrillex"", ""Avicii""]",http,0.0,16,none,"{""id"":""chatcmpl-cx87wtyww0tq8bno0tjgtn"",""object"":""chat.completion"",""created"":1795592575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8934,,MarianeAzar,20261125_084135,2026-11-25T07:42:56.625006+00:00
+53cc6df32c0444ce,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?
+A. September 21st
+B. September 19th
+C. September 30th
+D. September 14th
+Answer:","[""September 21st"", ""September 19th"", ""September 30th"", ""September 14th""]",http,0.0,16,none,"{""id"":""chatcmpl-gfbhgq9pkdbjh64dgk2pf"",""object"":""chat.completion"",""created"":1795592576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T07:42:57.503567+00:00
+53cc6df32c0444ce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?
+A. September 21st
+B. September 19th
+C. September 30th
+D. September 14th
+Answer:","[""September 21st"", ""September 19th"", ""September 30th"", ""September 14th""]",http,0.0,16,none,"{""id"":""chatcmpl-kb9d6u3sfnt0yo0nj0f7j"",""object"":""chat.completion"",""created"":1795592576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T07:42:58.394499+00:00
+d55121a50db0562d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Peter Jackson's film series ""The Lord of the Rings"" was shot entirely in which country?
+A. Scotland
+B. New Zealand
+C. Canada
+D. Iceland
+Answer:","[""Scotland"", ""New Zealand"", ""Canada"", ""Iceland""]",http,0.0,16,none,"{""id"":""chatcmpl-5vi2g9qt7ioky8jzay6gzi"",""object"":""chat.completion"",""created"":1795592577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.893,,MarianeAzar,20261125_084135,2026-11-25T07:42:59.287803+00:00
+d55121a50db0562d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Peter Jackson's film series ""The Lord of the Rings"" was shot entirely in which country?
+A. Scotland
+B. New Zealand
+C. Canada
+D. Iceland
+Answer:","[""Scotland"", ""New Zealand"", ""Canada"", ""Iceland""]",http,0.0,16,none,"{""id"":""chatcmpl-u7x4j0db998olfb1b0zbe"",""object"":""chat.completion"",""created"":1795592578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T07:43:00.161917+00:00
+1f895f1db0ea641f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Mauritius?
+A. Port Moresby
+B. Port Vila
+C. Port-au-Prince
+D. Port Louis
+Answer:","[""Port Moresby"", ""Port Vila"", ""Port-au-Prince"", ""Port Louis""]",http,0.0,16,none,"{""id"":""chatcmpl-atfb2pipu73nzlxc82ndr"",""object"":""chat.completion"",""created"":1795592579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.85,,MarianeAzar,20261125_084135,2026-11-25T07:43:01.012127+00:00
+1f895f1db0ea641f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Mauritius?
+A. Port Moresby
+B. Port Vila
+C. Port-au-Prince
+D. Port Louis
+Answer:","[""Port Moresby"", ""Port Vila"", ""Port-au-Prince"", ""Port Louis""]",http,0.0,16,none,"{""id"":""chatcmpl-qez0g5qyg24v0oqdxwdyr"",""object"":""chat.completion"",""created"":1795592580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T07:43:01.872452+00:00

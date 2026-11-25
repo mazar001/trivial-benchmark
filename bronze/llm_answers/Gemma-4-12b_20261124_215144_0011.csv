@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+09b9916579dbae89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices for Ruby in the animated series RWBY?
+A. Hayden Panettiere
+B. Tara Strong
+C. Jessica Nigri
+D. Lindsay Jones
+Answer:","[""Hayden Panettiere"", ""Tara Strong"", ""Jessica Nigri"", ""Lindsay Jones""]",http,0.0,16,none,"{""id"":""chatcmpl-dazbg94vcsh33kx0f23jlz"",""object"":""chat.completion"",""created"":1795553819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9335,,MarianeAzar,20261124_215144,2026-11-24T20:57:00.594947+00:00
+16544e020cdf17e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are rhino's horn made of?
+A. Bone
+B. Skin
+C. Ivory
+D. Keratin
+Answer:","[""Bone"", ""Skin"", ""Ivory"", ""Keratin""]",http,0.0,16,none,"{""id"":""chatcmpl-zbvvahcf8dite5brsgwrf"",""object"":""chat.completion"",""created"":1795553820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0129,,MarianeAzar,20261124_215144,2026-11-24T20:57:01.608293+00:00
+16544e020cdf17e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are rhino's horn made of?
+A. Bone
+B. Skin
+C. Ivory
+D. Keratin
+Answer:","[""Bone"", ""Skin"", ""Ivory"", ""Keratin""]",http,0.0,16,none,"{""id"":""chatcmpl-u6i46xvxxqlz32w8dro3"",""object"":""chat.completion"",""created"":1795553821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3123,,MarianeAzar,20261124_215144,2026-11-24T20:57:02.920875+00:00
+dfbcedb7e85ce011,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first boss the player encounters in the 2017 game, ""Little Nightmares""?
+A. The Janitor
+B. The Warden
+C. The Overseer
+D. The Caretaker
+Answer:","[""The Janitor"", ""The Warden"", ""The Overseer"", ""The Caretaker""]",http,0.0,16,none,"{""id"":""chatcmpl-xsbxhpjxk1euye5weei8"",""object"":""chat.completion"",""created"":1795553822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0214,,MarianeAzar,20261124_215144,2026-11-24T20:57:03.942510+00:00
+dfbcedb7e85ce011,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first boss the player encounters in the 2017 game, ""Little Nightmares""?
+A. The Janitor
+B. The Warden
+C. The Overseer
+D. The Caretaker
+Answer:","[""The Janitor"", ""The Warden"", ""The Overseer"", ""The Caretaker""]",http,0.0,16,none,"{""id"":""chatcmpl-vdzllbhot2mp8szmp2kuko"",""object"":""chat.completion"",""created"":1795553823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.986,,MarianeAzar,20261124_215144,2026-11-24T20:57:04.928806+00:00
+c0a3dfcea0e97be5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, which of the following items does the Martian Saucer mini-boss NOT drop?
+A. Cosmic Car Key
+B. Drill Containment Unit
+C. Anti-Gravity Hook
+D. Influx Waver
+Answer:","[""Cosmic Car Key"", ""Drill Containment Unit"", ""Anti-Gravity Hook"", ""Influx Waver""]",http,0.0,16,none,"{""id"":""chatcmpl-vey2lhdzhvfzc9qg657tjn"",""object"":""chat.completion"",""created"":1795553824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.479,,MarianeAzar,20261124_215144,2026-11-24T20:57:06.408675+00:00
+c0a3dfcea0e97be5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, which of the following items does the Martian Saucer mini-boss NOT drop?
+A. Cosmic Car Key
+B. Drill Containment Unit
+C. Anti-Gravity Hook
+D. Influx Waver
+Answer:","[""Cosmic Car Key"", ""Drill Containment Unit"", ""Anti-Gravity Hook"", ""Influx Waver""]",http,0.0,16,none,"{""id"":""chatcmpl-8ksosodbdfb80pa040nfke"",""object"":""chat.completion"",""created"":1795553826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1269,,MarianeAzar,20261124_215144,2026-11-24T20:57:07.535799+00:00
+3cd466e96aa37643,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the assassin in the first ""Hellboy"" movie?
+A. Ilsa Haupstein
+B. Grigori Efimovich Rasputin
+C. Klaus Werner von Krupt
+D. Karl Ruprecht Kroenen
+Answer:","[""Ilsa Haupstein"", ""Grigori Efimovich Rasputin"", ""Klaus Werner von Krupt"", ""Karl Ruprecht Kroenen""]",http,0.0,16,none,"{""id"":""chatcmpl-ze2u5m10ytlaugcg73hb59"",""object"":""chat.completion"",""created"":1795553827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0229,,MarianeAzar,20261124_215144,2026-11-24T20:57:08.559259+00:00
+3cd466e96aa37643,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the assassin in the first ""Hellboy"" movie?
+A. Ilsa Haupstein
+B. Grigori Efimovich Rasputin
+C. Klaus Werner von Krupt
+D. Karl Ruprecht Kroenen
+Answer:","[""Ilsa Haupstein"", ""Grigori Efimovich Rasputin"", ""Klaus Werner von Krupt"", ""Karl Ruprecht Kroenen""]",http,0.0,16,none,"{""id"":""chatcmpl-0y7i47eld1jga2llw6kkxzd"",""object"":""chat.completion"",""created"":1795553828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3862,,MarianeAzar,20261124_215144,2026-11-24T20:57:09.945689+00:00
+d77987cfadd85a9c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chino Moreno is the lead singer of which alternative metal band?
+A. Korn
+B. Type O Negative
+C. Tool
+D. Deftones
+Answer:","[""Korn"", ""Type O Negative"", ""Tool"", ""Deftones""]",http,0.0,16,none,"{""id"":""chatcmpl-u8nu1n8pt59zgce4qro0g"",""object"":""chat.completion"",""created"":1795553829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9657,,MarianeAzar,20261124_215144,2026-11-24T20:57:10.911581+00:00
+d77987cfadd85a9c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chino Moreno is the lead singer of which alternative metal band?
+A. Korn
+B. Type O Negative
+C. Tool
+D. Deftones
+Answer:","[""Korn"", ""Type O Negative"", ""Tool"", ""Deftones""]",http,0.0,16,none,"{""id"":""chatcmpl-bo9ogyvceebjvhxl0i6as"",""object"":""chat.completion"",""created"":1795553830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9258,,MarianeAzar,20261124_215144,2026-11-24T20:57:11.837678+00:00
+19a492f11f5faa16,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which television show has Dan Gheesling been on?
+A. Big Brother
+B. Jeopardy
+C. The Bachelor
+D. Survivor
+Answer:","[""Big Brother"", ""Jeopardy"", ""The Bachelor"", ""Survivor""]",http,0.0,16,none,"{""id"":""chatcmpl-3uwqoez5o2ojzzud084ab"",""object"":""chat.completion"",""created"":1795553831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4314,,MarianeAzar,20261124_215144,2026-11-24T20:57:13.269349+00:00
+19a492f11f5faa16,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which television show has Dan Gheesling been on?
+A. Big Brother
+B. Jeopardy
+C. The Bachelor
+D. Survivor
+Answer:","[""Big Brother"", ""Jeopardy"", ""The Bachelor"", ""Survivor""]",http,0.0,16,none,"{""id"":""chatcmpl-5z6nnrkb8blwbt32e41gas"",""object"":""chat.completion"",""created"":1795553833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.012,,MarianeAzar,20261124_215144,2026-11-24T20:57:14.281618+00:00
+2c9e18ac020d02a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Japanese company is the world's largest manufacturer of motorcycles?
+A. Suzuki
+B. Honda
+C. Yamaha
+D. Kawasaki
+Answer:","[""Suzuki"", ""Honda"", ""Yamaha"", ""Kawasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-95j26z9q7270vtdmt54vd3g"",""object"":""chat.completion"",""created"":1795553834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9449,,MarianeAzar,20261124_215144,2026-11-24T20:57:15.226792+00:00
+2c9e18ac020d02a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Japanese company is the world's largest manufacturer of motorcycles?
+A. Suzuki
+B. Honda
+C. Yamaha
+D. Kawasaki
+Answer:","[""Suzuki"", ""Honda"", ""Yamaha"", ""Kawasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-jjhviq0hxpwmwpokeq0lk"",""object"":""chat.completion"",""created"":1795553835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2936,,MarianeAzar,20261124_215144,2026-11-24T20:57:16.520596+00:00
+5261bb2c6c3c02d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: After England, more Shakespeare plays are set in this present day country than in any other.
+A. United States
+B. Greece
+C. Italy
+D. France
+Answer:","[""United States"", ""Greece"", ""Italy"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-fc0rimq94vnyjvw40aw68"",""object"":""chat.completion"",""created"":1795553836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9179,,MarianeAzar,20261124_215144,2026-11-24T20:57:17.438929+00:00
+5261bb2c6c3c02d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: After England, more Shakespeare plays are set in this present day country than in any other.
+A. United States
+B. Greece
+C. Italy
+D. France
+Answer:","[""United States"", ""Greece"", ""Italy"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-0fiqlwit8yaatrq2ecfph6g"",""object"":""chat.completion"",""created"":1795553837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2325,,MarianeAzar,20261124_215144,2026-11-24T20:57:18.672195+00:00
+20a2648b218b4d82,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?
+A. Pope Urban IV
+B. Pope Stephen V
+C. Pope Valentine
+D. Pope Leo III
+Answer:","[""Pope Urban IV"", ""Pope Stephen V"", ""Pope Valentine"", ""Pope Leo III""]",http,0.0,16,none,"{""id"":""chatcmpl-6uuaw1tofd7a7w9vdteeru"",""object"":""chat.completion"",""created"":1795553838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3561,,MarianeAzar,20261124_215144,2026-11-24T20:57:20.028597+00:00
+20a2648b218b4d82,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?
+A. Pope Urban IV
+B. Pope Stephen V
+C. Pope Valentine
+D. Pope Leo III
+Answer:","[""Pope Urban IV"", ""Pope Stephen V"", ""Pope Valentine"", ""Pope Leo III""]",http,0.0,16,none,"{""id"":""chatcmpl-pn9fx428rtz90lshow7h"",""object"":""chat.completion"",""created"":1795553839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9268,,MarianeAzar,20261124_215144,2026-11-24T20:57:20.955600+00:00
+f3694c44bdcc7f94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress danced the twist with John Travolta in 'Pulp Fiction'?
+A. Kathy Griffin
+B. Uma Thurman
+C. Pam Grier
+D. Bridget Fonda
+Answer:","[""Kathy Griffin"", ""Uma Thurman"", ""Pam Grier"", ""Bridget Fonda""]",http,0.0,16,none,"{""id"":""chatcmpl-pydbytt5gwiofqwav2jwo"",""object"":""chat.completion"",""created"":1795553840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.257,,MarianeAzar,20261124_215144,2026-11-24T20:57:22.212821+00:00
+f3694c44bdcc7f94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress danced the twist with John Travolta in 'Pulp Fiction'?
+A. Kathy Griffin
+B. Uma Thurman
+C. Pam Grier
+D. Bridget Fonda
+Answer:","[""Kathy Griffin"", ""Uma Thurman"", ""Pam Grier"", ""Bridget Fonda""]",http,0.0,16,none,"{""id"":""chatcmpl-o99nmmw500oc83jf91p9bm"",""object"":""chat.completion"",""created"":1795553842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3345,,MarianeAzar,20261124_215144,2026-11-24T20:57:23.547605+00:00
+a17abd988b000dc8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was tried at the Nuremberg trials.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1cffkuy4sch7lmuv1ki30h"",""object"":""chat.completion"",""created"":1795553843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9165,,MarianeAzar,20261124_215144,2026-11-24T20:57:24.464262+00:00
+a17abd988b000dc8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was tried at the Nuremberg trials.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d0ji5p2hqjoqizfp0qhkq"",""object"":""chat.completion"",""created"":1795553844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9919,,MarianeAzar,20261124_215144,2026-11-24T20:57:25.456432+00:00
+f913910fbe185c56,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many stars are there to collect in Super Mario 64?
+A. 60
+B. 80
+C. 120
+D. 100
+Answer:","[""60"", ""80"", ""120"", ""100""]",http,0.0,16,none,"{""id"":""chatcmpl-8xy6j1zf8kimshuhhnqi"",""object"":""chat.completion"",""created"":1795553845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4318,,MarianeAzar,20261124_215144,2026-11-24T20:57:26.888494+00:00
+f913910fbe185c56,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many stars are there to collect in Super Mario 64?
+A. 60
+B. 80
+C. 120
+D. 100
+Answer:","[""60"", ""80"", ""120"", ""100""]",http,0.0,16,none,"{""id"":""chatcmpl-8ke7ijw1pbeibl6ymp4e5h"",""object"":""chat.completion"",""created"":1795553846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0097,,MarianeAzar,20261124_215144,2026-11-24T20:57:27.898423+00:00

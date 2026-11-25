@@ -1,0 +1,176 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d424d64a24ef8ffb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The teapot often seen in many 3D modeling applications is called what?
+A. Utah Teapot
+B. Pixar Teapot
+C. 3D Teapot
+D. Tennessee Teapot
+Answer:","[""Utah Teapot"", ""Pixar Teapot"", ""3D Teapot"", ""Tennessee Teapot""]",http,0.0,16,none,"{""id"":""chatcmpl-vq4dlhri42hinismnv2alp"",""object"":""chat.completion"",""created"":1795558491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261124_215144,2026-11-24T22:14:52.711973+00:00
+d424d64a24ef8ffb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The teapot often seen in many 3D modeling applications is called what?
+A. Utah Teapot
+B. Pixar Teapot
+C. 3D Teapot
+D. Tennessee Teapot
+Answer:","[""Utah Teapot"", ""Pixar Teapot"", ""3D Teapot"", ""Tennessee Teapot""]",http,0.0,16,none,"{""id"":""chatcmpl-ngdv7qiv58g27s9a7ld2k"",""object"":""chat.completion"",""created"":1795558492,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261124_215144,2026-11-24T22:14:53.596379+00:00
+f2195ac03c590c48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game DOTA 2, which of these is NOT a hero?
+A. Mirana
+B. Keeper of the Light
+C. Dragon Champion
+D. Dark Seer
+Answer:","[""Mirana"", ""Keeper of the Light"", ""Dragon Champion"", ""Dark Seer""]",http,0.0,16,none,"{""id"":""chatcmpl-4ch1a1ut5iad1rxc5asp6"",""object"":""chat.completion"",""created"":1795558493,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8673,,MarianeAzar,20261124_215144,2026-11-24T22:14:54.464068+00:00
+f2195ac03c590c48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game DOTA 2, which of these is NOT a hero?
+A. Mirana
+B. Keeper of the Light
+C. Dragon Champion
+D. Dark Seer
+Answer:","[""Mirana"", ""Keeper of the Light"", ""Dragon Champion"", ""Dark Seer""]",http,0.0,16,none,"{""id"":""chatcmpl-qkmlppnmgkk7yarjdj23j"",""object"":""chat.completion"",""created"":1795558494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261124_215144,2026-11-24T22:14:55.349897+00:00
+b6d6aa773ca8a6c3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Little Lost Girl"" Easter Egg in Call of Duty: Black Ops II, what's the last step required for the achievement?
+A. Freedom
+B. Raise Hell
+C. Ascend from Darkness
+D. Skewer the Winged Beast
+Answer:","[""Freedom"", ""Raise Hell"", ""Ascend from Darkness"", ""Skewer the Winged Beast""]",http,0.0,16,none,"{""id"":""chatcmpl-3aoahy8d8hgz8egqhev3sn"",""object"":""chat.completion"",""created"":1795558495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261124_215144,2026-11-24T22:14:56.216835+00:00
+b6d6aa773ca8a6c3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Little Lost Girl"" Easter Egg in Call of Duty: Black Ops II, what's the last step required for the achievement?
+A. Freedom
+B. Raise Hell
+C. Ascend from Darkness
+D. Skewer the Winged Beast
+Answer:","[""Freedom"", ""Raise Hell"", ""Ascend from Darkness"", ""Skewer the Winged Beast""]",http,0.0,16,none,"{""id"":""chatcmpl-irymcqt45xozew9d2sot"",""object"":""chat.completion"",""created"":1795558496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8964,,MarianeAzar,20261124_215144,2026-11-24T22:14:57.113475+00:00
+7dc6790631dd2243,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Suriname?
+A. Tegucigalpa
+B. Antananarivo
+C. Paramaribo
+D. Sucre
+Answer:","[""Tegucigalpa"", ""Antananarivo"", ""Paramaribo"", ""Sucre""]",http,0.0,16,none,"{""id"":""chatcmpl-d28e8gp8nld5jyjnokvzf"",""object"":""chat.completion"",""created"":1795558497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8787,,MarianeAzar,20261124_215144,2026-11-24T22:14:57.992457+00:00
+7dc6790631dd2243,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Suriname?
+A. Tegucigalpa
+B. Antananarivo
+C. Paramaribo
+D. Sucre
+Answer:","[""Tegucigalpa"", ""Antananarivo"", ""Paramaribo"", ""Sucre""]",http,0.0,16,none,"{""id"":""chatcmpl-1sg4ez7gqg8oephfgtnzg"",""object"":""chat.completion"",""created"":1795558497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261124_215144,2026-11-24T22:14:58.849983+00:00
+ce7a28cb60069003,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The World Health Organization headquarters is located in which European country?
+A. United Kingdom
+B. Switzerland
+C. Belgium
+D. France
+Answer:","[""United Kingdom"", ""Switzerland"", ""Belgium"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-n66fchrsly8onm2kuc2wx"",""object"":""chat.completion"",""created"":1795558498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8475,,MarianeAzar,20261124_215144,2026-11-24T22:14:59.697877+00:00
+ce7a28cb60069003,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The World Health Organization headquarters is located in which European country?
+A. United Kingdom
+B. Switzerland
+C. Belgium
+D. France
+Answer:","[""United Kingdom"", ""Switzerland"", ""Belgium"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-yxeokuu36n00b044xooi78"",""object"":""chat.completion"",""created"":1795558499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261124_215144,2026-11-24T22:15:00.547158+00:00
+1d1b1681b4c10474,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By which name is Ramon Estevez better known as?
+A. Charlie Sheen
+B. Martin Sheen
+C. Ramon Sheen
+D. Emilio Estevez
+Answer:","[""Charlie Sheen"", ""Martin Sheen"", ""Ramon Sheen"", ""Emilio Estevez""]",http,0.0,16,none,"{""id"":""chatcmpl-q0ke21n6yyabgsldhoyff"",""object"":""chat.completion"",""created"":1795558500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261124_215144,2026-11-24T22:15:01.399474+00:00
+1d1b1681b4c10474,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By which name is Ramon Estevez better known as?
+A. Charlie Sheen
+B. Martin Sheen
+C. Ramon Sheen
+D. Emilio Estevez
+Answer:","[""Charlie Sheen"", ""Martin Sheen"", ""Ramon Sheen"", ""Emilio Estevez""]",http,0.0,16,none,"{""id"":""chatcmpl-b9832lvoi4je1cg43y05"",""object"":""chat.completion"",""created"":1795558501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261124_215144,2026-11-24T22:15:02.254077+00:00
+474a79884c1f1811,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rick and Morty"", from which dimension do Rick and Morty originate from?
+A. C-137
+B. C-136
+C. J1977
+D. C500-a
+Answer:","[""C-137"", ""C-136"", ""J1977"", ""C500-a""]",http,0.0,16,none,"{""id"":""chatcmpl-h0135bhgkise5bnlyfpjlw"",""object"":""chat.completion"",""created"":1795558502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261124_215144,2026-11-24T22:15:03.123340+00:00
+474a79884c1f1811,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rick and Morty"", from which dimension do Rick and Morty originate from?
+A. C-137
+B. C-136
+C. J1977
+D. C500-a
+Answer:","[""C-137"", ""C-136"", ""J1977"", ""C500-a""]",http,0.0,16,none,"{""id"":""chatcmpl-5ekn2456bqwjfqzlmq5az"",""object"":""chat.completion"",""created"":1795558503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8974,,MarianeAzar,20261124_215144,2026-11-24T22:15:04.021070+00:00
+4545985edc1996a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress married Michael Douglas in 2000?
+A. Sara Sugarman
+B. Catherine Zeta-Jones
+C. Ruth Jones
+D. Pam Ferris
+Answer:","[""Sara Sugarman"", ""Catherine Zeta-Jones"", ""Ruth Jones"", ""Pam Ferris""]",http,0.0,16,none,"{""id"":""chatcmpl-zj1zw7ubfidbnhoerrvc5g"",""object"":""chat.completion"",""created"":1795558503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8778,,MarianeAzar,20261124_215144,2026-11-24T22:15:04.899130+00:00
+4545985edc1996a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress married Michael Douglas in 2000?
+A. Sara Sugarman
+B. Catherine Zeta-Jones
+C. Ruth Jones
+D. Pam Ferris
+Answer:","[""Sara Sugarman"", ""Catherine Zeta-Jones"", ""Ruth Jones"", ""Pam Ferris""]",http,0.0,16,none,"{""id"":""chatcmpl-ewfagoa0r4wpw4xa29obn"",""object"":""chat.completion"",""created"":1795558504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8688,,MarianeAzar,20261124_215144,2026-11-24T22:15:05.768424+00:00
+cae35d3f9d7accc3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Battleblock Theater, what was the name of the voice actor who voiced the narrator?
+A. Will Stamper
+B. Steve Blum
+C. Yuri Lowenthal
+D. Richard Epcar
+Answer:","[""Will Stamper"", ""Steve Blum"", ""Yuri Lowenthal"", ""Richard Epcar""]",http,0.0,16,none,"{""id"":""chatcmpl-bl64r65c9fu2jr2uaok1l"",""object"":""chat.completion"",""created"":1795558505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261124_215144,2026-11-24T22:15:06.624658+00:00
+cae35d3f9d7accc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Battleblock Theater, what was the name of the voice actor who voiced the narrator?
+A. Will Stamper
+B. Steve Blum
+C. Yuri Lowenthal
+D. Richard Epcar
+Answer:","[""Will Stamper"", ""Steve Blum"", ""Yuri Lowenthal"", ""Richard Epcar""]",http,0.0,16,none,"{""id"":""chatcmpl-apnshnq1bbj4yyaq4zvtvo"",""object"":""chat.completion"",""created"":1795558506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261124_215144,2026-11-24T22:15:07.502480+00:00
+137f52c3f98d97d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the video game ""P.A.M.E.L.A."" released on Steam?
+A. January 7, 2007
+B. March 9, 2017
+C. February 16, 2015
+D. October 23, 1997
+Answer:","[""January 7, 2007"", ""March 9, 2017"", ""February 16, 2015"", ""October 23, 1997""]",http,0.0,16,none,"{""id"":""chatcmpl-88v6lruheetsasrp0ehdb"",""object"":""chat.completion"",""created"":1795558507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9329,,MarianeAzar,20261124_215144,2026-11-24T22:15:08.435767+00:00
+137f52c3f98d97d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the video game ""P.A.M.E.L.A."" released on Steam?
+A. January 7, 2007
+B. March 9, 2017
+C. February 16, 2015
+D. October 23, 1997
+Answer:","[""January 7, 2007"", ""March 9, 2017"", ""February 16, 2015"", ""October 23, 1997""]",http,0.0,16,none,"{""id"":""chatcmpl-fn6ebfv4iymrloy7byqoi"",""object"":""chat.completion"",""created"":1795558508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9169,,MarianeAzar,20261124_215144,2026-11-24T22:15:09.352960+00:00
+fac883528169b641,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Resident Evil 4 was originally meant to be a Nintendo GameCube exclusive.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qassdkcxd3p0gwl09vlzp7l"",""object"":""chat.completion"",""created"":1795558509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261124_215144,2026-11-24T22:15:10.209094+00:00
+fac883528169b641,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Resident Evil 4 was originally meant to be a Nintendo GameCube exclusive.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-neu5tncbw9akl07lc1rlj"",""object"":""chat.completion"",""created"":1795558510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8201,,MarianeAzar,20261124_215144,2026-11-24T22:15:11.029425+00:00
+816bdb3eead7bb7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the spy ring that helped the United States win the Revolutionary War?
+A. Culper Ring
+B. Washington's Spies
+C. New York Spy Ring
+D. Unnamed
+Answer:","[""Culper Ring"", ""Washington's Spies"", ""New York Spy Ring"", ""Unnamed""]",http,0.0,16,none,"{""id"":""chatcmpl-baexcgp6y5u0kfwfnor9ff"",""object"":""chat.completion"",""created"":1795558510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261124_215144,2026-11-24T22:15:11.895787+00:00
+816bdb3eead7bb7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the spy ring that helped the United States win the Revolutionary War?
+A. Culper Ring
+B. Washington's Spies
+C. New York Spy Ring
+D. Unnamed
+Answer:","[""Culper Ring"", ""Washington's Spies"", ""New York Spy Ring"", ""Unnamed""]",http,0.0,16,none,"{""id"":""chatcmpl-xo8ux5cfbscgmg73dzgff9"",""object"":""chat.completion"",""created"":1795558511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9012,,MarianeAzar,20261124_215144,2026-11-24T22:15:12.797268+00:00
+652ed9c1cfd7e5b8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The United States of America declared their independence from the British Empire on July 4th, 1776.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hl6nblsj88vxrly359ewlj"",""object"":""chat.completion"",""created"":1795558512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8387,,MarianeAzar,20261124_215144,2026-11-24T22:15:13.636105+00:00

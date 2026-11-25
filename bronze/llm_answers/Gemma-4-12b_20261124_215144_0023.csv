@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+613933bcf49573fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these teams isn't a member of the NHL's ""Original Six"" era?
+A. Boston Bruins
+B. Philadelphia Flyers
+C. New York Rangers
+D. Toronto Maple Leafs
+Answer:","[""Boston Bruins"", ""Philadelphia Flyers"", ""New York Rangers"", ""Toronto Maple Leafs""]",http,0.0,16,none,"{""id"":""chatcmpl-bxxn3a8n0itdiyzx70vxxs"",""object"":""chat.completion"",""created"":1795554127,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261124_215144,2026-11-24T21:02:08.037289+00:00
+0e2d7e7bd04588e9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Chevrolet Corvette has always been made exclusively with V8 engines only.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x5nmkpzdehxq5q1rewqv"",""object"":""chat.completion"",""created"":1795554127,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8023,,MarianeAzar,20261124_215144,2026-11-24T21:02:08.839785+00:00
+0e2d7e7bd04588e9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Chevrolet Corvette has always been made exclusively with V8 engines only.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r5l2puxle3n73wjvue6wsv"",""object"":""chat.completion"",""created"":1795554128,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8134,,MarianeAzar,20261124_215144,2026-11-24T21:02:09.653419+00:00
+11c96f47c06d0f6e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Day of Defeat"" series of games take place during which war?
+A. Iraq War
+B. World War I
+C. Vietnam War
+D. World War II
+Answer:","[""Iraq War"", ""World War I"", ""Vietnam War"", ""World War II""]",http,0.0,16,none,"{""id"":""chatcmpl-pkltqbpri3k265my7b2qli"",""object"":""chat.completion"",""created"":1795554129,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8437,,MarianeAzar,20261124_215144,2026-11-24T21:02:10.497425+00:00
+11c96f47c06d0f6e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Day of Defeat"" series of games take place during which war?
+A. Iraq War
+B. World War I
+C. Vietnam War
+D. World War II
+Answer:","[""Iraq War"", ""World War I"", ""Vietnam War"", ""World War II""]",http,0.0,16,none,"{""id"":""chatcmpl-pppexuso59e1wx4a6uwxly"",""object"":""chat.completion"",""created"":1795554130,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261124_215144,2026-11-24T21:02:11.364444+00:00
+3102ac28c6e3b8e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By what name is Carlos Estevez better known?
+A. Bruno Mars
+B. Ricky Martin
+C. Charlie Sheen
+D. Joaquin Phoenix
+Answer:","[""Bruno Mars"", ""Ricky Martin"", ""Charlie Sheen"", ""Joaquin Phoenix""]",http,0.0,16,none,"{""id"":""chatcmpl-up2f6micbkmik6uz8mnxf"",""object"":""chat.completion"",""created"":1795554131,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8486,,MarianeAzar,20261124_215144,2026-11-24T21:02:12.213983+00:00
+3102ac28c6e3b8e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By what name is Carlos Estevez better known?
+A. Bruno Mars
+B. Ricky Martin
+C. Charlie Sheen
+D. Joaquin Phoenix
+Answer:","[""Bruno Mars"", ""Ricky Martin"", ""Charlie Sheen"", ""Joaquin Phoenix""]",http,0.0,16,none,"{""id"":""chatcmpl-j96reyz17mmg6gloz9zgui"",""object"":""chat.completion"",""created"":1795554132,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261124_215144,2026-11-24T21:02:13.078833+00:00
+54c1cffcfb90f4b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?
+A. 1.58 x 10^22
+B. 1.58 x 10^20
+C. 1.58 x 10^18
+D. 1.58 x 10^24
+Answer:","[""1.58 x 10^22"", ""1.58 x 10^20"", ""1.58 x 10^18"", ""1.58 x 10^24""]",http,0.0,16,none,"{""id"":""chatcmpl-q3zi98e8ek0eyz1gtapekg"",""object"":""chat.completion"",""created"":1795554132,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9063,,MarianeAzar,20261124_215144,2026-11-24T21:02:13.985803+00:00
+54c1cffcfb90f4b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?
+A. 1.58 x 10^22
+B. 1.58 x 10^20
+C. 1.58 x 10^18
+D. 1.58 x 10^24
+Answer:","[""1.58 x 10^22"", ""1.58 x 10^20"", ""1.58 x 10^18"", ""1.58 x 10^24""]",http,0.0,16,none,"{""id"":""chatcmpl-ljokv48m0wd6zqgqnpde"",""object"":""chat.completion"",""created"":1795554133,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":142,""completion_tokens"":2,""total_tokens"":144,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0046,,MarianeAzar,20261124_215144,2026-11-24T21:02:14.990890+00:00
+919ff4f9ac8da15c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the three astronauts of the Apollo 11 spaceflight did NOT walk on the moon?
+A. Neil Armstrong
+B. None of them
+C. Buzz Aldrin
+D. Michael Collins
+Answer:","[""Neil Armstrong"", ""None of them"", ""Buzz Aldrin"", ""Michael Collins""]",http,0.0,16,none,"{""id"":""chatcmpl-xrmqkbqh7fxmj9q4wcfk8"",""object"":""chat.completion"",""created"":1795554134,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9039,,MarianeAzar,20261124_215144,2026-11-24T21:02:15.895349+00:00
+919ff4f9ac8da15c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the three astronauts of the Apollo 11 spaceflight did NOT walk on the moon?
+A. Neil Armstrong
+B. None of them
+C. Buzz Aldrin
+D. Michael Collins
+Answer:","[""Neil Armstrong"", ""None of them"", ""Buzz Aldrin"", ""Michael Collins""]",http,0.0,16,none,"{""id"":""chatcmpl-sut0tegvmtxhxnb3nkiy"",""object"":""chat.completion"",""created"":1795554135,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261124_215144,2026-11-24T21:02:16.779435+00:00
+595423b1da74edc7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bugatti was an Italian car manufacturer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k828kb5wf9qvw2q9zmpo"",""object"":""chat.completion"",""created"":1795554136,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7881,,MarianeAzar,20261124_215144,2026-11-24T21:02:17.567753+00:00
+595423b1da74edc7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bugatti was an Italian car manufacturer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y6h8ckgizxteasap5k2a"",""object"":""chat.completion"",""created"":1795554137,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.81,,MarianeAzar,20261124_215144,2026-11-24T21:02:18.377908+00:00
+072e3c6d52b1d69b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which countries participated in the Lobster War?
+A. France and Brazil
+B. United States and England
+C. Australia and New Zealand
+D. Canada and Norway
+Answer:","[""France and Brazil"", ""United States and England"", ""Australia and New Zealand"", ""Canada and Norway""]",http,0.0,16,none,"{""id"":""chatcmpl-1xs21aedq9u990mpc62xx"",""object"":""chat.completion"",""created"":1795554138,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8372,,MarianeAzar,20261124_215144,2026-11-24T21:02:19.215401+00:00
+072e3c6d52b1d69b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which countries participated in the Lobster War?
+A. France and Brazil
+B. United States and England
+C. Australia and New Zealand
+D. Canada and Norway
+Answer:","[""France and Brazil"", ""United States and England"", ""Australia and New Zealand"", ""Canada and Norway""]",http,0.0,16,none,"{""id"":""chatcmpl-wmdsypc17icqwfce98hyw"",""object"":""chat.completion"",""created"":1795554139,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261124_215144,2026-11-24T21:02:20.073549+00:00
+f866ef54f417fdb9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: African-American performer Sammy Davis Jr. was known for losing which part of his body in a car accident?
+A. Nose
+B. Right Ear
+C. Right Middle Finger
+D. Left Eye
+Answer:","[""Nose"", ""Right Ear"", ""Right Middle Finger"", ""Left Eye""]",http,0.0,16,none,"{""id"":""chatcmpl-rz4k2xiyiu7k88j9ikfk"",""object"":""chat.completion"",""created"":1795554139,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261124_215144,2026-11-24T21:02:20.928408+00:00
+f866ef54f417fdb9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: African-American performer Sammy Davis Jr. was known for losing which part of his body in a car accident?
+A. Nose
+B. Right Ear
+C. Right Middle Finger
+D. Left Eye
+Answer:","[""Nose"", ""Right Ear"", ""Right Middle Finger"", ""Left Eye""]",http,0.0,16,none,"{""id"":""chatcmpl-67yutsor484ucyfp4sjly"",""object"":""chat.completion"",""created"":1795554140,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8835,,MarianeAzar,20261124_215144,2026-11-24T21:02:21.812352+00:00
+cb7077e4288ce8ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?
+A. The Great Mouse Detecive
+B. The Black Cauldron
+C. Animalympics
+D. The Fox and the Hound
+Answer:","[""The Great Mouse Detecive"", ""The Black Cauldron"", ""Animalympics"", ""The Fox and the Hound""]",http,0.0,16,none,"{""id"":""chatcmpl-ebo798unike6wctzfl7h"",""object"":""chat.completion"",""created"":1795554141,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261124_215144,2026-11-24T21:02:22.670804+00:00
+cb7077e4288ce8ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animated film did Steven Lisberger direct in 1980 before going on to direct Tron?
+A. The Great Mouse Detecive
+B. The Black Cauldron
+C. Animalympics
+D. The Fox and the Hound
+Answer:","[""The Great Mouse Detecive"", ""The Black Cauldron"", ""Animalympics"", ""The Fox and the Hound""]",http,0.0,16,none,"{""id"":""chatcmpl-w196d32wmm7929gcfmf5f"",""object"":""chat.completion"",""created"":1795554142,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261124_215144,2026-11-24T21:02:23.563170+00:00
+d8a807eec742d0fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cities does NOT have a United States Minting location?
+A. Philidelphia, PA
+B. West Point, NY
+C. San Fransisco, CA
+D. St. Louis, MO
+Answer:","[""Philidelphia, PA"", ""West Point, NY"", ""San Fransisco, CA"", ""St. Louis, MO""]",http,0.0,16,none,"{""id"":""chatcmpl-loy0dxkcos2xck50dpv7s"",""object"":""chat.completion"",""created"":1795554143,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8863,,MarianeAzar,20261124_215144,2026-11-24T21:02:24.449827+00:00
+d8a807eec742d0fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cities does NOT have a United States Minting location?
+A. Philidelphia, PA
+B. West Point, NY
+C. San Fransisco, CA
+D. St. Louis, MO
+Answer:","[""Philidelphia, PA"", ""West Point, NY"", ""San Fransisco, CA"", ""St. Louis, MO""]",http,0.0,16,none,"{""id"":""chatcmpl-xgzj8m1dwnnhxsg2nxu01t"",""object"":""chat.completion"",""created"":1795554144,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261124_215144,2026-11-24T21:02:25.337147+00:00
+3e861705f4fc583a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What system was ""Touhou: Highly Responsive to Prayers"" released on?
+A. Windows ME
+B. Windows 98
+C. OSX 10.9.5
+D. PC-98
+Answer:","[""Windows ME"", ""Windows 98"", ""OSX 10.9.5"", ""PC-98""]",http,0.0,16,none,"{""id"":""chatcmpl-460vlrd8ldd7ppzf4i6i4"",""object"":""chat.completion"",""created"":1795554145,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261124_215144,2026-11-24T21:02:26.195361+00:00
+3e861705f4fc583a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What system was ""Touhou: Highly Responsive to Prayers"" released on?
+A. Windows ME
+B. Windows 98
+C. OSX 10.9.5
+D. PC-98
+Answer:","[""Windows ME"", ""Windows 98"", ""OSX 10.9.5"", ""PC-98""]",http,0.0,16,none,"{""id"":""chatcmpl-1f7do9crjzxl2fhy96c21g"",""object"":""chat.completion"",""created"":1795554146,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8777,,MarianeAzar,20261124_215144,2026-11-24T21:02:27.073363+00:00
+7e7cbe45e86375dc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: British actor David Morrissey stars as which role in ""The Walking Dead""?
+A. Negan
+B. Daryl Dixon
+C. Rick Grimes
+D. The Governor
+Answer:","[""Negan"", ""Daryl Dixon"", ""Rick Grimes"", ""The Governor""]",http,0.0,16,none,"{""id"":""chatcmpl-k0sktgy36v0yg3kpu69no"",""object"":""chat.completion"",""created"":1795554146,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8491,,MarianeAzar,20261124_215144,2026-11-24T21:02:27.922730+00:00
+7e7cbe45e86375dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: British actor David Morrissey stars as which role in ""The Walking Dead""?
+A. Negan
+B. Daryl Dixon
+C. Rick Grimes
+D. The Governor
+Answer:","[""Negan"", ""Daryl Dixon"", ""Rick Grimes"", ""The Governor""]",http,0.0,16,none,"{""id"":""chatcmpl-ikv1ayun8re15e61c8dps"",""object"":""chat.completion"",""created"":1795554147,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8701,,MarianeAzar,20261124_215144,2026-11-24T21:02:28.793250+00:00

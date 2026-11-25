@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8c400e735aec3d02,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Former United States President Bill Clinton famously played which instrument?
+A. Saxophone
+B. Piano
+C. Violin
+D. Baritone horn
+Answer:","[""Saxophone"", ""Piano"", ""Violin"", ""Baritone horn""]",http,0.0,16,none,"{""id"":""chatcmpl-yos0laefnjerjtfvuc6xf"",""object"":""chat.completion"",""created"":1795595697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T08:34:59.045710+00:00
+23148e65b5af6802,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Along with Gabe Newell, who co-founded Valve?
+A. Marc Laidlaw
+B. Robin Walker
+C. Stephen Bahl
+D. Mike Harrington
+Answer:","[""Marc Laidlaw"", ""Robin Walker"", ""Stephen Bahl"", ""Mike Harrington""]",http,0.0,16,none,"{""id"":""chatcmpl-ir97z8en7rmisnm8msep1"",""object"":""chat.completion"",""created"":1795595698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8491,,MarianeAzar,20261125_084135,2026-11-25T08:34:59.895034+00:00
+23148e65b5af6802,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Along with Gabe Newell, who co-founded Valve?
+A. Marc Laidlaw
+B. Robin Walker
+C. Stephen Bahl
+D. Mike Harrington
+Answer:","[""Marc Laidlaw"", ""Robin Walker"", ""Stephen Bahl"", ""Mike Harrington""]",http,0.0,16,none,"{""id"":""chatcmpl-45c441yfkelf232668yu6s"",""object"":""chat.completion"",""created"":1795595699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:35:00.753667+00:00
+11a7761f98fb8116,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sonoran Desert is located in eastern Africa.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qcgx5yzs3inzw8exj950g"",""object"":""chat.completion"",""created"":1795595700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7939,,MarianeAzar,20261125_084135,2026-11-25T08:35:01.547941+00:00
+11a7761f98fb8116,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sonoran Desert is located in eastern Africa.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-34qyvfcpl3j27l6bebh97w"",""object"":""chat.completion"",""created"":1795595700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8183,,MarianeAzar,20261125_084135,2026-11-25T08:35:02.366447+00:00
+fe6220e426969fac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Overwatch, which ape species is the hero Winston?
+A. Chimpanzee
+B. Gorilla
+C. Orangutan
+D. Gibbon
+Answer:","[""Chimpanzee"", ""Gorilla"", ""Orangutan"", ""Gibbon""]",http,0.0,16,none,"{""id"":""chatcmpl-itzejs9km60bjt6twk2kn"",""object"":""chat.completion"",""created"":1795595701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:35:03.219278+00:00
+fe6220e426969fac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Overwatch, which ape species is the hero Winston?
+A. Chimpanzee
+B. Gorilla
+C. Orangutan
+D. Gibbon
+Answer:","[""Chimpanzee"", ""Gorilla"", ""Orangutan"", ""Gibbon""]",http,0.0,16,none,"{""id"":""chatcmpl-8nfqky8s3mfyltmeudontc"",""object"":""chat.completion"",""created"":1795595702,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T08:35:04.071009+00:00
+59a89014e2309374,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The human heart has how many chambers?
+A. 2
+B. 4
+C. 6
+D. 3
+Answer:","[""2"", ""4"", ""6"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-88r2yjl5bf5ytpb0p6j4a8"",""object"":""chat.completion"",""created"":1795595703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8459,,MarianeAzar,20261125_084135,2026-11-25T08:35:04.917551+00:00
+59a89014e2309374,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The human heart has how many chambers?
+A. 2
+B. 4
+C. 6
+D. 3
+Answer:","[""2"", ""4"", ""6"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-jw3w7euuxcfkp6xuofgzcr"",""object"":""chat.completion"",""created"":1795595704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8714,,MarianeAzar,20261125_084135,2026-11-25T08:35:05.789204+00:00
+5a3c8e07284b9639,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band had hits in 1972 with the songs ""Baby I'm A Want You"", ""Everything I Own"" and ""The Guitar Man""
+A. Chicago
+B. America
+C. Bread
+D. Smokie
+Answer:","[""Chicago"", ""America"", ""Bread"", ""Smokie""]",http,0.0,16,none,"{""id"":""chatcmpl-3pboac2kcf14ccbg4tjjmk"",""object"":""chat.completion"",""created"":1795595705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:35:06.650751+00:00
+5a3c8e07284b9639,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band had hits in 1972 with the songs ""Baby I'm A Want You"", ""Everything I Own"" and ""The Guitar Man""
+A. Chicago
+B. America
+C. Bread
+D. Smokie
+Answer:","[""Chicago"", ""America"", ""Bread"", ""Smokie""]",http,0.0,16,none,"{""id"":""chatcmpl-psnpscf3fljbkl0j1mrg09"",""object"":""chat.completion"",""created"":1795595706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9002,,MarianeAzar,20261125_084135,2026-11-25T08:35:07.551331+00:00
+52e465fdf489155d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Spaceballs"", what are the Spaceballs attempting to steal from Planet Druidia?
+A. Meatballs
+B. Princess Lonestar
+C. Air
+D. The Schwartz
+Answer:","[""Meatballs"", ""Princess Lonestar"", ""Air"", ""The Schwartz""]",http,0.0,16,none,"{""id"":""chatcmpl-gofccrt8kqewwm8im2rxqk"",""object"":""chat.completion"",""created"":1795595706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261125_084135,2026-11-25T08:35:08.410632+00:00
+52e465fdf489155d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Spaceballs"", what are the Spaceballs attempting to steal from Planet Druidia?
+A. Meatballs
+B. Princess Lonestar
+C. Air
+D. The Schwartz
+Answer:","[""Meatballs"", ""Princess Lonestar"", ""Air"", ""The Schwartz""]",http,0.0,16,none,"{""id"":""chatcmpl-hryef0hp318s0akbb9kq6i"",""object"":""chat.completion"",""created"":1795595707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:35:09.272216+00:00
+425ff0c84ae307d5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The surface area of Russia is slightly larger than that of the dwarf planet Pluto.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q78hcu9g68cv08z6g8a8cn"",""object"":""chat.completion"",""created"":1795595708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8096,,MarianeAzar,20261125_084135,2026-11-25T08:35:10.082050+00:00
+425ff0c84ae307d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The surface area of Russia is slightly larger than that of the dwarf planet Pluto.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pkxbb3hglm9ed7dtq3vh0o"",""object"":""chat.completion"",""created"":1795595709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T08:35:10.928601+00:00
+07d09c607db3f095,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the only US President to be elected four times?
+A. Franklin Roosevelt
+B. Abraham Lincoln
+C. Theodore Roosevelt
+D. George Washington
+Answer:","[""Franklin Roosevelt"", ""Abraham Lincoln"", ""Theodore Roosevelt"", ""George Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-meah1degu39g3v8pva9q18"",""object"":""chat.completion"",""created"":1795595710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T08:35:11.796823+00:00
+07d09c607db3f095,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the only US President to be elected four times?
+A. Franklin Roosevelt
+B. Abraham Lincoln
+C. Theodore Roosevelt
+D. George Washington
+Answer:","[""Franklin Roosevelt"", ""Abraham Lincoln"", ""Theodore Roosevelt"", ""George Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-6epz7akz84k7541p62r0f"",""object"":""chat.completion"",""created"":1795595711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T08:35:12.657832+00:00
+3adb2bcb0eddbde4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year does Jurassic World open in the ""Jurassic Park"" universe?
+A. 2015
+B. 2005
+C. 2020
+D. 2007
+Answer:","[""2015"", ""2005"", ""2020"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-wmghzrq931noxp5ymfmwy"",""object"":""chat.completion"",""created"":1795595712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T08:35:13.515693+00:00
+3adb2bcb0eddbde4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year does Jurassic World open in the ""Jurassic Park"" universe?
+A. 2015
+B. 2005
+C. 2020
+D. 2007
+Answer:","[""2015"", ""2005"", ""2020"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-nsys1uveeznlhmij3yc1oo"",""object"":""chat.completion"",""created"":1795595712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8983,,MarianeAzar,20261125_084135,2026-11-25T08:35:14.414250+00:00
+78a6b80c550f8813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Electronic artists Boys Noize and Skrillex have collaborated and released tracks under what name?
+A. What So Not
+B. Jack Ü
+C. Dog Blood
+D. Noisia
+Answer:","[""What So Not"", ""Jack Ü"", ""Dog Blood"", ""Noisia""]",http,0.0,16,none,"{""id"":""chatcmpl-x1e1jbi0f282yy6g7hom3"",""object"":""chat.completion"",""created"":1795595713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:35:15.271465+00:00
+78a6b80c550f8813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Electronic artists Boys Noize and Skrillex have collaborated and released tracks under what name?
+A. What So Not
+B. Jack Ü
+C. Dog Blood
+D. Noisia
+Answer:","[""What So Not"", ""Jack Ü"", ""Dog Blood"", ""Noisia""]",http,0.0,16,none,"{""id"":""chatcmpl-5unopx98fpn1xi9u4ftn"",""object"":""chat.completion"",""created"":1795595714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:35:16.144563+00:00
+bee9edadb4b4c4ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Rivers Cuomo's wife?
+A. Yoko Ono
+B. Kyoko Ito
+C. LiSA
+D. Kyary Pamyu Pamyu
+Answer:","[""Yoko Ono"", ""Kyoko Ito"", ""LiSA"", ""Kyary Pamyu Pamyu""]",http,0.0,16,none,"{""id"":""chatcmpl-5c7nwelqq1d2wuos3ejlwt"",""object"":""chat.completion"",""created"":1795595715,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:35:17.005144+00:00
+bee9edadb4b4c4ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Rivers Cuomo's wife?
+A. Yoko Ono
+B. Kyoko Ito
+C. LiSA
+D. Kyary Pamyu Pamyu
+Answer:","[""Yoko Ono"", ""Kyoko Ito"", ""LiSA"", ""Kyary Pamyu Pamyu""]",http,0.0,16,none,"{""id"":""chatcmpl-hsm129mvie3f15xgd05du"",""object"":""chat.completion"",""created"":1795595716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T08:35:17.866142+00:00
+0cd22d383cd6e866,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sings the rap song ""Secret Wars Part 1""?
+A. MC Frontalot
+B. Busdriver
+C. The Last Emperor
+D. Masta Killa
+Answer:","[""MC Frontalot"", ""Busdriver"", ""The Last Emperor"", ""Masta Killa""]",http,0.0,16,none,"{""id"":""chatcmpl-ynvmz104q19mdqukly3i"",""object"":""chat.completion"",""created"":1795595717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8635,,MarianeAzar,20261125_084135,2026-11-25T08:35:18.730014+00:00
+0cd22d383cd6e866,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sings the rap song ""Secret Wars Part 1""?
+A. MC Frontalot
+B. Busdriver
+C. The Last Emperor
+D. Masta Killa
+Answer:","[""MC Frontalot"", ""Busdriver"", ""The Last Emperor"", ""Masta Killa""]",http,0.0,16,none,"{""id"":""chatcmpl-vbjr1z0350qtqb6reklhuc"",""object"":""chat.completion"",""created"":1795595718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:35:19.587515+00:00

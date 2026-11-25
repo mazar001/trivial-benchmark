@@ -1,0 +1,10 @@
+name: 'trivial_benchmark'
+version: '1.0.0'
+profile: 'trivial_tp'
+
+model-paths: ["src/models"]
+
+models:
+  trivial_benchmark:
+    marts:
+      +materialized: table

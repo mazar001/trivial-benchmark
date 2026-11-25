@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b2cede073b67a0b7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Kingdom of Prussia briefly held land in Estonia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-edoy79lrizd7mouqw2fmwg"",""object"":""chat.completion"",""created"":1795558448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8125,,MarianeAzar,20261124_215144,2026-11-24T22:14:09.173627+00:00
+b2cede073b67a0b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Kingdom of Prussia briefly held land in Estonia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-craxdvhelp6uj7fqjb4oj"",""object"":""chat.completion"",""created"":1795558449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8212,,MarianeAzar,20261124_215144,2026-11-24T22:14:09.995041+00:00
+e9229413a881a821,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The video game ""Fuel"" has an open world that is 5,560 square miles?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x9qgv9xq81yykips7hndf"",""object"":""chat.completion"",""created"":1795558449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8096,,MarianeAzar,20261124_215144,2026-11-24T22:14:10.804799+00:00
+e9229413a881a821,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The video game ""Fuel"" has an open world that is 5,560 square miles?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dmj3ihq91woi5k153txu7g"",""object"":""chat.completion"",""created"":1795558450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8436,,MarianeAzar,20261124_215144,2026-11-24T22:14:11.648598+00:00
+ea786f5295c24f75,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?
+A. Franklin D. Roosevelt
+B. Herbert Hoover
+C. Dwight D. Eisenhower
+D. Harry S. Truman
+Answer:","[""Franklin D. Roosevelt"", ""Herbert Hoover"", ""Dwight D. Eisenhower"", ""Harry S. Truman""]",http,0.0,16,none,"{""id"":""chatcmpl-duclr6v1trk1xmajtyalqq"",""object"":""chat.completion"",""created"":1795558451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.847,,MarianeAzar,20261124_215144,2026-11-24T22:14:12.495902+00:00
+ea786f5295c24f75,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?
+A. Franklin D. Roosevelt
+B. Herbert Hoover
+C. Dwight D. Eisenhower
+D. Harry S. Truman
+Answer:","[""Franklin D. Roosevelt"", ""Herbert Hoover"", ""Dwight D. Eisenhower"", ""Harry S. Truman""]",http,0.0,16,none,"{""id"":""chatcmpl-3nufm3w96srqyerlkfpr"",""object"":""chat.completion"",""created"":1795558452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9175,,MarianeAzar,20261124_215144,2026-11-24T22:14:13.413736+00:00
+0adb53094cf9add8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these banks are NOT authorized to issue currency notes in Hong Kong?
+A. Bank of China
+B. HSBC
+C. OCBC
+D. Standard Chartered
+Answer:","[""Bank of China"", ""HSBC"", ""OCBC"", ""Standard Chartered""]",http,0.0,16,none,"{""id"":""chatcmpl-0y6nc6yriqhepd7nrgj23h"",""object"":""chat.completion"",""created"":1795558453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261124_215144,2026-11-24T22:14:14.271818+00:00
+0adb53094cf9add8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these banks are NOT authorized to issue currency notes in Hong Kong?
+A. Bank of China
+B. HSBC
+C. OCBC
+D. Standard Chartered
+Answer:","[""Bank of China"", ""HSBC"", ""OCBC"", ""Standard Chartered""]",http,0.0,16,none,"{""id"":""chatcmpl-ivxpq24fku4h1i19fw7ih"",""object"":""chat.completion"",""created"":1795558454,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9366,,MarianeAzar,20261124_215144,2026-11-24T22:14:15.208658+00:00
+3fbfe4f4e35e45a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these in the Star Trek series is NOT Klingon food?
+A. Racht
+B. Gagh
+C. Hors d'oeuvre
+D. Bloodwine
+Answer:","[""Racht"", ""Gagh"", ""Hors d'oeuvre"", ""Bloodwine""]",http,0.0,16,none,"{""id"":""chatcmpl-83i0tihf6k4jgwjwhdg3p"",""object"":""chat.completion"",""created"":1795558455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8809,,MarianeAzar,20261124_215144,2026-11-24T22:14:16.089813+00:00
+3fbfe4f4e35e45a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these in the Star Trek series is NOT Klingon food?
+A. Racht
+B. Gagh
+C. Hors d'oeuvre
+D. Bloodwine
+Answer:","[""Racht"", ""Gagh"", ""Hors d'oeuvre"", ""Bloodwine""]",http,0.0,16,none,"{""id"":""chatcmpl-dzz6z2880z4dsuohmdjv7p"",""object"":""chat.completion"",""created"":1795558455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8835,,MarianeAzar,20261124_215144,2026-11-24T22:14:16.973571+00:00
+6737596ad1665895,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a game under the Worms series?
+A. Ultimate Mayhem
+B. Clan Wars
+C. Major Malfunction
+D. Crazy Golf
+Answer:","[""Ultimate Mayhem"", ""Clan Wars"", ""Major Malfunction"", ""Crazy Golf""]",http,0.0,16,none,"{""id"":""chatcmpl-7uij7acs4uei1k0fvsvoh"",""object"":""chat.completion"",""created"":1795558456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8699,,MarianeAzar,20261124_215144,2026-11-24T22:14:17.844328+00:00
+6737596ad1665895,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a game under the Worms series?
+A. Ultimate Mayhem
+B. Clan Wars
+C. Major Malfunction
+D. Crazy Golf
+Answer:","[""Ultimate Mayhem"", ""Clan Wars"", ""Major Malfunction"", ""Crazy Golf""]",http,0.0,16,none,"{""id"":""chatcmpl-7cxkk8vfigv41pxxow8y0g"",""object"":""chat.completion"",""created"":1795558457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261124_215144,2026-11-24T22:14:18.696522+00:00
+5607c36304bcf42a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?
+A. Carl Jung
+B. Jean Piaget
+C. Alice Miller
+D. Hermann Rorschach
+Answer:","[""Carl Jung"", ""Jean Piaget"", ""Alice Miller"", ""Hermann Rorschach""]",http,0.0,16,none,"{""id"":""chatcmpl-5m4s9x1x3494zgx5lgo4gf"",""object"":""chat.completion"",""created"":1795558458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261124_215144,2026-11-24T22:14:19.565850+00:00
+5607c36304bcf42a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?
+A. Carl Jung
+B. Jean Piaget
+C. Alice Miller
+D. Hermann Rorschach
+Answer:","[""Carl Jung"", ""Jean Piaget"", ""Alice Miller"", ""Hermann Rorschach""]",http,0.0,16,none,"{""id"":""chatcmpl-p2iekhmiptrdjihsuiiw2"",""object"":""chat.completion"",""created"":1795558459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261124_215144,2026-11-24T22:14:20.435328+00:00
+71a280e8f918bd07,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The M41 Walker Bulldog remains in service in some countries to this day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eedr9w8xynjmyvtt4tdaq"",""object"":""chat.completion"",""created"":1795558460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8133,,MarianeAzar,20261124_215144,2026-11-24T22:14:21.248801+00:00
+71a280e8f918bd07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The M41 Walker Bulldog remains in service in some countries to this day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fsr5b08bazbyfawcs65g"",""object"":""chat.completion"",""created"":1795558461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8195,,MarianeAzar,20261124_215144,2026-11-24T22:14:22.068440+00:00
+6d126c28b530c562,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first computer bug was formed by faulty wires.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e1ywdcd27868mn0sxlezvc"",""object"":""chat.completion"",""created"":1795558461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7895,,MarianeAzar,20261124_215144,2026-11-24T22:14:22.858095+00:00
+6d126c28b530c562,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first computer bug was formed by faulty wires.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4a6q12n3lsopdgbjee7b2e"",""object"":""chat.completion"",""created"":1795558462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8117,,MarianeAzar,20261124_215144,2026-11-24T22:14:23.669960+00:00
+991665b3d659f2d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ingredients are required to make a cake in Minecraft?
+A. Milk, Bread, Egg, and Wheat
+B. Milk, Sugar, Egg, and Wheat
+C. Milk, Sugar, and Wheat
+D. Milk, Sugar Cane, Egg, and Wheat
+Answer:","[""Milk, Bread, Egg, and Wheat"", ""Milk, Sugar, Egg, and Wheat"", ""Milk, Sugar, and Wheat"", ""Milk, Sugar Cane, Egg, and Wheat""]",http,0.0,16,none,"{""id"":""chatcmpl-fbtui70qgzwj2fceup5sm"",""object"":""chat.completion"",""created"":1795558463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261124_215144,2026-11-24T22:14:24.522944+00:00
+991665b3d659f2d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ingredients are required to make a cake in Minecraft?
+A. Milk, Bread, Egg, and Wheat
+B. Milk, Sugar, Egg, and Wheat
+C. Milk, Sugar, and Wheat
+D. Milk, Sugar Cane, Egg, and Wheat
+Answer:","[""Milk, Bread, Egg, and Wheat"", ""Milk, Sugar, Egg, and Wheat"", ""Milk, Sugar, and Wheat"", ""Milk, Sugar Cane, Egg, and Wheat""]",http,0.0,16,none,"{""id"":""chatcmpl-4rr87x8lnnlxbz1w7c30ob"",""object"":""chat.completion"",""created"":1795558464,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.899,,MarianeAzar,20261124_215144,2026-11-24T22:14:25.422237+00:00
+37fd88bb9dab6c41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name the location-based augmented reality game developed by Niantic before Pokémon GO?
+A. Regress
+B. Ingress
+C. Digress
+D. Aggress
+Answer:","[""Regress"", ""Ingress"", ""Digress"", ""Aggress""]",http,0.0,16,none,"{""id"":""chatcmpl-83fdkuidm69aoapyzzk0r"",""object"":""chat.completion"",""created"":1795558465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261124_215144,2026-11-24T22:14:26.306522+00:00
+37fd88bb9dab6c41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name the location-based augmented reality game developed by Niantic before Pokémon GO?
+A. Regress
+B. Ingress
+C. Digress
+D. Aggress
+Answer:","[""Regress"", ""Ingress"", ""Digress"", ""Aggress""]",http,0.0,16,none,"{""id"":""chatcmpl-13bbkb7lq7ccldxjejuxk4a"",""object"":""chat.completion"",""created"":1795558466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261124_215144,2026-11-24T22:14:27.168417+00:00
+e85baf69b2fc3743,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?
+A. Blonde
+B. Brown
+C. Auburn
+D. Black
+Answer:","[""Blonde"", ""Brown"", ""Auburn"", ""Black""]",http,0.0,16,none,"{""id"":""chatcmpl-xntafhno3me31a4m7gxg2p"",""object"":""chat.completion"",""created"":1795558467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261124_215144,2026-11-24T22:14:28.038484+00:00
+e85baf69b2fc3743,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real hair colour of the mainstream comic book version (Earth-616) of Daredevil?
+A. Blonde
+B. Brown
+C. Auburn
+D. Black
+Answer:","[""Blonde"", ""Brown"", ""Auburn"", ""Black""]",http,0.0,16,none,"{""id"":""chatcmpl-tm10h3ruyhg9lt9dxi2gj"",""object"":""chat.completion"",""created"":1795558467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261124_215144,2026-11-24T22:14:28.904232+00:00
+66aebd260fd538b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the right side of a boat?
+A. Stern
+B. Port
+C. Bow
+D. Starboard
+Answer:","[""Stern"", ""Port"", ""Bow"", ""Starboard""]",http,0.0,16,none,"{""id"":""chatcmpl-buj888wcj15awrhzjgtuom"",""object"":""chat.completion"",""created"":1795558468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261124_215144,2026-11-24T22:14:29.768161+00:00

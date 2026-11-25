@@ -1,0 +1,161 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+98af15b57becd402,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bbgm9a82eemihjlpe3iq3d"",""object"":""chat.completion"",""created"":1795592646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8486,,MarianeAzar,20261125_084135,2026-11-25T07:44:07.555109+00:00
+42339df98157c2a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The website ""Shut Up & Sit Down"" reviews which form of media?
+A. Television Shows
+B. Video Games
+C. Board Games
+D. Films
+Answer:","[""Television Shows"", ""Video Games"", ""Board Games"", ""Films""]",http,0.0,16,none,"{""id"":""chatcmpl-7o4glibhmt3jwmecn0ot9"",""object"":""chat.completion"",""created"":1795592646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8398,,MarianeAzar,20261125_084135,2026-11-25T07:44:08.395090+00:00
+42339df98157c2a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The website ""Shut Up & Sit Down"" reviews which form of media?
+A. Television Shows
+B. Video Games
+C. Board Games
+D. Films
+Answer:","[""Television Shows"", ""Video Games"", ""Board Games"", ""Films""]",http,0.0,16,none,"{""id"":""chatcmpl-ewp7vgax5hr3f69uhz1o8a"",""object"":""chat.completion"",""created"":1795592647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261125_084135,2026-11-25T07:44:09.254045+00:00
+69843b643d80bb8c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Call Of Duty: World At War"", the first appearance of the ""PPSH-41"" in ""Zombies"" was in the map ""Der Riese"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ft666btf6a8cmng7rt0pc7"",""object"":""chat.completion"",""created"":1795592648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T07:44:10.110838+00:00
+69843b643d80bb8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Call Of Duty: World At War"", the first appearance of the ""PPSH-41"" in ""Zombies"" was in the map ""Der Riese"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9pfo9isyuno2ysubla47ny"",""object"":""chat.completion"",""created"":1795592649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T07:44:10.970319+00:00
+7a8a5c4e8d6c8903,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the remake of ""Resident Evil 2"", which medallion does not exist?
+A. Unicorn Medallion
+B. Dragon Medallion
+C. Lion Medallion
+D. Maiden Medallion
+Answer:","[""Unicorn Medallion"", ""Dragon Medallion"", ""Lion Medallion"", ""Maiden Medallion""]",http,0.0,16,none,"{""id"":""chatcmpl-41llaceiiegplom78tfglc"",""object"":""chat.completion"",""created"":1795592650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8733,,MarianeAzar,20261125_084135,2026-11-25T07:44:11.844148+00:00
+7a8a5c4e8d6c8903,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the remake of ""Resident Evil 2"", which medallion does not exist?
+A. Unicorn Medallion
+B. Dragon Medallion
+C. Lion Medallion
+D. Maiden Medallion
+Answer:","[""Unicorn Medallion"", ""Dragon Medallion"", ""Lion Medallion"", ""Maiden Medallion""]",http,0.0,16,none,"{""id"":""chatcmpl-7x2l68zcjj22kjhpm2ljge"",""object"":""chat.completion"",""created"":1795592651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.878,,MarianeAzar,20261125_084135,2026-11-25T07:44:12.722301+00:00
+0239f3e1562ab544,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft's Mists of Pandaria expansion, What was the level cap?
+A. 90
+B. 75
+C. 85
+D. 80
+Answer:","[""90"", ""75"", ""85"", ""80""]",http,0.0,16,none,"{""id"":""chatcmpl-fsqz8745o1dseeu81csyw"",""object"":""chat.completion"",""created"":1795592652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T07:44:13.575527+00:00
+0239f3e1562ab544,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft's Mists of Pandaria expansion, What was the level cap?
+A. 90
+B. 75
+C. 85
+D. 80
+Answer:","[""90"", ""75"", ""85"", ""80""]",http,0.0,16,none,"{""id"":""chatcmpl-uyd4ksy3f7j61kkv461l8"",""object"":""chat.completion"",""created"":1795592653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8783,,MarianeAzar,20261125_084135,2026-11-25T07:44:14.454091+00:00
+4ee2f8061cd00cc0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was given the title ""Full Metal"" in the anime series ""Full Metal Alchemist""?
+A. Van Hohenheim
+B. Alphonse Elric
+C. Edward Elric
+D. Izumi Curtis
+Answer:","[""Van Hohenheim"", ""Alphonse Elric"", ""Edward Elric"", ""Izumi Curtis""]",http,0.0,16,none,"{""id"":""chatcmpl-urvh4f12md98qhckl8ic0r"",""object"":""chat.completion"",""created"":1795592653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261125_084135,2026-11-25T07:44:15.313012+00:00
+4ee2f8061cd00cc0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was given the title ""Full Metal"" in the anime series ""Full Metal Alchemist""?
+A. Van Hohenheim
+B. Alphonse Elric
+C. Edward Elric
+D. Izumi Curtis
+Answer:","[""Van Hohenheim"", ""Alphonse Elric"", ""Edward Elric"", ""Izumi Curtis""]",http,0.0,16,none,"{""id"":""chatcmpl-hlq5nmo2b44tireds4g6k8"",""object"":""chat.completion"",""created"":1795592654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8901,,MarianeAzar,20261125_084135,2026-11-25T07:44:16.203414+00:00
+4e4ca376bb7e35d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the sum of all the tiles in a standard box of Scrabble?
+A. 187
+B. 207
+C. 197
+D. 177
+Answer:","[""187"", ""207"", ""197"", ""177""]",http,0.0,16,none,"{""id"":""chatcmpl-jnh2rl01ma7i6w8ehpja4"",""object"":""chat.completion"",""created"":1795592655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8725,,MarianeAzar,20261125_084135,2026-11-25T07:44:17.076136+00:00
+4e4ca376bb7e35d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the sum of all the tiles in a standard box of Scrabble?
+A. 187
+B. 207
+C. 197
+D. 177
+Answer:","[""187"", ""207"", ""197"", ""177""]",http,0.0,16,none,"{""id"":""chatcmpl-wqj15mcy5ho2iw4769xbj"",""object"":""chat.completion"",""created"":1795592656,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261125_084135,2026-11-25T07:44:17.955181+00:00
+587943f7b23ddf94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who provided a majority of the songs and lyrics for ""Spirit: Stallion of the Cimarron""?
+A. Smash Mouth
+B. Bryan Adams
+C. Air Supply
+D. Oasis
+Answer:","[""Smash Mouth"", ""Bryan Adams"", ""Air Supply"", ""Oasis""]",http,0.0,16,none,"{""id"":""chatcmpl-38v7w78txsq9urayex0ain"",""object"":""chat.completion"",""created"":1795592657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8507,,MarianeAzar,20261125_084135,2026-11-25T07:44:18.806036+00:00
+587943f7b23ddf94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who provided a majority of the songs and lyrics for ""Spirit: Stallion of the Cimarron""?
+A. Smash Mouth
+B. Bryan Adams
+C. Air Supply
+D. Oasis
+Answer:","[""Smash Mouth"", ""Bryan Adams"", ""Air Supply"", ""Oasis""]",http,0.0,16,none,"{""id"":""chatcmpl-68fd5d1hh1fd6jjwadxtyr"",""object"":""chat.completion"",""created"":1795592658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T07:44:19.667212+00:00
+620c6e7203097373,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In association football, or soccer, a corner kick is when the game restarts after someone scores a goal.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bdh5daa0c1oeo56hci43nd"",""object"":""chat.completion"",""created"":1795592659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8179,,MarianeAzar,20261125_084135,2026-11-25T07:44:20.485388+00:00
+620c6e7203097373,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In association football, or soccer, a corner kick is when the game restarts after someone scores a goal.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6tg6zk9r1ak5lznr6pg4gs"",""object"":""chat.completion"",""created"":1795592659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T07:44:21.331783+00:00
+babb4d44c167b39c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the train station ""Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch""?
+A. Moldova
+B. Denmark
+C. Wales
+D. Czech Republic
+Answer:","[""Moldova"", ""Denmark"", ""Wales"", ""Czech Republic""]",http,0.0,16,none,"{""id"":""chatcmpl-3yy9rkt01qkxiy902oik8"",""object"":""chat.completion"",""created"":1795592660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T07:44:22.222716+00:00
+babb4d44c167b39c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the train station ""Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch""?
+A. Moldova
+B. Denmark
+C. Wales
+D. Czech Republic
+Answer:","[""Moldova"", ""Denmark"", ""Wales"", ""Czech Republic""]",http,0.0,16,none,"{""id"":""chatcmpl-5f5ntzuuqdb2ul9j5m3r54"",""object"":""chat.completion"",""created"":1795592661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9088,,MarianeAzar,20261125_084135,2026-11-25T07:44:23.131908+00:00
+63ce687ef71580d6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in Metal Gear Rising: Revengeance?
+A. Otacon
+B. Revolver Ocelot
+C. Solid Snake
+D. Raiden
+Answer:","[""Otacon"", ""Revolver Ocelot"", ""Solid Snake"", ""Raiden""]",http,0.0,16,none,"{""id"":""chatcmpl-3lllh1xq963xdg5kf18zko"",""object"":""chat.completion"",""created"":1795592662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T07:44:24.010303+00:00
+63ce687ef71580d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in Metal Gear Rising: Revengeance?
+A. Otacon
+B. Revolver Ocelot
+C. Solid Snake
+D. Raiden
+Answer:","[""Otacon"", ""Revolver Ocelot"", ""Solid Snake"", ""Raiden""]",http,0.0,16,none,"{""id"":""chatcmpl-2u92fuk01jrvto8vun217p"",""object"":""chat.completion"",""created"":1795592663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8711,,MarianeAzar,20261125_084135,2026-11-25T07:44:24.881528+00:00
+645623e34d87f2e8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which M83 album is the song ""Midnight City"" featured in?
+A. Junk
+B. Saturdays = Youth
+C. Before the Dawn Heals Us
+D. Hurry Up, We're Dreaming
+Answer:","[""Junk"", ""Saturdays = Youth"", ""Before the Dawn Heals Us"", ""Hurry Up, We're Dreaming""]",http,0.0,16,none,"{""id"":""chatcmpl-0wle8c4apgqoaqii3ykvv19"",""object"":""chat.completion"",""created"":1795592664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.868,,MarianeAzar,20261125_084135,2026-11-25T07:44:25.749784+00:00
+645623e34d87f2e8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which M83 album is the song ""Midnight City"" featured in?
+A. Junk
+B. Saturdays = Youth
+C. Before the Dawn Heals Us
+D. Hurry Up, We're Dreaming
+Answer:","[""Junk"", ""Saturdays = Youth"", ""Before the Dawn Heals Us"", ""Hurry Up, We're Dreaming""]",http,0.0,16,none,"{""id"":""chatcmpl-jj7n20h3s1jnpv3sx3shcl"",""object"":""chat.completion"",""created"":1795592665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8864,,MarianeAzar,20261125_084135,2026-11-25T07:44:26.636407+00:00
+1c9a7d8fcca48007,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Konami Code is known as Up, Up, Down, Down, Left, Right, Right, Left, B, A, Start.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a6zqq5z4f8grhc4kibbyv"",""object"":""chat.completion"",""created"":1795592666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8476,,MarianeAzar,20261125_084135,2026-11-25T07:44:27.484233+00:00
+1c9a7d8fcca48007,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Konami Code is known as Up, Up, Down, Down, Left, Right, Right, Left, B, A, Start.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2z4sq1hgew5ehybhqcdtke"",""object"":""chat.completion"",""created"":1795592666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261125_084135,2026-11-25T07:44:28.331618+00:00

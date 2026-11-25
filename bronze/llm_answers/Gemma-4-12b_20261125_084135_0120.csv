@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+095ac924834e2a32,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek: Voyager"", which episode did Voyager establish real-time communication with Starfleet Headquarters?
+A. Message In A Bottle
+B. Someone To Watch Over Me
+C. Counterpoint
+D. Pathfinder
+Answer:","[""Message In A Bottle"", ""Someone To Watch Over Me"", ""Counterpoint"", ""Pathfinder""]",http,0.0,16,none,"{""id"":""chatcmpl-7rsetoqnmo8p0eoy3m3u"",""object"":""chat.completion"",""created"":1795595444,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9627,,MarianeAzar,20261125_084135,2026-11-25T08:30:46.117860+00:00
+095ac924834e2a32,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek: Voyager"", which episode did Voyager establish real-time communication with Starfleet Headquarters?
+A. Message In A Bottle
+B. Someone To Watch Over Me
+C. Counterpoint
+D. Pathfinder
+Answer:","[""Message In A Bottle"", ""Someone To Watch Over Me"", ""Counterpoint"", ""Pathfinder""]",http,0.0,16,none,"{""id"":""chatcmpl-2gbpbui23wi3ep8soviv8f"",""object"":""chat.completion"",""created"":1795595445,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9865,,MarianeAzar,20261125_084135,2026-11-25T08:30:47.104756+00:00
+282a94c46d9b5998,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sound can travel through a vacuum.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9l8bc8301z7v38dyk7bpoe"",""object"":""chat.completion"",""created"":1795595446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2696,,MarianeAzar,20261125_084135,2026-11-25T08:30:48.374536+00:00
+282a94c46d9b5998,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sound can travel through a vacuum.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-goakgbmplerc3p72mnjegp"",""object"":""chat.completion"",""created"":1795595447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8993,,MarianeAzar,20261125_084135,2026-11-25T08:30:49.274013+00:00
+566a194c5c49ff06,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: POLYBIUS is a myth arcade cabinet/game
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0uki44cen5xsvcgwmlkva7"",""object"":""chat.completion"",""created"":1795595448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1775,,MarianeAzar,20261125_084135,2026-11-25T08:30:50.451624+00:00
+566a194c5c49ff06,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: POLYBIUS is a myth arcade cabinet/game
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6tk9rl8w0gqg868ai11kx"",""object"":""chat.completion"",""created"":1795595449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3564,,MarianeAzar,20261125_084135,2026-11-25T08:30:51.808139+00:00
+f608e09f22f140eb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Black Mirror episode ""Bandersnatch"", PAC-MAN stands for:
+A. Postgraduate Aplications Centre Man
+B. Political Action Committee Man
+C. Physics & Astronomy Classification Man
+D. Program And Control Man
+Answer:","[""Postgraduate Aplications Centre Man"", ""Political Action Committee Man"", ""Physics & Astronomy Classification Man"", ""Program And Control Man""]",http,0.0,16,none,"{""id"":""chatcmpl-qj8maswfcvoa5c2q6qvq5"",""object"":""chat.completion"",""created"":1795595451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0527,,MarianeAzar,20261125_084135,2026-11-25T08:30:52.861325+00:00
+f608e09f22f140eb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Black Mirror episode ""Bandersnatch"", PAC-MAN stands for:
+A. Postgraduate Aplications Centre Man
+B. Political Action Committee Man
+C. Physics & Astronomy Classification Man
+D. Program And Control Man
+Answer:","[""Postgraduate Aplications Centre Man"", ""Political Action Committee Man"", ""Physics & Astronomy Classification Man"", ""Program And Control Man""]",http,0.0,16,none,"{""id"":""chatcmpl-rus50ebof9szn8ncciw5rh"",""object"":""chat.completion"",""created"":1795595452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.41,,MarianeAzar,20261125_084135,2026-11-25T08:30:54.271545+00:00
+f89d3ee6aa1c1f95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a song on The Beatles' 1968 self titled album, also known as the White album?
+A. The Continuing Story of Bungalow Bill
+B. Being For The Benefit Of Mr. Kite!
+C. Everybody's Got Something to Hide Except Me and My Monkey
+D. Why Don't We Do It in the Road?
+Answer:","[""The Continuing Story of Bungalow Bill"", ""Being For The Benefit Of Mr. Kite!"", ""Everybody's Got Something to Hide Except Me and My Monkey"", ""Why Don't We Do It in the Road?""]",http,0.0,16,none,"{""id"":""chatcmpl-w7kkco5t9zfjdjjqkqtfo"",""object"":""chat.completion"",""created"":1795595453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0392,,MarianeAzar,20261125_084135,2026-11-25T08:30:55.311180+00:00
+f89d3ee6aa1c1f95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a song on The Beatles' 1968 self titled album, also known as the White album?
+A. The Continuing Story of Bungalow Bill
+B. Being For The Benefit Of Mr. Kite!
+C. Everybody's Got Something to Hide Except Me and My Monkey
+D. Why Don't We Do It in the Road?
+Answer:","[""The Continuing Story of Bungalow Bill"", ""Being For The Benefit Of Mr. Kite!"", ""Everybody's Got Something to Hide Except Me and My Monkey"", ""Why Don't We Do It in the Road?""]",http,0.0,16,none,"{""id"":""chatcmpl-mnfc5x82qbqok940igrz8f"",""object"":""chat.completion"",""created"":1795595454,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":139,""completion_tokens"":2,""total_tokens"":141,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1774,,MarianeAzar,20261125_084135,2026-11-25T08:30:56.488785+00:00
+bebfeae4f656ff6f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Marilyn Monroe was born on July 1, 1926.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ebypz7ruxdsj8bxx17y6f"",""object"":""chat.completion"",""created"":1795595455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3184,,MarianeAzar,20261125_084135,2026-11-25T08:30:57.807673+00:00
+bebfeae4f656ff6f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Marilyn Monroe was born on July 1, 1926.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7j2nbd5lqfhf0e1d2g7at"",""object"":""chat.completion"",""created"":1795595457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9073,,MarianeAzar,20261125_084135,2026-11-25T08:30:58.715131+00:00
+919f195e8f3a9dbb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the make and model of the tour vehicles in ""Jurassic Park"" (1990)?
+A. 1989 Toyota Land Cruiser
+B. 1989 Ford Explorer XLT
+C. 1989 Jeep Wrangler YJ Sahar
+D. Mercedes M-Class
+Answer:","[""1989 Toyota Land Cruiser"", ""1989 Ford Explorer XLT"", ""1989 Jeep Wrangler YJ Sahar"", ""Mercedes M-Class""]",http,0.0,16,none,"{""id"":""chatcmpl-iev6hna2dgo254wy0k5l7li"",""object"":""chat.completion"",""created"":1795595458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0238,,MarianeAzar,20261125_084135,2026-11-25T08:30:59.739277+00:00
+919f195e8f3a9dbb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the make and model of the tour vehicles in ""Jurassic Park"" (1990)?
+A. 1989 Toyota Land Cruiser
+B. 1989 Ford Explorer XLT
+C. 1989 Jeep Wrangler YJ Sahar
+D. Mercedes M-Class
+Answer:","[""1989 Toyota Land Cruiser"", ""1989 Ford Explorer XLT"", ""1989 Jeep Wrangler YJ Sahar"", ""Mercedes M-Class""]",http,0.0,16,none,"{""id"":""chatcmpl-jjyzefi5rg2u4fzo8sv5u"",""object"":""chat.completion"",""created"":1795595459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.502,,MarianeAzar,20261125_084135,2026-11-25T08:31:01.241537+00:00
+55bfdfdb2611080c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name given to Indian food cooked over charcoal in a clay oven?
+A. Biryani
+B. Tiki masala
+C. Tandoori
+D. Pani puri
+Answer:","[""Biryani"", ""Tiki masala"", ""Tandoori"", ""Pani puri""]",http,0.0,16,none,"{""id"":""chatcmpl-pmly8j4wkts6ws08ln08p"",""object"":""chat.completion"",""created"":1795595460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0285,,MarianeAzar,20261125_084135,2026-11-25T08:31:02.270323+00:00
+55bfdfdb2611080c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name given to Indian food cooked over charcoal in a clay oven?
+A. Biryani
+B. Tiki masala
+C. Tandoori
+D. Pani puri
+Answer:","[""Biryani"", ""Tiki masala"", ""Tandoori"", ""Pani puri""]",http,0.0,16,none,"{""id"":""chatcmpl-rfspftivdvhyz9rpbe4jhe"",""object"":""chat.completion"",""created"":1795595461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9826,,MarianeAzar,20261125_084135,2026-11-25T08:31:03.253176+00:00
+e9fcc4692ab31b16,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Touhou Project character's first ever appearance was as a midboss in the eighth game, Imperishable Night?
+A. Kaguya Houraisan
+B. Tewi Inaba
+C. Mystia Lorelei
+D. Rumia
+Answer:","[""Kaguya Houraisan"", ""Tewi Inaba"", ""Mystia Lorelei"", ""Rumia""]",http,0.0,16,none,"{""id"":""chatcmpl-43bwtph48jlbg052kep17"",""object"":""chat.completion"",""created"":1795595462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3439,,MarianeAzar,20261125_084135,2026-11-25T08:31:04.597366+00:00
+e9fcc4692ab31b16,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Touhou Project character's first ever appearance was as a midboss in the eighth game, Imperishable Night?
+A. Kaguya Houraisan
+B. Tewi Inaba
+C. Mystia Lorelei
+D. Rumia
+Answer:","[""Kaguya Houraisan"", ""Tewi Inaba"", ""Mystia Lorelei"", ""Rumia""]",http,0.0,16,none,"{""id"":""chatcmpl-rnsxi1p3hqf2twonvixocr"",""object"":""chat.completion"",""created"":1795595464,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9921,,MarianeAzar,20261125_084135,2026-11-25T08:31:05.589783+00:00
+aeb9ae35db7bb3ff,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Russia shares a land border with North Korea.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rz64trui49qluajsyed1aa"",""object"":""chat.completion"",""created"":1795595465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2111,,MarianeAzar,20261125_084135,2026-11-25T08:31:06.801161+00:00
+aeb9ae35db7bb3ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Russia shares a land border with North Korea.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rihyxi8b6au1mnjzowfo"",""object"":""chat.completion"",""created"":1795595466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2371,,MarianeAzar,20261125_084135,2026-11-25T08:31:08.038480+00:00
+1214ce8cf2677d1c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cards from ""Magic: The Gathering"" has a flavor text that begins with ""Oi oi oi""?
+A. Uthden Troll
+B. Harvester Troll
+C. Lotleth Troll
+D. Albino Troll
+Answer:","[""Uthden Troll"", ""Harvester Troll"", ""Lotleth Troll"", ""Albino Troll""]",http,0.0,16,none,"{""id"":""chatcmpl-7ns2jgeyq9pveapr62yo"",""object"":""chat.completion"",""created"":1795595467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9469,,MarianeAzar,20261125_084135,2026-11-25T08:31:08.986024+00:00
+1214ce8cf2677d1c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cards from ""Magic: The Gathering"" has a flavor text that begins with ""Oi oi oi""?
+A. Uthden Troll
+B. Harvester Troll
+C. Lotleth Troll
+D. Albino Troll
+Answer:","[""Uthden Troll"", ""Harvester Troll"", ""Lotleth Troll"", ""Albino Troll""]",http,0.0,16,none,"{""id"":""chatcmpl-m07502tb1bnw2e4rqlon0f"",""object"":""chat.completion"",""created"":1795595468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2877,,MarianeAzar,20261125_084135,2026-11-25T08:31:10.273999+00:00
+bed2b7c27f82e800,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Calvin and Hobbes, what is the name of Susie's stuffed rabbit?
+A. Mr. Bunbun
+B. Mr. Bun
+C. Mr. Hoppy
+D. Mr. Rabbit
+Answer:","[""Mr. Bunbun"", ""Mr. Bun"", ""Mr. Hoppy"", ""Mr. Rabbit""]",http,0.0,16,none,"{""id"":""chatcmpl-adwplh6omtw3ofj7m1nu"",""object"":""chat.completion"",""created"":1795595469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2824,,MarianeAzar,20261125_084135,2026-11-25T08:31:11.556808+00:00
+bed2b7c27f82e800,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Calvin and Hobbes, what is the name of Susie's stuffed rabbit?
+A. Mr. Bunbun
+B. Mr. Bun
+C. Mr. Hoppy
+D. Mr. Rabbit
+Answer:","[""Mr. Bunbun"", ""Mr. Bun"", ""Mr. Hoppy"", ""Mr. Rabbit""]",http,0.0,16,none,"{""id"":""chatcmpl-y6jfdzlufbadk2ftlru"",""object"":""chat.completion"",""created"":1795595470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9869,,MarianeAzar,20261125_084135,2026-11-25T08:31:12.543993+00:00
+66ae67c5c60993b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous spy novelist wrote the childrens' story ""Chitty-Chitty-Bang-Bang""?
+A. Graham Greene
+B. Ian Fleming
+C. Joseph Conrad
+D. John Buchan
+Answer:","[""Graham Greene"", ""Ian Fleming"", ""Joseph Conrad"", ""John Buchan""]",http,0.0,16,none,"{""id"":""chatcmpl-s57bwuku7hi16rcsdjyel"",""object"":""chat.completion"",""created"":1795595471,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2729,,MarianeAzar,20261125_084135,2026-11-25T08:31:13.817366+00:00

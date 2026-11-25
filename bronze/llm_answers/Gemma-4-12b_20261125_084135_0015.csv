@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5c8836c1d241d1a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How fast is USB 3.1 Gen 2 theoretically?
+A. 1 Gb/s
+B. 10 Gb/s
+C. 8 Gb/s
+D. 5 Gb/s
+Answer:","[""1 Gb/s"", ""10 Gb/s"", ""8 Gb/s"", ""5 Gb/s""]",http,0.0,16,none,"{""id"":""chatcmpl-je7otnbp1kpqnragrxsjr"",""object"":""chat.completion"",""created"":1795592819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8959,,MarianeAzar,20261125_084135,2026-11-25T07:47:00.656560+00:00
+03c71f06400ed5d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What UK Train does NOT go over 125MPH?
+A. Pendolino
+B. Sprinter
+C. Javelin
+D. Class 43
+Answer:","[""Pendolino"", ""Sprinter"", ""Javelin"", ""Class 43""]",http,0.0,16,none,"{""id"":""chatcmpl-0guwa9pvzxosw33037ng66"",""object"":""chat.completion"",""created"":1795592820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T07:47:01.512177+00:00
+03c71f06400ed5d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What UK Train does NOT go over 125MPH?
+A. Pendolino
+B. Sprinter
+C. Javelin
+D. Class 43
+Answer:","[""Pendolino"", ""Sprinter"", ""Javelin"", ""Class 43""]",http,0.0,16,none,"{""id"":""chatcmpl-aqbd0st6odrnn0hr1n217c"",""object"":""chat.completion"",""created"":1795592820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T07:47:02.369169+00:00
+26e406e1903680c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?
+A. William Faulkner
+B. F. Scott Fitzgerald
+C. Ernest Hemingway
+D. John Steinbeck
+Answer:","[""William Faulkner"", ""F. Scott Fitzgerald"", ""Ernest Hemingway"", ""John Steinbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-y4hmxps13r5zdgpexmb2f"",""object"":""chat.completion"",""created"":1795592821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8675,,MarianeAzar,20261125_084135,2026-11-25T07:47:03.236905+00:00
+26e406e1903680c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?
+A. William Faulkner
+B. F. Scott Fitzgerald
+C. Ernest Hemingway
+D. John Steinbeck
+Answer:","[""William Faulkner"", ""F. Scott Fitzgerald"", ""Ernest Hemingway"", ""John Steinbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-0t5tllfwpqfenwzv1ol0rjo"",""object"":""chat.completion"",""created"":1795592822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8803,,MarianeAzar,20261125_084135,2026-11-25T07:47:04.117465+00:00
+223eee9a3016e996,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a type of computer mouse?
+A. Drum mouse
+B. Trackball mouse
+C. Smoothie mouse
+D. Optical mouse
+Answer:","[""Drum mouse"", ""Trackball mouse"", ""Smoothie mouse"", ""Optical mouse""]",http,0.0,16,none,"{""id"":""chatcmpl-grm7oyysqpk979bj6a98gk"",""object"":""chat.completion"",""created"":1795592823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8501,,MarianeAzar,20261125_084135,2026-11-25T07:47:04.968071+00:00
+223eee9a3016e996,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a type of computer mouse?
+A. Drum mouse
+B. Trackball mouse
+C. Smoothie mouse
+D. Optical mouse
+Answer:","[""Drum mouse"", ""Trackball mouse"", ""Smoothie mouse"", ""Optical mouse""]",http,0.0,16,none,"{""id"":""chatcmpl-g5fgquf2n36345nz0zmwpx"",""object"":""chat.completion"",""created"":1795592824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T07:47:05.821947+00:00
+69b67bb6a8f8f192,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The RMS Titanic sunk during her maiden voyage from Southampton, England to which American city?
+A. Boston
+B. Philadelphia
+C. New York City
+D. Washington
+Answer:","[""Boston"", ""Philadelphia"", ""New York City"", ""Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-nsw1wglnm49amnxoj919p"",""object"":""chat.completion"",""created"":1795592825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8457,,MarianeAzar,20261125_084135,2026-11-25T07:47:06.667970+00:00
+69b67bb6a8f8f192,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The RMS Titanic sunk during her maiden voyage from Southampton, England to which American city?
+A. Boston
+B. Philadelphia
+C. New York City
+D. Washington
+Answer:","[""Boston"", ""Philadelphia"", ""New York City"", ""Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-zxldwdpf3l09l7d3gvftse"",""object"":""chat.completion"",""created"":1795592826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T07:47:07.519529+00:00
+c9ab76b165b5265f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Panama Canal was opened to traffic within 30 days of the beginning of World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9p9kh6vz2ial1vd5xt20n8"",""object"":""chat.completion"",""created"":1795592826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8173,,MarianeAzar,20261125_084135,2026-11-25T07:47:08.336960+00:00
+c9ab76b165b5265f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Panama Canal was opened to traffic within 30 days of the beginning of World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fy7yvpharbhad45j1d41ip"",""object"":""chat.completion"",""created"":1795592827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8385,,MarianeAzar,20261125_084135,2026-11-25T07:47:09.175548+00:00
+cde9a1a4a7915a5a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kissing someone for one minute burns about 2 calories.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0uzhji5le84lyd1xl00uu3q"",""object"":""chat.completion"",""created"":1795592828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8059,,MarianeAzar,20261125_084135,2026-11-25T07:47:09.981578+00:00
+cde9a1a4a7915a5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kissing someone for one minute burns about 2 calories.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tvsexwx57ddnf8xayfe28q"",""object"":""chat.completion"",""created"":1795592829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8081,,MarianeAzar,20261125_084135,2026-11-25T07:47:10.789829+00:00
+021edec0685b295e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Greek letter represents the ""Half-Life"" logo?
+A. Omega
+B. Alpha
+C. Sigma
+D. Lambda
+Answer:","[""Omega"", ""Alpha"", ""Sigma"", ""Lambda""]",http,0.0,16,none,"{""id"":""chatcmpl-6qtj7l7e9q832zz68ho5gp"",""object"":""chat.completion"",""created"":1795592830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T07:47:11.638786+00:00
+021edec0685b295e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Greek letter represents the ""Half-Life"" logo?
+A. Omega
+B. Alpha
+C. Sigma
+D. Lambda
+Answer:","[""Omega"", ""Alpha"", ""Sigma"", ""Lambda""]",http,0.0,16,none,"{""id"":""chatcmpl-bfaha2d888iwlm81c2qdf"",""object"":""chat.completion"",""created"":1795592831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8631,,MarianeAzar,20261125_084135,2026-11-25T07:47:12.502275+00:00
+4ec2e4ddf5089aae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 'Don't You Want Me?' was a number one hit in 1981 for which electropop band?
+A. Pet Shop Boys
+B. Eurythmics
+C. Depeche Mode
+D. Human League
+Answer:","[""Pet Shop Boys"", ""Eurythmics"", ""Depeche Mode"", ""Human League""]",http,0.0,16,none,"{""id"":""chatcmpl-oaubsvzh1hlwxzdwsodank"",""object"":""chat.completion"",""created"":1795592831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T07:47:13.359655+00:00
+4ec2e4ddf5089aae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 'Don't You Want Me?' was a number one hit in 1981 for which electropop band?
+A. Pet Shop Boys
+B. Eurythmics
+C. Depeche Mode
+D. Human League
+Answer:","[""Pet Shop Boys"", ""Eurythmics"", ""Depeche Mode"", ""Human League""]",http,0.0,16,none,"{""id"":""chatcmpl-ds5ggts5uwp97cvwumfbzm"",""object"":""chat.completion"",""created"":1795592832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9024,,MarianeAzar,20261125_084135,2026-11-25T07:47:14.262440+00:00
+e45d6a61f81b97df,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Splatoon, the Squid Sisters are named Tako and Yaki.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e1kz9womdsbt9z5tf4ayfm"",""object"":""chat.completion"",""created"":1795592833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.825,,MarianeAzar,20261125_084135,2026-11-25T07:47:15.087624+00:00
+e45d6a61f81b97df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Splatoon, the Squid Sisters are named Tako and Yaki.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i9c7w2n7cnkv4hp0jk11s"",""object"":""chat.completion"",""created"":1795592834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8213,,MarianeAzar,20261125_084135,2026-11-25T07:47:15.909083+00:00
+1e7b4ae0cf50b36a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the SHMUP series, ""Darius"", what is the name of the antagonist faction you fight against?
+A. Orn Empire
+B. Bydo
+C. Belsar
+D. Bacterion
+Answer:","[""Orn Empire"", ""Bydo"", ""Belsar"", ""Bacterion""]",http,0.0,16,none,"{""id"":""chatcmpl-fgupnu5jiugw3i7gihwguq"",""object"":""chat.completion"",""created"":1795592835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T07:47:16.761363+00:00
+1e7b4ae0cf50b36a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the SHMUP series, ""Darius"", what is the name of the antagonist faction you fight against?
+A. Orn Empire
+B. Bydo
+C. Belsar
+D. Bacterion
+Answer:","[""Orn Empire"", ""Bydo"", ""Belsar"", ""Bacterion""]",http,0.0,16,none,"{""id"":""chatcmpl-xsy1qm20p6jtgsbxqdetd"",""object"":""chat.completion"",""created"":1795592836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8943,,MarianeAzar,20261125_084135,2026-11-25T07:47:17.655912+00:00
+bfdcc61dcdc438f7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which show is known for the songs ""You are a Pirate"", ""Cooking by the Book"" and ""We Are Number One""?
+A. Tom and Jerry
+B. LazyTown
+C. DuckTales
+D. Sofia the First
+Answer:","[""Tom and Jerry"", ""LazyTown"", ""DuckTales"", ""Sofia the First""]",http,0.0,16,none,"{""id"":""chatcmpl-cactwb6xc8hxdmk4w628q8"",""object"":""chat.completion"",""created"":1795592837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8927,,MarianeAzar,20261125_084135,2026-11-25T07:47:18.548813+00:00
+bfdcc61dcdc438f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which show is known for the songs ""You are a Pirate"", ""Cooking by the Book"" and ""We Are Number One""?
+A. Tom and Jerry
+B. LazyTown
+C. DuckTales
+D. Sofia the First
+Answer:","[""Tom and Jerry"", ""LazyTown"", ""DuckTales"", ""Sofia the First""]",http,0.0,16,none,"{""id"":""chatcmpl-oxhqhzay2eae39tqlwd2fe"",""object"":""chat.completion"",""created"":1795592837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8978,,MarianeAzar,20261125_084135,2026-11-25T07:47:19.446769+00:00
+893872e321569625,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Original Jack-o-Lanterns were actually hollowed out turnips.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kev9ty1fg5vfwi61k32s"",""object"":""chat.completion"",""created"":1795592838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8446,,MarianeAzar,20261125_084135,2026-11-25T07:47:20.291708+00:00
+893872e321569625,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Original Jack-o-Lanterns were actually hollowed out turnips.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f81y4t53dx4nfhayfcfn9"",""object"":""chat.completion"",""created"":1795592839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8136,,MarianeAzar,20261125_084135,2026-11-25T07:47:21.105451+00:00

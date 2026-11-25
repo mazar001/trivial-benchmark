@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+564ce82d7d74842a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many times do you fight the Imprisoned in The Legend of Zelda: Skyward Sword?
+A. 5
+B. 3
+C. 2
+D. 4
+Answer:","[""5"", ""3"", ""2"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-hf9t02wkykdviuds7mj2jc"",""object"":""chat.completion"",""created"":1795594551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9485,,MarianeAzar,20261125_084135,2026-11-25T08:15:52.653350+00:00
+564ce82d7d74842a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many times do you fight the Imprisoned in The Legend of Zelda: Skyward Sword?
+A. 5
+B. 3
+C. 2
+D. 4
+Answer:","[""5"", ""3"", ""2"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-3l97fsdd1t5qr75e2lxlim"",""object"":""chat.completion"",""created"":1795594552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2134,,MarianeAzar,20261125_084135,2026-11-25T08:15:53.867161+00:00
+e0bb1789846c9d19,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1547 who became the 1st Tsar of Russia
+A. Ivan the Terrible
+B. Peter the Great
+C. Alexis of Russia
+D. Mikhail Romanov
+Answer:","[""Ivan the Terrible"", ""Peter the Great"", ""Alexis of Russia"", ""Mikhail Romanov""]",http,0.0,16,none,"{""id"":""chatcmpl-ecnk3uvdl6417lcu5pewh"",""object"":""chat.completion"",""created"":1795594553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2697,,MarianeAzar,20261125_084135,2026-11-25T08:15:55.137138+00:00
+e0bb1789846c9d19,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1547 who became the 1st Tsar of Russia
+A. Ivan the Terrible
+B. Peter the Great
+C. Alexis of Russia
+D. Mikhail Romanov
+Answer:","[""Ivan the Terrible"", ""Peter the Great"", ""Alexis of Russia"", ""Mikhail Romanov""]",http,0.0,16,none,"{""id"":""chatcmpl-entqybrfuen26dxvl59n3y"",""object"":""chat.completion"",""created"":1795594554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9199,,MarianeAzar,20261125_084135,2026-11-25T08:15:56.057394+00:00
+2ffca71eb5235224,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""My Little Pony: Friendship is Magic"", which of these ponies represents the quality of honesty?
+A. Rarity
+B. Twilight Sparkle
+C. Applejack
+D. Pinkie Pie
+Answer:","[""Rarity"", ""Twilight Sparkle"", ""Applejack"", ""Pinkie Pie""]",http,0.0,16,none,"{""id"":""chatcmpl-zi8zrwvznh8sc18nq2z4x"",""object"":""chat.completion"",""created"":1795594555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9699,,MarianeAzar,20261125_084135,2026-11-25T08:15:57.027597+00:00
+2ffca71eb5235224,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""My Little Pony: Friendship is Magic"", which of these ponies represents the quality of honesty?
+A. Rarity
+B. Twilight Sparkle
+C. Applejack
+D. Pinkie Pie
+Answer:","[""Rarity"", ""Twilight Sparkle"", ""Applejack"", ""Pinkie Pie""]",http,0.0,16,none,"{""id"":""chatcmpl-yjd14li6z8ynd5lx3b3o"",""object"":""chat.completion"",""created"":1795594556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3996,,MarianeAzar,20261125_084135,2026-11-25T08:15:58.427468+00:00
+9c12abb46a4de891,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need For Speed: Most Wanted (2005), how many people are there to defeat on the blacklist?
+A. 10
+B. 20
+C. 15
+D. 5
+Answer:","[""10"", ""20"", ""15"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-zv24kpnz7hl5f68q7f9lw6"",""object"":""chat.completion"",""created"":1795594557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0303,,MarianeAzar,20261125_084135,2026-11-25T08:15:59.458066+00:00
+9c12abb46a4de891,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need For Speed: Most Wanted (2005), how many people are there to defeat on the blacklist?
+A. 10
+B. 20
+C. 15
+D. 5
+Answer:","[""10"", ""20"", ""15"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-tvcvahnrbtccycqbn11ze"",""object"":""chat.completion"",""created"":1795594558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0057,,MarianeAzar,20261125_084135,2026-11-25T08:16:00.464060+00:00
+20ad111f9b383737,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tokyo is the capital of Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vjzvehvl38dfddlxzx3y1j"",""object"":""chat.completion"",""created"":1795594559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3332,,MarianeAzar,20261125_084135,2026-11-25T08:16:01.797457+00:00
+20ad111f9b383737,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tokyo is the capital of Japan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cbr60pa0ibbpukb7ex6l9"",""object"":""chat.completion"",""created"":1795594561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0251,,MarianeAzar,20261125_084135,2026-11-25T08:16:02.822731+00:00
+d7a6b99eb2164e81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Magic: The Gathering was first solicited, which of the following was it originally titled?
+A. Mana Clash
+B. Mana Duels
+C. Magic Clash
+D. Magic
+Answer:","[""Mana Clash"", ""Mana Duels"", ""Magic Clash"", ""Magic""]",http,0.0,16,none,"{""id"":""chatcmpl-bq66628kockaxp550arqb"",""object"":""chat.completion"",""created"":1795594562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9302,,MarianeAzar,20261125_084135,2026-11-25T08:16:03.753605+00:00
+d7a6b99eb2164e81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Magic: The Gathering was first solicited, which of the following was it originally titled?
+A. Mana Clash
+B. Mana Duels
+C. Magic Clash
+D. Magic
+Answer:","[""Mana Clash"", ""Mana Duels"", ""Magic Clash"", ""Magic""]",http,0.0,16,none,"{""id"":""chatcmpl-xsi38i9zfkd3jvaszlvy2a"",""object"":""chat.completion"",""created"":1795594563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2078,,MarianeAzar,20261125_084135,2026-11-25T08:16:04.961718+00:00
+dfe87ca5ac80eb2c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Better known by his nickname Logan, what is Wolverine's birth name?
+A. Thomas Wilde
+B. James Howlett
+C. John Savage
+D. Logan Wolf
+Answer:","[""Thomas Wilde"", ""James Howlett"", ""John Savage"", ""Logan Wolf""]",http,0.0,16,none,"{""id"":""chatcmpl-dpekgkm80kgcbpdxjsdi6u"",""object"":""chat.completion"",""created"":1795594564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1335,,MarianeAzar,20261125_084135,2026-11-25T08:16:06.095474+00:00
+dfe87ca5ac80eb2c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Better known by his nickname Logan, what is Wolverine's birth name?
+A. Thomas Wilde
+B. James Howlett
+C. John Savage
+D. Logan Wolf
+Answer:","[""Thomas Wilde"", ""James Howlett"", ""John Savage"", ""Logan Wolf""]",http,0.0,16,none,"{""id"":""chatcmpl-0y730v1p9h1lksjoq2pro3"",""object"":""chat.completion"",""created"":1795594565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9191,,MarianeAzar,20261125_084135,2026-11-25T08:16:07.014994+00:00
+0c0cdada3217705c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the release date of the They Might Be Giants album, 'Mink Car?'
+A. April 17th, 2003
+B. September 11th, 2001
+C. November 4th, 1999
+D. December 20th, 2002
+Answer:","[""April 17th, 2003"", ""September 11th, 2001"", ""November 4th, 1999"", ""December 20th, 2002""]",http,0.0,16,none,"{""id"":""chatcmpl-add7xvnsco7f3p5lmnbed"",""object"":""chat.completion"",""created"":1795594566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5122,,MarianeAzar,20261125_084135,2026-11-25T08:16:08.527385+00:00
+0c0cdada3217705c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the release date of the They Might Be Giants album, 'Mink Car?'
+A. April 17th, 2003
+B. September 11th, 2001
+C. November 4th, 1999
+D. December 20th, 2002
+Answer:","[""April 17th, 2003"", ""September 11th, 2001"", ""November 4th, 1999"", ""December 20th, 2002""]",http,0.0,16,none,"{""id"":""chatcmpl-u3wys4yf7hydqm3g01wk"",""object"":""chat.completion"",""created"":1795594567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":134,""completion_tokens"":2,""total_tokens"":136,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1363,,MarianeAzar,20261125_084135,2026-11-25T08:16:09.663854+00:00
+8323d01c92c1efae,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Mac is not a PC
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-z99cokgsp2aqm29kgmybmr"",""object"":""chat.completion"",""created"":1795594569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9181,,MarianeAzar,20261125_084135,2026-11-25T08:16:10.582283+00:00
+8323d01c92c1efae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Mac is not a PC
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q04lmeyhhxcl95cj11wdtc"",""object"":""chat.completion"",""created"":1795594570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4131,,MarianeAzar,20261125_084135,2026-11-25T08:16:11.995594+00:00
+1d62d24243b02fe7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Chris's brother in ""Everybody Hates Chris""?
+A. Joe
+B. Drew
+C. Jerome
+D. Greg
+Answer:","[""Joe"", ""Drew"", ""Jerome"", ""Greg""]",http,0.0,16,none,"{""id"":""chatcmpl-wxl8rjxdoybvoqc5tscitf"",""object"":""chat.completion"",""created"":1795594571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1272,,MarianeAzar,20261125_084135,2026-11-25T08:16:13.123034+00:00
+1d62d24243b02fe7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Chris's brother in ""Everybody Hates Chris""?
+A. Joe
+B. Drew
+C. Jerome
+D. Greg
+Answer:","[""Joe"", ""Drew"", ""Jerome"", ""Greg""]",http,0.0,16,none,"{""id"":""chatcmpl-n5a15xbbymh826th474hah"",""object"":""chat.completion"",""created"":1795594572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1448,,MarianeAzar,20261125_084135,2026-11-25T08:16:14.267986+00:00
+89aef40bf9d0e4a6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is an island in Japan called Ōkunoshima, A.K.A. ""Rabbit Island"", so named because of it's huge population of rabbits.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t6zzjg9zbse5kq6bppdnb"",""object"":""chat.completion"",""created"":1795594573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9179,,MarianeAzar,20261125_084135,2026-11-25T08:16:15.186248+00:00
+89aef40bf9d0e4a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is an island in Japan called Ōkunoshima, A.K.A. ""Rabbit Island"", so named because of it's huge population of rabbits.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lmknwizqimrbzrgng7oh3"",""object"":""chat.completion"",""created"":1795594574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9785,,MarianeAzar,20261125_084135,2026-11-25T08:16:16.164870+00:00
+05c91a97b90019d6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the Volga River?
+A. Sweden
+B. Bulgaria
+C. India
+D. Russia
+Answer:","[""Sweden"", ""Bulgaria"", ""India"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-3uwe8w7lznl9k6vx8vq5e6"",""object"":""chat.completion"",""created"":1795594575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3316,,MarianeAzar,20261125_084135,2026-11-25T08:16:17.496828+00:00
+05c91a97b90019d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the Volga River?
+A. Sweden
+B. Bulgaria
+C. India
+D. Russia
+Answer:","[""Sweden"", ""Bulgaria"", ""India"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-fp8kv8z3o3v3tthhwhyp28"",""object"":""chat.completion"",""created"":1795594576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.953,,MarianeAzar,20261125_084135,2026-11-25T08:16:18.450033+00:00
+7176075e5b4648cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the final villain in the manga series ""Bleach""?
+A. Juhabach
+B. Juha Bach
+C. Yuhabah
+D. Yhwach
+Answer:","[""Juhabach"", ""Juha Bach"", ""Yuhabah"", ""Yhwach""]",http,0.0,16,none,"{""id"":""chatcmpl-ycawn10aofbzfms9kme5"",""object"":""chat.completion"",""created"":1795594577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9417,,MarianeAzar,20261125_084135,2026-11-25T08:16:19.391991+00:00

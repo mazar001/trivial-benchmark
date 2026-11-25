@@ -1,0 +1,141 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+19fa783803888493,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Avril Lavigne’s first studio album, “Let Go”, released?
+A. 2001
+B. 2004
+C. 2002
+D. 2005
+Answer:","[""2001"", ""2004"", ""2002"", ""2005""]",http,0.0,16,none,"{""id"":""chatcmpl-dg3jbwjzwjt0l65ehj4p9"",""object"":""chat.completion"",""created"":1795593691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9046,,MarianeAzar,20261125_084135,2026-11-25T08:01:33.105837+00:00
+f14bb4e39b115f3e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Axolotl is an amphibian that can spend its whole life in a larval state.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6oeord74frsofk953ctzt8"",""object"":""chat.completion"",""created"":1795593692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:01:33.967602+00:00
+f14bb4e39b115f3e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Axolotl is an amphibian that can spend its whole life in a larval state.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x76e40kqw087oydxciix4"",""object"":""chat.completion"",""created"":1795593693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8673,,MarianeAzar,20261125_084135,2026-11-25T08:01:34.835123+00:00
+0105e9e676bcdfc2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Hannibal?
+A. British serial killer
+B. Greek philosopher
+C. French explorer
+D. Carthaginian general
+Answer:","[""British serial killer"", ""Greek philosopher"", ""French explorer"", ""Carthaginian general""]",http,0.0,16,none,"{""id"":""chatcmpl-2diicu11p4dt51x0h7go5l"",""object"":""chat.completion"",""created"":1795593694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T08:01:35.699600+00:00
+0105e9e676bcdfc2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Hannibal?
+A. British serial killer
+B. Greek philosopher
+C. French explorer
+D. Carthaginian general
+Answer:","[""British serial killer"", ""Greek philosopher"", ""French explorer"", ""Carthaginian general""]",http,0.0,16,none,"{""id"":""chatcmpl-ef65fjb0stuc557l4it2oq"",""object"":""chat.completion"",""created"":1795593695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:01:36.559243+00:00
+86f37bcb56b28595,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many states are in Australia?
+A. 7
+B. 6
+C. 5
+D. 8
+Answer:","[""7"", ""6"", ""5"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-fxe6lid646fcefvvibqdyh"",""object"":""chat.completion"",""created"":1795593695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:01:37.426256+00:00
+86f37bcb56b28595,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many states are in Australia?
+A. 7
+B. 6
+C. 5
+D. 8
+Answer:","[""7"", ""6"", ""5"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-d4onmliq79ly79s3kq00b"",""object"":""chat.completion"",""created"":1795593696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:01:38.287912+00:00
+b75b4202401a1242,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Finnish Lapphund dogs were used for herding reindeer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7gr3fmucn54x20sc944s29"",""object"":""chat.completion"",""created"":1795593697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8074,,MarianeAzar,20261125_084135,2026-11-25T08:01:39.095504+00:00
+b75b4202401a1242,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Finnish Lapphund dogs were used for herding reindeer.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wzjbhw9raug72js3vlfz5"",""object"":""chat.completion"",""created"":1795593698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8167,,MarianeAzar,20261125_084135,2026-11-25T08:01:39.912371+00:00
+1a0a37e030b99686,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a bone found in the human arm?
+A. Tibia
+B. Humerus
+C. Ulna
+D. Radius
+Answer:","[""Tibia"", ""Humerus"", ""Ulna"", ""Radius""]",http,0.0,16,none,"{""id"":""chatcmpl-m6410xqjwl2pky1b61ghh"",""object"":""chat.completion"",""created"":1795593699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T08:01:40.785255+00:00
+1a0a37e030b99686,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a bone found in the human arm?
+A. Tibia
+B. Humerus
+C. Ulna
+D. Radius
+Answer:","[""Tibia"", ""Humerus"", ""Ulna"", ""Radius""]",http,0.0,16,none,"{""id"":""chatcmpl-5ai5ss9uxbof59hwf2212o"",""object"":""chat.completion"",""created"":1795593700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8647,,MarianeAzar,20261125_084135,2026-11-25T08:01:41.650196+00:00
+3be516d329bdf97c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Sonic the Hedgehog 2"" originally was going to have a time travel system.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ea3rbcc2ow4zoxof0sald"",""object"":""chat.completion"",""created"":1795593701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8131,,MarianeAzar,20261125_084135,2026-11-25T08:01:42.463471+00:00
+3be516d329bdf97c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Sonic the Hedgehog 2"" originally was going to have a time travel system.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wm57zb9tk39o7s590m26j8"",""object"":""chat.completion"",""created"":1795593701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8384,,MarianeAzar,20261125_084135,2026-11-25T08:01:43.302093+00:00
+f29e9fb2a0cc8262,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor auditioned for the role of Luke Skywalker?
+A. Kurt Russell
+B. Christopher Lambert
+C. Laurence Fishburne
+D. James Remar
+Answer:","[""Kurt Russell"", ""Christopher Lambert"", ""Laurence Fishburne"", ""James Remar""]",http,0.0,16,none,"{""id"":""chatcmpl-48g13mevk32xc9hj7nwe6l"",""object"":""chat.completion"",""created"":1795593702,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:01:44.165796+00:00
+f29e9fb2a0cc8262,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor auditioned for the role of Luke Skywalker?
+A. Kurt Russell
+B. Christopher Lambert
+C. Laurence Fishburne
+D. James Remar
+Answer:","[""Kurt Russell"", ""Christopher Lambert"", ""Laurence Fishburne"", ""James Remar""]",http,0.0,16,none,"{""id"":""chatcmpl-yuhtc1htmx78mq05uil84"",""object"":""chat.completion"",""created"":1795593703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8706,,MarianeAzar,20261125_084135,2026-11-25T08:01:45.036668+00:00
+fe18dfccffc07dba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Linus Sebastian is the creator of the Linux kernel, which went on to be used in Linux, Android, and Chrome OS.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9iqmaph8lg4ch3vwli46kg"",""object"":""chat.completion"",""created"":1795593704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T08:01:45.897722+00:00
+fe18dfccffc07dba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Linus Sebastian is the creator of the Linux kernel, which went on to be used in Linux, Android, and Chrome OS.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4yzyowrf2946ka5uw55kc"",""object"":""chat.completion"",""created"":1795593705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8893,,MarianeAzar,20261125_084135,2026-11-25T08:01:46.787202+00:00
+6a113ed25469ae80,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All of these maps were in ""Tom Clancy's Rainbow Six Siege"" on its initial release: House, Clubhouse, Border, Consulate.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t2w5glgzbpeatoocs15sk"",""object"":""chat.completion"",""created"":1795593706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8232,,MarianeAzar,20261125_084135,2026-11-25T08:01:47.610632+00:00
+6a113ed25469ae80,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All of these maps were in ""Tom Clancy's Rainbow Six Siege"" on its initial release: House, Clubhouse, Border, Consulate.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dl7tgmm3iks0jg0101qe9b"",""object"":""chat.completion"",""created"":1795593707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:01:48.467849+00:00
+5710ed4ff37b0dce,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which punk rock band released hit songs such as ""Californication"", ""Can't Stop"" and ""Under the Bridge""?
+A. Linkin Park
+B. Green Day
+C. Red Hot Chilli Peppers
+D. Foo Fighters
+Answer:","[""Linkin Park"", ""Green Day"", ""Red Hot Chilli Peppers"", ""Foo Fighters""]",http,0.0,16,none,"{""id"":""chatcmpl-cvmny0ohm8efh1xi4kcwom"",""object"":""chat.completion"",""created"":1795593707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261125_084135,2026-11-25T08:01:49.326828+00:00
+5710ed4ff37b0dce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which punk rock band released hit songs such as ""Californication"", ""Can't Stop"" and ""Under the Bridge""?
+A. Linkin Park
+B. Green Day
+C. Red Hot Chilli Peppers
+D. Foo Fighters
+Answer:","[""Linkin Park"", ""Green Day"", ""Red Hot Chilli Peppers"", ""Foo Fighters""]",http,0.0,16,none,"{""id"":""chatcmpl-x4zmstpqwpotqiovji14l"",""object"":""chat.completion"",""created"":1795593708,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9101,,MarianeAzar,20261125_084135,2026-11-25T08:01:50.237411+00:00
+e72dde6151bcc6ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Destiny, who succeeded Peter Dinklage in voicing the protagonist's ""Ghost""?
+A. Nolan North
+B. John DiMaggio
+C. Mark Hamill
+D. Troy Baker
+Answer:","[""Nolan North"", ""John DiMaggio"", ""Mark Hamill"", ""Troy Baker""]",http,0.0,16,none,"{""id"":""chatcmpl-yhddwqhtmowvvoo8r2z0b"",""object"":""chat.completion"",""created"":1795593709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T08:01:51.100863+00:00
+e72dde6151bcc6ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Destiny, who succeeded Peter Dinklage in voicing the protagonist's ""Ghost""?
+A. Nolan North
+B. John DiMaggio
+C. Mark Hamill
+D. Troy Baker
+Answer:","[""Nolan North"", ""John DiMaggio"", ""Mark Hamill"", ""Troy Baker""]",http,0.0,16,none,"{""id"":""chatcmpl-gh9flyfiril0fj9v8duvazg"",""object"":""chat.completion"",""created"":1795593710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8762,,MarianeAzar,20261125_084135,2026-11-25T08:01:51.977315+00:00
+ee3b3ff8842421ed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Grand Theft Auto V is the fifteenth installment of the Grand Theft Auto series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-giz5waw9ma3pp1pmthl9v"",""object"":""chat.completion"",""created"":1795593711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T08:01:52.824961+00:00
+ee3b3ff8842421ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Grand Theft Auto V is the fifteenth installment of the Grand Theft Auto series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4l8ge2142z4f32fhb91n3"",""object"":""chat.completion"",""created"":1795593712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8169,,MarianeAzar,20261125_084135,2026-11-25T08:01:53.642014+00:00

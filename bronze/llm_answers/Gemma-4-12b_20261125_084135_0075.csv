@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+69883cb19b322175,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of ""moot"", founder of the imageboard 4chan?
+A. Christopher Poole
+B. Catie Wayne
+C. Allison Harvard
+D. Mark Zuckerberg
+Answer:","[""Christopher Poole"", ""Catie Wayne"", ""Allison Harvard"", ""Mark Zuckerberg""]",http,0.0,16,none,"{""id"":""chatcmpl-9zpbli58jlb9l688ohm36n"",""object"":""chat.completion"",""created"":1795594188,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0943,,MarianeAzar,20261125_084135,2026-11-25T08:09:50.144771+00:00
+3c3f4b0b830f281c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following bands is Tom DeLonge not a part of?
+A. +44
+B. Box Car Racer
+C. Blink-182
+D. Angels & Airwaves
+Answer:","[""+44"", ""Box Car Racer"", ""Blink-182"", ""Angels & Airwaves""]",http,0.0,16,none,"{""id"":""chatcmpl-uv8jhv7z3ee35vid1nzoko"",""object"":""chat.completion"",""created"":1795594189,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9742,,MarianeAzar,20261125_084135,2026-11-25T08:09:51.119210+00:00
+3c3f4b0b830f281c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following bands is Tom DeLonge not a part of?
+A. +44
+B. Box Car Racer
+C. Blink-182
+D. Angels & Airwaves
+Answer:","[""+44"", ""Box Car Racer"", ""Blink-182"", ""Angels & Airwaves""]",http,0.0,16,none,"{""id"":""chatcmpl-n17xkx0yk2bwxt80c31ng"",""object"":""chat.completion"",""created"":1795594190,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2672,,MarianeAzar,20261125_084135,2026-11-25T08:09:52.386689+00:00
+8c0fb8dd7af208e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many counties in the Republic of Ireland.
+A. 28
+B. 32
+C. 26
+D. 30
+Answer:","[""28"", ""32"", ""26"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-92v2scxbdfhvmv4pm6la4"",""object"":""chat.completion"",""created"":1795594191,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.146,,MarianeAzar,20261125_084135,2026-11-25T08:09:53.533039+00:00
+8c0fb8dd7af208e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many counties in the Republic of Ireland.
+A. 28
+B. 32
+C. 26
+D. 30
+Answer:","[""28"", ""32"", ""26"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-5jj4ohfdosdsp4wvpjxog8"",""object"":""chat.completion"",""created"":1795594192,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9442,,MarianeAzar,20261125_084135,2026-11-25T08:09:54.477522+00:00
+87eb6feb6d3018fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who succeded Josef Stalin as the leader of the Soviet Union?
+A. Georgy Malenkov
+B. Lavrentiy Beria
+C. Nikita Krushchev
+D. Vyacheslav Molotov
+Answer:","[""Georgy Malenkov"", ""Lavrentiy Beria"", ""Nikita Krushchev"", ""Vyacheslav Molotov""]",http,0.0,16,none,"{""id"":""chatcmpl-kiyfndpqqs5b6hqwxii0i"",""object"":""chat.completion"",""created"":1795594193,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2693,,MarianeAzar,20261125_084135,2026-11-25T08:09:55.747525+00:00
+87eb6feb6d3018fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who succeded Josef Stalin as the leader of the Soviet Union?
+A. Georgy Malenkov
+B. Lavrentiy Beria
+C. Nikita Krushchev
+D. Vyacheslav Molotov
+Answer:","[""Georgy Malenkov"", ""Lavrentiy Beria"", ""Nikita Krushchev"", ""Vyacheslav Molotov""]",http,0.0,16,none,"{""id"":""chatcmpl-w7rjfufwmwjx9le76prm"",""object"":""chat.completion"",""created"":1795594195,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3728,,MarianeAzar,20261125_084135,2026-11-25T08:09:57.120614+00:00
+fc91debc98d6814f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many carbon cars are there in Burnout Paradise?
+A. 6
+B. 5
+C. 3
+D. 4
+Answer:","[""6"", ""5"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-i9w5fyhc8kdg6u1g11tooc"",""object"":""chat.completion"",""created"":1795594196,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9606,,MarianeAzar,20261125_084135,2026-11-25T08:09:58.081499+00:00
+fc91debc98d6814f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many carbon cars are there in Burnout Paradise?
+A. 6
+B. 5
+C. 3
+D. 4
+Answer:","[""6"", ""5"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-b3d23uj7priang0duhxcx9"",""object"":""chat.completion"",""created"":1795594197,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9562,,MarianeAzar,20261125_084135,2026-11-25T08:09:59.038027+00:00
+e4c6eaa18ece8b73,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main character's name in ""Braid""?
+A. Jackson
+B. Boregard
+C. James
+D. Tim
+Answer:","[""Jackson"", ""Boregard"", ""James"", ""Tim""]",http,0.0,16,none,"{""id"":""chatcmpl-wk4bntt9tpeg9p1xfhx5"",""object"":""chat.completion"",""created"":1795594198,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4372,,MarianeAzar,20261125_084135,2026-11-25T08:10:00.475585+00:00
+e4c6eaa18ece8b73,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main character's name in ""Braid""?
+A. Jackson
+B. Boregard
+C. James
+D. Tim
+Answer:","[""Jackson"", ""Boregard"", ""James"", ""Tim""]",http,0.0,16,none,"{""id"":""chatcmpl-wyud4jzs28mpacvzedjzk"",""object"":""chat.completion"",""created"":1795594199,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9345,,MarianeAzar,20261125_084135,2026-11-25T08:10:01.410429+00:00
+16c0850e1371e038,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former US president was nicknamed ""Teddy"" after he refused to shoot a defenseless black bear?
+A. Theodore Roosevelt
+B. James F. Fielder
+C. Woodrow Wilson
+D. Andrew Jackson
+Answer:","[""Theodore Roosevelt"", ""James F. Fielder"", ""Woodrow Wilson"", ""Andrew Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-yskf9diwoemekcqiv4iye"",""object"":""chat.completion"",""created"":1795594200,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9209,,MarianeAzar,20261125_084135,2026-11-25T08:10:02.331569+00:00
+16c0850e1371e038,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former US president was nicknamed ""Teddy"" after he refused to shoot a defenseless black bear?
+A. Theodore Roosevelt
+B. James F. Fielder
+C. Woodrow Wilson
+D. Andrew Jackson
+Answer:","[""Theodore Roosevelt"", ""James F. Fielder"", ""Woodrow Wilson"", ""Andrew Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-zqywrka1l5kvhv7hcnurj"",""object"":""chat.completion"",""created"":1795594201,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4609,,MarianeAzar,20261125_084135,2026-11-25T08:10:03.792705+00:00
+e0d251492738758f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?
+A. Elvis Presley
+B. Groucho Marx
+C. Bing Crosby
+D. Charlie Chaplin
+Answer:","[""Elvis Presley"", ""Groucho Marx"", ""Bing Crosby"", ""Charlie Chaplin""]",http,0.0,16,none,"{""id"":""chatcmpl-gpr9mnqlbz6xoz0oj8v1xc"",""object"":""chat.completion"",""created"":1795594203,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0884,,MarianeAzar,20261125_084135,2026-11-25T08:10:04.881319+00:00
+e0d251492738758f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American celebrity died in 1977 playing golf in La Moraleja, Madrid?
+A. Elvis Presley
+B. Groucho Marx
+C. Bing Crosby
+D. Charlie Chaplin
+Answer:","[""Elvis Presley"", ""Groucho Marx"", ""Bing Crosby"", ""Charlie Chaplin""]",http,0.0,16,none,"{""id"":""chatcmpl-8vf71dnsobt3o7cekfl816"",""object"":""chat.completion"",""created"":1795594204,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9418,,MarianeAzar,20261125_084135,2026-11-25T08:10:05.823440+00:00
+2896ebf11290abfa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?
+A. USS North Carolina
+B. USS Indianapolis
+C. USS Constitution
+D. USS Pueblo
+Answer:","[""USS North Carolina"", ""USS Indianapolis"", ""USS Constitution"", ""USS Pueblo""]",http,0.0,16,none,"{""id"":""chatcmpl-fviwojive4ermhymgauue8"",""object"":""chat.completion"",""created"":1795594205,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9685,,MarianeAzar,20261125_084135,2026-11-25T08:10:06.792399+00:00
+2896ebf11290abfa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?
+A. USS North Carolina
+B. USS Indianapolis
+C. USS Constitution
+D. USS Pueblo
+Answer:","[""USS North Carolina"", ""USS Indianapolis"", ""USS Constitution"", ""USS Pueblo""]",http,0.0,16,none,"{""id"":""chatcmpl-znicn5c8a59gcnchwlo6bb"",""object"":""chat.completion"",""created"":1795594206,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4371,,MarianeAzar,20261125_084135,2026-11-25T08:10:08.229699+00:00
+bb6d00f4dae0c591,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The color orange is named after the fruit.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r6sbkruosychy0olgxhzw"",""object"":""chat.completion"",""created"":1795594207,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9206,,MarianeAzar,20261125_084135,2026-11-25T08:10:09.150511+00:00
+bb6d00f4dae0c591,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The color orange is named after the fruit.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-og2nvbkh2snub0vsfnds"",""object"":""chat.completion"",""created"":1795594208,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9006,,MarianeAzar,20261125_084135,2026-11-25T08:10:10.051342+00:00
+29372c6bdd4b9603,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game earned music composer Mike Morasky the most awards for his work?
+A. Left 4 Dead 2
+B. Portal 2
+C. Counter-Strike: Global Offensive
+D. Team Fortress 2
+Answer:","[""Left 4 Dead 2"", ""Portal 2"", ""Counter-Strike: Global Offensive"", ""Team Fortress 2""]",http,0.0,16,none,"{""id"":""chatcmpl-9scr1kkesetao2zdhjxjut"",""object"":""chat.completion"",""created"":1795594209,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4669,,MarianeAzar,20261125_084135,2026-11-25T08:10:11.518441+00:00
+29372c6bdd4b9603,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game earned music composer Mike Morasky the most awards for his work?
+A. Left 4 Dead 2
+B. Portal 2
+C. Counter-Strike: Global Offensive
+D. Team Fortress 2
+Answer:","[""Left 4 Dead 2"", ""Portal 2"", ""Counter-Strike: Global Offensive"", ""Team Fortress 2""]",http,0.0,16,none,"{""id"":""chatcmpl-ywsbvfvn3ra1z01bypsk4b"",""object"":""chat.completion"",""created"":1795594210,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0406,,MarianeAzar,20261125_084135,2026-11-25T08:10:12.559210+00:00
+a7716a5702b8542a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Route 66 in the United States spans the entire mainland of America, from California to New York.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4h8oh1ah3yexzw8s0gm27"",""object"":""chat.completion"",""created"":1795594211,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9309,,MarianeAzar,20261125_084135,2026-11-25T08:10:13.490311+00:00
+a7716a5702b8542a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Route 66 in the United States spans the entire mainland of America, from California to New York.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-npd48xks65p3pts00nxgw7"",""object"":""chat.completion"",""created"":1795594212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3581,,MarianeAzar,20261125_084135,2026-11-25T08:10:14.848609+00:00
+730a9696b14aecbe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Fallout 4"" which faction is not present in the game?
+A. The Brotherhood of Steel
+B. The Institute
+C. The Enclave
+D. The Minutemen
+Answer:","[""The Brotherhood of Steel"", ""The Institute"", ""The Enclave"", ""The Minutemen""]",http,0.0,16,none,"{""id"":""chatcmpl-4iqreg4au4d19n35l909r3"",""object"":""chat.completion"",""created"":1795594214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0241,,MarianeAzar,20261125_084135,2026-11-25T08:10:15.873054+00:00
+730a9696b14aecbe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Fallout 4"" which faction is not present in the game?
+A. The Brotherhood of Steel
+B. The Institute
+C. The Enclave
+D. The Minutemen
+Answer:","[""The Brotherhood of Steel"", ""The Institute"", ""The Enclave"", ""The Minutemen""]",http,0.0,16,none,"{""id"":""chatcmpl-3pchr9ibvb2xnvuux1wg6"",""object"":""chat.completion"",""created"":1795594215,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9776,,MarianeAzar,20261125_084135,2026-11-25T08:10:16.851021+00:00

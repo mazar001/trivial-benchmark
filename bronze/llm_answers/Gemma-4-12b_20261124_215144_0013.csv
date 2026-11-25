@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1edc16bb25c64aed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of ""Team Fortress 2"" update, in which it became Free-to-play?
+A. Engineer Update
+B. Pyromania Update
+C. Über Update
+D. Mann-Conomy Update
+Answer:","[""Engineer Update"", ""Pyromania Update"", ""Über Update"", ""Mann-Conomy Update""]",http,0.0,16,none,"{""id"":""chatcmpl-l6le22ur75r63na6fft6q"",""object"":""chat.completion"",""created"":1795553876,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0037,,MarianeAzar,20261124_215144,2026-11-24T20:57:57.742307+00:00
+eaa17f4fb7178a3d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many fingers does a single human hand have?
+A. Eight
+B. Four
+C. Five
+D. Ten
+Answer:","[""Eight"", ""Four"", ""Five"", ""Ten""]",http,0.0,16,none,"{""id"":""chatcmpl-xlrui6otr9ek4kgnbnhb"",""object"":""chat.completion"",""created"":1795553877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2715,,MarianeAzar,20261124_215144,2026-11-24T20:57:59.014024+00:00
+eaa17f4fb7178a3d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many fingers does a single human hand have?
+A. Eight
+B. Four
+C. Five
+D. Ten
+Answer:","[""Eight"", ""Four"", ""Five"", ""Ten""]",http,0.0,16,none,"{""id"":""chatcmpl-tl7o2ydqn3m7odk5y6zv"",""object"":""chat.completion"",""created"":1795553878,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3277,,MarianeAzar,20261124_215144,2026-11-24T20:58:00.341923+00:00
+d993fce542f33cff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the symbol for Displacement?
+A. Dp
+B. Δr
+C. r
+D. dr
+Answer:","[""Dp"", ""Δr"", ""r"", ""dr""]",http,0.0,16,none,"{""id"":""chatcmpl-a45tpn3g95gmjefot1fji"",""object"":""chat.completion"",""created"":1795553880,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0033,,MarianeAzar,20261124_215144,2026-11-24T20:58:01.345502+00:00
+d993fce542f33cff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the symbol for Displacement?
+A. Dp
+B. Δr
+C. r
+D. dr
+Answer:","[""Dp"", ""Δr"", ""r"", ""dr""]",http,0.0,16,none,"{""id"":""chatcmpl-ar2w3rdilqfcxn4x3mrma"",""object"":""chat.completion"",""created"":1795553881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9729,,MarianeAzar,20261124_215144,2026-11-24T20:58:02.318555+00:00
+c3a56c33b3be5b2c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Gravity Falls"", what does Quentin Trembley do when he is driven out from the White House?
+A. Jump out the window.
+B. Eat a salamander and jump out the window.
+C. Release 1,000 captive salamanders into the white house.
+D. Leave in peace.
+Answer:","[""Jump out the window."", ""Eat a salamander and jump out the window."", ""Release 1,000 captive salamanders into the white house."", ""Leave in peace.""]",http,0.0,16,none,"{""id"":""chatcmpl-3ca9hijivi73qkz64u89ko"",""object"":""chat.completion"",""created"":1795553882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4291,,MarianeAzar,20261124_215144,2026-11-24T20:58:03.748131+00:00
+c3a56c33b3be5b2c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Gravity Falls"", what does Quentin Trembley do when he is driven out from the White House?
+A. Jump out the window.
+B. Eat a salamander and jump out the window.
+C. Release 1,000 captive salamanders into the white house.
+D. Leave in peace.
+Answer:","[""Jump out the window."", ""Eat a salamander and jump out the window."", ""Release 1,000 captive salamanders into the white house."", ""Leave in peace.""]",http,0.0,16,none,"{""id"":""chatcmpl-lhalgokutfi80hbmkq8f99"",""object"":""chat.completion"",""created"":1795553883,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2353,,MarianeAzar,20261124_215144,2026-11-24T20:58:04.983740+00:00
+fb71f3fdfaab6321,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In an orchestra, what is the lowest member of the brass family?
+A. Contrabass
+B. Trombone
+C. Tuba
+D. Bassoon
+Answer:","[""Contrabass"", ""Trombone"", ""Tuba"", ""Bassoon""]",http,0.0,16,none,"{""id"":""chatcmpl-uv3xu43xvs4i2bg34pq5d"",""object"":""chat.completion"",""created"":1795553884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0555,,MarianeAzar,20261124_215144,2026-11-24T20:58:06.039663+00:00
+fb71f3fdfaab6321,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In an orchestra, what is the lowest member of the brass family?
+A. Contrabass
+B. Trombone
+C. Tuba
+D. Bassoon
+Answer:","[""Contrabass"", ""Trombone"", ""Tuba"", ""Bassoon""]",http,0.0,16,none,"{""id"":""chatcmpl-i9mfynkutwaoa6p8e2dve8"",""object"":""chat.completion"",""created"":1795553885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9731,,MarianeAzar,20261124_215144,2026-11-24T20:58:07.013038+00:00
+2b951b393cf60994,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Halo"" series has the strongest iteration of the shotgun?
+A. Halo: Combat Evolved
+B. Halo: Reach
+C. Halo 3
+D. Halo 2
+Answer:","[""Halo: Combat Evolved"", ""Halo: Reach"", ""Halo 3"", ""Halo 2""]",http,0.0,16,none,"{""id"":""chatcmpl-18414a8lfp2ipigy83o254l"",""object"":""chat.completion"",""created"":1795553886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4514,,MarianeAzar,20261124_215144,2026-11-24T20:58:08.464768+00:00
+2b951b393cf60994,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Halo"" series has the strongest iteration of the shotgun?
+A. Halo: Combat Evolved
+B. Halo: Reach
+C. Halo 3
+D. Halo 2
+Answer:","[""Halo: Combat Evolved"", ""Halo: Reach"", ""Halo 3"", ""Halo 2""]",http,0.0,16,none,"{""id"":""chatcmpl-46ta9pqyaf4b9eu8r9e9y9"",""object"":""chat.completion"",""created"":1795553888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.038,,MarianeAzar,20261124_215144,2026-11-24T20:58:09.503245+00:00
+567a6a66983fc045,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was Brazil was a former colony under?
+A. The Netherlands
+B. Spain
+C. France
+D. Portugal
+Answer:","[""The Netherlands"", ""Spain"", ""France"", ""Portugal""]",http,0.0,16,none,"{""id"":""chatcmpl-y34vw011iek3diokn3et3v"",""object"":""chat.completion"",""created"":1795553889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9501,,MarianeAzar,20261124_215144,2026-11-24T20:58:10.453675+00:00
+567a6a66983fc045,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was Brazil was a former colony under?
+A. The Netherlands
+B. Spain
+C. France
+D. Portugal
+Answer:","[""The Netherlands"", ""Spain"", ""France"", ""Portugal""]",http,0.0,16,none,"{""id"":""chatcmpl-tyk1iziua2im5ebclgupt"",""object"":""chat.completion"",""created"":1795553890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4521,,MarianeAzar,20261124_215144,2026-11-24T20:58:11.906227+00:00
+58b9184e56f41d6c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the birth name of Michael Keaton?
+A. Michael Douglas
+B. Michael Richards
+C. Michael Kane
+D. Michael Fox
+Answer:","[""Michael Douglas"", ""Michael Richards"", ""Michael Kane"", ""Michael Fox""]",http,0.0,16,none,"{""id"":""chatcmpl-e3aprl676t7ud1nrtitxmi"",""object"":""chat.completion"",""created"":1795553891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0631,,MarianeAzar,20261124_215144,2026-11-24T20:58:12.969660+00:00
+58b9184e56f41d6c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the birth name of Michael Keaton?
+A. Michael Douglas
+B. Michael Richards
+C. Michael Kane
+D. Michael Fox
+Answer:","[""Michael Douglas"", ""Michael Richards"", ""Michael Kane"", ""Michael Fox""]",http,0.0,16,none,"{""id"":""chatcmpl-vmbvldw5abq8ghngv6tjl"",""object"":""chat.completion"",""created"":1795553892,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9524,,MarianeAzar,20261124_215144,2026-11-24T20:58:13.922229+00:00
+8dcc60b97e26e0a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what is the Ferengi's First Rule of Acquisition?
+A. Greed is Eternal
+B. Never place friendship above profit
+C. Once you have their money, you never give it back.
+D. Never allow family to stand in the way of opportunity
+Answer:","[""Greed is Eternal"", ""Never place friendship above profit"", ""Once you have their money, you never give it back."", ""Never allow family to stand in the way of opportunity""]",http,0.0,16,none,"{""id"":""chatcmpl-f0drsoshat3kbcs14vb9p"",""object"":""chat.completion"",""created"":1795553893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4022,,MarianeAzar,20261124_215144,2026-11-24T20:58:15.325168+00:00
+8dcc60b97e26e0a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what is the Ferengi's First Rule of Acquisition?
+A. Greed is Eternal
+B. Never place friendship above profit
+C. Once you have their money, you never give it back.
+D. Never allow family to stand in the way of opportunity
+Answer:","[""Greed is Eternal"", ""Never place friendship above profit"", ""Once you have their money, you never give it back."", ""Never allow family to stand in the way of opportunity""]",http,0.0,16,none,"{""id"":""chatcmpl-s0ogk1fulf90xxxs8ndiqlg"",""object"":""chat.completion"",""created"":1795553895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.022,,MarianeAzar,20261124_215144,2026-11-24T20:58:16.347504+00:00
+addd6d37c1df479b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which data structure does FILO apply to?
+A. Queue
+B. Tree
+C. Heap
+D. Stack
+Answer:","[""Queue"", ""Tree"", ""Heap"", ""Stack""]",http,0.0,16,none,"{""id"":""chatcmpl-wsjt2pyoejr2y52581cn2p"",""object"":""chat.completion"",""created"":1795553896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3321,,MarianeAzar,20261124_215144,2026-11-24T20:58:17.679849+00:00
+addd6d37c1df479b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which data structure does FILO apply to?
+A. Queue
+B. Tree
+C. Heap
+D. Stack
+Answer:","[""Queue"", ""Tree"", ""Heap"", ""Stack""]",http,0.0,16,none,"{""id"":""chatcmpl-srg2my00pqfb5ato15qz2v"",""object"":""chat.completion"",""created"":1795553897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0729,,MarianeAzar,20261124_215144,2026-11-24T20:58:18.753046+00:00
+6c76815550509b04,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Ron Weasley's middle name?
+A. Arthur
+B. Bilius
+C. Dominic
+D. John
+Answer:","[""Arthur"", ""Bilius"", ""Dominic"", ""John""]",http,0.0,16,none,"{""id"":""chatcmpl-8f0d28oju99y8gpfmcxpvq"",""object"":""chat.completion"",""created"":1795553898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9736,,MarianeAzar,20261124_215144,2026-11-24T20:58:19.727316+00:00
+6c76815550509b04,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Ron Weasley's middle name?
+A. Arthur
+B. Bilius
+C. Dominic
+D. John
+Answer:","[""Arthur"", ""Bilius"", ""Dominic"", ""John""]",http,0.0,16,none,"{""id"":""chatcmpl-xoam9z5ju9sm75xv3a0p8"",""object"":""chat.completion"",""created"":1795553899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2291,,MarianeAzar,20261124_215144,2026-11-24T20:58:20.956907+00:00
+1c43ec48379eceec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the free, open-source rhythm game 'osu!'?
+A. Daisuke 'Pixel' Amaya
+B. Eric 'ConcernedApe' Barone
+C. Dean 'Peppy' Herbert
+D. Toby 'FwugRadiation' Fox
+Answer:","[""Daisuke 'Pixel' Amaya"", ""Eric 'ConcernedApe' Barone"", ""Dean 'Peppy' Herbert"", ""Toby 'FwugRadiation' Fox""]",http,0.0,16,none,"{""id"":""chatcmpl-aajeypoo4ts7rlrfttobhp"",""object"":""chat.completion"",""created"":1795553900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1758,,MarianeAzar,20261124_215144,2026-11-24T20:58:22.132994+00:00
+1c43ec48379eceec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the free, open-source rhythm game 'osu!'?
+A. Daisuke 'Pixel' Amaya
+B. Eric 'ConcernedApe' Barone
+C. Dean 'Peppy' Herbert
+D. Toby 'FwugRadiation' Fox
+Answer:","[""Daisuke 'Pixel' Amaya"", ""Eric 'ConcernedApe' Barone"", ""Dean 'Peppy' Herbert"", ""Toby 'FwugRadiation' Fox""]",http,0.0,16,none,"{""id"":""chatcmpl-o9ntf4y3zgb1b1e9tenmb2"",""object"":""chat.completion"",""created"":1795553902,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1793,,MarianeAzar,20261124_215144,2026-11-24T20:58:23.312546+00:00
+ab1205ab6fdc3575,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, which raid instance features a chess event?
+A. Blackwing Lair
+B. Temple of Ahn'Qiraj
+C. Zul'Aman
+D. Karazhan
+Answer:","[""Blackwing Lair"", ""Temple of Ahn'Qiraj"", ""Zul'Aman"", ""Karazhan""]",http,0.0,16,none,"{""id"":""chatcmpl-etcy9z877rcutja13hdjx"",""object"":""chat.completion"",""created"":1795553903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3313,,MarianeAzar,20261124_215144,2026-11-24T20:58:24.644183+00:00
+ab1205ab6fdc3575,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, which raid instance features a chess event?
+A. Blackwing Lair
+B. Temple of Ahn'Qiraj
+C. Zul'Aman
+D. Karazhan
+Answer:","[""Blackwing Lair"", ""Temple of Ahn'Qiraj"", ""Zul'Aman"", ""Karazhan""]",http,0.0,16,none,"{""id"":""chatcmpl-w3fxery2dkdq47qlj6e46"",""object"":""chat.completion"",""created"":1795553904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0417,,MarianeAzar,20261124_215144,2026-11-24T20:58:25.686146+00:00

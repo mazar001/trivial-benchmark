@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b3458978f122a268,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Guyana is in which continent?
+A. Africa
+B. Asia
+C. South America
+D. North America
+Answer:","[""Africa"", ""Asia"", ""South America"", ""North America""]",http,0.0,16,none,"{""id"":""chatcmpl-ovaij4oe6jn4djbkyp491b"",""object"":""chat.completion"",""created"":1795595220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.052,,MarianeAzar,20261125_084135,2026-11-25T08:27:01.835040+00:00
+b3458978f122a268,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Guyana is in which continent?
+A. Africa
+B. Asia
+C. South America
+D. North America
+Answer:","[""Africa"", ""Asia"", ""South America"", ""North America""]",http,0.0,16,none,"{""id"":""chatcmpl-i9s44slpmgknhh6lmay8i"",""object"":""chat.completion"",""created"":1795595221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9803,,MarianeAzar,20261125_084135,2026-11-25T08:27:02.815639+00:00
+15efd3b11ff2f169,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Switzerland has four national languages, English being one of them.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7wqrw728c2jlw1gjntjqk"",""object"":""chat.completion"",""created"":1795595222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3811,,MarianeAzar,20261125_084135,2026-11-25T08:27:04.196967+00:00
+15efd3b11ff2f169,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Switzerland has four national languages, English being one of them.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d0wdlp7rl4fqbsnptp56v"",""object"":""chat.completion"",""created"":1795595223,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9382,,MarianeAzar,20261125_084135,2026-11-25T08:27:05.135358+00:00
+1b7cc5e113907073,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Counter-Strike maps is a bomb defuse scenario?
+A. Oilrig
+B. 747
+C. Havana
+D. Prodigy
+Answer:","[""Oilrig"", ""747"", ""Havana"", ""Prodigy""]",http,0.0,16,none,"{""id"":""chatcmpl-76fdbdq3eh8orniece07ho"",""object"":""chat.completion"",""created"":1795595224,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9484,,MarianeAzar,20261125_084135,2026-11-25T08:27:06.084114+00:00
+1b7cc5e113907073,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Counter-Strike maps is a bomb defuse scenario?
+A. Oilrig
+B. 747
+C. Havana
+D. Prodigy
+Answer:","[""Oilrig"", ""747"", ""Havana"", ""Prodigy""]",http,0.0,16,none,"{""id"":""chatcmpl-p8bbhx1oonjt7h0al3065"",""object"":""chat.completion"",""created"":1795595225,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4137,,MarianeAzar,20261125_084135,2026-11-25T08:27:07.498108+00:00
+2fa33df1f5157cfc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?
+A. A Dragon
+B. A Lion
+C. A Horse
+D. A Tiger
+Answer:","[""A Dragon"", ""A Lion"", ""A Horse"", ""A Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-gy1wc1vwwwqhc4x2t2pylk"",""object"":""chat.completion"",""created"":1795595226,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.966,,MarianeAzar,20261125_084135,2026-11-25T08:27:08.464351+00:00
+2fa33df1f5157cfc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?
+A. A Dragon
+B. A Lion
+C. A Horse
+D. A Tiger
+Answer:","[""A Dragon"", ""A Lion"", ""A Horse"", ""A Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-sb4vuvpvgf8wlw5hjzj88"",""object"":""chat.completion"",""created"":1795595227,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9825,,MarianeAzar,20261125_084135,2026-11-25T08:27:09.447108+00:00
+d38030f8b95ba641,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Cynophobia the fear of?
+A. Dogs
+B. Flying
+C. Germs
+D. Birds
+Answer:","[""Dogs"", ""Flying"", ""Germs"", ""Birds""]",http,0.0,16,none,"{""id"":""chatcmpl-3vbdz7frnazfwf5j1lq2eh"",""object"":""chat.completion"",""created"":1795595228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4214,,MarianeAzar,20261125_084135,2026-11-25T08:27:10.868799+00:00
+d38030f8b95ba641,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Cynophobia the fear of?
+A. Dogs
+B. Flying
+C. Germs
+D. Birds
+Answer:","[""Dogs"", ""Flying"", ""Germs"", ""Birds""]",http,0.0,16,none,"{""id"":""chatcmpl-1pfohd3vzvi7vr6mkl5zkb"",""object"":""chat.completion"",""created"":1795595230,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0088,,MarianeAzar,20261125_084135,2026-11-25T08:27:11.877790+00:00
+322d0c57fc79e235,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's smallest country by population?
+A. Lichtenstein
+B. Marshall Islands
+C. Nauru
+D. Vatican City
+Answer:","[""Lichtenstein"", ""Marshall Islands"", ""Nauru"", ""Vatican City""]",http,0.0,16,none,"{""id"":""chatcmpl-q911ablczjzzffgnkcvgq"",""object"":""chat.completion"",""created"":1795595231,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9775,,MarianeAzar,20261125_084135,2026-11-25T08:27:12.855666+00:00
+322d0c57fc79e235,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the world's smallest country by population?
+A. Lichtenstein
+B. Marshall Islands
+C. Nauru
+D. Vatican City
+Answer:","[""Lichtenstein"", ""Marshall Islands"", ""Nauru"", ""Vatican City""]",http,0.0,16,none,"{""id"":""chatcmpl-mx674e2jhjqa7offmj7xq"",""object"":""chat.completion"",""created"":1795595232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3938,,MarianeAzar,20261125_084135,2026-11-25T08:27:14.249655+00:00
+12605a892cc5a918,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Pikachu's National PokéDex Number?
+A. #031
+B. #001
+C. #025
+D. #109
+Answer:","[""#031"", ""#001"", ""#025"", ""#109""]",http,0.0,16,none,"{""id"":""chatcmpl-1xjun9sxvpuwbjdi35fcz"",""object"":""chat.completion"",""created"":1795595233,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0477,,MarianeAzar,20261125_084135,2026-11-25T08:27:15.298048+00:00
+12605a892cc5a918,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Pikachu's National PokéDex Number?
+A. #031
+B. #001
+C. #025
+D. #109
+Answer:","[""#031"", ""#001"", ""#025"", ""#109""]",http,0.0,16,none,"{""id"":""chatcmpl-yhn7kiwt9vheazeno93wwk"",""object"":""chat.completion"",""created"":1795595234,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9581,,MarianeAzar,20261125_084135,2026-11-25T08:27:16.256402+00:00
+6cef7398b1a1130d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""To Love-Ru"", who is the first to hear of Yami's past from her?
+A. Mikan
+B. Rito
+C. Lala
+D. Haruna
+Answer:","[""Mikan"", ""Rito"", ""Lala"", ""Haruna""]",http,0.0,16,none,"{""id"":""chatcmpl-ss2cbfyuiviv0wsifrgo4c"",""object"":""chat.completion"",""created"":1795595235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2502,,MarianeAzar,20261125_084135,2026-11-25T08:27:17.506759+00:00
+6cef7398b1a1130d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""To Love-Ru"", who is the first to hear of Yami's past from her?
+A. Mikan
+B. Rito
+C. Lala
+D. Haruna
+Answer:","[""Mikan"", ""Rito"", ""Lala"", ""Haruna""]",http,0.0,16,none,"{""id"":""chatcmpl-c2fxjbi9d6yqzjszisgf"",""object"":""chat.completion"",""created"":1795595236,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3623,,MarianeAzar,20261125_084135,2026-11-25T08:27:18.869468+00:00
+7d087939bb0a1602,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Roman god ""Jupiter"" was first known as ""Zeus"" to the Greeks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iq52dxbbi29kna8pkbidb"",""object"":""chat.completion"",""created"":1795595238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9112,,MarianeAzar,20261125_084135,2026-11-25T08:27:19.780886+00:00
+7d087939bb0a1602,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Roman god ""Jupiter"" was first known as ""Zeus"" to the Greeks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rm4ahwxa7vdra13kw0lov"",""object"":""chat.completion"",""created"":1795595239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9028,,MarianeAzar,20261125_084135,2026-11-25T08:27:20.684006+00:00
+728ee9f2ad2b29ca,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Facebook campaign placed Rage Against The Machine's ""Killing in the Name Of"" as the UK Christmas Number 1 in 2009.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9bbtzhw4f3nrtz7tq92ag8"",""object"":""chat.completion"",""created"":1795595240,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4331,,MarianeAzar,20261125_084135,2026-11-25T08:27:22.117423+00:00
+728ee9f2ad2b29ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Facebook campaign placed Rage Against The Machine's ""Killing in the Name Of"" as the UK Christmas Number 1 in 2009.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3kbdoqlf1vk9134b6na51c"",""object"":""chat.completion"",""created"":1795595241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9305,,MarianeAzar,20261125_084135,2026-11-25T08:27:23.048117+00:00
+f8fdf8a49d8eef24,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many rooms are there, not including the hallways and the set of stairs, in the board game ""Clue""?
+A. 1
+B. 10
+C. 6
+D. 9
+Answer:","[""1"", ""10"", ""6"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-k94ra9vt9yceycner1m07"",""object"":""chat.completion"",""created"":1795595242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9591,,MarianeAzar,20261125_084135,2026-11-25T08:27:24.007901+00:00
+f8fdf8a49d8eef24,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many rooms are there, not including the hallways and the set of stairs, in the board game ""Clue""?
+A. 1
+B. 10
+C. 6
+D. 9
+Answer:","[""1"", ""10"", ""6"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-ldmkunhrogchqocvkwz1v5"",""object"":""chat.completion"",""created"":1795595243,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4825,,MarianeAzar,20261125_084135,2026-11-25T08:27:25.490730+00:00
+13588ae43eab1f48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the weight of a Gold Bar in Fallout: New Vegas?
+A. 30 Pounds
+B. 35 Pounds
+C. 32.50 Pounds
+D. 40 Pounds
+Answer:","[""30 Pounds"", ""35 Pounds"", ""32.50 Pounds"", ""40 Pounds""]",http,0.0,16,none,"{""id"":""chatcmpl-b5eb2e0ail7f5e7ouc8o3j"",""object"":""chat.completion"",""created"":1795595244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0219,,MarianeAzar,20261125_084135,2026-11-25T08:27:26.512943+00:00
+13588ae43eab1f48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the weight of a Gold Bar in Fallout: New Vegas?
+A. 30 Pounds
+B. 35 Pounds
+C. 32.50 Pounds
+D. 40 Pounds
+Answer:","[""30 Pounds"", ""35 Pounds"", ""32.50 Pounds"", ""40 Pounds""]",http,0.0,16,none,"{""id"":""chatcmpl-5nhsv3a5438xlk96r163zd"",""object"":""chat.completion"",""created"":1795595245,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9764,,MarianeAzar,20261125_084135,2026-11-25T08:27:27.489671+00:00
+a4aa39a609872626,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Minions"" was released on the June 10th, 2015.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kc0g1sq348qqczhpqoaw8c"",""object"":""chat.completion"",""created"":1795595246,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3521,,MarianeAzar,20261125_084135,2026-11-25T08:27:28.842022+00:00

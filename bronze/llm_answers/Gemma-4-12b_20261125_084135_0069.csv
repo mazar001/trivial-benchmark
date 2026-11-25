@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+09c64c8cace6f492,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the fourth digit of π?
+A. 2
+B. 4
+C. 1
+D. 3
+Answer:","[""2"", ""4"", ""1"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-uassb5ay48i0kn9s2iwrc"",""object"":""chat.completion"",""created"":1795594022,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3175,,MarianeAzar,20261125_084135,2026-11-25T08:07:04.658747+00:00
+7934e3549c0bc72e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Kingdom Hearts"", who abducts Jasmine in the Lamp Chamber?
+A. Riku Replica
+B. Captain Hook
+C. Riku
+D. Xaldin
+Answer:","[""Riku Replica"", ""Captain Hook"", ""Riku"", ""Xaldin""]",http,0.0,16,none,"{""id"":""chatcmpl-i0jjyn4xbv0mh0nhnci9hn"",""object"":""chat.completion"",""created"":1795594024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9285,,MarianeAzar,20261125_084135,2026-11-25T08:07:05.587562+00:00
+7934e3549c0bc72e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Kingdom Hearts"", who abducts Jasmine in the Lamp Chamber?
+A. Riku Replica
+B. Captain Hook
+C. Riku
+D. Xaldin
+Answer:","[""Riku Replica"", ""Captain Hook"", ""Riku"", ""Xaldin""]",http,0.0,16,none,"{""id"":""chatcmpl-xe8h0un7n4o9rtqepntltc"",""object"":""chat.completion"",""created"":1795594025,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9745,,MarianeAzar,20261125_084135,2026-11-25T08:07:06.562236+00:00
+0f7690c9d1ce69fc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The most frequent subconscious activity repeated by the human body is blinking.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rwekgvj3m1oa9t4skrz5kd"",""object"":""chat.completion"",""created"":1795594025,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.386,,MarianeAzar,20261125_084135,2026-11-25T08:07:07.948429+00:00
+0f7690c9d1ce69fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The most frequent subconscious activity repeated by the human body is blinking.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0sdtlj8g9ak8dji2ccf643"",""object"":""chat.completion"",""created"":1795594027,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1006,,MarianeAzar,20261125_084135,2026-11-25T08:07:09.049241+00:00
+21a385c1eb54f481,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many unique items does ""Borderlands 2"" claim to have?
+A. 87 Trillion
+B. 87 Gazillion
+C. 87 Bazillion
+D. 87 Million
+Answer:","[""87 Trillion"", ""87 Gazillion"", ""87 Bazillion"", ""87 Million""]",http,0.0,16,none,"{""id"":""chatcmpl-3w0vb1gz462k8p53gzg63"",""object"":""chat.completion"",""created"":1795594028,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1362,,MarianeAzar,20261125_084135,2026-11-25T08:07:10.185955+00:00
+21a385c1eb54f481,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many unique items does ""Borderlands 2"" claim to have?
+A. 87 Trillion
+B. 87 Gazillion
+C. 87 Bazillion
+D. 87 Million
+Answer:","[""87 Trillion"", ""87 Gazillion"", ""87 Bazillion"", ""87 Million""]",http,0.0,16,none,"{""id"":""chatcmpl-4k5lhozfkkfc066pp1fbha"",""object"":""chat.completion"",""created"":1795594029,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0568,,MarianeAzar,20261125_084135,2026-11-25T08:07:11.243086+00:00
+85209ee69a77139d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ping-Pong originated in England
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4twuvqcp894306rf1sla46"",""object"":""chat.completion"",""created"":1795594030,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9253,,MarianeAzar,20261125_084135,2026-11-25T08:07:12.168555+00:00
+85209ee69a77139d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ping-Pong originated in England
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jrsluyvq7rb5nrewnbig94"",""object"":""chat.completion"",""created"":1795594031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3547,,MarianeAzar,20261125_084135,2026-11-25T08:07:13.523337+00:00
+b9224ab4e74dc40c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Grumpy Cat's real name?
+A. Broccoli
+B. Minnie
+C. Sauce
+D. Tardar Sauce
+Answer:","[""Broccoli"", ""Minnie"", ""Sauce"", ""Tardar Sauce""]",http,0.0,16,none,"{""id"":""chatcmpl-f7b9za9o7n7gwk8ssjmdp4"",""object"":""chat.completion"",""created"":1795594032,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9571,,MarianeAzar,20261125_084135,2026-11-25T08:07:14.480588+00:00
+b9224ab4e74dc40c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Grumpy Cat's real name?
+A. Broccoli
+B. Minnie
+C. Sauce
+D. Tardar Sauce
+Answer:","[""Broccoli"", ""Minnie"", ""Sauce"", ""Tardar Sauce""]",http,0.0,16,none,"{""id"":""chatcmpl-1uqorzc3xhba1acqrr7924"",""object"":""chat.completion"",""created"":1795594033,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9457,,MarianeAzar,20261125_084135,2026-11-25T08:07:15.426534+00:00
+cdd853b8ac87d847,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby's All-Star Laff-a-Lympics.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jrietvle8fryqk22dfz4e"",""object"":""chat.completion"",""created"":1795594034,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3493,,MarianeAzar,20261125_084135,2026-11-25T08:07:16.776020+00:00
+cdd853b8ac87d847,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Snagglepuss was part of the Yogi Yahooies in the 1977 show Scooby's All-Star Laff-a-Lympics.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2qct1uio3aysgyo1xepe9"",""object"":""chat.completion"",""created"":1795594036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:07:17.681128+00:00
+cb1fc7de005d0e12,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of the Smashing Pumpkins?
+A. Brett Scallions
+B. Billy Corgan
+C. Chino Moreno
+D. Eddie Vedder
+Answer:","[""Brett Scallions"", ""Billy Corgan"", ""Chino Moreno"", ""Eddie Vedder""]",http,0.0,16,none,"{""id"":""chatcmpl-1jbctl00bijlofv9h9f2ye"",""object"":""chat.completion"",""created"":1795594037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9712,,MarianeAzar,20261125_084135,2026-11-25T08:07:18.652576+00:00
+cb1fc7de005d0e12,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of the Smashing Pumpkins?
+A. Brett Scallions
+B. Billy Corgan
+C. Chino Moreno
+D. Eddie Vedder
+Answer:","[""Brett Scallions"", ""Billy Corgan"", ""Chino Moreno"", ""Eddie Vedder""]",http,0.0,16,none,"{""id"":""chatcmpl-ye4uxkkzb7lq9kww9u9w8t"",""object"":""chat.completion"",""created"":1795594038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4176,,MarianeAzar,20261125_084135,2026-11-25T08:07:20.070996+00:00
+b8fb9d16b402bc41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the hull NO. of the Fletcher class destroyer Fletcher?
+A. DD-992
+B. DD-444
+C. DD-445
+D. DD-446
+Answer:","[""DD-992"", ""DD-444"", ""DD-445"", ""DD-446""]",http,0.0,16,none,"{""id"":""chatcmpl-4d8h3kbt2q39su0bllnidu"",""object"":""chat.completion"",""created"":1795594039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9712,,MarianeAzar,20261125_084135,2026-11-25T08:07:21.042670+00:00
+b8fb9d16b402bc41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the hull NO. of the Fletcher class destroyer Fletcher?
+A. DD-992
+B. DD-444
+C. DD-445
+D. DD-446
+Answer:","[""DD-992"", ""DD-444"", ""DD-445"", ""DD-446""]",http,0.0,16,none,"{""id"":""chatcmpl-nfo4m3c3vqrwyvzwzpgw1"",""object"":""chat.completion"",""created"":1795594040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2596,,MarianeAzar,20261125_084135,2026-11-25T08:07:22.302453+00:00
+667e30ddd11447da,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following actors does not play a role in the movie ""The Usual Suspects?""
+A. Steve Buscemi
+B. Benicio Del Toro
+C. Gabriel Byrne
+D. Kevin Spacey
+Answer:","[""Steve Buscemi"", ""Benicio Del Toro"", ""Gabriel Byrne"", ""Kevin Spacey""]",http,0.0,16,none,"{""id"":""chatcmpl-a5vshnrp10rfhfxwl35z5w"",""object"":""chat.completion"",""created"":1795594041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1338,,MarianeAzar,20261125_084135,2026-11-25T08:07:23.436483+00:00
+667e30ddd11447da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following actors does not play a role in the movie ""The Usual Suspects?""
+A. Steve Buscemi
+B. Benicio Del Toro
+C. Gabriel Byrne
+D. Kevin Spacey
+Answer:","[""Steve Buscemi"", ""Benicio Del Toro"", ""Gabriel Byrne"", ""Kevin Spacey""]",http,0.0,16,none,"{""id"":""chatcmpl-cm8rvpmaemurja8dnjdjp"",""object"":""chat.completion"",""created"":1795594042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9631,,MarianeAzar,20261125_084135,2026-11-25T08:07:24.399896+00:00
+f8d0fbd7346bea36,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Mann Co. Store from Team Fortress 2 has the slogan ""We hire mercenaries and get in fights"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2eqpdqlh17dh6v6q6f1te"",""object"":""chat.completion"",""created"":1795594043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4664,,MarianeAzar,20261125_084135,2026-11-25T08:07:25.866443+00:00
+f8d0fbd7346bea36,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Mann Co. Store from Team Fortress 2 has the slogan ""We hire mercenaries and get in fights"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-upkuklzec4nydhod4kzuvt"",""object"":""chat.completion"",""created"":1795594045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9295,,MarianeAzar,20261125_084135,2026-11-25T08:07:26.796173+00:00
+e194bbe0e5e95df6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country was the Trabant 601 manufactured in?
+A. Soviet Union
+B. East Germany
+C. Hungary
+D. France
+Answer:","[""Soviet Union"", ""East Germany"", ""Hungary"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-xx8dvv80pibe26c674dggh"",""object"":""chat.completion"",""created"":1795594046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9477,,MarianeAzar,20261125_084135,2026-11-25T08:07:27.744231+00:00
+e194bbe0e5e95df6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country was the Trabant 601 manufactured in?
+A. Soviet Union
+B. East Germany
+C. Hungary
+D. France
+Answer:","[""Soviet Union"", ""East Germany"", ""Hungary"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-pq7jsrth4bcxu9pxumt5z"",""object"":""chat.completion"",""created"":1795594047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.382,,MarianeAzar,20261125_084135,2026-11-25T08:07:29.126514+00:00
+a100f5282750e0cc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of Pokémon is Charizard?
+A. Fire
+B. Fire/Flying
+C. Fire/Dragon
+D. Dragon
+Answer:","[""Fire"", ""Fire/Flying"", ""Fire/Dragon"", ""Dragon""]",http,0.0,16,none,"{""id"":""chatcmpl-v02zximxt3pgmos8shv1"",""object"":""chat.completion"",""created"":1795594048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9329,,MarianeAzar,20261125_084135,2026-11-25T08:07:30.059736+00:00
+a100f5282750e0cc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of Pokémon is Charizard?
+A. Fire
+B. Fire/Flying
+C. Fire/Dragon
+D. Dragon
+Answer:","[""Fire"", ""Fire/Flying"", ""Fire/Dragon"", ""Dragon""]",http,0.0,16,none,"{""id"":""chatcmpl-oo6tuhil63k1hfq4fv7p5t"",""object"":""chat.completion"",""created"":1795594049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9481,,MarianeAzar,20261125_084135,2026-11-25T08:07:31.008030+00:00

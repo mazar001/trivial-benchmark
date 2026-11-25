@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a95efcfecb0ffe26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the scales on all snakes and most lizards are made of?
+A. Keratin
+B. Ankyloglossia
+C. Ecdysis
+D. Epidermis
+Answer:","[""Keratin"", ""Ankyloglossia"", ""Ecdysis"", ""Epidermis""]",http,0.0,16,none,"{""id"":""chatcmpl-7kau1gzw5cihpzikk5qlj7"",""object"":""chat.completion"",""created"":1795596246,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9583,,MarianeAzar,20261125_084135,2026-11-25T08:44:08.116544+00:00
+a95efcfecb0ffe26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the scales on all snakes and most lizards are made of?
+A. Keratin
+B. Ankyloglossia
+C. Ecdysis
+D. Epidermis
+Answer:","[""Keratin"", ""Ankyloglossia"", ""Ecdysis"", ""Epidermis""]",http,0.0,16,none,"{""id"":""chatcmpl-ze56znx5q7azq6n5d5qem8"",""object"":""chat.completion"",""created"":1795596247,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9089,,MarianeAzar,20261125_084135,2026-11-25T08:44:09.025680+00:00
+af5efbbd0080af9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of NASA’s most famous space telescope?
+A. Millenium Falcon
+B. Hubble Space Telescope
+C. Death Star
+D. Big Eye
+Answer:","[""Millenium Falcon"", ""Hubble Space Telescope"", ""Death Star"", ""Big Eye""]",http,0.0,16,none,"{""id"":""chatcmpl-8tvg3a66teo7wax62qti0q"",""object"":""chat.completion"",""created"":1795596248,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9328,,MarianeAzar,20261125_084135,2026-11-25T08:44:09.959075+00:00
+af5efbbd0080af9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of NASA’s most famous space telescope?
+A. Millenium Falcon
+B. Hubble Space Telescope
+C. Death Star
+D. Big Eye
+Answer:","[""Millenium Falcon"", ""Hubble Space Telescope"", ""Death Star"", ""Big Eye""]",http,0.0,16,none,"{""id"":""chatcmpl-ivnk658id4nmrq7ne5tc"",""object"":""chat.completion"",""created"":1795596249,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9215,,MarianeAzar,20261125_084135,2026-11-25T08:44:10.880936+00:00
+f95a18db80742d27,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first Grand Theft Auto was also planned for the Nintendo 64.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n7lwjhn10vm98g3ou3ec"",""object"":""chat.completion"",""created"":1795596250,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8297,,MarianeAzar,20261125_084135,2026-11-25T08:44:11.710994+00:00
+f95a18db80742d27,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first Grand Theft Auto was also planned for the Nintendo 64.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dizepj3rz5mx1c63sge39"",""object"":""chat.completion"",""created"":1795596251,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:44:12.571504+00:00
+732716834c1312d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was NOT directed by Quentin Tarantino?
+A. Pulp Fiction
+B. From Dusk till Dawn
+C. Jackie Brown
+D. Reservoir Dogs
+Answer:","[""Pulp Fiction"", ""From Dusk till Dawn"", ""Jackie Brown"", ""Reservoir Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-ps6t7ibq2tlb0g2wv8knys"",""object"":""chat.completion"",""created"":1795596252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8811,,MarianeAzar,20261125_084135,2026-11-25T08:44:13.452905+00:00
+732716834c1312d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was NOT directed by Quentin Tarantino?
+A. Pulp Fiction
+B. From Dusk till Dawn
+C. Jackie Brown
+D. Reservoir Dogs
+Answer:","[""Pulp Fiction"", ""From Dusk till Dawn"", ""Jackie Brown"", ""Reservoir Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-7ehhov412v4384df7kmuos"",""object"":""chat.completion"",""created"":1795596252,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9775,,MarianeAzar,20261125_084135,2026-11-25T08:44:14.430733+00:00
+faa6c47cf1be5117,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?
+A. Leonardo
+B. Michelangelo
+C. Donatello
+D. Raphael
+Answer:","[""Leonardo"", ""Michelangelo"", ""Donatello"", ""Raphael""]",http,0.0,16,none,"{""id"":""chatcmpl-4b304y6849e96mt5j4r1qt"",""object"":""chat.completion"",""created"":1795596253,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T08:44:15.278707+00:00
+faa6c47cf1be5117,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Teenage Mutant Ninja Turtle traditionally wears an orange bandana?
+A. Leonardo
+B. Michelangelo
+C. Donatello
+D. Raphael
+Answer:","[""Leonardo"", ""Michelangelo"", ""Donatello"", ""Raphael""]",http,0.0,16,none,"{""id"":""chatcmpl-bnpv4hfmnxbna7xhow11"",""object"":""chat.completion"",""created"":1795596254,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9211,,MarianeAzar,20261125_084135,2026-11-25T08:44:16.200241+00:00
+d8e16b6f3cbf0d60,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many zeptometres are inside one femtometre?
+A. 10
+B. 1,000,000
+C. 1000
+D. 1,000,000,000
+Answer:","[""10"", ""1,000,000"", ""1000"", ""1,000,000,000""]",http,0.0,16,none,"{""id"":""chatcmpl-wii6qolrgng8931kh8iii8"",""object"":""chat.completion"",""created"":1795596255,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9474,,MarianeAzar,20261125_084135,2026-11-25T08:44:17.148195+00:00
+d8e16b6f3cbf0d60,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many zeptometres are inside one femtometre?
+A. 10
+B. 1,000,000
+C. 1000
+D. 1,000,000,000
+Answer:","[""10"", ""1,000,000"", ""1000"", ""1,000,000,000""]",http,0.0,16,none,"{""id"":""chatcmpl-bxm1vtu8tmtihi5kkxpl9a"",""object"":""chat.completion"",""created"":1795596256,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9983,,MarianeAzar,20261125_084135,2026-11-25T08:44:18.146723+00:00
+ab95c3b6c37dca23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sung the opening theme song to the 1995 James Bond film 'Goldeneye'?
+A. Tina Turner
+B. Sheryl Crow
+C. Shirley Bassey
+D. Madonna
+Answer:","[""Tina Turner"", ""Sheryl Crow"", ""Shirley Bassey"", ""Madonna""]",http,0.0,16,none,"{""id"":""chatcmpl-ddlyaf0ywcx8op2fl3pgf"",""object"":""chat.completion"",""created"":1795596257,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9361,,MarianeAzar,20261125_084135,2026-11-25T08:44:19.083201+00:00
+ab95c3b6c37dca23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sung the opening theme song to the 1995 James Bond film 'Goldeneye'?
+A. Tina Turner
+B. Sheryl Crow
+C. Shirley Bassey
+D. Madonna
+Answer:","[""Tina Turner"", ""Sheryl Crow"", ""Shirley Bassey"", ""Madonna""]",http,0.0,16,none,"{""id"":""chatcmpl-pjbt7oh5rf8bpmiws5mmhm"",""object"":""chat.completion"",""created"":1795596258,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T08:44:19.970589+00:00
+de1bbbbf4e90da0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What sport is being played in the Anime Eyeshield 21?
+A. American Football
+B. Football
+C. Basketball
+D. Baseball
+Answer:","[""American Football"", ""Football"", ""Basketball"", ""Baseball""]",http,0.0,16,none,"{""id"":""chatcmpl-cm1e8bbd7tp1h3h7ofy57m"",""object"":""chat.completion"",""created"":1795596259,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9127,,MarianeAzar,20261125_084135,2026-11-25T08:44:20.884000+00:00
+de1bbbbf4e90da0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What sport is being played in the Anime Eyeshield 21?
+A. American Football
+B. Football
+C. Basketball
+D. Baseball
+Answer:","[""American Football"", ""Football"", ""Basketball"", ""Baseball""]",http,0.0,16,none,"{""id"":""chatcmpl-a63cy7urkimxj9p8g69bkh"",""object"":""chat.completion"",""created"":1795596260,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9269,,MarianeAzar,20261125_084135,2026-11-25T08:44:21.811368+00:00
+6b2f238e4944fa83,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Honda Motor Corporation originates in Japan
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o8a4uhfh94wrj7ovzpm2"",""object"":""chat.completion"",""created"":1795596261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7987,,MarianeAzar,20261125_084135,2026-11-25T08:44:22.610654+00:00
+6b2f238e4944fa83,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Honda Motor Corporation originates in Japan
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k4gdijx5mwtcmrni4k3jd"",""object"":""chat.completion"",""created"":1795596262,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8308,,MarianeAzar,20261125_084135,2026-11-25T08:44:23.441598+00:00
+023fedf8aa8d282e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Overwatch's lore, who was once a member of the Deadlock Gang?
+A. McCree
+B. Roadhog
+C. Soldier 76
+D. Junkrat
+Answer:","[""McCree"", ""Roadhog"", ""Soldier 76"", ""Junkrat""]",http,0.0,16,none,"{""id"":""chatcmpl-4ohe6bsuks2iw9enfea0s"",""object"":""chat.completion"",""created"":1795596262,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8672,,MarianeAzar,20261125_084135,2026-11-25T08:44:24.309114+00:00
+023fedf8aa8d282e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Overwatch's lore, who was once a member of the Deadlock Gang?
+A. McCree
+B. Roadhog
+C. Soldier 76
+D. Junkrat
+Answer:","[""McCree"", ""Roadhog"", ""Soldier 76"", ""Junkrat""]",http,0.0,16,none,"{""id"":""chatcmpl-k2z789wswrl8zx4q5yg5vt"",""object"":""chat.completion"",""created"":1795596263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9023,,MarianeAzar,20261125_084135,2026-11-25T08:44:25.211764+00:00
+c337cfb10e212ccd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who designed the album cover for True Romance, an album by Estelle?
+A. Ben Leven
+B. Matt Burnett
+C. Ian Jones Quartey
+D. Rebecca Sugar
+Answer:","[""Ben Leven"", ""Matt Burnett"", ""Ian Jones Quartey"", ""Rebecca Sugar""]",http,0.0,16,none,"{""id"":""chatcmpl-tuq08c2vc2c6u7t7ywr7u"",""object"":""chat.completion"",""created"":1795596264,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T08:44:26.106451+00:00
+c337cfb10e212ccd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who designed the album cover for True Romance, an album by Estelle?
+A. Ben Leven
+B. Matt Burnett
+C. Ian Jones Quartey
+D. Rebecca Sugar
+Answer:","[""Ben Leven"", ""Matt Burnett"", ""Ian Jones Quartey"", ""Rebecca Sugar""]",http,0.0,16,none,"{""id"":""chatcmpl-shbmsti6zln76sif4ynxji"",""object"":""chat.completion"",""created"":1795596265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8776,,MarianeAzar,20261125_084135,2026-11-25T08:44:26.984312+00:00
+1edc2e7816721e9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many syllables make up a haiku?
+A. 21
+B. 15
+C. 10
+D. 17
+Answer:","[""21"", ""15"", ""10"", ""17""]",http,0.0,16,none,"{""id"":""chatcmpl-5b2svj5y5ji9xt4a5cto5k"",""object"":""chat.completion"",""created"":1795596266,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0142,,MarianeAzar,20261125_084135,2026-11-25T08:44:27.999041+00:00
+1edc2e7816721e9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many syllables make up a haiku?
+A. 21
+B. 15
+C. 10
+D. 17
+Answer:","[""21"", ""15"", ""10"", ""17""]",http,0.0,16,none,"{""id"":""chatcmpl-qlfc2j03vq8i8jhdov8xhk"",""object"":""chat.completion"",""created"":1795596267,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8783,,MarianeAzar,20261125_084135,2026-11-25T08:44:28.877479+00:00
+f98d8cabd37bfa23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Volkswagen's legendary VR6 engine has cylinders positioned at what degree angle?
+A. 45 Degree
+B. 30 Degree
+C. 15 Degree
+D. 90 Degree
+Answer:","[""45 Degree"", ""30 Degree"", ""15 Degree"", ""90 Degree""]",http,0.0,16,none,"{""id"":""chatcmpl-qk5rch4kpozuhehlsx72n"",""object"":""chat.completion"",""created"":1795596268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8848,,MarianeAzar,20261125_084135,2026-11-25T08:44:29.762549+00:00

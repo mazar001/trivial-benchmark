@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8aba8827c2fae8d2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which NBA player won Most Valuable Player for the 1999-2000 season?
+A. Shaquille O'Neal
+B. Paul Pierce
+C. Allen Iverson
+D. Kobe Bryant
+Answer:","[""Shaquille O'Neal"", ""Paul Pierce"", ""Allen Iverson"", ""Kobe Bryant""]",http,0.0,16,none,"{""id"":""chatcmpl-oz7t4ap6uwkdjly1g6ari"",""object"":""chat.completion"",""created"":1795554060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261124_215144,2026-11-24T21:01:01.894719+00:00
+8aba8827c2fae8d2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which NBA player won Most Valuable Player for the 1999-2000 season?
+A. Shaquille O'Neal
+B. Paul Pierce
+C. Allen Iverson
+D. Kobe Bryant
+Answer:","[""Shaquille O'Neal"", ""Paul Pierce"", ""Allen Iverson"", ""Kobe Bryant""]",http,0.0,16,none,"{""id"":""chatcmpl-prz5d7bf9bkxjaf34m9be8"",""object"":""chat.completion"",""created"":1795554061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261124_215144,2026-11-24T21:01:02.779319+00:00
+6c4b18b0d30fe697,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, which debuff does the ankh charm not provide immunity to?
+A. Slow
+B. Bleeding
+C. Venom
+D. Cursed
+Answer:","[""Slow"", ""Bleeding"", ""Venom"", ""Cursed""]",http,0.0,16,none,"{""id"":""chatcmpl-5pphkt1z2wisy7d10yn2cp"",""object"":""chat.completion"",""created"":1795554062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261124_215144,2026-11-24T21:01:03.644611+00:00
+6c4b18b0d30fe697,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, which debuff does the ankh charm not provide immunity to?
+A. Slow
+B. Bleeding
+C. Venom
+D. Cursed
+Answer:","[""Slow"", ""Bleeding"", ""Venom"", ""Cursed""]",http,0.0,16,none,"{""id"":""chatcmpl-5rzre0s4s4sbw5rzps0kwc"",""object"":""chat.completion"",""created"":1795554063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261124_215144,2026-11-24T21:01:04.503966+00:00
+32494baac286df25,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Led Zeppelin album contains ""Stairway to Heaven""?
+A. Led Zeppelin III
+B. Houses of the Holy
+C. Led Zeppelin IV
+D. Physical Graffiti
+Answer:","[""Led Zeppelin III"", ""Houses of the Holy"", ""Led Zeppelin IV"", ""Physical Graffiti""]",http,0.0,16,none,"{""id"":""chatcmpl-sb487pje3zouyz8nww6p"",""object"":""chat.completion"",""created"":1795554064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261124_215144,2026-11-24T21:01:05.353957+00:00
+32494baac286df25,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Led Zeppelin album contains ""Stairway to Heaven""?
+A. Led Zeppelin III
+B. Houses of the Holy
+C. Led Zeppelin IV
+D. Physical Graffiti
+Answer:","[""Led Zeppelin III"", ""Houses of the Holy"", ""Led Zeppelin IV"", ""Physical Graffiti""]",http,0.0,16,none,"{""id"":""chatcmpl-ijdix17czosi3gce0f606l"",""object"":""chat.completion"",""created"":1795554065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261124_215144,2026-11-24T21:01:06.231666+00:00
+2ba4f9a68509a790,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What date was the first flight of the P-40 Warhawk?
+A. January 12 1940
+B. June 1 1939
+C. August 21 1939
+D. October 14 1938
+Answer:","[""January 12 1940"", ""June 1 1939"", ""August 21 1939"", ""October 14 1938""]",http,0.0,16,none,"{""id"":""chatcmpl-4aifoev0fovxoac4fiw97"",""object"":""chat.completion"",""created"":1795554066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261124_215144,2026-11-24T21:01:07.110110+00:00
+2ba4f9a68509a790,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What date was the first flight of the P-40 Warhawk?
+A. January 12 1940
+B. June 1 1939
+C. August 21 1939
+D. October 14 1938
+Answer:","[""January 12 1940"", ""June 1 1939"", ""August 21 1939"", ""October 14 1938""]",http,0.0,16,none,"{""id"":""chatcmpl-bndwctd74goaftia7rfd"",""object"":""chat.completion"",""created"":1795554067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9256,,MarianeAzar,20261124_215144,2026-11-24T21:01:08.036151+00:00
+04629c3c70ffc500,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""YouTube"" founded?
+A. February 14, 2005
+B. July 19, 2009
+C. May 22, 2004
+D. September 12, 2005
+Answer:","[""February 14, 2005"", ""July 19, 2009"", ""May 22, 2004"", ""September 12, 2005""]",http,0.0,16,none,"{""id"":""chatcmpl-22v4nxzs19f46tfc038xn6"",""object"":""chat.completion"",""created"":1795554067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9211,,MarianeAzar,20261124_215144,2026-11-24T21:01:08.957464+00:00
+04629c3c70ffc500,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""YouTube"" founded?
+A. February 14, 2005
+B. July 19, 2009
+C. May 22, 2004
+D. September 12, 2005
+Answer:","[""February 14, 2005"", ""July 19, 2009"", ""May 22, 2004"", ""September 12, 2005""]",http,0.0,16,none,"{""id"":""chatcmpl-00wlc6iugetso9ukjraen1ll"",""object"":""chat.completion"",""created"":1795554068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.928,,MarianeAzar,20261124_215144,2026-11-24T21:01:09.885959+00:00
+919f0e9fc644bab6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many plays is Shakespeare generally considered to have written?
+A. 54
+B. 37
+C. 25
+D. 18
+Answer:","[""54"", ""37"", ""25"", ""18""]",http,0.0,16,none,"{""id"":""chatcmpl-fmg1rwpgefd65ia6pqrf8"",""object"":""chat.completion"",""created"":1795554069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9262,,MarianeAzar,20261124_215144,2026-11-24T21:01:10.812835+00:00
+919f0e9fc644bab6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many plays is Shakespeare generally considered to have written?
+A. 54
+B. 37
+C. 25
+D. 18
+Answer:","[""54"", ""37"", ""25"", ""18""]",http,0.0,16,none,"{""id"":""chatcmpl-nzz6hia4vfa4tdj5m9vdkj"",""object"":""chat.completion"",""created"":1795554070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261124_215144,2026-11-24T21:01:11.686257+00:00
+5e3a84c483ea7985,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a word used to describe an earthquake?
+A. Temblor
+B. Foreshock
+C. Strike-slip
+D. Drop-slide
+Answer:","[""Temblor"", ""Foreshock"", ""Strike-slip"", ""Drop-slide""]",http,0.0,16,none,"{""id"":""chatcmpl-7n7e834ecbpuu0xpv03ni"",""object"":""chat.completion"",""created"":1795554071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261124_215144,2026-11-24T21:01:12.540872+00:00
+5e3a84c483ea7985,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a word used to describe an earthquake?
+A. Temblor
+B. Foreshock
+C. Strike-slip
+D. Drop-slide
+Answer:","[""Temblor"", ""Foreshock"", ""Strike-slip"", ""Drop-slide""]",http,0.0,16,none,"{""id"":""chatcmpl-g4xypfj4ho43r1ww4tgtg"",""object"":""chat.completion"",""created"":1795554072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8652,,MarianeAzar,20261124_215144,2026-11-24T21:01:13.406505+00:00
+a430a04106ea9652,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a country in Africa?
+A. Senegal
+B. Somalia
+C. Guyana
+D. Liberia
+Answer:","[""Senegal"", ""Somalia"", ""Guyana"", ""Liberia""]",http,0.0,16,none,"{""id"":""chatcmpl-vt75hadsnqmqyt6j21qcs"",""object"":""chat.completion"",""created"":1795554073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9229,,MarianeAzar,20261124_215144,2026-11-24T21:01:14.329734+00:00
+a430a04106ea9652,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a country in Africa?
+A. Senegal
+B. Somalia
+C. Guyana
+D. Liberia
+Answer:","[""Senegal"", ""Somalia"", ""Guyana"", ""Liberia""]",http,0.0,16,none,"{""id"":""chatcmpl-fj4hx9ywgshbyuta7mfeu"",""object"":""chat.completion"",""created"":1795554074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9138,,MarianeAzar,20261124_215144,2026-11-24T21:01:15.243890+00:00
+344374852c723d3f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does SSD stand for in the context of computer storage?
+A. Software Storage Device
+B. Secure System Disk
+C. Solid State Drive
+D. Super Speed Data
+Answer:","[""Software Storage Device"", ""Secure System Disk"", ""Solid State Drive"", ""Super Speed Data""]",http,0.0,16,none,"{""id"":""chatcmpl-dfv9cbq1jh8fsd2ovk428"",""object"":""chat.completion"",""created"":1795554075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9273,,MarianeAzar,20261124_215144,2026-11-24T21:01:16.171518+00:00
+344374852c723d3f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does SSD stand for in the context of computer storage?
+A. Software Storage Device
+B. Secure System Disk
+C. Solid State Drive
+D. Super Speed Data
+Answer:","[""Software Storage Device"", ""Secure System Disk"", ""Solid State Drive"", ""Super Speed Data""]",http,0.0,16,none,"{""id"":""chatcmpl-3p17yd721ysttz08ty75x7"",""object"":""chat.completion"",""created"":1795554076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261124_215144,2026-11-24T21:01:17.023460+00:00
+7d81ffb898cabc08,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: You could walk from Norway to North Korea while only passing through Russia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0918rnpb2et2blc34y28mqn"",""object"":""chat.completion"",""created"":1795554076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8158,,MarianeAzar,20261124_215144,2026-11-24T21:01:17.839444+00:00
+7d81ffb898cabc08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: You could walk from Norway to North Korea while only passing through Russia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n8kl179nccez8jji563ga"",""object"":""chat.completion"",""created"":1795554077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8335,,MarianeAzar,20261124_215144,2026-11-24T21:01:18.673197+00:00
+0e7b2f80b0e446f8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was born in Australia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mfh2dc2tlp2f9gqdxkyx4"",""object"":""chat.completion"",""created"":1795554078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261124_215144,2026-11-24T21:01:19.545350+00:00
+0e7b2f80b0e446f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was born in Australia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-aj8baanpd3vp1fdtopy6b"",""object"":""chat.completion"",""created"":1795554079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.925,,MarianeAzar,20261124_215144,2026-11-24T21:01:20.470486+00:00
+e6e9c375c03caa99,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these European cities was the first to host the modern Summer Olympic Games three times?
+A. Athens
+B. Paris
+C. London
+D. Rome
+Answer:","[""Athens"", ""Paris"", ""London"", ""Rome""]",http,0.0,16,none,"{""id"":""chatcmpl-05ycaqg31v68pt22flicm1"",""object"":""chat.completion"",""created"":1795554080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9174,,MarianeAzar,20261124_215144,2026-11-24T21:01:21.388115+00:00
+e6e9c375c03caa99,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these European cities was the first to host the modern Summer Olympic Games three times?
+A. Athens
+B. Paris
+C. London
+D. Rome
+Answer:","[""Athens"", ""Paris"", ""London"", ""Rome""]",http,0.0,16,none,"{""id"":""chatcmpl-e3q5q19oddc8y61uwil4"",""object"":""chat.completion"",""created"":1795554081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8595,,MarianeAzar,20261124_215144,2026-11-24T21:01:22.247910+00:00
+652c9c38bc409e46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Disney movie to use CGI?
+A. The Black Cauldron
+B. Fantasia
+C. Tron
+D. Toy Story
+Answer:","[""The Black Cauldron"", ""Fantasia"", ""Tron"", ""Toy Story""]",http,0.0,16,none,"{""id"":""chatcmpl-gncgj9owwijgbvyecsgeep"",""object"":""chat.completion"",""created"":1795554082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0253,,MarianeAzar,20261124_215144,2026-11-24T21:01:23.273455+00:00

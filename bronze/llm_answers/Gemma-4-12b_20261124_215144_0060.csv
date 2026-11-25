@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5ca340727fea82c7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gwyneth Paltrow has a daughter named...?
+A. Lily
+B. Apple
+C. Dakota
+D. French
+Answer:","[""Lily"", ""Apple"", ""Dakota"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-55kxwdl1c95vy99l9z9hi"",""object"":""chat.completion"",""created"":1795555073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2631,,MarianeAzar,20261124_215144,2026-11-24T21:17:53.256952+00:00
+5ca340727fea82c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gwyneth Paltrow has a daughter named...?
+A. Lily
+B. Apple
+C. Dakota
+D. French
+Answer:","[""Lily"", ""Apple"", ""Dakota"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-2zdgyy8zpsj5ckbhx9oxkt"",""object"":""chat.completion"",""created"":1795555075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9072,,MarianeAzar,20261124_215144,2026-11-24T21:17:54.164364+00:00
+46b894a40da73041,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?
+A. Henry Longfellow
+B. Nathan Hale
+C. Thomas Paine
+D. Paul Revere
+Answer:","[""Henry Longfellow"", ""Nathan Hale"", ""Thomas Paine"", ""Paul Revere""]",http,0.0,16,none,"{""id"":""chatcmpl-qmxi7gv807rwow241unyk"",""object"":""chat.completion"",""created"":1795555076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2352,,MarianeAzar,20261124_215144,2026-11-24T21:17:55.399837+00:00
+46b894a40da73041,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?
+A. Henry Longfellow
+B. Nathan Hale
+C. Thomas Paine
+D. Paul Revere
+Answer:","[""Henry Longfellow"", ""Nathan Hale"", ""Thomas Paine"", ""Paul Revere""]",http,0.0,16,none,"{""id"":""chatcmpl-gauxefk6qqo4g2nk2fd2zc"",""object"":""chat.completion"",""created"":1795555077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1818,,MarianeAzar,20261124_215144,2026-11-24T21:17:56.581924+00:00
+9b8c1ddb4269995d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?
+A. Key
+B. Cellphone
+C. Sword
+D. Pen
+Answer:","[""Key"", ""Cellphone"", ""Sword"", ""Pen""]",http,0.0,16,none,"{""id"":""chatcmpl-dj604554vh5kbhhf5a8jhc"",""object"":""chat.completion"",""created"":1795555078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9089,,MarianeAzar,20261124_215144,2026-11-24T21:17:57.491227+00:00
+9b8c1ddb4269995d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?
+A. Key
+B. Cellphone
+C. Sword
+D. Pen
+Answer:","[""Key"", ""Cellphone"", ""Sword"", ""Pen""]",http,0.0,16,none,"{""id"":""chatcmpl-3gzxam1vr91gi6bl5cw6wb"",""object"":""chat.completion"",""created"":1795555079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5212,,MarianeAzar,20261124_215144,2026-11-24T21:17:59.012712+00:00
+526301c5810bcc0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before Super Smash Bros. contained Nintendo characters, what was it known as internally?
+A. Dragon King: The Fighting Game
+B. Contest of Champions
+C. Smash and Pummel
+D. Fighter of the Ages: Conquest
+Answer:","[""Dragon King: The Fighting Game"", ""Contest of Champions"", ""Smash and Pummel"", ""Fighter of the Ages: Conquest""]",http,0.0,16,none,"{""id"":""chatcmpl-m8fhegyvd9q1t98ro577hs"",""object"":""chat.completion"",""created"":1795555080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2332,,MarianeAzar,20261124_215144,2026-11-24T21:18:00.246293+00:00
+526301c5810bcc0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before Super Smash Bros. contained Nintendo characters, what was it known as internally?
+A. Dragon King: The Fighting Game
+B. Contest of Champions
+C. Smash and Pummel
+D. Fighter of the Ages: Conquest
+Answer:","[""Dragon King: The Fighting Game"", ""Contest of Champions"", ""Smash and Pummel"", ""Fighter of the Ages: Conquest""]",http,0.0,16,none,"{""id"":""chatcmpl-c0d5yghj6yj5fzol2i3zjd"",""object"":""chat.completion"",""created"":1795555082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0623,,MarianeAzar,20261124_215144,2026-11-24T21:18:01.308876+00:00
+52964cd622ac196f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Antibiotics are generally taken to combat what?
+A. Migraines
+B. Viruses
+C. Muscular pains
+D. Bacterial infections
+Answer:","[""Migraines"", ""Viruses"", ""Muscular pains"", ""Bacterial infections""]",http,0.0,16,none,"{""id"":""chatcmpl-mp5t1643cekvhirrp4ju2"",""object"":""chat.completion"",""created"":1795555083,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3484,,MarianeAzar,20261124_215144,2026-11-24T21:18:02.657601+00:00
+52964cd622ac196f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Antibiotics are generally taken to combat what?
+A. Migraines
+B. Viruses
+C. Muscular pains
+D. Bacterial infections
+Answer:","[""Migraines"", ""Viruses"", ""Muscular pains"", ""Bacterial infections""]",http,0.0,16,none,"{""id"":""chatcmpl-ktx6ij0umukdvsj0f2ft0s"",""object"":""chat.completion"",""created"":1795555084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3826,,MarianeAzar,20261124_215144,2026-11-24T21:18:04.040497+00:00
+39cb029042eb9d07,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?
+A. The Vikings
+B. Prince Valiant
+C. Spartacus
+D. The Long Ships
+Answer:","[""The Vikings"", ""Prince Valiant"", ""Spartacus"", ""The Long Ships""]",http,0.0,16,none,"{""id"":""chatcmpl-g11jsamg45pmjkmybzbsd"",""object"":""chat.completion"",""created"":1795555085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9736,,MarianeAzar,20261124_215144,2026-11-24T21:18:05.014695+00:00
+39cb029042eb9d07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?
+A. The Vikings
+B. Prince Valiant
+C. Spartacus
+D. The Long Ships
+Answer:","[""The Vikings"", ""Prince Valiant"", ""Spartacus"", ""The Long Ships""]",http,0.0,16,none,"{""id"":""chatcmpl-d17wzwyksvv9d0reb8b3k"",""object"":""chat.completion"",""created"":1795555086,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3971,,MarianeAzar,20261124_215144,2026-11-24T21:18:06.412140+00:00
+c0d2747be2e353a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?
+A. Locked them in stockades
+B. Hung them.
+C. Threw them out of a window
+D. Insulted their mothers
+Answer:","[""Locked them in stockades"", ""Hung them."", ""Threw them out of a window"", ""Insulted their mothers""]",http,0.0,16,none,"{""id"":""chatcmpl-hf6bz9nyj0npx7v63f6uud"",""object"":""chat.completion"",""created"":1795555087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3954,,MarianeAzar,20261124_215144,2026-11-24T21:18:07.807812+00:00
+c0d2747be2e353a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?
+A. Locked them in stockades
+B. Hung them.
+C. Threw them out of a window
+D. Insulted their mothers
+Answer:","[""Locked them in stockades"", ""Hung them."", ""Threw them out of a window"", ""Insulted their mothers""]",http,0.0,16,none,"{""id"":""chatcmpl-bzkh5jjpjjk95yhudnptz4"",""object"":""chat.completion"",""created"":1795555089,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0683,,MarianeAzar,20261124_215144,2026-11-24T21:18:08.876493+00:00
+495ba860fb3697a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a Dragon Age Origins ""Origin"":
+A. Dwarf Noble
+B. Dwarf Commoner
+C. Human Noble
+D. Human Commoner
+Answer:","[""Dwarf Noble"", ""Dwarf Commoner"", ""Human Noble"", ""Human Commoner""]",http,0.0,16,none,"{""id"":""chatcmpl-4fnol2st6qu174ppo30lyq"",""object"":""chat.completion"",""created"":1795555090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3465,,MarianeAzar,20261124_215144,2026-11-24T21:18:10.223792+00:00
+495ba860fb3697a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a Dragon Age Origins ""Origin"":
+A. Dwarf Noble
+B. Dwarf Commoner
+C. Human Noble
+D. Human Commoner
+Answer:","[""Dwarf Noble"", ""Dwarf Commoner"", ""Human Noble"", ""Human Commoner""]",http,0.0,16,none,"{""id"":""chatcmpl-zcvb937lv80e2vkmt41ooo"",""object"":""chat.completion"",""created"":1795555091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3781,,MarianeAzar,20261124_215144,2026-11-24T21:18:11.602288+00:00
+c0107ca9bb3071cc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game in the ""Battlefield"" series?
+A. Battlefield Vietnam
+B. Battlefield 1942
+C. Battlefield 2
+D. Battlefield 1
+Answer:","[""Battlefield Vietnam"", ""Battlefield 1942"", ""Battlefield 2"", ""Battlefield 1""]",http,0.0,16,none,"{""id"":""chatcmpl-bjcvvhfqqae7u6c58mdq7"",""object"":""chat.completion"",""created"":1795555092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0125,,MarianeAzar,20261124_215144,2026-11-24T21:18:12.615101+00:00
+c0107ca9bb3071cc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game in the ""Battlefield"" series?
+A. Battlefield Vietnam
+B. Battlefield 1942
+C. Battlefield 2
+D. Battlefield 1
+Answer:","[""Battlefield Vietnam"", ""Battlefield 1942"", ""Battlefield 2"", ""Battlefield 1""]",http,0.0,16,none,"{""id"":""chatcmpl-jr3170ady0phwugccvvymh"",""object"":""chat.completion"",""created"":1795555093,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3767,,MarianeAzar,20261124_215144,2026-11-24T21:18:13.992303+00:00
+cc107993cd4ffa81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was not developed by Bethesda?
+A. The Elder Scrolls V: Skyrim
+B. Fallout 3
+C. Fallout 4
+D. Fallout: New Vegas
+Answer:","[""The Elder Scrolls V: Skyrim"", ""Fallout 3"", ""Fallout 4"", ""Fallout: New Vegas""]",http,0.0,16,none,"{""id"":""chatcmpl-3kv08w6a6bno96t586k06h"",""object"":""chat.completion"",""created"":1795555094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4244,,MarianeAzar,20261124_215144,2026-11-24T21:18:15.417030+00:00
+cc107993cd4ffa81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was not developed by Bethesda?
+A. The Elder Scrolls V: Skyrim
+B. Fallout 3
+C. Fallout 4
+D. Fallout: New Vegas
+Answer:","[""The Elder Scrolls V: Skyrim"", ""Fallout 3"", ""Fallout 4"", ""Fallout: New Vegas""]",http,0.0,16,none,"{""id"":""chatcmpl-zji9y7k366awp9g29rrk"",""object"":""chat.completion"",""created"":1795555096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0364,,MarianeAzar,20261124_215144,2026-11-24T21:18:16.453746+00:00
+9ac57727b82b9bc4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the original Star Wars: A New Hope, Han Solo is the first to shoot his blaster in a conversation with Greedo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mer4w2zx17asdfcvaq3q9l"",""object"":""chat.completion"",""created"":1795555097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.979,,MarianeAzar,20261124_215144,2026-11-24T21:18:17.433215+00:00
+9ac57727b82b9bc4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the original Star Wars: A New Hope, Han Solo is the first to shoot his blaster in a conversation with Greedo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-l3zcfqvzv5u8xmfklp6cb"",""object"":""chat.completion"",""created"":1795555097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3164,,MarianeAzar,20261124_215144,2026-11-24T21:18:18.749789+00:00
+68939ab98ab6b64f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Not including false teeth; A human has two sets of teeth in their lifetime.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1az1c9v6ksgi49fvfhmv5er"",""object"":""chat.completion"",""created"":1795555099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4091,,MarianeAzar,20261124_215144,2026-11-24T21:18:20.159088+00:00
+68939ab98ab6b64f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Not including false teeth; A human has two sets of teeth in their lifetime.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ewkb0d2wgz7nvvtw2kn2wa"",""object"":""chat.completion"",""created"":1795555100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0334,,MarianeAzar,20261124_215144,2026-11-24T21:18:21.192863+00:00
+292c34c8f8f5310f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Minecraft"" was released from beta in 2011 during a convention held in which city?
+A. Paris
+B. London
+C. Las Vegas
+D. Bellevue
+Answer:","[""Paris"", ""London"", ""Las Vegas"", ""Bellevue""]",http,0.0,16,none,"{""id"":""chatcmpl-gg54aiv309wnup7w0f31"",""object"":""chat.completion"",""created"":1795555101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0179,,MarianeAzar,20261124_215144,2026-11-24T21:18:22.211049+00:00

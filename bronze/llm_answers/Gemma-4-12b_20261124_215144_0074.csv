@@ -1,0 +1,184 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d5e8c3b74ba72123,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the first Pizza Hut restaurant opened?
+A. 1965
+B. 1958
+C. 1942
+D. 1976
+Answer:","[""1965"", ""1958"", ""1942"", ""1976""]",http,0.0,16,none,"{""id"":""chatcmpl-z8h6mcoktk5vjb1jwf7bw"",""object"":""chat.completion"",""created"":1795558578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261124_215144,2026-11-24T22:16:19.590365+00:00
+d5e8c3b74ba72123,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the first Pizza Hut restaurant opened?
+A. 1965
+B. 1958
+C. 1942
+D. 1976
+Answer:","[""1965"", ""1958"", ""1942"", ""1976""]",http,0.0,16,none,"{""id"":""chatcmpl-qrpoz0u76jjurc6ad7i5wg"",""object"":""chat.completion"",""created"":1795558579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8938,,MarianeAzar,20261124_215144,2026-11-24T22:16:20.484461+00:00
+04b7ac1777ce6c70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""What we've got here is a failure to communicate.""
+A. In the Heat of the Night
+B. Bonnie and Clyde
+C. Cool Hand Luke
+D. The Graduate
+Answer:","[""In the Heat of the Night"", ""Bonnie and Clyde"", ""Cool Hand Luke"", ""The Graduate""]",http,0.0,16,none,"{""id"":""chatcmpl-oln7bv8jzg6qbhh54is0x"",""object"":""chat.completion"",""created"":1795558580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261124_215144,2026-11-24T22:16:21.369302+00:00
+04b7ac1777ce6c70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""What we've got here is a failure to communicate.""
+A. In the Heat of the Night
+B. Bonnie and Clyde
+C. Cool Hand Luke
+D. The Graduate
+Answer:","[""In the Heat of the Night"", ""Bonnie and Clyde"", ""Cool Hand Luke"", ""The Graduate""]",http,0.0,16,none,"{""id"":""chatcmpl-l9kv348rs7oc9vvpcaxyod"",""object"":""chat.completion"",""created"":1795558581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.886,,MarianeAzar,20261124_215144,2026-11-24T22:16:22.255558+00:00
+d568940fcab7580f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does LTS stand for in the software market?
+A. Long Term Support
+B. Ludicrous Transfer Speed
+C. Long Taco Service
+D. Ludicrous Turbo Speed
+Answer:","[""Long Term Support"", ""Ludicrous Transfer Speed"", ""Long Taco Service"", ""Ludicrous Turbo Speed""]",http,0.0,16,none,"{""id"":""chatcmpl-6pq3bn1iolez2bg2f8cy28"",""object"":""chat.completion"",""created"":1795558582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8809,,MarianeAzar,20261124_215144,2026-11-24T22:16:23.136856+00:00
+d568940fcab7580f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does LTS stand for in the software market?
+A. Long Term Support
+B. Ludicrous Transfer Speed
+C. Long Taco Service
+D. Ludicrous Turbo Speed
+Answer:","[""Long Term Support"", ""Ludicrous Transfer Speed"", ""Long Taco Service"", ""Ludicrous Turbo Speed""]",http,0.0,16,none,"{""id"":""chatcmpl-u9k68qo1ekgvighhyepss"",""object"":""chat.completion"",""created"":1795558583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261124_215144,2026-11-24T22:16:23.995535+00:00
+173f12922cba28e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was studio Trigger's first original long-form animated series for television?
+A. Kill la Kill
+B. Gurren Lagann
+C. Inferno Cop
+D. Kiznaiver
+Answer:","[""Kill la Kill"", ""Gurren Lagann"", ""Inferno Cop"", ""Kiznaiver""]",http,0.0,16,none,"{""id"":""chatcmpl-9cvgej4weygqn5disk917"",""object"":""chat.completion"",""created"":1795558583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8646,,MarianeAzar,20261124_215144,2026-11-24T22:16:24.860393+00:00
+173f12922cba28e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was studio Trigger's first original long-form animated series for television?
+A. Kill la Kill
+B. Gurren Lagann
+C. Inferno Cop
+D. Kiznaiver
+Answer:","[""Kill la Kill"", ""Gurren Lagann"", ""Inferno Cop"", ""Kiznaiver""]",http,0.0,16,none,"{""id"":""chatcmpl-klyi0z4kz2bm6i2j5smfm"",""object"":""chat.completion"",""created"":1795558584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261124_215144,2026-11-24T22:16:25.728325+00:00
+36cfd4a4fa09464e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character in Undertale tells you that you're ""gonna have a bad time""?
+A. Undyne
+B. Asriel Dreemurr
+C. Asgore
+D. Sans
+Answer:","[""Undyne"", ""Asriel Dreemurr"", ""Asgore"", ""Sans""]",http,0.0,16,none,"{""id"":""chatcmpl-8vlm08bbk3vlq0jc5v7k9"",""object"":""chat.completion"",""created"":1795558585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261124_215144,2026-11-24T22:16:26.586096+00:00
+36cfd4a4fa09464e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character in Undertale tells you that you're ""gonna have a bad time""?
+A. Undyne
+B. Asriel Dreemurr
+C. Asgore
+D. Sans
+Answer:","[""Undyne"", ""Asriel Dreemurr"", ""Asgore"", ""Sans""]",http,0.0,16,none,"{""id"":""chatcmpl-3tffmrg87mlob3nsobs0go"",""object"":""chat.completion"",""created"":1795558586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8797,,MarianeAzar,20261124_215144,2026-11-24T22:16:27.466133+00:00
+53a9b399fb3530fd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was Kanye West born?
+A. Los Angeles, California
+B. Detroit, Michigan
+C. Chicago, Illinois
+D. Atlanta, Georgia
+Answer:","[""Los Angeles, California"", ""Detroit, Michigan"", ""Chicago, Illinois"", ""Atlanta, Georgia""]",http,0.0,16,none,"{""id"":""chatcmpl-6eiggu1n7fm2uh9ii64csr"",""object"":""chat.completion"",""created"":1795558587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261124_215144,2026-11-24T22:16:28.321403+00:00
+53a9b399fb3530fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where was Kanye West born?
+A. Los Angeles, California
+B. Detroit, Michigan
+C. Chicago, Illinois
+D. Atlanta, Georgia
+Answer:","[""Los Angeles, California"", ""Detroit, Michigan"", ""Chicago, Illinois"", ""Atlanta, Georgia""]",http,0.0,16,none,"{""id"":""chatcmpl-3cvxqnj30f7u7lnjll49es"",""object"":""chat.completion"",""created"":1795558588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261124_215144,2026-11-24T22:16:29.173569+00:00
+cb20457a57b694db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these probability distributions is NOT discrete?
+A. Normal
+B. Poisson
+C. Hyper-geometric
+D. Binomial
+Answer:","[""Normal"", ""Poisson"", ""Hyper-geometric"", ""Binomial""]",http,0.0,16,none,"{""id"":""chatcmpl-1z8qark49g9uynnj2he2"",""object"":""chat.completion"",""created"":1795558589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261124_215144,2026-11-24T22:16:30.033715+00:00
+cb20457a57b694db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these probability distributions is NOT discrete?
+A. Normal
+B. Poisson
+C. Hyper-geometric
+D. Binomial
+Answer:","[""Normal"", ""Poisson"", ""Hyper-geometric"", ""Binomial""]",http,0.0,16,none,"{""id"":""chatcmpl-r0ckbodu4mpexmp5u02mnk"",""object"":""chat.completion"",""created"":1795558589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261124_215144,2026-11-24T22:16:30.886542+00:00
+3ba6d4e8fdbb1906,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following are cells of the adaptive immune system?
+A. Natural killer cells
+B. Cytotoxic T cells
+C. White blood cells
+D. Dendritic cells
+Answer:","[""Natural killer cells"", ""Cytotoxic T cells"", ""White blood cells"", ""Dendritic cells""]",http,0.0,16,none,"{""id"":""chatcmpl-ktnj8lfcqc8vl8rrjnl5po"",""object"":""chat.completion"",""created"":1795558590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261124_215144,2026-11-24T22:16:31.745804+00:00
+3ba6d4e8fdbb1906,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following are cells of the adaptive immune system?
+A. Natural killer cells
+B. Cytotoxic T cells
+C. White blood cells
+D. Dendritic cells
+Answer:","[""Natural killer cells"", ""Cytotoxic T cells"", ""White blood cells"", ""Dendritic cells""]",http,0.0,16,none,"{""id"":""chatcmpl-80132xm3em44iftfpemon8"",""object"":""chat.completion"",""created"":1795558591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261124_215144,2026-11-24T22:16:32.603861+00:00
+e3720a7e1327b752,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Albrecht Dürer's birthplace and place of death were in...
+A. Berlin
+B. Bamberg
+C. Nürnberg
+D. Augsburg
+Answer:","[""Berlin"", ""Bamberg"", ""Nürnberg"", ""Augsburg""]",http,0.0,16,none,"{""id"":""chatcmpl-7znlp6k6iu68329a45s69k"",""object"":""chat.completion"",""created"":1795558592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261124_215144,2026-11-24T22:16:33.460709+00:00
+e3720a7e1327b752,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Albrecht Dürer's birthplace and place of death were in...
+A. Berlin
+B. Bamberg
+C. Nürnberg
+D. Augsburg
+Answer:","[""Berlin"", ""Bamberg"", ""Nürnberg"", ""Augsburg""]",http,0.0,16,none,"{""id"":""chatcmpl-icsglk39ptcmb4uq8lyxv"",""object"":""chat.completion"",""created"":1795558593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261124_215144,2026-11-24T22:16:34.316160+00:00
+7508e34ff221d718,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these anatomical terms refers to the tail end of the creature?
+A. Ventral
+B. Coronal
+C. Proximal
+D. Caudal
+Answer:","[""Ventral"", ""Coronal"", ""Proximal"", ""Caudal""]",http,0.0,16,none,"{""id"":""chatcmpl-eqp0vf0my904rwf2egj5zc"",""object"":""chat.completion"",""created"":1795558594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8716,,MarianeAzar,20261124_215144,2026-11-24T22:16:35.188064+00:00
+7508e34ff221d718,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these anatomical terms refers to the tail end of the creature?
+A. Ventral
+B. Coronal
+C. Proximal
+D. Caudal
+Answer:","[""Ventral"", ""Coronal"", ""Proximal"", ""Caudal""]",http,0.0,16,none,"{""id"":""chatcmpl-etxi9gkfzw6q52952elflo"",""object"":""chat.completion"",""created"":1795558595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261124_215144,2026-11-24T22:16:36.043082+00:00
+f03822107dbbcd61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these founding fathers of the United States of America later became president?
+A. James Monroe
+B. Roger Sherman
+C. Samuel Adams
+D. Alexander Hamilton
+Answer:","[""James Monroe"", ""Roger Sherman"", ""Samuel Adams"", ""Alexander Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-267tpgvruzen8cgbqf4rkk"",""object"":""chat.completion"",""created"":1795558595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8627,,MarianeAzar,20261124_215144,2026-11-24T22:16:36.906514+00:00
+f03822107dbbcd61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these founding fathers of the United States of America later became president?
+A. James Monroe
+B. Roger Sherman
+C. Samuel Adams
+D. Alexander Hamilton
+Answer:","[""James Monroe"", ""Roger Sherman"", ""Samuel Adams"", ""Alexander Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-17wzir6uaxnelinp74iuc"",""object"":""chat.completion"",""created"":1795558596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261124_215144,2026-11-24T22:16:37.760337+00:00
+9c3b4672947c47fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the United States formally declare war on Japan, entering World War II?
+A. September 1, 1939
+B. December 8, 1941
+C. June 22, 1941
+D. June 6, 1944
+Answer:","[""September 1, 1939"", ""December 8, 1941"", ""June 22, 1941"", ""June 6, 1944""]",http,0.0,16,none,"{""id"":""chatcmpl-b5cpn8kwdzgp74pndlo92"",""object"":""chat.completion"",""created"":1795558597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8932,,MarianeAzar,20261124_215144,2026-11-24T22:16:38.653844+00:00
+9c3b4672947c47fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the United States formally declare war on Japan, entering World War II?
+A. September 1, 1939
+B. December 8, 1941
+C. June 22, 1941
+D. June 6, 1944
+Answer:","[""September 1, 1939"", ""December 8, 1941"", ""June 22, 1941"", ""June 6, 1944""]",http,0.0,16,none,"{""id"":""chatcmpl-vzyp2zpkpjdvou1srz5jo"",""object"":""chat.completion"",""created"":1795558598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9403,,MarianeAzar,20261124_215144,2026-11-24T22:16:39.594480+00:00
+6dca4f4367f24ddd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There aren't any live-action clones in ""Star Wars: Episode III - Revenge of the Sith"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-obo5mn33h8kjzt90qto0or"",""object"":""chat.completion"",""created"":1795558599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8447,,MarianeAzar,20261124_215144,2026-11-24T22:16:40.439383+00:00

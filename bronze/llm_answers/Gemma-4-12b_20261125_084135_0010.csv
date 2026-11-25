@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1031740cc94fb021,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how old is Earth?
+A. 2.5 Billion Years
+B. 4.5 Billion Years
+C. 3.5 Billion Years
+D. 5.5 Billion Years
+Answer:","[""2.5 Billion Years"", ""4.5 Billion Years"", ""3.5 Billion Years"", ""5.5 Billion Years""]",http,0.0,16,none,"{""id"":""chatcmpl-2nazezo9lxfoandzqxzvcm"",""object"":""chat.completion"",""created"":1795592710,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T07:45:12.312948+00:00
+1031740cc94fb021,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how old is Earth?
+A. 2.5 Billion Years
+B. 4.5 Billion Years
+C. 3.5 Billion Years
+D. 5.5 Billion Years
+Answer:","[""2.5 Billion Years"", ""4.5 Billion Years"", ""3.5 Billion Years"", ""5.5 Billion Years""]",http,0.0,16,none,"{""id"":""chatcmpl-4wnwyhee2r8ulo60gk6fji"",""object"":""chat.completion"",""created"":1795592711,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8714,,MarianeAzar,20261125_084135,2026-11-25T07:45:13.184551+00:00
+306b74b1971a6eef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these rappers is NOT a member of the rap group Wu-Tang Clan?
+A. GZA
+B. Method Man
+C. Dr.Dre
+D. Ol' Dirty Bastard
+Answer:","[""GZA"", ""Method Man"", ""Dr.Dre"", ""Ol' Dirty Bastard""]",http,0.0,16,none,"{""id"":""chatcmpl-vlbjvjbg25gbg8yvllcput"",""object"":""chat.completion"",""created"":1795592712,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8791,,MarianeAzar,20261125_084135,2026-11-25T07:45:14.063787+00:00
+306b74b1971a6eef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these rappers is NOT a member of the rap group Wu-Tang Clan?
+A. GZA
+B. Method Man
+C. Dr.Dre
+D. Ol' Dirty Bastard
+Answer:","[""GZA"", ""Method Man"", ""Dr.Dre"", ""Ol' Dirty Bastard""]",http,0.0,16,none,"{""id"":""chatcmpl-27ux2w99ih76rgprjqzwdc"",""object"":""chat.completion"",""created"":1795592713,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T07:45:14.937307+00:00
+a829163605670fb8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?
+A. Ezra
+B. Phineas
+C. Harry
+D. Gus
+Answer:","[""Ezra"", ""Phineas"", ""Harry"", ""Gus""]",http,0.0,16,none,"{""id"":""chatcmpl-no9i3hh83z3ye68sq4qtx"",""object"":""chat.completion"",""created"":1795592714,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8548,,MarianeAzar,20261125_084135,2026-11-25T07:45:15.792272+00:00
+a829163605670fb8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Disney's Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?
+A. Ezra
+B. Phineas
+C. Harry
+D. Gus
+Answer:","[""Ezra"", ""Phineas"", ""Harry"", ""Gus""]",http,0.0,16,none,"{""id"":""chatcmpl-4vk4jclamzjg312fzomcf"",""object"":""chat.completion"",""created"":1795592715,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8694,,MarianeAzar,20261125_084135,2026-11-25T07:45:16.661949+00:00
+5b72f17785353f3e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what sauce is commonly used by Klingons on bregit lung?
+A. Sweet chili sauce
+B. Grapok sauce
+C. Grapork sauce
+D. Gazorpazorp pudding
+Answer:","[""Sweet chili sauce"", ""Grapok sauce"", ""Grapork sauce"", ""Gazorpazorp pudding""]",http,0.0,16,none,"{""id"":""chatcmpl-4ey6sxcpbzy0obhmpbjmirp"",""object"":""chat.completion"",""created"":1795592716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T07:45:17.515085+00:00
+5b72f17785353f3e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what sauce is commonly used by Klingons on bregit lung?
+A. Sweet chili sauce
+B. Grapok sauce
+C. Grapork sauce
+D. Gazorpazorp pudding
+Answer:","[""Sweet chili sauce"", ""Grapok sauce"", ""Grapork sauce"", ""Gazorpazorp pudding""]",http,0.0,16,none,"{""id"":""chatcmpl-52w96za0ad5bowgqg08dsj"",""object"":""chat.completion"",""created"":1795592716,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8774,,MarianeAzar,20261125_084135,2026-11-25T07:45:18.392742+00:00
+228fe441e322929d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Game of Thrones, what is Littlefinger's real name?
+A. Petyr Baelish
+B. Lancel Lannister
+C. Torrhen Karstark
+D. Podrick Payne
+Answer:","[""Petyr Baelish"", ""Lancel Lannister"", ""Torrhen Karstark"", ""Podrick Payne""]",http,0.0,16,none,"{""id"":""chatcmpl-7qc1p8rrvmwcn3hqho5j"",""object"":""chat.completion"",""created"":1795592717,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261125_084135,2026-11-25T07:45:19.271573+00:00
+228fe441e322929d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Game of Thrones, what is Littlefinger's real name?
+A. Petyr Baelish
+B. Lancel Lannister
+C. Torrhen Karstark
+D. Podrick Payne
+Answer:","[""Petyr Baelish"", ""Lancel Lannister"", ""Torrhen Karstark"", ""Podrick Payne""]",http,0.0,16,none,"{""id"":""chatcmpl-9ffpvo6z8s5u59w9me0z8e"",""object"":""chat.completion"",""created"":1795592718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8831,,MarianeAzar,20261125_084135,2026-11-25T07:45:20.155028+00:00
+998ef62c3294ad7f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3fppjoh126kec50sfzy6b9"",""object"":""chat.completion"",""created"":1795592719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.835,,MarianeAzar,20261125_084135,2026-11-25T07:45:20.990324+00:00
+998ef62c3294ad7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Like with the Neanderthals, Homo sapiens sapiens also interbred with the Denisovans.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kesnuv76yki723j6eglycw"",""object"":""chat.completion"",""created"":1795592720,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8443,,MarianeAzar,20261125_084135,2026-11-25T07:45:21.834809+00:00
+bcdaa82b8cc08bc6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which cartoon family lives in 31 Spooner Street, Quahog, Rhode Island USA?
+A. The Griffins
+B. The Hills
+C. The Simpsons
+D. The Jetsons
+Answer:","[""The Griffins"", ""The Hills"", ""The Simpsons"", ""The Jetsons""]",http,0.0,16,none,"{""id"":""chatcmpl-bxv652jxgz8nyy75p99hib"",""object"":""chat.completion"",""created"":1795592721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T07:45:22.681514+00:00
+bcdaa82b8cc08bc6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which cartoon family lives in 31 Spooner Street, Quahog, Rhode Island USA?
+A. The Griffins
+B. The Hills
+C. The Simpsons
+D. The Jetsons
+Answer:","[""The Griffins"", ""The Hills"", ""The Simpsons"", ""The Jetsons""]",http,0.0,16,none,"{""id"":""chatcmpl-hqg7xwh5yf04cnq6bbzv1e"",""object"":""chat.completion"",""created"":1795592722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261125_084135,2026-11-25T07:45:23.563544+00:00
+c05c39206d58f03d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What sport features the terms love, deuce, match and volley?
+A. Cricket
+B. Curling
+C. Basketball
+D. Tennis
+Answer:","[""Cricket"", ""Curling"", ""Basketball"", ""Tennis""]",http,0.0,16,none,"{""id"":""chatcmpl-v6wdp91cv7anlvbrwzjfoj"",""object"":""chat.completion"",""created"":1795592723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8921,,MarianeAzar,20261125_084135,2026-11-25T07:45:24.455851+00:00
+c05c39206d58f03d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What sport features the terms love, deuce, match and volley?
+A. Cricket
+B. Curling
+C. Basketball
+D. Tennis
+Answer:","[""Cricket"", ""Curling"", ""Basketball"", ""Tennis""]",http,0.0,16,none,"{""id"":""chatcmpl-xf3lbn9hcmoai748135y19"",""object"":""chat.completion"",""created"":1795592723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:45:25.312023+00:00
+6a57ecad1f74b938,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which weapon that was cut from the game ""Half Life 2"" was going to replace the crowbar?
+A. Ice Axe
+B. Wrench
+C. Fire Axe
+D. Hunting Knife
+Answer:","[""Ice Axe"", ""Wrench"", ""Fire Axe"", ""Hunting Knife""]",http,0.0,16,none,"{""id"":""chatcmpl-aexa0tnxitvp2xszotm21g"",""object"":""chat.completion"",""created"":1795592724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261125_084135,2026-11-25T07:45:26.160999+00:00
+6a57ecad1f74b938,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which weapon that was cut from the game ""Half Life 2"" was going to replace the crowbar?
+A. Ice Axe
+B. Wrench
+C. Fire Axe
+D. Hunting Knife
+Answer:","[""Ice Axe"", ""Wrench"", ""Fire Axe"", ""Hunting Knife""]",http,0.0,16,none,"{""id"":""chatcmpl-zrbf42bkf1ruv452eef2o"",""object"":""chat.completion"",""created"":1795592725,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9445,,MarianeAzar,20261125_084135,2026-11-25T07:45:27.105770+00:00
+21675ee79dcfc04c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What style of beer will typically have a higher than average hop content?
+A. Scotch Ale
+B. Extra Special Bitter
+C. Stout
+D. India Pale Ale
+Answer:","[""Scotch Ale"", ""Extra Special Bitter"", ""Stout"", ""India Pale Ale""]",http,0.0,16,none,"{""id"":""chatcmpl-7milvto6a38nu3u67leo3e"",""object"":""chat.completion"",""created"":1795592726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T07:45:27.991434+00:00
+21675ee79dcfc04c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What style of beer will typically have a higher than average hop content?
+A. Scotch Ale
+B. Extra Special Bitter
+C. Stout
+D. India Pale Ale
+Answer:","[""Scotch Ale"", ""Extra Special Bitter"", ""Stout"", ""India Pale Ale""]",http,0.0,16,none,"{""id"":""chatcmpl-7a97hby4zynidqbhnv7et9"",""object"":""chat.completion"",""created"":1795592727,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T07:45:28.846506+00:00
+276dda25371a941f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Postal 2"", what is the name of Postal Dude's dog?
+A. Champ
+B. Duke
+C. Krotchy
+D. Snoopy
+Answer:","[""Champ"", ""Duke"", ""Krotchy"", ""Snoopy""]",http,0.0,16,none,"{""id"":""chatcmpl-00md8vv2wofspwtzh0xfv4f"",""object"":""chat.completion"",""created"":1795592728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T07:45:29.711816+00:00
+276dda25371a941f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Postal 2"", what is the name of Postal Dude's dog?
+A. Champ
+B. Duke
+C. Krotchy
+D. Snoopy
+Answer:","[""Champ"", ""Duke"", ""Krotchy"", ""Snoopy""]",http,0.0,16,none,"{""id"":""chatcmpl-ncog3u357tib9d1yd55iv"",""object"":""chat.completion"",""created"":1795592729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T07:45:30.575639+00:00
+6487f0310aba5920,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African countries displays a gun on their flag?
+A. Ethiopia
+B. Mozambique
+C. Nigeria
+D. Uganda
+Answer:","[""Ethiopia"", ""Mozambique"", ""Nigeria"", ""Uganda""]",http,0.0,16,none,"{""id"":""chatcmpl-8h3sc7dchebyeszwzxfxfs"",""object"":""chat.completion"",""created"":1795592730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T07:45:31.437221+00:00
+6487f0310aba5920,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African countries displays a gun on their flag?
+A. Ethiopia
+B. Mozambique
+C. Nigeria
+D. Uganda
+Answer:","[""Ethiopia"", ""Mozambique"", ""Nigeria"", ""Uganda""]",http,0.0,16,none,"{""id"":""chatcmpl-89onx9k5gqpkhkrt8i7jk7"",""object"":""chat.completion"",""created"":1795592730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:45:32.287137+00:00
+5e5bf568aed41cda,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT classified as a Semetic language?
+A. Maltese
+B. Akkadian
+C. Mandaic
+D. Sumerian
+Answer:","[""Maltese"", ""Akkadian"", ""Mandaic"", ""Sumerian""]",http,0.0,16,none,"{""id"":""chatcmpl-bwn5ykgmw7gignczoi8clc"",""object"":""chat.completion"",""created"":1795592731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8743,,MarianeAzar,20261125_084135,2026-11-25T07:45:33.161508+00:00

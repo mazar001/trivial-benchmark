@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f46dd1b0cf640780,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What team did England beat in the semi-final stage to win in the 1966 World Cup final?
+A. West Germany
+B. Portugal
+C. Brazil
+D. Soviet Union
+Answer:","[""West Germany"", ""Portugal"", ""Brazil"", ""Soviet Union""]",http,0.0,16,none,"{""id"":""chatcmpl-977r6wwhyehrrj8xuzfor"",""object"":""chat.completion"",""created"":1795595957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T08:39:18.768055+00:00
+9a2bee745932783d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What military rank is the protagonist ""Nomad"" in ""Crysis""?
+A. First Sargent
+B. First Lieutenant
+C. Captain
+D. Staff Sargent
+Answer:","[""First Sargent"", ""First Lieutenant"", ""Captain"", ""Staff Sargent""]",http,0.0,16,none,"{""id"":""chatcmpl-p3v6ndvmitku71ga7pd5mn"",""object"":""chat.completion"",""created"":1795595958,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.85,,MarianeAzar,20261125_084135,2026-11-25T08:39:19.618381+00:00
+9a2bee745932783d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What military rank is the protagonist ""Nomad"" in ""Crysis""?
+A. First Sargent
+B. First Lieutenant
+C. Captain
+D. Staff Sargent
+Answer:","[""First Sargent"", ""First Lieutenant"", ""Captain"", ""Staff Sargent""]",http,0.0,16,none,"{""id"":""chatcmpl-dq6tkpiikc84avzc57m27l"",""object"":""chat.completion"",""created"":1795595959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:39:20.476597+00:00
+1db78d9d6b59bfc3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brandon Routh plays the titular character in the movie ""John Wick"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vdi9rarpaed13805i4gfk"",""object"":""chat.completion"",""created"":1795595959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8132,,MarianeAzar,20261125_084135,2026-11-25T08:39:21.290000+00:00
+1db78d9d6b59bfc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brandon Routh plays the titular character in the movie ""John Wick"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ek9gb2x3f4hy2rsd4mz33"",""object"":""chat.completion"",""created"":1795595960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8253,,MarianeAzar,20261125_084135,2026-11-25T08:39:22.115497+00:00
+6d2ffb95b71d63fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the novel ""Moby-Dick""?
+A. William Golding
+B. Herman Melville
+C. J. R. R. Tolkien
+D. William Shakespeare
+Answer:","[""William Golding"", ""Herman Melville"", ""J. R. R. Tolkien"", ""William Shakespeare""]",http,0.0,16,none,"{""id"":""chatcmpl-zqgqjo982q08hieyrcf6pi"",""object"":""chat.completion"",""created"":1795595961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T08:39:22.966797+00:00
+6d2ffb95b71d63fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the novel ""Moby-Dick""?
+A. William Golding
+B. Herman Melville
+C. J. R. R. Tolkien
+D. William Shakespeare
+Answer:","[""William Golding"", ""Herman Melville"", ""J. R. R. Tolkien"", ""William Shakespeare""]",http,0.0,16,none,"{""id"":""chatcmpl-7kdmp9hq4glkwjz5msunk"",""object"":""chat.completion"",""created"":1795595962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8669,,MarianeAzar,20261125_084135,2026-11-25T08:39:23.834160+00:00
+7b33935850281cc8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The book ""Fahrenheit 451"" was written by whom?
+A. Wolfgang Amadeus Mozart
+B. Stephen King
+C. R. L. Stine
+D. Ray Bradbury
+Answer:","[""Wolfgang Amadeus Mozart"", ""Stephen King"", ""R. L. Stine"", ""Ray Bradbury""]",http,0.0,16,none,"{""id"":""chatcmpl-wqwz41v7ivoxxqmyn2y0ch"",""object"":""chat.completion"",""created"":1795595963,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8664,,MarianeAzar,20261125_084135,2026-11-25T08:39:24.700989+00:00
+7b33935850281cc8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The book ""Fahrenheit 451"" was written by whom?
+A. Wolfgang Amadeus Mozart
+B. Stephen King
+C. R. L. Stine
+D. Ray Bradbury
+Answer:","[""Wolfgang Amadeus Mozart"", ""Stephen King"", ""R. L. Stine"", ""Ray Bradbury""]",http,0.0,16,none,"{""id"":""chatcmpl-jecbwece6vc6ndak7r3n9m"",""object"":""chat.completion"",""created"":1795595964,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8855,,MarianeAzar,20261125_084135,2026-11-25T08:39:25.586683+00:00
+6984242d88431f74,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Shakugan no Shana"" what was the Shana usually referred as?
+A. Shana
+B. Flame Haze
+C. Flame-Haired Burning-Eyed Hunter
+D. Flame-Haired Burning-Eyed Haze
+Answer:","[""Shana"", ""Flame Haze"", ""Flame-Haired Burning-Eyed Hunter"", ""Flame-Haired Burning-Eyed Haze""]",http,0.0,16,none,"{""id"":""chatcmpl-zl2289cyrchncmr2e6typ9"",""object"":""chat.completion"",""created"":1795595965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261125_084135,2026-11-25T08:39:26.475841+00:00
+6984242d88431f74,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Shakugan no Shana"" what was the Shana usually referred as?
+A. Shana
+B. Flame Haze
+C. Flame-Haired Burning-Eyed Hunter
+D. Flame-Haired Burning-Eyed Haze
+Answer:","[""Shana"", ""Flame Haze"", ""Flame-Haired Burning-Eyed Hunter"", ""Flame-Haired Burning-Eyed Haze""]",http,0.0,16,none,"{""id"":""chatcmpl-ams9c9hqx6hot51svaym"",""object"":""chat.completion"",""created"":1795595965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261125_084135,2026-11-25T08:39:27.372635+00:00
+5410486ae78d928c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the United States Declaration of Independence signed?
+A. 1777
+B. 1774
+C. 1775
+D. 1776
+Answer:","[""1777"", ""1774"", ""1775"", ""1776""]",http,0.0,16,none,"{""id"":""chatcmpl-m7mk476lcy4abtmkac8iu"",""object"":""chat.completion"",""created"":1795595966,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261125_084135,2026-11-25T08:39:28.262047+00:00
+5410486ae78d928c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the United States Declaration of Independence signed?
+A. 1777
+B. 1774
+C. 1775
+D. 1776
+Answer:","[""1777"", ""1774"", ""1775"", ""1776""]",http,0.0,16,none,"{""id"":""chatcmpl-yg4r89nrsjrjllk9qmvgz"",""object"":""chat.completion"",""created"":1795595967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8745,,MarianeAzar,20261125_084135,2026-11-25T08:39:29.136907+00:00
+2c37044e64b5a326,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Minecraft, what types of sound files are required for custom SFX to work in resource packs?
+A. .wav
+B. .mp3
+C. .class
+D. .ogg
+Answer:","["".wav"", "".mp3"", "".class"", "".ogg""]",http,0.0,16,none,"{""id"":""chatcmpl-tm6ueylrqlugk86czovz9"",""object"":""chat.completion"",""created"":1795595968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:39:29.989417+00:00
+2c37044e64b5a326,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Minecraft, what types of sound files are required for custom SFX to work in resource packs?
+A. .wav
+B. .mp3
+C. .class
+D. .ogg
+Answer:","["".wav"", "".mp3"", "".class"", "".ogg""]",http,0.0,16,none,"{""id"":""chatcmpl-c51i3wkq4moxvbowrbjco"",""object"":""chat.completion"",""created"":1795595969,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261125_084135,2026-11-25T08:39:30.873037+00:00
+6c9f198d4c92e62f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The name of the Metroid series comes from what?
+A. An enemy in the game
+B. The main character's name
+C. The final boss's name
+D. A spaceship's name
+Answer:","[""An enemy in the game"", ""The main character's name"", ""The final boss's name"", ""A spaceship's name""]",http,0.0,16,none,"{""id"":""chatcmpl-wuv3fqcwzqftcbnlk1h7t"",""object"":""chat.completion"",""created"":1795595970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:39:31.735439+00:00
+6c9f198d4c92e62f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The name of the Metroid series comes from what?
+A. An enemy in the game
+B. The main character's name
+C. The final boss's name
+D. A spaceship's name
+Answer:","[""An enemy in the game"", ""The main character's name"", ""The final boss's name"", ""A spaceship's name""]",http,0.0,16,none,"{""id"":""chatcmpl-e49ncj0hwg5izkzxeouzr"",""object"":""chat.completion"",""created"":1795595971,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8882,,MarianeAzar,20261125_084135,2026-11-25T08:39:32.623865+00:00
+8e7f22a1fbb3c14e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What model was the sports car gifted to Yuri Gagarin by the French government in 1965?
+A. Alpine A110
+B. Porsche 911
+C. AC Cobra
+D. Matra Djet
+Answer:","[""Alpine A110"", ""Porsche 911"", ""AC Cobra"", ""Matra Djet""]",http,0.0,16,none,"{""id"":""chatcmpl-unv6sproqterdd3gisrdvr"",""object"":""chat.completion"",""created"":1795595972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T08:39:33.477089+00:00
+8e7f22a1fbb3c14e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What model was the sports car gifted to Yuri Gagarin by the French government in 1965?
+A. Alpine A110
+B. Porsche 911
+C. AC Cobra
+D. Matra Djet
+Answer:","[""Alpine A110"", ""Porsche 911"", ""AC Cobra"", ""Matra Djet""]",http,0.0,16,none,"{""id"":""chatcmpl-c6gacxvp35iaw3ewm2dn6o"",""object"":""chat.completion"",""created"":1795595972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8893,,MarianeAzar,20261125_084135,2026-11-25T08:39:34.366688+00:00
+dd9a90bd9b49e4ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""The Gadget"", the first nuclear device to be detonated, tested?
+A. August 6, 1945
+B. June 22, 1945
+C. April 5, 1945
+D. July 16, 1945
+Answer:","[""August 6, 1945"", ""June 22, 1945"", ""April 5, 1945"", ""July 16, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-174uv7a1zd2r1xx55tu6cc"",""object"":""chat.completion"",""created"":1795595973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9283,,MarianeAzar,20261125_084135,2026-11-25T08:39:35.295491+00:00
+dd9a90bd9b49e4ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""The Gadget"", the first nuclear device to be detonated, tested?
+A. August 6, 1945
+B. June 22, 1945
+C. April 5, 1945
+D. July 16, 1945
+Answer:","[""August 6, 1945"", ""June 22, 1945"", ""April 5, 1945"", ""July 16, 1945""]",http,0.0,16,none,"{""id"":""chatcmpl-i1wunhcqgnqc2c4hzauxlh"",""object"":""chat.completion"",""created"":1795595974,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.941,,MarianeAzar,20261125_084135,2026-11-25T08:39:36.236636+00:00
+44dfe10ad288969d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed ""the Kingmaker""?
+A. Richard Neville
+B. Henry V
+C. Richard III
+D. Thomas Warwick
+Answer:","[""Richard Neville"", ""Henry V"", ""Richard III"", ""Thomas Warwick""]",http,0.0,16,none,"{""id"":""chatcmpl-l2450b17enro4oobfful"",""object"":""chat.completion"",""created"":1795595975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9008,,MarianeAzar,20261125_084135,2026-11-25T08:39:37.137720+00:00
+44dfe10ad288969d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Wars of the Roses (1455 - 1487) which Englishman was dubbed ""the Kingmaker""?
+A. Richard Neville
+B. Henry V
+C. Richard III
+D. Thomas Warwick
+Answer:","[""Richard Neville"", ""Henry V"", ""Richard III"", ""Thomas Warwick""]",http,0.0,16,none,"{""id"":""chatcmpl-cqstg89djnqbwjnry9q6uj"",""object"":""chat.completion"",""created"":1795595976,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8942,,MarianeAzar,20261125_084135,2026-11-25T08:39:38.032373+00:00
+bd53f59317a2da1a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a part of the structure of a typical neuron?
+A. Node of Ranvier
+B. Islets of Langerhans
+C. Myelin sheath
+D. Schwann cell
+Answer:","[""Node of Ranvier"", ""Islets of Langerhans"", ""Myelin sheath"", ""Schwann cell""]",http,0.0,16,none,"{""id"":""chatcmpl-9fl0u8btwni65786ka007v"",""object"":""chat.completion"",""created"":1795595977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261125_084135,2026-11-25T08:39:38.892385+00:00
+bd53f59317a2da1a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a part of the structure of a typical neuron?
+A. Node of Ranvier
+B. Islets of Langerhans
+C. Myelin sheath
+D. Schwann cell
+Answer:","[""Node of Ranvier"", ""Islets of Langerhans"", ""Myelin sheath"", ""Schwann cell""]",http,0.0,16,none,"{""id"":""chatcmpl-nzn8d77hd2n33km08tumfq"",""object"":""chat.completion"",""created"":1795595978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8963,,MarianeAzar,20261125_084135,2026-11-25T08:39:39.788883+00:00

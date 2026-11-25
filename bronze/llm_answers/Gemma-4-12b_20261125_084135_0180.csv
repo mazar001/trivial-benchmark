@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c2dcac620836c0ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: .rs is the top-level domain for what country?
+A. Serbia
+B. Romania
+C. Rwanda
+D. Russia
+Answer:","[""Serbia"", ""Romania"", ""Rwanda"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-n3qpbkirh5p0ebx88xaf4p"",""object"":""chat.completion"",""created"":1795596771,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261125_084135,2026-11-25T08:52:52.868359+00:00
+c2dcac620836c0ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: .rs is the top-level domain for what country?
+A. Serbia
+B. Romania
+C. Rwanda
+D. Russia
+Answer:","[""Serbia"", ""Romania"", ""Rwanda"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-xz1b7qqq3wp7qwcml5q30g"",""object"":""chat.completion"",""created"":1795596772,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8551,,MarianeAzar,20261125_084135,2026-11-25T08:52:53.723790+00:00
+2563ad5624e638a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""All the Boys"" by Panic! At the Disco was released as a bonus track on what album?
+A. Too Weird To Live, Too Rare To Die!
+B. Death Of A Bachelor
+C. A Fever You Can't Sweat Out
+D. Vices & Virtues
+Answer:","[""Too Weird To Live, Too Rare To Die!"", ""Death Of A Bachelor"", ""A Fever You Can't Sweat Out"", ""Vices & Virtues""]",http,0.0,16,none,"{""id"":""chatcmpl-x0bp4h36gyqfactshwlpkq"",""object"":""chat.completion"",""created"":1795596773,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8859,,MarianeAzar,20261125_084135,2026-11-25T08:52:54.609940+00:00
+2563ad5624e638a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""All the Boys"" by Panic! At the Disco was released as a bonus track on what album?
+A. Too Weird To Live, Too Rare To Die!
+B. Death Of A Bachelor
+C. A Fever You Can't Sweat Out
+D. Vices & Virtues
+Answer:","[""Too Weird To Live, Too Rare To Die!"", ""Death Of A Bachelor"", ""A Fever You Can't Sweat Out"", ""Vices & Virtues""]",http,0.0,16,none,"{""id"":""chatcmpl-m9giqflwbcpbe0fni7oih5"",""object"":""chat.completion"",""created"":1795596774,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.91,,MarianeAzar,20261125_084135,2026-11-25T08:52:55.520206+00:00
+4a6739f353b50ac6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Sonic the Hedgehog (1991)"" how many chaos emeralds could you collect?
+A. 7
+B. 6
+C. 8
+D. 9
+Answer:","[""7"", ""6"", ""8"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-7jy2b2rsd5sqjmuujuve1q"",""object"":""chat.completion"",""created"":1795596774,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T08:52:56.414369+00:00
+4a6739f353b50ac6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Sonic the Hedgehog (1991)"" how many chaos emeralds could you collect?
+A. 7
+B. 6
+C. 8
+D. 9
+Answer:","[""7"", ""6"", ""8"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-kw0cggjw1jesaqxb4c63oj"",""object"":""chat.completion"",""created"":1795596775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9331,,MarianeAzar,20261125_084135,2026-11-25T08:52:57.347731+00:00
+4ee3dfe7f6bb91e6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a team available in the game Pokémon Go?
+A. Team Instinct
+B. Team Mystic
+C. Team Valor
+D. Team Rocket
+Answer:","[""Team Instinct"", ""Team Mystic"", ""Team Valor"", ""Team Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-yu2pumdwk4g3p7jqtqlbai"",""object"":""chat.completion"",""created"":1795596776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9455,,MarianeAzar,20261125_084135,2026-11-25T08:52:58.293840+00:00
+4ee3dfe7f6bb91e6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a team available in the game Pokémon Go?
+A. Team Instinct
+B. Team Mystic
+C. Team Valor
+D. Team Rocket
+Answer:","[""Team Instinct"", ""Team Mystic"", ""Team Valor"", ""Team Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-tmsx85cixeo41s8nvabgn"",""object"":""chat.completion"",""created"":1795596777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:52:59.159697+00:00
+247a3244a8b6a2db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Little Entente was an alliance formed against which nation?
+A. France
+B. Hungary
+C. Prussia
+D. Germany
+Answer:","[""France"", ""Hungary"", ""Prussia"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-zbuwyc05u93povf1nel33"",""object"":""chat.completion"",""created"":1795596778,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261125_084135,2026-11-25T08:53:00.038102+00:00
+247a3244a8b6a2db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Little Entente was an alliance formed against which nation?
+A. France
+B. Hungary
+C. Prussia
+D. Germany
+Answer:","[""France"", ""Hungary"", ""Prussia"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-f5sjwqvaeyqc8ff3d778"",""object"":""chat.completion"",""created"":1795596779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T08:53:00.888293+00:00
+c3f0fdaa41d5f786,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In architecture, a ""pecklesteiner"" is a set of doors that overlap each other when closed, and can be locked through a single keyhole.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wsmbl9ux96d89gqht46w5e"",""object"":""chat.completion"",""created"":1795596780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261125_084135,2026-11-25T08:53:01.740364+00:00
+c3f0fdaa41d5f786,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In architecture, a ""pecklesteiner"" is a set of doors that overlap each other when closed, and can be locked through a single keyhole.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0pz0byziue9ldugjooomit"",""object"":""chat.completion"",""created"":1795596781,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:53:02.597088+00:00
+79571a6ef7303159,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: If you dip a dry towel into a tub full of water, water will climb up the towel by a phenomenon called ""Cartillary Action""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1x1hsxc4hpivmvmfxtmmr"",""object"":""chat.completion"",""created"":1795596782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8266,,MarianeAzar,20261125_084135,2026-11-25T08:53:03.424030+00:00
+79571a6ef7303159,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: If you dip a dry towel into a tub full of water, water will climb up the towel by a phenomenon called ""Cartillary Action""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1zpolpv1jihs02acinjhyr"",""object"":""chat.completion"",""created"":1795596782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8426,,MarianeAzar,20261125_084135,2026-11-25T08:53:04.266765+00:00
+f695c095175ebc26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The prefix Sino- (As in Sino-American) is used to refer to what nationality?
+A. Japanese
+B. Chinese
+C. Indian
+D. Russian
+Answer:","[""Japanese"", ""Chinese"", ""Indian"", ""Russian""]",http,0.0,16,none,"{""id"":""chatcmpl-mw49pzmvdqqksyx6laj"",""object"":""chat.completion"",""created"":1795596783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T08:53:05.120973+00:00
+f695c095175ebc26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The prefix Sino- (As in Sino-American) is used to refer to what nationality?
+A. Japanese
+B. Chinese
+C. Indian
+D. Russian
+Answer:","[""Japanese"", ""Chinese"", ""Indian"", ""Russian""]",http,0.0,16,none,"{""id"":""chatcmpl-rtyk6ncfuie5tfxg3vzios"",""object"":""chat.completion"",""created"":1795596784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T08:53:06.005784+00:00
+0d5401d8761abfaa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 video game ""Kingdom Hearts"", how many Keyblades are usable?
+A. 16
+B. 18
+C. 13
+D. 15
+Answer:","[""16"", ""18"", ""13"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-hvrujci0gf2gle5nf2lzl"",""object"":""chat.completion"",""created"":1795596785,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:53:06.862299+00:00
+0d5401d8761abfaa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 video game ""Kingdom Hearts"", how many Keyblades are usable?
+A. 16
+B. 18
+C. 13
+D. 15
+Answer:","[""16"", ""18"", ""13"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-9cr8a41iaot68piyo9l0eo"",""object"":""chat.completion"",""created"":1795596786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9016,,MarianeAzar,20261125_084135,2026-11-25T08:53:07.764212+00:00
+aa362e06f0987543,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Korean girl group, TWICE, consists of 9 members
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tfbr741rl3q54r3fegh46u"",""object"":""chat.completion"",""created"":1795596787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8173,,MarianeAzar,20261125_084135,2026-11-25T08:53:08.582413+00:00
+aa362e06f0987543,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Korean girl group, TWICE, consists of 9 members
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kwbck1vhdmxn5n99cmcn8"",""object"":""chat.completion"",""created"":1795596788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8189,,MarianeAzar,20261125_084135,2026-11-25T08:53:09.401501+00:00
+221f3c72244adde3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these ""Worms"" games featured 3D gameplay?
+A. Worms 4: Mayhem
+B. Worms Reloaded
+C. Worms: Open Warfare 2
+D. Worms W.M.D
+Answer:","[""Worms 4: Mayhem"", ""Worms Reloaded"", ""Worms: Open Warfare 2"", ""Worms W.M.D""]",http,0.0,16,none,"{""id"":""chatcmpl-7gwpj6je2gjjf9dzpgtkt"",""object"":""chat.completion"",""created"":1795596788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T08:53:10.254994+00:00
+221f3c72244adde3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these ""Worms"" games featured 3D gameplay?
+A. Worms 4: Mayhem
+B. Worms Reloaded
+C. Worms: Open Warfare 2
+D. Worms W.M.D
+Answer:","[""Worms 4: Mayhem"", ""Worms Reloaded"", ""Worms: Open Warfare 2"", ""Worms W.M.D""]",http,0.0,16,none,"{""id"":""chatcmpl-9n4zf2ohxq4n3efmgpbo6"",""object"":""chat.completion"",""created"":1795596789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9043,,MarianeAzar,20261125_084135,2026-11-25T08:53:11.159448+00:00
+1dd87085b1168fd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Friday The 13th series, what year did Jason drown in?
+A. 1955
+B. 1959
+C. 1957
+D. 1953
+Answer:","[""1955"", ""1959"", ""1957"", ""1953""]",http,0.0,16,none,"{""id"":""chatcmpl-4uui190on6go2w63eu28dc"",""object"":""chat.completion"",""created"":1795596790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9015,,MarianeAzar,20261125_084135,2026-11-25T08:53:12.061211+00:00
+1dd87085b1168fd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Friday The 13th series, what year did Jason drown in?
+A. 1955
+B. 1959
+C. 1957
+D. 1953
+Answer:","[""1955"", ""1959"", ""1957"", ""1953""]",http,0.0,16,none,"{""id"":""chatcmpl-zpdw6c3huig13ah3givxlc"",""object"":""chat.completion"",""created"":1795596791,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8926,,MarianeAzar,20261125_084135,2026-11-25T08:53:12.954079+00:00
+d5ee104f86571068,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What book series published by Jim Butcher follows a wizard in modern day Chicago?
+A. My Life as a Teenage Wizard
+B. The Cinder Spires
+C. A Hat in Time
+D. The Dresden Files
+Answer:","[""My Life as a Teenage Wizard"", ""The Cinder Spires"", ""A Hat in Time"", ""The Dresden Files""]",http,0.0,16,none,"{""id"":""chatcmpl-esjmr1zvrkqslaa2cn79l8"",""object"":""chat.completion"",""created"":1795596792,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9326,,MarianeAzar,20261125_084135,2026-11-25T08:53:13.887016+00:00

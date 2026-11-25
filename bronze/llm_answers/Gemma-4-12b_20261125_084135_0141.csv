@@ -1,0 +1,149 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e97a205965ed3ea1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1976 film 'Taxi Driver', how many guns did Travis buy from the salesman?
+A. 1
+B. 2
+C. 4
+D. 6
+Answer:","[""1"", ""2"", ""4"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-vnx3ya6js61vx8bfhs27oi"",""object"":""chat.completion"",""created"":1795595914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T08:38:35.995855+00:00
+8034cc711f48b18b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the only voice actor to have a speaking part in all of the Disney Pixar feature films?
+A. Dave Foley
+B. Geoffrey Rush
+C. John Ratzenberger
+D. Tom Hanks
+Answer:","[""Dave Foley"", ""Geoffrey Rush"", ""John Ratzenberger"", ""Tom Hanks""]",http,0.0,16,none,"{""id"":""chatcmpl-75aph0tbritufq4fmxw2fb"",""object"":""chat.completion"",""created"":1795595915,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:38:36.855380+00:00
+8034cc711f48b18b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the only voice actor to have a speaking part in all of the Disney Pixar feature films?
+A. Dave Foley
+B. Geoffrey Rush
+C. John Ratzenberger
+D. Tom Hanks
+Answer:","[""Dave Foley"", ""Geoffrey Rush"", ""John Ratzenberger"", ""Tom Hanks""]",http,0.0,16,none,"{""id"":""chatcmpl-179smmus7x9c7kd8aufoy"",""object"":""chat.completion"",""created"":1795595916,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T08:38:37.728353+00:00
+a74b04347c7347bb,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Terraria, you can craft the Cell Phone pre-hardmode.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jj8h3sjy5csdmjy7d1knn"",""object"":""chat.completion"",""created"":1795595917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8253,,MarianeAzar,20261125_084135,2026-11-25T08:38:38.553799+00:00
+a74b04347c7347bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Terraria, you can craft the Cell Phone pre-hardmode.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jgloyrzf3mml6rx207e6"",""object"":""chat.completion"",""created"":1795595917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8148,,MarianeAzar,20261125_084135,2026-11-25T08:38:39.368752+00:00
+6437edcd1ab08190,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Miss Kobayashi's Dragon Maid, Tohru is a member of the harmony faction.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-adgwzlm7c4ihfv12w46b5a"",""object"":""chat.completion"",""created"":1795595918,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8149,,MarianeAzar,20261125_084135,2026-11-25T08:38:40.184144+00:00
+6437edcd1ab08190,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Miss Kobayashi's Dragon Maid, Tohru is a member of the harmony faction.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bxe1q7495r8vcxusq2wcea"",""object"":""chat.completion"",""created"":1795595919,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8346,,MarianeAzar,20261125_084135,2026-11-25T08:38:41.019204+00:00
+e68f299ca8be9a1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the premier league title in the 2015-2016 season following a fairy tale run?
+A. Watford
+B. Tottenham Hotspur
+C. Stoke City
+D. Leicester City
+Answer:","[""Watford"", ""Tottenham Hotspur"", ""Stoke City"", ""Leicester City""]",http,0.0,16,none,"{""id"":""chatcmpl-4sr31sdxpbxy6upx8xy9"",""object"":""chat.completion"",""created"":1795595920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:38:41.881322+00:00
+e68f299ca8be9a1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the premier league title in the 2015-2016 season following a fairy tale run?
+A. Watford
+B. Tottenham Hotspur
+C. Stoke City
+D. Leicester City
+Answer:","[""Watford"", ""Tottenham Hotspur"", ""Stoke City"", ""Leicester City""]",http,0.0,16,none,"{""id"":""chatcmpl-gcjymy5i2l49xtc70nrm1"",""object"":""chat.completion"",""created"":1795595921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8889,,MarianeAzar,20261125_084135,2026-11-25T08:38:42.770446+00:00
+47ee0bdf81572c68,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these anime have over 7,500 episodes?
+A. Sazae-san
+B. Chibi Maruko-chan
+C. Naruto
+D. One Piece
+Answer:","[""Sazae-san"", ""Chibi Maruko-chan"", ""Naruto"", ""One Piece""]",http,0.0,16,none,"{""id"":""chatcmpl-6ejouphi9kvjl1dpvmtdqq"",""object"":""chat.completion"",""created"":1795595922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T08:38:43.625195+00:00
+47ee0bdf81572c68,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these anime have over 7,500 episodes?
+A. Sazae-san
+B. Chibi Maruko-chan
+C. Naruto
+D. One Piece
+Answer:","[""Sazae-san"", ""Chibi Maruko-chan"", ""Naruto"", ""One Piece""]",http,0.0,16,none,"{""id"":""chatcmpl-3mgm1qtf4fqxf6p8az2i7b"",""object"":""chat.completion"",""created"":1795595923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261125_084135,2026-11-25T08:38:44.483436+00:00
+8aef5eb822689b0d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In poker, ""EV"" means what?
+A. Equity Value
+B. Expected Value
+C. Equivalent Variation
+D. Equity Variation
+Answer:","[""Equity Value"", ""Expected Value"", ""Equivalent Variation"", ""Equity Variation""]",http,0.0,16,none,"{""id"":""chatcmpl-43voxyf27n8t5mlpy0yiws"",""object"":""chat.completion"",""created"":1795595923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:38:45.334816+00:00
+8aef5eb822689b0d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In poker, ""EV"" means what?
+A. Equity Value
+B. Expected Value
+C. Equivalent Variation
+D. Equity Variation
+Answer:","[""Equity Value"", ""Expected Value"", ""Equivalent Variation"", ""Equity Variation""]",http,0.0,16,none,"{""id"":""chatcmpl-bahdgvnnjnj4pcwpdo9ioj"",""object"":""chat.completion"",""created"":1795595924,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:38:46.192457+00:00
+eaf96c7db45a5658,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Alaska is the largest state in the United States.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-czb5ik42gnkp4saiharbz"",""object"":""chat.completion"",""created"":1795595925,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7949,,MarianeAzar,20261125_084135,2026-11-25T08:38:46.987607+00:00
+eaf96c7db45a5658,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Alaska is the largest state in the United States.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-atj2425r74tioar7p90km"",""object"":""chat.completion"",""created"":1795595926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8116,,MarianeAzar,20261125_084135,2026-11-25T08:38:47.799412+00:00
+33796b1b8b8e8475,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical artist had a prominent role in the 2017 film ""Kingsman: The Golden Circle""?
+A. Elton John
+B. Justin Bieber
+C. Lady Gaga
+D. Rihanna
+Answer:","[""Elton John"", ""Justin Bieber"", ""Lady Gaga"", ""Rihanna""]",http,0.0,16,none,"{""id"":""chatcmpl-gmxzfx600ghoatdtfbppe"",""object"":""chat.completion"",""created"":1795595927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261125_084135,2026-11-25T08:38:48.652058+00:00
+33796b1b8b8e8475,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical artist had a prominent role in the 2017 film ""Kingsman: The Golden Circle""?
+A. Elton John
+B. Justin Bieber
+C. Lady Gaga
+D. Rihanna
+Answer:","[""Elton John"", ""Justin Bieber"", ""Lady Gaga"", ""Rihanna""]",http,0.0,16,none,"{""id"":""chatcmpl-f0nf7zun7wtkgyzf7ed7e"",""object"":""chat.completion"",""created"":1795595928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T08:38:49.524348+00:00
+391f9d0dcf987fbf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game company developed the 2019 game Rage 2?
+A. Gearbox Software
+B. Avalanche Studios
+C. Infinity Ward
+D. Bethesda Game Studios
+Answer:","[""Gearbox Software"", ""Avalanche Studios"", ""Infinity Ward"", ""Bethesda Game Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-vpyym7cxfckotnk45ch3n8"",""object"":""chat.completion"",""created"":1795595928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:38:50.383778+00:00
+391f9d0dcf987fbf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game company developed the 2019 game Rage 2?
+A. Gearbox Software
+B. Avalanche Studios
+C. Infinity Ward
+D. Bethesda Game Studios
+Answer:","[""Gearbox Software"", ""Avalanche Studios"", ""Infinity Ward"", ""Bethesda Game Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-ce05qsrbe5o8umrirtzx8j"",""object"":""chat.completion"",""created"":1795595929,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T08:38:51.244797+00:00
+eb51dc71a11d08d9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The capital of Brazil is Rio de Janeiro.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ujsac5yohmngixbg88bn"",""object"":""chat.completion"",""created"":1795595930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7986,,MarianeAzar,20261125_084135,2026-11-25T08:38:52.043581+00:00
+eb51dc71a11d08d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The capital of Brazil is Rio de Janeiro.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hyjq2sp5u9gvsmv6x4ew1"",""object"":""chat.completion"",""created"":1795595931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:38:52.859397+00:00
+00fd021d9df92d2b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The capital of Indonesia is Bali.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0k177gadmzcxn863gr059e"",""object"":""chat.completion"",""created"":1795595932,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7841,,MarianeAzar,20261125_084135,2026-11-25T08:38:53.643742+00:00
+00fd021d9df92d2b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The capital of Indonesia is Bali.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1psnwkh1fj8juztex9bmu9"",""object"":""chat.completion"",""created"":1795595933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8129,,MarianeAzar,20261125_084135,2026-11-25T08:38:54.456826+00:00
+71c6094ab2236cd1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Certain Magical Index,"" what is Accelerator able to control?
+A. Wormholes
+B. Velocity
+C. Quantums
+D. Vectors
+Answer:","[""Wormholes"", ""Velocity"", ""Quantums"", ""Vectors""]",http,0.0,16,none,"{""id"":""chatcmpl-r3sut3hkemc3vi5i2211"",""object"":""chat.completion"",""created"":1795595933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8449,,MarianeAzar,20261125_084135,2026-11-25T08:38:55.302052+00:00
+71c6094ab2236cd1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Certain Magical Index,"" what is Accelerator able to control?
+A. Wormholes
+B. Velocity
+C. Quantums
+D. Vectors
+Answer:","[""Wormholes"", ""Velocity"", ""Quantums"", ""Vectors""]",http,0.0,16,none,"{""id"":""chatcmpl-pe5f2e9amtaj1u01b4na8"",""object"":""chat.completion"",""created"":1795595934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261125_084135,2026-11-25T08:38:56.168893+00:00

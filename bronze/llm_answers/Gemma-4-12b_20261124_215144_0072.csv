@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e969cb5571fea66a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the hottest planet in the Solar System?
+A. Venus
+B. Mercury
+C. Mars
+D. Jupiter
+Answer:","[""Venus"", ""Mercury"", ""Mars"", ""Jupiter""]",http,0.0,16,none,"{""id"":""chatcmpl-unlm8ag8hbdoff20frob5"",""object"":""chat.completion"",""created"":1795558535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261124_215144,2026-11-24T22:15:36.069927+00:00
+e969cb5571fea66a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the hottest planet in the Solar System?
+A. Venus
+B. Mercury
+C. Mars
+D. Jupiter
+Answer:","[""Venus"", ""Mercury"", ""Mars"", ""Jupiter""]",http,0.0,16,none,"{""id"":""chatcmpl-119rrqpk3nzcmcojgsxu99s"",""object"":""chat.completion"",""created"":1795558535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261124_215144,2026-11-24T22:15:36.928896+00:00
+3c0683eb434ff96c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main character of Metal Gear Solid 2?
+A. Big Boss
+B. Raiden
+C. Venom Snake
+D. Solidus Snake
+Answer:","[""Big Boss"", ""Raiden"", ""Venom Snake"", ""Solidus Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-ptemkq43tz9y0yfas7i7a"",""object"":""chat.completion"",""created"":1795558536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8642,,MarianeAzar,20261124_215144,2026-11-24T22:15:37.793440+00:00
+3c0683eb434ff96c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the main character of Metal Gear Solid 2?
+A. Big Boss
+B. Raiden
+C. Venom Snake
+D. Solidus Snake
+Answer:","[""Big Boss"", ""Raiden"", ""Venom Snake"", ""Solidus Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-34hnt7cyt4u7g67h1zdn4f"",""object"":""chat.completion"",""created"":1795558537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8521,,MarianeAzar,20261124_215144,2026-11-24T22:15:38.645961+00:00
+4ec733c8bef575ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the deadliest pandemics, the ""Spanish Flu"", killed off what percentage of the human world population at the time?
+A. 1 to 3 percent
+B. less than 1 percent
+C. 6 to 10 percent
+D. 3 to 6 percent
+Answer:","[""1 to 3 percent"", ""less than 1 percent"", ""6 to 10 percent"", ""3 to 6 percent""]",http,0.0,16,none,"{""id"":""chatcmpl-w7il95cvhco8tthyahi1h3"",""object"":""chat.completion"",""created"":1795558538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261124_215144,2026-11-24T22:15:39.530332+00:00
+4ec733c8bef575ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the deadliest pandemics, the ""Spanish Flu"", killed off what percentage of the human world population at the time?
+A. 1 to 3 percent
+B. less than 1 percent
+C. 6 to 10 percent
+D. 3 to 6 percent
+Answer:","[""1 to 3 percent"", ""less than 1 percent"", ""6 to 10 percent"", ""3 to 6 percent""]",http,0.0,16,none,"{""id"":""chatcmpl-lez0065n4in3ri27p2qnqb"",""object"":""chat.completion"",""created"":1795558539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9338,,MarianeAzar,20261124_215144,2026-11-24T22:15:40.464446+00:00
+fefbdb4a38544f69,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Doom Patrol member was a later addition, first appearing in 1989?
+A. Negative Man
+B. Elast-Girl
+C. Robotman
+D. Crazy Jane
+Answer:","[""Negative Man"", ""Elast-Girl"", ""Robotman"", ""Crazy Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-p7xiscus6rdeiajm0zlpyv"",""object"":""chat.completion"",""created"":1795558540,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9041,,MarianeAzar,20261124_215144,2026-11-24T22:15:41.368803+00:00
+fefbdb4a38544f69,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Doom Patrol member was a later addition, first appearing in 1989?
+A. Negative Man
+B. Elast-Girl
+C. Robotman
+D. Crazy Jane
+Answer:","[""Negative Man"", ""Elast-Girl"", ""Robotman"", ""Crazy Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-omk67g30h4jekjthjzcejr"",""object"":""chat.completion"",""created"":1795558541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261124_215144,2026-11-24T22:15:42.236735+00:00
+c6b0b7822727aeb4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Washington, D.C. what does the ""C"" stand for?
+A. Columbia
+B. Corinthia
+C. Caledonia
+D. City
+Answer:","[""Columbia"", ""Corinthia"", ""Caledonia"", ""City""]",http,0.0,16,none,"{""id"":""chatcmpl-84s6k2kbm8qy74s47yms8"",""object"":""chat.completion"",""created"":1795558542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8679,,MarianeAzar,20261124_215144,2026-11-24T22:15:43.104874+00:00
+c6b0b7822727aeb4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Washington, D.C. what does the ""C"" stand for?
+A. Columbia
+B. Corinthia
+C. Caledonia
+D. City
+Answer:","[""Columbia"", ""Corinthia"", ""Caledonia"", ""City""]",http,0.0,16,none,"{""id"":""chatcmpl-pjz4nju58ose5754wpbon9"",""object"":""chat.completion"",""created"":1795558542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261124_215144,2026-11-24T22:15:43.959556+00:00
+e813c8db0e234213,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The new One World Trade Center in Manhattan, New York City was designed by which architect?
+A. Fumihiko Maki
+B. David Childs
+C. Bjarke Ingels
+D. Michael Arad
+Answer:","[""Fumihiko Maki"", ""David Childs"", ""Bjarke Ingels"", ""Michael Arad""]",http,0.0,16,none,"{""id"":""chatcmpl-8x0kf9i4pcgjytkosysx2"",""object"":""chat.completion"",""created"":1795558543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261124_215144,2026-11-24T22:15:44.825744+00:00
+e813c8db0e234213,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The new One World Trade Center in Manhattan, New York City was designed by which architect?
+A. Fumihiko Maki
+B. David Childs
+C. Bjarke Ingels
+D. Michael Arad
+Answer:","[""Fumihiko Maki"", ""David Childs"", ""Bjarke Ingels"", ""Michael Arad""]",http,0.0,16,none,"{""id"":""chatcmpl-o7zx8xfg69r6rtjtar2fld"",""object"":""chat.completion"",""created"":1795558544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8779,,MarianeAzar,20261124_215144,2026-11-24T22:15:45.703920+00:00
+a2dacb0ab7c0a6de,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following James Bond villains is not affiliated with the SPECTRE organization?
+A. Dr. Julius No
+B. Emilio Largo
+C. Rosa Klebb
+D. Auric Goldfinger
+Answer:","[""Dr. Julius No"", ""Emilio Largo"", ""Rosa Klebb"", ""Auric Goldfinger""]",http,0.0,16,none,"{""id"":""chatcmpl-mlxhe4bw4ssedoowpwj0j"",""object"":""chat.completion"",""created"":1795558545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8657,,MarianeAzar,20261124_215144,2026-11-24T22:15:46.569933+00:00
+a2dacb0ab7c0a6de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following James Bond villains is not affiliated with the SPECTRE organization?
+A. Dr. Julius No
+B. Emilio Largo
+C. Rosa Klebb
+D. Auric Goldfinger
+Answer:","[""Dr. Julius No"", ""Emilio Largo"", ""Rosa Klebb"", ""Auric Goldfinger""]",http,0.0,16,none,"{""id"":""chatcmpl-4fz6t9yqeprdat8iv3si7"",""object"":""chat.completion"",""created"":1795558546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8831,,MarianeAzar,20261124_215144,2026-11-24T22:15:47.453293+00:00
+e177d191fbb4c737,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ottawa is the capital of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mu074bpj91w0kmcj1gjm"",""object"":""chat.completion"",""created"":1795558547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8005,,MarianeAzar,20261124_215144,2026-11-24T22:15:48.254033+00:00
+e177d191fbb4c737,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ottawa is the capital of Canada.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2lkh1ccq8e2taeevfnohe"",""object"":""chat.completion"",""created"":1795558548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8134,,MarianeAzar,20261124_215144,2026-11-24T22:15:49.067784+00:00
+9a58c8413eb54683,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is a Rolls-Royce model called the 'Spectre'
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3smbgxx6vbc4ooyyvayiz7"",""object"":""chat.completion"",""created"":1795558548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7987,,MarianeAzar,20261124_215144,2026-11-24T22:15:49.866708+00:00
+9a58c8413eb54683,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is a Rolls-Royce model called the 'Spectre'
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yhw79v7irgljj2xdz0u8mr"",""object"":""chat.completion"",""created"":1795558549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8147,,MarianeAzar,20261124_215144,2026-11-24T22:15:50.681987+00:00
+b496eecdd3db025e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In bowling, what is the term used for getting three consecutive strikes?
+A. Birdie
+B. Flamingo
+C. Turkey
+D. Eagle
+Answer:","[""Birdie"", ""Flamingo"", ""Turkey"", ""Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-c8kd7w4vfobe4oswrislcf"",""object"":""chat.completion"",""created"":1795558550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261124_215144,2026-11-24T22:15:51.534116+00:00
+b496eecdd3db025e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In bowling, what is the term used for getting three consecutive strikes?
+A. Birdie
+B. Flamingo
+C. Turkey
+D. Eagle
+Answer:","[""Birdie"", ""Flamingo"", ""Turkey"", ""Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-ebqwclk8s0jgyug6o8i0c"",""object"":""chat.completion"",""created"":1795558551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261124_215144,2026-11-24T22:15:52.396814+00:00
+291e73457176bd3e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which film does Humphrey Bogart say the famous line, ""Here's looking at you, kid""?
+A. The Maltese Falcon
+B. Citizen Kane
+C. The Treasure of the Sierra Madre
+D. Casablanca
+Answer:","[""The Maltese Falcon"", ""Citizen Kane"", ""The Treasure of the Sierra Madre"", ""Casablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-70ciwd0nu64d36ok7h8k06"",""object"":""chat.completion"",""created"":1795558552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261124_215144,2026-11-24T22:15:53.253819+00:00
+291e73457176bd3e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which film does Humphrey Bogart say the famous line, ""Here's looking at you, kid""?
+A. The Maltese Falcon
+B. Citizen Kane
+C. The Treasure of the Sierra Madre
+D. Casablanca
+Answer:","[""The Maltese Falcon"", ""Citizen Kane"", ""The Treasure of the Sierra Madre"", ""Casablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-qdt0q5xx07iy7fvjh2dgl"",""object"":""chat.completion"",""created"":1795558553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261124_215144,2026-11-24T22:15:54.137930+00:00
+68b816f3667e2f53,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the bloodiest event in United States history, in terms of casualties?
+A. Pearl Harbor
+B. D-Day
+C. Battle of Antietam
+D. September 11th
+Answer:","[""Pearl Harbor"", ""D-Day"", ""Battle of Antietam"", ""September 11th""]",http,0.0,16,none,"{""id"":""chatcmpl-35jplxsg7xibm01r817ymn"",""object"":""chat.completion"",""created"":1795558554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8957,,MarianeAzar,20261124_215144,2026-11-24T22:15:55.033989+00:00
+68b816f3667e2f53,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the bloodiest event in United States history, in terms of casualties?
+A. Pearl Harbor
+B. D-Day
+C. Battle of Antietam
+D. September 11th
+Answer:","[""Pearl Harbor"", ""D-Day"", ""Battle of Antietam"", ""September 11th""]",http,0.0,16,none,"{""id"":""chatcmpl-ro3d49agkepikr55fnb4k"",""object"":""chat.completion"",""created"":1795558554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9043,,MarianeAzar,20261124_215144,2026-11-24T22:15:55.938596+00:00
+d371f977a9b09f84,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Sqiudward's bad painting in the Spongebob episode ""Artist Unknown?""
+A. Rippy Bits
+B. Bold and Brash
+C. Squidward en Repose
+D. Tilted Perspectives
+Answer:","[""Rippy Bits"", ""Bold and Brash"", ""Squidward en Repose"", ""Tilted Perspectives""]",http,0.0,16,none,"{""id"":""chatcmpl-qclz09ifigm2gp5afnwcdl"",""object"":""chat.completion"",""created"":1795558555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261124_215144,2026-11-24T22:15:56.822128+00:00

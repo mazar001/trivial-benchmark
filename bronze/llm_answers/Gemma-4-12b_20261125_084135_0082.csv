@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+12d773fb0e6f72bf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, What was the name of the spell that caused a plague that famously killed millions of players in 2005?
+A. Necrotic Plague
+B. Corrupted Blood
+C. Mutated Infection
+D. Unbound Infestation
+Answer:","[""Necrotic Plague"", ""Corrupted Blood"", ""Mutated Infection"", ""Unbound Infestation""]",http,0.0,16,none,"{""id"":""chatcmpl-c6afmwemkowregil8rcr7"",""object"":""chat.completion"",""created"":1795594381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3819,,MarianeAzar,20261125_084135,2026-11-25T08:13:03.538568+00:00
+12d773fb0e6f72bf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft, What was the name of the spell that caused a plague that famously killed millions of players in 2005?
+A. Necrotic Plague
+B. Corrupted Blood
+C. Mutated Infection
+D. Unbound Infestation
+Answer:","[""Necrotic Plague"", ""Corrupted Blood"", ""Mutated Infection"", ""Unbound Infestation""]",http,0.0,16,none,"{""id"":""chatcmpl-tz2p752ssl2fswku4x4ji"",""object"":""chat.completion"",""created"":1795594382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1649,,MarianeAzar,20261125_084135,2026-11-25T08:13:04.703702+00:00
+bd46efa246682110,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mark Wahlberg played the titular character of which 2008 video-game adaptation?
+A. Max Payne
+B. Hitman
+C. God Of War
+D. Alan Wake
+Answer:","[""Max Payne"", ""Hitman"", ""God Of War"", ""Alan Wake""]",http,0.0,16,none,"{""id"":""chatcmpl-1mfmrzkwbmnrqxp5bl8ti"",""object"":""chat.completion"",""created"":1795594384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1557,,MarianeAzar,20261125_084135,2026-11-25T08:13:05.860016+00:00
+bd46efa246682110,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mark Wahlberg played the titular character of which 2008 video-game adaptation?
+A. Max Payne
+B. Hitman
+C. God Of War
+D. Alan Wake
+Answer:","[""Max Payne"", ""Hitman"", ""God Of War"", ""Alan Wake""]",http,0.0,16,none,"{""id"":""chatcmpl-ab5dminlygry92eiatohgo"",""object"":""chat.completion"",""created"":1795594385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.991,,MarianeAzar,20261125_084135,2026-11-25T08:13:06.851201+00:00
+787605f511333cf7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?
+A. Maud Pie
+B. Rose Marene
+C. Rainbow Dash
+D. Pinkie Pie
+Answer:","[""Maud Pie"", ""Rose Marene"", ""Rainbow Dash"", ""Pinkie Pie""]",http,0.0,16,none,"{""id"":""chatcmpl-xyu3b9cqxjf2trw6my4v8u"",""object"":""chat.completion"",""created"":1795594386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9991,,MarianeAzar,20261125_084135,2026-11-25T08:13:07.850569+00:00
+787605f511333cf7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?
+A. Maud Pie
+B. Rose Marene
+C. Rainbow Dash
+D. Pinkie Pie
+Answer:","[""Maud Pie"", ""Rose Marene"", ""Rainbow Dash"", ""Pinkie Pie""]",http,0.0,16,none,"{""id"":""chatcmpl-7hyyv0onfvovggnhsqoe3d"",""object"":""chat.completion"",""created"":1795594387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4854,,MarianeAzar,20261125_084135,2026-11-25T08:13:09.336245+00:00
+16d0ed10bba3df18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1952 musical composition 4'33"", composed by prolific American composer John Cage, is mainly comprised of what sound?
+A. People talking
+B. Cricket chirps
+C. Farts
+D. Silence
+Answer:","[""People talking"", ""Cricket chirps"", ""Farts"", ""Silence""]",http,0.0,16,none,"{""id"":""chatcmpl-iqu4wyx8j57qjyw5asd3uc"",""object"":""chat.completion"",""created"":1795594388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9626,,MarianeAzar,20261125_084135,2026-11-25T08:13:10.299103+00:00
+16d0ed10bba3df18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1952 musical composition 4'33"", composed by prolific American composer John Cage, is mainly comprised of what sound?
+A. People talking
+B. Cricket chirps
+C. Farts
+D. Silence
+Answer:","[""People talking"", ""Cricket chirps"", ""Farts"", ""Silence""]",http,0.0,16,none,"{""id"":""chatcmpl-q71vdzys7ftbrv7zzbyxq"",""object"":""chat.completion"",""created"":1795594389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9727,,MarianeAzar,20261125_084135,2026-11-25T08:13:11.272038+00:00
+88e223b0fe0d7923,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Microphones can be used not only to pick up sound, but also to project sound similar to a speaker.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-uojbmwvharcjt6vj0v3hs"",""object"":""chat.completion"",""created"":1795594390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.469,,MarianeAzar,20261125_084135,2026-11-25T08:13:12.741214+00:00
+88e223b0fe0d7923,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Microphones can be used not only to pick up sound, but also to project sound similar to a speaker.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-73roqrbc71sm2h5qhxnvfe"",""object"":""chat.completion"",""created"":1795594392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1005,,MarianeAzar,20261125_084135,2026-11-25T08:13:13.841879+00:00
+25fff3e574e3b9ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?
+A. 1.5 MHz
+B. 44.1 kHz
+C. 20.5 kHz
+D. 32.0 kHz
+Answer:","[""1.5 MHz"", ""44.1 kHz"", ""20.5 kHz"", ""32.0 kHz""]",http,0.0,16,none,"{""id"":""chatcmpl-anrub1ejmdf2pph7th1n"",""object"":""chat.completion"",""created"":1795594393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1574,,MarianeAzar,20261125_084135,2026-11-25T08:13:14.999937+00:00
+25fff3e574e3b9ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Originally used in PCM adapters, what frequency is the standard for sampling audio in the Compact Disc Digital Audio format?
+A. 1.5 MHz
+B. 44.1 kHz
+C. 20.5 kHz
+D. 32.0 kHz
+Answer:","[""1.5 MHz"", ""44.1 kHz"", ""20.5 kHz"", ""32.0 kHz""]",http,0.0,16,none,"{""id"":""chatcmpl-jwr5mvtgd2mccpftmj52"",""object"":""chat.completion"",""created"":1795594394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0972,,MarianeAzar,20261125_084135,2026-11-25T08:13:16.097400+00:00
+53173c6780d0b47b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the progressive rock band Rush's first single?
+A. Not Fade Away
+B. Owner of a Lonely Heart
+C. Working Man
+D. Tom Sawyer
+Answer:","[""Not Fade Away"", ""Owner of a Lonely Heart"", ""Working Man"", ""Tom Sawyer""]",http,0.0,16,none,"{""id"":""chatcmpl-jbpgut0wgv9zlxihzjlmv"",""object"":""chat.completion"",""created"":1795594395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9743,,MarianeAzar,20261125_084135,2026-11-25T08:13:17.071927+00:00
+53173c6780d0b47b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the progressive rock band Rush's first single?
+A. Not Fade Away
+B. Owner of a Lonely Heart
+C. Working Man
+D. Tom Sawyer
+Answer:","[""Not Fade Away"", ""Owner of a Lonely Heart"", ""Working Man"", ""Tom Sawyer""]",http,0.0,16,none,"{""id"":""chatcmpl-mf3l3fjuuabda8kw8bval"",""object"":""chat.completion"",""created"":1795594396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3086,,MarianeAzar,20261125_084135,2026-11-25T08:13:18.380761+00:00
+133d3b179e9dd1ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2017 Formula One World Drivers' Championship?
+A. Lewis Hamilton
+B. Sebastian Vettel
+C. Nico Rosberg
+D. Max Verstappen
+Answer:","[""Lewis Hamilton"", ""Sebastian Vettel"", ""Nico Rosberg"", ""Max Verstappen""]",http,0.0,16,none,"{""id"":""chatcmpl-gww9l1rq46cafnd69haupp"",""object"":""chat.completion"",""created"":1795594397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.919,,MarianeAzar,20261125_084135,2026-11-25T08:13:19.300396+00:00
+133d3b179e9dd1ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2017 Formula One World Drivers' Championship?
+A. Lewis Hamilton
+B. Sebastian Vettel
+C. Nico Rosberg
+D. Max Verstappen
+Answer:","[""Lewis Hamilton"", ""Sebastian Vettel"", ""Nico Rosberg"", ""Max Verstappen""]",http,0.0,16,none,"{""id"":""chatcmpl-o6vspvauj9vsjrtn2joui"",""object"":""chat.completion"",""created"":1795594398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2433,,MarianeAzar,20261125_084135,2026-11-25T08:13:20.543980+00:00
+44a0df03594068fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Joel's daughter in the game, ""The Last of Us""?
+A. Marlene
+B. Tess
+C. Sarah
+D. Ellie
+Answer:","[""Marlene"", ""Tess"", ""Sarah"", ""Ellie""]",http,0.0,16,none,"{""id"":""chatcmpl-yb57agx3fvd4vlmp1cnl2a"",""object"":""chat.completion"",""created"":1795594399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2542,,MarianeAzar,20261125_084135,2026-11-25T08:13:21.798507+00:00
+44a0df03594068fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Joel's daughter in the game, ""The Last of Us""?
+A. Marlene
+B. Tess
+C. Sarah
+D. Ellie
+Answer:","[""Marlene"", ""Tess"", ""Sarah"", ""Ellie""]",http,0.0,16,none,"{""id"":""chatcmpl-nxumvzh4zpt52p7sk0sm4f"",""object"":""chat.completion"",""created"":1795594401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9412,,MarianeAzar,20261125_084135,2026-11-25T08:13:22.740000+00:00
+5686c540531b68b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who invented the ""Spanning Tree Protocol""?
+A. Michael Roberts
+B. Vint Cerf
+C. Radia Perlman
+D. Paul Vixie
+Answer:","[""Michael Roberts"", ""Vint Cerf"", ""Radia Perlman"", ""Paul Vixie""]",http,0.0,16,none,"{""id"":""chatcmpl-8e4nkmc3s64bcg0wbcgdma"",""object"":""chat.completion"",""created"":1795594402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2488,,MarianeAzar,20261125_084135,2026-11-25T08:13:23.989086+00:00
+5686c540531b68b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who invented the ""Spanning Tree Protocol""?
+A. Michael Roberts
+B. Vint Cerf
+C. Radia Perlman
+D. Paul Vixie
+Answer:","[""Michael Roberts"", ""Vint Cerf"", ""Radia Perlman"", ""Paul Vixie""]",http,0.0,16,none,"{""id"":""chatcmpl-py6nq0q1xxnddmhkznahj"",""object"":""chat.completion"",""created"":1795594403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2855,,MarianeAzar,20261125_084135,2026-11-25T08:13:25.275008+00:00
+bf9f171698199267,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the original voice actor of Shaggy Rogers in Scooby-Doo?
+A. Casey Kasem
+B. Frank Welker
+C. Dante Basco
+D. Billy West
+Answer:","[""Casey Kasem"", ""Frank Welker"", ""Dante Basco"", ""Billy West""]",http,0.0,16,none,"{""id"":""chatcmpl-b3pmqe1neudgd3q14vu6i"",""object"":""chat.completion"",""created"":1795594404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9463,,MarianeAzar,20261125_084135,2026-11-25T08:13:26.221496+00:00
+bf9f171698199267,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the original voice actor of Shaggy Rogers in Scooby-Doo?
+A. Casey Kasem
+B. Frank Welker
+C. Dante Basco
+D. Billy West
+Answer:","[""Casey Kasem"", ""Frank Welker"", ""Dante Basco"", ""Billy West""]",http,0.0,16,none,"{""id"":""chatcmpl-5dq2e7d5l35znhjg37x0a"",""object"":""chat.completion"",""created"":1795594405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2892,,MarianeAzar,20261125_084135,2026-11-25T08:13:27.510958+00:00
+7eaf3dc88b9bf034,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the original Star Wars trilogy, Alec Guinness provided the voice for Darth Vader.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q2sw950zf17hocwxsbqxm"",""object"":""chat.completion"",""created"":1795594406,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0873,,MarianeAzar,20261125_084135,2026-11-25T08:13:28.598443+00:00
+7eaf3dc88b9bf034,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the original Star Wars trilogy, Alec Guinness provided the voice for Darth Vader.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ogttcvynpvmhnzumrbh3ul"",""object"":""chat.completion"",""created"":1795594408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261125_084135,2026-11-25T08:13:29.465434+00:00
+7924e71da7eb265e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did Halley's Comet, which will not appear again until the year 2061, previously approach Earth?
+A. 1909
+B. 2001
+C. 1942
+D. 1986
+Answer:","[""1909"", ""2001"", ""1942"", ""1986""]",http,0.0,16,none,"{""id"":""chatcmpl-s2mqed2k1wix9a72t16jwr"",""object"":""chat.completion"",""created"":1795594408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.264,,MarianeAzar,20261125_084135,2026-11-25T08:13:30.729719+00:00

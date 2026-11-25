@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a5548e7a29b641a0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?
+A. Clay Road
+B. Spice Road
+C. Salt Road
+D. Silk Road
+Answer:","[""Clay Road"", ""Spice Road"", ""Salt Road"", ""Silk Road""]",http,0.0,16,none,"{""id"":""chatcmpl-f2beh7n6h6qde5128j896k"",""object"":""chat.completion"",""created"":1795554906,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9482,,MarianeAzar,20261124_215144,2026-11-24T21:15:07.422111+00:00
+a5548e7a29b641a0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?
+A. Clay Road
+B. Spice Road
+C. Salt Road
+D. Silk Road
+Answer:","[""Clay Road"", ""Spice Road"", ""Salt Road"", ""Silk Road""]",http,0.0,16,none,"{""id"":""chatcmpl-alagfxp1ewhpg6s56nqmvg"",""object"":""chat.completion"",""created"":1795554907,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9411,,MarianeAzar,20261124_215144,2026-11-24T21:15:08.363358+00:00
+c2e9f94be8ec89f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All Souls and Merton are constituent colleges of what university?
+A. Oxford
+B. Cambridge
+C. Leeds
+D. Manchester
+Answer:","[""Oxford"", ""Cambridge"", ""Leeds"", ""Manchester""]",http,0.0,16,none,"{""id"":""chatcmpl-sm0a2as5wsxqa17k8261"",""object"":""chat.completion"",""created"":1795554908,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4317,,MarianeAzar,20261124_215144,2026-11-24T21:15:09.795276+00:00
+c2e9f94be8ec89f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All Souls and Merton are constituent colleges of what university?
+A. Oxford
+B. Cambridge
+C. Leeds
+D. Manchester
+Answer:","[""Oxford"", ""Cambridge"", ""Leeds"", ""Manchester""]",http,0.0,16,none,"{""id"":""chatcmpl-kv90nudhidnr46cunhmqp8"",""object"":""chat.completion"",""created"":1795554909,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.115,,MarianeAzar,20261124_215144,2026-11-24T21:15:10.910540+00:00
+2a594e8442e42d78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This trope refers to minor characters that are killed off to show how a monster works.
+A. Minions
+B. Expendables
+C. Red Shirt
+D. Cannon Fodder
+Answer:","[""Minions"", ""Expendables"", ""Red Shirt"", ""Cannon Fodder""]",http,0.0,16,none,"{""id"":""chatcmpl-zmx90o3oqchmnzeva278bd"",""object"":""chat.completion"",""created"":1795554910,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9096,,MarianeAzar,20261124_215144,2026-11-24T21:15:11.820445+00:00
+2a594e8442e42d78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This trope refers to minor characters that are killed off to show how a monster works.
+A. Minions
+B. Expendables
+C. Red Shirt
+D. Cannon Fodder
+Answer:","[""Minions"", ""Expendables"", ""Red Shirt"", ""Cannon Fodder""]",http,0.0,16,none,"{""id"":""chatcmpl-amfbtkbcao9cggl9m9f626"",""object"":""chat.completion"",""created"":1795554911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9634,,MarianeAzar,20261124_215144,2026-11-24T21:15:12.784035+00:00
+d493214bf41c285a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is attributed credit for recording the epic poem The Odyssey?
+A. Homer
+B. Socrates
+C. Aristotle
+D. Odysseus
+Answer:","[""Homer"", ""Socrates"", ""Aristotle"", ""Odysseus""]",http,0.0,16,none,"{""id"":""chatcmpl-iedib85pljrzian8m5lcpn"",""object"":""chat.completion"",""created"":1795554912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2686,,MarianeAzar,20261124_215144,2026-11-24T21:15:14.052758+00:00
+d493214bf41c285a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is attributed credit for recording the epic poem The Odyssey?
+A. Homer
+B. Socrates
+C. Aristotle
+D. Odysseus
+Answer:","[""Homer"", ""Socrates"", ""Aristotle"", ""Odysseus""]",http,0.0,16,none,"{""id"":""chatcmpl-52gps7xplw1krmqsfgb9d"",""object"":""chat.completion"",""created"":1795554914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0145,,MarianeAzar,20261124_215144,2026-11-24T21:15:15.067349+00:00
+3867513b34398690,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the island that ""Jurassic Park"" is built on?
+A. Isla Muerta
+B. Isla Nublar
+C. Isla Pena
+D. Isla Sorna
+Answer:","[""Isla Muerta"", ""Isla Nublar"", ""Isla Pena"", ""Isla Sorna""]",http,0.0,16,none,"{""id"":""chatcmpl-cd954umlb4s2vniyxabjb7"",""object"":""chat.completion"",""created"":1795554914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2044,,MarianeAzar,20261124_215144,2026-11-24T21:15:16.271919+00:00
+3867513b34398690,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the island that ""Jurassic Park"" is built on?
+A. Isla Muerta
+B. Isla Nublar
+C. Isla Pena
+D. Isla Sorna
+Answer:","[""Isla Muerta"", ""Isla Nublar"", ""Isla Pena"", ""Isla Sorna""]",http,0.0,16,none,"{""id"":""chatcmpl-qmwmj7p5d4eegrga35hr"",""object"":""chat.completion"",""created"":1795554916,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1433,,MarianeAzar,20261124_215144,2026-11-24T21:15:17.415343+00:00
+196b3d62f492f738,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?
+A. Harvard University
+B. Columbia University
+C. Yale University
+D. Princeton University
+Answer:","[""Harvard University"", ""Columbia University"", ""Yale University"", ""Princeton University""]",http,0.0,16,none,"{""id"":""chatcmpl-c04br4lsut87nvzjbi3pa"",""object"":""chat.completion"",""created"":1795554917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.909,,MarianeAzar,20261124_215144,2026-11-24T21:15:18.324604+00:00
+196b3d62f492f738,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Ivy League universities has its official motto in Hebrew as well as in Latin?
+A. Harvard University
+B. Columbia University
+C. Yale University
+D. Princeton University
+Answer:","[""Harvard University"", ""Columbia University"", ""Yale University"", ""Princeton University""]",http,0.0,16,none,"{""id"":""chatcmpl-r6psqvei3dr72hcgfkzmrv"",""object"":""chat.completion"",""created"":1795554918,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4695,,MarianeAzar,20261124_215144,2026-11-24T21:15:19.794221+00:00
+abd637460367feb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which role is Bela Lugosi best known for playing in a 1931 horror film?
+A. Dr Frankenstein
+B. Werewolf
+C. The Creature from the Black Lagoon
+D. Count Dracula
+Answer:","[""Dr Frankenstein"", ""Werewolf"", ""The Creature from the Black Lagoon"", ""Count Dracula""]",http,0.0,16,none,"{""id"":""chatcmpl-u344ulrexejnt2bggdbv1"",""object"":""chat.completion"",""created"":1795554919,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9659,,MarianeAzar,20261124_215144,2026-11-24T21:15:20.760185+00:00
+abd637460367feb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which role is Bela Lugosi best known for playing in a 1931 horror film?
+A. Dr Frankenstein
+B. Werewolf
+C. The Creature from the Black Lagoon
+D. Count Dracula
+Answer:","[""Dr Frankenstein"", ""Werewolf"", ""The Creature from the Black Lagoon"", ""Count Dracula""]",http,0.0,16,none,"{""id"":""chatcmpl-0tisnc0t8uziyjzxz6s3jf"",""object"":""chat.completion"",""created"":1795554920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0555,,MarianeAzar,20261124_215144,2026-11-24T21:15:21.815830+00:00
+936e792e4f4d41f5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Final Fantasy VI was originally released outside Japan under what name?
+A. Final Fantasy VI
+B. Final Fantasy II
+C. Final Fantasy V
+D. Final Fantasy III
+Answer:","[""Final Fantasy VI"", ""Final Fantasy II"", ""Final Fantasy V"", ""Final Fantasy III""]",http,0.0,16,none,"{""id"":""chatcmpl-msg7tb16utaswqaaqh1f"",""object"":""chat.completion"",""created"":1795554921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2874,,MarianeAzar,20261124_215144,2026-11-24T21:15:23.103420+00:00
+936e792e4f4d41f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Final Fantasy VI was originally released outside Japan under what name?
+A. Final Fantasy VI
+B. Final Fantasy II
+C. Final Fantasy V
+D. Final Fantasy III
+Answer:","[""Final Fantasy VI"", ""Final Fantasy II"", ""Final Fantasy V"", ""Final Fantasy III""]",http,0.0,16,none,"{""id"":""chatcmpl-aitvh2zq5ehmssz4e5lt8i"",""object"":""chat.completion"",""created"":1795554923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9314,,MarianeAzar,20261124_215144,2026-11-24T21:15:24.034893+00:00
+3b8f5acbe7f697d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character, in the game ""Morenatsu"", has the most possible endings to their route, at a total of four different endings?
+A. Shin Kuroi
+B. Kouya Aotsuki
+C. Torahiko Ooshima
+D. Soutarou Touno
+Answer:","[""Shin Kuroi"", ""Kouya Aotsuki"", ""Torahiko Ooshima"", ""Soutarou Touno""]",http,0.0,16,none,"{""id"":""chatcmpl-j2mrcueqsisak3ooxxlfv"",""object"":""chat.completion"",""created"":1795554923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.272,,MarianeAzar,20261124_215144,2026-11-24T21:15:25.306994+00:00
+3b8f5acbe7f697d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character, in the game ""Morenatsu"", has the most possible endings to their route, at a total of four different endings?
+A. Shin Kuroi
+B. Kouya Aotsuki
+C. Torahiko Ooshima
+D. Soutarou Touno
+Answer:","[""Shin Kuroi"", ""Kouya Aotsuki"", ""Torahiko Ooshima"", ""Soutarou Touno""]",http,0.0,16,none,"{""id"":""chatcmpl-6a4ecyfdztue365iduepyl"",""object"":""chat.completion"",""created"":1795554925,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4043,,MarianeAzar,20261124_215144,2026-11-24T21:15:26.711406+00:00
+94df6116c01881e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal is Disney's Bambi?
+A. Elephant
+B. Deer
+C. Mouse
+D. Wolf
+Answer:","[""Elephant"", ""Deer"", ""Mouse"", ""Wolf""]",http,0.0,16,none,"{""id"":""chatcmpl-28ihjlxc145fijvuto5pyh"",""object"":""chat.completion"",""created"":1795554926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0446,,MarianeAzar,20261124_215144,2026-11-24T21:15:27.756178+00:00
+94df6116c01881e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal is Disney's Bambi?
+A. Elephant
+B. Deer
+C. Mouse
+D. Wolf
+Answer:","[""Elephant"", ""Deer"", ""Mouse"", ""Wolf""]",http,0.0,16,none,"{""id"":""chatcmpl-f47q3on5ikalfzy6b15wlo"",""object"":""chat.completion"",""created"":1795554927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9456,,MarianeAzar,20261124_215144,2026-11-24T21:15:28.701970+00:00
+23f3bed1b2602813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how many Slinkys were sold in their first 60 years (from 1945 to 2005)?
+A. 100 Million
+B. 1 Billion
+C. 300 Million
+D. 450 Million
+Answer:","[""100 Million"", ""1 Billion"", ""300 Million"", ""450 Million""]",http,0.0,16,none,"{""id"":""chatcmpl-w9zq6htxmtpn40he96ifv"",""object"":""chat.completion"",""created"":1795554928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3998,,MarianeAzar,20261124_215144,2026-11-24T21:15:30.102052+00:00
+23f3bed1b2602813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how many Slinkys were sold in their first 60 years (from 1945 to 2005)?
+A. 100 Million
+B. 1 Billion
+C. 300 Million
+D. 450 Million
+Answer:","[""100 Million"", ""1 Billion"", ""300 Million"", ""450 Million""]",http,0.0,16,none,"{""id"":""chatcmpl-1naeit6srnev9k058m0p3"",""object"":""chat.completion"",""created"":1795554930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9751,,MarianeAzar,20261124_215144,2026-11-24T21:15:31.077324+00:00
+f6ed4bacc808a89a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u0q8xl1ezfbf14zo9neblm"",""object"":""chat.completion"",""created"":1795554930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9134,,MarianeAzar,20261124_215144,2026-11-24T21:15:31.990794+00:00
+f6ed4bacc808a89a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Pythagorean theorem states that the square of the hypotenuse is equal to the product of the squares of the other two sides.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j98d1gzaf2qopsir37ar7s"",""object"":""chat.completion"",""created"":1795554931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3865,,MarianeAzar,20261124_215144,2026-11-24T21:15:33.377398+00:00
+84aed62fd835f65a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Psycho"" series of videos on YouTube was created by which of the following?
+A. Billy Familia
+B. VeganGainz
+C. RiDGiD STUDiOS
+D. Dan Bell
+Answer:","[""Billy Familia"", ""VeganGainz"", ""RiDGiD STUDiOS"", ""Dan Bell""]",http,0.0,16,none,"{""id"":""chatcmpl-rnxpd6g6rgb6si013t3tw"",""object"":""chat.completion"",""created"":1795554933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9569,,MarianeAzar,20261124_215144,2026-11-24T21:15:34.334424+00:00

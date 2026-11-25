@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+adbade9e0c08157b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did ""The Big Bang Theory"" debut on CBS?
+A. 2006
+B. 2009
+C. 2007
+D. 2008
+Answer:","[""2006"", ""2009"", ""2007"", ""2008""]",http,0.0,16,none,"{""id"":""chatcmpl-ndndr5by1jn475p6fbrr1"",""object"":""chat.completion"",""created"":1795593865,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9236,,MarianeAzar,20261125_084135,2026-11-25T08:04:26.796398+00:00
+2745ff3119242c11,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in the show ""Burn Notice""?
+A. Sam Axe
+B. Michael Westen
+C. Fiona Glenanne
+D. Madeline Westen
+Answer:","[""Sam Axe"", ""Michael Westen"", ""Fiona Glenanne"", ""Madeline Westen""]",http,0.0,16,none,"{""id"":""chatcmpl-5xgbivx1xhdx6lqraz08rq"",""object"":""chat.completion"",""created"":1795593866,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8757,,MarianeAzar,20261125_084135,2026-11-25T08:04:27.672492+00:00
+2745ff3119242c11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in the show ""Burn Notice""?
+A. Sam Axe
+B. Michael Westen
+C. Fiona Glenanne
+D. Madeline Westen
+Answer:","[""Sam Axe"", ""Michael Westen"", ""Fiona Glenanne"", ""Madeline Westen""]",http,0.0,16,none,"{""id"":""chatcmpl-o1fnbb31xqk77m8kviup5b"",""object"":""chat.completion"",""created"":1795593867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261125_084135,2026-11-25T08:04:28.535586+00:00
+93bb04cbc640c3e6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?
+A. Suffering From Success
+B. Major Key
+C. Don't Ever Play Yourself
+D. I Changed A Lot
+Answer:","[""Suffering From Success"", ""Major Key"", ""Don't Ever Play Yourself"", ""I Changed A Lot""]",http,0.0,16,none,"{""id"":""chatcmpl-f6ixntqs5cnrkk2ddrqtop"",""object"":""chat.completion"",""created"":1795593867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T08:04:29.415422+00:00
+93bb04cbc640c3e6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?
+A. Suffering From Success
+B. Major Key
+C. Don't Ever Play Yourself
+D. I Changed A Lot
+Answer:","[""Suffering From Success"", ""Major Key"", ""Don't Ever Play Yourself"", ""I Changed A Lot""]",http,0.0,16,none,"{""id"":""chatcmpl-07vlunv9ogdhuzzjhnqc89h"",""object"":""chat.completion"",""created"":1795593868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:04:30.298401+00:00
+e08e5d681ae795ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?
+A. 1st
+B. 5th
+C. 3rd
+D. 8th
+Answer:","[""1st"", ""5th"", ""3rd"", ""8th""]",http,0.0,16,none,"{""id"":""chatcmpl-p8cmg518cml4wsu8wjg6t"",""object"":""chat.completion"",""created"":1795593869,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T08:04:31.195589+00:00
+e08e5d681ae795ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?
+A. 1st
+B. 5th
+C. 3rd
+D. 8th
+Answer:","[""1st"", ""5th"", ""3rd"", ""8th""]",http,0.0,16,none,"{""id"":""chatcmpl-lpzutcjxoduws3y9ur8il"",""object"":""chat.completion"",""created"":1795593870,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9316,,MarianeAzar,20261125_084135,2026-11-25T08:04:32.127434+00:00
+0c821048c4269dc9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the winner of ""Big Brother"" Season 10?
+A. Chris Mundorf
+B. Dan Gheesling
+C. Bryce Kranyik
+D. Ryan Sutfin
+Answer:","[""Chris Mundorf"", ""Dan Gheesling"", ""Bryce Kranyik"", ""Ryan Sutfin""]",http,0.0,16,none,"{""id"":""chatcmpl-45cgz4uudkut4ww18crp2s"",""object"":""chat.completion"",""created"":1795593871,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8901,,MarianeAzar,20261125_084135,2026-11-25T08:04:33.017695+00:00
+0c821048c4269dc9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the winner of ""Big Brother"" Season 10?
+A. Chris Mundorf
+B. Dan Gheesling
+C. Bryce Kranyik
+D. Ryan Sutfin
+Answer:","[""Chris Mundorf"", ""Dan Gheesling"", ""Bryce Kranyik"", ""Ryan Sutfin""]",http,0.0,16,none,"{""id"":""chatcmpl-ljl2cqk7o9s1twpt87at7w"",""object"":""chat.completion"",""created"":1795593872,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8835,,MarianeAzar,20261125_084135,2026-11-25T08:04:33.901384+00:00
+1ba2fbb5e0ab22fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Harry Potter books are there?
+A. 7
+B. 6
+C. 8
+D. 5
+Answer:","[""7"", ""6"", ""8"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-h3msvhc8mokdgjaopp7wm"",""object"":""chat.completion"",""created"":1795593873,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261125_084135,2026-11-25T08:04:34.787745+00:00
+1ba2fbb5e0ab22fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Harry Potter books are there?
+A. 7
+B. 6
+C. 8
+D. 5
+Answer:","[""7"", ""6"", ""8"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-jqv5dco21093hmw8yu4g9w"",""object"":""chat.completion"",""created"":1795593874,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8707,,MarianeAzar,20261125_084135,2026-11-25T08:04:35.658680+00:00
+380af80f5dcf4dbf,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The band STRFKR was also briefly known as Pyramiddd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0g8p24nr8hmpe2c282lb6og"",""object"":""chat.completion"",""created"":1795593875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8236,,MarianeAzar,20261125_084135,2026-11-25T08:04:36.482506+00:00
+380af80f5dcf4dbf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The band STRFKR was also briefly known as Pyramiddd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-efmu5yl63oeeb9dg95p4mw"",""object"":""chat.completion"",""created"":1795593875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T08:04:37.336277+00:00
+d79ab7488a1973fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city hosted the CS:GO Dreamhack Open 2015?
+A. London
+B. Atlanta
+C. Cluj-Napoca
+D. Cologne
+Answer:","[""London"", ""Atlanta"", ""Cluj-Napoca"", ""Cologne""]",http,0.0,16,none,"{""id"":""chatcmpl-o8e9qrj4tofzf9qc6dolm"",""object"":""chat.completion"",""created"":1795593876,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:04:38.189894+00:00
+d79ab7488a1973fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city hosted the CS:GO Dreamhack Open 2015?
+A. London
+B. Atlanta
+C. Cluj-Napoca
+D. Cologne
+Answer:","[""London"", ""Atlanta"", ""Cluj-Napoca"", ""Cologne""]",http,0.0,16,none,"{""id"":""chatcmpl-a097jlyp84hgueyli38dnq"",""object"":""chat.completion"",""created"":1795593877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:04:39.049198+00:00
+788fc2f4da2481a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following has Jennifer Taylor NOT voiced?
+A. Cortana
+B. Sarah Kerrigan
+C. Zoey
+D. Princess Peach
+Answer:","[""Cortana"", ""Sarah Kerrigan"", ""Zoey"", ""Princess Peach""]",http,0.0,16,none,"{""id"":""chatcmpl-j2e3glx6idne0r9u782of"",""object"":""chat.completion"",""created"":1795593878,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8477,,MarianeAzar,20261125_084135,2026-11-25T08:04:39.897845+00:00
+788fc2f4da2481a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following has Jennifer Taylor NOT voiced?
+A. Cortana
+B. Sarah Kerrigan
+C. Zoey
+D. Princess Peach
+Answer:","[""Cortana"", ""Sarah Kerrigan"", ""Zoey"", ""Princess Peach""]",http,0.0,16,none,"{""id"":""chatcmpl-qu49iz2heiaka6qhirsoe"",""object"":""chat.completion"",""created"":1795593879,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8497,,MarianeAzar,20261125_084135,2026-11-25T08:04:40.747874+00:00
+17f8a7190ecf1116,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in South America?
+A. Huascarán, Peru
+B. Monte Pissis, Argentina
+C. Aconcagua, Argentina
+D. Ojos del Salado, Argentina/Chile border
+Answer:","[""Huascarán, Peru"", ""Monte Pissis, Argentina"", ""Aconcagua, Argentina"", ""Ojos del Salado, Argentina/Chile border""]",http,0.0,16,none,"{""id"":""chatcmpl-sgy6g3x09zmsfe7zftoyyd"",""object"":""chat.completion"",""created"":1795593880,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8994,,MarianeAzar,20261125_084135,2026-11-25T08:04:41.647521+00:00
+17f8a7190ecf1116,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in South America?
+A. Huascarán, Peru
+B. Monte Pissis, Argentina
+C. Aconcagua, Argentina
+D. Ojos del Salado, Argentina/Chile border
+Answer:","[""Huascarán, Peru"", ""Monte Pissis, Argentina"", ""Aconcagua, Argentina"", ""Ojos del Salado, Argentina/Chile border""]",http,0.0,16,none,"{""id"":""chatcmpl-rwebb7j3y7asby341gwj"",""object"":""chat.completion"",""created"":1795593881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T08:04:42.538324+00:00
+1b444f44d11d20cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first feature-length computer-animated movie?
+A. Toy Story
+B. Tron
+C. 101 Dalmatians
+D. Lion king
+Answer:","[""Toy Story"", ""Tron"", ""101 Dalmatians"", ""Lion king""]",http,0.0,16,none,"{""id"":""chatcmpl-564v7qs8az7ahn5sfs1kq"",""object"":""chat.completion"",""created"":1795593881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8755,,MarianeAzar,20261125_084135,2026-11-25T08:04:43.414030+00:00
+1b444f44d11d20cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first feature-length computer-animated movie?
+A. Toy Story
+B. Tron
+C. 101 Dalmatians
+D. Lion king
+Answer:","[""Toy Story"", ""Tron"", ""101 Dalmatians"", ""Lion king""]",http,0.0,16,none,"{""id"":""chatcmpl-4deea5q9gu06cpx7hlhd9g"",""object"":""chat.completion"",""created"":1795593882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261125_084135,2026-11-25T08:04:44.266488+00:00
+969c016bb6378fc9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The main playable character of the 2015 RPG ""Undertale"" is a monster.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ovtuzukg79og4tkyez5b26"",""object"":""chat.completion"",""created"":1795593883,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8258,,MarianeAzar,20261125_084135,2026-11-25T08:04:45.092449+00:00
+969c016bb6378fc9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The main playable character of the 2015 RPG ""Undertale"" is a monster.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-z98sqgo2apj1egto5pl47r"",""object"":""chat.completion"",""created"":1795593884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8382,,MarianeAzar,20261125_084135,2026-11-25T08:04:45.931000+00:00
+dd0b546fe5a3b1aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long was the World Record Speed Run of Valve Software's ""Half-Life"" that was done in 2014.
+A. 12 Minutes, 59 Seconds
+B. 20 Minutes, 41 Seconds
+C. 5 Minutes, 50 Seconds
+D. 45 Minutes, 32 Seconds
+Answer:","[""12 Minutes, 59 Seconds"", ""20 Minutes, 41 Seconds"", ""5 Minutes, 50 Seconds"", ""45 Minutes, 32 Seconds""]",http,0.0,16,none,"{""id"":""chatcmpl-qm8ec5qta2e39j1nsp2f"",""object"":""chat.completion"",""created"":1795593885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9131,,MarianeAzar,20261125_084135,2026-11-25T08:04:46.844394+00:00
+dd0b546fe5a3b1aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long was the World Record Speed Run of Valve Software's ""Half-Life"" that was done in 2014.
+A. 12 Minutes, 59 Seconds
+B. 20 Minutes, 41 Seconds
+C. 5 Minutes, 50 Seconds
+D. 45 Minutes, 32 Seconds
+Answer:","[""12 Minutes, 59 Seconds"", ""20 Minutes, 41 Seconds"", ""5 Minutes, 50 Seconds"", ""45 Minutes, 32 Seconds""]",http,0.0,16,none,"{""id"":""chatcmpl-4qt2gv5env53otsmrzqiu5"",""object"":""chat.completion"",""created"":1795593886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":136,""completion_tokens"":2,""total_tokens"":138,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9786,,MarianeAzar,20261125_084135,2026-11-25T08:04:47.823324+00:00

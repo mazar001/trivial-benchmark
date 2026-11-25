@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cacfcc91a4cad539,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Movies was NOT released in 1996?
+A. Gladiator
+B. Independence Day
+C. The Rock
+D. Mission: Impossible
+Answer:","[""Gladiator"", ""Independence Day"", ""The Rock"", ""Mission: Impossible""]",http,0.0,16,none,"{""id"":""chatcmpl-g7gn3f2p4z7m9ah0aahl9i"",""object"":""chat.completion"",""created"":1795593230,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T07:53:51.743615+00:00
+cacfcc91a4cad539,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Movies was NOT released in 1996?
+A. Gladiator
+B. Independence Day
+C. The Rock
+D. Mission: Impossible
+Answer:","[""Gladiator"", ""Independence Day"", ""The Rock"", ""Mission: Impossible""]",http,0.0,16,none,"{""id"":""chatcmpl-tfcnj4hqh5g3yfya0famd7"",""object"":""chat.completion"",""created"":1795593231,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:53:52.604755+00:00
+8f9ac2c8675e3380,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Argentinian presidents was elected in 2015?
+A. Cristina Fernandez de Kirchner
+B. Nestor Kirchner
+C. Mauricio Macri
+D. Juan Domingo Peron
+Answer:","[""Cristina Fernandez de Kirchner"", ""Nestor Kirchner"", ""Mauricio Macri"", ""Juan Domingo Peron""]",http,0.0,16,none,"{""id"":""chatcmpl-uy7fhb26o3fro5ewl3p1m"",""object"":""chat.completion"",""created"":1795593232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T07:53:53.459677+00:00
+8f9ac2c8675e3380,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Argentinian presidents was elected in 2015?
+A. Cristina Fernandez de Kirchner
+B. Nestor Kirchner
+C. Mauricio Macri
+D. Juan Domingo Peron
+Answer:","[""Cristina Fernandez de Kirchner"", ""Nestor Kirchner"", ""Mauricio Macri"", ""Juan Domingo Peron""]",http,0.0,16,none,"{""id"":""chatcmpl-nlc7kadr47ckj6b8p751d"",""object"":""chat.completion"",""created"":1795593232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T07:53:54.317321+00:00
+ce01dc9aa4ec25b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the race horse that Tony Soprano becomes attached to?
+A. Bada Bing
+B. Man o' war
+C. Honest Earnings
+D. Pie-O-My
+Answer:","[""Bada Bing"", ""Man o' war"", ""Honest Earnings"", ""Pie-O-My""]",http,0.0,16,none,"{""id"":""chatcmpl-t1qzsqzgvyiq46g9kbgvf"",""object"":""chat.completion"",""created"":1795593233,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:53:55.168377+00:00
+ce01dc9aa4ec25b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the race horse that Tony Soprano becomes attached to?
+A. Bada Bing
+B. Man o' war
+C. Honest Earnings
+D. Pie-O-My
+Answer:","[""Bada Bing"", ""Man o' war"", ""Honest Earnings"", ""Pie-O-My""]",http,0.0,16,none,"{""id"":""chatcmpl-by8bb47trb7oqblglm1s18"",""object"":""chat.completion"",""created"":1795593234,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8843,,MarianeAzar,20261125_084135,2026-11-25T07:53:56.052952+00:00
+7fb1d6171f580733,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games has the largest map size?
+A. The Witcher 3: Wild Hunt
+B. The Elder Scrolls 4: Oblivion
+C. Just Cause 2
+D. Grand Theft Auto 5
+Answer:","[""The Witcher 3: Wild Hunt"", ""The Elder Scrolls 4: Oblivion"", ""Just Cause 2"", ""Grand Theft Auto 5""]",http,0.0,16,none,"{""id"":""chatcmpl-qv4sqmc4v3ey1ws733c7"",""object"":""chat.completion"",""created"":1795593235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8647,,MarianeAzar,20261125_084135,2026-11-25T07:53:56.917956+00:00
+7fb1d6171f580733,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games has the largest map size?
+A. The Witcher 3: Wild Hunt
+B. The Elder Scrolls 4: Oblivion
+C. Just Cause 2
+D. Grand Theft Auto 5
+Answer:","[""The Witcher 3: Wild Hunt"", ""The Elder Scrolls 4: Oblivion"", ""Just Cause 2"", ""Grand Theft Auto 5""]",http,0.0,16,none,"{""id"":""chatcmpl-lu26guhqvs4o6bsfs0pau"",""object"":""chat.completion"",""created"":1795593236,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.888,,MarianeAzar,20261125_084135,2026-11-25T07:53:57.806211+00:00
+6ed3e35c9987ba86,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1964 film ""Zulu"", what song does the British Army company sing before the final battle?
+A. Men of Harlech
+B. Colonel Bogey March
+C. Scotland the Brave
+D. The British Grenadiers
+Answer:","[""Men of Harlech"", ""Colonel Bogey March"", ""Scotland the Brave"", ""The British Grenadiers""]",http,0.0,16,none,"{""id"":""chatcmpl-syy7efiw2oahrtqb687sd"",""object"":""chat.completion"",""created"":1795593237,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261125_084135,2026-11-25T07:53:58.684901+00:00
+6ed3e35c9987ba86,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1964 film ""Zulu"", what song does the British Army company sing before the final battle?
+A. Men of Harlech
+B. Colonel Bogey March
+C. Scotland the Brave
+D. The British Grenadiers
+Answer:","[""Men of Harlech"", ""Colonel Bogey March"", ""Scotland the Brave"", ""The British Grenadiers""]",http,0.0,16,none,"{""id"":""chatcmpl-r0byxtpzuyp0kxnpnnk7erq"",""object"":""chat.completion"",""created"":1795593238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.903,,MarianeAzar,20261125_084135,2026-11-25T07:53:59.588117+00:00
+abeb9af685ea90b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which city is the Big Nickel located in Canada?
+A. Halifax, Nova Scotia
+B. Calgary, Alberta
+C. Victoria, British Columbia
+D. Sudbury, Ontario
+Answer:","[""Halifax, Nova Scotia"", ""Calgary, Alberta"", ""Victoria, British Columbia"", ""Sudbury, Ontario""]",http,0.0,16,none,"{""id"":""chatcmpl-txh16pfejyjsa6zccttff"",""object"":""chat.completion"",""created"":1795593239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261125_084135,2026-11-25T07:54:00.466669+00:00
+abeb9af685ea90b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which city is the Big Nickel located in Canada?
+A. Halifax, Nova Scotia
+B. Calgary, Alberta
+C. Victoria, British Columbia
+D. Sudbury, Ontario
+Answer:","[""Halifax, Nova Scotia"", ""Calgary, Alberta"", ""Victoria, British Columbia"", ""Sudbury, Ontario""]",http,0.0,16,none,"{""id"":""chatcmpl-a2xtl875j7goor6y0hrkr"",""object"":""chat.completion"",""created"":1795593239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9146,,MarianeAzar,20261125_084135,2026-11-25T07:54:01.381536+00:00
+8fa73d9cc7a0bd21,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Metal Gear Solid 3: Snake Eater"" takes place on Shadow Moses Island.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t3yj9g8th3sggeejm6np9b"",""object"":""chat.completion"",""created"":1795593240,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261125_084135,2026-11-25T07:54:02.227520+00:00
+8fa73d9cc7a0bd21,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Metal Gear Solid 3: Snake Eater"" takes place on Shadow Moses Island.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v7benya5juof9jjfopcq3"",""object"":""chat.completion"",""created"":1795593241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8379,,MarianeAzar,20261125_084135,2026-11-25T07:54:03.065644+00:00
+5cb32eb0f075a923,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nazi Germany surrendered on Harry Truman's birthday while he was president.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zyk2r4azgl3kz6myns49p"",""object"":""chat.completion"",""created"":1795593242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7915,,MarianeAzar,20261125_084135,2026-11-25T07:54:03.857291+00:00
+5cb32eb0f075a923,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nazi Germany surrendered on Harry Truman's birthday while he was president.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2sb80py58qop830bem2k7"",""object"":""chat.completion"",""created"":1795593243,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8186,,MarianeAzar,20261125_084135,2026-11-25T07:54:04.676046+00:00
+76d0241ab2305673,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?
+A. The Spider
+B. Lobster Johnson
+C. Roger the Homunculus
+D. The Wendigo
+Answer:","[""The Spider"", ""Lobster Johnson"", ""Roger the Homunculus"", ""The Wendigo""]",http,0.0,16,none,"{""id"":""chatcmpl-g3bv6qqs11et07c5k612d"",""object"":""chat.completion"",""created"":1795593244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261125_084135,2026-11-25T07:54:05.527444+00:00
+76d0241ab2305673,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which pulp hero made appearances in Hellboy and BPRD comics before getting his own spin-off?
+A. The Spider
+B. Lobster Johnson
+C. Roger the Homunculus
+D. The Wendigo
+Answer:","[""The Spider"", ""Lobster Johnson"", ""Roger the Homunculus"", ""The Wendigo""]",http,0.0,16,none,"{""id"":""chatcmpl-17sfcl20s7pwbaw25hzi9k"",""object"":""chat.completion"",""created"":1795593244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8974,,MarianeAzar,20261125_084135,2026-11-25T07:54:06.425086+00:00
+b4882ded7f87f562,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The bikini is named after the ""Bikini Atoll"", an island where the United States conducted tests on atomic bombs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3xd3mm6rbtteygce9pfn"",""object"":""chat.completion"",""created"":1795593245,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8379,,MarianeAzar,20261125_084135,2026-11-25T07:54:07.263167+00:00
+b4882ded7f87f562,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The bikini is named after the ""Bikini Atoll"", an island where the United States conducted tests on atomic bombs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-trsda6mead0a3j5vptrf3b"",""object"":""chat.completion"",""created"":1795593246,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8444,,MarianeAzar,20261125_084135,2026-11-25T07:54:08.107780+00:00
+972ff7328e3803f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?
+A. Gorilla
+B. Panda
+C. Tiger
+D. Crocodile
+Answer:","[""Gorilla"", ""Panda"", ""Tiger"", ""Crocodile""]",http,0.0,16,none,"{""id"":""chatcmpl-zy58boyyuli9pmhujx7s"",""object"":""chat.completion"",""created"":1795593247,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T07:54:08.961009+00:00
+972ff7328e3803f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal was Harambe, who was shot after a child fell into it's enclosure at the Cincinnati Zoo?
+A. Gorilla
+B. Panda
+C. Tiger
+D. Crocodile
+Answer:","[""Gorilla"", ""Panda"", ""Tiger"", ""Crocodile""]",http,0.0,16,none,"{""id"":""chatcmpl-gex96ffdy8edfpgslq6w"",""object"":""chat.completion"",""created"":1795593248,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8976,,MarianeAzar,20261125_084135,2026-11-25T07:54:09.858836+00:00
+6d5df5f28be4f56b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which was the first M-rated video game developed by Squaresoft/Square Enix?
+A. Parasite Eve
+B. Final Fantasy VIII
+C. Front Mission
+D. Vagrant Story
+Answer:","[""Parasite Eve"", ""Final Fantasy VIII"", ""Front Mission"", ""Vagrant Story""]",http,0.0,16,none,"{""id"":""chatcmpl-dunbkqeabwtgzsp6fk5jt"",""object"":""chat.completion"",""created"":1795593249,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.863,,MarianeAzar,20261125_084135,2026-11-25T07:54:10.722216+00:00
+6d5df5f28be4f56b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which was the first M-rated video game developed by Squaresoft/Square Enix?
+A. Parasite Eve
+B. Final Fantasy VIII
+C. Front Mission
+D. Vagrant Story
+Answer:","[""Parasite Eve"", ""Final Fantasy VIII"", ""Front Mission"", ""Vagrant Story""]",http,0.0,16,none,"{""id"":""chatcmpl-1lglemo2tzh61t48vhh95v"",""object"":""chat.completion"",""created"":1795593250,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8693,,MarianeAzar,20261125_084135,2026-11-25T07:54:11.591771+00:00
+0dc6503d9c2dadb0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brezhnev was the 5th leader of the USSR.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r3fh6tf4qcgyorz3widik"",""object"":""chat.completion"",""created"":1795593251,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8012,,MarianeAzar,20261125_084135,2026-11-25T07:54:12.393180+00:00

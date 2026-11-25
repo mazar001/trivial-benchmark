@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+4e2a9047d4108ccf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which James Bond film had the theme song written and performed by English singer-songwriter Adele?
+A. Skyfall
+B. Spectre
+C. Quantum Solace
+D. Casino Royale
+Answer:","[""Skyfall"", ""Spectre"", ""Quantum Solace"", ""Casino Royale""]",http,0.0,16,none,"{""id"":""chatcmpl-hml1ra0mx48mmxehuy1han"",""object"":""chat.completion"",""created"":1795553504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.8243,,MarianeAzar,20261124_215144,2026-11-24T20:51:46.165867+00:00
+4e2a9047d4108ccf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which James Bond film had the theme song written and performed by English singer-songwriter Adele?
+A. Skyfall
+B. Spectre
+C. Quantum Solace
+D. Casino Royale
+Answer:","[""Skyfall"", ""Spectre"", ""Quantum Solace"", ""Casino Royale""]",http,0.0,16,none,"{""id"":""chatcmpl-607yulgtz3hzl110bnul7"",""object"":""chat.completion"",""created"":1795553506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.072,,MarianeAzar,20261124_215144,2026-11-24T20:51:47.238181+00:00
+c412506c3628355b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full name of the protagonist from the indie adventure game ""Night in the Woods""?
+A. Katia Managan
+B. Margaret Borowski
+C. Marlena Woborski
+D. Milena Catharina
+Answer:","[""Katia Managan"", ""Margaret Borowski"", ""Marlena Woborski"", ""Milena Catharina""]",http,0.0,16,none,"{""id"":""chatcmpl-62p5obk2dq27cwm7403969"",""object"":""chat.completion"",""created"":1795553507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3125,,MarianeAzar,20261124_215144,2026-11-24T20:51:48.550882+00:00
+c412506c3628355b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full name of the protagonist from the indie adventure game ""Night in the Woods""?
+A. Katia Managan
+B. Margaret Borowski
+C. Marlena Woborski
+D. Milena Catharina
+Answer:","[""Katia Managan"", ""Margaret Borowski"", ""Marlena Woborski"", ""Milena Catharina""]",http,0.0,16,none,"{""id"":""chatcmpl-vk1oaf3dzrs2zbs3ndks07"",""object"":""chat.completion"",""created"":1795553508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3711,,MarianeAzar,20261124_215144,2026-11-24T20:51:49.922192+00:00
+3e5c227e4a0aea3a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?
+A. Mormon
+B. Catholic
+C. Jewish
+D. Atheist
+Answer:","[""Mormon"", ""Catholic"", ""Jewish"", ""Atheist""]",http,0.0,16,none,"{""id"":""chatcmpl-0oc9rnyw79pgkh9qsfjdaig"",""object"":""chat.completion"",""created"":1795553509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0803,,MarianeAzar,20261124_215144,2026-11-24T20:51:51.002770+00:00
+3e5c227e4a0aea3a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?
+A. Mormon
+B. Catholic
+C. Jewish
+D. Atheist
+Answer:","[""Mormon"", ""Catholic"", ""Jewish"", ""Atheist""]",http,0.0,16,none,"{""id"":""chatcmpl-zrjb41fdbcgaiqh1cdfbuv"",""object"":""chat.completion"",""created"":1795553510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9749,,MarianeAzar,20261124_215144,2026-11-24T20:51:51.977911+00:00
+e2056f15beae730d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these celebrities was not a member of the Jackson 5?
+A. Marlon Jackson
+B. Tito Jackson
+C. Bo Jackson
+D. Jermaine Jackson
+Answer:","[""Marlon Jackson"", ""Tito Jackson"", ""Bo Jackson"", ""Jermaine Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-dkho098bhrsk8rusqrech"",""object"":""chat.completion"",""created"":1795553511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2338,,MarianeAzar,20261124_215144,2026-11-24T20:51:53.211987+00:00
+e2056f15beae730d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these celebrities was not a member of the Jackson 5?
+A. Marlon Jackson
+B. Tito Jackson
+C. Bo Jackson
+D. Jermaine Jackson
+Answer:","[""Marlon Jackson"", ""Tito Jackson"", ""Bo Jackson"", ""Jermaine Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-jl4qz3y6joa16aqu14d9h9"",""object"":""chat.completion"",""created"":1795553513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2811,,MarianeAzar,20261124_215144,2026-11-24T20:51:54.493349+00:00
+0e3b1cd23acb5a6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The novel ""Jane Eyre"" was written by what author?
+A. Jane Austen
+B. Louisa May Alcott
+C. Charlotte Brontë
+D. Emily Brontë
+Answer:","[""Jane Austen"", ""Louisa May Alcott"", ""Charlotte Brontë"", ""Emily Brontë""]",http,0.0,16,none,"{""id"":""chatcmpl-8ckvb5m11xy1z1gw1iwy3z"",""object"":""chat.completion"",""created"":1795553514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9243,,MarianeAzar,20261124_215144,2026-11-24T20:51:55.417905+00:00
+0e3b1cd23acb5a6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The novel ""Jane Eyre"" was written by what author?
+A. Jane Austen
+B. Louisa May Alcott
+C. Charlotte Brontë
+D. Emily Brontë
+Answer:","[""Jane Austen"", ""Louisa May Alcott"", ""Charlotte Brontë"", ""Emily Brontë""]",http,0.0,16,none,"{""id"":""chatcmpl-y0pdqmu54wg9x803uh7oa"",""object"":""chat.completion"",""created"":1795553515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2335,,MarianeAzar,20261124_215144,2026-11-24T20:51:56.651760+00:00
+1b0c300883dfb499,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's main easter egg will reward you with the achievement, ""High Maintenance""?
+A. Ascension
+B. Origins
+C. Mob Of The Dead
+D. Die Rise
+Answer:","[""Ascension"", ""Origins"", ""Mob Of The Dead"", ""Die Rise""]",http,0.0,16,none,"{""id"":""chatcmpl-t8xelw1yrre3m3d9g8glj5"",""object"":""chat.completion"",""created"":1795553516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2519,,MarianeAzar,20261124_215144,2026-11-24T20:51:57.904392+00:00
+1b0c300883dfb499,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's main easter egg will reward you with the achievement, ""High Maintenance""?
+A. Ascension
+B. Origins
+C. Mob Of The Dead
+D. Die Rise
+Answer:","[""Ascension"", ""Origins"", ""Mob Of The Dead"", ""Die Rise""]",http,0.0,16,none,"{""id"":""chatcmpl-8ymuzjv2bj99n35facsjx4"",""object"":""chat.completion"",""created"":1795553517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.002,,MarianeAzar,20261124_215144,2026-11-24T20:51:58.906674+00:00
+447fe0970ab087f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many voice channels does the Nintendo Entertainment System support natively?
+A. 5
+B. 6
+C. 3
+D. 4
+Answer:","[""5"", ""6"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-qgavyo7pvnsc0rlbmga0p"",""object"":""chat.completion"",""created"":1795553518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.209,,MarianeAzar,20261124_215144,2026-11-24T20:52:00.115985+00:00
+447fe0970ab087f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many voice channels does the Nintendo Entertainment System support natively?
+A. 5
+B. 6
+C. 3
+D. 4
+Answer:","[""5"", ""6"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-zodrr7uzyfimn8ljc9qby"",""object"":""chat.completion"",""created"":1795553520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1422,,MarianeAzar,20261124_215144,2026-11-24T20:52:01.258419+00:00
+896b0b92d62fd8c0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The word ""news"" originates from the first letters of the 4 main directions on a compass (North, East, West, South).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-43fnreiuvpgyi2kmmf8tjl"",""object"":""chat.completion"",""created"":1795553521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1413,,MarianeAzar,20261124_215144,2026-11-24T20:52:02.399869+00:00
+896b0b92d62fd8c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The word ""news"" originates from the first letters of the 4 main directions on a compass (North, East, West, South).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w08a40cm1yp08tiusw7wr"",""object"":""chat.completion"",""created"":1795553522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.61,,MarianeAzar,20261124_215144,2026-11-24T20:52:04.010107+00:00
+4ca3bcef3273a323,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the largest planet in Kerbal Space Program?
+A. Eeloo
+B. Minmus
+C. Jool
+D. Kerbol
+Answer:","[""Eeloo"", ""Minmus"", ""Jool"", ""Kerbol""]",http,0.0,16,none,"{""id"":""chatcmpl-6jxvs25xmfxx8u1qjdk1rj"",""object"":""chat.completion"",""created"":1795553523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0744,,MarianeAzar,20261124_215144,2026-11-24T20:52:05.085004+00:00
+4ca3bcef3273a323,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the largest planet in Kerbal Space Program?
+A. Eeloo
+B. Minmus
+C. Jool
+D. Kerbol
+Answer:","[""Eeloo"", ""Minmus"", ""Jool"", ""Kerbol""]",http,0.0,16,none,"{""id"":""chatcmpl-n9bxltlnba30r6g0ucr5p"",""object"":""chat.completion"",""created"":1795553524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4076,,MarianeAzar,20261124_215144,2026-11-24T20:52:06.492909+00:00
+5c5783dafeba8649,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following United States Presidents served the shortest term in office?
+A. Warren G. Harding
+B. James A. Garfield
+C. William Henry Harrison
+D. Zachary Taylor
+Answer:","[""Warren G. Harding"", ""James A. Garfield"", ""William Henry Harrison"", ""Zachary Taylor""]",http,0.0,16,none,"{""id"":""chatcmpl-fpdzf35pf090ocvwikw70j"",""object"":""chat.completion"",""created"":1795553526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.145,,MarianeAzar,20261124_215144,2026-11-24T20:52:07.638170+00:00
+5c5783dafeba8649,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following United States Presidents served the shortest term in office?
+A. Warren G. Harding
+B. James A. Garfield
+C. William Henry Harrison
+D. Zachary Taylor
+Answer:","[""Warren G. Harding"", ""James A. Garfield"", ""William Henry Harrison"", ""Zachary Taylor""]",http,0.0,16,none,"{""id"":""chatcmpl-e2pk31da1sssuq19m62b1j"",""object"":""chat.completion"",""created"":1795553527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9619,,MarianeAzar,20261124_215144,2026-11-24T20:52:08.600290+00:00
+8c4a8fc42f891e47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medial meniscus forms which part of what joint in the human body?
+A. Ankle
+B. Elbow
+C. Shoulder
+D. Knee
+Answer:","[""Ankle"", ""Elbow"", ""Shoulder"", ""Knee""]",http,0.0,16,none,"{""id"":""chatcmpl-95unxnviuuat8gwnf7ahp"",""object"":""chat.completion"",""created"":1795553528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0554,,MarianeAzar,20261124_215144,2026-11-24T20:52:09.656503+00:00
+8c4a8fc42f891e47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medial meniscus forms which part of what joint in the human body?
+A. Ankle
+B. Elbow
+C. Shoulder
+D. Knee
+Answer:","[""Ankle"", ""Elbow"", ""Shoulder"", ""Knee""]",http,0.0,16,none,"{""id"":""chatcmpl-844a3mfjmlrziacezszt1"",""object"":""chat.completion"",""created"":1795553529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3734,,MarianeAzar,20261124_215144,2026-11-24T20:52:11.030104+00:00
+8a874281d51055bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2018 Monaco Grand Prix?
+A. Lewis Hamilton
+B. Sebastian Vettel
+C. Kimi Raikkonen
+D. Daniel Ricciardo
+Answer:","[""Lewis Hamilton"", ""Sebastian Vettel"", ""Kimi Raikkonen"", ""Daniel Ricciardo""]",http,0.0,16,none,"{""id"":""chatcmpl-5hu6yo862f6hdcp7yen5w"",""object"":""chat.completion"",""created"":1795553530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9322,,MarianeAzar,20261124_215144,2026-11-24T20:52:11.962541+00:00
+8a874281d51055bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2018 Monaco Grand Prix?
+A. Lewis Hamilton
+B. Sebastian Vettel
+C. Kimi Raikkonen
+D. Daniel Ricciardo
+Answer:","[""Lewis Hamilton"", ""Sebastian Vettel"", ""Kimi Raikkonen"", ""Daniel Ricciardo""]",http,0.0,16,none,"{""id"":""chatcmpl-nxsk3m5e38bjq3kvhvaqt"",""object"":""chat.completion"",""created"":1795553531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9534,,MarianeAzar,20261124_215144,2026-11-24T20:52:12.916247+00:00
+7cff4d1a89097c11,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?
+A. Pope John Paul II
+B. Bang-Ding Ow
+C. Albert Putin
+D. The Polish President
+Answer:","[""Pope John Paul II"", ""Bang-Ding Ow"", ""Albert Putin"", ""The Polish President""]",http,0.0,16,none,"{""id"":""chatcmpl-3v7p6lwxvisc0axlhthjoi"",""object"":""chat.completion"",""created"":1795553532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3116,,MarianeAzar,20261124_215144,2026-11-24T20:52:14.228195+00:00

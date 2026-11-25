@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+4f977f931b50cddd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?
+A. United States of America
+B. Netherlands
+C. Tunisia
+D. Italy
+Answer:","[""United States of America"", ""Netherlands"", ""Tunisia"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-aalau9zh2zhzapxt8sokro"",""object"":""chat.completion"",""created"":1795554148,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261124_215144,2026-11-24T21:02:29.653329+00:00
+4f977f931b50cddd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?
+A. United States of America
+B. Netherlands
+C. Tunisia
+D. Italy
+Answer:","[""United States of America"", ""Netherlands"", ""Tunisia"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-7uxwadn19669jw8e5tcr9g"",""object"":""chat.completion"",""created"":1795554149,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8647,,MarianeAzar,20261124_215144,2026-11-24T21:02:30.518382+00:00
+8e76250d3741073c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Super Mario and Paarthurnax (Skyrim) are voiced by the same actor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mbt7qjvrafm0f4lac8j7w5h"",""object"":""chat.completion"",""created"":1795554150,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8188,,MarianeAzar,20261124_215144,2026-11-24T21:02:31.337381+00:00
+8e76250d3741073c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Super Mario and Paarthurnax (Skyrim) are voiced by the same actor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8yhybzyw9xqdhqypkhcshr"",""object"":""chat.completion"",""created"":1795554151,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8411,,MarianeAzar,20261124_215144,2026-11-24T21:02:32.178738+00:00
+c8c6ee88f604312e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?
+A. Spooky Stuff
+B. Nerving Nights
+C. Fearful Frights
+D. Ghosts n' Ghouls
+Answer:","[""Spooky Stuff"", ""Nerving Nights"", ""Fearful Frights"", ""Ghosts n' Ghouls""]",http,0.0,16,none,"{""id"":""chatcmpl-90xmsh25ymgilih624skn"",""object"":""chat.completion"",""created"":1795554152,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261124_215144,2026-11-24T21:02:33.048885+00:00
+c8c6ee88f604312e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?
+A. Spooky Stuff
+B. Nerving Nights
+C. Fearful Frights
+D. Ghosts n' Ghouls
+Answer:","[""Spooky Stuff"", ""Nerving Nights"", ""Fearful Frights"", ""Ghosts n' Ghouls""]",http,0.0,16,none,"{""id"":""chatcmpl-ffpktwd0jla33zwb4whhmo"",""object"":""chat.completion"",""created"":1795554152,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8921,,MarianeAzar,20261124_215144,2026-11-24T21:02:33.941293+00:00
+7130de33ebd864fd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Apple's Voice Assistant, Siri, debuted on which iPhone?
+A. iPhone 5S
+B. iPhone 3GS
+C. iPhone 4S
+D. iPhone 6S
+Answer:","[""iPhone 5S"", ""iPhone 3GS"", ""iPhone 4S"", ""iPhone 6S""]",http,0.0,16,none,"{""id"":""chatcmpl-nldkqauvh81geejhf12ku"",""object"":""chat.completion"",""created"":1795554153,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.882,,MarianeAzar,20261124_215144,2026-11-24T21:02:34.823758+00:00
+7130de33ebd864fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Apple's Voice Assistant, Siri, debuted on which iPhone?
+A. iPhone 5S
+B. iPhone 3GS
+C. iPhone 4S
+D. iPhone 6S
+Answer:","[""iPhone 5S"", ""iPhone 3GS"", ""iPhone 4S"", ""iPhone 6S""]",http,0.0,16,none,"{""id"":""chatcmpl-93fsetffi1famf1e42usqi"",""object"":""chat.completion"",""created"":1795554154,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8737,,MarianeAzar,20261124_215144,2026-11-24T21:02:35.698044+00:00
+3c8d2fef9669d66c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of your team in Star Wars: Republic Commando?
+A. Delta Squad
+B. The Commandos
+C. Vader's Fist
+D. Bravo Six
+Answer:","[""Delta Squad"", ""The Commandos"", ""Vader's Fist"", ""Bravo Six""]",http,0.0,16,none,"{""id"":""chatcmpl-3j5e9tmnwaa3f9ifqoy0xp"",""object"":""chat.completion"",""created"":1795554155,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8479,,MarianeAzar,20261124_215144,2026-11-24T21:02:36.546333+00:00
+3c8d2fef9669d66c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of your team in Star Wars: Republic Commando?
+A. Delta Squad
+B. The Commandos
+C. Vader's Fist
+D. Bravo Six
+Answer:","[""Delta Squad"", ""The Commandos"", ""Vader's Fist"", ""Bravo Six""]",http,0.0,16,none,"{""id"":""chatcmpl-2wipsonw3rioa3sqhszlo"",""object"":""chat.completion"",""created"":1795554156,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261124_215144,2026-11-24T21:02:37.411516+00:00
+4166fdbe41108950,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?
+A. Cherry MX Blue
+B. Cherry MX Black
+C. Cherry MX Brown
+D. Cherry MX Red
+Answer:","[""Cherry MX Blue"", ""Cherry MX Black"", ""Cherry MX Brown"", ""Cherry MX Red""]",http,0.0,16,none,"{""id"":""chatcmpl-hpglkwe4b0evfcvrn4xi7g"",""object"":""chat.completion"",""created"":1795554157,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8503,,MarianeAzar,20261124_215144,2026-11-24T21:02:38.262817+00:00
+4166fdbe41108950,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?
+A. Cherry MX Blue
+B. Cherry MX Black
+C. Cherry MX Brown
+D. Cherry MX Red
+Answer:","[""Cherry MX Blue"", ""Cherry MX Black"", ""Cherry MX Brown"", ""Cherry MX Red""]",http,0.0,16,none,"{""id"":""chatcmpl-y8nmo808aqy6xjnueext"",""object"":""chat.completion"",""created"":1795554158,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261124_215144,2026-11-24T21:02:39.118834+00:00
+1273b106bc154687,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What event led to Liechenstein adding a crown to its flag?
+A. Charles VI's decree in 1719
+B. The 1936 Olympics
+C. Coronation of Prince Johann I Joseph in 1805
+D. Signing of the 1862 Constitution of Liechtenstein
+Answer:","[""Charles VI's decree in 1719"", ""The 1936 Olympics"", ""Coronation of Prince Johann I Joseph in 1805"", ""Signing of the 1862 Constitution of Liechtenstein""]",http,0.0,16,none,"{""id"":""chatcmpl-kmjgph1hda4e6cwrpe8n7"",""object"":""chat.completion"",""created"":1795554159,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261124_215144,2026-11-24T21:02:40.006365+00:00
+1273b106bc154687,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What event led to Liechenstein adding a crown to its flag?
+A. Charles VI's decree in 1719
+B. The 1936 Olympics
+C. Coronation of Prince Johann I Joseph in 1805
+D. Signing of the 1862 Constitution of Liechtenstein
+Answer:","[""Charles VI's decree in 1719"", ""The 1936 Olympics"", ""Coronation of Prince Johann I Joseph in 1805"", ""Signing of the 1862 Constitution of Liechtenstein""]",http,0.0,16,none,"{""id"":""chatcmpl-2jr4fyfx3lnaj1bi6bzyrq"",""object"":""chat.completion"",""created"":1795554159,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9391,,MarianeAzar,20261124_215144,2026-11-24T21:02:40.945774+00:00
+dbdfd31c6aeb3acf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first monster to appear alongside Godzilla?
+A. Mothra
+B. King Kong
+C. King Ghidora
+D. Anguirus
+Answer:","[""Mothra"", ""King Kong"", ""King Ghidora"", ""Anguirus""]",http,0.0,16,none,"{""id"":""chatcmpl-f9qi07htz7ezf4mgq5lafq"",""object"":""chat.completion"",""created"":1795554160,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.89,,MarianeAzar,20261124_215144,2026-11-24T21:02:41.836106+00:00
+dbdfd31c6aeb3acf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first monster to appear alongside Godzilla?
+A. Mothra
+B. King Kong
+C. King Ghidora
+D. Anguirus
+Answer:","[""Mothra"", ""King Kong"", ""King Ghidora"", ""Anguirus""]",http,0.0,16,none,"{""id"":""chatcmpl-m8hcw7r7v2oohn730nt0wq"",""object"":""chat.completion"",""created"":1795554161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261124_215144,2026-11-24T21:02:42.697143+00:00
+4e553ea09c715456,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which Beatles album would you find the song 'Eleanor Rigby'?
+A. Help!
+B. Abbey Road
+C. Revolver
+D. Rubber Soul
+Answer:","[""Help!"", ""Abbey Road"", ""Revolver"", ""Rubber Soul""]",http,0.0,16,none,"{""id"":""chatcmpl-lgab05x7lkl0pypsjuf6tyc"",""object"":""chat.completion"",""created"":1795554162,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""R"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261124_215144,2026-11-24T21:02:43.548190+00:00
+4e553ea09c715456,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which Beatles album would you find the song 'Eleanor Rigby'?
+A. Help!
+B. Abbey Road
+C. Revolver
+D. Rubber Soul
+Answer:","[""Help!"", ""Abbey Road"", ""Revolver"", ""Rubber Soul""]",http,0.0,16,none,"{""id"":""chatcmpl-oupn9f7qkmbukrppmatker"",""object"":""chat.completion"",""created"":1795554163,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""R"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261124_215144,2026-11-24T21:02:44.420032+00:00
+faed611b9da7b39f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which anime heavily features music from the genre ""Eurobeat""?
+A. Initial D
+B. Cowboy Bebop
+C. Kino no Tabi
+D. Wangan Midnight
+Answer:","[""Initial D"", ""Cowboy Bebop"", ""Kino no Tabi"", ""Wangan Midnight""]",http,0.0,16,none,"{""id"":""chatcmpl-iufw31gykldb8zj8bdeyh"",""object"":""chat.completion"",""created"":1795554164,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261124_215144,2026-11-24T21:02:45.272043+00:00
+faed611b9da7b39f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which anime heavily features music from the genre ""Eurobeat""?
+A. Initial D
+B. Cowboy Bebop
+C. Kino no Tabi
+D. Wangan Midnight
+Answer:","[""Initial D"", ""Cowboy Bebop"", ""Kino no Tabi"", ""Wangan Midnight""]",http,0.0,16,none,"{""id"":""chatcmpl-34m9z9g7i95kjvcnstoa3"",""object"":""chat.completion"",""created"":1795554165,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261124_215144,2026-11-24T21:02:46.132426+00:00
+a9f7ab209ba0ad51,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which restaurant's mascot is a clown?
+A. Burger King
+B. Whataburger
+C. Sonic
+D. McDonald's
+Answer:","[""Burger King"", ""Whataburger"", ""Sonic"", ""McDonald's""]",http,0.0,16,none,"{""id"":""chatcmpl-w9bvfaopg9nmhg7z8dqjkq"",""object"":""chat.completion"",""created"":1795554166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261124_215144,2026-11-24T21:02:46.983448+00:00
+a9f7ab209ba0ad51,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which restaurant's mascot is a clown?
+A. Burger King
+B. Whataburger
+C. Sonic
+D. McDonald's
+Answer:","[""Burger King"", ""Whataburger"", ""Sonic"", ""McDonald's""]",http,0.0,16,none,"{""id"":""chatcmpl-f0gl7wn3iadagxvj94v79q"",""object"":""chat.completion"",""created"":1795554166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8627,,MarianeAzar,20261124_215144,2026-11-24T21:02:47.846804+00:00
+ba8021122c50e5c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were the first states to break away from Yugoslavia?
+A. Slovenia, Macedonia
+B. Slovenia, Croatia
+C. Montenegro, Slovenia
+D. Macedonia, Montenegro
+Answer:","[""Slovenia, Macedonia"", ""Slovenia, Croatia"", ""Montenegro, Slovenia"", ""Macedonia, Montenegro""]",http,0.0,16,none,"{""id"":""chatcmpl-nm1zekcuunqan96jej43a"",""object"":""chat.completion"",""created"":1795554167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261124_215144,2026-11-24T21:02:48.699509+00:00
+ba8021122c50e5c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were the first states to break away from Yugoslavia?
+A. Slovenia, Macedonia
+B. Slovenia, Croatia
+C. Montenegro, Slovenia
+D. Macedonia, Montenegro
+Answer:","[""Slovenia, Macedonia"", ""Slovenia, Croatia"", ""Montenegro, Slovenia"", ""Macedonia, Montenegro""]",http,0.0,16,none,"{""id"":""chatcmpl-r1z1ggxzc1a862wpst5ax"",""object"":""chat.completion"",""created"":1795554168,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8642,,MarianeAzar,20261124_215144,2026-11-24T21:02:49.563963+00:00
+7769776d2f8829d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?
+A. 2008
+B. 2006
+C. 2004
+D. 2002
+Answer:","[""2008"", ""2006"", ""2004"", ""2002""]",http,0.0,16,none,"{""id"":""chatcmpl-87pcsf60ztm1001mo9d3szl"",""object"":""chat.completion"",""created"":1795554169,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261124_215144,2026-11-24T21:02:50.429686+00:00

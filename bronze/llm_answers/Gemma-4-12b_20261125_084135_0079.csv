@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cce610170fe29f75,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", what is the Klingon death ritual?
+A. Look into sky and yell loudly in mourning.
+B. Split the deceased's earnings between bloodkin.
+C. Shoot into space in a torpedo casing.
+D. Kiss the jagged forehead before burial.
+Answer:","[""Look into sky and yell loudly in mourning."", ""Split the deceased's earnings between bloodkin."", ""Shoot into space in a torpedo casing."", ""Kiss the jagged forehead before burial.""]",http,0.0,16,none,"{""id"":""chatcmpl-d7us98wm0k6ndwk05qdoyk"",""object"":""chat.completion"",""created"":1795594298,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0843,,MarianeAzar,20261125_084135,2026-11-25T08:11:40.572325+00:00
+cf567b2872abf747,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest Muslim country in the world?
+A. Iran
+B. Saudi Arabia
+C. Pakistan
+D. Indonesia
+Answer:","[""Iran"", ""Saudi Arabia"", ""Pakistan"", ""Indonesia""]",http,0.0,16,none,"{""id"":""chatcmpl-hkf94y5kyhq7zvgkj85vd"",""object"":""chat.completion"",""created"":1795594300,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9888,,MarianeAzar,20261125_084135,2026-11-25T08:11:41.563266+00:00
+cf567b2872abf747,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest Muslim country in the world?
+A. Iran
+B. Saudi Arabia
+C. Pakistan
+D. Indonesia
+Answer:","[""Iran"", ""Saudi Arabia"", ""Pakistan"", ""Indonesia""]",http,0.0,16,none,"{""id"":""chatcmpl-3qnisgjlsjl39ch0whhvir"",""object"":""chat.completion"",""created"":1795594301,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3097,,MarianeAzar,20261125_084135,2026-11-25T08:11:42.873259+00:00
+d3fecc3c150cf40c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following ancient peoples was NOT classified as Hellenic (Greek)?
+A. Ionians
+B. Illyrians
+C. Achaeans
+D. Dorians
+Answer:","[""Ionians"", ""Illyrians"", ""Achaeans"", ""Dorians""]",http,0.0,16,none,"{""id"":""chatcmpl-oz4c7ta3lppy3t5zo1lhq"",""object"":""chat.completion"",""created"":1795594302,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9425,,MarianeAzar,20261125_084135,2026-11-25T08:11:43.816088+00:00
+d3fecc3c150cf40c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following ancient peoples was NOT classified as Hellenic (Greek)?
+A. Ionians
+B. Illyrians
+C. Achaeans
+D. Dorians
+Answer:","[""Ionians"", ""Illyrians"", ""Achaeans"", ""Dorians""]",http,0.0,16,none,"{""id"":""chatcmpl-xhgk6umtzcdncvvowuxgp"",""object"":""chat.completion"",""created"":1795594303,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2713,,MarianeAzar,20261125_084135,2026-11-25T08:11:45.087671+00:00
+7fda32ad2b3e0ae7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ghosts in ""Pac-Man"" and ""Ms. Pac-Man"" have completely different behavior.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-epenxx8r5tescsnfsx013e"",""object"":""chat.completion"",""created"":1795594304,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2884,,MarianeAzar,20261125_084135,2026-11-25T08:11:46.376916+00:00
+7fda32ad2b3e0ae7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ghosts in ""Pac-Man"" and ""Ms. Pac-Man"" have completely different behavior.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xvtf3sic0va358trqjezec"",""object"":""chat.completion"",""created"":1795594305,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9302,,MarianeAzar,20261125_084135,2026-11-25T08:11:47.307269+00:00
+eb60ade0c26cb640,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does a milliner make and sell?
+A. Hats
+B. Shoes
+C. Shirts
+D. Belts
+Answer:","[""Hats"", ""Shoes"", ""Shirts"", ""Belts""]",http,0.0,16,none,"{""id"":""chatcmpl-imbnb3bkclgt0e5ow9l12a"",""object"":""chat.completion"",""created"":1795594306,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9505,,MarianeAzar,20261125_084135,2026-11-25T08:11:48.258370+00:00
+eb60ade0c26cb640,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does a milliner make and sell?
+A. Hats
+B. Shoes
+C. Shirts
+D. Belts
+Answer:","[""Hats"", ""Shoes"", ""Shirts"", ""Belts""]",http,0.0,16,none,"{""id"":""chatcmpl-t2np791x9y5lqa51tldfq"",""object"":""chat.completion"",""created"":1795594307,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3763,,MarianeAzar,20261125_084135,2026-11-25T08:11:49.634810+00:00
+9b389bb763a0add5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?
+A. Moby
+B. Everything Is Wrong
+C. 18
+D. Play
+Answer:","[""Moby"", ""Everything Is Wrong"", ""18"", ""Play""]",http,0.0,16,none,"{""id"":""chatcmpl-jura9dc93gf9om45yipmqj"",""object"":""chat.completion"",""created"":1795594309,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.032,,MarianeAzar,20261125_084135,2026-11-25T08:11:50.667223+00:00
+9b389bb763a0add5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?
+A. Moby
+B. Everything Is Wrong
+C. 18
+D. Play
+Answer:","[""Moby"", ""Everything Is Wrong"", ""18"", ""Play""]",http,0.0,16,none,"{""id"":""chatcmpl-vr94yhh6ltqr2z3mly7dor"",""object"":""chat.completion"",""created"":1795594310,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9782,,MarianeAzar,20261125_084135,2026-11-25T08:11:51.645681+00:00
+b87442900256ba6e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Japan was part of the Allied Powers during World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pkond5jaqlf9x1wb3ft7qg"",""object"":""chat.completion"",""created"":1795594311,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2914,,MarianeAzar,20261125_084135,2026-11-25T08:11:52.937348+00:00
+b87442900256ba6e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Japan was part of the Allied Powers during World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wu2ea3sehkonqk4jedikxj"",""object"":""chat.completion"",""created"":1795594312,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.903,,MarianeAzar,20261125_084135,2026-11-25T08:11:53.840535+00:00
+6d5491d5457b2755,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the world's oldest still operational space launch facility located?
+A. Iran
+B. Kazakhstan
+C. United States
+D. Russia
+Answer:","[""Iran"", ""Kazakhstan"", ""United States"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-vayh8aorpmq7dev0h3sk8g"",""object"":""chat.completion"",""created"":1795594313,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9427,,MarianeAzar,20261125_084135,2026-11-25T08:11:54.783500+00:00
+6d5491d5457b2755,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the world's oldest still operational space launch facility located?
+A. Iran
+B. Kazakhstan
+C. United States
+D. Russia
+Answer:","[""Iran"", ""Kazakhstan"", ""United States"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-warsvd1z6fvkafaa19km"",""object"":""chat.completion"",""created"":1795594314,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3641,,MarianeAzar,20261125_084135,2026-11-25T08:11:56.147878+00:00
+fed42f3ea3a6ef36,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Korean War started in what year?
+A. 1950
+B. 1960
+C. 1912
+D. 1945
+Answer:","[""1950"", ""1960"", ""1912"", ""1945""]",http,0.0,16,none,"{""id"":""chatcmpl-21a14euof5tk7dghz2zuf"",""object"":""chat.completion"",""created"":1795594315,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.072,,MarianeAzar,20261125_084135,2026-11-25T08:11:57.220538+00:00
+fed42f3ea3a6ef36,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Korean War started in what year?
+A. 1950
+B. 1960
+C. 1912
+D. 1945
+Answer:","[""1950"", ""1960"", ""1912"", ""1945""]",http,0.0,16,none,"{""id"":""chatcmpl-we6yje9yhzsjvjsx9sekk"",""object"":""chat.completion"",""created"":1795594316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9186,,MarianeAzar,20261125_084135,2026-11-25T08:11:58.139404+00:00
+6c768035e965be9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the United States' CDC, one in how many Americans die annually due to smoking?
+A. Ten
+B. Five
+C. One hundred
+D. Twenty
+Answer:","[""Ten"", ""Five"", ""One hundred"", ""Twenty""]",http,0.0,16,none,"{""id"":""chatcmpl-zy50n81ilw1u5nqyo4gr4"",""object"":""chat.completion"",""created"":1795594317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9726,,MarianeAzar,20261125_084135,2026-11-25T08:11:59.112273+00:00
+6c768035e965be9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the United States' CDC, one in how many Americans die annually due to smoking?
+A. Ten
+B. Five
+C. One hundred
+D. Twenty
+Answer:","[""Ten"", ""Five"", ""One hundred"", ""Twenty""]",http,0.0,16,none,"{""id"":""chatcmpl-3w43ipx9un7gv0wcmi40ku"",""object"":""chat.completion"",""created"":1795594318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3124,,MarianeAzar,20261125_084135,2026-11-25T08:12:00.424913+00:00
+ea2a51f6cb5d98ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Just Cause 2 was mainly set in what fictional Southeast Asian island country?
+A. Davao
+B. Palau
+C. Panau
+D. Macau
+Answer:","[""Davao"", ""Palau"", ""Panau"", ""Macau""]",http,0.0,16,none,"{""id"":""chatcmpl-ejk5ie663fqdj7qnwmu9bd"",""object"":""chat.completion"",""created"":1795594319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9596,,MarianeAzar,20261125_084135,2026-11-25T08:12:01.384774+00:00
+ea2a51f6cb5d98ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Just Cause 2 was mainly set in what fictional Southeast Asian island country?
+A. Davao
+B. Palau
+C. Panau
+D. Macau
+Answer:","[""Davao"", ""Palau"", ""Panau"", ""Macau""]",http,0.0,16,none,"{""id"":""chatcmpl-vp9ols9oxls9o8th2hehi"",""object"":""chat.completion"",""created"":1795594320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2391,,MarianeAzar,20261125_084135,2026-11-25T08:12:02.624187+00:00
+b64caceb3b3fe18a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many permanent companions are there in the base game version of Fallout: New Vegas?
+A. 9
+B. 6
+C. 8
+D. 7
+Answer:","[""9"", ""6"", ""8"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-29frgo09bgejb7hp70katb"",""object"":""chat.completion"",""created"":1795594322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.247,,MarianeAzar,20261125_084135,2026-11-25T08:12:03.871490+00:00
+b64caceb3b3fe18a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many permanent companions are there in the base game version of Fallout: New Vegas?
+A. 9
+B. 6
+C. 8
+D. 7
+Answer:","[""9"", ""6"", ""8"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-8zq9c1tkujwdr4a05nktb"",""object"":""chat.completion"",""created"":1795594323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9363,,MarianeAzar,20261125_084135,2026-11-25T08:12:04.808205+00:00
+83c0da0853af428f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Red Hot Chill Pepper's album ""Californication"" released?
+A. 1999
+B. 1992
+C. 2000
+D. 1997
+Answer:","[""1999"", ""1992"", ""2000"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-17l1o7as2ndra35zdixz8t"",""object"":""chat.completion"",""created"":1795594324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2716,,MarianeAzar,20261125_084135,2026-11-25T08:12:06.080118+00:00
+83c0da0853af428f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Red Hot Chill Pepper's album ""Californication"" released?
+A. 1999
+B. 1992
+C. 2000
+D. 1997
+Answer:","[""1999"", ""1992"", ""2000"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-q3eczxyh868nkj9jeugqun"",""object"":""chat.completion"",""created"":1795594325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3261,,MarianeAzar,20261125_084135,2026-11-25T08:12:07.406455+00:00

@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+fc66bc2df5f3c3a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The acronym ""RIP"" stands for which of these?
+A. Regular Interval Processes
+B. Routing Information Protocol
+C. Runtime Instance Processes
+D. Routine Inspection Protocol
+Answer:","[""Regular Interval Processes"", ""Routing Information Protocol"", ""Runtime Instance Processes"", ""Routine Inspection Protocol""]",http,0.0,16,none,"{""id"":""chatcmpl-kcu8i7q48afvggx4ocsbhm"",""object"":""chat.completion"",""created"":1795596944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8623,,MarianeAzar,20261125_084135,2026-11-25T08:55:45.918888+00:00
+fc66bc2df5f3c3a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The acronym ""RIP"" stands for which of these?
+A. Regular Interval Processes
+B. Routing Information Protocol
+C. Runtime Instance Processes
+D. Routine Inspection Protocol
+Answer:","[""Regular Interval Processes"", ""Routing Information Protocol"", ""Runtime Instance Processes"", ""Routine Inspection Protocol""]",http,0.0,16,none,"{""id"":""chatcmpl-cpak96u6ts8ess9z0m85vw"",""object"":""chat.completion"",""created"":1795596945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T08:55:46.782821+00:00
+b16d3281dc95ec7e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV series ""Person of Interest"", who plays the character ""Harold Finch""?
+A. Michael Emerson
+B. Jim Caviezel
+C. Taraji P. Henson
+D. Kevin Chapman
+Answer:","[""Michael Emerson"", ""Jim Caviezel"", ""Taraji P. Henson"", ""Kevin Chapman""]",http,0.0,16,none,"{""id"":""chatcmpl-vpn952tt8slfon3bzouqcc"",""object"":""chat.completion"",""created"":1795596946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:55:47.644261+00:00
+b16d3281dc95ec7e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the TV series ""Person of Interest"", who plays the character ""Harold Finch""?
+A. Michael Emerson
+B. Jim Caviezel
+C. Taraji P. Henson
+D. Kevin Chapman
+Answer:","[""Michael Emerson"", ""Jim Caviezel"", ""Taraji P. Henson"", ""Kevin Chapman""]",http,0.0,16,none,"{""id"":""chatcmpl-6t19x9j77txxudf9m9k85p"",""object"":""chat.completion"",""created"":1795596947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T08:55:48.517728+00:00
+03ed5e59b9efa06d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Vietnam War end?
+A. 1978
+B. 1969
+C. 1967
+D. 1975
+Answer:","[""1978"", ""1969"", ""1967"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-1a78hoewva8tpj700lifoq"",""object"":""chat.completion"",""created"":1795596947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T08:55:49.373364+00:00
+03ed5e59b9efa06d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Vietnam War end?
+A. 1978
+B. 1969
+C. 1967
+D. 1975
+Answer:","[""1978"", ""1969"", ""1967"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-phyz4135vtigetnfrz54eh"",""object"":""chat.completion"",""created"":1795596948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T08:55:50.228464+00:00
+182a102fa29157f6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What colour is the circle on the Japanese flag?
+A. Red
+B. Yellow
+C. White
+D. Black
+Answer:","[""Red"", ""Yellow"", ""White"", ""Black""]",http,0.0,16,none,"{""id"":""chatcmpl-th8c1m9lsckcoce1tl3hwl"",""object"":""chat.completion"",""created"":1795596949,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T08:55:51.094255+00:00
+182a102fa29157f6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What colour is the circle on the Japanese flag?
+A. Red
+B. Yellow
+C. White
+D. Black
+Answer:","[""Red"", ""Yellow"", ""White"", ""Black""]",http,0.0,16,none,"{""id"":""chatcmpl-mjf5iehzxkjjh1y8kyvuz"",""object"":""chat.completion"",""created"":1795596950,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:55:51.951714+00:00
+95deff268f584350,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bands are NOT from Australia?
+A. Cut Copy
+B. The Naked and Famous
+C. Empire of the Sun
+D. Tame Impala
+Answer:","[""Cut Copy"", ""The Naked and Famous"", ""Empire of the Sun"", ""Tame Impala""]",http,0.0,16,none,"{""id"":""chatcmpl-yazfkxvy81g25udh95udkv"",""object"":""chat.completion"",""created"":1795596951,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:55:52.812089+00:00
+95deff268f584350,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bands are NOT from Australia?
+A. Cut Copy
+B. The Naked and Famous
+C. Empire of the Sun
+D. Tame Impala
+Answer:","[""Cut Copy"", ""The Naked and Famous"", ""Empire of the Sun"", ""Tame Impala""]",http,0.0,16,none,"{""id"":""chatcmpl-41xfa6qei2ldqn8bqqavgf"",""object"":""chat.completion"",""created"":1795596952,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T08:55:53.665279+00:00
+b51d28fd5c80dcfc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these names was an actual codename for a cancelled Microsoft project?
+A. Neptune
+B. Enceladus
+C. Pollux
+D. Saturn
+Answer:","[""Neptune"", ""Enceladus"", ""Pollux"", ""Saturn""]",http,0.0,16,none,"{""id"":""chatcmpl-xazdp8ij7h1of0saufei"",""object"":""chat.completion"",""created"":1795596953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8379,,MarianeAzar,20261125_084135,2026-11-25T08:55:54.504675+00:00
+b51d28fd5c80dcfc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these names was an actual codename for a cancelled Microsoft project?
+A. Neptune
+B. Enceladus
+C. Pollux
+D. Saturn
+Answer:","[""Neptune"", ""Enceladus"", ""Pollux"", ""Saturn""]",http,0.0,16,none,"{""id"":""chatcmpl-fo2yxiqtd3sf5dqlgcome"",""object"":""chat.completion"",""created"":1795596953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T08:55:55.366462+00:00
+779b044fc0a21fef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""Luigi's Mansion 3"" released?
+A. October 1st, 2019
+B. January 13th, 2019
+C. October 31st, 2019
+D. September 6th, 2018
+Answer:","[""October 1st, 2019"", ""January 13th, 2019"", ""October 31st, 2019"", ""September 6th, 2018""]",http,0.0,16,none,"{""id"":""chatcmpl-pdy1cqyelm8ng3wjldhyi"",""object"":""chat.completion"",""created"":1795596954,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8971,,MarianeAzar,20261125_084135,2026-11-25T08:55:56.263856+00:00
+779b044fc0a21fef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""Luigi's Mansion 3"" released?
+A. October 1st, 2019
+B. January 13th, 2019
+C. October 31st, 2019
+D. September 6th, 2018
+Answer:","[""October 1st, 2019"", ""January 13th, 2019"", ""October 31st, 2019"", ""September 6th, 2018""]",http,0.0,16,none,"{""id"":""chatcmpl-ql1ls2qfpauw7j7w0yrk9"",""object"":""chat.completion"",""created"":1795596955,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9213,,MarianeAzar,20261125_084135,2026-11-25T08:55:57.185416+00:00
+7d19c70e04b2290f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pamina and Papageno are characters in what Mozart opera?
+A. The Magic Flute
+B. The Marriage of Figaro
+C. The Goose of Cairo
+D. The Impresario
+Answer:","[""The Magic Flute"", ""The Marriage of Figaro"", ""The Goose of Cairo"", ""The Impresario""]",http,0.0,16,none,"{""id"":""chatcmpl-eiu8g91jyqrgfemmqufdl8"",""object"":""chat.completion"",""created"":1795596956,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9058,,MarianeAzar,20261125_084135,2026-11-25T08:55:58.091468+00:00
+7d19c70e04b2290f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pamina and Papageno are characters in what Mozart opera?
+A. The Magic Flute
+B. The Marriage of Figaro
+C. The Goose of Cairo
+D. The Impresario
+Answer:","[""The Magic Flute"", ""The Marriage of Figaro"", ""The Goose of Cairo"", ""The Impresario""]",http,0.0,16,none,"{""id"":""chatcmpl-1p9sl5qm38pf90n4q00nhe"",""object"":""chat.completion"",""created"":1795596957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8851,,MarianeAzar,20261125_084135,2026-11-25T08:55:58.976828+00:00
+9746875e3bd5a77e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'In the Flesh' tour was used in support of what Pink Floyd album?
+A. Animals
+B. Wish You Were Here
+C. The Wall
+D. The Final Cut
+Answer:","[""Animals"", ""Wish You Were Here"", ""The Wall"", ""The Final Cut""]",http,0.0,16,none,"{""id"":""chatcmpl-g177xal6igeb614qmuz6b"",""object"":""chat.completion"",""created"":1795596958,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8712,,MarianeAzar,20261125_084135,2026-11-25T08:55:59.848358+00:00
+9746875e3bd5a77e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'In the Flesh' tour was used in support of what Pink Floyd album?
+A. Animals
+B. Wish You Were Here
+C. The Wall
+D. The Final Cut
+Answer:","[""Animals"", ""Wish You Were Here"", ""The Wall"", ""The Final Cut""]",http,0.0,16,none,"{""id"":""chatcmpl-5flryjxs4v95vbzdip86"",""object"":""chat.completion"",""created"":1795596959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T08:56:00.708888+00:00
+1921004cec44a793,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Green Arrow"" sidekick commonly wears a baseball cap?
+A. Emiko Queen
+B. Black Canary
+C. Roy Harper
+D. Dick Grayson
+Answer:","[""Emiko Queen"", ""Black Canary"", ""Roy Harper"", ""Dick Grayson""]",http,0.0,16,none,"{""id"":""chatcmpl-c3ro7ply0yoxfnv82v4otq"",""object"":""chat.completion"",""created"":1795596960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T08:56:01.566783+00:00
+1921004cec44a793,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Green Arrow"" sidekick commonly wears a baseball cap?
+A. Emiko Queen
+B. Black Canary
+C. Roy Harper
+D. Dick Grayson
+Answer:","[""Emiko Queen"", ""Black Canary"", ""Roy Harper"", ""Dick Grayson""]",http,0.0,16,none,"{""id"":""chatcmpl-iq7q61kvphbnqddt592qxh"",""object"":""chat.completion"",""created"":1795596960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T08:56:02.424103+00:00
+d6bfa42c8dec0822,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the chances of being dealt a Royal Flush within Poker/Video Poker?
+A. 1 in 649,740
+B. 1 in 763,302
+C. 1 in 311,875,200
+D. 1 in 499,304
+Answer:","[""1 in 649,740"", ""1 in 763,302"", ""1 in 311,875,200"", ""1 in 499,304""]",http,0.0,16,none,"{""id"":""chatcmpl-02llfoslmxhf3he587vjy3z"",""object"":""chat.completion"",""created"":1795596961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.909,,MarianeAzar,20261125_084135,2026-11-25T08:56:03.333711+00:00
+d6bfa42c8dec0822,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the chances of being dealt a Royal Flush within Poker/Video Poker?
+A. 1 in 649,740
+B. 1 in 763,302
+C. 1 in 311,875,200
+D. 1 in 499,304
+Answer:","[""1 in 649,740"", ""1 in 763,302"", ""1 in 311,875,200"", ""1 in 499,304""]",http,0.0,16,none,"{""id"":""chatcmpl-38hbh4exm32wwgr59wl9d"",""object"":""chat.completion"",""created"":1795596962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":137,""completion_tokens"":2,""total_tokens"":139,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9697,,MarianeAzar,20261125_084135,2026-11-25T08:56:04.303654+00:00
+b91eb527b03f5013,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game ever released that ran on the Source engine?
+A. Counter-Strike: Source
+B. Team Fortress 2
+C. Garry's Mod
+D. Half-Life 2
+Answer:","[""Counter-Strike: Source"", ""Team Fortress 2"", ""Garry's Mod"", ""Half-Life 2""]",http,0.0,16,none,"{""id"":""chatcmpl-19yxsfxar13sunbnnb2wj"",""object"":""chat.completion"",""created"":1795596963,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9178,,MarianeAzar,20261125_084135,2026-11-25T08:56:05.221755+00:00
+b91eb527b03f5013,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game ever released that ran on the Source engine?
+A. Counter-Strike: Source
+B. Team Fortress 2
+C. Garry's Mod
+D. Half-Life 2
+Answer:","[""Counter-Strike: Source"", ""Team Fortress 2"", ""Garry's Mod"", ""Half-Life 2""]",http,0.0,16,none,"{""id"":""chatcmpl-cnu1mofj5n0bq2urnmgey6"",""object"":""chat.completion"",""created"":1795596964,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8828,,MarianeAzar,20261125_084135,2026-11-25T08:56:06.104855+00:00
+64e3df7f10ea5868,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pearl Jam was originally named after which sports figure?
+A. Mookie Blaylock
+B. Blue Moon Odom
+C. Oil Can Boyd
+D. Danger Fourpence
+Answer:","[""Mookie Blaylock"", ""Blue Moon Odom"", ""Oil Can Boyd"", ""Danger Fourpence""]",http,0.0,16,none,"{""id"":""chatcmpl-ivnjuczxz1xj87x8ai22q"",""object"":""chat.completion"",""created"":1795596965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8686,,MarianeAzar,20261125_084135,2026-11-25T08:56:06.973992+00:00

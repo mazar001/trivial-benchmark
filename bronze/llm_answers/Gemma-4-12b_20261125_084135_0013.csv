@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+06ecb772856f3134,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest country, by area, that has only one time zone?
+A. Canada
+B. Russia
+C. India
+D. China
+Answer:","[""Canada"", ""Russia"", ""India"", ""China""]",http,0.0,16,none,"{""id"":""chatcmpl-gvqxjgnqqxjabufjykwivm"",""object"":""chat.completion"",""created"":1795592775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8496,,MarianeAzar,20261125_084135,2026-11-25T07:46:17.363506+00:00
+7fabc10e6d4f52b7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a type of neuron?
+A. Sensory Neuron
+B. Perceptual Neuron
+C. Interneuron
+D. Motor Neuron
+Answer:","[""Sensory Neuron"", ""Perceptual Neuron"", ""Interneuron"", ""Motor Neuron""]",http,0.0,16,none,"{""id"":""chatcmpl-a8efeaguhh6jn1jm1xuyv"",""object"":""chat.completion"",""created"":1795592776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8441,,MarianeAzar,20261125_084135,2026-11-25T07:46:18.207854+00:00
+7fabc10e6d4f52b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is not a type of neuron?
+A. Sensory Neuron
+B. Perceptual Neuron
+C. Interneuron
+D. Motor Neuron
+Answer:","[""Sensory Neuron"", ""Perceptual Neuron"", ""Interneuron"", ""Motor Neuron""]",http,0.0,16,none,"{""id"":""chatcmpl-1rhodaany4hwo7is9gqlyq"",""object"":""chat.completion"",""created"":1795592777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T07:46:19.071896+00:00
+95ccf543e682eb1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the National Pokedex what number is Porygon-Z?
+A. 474
+B. 589
+C. 376
+D. 432
+Answer:","[""474"", ""589"", ""376"", ""432""]",http,0.0,16,none,"{""id"":""chatcmpl-gw3q05smvjm4h8u7jaqtjm"",""object"":""chat.completion"",""created"":1795592778,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8758,,MarianeAzar,20261125_084135,2026-11-25T07:46:19.947947+00:00
+95ccf543e682eb1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the National Pokedex what number is Porygon-Z?
+A. 474
+B. 589
+C. 376
+D. 432
+Answer:","[""474"", ""589"", ""376"", ""432""]",http,0.0,16,none,"{""id"":""chatcmpl-8jhsy0physht5i59vmrkdp"",""object"":""chat.completion"",""created"":1795592779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8742,,MarianeAzar,20261125_084135,2026-11-25T07:46:20.822368+00:00
+add9c6a289f912c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular First Person Shooter (FPS) franchise, got a Real Time Strategy (RTS) game developed based on its universe?
+A. Battlefield
+B. Borderlands
+C. Call of Duty
+D. Halo
+Answer:","[""Battlefield"", ""Borderlands"", ""Call of Duty"", ""Halo""]",http,0.0,16,none,"{""id"":""chatcmpl-25zgznye07okyq9vk4dfhm"",""object"":""chat.completion"",""created"":1795592780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T07:46:21.702533+00:00
+add9c6a289f912c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular First Person Shooter (FPS) franchise, got a Real Time Strategy (RTS) game developed based on its universe?
+A. Battlefield
+B. Borderlands
+C. Call of Duty
+D. Halo
+Answer:","[""Battlefield"", ""Borderlands"", ""Call of Duty"", ""Halo""]",http,0.0,16,none,"{""id"":""chatcmpl-3g2ov663kcmneqa9ytp9lk"",""object"":""chat.completion"",""created"":1795592781,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261125_084135,2026-11-25T07:46:22.584463+00:00
+e923e5da7f518c48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Geometry Dash, what is level 13?
+A. Electroman Adventures
+B. Clubstep
+C. Clutterfunk
+D. Theory of Everything
+Answer:","[""Electroman Adventures"", ""Clubstep"", ""Clutterfunk"", ""Theory of Everything""]",http,0.0,16,none,"{""id"":""chatcmpl-54rfsjk2oakuosldlz331e"",""object"":""chat.completion"",""created"":1795592782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261125_084135,2026-11-25T07:46:23.456146+00:00
+e923e5da7f518c48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Geometry Dash, what is level 13?
+A. Electroman Adventures
+B. Clubstep
+C. Clutterfunk
+D. Theory of Everything
+Answer:","[""Electroman Adventures"", ""Clubstep"", ""Clutterfunk"", ""Theory of Everything""]",http,0.0,16,none,"{""id"":""chatcmpl-g3zswk7zm3haa3555waoci"",""object"":""chat.completion"",""created"":1795592782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T07:46:24.316498+00:00
+0719cffae42084d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 1989 Drum Corps International championships?
+A. The Bluecoats
+B. Santa Clara Vanguard
+C. The Academy
+D. Blue Devils
+Answer:","[""The Bluecoats"", ""Santa Clara Vanguard"", ""The Academy"", ""Blue Devils""]",http,0.0,16,none,"{""id"":""chatcmpl-d7pf8ee3t8ozndj4nlbamp"",""object"":""chat.completion"",""created"":1795592783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:46:25.166467+00:00
+0719cffae42084d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 1989 Drum Corps International championships?
+A. The Bluecoats
+B. Santa Clara Vanguard
+C. The Academy
+D. Blue Devils
+Answer:","[""The Bluecoats"", ""Santa Clara Vanguard"", ""The Academy"", ""Blue Devils""]",http,0.0,16,none,"{""id"":""chatcmpl-6diqlul1sx85nbdscpfhv3"",""object"":""chat.completion"",""created"":1795592784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T07:46:26.026835+00:00
+5cb88e69152159c7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Andrew Lloyd Webber musical ""Cats"" is based off a book of poems written by which author?
+A. Andrew Lloyd Webber
+B. Robert Frost
+C. Emily Dickenson
+D. T.S. Elliot
+Answer:","[""Andrew Lloyd Webber"", ""Robert Frost"", ""Emily Dickenson"", ""T.S. Elliot""]",http,0.0,16,none,"{""id"":""chatcmpl-4cjt97b1i1c9fnvl5f5lfg"",""object"":""chat.completion"",""created"":1795592785,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T07:46:26.901112+00:00
+5cb88e69152159c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Andrew Lloyd Webber musical ""Cats"" is based off a book of poems written by which author?
+A. Andrew Lloyd Webber
+B. Robert Frost
+C. Emily Dickenson
+D. T.S. Elliot
+Answer:","[""Andrew Lloyd Webber"", ""Robert Frost"", ""Emily Dickenson"", ""T.S. Elliot""]",http,0.0,16,none,"{""id"":""chatcmpl-gs06xazjlowyp6uq8vj4oi"",""object"":""chat.completion"",""created"":1795592786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T07:46:27.780786+00:00
+017d91e18aa29e09,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Thanos in Avengers: Infinity War and Avengers: End Game?
+A. Sean Gunn
+B. Tom Hiddleston
+C. Adam Sandler
+D. Josh Brolin
+Answer:","[""Sean Gunn"", ""Tom Hiddleston"", ""Adam Sandler"", ""Josh Brolin""]",http,0.0,16,none,"{""id"":""chatcmpl-3hcb4vrheq5tmut3mpgyeh"",""object"":""chat.completion"",""created"":1795592787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261125_084135,2026-11-25T07:46:28.661314+00:00
+017d91e18aa29e09,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Thanos in Avengers: Infinity War and Avengers: End Game?
+A. Sean Gunn
+B. Tom Hiddleston
+C. Adam Sandler
+D. Josh Brolin
+Answer:","[""Sean Gunn"", ""Tom Hiddleston"", ""Adam Sandler"", ""Josh Brolin""]",http,0.0,16,none,"{""id"":""chatcmpl-iod59yo13ns1nnyhuw5ua"",""object"":""chat.completion"",""created"":1795592788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8525,,MarianeAzar,20261125_084135,2026-11-25T07:46:29.514068+00:00
+82875f9b2648b90b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Elements is a metalloid?
+A. Antimony
+B. Tin
+C. Bromine
+D. Rubidium
+Answer:","[""Antimony"", ""Tin"", ""Bromine"", ""Rubidium""]",http,0.0,16,none,"{""id"":""chatcmpl-no0rt3irpkanth0qwibonl"",""object"":""chat.completion"",""created"":1795592788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.844,,MarianeAzar,20261125_084135,2026-11-25T07:46:30.358503+00:00
+82875f9b2648b90b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Elements is a metalloid?
+A. Antimony
+B. Tin
+C. Bromine
+D. Rubidium
+Answer:","[""Antimony"", ""Tin"", ""Bromine"", ""Rubidium""]",http,0.0,16,none,"{""id"":""chatcmpl-ipazxrw6nfhgdkcgcyt1qt"",""object"":""chat.completion"",""created"":1795592789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T07:46:31.227143+00:00
+58402c5334bd4798,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What album is the song 'New Slang' by The Shins found on?
+A. Port Of Morrow
+B. Wincing The Night Away
+C. Chutes Too Narrow
+D. Oh, Inverted World
+Answer:","[""Port Of Morrow"", ""Wincing The Night Away"", ""Chutes Too Narrow"", ""Oh, Inverted World""]",http,0.0,16,none,"{""id"":""chatcmpl-8l0cukgohwwrjayxcvuhxl"",""object"":""chat.completion"",""created"":1795592790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8764,,MarianeAzar,20261125_084135,2026-11-25T07:46:32.103759+00:00
+58402c5334bd4798,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What album is the song 'New Slang' by The Shins found on?
+A. Port Of Morrow
+B. Wincing The Night Away
+C. Chutes Too Narrow
+D. Oh, Inverted World
+Answer:","[""Port Of Morrow"", ""Wincing The Night Away"", ""Chutes Too Narrow"", ""Oh, Inverted World""]",http,0.0,16,none,"{""id"":""chatcmpl-638uuf4js6esd72rd67v"",""object"":""chat.completion"",""created"":1795592791,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8749,,MarianeAzar,20261125_084135,2026-11-25T07:46:32.979056+00:00
+fb16032b1d268811,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Is Luxembourgish a real language?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yruezydvkkrg8wt610pt6v"",""object"":""chat.completion"",""created"":1795592792,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8186,,MarianeAzar,20261125_084135,2026-11-25T07:46:33.797841+00:00
+fb16032b1d268811,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Is Luxembourgish a real language?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c0e1ef18ugh65r65ljdr6p"",""object"":""chat.completion"",""created"":1795592793,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8163,,MarianeAzar,20261125_084135,2026-11-25T07:46:34.614280+00:00
+426194473de6b9b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Confederate general in the American Civil War?
+A. George B. McClellan
+B. George A. Custer
+C. Ulysses S. Grant
+D. Robert E. Lee
+Answer:","[""George B. McClellan"", ""George A. Custer"", ""Ulysses S. Grant"", ""Robert E. Lee""]",http,0.0,16,none,"{""id"":""chatcmpl-sx9hs8vgeh49wtyyu6eyx"",""object"":""chat.completion"",""created"":1795592794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8431,,MarianeAzar,20261125_084135,2026-11-25T07:46:35.457611+00:00
+426194473de6b9b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Confederate general in the American Civil War?
+A. George B. McClellan
+B. George A. Custer
+C. Ulysses S. Grant
+D. Robert E. Lee
+Answer:","[""George B. McClellan"", ""George A. Custer"", ""Ulysses S. Grant"", ""Robert E. Lee""]",http,0.0,16,none,"{""id"":""chatcmpl-v0m9szk6y1pcmqifttau"",""object"":""chat.completion"",""created"":1795592794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261125_084135,2026-11-25T07:46:36.332969+00:00
+c63a4a3efc50ecc8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Despite being seperated into multiple countries, The Scandinavian countries are unified by all having the same monarch.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-z1hj2cncetidcpoacizaaa"",""object"":""chat.completion"",""created"":1795592795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261125_084135,2026-11-25T07:46:37.179456+00:00
+c63a4a3efc50ecc8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Despite being seperated into multiple countries, The Scandinavian countries are unified by all having the same monarch.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wza9jrb4yrvsl5jkn7nxi"",""object"":""chat.completion"",""created"":1795592796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8403,,MarianeAzar,20261125_084135,2026-11-25T07:46:38.019961+00:00

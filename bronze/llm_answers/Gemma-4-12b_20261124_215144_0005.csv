@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+32ec85ce05db1e6b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which classic horror character killed Elizabeth Lavenza?
+A. Frankenstein's Monster
+B. Werewolf
+C. Count Dracula
+D. The Creature from the Black Lagoon
+Answer:","[""Frankenstein's Monster"", ""Werewolf"", ""Count Dracula"", ""The Creature from the Black Lagoon""]",http,0.0,16,none,"{""id"":""chatcmpl-a6tsmsehgzntcsydujgwd"",""object"":""chat.completion"",""created"":1795553647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4055,,MarianeAzar,20261124_215144,2026-11-24T20:54:09.356270+00:00
+24c73c41ce34552c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the 45th President of the United States?
+A. Bill Clinton
+B. George Bush
+C. Donald Trump
+D. Barack Obama
+Answer:","[""Bill Clinton"", ""George Bush"", ""Donald Trump"", ""Barack Obama""]",http,0.0,16,none,"{""id"":""chatcmpl-5qtsv3obqg7m2qlrrrhjol"",""object"":""chat.completion"",""created"":1795553649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9552,,MarianeAzar,20261124_215144,2026-11-24T20:54:10.311713+00:00
+24c73c41ce34552c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the 45th President of the United States?
+A. Bill Clinton
+B. George Bush
+C. Donald Trump
+D. Barack Obama
+Answer:","[""Bill Clinton"", ""George Bush"", ""Donald Trump"", ""Barack Obama""]",http,0.0,16,none,"{""id"":""chatcmpl-5nhvz8ycmzgwop0oic2xc"",""object"":""chat.completion"",""created"":1795553650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0105,,MarianeAzar,20261124_215144,2026-11-24T20:54:11.322461+00:00
+eea42734c42e8b06,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which U.S. state is Far Cry 5's fictional setting 'Hope County' located?
+A. North Carolina
+B. Idaho
+C. Montana
+D. Wyoming
+Answer:","[""North Carolina"", ""Idaho"", ""Montana"", ""Wyoming""]",http,0.0,16,none,"{""id"":""chatcmpl-v5i8t453q9rkqexi0nrc"",""object"":""chat.completion"",""created"":1795553651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4295,,MarianeAzar,20261124_215144,2026-11-24T20:54:12.752065+00:00
+eea42734c42e8b06,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which U.S. state is Far Cry 5's fictional setting 'Hope County' located?
+A. North Carolina
+B. Idaho
+C. Montana
+D. Wyoming
+Answer:","[""North Carolina"", ""Idaho"", ""Montana"", ""Wyoming""]",http,0.0,16,none,"{""id"":""chatcmpl-a177nfidlqlkjm490w8i"",""object"":""chat.completion"",""created"":1795553652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0958,,MarianeAzar,20261124_215144,2026-11-24T20:54:13.848205+00:00
+80a6b20fced3eb54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the last boss in Night In The Woods' Demontower minigame?
+A. The Blood Thief
+B. Mega Hairball
+C. King Skellie
+D. Krampus
+Answer:","[""The Blood Thief"", ""Mega Hairball"", ""King Skellie"", ""Krampus""]",http,0.0,16,none,"{""id"":""chatcmpl-5fzh9sa010mi7iz926xwef"",""object"":""chat.completion"",""created"":1795553653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9476,,MarianeAzar,20261124_215144,2026-11-24T20:54:14.796447+00:00
+80a6b20fced3eb54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the last boss in Night In The Woods' Demontower minigame?
+A. The Blood Thief
+B. Mega Hairball
+C. King Skellie
+D. Krampus
+Answer:","[""The Blood Thief"", ""Mega Hairball"", ""King Skellie"", ""Krampus""]",http,0.0,16,none,"{""id"":""chatcmpl-jqlm4zys28lgwfafybnvxb"",""object"":""chat.completion"",""created"":1795553654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9622,,MarianeAzar,20261124_215144,2026-11-24T20:54:15.758860+00:00
+3d6449c34a00e1bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?
+A. Swiss Air
+B. TWA
+C. Air France
+D. British Airways
+Answer:","[""Swiss Air"", ""TWA"", ""Air France"", ""British Airways""]",http,0.0,16,none,"{""id"":""chatcmpl-dau0oc2g21whgw9xlsnzk7"",""object"":""chat.completion"",""created"":1795553655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4332,,MarianeAzar,20261124_215144,2026-11-24T20:54:17.192325+00:00
+3d6449c34a00e1bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What airline was the owner of the plane that crashed off the coast of Nova Scotia in 1998?
+A. Swiss Air
+B. TWA
+C. Air France
+D. British Airways
+Answer:","[""Swiss Air"", ""TWA"", ""Air France"", ""British Airways""]",http,0.0,16,none,"{""id"":""chatcmpl-ebdtluu8keuz0gp8cb5bmf"",""object"":""chat.completion"",""created"":1795553657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1752,,MarianeAzar,20261124_215144,2026-11-24T20:54:18.367791+00:00
+fae782f88daf25a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, what does the Wall of Flesh not drop upon defeat?
+A. Laser Rifle
+B. Breaker Blade
+C. Pwnhammer
+D. Picksaw
+Answer:","[""Laser Rifle"", ""Breaker Blade"", ""Pwnhammer"", ""Picksaw""]",http,0.0,16,none,"{""id"":""chatcmpl-l4yycaw86kkjrcrdta0jn"",""object"":""chat.completion"",""created"":1795553658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9417,,MarianeAzar,20261124_215144,2026-11-24T20:54:19.309706+00:00
+fae782f88daf25a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Terraria, what does the Wall of Flesh not drop upon defeat?
+A. Laser Rifle
+B. Breaker Blade
+C. Pwnhammer
+D. Picksaw
+Answer:","[""Laser Rifle"", ""Breaker Blade"", ""Pwnhammer"", ""Picksaw""]",http,0.0,16,none,"{""id"":""chatcmpl-4u3nj79kripmg4rpigo7ro"",""object"":""chat.completion"",""created"":1795553659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9541,,MarianeAzar,20261124_215144,2026-11-24T20:54:20.263943+00:00
+0a604abbaee9026d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the first Monster Hunter game get released?
+A. 2004
+B. 2002
+C. 2005
+D. 2006
+Answer:","[""2004"", ""2002"", ""2005"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-voyuuvxnvcglzyec42nozd"",""object"":""chat.completion"",""created"":1795553660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4834,,MarianeAzar,20261124_215144,2026-11-24T20:54:21.747575+00:00
+0a604abbaee9026d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the first Monster Hunter game get released?
+A. 2004
+B. 2002
+C. 2005
+D. 2006
+Answer:","[""2004"", ""2002"", ""2005"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-oyt7s0hmiohag24586eej"",""object"":""chat.completion"",""created"":1795553661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9548,,MarianeAzar,20261124_215144,2026-11-24T20:54:22.702656+00:00
+299f1a19fd3bf3d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these games wasn't released in 2016?
+A. Tom Clancy's The Division
+B. Hitman
+C. Metal Gear Solid V
+D. Killing Floor 2
+Answer:","[""Tom Clancy's The Division"", ""Hitman"", ""Metal Gear Solid V"", ""Killing Floor 2""]",http,0.0,16,none,"{""id"":""chatcmpl-ndg5nkw9cvpfe7jfih5l"",""object"":""chat.completion"",""created"":1795553662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2225,,MarianeAzar,20261124_215144,2026-11-24T20:54:23.925478+00:00
+299f1a19fd3bf3d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these games wasn't released in 2016?
+A. Tom Clancy's The Division
+B. Hitman
+C. Metal Gear Solid V
+D. Killing Floor 2
+Answer:","[""Tom Clancy's The Division"", ""Hitman"", ""Metal Gear Solid V"", ""Killing Floor 2""]",http,0.0,16,none,"{""id"":""chatcmpl-o4qs7sylrzoq7s9vk7jf"",""object"":""chat.completion"",""created"":1795553663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2022,,MarianeAzar,20261124_215144,2026-11-24T20:54:25.127990+00:00
+303a11ec1961463c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""The Sims"", how many Simoleons does each family start with?
+A. 20,000
+B. 10,000
+C. 25,000
+D. 15,000
+Answer:","[""20,000"", ""10,000"", ""25,000"", ""15,000""]",http,0.0,16,none,"{""id"":""chatcmpl-2oasdra28uaiv3ybixvyv"",""object"":""chat.completion"",""created"":1795553665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1239,,MarianeAzar,20261124_215144,2026-11-24T20:54:26.252720+00:00
+303a11ec1961463c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""The Sims"", how many Simoleons does each family start with?
+A. 20,000
+B. 10,000
+C. 25,000
+D. 15,000
+Answer:","[""20,000"", ""10,000"", ""25,000"", ""15,000""]",http,0.0,16,none,"{""id"":""chatcmpl-hk92kyu738rt7y61q68n"",""object"":""chat.completion"",""created"":1795553666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3744,,MarianeAzar,20261124_215144,2026-11-24T20:54:27.627378+00:00
+e4af8f6136ac9bd6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pluto is a planet.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pxbteueahvkz0gu0s5am1e"",""object"":""chat.completion"",""created"":1795553667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":44,""completion_tokens"":2,""total_tokens"":46,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9837,,MarianeAzar,20261124_215144,2026-11-24T20:54:28.611269+00:00
+e4af8f6136ac9bd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pluto is a planet.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c34afxqzosvbk4yvop2cj8"",""object"":""chat.completion"",""created"":1795553668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9007,,MarianeAzar,20261124_215144,2026-11-24T20:54:29.512122+00:00
+06493155f4167df8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?
+A. Niels Henrik David Bohr
+B. Ernest Rutherford
+C. Archimedes
+D. Joseph John Thomson
+Answer:","[""Niels Henrik David Bohr"", ""Ernest Rutherford"", ""Archimedes"", ""Joseph John Thomson""]",http,0.0,16,none,"{""id"":""chatcmpl-sg28evvxfnemhe3garlr"",""object"":""chat.completion"",""created"":1795553669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4069,,MarianeAzar,20261124_215144,2026-11-24T20:54:30.919280+00:00
+06493155f4167df8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these scientists conducted the Gold Foil Experiment which concluded that atoms are mostly made of empty space?
+A. Niels Henrik David Bohr
+B. Ernest Rutherford
+C. Archimedes
+D. Joseph John Thomson
+Answer:","[""Niels Henrik David Bohr"", ""Ernest Rutherford"", ""Archimedes"", ""Joseph John Thomson""]",http,0.0,16,none,"{""id"":""chatcmpl-xoj4al2nvxyin1js9fe2"",""object"":""chat.completion"",""created"":1795553670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0521,,MarianeAzar,20261124_215144,2026-11-24T20:54:31.971702+00:00
+d8a8f6ed9f32d5b7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the highest belt you can get in Taekwondo?
+A. Black
+B. White
+C. Green
+D. Red
+Answer:","[""Black"", ""White"", ""Green"", ""Red""]",http,0.0,16,none,"{""id"":""chatcmpl-x6lfd16xdg0526mcy7x1lt"",""object"":""chat.completion"",""created"":1795553671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9485,,MarianeAzar,20261124_215144,2026-11-24T20:54:32.920444+00:00
+d8a8f6ed9f32d5b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the highest belt you can get in Taekwondo?
+A. Black
+B. White
+C. Green
+D. Red
+Answer:","[""Black"", ""White"", ""Green"", ""Red""]",http,0.0,16,none,"{""id"":""chatcmpl-0f0n00auo96909z9uv8qubp"",""object"":""chat.completion"",""created"":1795553672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4278,,MarianeAzar,20261124_215144,2026-11-24T20:54:34.348554+00:00
+ecf1e3eaa5f7a214,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character was played by Dustin Diamond in the sitcom 'Saved by the Bell'?
+A. Screech
+B. Zack
+C. Mr. Belding
+D. A.C. Slater
+Answer:","[""Screech"", ""Zack"", ""Mr. Belding"", ""A.C. Slater""]",http,0.0,16,none,"{""id"":""chatcmpl-rfxb88bc17miquownj6a5"",""object"":""chat.completion"",""created"":1795553674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0676,,MarianeAzar,20261124_215144,2026-11-24T20:54:35.416442+00:00
+ecf1e3eaa5f7a214,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which character was played by Dustin Diamond in the sitcom 'Saved by the Bell'?
+A. Screech
+B. Zack
+C. Mr. Belding
+D. A.C. Slater
+Answer:","[""Screech"", ""Zack"", ""Mr. Belding"", ""A.C. Slater""]",http,0.0,16,none,"{""id"":""chatcmpl-3isvfacaxakhdi1wjt3d"",""object"":""chat.completion"",""created"":1795553675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.974,,MarianeAzar,20261124_215144,2026-11-24T20:54:36.390633+00:00

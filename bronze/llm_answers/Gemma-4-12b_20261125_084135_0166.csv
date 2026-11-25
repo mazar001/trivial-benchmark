@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+3f69670a2ac5f4f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the national hero of the Philippines who inspired and lead the Philippine Revolution against colonial Spain?
+A. Benito Juárez
+B. Simón Bolívar
+C. José Rizal
+D. José de San Martín
+Answer:","[""Benito Juárez"", ""Simón Bolívar"", ""José Rizal"", ""José de San Martín""]",http,0.0,16,none,"{""id"":""chatcmpl-7bhyl8tju6l9685m2exsg"",""object"":""chat.completion"",""created"":1795596465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T08:47:47.345499+00:00
+3f69670a2ac5f4f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the national hero of the Philippines who inspired and lead the Philippine Revolution against colonial Spain?
+A. Benito Juárez
+B. Simón Bolívar
+C. José Rizal
+D. José de San Martín
+Answer:","[""Benito Juárez"", ""Simón Bolívar"", ""José Rizal"", ""José de San Martín""]",http,0.0,16,none,"{""id"":""chatcmpl-zxqsz4bwui65ix29e08l5"",""object"":""chat.completion"",""created"":1795596466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8843,,MarianeAzar,20261125_084135,2026-11-25T08:47:48.230044+00:00
+229cbecceea8dfc3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Fourth Crusade lasted from 1095-1099 AD.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b6nri1ty1nf9m2r3exziv"",""object"":""chat.completion"",""created"":1795596467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8085,,MarianeAzar,20261125_084135,2026-11-25T08:47:49.038955+00:00
+229cbecceea8dfc3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Fourth Crusade lasted from 1095-1099 AD.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fwmnq337o0hfrluqp1dhq5"",""object"":""chat.completion"",""created"":1795596468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8453,,MarianeAzar,20261125_084135,2026-11-25T08:47:49.884373+00:00
+858c24a6ffb83959,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Western Electric Model 500 telephone uses tone dialing to dial phone numbers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dpexwwqvxpwlugwb9410hi"",""object"":""chat.completion"",""created"":1795596469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8216,,MarianeAzar,20261125_084135,2026-11-25T08:47:50.706252+00:00
+858c24a6ffb83959,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Western Electric Model 500 telephone uses tone dialing to dial phone numbers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bpsagvj1739msq02shid"",""object"":""chat.completion"",""created"":1795596470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T08:47:51.561428+00:00
+93d1f82a0c19caa4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the left side of a boat?
+A. Bow
+B. Starboard
+C. Port
+D. Stern
+Answer:","[""Bow"", ""Starboard"", ""Port"", ""Stern""]",http,0.0,16,none,"{""id"":""chatcmpl-m28jbtak9wcpdsb5nhq41"",""object"":""chat.completion"",""created"":1795596470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:47:52.414199+00:00
+93d1f82a0c19caa4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the left side of a boat?
+A. Bow
+B. Starboard
+C. Port
+D. Stern
+Answer:","[""Bow"", ""Starboard"", ""Port"", ""Stern""]",http,0.0,16,none,"{""id"":""chatcmpl-yo49l1e3agc3w6iz6bm55r"",""object"":""chat.completion"",""created"":1795596471,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T08:47:53.270118+00:00
+198cc1e1d3aa332a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs is not by Tatsuro Yamashita?
+A. Merry-Go Round
+B. Lucky Lady Feel So Good
+C. Let's Dance Baby
+D. Love Talkin'
+Answer:","[""Merry-Go Round"", ""Lucky Lady Feel So Good"", ""Let's Dance Baby"", ""Love Talkin'""]",http,0.0,16,none,"{""id"":""chatcmpl-bddtk166k0clisehu1g8i"",""object"":""chat.completion"",""created"":1795596472,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:47:54.128287+00:00
+198cc1e1d3aa332a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs is not by Tatsuro Yamashita?
+A. Merry-Go Round
+B. Lucky Lady Feel So Good
+C. Let's Dance Baby
+D. Love Talkin'
+Answer:","[""Merry-Go Round"", ""Lucky Lady Feel So Good"", ""Let's Dance Baby"", ""Love Talkin'""]",http,0.0,16,none,"{""id"":""chatcmpl-5s3bjsralhsxcoexrym1e8"",""object"":""chat.completion"",""created"":1795596473,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8806,,MarianeAzar,20261125_084135,2026-11-25T08:47:55.009178+00:00
+48c6d00b1985f824,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Hera is god of...
+A. Agriculture
+B. Sea
+C. Marriage
+D. War
+Answer:","[""Agriculture"", ""Sea"", ""Marriage"", ""War""]",http,0.0,16,none,"{""id"":""chatcmpl-ix3mmwwsatnknl040t484"",""object"":""chat.completion"",""created"":1795596474,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8525,,MarianeAzar,20261125_084135,2026-11-25T08:47:55.862444+00:00
+48c6d00b1985f824,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Hera is god of...
+A. Agriculture
+B. Sea
+C. Marriage
+D. War
+Answer:","[""Agriculture"", ""Sea"", ""Marriage"", ""War""]",http,0.0,16,none,"{""id"":""chatcmpl-jo6i3bpvyy8iybihofv9pk"",""object"":""chat.completion"",""created"":1795596475,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8772,,MarianeAzar,20261125_084135,2026-11-25T08:47:56.739937+00:00
+a71c61b56d0d7f36,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Wombats are native to which Country?
+A. Palau
+B. Australia
+C. New Zealand
+D. Papua New Guinea
+Answer:","[""Palau"", ""Australia"", ""New Zealand"", ""Papua New Guinea""]",http,0.0,16,none,"{""id"":""chatcmpl-0derm3z8jvnuwe3z0hae0wf"",""object"":""chat.completion"",""created"":1795596476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8393,,MarianeAzar,20261125_084135,2026-11-25T08:47:57.579470+00:00
+a71c61b56d0d7f36,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Wombats are native to which Country?
+A. Palau
+B. Australia
+C. New Zealand
+D. Papua New Guinea
+Answer:","[""Palau"", ""Australia"", ""New Zealand"", ""Papua New Guinea""]",http,0.0,16,none,"{""id"":""chatcmpl-df7yvuswvbr6xi0ep4ib15"",""object"":""chat.completion"",""created"":1795596477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T08:47:58.430426+00:00
+f658e22ca8c5417f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not true about the life of Tiresias?
+A. Hera blinded him after he agreed with Zeus in an argument
+B. Revealed to Oedipus that Oedipus had married his own mother
+C. Sailed with the Argonauts to find the golden fleece
+D. Athena turned him into a woman, and then years later back into a man
+Answer:","[""Hera blinded him after he agreed with Zeus in an argument"", ""Revealed to Oedipus that Oedipus had married his own mother"", ""Sailed with the Argonauts to find the golden fleece"", ""Athena turned him into a woman, and then years later back into a man""]",http,0.0,16,none,"{""id"":""chatcmpl-oojxz4uu1l5251dxin93s"",""object"":""chat.completion"",""created"":1795596477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8971,,MarianeAzar,20261125_084135,2026-11-25T08:47:59.327993+00:00
+f658e22ca8c5417f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not true about the life of Tiresias?
+A. Hera blinded him after he agreed with Zeus in an argument
+B. Revealed to Oedipus that Oedipus had married his own mother
+C. Sailed with the Argonauts to find the golden fleece
+D. Athena turned him into a woman, and then years later back into a man
+Answer:","[""Hera blinded him after he agreed with Zeus in an argument"", ""Revealed to Oedipus that Oedipus had married his own mother"", ""Sailed with the Argonauts to find the golden fleece"", ""Athena turned him into a woman, and then years later back into a man""]",http,0.0,16,none,"{""id"":""chatcmpl-xqmm4u2a7eou0y8vktm7fn"",""object"":""chat.completion"",""created"":1795596478,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":138,""completion_tokens"":2,""total_tokens"":140,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9596,,MarianeAzar,20261125_084135,2026-11-25T08:48:00.287886+00:00
+069a05a5d5e4a773,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pol Pot was the former dictator of which country?
+A. North Korea
+B. Cambodia
+C. Laos
+D. Vietnam
+Answer:","[""North Korea"", ""Cambodia"", ""Laos"", ""Vietnam""]",http,0.0,16,none,"{""id"":""chatcmpl-oz1svjs1ewa9xqs6uixxt"",""object"":""chat.completion"",""created"":1795596479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.907,,MarianeAzar,20261125_084135,2026-11-25T08:48:01.195140+00:00
+069a05a5d5e4a773,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pol Pot was the former dictator of which country?
+A. North Korea
+B. Cambodia
+C. Laos
+D. Vietnam
+Answer:","[""North Korea"", ""Cambodia"", ""Laos"", ""Vietnam""]",http,0.0,16,none,"{""id"":""chatcmpl-996zdti6ykcp858t4d19x"",""object"":""chat.completion"",""created"":1795596480,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T08:48:02.041549+00:00
+7d15c96aeaed254a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: It is automatically considered entrapment in the United States if the police sell you illegal substances without revealing themselves.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4u736whl0ysx96y9otx1ap"",""object"":""chat.completion"",""created"":1795596481,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8105,,MarianeAzar,20261125_084135,2026-11-25T08:48:02.852311+00:00
+7d15c96aeaed254a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: It is automatically considered entrapment in the United States if the police sell you illegal substances without revealing themselves.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c7rlje71cgppq0rjjm3yg"",""object"":""chat.completion"",""created"":1795596482,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8339,,MarianeAzar,20261125_084135,2026-11-25T08:48:03.686406+00:00
+b21bc6b2ca52ee61,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Hundred Years' War was fought for more than a hundred years.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ipz11lpnulmr1dq4pqrs9"",""object"":""chat.completion"",""created"":1795596483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7936,,MarianeAzar,20261125_084135,2026-11-25T08:48:04.481099+00:00
+b21bc6b2ca52ee61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Hundred Years' War was fought for more than a hundred years.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kd8jc1c2snzigbifqvekf"",""object"":""chat.completion"",""created"":1795596483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8344,,MarianeAzar,20261125_084135,2026-11-25T08:48:05.315652+00:00
+48d6e68303e2d84c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the names of the two ""Canon fan trolls"" in ""Homestuck""?
+A. Aikter Frekik and Xagrai Ollomu
+B. Mierfa Durgas and Nektan Whelan
+C. Grekei Ceknux and Riya Camacho
+D. The Wrycrown and Voksea Olkido
+Answer:","[""Aikter Frekik and Xagrai Ollomu"", ""Mierfa Durgas and Nektan Whelan"", ""Grekei Ceknux and Riya Camacho"", ""The Wrycrown and Voksea Olkido""]",http,0.0,16,none,"{""id"":""chatcmpl-l0968f2d68hc55fg1dvsl"",""object"":""chat.completion"",""created"":1795596484,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T08:48:06.215586+00:00
+48d6e68303e2d84c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the names of the two ""Canon fan trolls"" in ""Homestuck""?
+A. Aikter Frekik and Xagrai Ollomu
+B. Mierfa Durgas and Nektan Whelan
+C. Grekei Ceknux and Riya Camacho
+D. The Wrycrown and Voksea Olkido
+Answer:","[""Aikter Frekik and Xagrai Ollomu"", ""Mierfa Durgas and Nektan Whelan"", ""Grekei Ceknux and Riya Camacho"", ""The Wrycrown and Voksea Olkido""]",http,0.0,16,none,"{""id"":""chatcmpl-9qvme6k4wx9tweknn4rg8"",""object"":""chat.completion"",""created"":1795596485,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":134,""completion_tokens"":2,""total_tokens"":136,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9647,,MarianeAzar,20261125_084135,2026-11-25T08:48:07.180423+00:00
+a9ea10245f07cee8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Paper Mario: The Thousand Year Door"", what is Hooktail's weakness?
+A. The Hammer
+B. The ""Ice Storm"" Item
+C. Attacks from Koopas
+D. The Sound of Crickets
+Answer:","[""The Hammer"", ""The \""Ice Storm\"" Item"", ""Attacks from Koopas"", ""The Sound of Crickets""]",http,0.0,16,none,"{""id"":""chatcmpl-479kxl1wow9t9xiv8dmj1"",""object"":""chat.completion"",""created"":1795596486,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8972,,MarianeAzar,20261125_084135,2026-11-25T08:48:08.077793+00:00

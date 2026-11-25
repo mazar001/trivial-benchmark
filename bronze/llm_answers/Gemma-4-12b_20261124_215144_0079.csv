@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+186f90261dca6ae7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what Harry Potter book was a Horcrux first encountered?
+A. The Deathly Hallows
+B. The Chamber of Secrets
+C. The Half-Blood Prince
+D. The Goblet of Fire
+Answer:","[""The Deathly Hallows"", ""The Chamber of Secrets"", ""The Half-Blood Prince"", ""The Goblet of Fire""]",http,0.0,16,none,"{""id"":""chatcmpl-auquner58w2qesbg8ubhc"",""object"":""chat.completion"",""created"":1795560638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261124_215144,2026-11-24T22:50:39.826285+00:00
+cda500623acf6b54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first ""Star Wars"" film by release order?
+A. The Force Awakens
+B. Revenge of the Sith
+C. A New Hope
+D. The Phantom Menace
+Answer:","[""The Force Awakens"", ""Revenge of the Sith"", ""A New Hope"", ""The Phantom Menace""]",http,0.0,16,none,"{""id"":""chatcmpl-6fqh8375935sghxxgxzgqg"",""object"":""chat.completion"",""created"":1795560639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261124_215144,2026-11-24T22:50:40.693862+00:00
+cda500623acf6b54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the first ""Star Wars"" film by release order?
+A. The Force Awakens
+B. Revenge of the Sith
+C. A New Hope
+D. The Phantom Menace
+Answer:","[""The Force Awakens"", ""Revenge of the Sith"", ""A New Hope"", ""The Phantom Menace""]",http,0.0,16,none,"{""id"":""chatcmpl-i82mha6j6s6l6yshrju8q"",""object"":""chat.completion"",""created"":1795560640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261124_215144,2026-11-24T22:50:41.576764+00:00
+700b667fc65abbd1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Toaru Kagaku no Railgun"" anime, espers can only reach a maximum of level 6 in their abilities.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xap70y6xgfg6hfcl941e8k"",""object"":""chat.completion"",""created"":1795560641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261124_215144,2026-11-24T22:50:42.428059+00:00
+700b667fc65abbd1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Toaru Kagaku no Railgun"" anime, espers can only reach a maximum of level 6 in their abilities.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bv3u8c1n2sg2keqcwkerrn"",""object"":""chat.completion"",""created"":1795560642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8444,,MarianeAzar,20261124_215144,2026-11-24T22:50:43.272652+00:00
+ce048b3f6303b5b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Nazi General was known as the ""Desert Fox""?
+A. Wilhelm Keitel
+B. Gerd von Rundstadt
+C. Erwin Rommel
+D. Heinz Guderian
+Answer:","[""Wilhelm Keitel"", ""Gerd von Rundstadt"", ""Erwin Rommel"", ""Heinz Guderian""]",http,0.0,16,none,"{""id"":""chatcmpl-tjmhg1uvhsev5gkuldpfk"",""object"":""chat.completion"",""created"":1795560643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261124_215144,2026-11-24T22:50:44.128908+00:00
+ce048b3f6303b5b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Nazi General was known as the ""Desert Fox""?
+A. Wilhelm Keitel
+B. Gerd von Rundstadt
+C. Erwin Rommel
+D. Heinz Guderian
+Answer:","[""Wilhelm Keitel"", ""Gerd von Rundstadt"", ""Erwin Rommel"", ""Heinz Guderian""]",http,0.0,16,none,"{""id"":""chatcmpl-tlxre6825lmemjaodrdzr"",""object"":""chat.completion"",""created"":1795560644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8858,,MarianeAzar,20261124_215144,2026-11-24T22:50:45.014819+00:00
+f88139bcda99b37d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?
+A. Physics
+B. Economics
+C. Peace
+D. Physiology/Medicine
+Answer:","[""Physics"", ""Economics"", ""Peace"", ""Physiology/Medicine""]",http,0.0,16,none,"{""id"":""chatcmpl-v752n0rx8ruxi6k871hh9"",""object"":""chat.completion"",""created"":1795560644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261124_215144,2026-11-24T22:50:45.875793+00:00
+f88139bcda99b37d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?
+A. Physics
+B. Economics
+C. Peace
+D. Physiology/Medicine
+Answer:","[""Physics"", ""Economics"", ""Peace"", ""Physiology/Medicine""]",http,0.0,16,none,"{""id"":""chatcmpl-gsg4861tjjo8qt46wbszn"",""object"":""chat.completion"",""created"":1795560645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.922,,MarianeAzar,20261124_215144,2026-11-24T22:50:46.797954+00:00
+fa00b4c0d5c72da0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the British pop group ""The Spice Girls"" was known as Ginger Spice?
+A. Geri Halliwell
+B. Melanie Brown
+C. Emma Bunton
+D. Victoria Beckham
+Answer:","[""Geri Halliwell"", ""Melanie Brown"", ""Emma Bunton"", ""Victoria Beckham""]",http,0.0,16,none,"{""id"":""chatcmpl-nn8o683d35cnduuhqiapc8"",""object"":""chat.completion"",""created"":1795560646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261124_215144,2026-11-24T22:50:47.678328+00:00
+fa00b4c0d5c72da0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of the British pop group ""The Spice Girls"" was known as Ginger Spice?
+A. Geri Halliwell
+B. Melanie Brown
+C. Emma Bunton
+D. Victoria Beckham
+Answer:","[""Geri Halliwell"", ""Melanie Brown"", ""Emma Bunton"", ""Victoria Beckham""]",http,0.0,16,none,"{""id"":""chatcmpl-5l4df19d12qoty359db85h"",""object"":""chat.completion"",""created"":1795560647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261124_215144,2026-11-24T22:50:48.560288+00:00
+faf6971ad99a3bf7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What English word means to ""think deeply""?
+A. Confiscate
+B. Constipate
+C. Condensate
+D. Contemplate
+Answer:","[""Confiscate"", ""Constipate"", ""Condensate"", ""Contemplate""]",http,0.0,16,none,"{""id"":""chatcmpl-z1rn1pxyvxaoh4fxzjb3t"",""object"":""chat.completion"",""created"":1795560648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261124_215144,2026-11-24T22:50:49.424128+00:00
+faf6971ad99a3bf7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What English word means to ""think deeply""?
+A. Confiscate
+B. Constipate
+C. Condensate
+D. Contemplate
+Answer:","[""Confiscate"", ""Constipate"", ""Condensate"", ""Contemplate""]",http,0.0,16,none,"{""id"":""chatcmpl-iu42zd1jdypgs5lzfgoggm"",""object"":""chat.completion"",""created"":1795560649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261124_215144,2026-11-24T22:50:50.277067+00:00
+72176bd7d874d17d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is another name for the ""Poecilotheria Metallica Tarantula""?
+A. Woebegone
+B. Hopper
+C. Gooty
+D. Silver Stripe
+Answer:","[""Woebegone"", ""Hopper"", ""Gooty"", ""Silver Stripe""]",http,0.0,16,none,"{""id"":""chatcmpl-xxtxzm5zg5qsfa77zigmy"",""object"":""chat.completion"",""created"":1795560650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261124_215144,2026-11-24T22:50:51.142163+00:00
+72176bd7d874d17d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is another name for the ""Poecilotheria Metallica Tarantula""?
+A. Woebegone
+B. Hopper
+C. Gooty
+D. Silver Stripe
+Answer:","[""Woebegone"", ""Hopper"", ""Gooty"", ""Silver Stripe""]",http,0.0,16,none,"{""id"":""chatcmpl-lm9vybi7cn9hvucrxlt2l"",""object"":""chat.completion"",""created"":1795560651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8876,,MarianeAzar,20261124_215144,2026-11-24T22:50:52.029960+00:00
+693b752e1aa938ca,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Argentina's name comes from the latin name for Silver.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hjxkn6vd9v86m28xnnhg7"",""object"":""chat.completion"",""created"":1795560651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8265,,MarianeAzar,20261124_215144,2026-11-24T22:50:52.857020+00:00
+693b752e1aa938ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Argentina's name comes from the latin name for Silver.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ym3wlyx71va906dyvm4ksi"",""object"":""chat.completion"",""created"":1795560652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8381,,MarianeAzar,20261124_215144,2026-11-24T22:50:53.695308+00:00
+1af1cacd70652da3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the largest of these 4 islands?
+A. Cuba
+B. Borneo
+C. Great Britain
+D. Madagascar
+Answer:","[""Cuba"", ""Borneo"", ""Great Britain"", ""Madagascar""]",http,0.0,16,none,"{""id"":""chatcmpl-zaxbeowko24lx21rmvoll"",""object"":""chat.completion"",""created"":1795560653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261124_215144,2026-11-24T22:50:54.544536+00:00
+1af1cacd70652da3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the largest of these 4 islands?
+A. Cuba
+B. Borneo
+C. Great Britain
+D. Madagascar
+Answer:","[""Cuba"", ""Borneo"", ""Great Britain"", ""Madagascar""]",http,0.0,16,none,"{""id"":""chatcmpl-n47e5opdw5gyxj7vc1monp"",""object"":""chat.completion"",""created"":1795560654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261124_215144,2026-11-24T22:50:55.407465+00:00
+2496fef098b2d9f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor and martial artist starred as Colonel Guile in the 1994 action film adaptation of Street Fighter?
+A. Jean-Claude Van Damme
+B. Chuck Norris
+C. Scott Adkins
+D. Steven Seagal
+Answer:","[""Jean-Claude Van Damme"", ""Chuck Norris"", ""Scott Adkins"", ""Steven Seagal""]",http,0.0,16,none,"{""id"":""chatcmpl-faxwyrrvotkijemdup6thg"",""object"":""chat.completion"",""created"":1795560655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261124_215144,2026-11-24T22:50:56.273689+00:00
+2496fef098b2d9f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor and martial artist starred as Colonel Guile in the 1994 action film adaptation of Street Fighter?
+A. Jean-Claude Van Damme
+B. Chuck Norris
+C. Scott Adkins
+D. Steven Seagal
+Answer:","[""Jean-Claude Van Damme"", ""Chuck Norris"", ""Scott Adkins"", ""Steven Seagal""]",http,0.0,16,none,"{""id"":""chatcmpl-kp50adar4bc82txhi463"",""object"":""chat.completion"",""created"":1795560656,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9055,,MarianeAzar,20261124_215144,2026-11-24T22:50:57.179281+00:00
+aeef80f5bc52bf0f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated ""Hidamari Sketch""?
+A. Shaft
+B. Trigger
+C. Kyoto Animation
+D. Production I.G
+Answer:","[""Shaft"", ""Trigger"", ""Kyoto Animation"", ""Production I.G""]",http,0.0,16,none,"{""id"":""chatcmpl-9kxbae99qbbzpsd253tu1"",""object"":""chat.completion"",""created"":1795560657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8804,,MarianeAzar,20261124_215144,2026-11-24T22:50:58.060048+00:00
+aeef80f5bc52bf0f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated ""Hidamari Sketch""?
+A. Shaft
+B. Trigger
+C. Kyoto Animation
+D. Production I.G
+Answer:","[""Shaft"", ""Trigger"", ""Kyoto Animation"", ""Production I.G""]",http,0.0,16,none,"{""id"":""chatcmpl-byv6le8uadraiqp6zmbie5"",""object"":""chat.completion"",""created"":1795560657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261124_215144,2026-11-24T22:50:58.926165+00:00
+0e6a6e9cc5c939c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Akatsuki's subclass in ""Log Horizon"" is what?
+A. Tracker
+B. Apprentice
+C. Assassin
+D. Scribe
+Answer:","[""Tracker"", ""Apprentice"", ""Assassin"", ""Scribe""]",http,0.0,16,none,"{""id"":""chatcmpl-84kbogsr663aet5w9s5tq"",""object"":""chat.completion"",""created"":1795560658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261124_215144,2026-11-24T22:50:59.785681+00:00
+0e6a6e9cc5c939c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Akatsuki's subclass in ""Log Horizon"" is what?
+A. Tracker
+B. Apprentice
+C. Assassin
+D. Scribe
+Answer:","[""Tracker"", ""Apprentice"", ""Assassin"", ""Scribe""]",http,0.0,16,none,"{""id"":""chatcmpl-rpjxjbfp3gaiolyua6jkb"",""object"":""chat.completion"",""created"":1795560659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261124_215144,2026-11-24T22:51:00.642204+00:00

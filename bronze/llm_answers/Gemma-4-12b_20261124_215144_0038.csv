@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b42996f030ea0f9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Jewelpet Sunshine"", what is the song that plays when Kanon and her friends bust out of prison?
+A. I Don't Want to Miss a Thing
+B. Born to be Wild
+C. Ruby Ring
+D. Eye Of The Tiger
+Answer:","[""I Don't Want to Miss a Thing"", ""Born to be Wild"", ""Ruby Ring"", ""Eye Of The Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-uneir37zupqh060vwqf4g9"",""object"":""chat.completion"",""created"":1795554460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261124_215144,2026-11-24T21:07:41.372025+00:00
+b42996f030ea0f9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Jewelpet Sunshine"", what is the song that plays when Kanon and her friends bust out of prison?
+A. I Don't Want to Miss a Thing
+B. Born to be Wild
+C. Ruby Ring
+D. Eye Of The Tiger
+Answer:","[""I Don't Want to Miss a Thing"", ""Born to be Wild"", ""Ruby Ring"", ""Eye Of The Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-zeh07bgpqa3tji61jxh"",""object"":""chat.completion"",""created"":1795554461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9067,,MarianeAzar,20261124_215144,2026-11-24T21:07:42.278966+00:00
+1882e7f89cd274dc,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Star Trek"", Klingons are aliens.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dmn0ojt4ptk1qmpfxlddle"",""object"":""chat.completion"",""created"":1795554462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261124_215144,2026-11-24T21:07:43.140354+00:00
+1882e7f89cd274dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Star Trek"", Klingons are aliens.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6qf7ep58x0dt5khyxt47f"",""object"":""chat.completion"",""created"":1795554463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8153,,MarianeAzar,20261124_215144,2026-11-24T21:07:43.955829+00:00
+23f7286cb0bb30a5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the Gluteus Maximus muscle located?
+A. Head
+B. Arm
+C. Butt
+D. Torso
+Answer:","[""Head"", ""Arm"", ""Butt"", ""Torso""]",http,0.0,16,none,"{""id"":""chatcmpl-3s3tqusrlz58sfbpmzduql"",""object"":""chat.completion"",""created"":1795554463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261124_215144,2026-11-24T21:07:44.807286+00:00
+23f7286cb0bb30a5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the Gluteus Maximus muscle located?
+A. Head
+B. Arm
+C. Butt
+D. Torso
+Answer:","[""Head"", ""Arm"", ""Butt"", ""Torso""]",http,0.0,16,none,"{""id"":""chatcmpl-xi8mjw8357czfxypu8mf9f"",""object"":""chat.completion"",""created"":1795554464,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8657,,MarianeAzar,20261124_215144,2026-11-24T21:07:45.673270+00:00
+2a4999d9b27efb7f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what sport does Fanny Chmelar compete for Germany?
+A. Swimming
+B. Showjumping
+C. Gymnastics
+D. Skiing
+Answer:","[""Swimming"", ""Showjumping"", ""Gymnastics"", ""Skiing""]",http,0.0,16,none,"{""id"":""chatcmpl-k197logxwcsmd390bgqpq"",""object"":""chat.completion"",""created"":1795554465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8448,,MarianeAzar,20261124_215144,2026-11-24T21:07:46.518323+00:00
+2a4999d9b27efb7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what sport does Fanny Chmelar compete for Germany?
+A. Swimming
+B. Showjumping
+C. Gymnastics
+D. Skiing
+Answer:","[""Swimming"", ""Showjumping"", ""Gymnastics"", ""Skiing""]",http,0.0,16,none,"{""id"":""chatcmpl-raj2cu4olwy2149eonao"",""object"":""chat.completion"",""created"":1795554466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261124_215144,2026-11-24T21:07:47.370372+00:00
+00fcbff484c1300e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a real element?
+A. Vitrainium
+B. Lutetium
+C. Praseodymium
+D. Hassium
+Answer:","[""Vitrainium"", ""Lutetium"", ""Praseodymium"", ""Hassium""]",http,0.0,16,none,"{""id"":""chatcmpl-gk6iwr0xo1knptphws2cfj"",""object"":""chat.completion"",""created"":1795554467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261124_215144,2026-11-24T21:07:48.216944+00:00
+00fcbff484c1300e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a real element?
+A. Vitrainium
+B. Lutetium
+C. Praseodymium
+D. Hassium
+Answer:","[""Vitrainium"", ""Lutetium"", ""Praseodymium"", ""Hassium""]",http,0.0,16,none,"{""id"":""chatcmpl-t93650g03blzqegh3la2f"",""object"":""chat.completion"",""created"":1795554468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261124_215144,2026-11-24T21:07:49.068164+00:00
+7f7976d0f50911d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first ever actor to play ""The Doctor"" on ""Doctor Who""?
+A. William Hartnell
+B. Tom Baker
+C. David Tennant
+D. Peter Capaldi
+Answer:","[""William Hartnell"", ""Tom Baker"", ""David Tennant"", ""Peter Capaldi""]",http,0.0,16,none,"{""id"":""chatcmpl-h817sbv1d969pkuxx6nj4"",""object"":""chat.completion"",""created"":1795554469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.899,,MarianeAzar,20261124_215144,2026-11-24T21:07:49.967747+00:00
+7f7976d0f50911d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first ever actor to play ""The Doctor"" on ""Doctor Who""?
+A. William Hartnell
+B. Tom Baker
+C. David Tennant
+D. Peter Capaldi
+Answer:","[""William Hartnell"", ""Tom Baker"", ""David Tennant"", ""Peter Capaldi""]",http,0.0,16,none,"{""id"":""chatcmpl-xidhc3lbd4ndbcs7j3nqpk"",""object"":""chat.completion"",""created"":1795554469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261124_215144,2026-11-24T21:07:50.826580+00:00
+e53b07687cccafd5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the code name for the Allied invasion of Southern France on August 15th, 1944?
+A. Operation Torch
+B. Operation Overlord
+C. Operation Market Garden
+D. Operation Dragoon
+Answer:","[""Operation Torch"", ""Operation Overlord"", ""Operation Market Garden"", ""Operation Dragoon""]",http,0.0,16,none,"{""id"":""chatcmpl-b0gfwsnzx6syo8nyvqgy0k"",""object"":""chat.completion"",""created"":1795554470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261124_215144,2026-11-24T21:07:51.679715+00:00
+e53b07687cccafd5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the code name for the Allied invasion of Southern France on August 15th, 1944?
+A. Operation Torch
+B. Operation Overlord
+C. Operation Market Garden
+D. Operation Dragoon
+Answer:","[""Operation Torch"", ""Operation Overlord"", ""Operation Market Garden"", ""Operation Dragoon""]",http,0.0,16,none,"{""id"":""chatcmpl-8t522tiar546t0sz2xpl2"",""object"":""chat.completion"",""created"":1795554471,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8943,,MarianeAzar,20261124_215144,2026-11-24T21:07:52.574315+00:00
+460d8d64ad3dd33a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animation studio produced ""Gurren Lagann""?
+A. Kyoto Animation
+B. Pierrot
+C. A-1 Pictures
+D. Gainax
+Answer:","[""Kyoto Animation"", ""Pierrot"", ""A-1 Pictures"", ""Gainax""]",http,0.0,16,none,"{""id"":""chatcmpl-cmiav3a5pptuyfvbu05ho"",""object"":""chat.completion"",""created"":1795554472,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9067,,MarianeAzar,20261124_215144,2026-11-24T21:07:53.481309+00:00
+460d8d64ad3dd33a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animation studio produced ""Gurren Lagann""?
+A. Kyoto Animation
+B. Pierrot
+C. A-1 Pictures
+D. Gainax
+Answer:","[""Kyoto Animation"", ""Pierrot"", ""A-1 Pictures"", ""Gainax""]",http,0.0,16,none,"{""id"":""chatcmpl-5ylj0re36onqng2b4g15k"",""object"":""chat.completion"",""created"":1795554473,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8992,,MarianeAzar,20261124_215144,2026-11-24T21:07:54.380823+00:00
+ef4cbca1440a3d9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's Harry Potter's dad's name?
+A. Hairy Potter Sr.
+B. Frank Potter
+C. James Potter
+D. Joey Potter
+Answer:","[""Hairy Potter Sr."", ""Frank Potter"", ""James Potter"", ""Joey Potter""]",http,0.0,16,none,"{""id"":""chatcmpl-5716xja8yt5rylk1r73wq"",""object"":""chat.completion"",""created"":1795554474,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261124_215144,2026-11-24T21:07:55.236124+00:00
+ef4cbca1440a3d9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's Harry Potter's dad's name?
+A. Hairy Potter Sr.
+B. Frank Potter
+C. James Potter
+D. Joey Potter
+Answer:","[""Hairy Potter Sr."", ""Frank Potter"", ""James Potter"", ""Joey Potter""]",http,0.0,16,none,"{""id"":""chatcmpl-x4fm7zmb91jkqaxfwhjb4"",""object"":""chat.completion"",""created"":1795554475,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261124_215144,2026-11-24T21:07:56.098925+00:00
+46a0de472ba4dc89,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?
+A. Primal Groudon
+B. Lapras
+C. Pachirisu
+D. Garchomp
+Answer:","[""Primal Groudon"", ""Lapras"", ""Pachirisu"", ""Garchomp""]",http,0.0,16,none,"{""id"":""chatcmpl-9om6mnkjoipsisiwx8dde"",""object"":""chat.completion"",""created"":1795554476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261124_215144,2026-11-24T21:07:56.965998+00:00
+46a0de472ba4dc89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2014 Pokemon VGC Finals, which Pokemon was famous for bringing the winner to victory?
+A. Primal Groudon
+B. Lapras
+C. Pachirisu
+D. Garchomp
+Answer:","[""Primal Groudon"", ""Lapras"", ""Pachirisu"", ""Garchomp""]",http,0.0,16,none,"{""id"":""chatcmpl-sz5yh33sx3o38vkuw7qs3d"",""object"":""chat.completion"",""created"":1795554476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8932,,MarianeAzar,20261124_215144,2026-11-24T21:07:57.859518+00:00
+8b70747f6ce5dba9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the male pollen-producing reproductive part of a flower?
+A. Sepal
+B. Pistil
+C. Petal
+D. Stamen
+Answer:","[""Sepal"", ""Pistil"", ""Petal"", ""Stamen""]",http,0.0,16,none,"{""id"":""chatcmpl-bqze70fzdhlibel85vtl6"",""object"":""chat.completion"",""created"":1795554477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261124_215144,2026-11-24T21:07:58.726102+00:00
+8b70747f6ce5dba9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the male pollen-producing reproductive part of a flower?
+A. Sepal
+B. Pistil
+C. Petal
+D. Stamen
+Answer:","[""Sepal"", ""Pistil"", ""Petal"", ""Stamen""]",http,0.0,16,none,"{""id"":""chatcmpl-2ijiwcfko8ifixn7imcy34"",""object"":""chat.completion"",""created"":1795554478,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261124_215144,2026-11-24T21:07:59.582410+00:00
+b21ae49af375a5fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?
+A. 9
+B. 3
+C. 6
+D. 0
+Answer:","[""9"", ""3"", ""6"", ""0""]",http,0.0,16,none,"{""id"":""chatcmpl-onamciaxm41z5kdc7n4ov"",""object"":""chat.completion"",""created"":1795554479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261124_215144,2026-11-24T21:08:00.436673+00:00
+b21ae49af375a5fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In season one of the US Kitchen Nightmares, Gordan Ramsay tried to save 10 different restaurants. How many ended up closing afterwards?
+A. 9
+B. 3
+C. 6
+D. 0
+Answer:","[""9"", ""3"", ""6"", ""0""]",http,0.0,16,none,"{""id"":""chatcmpl-as22mcdl0pmi6ehb7kz0m"",""object"":""chat.completion"",""created"":1795554480,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9032,,MarianeAzar,20261124_215144,2026-11-24T21:08:01.340070+00:00
+bd279337032ea095,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the hip hop group Kanye West was a member of in the late 90s?
+A. The Beat-Busters
+B. The Kickstarters
+C. The Go-Getters
+D. The Jumpers
+Answer:","[""The Beat-Busters"", ""The Kickstarters"", ""The Go-Getters"", ""The Jumpers""]",http,0.0,16,none,"{""id"":""chatcmpl-exwgxvego7athhh5xiqbe"",""object"":""chat.completion"",""created"":1795554481,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8733,,MarianeAzar,20261124_215144,2026-11-24T21:08:02.213561+00:00

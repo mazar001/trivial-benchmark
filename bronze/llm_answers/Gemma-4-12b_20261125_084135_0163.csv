@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a290da3835151418,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A statue of Charles Darwin sits in what London museum?
+A. Tate
+B. British Museum
+C. Science Museum
+D. Natural History Museum
+Answer:","[""Tate"", ""British Museum"", ""Science Museum"", ""Natural History Museum""]",http,0.0,16,none,"{""id"":""chatcmpl-4qwblvv1ndf3e4j3uk9a1n"",""object"":""chat.completion"",""created"":1795596401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:46:42.556308+00:00
+e65bbf78530bd534,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not an Ed Sheeran album?
+A. ÷
+B. X
+C. +
+D. -
+Answer:","[""÷"", ""X"", ""+"", ""-""]",http,0.0,16,none,"{""id"":""chatcmpl-djwn99kkvud0o3v4w2quwp"",""object"":""chat.completion"",""created"":1795596401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8784,,MarianeAzar,20261125_084135,2026-11-25T08:46:43.435052+00:00
+e65bbf78530bd534,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not an Ed Sheeran album?
+A. ÷
+B. X
+C. +
+D. -
+Answer:","[""÷"", ""X"", ""+"", ""-""]",http,0.0,16,none,"{""id"":""chatcmpl-spdwgm5pw3dpdwqzgi82l"",""object"":""chat.completion"",""created"":1795596402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T08:46:44.285909+00:00
+2a1fb9084bc7a2e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the powerhouse of the cell?
+A. Ribosome
+B. Redbull
+C. Mitochondria
+D. Nucleus
+Answer:","[""Ribosome"", ""Redbull"", ""Mitochondria"", ""Nucleus""]",http,0.0,16,none,"{""id"":""chatcmpl-o2ugnq2qjknwqse9fyc1mc"",""object"":""chat.completion"",""created"":1795596403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T08:46:45.140727+00:00
+2a1fb9084bc7a2e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the powerhouse of the cell?
+A. Ribosome
+B. Redbull
+C. Mitochondria
+D. Nucleus
+Answer:","[""Ribosome"", ""Redbull"", ""Mitochondria"", ""Nucleus""]",http,0.0,16,none,"{""id"":""chatcmpl-pyvz5d3e8s9e2azx711shv"",""object"":""chat.completion"",""created"":1795596404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8507,,MarianeAzar,20261125_084135,2026-11-25T08:46:45.991654+00:00
+eb950d50faa1b2a8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which computer hardware device provides an interface for all other connected devices to communicate?
+A. Central Processing Unit
+B. Hard Disk Drive
+C. Motherboard
+D. Random Access Memory
+Answer:","[""Central Processing Unit"", ""Hard Disk Drive"", ""Motherboard"", ""Random Access Memory""]",http,0.0,16,none,"{""id"":""chatcmpl-o2kmsd62mjo77wspspsrmu"",""object"":""chat.completion"",""created"":1795596405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8435,,MarianeAzar,20261125_084135,2026-11-25T08:46:46.835549+00:00
+eb950d50faa1b2a8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which computer hardware device provides an interface for all other connected devices to communicate?
+A. Central Processing Unit
+B. Hard Disk Drive
+C. Motherboard
+D. Random Access Memory
+Answer:","[""Central Processing Unit"", ""Hard Disk Drive"", ""Motherboard"", ""Random Access Memory""]",http,0.0,16,none,"{""id"":""chatcmpl-bu75595ssymr0m8mteo1mq"",""object"":""chat.completion"",""created"":1795596406,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8758,,MarianeAzar,20261125_084135,2026-11-25T08:46:47.711599+00:00
+304e1a916a01c625,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is real haggis made of?
+A. Whole Sheep
+B. Sheep's Liver, Kidneys and Eyes
+C. Sheep's Heart, Liver and Lungs
+D. Sheep's Heart, Kidneys and Lungs
+Answer:","[""Whole Sheep"", ""Sheep's Liver, Kidneys and Eyes"", ""Sheep's Heart, Liver and Lungs"", ""Sheep's Heart, Kidneys and Lungs""]",http,0.0,16,none,"{""id"":""chatcmpl-wi6bd9oaofqvwrc4mtbshn"",""object"":""chat.completion"",""created"":1795596407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:46:48.571701+00:00
+304e1a916a01c625,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is real haggis made of?
+A. Whole Sheep
+B. Sheep's Liver, Kidneys and Eyes
+C. Sheep's Heart, Liver and Lungs
+D. Sheep's Heart, Kidneys and Lungs
+Answer:","[""Whole Sheep"", ""Sheep's Liver, Kidneys and Eyes"", ""Sheep's Heart, Liver and Lungs"", ""Sheep's Heart, Kidneys and Lungs""]",http,0.0,16,none,"{""id"":""chatcmpl-v4v6kk9febkxqzx5qwfnvk"",""object"":""chat.completion"",""created"":1795596407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8964,,MarianeAzar,20261125_084135,2026-11-25T08:46:49.468344+00:00
+82a50d704a605265,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""Dragonball Z"", what is the name of Cell's most powerful attack?
+A. Android Kamehameha
+B. Cell Kamehameha
+C. Super Kamehameha
+D. Solar Kamehameha
+Answer:","[""Android Kamehameha"", ""Cell Kamehameha"", ""Super Kamehameha"", ""Solar Kamehameha""]",http,0.0,16,none,"{""id"":""chatcmpl-9ovp9ejftn490ls9nkgdgr"",""object"":""chat.completion"",""created"":1795596408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8945,,MarianeAzar,20261125_084135,2026-11-25T08:46:50.363143+00:00
+82a50d704a605265,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""Dragonball Z"", what is the name of Cell's most powerful attack?
+A. Android Kamehameha
+B. Cell Kamehameha
+C. Super Kamehameha
+D. Solar Kamehameha
+Answer:","[""Android Kamehameha"", ""Cell Kamehameha"", ""Super Kamehameha"", ""Solar Kamehameha""]",http,0.0,16,none,"{""id"":""chatcmpl-drsjzs7wf2k3iq4kaafjk"",""object"":""chat.completion"",""created"":1795596409,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8875,,MarianeAzar,20261125_084135,2026-11-25T08:46:51.251026+00:00
+bd92ac4a186cb538,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,776 ft (541.3 m)?
+A. One World Trade Center, United States
+B. Jin Mao Tower, China
+C. Taipei 101, Taiwan
+D. Willis Tower, United States
+Answer:","[""One World Trade Center, United States"", ""Jin Mao Tower, China"", ""Taipei 101, Taiwan"", ""Willis Tower, United States""]",http,0.0,16,none,"{""id"":""chatcmpl-pwvz7dsg1m9ijca1krcrc"",""object"":""chat.completion"",""created"":1795596410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8933,,MarianeAzar,20261125_084135,2026-11-25T08:46:52.150083+00:00
+bd92ac4a186cb538,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,776 ft (541.3 m)?
+A. One World Trade Center, United States
+B. Jin Mao Tower, China
+C. Taipei 101, Taiwan
+D. Willis Tower, United States
+Answer:","[""One World Trade Center, United States"", ""Jin Mao Tower, China"", ""Taipei 101, Taiwan"", ""Willis Tower, United States""]",http,0.0,16,none,"{""id"":""chatcmpl-iqtnyianbsrlorhl4bkbpl"",""object"":""chat.completion"",""created"":1795596411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9508,,MarianeAzar,20261125_084135,2026-11-25T08:46:53.101086+00:00
+afb305214fcf003f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Antarctica is the largest desert in the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ximcqnpe7uugob6cl2h8"",""object"":""chat.completion"",""created"":1795596412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8359,,MarianeAzar,20261125_084135,2026-11-25T08:46:53.937216+00:00
+afb305214fcf003f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Antarctica is the largest desert in the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6rygek03mnu6xtp59pm4hq"",""object"":""chat.completion"",""created"":1795596413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8087,,MarianeAzar,20261125_084135,2026-11-25T08:46:54.746131+00:00
+661c444c2e59bc15,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the model number of the common laser rifle found in Fallout 3, Fallout: New Vegas, and Fallout 4?
+A. AER12
+B. AER14
+C. AER10
+D. AER9
+Answer:","[""AER12"", ""AER14"", ""AER10"", ""AER9""]",http,0.0,16,none,"{""id"":""chatcmpl-1nwaymt569xxmsjtfif2f"",""object"":""chat.completion"",""created"":1795596414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:46:55.599750+00:00
+661c444c2e59bc15,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the model number of the common laser rifle found in Fallout 3, Fallout: New Vegas, and Fallout 4?
+A. AER12
+B. AER14
+C. AER10
+D. AER9
+Answer:","[""AER12"", ""AER14"", ""AER10"", ""AER9""]",http,0.0,16,none,"{""id"":""chatcmpl-atkp6mls0osiyet4n8gu8"",""object"":""chat.completion"",""created"":1795596415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261125_084135,2026-11-25T08:46:56.486640+00:00
+7b06d7c6d6bdd38e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first video game in the Batman ""Arkham"" series?
+A. Arkham City
+B. Arkham Knight
+C. Arkham Asylum
+D. Arkham Origins
+Answer:","[""Arkham City"", ""Arkham Knight"", ""Arkham Asylum"", ""Arkham Origins""]",http,0.0,16,none,"{""id"":""chatcmpl-efyxznxrh7fmalvak5azur"",""object"":""chat.completion"",""created"":1795596415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:46:57.345911+00:00
+7b06d7c6d6bdd38e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first video game in the Batman ""Arkham"" series?
+A. Arkham City
+B. Arkham Knight
+C. Arkham Asylum
+D. Arkham Origins
+Answer:","[""Arkham City"", ""Arkham Knight"", ""Arkham Asylum"", ""Arkham Origins""]",http,0.0,16,none,"{""id"":""chatcmpl-6v2xq1711lig1si5aasvh"",""object"":""chat.completion"",""created"":1795596416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:46:58.211616+00:00
+a135a173961c3100,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Pink Floyd's first album?
+A. The Dark Side of the Moon
+B. Wish You Were Here
+C. The Piper at the Gates of Dawn
+D. Meddle
+Answer:","[""The Dark Side of the Moon"", ""Wish You Were Here"", ""The Piper at the Gates of Dawn"", ""Meddle""]",http,0.0,16,none,"{""id"":""chatcmpl-5prw9pzm7lmd3x3mgtvtaa"",""object"":""chat.completion"",""created"":1795596417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261125_084135,2026-11-25T08:46:59.071665+00:00
+a135a173961c3100,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Pink Floyd's first album?
+A. The Dark Side of the Moon
+B. Wish You Were Here
+C. The Piper at the Gates of Dawn
+D. Meddle
+Answer:","[""The Dark Side of the Moon"", ""Wish You Were Here"", ""The Piper at the Gates of Dawn"", ""Meddle""]",http,0.0,16,none,"{""id"":""chatcmpl-qbtb0al2qcbgat89ypu15v"",""object"":""chat.completion"",""created"":1795596418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T08:46:59.941061+00:00
+b609b2a971fef5ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the movies ""Pulp Fiction"", ""Reservoir Dogs"" and ""Django Unchained""?
+A. Steven Spielberg
+B. Martin Scorcese
+C. James Cameron
+D. Quentin Tarantino
+Answer:","[""Steven Spielberg"", ""Martin Scorcese"", ""James Cameron"", ""Quentin Tarantino""]",http,0.0,16,none,"{""id"":""chatcmpl-elfrl1cjnzd4q9iisgadvh"",""object"":""chat.completion"",""created"":1795596419,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:47:00.797464+00:00
+b609b2a971fef5ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the movies ""Pulp Fiction"", ""Reservoir Dogs"" and ""Django Unchained""?
+A. Steven Spielberg
+B. Martin Scorcese
+C. James Cameron
+D. Quentin Tarantino
+Answer:","[""Steven Spielberg"", ""Martin Scorcese"", ""James Cameron"", ""Quentin Tarantino""]",http,0.0,16,none,"{""id"":""chatcmpl-2nhvgf4omaz5wnqo4pc1e4"",""object"":""chat.completion"",""created"":1795596420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8825,,MarianeAzar,20261125_084135,2026-11-25T08:47:01.680326+00:00
+dee11f16126863f8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The PlayStation was originally a joint project between Sega and Sony that was a Sega Genesis with a disc drive.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q44iibrq0b9k4zyrv2deu9"",""object"":""chat.completion"",""created"":1795596421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8236,,MarianeAzar,20261125_084135,2026-11-25T08:47:02.504203+00:00
+dee11f16126863f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The PlayStation was originally a joint project between Sega and Sony that was a Sega Genesis with a disc drive.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dxj8dgalvn87cjdg9sbgxv"",""object"":""chat.completion"",""created"":1795596421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T08:47:03.368503+00:00

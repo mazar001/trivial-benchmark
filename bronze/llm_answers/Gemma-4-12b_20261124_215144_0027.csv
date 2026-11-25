@@ -1,0 +1,161 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a3eb5ba1addec2e4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The open source program Redis is a relational database server.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zscd0xx72b8kbr1mrjj0cm"",""object"":""chat.completion"",""created"":1795554213,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8239,,MarianeAzar,20261124_215144,2026-11-24T21:03:34.775643+00:00
+541ca9d465a0a1ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct order of operations for solving equations?
+A. Addition, Multiplication, Division, Subtraction, Addition, Parentheses
+B. The order in which the operations are written.
+C. Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+D. Parentheses, Exponents, Addition, Substraction, Multiplication, Division
+Answer:","[""Addition, Multiplication, Division, Subtraction, Addition, Parentheses"", ""The order in which the operations are written."", ""Parentheses, Exponents, Multiplication, Division, Addition, Subtraction"", ""Parentheses, Exponents, Addition, Substraction, Multiplication, Division""]",http,0.0,16,none,"{""id"":""chatcmpl-ai92j2sxu52qjoelpgw63"",""object"":""chat.completion"",""created"":1795554214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9219,,MarianeAzar,20261124_215144,2026-11-24T21:03:35.697876+00:00
+541ca9d465a0a1ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct order of operations for solving equations?
+A. Addition, Multiplication, Division, Subtraction, Addition, Parentheses
+B. The order in which the operations are written.
+C. Parentheses, Exponents, Multiplication, Division, Addition, Subtraction
+D. Parentheses, Exponents, Addition, Substraction, Multiplication, Division
+Answer:","[""Addition, Multiplication, Division, Subtraction, Addition, Parentheses"", ""The order in which the operations are written."", ""Parentheses, Exponents, Multiplication, Division, Addition, Subtraction"", ""Parentheses, Exponents, Addition, Substraction, Multiplication, Division""]",http,0.0,16,none,"{""id"":""chatcmpl-bij9cdprc3dzkv0f5w1ou"",""object"":""chat.completion"",""created"":1795554215,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":134,""completion_tokens"":2,""total_tokens"":136,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0102,,MarianeAzar,20261124_215144,2026-11-24T21:03:36.708577+00:00
+ebf925413772644e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Witness"", how many lasers must be activated to get into the mountain area?
+A. 12
+B. 7
+C. 5
+D. 8
+Answer:","[""12"", ""7"", ""5"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-wqqyv47g88kk64obpwpjz"",""object"":""chat.completion"",""created"":1795554216,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.904,,MarianeAzar,20261124_215144,2026-11-24T21:03:37.612864+00:00
+ebf925413772644e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Witness"", how many lasers must be activated to get into the mountain area?
+A. 12
+B. 7
+C. 5
+D. 8
+Answer:","[""12"", ""7"", ""5"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-2sctzgdac3evy2d6lo7sne"",""object"":""chat.completion"",""created"":1795554217,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9922,,MarianeAzar,20261124_215144,2026-11-24T21:03:38.605360+00:00
+7e8c342506a6cc92,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the author of book series 'Percy Jackson'?
+A. Roald Dahl
+B. Sandra Bullock
+C. Rick Riordan
+D. J.K. Rowling
+Answer:","[""Roald Dahl"", ""Sandra Bullock"", ""Rick Riordan"", ""J.K. Rowling""]",http,0.0,16,none,"{""id"":""chatcmpl-pkmursobi3mb9c2amlui1o"",""object"":""chat.completion"",""created"":1795554218,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261124_215144,2026-11-24T21:03:39.462158+00:00
+7e8c342506a6cc92,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the author of book series 'Percy Jackson'?
+A. Roald Dahl
+B. Sandra Bullock
+C. Rick Riordan
+D. J.K. Rowling
+Answer:","[""Roald Dahl"", ""Sandra Bullock"", ""Rick Riordan"", ""J.K. Rowling""]",http,0.0,16,none,"{""id"":""chatcmpl-tzfqokaoacntbmtbehnx"",""object"":""chat.completion"",""created"":1795554219,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9871,,MarianeAzar,20261124_215144,2026-11-24T21:03:40.449521+00:00
+3c95b3bf73216e37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song made by MAN WITH A MISSION was used as the opening for the anime ""Log Horizon""?
+A. ""Raise Your Flag""
+B. ""Out of Control""
+C. ""Dead End in Tokyo""
+D. ""Database""
+Answer:","[""\""Raise Your Flag\"""", ""\""Out of Control\"""", ""\""Dead End in Tokyo\"""", ""\""Database\""""]",http,0.0,16,none,"{""id"":""chatcmpl-s71lvoeredlc341nps2aq"",""object"":""chat.completion"",""created"":1795554220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261124_215144,2026-11-24T21:03:41.306365+00:00
+3c95b3bf73216e37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song made by MAN WITH A MISSION was used as the opening for the anime ""Log Horizon""?
+A. ""Raise Your Flag""
+B. ""Out of Control""
+C. ""Dead End in Tokyo""
+D. ""Database""
+Answer:","[""\""Raise Your Flag\"""", ""\""Out of Control\"""", ""\""Dead End in Tokyo\"""", ""\""Database\""""]",http,0.0,16,none,"{""id"":""chatcmpl-vefn36qn6xih3grhcxcvrv"",""object"":""chat.completion"",""created"":1795554221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8872,,MarianeAzar,20261124_215144,2026-11-24T21:03:42.193911+00:00
+b23d87ef71cb35ce,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The term ""GTO"" was originated by Ferrari?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c357niwys6ayh31hxmm9u"",""object"":""chat.completion"",""created"":1795554222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.825,,MarianeAzar,20261124_215144,2026-11-24T21:03:43.019248+00:00
+b23d87ef71cb35ce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The term ""GTO"" was originated by Ferrari?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sh6rtv9iu7d62fhaulajsb"",""object"":""chat.completion"",""created"":1795554222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.91,,MarianeAzar,20261124_215144,2026-11-24T21:03:43.929457+00:00
+388fea4cb54f00b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This weapon in Counter-Strike: Global Offensive does not exist in real life.
+A. M4A1
+B. MP9
+C. M4A4
+D. AWP
+Answer:","[""M4A1"", ""MP9"", ""M4A4"", ""AWP""]",http,0.0,16,none,"{""id"":""chatcmpl-30za1ciw64ofyc3y2umx6k"",""object"":""chat.completion"",""created"":1795554223,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261124_215144,2026-11-24T21:03:44.778253+00:00
+388fea4cb54f00b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This weapon in Counter-Strike: Global Offensive does not exist in real life.
+A. M4A1
+B. MP9
+C. M4A4
+D. AWP
+Answer:","[""M4A1"", ""MP9"", ""M4A4"", ""AWP""]",http,0.0,16,none,"{""id"":""chatcmpl-zvhoqbs82dj3hm4ooi84l"",""object"":""chat.completion"",""created"":1795554224,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8725,,MarianeAzar,20261124_215144,2026-11-24T21:03:45.651218+00:00
+d425e0eb7ea356b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Some people call me the space cowboy"" is the first line from what song?
+A. Take The Money and Run
+B. The Joker
+C. Fandango
+D. Fly Like an Eagle
+Answer:","[""Take The Money and Run"", ""The Joker"", ""Fandango"", ""Fly Like an Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-4r203u0fyji5tz18hnxz3"",""object"":""chat.completion"",""created"":1795554225,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261124_215144,2026-11-24T21:03:46.530025+00:00
+d425e0eb7ea356b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Some people call me the space cowboy"" is the first line from what song?
+A. Take The Money and Run
+B. The Joker
+C. Fandango
+D. Fly Like an Eagle
+Answer:","[""Take The Money and Run"", ""The Joker"", ""Fandango"", ""Fly Like an Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-vpaj8q82wppkeufewamihj"",""object"":""chat.completion"",""created"":1795554226,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261124_215144,2026-11-24T21:03:47.407280+00:00
+7231c758e042fd3a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The song ""Feel Good Inc."" by British band Gorillaz features which hip hop group?
+A. Public Enemy
+B. De La Soul
+C. Cypress Hill
+D. OutKast
+Answer:","[""Public Enemy"", ""De La Soul"", ""Cypress Hill"", ""OutKast""]",http,0.0,16,none,"{""id"":""chatcmpl-hvs91tjb2l4kml7reloy4h"",""object"":""chat.completion"",""created"":1795554227,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9248,,MarianeAzar,20261124_215144,2026-11-24T21:03:48.332856+00:00
+7231c758e042fd3a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The song ""Feel Good Inc."" by British band Gorillaz features which hip hop group?
+A. Public Enemy
+B. De La Soul
+C. Cypress Hill
+D. OutKast
+Answer:","[""Public Enemy"", ""De La Soul"", ""Cypress Hill"", ""OutKast""]",http,0.0,16,none,"{""id"":""chatcmpl-5e700odpiz5kxjew7rltn"",""object"":""chat.completion"",""created"":1795554228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8777,,MarianeAzar,20261124_215144,2026-11-24T21:03:49.211147+00:00
+890a7ad1683f363a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the anime ""Naruto"", the main character is a female.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zb7vfmfxdj71kylc8iis58"",""object"":""chat.completion"",""created"":1795554229,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7943,,MarianeAzar,20261124_215144,2026-11-24T21:03:50.005682+00:00
+890a7ad1683f363a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the anime ""Naruto"", the main character is a female.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rke8gbormghrqt9rvnqww"",""object"":""chat.completion"",""created"":1795554229,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8321,,MarianeAzar,20261124_215144,2026-11-24T21:03:50.838032+00:00
+0cc6a2d9a08f9a51,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?
+A. <1%
+B. 1%
+C. 5%
+D. 3%
+Answer:","[""<1%"", ""1%"", ""5%"", ""3%""]",http,0.0,16,none,"{""id"":""chatcmpl-fg523es2s5auyjy8n9xeq"",""object"":""chat.completion"",""created"":1795554230,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261124_215144,2026-11-24T21:03:51.696686+00:00
+0cc6a2d9a08f9a51,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?
+A. <1%
+B. 1%
+C. 5%
+D. 3%
+Answer:","[""<1%"", ""1%"", ""5%"", ""3%""]",http,0.0,16,none,"{""id"":""chatcmpl-wcy7sofinsci4u8piyykc"",""object"":""chat.completion"",""created"":1795554231,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8835,,MarianeAzar,20261124_215144,2026-11-24T21:03:52.580480+00:00
+5403701265241367,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sculpted the statue of David?
+A. Auguste Rodin
+B. Gian Lorenzo Bernini
+C. Donatello
+D. Michelangelo
+Answer:","[""Auguste Rodin"", ""Gian Lorenzo Bernini"", ""Donatello"", ""Michelangelo""]",http,0.0,16,none,"{""id"":""chatcmpl-xjtsmevj59iku6lcxzoeg"",""object"":""chat.completion"",""created"":1795554232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261124_215144,2026-11-24T21:03:53.429444+00:00
+5403701265241367,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sculpted the statue of David?
+A. Auguste Rodin
+B. Gian Lorenzo Bernini
+C. Donatello
+D. Michelangelo
+Answer:","[""Auguste Rodin"", ""Gian Lorenzo Bernini"", ""Donatello"", ""Michelangelo""]",http,0.0,16,none,"{""id"":""chatcmpl-tby0u5w1eglfokwhwj3kwu"",""object"":""chat.completion"",""created"":1795554233,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261124_215144,2026-11-24T21:03:54.290737+00:00
+2ad116df5b4875ba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""S.T.A.L.K.E.R."" series, the Freedom faction wishes to destroy the supernatural area known as ""the Zone"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fv4ksmft2z5852wu20lri8"",""object"":""chat.completion"",""created"":1795554234,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8465,,MarianeAzar,20261124_215144,2026-11-24T21:03:55.137497+00:00
+2ad116df5b4875ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""S.T.A.L.K.E.R."" series, the Freedom faction wishes to destroy the supernatural area known as ""the Zone"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fd6p1atu1r6dnxib73z8r9"",""object"":""chat.completion"",""created"":1795554235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261124_215144,2026-11-24T21:03:56.012720+00:00

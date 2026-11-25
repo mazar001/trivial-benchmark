@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+be8b2d67c442cb56,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following songs was not originally released by Sir Elton John?
+A. Candle in the Wind
+B. I Don't Wanna Go On With You Like That
+C. Crocodile Rock
+D. You'll Be In My Heart
+Answer:","[""Candle in the Wind"", ""I Don't Wanna Go On With You Like That"", ""Crocodile Rock"", ""You'll Be In My Heart""]",http,0.0,16,none,"{""id"":""chatcmpl-1y44qbbeq7ro5rw6k99l4g"",""object"":""chat.completion"",""created"":1795593165,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9616,,MarianeAzar,20261125_084135,2026-11-25T07:52:47.155822+00:00
+52da05f631f30c12,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Clash Royale"" what is Arena 4 called?
+A. P.E.K.K.A's Playhouse
+B. Spell Valley
+C. Royal Arena
+D. Barbarian Bowl
+Answer:","[""P.E.K.K.A's Playhouse"", ""Spell Valley"", ""Royal Arena"", ""Barbarian Bowl""]",http,0.0,16,none,"{""id"":""chatcmpl-4fsxqg6jxsy0lln41ydntga"",""object"":""chat.completion"",""created"":1795593166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9193,,MarianeAzar,20261125_084135,2026-11-25T07:52:48.075340+00:00
+52da05f631f30c12,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Clash Royale"" what is Arena 4 called?
+A. P.E.K.K.A's Playhouse
+B. Spell Valley
+C. Royal Arena
+D. Barbarian Bowl
+Answer:","[""P.E.K.K.A's Playhouse"", ""Spell Valley"", ""Royal Arena"", ""Barbarian Bowl""]",http,0.0,16,none,"{""id"":""chatcmpl-v0djsm11ezjewsbry1ztgi"",""object"":""chat.completion"",""created"":1795593167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9151,,MarianeAzar,20261125_084135,2026-11-25T07:52:48.990737+00:00
+a1fac597016abcfc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""World of Warcraft,"" which of the following can be found outside of every instanced dungeon?
+A. A Hearthstone
+B. A Gathering Stone
+C. A Meeting Stone
+D. A Summoning Stone
+Answer:","[""A Hearthstone"", ""A Gathering Stone"", ""A Meeting Stone"", ""A Summoning Stone""]",http,0.0,16,none,"{""id"":""chatcmpl-p9tiba3ybhgwi9zyzisi8"",""object"":""chat.completion"",""created"":1795593168,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9109,,MarianeAzar,20261125_084135,2026-11-25T07:52:49.902025+00:00
+a1fac597016abcfc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""World of Warcraft,"" which of the following can be found outside of every instanced dungeon?
+A. A Hearthstone
+B. A Gathering Stone
+C. A Meeting Stone
+D. A Summoning Stone
+Answer:","[""A Hearthstone"", ""A Gathering Stone"", ""A Meeting Stone"", ""A Summoning Stone""]",http,0.0,16,none,"{""id"":""chatcmpl-uw1miqpvxhhhcufiums0vv"",""object"":""chat.completion"",""created"":1795593169,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8908,,MarianeAzar,20261125_084135,2026-11-25T07:52:50.793073+00:00
+7da7b8c61af0e2a5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What technology is named after a tenth-century ruler of Denmark and Norway?
+A. Internet
+B. Wi-Fi
+C. GPS
+D. Bluetooth
+Answer:","[""Internet"", ""Wi-Fi"", ""GPS"", ""Bluetooth""]",http,0.0,16,none,"{""id"":""chatcmpl-wgiji89vrpp4zuam5ikmb"",""object"":""chat.completion"",""created"":1795593170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T07:52:51.653761+00:00
+7da7b8c61af0e2a5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What technology is named after a tenth-century ruler of Denmark and Norway?
+A. Internet
+B. Wi-Fi
+C. GPS
+D. Bluetooth
+Answer:","[""Internet"", ""Wi-Fi"", ""GPS"", ""Bluetooth""]",http,0.0,16,none,"{""id"":""chatcmpl-3gfbc3d3xt7h23alliikit"",""object"":""chat.completion"",""created"":1795593171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9227,,MarianeAzar,20261125_084135,2026-11-25T07:52:52.576730+00:00
+abe83e098ae59b44,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the #1 selling game on Steam by revenue in 2016?
+A. Counter Strike: Global Offensive
+B. Sid Meier's Civilization VI
+C. Grand Theft Auto V
+D. Dark Souls III
+Answer:","[""Counter Strike: Global Offensive"", ""Sid Meier's Civilization VI"", ""Grand Theft Auto V"", ""Dark Souls III""]",http,0.0,16,none,"{""id"":""chatcmpl-adof8wz97zbgf39o183qk"",""object"":""chat.completion"",""created"":1795593172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9059,,MarianeAzar,20261125_084135,2026-11-25T07:52:53.483034+00:00
+abe83e098ae59b44,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the #1 selling game on Steam by revenue in 2016?
+A. Counter Strike: Global Offensive
+B. Sid Meier's Civilization VI
+C. Grand Theft Auto V
+D. Dark Souls III
+Answer:","[""Counter Strike: Global Offensive"", ""Sid Meier's Civilization VI"", ""Grand Theft Auto V"", ""Dark Souls III""]",http,0.0,16,none,"{""id"":""chatcmpl-dh18v6hceuvg1f43m96osi"",""object"":""chat.completion"",""created"":1795593172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8936,,MarianeAzar,20261125_084135,2026-11-25T07:52:54.376877+00:00
+cf7472e5849976f1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The X-Men's Storm and Nightcrawler were originally planned to be characters in DC Comics' Legion of Super-Heroes.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eyoo2fh1el8urx91a4g8lo"",""object"":""chat.completion"",""created"":1795593173,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.839,,MarianeAzar,20261125_084135,2026-11-25T07:52:55.216016+00:00
+cf7472e5849976f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The X-Men's Storm and Nightcrawler were originally planned to be characters in DC Comics' Legion of Super-Heroes.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-oywd5asd2gh440h8x3wd92"",""object"":""chat.completion"",""created"":1795593174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8455,,MarianeAzar,20261125_084135,2026-11-25T07:52:56.061666+00:00
+72cd0c895044921c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What studio animated Ouran High School Host Club?
+A. Bones
+B. xebec
+C. Production I.G
+D. Kyoto Animation
+Answer:","[""Bones"", ""xebec"", ""Production I.G"", ""Kyoto Animation""]",http,0.0,16,none,"{""id"":""chatcmpl-q6vm1ry857c3kqujg10yu6"",""object"":""chat.completion"",""created"":1795593175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T07:52:56.917443+00:00
+72cd0c895044921c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What studio animated Ouran High School Host Club?
+A. Bones
+B. xebec
+C. Production I.G
+D. Kyoto Animation
+Answer:","[""Bones"", ""xebec"", ""Production I.G"", ""Kyoto Animation""]",http,0.0,16,none,"{""id"":""chatcmpl-19sa9c3loiu9bxswyvff7t"",""object"":""chat.completion"",""created"":1795593176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T07:52:57.776834+00:00
+d62e91085abbacee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following nations was NOT a belligerent in World War I?
+A. Portugal
+B. Greece
+C. Romania
+D. Denmark
+Answer:","[""Portugal"", ""Greece"", ""Romania"", ""Denmark""]",http,0.0,16,none,"{""id"":""chatcmpl-a5khd59scsqm0qwwdxkgeo"",""object"":""chat.completion"",""created"":1795593177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8842,,MarianeAzar,20261125_084135,2026-11-25T07:52:58.661359+00:00
+d62e91085abbacee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following nations was NOT a belligerent in World War I?
+A. Portugal
+B. Greece
+C. Romania
+D. Denmark
+Answer:","[""Portugal"", ""Greece"", ""Romania"", ""Denmark""]",http,0.0,16,none,"{""id"":""chatcmpl-xyty8arjounuyoixyxv0c"",""object"":""chat.completion"",""created"":1795593178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8753,,MarianeAzar,20261125_084135,2026-11-25T07:52:59.536922+00:00
+c9b32643982ecfa9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: EDM record label Monstercat is based in which country?
+A. Australia
+B. Canada
+C. United Kingdom
+D. United States
+Answer:","[""Australia"", ""Canada"", ""United Kingdom"", ""United States""]",http,0.0,16,none,"{""id"":""chatcmpl-e41sosnfp2kgahyglksbm8"",""object"":""chat.completion"",""created"":1795593178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261125_084135,2026-11-25T07:53:00.386316+00:00
+c9b32643982ecfa9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: EDM record label Monstercat is based in which country?
+A. Australia
+B. Canada
+C. United Kingdom
+D. United States
+Answer:","[""Australia"", ""Canada"", ""United Kingdom"", ""United States""]",http,0.0,16,none,"{""id"":""chatcmpl-3jog8rzhoy557j9zkxjg5t"",""object"":""chat.completion"",""created"":1795593179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T07:53:01.239456+00:00
+2ba562e955d2d1c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first commerically available computer processor?
+A. TMS 1000
+B. Intel 486SX
+C. Intel 4004
+D. AMD AM386
+Answer:","[""TMS 1000"", ""Intel 486SX"", ""Intel 4004"", ""AMD AM386""]",http,0.0,16,none,"{""id"":""chatcmpl-05tvrpj5zidjfwj8ctj2tdb"",""object"":""chat.completion"",""created"":1795593180,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9177,,MarianeAzar,20261125_084135,2026-11-25T07:53:02.157435+00:00
+2ba562e955d2d1c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first commerically available computer processor?
+A. TMS 1000
+B. Intel 486SX
+C. Intel 4004
+D. AMD AM386
+Answer:","[""TMS 1000"", ""Intel 486SX"", ""Intel 4004"", ""AMD AM386""]",http,0.0,16,none,"{""id"":""chatcmpl-gvi1t3qk4lk43fj9wx13n"",""object"":""chat.completion"",""created"":1795593181,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8746,,MarianeAzar,20261125_084135,2026-11-25T07:53:03.032306+00:00
+e3381423de7c6035,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game ""Battlefield 1"" takes place during World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dy0cpu7zo3oj3pe4f4hjh"",""object"":""chat.completion"",""created"":1795593182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.842,,MarianeAzar,20261125_084135,2026-11-25T07:53:03.874535+00:00
+e3381423de7c6035,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game ""Battlefield 1"" takes place during World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n8fy3ql0qlfnoxa1vjef9g"",""object"":""chat.completion"",""created"":1795593183,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8264,,MarianeAzar,20261125_084135,2026-11-25T07:53:04.701130+00:00
+fda818cdaefc2c39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Mario Bros. Series, what is Yoshi's scientific name?
+A. T. Yoshisaur Munchakoopas
+B. Yoshi
+C. Yossy
+D. T. Yoshisotop Munchakoopas
+Answer:","[""T. Yoshisaur Munchakoopas"", ""Yoshi"", ""Yossy"", ""T. Yoshisotop Munchakoopas""]",http,0.0,16,none,"{""id"":""chatcmpl-4iwsd7deborrri3gmga9pl"",""object"":""chat.completion"",""created"":1795593184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8643,,MarianeAzar,20261125_084135,2026-11-25T07:53:05.565937+00:00
+fda818cdaefc2c39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Super Mario Bros. Series, what is Yoshi's scientific name?
+A. T. Yoshisaur Munchakoopas
+B. Yoshi
+C. Yossy
+D. T. Yoshisotop Munchakoopas
+Answer:","[""T. Yoshisaur Munchakoopas"", ""Yoshi"", ""Yossy"", ""T. Yoshisotop Munchakoopas""]",http,0.0,16,none,"{""id"":""chatcmpl-nsxso5t9sneu9ur7ttheb"",""object"":""chat.completion"",""created"":1795593184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8915,,MarianeAzar,20261125_084135,2026-11-25T07:53:06.457670+00:00
+e03a14c047838415,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Canadian province of Alberta, the city of Calgary is located further north than the city of Edmonton.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rrn7jzytbml1onhoe9col6"",""object"":""chat.completion"",""created"":1795593185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8228,,MarianeAzar,20261125_084135,2026-11-25T07:53:07.280688+00:00
+e03a14c047838415,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Canadian province of Alberta, the city of Calgary is located further north than the city of Edmonton.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-op1j7q75ticda4j32sz8u"",""object"":""chat.completion"",""created"":1795593186,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8459,,MarianeAzar,20261125_084135,2026-11-25T07:53:08.126728+00:00

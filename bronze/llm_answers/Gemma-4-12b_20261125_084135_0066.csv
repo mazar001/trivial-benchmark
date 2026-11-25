@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d3d0c4558ce3705e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the protagonist in the game ""The Walking Dead: Season One""?
+A. Lee Everett
+B. Clementine
+C. Rick Grimes
+D. Kenny
+Answer:","[""Lee Everett"", ""Clementine"", ""Rick Grimes"", ""Kenny""]",http,0.0,16,none,"{""id"":""chatcmpl-5rjvruz64ro3vnmhey828g"",""object"":""chat.completion"",""created"":1795593938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0013,,MarianeAzar,20261125_084135,2026-11-25T08:05:40.508818+00:00
+d3d0c4558ce3705e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the protagonist in the game ""The Walking Dead: Season One""?
+A. Lee Everett
+B. Clementine
+C. Rick Grimes
+D. Kenny
+Answer:","[""Lee Everett"", ""Clementine"", ""Rick Grimes"", ""Kenny""]",http,0.0,16,none,"{""id"":""chatcmpl-kkmcwuwwqxoi8lsl2l7clg"",""object"":""chat.completion"",""created"":1795593939,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.942,,MarianeAzar,20261125_084135,2026-11-25T08:05:41.451135+00:00
+d209187dc6102c86,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the comedy series ""Trailer Park Boys"", which of the following characters takes care of stray cats?
+A. Randy
+B. Ricky
+C. Julian
+D. Bubbles
+Answer:","[""Randy"", ""Ricky"", ""Julian"", ""Bubbles""]",http,0.0,16,none,"{""id"":""chatcmpl-5feviwctqprv179u1iceyr"",""object"":""chat.completion"",""created"":1795593940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3448,,MarianeAzar,20261125_084135,2026-11-25T08:05:42.796250+00:00
+d209187dc6102c86,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the comedy series ""Trailer Park Boys"", which of the following characters takes care of stray cats?
+A. Randy
+B. Ricky
+C. Julian
+D. Bubbles
+Answer:","[""Randy"", ""Ricky"", ""Julian"", ""Bubbles""]",http,0.0,16,none,"{""id"":""chatcmpl-pcz9l7y7j81m7y6i8kc1u"",""object"":""chat.completion"",""created"":1795593942,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0128,,MarianeAzar,20261125_084135,2026-11-25T08:05:43.809356+00:00
+e804b599158d4ff6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Foie gras is a French delicacy typically made from what part of a duck or goose?
+A. Liver
+B. Intestines
+C. Stomach
+D. Heart
+Answer:","[""Liver"", ""Intestines"", ""Stomach"", ""Heart""]",http,0.0,16,none,"{""id"":""chatcmpl-332rp3m2ekyx8kc8pxo5w7"",""object"":""chat.completion"",""created"":1795593943,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9611,,MarianeAzar,20261125_084135,2026-11-25T08:05:44.770839+00:00
+e804b599158d4ff6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Foie gras is a French delicacy typically made from what part of a duck or goose?
+A. Liver
+B. Intestines
+C. Stomach
+D. Heart
+Answer:","[""Liver"", ""Intestines"", ""Stomach"", ""Heart""]",http,0.0,16,none,"{""id"":""chatcmpl-6quiq29n8sagjtxtm25amv"",""object"":""chat.completion"",""created"":1795593944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3277,,MarianeAzar,20261125_084135,2026-11-25T08:05:46.099082+00:00
+dbcfa41be4019260,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musician has collaborated with American producer Porter Robinson and released the 2016 song ""Shelter""?
+A. Zedd
+B. Mat Zo
+C. deadmau5
+D. Madeon
+Answer:","[""Zedd"", ""Mat Zo"", ""deadmau5"", ""Madeon""]",http,0.0,16,none,"{""id"":""chatcmpl-ruwtpg0etz8gu7iv6gnq3k"",""object"":""chat.completion"",""created"":1795593945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9799,,MarianeAzar,20261125_084135,2026-11-25T08:05:47.079257+00:00
+dbcfa41be4019260,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musician has collaborated with American producer Porter Robinson and released the 2016 song ""Shelter""?
+A. Zedd
+B. Mat Zo
+C. deadmau5
+D. Madeon
+Answer:","[""Zedd"", ""Mat Zo"", ""deadmau5"", ""Madeon""]",http,0.0,16,none,"{""id"":""chatcmpl-3cifvwit9wbpme799uydx"",""object"":""chat.completion"",""created"":1795593946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9616,,MarianeAzar,20261125_084135,2026-11-25T08:05:48.041152+00:00
+fd81d63a3e361a5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these songs did the group ""Men At Work"" NOT make?
+A. Safety Dance
+B. Down Under
+C. Who Can It Be Now?
+D. It's a Mistake
+Answer:","[""Safety Dance"", ""Down Under"", ""Who Can It Be Now?"", ""It's a Mistake""]",http,0.0,16,none,"{""id"":""chatcmpl-da2durxc4xjijjgk0gv4fq"",""object"":""chat.completion"",""created"":1795593947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3286,,MarianeAzar,20261125_084135,2026-11-25T08:05:49.370003+00:00
+fd81d63a3e361a5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these songs did the group ""Men At Work"" NOT make?
+A. Safety Dance
+B. Down Under
+C. Who Can It Be Now?
+D. It's a Mistake
+Answer:","[""Safety Dance"", ""Down Under"", ""Who Can It Be Now?"", ""It's a Mistake""]",http,0.0,16,none,"{""id"":""chatcmpl-uzqmpk16mljiaabfdf1dp"",""object"":""chat.completion"",""created"":1795593948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261125_084135,2026-11-25T08:05:50.329305+00:00
+5c59069198880812,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the capital of South Vietnam before the Vietnam War?
+A. Ho Chi Minh City
+B. Saigon
+C. Hue
+D. Hanoi
+Answer:","[""Ho Chi Minh City"", ""Saigon"", ""Hue"", ""Hanoi""]",http,0.0,16,none,"{""id"":""chatcmpl-coafs5mz527omoczag0fz"",""object"":""chat.completion"",""created"":1795593949,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.234,,MarianeAzar,20261125_084135,2026-11-25T08:05:51.563919+00:00
+5c59069198880812,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the capital of South Vietnam before the Vietnam War?
+A. Ho Chi Minh City
+B. Saigon
+C. Hue
+D. Hanoi
+Answer:","[""Ho Chi Minh City"", ""Saigon"", ""Hue"", ""Hanoi""]",http,0.0,16,none,"{""id"":""chatcmpl-u1flaqrqoxdfdjt6rccke"",""object"":""chat.completion"",""created"":1795593951,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3454,,MarianeAzar,20261125_084135,2026-11-25T08:05:52.909612+00:00
+45be167234051975,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What cell organelle is known as ""the powerhouse of the cell?""
+A. Golgi apparatus
+B. Mitochondria
+C. Endoplasmic reticulum
+D. Nucleus
+Answer:","[""Golgi apparatus"", ""Mitochondria"", ""Endoplasmic reticulum"", ""Nucleus""]",http,0.0,16,none,"{""id"":""chatcmpl-sossq7zrk27wavtpolvjim"",""object"":""chat.completion"",""created"":1795593952,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0818,,MarianeAzar,20261125_084135,2026-11-25T08:05:53.991737+00:00
+45be167234051975,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What cell organelle is known as ""the powerhouse of the cell?""
+A. Golgi apparatus
+B. Mitochondria
+C. Endoplasmic reticulum
+D. Nucleus
+Answer:","[""Golgi apparatus"", ""Mitochondria"", ""Endoplasmic reticulum"", ""Nucleus""]",http,0.0,16,none,"{""id"":""chatcmpl-6cob2bs3dwl3fkozuymbsb"",""object"":""chat.completion"",""created"":1795593953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9441,,MarianeAzar,20261125_084135,2026-11-25T08:05:54.936090+00:00
+c862b35ca923938e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before it's redesign of the company logo in the year 2000, which 3D shape is NOT represented in the Electronic Arts logo?
+A. Pyramid
+B. Cube
+C. Sphere
+D. Cylinder
+Answer:","[""Pyramid"", ""Cube"", ""Sphere"", ""Cylinder""]",http,0.0,16,none,"{""id"":""chatcmpl-4p6txb34vmib4d7aiodtc"",""object"":""chat.completion"",""created"":1795593954,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2019,,MarianeAzar,20261125_084135,2026-11-25T08:05:56.138250+00:00
+c862b35ca923938e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before it's redesign of the company logo in the year 2000, which 3D shape is NOT represented in the Electronic Arts logo?
+A. Pyramid
+B. Cube
+C. Sphere
+D. Cylinder
+Answer:","[""Pyramid"", ""Cube"", ""Sphere"", ""Cylinder""]",http,0.0,16,none,"{""id"":""chatcmpl-myqdnsc0f8sgosr9imlw0l"",""object"":""chat.completion"",""created"":1795593955,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1978,,MarianeAzar,20261125_084135,2026-11-25T08:05:57.336308+00:00
+28e5e85bb9c02f8e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Overwatch, how old is Reinhardt Wilhelm?
+A. 65
+B. 62
+C. 59
+D. 61
+Answer:","[""65"", ""62"", ""59"", ""61""]",http,0.0,16,none,"{""id"":""chatcmpl-xpvclez0kjbauy2pssmi"",""object"":""chat.completion"",""created"":1795593956,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9512,,MarianeAzar,20261125_084135,2026-11-25T08:05:58.287723+00:00
+28e5e85bb9c02f8e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Overwatch, how old is Reinhardt Wilhelm?
+A. 65
+B. 62
+C. 59
+D. 61
+Answer:","[""65"", ""62"", ""59"", ""61""]",http,0.0,16,none,"{""id"":""chatcmpl-60v1nz7azfpsqtrrd4wwl"",""object"":""chat.completion"",""created"":1795593957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4946,,MarianeAzar,20261125_084135,2026-11-25T08:05:59.782463+00:00
+73029dbf39852fd1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Tachycardia"" or ""Tachyarrhythmia"" refers to a resting heart-rate near or over 100 BPM.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zezm3zv7gprudji1qhwt7n"",""object"":""chat.completion"",""created"":1795593959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9747,,MarianeAzar,20261125_084135,2026-11-25T08:06:00.757339+00:00
+73029dbf39852fd1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Tachycardia"" or ""Tachyarrhythmia"" refers to a resting heart-rate near or over 100 BPM.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gxgfqpohsxlyeo6h0jb1on"",""object"":""chat.completion"",""created"":1795593960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9667,,MarianeAzar,20261125_084135,2026-11-25T08:06:01.724262+00:00
+565d671eb25686b7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Five Nights at Freddy's 1, how can you make Golden Freddy disappear?
+A. Do nothing
+B. Shut the door
+C. Enable cameras
+D. Turn on the light
+Answer:","[""Do nothing"", ""Shut the door"", ""Enable cameras"", ""Turn on the light""]",http,0.0,16,none,"{""id"":""chatcmpl-00xtarzjpwdhgitvafnv8anf"",""object"":""chat.completion"",""created"":1795593961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.357,,MarianeAzar,20261125_084135,2026-11-25T08:06:03.081713+00:00
+565d671eb25686b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Five Nights at Freddy's 1, how can you make Golden Freddy disappear?
+A. Do nothing
+B. Shut the door
+C. Enable cameras
+D. Turn on the light
+Answer:","[""Do nothing"", ""Shut the door"", ""Enable cameras"", ""Turn on the light""]",http,0.0,16,none,"{""id"":""chatcmpl-aefdo4wlui9u6h3yag2ur"",""object"":""chat.completion"",""created"":1795593962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9922,,MarianeAzar,20261125_084135,2026-11-25T08:06:04.074112+00:00
+e022c82e626b153d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist in ""Humanity Has Declined"" has no discernable name and is simply referred to as 'I' for most of the series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-owd32qrjkg9l7w4zq3ep9f"",""object"":""chat.completion"",""created"":1795593963,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9377,,MarianeAzar,20261125_084135,2026-11-25T08:06:05.012014+00:00
+e022c82e626b153d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist in ""Humanity Has Declined"" has no discernable name and is simply referred to as 'I' for most of the series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ppizcywbnaljog8kysjp1a"",""object"":""chat.completion"",""created"":1795593964,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2822,,MarianeAzar,20261125_084135,2026-11-25T08:06:06.294411+00:00
+26e64969369c08bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character in ""Left 4 Dead""?
+A. Bill
+B. Zoey
+C. Louis
+D. Nick
+Answer:","[""Bill"", ""Zoey"", ""Louis"", ""Nick""]",http,0.0,16,none,"{""id"":""chatcmpl-wdf7avfium2mkxjvaqzds"",""object"":""chat.completion"",""created"":1795593965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8866,,MarianeAzar,20261125_084135,2026-11-25T08:06:07.181312+00:00

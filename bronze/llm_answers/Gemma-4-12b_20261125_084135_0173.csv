@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+498d8fa46ee74c70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of South Korea?
+A. Kitakyushu
+B. Pyongyang
+C. Taegu
+D. Seoul
+Answer:","[""Kitakyushu"", ""Pyongyang"", ""Taegu"", ""Seoul""]",http,0.0,16,none,"{""id"":""chatcmpl-xhrh98o3h3a347q10tw3p"",""object"":""chat.completion"",""created"":1795596616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T08:50:18.247743+00:00
+77052f52cb7f628d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voice acted the character Hiccup in the movie ""How to Train Your Dragon""?
+A. John Powell
+B. Jack Brauchel
+C. Jay Baruchel
+D. Gerard Butler
+Answer:","[""John Powell"", ""Jack Brauchel"", ""Jay Baruchel"", ""Gerard Butler""]",http,0.0,16,none,"{""id"":""chatcmpl-bhtk85urc84mdhm6buzoos"",""object"":""chat.completion"",""created"":1795596617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T08:50:19.113028+00:00
+77052f52cb7f628d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voice acted the character Hiccup in the movie ""How to Train Your Dragon""?
+A. John Powell
+B. Jack Brauchel
+C. Jay Baruchel
+D. Gerard Butler
+Answer:","[""John Powell"", ""Jack Brauchel"", ""Jay Baruchel"", ""Gerard Butler""]",http,0.0,16,none,"{""id"":""chatcmpl-f81pf940qvta4o36yv5jdj"",""object"":""chat.completion"",""created"":1795596618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261125_084135,2026-11-25T08:50:20.003650+00:00
+537e3c9f9f33a96a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 1993 Swedish car manufacturer Saab experimented with replacing the steering wheel with a joystick in a Saab 9000.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8vcxu68bzqrbl6zgbvsj8"",""object"":""chat.completion"",""created"":1795596619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8249,,MarianeAzar,20261125_084135,2026-11-25T08:50:20.829167+00:00
+537e3c9f9f33a96a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In 1993 Swedish car manufacturer Saab experimented with replacing the steering wheel with a joystick in a Saab 9000.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lv873tfyikn4l7r2yjqb06"",""object"":""chat.completion"",""created"":1795596620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.844,,MarianeAzar,20261125_084135,2026-11-25T08:50:21.673301+00:00
+d41e050eea109f5c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Katamari Damacy"", you control a character known as:
+A. Fujio
+B. Ichigo
+C. Foomin
+D. The Prince
+Answer:","[""Fujio"", ""Ichigo"", ""Foomin"", ""The Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-3e13awb6e7xp10kjpt4q79"",""object"":""chat.completion"",""created"":1795596621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261125_084135,2026-11-25T08:50:22.541664+00:00
+d41e050eea109f5c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Katamari Damacy"", you control a character known as:
+A. Fujio
+B. Ichigo
+C. Foomin
+D. The Prince
+Answer:","[""Fujio"", ""Ichigo"", ""Foomin"", ""The Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-uxz30qdxtjod24h8dgr3of"",""object"":""chat.completion"",""created"":1795596621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8682,,MarianeAzar,20261125_084135,2026-11-25T08:50:23.410135+00:00
+8eb36fcd2d80b345,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?
+A. The Limit
+B. The Kids
+C. The Gripes
+D. The Shell
+Answer:","[""The Limit"", ""The Kids"", ""The Gripes"", ""The Shell""]",http,0.0,16,none,"{""id"":""chatcmpl-kji5ywj3gmn4iyidytamff"",""object"":""chat.completion"",""created"":1795596622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8525,,MarianeAzar,20261125_084135,2026-11-25T08:50:24.263063+00:00
+8eb36fcd2d80b345,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which episode from The Amazing World Of Gumball won the Childrens Choice Award at the British Animation Awards in 2016?
+A. The Limit
+B. The Kids
+C. The Gripes
+D. The Shell
+Answer:","[""The Limit"", ""The Kids"", ""The Gripes"", ""The Shell""]",http,0.0,16,none,"{""id"":""chatcmpl-eawwtzs5betaewdt9u2ba"",""object"":""chat.completion"",""created"":1795596623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9035,,MarianeAzar,20261125_084135,2026-11-25T08:50:25.166996+00:00
+a5d763e4216e1c70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song on ScHoolboy Q's album Black Face LP featured Kanye West?
+A. THat Part
+B. Blank Face
+C. Big Body
+D. Neva CHange
+Answer:","[""THat Part"", ""Blank Face"", ""Big Body"", ""Neva CHange""]",http,0.0,16,none,"{""id"":""chatcmpl-0e3gjpyyme1mulcp1zi3o"",""object"":""chat.completion"",""created"":1795596624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8991,,MarianeAzar,20261125_084135,2026-11-25T08:50:26.066625+00:00
+a5d763e4216e1c70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song on ScHoolboy Q's album Black Face LP featured Kanye West?
+A. THat Part
+B. Blank Face
+C. Big Body
+D. Neva CHange
+Answer:","[""THat Part"", ""Blank Face"", ""Big Body"", ""Neva CHange""]",http,0.0,16,none,"{""id"":""chatcmpl-gq81gcu5jmqqusrvpy3cbd"",""object"":""chat.completion"",""created"":1795596625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8895,,MarianeAzar,20261125_084135,2026-11-25T08:50:26.956466+00:00
+1151100fdc10ea45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Rainbow 6 Siege, what is Ela and Zofia's last name?
+A. Kessikbayev
+B. Melnikova
+C. Bosak
+D. Zenaviev
+Answer:","[""Kessikbayev"", ""Melnikova"", ""Bosak"", ""Zenaviev""]",http,0.0,16,none,"{""id"":""chatcmpl-q7ut5eskyxoy51kudca4i"",""object"":""chat.completion"",""created"":1795596626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:50:27.829726+00:00
+1151100fdc10ea45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Rainbow 6 Siege, what is Ela and Zofia's last name?
+A. Kessikbayev
+B. Melnikova
+C. Bosak
+D. Zenaviev
+Answer:","[""Kessikbayev"", ""Melnikova"", ""Bosak"", ""Zenaviev""]",http,0.0,16,none,"{""id"":""chatcmpl-ceg490f4f1cdbqel03z4dn"",""object"":""chat.completion"",""created"":1795596627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261125_084135,2026-11-25T08:50:28.710119+00:00
+272bcb455708f3a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sides does a heptagon have?
+A. 5
+B. 7
+C. 6
+D. 8
+Answer:","[""5"", ""7"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-vatgvdvqqjk2tx6zrrsu"",""object"":""chat.completion"",""created"":1795596628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8467,,MarianeAzar,20261125_084135,2026-11-25T08:50:29.556990+00:00
+272bcb455708f3a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many sides does a heptagon have?
+A. 5
+B. 7
+C. 6
+D. 8
+Answer:","[""5"", ""7"", ""6"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-idcc9ntw828f4teut0komh"",""object"":""chat.completion"",""created"":1795596628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T08:50:30.403682+00:00
+c4f48970981e2cc0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these actors have NOT played Spiderman in the movies?
+A. Tom Holland
+B. Andrew Garfield
+C. Tobey Maguire
+D. Michael Cera
+Answer:","[""Tom Holland"", ""Andrew Garfield"", ""Tobey Maguire"", ""Michael Cera""]",http,0.0,16,none,"{""id"":""chatcmpl-gsjy0mo1c3lz7goo15qana"",""object"":""chat.completion"",""created"":1795596629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261125_084135,2026-11-25T08:50:31.270231+00:00
+c4f48970981e2cc0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these actors have NOT played Spiderman in the movies?
+A. Tom Holland
+B. Andrew Garfield
+C. Tobey Maguire
+D. Michael Cera
+Answer:","[""Tom Holland"", ""Andrew Garfield"", ""Tobey Maguire"", ""Michael Cera""]",http,0.0,16,none,"{""id"":""chatcmpl-14r9vpc5deao7bqv5njli"",""object"":""chat.completion"",""created"":1795596630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T08:50:32.125946+00:00
+59bde007debe2df6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An episode of ""The Simpsons"" is dedicated to Moe Szyslak's bar rag.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-juirqfkm35z46y3dxvyf"",""object"":""chat.completion"",""created"":1795596631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8115,,MarianeAzar,20261125_084135,2026-11-25T08:50:32.937918+00:00
+59bde007debe2df6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An episode of ""The Simpsons"" is dedicated to Moe Szyslak's bar rag.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-en96griiwmg76d1jl352le"",""object"":""chat.completion"",""created"":1795596632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8414,,MarianeAzar,20261125_084135,2026-11-25T08:50:33.779544+00:00
+16a1dfabd378c297,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation claims ownership of Antarctica?
+A. Australia
+B. United States of America
+C. No one, but there are claims.
+D. United Nations
+Answer:","[""Australia"", ""United States of America"", ""No one, but there are claims."", ""United Nations""]",http,0.0,16,none,"{""id"":""chatcmpl-zftp1fwu6bqxoazopogsq"",""object"":""chat.completion"",""created"":1795596633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:50:34.633243+00:00
+16a1dfabd378c297,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation claims ownership of Antarctica?
+A. Australia
+B. United States of America
+C. No one, but there are claims.
+D. United Nations
+Answer:","[""Australia"", ""United States of America"", ""No one, but there are claims."", ""United Nations""]",http,0.0,16,none,"{""id"":""chatcmpl-j15am4m0mb8fuo7qghega"",""object"":""chat.completion"",""created"":1795596634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8652,,MarianeAzar,20261125_084135,2026-11-25T08:50:35.498620+00:00
+b054329a62fb8914,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a city in India?
+A. Islamabad
+B. Ahmedabad
+C. Hyderabad
+D. Ghaziabad
+Answer:","[""Islamabad"", ""Ahmedabad"", ""Hyderabad"", ""Ghaziabad""]",http,0.0,16,none,"{""id"":""chatcmpl-udibw2qymngdut10vqfaec"",""object"":""chat.completion"",""created"":1795596634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:50:36.358060+00:00
+b054329a62fb8914,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a city in India?
+A. Islamabad
+B. Ahmedabad
+C. Hyderabad
+D. Ghaziabad
+Answer:","[""Islamabad"", ""Ahmedabad"", ""Hyderabad"", ""Ghaziabad""]",http,0.0,16,none,"{""id"":""chatcmpl-9aitz53moafuiggn1slrnn"",""object"":""chat.completion"",""created"":1795596635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9514,,MarianeAzar,20261125_084135,2026-11-25T08:50:37.309739+00:00
+e146110eaf8bede0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Colchester Overpass, otherwise known as ""Bunny Man Bridge"", is located where?
+A. Fairfax County, Virginia
+B. Braxton County, Virgina
+C. Medford, Oregon
+D. Lemon Grove, California
+Answer:","[""Fairfax County, Virginia"", ""Braxton County, Virgina"", ""Medford, Oregon"", ""Lemon Grove, California""]",http,0.0,16,none,"{""id"":""chatcmpl-x1lydgsbiznbg5bxcf98l"",""object"":""chat.completion"",""created"":1795596636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8747,,MarianeAzar,20261125_084135,2026-11-25T08:50:38.184889+00:00
+e146110eaf8bede0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Colchester Overpass, otherwise known as ""Bunny Man Bridge"", is located where?
+A. Fairfax County, Virginia
+B. Braxton County, Virgina
+C. Medford, Oregon
+D. Lemon Grove, California
+Answer:","[""Fairfax County, Virginia"", ""Braxton County, Virgina"", ""Medford, Oregon"", ""Lemon Grove, California""]",http,0.0,16,none,"{""id"":""chatcmpl-jnxxggp7glcxw949nbogh"",""object"":""chat.completion"",""created"":1795596637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8814,,MarianeAzar,20261125_084135,2026-11-25T08:50:39.066559+00:00

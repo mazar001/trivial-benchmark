@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7781543763cf09ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the chemical symbol for lead?
+A. Le
+B. Ld
+C. Pm
+D. Pb
+Answer:","[""Le"", ""Ld"", ""Pm"", ""Pb""]",http,0.0,16,none,"{""id"":""chatcmpl-940bdox55eqjnq0ln3jywr"",""object"":""chat.completion"",""created"":1795595191,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9395,,MarianeAzar,20261125_084135,2026-11-25T08:26:33.395689+00:00
+ba6631020cdc21c7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist composed the original soundtrack for ""Watch Dogs 2""?
+A. Hudson Mohawke
+B. Machinedrum
+C. Flying Lotus
+D. Rustie
+Answer:","[""Hudson Mohawke"", ""Machinedrum"", ""Flying Lotus"", ""Rustie""]",http,0.0,16,none,"{""id"":""chatcmpl-czh8n8fblemwe4xh300dd"",""object"":""chat.completion"",""created"":1795595192,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2088,,MarianeAzar,20261125_084135,2026-11-25T08:26:34.604846+00:00
+ba6631020cdc21c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist composed the original soundtrack for ""Watch Dogs 2""?
+A. Hudson Mohawke
+B. Machinedrum
+C. Flying Lotus
+D. Rustie
+Answer:","[""Hudson Mohawke"", ""Machinedrum"", ""Flying Lotus"", ""Rustie""]",http,0.0,16,none,"{""id"":""chatcmpl-v0memm1252g1pfh0pnkbz3"",""object"":""chat.completion"",""created"":1795595194,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2635,,MarianeAzar,20261125_084135,2026-11-25T08:26:35.868605+00:00
+7d6b1cf1c2d9d484,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation hosted the FIFA World Cup in 2006?
+A. Brazil
+B. Germany
+C. South Africa
+D. United Kingdom
+Answer:","[""Brazil"", ""Germany"", ""South Africa"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-c85chdaks28iqdnj8e1ox"",""object"":""chat.completion"",""created"":1795595195,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9377,,MarianeAzar,20261125_084135,2026-11-25T08:26:36.806750+00:00
+7d6b1cf1c2d9d484,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation hosted the FIFA World Cup in 2006?
+A. Brazil
+B. Germany
+C. South Africa
+D. United Kingdom
+Answer:","[""Brazil"", ""Germany"", ""South Africa"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-348rtogh47z35722678gd"",""object"":""chat.completion"",""created"":1795595196,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2427,,MarianeAzar,20261125_084135,2026-11-25T08:26:38.049768+00:00
+62526d1c9501fdcf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Little Witch Academia"", what is Shiny Chariot's alias at Luna Nova Academy?
+A. Anne Finnelan
+B. Croix Meridies
+C. Miranda Holbrook
+D. Ursula Callistis
+Answer:","[""Anne Finnelan"", ""Croix Meridies"", ""Miranda Holbrook"", ""Ursula Callistis""]",http,0.0,16,none,"{""id"":""chatcmpl-j9hech7n1hk4h1p23ed7e"",""object"":""chat.completion"",""created"":1795595197,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3279,,MarianeAzar,20261125_084135,2026-11-25T08:26:39.378266+00:00
+62526d1c9501fdcf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Little Witch Academia"", what is Shiny Chariot's alias at Luna Nova Academy?
+A. Anne Finnelan
+B. Croix Meridies
+C. Miranda Holbrook
+D. Ursula Callistis
+Answer:","[""Anne Finnelan"", ""Croix Meridies"", ""Miranda Holbrook"", ""Ursula Callistis""]",http,0.0,16,none,"{""id"":""chatcmpl-m8vagkikesp5s18q5xli"",""object"":""chat.completion"",""created"":1795595198,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9697,,MarianeAzar,20261125_084135,2026-11-25T08:26:40.348199+00:00
+f9cc721293e77f4d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following geographic features is a ring-shaped coral reef, island, or series of islets?
+A. Isthmus
+B. Delta
+C. Atoll
+D. Peninsula
+Answer:","[""Isthmus"", ""Delta"", ""Atoll"", ""Peninsula""]",http,0.0,16,none,"{""id"":""chatcmpl-6cf5aggw3eryzilya83hq"",""object"":""chat.completion"",""created"":1795595199,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9502,,MarianeAzar,20261125_084135,2026-11-25T08:26:41.298568+00:00
+f9cc721293e77f4d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following geographic features is a ring-shaped coral reef, island, or series of islets?
+A. Isthmus
+B. Delta
+C. Atoll
+D. Peninsula
+Answer:","[""Isthmus"", ""Delta"", ""Atoll"", ""Peninsula""]",http,0.0,16,none,"{""id"":""chatcmpl-8s78toce39v40zo6sif77w"",""object"":""chat.completion"",""created"":1795595200,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3945,,MarianeAzar,20261125_084135,2026-11-25T08:26:42.693269+00:00
+be8be9079ce81787,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the perk that was introduced in the ""Call Of Duty: Zombies"" map, ""Mob Of The Dead""?
+A. Electric Cherry
+B. Quick Revive
+C. Tombstone
+D. Vulture Aid
+Answer:","[""Electric Cherry"", ""Quick Revive"", ""Tombstone"", ""Vulture Aid""]",http,0.0,16,none,"{""id"":""chatcmpl-1go1tge2waplbukvzfa4jf"",""object"":""chat.completion"",""created"":1795595202,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.95,,MarianeAzar,20261125_084135,2026-11-25T08:26:43.643694+00:00
+be8be9079ce81787,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the perk that was introduced in the ""Call Of Duty: Zombies"" map, ""Mob Of The Dead""?
+A. Electric Cherry
+B. Quick Revive
+C. Tombstone
+D. Vulture Aid
+Answer:","[""Electric Cherry"", ""Quick Revive"", ""Tombstone"", ""Vulture Aid""]",http,0.0,16,none,"{""id"":""chatcmpl-6pr0wv7chjewfvolihs1b"",""object"":""chat.completion"",""created"":1795595203,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9725,,MarianeAzar,20261125_084135,2026-11-25T08:26:44.616436+00:00
+b6b14aea2a9de016,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Pacific Islander countries is ruled by a constitutional monarchy?
+A. Tonga
+B. Fiji
+C. Kiribati
+D. Palau
+Answer:","[""Tonga"", ""Fiji"", ""Kiribati"", ""Palau""]",http,0.0,16,none,"{""id"":""chatcmpl-5bf22dsue544kun5hmhmkl"",""object"":""chat.completion"",""created"":1795595204,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4416,,MarianeAzar,20261125_084135,2026-11-25T08:26:46.058315+00:00
+b6b14aea2a9de016,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Pacific Islander countries is ruled by a constitutional monarchy?
+A. Tonga
+B. Fiji
+C. Kiribati
+D. Palau
+Answer:","[""Tonga"", ""Fiji"", ""Kiribati"", ""Palau""]",http,0.0,16,none,"{""id"":""chatcmpl-8ycvug3qem72anjomuufa"",""object"":""chat.completion"",""created"":1795595205,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0626,,MarianeAzar,20261125_084135,2026-11-25T08:26:47.121252+00:00
+59f90913f7045b71,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Cesar Romero played which iconic Batman villain from the 1960's TV show?
+A. The Penguin
+B. The Riddler
+C. The Joker
+D. Mr. Freeze
+Answer:","[""The Penguin"", ""The Riddler"", ""The Joker"", ""Mr. Freeze""]",http,0.0,16,none,"{""id"":""chatcmpl-wmjln746fx6gl8krop3ou"",""object"":""chat.completion"",""created"":1795595206,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9556,,MarianeAzar,20261125_084135,2026-11-25T08:26:48.077343+00:00
+59f90913f7045b71,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Cesar Romero played which iconic Batman villain from the 1960's TV show?
+A. The Penguin
+B. The Riddler
+C. The Joker
+D. Mr. Freeze
+Answer:","[""The Penguin"", ""The Riddler"", ""The Joker"", ""Mr. Freeze""]",http,0.0,16,none,"{""id"":""chatcmpl-1cbxt2img5t1ishbqtdxq7"",""object"":""chat.completion"",""created"":1795595207,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2559,,MarianeAzar,20261125_084135,2026-11-25T08:26:49.333537+00:00
+3e1dd6675bbabc59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these plays was famously first performed posthumously after the playwright committed suicide?
+A. The Birthday Party
+B. Much Ado About Nothing
+C. 4.48 Psychosis
+D. Hamilton
+Answer:","[""The Birthday Party"", ""Much Ado About Nothing"", ""4.48 Psychosis"", ""Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-aohsn44dwjqmlwmvxvq1u"",""object"":""chat.completion"",""created"":1795595208,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.317,,MarianeAzar,20261125_084135,2026-11-25T08:26:50.651127+00:00
+3e1dd6675bbabc59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these plays was famously first performed posthumously after the playwright committed suicide?
+A. The Birthday Party
+B. Much Ado About Nothing
+C. 4.48 Psychosis
+D. Hamilton
+Answer:","[""The Birthday Party"", ""Much Ado About Nothing"", ""4.48 Psychosis"", ""Hamilton""]",http,0.0,16,none,"{""id"":""chatcmpl-dst9igcajrtl6w4lv8n0k8"",""object"":""chat.completion"",""created"":1795595210,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9851,,MarianeAzar,20261125_084135,2026-11-25T08:26:51.636494+00:00
+1bd0dc31c7d8042f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In linguistics, which of the following is not one of the Gricean Maxims under the Cooperative Principal?
+A. Length
+B. Quality
+C. Manner
+D. Relation
+Answer:","[""Length"", ""Quality"", ""Manner"", ""Relation""]",http,0.0,16,none,"{""id"":""chatcmpl-1jfntvbl88dys2n9wgtmg"",""object"":""chat.completion"",""created"":1795595211,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9826,,MarianeAzar,20261125_084135,2026-11-25T08:26:52.619494+00:00
+1bd0dc31c7d8042f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In linguistics, which of the following is not one of the Gricean Maxims under the Cooperative Principal?
+A. Length
+B. Quality
+C. Manner
+D. Relation
+Answer:","[""Length"", ""Quality"", ""Manner"", ""Relation""]",http,0.0,16,none,"{""id"":""chatcmpl-iarr3kq4sb4i6lr0a7aho"",""object"":""chat.completion"",""created"":1795595212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4187,,MarianeAzar,20261125_084135,2026-11-25T08:26:54.038510+00:00
+67aee91db5630b57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?
+A. Kochiya Sanae
+B. Kirisame Marisa
+C. Hakurei Reimu
+D. Izayoi Sakuya
+Answer:","[""Kochiya Sanae"", ""Kirisame Marisa"", ""Hakurei Reimu"", ""Izayoi Sakuya""]",http,0.0,16,none,"{""id"":""chatcmpl-xcrhnh3akvdfgoi8p7swov"",""object"":""chat.completion"",""created"":1795595213,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8962,,MarianeAzar,20261125_084135,2026-11-25T08:26:54.935137+00:00
+67aee91db5630b57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?
+A. Kochiya Sanae
+B. Kirisame Marisa
+C. Hakurei Reimu
+D. Izayoi Sakuya
+Answer:","[""Kochiya Sanae"", ""Kirisame Marisa"", ""Hakurei Reimu"", ""Izayoi Sakuya""]",http,0.0,16,none,"{""id"":""chatcmpl-r7p8b2krnuyyg369cryrg"",""object"":""chat.completion"",""created"":1795595214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0,,MarianeAzar,20261125_084135,2026-11-25T08:26:55.935570+00:00
+e800d60bc7b80866,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following rappers were NOT part of the hip-hop group Odd Future?
+A. Frank Ocean
+B. Vince Staples
+C. Mike G
+D. Tyler, the Creator
+Answer:","[""Frank Ocean"", ""Vince Staples"", ""Mike G"", ""Tyler, the Creator""]",http,0.0,16,none,"{""id"":""chatcmpl-0p88te5h0ulc81vthg1sxe"",""object"":""chat.completion"",""created"":1795595215,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3532,,MarianeAzar,20261125_084135,2026-11-25T08:26:57.289249+00:00
+e800d60bc7b80866,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following rappers were NOT part of the hip-hop group Odd Future?
+A. Frank Ocean
+B. Vince Staples
+C. Mike G
+D. Tyler, the Creator
+Answer:","[""Frank Ocean"", ""Vince Staples"", ""Mike G"", ""Tyler, the Creator""]",http,0.0,16,none,"{""id"":""chatcmpl-745ip9t787ap60gb88h7if"",""object"":""chat.completion"",""created"":1795595216,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9562,,MarianeAzar,20261125_084135,2026-11-25T08:26:58.245707+00:00
+1fc65f314f21d7cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Initial D, how does Takumi Fujiwara describe a drift?
+A. '. . . you turn a lot'
+B. '. . . the front tires slide so the car won't face the inside'
+C. '. . . the car oversteers through a curve, causing it to turn faster'
+D. '. . . the wheels lose traction, making the car slide sideways'
+Answer:","[""'. . . you turn a lot'"", ""'. . . the front tires slide so the car won't face the inside'"", ""'. . . the car oversteers through a curve, causing it to turn faster'"", ""'. . . the wheels lose traction, making the car slide sideways'""]",http,0.0,16,none,"{""id"":""chatcmpl-9bxaze0u2zgxod36xmbce"",""object"":""chat.completion"",""created"":1795595217,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0043,,MarianeAzar,20261125_084135,2026-11-25T08:26:59.250594+00:00
+1fc65f314f21d7cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Initial D, how does Takumi Fujiwara describe a drift?
+A. '. . . you turn a lot'
+B. '. . . the front tires slide so the car won't face the inside'
+C. '. . . the car oversteers through a curve, causing it to turn faster'
+D. '. . . the wheels lose traction, making the car slide sideways'
+Answer:","[""'. . . you turn a lot'"", ""'. . . the front tires slide so the car won't face the inside'"", ""'. . . the car oversteers through a curve, causing it to turn faster'"", ""'. . . the wheels lose traction, making the car slide sideways'""]",http,0.0,16,none,"{""id"":""chatcmpl-vait3tjzhjk5md1fbyq9pj"",""object"":""chat.completion"",""created"":1795595218,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":147,""completion_tokens"":2,""total_tokens"":149,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5301,,MarianeAzar,20261125_084135,2026-11-25T08:27:00.780888+00:00

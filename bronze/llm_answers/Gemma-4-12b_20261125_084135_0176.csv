@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+93c52b314843d1c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which doubles partner did John McEnroe have most success?
+A. Michael Stich
+B. Peter Fleming
+C. Mary Carillo
+D. Mark Woodforde
+Answer:","[""Michael Stich"", ""Peter Fleming"", ""Mary Carillo"", ""Mark Woodforde""]",http,0.0,16,none,"{""id"":""chatcmpl-womzqyfqacq7gellsw85p4"",""object"":""chat.completion"",""created"":1795596681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8716,,MarianeAzar,20261125_084135,2026-11-25T08:51:23.432427+00:00
+93c52b314843d1c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With which doubles partner did John McEnroe have most success?
+A. Michael Stich
+B. Peter Fleming
+C. Mary Carillo
+D. Mark Woodforde
+Answer:","[""Michael Stich"", ""Peter Fleming"", ""Mary Carillo"", ""Mark Woodforde""]",http,0.0,16,none,"{""id"":""chatcmpl-3l0wybhzoeetu3h14l889"",""object"":""chat.completion"",""created"":1795596682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8669,,MarianeAzar,20261125_084135,2026-11-25T08:51:24.299579+00:00
+dce2d66da209cfef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the plane of existence in MicroProse's 1997 ""Magic the Gathering""?
+A. Amonkhet
+B. Shandalar
+C. Ravnica
+D. Theros
+Answer:","[""Amonkhet"", ""Shandalar"", ""Ravnica"", ""Theros""]",http,0.0,16,none,"{""id"":""chatcmpl-382mu7ibjy2izjw80r8n6e"",""object"":""chat.completion"",""created"":1795596683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.87,,MarianeAzar,20261125_084135,2026-11-25T08:51:25.169843+00:00
+dce2d66da209cfef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the plane of existence in MicroProse's 1997 ""Magic the Gathering""?
+A. Amonkhet
+B. Shandalar
+C. Ravnica
+D. Theros
+Answer:","[""Amonkhet"", ""Shandalar"", ""Ravnica"", ""Theros""]",http,0.0,16,none,"{""id"":""chatcmpl-37x4jrxbjfmzy0p6vvx0e"",""object"":""chat.completion"",""created"":1795596684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8746,,MarianeAzar,20261125_084135,2026-11-25T08:51:26.044772+00:00
+d73ffe96fb41b589,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Aoi Miyamori is the production manager of what anime in ""Shirobako""?
+A. The Third Aerial Girls Squad
+B. Andes Chucky
+C. Exodus!
+D. Angel Beats!
+Answer:","[""The Third Aerial Girls Squad"", ""Andes Chucky"", ""Exodus!"", ""Angel Beats!""]",http,0.0,16,none,"{""id"":""chatcmpl-6kndvg1fl383c91inhtrl"",""object"":""chat.completion"",""created"":1795596685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8627,,MarianeAzar,20261125_084135,2026-11-25T08:51:26.907796+00:00
+d73ffe96fb41b589,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Aoi Miyamori is the production manager of what anime in ""Shirobako""?
+A. The Third Aerial Girls Squad
+B. Andes Chucky
+C. Exodus!
+D. Angel Beats!
+Answer:","[""The Third Aerial Girls Squad"", ""Andes Chucky"", ""Exodus!"", ""Angel Beats!""]",http,0.0,16,none,"{""id"":""chatcmpl-th9ofwrv4cg4rydb46it6q"",""object"":""chat.completion"",""created"":1795596686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9063,,MarianeAzar,20261125_084135,2026-11-25T08:51:27.814383+00:00
+f43b38c4096bce87,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the homeworld of the Elites from Halo?
+A. Eayn
+B. Doisac
+C. Te
+D. Sanghelios
+Answer:","[""Eayn"", ""Doisac"", ""Te"", ""Sanghelios""]",http,0.0,16,none,"{""id"":""chatcmpl-zv65yalyordqbxwmfge43t"",""object"":""chat.completion"",""created"":1795596687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261125_084135,2026-11-25T08:51:28.683691+00:00
+f43b38c4096bce87,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the homeworld of the Elites from Halo?
+A. Eayn
+B. Doisac
+C. Te
+D. Sanghelios
+Answer:","[""Eayn"", ""Doisac"", ""Te"", ""Sanghelios""]",http,0.0,16,none,"{""id"":""chatcmpl-r28bd4b5a1hi8b156x6bm"",""object"":""chat.completion"",""created"":1795596688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:51:29.541186+00:00
+4c67ee1b221e589e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Gimmick!"" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?
+A. MMC5
+B. VRC6
+C. VRC7
+D. FME-7
+Answer:","[""MMC5"", ""VRC6"", ""VRC7"", ""FME-7""]",http,0.0,16,none,"{""id"":""chatcmpl-5ylzmbtqzn2riveawi5s39"",""object"":""chat.completion"",""created"":1795596689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8955,,MarianeAzar,20261125_084135,2026-11-25T08:51:30.437231+00:00
+4c67ee1b221e589e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Gimmick!"" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?
+A. MMC5
+B. VRC6
+C. VRC7
+D. FME-7
+Answer:","[""MMC5"", ""VRC6"", ""VRC7"", ""FME-7""]",http,0.0,16,none,"{""id"":""chatcmpl-4wwg5213ntfqq3hsriz33s"",""object"":""chat.completion"",""created"":1795596689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T08:51:31.329885+00:00
+eb1a71b3c809d33c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book & video game Metro 2033, which Moscow Metro station is the main character Artyom's home station?
+A. Prospekt Mira
+B. Botanichesky Sad
+C. VDNKh
+D. Kitay-Gorod
+Answer:","[""Prospekt Mira"", ""Botanichesky Sad"", ""VDNKh"", ""Kitay-Gorod""]",http,0.0,16,none,"{""id"":""chatcmpl-8tp5wznxiguzrz15yw29lc"",""object"":""chat.completion"",""created"":1795596690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.904,,MarianeAzar,20261125_084135,2026-11-25T08:51:32.234556+00:00
+eb1a71b3c809d33c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book & video game Metro 2033, which Moscow Metro station is the main character Artyom's home station?
+A. Prospekt Mira
+B. Botanichesky Sad
+C. VDNKh
+D. Kitay-Gorod
+Answer:","[""Prospekt Mira"", ""Botanichesky Sad"", ""VDNKh"", ""Kitay-Gorod""]",http,0.0,16,none,"{""id"":""chatcmpl-ep8lqgkxp7azrzlyzqp4cn"",""object"":""chat.completion"",""created"":1795596691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9043,,MarianeAzar,20261125_084135,2026-11-25T08:51:33.139132+00:00
+4f2798062a3905e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Donald Trump's first wife?
+A. Melania Knauss
+B. Marla Maples
+C. Nancy Davis
+D. Ivana Zelníčková
+Answer:","[""Melania Knauss"", ""Marla Maples"", ""Nancy Davis"", ""Ivana Zelníčková""]",http,0.0,16,none,"{""id"":""chatcmpl-xeq4jz12kt8y2tb8u6faih"",""object"":""chat.completion"",""created"":1795596692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9172,,MarianeAzar,20261125_084135,2026-11-25T08:51:34.056748+00:00
+4f2798062a3905e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was Donald Trump's first wife?
+A. Melania Knauss
+B. Marla Maples
+C. Nancy Davis
+D. Ivana Zelníčková
+Answer:","[""Melania Knauss"", ""Marla Maples"", ""Nancy Davis"", ""Ivana Zelníčková""]",http,0.0,16,none,"{""id"":""chatcmpl-m52z0qdipvdtxyetprifnr"",""object"":""chat.completion"",""created"":1795596693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8891,,MarianeAzar,20261125_084135,2026-11-25T08:51:34.946082+00:00
+8fbdb03823fee84f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the German offensive operation in October 1941 to take Moscow before winter?
+A. Case Blue
+B. Operation Sunflower
+C. Operation Typhoon
+D. Operation Barbarossa
+Answer:","[""Case Blue"", ""Operation Sunflower"", ""Operation Typhoon"", ""Operation Barbarossa""]",http,0.0,16,none,"{""id"":""chatcmpl-ixzi1gas89b5vxmaaz7zjg"",""object"":""chat.completion"",""created"":1795596694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8783,,MarianeAzar,20261125_084135,2026-11-25T08:51:35.824601+00:00
+8fbdb03823fee84f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the German offensive operation in October 1941 to take Moscow before winter?
+A. Case Blue
+B. Operation Sunflower
+C. Operation Typhoon
+D. Operation Barbarossa
+Answer:","[""Case Blue"", ""Operation Sunflower"", ""Operation Typhoon"", ""Operation Barbarossa""]",http,0.0,16,none,"{""id"":""chatcmpl-t94ja7p3y8x3f8jv0kms"",""object"":""chat.completion"",""created"":1795596695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.943,,MarianeAzar,20261125_084135,2026-11-25T08:51:36.767879+00:00
+e1b7c2499045325d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cartoon girlfriends of popular characters first appeared before their boyfriends?
+A. Lola Bunny
+B. Daisy Duck
+C. Olive Oyl
+D. Minnie Mouse
+Answer:","[""Lola Bunny"", ""Daisy Duck"", ""Olive Oyl"", ""Minnie Mouse""]",http,0.0,16,none,"{""id"":""chatcmpl-nwh1w5ubirh4fmu0j2ywdf"",""object"":""chat.completion"",""created"":1795596696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2818,,MarianeAzar,20261125_084135,2026-11-25T08:51:38.049963+00:00
+e1b7c2499045325d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cartoon girlfriends of popular characters first appeared before their boyfriends?
+A. Lola Bunny
+B. Daisy Duck
+C. Olive Oyl
+D. Minnie Mouse
+Answer:","[""Lola Bunny"", ""Daisy Duck"", ""Olive Oyl"", ""Minnie Mouse""]",http,0.0,16,none,"{""id"":""chatcmpl-9ayeszsyl4b0mdtl7um4ob"",""object"":""chat.completion"",""created"":1795596697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T08:51:38.930028+00:00
+e448ddbf27b67a12,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which one of these cities did the Great Stink of 1858 occur?
+A. Moscow
+B. London
+C. New York
+D. Berlin
+Answer:","[""Moscow"", ""London"", ""New York"", ""Berlin""]",http,0.0,16,none,"{""id"":""chatcmpl-mevttcbntj83f1857u3426"",""object"":""chat.completion"",""created"":1795596698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8773,,MarianeAzar,20261125_084135,2026-11-25T08:51:39.807563+00:00
+e448ddbf27b67a12,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which one of these cities did the Great Stink of 1858 occur?
+A. Moscow
+B. London
+C. New York
+D. Berlin
+Answer:","[""Moscow"", ""London"", ""New York"", ""Berlin""]",http,0.0,16,none,"{""id"":""chatcmpl-pagv3k8rvj2tdhj5adopz"",""object"":""chat.completion"",""created"":1795596699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8759,,MarianeAzar,20261125_084135,2026-11-25T08:51:40.683683+00:00
+694579375c3c2d18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which element has the highest melting point?
+A. Carbon
+B. Platinum
+C. Osmium
+D. Tungsten
+Answer:","[""Carbon"", ""Platinum"", ""Osmium"", ""Tungsten""]",http,0.0,16,none,"{""id"":""chatcmpl-sqprk2isqwpa5ga0q7pu"",""object"":""chat.completion"",""created"":1795596700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T08:51:41.556886+00:00
+694579375c3c2d18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which element has the highest melting point?
+A. Carbon
+B. Platinum
+C. Osmium
+D. Tungsten
+Answer:","[""Carbon"", ""Platinum"", ""Osmium"", ""Tungsten""]",http,0.0,16,none,"{""id"":""chatcmpl-673xsgtu8lah4x8kzms0k"",""object"":""chat.completion"",""created"":1795596700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T08:51:42.412185+00:00
+c9c1d89423433d1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Unlike on most salamanders, this part of a newt is flat?
+A. Teeth
+B. Feet
+C. Tail
+D. Head
+Answer:","[""Teeth"", ""Feet"", ""Tail"", ""Head""]",http,0.0,16,none,"{""id"":""chatcmpl-zhmwoednzimsc2jrkp715r"",""object"":""chat.completion"",""created"":1795596701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T08:51:43.325102+00:00
+c9c1d89423433d1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Unlike on most salamanders, this part of a newt is flat?
+A. Teeth
+B. Feet
+C. Tail
+D. Head
+Answer:","[""Teeth"", ""Feet"", ""Tail"", ""Head""]",http,0.0,16,none,"{""id"":""chatcmpl-sx81s38ob7q5vz7w1bt9uu"",""object"":""chat.completion"",""created"":1795596702,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9504,,MarianeAzar,20261125_084135,2026-11-25T08:51:44.275852+00:00
+154f756bc47a9886,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Canada's largest island?
+A. Newfoundland
+B. Baffin Island
+C. Prince Edward Island
+D. Vancouver Island
+Answer:","[""Newfoundland"", ""Baffin Island"", ""Prince Edward Island"", ""Vancouver Island""]",http,0.0,16,none,"{""id"":""chatcmpl-8g51qmc52lvs8mi032tk3s"",""object"":""chat.completion"",""created"":1795596703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9,,MarianeAzar,20261125_084135,2026-11-25T08:51:45.176406+00:00

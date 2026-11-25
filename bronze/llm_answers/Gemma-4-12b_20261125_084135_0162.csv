@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e51e23188d71d35e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player has scored the most goals in the England Premier League (EPL)?
+A. Wayne Rooney
+B. Alan Shearer
+C. Didier Drogba
+D. Lionel Messi
+Answer:","[""Wayne Rooney"", ""Alan Shearer"", ""Didier Drogba"", ""Lionel Messi""]",http,0.0,16,none,"{""id"":""chatcmpl-q5bfvi7cskq4jucimlot3m"",""object"":""chat.completion"",""created"":1795596379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8427,,MarianeAzar,20261125_084135,2026-11-25T08:46:20.956661+00:00
+e51e23188d71d35e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player has scored the most goals in the England Premier League (EPL)?
+A. Wayne Rooney
+B. Alan Shearer
+C. Didier Drogba
+D. Lionel Messi
+Answer:","[""Wayne Rooney"", ""Alan Shearer"", ""Didier Drogba"", ""Lionel Messi""]",http,0.0,16,none,"{""id"":""chatcmpl-r44l3pjn5vnmt6wsrffn"",""object"":""chat.completion"",""created"":1795596380,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8741,,MarianeAzar,20261125_084135,2026-11-25T08:46:21.831056+00:00
+ea67768662b344b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the busiest port in Europe?
+A. Port of Amsterdam
+B. Port of Rotterdam
+C. Port of Antwerp
+D. Port of Hamburg
+Answer:","[""Port of Amsterdam"", ""Port of Rotterdam"", ""Port of Antwerp"", ""Port of Hamburg""]",http,0.0,16,none,"{""id"":""chatcmpl-m0cq72rwql5e1l1yh8krb"",""object"":""chat.completion"",""created"":1795596381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:46:22.688650+00:00
+ea67768662b344b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the busiest port in Europe?
+A. Port of Amsterdam
+B. Port of Rotterdam
+C. Port of Antwerp
+D. Port of Hamburg
+Answer:","[""Port of Amsterdam"", ""Port of Rotterdam"", ""Port of Antwerp"", ""Port of Hamburg""]",http,0.0,16,none,"{""id"":""chatcmpl-8ifu1bowxrq4ssd7oua5"",""object"":""chat.completion"",""created"":1795596382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T08:46:23.539734+00:00
+f3785bfaa6ef66b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?
+A. Erina Joestar
+B. Kars
+C. Santana
+D. Wired Beck
+Answer:","[""Erina Joestar"", ""Kars"", ""Santana"", ""Wired Beck""]",http,0.0,16,none,"{""id"":""chatcmpl-xly60zcz4p8p1i79fq8fi"",""object"":""chat.completion"",""created"":1795596382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8491,,MarianeAzar,20261125_084135,2026-11-25T08:46:24.388969+00:00
+f3785bfaa6ef66b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The main antagonist of the second part of JoJo's Bizarre Adventure is which of the following?
+A. Erina Joestar
+B. Kars
+C. Santana
+D. Wired Beck
+Answer:","[""Erina Joestar"", ""Kars"", ""Santana"", ""Wired Beck""]",http,0.0,16,none,"{""id"":""chatcmpl-q4wqj6c4hqk4kuubaoiv"",""object"":""chat.completion"",""created"":1795596383,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T08:46:25.257689+00:00
+e2441ea08c55008e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Marvel Comics founded?
+A. 1932
+B. 1936
+C. 1951
+D. 1939
+Answer:","[""1932"", ""1936"", ""1951"", ""1939""]",http,0.0,16,none,"{""id"":""chatcmpl-cy6hifzz9qlffrbpugmgst"",""object"":""chat.completion"",""created"":1795596384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T08:46:26.108894+00:00
+e2441ea08c55008e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Marvel Comics founded?
+A. 1932
+B. 1936
+C. 1951
+D. 1939
+Answer:","[""1932"", ""1936"", ""1951"", ""1939""]",http,0.0,16,none,"{""id"":""chatcmpl-yi47sho424hr7qeknpa3e"",""object"":""chat.completion"",""created"":1795596385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T08:46:26.968092+00:00
+6d700536b8b61597,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is an alternative name for multiple personality disorder?
+A. Identity crisis
+B. Schizophrenia
+C. Body integrity identity disorder
+D. Dissociative identity disorder
+Answer:","[""Identity crisis"", ""Schizophrenia"", ""Body integrity identity disorder"", ""Dissociative identity disorder""]",http,0.0,16,none,"{""id"":""chatcmpl-bk54rn3npdwhqibt5prx"",""object"":""chat.completion"",""created"":1795596386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:46:27.830025+00:00
+6d700536b8b61597,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is an alternative name for multiple personality disorder?
+A. Identity crisis
+B. Schizophrenia
+C. Body integrity identity disorder
+D. Dissociative identity disorder
+Answer:","[""Identity crisis"", ""Schizophrenia"", ""Body integrity identity disorder"", ""Dissociative identity disorder""]",http,0.0,16,none,"{""id"":""chatcmpl-67bacd051zqc49a0h1trbo"",""object"":""chat.completion"",""created"":1795596387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:46:28.692224+00:00
+48c0bc04218fd6b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main antagonists in Battlestar Galactica?
+A. The Cylons
+B. The Collective
+C. The Rebels
+D. The Federation
+Answer:","[""The Cylons"", ""The Collective"", ""The Rebels"", ""The Federation""]",http,0.0,16,none,"{""id"":""chatcmpl-3q9mc5rpdup4kw6pqie1dx"",""object"":""chat.completion"",""created"":1795596388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:46:29.551492+00:00
+48c0bc04218fd6b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main antagonists in Battlestar Galactica?
+A. The Cylons
+B. The Collective
+C. The Rebels
+D. The Federation
+Answer:","[""The Cylons"", ""The Collective"", ""The Rebels"", ""The Federation""]",http,0.0,16,none,"{""id"":""chatcmpl-88aji03lyufyg6qein237m"",""object"":""chat.completion"",""created"":1795596388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:46:30.404161+00:00
+54342eb7c57f34b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played the female lead in the 1933 film ""King Kong""?
+A. Fay Wray
+B. Vivien Leigh
+C. Mae West
+D. Jean Harlow
+Answer:","[""Fay Wray"", ""Vivien Leigh"", ""Mae West"", ""Jean Harlow""]",http,0.0,16,none,"{""id"":""chatcmpl-lsqcqcjoqcrj5m87pyf94"",""object"":""chat.completion"",""created"":1795596389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261125_084135,2026-11-25T08:46:31.258816+00:00
+54342eb7c57f34b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played the female lead in the 1933 film ""King Kong""?
+A. Fay Wray
+B. Vivien Leigh
+C. Mae West
+D. Jean Harlow
+Answer:","[""Fay Wray"", ""Vivien Leigh"", ""Mae West"", ""Jean Harlow""]",http,0.0,16,none,"{""id"":""chatcmpl-o4srhq66fopaeyqs2j0vj"",""object"":""chat.completion"",""created"":1795596390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T08:46:32.146150+00:00
+cb92e27de2544018,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Hat In Time"" who is the final boss?
+A. Mustache Girl
+B. Snatcher
+C. Mafia Boss
+D. Conductor
+Answer:","[""Mustache Girl"", ""Snatcher"", ""Mafia Boss"", ""Conductor""]",http,0.0,16,none,"{""id"":""chatcmpl-qnqmjtl38rsi7ztdmnw2a"",""object"":""chat.completion"",""created"":1795596391,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:46:33.008399+00:00
+cb92e27de2544018,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Hat In Time"" who is the final boss?
+A. Mustache Girl
+B. Snatcher
+C. Mafia Boss
+D. Conductor
+Answer:","[""Mustache Girl"", ""Snatcher"", ""Mafia Boss"", ""Conductor""]",http,0.0,16,none,"{""id"":""chatcmpl-bf9wnoqo5tjy0ec5wcsr08"",""object"":""chat.completion"",""created"":1795596392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:46:33.874320+00:00
+d1ac0f4602d73380,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was McDonald's founded?
+A. 1951
+B. 1955
+C. 1964
+D. 1947
+Answer:","[""1951"", ""1955"", ""1964"", ""1947""]",http,0.0,16,none,"{""id"":""chatcmpl-hbbnp9m1qofgleg8i6nik4"",""object"":""chat.completion"",""created"":1795596393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261125_084135,2026-11-25T08:46:34.723710+00:00
+d1ac0f4602d73380,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was McDonald's founded?
+A. 1951
+B. 1955
+C. 1964
+D. 1947
+Answer:","[""1951"", ""1955"", ""1964"", ""1947""]",http,0.0,16,none,"{""id"":""chatcmpl-cyyktzby27oxacif1yfx"",""object"":""chat.completion"",""created"":1795596394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8898,,MarianeAzar,20261125_084135,2026-11-25T08:46:35.613827+00:00
+ba9ed42712b0f743,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Lord of the Rings,"" who is the owner of Asfaloth, the horse which brings Frodo to Rivendell?
+A. Haldir
+B. Glorfindel
+C. Aragorn
+D. Arwen
+Answer:","[""Haldir"", ""Glorfindel"", ""Aragorn"", ""Arwen""]",http,0.0,16,none,"{""id"":""chatcmpl-w8haihhclplaxhe9h6pr"",""object"":""chat.completion"",""created"":1795596395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:46:36.472901+00:00
+ba9ed42712b0f743,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Lord of the Rings,"" who is the owner of Asfaloth, the horse which brings Frodo to Rivendell?
+A. Haldir
+B. Glorfindel
+C. Aragorn
+D. Arwen
+Answer:","[""Haldir"", ""Glorfindel"", ""Aragorn"", ""Arwen""]",http,0.0,16,none,"{""id"":""chatcmpl-dyvyaqpalsk19nsl15cl"",""object"":""chat.completion"",""created"":1795596395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8948,,MarianeAzar,20261125_084135,2026-11-25T08:46:37.368032+00:00
+80a997891c8f016a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Canadian province has Charlottetown as its capital?
+A. Saskachewan
+B. Prince Edward Island
+C. Ontario
+D. Northwest Terrirories
+Answer:","[""Saskachewan"", ""Prince Edward Island"", ""Ontario"", ""Northwest Terrirories""]",http,0.0,16,none,"{""id"":""chatcmpl-6nlw6zffwbm2b6lbv6ubd8"",""object"":""chat.completion"",""created"":1795596396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8761,,MarianeAzar,20261125_084135,2026-11-25T08:46:38.244791+00:00
+80a997891c8f016a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Canadian province has Charlottetown as its capital?
+A. Saskachewan
+B. Prince Edward Island
+C. Ontario
+D. Northwest Terrirories
+Answer:","[""Saskachewan"", ""Prince Edward Island"", ""Ontario"", ""Northwest Terrirories""]",http,0.0,16,none,"{""id"":""chatcmpl-k4wqyid0dqnd7hpzqi9rht"",""object"":""chat.completion"",""created"":1795596397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T08:46:39.100820+00:00
+520785187987c80f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of angle is greater than 90°?
+A. Acute
+B. Obtuse
+C. Straight
+D. Right
+Answer:","[""Acute"", ""Obtuse"", ""Straight"", ""Right""]",http,0.0,16,none,"{""id"":""chatcmpl-tgrhr1bmc8bpdnjraerqz"",""object"":""chat.completion"",""created"":1795596398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8521,,MarianeAzar,20261125_084135,2026-11-25T08:46:39.953508+00:00
+520785187987c80f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of angle is greater than 90°?
+A. Acute
+B. Obtuse
+C. Straight
+D. Right
+Answer:","[""Acute"", ""Obtuse"", ""Straight"", ""Right""]",http,0.0,16,none,"{""id"":""chatcmpl-9ywuuyxs15ol7ioqhpmqv"",""object"":""chat.completion"",""created"":1795596399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8631,,MarianeAzar,20261125_084135,2026-11-25T08:46:40.816917+00:00
+a290da3835151418,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A statue of Charles Darwin sits in what London museum?
+A. Tate
+B. British Museum
+C. Science Museum
+D. Natural History Museum
+Answer:","[""Tate"", ""British Museum"", ""Science Museum"", ""Natural History Museum""]",http,0.0,16,none,"{""id"":""chatcmpl-xqjhs2gx02msorudj33ze"",""object"":""chat.completion"",""created"":1795596400,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T08:46:41.671459+00:00

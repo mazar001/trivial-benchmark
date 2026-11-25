@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+9caa0d7801826a37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Bram Stoker's novel, in which British coastal town did Dracula come ashore?
+A. Scarborough
+B. Brighton
+C. Portsmouth
+D. Whitby
+Answer:","[""Scarborough"", ""Brighton"", ""Portsmouth"", ""Whitby""]",http,0.0,16,none,"{""id"":""chatcmpl-ueog5xig36odm55sya2huj"",""object"":""chat.completion"",""created"":1795558361,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.846,,MarianeAzar,20261124_215144,2026-11-24T22:12:42.128658+00:00
+9caa0d7801826a37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Bram Stoker's novel, in which British coastal town did Dracula come ashore?
+A. Scarborough
+B. Brighton
+C. Portsmouth
+D. Whitby
+Answer:","[""Scarborough"", ""Brighton"", ""Portsmouth"", ""Whitby""]",http,0.0,16,none,"{""id"":""chatcmpl-132hghbkxrcpyghhyupeho"",""object"":""chat.completion"",""created"":1795558362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261124_215144,2026-11-24T22:12:42.983091+00:00
+211f6d2c96613b61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""DELTARUNE"", what is Ralsei's special ability?
+A. Eliminate
+B. Pacify
+C. Persuade
+D. Hug
+Answer:","[""Eliminate"", ""Pacify"", ""Persuade"", ""Hug""]",http,0.0,16,none,"{""id"":""chatcmpl-949s6ltv074pjfjk5fgk7c"",""object"":""chat.completion"",""created"":1795558362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261124_215144,2026-11-24T22:12:43.845823+00:00
+211f6d2c96613b61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""DELTARUNE"", what is Ralsei's special ability?
+A. Eliminate
+B. Pacify
+C. Persuade
+D. Hug
+Answer:","[""Eliminate"", ""Pacify"", ""Persuade"", ""Hug""]",http,0.0,16,none,"{""id"":""chatcmpl-s8o6jnnue8d4axbc4l2uff"",""object"":""chat.completion"",""created"":1795558363,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261124_215144,2026-11-24T22:12:44.703055+00:00
+e8318d5920bedb26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Elite Four member from the first generation of Pokémon became the champion in the next generation?
+A. Lance
+B. Agatha
+C. Lorelei
+D. Bruno
+Answer:","[""Lance"", ""Agatha"", ""Lorelei"", ""Bruno""]",http,0.0,16,none,"{""id"":""chatcmpl-4kq7zba6csn0gh7j8hbtpj"",""object"":""chat.completion"",""created"":1795558364,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261124_215144,2026-11-24T22:12:45.561537+00:00
+e8318d5920bedb26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Elite Four member from the first generation of Pokémon became the champion in the next generation?
+A. Lance
+B. Agatha
+C. Lorelei
+D. Bruno
+Answer:","[""Lance"", ""Agatha"", ""Lorelei"", ""Bruno""]",http,0.0,16,none,"{""id"":""chatcmpl-chrnc1yymbpj6qug4u4aud"",""object"":""chat.completion"",""created"":1795558365,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261124_215144,2026-11-24T22:12:46.427543+00:00
+a1261e5da41e4e62,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Super Mario game ever released in North America for the 3DS?
+A. Super Mario 3D Land
+B. Mario Kart 7
+C. Super Mario Maker
+D. New Super Mario Bros. 2
+Answer:","[""Super Mario 3D Land"", ""Mario Kart 7"", ""Super Mario Maker"", ""New Super Mario Bros. 2""]",http,0.0,16,none,"{""id"":""chatcmpl-m6j43fvi6enb08yvon48v7"",""object"":""chat.completion"",""created"":1795558366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261124_215144,2026-11-24T22:12:47.286464+00:00
+a1261e5da41e4e62,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Super Mario game ever released in North America for the 3DS?
+A. Super Mario 3D Land
+B. Mario Kart 7
+C. Super Mario Maker
+D. New Super Mario Bros. 2
+Answer:","[""Super Mario 3D Land"", ""Mario Kart 7"", ""Super Mario Maker"", ""New Super Mario Bros. 2""]",http,0.0,16,none,"{""id"":""chatcmpl-ruq6by0le3amgz0ilmiqxn"",""object"":""chat.completion"",""created"":1795558367,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8887,,MarianeAzar,20261124_215144,2026-11-24T22:12:48.175336+00:00
+bdbeec132884e933,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""V for Vendetta,"" what is the date that masked vigilante ""V"" urges people to remember?
+A. November 4th
+B. September 5th
+C. November 5th
+D. November 6th
+Answer:","[""November 4th"", ""September 5th"", ""November 5th"", ""November 6th""]",http,0.0,16,none,"{""id"":""chatcmpl-vqectjtdd2j7s8zpfbzdz9"",""object"":""chat.completion"",""created"":1795558368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261124_215144,2026-11-24T22:12:49.052168+00:00
+bdbeec132884e933,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""V for Vendetta,"" what is the date that masked vigilante ""V"" urges people to remember?
+A. November 4th
+B. September 5th
+C. November 5th
+D. November 6th
+Answer:","[""November 4th"", ""September 5th"", ""November 5th"", ""November 6th""]",http,0.0,16,none,"{""id"":""chatcmpl-pldqa9h01giyduswffhrfh"",""object"":""chat.completion"",""created"":1795558368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261124_215144,2026-11-24T22:12:49.944855+00:00
+960344903db0bb0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Finish these lyrics from the 2016 song ""Panda"" by Desiigner: ""I got broads in _______"".
+A. Atlanta
+B. Savannah
+C. Augusta
+D. Marietta
+Answer:","[""Atlanta"", ""Savannah"", ""Augusta"", ""Marietta""]",http,0.0,16,none,"{""id"":""chatcmpl-57g22qlsqk8ksmsclk0et"",""object"":""chat.completion"",""created"":1795558369,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261124_215144,2026-11-24T22:12:50.817622+00:00
+960344903db0bb0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Finish these lyrics from the 2016 song ""Panda"" by Desiigner: ""I got broads in _______"".
+A. Atlanta
+B. Savannah
+C. Augusta
+D. Marietta
+Answer:","[""Atlanta"", ""Savannah"", ""Augusta"", ""Marietta""]",http,0.0,16,none,"{""id"":""chatcmpl-jogl0w53nvsjdjapzyu3uf"",""object"":""chat.completion"",""created"":1795558370,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261124_215144,2026-11-24T22:12:51.704965+00:00
+75f3d865e60ae8fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1993 Disney animated series ""Bonkers"", what is the name of Bonker's second partner?
+A. Dr. Ludwig von Drake
+B. Dick Tracy
+C. Eddie Valiant
+D. Miranda Wright
+Answer:","[""Dr. Ludwig von Drake"", ""Dick Tracy"", ""Eddie Valiant"", ""Miranda Wright""]",http,0.0,16,none,"{""id"":""chatcmpl-fgg89mgo6vq4jnp2cpp9m"",""object"":""chat.completion"",""created"":1795558371,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261124_215144,2026-11-24T22:12:52.559963+00:00
+75f3d865e60ae8fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1993 Disney animated series ""Bonkers"", what is the name of Bonker's second partner?
+A. Dr. Ludwig von Drake
+B. Dick Tracy
+C. Eddie Valiant
+D. Miranda Wright
+Answer:","[""Dr. Ludwig von Drake"", ""Dick Tracy"", ""Eddie Valiant"", ""Miranda Wright""]",http,0.0,16,none,"{""id"":""chatcmpl-g08lu1pi20u18qvk346jsj"",""object"":""chat.completion"",""created"":1795558372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8897,,MarianeAzar,20261124_215144,2026-11-24T22:12:53.449905+00:00
+754758cb29f5053d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Velma Kelly and Roxie Hart are the protagonists of which Oscar winning movie?
+A. Chicago
+B. Dreamgirls
+C. All That Jazz
+D. Cabaret
+Answer:","[""Chicago"", ""Dreamgirls"", ""All That Jazz"", ""Cabaret""]",http,0.0,16,none,"{""id"":""chatcmpl-fkioy1avufkvwv1mm8ahc"",""object"":""chat.completion"",""created"":1795558373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8749,,MarianeAzar,20261124_215144,2026-11-24T22:12:54.325130+00:00
+754758cb29f5053d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Velma Kelly and Roxie Hart are the protagonists of which Oscar winning movie?
+A. Chicago
+B. Dreamgirls
+C. All That Jazz
+D. Cabaret
+Answer:","[""Chicago"", ""Dreamgirls"", ""All That Jazz"", ""Cabaret""]",http,0.0,16,none,"{""id"":""chatcmpl-oy1nqwi292erc66pevsifc"",""object"":""chat.completion"",""created"":1795558374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261124_215144,2026-11-24T22:12:55.185099+00:00
+8c33bf00452119a2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Yu-Gi-Oh, how does a player perform an Xyz Summon?
+A. Activate a Spell and Send Monsters to the Graveyard
+B. Overlay at least 2 Monsters of the Same Level
+C. Add the Monsters' Levels Together to Match the Xyz Monster
+D. Banish A Number of Monsters From Your Hand And Deck
+Answer:","[""Activate a Spell and Send Monsters to the Graveyard"", ""Overlay at least 2 Monsters of the Same Level"", ""Add the Monsters' Levels Together to Match the Xyz Monster"", ""Banish A Number of Monsters From Your Hand And Deck""]",http,0.0,16,none,"{""id"":""chatcmpl-gkg41sdu2i6r1hngzz7w4q"",""object"":""chat.completion"",""created"":1795558375,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9119,,MarianeAzar,20261124_215144,2026-11-24T22:12:56.097281+00:00
+8c33bf00452119a2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Yu-Gi-Oh, how does a player perform an Xyz Summon?
+A. Activate a Spell and Send Monsters to the Graveyard
+B. Overlay at least 2 Monsters of the Same Level
+C. Add the Monsters' Levels Together to Match the Xyz Monster
+D. Banish A Number of Monsters From Your Hand And Deck
+Answer:","[""Activate a Spell and Send Monsters to the Graveyard"", ""Overlay at least 2 Monsters of the Same Level"", ""Add the Monsters' Levels Together to Match the Xyz Monster"", ""Banish A Number of Monsters From Your Hand And Deck""]",http,0.0,16,none,"{""id"":""chatcmpl-xgoqlejbu4ogz3pqee3ons"",""object"":""chat.completion"",""created"":1795558376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9443,,MarianeAzar,20261124_215144,2026-11-24T22:12:57.041827+00:00
+f143b286b8f88d59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the indie adventure game ""Night in the Woods""?
+A. Tommy Refenes
+B. Ron Gilbert
+C. Tim Schafer
+D. Alec Holowka
+Answer:","[""Tommy Refenes"", ""Ron Gilbert"", ""Tim Schafer"", ""Alec Holowka""]",http,0.0,16,none,"{""id"":""chatcmpl-98p7hex6pvg66k0qbx35b7"",""object"":""chat.completion"",""created"":1795558376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8843,,MarianeAzar,20261124_215144,2026-11-24T22:12:57.926412+00:00
+f143b286b8f88d59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the indie adventure game ""Night in the Woods""?
+A. Tommy Refenes
+B. Ron Gilbert
+C. Tim Schafer
+D. Alec Holowka
+Answer:","[""Tommy Refenes"", ""Ron Gilbert"", ""Tim Schafer"", ""Alec Holowka""]",http,0.0,16,none,"{""id"":""chatcmpl-iv9ja9yyxrgknplr46lnm"",""object"":""chat.completion"",""created"":1795558377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261124_215144,2026-11-24T22:12:58.787860+00:00
+acfee29886f600ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main villain in Bendy and the ink machine?
+A. Bendy
+B. Alice
+C. Joey Drew
+D. Boris
+Answer:","[""Bendy"", ""Alice"", ""Joey Drew"", ""Boris""]",http,0.0,16,none,"{""id"":""chatcmpl-nzivzjhio82v31wzs6d12"",""object"":""chat.completion"",""created"":1795558378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261124_215144,2026-11-24T22:12:59.640860+00:00
+acfee29886f600ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main villain in Bendy and the ink machine?
+A. Bendy
+B. Alice
+C. Joey Drew
+D. Boris
+Answer:","[""Bendy"", ""Alice"", ""Joey Drew"", ""Boris""]",http,0.0,16,none,"{""id"":""chatcmpl-6e0jc1qkd8kln2vbtw4ef"",""object"":""chat.completion"",""created"":1795558379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261124_215144,2026-11-24T22:13:00.497039+00:00
+e1a8cb642c30d00c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Japanese folklore, what is the favorite food of the Kappa.
+A. Soba
+B. Cucumbers
+C. Kabocha
+D. Nasu
+Answer:","[""Soba"", ""Cucumbers"", ""Kabocha"", ""Nasu""]",http,0.0,16,none,"{""id"":""chatcmpl-tq9wd4l9vildqeoguwtzfg"",""object"":""chat.completion"",""created"":1795558380,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261124_215144,2026-11-24T22:13:01.362922+00:00
+e1a8cb642c30d00c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Japanese folklore, what is the favorite food of the Kappa.
+A. Soba
+B. Cucumbers
+C. Kabocha
+D. Nasu
+Answer:","[""Soba"", ""Cucumbers"", ""Kabocha"", ""Nasu""]",http,0.0,16,none,"{""id"":""chatcmpl-wskfxw1i16w9j1xcbylj"",""object"":""chat.completion"",""created"":1795558381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261124_215144,2026-11-24T22:13:02.229129+00:00
+1a46403c74a3a813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a summon in the game ""South Park: The Stick of Truth""?
+A. Towelie
+B. Mr. Hankey
+C. Mr. Slave
+D. Jesus
+Answer:","[""Towelie"", ""Mr. Hankey"", ""Mr. Slave"", ""Jesus""]",http,0.0,16,none,"{""id"":""chatcmpl-98dear25ynhkedni6hvoym"",""object"":""chat.completion"",""created"":1795558382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261124_215144,2026-11-24T22:13:03.093800+00:00

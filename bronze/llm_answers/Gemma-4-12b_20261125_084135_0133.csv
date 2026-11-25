@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d4be730a84f0cd8d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Touhou Project series of games is often associated with which genre?
+A. FPS
+B. Shoot 'em up
+C. Strategy
+D. Casual
+Answer:","[""FPS"", ""Shoot 'em up"", ""Strategy"", ""Casual""]",http,0.0,16,none,"{""id"":""chatcmpl-h4lcu0melebgtv5urf38ck"",""object"":""chat.completion"",""created"":1795595740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:35:41.917289+00:00
+62c99812f402b512,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: George Clinton, Vice President of the United States (1805-1812), is an ancestor of President Bill Clinton.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c0let24utntayh8phi9095"",""object"":""chat.completion"",""created"":1795595741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.825,,MarianeAzar,20261125_084135,2026-11-25T08:35:42.742474+00:00
+62c99812f402b512,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: George Clinton, Vice President of the United States (1805-1812), is an ancestor of President Bill Clinton.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kce59kpksh84m0u2ua4izj"",""object"":""chat.completion"",""created"":1795595742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261125_084135,2026-11-25T08:35:43.588534+00:00
+8f1c8db75b4f89f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What M83 was featured in Grand Theft Auto V's radio?
+A. Reunion
+B. Wait
+C. Midnight City
+D. Outro
+Answer:","[""Reunion"", ""Wait"", ""Midnight City"", ""Outro""]",http,0.0,16,none,"{""id"":""chatcmpl-fk6aeaw2op7tf7ytgkyu0a"",""object"":""chat.completion"",""created"":1795595743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T08:35:44.458084+00:00
+8f1c8db75b4f89f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What M83 was featured in Grand Theft Auto V's radio?
+A. Reunion
+B. Wait
+C. Midnight City
+D. Outro
+Answer:","[""Reunion"", ""Wait"", ""Midnight City"", ""Outro""]",http,0.0,16,none,"{""id"":""chatcmpl-4pjvka1069rnsdcg8ue0se"",""object"":""chat.completion"",""created"":1795595743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T08:35:45.328793+00:00
+6c69985aa7b1b86f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was O.J. Simpson aquitted of his murder charges?
+A. 1992
+B. 1996
+C. 1995
+D. 1991
+Answer:","[""1992"", ""1996"", ""1995"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-7prgyo3zenuyxrpljubu1c"",""object"":""chat.completion"",""created"":1795595744,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8675,,MarianeAzar,20261125_084135,2026-11-25T08:35:46.197111+00:00
+6c69985aa7b1b86f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was O.J. Simpson aquitted of his murder charges?
+A. 1992
+B. 1996
+C. 1995
+D. 1991
+Answer:","[""1992"", ""1996"", ""1995"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-q0na7st4hz9zpvajedw8m"",""object"":""chat.completion"",""created"":1795595745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261125_084135,2026-11-25T08:35:47.080519+00:00
+b22982187a847dce,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brazil used to be an empire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mf5hlxjhtxq7cwwj48qxq"",""object"":""chat.completion"",""created"":1795595746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8101,,MarianeAzar,20261125_084135,2026-11-25T08:35:47.891004+00:00
+b22982187a847dce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Brazil used to be an empire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i11sv3js6meyi9j7r9x9w"",""object"":""chat.completion"",""created"":1795595747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8143,,MarianeAzar,20261125_084135,2026-11-25T08:35:48.705549+00:00
+c954369542db0294,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Former president Theodore Roosevelt (1900-1908) ran for another term under the Progressive Party in 1912.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ckt64bow4d9w2j22buu1u"",""object"":""chat.completion"",""created"":1795595748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8176,,MarianeAzar,20261125_084135,2026-11-25T08:35:49.523303+00:00
+c954369542db0294,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Former president Theodore Roosevelt (1900-1908) ran for another term under the Progressive Party in 1912.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wtn2ax7unbtk8m7bliylj"",""object"":""chat.completion"",""created"":1795595748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T08:35:50.374844+00:00
+6eff7b45dfeca2c0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game ""Pocket Morty"" has a Morty called ""Pocket Mortys Morty""?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a27tk6sj2bgp0qpfbq1ce"",""object"":""chat.completion"",""created"":1795595749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8161,,MarianeAzar,20261125_084135,2026-11-25T08:35:51.191556+00:00
+6eff7b45dfeca2c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game ""Pocket Morty"" has a Morty called ""Pocket Mortys Morty""?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dnpienjjcejfcln1r1drwo"",""object"":""chat.completion"",""created"":1795595750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.82,,MarianeAzar,20261125_084135,2026-11-25T08:35:52.011663+00:00
+a930ab7fd5a1ebe2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won the ""Tom Clancy's Rainbow Six Siege"" Invitational Event February 2017 in the PC Category?
+A. GIFU
+B. Continuum
+C. Santos Dexterity
+D. eRa Eternity
+Answer:","[""GIFU"", ""Continuum"", ""Santos Dexterity"", ""eRa Eternity""]",http,0.0,16,none,"{""id"":""chatcmpl-8mhfa59cfsgt26gr5vfk9"",""object"":""chat.completion"",""created"":1795595751,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:35:52.916712+00:00
+a930ab7fd5a1ebe2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won the ""Tom Clancy's Rainbow Six Siege"" Invitational Event February 2017 in the PC Category?
+A. GIFU
+B. Continuum
+C. Santos Dexterity
+D. eRa Eternity
+Answer:","[""GIFU"", ""Continuum"", ""Santos Dexterity"", ""eRa Eternity""]",http,0.0,16,none,"{""id"":""chatcmpl-uciohla0v4sf028ey04uf"",""object"":""chat.completion"",""created"":1795595752,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8881,,MarianeAzar,20261125_084135,2026-11-25T08:35:53.805072+00:00
+ec11cfe40f2d6408,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal is featured on the cover of English electronic music group The Prodigy's album, ""The Fat of the Land""?
+A. Fox
+B. Elephant
+C. Tiger
+D. Crab
+Answer:","[""Fox"", ""Elephant"", ""Tiger"", ""Crab""]",http,0.0,16,none,"{""id"":""chatcmpl-yqwza6sgsccq0grrnsm0v"",""object"":""chat.completion"",""created"":1795595753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:35:54.662747+00:00
+ec11cfe40f2d6408,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal is featured on the cover of English electronic music group The Prodigy's album, ""The Fat of the Land""?
+A. Fox
+B. Elephant
+C. Tiger
+D. Crab
+Answer:","[""Fox"", ""Elephant"", ""Tiger"", ""Crab""]",http,0.0,16,none,"{""id"":""chatcmpl-0g7omw2jsbglzlkdfgyfn0f"",""object"":""chat.completion"",""created"":1795595754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8964,,MarianeAzar,20261125_084135,2026-11-25T08:35:55.559556+00:00
+48a2b9673111598e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the opening track on Lorde's Pure Heroine?
+A. Tennis Court
+B. 400 Lux
+C. Team
+D. Royals
+Answer:","[""Tennis Court"", ""400 Lux"", ""Team"", ""Royals""]",http,0.0,16,none,"{""id"":""chatcmpl-jo38brpcmosmmtflxkvn4"",""object"":""chat.completion"",""created"":1795595754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:35:56.421668+00:00
+48a2b9673111598e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the opening track on Lorde's Pure Heroine?
+A. Tennis Court
+B. 400 Lux
+C. Team
+D. Royals
+Answer:","[""Tennis Court"", ""400 Lux"", ""Team"", ""Royals""]",http,0.0,16,none,"{""id"":""chatcmpl-wec916xyqe1eyxd46roe1"",""object"":""chat.completion"",""created"":1795595755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:35:57.281041+00:00
+054b80b54d4b3984,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What zodiac sign is represented by a pair of scales?
+A. Sagittarius
+B. Aries
+C. Capricorn
+D. Libra
+Answer:","[""Sagittarius"", ""Aries"", ""Capricorn"", ""Libra""]",http,0.0,16,none,"{""id"":""chatcmpl-dtrbarmdpln45kj4fniwzy"",""object"":""chat.completion"",""created"":1795595756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T08:35:58.157909+00:00
+054b80b54d4b3984,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What zodiac sign is represented by a pair of scales?
+A. Sagittarius
+B. Aries
+C. Capricorn
+D. Libra
+Answer:","[""Sagittarius"", ""Aries"", ""Capricorn"", ""Libra""]",http,0.0,16,none,"{""id"":""chatcmpl-1weg2n6wunwcy67h64jvcc"",""object"":""chat.completion"",""created"":1795595757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T08:35:59.008513+00:00
+700d56f22a510db3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Tetsuya Fujita was a scientist that developed the scale for which natural disaster?
+A. Hurricanes
+B. Tornadoes
+C. Volcanoes
+D. Earthquakes
+Answer:","[""Hurricanes"", ""Tornadoes"", ""Volcanoes"", ""Earthquakes""]",http,0.0,16,none,"{""id"":""chatcmpl-ydwv7z2ug6hk6fd2igu3en"",""object"":""chat.completion"",""created"":1795595758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261125_084135,2026-11-25T08:35:59.860043+00:00
+700d56f22a510db3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Tetsuya Fujita was a scientist that developed the scale for which natural disaster?
+A. Hurricanes
+B. Tornadoes
+C. Volcanoes
+D. Earthquakes
+Answer:","[""Hurricanes"", ""Tornadoes"", ""Volcanoes"", ""Earthquakes""]",http,0.0,16,none,"{""id"":""chatcmpl-dikbg314y2u7jxjv0qjt9"",""object"":""chat.completion"",""created"":1795595759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261125_084135,2026-11-25T08:36:00.723124+00:00
+df9b41d81ddc7a78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the punishment for playing Postal 2 in New Zealand?
+A. 10 years in prison and a fine of $50,000
+B. Fine of $5,000
+C. Nothing
+D. 15 years in prison and a fine of $10,000
+Answer:","[""10 years in prison and a fine of $50,000"", ""Fine of $5,000"", ""Nothing"", ""15 years in prison and a fine of $10,000""]",http,0.0,16,none,"{""id"":""chatcmpl-m0syme5152q4vtaatmzeu9"",""object"":""chat.completion"",""created"":1795595760,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8979,,MarianeAzar,20261125_084135,2026-11-25T08:36:01.621427+00:00
+df9b41d81ddc7a78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the punishment for playing Postal 2 in New Zealand?
+A. 10 years in prison and a fine of $50,000
+B. Fine of $5,000
+C. Nothing
+D. 15 years in prison and a fine of $10,000
+Answer:","[""10 years in prison and a fine of $50,000"", ""Fine of $5,000"", ""Nothing"", ""15 years in prison and a fine of $10,000""]",http,0.0,16,none,"{""id"":""chatcmpl-7a8g85zqyar8gak89scw7d"",""object"":""chat.completion"",""created"":1795595761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9171,,MarianeAzar,20261125_084135,2026-11-25T08:36:02.538809+00:00

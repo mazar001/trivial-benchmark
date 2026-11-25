@@ -1,0 +1,168 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1c8e7851fa123b14,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Racko"" you may pick up ANY card from the discard pile.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ougtzytabeqnjh69sybe9"",""object"":""chat.completion"",""created"":1795554192,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8092,,MarianeAzar,20261124_215144,2026-11-24T21:03:13.031483+00:00
+1c8e7851fa123b14,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game ""Racko"" you may pick up ANY card from the discard pile.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-647g41xrd9p3seit57gq"",""object"":""chat.completion"",""created"":1795554192,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8429,,MarianeAzar,20261124_215144,2026-11-24T21:03:13.874552+00:00
+52ed966b71abb843,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the primary addictive substance found in tobacco?
+A. Glaucine
+B. Cathinone
+C. Ephedrine
+D. Nicotine
+Answer:","[""Glaucine"", ""Cathinone"", ""Ephedrine"", ""Nicotine""]",http,0.0,16,none,"{""id"":""chatcmpl-gef60r92ht0aswjl2823ed"",""object"":""chat.completion"",""created"":1795554193,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261124_215144,2026-11-24T21:03:14.724304+00:00
+52ed966b71abb843,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the primary addictive substance found in tobacco?
+A. Glaucine
+B. Cathinone
+C. Ephedrine
+D. Nicotine
+Answer:","[""Glaucine"", ""Cathinone"", ""Ephedrine"", ""Nicotine""]",http,0.0,16,none,"{""id"":""chatcmpl-xjpxoeqkljaisagfnzqsce"",""object"":""chat.completion"",""created"":1795554194,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261124_215144,2026-11-24T21:03:15.584959+00:00
+a3795874587292e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the frontman's name of the metal band Megadeth?
+A. James Hetfield
+B. Vince Neil
+C. Rob Halford
+D. Dave Mustaine
+Answer:","[""James Hetfield"", ""Vince Neil"", ""Rob Halford"", ""Dave Mustaine""]",http,0.0,16,none,"{""id"":""chatcmpl-6sjeaotj8h7f2by5ws7wvk"",""object"":""chat.completion"",""created"":1795554195,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9017,,MarianeAzar,20261124_215144,2026-11-24T21:03:16.486972+00:00
+a3795874587292e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the frontman's name of the metal band Megadeth?
+A. James Hetfield
+B. Vince Neil
+C. Rob Halford
+D. Dave Mustaine
+Answer:","[""James Hetfield"", ""Vince Neil"", ""Rob Halford"", ""Dave Mustaine""]",http,0.0,16,none,"{""id"":""chatcmpl-gfc3er34iybugj26mknkuo"",""object"":""chat.completion"",""created"":1795554196,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261124_215144,2026-11-24T21:03:17.349391+00:00
+bc780cb1963d4325,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ashley Frangipane performs under the stage name Halsey.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0lm2q28uwiw4cjylb06nsi"",""object"":""chat.completion"",""created"":1795554197,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7943,,MarianeAzar,20261124_215144,2026-11-24T21:03:18.143837+00:00
+bc780cb1963d4325,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ashley Frangipane performs under the stage name Halsey.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xi9tu2076rm4oheuafa5g"",""object"":""chat.completion"",""created"":1795554198,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8281,,MarianeAzar,20261124_215144,2026-11-24T21:03:18.972179+00:00
+9768e1abd7e0a822,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What otherworldly land does Thor come from?
+A. Asgard
+B. Midgard
+C. Jotunheim
+D. Sovengarde
+Answer:","[""Asgard"", ""Midgard"", ""Jotunheim"", ""Sovengarde""]",http,0.0,16,none,"{""id"":""chatcmpl-abm4pdg454vbjv14evjlof"",""object"":""chat.completion"",""created"":1795554198,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8445,,MarianeAzar,20261124_215144,2026-11-24T21:03:19.817015+00:00
+9768e1abd7e0a822,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What otherworldly land does Thor come from?
+A. Asgard
+B. Midgard
+C. Jotunheim
+D. Sovengarde
+Answer:","[""Asgard"", ""Midgard"", ""Jotunheim"", ""Sovengarde""]",http,0.0,16,none,"{""id"":""chatcmpl-k9atjqgidtl5qf3pnti0b6"",""object"":""chat.completion"",""created"":1795554199,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.868,,MarianeAzar,20261124_215144,2026-11-24T21:03:20.685289+00:00
+b39b8a02557ca681,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?
+A. Sandra
+B. Erica
+C. Jessica
+D. Angela
+Answer:","[""Sandra"", ""Erica"", ""Jessica"", ""Angela""]",http,0.0,16,none,"{""id"":""chatcmpl-9unreyqxsuwj78j6i5fkt"",""object"":""chat.completion"",""created"":1795554200,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261124_215144,2026-11-24T21:03:21.548453+00:00
+b39b8a02557ca681,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the title of The Allman Brothers Band instrumental used as the theme to the BBC motoring show, 'Top Gear'?
+A. Sandra
+B. Erica
+C. Jessica
+D. Angela
+Answer:","[""Sandra"", ""Erica"", ""Jessica"", ""Angela""]",http,0.0,16,none,"{""id"":""chatcmpl-ump2v05vhos1ci3x8yasg"",""object"":""chat.completion"",""created"":1795554201,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8812,,MarianeAzar,20261124_215144,2026-11-24T21:03:22.429914+00:00
+3c00e870195af38d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Sleepyhead"" is the debut single from which Electronic band?
+A. Kraftwerk
+B. The Chemical Brothers
+C. LadyTron
+D. Passion Pit
+Answer:","[""Kraftwerk"", ""The Chemical Brothers"", ""LadyTron"", ""Passion Pit""]",http,0.0,16,none,"{""id"":""chatcmpl-ygct1pdh8594jn87vy2ge6"",""object"":""chat.completion"",""created"":1795554202,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9118,,MarianeAzar,20261124_215144,2026-11-24T21:03:23.342121+00:00
+3c00e870195af38d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Sleepyhead"" is the debut single from which Electronic band?
+A. Kraftwerk
+B. The Chemical Brothers
+C. LadyTron
+D. Passion Pit
+Answer:","[""Kraftwerk"", ""The Chemical Brothers"", ""LadyTron"", ""Passion Pit""]",http,0.0,16,none,"{""id"":""chatcmpl-3z1rgeqfn8kkjy3xs4cvm"",""object"":""chat.completion"",""created"":1795554203,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261124_215144,2026-11-24T21:03:24.210209+00:00
+61b68f78ebc1a9e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Hz does the video standard PAL support?
+A. 50
+B. 59
+C. 60
+D. 25
+Answer:","[""50"", ""59"", ""60"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-upr6kuojwkeiqsqw6p0q"",""object"":""chat.completion"",""created"":1795554204,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8424,,MarianeAzar,20261124_215144,2026-11-24T21:03:25.052800+00:00
+61b68f78ebc1a9e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Hz does the video standard PAL support?
+A. 50
+B. 59
+C. 60
+D. 25
+Answer:","[""50"", ""59"", ""60"", ""25""]",http,0.0,16,none,"{""id"":""chatcmpl-wbms6ncm4n6oyq5rd0uk"",""object"":""chat.completion"",""created"":1795554204,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261124_215144,2026-11-24T21:03:25.907263+00:00
+d2ab2f1efdd15781,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the lore of ""Starbound"", what does the ""Colony Deed"" do when it is placed down?
+A. Sends out an advertisement for someone to move in.
+B. Teleports a random person to the location.
+C. Teleports somebody from somewhere on the planet it is placed.
+D. Materializes a new being at it's location.
+Answer:","[""Sends out an advertisement for someone to move in."", ""Teleports a random person to the location."", ""Teleports somebody from somewhere on the planet it is placed."", ""Materializes a new being at it's location.""]",http,0.0,16,none,"{""id"":""chatcmpl-nzg1zyw2xfaorozgxbayl"",""object"":""chat.completion"",""created"":1795554205,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9214,,MarianeAzar,20261124_215144,2026-11-24T21:03:26.828981+00:00
+d2ab2f1efdd15781,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the lore of ""Starbound"", what does the ""Colony Deed"" do when it is placed down?
+A. Sends out an advertisement for someone to move in.
+B. Teleports a random person to the location.
+C. Teleports somebody from somewhere on the planet it is placed.
+D. Materializes a new being at it's location.
+Answer:","[""Sends out an advertisement for someone to move in."", ""Teleports a random person to the location."", ""Teleports somebody from somewhere on the planet it is placed."", ""Materializes a new being at it's location.""]",http,0.0,16,none,"{""id"":""chatcmpl-uzveqy2vepowtofdycb2o"",""object"":""chat.completion"",""created"":1795554206,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":139,""completion_tokens"":2,""total_tokens"":141,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0234,,MarianeAzar,20261124_215144,2026-11-24T21:03:27.852609+00:00
+f1abbb7f7e4d4017,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these films are shot entirely in one-take?
+A. Schindler's List
+B. Good Will Hunting
+C. Birdman
+D. Russian Ark
+Answer:","[""Schindler's List"", ""Good Will Hunting"", ""Birdman"", ""Russian Ark""]",http,0.0,16,none,"{""id"":""chatcmpl-4kyrya9oh0sbxmobp5e5lp"",""object"":""chat.completion"",""created"":1795554207,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9216,,MarianeAzar,20261124_215144,2026-11-24T21:03:28.774443+00:00
+f1abbb7f7e4d4017,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these films are shot entirely in one-take?
+A. Schindler's List
+B. Good Will Hunting
+C. Birdman
+D. Russian Ark
+Answer:","[""Schindler's List"", ""Good Will Hunting"", ""Birdman"", ""Russian Ark""]",http,0.0,16,none,"{""id"":""chatcmpl-u3o7k7w7ytic128scxhj29"",""object"":""chat.completion"",""created"":1795554208,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8797,,MarianeAzar,20261124_215144,2026-11-24T21:03:29.654471+00:00
+f8e30e45a8e58c99,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the YouTuber ""SinowBeats"" originate from?
+A. Germany
+B. Sweden
+C. England
+D. Scotland
+Answer:","[""Germany"", ""Sweden"", ""England"", ""Scotland""]",http,0.0,16,none,"{""id"":""chatcmpl-3zx1w6tbqsrnod3i0y5yue"",""object"":""chat.completion"",""created"":1795554209,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8457,,MarianeAzar,20261124_215144,2026-11-24T21:03:30.501001+00:00
+f8e30e45a8e58c99,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the YouTuber ""SinowBeats"" originate from?
+A. Germany
+B. Sweden
+C. England
+D. Scotland
+Answer:","[""Germany"", ""Sweden"", ""England"", ""Scotland""]",http,0.0,16,none,"{""id"":""chatcmpl-38vid84h7ppkzixt206hbm"",""object"":""chat.completion"",""created"":1795554210,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.937,,MarianeAzar,20261124_215144,2026-11-24T21:03:31.438323+00:00
+571790a57f9cd81c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the Batman comic series ""The Killing Joke""?
+A. Bill Finger
+B. Alan Moore
+C. Frank Miller
+D. Jerry Siegel
+Answer:","[""Bill Finger"", ""Alan Moore"", ""Frank Miller"", ""Jerry Siegel""]",http,0.0,16,none,"{""id"":""chatcmpl-9oo80qhzcc4gknn2tis6de"",""object"":""chat.completion"",""created"":1795554211,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261124_215144,2026-11-24T21:03:32.289524+00:00
+571790a57f9cd81c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the Batman comic series ""The Killing Joke""?
+A. Bill Finger
+B. Alan Moore
+C. Frank Miller
+D. Jerry Siegel
+Answer:","[""Bill Finger"", ""Alan Moore"", ""Frank Miller"", ""Jerry Siegel""]",http,0.0,16,none,"{""id"":""chatcmpl-hbjs48u3di886h02verk4u"",""object"":""chat.completion"",""created"":1795554212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261124_215144,2026-11-24T21:03:33.147856+00:00
+a3eb5ba1addec2e4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The open source program Redis is a relational database server.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jgld1aumgagdyfm6q9omd"",""object"":""chat.completion"",""created"":1795554213,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.801,,MarianeAzar,20261124_215144,2026-11-24T21:03:33.949003+00:00

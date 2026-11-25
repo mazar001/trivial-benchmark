@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5957fb1711f1d662,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the CD begin to appear on the consumer market?
+A. 1972
+B. 1992
+C. 1982
+D. 1962
+Answer:","[""1972"", ""1992"", ""1982"", ""1962""]",http,0.0,16,none,"{""id"":""chatcmpl-qqh1bf8oxulg01n8gap80c"",""object"":""chat.completion"",""created"":1795593602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8915,,MarianeAzar,20261125_084135,2026-11-25T08:00:04.191855+00:00
+797798bd98e669ee,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The S in Harry S. Truman stands for ""Samuel"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bf8ynpclvae07ilevoddo0o"",""object"":""chat.completion"",""created"":1795593603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8287,,MarianeAzar,20261125_084135,2026-11-25T08:00:05.020788+00:00
+797798bd98e669ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The S in Harry S. Truman stands for ""Samuel"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-264dv7wtdee8oged5ny0xd"",""object"":""chat.completion"",""created"":1795593604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:00:05.886786+00:00
+8f6d1555a2e45bea,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these ""Mortal Kombat"" characters has been playable in every single mainline game?
+A. Sub-Zero
+B. Liu Kang
+C. Raiden
+D. Scorpion
+Answer:","[""Sub-Zero"", ""Liu Kang"", ""Raiden"", ""Scorpion""]",http,0.0,16,none,"{""id"":""chatcmpl-zdim3cyk38i8iw1saptlzm"",""object"":""chat.completion"",""created"":1795593605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:00:06.750623+00:00
+8f6d1555a2e45bea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these ""Mortal Kombat"" characters has been playable in every single mainline game?
+A. Sub-Zero
+B. Liu Kang
+C. Raiden
+D. Scorpion
+Answer:","[""Sub-Zero"", ""Liu Kang"", ""Raiden"", ""Scorpion""]",http,0.0,16,none,"{""id"":""chatcmpl-20hrq19oak7z5e6mcym9q"",""object"":""chat.completion"",""created"":1795593606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8892,,MarianeAzar,20261125_084135,2026-11-25T08:00:07.640147+00:00
+9d08f1c05f69687b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dota 2, Wraith King was previously known as...
+A. Reaper King
+B. Hell King
+C. Skull King
+D. Skeleton King
+Answer:","[""Reaper King"", ""Hell King"", ""Skull King"", ""Skeleton King""]",http,0.0,16,none,"{""id"":""chatcmpl-eio2418ixlcydwkypdqyl8"",""object"":""chat.completion"",""created"":1795593607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9989,,MarianeAzar,20261125_084135,2026-11-25T08:00:08.639550+00:00
+9d08f1c05f69687b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dota 2, Wraith King was previously known as...
+A. Reaper King
+B. Hell King
+C. Skull King
+D. Skeleton King
+Answer:","[""Reaper King"", ""Hell King"", ""Skull King"", ""Skeleton King""]",http,0.0,16,none,"{""id"":""chatcmpl-suhv9uh76dqzmvzdz2ofsj"",""object"":""chat.completion"",""created"":1795593608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.869,,MarianeAzar,20261125_084135,2026-11-25T08:00:09.508850+00:00
+4be58b5f458afec9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The body of the Egyptian Sphinx was based on which animal?
+A. Lion
+B. Dog
+C. Bull
+D. Horse
+Answer:","[""Lion"", ""Dog"", ""Bull"", ""Horse""]",http,0.0,16,none,"{""id"":""chatcmpl-72va5ff9azqz39ulsy2wg8"",""object"":""chat.completion"",""created"":1795593608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8553,,MarianeAzar,20261125_084135,2026-11-25T08:00:10.364455+00:00
+4be58b5f458afec9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The body of the Egyptian Sphinx was based on which animal?
+A. Lion
+B. Dog
+C. Bull
+D. Horse
+Answer:","[""Lion"", ""Dog"", ""Bull"", ""Horse""]",http,0.0,16,none,"{""id"":""chatcmpl-t84mxgv7a097jiah2jirz3"",""object"":""chat.completion"",""created"":1795593609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8447,,MarianeAzar,20261125_084135,2026-11-25T08:00:11.209322+00:00
+cc69e61010884bed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first ever episode of Family Guy, ""Death Has A Shadow,"" aired on January 1st, 2002.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xr24hssa91i2k46zruvfa"",""object"":""chat.completion"",""created"":1795593610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8872,,MarianeAzar,20261125_084135,2026-11-25T08:00:12.096668+00:00
+cc69e61010884bed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first ever episode of Family Guy, ""Death Has A Shadow,"" aired on January 1st, 2002.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-04yuqzzay8plr2u7su8o80a"",""object"":""chat.completion"",""created"":1795593611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8477,,MarianeAzar,20261125_084135,2026-11-25T08:00:12.944512+00:00
+f46d775c7e9de82b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Roman gods doesn't have a counterpart in Greek mythology?
+A. Mars
+B. Janus
+C. Juno
+D. Vulcan
+Answer:","[""Mars"", ""Janus"", ""Juno"", ""Vulcan""]",http,0.0,16,none,"{""id"":""chatcmpl-p65u1vt8hskkioxqupmwh"",""object"":""chat.completion"",""created"":1795593612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261125_084135,2026-11-25T08:00:13.803329+00:00
+f46d775c7e9de82b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Roman gods doesn't have a counterpart in Greek mythology?
+A. Mars
+B. Janus
+C. Juno
+D. Vulcan
+Answer:","[""Mars"", ""Janus"", ""Juno"", ""Vulcan""]",http,0.0,16,none,"{""id"":""chatcmpl-rzctnsfk00lzl5znejp2n"",""object"":""chat.completion"",""created"":1795593613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T08:00:14.653879+00:00
+89d36c8baf4bb138,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Scooby Doo's full name?
+A. Scoobity Doo
+B. Scooby Dooby Doo
+C. Scooter Doo
+D. Scoobert Doo
+Answer:","[""Scoobity Doo"", ""Scooby Dooby Doo"", ""Scooter Doo"", ""Scoobert Doo""]",http,0.0,16,none,"{""id"":""chatcmpl-nau1o717w3qmpmvk026q5"",""object"":""chat.completion"",""created"":1795593614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8735,,MarianeAzar,20261125_084135,2026-11-25T08:00:15.527563+00:00
+89d36c8baf4bb138,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Scooby Doo's full name?
+A. Scoobity Doo
+B. Scooby Dooby Doo
+C. Scooter Doo
+D. Scoobert Doo
+Answer:","[""Scoobity Doo"", ""Scooby Dooby Doo"", ""Scooter Doo"", ""Scoobert Doo""]",http,0.0,16,none,"{""id"":""chatcmpl-trufijkotwrfypenzzlw5o"",""object"":""chat.completion"",""created"":1795593614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8974,,MarianeAzar,20261125_084135,2026-11-25T08:00:16.425086+00:00
+4ccad9decab96326,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these was not a beach landing site in the Invasion of Normandy?
+A. Juno
+B. Gold
+C. Sword
+D. Silver
+Answer:","[""Juno"", ""Gold"", ""Sword"", ""Silver""]",http,0.0,16,none,"{""id"":""chatcmpl-391cth5u1su3ifdp8iylvy"",""object"":""chat.completion"",""created"":1795593615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:00:17.284766+00:00
+4ccad9decab96326,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these was not a beach landing site in the Invasion of Normandy?
+A. Juno
+B. Gold
+C. Sword
+D. Silver
+Answer:","[""Juno"", ""Gold"", ""Sword"", ""Silver""]",http,0.0,16,none,"{""id"":""chatcmpl-d7ah0dbxj4c00cr66osrzm0l"",""object"":""chat.completion"",""created"":1795593616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8766,,MarianeAzar,20261125_084135,2026-11-25T08:00:18.161625+00:00
+a4310a190e726db5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the ocean that Hawaii is located in?
+A. Atlantic
+B. Pacific
+C. Arctic
+D. Indian
+Answer:","[""Atlantic"", ""Pacific"", ""Arctic"", ""Indian""]",http,0.0,16,none,"{""id"":""chatcmpl-4pitw6m67t717bcy4zh4se"",""object"":""chat.completion"",""created"":1795593617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.863,,MarianeAzar,20261125_084135,2026-11-25T08:00:19.024797+00:00
+a4310a190e726db5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the ocean that Hawaii is located in?
+A. Atlantic
+B. Pacific
+C. Arctic
+D. Indian
+Answer:","[""Atlantic"", ""Pacific"", ""Arctic"", ""Indian""]",http,0.0,16,none,"{""id"":""chatcmpl-duw3pbcdrzssbiv70n3jdk"",""object"":""chat.completion"",""created"":1795593618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9008,,MarianeAzar,20261125_084135,2026-11-25T08:00:19.925867+00:00
+9734557217a88e35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the SI unit for resistance?
+A. Siemens
+B. Ohms
+C. Volts
+D. Ampheres
+Answer:","[""Siemens"", ""Ohms"", ""Volts"", ""Ampheres""]",http,0.0,16,none,"{""id"":""chatcmpl-dh40ox6pv8frkwrfgejj9o"",""object"":""chat.completion"",""created"":1795593619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9341,,MarianeAzar,20261125_084135,2026-11-25T08:00:20.860330+00:00
+9734557217a88e35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the SI unit for resistance?
+A. Siemens
+B. Ohms
+C. Volts
+D. Ampheres
+Answer:","[""Siemens"", ""Ohms"", ""Volts"", ""Ampheres""]",http,0.0,16,none,"{""id"":""chatcmpl-5dnceqx2hmlgpbraiuietc"",""object"":""chat.completion"",""created"":1795593620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261125_084135,2026-11-25T08:00:21.746133+00:00
+7cb544b215e486c3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game did ""Sonic The Hedgehog"" make his first appearance in?
+A. Sonic The Hedgehog
+B. Mega Man
+C. Super Mario 64
+D. Rad Mobile
+Answer:","[""Sonic The Hedgehog"", ""Mega Man"", ""Super Mario 64"", ""Rad Mobile""]",http,0.0,16,none,"{""id"":""chatcmpl-yporu1nxnzj6pjmwt68fl"",""object"":""chat.completion"",""created"":1795593621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T08:00:22.593799+00:00
+7cb544b215e486c3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game did ""Sonic The Hedgehog"" make his first appearance in?
+A. Sonic The Hedgehog
+B. Mega Man
+C. Super Mario 64
+D. Rad Mobile
+Answer:","[""Sonic The Hedgehog"", ""Mega Man"", ""Super Mario 64"", ""Rad Mobile""]",http,0.0,16,none,"{""id"":""chatcmpl-qyau9msw3ufd4oe9t563s"",""object"":""chat.completion"",""created"":1795593622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T08:00:23.473081+00:00
+0a3118870e7d4bf2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the game ""Overwatch"" revealed?
+A. 2008
+B. 2014
+C. 2011
+D. 2015
+Answer:","[""2008"", ""2014"", ""2011"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-oz9eybzgl8fsahmervajr"",""object"":""chat.completion"",""created"":1795593622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9155,,MarianeAzar,20261125_084135,2026-11-25T08:00:24.388995+00:00
+0a3118870e7d4bf2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the game ""Overwatch"" revealed?
+A. 2008
+B. 2014
+C. 2011
+D. 2015
+Answer:","[""2008"", ""2014"", ""2011"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-6my29e9unvyq9sag70vl7"",""object"":""chat.completion"",""created"":1795593623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8941,,MarianeAzar,20261125_084135,2026-11-25T08:00:25.283367+00:00

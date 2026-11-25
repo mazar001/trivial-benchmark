@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c438cca73f53e3e5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Abraham Lincoln was the first U.S. President to be born outside the borders of the thirteen original states.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jgkxg2lzumda7bx8t7i1qv"",""object"":""chat.completion"",""created"":1795596988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.812,,MarianeAzar,20261125_084135,2026-11-25T08:56:29.689200+00:00
+c438cca73f53e3e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Abraham Lincoln was the first U.S. President to be born outside the borders of the thirteen original states.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nxkcgf4bda5lrww81943i"",""object"":""chat.completion"",""created"":1795596989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8407,,MarianeAzar,20261125_084135,2026-11-25T08:56:30.530126+00:00
+1c13e37368b9ee68,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A minotaur is half human half what?
+A. Cow
+B. Horse
+C. Bull
+D. Eagle
+Answer:","[""Cow"", ""Horse"", ""Bull"", ""Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-v5p5a4octpypjx486s88"",""object"":""chat.completion"",""created"":1795596989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.847,,MarianeAzar,20261125_084135,2026-11-25T08:56:31.377652+00:00
+1c13e37368b9ee68,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A minotaur is half human half what?
+A. Cow
+B. Horse
+C. Bull
+D. Eagle
+Answer:","[""Cow"", ""Horse"", ""Bull"", ""Eagle""]",http,0.0,16,none,"{""id"":""chatcmpl-6on2jzp1jupl2csdahhnp8"",""object"":""chat.completion"",""created"":1795596990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9495,,MarianeAzar,20261125_084135,2026-11-25T08:56:32.327343+00:00
+10627057ad5c1abb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which greek mathematician ran through the streets of Syracuse naked while shouting ""Eureka"" after discovering the principle of displacement?
+A. Homer
+B. Archimedes
+C. Euclid
+D. Eratosthenes
+Answer:","[""Homer"", ""Archimedes"", ""Euclid"", ""Eratosthenes""]",http,0.0,16,none,"{""id"":""chatcmpl-wr24btmy1pcbess2ulxm4"",""object"":""chat.completion"",""created"":1795596991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:56:33.192465+00:00
+10627057ad5c1abb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which greek mathematician ran through the streets of Syracuse naked while shouting ""Eureka"" after discovering the principle of displacement?
+A. Homer
+B. Archimedes
+C. Euclid
+D. Eratosthenes
+Answer:","[""Homer"", ""Archimedes"", ""Euclid"", ""Eratosthenes""]",http,0.0,16,none,"{""id"":""chatcmpl-qllzd9jiksa9drygvplmx9"",""object"":""chat.completion"",""created"":1795596992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T08:56:34.068978+00:00
+254aa4b3a6fc627e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What vulnerability ranked #1 on the OWASP Top 10 in 2013?
+A. Insecure Direct Object References
+B. Injection
+C. Broken Authentication
+D. Cross-Site Scripting
+Answer:","[""Insecure Direct Object References"", ""Injection"", ""Broken Authentication"", ""Cross-Site Scripting""]",http,0.0,16,none,"{""id"":""chatcmpl-to1dtfli6qbxafww75lht"",""object"":""chat.completion"",""created"":1795596993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261125_084135,2026-11-25T08:56:34.929682+00:00
+254aa4b3a6fc627e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What vulnerability ranked #1 on the OWASP Top 10 in 2013?
+A. Insecure Direct Object References
+B. Injection
+C. Broken Authentication
+D. Cross-Site Scripting
+Answer:","[""Insecure Direct Object References"", ""Injection"", ""Broken Authentication"", ""Cross-Site Scripting""]",http,0.0,16,none,"{""id"":""chatcmpl-h13mucasckk7k2c7keikwt"",""object"":""chat.completion"",""created"":1795596994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T08:56:35.842539+00:00
+f0fb8b4486c21e88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?
+A. Andy Gibb
+B. Billy Joel
+C. Leo Sayer
+D. Elton John
+Answer:","[""Andy Gibb"", ""Billy Joel"", ""Leo Sayer"", ""Elton John""]",http,0.0,16,none,"{""id"":""chatcmpl-lqojqfm4qb8p1f3bllyvg"",""object"":""chat.completion"",""created"":1795596995,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T08:56:36.703966+00:00
+f0fb8b4486c21e88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?
+A. Andy Gibb
+B. Billy Joel
+C. Leo Sayer
+D. Elton John
+Answer:","[""Andy Gibb"", ""Billy Joel"", ""Leo Sayer"", ""Elton John""]",http,0.0,16,none,"{""id"":""chatcmpl-1jmr9671k18l9daoqjgcf"",""object"":""chat.completion"",""created"":1795596996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8952,,MarianeAzar,20261125_084135,2026-11-25T08:56:37.599330+00:00
+2716a541dbcf8aee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many people can you recruit in the game Suikoden in a single playthrough?
+A. 108
+B. 96
+C. 93
+D. 107
+Answer:","[""108"", ""96"", ""93"", ""107""]",http,0.0,16,none,"{""id"":""chatcmpl-3u3mkjx9ch3itp4f1g0y2"",""object"":""chat.completion"",""created"":1795596997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T08:56:38.473803+00:00
+2716a541dbcf8aee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many people can you recruit in the game Suikoden in a single playthrough?
+A. 108
+B. 96
+C. 93
+D. 107
+Answer:","[""108"", ""96"", ""93"", ""107""]",http,0.0,16,none,"{""id"":""chatcmpl-2xtqlhxzkivbgfx88kh4pr"",""object"":""chat.completion"",""created"":1795596997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T08:56:39.359424+00:00
+64500457a1526648,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does ""LCD"" stand for?
+A. Language Control Design
+B. Liquid Crystal Display
+C. Long Continuous Design
+D. Last Common Difference
+Answer:","[""Language Control Design"", ""Liquid Crystal Display"", ""Long Continuous Design"", ""Last Common Difference""]",http,0.0,16,none,"{""id"":""chatcmpl-br7z1vhqqooimi2lhn6kj"",""object"":""chat.completion"",""created"":1795596998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T08:56:40.216144+00:00
+64500457a1526648,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does ""LCD"" stand for?
+A. Language Control Design
+B. Liquid Crystal Display
+C. Long Continuous Design
+D. Last Common Difference
+Answer:","[""Language Control Design"", ""Liquid Crystal Display"", ""Long Continuous Design"", ""Last Common Difference""]",http,0.0,16,none,"{""id"":""chatcmpl-wegm36rmec8p4lng09g8nb"",""object"":""chat.completion"",""created"":1795596999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8833,,MarianeAzar,20261125_084135,2026-11-25T08:56:41.099756+00:00
+0a402add4377f0f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does ""Gasolina"" rapper Daddy Yankee originate from?
+A. Mexico
+B. Cuba
+C. Spain
+D. Puerto Rico
+Answer:","[""Mexico"", ""Cuba"", ""Spain"", ""Puerto Rico""]",http,0.0,16,none,"{""id"":""chatcmpl-4i9g2oy7u5hnplndn0dw2o"",""object"":""chat.completion"",""created"":1795597000,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261125_084135,2026-11-25T08:56:41.946065+00:00
+0a402add4377f0f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does ""Gasolina"" rapper Daddy Yankee originate from?
+A. Mexico
+B. Cuba
+C. Spain
+D. Puerto Rico
+Answer:","[""Mexico"", ""Cuba"", ""Spain"", ""Puerto Rico""]",http,0.0,16,none,"{""id"":""chatcmpl-tv80yfoln8j29vqrdr4d9"",""object"":""chat.completion"",""created"":1795597001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8533,,MarianeAzar,20261125_084135,2026-11-25T08:56:42.799576+00:00
+ac1ff0415f05154c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""27 Club"" is a term used to refer to a list of famous actors, musicians, and artists who died at the age of 27.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-szs58yf64ejfww2gdjtxpm"",""object"":""chat.completion"",""created"":1795597002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8662,,MarianeAzar,20261125_084135,2026-11-25T08:56:43.666463+00:00
+ac1ff0415f05154c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""27 Club"" is a term used to refer to a list of famous actors, musicians, and artists who died at the age of 27.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ke41ibao7apcrarpsfwq69"",""object"":""chat.completion"",""created"":1795597003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8711,,MarianeAzar,20261125_084135,2026-11-25T08:56:44.537721+00:00
+354185a764250f1c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the show ""Rick and Morty"", in episode ""Total Rickall"", who was a parasite?
+A. Mr. Poopy Butthole
+B. Summer Smith
+C. Pencilvester
+D. Beth Smith
+Answer:","[""Mr. Poopy Butthole"", ""Summer Smith"", ""Pencilvester"", ""Beth Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-qv1q1w3wgj4458jjphzy6"",""object"":""chat.completion"",""created"":1795597003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T08:56:45.400619+00:00
+354185a764250f1c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the show ""Rick and Morty"", in episode ""Total Rickall"", who was a parasite?
+A. Mr. Poopy Butthole
+B. Summer Smith
+C. Pencilvester
+D. Beth Smith
+Answer:","[""Mr. Poopy Butthole"", ""Summer Smith"", ""Pencilvester"", ""Beth Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-3hnttuts14vtb4828iw6s"",""object"":""chat.completion"",""created"":1795597004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8807,,MarianeAzar,20261125_084135,2026-11-25T08:56:46.281562+00:00
+5a7b1e1ed18213e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the author of the 1954 novel, ""Lord of the Flies""?
+A. Hunter Fox
+B. F. Scott Fitzgerald
+C. Stephen King
+D. William Golding
+Answer:","[""Hunter Fox"", ""F. Scott Fitzgerald"", ""Stephen King"", ""William Golding""]",http,0.0,16,none,"{""id"":""chatcmpl-32m5v2eixw9wqli83d75p"",""object"":""chat.completion"",""created"":1795597005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T08:56:47.147947+00:00
+5a7b1e1ed18213e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the author of the 1954 novel, ""Lord of the Flies""?
+A. Hunter Fox
+B. F. Scott Fitzgerald
+C. Stephen King
+D. William Golding
+Answer:","[""Hunter Fox"", ""F. Scott Fitzgerald"", ""Stephen King"", ""William Golding""]",http,0.0,16,none,"{""id"":""chatcmpl-ki7i587u9miscvncm38wj"",""object"":""chat.completion"",""created"":1795597006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.878,,MarianeAzar,20261125_084135,2026-11-25T08:56:48.026146+00:00
+291c73b72ca7431f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these black metal acts was a solo project?
+A. Burzum
+B. Darkthrone
+C. Dissection
+D. Mayhem
+Answer:","[""Burzum"", ""Darkthrone"", ""Dissection"", ""Mayhem""]",http,0.0,16,none,"{""id"":""chatcmpl-sppj65yfpkmf8ewnu4ap86"",""object"":""chat.completion"",""created"":1795597007,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T08:56:48.902927+00:00
+291c73b72ca7431f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these black metal acts was a solo project?
+A. Burzum
+B. Darkthrone
+C. Dissection
+D. Mayhem
+Answer:","[""Burzum"", ""Darkthrone"", ""Dissection"", ""Mayhem""]",http,0.0,16,none,"{""id"":""chatcmpl-ciy2k0odyvhtitd4k07n8s"",""object"":""chat.completion"",""created"":1795597008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261125_084135,2026-11-25T08:56:49.754311+00:00
+0788d79f9a83b78f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many times do you fight Gilgamesh in ""Final Fantasy 5""?
+A. 5
+B. 4
+C. 6
+D. 3
+Answer:","[""5"", ""4"", ""6"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-owjh57l7xsjtj1yxr6qbc"",""object"":""chat.completion"",""created"":1795597009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261125_084135,2026-11-25T08:56:50.621332+00:00

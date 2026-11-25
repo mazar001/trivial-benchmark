@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cdc5cc7808828528,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Dead Rising"", what is the profession of the main character Frank West?
+A. Photojournalist
+B. Bartender
+C. Motorbike Performer
+D. Mechanic
+Answer:","[""Photojournalist"", ""Bartender"", ""Motorbike Performer"", ""Mechanic""]",http,0.0,16,none,"{""id"":""chatcmpl-h72f4peplzecz8kkwsague"",""object"":""chat.completion"",""created"":1795595761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9027,,MarianeAzar,20261125_084135,2026-11-25T08:36:03.444040+00:00
+cdc5cc7808828528,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Dead Rising"", what is the profession of the main character Frank West?
+A. Photojournalist
+B. Bartender
+C. Motorbike Performer
+D. Mechanic
+Answer:","[""Photojournalist"", ""Bartender"", ""Motorbike Performer"", ""Mechanic""]",http,0.0,16,none,"{""id"":""chatcmpl-yavs139o4jypfs3rnftg"",""object"":""chat.completion"",""created"":1795595762,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T08:36:04.307061+00:00
+d8ff2dc0b6d1e9d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which breed of dog is traditionally associated with firefighters?
+A. German Shepard
+B. Dalmatians
+C. Great Dane
+D. Mastiff
+Answer:","[""German Shepard"", ""Dalmatians"", ""Great Dane"", ""Mastiff""]",http,0.0,16,none,"{""id"":""chatcmpl-q7650g8qhs7ek98t47fvh"",""object"":""chat.completion"",""created"":1795595763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:36:05.190130+00:00
+d8ff2dc0b6d1e9d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which breed of dog is traditionally associated with firefighters?
+A. German Shepard
+B. Dalmatians
+C. Great Dane
+D. Mastiff
+Answer:","[""German Shepard"", ""Dalmatians"", ""Great Dane"", ""Mastiff""]",http,0.0,16,none,"{""id"":""chatcmpl-w38cbgriloyf4xpkji8mc"",""object"":""chat.completion"",""created"":1795595764,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:36:06.055901+00:00
+1b5e6ed3bd7b0b3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what date did the original ""Fruits Basket"" anime air in Japan?
+A. December 27th, 2001
+B. October 11th, 2001
+C. November 1st, 2006
+D. July 5th, 2001
+Answer:","[""December 27th, 2001"", ""October 11th, 2001"", ""November 1st, 2006"", ""July 5th, 2001""]",http,0.0,16,none,"{""id"":""chatcmpl-amkvarjibsto8vbbaiagvm"",""object"":""chat.completion"",""created"":1795595765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8954,,MarianeAzar,20261125_084135,2026-11-25T08:36:06.951555+00:00
+1b5e6ed3bd7b0b3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what date did the original ""Fruits Basket"" anime air in Japan?
+A. December 27th, 2001
+B. October 11th, 2001
+C. November 1st, 2006
+D. July 5th, 2001
+Answer:","[""December 27th, 2001"", ""October 11th, 2001"", ""November 1st, 2006"", ""July 5th, 2001""]",http,0.0,16,none,"{""id"":""chatcmpl-0prs1qrl6a62rk2o74f0y9"",""object"":""chat.completion"",""created"":1795595766,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":130,""completion_tokens"":2,""total_tokens"":132,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9141,,MarianeAzar,20261125_084135,2026-11-25T08:36:07.865894+00:00
+1aa4319efa068372,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the world that the MMO ""RuneScape"" takes place in?
+A. Azeroth
+B. Gielinor
+C. Zaros
+D. Glindor
+Answer:","[""Azeroth"", ""Gielinor"", ""Zaros"", ""Glindor""]",http,0.0,16,none,"{""id"":""chatcmpl-9zz3g6agp5o2psd71hn23v"",""object"":""chat.completion"",""created"":1795595767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9025,,MarianeAzar,20261125_084135,2026-11-25T08:36:08.768758+00:00
+1aa4319efa068372,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the world that the MMO ""RuneScape"" takes place in?
+A. Azeroth
+B. Gielinor
+C. Zaros
+D. Glindor
+Answer:","[""Azeroth"", ""Gielinor"", ""Zaros"", ""Glindor""]",http,0.0,16,none,"{""id"":""chatcmpl-4xh443r4bawtmab74zcml"",""object"":""chat.completion"",""created"":1795595768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8988,,MarianeAzar,20261125_084135,2026-11-25T08:36:09.667812+00:00
+1dd6785df7c305d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What produces the green colour of most plant leaves?
+A. Light refraction
+B. UV radiation
+C. Chlorophyll
+D. Natural pigments
+Answer:","[""Light refraction"", ""UV radiation"", ""Chlorophyll"", ""Natural pigments""]",http,0.0,16,none,"{""id"":""chatcmpl-kf0693w6ey1g3p0mxuwt4"",""object"":""chat.completion"",""created"":1795595769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:36:10.528473+00:00
+1dd6785df7c305d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What produces the green colour of most plant leaves?
+A. Light refraction
+B. UV radiation
+C. Chlorophyll
+D. Natural pigments
+Answer:","[""Light refraction"", ""UV radiation"", ""Chlorophyll"", ""Natural pigments""]",http,0.0,16,none,"{""id"":""chatcmpl-1o8jkaak9ip4d9wimnnloi"",""object"":""chat.completion"",""created"":1795595769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T08:36:11.379622+00:00
+1b2ea4fc92515cb6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?
+A. Rik Mayall
+B. Christopher Ryan
+C. Adrian Edmondson
+D. Nigel Planer
+Answer:","[""Rik Mayall"", ""Christopher Ryan"", ""Adrian Edmondson"", ""Nigel Planer""]",http,0.0,16,none,"{""id"":""chatcmpl-atmosvultp6lyl3zghqknr"",""object"":""chat.completion"",""created"":1795595770,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8744,,MarianeAzar,20261125_084135,2026-11-25T08:36:12.254651+00:00
+1b2ea4fc92515cb6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?
+A. Rik Mayall
+B. Christopher Ryan
+C. Adrian Edmondson
+D. Nigel Planer
+Answer:","[""Rik Mayall"", ""Christopher Ryan"", ""Adrian Edmondson"", ""Nigel Planer""]",http,0.0,16,none,"{""id"":""chatcmpl-lblu3687eqrzvpeoea2c"",""object"":""chat.completion"",""created"":1795595771,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8826,,MarianeAzar,20261125_084135,2026-11-25T08:36:13.137419+00:00
+713da8daf759303d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country has a horizontal bicolor red and white flag?
+A. Malta
+B. Liechenstein
+C. Monaco
+D. Bahrain
+Answer:","[""Malta"", ""Liechenstein"", ""Monaco"", ""Bahrain""]",http,0.0,16,none,"{""id"":""chatcmpl-lag9wfjx8zp70m2q7ohxa6"",""object"":""chat.completion"",""created"":1795595772,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8944,,MarianeAzar,20261125_084135,2026-11-25T08:36:14.032140+00:00
+713da8daf759303d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country has a horizontal bicolor red and white flag?
+A. Malta
+B. Liechenstein
+C. Monaco
+D. Bahrain
+Answer:","[""Malta"", ""Liechenstein"", ""Monaco"", ""Bahrain""]",http,0.0,16,none,"{""id"":""chatcmpl-frt1y3udk3lduz26wsltc6"",""object"":""chat.completion"",""created"":1795595773,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:36:14.884686+00:00
+16710863b7e77b1f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kraft ""Cheez Whiz"" contains cheese culture, but doesn't actually contain cheese
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lof5vc6peumsdxam59dtrc"",""object"":""chat.completion"",""created"":1795595774,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8149,,MarianeAzar,20261125_084135,2026-11-25T08:36:15.700045+00:00
+16710863b7e77b1f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kraft ""Cheez Whiz"" contains cheese culture, but doesn't actually contain cheese
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-joy8vaik2nmbre1ucnb5"",""object"":""chat.completion"",""created"":1795595775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.843,,MarianeAzar,20261125_084135,2026-11-25T08:36:16.543215+00:00
+4faf1d57075b334a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the area commonly known as the Bermuda Triangle?
+A. North Pacific Ocean, between Japan and the USA
+B. North Atlantic Ocean, between Florida and Puerto Rico
+C. In the Caribbean Sea
+D. South Pacific Ocean, far off Chile
+Answer:","[""North Pacific Ocean, between Japan and the USA"", ""North Atlantic Ocean, between Florida and Puerto Rico"", ""In the Caribbean Sea"", ""South Pacific Ocean, far off Chile""]",http,0.0,16,none,"{""id"":""chatcmpl-pmfd9ldb4oqeexe6xhxjv"",""object"":""chat.completion"",""created"":1795595775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:36:17.398323+00:00
+4faf1d57075b334a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the area commonly known as the Bermuda Triangle?
+A. North Pacific Ocean, between Japan and the USA
+B. North Atlantic Ocean, between Florida and Puerto Rico
+C. In the Caribbean Sea
+D. South Pacific Ocean, far off Chile
+Answer:","[""North Pacific Ocean, between Japan and the USA"", ""North Atlantic Ocean, between Florida and Puerto Rico"", ""In the Caribbean Sea"", ""South Pacific Ocean, far off Chile""]",http,0.0,16,none,"{""id"":""chatcmpl-lv3qe2sow5whybrws8a5r"",""object"":""chat.completion"",""created"":1795595776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9118,,MarianeAzar,20261125_084135,2026-11-25T08:36:18.310378+00:00
+58eb793184af7a58,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""System Shock"" released?
+A. 1994
+B. 2000
+C. 1998
+D. 1995
+Answer:","[""1994"", ""2000"", ""1998"", ""1995""]",http,0.0,16,none,"{""id"":""chatcmpl-61pdak99lcqjhqbzuq2ppg"",""object"":""chat.completion"",""created"":1795595777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261125_084135,2026-11-25T08:36:19.186265+00:00
+58eb793184af7a58,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was ""System Shock"" released?
+A. 1994
+B. 2000
+C. 1998
+D. 1995
+Answer:","[""1994"", ""2000"", ""1998"", ""1995""]",http,0.0,16,none,"{""id"":""chatcmpl-babzqjz6qcaeacp6yrhsh"",""object"":""chat.completion"",""created"":1795595778,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9035,,MarianeAzar,20261125_084135,2026-11-25T08:36:20.090006+00:00
+64450ac322c03209,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Hollow Knight, how many Precepts does Zote have?
+A. Ninety-One
+B. Fifty-Seven
+C. Fourty-Three
+D. Sixty-Nine
+Answer:","[""Ninety-One"", ""Fifty-Seven"", ""Fourty-Three"", ""Sixty-Nine""]",http,0.0,16,none,"{""id"":""chatcmpl-tpmw3i2e8r3i9nazz3ezw"",""object"":""chat.completion"",""created"":1795595779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:36:20.958659+00:00
+64450ac322c03209,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Hollow Knight, how many Precepts does Zote have?
+A. Ninety-One
+B. Fifty-Seven
+C. Fourty-Three
+D. Sixty-Nine
+Answer:","[""Ninety-One"", ""Fifty-Seven"", ""Fourty-Three"", ""Sixty-Nine""]",http,0.0,16,none,"{""id"":""chatcmpl-8wivwt0h5k3uhrb83280zl"",""object"":""chat.completion"",""created"":1795595780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8913,,MarianeAzar,20261125_084135,2026-11-25T08:36:21.850420+00:00
+ed80f2d7c6d9f1ac,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A 'Millinillion' is a real number.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rtu1fpzi8xziocuqyufe"",""object"":""chat.completion"",""created"":1795595781,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8161,,MarianeAzar,20261125_084135,2026-11-25T08:36:22.666641+00:00
+ed80f2d7c6d9f1ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A 'Millinillion' is a real number.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qz501oashiglm0bt4if1tf"",""object"":""chat.completion"",""created"":1795595782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8434,,MarianeAzar,20261125_084135,2026-11-25T08:36:23.510232+00:00
+bbdc12157846b7f5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Calvin and Hobbes, what is the name of the principal at Calvin's school?
+A. Mr. Boreman
+B. Mr. Moe
+C. Mr. Spitling
+D. Mr. Spittle
+Answer:","[""Mr. Boreman"", ""Mr. Moe"", ""Mr. Spitling"", ""Mr. Spittle""]",http,0.0,16,none,"{""id"":""chatcmpl-fcvx11eozj4jhc4qzsauf"",""object"":""chat.completion"",""created"":1795595782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:36:24.372011+00:00

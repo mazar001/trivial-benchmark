@@ -1,0 +1,176 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6a47c5b3f59b96ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a faction in Tom Clancy's The Division?
+A. Rikers
+B. Cleaners
+C. CDC
+D. Last Man Batallion
+Answer:","[""Rikers"", ""Cleaners"", ""CDC"", ""Last Man Batallion""]",http,0.0,16,none,"{""id"":""chatcmpl-ejgn1lye79hn7seirhdn9"",""object"":""chat.completion"",""created"":1795592624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T07:43:45.777289+00:00
+6a47c5b3f59b96ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a faction in Tom Clancy's The Division?
+A. Rikers
+B. Cleaners
+C. CDC
+D. Last Man Batallion
+Answer:","[""Rikers"", ""Cleaners"", ""CDC"", ""Last Man Batallion""]",http,0.0,16,none,"{""id"":""chatcmpl-hkzqev1lgvhcsfef239wa"",""object"":""chat.completion"",""created"":1795592625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T07:43:46.629975+00:00
+1a3be0225eb72dd9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,483 ft (451.9 m)?
+A. Al Hamra Tower, Kuwait
+B. Trump Intl. Hotel & Tower, United States
+C. Petronas Twin Towers, Malaysia
+D. Zifeng Tower, China
+Answer:","[""Al Hamra Tower, Kuwait"", ""Trump Intl. Hotel & Tower, United States"", ""Petronas Twin Towers, Malaysia"", ""Zifeng Tower, China""]",http,0.0,16,none,"{""id"":""chatcmpl-zf7eswag53kn2flhvc8kwm"",""object"":""chat.completion"",""created"":1795592626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8872,,MarianeAzar,20261125_084135,2026-11-25T07:43:47.517479+00:00
+1a3be0225eb72dd9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,483 ft (451.9 m)?
+A. Al Hamra Tower, Kuwait
+B. Trump Intl. Hotel & Tower, United States
+C. Petronas Twin Towers, Malaysia
+D. Zifeng Tower, China
+Answer:","[""Al Hamra Tower, Kuwait"", ""Trump Intl. Hotel & Tower, United States"", ""Petronas Twin Towers, Malaysia"", ""Zifeng Tower, China""]",http,0.0,16,none,"{""id"":""chatcmpl-o8j8zyxsf2889ehr221i7"",""object"":""chat.completion"",""created"":1795592626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":130,""completion_tokens"":2,""total_tokens"":132,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9102,,MarianeAzar,20261125_084135,2026-11-25T07:43:48.427988+00:00
+a4ca0f55632b72bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the director of ""Scott Pilgrim vs. the World (2010)""?
+A. Seth Rogan
+B. Chris Miller
+C. Phil Lord
+D. Edgar Wright
+Answer:","[""Seth Rogan"", ""Chris Miller"", ""Phil Lord"", ""Edgar Wright""]",http,0.0,16,none,"{""id"":""chatcmpl-dfce9xazfne0p94sfmcxz1"",""object"":""chat.completion"",""created"":1795592627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T07:43:49.315267+00:00
+a4ca0f55632b72bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the director of ""Scott Pilgrim vs. the World (2010)""?
+A. Seth Rogan
+B. Chris Miller
+C. Phil Lord
+D. Edgar Wright
+Answer:","[""Seth Rogan"", ""Chris Miller"", ""Phil Lord"", ""Edgar Wright""]",http,0.0,16,none,"{""id"":""chatcmpl-fp371oxdsrqrea1053lbj"",""object"":""chat.completion"",""created"":1795592628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8695,,MarianeAzar,20261125_084135,2026-11-25T07:43:50.184883+00:00
+f1ad79044ef1bb9c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the Battle of the Somme begin?
+A. July 2nd, 1916
+B. August 1st, 1916
+C. June 30th, 1916
+D. July 1st, 1916
+Answer:","[""July 2nd, 1916"", ""August 1st, 1916"", ""June 30th, 1916"", ""July 1st, 1916""]",http,0.0,16,none,"{""id"":""chatcmpl-34b6433uqhkvgakpqdg5so"",""object"":""chat.completion"",""created"":1795592629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9058,,MarianeAzar,20261125_084135,2026-11-25T07:43:51.091000+00:00
+f1ad79044ef1bb9c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the Battle of the Somme begin?
+A. July 2nd, 1916
+B. August 1st, 1916
+C. June 30th, 1916
+D. July 1st, 1916
+Answer:","[""July 2nd, 1916"", ""August 1st, 1916"", ""June 30th, 1916"", ""July 1st, 1916""]",http,0.0,16,none,"{""id"":""chatcmpl-bnaflxib2cuon8xqqjuvij"",""object"":""chat.completion"",""created"":1795592630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9239,,MarianeAzar,20261125_084135,2026-11-25T07:43:52.015086+00:00
+dc4c6fb57894641b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Dark Souls, what is the name of the region you're in for the majority of the game?
+A. Oolacile
+B. Drangleic
+C. Catarina
+D. Lordran
+Answer:","[""Oolacile"", ""Drangleic"", ""Catarina"", ""Lordran""]",http,0.0,16,none,"{""id"":""chatcmpl-6e2i28qqggnrbs2vat6e9"",""object"":""chat.completion"",""created"":1795592631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8774,,MarianeAzar,20261125_084135,2026-11-25T07:43:52.892699+00:00
+dc4c6fb57894641b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Dark Souls, what is the name of the region you're in for the majority of the game?
+A. Oolacile
+B. Drangleic
+C. Catarina
+D. Lordran
+Answer:","[""Oolacile"", ""Drangleic"", ""Catarina"", ""Lordran""]",http,0.0,16,none,"{""id"":""chatcmpl-np0ij45dsor7xpj9ci40b"",""object"":""chat.completion"",""created"":1795592632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.88,,MarianeAzar,20261125_084135,2026-11-25T07:43:53.772870+00:00
+94983e262d8d5497,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his ""Mothership"" set piece for one night only.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7pw2viqpja42ju025fbhb"",""object"":""chat.completion"",""created"":1795592633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8627,,MarianeAzar,20261125_084135,2026-11-25T07:43:54.635901+00:00
+94983e262d8d5497,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his ""Mothership"" set piece for one night only.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zlwoda5j2z2yomxnk3x34"",""object"":""chat.completion"",""created"":1795592634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T07:43:55.493231+00:00
+10b276eac1c97c8c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Ross' pet monkey on ""Friends""?
+A. Jojo
+B. Champ
+C. George
+D. Marcel
+Answer:","[""Jojo"", ""Champ"", ""George"", ""Marcel""]",http,0.0,16,none,"{""id"":""chatcmpl-bybiyivac6czy4wtq61kj"",""object"":""chat.completion"",""created"":1795592634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261125_084135,2026-11-25T07:43:56.357010+00:00
+10b276eac1c97c8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Ross' pet monkey on ""Friends""?
+A. Jojo
+B. Champ
+C. George
+D. Marcel
+Answer:","[""Jojo"", ""Champ"", ""George"", ""Marcel""]",http,0.0,16,none,"{""id"":""chatcmpl-0epxncqcgyw8jf6io0wot2"",""object"":""chat.completion"",""created"":1795592635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8553,,MarianeAzar,20261125_084135,2026-11-25T07:43:57.212541+00:00
+8cd93e141fa42ef4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How do you tame a horse in Minecraft?
+A. By feeding it Wheat
+B. By continually mounting it
+C. By petting it
+D. By feeding it Sugar
+Answer:","[""By feeding it Wheat"", ""By continually mounting it"", ""By petting it"", ""By feeding it Sugar""]",http,0.0,16,none,"{""id"":""chatcmpl-g9iix9t9pkuc9fjvetnqn4"",""object"":""chat.completion"",""created"":1795592636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8657,,MarianeAzar,20261125_084135,2026-11-25T07:43:58.078525+00:00
+8cd93e141fa42ef4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How do you tame a horse in Minecraft?
+A. By feeding it Wheat
+B. By continually mounting it
+C. By petting it
+D. By feeding it Sugar
+Answer:","[""By feeding it Wheat"", ""By continually mounting it"", ""By petting it"", ""By feeding it Sugar""]",http,0.0,16,none,"{""id"":""chatcmpl-hu28zp051d4eify09r1em"",""object"":""chat.completion"",""created"":1795592637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261125_084135,2026-11-25T07:43:58.948510+00:00
+deff3e6c3890e2c5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hyundai Motor Company was founded in which country?
+A. Russia
+B. South Korea
+C. Japan
+D. China
+Answer:","[""Russia"", ""South Korea"", ""Japan"", ""China""]",http,0.0,16,none,"{""id"":""chatcmpl-eu0olijj9ntnsykm8qrvqk"",""object"":""chat.completion"",""created"":1795592638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.914,,MarianeAzar,20261125_084135,2026-11-25T07:43:59.862647+00:00
+deff3e6c3890e2c5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hyundai Motor Company was founded in which country?
+A. Russia
+B. South Korea
+C. Japan
+D. China
+Answer:","[""Russia"", ""South Korea"", ""Japan"", ""China""]",http,0.0,16,none,"{""id"":""chatcmpl-lce1n9t0xkmhhrjsq9olnl"",""object"":""chat.completion"",""created"":1795592639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261125_084135,2026-11-25T07:44:00.714717+00:00
+f5b564be8f4dfe8a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Space Needle is located in which city?
+A. Toronto
+B. Vancouver
+C. Seattle
+D. Los Angles
+Answer:","[""Toronto"", ""Vancouver"", ""Seattle"", ""Los Angles""]",http,0.0,16,none,"{""id"":""chatcmpl-xsnbtwp1tsm10kdwzft8k"",""object"":""chat.completion"",""created"":1795592640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T07:44:01.571402+00:00
+f5b564be8f4dfe8a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Space Needle is located in which city?
+A. Toronto
+B. Vancouver
+C. Seattle
+D. Los Angles
+Answer:","[""Toronto"", ""Vancouver"", ""Seattle"", ""Los Angles""]",http,0.0,16,none,"{""id"":""chatcmpl-vq42rpq6m7hl5iox1w1jja"",""object"":""chat.completion"",""created"":1795592641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T07:44:02.424844+00:00
+27fe7e7bcbf9a266,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the Kill Bill movies?
+A. Stanley Kubrick
+B. Quentin Tarantino
+C. Arnold Schwarzenegger
+D. David Lean
+Answer:","[""Stanley Kubrick"", ""Quentin Tarantino"", ""Arnold Schwarzenegger"", ""David Lean""]",http,0.0,16,none,"{""id"":""chatcmpl-y7adige1rcm7x1lj3551id"",""object"":""chat.completion"",""created"":1795592641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8449,,MarianeAzar,20261125_084135,2026-11-25T07:44:03.270274+00:00
+27fe7e7bcbf9a266,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the Kill Bill movies?
+A. Stanley Kubrick
+B. Quentin Tarantino
+C. Arnold Schwarzenegger
+D. David Lean
+Answer:","[""Stanley Kubrick"", ""Quentin Tarantino"", ""Arnold Schwarzenegger"", ""David Lean""]",http,0.0,16,none,"{""id"":""chatcmpl-47twpb1lz6bdklf8wlyybb"",""object"":""chat.completion"",""created"":1795592642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T07:44:04.121510+00:00
+f850c53b7e1a0709,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?
+A. Gettysburg Campagin
+B. Siege of Petersburg
+C. Antietam Campaign
+D. Siege of Vicksburg
+Answer:","[""Gettysburg Campagin"", ""Siege of Petersburg"", ""Antietam Campaign"", ""Siege of Vicksburg""]",http,0.0,16,none,"{""id"":""chatcmpl-ej4d2xpj33a0n2943jw4xm8"",""object"":""chat.completion"",""created"":1795592643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T07:44:04.973822+00:00
+f850c53b7e1a0709,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?
+A. Gettysburg Campagin
+B. Siege of Petersburg
+C. Antietam Campaign
+D. Siege of Vicksburg
+Answer:","[""Gettysburg Campagin"", ""Siege of Petersburg"", ""Antietam Campaign"", ""Siege of Vicksburg""]",http,0.0,16,none,"{""id"":""chatcmpl-lnee2dsabbb3pa9qdaqwh3"",""object"":""chat.completion"",""created"":1795592644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261125_084135,2026-11-25T07:44:05.857811+00:00
+98af15b57becd402,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The IBM PC used an Intel 8008 microprocessor clocked at 4.77 MHz and 8 kilobytes of memory.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ijl48axi77rmgsju9m1j6p"",""object"":""chat.completion"",""created"":1795592645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8466,,MarianeAzar,20261125_084135,2026-11-25T07:44:06.704643+00:00

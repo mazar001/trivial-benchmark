@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1d4c97797fdca16f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The A Team"" first aired in the USA and in the UK in what year?
+A. 1983
+B. 1987
+C. 1981
+D. 1985
+Answer:","[""1983"", ""1987"", ""1981"", ""1985""]",http,0.0,16,none,"{""id"":""chatcmpl-vy6bcq3wv1eudsrn707ka"",""object"":""chat.completion"",""created"":1795595545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8647,,MarianeAzar,20261125_084135,2026-11-25T08:32:26.933083+00:00
+1d4c97797fdca16f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The A Team"" first aired in the USA and in the UK in what year?
+A. 1983
+B. 1987
+C. 1981
+D. 1985
+Answer:","[""1983"", ""1987"", ""1981"", ""1985""]",http,0.0,16,none,"{""id"":""chatcmpl-wqf60bf6ey9594fdhhkjsm"",""object"":""chat.completion"",""created"":1795595546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T08:32:27.826982+00:00
+dd5fae8f58366e64,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Dorothy's surname in 'The Wizard Of Oz'?
+A. Gale
+B. Day
+C. Parker
+D. Perkins
+Answer:","[""Gale"", ""Day"", ""Parker"", ""Perkins""]",http,0.0,16,none,"{""id"":""chatcmpl-2p721qf1r1g9lxhy1mt5tv"",""object"":""chat.completion"",""created"":1795595547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8473,,MarianeAzar,20261125_084135,2026-11-25T08:32:28.674809+00:00
+dd5fae8f58366e64,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Dorothy's surname in 'The Wizard Of Oz'?
+A. Gale
+B. Day
+C. Parker
+D. Perkins
+Answer:","[""Gale"", ""Day"", ""Parker"", ""Perkins""]",http,0.0,16,none,"{""id"":""chatcmpl-1ohea5zqn9yijw28fmj21r"",""object"":""chat.completion"",""created"":1795595548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T08:32:29.537247+00:00
+8f2892a26a5bd5f4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Team Fortress 2's Heavy Weapons Guy's minigun?
+A. Sasha
+B. Diana
+C. Betty
+D. Anna
+Answer:","[""Sasha"", ""Diana"", ""Betty"", ""Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-rkh7zrak2ashq1uawdf2"",""object"":""chat.completion"",""created"":1795595548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T08:32:30.390416+00:00
+8f2892a26a5bd5f4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Team Fortress 2's Heavy Weapons Guy's minigun?
+A. Sasha
+B. Diana
+C. Betty
+D. Anna
+Answer:","[""Sasha"", ""Diana"", ""Betty"", ""Anna""]",http,0.0,16,none,"{""id"":""chatcmpl-wt2l9rw0hpf5lz0rmje7bl"",""object"":""chat.completion"",""created"":1795595549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T08:32:31.246545+00:00
+43fd1432cdbaded6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the indie farming game ""Stardew Valley"", which NPC hates the ""prismatic shard"" item when received as a gift?
+A. Elliott
+B. Haley
+C. Abigail
+D. Lewis
+Answer:","[""Elliott"", ""Haley"", ""Abigail"", ""Lewis""]",http,0.0,16,none,"{""id"":""chatcmpl-3g73pk6mmtuvli3htd7lbo"",""object"":""chat.completion"",""created"":1795595550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8581,,MarianeAzar,20261125_084135,2026-11-25T08:32:32.104893+00:00
+43fd1432cdbaded6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the indie farming game ""Stardew Valley"", which NPC hates the ""prismatic shard"" item when received as a gift?
+A. Elliott
+B. Haley
+C. Abigail
+D. Lewis
+Answer:","[""Elliott"", ""Haley"", ""Abigail"", ""Lewis""]",http,0.0,16,none,"{""id"":""chatcmpl-17qnivrynshabnhs4lnn2w"",""object"":""chat.completion"",""created"":1795595551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8887,,MarianeAzar,20261125_084135,2026-11-25T08:32:32.993856+00:00
+23893f3dd6a5d385,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these cartoon characters is NOT voiced by Rob Paulsen?
+A. The Mask (The Mask, TV Series)
+B. Max Tennyson (Ben 10)
+C. Carl Wheezer (Jimmy Neutron)
+D. Yakko Warner (Animaniacs)
+Answer:","[""The Mask (The Mask, TV Series)"", ""Max Tennyson (Ben 10)"", ""Carl Wheezer (Jimmy Neutron)"", ""Yakko Warner (Animaniacs)""]",http,0.0,16,none,"{""id"":""chatcmpl-j7djymqopx6yulv231085"",""object"":""chat.completion"",""created"":1795595552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.892,,MarianeAzar,20261125_084135,2026-11-25T08:32:33.886205+00:00
+23893f3dd6a5d385,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these cartoon characters is NOT voiced by Rob Paulsen?
+A. The Mask (The Mask, TV Series)
+B. Max Tennyson (Ben 10)
+C. Carl Wheezer (Jimmy Neutron)
+D. Yakko Warner (Animaniacs)
+Answer:","[""The Mask (The Mask, TV Series)"", ""Max Tennyson (Ben 10)"", ""Carl Wheezer (Jimmy Neutron)"", ""Yakko Warner (Animaniacs)""]",http,0.0,16,none,"{""id"":""chatcmpl-oxeck554yqnv6tc0lkyfc"",""object"":""chat.completion"",""created"":1795595553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9246,,MarianeAzar,20261125_084135,2026-11-25T08:32:34.811137+00:00
+257340e118b551ce,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The band ""Panic! At the Disco"" has released 4 albums total
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qfacng9jh6962pry4y49cg"",""object"":""chat.completion"",""created"":1795595554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:32:35.665046+00:00
+257340e118b551ce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The band ""Panic! At the Disco"" has released 4 albums total
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k5pp7yqhizc7u43zus4dv"",""object"":""chat.completion"",""created"":1795595555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8326,,MarianeAzar,20261125_084135,2026-11-25T08:32:36.497879+00:00
+c07eb1fc157567f5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The common software-programming acronym ""I18N"" comes from the term ""Interlocalization"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xr5d1t9a1io1abtnncftoi"",""object"":""chat.completion"",""created"":1795595555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.806,,MarianeAzar,20261125_084135,2026-11-25T08:32:37.304273+00:00
+c07eb1fc157567f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The common software-programming acronym ""I18N"" comes from the term ""Interlocalization"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-753jrmtmo7eydht8rjk3g"",""object"":""chat.completion"",""created"":1795595556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8393,,MarianeAzar,20261125_084135,2026-11-25T08:32:38.143735+00:00
+938cf2f47af2d566,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie Gremlins, after what time of day should you not feed Mogwai?
+A. Morning
+B. Midnight
+C. Afternoon
+D. Evening
+Answer:","[""Morning"", ""Midnight"", ""Afternoon"", ""Evening""]",http,0.0,16,none,"{""id"":""chatcmpl-7t8co8is80g7ghynyhv7bu"",""object"":""chat.completion"",""created"":1795595557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:32:39.001153+00:00
+938cf2f47af2d566,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie Gremlins, after what time of day should you not feed Mogwai?
+A. Morning
+B. Midnight
+C. Afternoon
+D. Evening
+Answer:","[""Morning"", ""Midnight"", ""Afternoon"", ""Evening""]",http,0.0,16,none,"{""id"":""chatcmpl-2jw64wxbo0il0kmudmrpyq"",""object"":""chat.completion"",""created"":1795595558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261125_084135,2026-11-25T08:32:39.861192+00:00
+41ef1ea877896436,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the FC Schalke 04 founded?
+A. 2008
+B. 1904
+C. 1999
+D. 1909
+Answer:","[""2008"", ""1904"", ""1999"", ""1909""]",http,0.0,16,none,"{""id"":""chatcmpl-i7ufh10jkgg716milpvo9l"",""object"":""chat.completion"",""created"":1795595559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T08:32:40.716715+00:00
+41ef1ea877896436,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the FC Schalke 04 founded?
+A. 2008
+B. 1904
+C. 1999
+D. 1909
+Answer:","[""2008"", ""1904"", ""1999"", ""1909""]",http,0.0,16,none,"{""id"":""chatcmpl-2u5f8wqecgg9sm7ia8nz3a"",""object"":""chat.completion"",""created"":1795595560,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8839,,MarianeAzar,20261125_084135,2026-11-25T08:32:41.600942+00:00
+f2ef91f7cfa033da,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the children's story ""The Little Match Girl""?
+A. Charles Dickens
+B. Oscar Wilde
+C. Hans Christian Andersen
+D. Lewis Carroll
+Answer:","[""Charles Dickens"", ""Oscar Wilde"", ""Hans Christian Andersen"", ""Lewis Carroll""]",http,0.0,16,none,"{""id"":""chatcmpl-ynpscqadu3s39thjqc149k"",""object"":""chat.completion"",""created"":1795595561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T08:32:42.450166+00:00
+f2ef91f7cfa033da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the children's story ""The Little Match Girl""?
+A. Charles Dickens
+B. Oscar Wilde
+C. Hans Christian Andersen
+D. Lewis Carroll
+Answer:","[""Charles Dickens"", ""Oscar Wilde"", ""Hans Christian Andersen"", ""Lewis Carroll""]",http,0.0,16,none,"{""id"":""chatcmpl-nlphhwwrbocb0pt3ah2pav"",""object"":""chat.completion"",""created"":1795595561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T08:32:43.313387+00:00
+08b998e75129cba8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The buried remains of which English explorer of Australia were found in London in January 2019?
+A. Abel Tasman
+B. William Bourke
+C. Matthew Flinders
+D. Dirk Hartog
+Answer:","[""Abel Tasman"", ""William Bourke"", ""Matthew Flinders"", ""Dirk Hartog""]",http,0.0,16,none,"{""id"":""chatcmpl-xs6qcsaisfn2l1q586ux0c"",""object"":""chat.completion"",""created"":1795595562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8535,,MarianeAzar,20261125_084135,2026-11-25T08:32:44.167782+00:00
+08b998e75129cba8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The buried remains of which English explorer of Australia were found in London in January 2019?
+A. Abel Tasman
+B. William Bourke
+C. Matthew Flinders
+D. Dirk Hartog
+Answer:","[""Abel Tasman"", ""William Bourke"", ""Matthew Flinders"", ""Dirk Hartog""]",http,0.0,16,none,"{""id"":""chatcmpl-89e0gzecumbui86p4cyh6"",""object"":""chat.completion"",""created"":1795595563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261125_084135,2026-11-25T08:32:45.051869+00:00
+933ed53d584641cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 4-armed Chaos Witch from the 2016 video game ""Battleborn""?
+A. Orendoo
+B. Orendi
+C. Oranda
+D. Randy
+Answer:","[""Orendoo"", ""Orendi"", ""Oranda"", ""Randy""]",http,0.0,16,none,"{""id"":""chatcmpl-7meuvs3r4t788jki3atxj"",""object"":""chat.completion"",""created"":1795595564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:32:45.906805+00:00
+933ed53d584641cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 4-armed Chaos Witch from the 2016 video game ""Battleborn""?
+A. Orendoo
+B. Orendi
+C. Oranda
+D. Randy
+Answer:","[""Orendoo"", ""Orendi"", ""Oranda"", ""Randy""]",http,0.0,16,none,"{""id"":""chatcmpl-t4n0l0xo5b4uyubv2gto"",""object"":""chat.completion"",""created"":1795595565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8863,,MarianeAzar,20261125_084135,2026-11-25T08:32:46.793487+00:00
+44a42c735089863e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the subtitle for Gran Turismo 3?
+A. A-Spec
+B. Championship
+C. Drive
+D. Nitro
+Answer:","[""A-Spec"", ""Championship"", ""Drive"", ""Nitro""]",http,0.0,16,none,"{""id"":""chatcmpl-640lykmsu8hbi5j8yygy8q"",""object"":""chat.completion"",""created"":1795595566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T08:32:47.649453+00:00

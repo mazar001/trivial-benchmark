@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c8dba2d03796d637,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Aperture Science CEO Cave Johnson is voiced by which American actor?
+A. Nolan North
+B. John Patrick Lowrie
+C. Christopher Lloyd
+D. J.K. Simmons
+Answer:","[""Nolan North"", ""John Patrick Lowrie"", ""Christopher Lloyd"", ""J.K. Simmons""]",http,0.0,16,none,"{""id"":""chatcmpl-de872cmmkwkejd4oloi43w"",""object"":""chat.completion"",""created"":1795554105,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8465,,MarianeAzar,20261124_215144,2026-11-24T21:01:46.292481+00:00
+c8dba2d03796d637,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Aperture Science CEO Cave Johnson is voiced by which American actor?
+A. Nolan North
+B. John Patrick Lowrie
+C. Christopher Lloyd
+D. J.K. Simmons
+Answer:","[""Nolan North"", ""John Patrick Lowrie"", ""Christopher Lloyd"", ""J.K. Simmons""]",http,0.0,16,none,"{""id"":""chatcmpl-xhbmtlwapegk5q20kkwgid"",""object"":""chat.completion"",""created"":1795554106,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261124_215144,2026-11-24T21:01:47.144107+00:00
+2962688a69371ceb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need for Speed: Underground, what car does Eddie drive?
+A. Mazda RX-7 FD3S
+B. Subaru Impreza 2.5 RS
+C. Acura Integra Type R
+D. Nissan Skyline GT-R (R34)
+Answer:","[""Mazda RX-7 FD3S"", ""Subaru Impreza 2.5 RS"", ""Acura Integra Type R"", ""Nissan Skyline GT-R (R34)""]",http,0.0,16,none,"{""id"":""chatcmpl-n6ei0vxxgbk0l240oyb6l8n"",""object"":""chat.completion"",""created"":1795554107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261124_215144,2026-11-24T21:01:48.020422+00:00
+2962688a69371ceb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Need for Speed: Underground, what car does Eddie drive?
+A. Mazda RX-7 FD3S
+B. Subaru Impreza 2.5 RS
+C. Acura Integra Type R
+D. Nissan Skyline GT-R (R34)
+Answer:","[""Mazda RX-7 FD3S"", ""Subaru Impreza 2.5 RS"", ""Acura Integra Type R"", ""Nissan Skyline GT-R (R34)""]",http,0.0,16,none,"{""id"":""chatcmpl-9y2osd0jfrr5105usp66cv"",""object"":""chat.completion"",""created"":1795554107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.911,,MarianeAzar,20261124_215144,2026-11-24T21:01:48.931781+00:00
+9e83ce7b74df2061,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of prominent electronic musician Aphex Twin?
+A. Richard H. Blackmore
+B. Richard M. Hall
+C. Richard W. Wright
+D. Richard D. James
+Answer:","[""Richard H. Blackmore"", ""Richard M. Hall"", ""Richard W. Wright"", ""Richard D. James""]",http,0.0,16,none,"{""id"":""chatcmpl-q8of8kojqupth0jdeu0h1c"",""object"":""chat.completion"",""created"":1795554108,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9706,,MarianeAzar,20261124_215144,2026-11-24T21:01:49.902583+00:00
+9e83ce7b74df2061,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of prominent electronic musician Aphex Twin?
+A. Richard H. Blackmore
+B. Richard M. Hall
+C. Richard W. Wright
+D. Richard D. James
+Answer:","[""Richard H. Blackmore"", ""Richard M. Hall"", ""Richard W. Wright"", ""Richard D. James""]",http,0.0,16,none,"{""id"":""chatcmpl-xqg1hrix69kdvubb0crsj5"",""object"":""chat.completion"",""created"":1795554109,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8888,,MarianeAzar,20261124_215144,2026-11-24T21:01:50.791641+00:00
+159ba3349978b745,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: From what show is the character ""James Doakes""?
+A. Dexter
+B. Marvel's Daredevil
+C. Boardwalk Empire
+D. The Walking Dead
+Answer:","[""Dexter"", ""Marvel's Daredevil"", ""Boardwalk Empire"", ""The Walking Dead""]",http,0.0,16,none,"{""id"":""chatcmpl-5m2pb8oc8v8cv3ly7p5bt4"",""object"":""chat.completion"",""created"":1795554110,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8875,,MarianeAzar,20261124_215144,2026-11-24T21:01:51.679638+00:00
+159ba3349978b745,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: From what show is the character ""James Doakes""?
+A. Dexter
+B. Marvel's Daredevil
+C. Boardwalk Empire
+D. The Walking Dead
+Answer:","[""Dexter"", ""Marvel's Daredevil"", ""Boardwalk Empire"", ""The Walking Dead""]",http,0.0,16,none,"{""id"":""chatcmpl-mwlo48qzmsm1x26qll0bru"",""object"":""chat.completion"",""created"":1795554111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261124_215144,2026-11-24T21:01:52.540409+00:00
+645c288e0504c8d6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Justin Bieber's debut Album?
+A. Baby
+B. U Smile
+C. Purpose
+D. My World 2.0
+Answer:","[""Baby"", ""U Smile"", ""Purpose"", ""My World 2.0""]",http,0.0,16,none,"{""id"":""chatcmpl-jw6cshke5lrgbfjt0d95c"",""object"":""chat.completion"",""created"":1795554112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8497,,MarianeAzar,20261124_215144,2026-11-24T21:01:53.390365+00:00
+645c288e0504c8d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Justin Bieber's debut Album?
+A. Baby
+B. U Smile
+C. Purpose
+D. My World 2.0
+Answer:","[""Baby"", ""U Smile"", ""Purpose"", ""My World 2.0""]",http,0.0,16,none,"{""id"":""chatcmpl-5qycoabsmadc203010xo5k"",""object"":""chat.completion"",""created"":1795554113,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261124_215144,2026-11-24T21:01:54.241622+00:00
+d6d64988491895d4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the planet in ""Aliens""?
+A. FR-838
+B. LV-426
+C. DI-621
+D. Weyland Yutani Corporation Base
+Answer:","[""FR-838"", ""LV-426"", ""DI-621"", ""Weyland Yutani Corporation Base""]",http,0.0,16,none,"{""id"":""chatcmpl-gj3avapeeigyph6yqf4j38"",""object"":""chat.completion"",""created"":1795554114,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261124_215144,2026-11-24T21:01:55.101126+00:00
+d6d64988491895d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the planet in ""Aliens""?
+A. FR-838
+B. LV-426
+C. DI-621
+D. Weyland Yutani Corporation Base
+Answer:","[""FR-838"", ""LV-426"", ""DI-621"", ""Weyland Yutani Corporation Base""]",http,0.0,16,none,"{""id"":""chatcmpl-lb0tsmys9om8mdwklnrsm"",""object"":""chat.completion"",""created"":1795554115,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8824,,MarianeAzar,20261124_215144,2026-11-24T21:01:55.983760+00:00
+3d1a2696d1aec643,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city did the former NHL team ""The Nordiques"" originiate from?
+A. Houston
+B. Montreal
+C. Quebec City
+D. New York
+Answer:","[""Houston"", ""Montreal"", ""Quebec City"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-sl7nazji27dsd9lgphvvsb"",""object"":""chat.completion"",""created"":1795554115,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261124_215144,2026-11-24T21:01:56.850846+00:00
+3d1a2696d1aec643,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city did the former NHL team ""The Nordiques"" originiate from?
+A. Houston
+B. Montreal
+C. Quebec City
+D. New York
+Answer:","[""Houston"", ""Montreal"", ""Quebec City"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-qwkdj113yvzl13mlygvlo"",""object"":""chat.completion"",""created"":1795554116,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261124_215144,2026-11-24T21:01:57.717034+00:00
+401e2012b9699d37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the star of the TV series ""24""?
+A. Hugh Laurie
+B. Kevin Bacon
+C. Kiefer Sutherland
+D. Rob Lowe
+Answer:","[""Hugh Laurie"", ""Kevin Bacon"", ""Kiefer Sutherland"", ""Rob Lowe""]",http,0.0,16,none,"{""id"":""chatcmpl-i9dw9t7z97pvhb4imj9a9c"",""object"":""chat.completion"",""created"":1795554117,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261124_215144,2026-11-24T21:01:58.568659+00:00
+401e2012b9699d37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the star of the TV series ""24""?
+A. Hugh Laurie
+B. Kevin Bacon
+C. Kiefer Sutherland
+D. Rob Lowe
+Answer:","[""Hugh Laurie"", ""Kevin Bacon"", ""Kiefer Sutherland"", ""Rob Lowe""]",http,0.0,16,none,"{""id"":""chatcmpl-9yqj71ei6rsupnn80i3kt"",""object"":""chat.completion"",""created"":1795554118,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261124_215144,2026-11-24T21:01:59.427608+00:00
+3b07c391d57004ef,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dihydrogen Monoxide is a dangerous chemical.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tlu6tsmhy50ouw588a56h"",""object"":""chat.completion"",""created"":1795554119,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7985,,MarianeAzar,20261124_215144,2026-11-24T21:02:00.226302+00:00
+3b07c391d57004ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dihydrogen Monoxide is a dangerous chemical.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rcooyjre0nr2pqnu4fnwji"",""object"":""chat.completion"",""created"":1795554120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8303,,MarianeAzar,20261124_215144,2026-11-24T21:02:01.056799+00:00
+0377c576168dde71,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Spongebob Squarepants,"" what is Mr. Krabs' full name?
+A. Eugene G. Krabs
+B. Eugene H. Krabs
+C. Eugene D. Krabs
+D. Eugene J. Krabs
+Answer:","[""Eugene G. Krabs"", ""Eugene H. Krabs"", ""Eugene D. Krabs"", ""Eugene J. Krabs""]",http,0.0,16,none,"{""id"":""chatcmpl-ejg22ty0szk52cwtkmjfhr"",""object"":""chat.completion"",""created"":1795554120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261124_215144,2026-11-24T21:02:01.916873+00:00
+0377c576168dde71,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Spongebob Squarepants,"" what is Mr. Krabs' full name?
+A. Eugene G. Krabs
+B. Eugene H. Krabs
+C. Eugene D. Krabs
+D. Eugene J. Krabs
+Answer:","[""Eugene G. Krabs"", ""Eugene H. Krabs"", ""Eugene D. Krabs"", ""Eugene J. Krabs""]",http,0.0,16,none,"{""id"":""chatcmpl-6gjfzvy6bnr9qc7k6q8c7q"",""object"":""chat.completion"",""created"":1795554121,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8905,,MarianeAzar,20261124_215144,2026-11-24T21:02:02.807599+00:00
+afcdba7f8b4e4a65,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Rudyard Kipling's ""The Jungle Book"", what type of snake was Kaa?
+A. Anaconda
+B. Python
+C. Cobra
+D. Viper
+Answer:","[""Anaconda"", ""Python"", ""Cobra"", ""Viper""]",http,0.0,16,none,"{""id"":""chatcmpl-yj0623cqghlipfn5hbbq"",""object"":""chat.completion"",""created"":1795554122,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261124_215144,2026-11-24T21:02:03.684985+00:00
+afcdba7f8b4e4a65,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Rudyard Kipling's ""The Jungle Book"", what type of snake was Kaa?
+A. Anaconda
+B. Python
+C. Cobra
+D. Viper
+Answer:","[""Anaconda"", ""Python"", ""Cobra"", ""Viper""]",http,0.0,16,none,"{""id"":""chatcmpl-4vnxu2zehknnxkn77dvyh"",""object"":""chat.completion"",""created"":1795554123,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261124_215144,2026-11-24T21:02:04.547145+00:00
+af67a7a5dcf1f386,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Weezer's album ""Pinkerton"" released?
+A. 1996
+B. 2001
+C. 1990
+D. 1994
+Answer:","[""1996"", ""2001"", ""1990"", ""1994""]",http,0.0,16,none,"{""id"":""chatcmpl-mq1rliirkttbic1fbi5x"",""object"":""chat.completion"",""created"":1795554124,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261124_215144,2026-11-24T21:02:05.405383+00:00
+af67a7a5dcf1f386,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was Weezer's album ""Pinkerton"" released?
+A. 1996
+B. 2001
+C. 1990
+D. 1994
+Answer:","[""1996"", ""2001"", ""1990"", ""1994""]",http,0.0,16,none,"{""id"":""chatcmpl-5rcpka9cecnaf2teh2gz0i"",""object"":""chat.completion"",""created"":1795554125,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8918,,MarianeAzar,20261124_215144,2026-11-24T21:02:06.297542+00:00
+613933bcf49573fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these teams isn't a member of the NHL's ""Original Six"" era?
+A. Boston Bruins
+B. Philadelphia Flyers
+C. New York Rangers
+D. Toronto Maple Leafs
+Answer:","[""Boston Bruins"", ""Philadelphia Flyers"", ""New York Rangers"", ""Toronto Maple Leafs""]",http,0.0,16,none,"{""id"":""chatcmpl-ukk3gozag4piyfw8n9qmm"",""object"":""chat.completion"",""created"":1795554126,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261124_215144,2026-11-24T21:02:07.157121+00:00

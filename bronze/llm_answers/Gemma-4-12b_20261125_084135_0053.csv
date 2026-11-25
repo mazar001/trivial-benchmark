@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+84d906f1fd83bad7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What breed of dog was Marley in the film ""Marley & Me"" (2008)?
+A. Shiba Inu
+B. Golden Retriever
+C. Dalmatian
+D. Labrador Retriever
+Answer:","[""Shiba Inu"", ""Golden Retriever"", ""Dalmatian"", ""Labrador Retriever""]",http,0.0,16,none,"{""id"":""chatcmpl-ablb18ixmydpifaywul69f"",""object"":""chat.completion"",""created"":1795593647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9405,,MarianeAzar,20261125_084135,2026-11-25T08:00:48.555146+00:00
+b736f3d8a5b61906,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Highschool of the Dead"", where did Komuro and Saeko establish to meet after the bus explosion?
+A. Komuro's House
+B. Eastern Police Station
+C. On The Main Bridge
+D. The Center Mall
+Answer:","[""Komuro's House"", ""Eastern Police Station"", ""On The Main Bridge"", ""The Center Mall""]",http,0.0,16,none,"{""id"":""chatcmpl-lfbny07m3lnvumz0frv9d"",""object"":""chat.completion"",""created"":1795593647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T08:00:49.434550+00:00
+b736f3d8a5b61906,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Highschool of the Dead"", where did Komuro and Saeko establish to meet after the bus explosion?
+A. Komuro's House
+B. Eastern Police Station
+C. On The Main Bridge
+D. The Center Mall
+Answer:","[""Komuro's House"", ""Eastern Police Station"", ""On The Main Bridge"", ""The Center Mall""]",http,0.0,16,none,"{""id"":""chatcmpl-rhyludceiopxvxn4tcwnqe"",""object"":""chat.completion"",""created"":1795593648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9086,,MarianeAzar,20261125_084135,2026-11-25T08:00:50.343438+00:00
+69f98c5d76e5fc38,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What African country has Portuguese as its official language?
+A. Mozambique
+B. Gabon
+C. Botswana
+D. Togo
+Answer:","[""Mozambique"", ""Gabon"", ""Botswana"", ""Togo""]",http,0.0,16,none,"{""id"":""chatcmpl-4dxnhq3tuqdbiscnl8s3ki"",""object"":""chat.completion"",""created"":1795593649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.925,,MarianeAzar,20261125_084135,2026-11-25T08:00:51.268754+00:00
+69f98c5d76e5fc38,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What African country has Portuguese as its official language?
+A. Mozambique
+B. Gabon
+C. Botswana
+D. Togo
+Answer:","[""Mozambique"", ""Gabon"", ""Botswana"", ""Togo""]",http,0.0,16,none,"{""id"":""chatcmpl-7j0qgd51s7cfp2xeklen8t"",""object"":""chat.completion"",""created"":1795593650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9329,,MarianeAzar,20261125_084135,2026-11-25T08:00:52.201899+00:00
+c47fc83a9a757288,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Battlestar Galactica (2004), what is the name of the President of the Twelve Colonies?
+A. Tricia Helfer
+B. Laura Roslin
+C. Harry Stills
+D. William Adama
+Answer:","[""Tricia Helfer"", ""Laura Roslin"", ""Harry Stills"", ""William Adama""]",http,0.0,16,none,"{""id"":""chatcmpl-p35dc95lp9pudg5qe2zp2"",""object"":""chat.completion"",""created"":1795593651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261125_084135,2026-11-25T08:00:53.087648+00:00
+c47fc83a9a757288,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Battlestar Galactica (2004), what is the name of the President of the Twelve Colonies?
+A. Tricia Helfer
+B. Laura Roslin
+C. Harry Stills
+D. William Adama
+Answer:","[""Tricia Helfer"", ""Laura Roslin"", ""Harry Stills"", ""William Adama""]",http,0.0,16,none,"{""id"":""chatcmpl-ckoj57tfvef9n3yxsot009"",""object"":""chat.completion"",""created"":1795593652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9013,,MarianeAzar,20261125_084135,2026-11-25T08:00:53.989218+00:00
+c87044d89daa85db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a single by Pink Floyd guitarist, David Gilmour?
+A. Sunset Strip
+B. Arnold Layne
+C. Blue Light
+D. Rattle That Lock
+Answer:","[""Sunset Strip"", ""Arnold Layne"", ""Blue Light"", ""Rattle That Lock""]",http,0.0,16,none,"{""id"":""chatcmpl-ghuapt5l0x8n84iwkxwjtr"",""object"":""chat.completion"",""created"":1795593653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9105,,MarianeAzar,20261125_084135,2026-11-25T08:00:54.899973+00:00
+c87044d89daa85db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a single by Pink Floyd guitarist, David Gilmour?
+A. Sunset Strip
+B. Arnold Layne
+C. Blue Light
+D. Rattle That Lock
+Answer:","[""Sunset Strip"", ""Arnold Layne"", ""Blue Light"", ""Rattle That Lock""]",http,0.0,16,none,"{""id"":""chatcmpl-zm8h98a2pfzm4bozkvfmn"",""object"":""chat.completion"",""created"":1795593654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T08:00:55.797001+00:00
+70b1c9d8fef9f64c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ancient Greece, if your job were a ""hippeus"" which of these would you own?
+A. Guitar
+B. Weave
+C. Horse
+D. Boat
+Answer:","[""Guitar"", ""Weave"", ""Horse"", ""Boat""]",http,0.0,16,none,"{""id"":""chatcmpl-h0fk3qtgzhcavk4ohz7uc"",""object"":""chat.completion"",""created"":1795593655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8985,,MarianeAzar,20261125_084135,2026-11-25T08:00:56.695752+00:00
+70b1c9d8fef9f64c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ancient Greece, if your job were a ""hippeus"" which of these would you own?
+A. Guitar
+B. Weave
+C. Horse
+D. Boat
+Answer:","[""Guitar"", ""Weave"", ""Horse"", ""Boat""]",http,0.0,16,none,"{""id"":""chatcmpl-b6i4mj6dseu5rl21gx8m"",""object"":""chat.completion"",""created"":1795593656,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8928,,MarianeAzar,20261125_084135,2026-11-25T08:00:57.588894+00:00
+8065ea92bf61ce73,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which documentary film maker wrote and starred in the film ""My Scientology Movie"" which first debuted in 2015?
+A. Adam Curtis
+B. Louis Theroux
+C. Joe Berlinger
+D. Errol Morris
+Answer:","[""Adam Curtis"", ""Louis Theroux"", ""Joe Berlinger"", ""Errol Morris""]",http,0.0,16,none,"{""id"":""chatcmpl-0mzyxw9mz36eklxljzqk95d"",""object"":""chat.completion"",""created"":1795593657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8914,,MarianeAzar,20261125_084135,2026-11-25T08:00:58.480632+00:00
+8065ea92bf61ce73,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which documentary film maker wrote and starred in the film ""My Scientology Movie"" which first debuted in 2015?
+A. Adam Curtis
+B. Louis Theroux
+C. Joe Berlinger
+D. Errol Morris
+Answer:","[""Adam Curtis"", ""Louis Theroux"", ""Joe Berlinger"", ""Errol Morris""]",http,0.0,16,none,"{""id"":""chatcmpl-jo42w4xzdgk7hwircotna"",""object"":""chat.completion"",""created"":1795593657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9111,,MarianeAzar,20261125_084135,2026-11-25T08:00:59.391990+00:00
+6bb9b2521ba90185,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Director of the 1988 Anime film ""Grave of the Fireflies""?
+A. Hayao Miyazaki
+B. Isao Takahata
+C. Satoshi Kon
+D. Sunao Katabuchi
+Answer:","[""Hayao Miyazaki"", ""Isao Takahata"", ""Satoshi Kon"", ""Sunao Katabuchi""]",http,0.0,16,none,"{""id"":""chatcmpl-ah6xqs5wk9p8q1ip1tp3jr"",""object"":""chat.completion"",""created"":1795593658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9184,,MarianeAzar,20261125_084135,2026-11-25T08:01:00.310700+00:00
+6bb9b2521ba90185,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Director of the 1988 Anime film ""Grave of the Fireflies""?
+A. Hayao Miyazaki
+B. Isao Takahata
+C. Satoshi Kon
+D. Sunao Katabuchi
+Answer:","[""Hayao Miyazaki"", ""Isao Takahata"", ""Satoshi Kon"", ""Sunao Katabuchi""]",http,0.0,16,none,"{""id"":""chatcmpl-pdtkb3rxheemifduvy2j4n"",""object"":""chat.completion"",""created"":1795593659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.925,,MarianeAzar,20261125_084135,2026-11-25T08:01:01.236039+00:00
+21ccf58de6f89813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who released the song ""Photograph"" in 2005?
+A. Fall Out Boy
+B. Coldplay
+C. Nickelback
+D. Green Day
+Answer:","[""Fall Out Boy"", ""Coldplay"", ""Nickelback"", ""Green Day""]",http,0.0,16,none,"{""id"":""chatcmpl-lipe4aq8p970w22b520qw"",""object"":""chat.completion"",""created"":1795593660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0126,,MarianeAzar,20261125_084135,2026-11-25T08:01:02.249153+00:00
+21ccf58de6f89813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who released the song ""Photograph"" in 2005?
+A. Fall Out Boy
+B. Coldplay
+C. Nickelback
+D. Green Day
+Answer:","[""Fall Out Boy"", ""Coldplay"", ""Nickelback"", ""Green Day""]",http,0.0,16,none,"{""id"":""chatcmpl-49dcq9avn8f9z7dcb9pmk"",""object"":""chat.completion"",""created"":1795593661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9027,,MarianeAzar,20261125_084135,2026-11-25T08:01:03.152028+00:00
+3985c10d1f34ad97,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shang Tsung is a playable character in Mortal Kombat XL.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-23z74l17yiooww8t8rh8i9"",""object"":""chat.completion"",""created"":1795593662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261125_084135,2026-11-25T08:01:04.028469+00:00
+3985c10d1f34ad97,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shang Tsung is a playable character in Mortal Kombat XL.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bebyzc45517wfm7cdf5dcf"",""object"":""chat.completion"",""created"":1795593663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8471,,MarianeAzar,20261125_084135,2026-11-25T08:01:04.875686+00:00
+8c4a54f4e3605139,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Prokofiev's 'Peter and the Wolf', the wolf itself is represented by a trio of which musical instrument?
+A. French horn
+B. Cello
+C. Clarinet
+D. Oboe
+Answer:","[""French horn"", ""Cello"", ""Clarinet"", ""Oboe""]",http,0.0,16,none,"{""id"":""chatcmpl-8b8sq27w70ni7m9eou6ne"",""object"":""chat.completion"",""created"":1795593664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261125_084135,2026-11-25T08:01:05.730625+00:00
+8c4a54f4e3605139,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Prokofiev's 'Peter and the Wolf', the wolf itself is represented by a trio of which musical instrument?
+A. French horn
+B. Cello
+C. Clarinet
+D. Oboe
+Answer:","[""French horn"", ""Cello"", ""Clarinet"", ""Oboe""]",http,0.0,16,none,"{""id"":""chatcmpl-vqpx0mi61kj78fz8qu8n"",""object"":""chat.completion"",""created"":1795593665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9228,,MarianeAzar,20261125_084135,2026-11-25T08:01:06.653707+00:00
+e07defade422c63a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: When setting up a chess board, the king is placed on a square of his own color.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p5pnoecisdk0invbps5711c"",""object"":""chat.completion"",""created"":1795593666,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9154,,MarianeAzar,20261125_084135,2026-11-25T08:01:07.569299+00:00
+e07defade422c63a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: When setting up a chess board, the king is placed on a square of his own color.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nzac42hfnwd1zvedjrc2m"",""object"":""chat.completion"",""created"":1795593667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9193,,MarianeAzar,20261125_084135,2026-11-25T08:01:08.488809+00:00
+1c91d80aa695f450,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Noragami who is one of the main protagonists?
+A. Mayu
+B. Karuha
+C. Yukine
+D. Mineha
+Answer:","[""Mayu"", ""Karuha"", ""Yukine"", ""Mineha""]",http,0.0,16,none,"{""id"":""chatcmpl-gglwxomdguueqqruqrhug6"",""object"":""chat.completion"",""created"":1795593667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9029,,MarianeAzar,20261125_084135,2026-11-25T08:01:09.392053+00:00
+1c91d80aa695f450,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Noragami who is one of the main protagonists?
+A. Mayu
+B. Karuha
+C. Yukine
+D. Mineha
+Answer:","[""Mayu"", ""Karuha"", ""Yukine"", ""Mineha""]",http,0.0,16,none,"{""id"":""chatcmpl-rq3xqfmkdtgvnl6zjfng"",""object"":""chat.completion"",""created"":1795593668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261125_084135,2026-11-25T08:01:10.275980+00:00

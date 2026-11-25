@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f9d0f5cd71c22e3d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did US band Weezer release Weezer (The White Album)?
+A. 2008
+B. 2001
+C. 2016
+D. 2019
+Answer:","[""2008"", ""2001"", ""2016"", ""2019""]",http,0.0,16,none,"{""id"":""chatcmpl-w81r86g1gc9x2w7g02wtek"",""object"":""chat.completion"",""created"":1795594912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9767,,MarianeAzar,20261125_084135,2026-11-25T08:21:53.912543+00:00
+a4460e2e381d0bff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On Twitter, what was the original character limit for a Tweet?
+A. 120
+B. 160
+C. 100
+D. 140
+Answer:","[""120"", ""160"", ""100"", ""140""]",http,0.0,16,none,"{""id"":""chatcmpl-g3f7ut6z1ylf0umyu3hbmt"",""object"":""chat.completion"",""created"":1795594913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9694,,MarianeAzar,20261125_084135,2026-11-25T08:21:54.882383+00:00
+a4460e2e381d0bff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On Twitter, what was the original character limit for a Tweet?
+A. 120
+B. 160
+C. 100
+D. 140
+Answer:","[""120"", ""160"", ""100"", ""140""]",http,0.0,16,none,"{""id"":""chatcmpl-szijx5nmayqibj2u6be97"",""object"":""chat.completion"",""created"":1795594914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4897,,MarianeAzar,20261125_084135,2026-11-25T08:21:56.372363+00:00
+6065961f44068b61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Marvel comic ""The Superior Spider-Man"", Peter Parker's body is taken over by which character?
+A. Eddie Brock
+B. Otto Octavius
+C. Norman Osborn
+D. Mary Jane
+Answer:","[""Eddie Brock"", ""Otto Octavius"", ""Norman Osborn"", ""Mary Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-u75x4ii7y4ks2e6l73h03d"",""object"":""chat.completion"",""created"":1795594915,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1348,,MarianeAzar,20261125_084135,2026-11-25T08:21:57.507666+00:00
+6065961f44068b61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Marvel comic ""The Superior Spider-Man"", Peter Parker's body is taken over by which character?
+A. Eddie Brock
+B. Otto Octavius
+C. Norman Osborn
+D. Mary Jane
+Answer:","[""Eddie Brock"", ""Otto Octavius"", ""Norman Osborn"", ""Mary Jane""]",http,0.0,16,none,"{""id"":""chatcmpl-rrzl2sq101hq5n7km5h8hq"",""object"":""chat.completion"",""created"":1795594916,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9673,,MarianeAzar,20261125_084135,2026-11-25T08:21:58.475291+00:00
+1b0d0c8559478167,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor plays the role of the main antagonist in the 2011 movie ""Tower Heist?""
+A. Alan Alda
+B. Kevin Nealon
+C. Alec Baldwin
+D. Eddie Murphy
+Answer:","[""Alan Alda"", ""Kevin Nealon"", ""Alec Baldwin"", ""Eddie Murphy""]",http,0.0,16,none,"{""id"":""chatcmpl-1qf9xrj6il3untvzg4ckq"",""object"":""chat.completion"",""created"":1795594917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9536,,MarianeAzar,20261125_084135,2026-11-25T08:21:59.429454+00:00
+1b0d0c8559478167,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor plays the role of the main antagonist in the 2011 movie ""Tower Heist?""
+A. Alan Alda
+B. Kevin Nealon
+C. Alec Baldwin
+D. Eddie Murphy
+Answer:","[""Alan Alda"", ""Kevin Nealon"", ""Alec Baldwin"", ""Eddie Murphy""]",http,0.0,16,none,"{""id"":""chatcmpl-vofmj41vbatw7h71x1z86j"",""object"":""chat.completion"",""created"":1795594918,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4475,,MarianeAzar,20261125_084135,2026-11-25T08:22:00.877266+00:00
+cf51efe8ac75c593,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Valve's ""Portal"" and ""Half-Life"" franchises exist within the same in-game universe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dja0y3b6cdtz38vmcrn2vj"",""object"":""chat.completion"",""created"":1795594920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9942,,MarianeAzar,20261125_084135,2026-11-25T08:22:01.871635+00:00
+cf51efe8ac75c593,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Valve's ""Portal"" and ""Half-Life"" franchises exist within the same in-game universe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9sw3lqsbk1n2t1p1gsqd6y"",""object"":""chat.completion"",""created"":1795594921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9396,,MarianeAzar,20261125_084135,2026-11-25T08:22:02.811360+00:00
+6aa077f3d286dde1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for distance?
+A. Angstrom
+B. Fathom
+C. Foot
+D. Metre
+Answer:","[""Angstrom"", ""Fathom"", ""Foot"", ""Metre""]",http,0.0,16,none,"{""id"":""chatcmpl-hg3evl5i41sc8xfjxmy7i9"",""object"":""chat.completion"",""created"":1795594922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3687,,MarianeAzar,20261125_084135,2026-11-25T08:22:04.180535+00:00
+6aa077f3d286dde1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for distance?
+A. Angstrom
+B. Fathom
+C. Foot
+D. Metre
+Answer:","[""Angstrom"", ""Fathom"", ""Foot"", ""Metre""]",http,0.0,16,none,"{""id"":""chatcmpl-9sgrp1lzik6lt84hsh8rm"",""object"":""chat.completion"",""created"":1795594923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9153,,MarianeAzar,20261125_084135,2026-11-25T08:22:05.096291+00:00
+b1161f2ed194a539,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An atom contains a nucleus.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ld4kpn3bvrb7oawxbv35k7"",""object"":""chat.completion"",""created"":1795594924,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8836,,MarianeAzar,20261125_084135,2026-11-25T08:22:05.980095+00:00
+b1161f2ed194a539,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An atom contains a nucleus.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7qon0htx7shde3hzn64bu"",""object"":""chat.completion"",""created"":1795594925,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3354,,MarianeAzar,20261125_084135,2026-11-25T08:22:07.315637+00:00
+040fbca49cd1051a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine's bones and claws?
+A. Carbonadium
+B. Vibranium
+C. Titanium
+D. Adamantium
+Answer:","[""Carbonadium"", ""Vibranium"", ""Titanium"", ""Adamantium""]",http,0.0,16,none,"{""id"":""chatcmpl-gvi6nchqw7rkjsf325kr5"",""object"":""chat.completion"",""created"":1795594926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9406,,MarianeAzar,20261125_084135,2026-11-25T08:22:08.256694+00:00
+040fbca49cd1051a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine's bones and claws?
+A. Carbonadium
+B. Vibranium
+C. Titanium
+D. Adamantium
+Answer:","[""Carbonadium"", ""Vibranium"", ""Titanium"", ""Adamantium""]",http,0.0,16,none,"{""id"":""chatcmpl-l7h83g3q9uhto6ufuhrm"",""object"":""chat.completion"",""created"":1795594927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9719,,MarianeAzar,20261125_084135,2026-11-25T08:22:09.228823+00:00
+c1fcb9d61e06915f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Scooby-Doo's real name?
+A. Shooby
+B. Scoobert
+C. Scooter
+D. Scrappy
+Answer:","[""Shooby"", ""Scoobert"", ""Scooter"", ""Scrappy""]",http,0.0,16,none,"{""id"":""chatcmpl-2ibk8vpghwek0kcbg1hh9r"",""object"":""chat.completion"",""created"":1795594928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.403,,MarianeAzar,20261125_084135,2026-11-25T08:22:10.632124+00:00
+c1fcb9d61e06915f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Scooby-Doo's real name?
+A. Shooby
+B. Scoobert
+C. Scooter
+D. Scrappy
+Answer:","[""Shooby"", ""Scoobert"", ""Scooter"", ""Scrappy""]",http,0.0,16,none,"{""id"":""chatcmpl-xyvq07xfta8j3h2hsm95p"",""object"":""chat.completion"",""created"":1795594930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9565,,MarianeAzar,20261125_084135,2026-11-25T08:22:11.588951+00:00
+ecc57eff1b19c511,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Aleph-nought is the cardinality of the set of all natural numbers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ys7vayf9y4fgbd06vqybr"",""object"":""chat.completion"",""created"":1795594931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:22:12.494163+00:00
+ecc57eff1b19c511,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Aleph-nought is the cardinality of the set of all natural numbers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lqoizxbnt9nmmfag014rt"",""object"":""chat.completion"",""created"":1795594931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4389,,MarianeAzar,20261125_084135,2026-11-25T08:22:13.933236+00:00
+4f5e8a62094d1d92,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the thin, outermost layer of the Earth?
+A. Outer Core
+B. Mantle
+C. Crust
+D. Exosphere
+Answer:","[""Outer Core"", ""Mantle"", ""Crust"", ""Exosphere""]",http,0.0,16,none,"{""id"":""chatcmpl-c3t043vq3hn7lcbi5xebpq"",""object"":""chat.completion"",""created"":1795594933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9324,,MarianeAzar,20261125_084135,2026-11-25T08:22:14.865991+00:00
+4f5e8a62094d1d92,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the thin, outermost layer of the Earth?
+A. Outer Core
+B. Mantle
+C. Crust
+D. Exosphere
+Answer:","[""Outer Core"", ""Mantle"", ""Crust"", ""Exosphere""]",http,0.0,16,none,"{""id"":""chatcmpl-v0xm7bh2hai4kkrxag449w"",""object"":""chat.completion"",""created"":1795594934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9464,,MarianeAzar,20261125_084135,2026-11-25T08:22:15.812682+00:00
+2e5c75301c14f1ed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the African nation of Zimbabwe formerly known as?
+A. Bulawayo
+B. Mozambique
+C. Zambia
+D. Rhodesia
+Answer:","[""Bulawayo"", ""Mozambique"", ""Zambia"", ""Rhodesia""]",http,0.0,16,none,"{""id"":""chatcmpl-zgrmbpetcab76axdgv74lp"",""object"":""chat.completion"",""created"":1795594935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3796,,MarianeAzar,20261125_084135,2026-11-25T08:22:17.192546+00:00
+2e5c75301c14f1ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the African nation of Zimbabwe formerly known as?
+A. Bulawayo
+B. Mozambique
+C. Zambia
+D. Rhodesia
+Answer:","[""Bulawayo"", ""Mozambique"", ""Zambia"", ""Rhodesia""]",http,0.0,16,none,"{""id"":""chatcmpl-2gaf118rahaphbcl0t6hzt"",""object"":""chat.completion"",""created"":1795594936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1333,,MarianeAzar,20261125_084135,2026-11-25T08:22:18.326159+00:00
+c31816e10ec93fef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English football club has the nickname 'The Foxes'?
+A. West Bromwich Albion
+B. Northampton Town
+C. Bradford City
+D. Leicester City
+Answer:","[""West Bromwich Albion"", ""Northampton Town"", ""Bradford City"", ""Leicester City""]",http,0.0,16,none,"{""id"":""chatcmpl-inynnhx0q07yuyck20o2go"",""object"":""chat.completion"",""created"":1795594937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9512,,MarianeAzar,20261125_084135,2026-11-25T08:22:19.277551+00:00
+c31816e10ec93fef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English football club has the nickname 'The Foxes'?
+A. West Bromwich Albion
+B. Northampton Town
+C. Bradford City
+D. Leicester City
+Answer:","[""West Bromwich Albion"", ""Northampton Town"", ""Bradford City"", ""Leicester City""]",http,0.0,16,none,"{""id"":""chatcmpl-jtcqj1ygnkm9l8v3svregn"",""object"":""chat.completion"",""created"":1795594938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9483,,MarianeAzar,20261125_084135,2026-11-25T08:22:20.226046+00:00

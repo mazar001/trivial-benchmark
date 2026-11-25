@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+860a45a4fafaeb84,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nutcracker Suite was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mc6w4mar3gj8myzkuwom2b"",""object"":""chat.completion"",""created"":1795595806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261125_084135,2026-11-25T08:36:47.469207+00:00
+860a45a4fafaeb84,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Nutcracker Suite was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zs5ieijsci8b4wuln3iys"",""object"":""chat.completion"",""created"":1795595806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8483,,MarianeAzar,20261125_084135,2026-11-25T08:36:48.317716+00:00
+94e2414dfb591e64,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Apple co-founder Steve Jobs died from complications of which form of cancer?
+A. Pancreatic
+B. Bone
+C. Stomach
+D. Liver
+Answer:","[""Pancreatic"", ""Bone"", ""Stomach"", ""Liver""]",http,0.0,16,none,"{""id"":""chatcmpl-5d7m77rbx6nruohf0qfked"",""object"":""chat.completion"",""created"":1795595807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.845,,MarianeAzar,20261125_084135,2026-11-25T08:36:49.163080+00:00
+94e2414dfb591e64,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Apple co-founder Steve Jobs died from complications of which form of cancer?
+A. Pancreatic
+B. Bone
+C. Stomach
+D. Liver
+Answer:","[""Pancreatic"", ""Bone"", ""Stomach"", ""Liver""]",http,0.0,16,none,"{""id"":""chatcmpl-zeqeqhza7wd85motbtfb"",""object"":""chat.completion"",""created"":1795595808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8809,,MarianeAzar,20261125_084135,2026-11-25T08:36:50.044148+00:00
+a382e7b745cac7d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who stars in Brutal Legend?
+A. Jack Black
+B. Ozzy Osbourne
+C. Lemmy
+D. Kanye West
+Answer:","[""Jack Black"", ""Ozzy Osbourne"", ""Lemmy"", ""Kanye West""]",http,0.0,16,none,"{""id"":""chatcmpl-4ssh2v6agvaxnhk6iwggsr"",""object"":""chat.completion"",""created"":1795595809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T08:36:50.903832+00:00
+a382e7b745cac7d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who stars in Brutal Legend?
+A. Jack Black
+B. Ozzy Osbourne
+C. Lemmy
+D. Kanye West
+Answer:","[""Jack Black"", ""Ozzy Osbourne"", ""Lemmy"", ""Kanye West""]",http,0.0,16,none,"{""id"":""chatcmpl-kilvpsbp2xq80qa3mofby8"",""object"":""chat.completion"",""created"":1795595810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8737,,MarianeAzar,20261125_084135,2026-11-25T08:36:51.777852+00:00
+010101e04578f0cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""Eliminator"" released?
+A. 1999
+B. 1998
+C. 2000
+D. 2001
+Answer:","[""1999"", ""1998"", ""2000"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-w58f7z2b7ulieiw3sz0imb"",""object"":""chat.completion"",""created"":1795595811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T08:36:52.640488+00:00
+010101e04578f0cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""Eliminator"" released?
+A. 1999
+B. 1998
+C. 2000
+D. 2001
+Answer:","[""1999"", ""1998"", ""2000"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-61gvqnn9sabf0wpm3j94q"",""object"":""chat.completion"",""created"":1795595812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8859,,MarianeAzar,20261125_084135,2026-11-25T08:36:53.526599+00:00
+e5953852821d7f39,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2011 TV anime series, ""THE iDOLM@STER"", what was the name of Iori's stuffed toy bunny?
+A. Usagi
+B. Kero
+C. Bubsy
+D. Charles
+Answer:","[""Usagi"", ""Kero"", ""Bubsy"", ""Charles""]",http,0.0,16,none,"{""id"":""chatcmpl-2ndeh19dtmmyiohdd647ii"",""object"":""chat.completion"",""created"":1795595812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261125_084135,2026-11-25T08:36:54.387338+00:00
+e5953852821d7f39,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2011 TV anime series, ""THE iDOLM@STER"", what was the name of Iori's stuffed toy bunny?
+A. Usagi
+B. Kero
+C. Bubsy
+D. Charles
+Answer:","[""Usagi"", ""Kero"", ""Bubsy"", ""Charles""]",http,0.0,16,none,"{""id"":""chatcmpl-rcqg8rx7k1rnvnwpvy2woq"",""object"":""chat.completion"",""created"":1795595813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8976,,MarianeAzar,20261125_084135,2026-11-25T08:36:55.285200+00:00
+e44e63b7dd465def,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call Of Duty: Black Ops II, who is the main antagonist?
+A. Vladimir Makarov
+B. Raul Menéndez
+C. Frank Woods
+D. DeFalco
+Answer:","[""Vladimir Makarov"", ""Raul Menéndez"", ""Frank Woods"", ""DeFalco""]",http,0.0,16,none,"{""id"":""chatcmpl-3gxh3qv5on49goqdpvum6n"",""object"":""chat.completion"",""created"":1795595814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T08:36:56.176786+00:00
+e44e63b7dd465def,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call Of Duty: Black Ops II, who is the main antagonist?
+A. Vladimir Makarov
+B. Raul Menéndez
+C. Frank Woods
+D. DeFalco
+Answer:","[""Vladimir Makarov"", ""Raul Menéndez"", ""Frank Woods"", ""DeFalco""]",http,0.0,16,none,"{""id"":""chatcmpl-dg2fs1mx91aghw5e54889i"",""object"":""chat.completion"",""created"":1795595815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8644,,MarianeAzar,20261125_084135,2026-11-25T08:36:57.041403+00:00
+2138042c9e632f3e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?
+A. Wayne Brady
+B. Lin-Manuel Miranda
+C. Daveed Diggs
+D. Javier Muñoz
+Answer:","[""Wayne Brady"", ""Lin-Manuel Miranda"", ""Daveed Diggs"", ""Javier Muñoz""]",http,0.0,16,none,"{""id"":""chatcmpl-66wy1om56bhb7vlq585ae"",""object"":""chat.completion"",""created"":1795595816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8809,,MarianeAzar,20261125_084135,2026-11-25T08:36:57.922708+00:00
+2138042c9e632f3e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?
+A. Wayne Brady
+B. Lin-Manuel Miranda
+C. Daveed Diggs
+D. Javier Muñoz
+Answer:","[""Wayne Brady"", ""Lin-Manuel Miranda"", ""Daveed Diggs"", ""Javier Muñoz""]",http,0.0,16,none,"{""id"":""chatcmpl-a2bzufy7kd84o6euqpgrnj"",""object"":""chat.completion"",""created"":1795595817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T08:36:58.787042+00:00
+0cd933ca12e9e79c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pink Floyd made this song for their previous lead singer Syd Barrett.
+A. Have A Cigar
+B. Wish You Were Here
+C. Shine On You Crazy Diamond
+D. Welcome to the Machine
+Answer:","[""Have A Cigar"", ""Wish You Were Here"", ""Shine On You Crazy Diamond"", ""Welcome to the Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-me4mp6r6yu4686l747cbw"",""object"":""chat.completion"",""created"":1795595818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T08:36:59.637150+00:00
+0cd933ca12e9e79c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pink Floyd made this song for their previous lead singer Syd Barrett.
+A. Have A Cigar
+B. Wish You Were Here
+C. Shine On You Crazy Diamond
+D. Welcome to the Machine
+Answer:","[""Have A Cigar"", ""Wish You Were Here"", ""Shine On You Crazy Diamond"", ""Welcome to the Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-l4ztzg7yqv1900hb273q6"",""object"":""chat.completion"",""created"":1795595819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:37:00.517102+00:00
+8a87719cd2043b01,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How much does the 'AWP' cost in Counter-Strike: Global Offensive?
+A. $5000
+B. $4750
+C. $4650
+D. $4500
+Answer:","[""$5000"", ""$4750"", ""$4650"", ""$4500""]",http,0.0,16,none,"{""id"":""chatcmpl-0qrvuxaw0y64h8katbxm7o"",""object"":""chat.completion"",""created"":1795595819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T08:37:01.390567+00:00
+8a87719cd2043b01,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How much does the 'AWP' cost in Counter-Strike: Global Offensive?
+A. $5000
+B. $4750
+C. $4650
+D. $4500
+Answer:","[""$5000"", ""$4750"", ""$4650"", ""$4500""]",http,0.0,16,none,"{""id"":""chatcmpl-0awjcvmu9chcxv2f011zz"",""object"":""chat.completion"",""created"":1795595820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261125_084135,2026-11-25T08:37:02.279761+00:00
+e7db771abee86b94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who tutored Alexander the Great?
+A. Socrates
+B. King Philip
+C. Aristotle
+D. Plato
+Answer:","[""Socrates"", ""King Philip"", ""Aristotle"", ""Plato""]",http,0.0,16,none,"{""id"":""chatcmpl-g5y6vy7708c6nthjuze33"",""object"":""chat.completion"",""created"":1795595821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8817,,MarianeAzar,20261125_084135,2026-11-25T08:37:03.161819+00:00
+e7db771abee86b94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who tutored Alexander the Great?
+A. Socrates
+B. King Philip
+C. Aristotle
+D. Plato
+Answer:","[""Socrates"", ""King Philip"", ""Aristotle"", ""Plato""]",http,0.0,16,none,"{""id"":""chatcmpl-qg2ygmkpjqevmujqdrj89"",""object"":""chat.completion"",""created"":1795595822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T08:37:04.036116+00:00
+006376c619effbda,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the orignal Sims game release?
+A. 2001
+B. 1998
+C. 2000
+D. 1999
+Answer:","[""2001"", ""1998"", ""2000"", ""1999""]",http,0.0,16,none,"{""id"":""chatcmpl-4u7quk05rzow3cjqqwc1k"",""object"":""chat.completion"",""created"":1795595823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T08:37:04.902382+00:00
+006376c619effbda,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the orignal Sims game release?
+A. 2001
+B. 1998
+C. 2000
+D. 1999
+Answer:","[""2001"", ""1998"", ""2000"", ""1999""]",http,0.0,16,none,"{""id"":""chatcmpl-ttewuratqnpuhwv15v0v09"",""object"":""chat.completion"",""created"":1795595824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8849,,MarianeAzar,20261125_084135,2026-11-25T08:37:05.787714+00:00
+02e2e5ce48a2afdc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Garfield comic first published?
+A. 1988
+B. 1982
+C. 1973
+D. 1978
+Answer:","[""1988"", ""1982"", ""1973"", ""1978""]",http,0.0,16,none,"{""id"":""chatcmpl-3j10hwz3n5v0cxonsp5x8qd"",""object"":""chat.completion"",""created"":1795595825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:37:06.652553+00:00
+02e2e5ce48a2afdc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Garfield comic first published?
+A. 1988
+B. 1982
+C. 1973
+D. 1978
+Answer:","[""1988"", ""1982"", ""1973"", ""1978""]",http,0.0,16,none,"{""id"":""chatcmpl-klk7o39hblq8mhdkrtnebs"",""object"":""chat.completion"",""created"":1795595826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T08:37:07.518240+00:00
+8a40969f4bf80bf3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Down Syndrome is usually caused by an extra copy of which chromosome?
+A. 15
+B. 21
+C. 23
+D. 24
+Answer:","[""15"", ""21"", ""23"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-eqf0a4ychxmcm1goz0n1e"",""object"":""chat.completion"",""created"":1795595826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8655,,MarianeAzar,20261125_084135,2026-11-25T08:37:08.384017+00:00

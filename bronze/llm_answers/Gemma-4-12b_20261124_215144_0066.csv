@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+55843add575bee97,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character Wario was first introduced in which game of the Mario video game franchise?
+A. Wario Land: Super Mario Land 3 (1994)
+B. Super Mario Land 2: 6 Golden Coins (1992)
+C. Super Mario Bros. 3 (1988)
+D. Mario Party (1998)
+Answer:","[""Wario Land: Super Mario Land 3 (1994)"", ""Super Mario Land 2: 6 Golden Coins (1992)"", ""Super Mario Bros. 3 (1988)"", ""Mario Party (1998)""]",http,0.0,16,none,"{""id"":""chatcmpl-mepvuu9o0jmsi949cyjkn"",""object"":""chat.completion"",""created"":1795558404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":127,""completion_tokens"":2,""total_tokens"":129,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9248,,MarianeAzar,20261124_215144,2026-11-24T22:13:25.660088+00:00
+55843add575bee97,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character Wario was first introduced in which game of the Mario video game franchise?
+A. Wario Land: Super Mario Land 3 (1994)
+B. Super Mario Land 2: 6 Golden Coins (1992)
+C. Super Mario Bros. 3 (1988)
+D. Mario Party (1998)
+Answer:","[""Wario Land: Super Mario Land 3 (1994)"", ""Super Mario Land 2: 6 Golden Coins (1992)"", ""Super Mario Bros. 3 (1988)"", ""Mario Party (1998)""]",http,0.0,16,none,"{""id"":""chatcmpl-pfu7m5y635lcpicdyiqv"",""object"":""chat.completion"",""created"":1795558405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":141,""completion_tokens"":2,""total_tokens"":143,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9806,,MarianeAzar,20261124_215144,2026-11-24T22:13:26.640928+00:00
+132bea025275688f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former Coronation Street actress was once a hostess on the British Game Show ""Double Your Money""?
+A. Sue Nicholls
+B. Violet Carson
+C. Jean Alexander
+D. Amanda Barrie
+Answer:","[""Sue Nicholls"", ""Violet Carson"", ""Jean Alexander"", ""Amanda Barrie""]",http,0.0,16,none,"{""id"":""chatcmpl-18ndweb3vsdkk7fla3n38i"",""object"":""chat.completion"",""created"":1795558406,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8895,,MarianeAzar,20261124_215144,2026-11-24T22:13:27.530735+00:00
+132bea025275688f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which former Coronation Street actress was once a hostess on the British Game Show ""Double Your Money""?
+A. Sue Nicholls
+B. Violet Carson
+C. Jean Alexander
+D. Amanda Barrie
+Answer:","[""Sue Nicholls"", ""Violet Carson"", ""Jean Alexander"", ""Amanda Barrie""]",http,0.0,16,none,"{""id"":""chatcmpl-uwgqkm5puur709cl3kgko"",""object"":""chat.completion"",""created"":1795558407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261124_215144,2026-11-24T22:13:28.398835+00:00
+45f6bdb37a2e6bdb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national team won the 2016 edition of UEFA European Championship?
+A. Portugal
+B. Germany
+C. England
+D. France
+Answer:","[""Portugal"", ""Germany"", ""England"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-p7hewx8y4mfk0fml3uae4"",""object"":""chat.completion"",""created"":1795558408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""Portugal"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261124_215144,2026-11-24T22:13:29.261985+00:00
+45f6bdb37a2e6bdb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national team won the 2016 edition of UEFA European Championship?
+A. Portugal
+B. Germany
+C. England
+D. France
+Answer:","[""Portugal"", ""Germany"", ""England"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-ide1bli6iu88cpxexfzdn"",""object"":""chat.completion"",""created"":1795558409,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""Portugal"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9291,,MarianeAzar,20261124_215144,2026-11-24T22:13:30.191384+00:00
+7c52fdcac38d973d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the age of Ash Ketchum in Pokemon when he starts his journey?
+A. 12
+B. 9
+C. 10
+D. 11
+Answer:","[""12"", ""9"", ""10"", ""11""]",http,0.0,16,none,"{""id"":""chatcmpl-d2fvmwf9k3dvwne498zlms"",""object"":""chat.completion"",""created"":1795558410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.844,,MarianeAzar,20261124_215144,2026-11-24T22:13:31.035881+00:00
+7c52fdcac38d973d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the age of Ash Ketchum in Pokemon when he starts his journey?
+A. 12
+B. 9
+C. 10
+D. 11
+Answer:","[""12"", ""9"", ""10"", ""11""]",http,0.0,16,none,"{""id"":""chatcmpl-jdf8abj9hhrf6o6vx2hh2f"",""object"":""chat.completion"",""created"":1795558410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261124_215144,2026-11-24T22:13:31.888853+00:00
+b4f8e1dd8c43f93d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into ""Super Smash Bros.""?
+A. Aerial Warriors: Supreme Battle
+B. Nintendo Legends: Fight!
+C. Martial Arts: King of the Hill
+D. Dragon King: The Fighting Game
+Answer:","[""Aerial Warriors: Supreme Battle"", ""Nintendo Legends: Fight!"", ""Martial Arts: King of the Hill"", ""Dragon King: The Fighting Game""]",http,0.0,16,none,"{""id"":""chatcmpl-hcazonbzt0og68trft8n2"",""object"":""chat.completion"",""created"":1795558411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9125,,MarianeAzar,20261124_215144,2026-11-24T22:13:32.801699+00:00
+b4f8e1dd8c43f93d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into ""Super Smash Bros.""?
+A. Aerial Warriors: Supreme Battle
+B. Nintendo Legends: Fight!
+C. Martial Arts: King of the Hill
+D. Dragon King: The Fighting Game
+Answer:","[""Aerial Warriors: Supreme Battle"", ""Nintendo Legends: Fight!"", ""Martial Arts: King of the Hill"", ""Dragon King: The Fighting Game""]",http,0.0,16,none,"{""id"":""chatcmpl-obregbv6zz9r6inh5tu8o"",""object"":""chat.completion"",""created"":1795558412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9382,,MarianeAzar,20261124_215144,2026-11-24T22:13:33.740176+00:00
+d2be882fe9d1c64e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Chevrolet LUV mini truck make its debut?
+A. 1973
+B. 1972
+C. 1982
+D. 1975
+Answer:","[""1973"", ""1972"", ""1982"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-16j1cb6gdr33wrbmamn6f6"",""object"":""chat.completion"",""created"":1795558413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261124_215144,2026-11-24T22:13:34.621080+00:00
+d2be882fe9d1c64e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Chevrolet LUV mini truck make its debut?
+A. 1973
+B. 1972
+C. 1982
+D. 1975
+Answer:","[""1973"", ""1972"", ""1982"", ""1975""]",http,0.0,16,none,"{""id"":""chatcmpl-4eyp66wspom1fxhx485czy"",""object"":""chat.completion"",""created"":1795558414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261124_215144,2026-11-24T22:13:35.507745+00:00
+3ccd7aa43cfacdd9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Nintendo Game Splatoon 2, what is Marina's screen name?
+A. Kidnotsquid123
+B. I<30ffTh3H00k
+C. DJ_Hyperfresh
+D. MC.princess
+Answer:","[""Kidnotsquid123"", ""I<30ffTh3H00k"", ""DJ_Hyperfresh"", ""MC.princess""]",http,0.0,16,none,"{""id"":""chatcmpl-odje9mmsl5he4dtgziaxsu"",""object"":""chat.completion"",""created"":1795558415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8921,,MarianeAzar,20261124_215144,2026-11-24T22:13:36.400108+00:00
+3ccd7aa43cfacdd9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Nintendo Game Splatoon 2, what is Marina's screen name?
+A. Kidnotsquid123
+B. I<30ffTh3H00k
+C. DJ_Hyperfresh
+D. MC.princess
+Answer:","[""Kidnotsquid123"", ""I<30ffTh3H00k"", ""DJ_Hyperfresh"", ""MC.princess""]",http,0.0,16,none,"{""id"":""chatcmpl-y2gv0d4h4bboeyi1me84"",""object"":""chat.completion"",""created"":1795558416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8942,,MarianeAzar,20261124_215144,2026-11-24T22:13:37.294598+00:00
+99b0570d54cca59f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is the home of the largest Japanese population outside of Japan?
+A. Brazil
+B. Russia
+C. China
+D. The United States
+Answer:","[""Brazil"", ""Russia"", ""China"", ""The United States""]",http,0.0,16,none,"{""id"":""chatcmpl-8ncckqipeuwtmipkw566d"",""object"":""chat.completion"",""created"":1795558417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8866,,MarianeAzar,20261124_215144,2026-11-24T22:13:38.181509+00:00
+99b0570d54cca59f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is the home of the largest Japanese population outside of Japan?
+A. Brazil
+B. Russia
+C. China
+D. The United States
+Answer:","[""Brazil"", ""Russia"", ""China"", ""The United States""]",http,0.0,16,none,"{""id"":""chatcmpl-lpwt7bkj25tqpga56b9dq"",""object"":""chat.completion"",""created"":1795558418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8811,,MarianeAzar,20261124_215144,2026-11-24T22:13:39.062950+00:00
+2bc213f9eeec2999,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vikings were the first Europeans to discover North America.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kyy7vef52iq6vxyk4g6he"",""object"":""chat.completion"",""created"":1795558418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8242,,MarianeAzar,20261124_215144,2026-11-24T22:13:39.887306+00:00
+2bc213f9eeec2999,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vikings were the first Europeans to discover North America.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q6eu9mfstjlx9atpoeqvml"",""object"":""chat.completion"",""created"":1795558419,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261124_215144,2026-11-24T22:13:40.702968+00:00
+0aafd39ed222b90c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Japanese music group was formed to produce theme music for the anime ""Guilty Crown""?
+A. Babymetal
+B. Egoist
+C. Goose house
+D. Garnidelia
+Answer:","[""Babymetal"", ""Egoist"", ""Goose house"", ""Garnidelia""]",http,0.0,16,none,"{""id"":""chatcmpl-roevst31gxlu76pdbdfjlg"",""object"":""chat.completion"",""created"":1795558420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8453,,MarianeAzar,20261124_215144,2026-11-24T22:13:41.548554+00:00
+0aafd39ed222b90c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Japanese music group was formed to produce theme music for the anime ""Guilty Crown""?
+A. Babymetal
+B. Egoist
+C. Goose house
+D. Garnidelia
+Answer:","[""Babymetal"", ""Egoist"", ""Goose house"", ""Garnidelia""]",http,0.0,16,none,"{""id"":""chatcmpl-03x1jhumkregb3izbigtw1w"",""object"":""chat.completion"",""created"":1795558421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8685,,MarianeAzar,20261124_215144,2026-11-24T22:13:42.417359+00:00
+094b16cbabf4ec7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the first vending machines in the early 1880's dispense?
+A. Alcohol
+B. Post cards
+C. Sodas
+D. Cigarettes
+Answer:","[""Alcohol"", ""Post cards"", ""Sodas"", ""Cigarettes""]",http,0.0,16,none,"{""id"":""chatcmpl-fiqlcl1h3ftie6e912icse"",""object"":""chat.completion"",""created"":1795558422,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261124_215144,2026-11-24T22:13:43.284587+00:00
+094b16cbabf4ec7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the first vending machines in the early 1880's dispense?
+A. Alcohol
+B. Post cards
+C. Sodas
+D. Cigarettes
+Answer:","[""Alcohol"", ""Post cards"", ""Sodas"", ""Cigarettes""]",http,0.0,16,none,"{""id"":""chatcmpl-0b9q2658firlmdw4tjxag1"",""object"":""chat.completion"",""created"":1795558423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8779,,MarianeAzar,20261124_215144,2026-11-24T22:13:44.162696+00:00
+be0ee87a0c3e3567,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first true automobile ever made was the 1886 Benz Patent-Motorwagen.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ybne9llg1up1ri3q6vjx"",""object"":""chat.completion"",""created"":1795558424,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8419,,MarianeAzar,20261124_215144,2026-11-24T22:13:45.004803+00:00
+be0ee87a0c3e3567,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first true automobile ever made was the 1886 Benz Patent-Motorwagen.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ykd9o3n9yvncepu06105t"",""object"":""chat.completion"",""created"":1795558424,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.835,,MarianeAzar,20261124_215144,2026-11-24T22:13:45.839996+00:00
+e323c4d9f18b501d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city did Anger berate for ruining pizza in ""Inside Out""?
+A. Minnesota
+B. California
+C. San Francisco
+D. Washington
+Answer:","[""Minnesota"", ""California"", ""San Francisco"", ""Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-lt4j30denvkr3yizn93vs"",""object"":""chat.completion"",""created"":1795558425,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8502,,MarianeAzar,20261124_215144,2026-11-24T22:13:46.690543+00:00

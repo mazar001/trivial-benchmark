@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+426b9ee513d8b827,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?
+A. Mule
+B. Steed
+C. Benson
+D. Pony
+Answer:","[""Mule"", ""Steed"", ""Benson"", ""Pony""]",http,0.0,16,none,"{""id"":""chatcmpl-tlpmawzb4bdyevpzeaq7k"",""object"":""chat.completion"",""created"":1795555046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9053,,MarianeAzar,20261124_215144,2026-11-24T21:17:25.461183+00:00
+e0af6ce3682d8bc0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country has had prime ministers named Eden, Major, Peel, Law, Brown and Heath?
+A. New Zealand
+B. United Kingdom
+C. Canada
+D. Australia
+Answer:","[""New Zealand"", ""United Kingdom"", ""Canada"", ""Australia""]",http,0.0,16,none,"{""id"":""chatcmpl-4r3d1hdrmndyjtfn13l1p"",""object"":""chat.completion"",""created"":1795555047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4261,,MarianeAzar,20261124_215144,2026-11-24T21:17:26.887456+00:00
+e0af6ce3682d8bc0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country has had prime ministers named Eden, Major, Peel, Law, Brown and Heath?
+A. New Zealand
+B. United Kingdom
+C. Canada
+D. Australia
+Answer:","[""New Zealand"", ""United Kingdom"", ""Canada"", ""Australia""]",http,0.0,16,none,"{""id"":""chatcmpl-gpku2l44rxqpbmp76oj02s"",""object"":""chat.completion"",""created"":1795555048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9454,,MarianeAzar,20261124_215144,2026-11-24T21:17:27.832972+00:00
+7853d48b8b3f7f86,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Edson Arantes do Nascimento is the full name of which legendary football player?
+A. Ronaldinho
+B. Romário
+C. Pelé
+D. Zico
+Answer:","[""Ronaldinho"", ""Romário"", ""Pelé"", ""Zico""]",http,0.0,16,none,"{""id"":""chatcmpl-vwvhyuz3u7txv7iojyk2qn"",""object"":""chat.completion"",""created"":1795555049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8875,,MarianeAzar,20261124_215144,2026-11-24T21:17:28.720688+00:00
+7853d48b8b3f7f86,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Edson Arantes do Nascimento is the full name of which legendary football player?
+A. Ronaldinho
+B. Romário
+C. Pelé
+D. Zico
+Answer:","[""Ronaldinho"", ""Romário"", ""Pelé"", ""Zico""]",http,0.0,16,none,"{""id"":""chatcmpl-42g6j4z99zinotq75usj5"",""object"":""chat.completion"",""created"":1795555050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4758,,MarianeAzar,20261124_215144,2026-11-24T21:17:30.196683+00:00
+c4990c4458e55d0d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first ever London Underground line to be built?
+A. Circle Line
+B. Victoria Line
+C. Bakerloo Line
+D. Metropolitan Line
+Answer:","[""Circle Line"", ""Victoria Line"", ""Bakerloo Line"", ""Metropolitan Line""]",http,0.0,16,none,"{""id"":""chatcmpl-ktbhiy9yqub5zphqqving"",""object"":""chat.completion"",""created"":1795555052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0128,,MarianeAzar,20261124_215144,2026-11-24T21:17:31.209718+00:00
+c4990c4458e55d0d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first ever London Underground line to be built?
+A. Circle Line
+B. Victoria Line
+C. Bakerloo Line
+D. Metropolitan Line
+Answer:","[""Circle Line"", ""Victoria Line"", ""Bakerloo Line"", ""Metropolitan Line""]",http,0.0,16,none,"{""id"":""chatcmpl-mk0h8lqokafnb0hv9rzpsi"",""object"":""chat.completion"",""created"":1795555053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9544,,MarianeAzar,20261124_215144,2026-11-24T21:17:32.164338+00:00
+6c581d11e7d12bf1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Italian city is home of the car manufacturer 'Fiat'?
+A. Rome
+B. Modena
+C. Turin
+D. Maranello
+Answer:","[""Rome"", ""Modena"", ""Turin"", ""Maranello""]",http,0.0,16,none,"{""id"":""chatcmpl-cggyvkhbt254zucp9gb8a"",""object"":""chat.completion"",""created"":1795555054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3496,,MarianeAzar,20261124_215144,2026-11-24T21:17:33.514111+00:00
+6c581d11e7d12bf1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Italian city is home of the car manufacturer 'Fiat'?
+A. Rome
+B. Modena
+C. Turin
+D. Maranello
+Answer:","[""Rome"", ""Modena"", ""Turin"", ""Maranello""]",http,0.0,16,none,"{""id"":""chatcmpl-drs7q317aiv1jhzzkjtqfk"",""object"":""chat.completion"",""created"":1795555055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9465,,MarianeAzar,20261124_215144,2026-11-24T21:17:34.460826+00:00
+3d0963c6201de393,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Coca-Cola's original colour was green.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ahsfup4uthc9bcpsp7ps5"",""object"":""chat.completion"",""created"":1795555056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261124_215144,2026-11-24T21:17:35.309970+00:00
+3d0963c6201de393,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Coca-Cola's original colour was green.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i155r4i91su56isbez0sg"",""object"":""chat.completion"",""created"":1795555057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4095,,MarianeAzar,20261124_215144,2026-11-24T21:17:36.719532+00:00
+51365de768bee912,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is often called ""the Maestro"" in the men's tennis circuit?
+A. Roger Federer
+B. Boris Becker
+C. Bill Tilden
+D. Pete Sampras
+Answer:","[""Roger Federer"", ""Boris Becker"", ""Bill Tilden"", ""Pete Sampras""]",http,0.0,16,none,"{""id"":""chatcmpl-x69n1jyzzehz32pqowj3r"",""object"":""chat.completion"",""created"":1795555058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9587,,MarianeAzar,20261124_215144,2026-11-24T21:17:37.678383+00:00
+51365de768bee912,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is often called ""the Maestro"" in the men's tennis circuit?
+A. Roger Federer
+B. Boris Becker
+C. Bill Tilden
+D. Pete Sampras
+Answer:","[""Roger Federer"", ""Boris Becker"", ""Bill Tilden"", ""Pete Sampras""]",http,0.0,16,none,"{""id"":""chatcmpl-ordybqztspon5gnbd9avq"",""object"":""chat.completion"",""created"":1795555059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9465,,MarianeAzar,20261124_215144,2026-11-24T21:17:38.625019+00:00
+219338edd4c3dff9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Queen songs were sampled for the baseline in Vanilla ""Ice's Ice Ice Baby?""
+A. Lazing On A Sunday Afternoon
+B. Brighton Rock
+C. Don't Stop Me Now
+D. Under Pressure
+Answer:","[""Lazing On A Sunday Afternoon"", ""Brighton Rock"", ""Don't Stop Me Now"", ""Under Pressure""]",http,0.0,16,none,"{""id"":""chatcmpl-vlu9vfpch8mqsiwq9panm"",""object"":""chat.completion"",""created"":1795555060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3811,,MarianeAzar,20261124_215144,2026-11-24T21:17:40.006351+00:00
+219338edd4c3dff9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Queen songs were sampled for the baseline in Vanilla ""Ice's Ice Ice Baby?""
+A. Lazing On A Sunday Afternoon
+B. Brighton Rock
+C. Don't Stop Me Now
+D. Under Pressure
+Answer:","[""Lazing On A Sunday Afternoon"", ""Brighton Rock"", ""Don't Stop Me Now"", ""Under Pressure""]",http,0.0,16,none,"{""id"":""chatcmpl-kqp5fnbr4ydzpnye4uum7"",""object"":""chat.completion"",""created"":1795555061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9215,,MarianeAzar,20261124_215144,2026-11-24T21:17:40.928054+00:00
+1130e2a5db005b9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country won the 2018 FIFA World Cup hosted in Russia?
+A. Belgium
+B. France
+C. Croatia
+D. England
+Answer:","[""Belgium"", ""France"", ""Croatia"", ""England""]",http,0.0,16,none,"{""id"":""chatcmpl-4r6tlh1bcsrngfk3x5xqrc"",""object"":""chat.completion"",""created"":1795555062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9384,,MarianeAzar,20261124_215144,2026-11-24T21:17:41.867105+00:00
+1130e2a5db005b9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country won the 2018 FIFA World Cup hosted in Russia?
+A. Belgium
+B. France
+C. Croatia
+D. England
+Answer:","[""Belgium"", ""France"", ""Croatia"", ""England""]",http,0.0,16,none,"{""id"":""chatcmpl-24qt13e4d8y3vo3hzghg6w"",""object"":""chat.completion"",""created"":1795555063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2727,,MarianeAzar,20261124_215144,2026-11-24T21:17:43.140016+00:00
+292edbd4521d9afe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Joseph Smith was the founder of what religion?
+A. Christianity
+B. Buddhism
+C. Hinduism
+D. Mormonism
+Answer:","[""Christianity"", ""Buddhism"", ""Hinduism"", ""Mormonism""]",http,0.0,16,none,"{""id"":""chatcmpl-i9hysv30rx5ba6r4mszt5"",""object"":""chat.completion"",""created"":1795555065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9099,,MarianeAzar,20261124_215144,2026-11-24T21:17:44.050072+00:00
+292edbd4521d9afe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Joseph Smith was the founder of what religion?
+A. Christianity
+B. Buddhism
+C. Hinduism
+D. Mormonism
+Answer:","[""Christianity"", ""Buddhism"", ""Hinduism"", ""Mormonism""]",http,0.0,16,none,"{""id"":""chatcmpl-p6xiaymoabhpjav73qtjif"",""object"":""chat.completion"",""created"":1795555066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2271,,MarianeAzar,20261124_215144,2026-11-24T21:17:45.277364+00:00
+af625c7a759242de,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Monster Hunter Series, it is possible to capture Elder Dragons.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-weym97oojdatwqvp52r0i"",""object"":""chat.completion"",""created"":1795555067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2204,,MarianeAzar,20261124_215144,2026-11-24T21:17:46.497866+00:00
+af625c7a759242de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Monster Hunter Series, it is possible to capture Elder Dragons.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v9gv0reuj2fqwqjgqu9fy"",""object"":""chat.completion"",""created"":1795555068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8934,,MarianeAzar,20261124_215144,2026-11-24T21:17:47.391470+00:00
+07b9ed2d28a59181,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before the 19th Century, the ""Living Room"" was originally called the...
+A. Loft
+B. Parlor
+C. Sitting Room
+D. Open Room
+Answer:","[""Loft"", ""Parlor"", ""Sitting Room"", ""Open Room""]",http,0.0,16,none,"{""id"":""chatcmpl-66l07qwj8asuvnxm3nw6k"",""object"":""chat.completion"",""created"":1795555069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2271,,MarianeAzar,20261124_215144,2026-11-24T21:17:48.618880+00:00
+07b9ed2d28a59181,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before the 19th Century, the ""Living Room"" was originally called the...
+A. Loft
+B. Parlor
+C. Sitting Room
+D. Open Room
+Answer:","[""Loft"", ""Parlor"", ""Sitting Room"", ""Open Room""]",http,0.0,16,none,"{""id"":""chatcmpl-9d74g8x4eugt3rc4c36fga"",""object"":""chat.completion"",""created"":1795555070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2774,,MarianeAzar,20261124_215144,2026-11-24T21:17:49.896738+00:00
+0a0b348eb5371a53,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 2 player roles in Trouble in Terrorist Town.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8y5wuusmnt89mxw9y92p3"",""object"":""chat.completion"",""created"":1795555071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8914,,MarianeAzar,20261124_215144,2026-11-24T21:17:50.788365+00:00
+0a0b348eb5371a53,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 2 player roles in Trouble in Terrorist Town.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6s8yvudx7degsadiaqe2tt"",""object"":""chat.completion"",""created"":1795555072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2046,,MarianeAzar,20261124_215144,2026-11-24T21:17:51.993044+00:00

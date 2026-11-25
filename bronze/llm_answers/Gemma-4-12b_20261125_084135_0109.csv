@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b0e16fac2897b982,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nuts are used in the production of marzipan?
+A. Almonds
+B. Walnuts
+C. Pistachios
+D. Peanuts
+Answer:","[""Almonds"", ""Walnuts"", ""Pistachios"", ""Peanuts""]",http,0.0,16,none,"{""id"":""chatcmpl-p8ha5b00okk7otgrcxpr4u"",""object"":""chat.completion"",""created"":1795595136,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9208,,MarianeAzar,20261125_084135,2026-11-25T08:25:38.320094+00:00
+d91ca8a8a2264c14,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which music artist made the songs ""Heart"", ""It's a Sin"", and ""West End Girls""?
+A. New Order
+B. Ultravox
+C. Pet Shop Boys
+D. The Human League
+Answer:","[""New Order"", ""Ultravox"", ""Pet Shop Boys"", ""The Human League""]",http,0.0,16,none,"{""id"":""chatcmpl-7ovcum54kgmn0kzhoh6ybj"",""object"":""chat.completion"",""created"":1795595137,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.228,,MarianeAzar,20261125_084135,2026-11-25T08:25:39.548734+00:00
+d91ca8a8a2264c14,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which music artist made the songs ""Heart"", ""It's a Sin"", and ""West End Girls""?
+A. New Order
+B. Ultravox
+C. Pet Shop Boys
+D. The Human League
+Answer:","[""New Order"", ""Ultravox"", ""Pet Shop Boys"", ""The Human League""]",http,0.0,16,none,"{""id"":""chatcmpl-t6rqceszbjmii26rlspcc"",""object"":""chat.completion"",""created"":1795595138,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3467,,MarianeAzar,20261125_084135,2026-11-25T08:25:40.895744+00:00
+722f21dd9377e322,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game ""Monopoly"" is a variation of what board game?
+A. The Landlord's Game
+B. The Monopolist's Game
+C. Property Feud
+D. Territorial Dispute
+Answer:","[""The Landlord's Game"", ""The Monopolist's Game"", ""Property Feud"", ""Territorial Dispute""]",http,0.0,16,none,"{""id"":""chatcmpl-tft59yljwydgqkef27cl46"",""object"":""chat.completion"",""created"":1795595140,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9383,,MarianeAzar,20261125_084135,2026-11-25T08:25:41.834317+00:00
+722f21dd9377e322,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game ""Monopoly"" is a variation of what board game?
+A. The Landlord's Game
+B. The Monopolist's Game
+C. Property Feud
+D. Territorial Dispute
+Answer:","[""The Landlord's Game"", ""The Monopolist's Game"", ""Property Feud"", ""Territorial Dispute""]",http,0.0,16,none,"{""id"":""chatcmpl-xhaa98t401sh5hul4m9z0b"",""object"":""chat.completion"",""created"":1795595141,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9712,,MarianeAzar,20261125_084135,2026-11-25T08:25:42.806012+00:00
+d53e9b320338864e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In vanilla Minecraft, which of the following cannot be made into a block?
+A. String
+B. Charcoal
+C. Coal
+D. Wheat
+Answer:","[""String"", ""Charcoal"", ""Coal"", ""Wheat""]",http,0.0,16,none,"{""id"":""chatcmpl-pwo41uaberveqgaoopug"",""object"":""chat.completion"",""created"":1795595142,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2663,,MarianeAzar,20261125_084135,2026-11-25T08:25:44.072904+00:00
+d53e9b320338864e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In vanilla Minecraft, which of the following cannot be made into a block?
+A. String
+B. Charcoal
+C. Coal
+D. Wheat
+Answer:","[""String"", ""Charcoal"", ""Coal"", ""Wheat""]",http,0.0,16,none,"{""id"":""chatcmpl-p7jkjq97hvd4a2k3kwb58d"",""object"":""chat.completion"",""created"":1795595143,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.919,,MarianeAzar,20261125_084135,2026-11-25T08:25:44.992197+00:00
+272a77f9224cc03a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: CMOS is tech used for constructing integrated circuits. What does CMOS stand for?
+A. Complementary magnetic-ohms-semiconductor
+B. Computer-made operating system
+C. Complementary metal–oxide–semiconductor
+D. Computer-made oscillating static
+Answer:","[""Complementary magnetic-ohms-semiconductor"", ""Computer-made operating system"", ""Complementary metal–oxide–semiconductor"", ""Computer-made oscillating static""]",http,0.0,16,none,"{""id"":""chatcmpl-9ban3iu86lg5m38wbd7gz6"",""object"":""chat.completion"",""created"":1795595144,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2399,,MarianeAzar,20261125_084135,2026-11-25T08:25:46.232553+00:00
+272a77f9224cc03a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: CMOS is tech used for constructing integrated circuits. What does CMOS stand for?
+A. Complementary magnetic-ohms-semiconductor
+B. Computer-made operating system
+C. Complementary metal–oxide–semiconductor
+D. Computer-made oscillating static
+Answer:","[""Complementary magnetic-ohms-semiconductor"", ""Computer-made operating system"", ""Complementary metal–oxide–semiconductor"", ""Computer-made oscillating static""]",http,0.0,16,none,"{""id"":""chatcmpl-1osiqpyv0b33cor3qtxedt"",""object"":""chat.completion"",""created"":1795595145,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3868,,MarianeAzar,20261125_084135,2026-11-25T08:25:47.619583+00:00
+1a76dc6ec117cf7a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first front-wheel-drive car produced by Datsun (now Nissan)?
+A. Cherry
+B. Bluebird
+C. Sunny
+D. Skyline
+Answer:","[""Cherry"", ""Bluebird"", ""Sunny"", ""Skyline""]",http,0.0,16,none,"{""id"":""chatcmpl-az470q2jy7qvf2kf9vhi6k"",""object"":""chat.completion"",""created"":1795595147,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9483,,MarianeAzar,20261125_084135,2026-11-25T08:25:48.568177+00:00
+1a76dc6ec117cf7a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the first front-wheel-drive car produced by Datsun (now Nissan)?
+A. Cherry
+B. Bluebird
+C. Sunny
+D. Skyline
+Answer:","[""Cherry"", ""Bluebird"", ""Sunny"", ""Skyline""]",http,0.0,16,none,"{""id"":""chatcmpl-979nl4b4pan75ct1ipb5"",""object"":""chat.completion"",""created"":1795595147,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9669,,MarianeAzar,20261125_084135,2026-11-25T08:25:49.535340+00:00
+573804deef75612e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Hadrian's Wall located?
+A. Alexandria, Egypt
+B. Dublin, Ireland
+C. Carlisle, England
+D. Rome, Italy
+Answer:","[""Alexandria, Egypt"", ""Dublin, Ireland"", ""Carlisle, England"", ""Rome, Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-a5z62y9cj2evrcvn37b7"",""object"":""chat.completion"",""created"":1795595148,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4112,,MarianeAzar,20261125_084135,2026-11-25T08:25:50.946959+00:00
+573804deef75612e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is Hadrian's Wall located?
+A. Alexandria, Egypt
+B. Dublin, Ireland
+C. Carlisle, England
+D. Rome, Italy
+Answer:","[""Alexandria, Egypt"", ""Dublin, Ireland"", ""Carlisle, England"", ""Rome, Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-qaya3vn0d1bgyv3umaquqb"",""object"":""chat.completion"",""created"":1795595150,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0066,,MarianeAzar,20261125_084135,2026-11-25T08:25:51.953891+00:00
+b05fa27312a432c2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created Agent 47 in the game series ""Hitman""?
+A. Dr. Otto Wolfgang Ort-Meyer
+B. Professor Hertz Amadeus Schneider
+C. Professor Otto Rothwinkler
+D. Dr. Josef Mengele
+Answer:","[""Dr. Otto Wolfgang Ort-Meyer"", ""Professor Hertz Amadeus Schneider"", ""Professor Otto Rothwinkler"", ""Dr. Josef Mengele""]",http,0.0,16,none,"{""id"":""chatcmpl-orii1hypxiog5v8l1rhnr"",""object"":""chat.completion"",""created"":1795595151,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9522,,MarianeAzar,20261125_084135,2026-11-25T08:25:52.906323+00:00
+b05fa27312a432c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created Agent 47 in the game series ""Hitman""?
+A. Dr. Otto Wolfgang Ort-Meyer
+B. Professor Hertz Amadeus Schneider
+C. Professor Otto Rothwinkler
+D. Dr. Josef Mengele
+Answer:","[""Dr. Otto Wolfgang Ort-Meyer"", ""Professor Hertz Amadeus Schneider"", ""Professor Otto Rothwinkler"", ""Dr. Josef Mengele""]",http,0.0,16,none,"{""id"":""chatcmpl-tekndnniccmk429dp6g1z"",""object"":""chat.completion"",""created"":1795595152,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4504,,MarianeAzar,20261125_084135,2026-11-25T08:25:54.356943+00:00
+7f14dd011dc9a4a6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ottoman Empire was created in 1299.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y318bpueu2jb9vhqvixrr"",""object"":""chat.completion"",""created"":1795595153,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9,,MarianeAzar,20261125_084135,2026-11-25T08:25:55.257749+00:00
+7f14dd011dc9a4a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ottoman Empire was created in 1299.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7rgprddso19m1ajltcow2"",""object"":""chat.completion"",""created"":1795595154,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9025,,MarianeAzar,20261125_084135,2026-11-25T08:25:56.160413+00:00
+b7a287b5fdde0562,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xhchcvwj5zavzzrezyzquc"",""object"":""chat.completion"",""created"":1795595155,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.356,,MarianeAzar,20261125_084135,2026-11-25T08:25:57.516619+00:00
+b7a287b5fdde0562,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-abxlbhhiwey3coxb5en6p"",""object"":""chat.completion"",""created"":1795595156,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9093,,MarianeAzar,20261125_084135,2026-11-25T08:25:58.426097+00:00
+c08f56137fe170dc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Rollercoaster Tycoon"" was programmed mostly entirely in...
+A. x86 Assembly
+B. C++
+C. C
+D. ALGOL
+Answer:","[""x86 Assembly"", ""C++"", ""C"", ""ALGOL""]",http,0.0,16,none,"{""id"":""chatcmpl-1guy7dy0oh4hpq9ox7043u"",""object"":""chat.completion"",""created"":1795595157,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9494,,MarianeAzar,20261125_084135,2026-11-25T08:25:59.375720+00:00
+c08f56137fe170dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Rollercoaster Tycoon"" was programmed mostly entirely in...
+A. x86 Assembly
+B. C++
+C. C
+D. ALGOL
+Answer:","[""x86 Assembly"", ""C++"", ""C"", ""ALGOL""]",http,0.0,16,none,"{""id"":""chatcmpl-6cp4mjig3jvmfhz9sy9akm"",""object"":""chat.completion"",""created"":1795595158,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3125,,MarianeAzar,20261125_084135,2026-11-25T08:26:00.688439+00:00
+fea37f23ba3c65ff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The catastrophic nuclear accident that occurred in Ukraine in 1986 occurred at which power plant?
+A. Mayak
+B. Chernobyl
+C. Ignalina
+D. Kursk
+Answer:","[""Mayak"", ""Chernobyl"", ""Ignalina"", ""Kursk""]",http,0.0,16,none,"{""id"":""chatcmpl-2wj44irh4pbps47whmws4"",""object"":""chat.completion"",""created"":1795595160,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.938,,MarianeAzar,20261125_084135,2026-11-25T08:26:01.626656+00:00
+fea37f23ba3c65ff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The catastrophic nuclear accident that occurred in Ukraine in 1986 occurred at which power plant?
+A. Mayak
+B. Chernobyl
+C. Ignalina
+D. Kursk
+Answer:","[""Mayak"", ""Chernobyl"", ""Ignalina"", ""Kursk""]",http,0.0,16,none,"{""id"":""chatcmpl-0hbh1grixlv6iyociz6l3w"",""object"":""chat.completion"",""created"":1795595161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9531,,MarianeAzar,20261125_084135,2026-11-25T08:26:02.579875+00:00
+656a427a351b4904,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?
+A. Eobard Thawne
+B. Johnny Quick
+C. Wally West
+D. Jay Garrick
+Answer:","[""Eobard Thawne"", ""Johnny Quick"", ""Wally West"", ""Jay Garrick""]",http,0.0,16,none,"{""id"":""chatcmpl-h7g9e9fkj45n0y91l6kybq"",""object"":""chat.completion"",""created"":1795595162,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.435,,MarianeAzar,20261125_084135,2026-11-25T08:26:04.015378+00:00
+656a427a351b4904,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?
+A. Eobard Thawne
+B. Johnny Quick
+C. Wally West
+D. Jay Garrick
+Answer:","[""Eobard Thawne"", ""Johnny Quick"", ""Wally West"", ""Jay Garrick""]",http,0.0,16,none,"{""id"":""chatcmpl-k3j8h8cc48bkgbfvcv20i"",""object"":""chat.completion"",""created"":1795595163,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0117,,MarianeAzar,20261125_084135,2026-11-25T08:26:05.027514+00:00

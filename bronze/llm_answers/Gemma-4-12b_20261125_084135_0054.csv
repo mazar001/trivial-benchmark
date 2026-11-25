@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+30d40b81385cfc8f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Battle of Hastings was fought in which year?
+A. 1204
+B. 1420
+C. 1066
+D. 911
+Answer:","[""1204"", ""1420"", ""1066"", ""911""]",http,0.0,16,none,"{""id"":""chatcmpl-cpjo6tdohdjmdvh5crqtr"",""object"":""chat.completion"",""created"":1795593669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261125_084135,2026-11-25T08:01:11.149518+00:00
+30d40b81385cfc8f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Battle of Hastings was fought in which year?
+A. 1204
+B. 1420
+C. 1066
+D. 911
+Answer:","[""1204"", ""1420"", ""1066"", ""911""]",http,0.0,16,none,"{""id"":""chatcmpl-vlzvohu5oz9kyzuzxg2kno"",""object"":""chat.completion"",""created"":1795593670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9288,,MarianeAzar,20261125_084135,2026-11-25T08:01:12.078559+00:00
+1e9487b727c1ce82,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: St. Louis is the capital of the US State Missouri.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i7tmfbv7nypmg36bb8yjtq"",""object"":""chat.completion"",""created"":1795593671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8479,,MarianeAzar,20261125_084135,2026-11-25T08:01:12.926677+00:00
+1e9487b727c1ce82,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: St. Louis is the capital of the US State Missouri.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-akneo95zxkbvnk8rt941qf"",""object"":""chat.completion"",""created"":1795593672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8413,,MarianeAzar,20261125_084135,2026-11-25T08:01:13.768173+00:00
+66985c294aec55d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did Drew Brees pass in all time NFL passing yards in 2018?
+A. Tom Brady
+B. Peyton Manning
+C. Dan Marino
+D. Joe Montana
+Answer:","[""Tom Brady"", ""Peyton Manning"", ""Dan Marino"", ""Joe Montana""]",http,0.0,16,none,"{""id"":""chatcmpl-yxp9ol0j1obisplw2dpwi"",""object"":""chat.completion"",""created"":1795593673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8678,,MarianeAzar,20261125_084135,2026-11-25T08:01:14.636292+00:00
+66985c294aec55d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did Drew Brees pass in all time NFL passing yards in 2018?
+A. Tom Brady
+B. Peyton Manning
+C. Dan Marino
+D. Joe Montana
+Answer:","[""Tom Brady"", ""Peyton Manning"", ""Dan Marino"", ""Joe Montana""]",http,0.0,16,none,"{""id"":""chatcmpl-zhpajzuqlisee38j4r9ebe"",""object"":""chat.completion"",""created"":1795593674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8946,,MarianeAzar,20261125_084135,2026-11-25T08:01:15.531076+00:00
+2409d3dd7d2d5127,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the manga ""Ping Pong"" begin serialization?
+A. 2010
+B. 2014
+C. 1996
+D. 2003
+Answer:","[""2010"", ""2014"", ""1996"", ""2003""]",http,0.0,16,none,"{""id"":""chatcmpl-qzpztmypbnpyqxnkaax0q"",""object"":""chat.completion"",""created"":1795593674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8846,,MarianeAzar,20261125_084135,2026-11-25T08:01:16.415930+00:00
+2409d3dd7d2d5127,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the manga ""Ping Pong"" begin serialization?
+A. 2010
+B. 2014
+C. 1996
+D. 2003
+Answer:","[""2010"", ""2014"", ""1996"", ""2003""]",http,0.0,16,none,"{""id"":""chatcmpl-qc8snz6aol9d0ms86c10kr"",""object"":""chat.completion"",""created"":1795593675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8888,,MarianeAzar,20261125_084135,2026-11-25T08:01:17.304889+00:00
+52837fe8817e91bf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?
+A. USS Lexington
+B. USS Enterprise
+C. USS Saratoga
+D. USS Hornet
+Answer:","[""USS Lexington"", ""USS Enterprise"", ""USS Saratoga"", ""USS Hornet""]",http,0.0,16,none,"{""id"":""chatcmpl-n7kw8s180zqx74mrqegdyc"",""object"":""chat.completion"",""created"":1795593676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8891,,MarianeAzar,20261125_084135,2026-11-25T08:01:18.194386+00:00
+52837fe8817e91bf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?
+A. USS Lexington
+B. USS Enterprise
+C. USS Saratoga
+D. USS Hornet
+Answer:","[""USS Lexington"", ""USS Enterprise"", ""USS Saratoga"", ""USS Hornet""]",http,0.0,16,none,"{""id"":""chatcmpl-29jxa100lxm7a56jn1123c"",""object"":""chat.completion"",""created"":1795593677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8907,,MarianeAzar,20261125_084135,2026-11-25T08:01:19.085335+00:00
+234d61d89d8b2e9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch is located on which Welsh island?
+A. Bardsey
+B. Caldey
+C. Anglesey
+D. Barry
+Answer:","[""Bardsey"", ""Caldey"", ""Anglesey"", ""Barry""]",http,0.0,16,none,"{""id"":""chatcmpl-llc4lmw8rfjd0bwkcazz8t"",""object"":""chat.completion"",""created"":1795593678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8943,,MarianeAzar,20261125_084135,2026-11-25T08:01:19.980059+00:00
+234d61d89d8b2e9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Llanfair­pwllgwyngyll­gogery­chwyrn­drobwll­llan­tysilio­gogo­goch is located on which Welsh island?
+A. Bardsey
+B. Caldey
+C. Anglesey
+D. Barry
+Answer:","[""Bardsey"", ""Caldey"", ""Anglesey"", ""Barry""]",http,0.0,16,none,"{""id"":""chatcmpl-s0outztldcojxcbkriuab"",""object"":""chat.completion"",""created"":1795593679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9342,,MarianeAzar,20261125_084135,2026-11-25T08:01:20.914587+00:00
+d96b02c1f33b79cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Deuterium is an isotope of which element?
+A. Helium
+B. Nitrogen
+C. Neon
+D. Hydrogen
+Answer:","[""Helium"", ""Nitrogen"", ""Neon"", ""Hydrogen""]",http,0.0,16,none,"{""id"":""chatcmpl-om7jkrqro894uvkscbdy7"",""object"":""chat.completion"",""created"":1795593680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T08:01:21.773972+00:00
+d96b02c1f33b79cf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Deuterium is an isotope of which element?
+A. Helium
+B. Nitrogen
+C. Neon
+D. Hydrogen
+Answer:","[""Helium"", ""Nitrogen"", ""Neon"", ""Hydrogen""]",http,0.0,16,none,"{""id"":""chatcmpl-t34m1jia9f7ijecd6it777"",""object"":""chat.completion"",""created"":1795593681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8521,,MarianeAzar,20261125_084135,2026-11-25T08:01:22.626369+00:00
+3771635cc28e3a6f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Persona 4"", what is the canonical name of the protagonist?
+A. Chino Mashido
+B. Yu Narukami
+C. Tunki Sunada
+D. Masaki Narinaka
+Answer:","[""Chino Mashido"", ""Yu Narukami"", ""Tunki Sunada"", ""Masaki Narinaka""]",http,0.0,16,none,"{""id"":""chatcmpl-o3810vnrmwsb9t9xtq7lg"",""object"":""chat.completion"",""created"":1795593682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:01:23.477581+00:00
+3771635cc28e3a6f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Persona 4"", what is the canonical name of the protagonist?
+A. Chino Mashido
+B. Yu Narukami
+C. Tunki Sunada
+D. Masaki Narinaka
+Answer:","[""Chino Mashido"", ""Yu Narukami"", ""Tunki Sunada"", ""Masaki Narinaka""]",http,0.0,16,none,"{""id"":""chatcmpl-uo5b3ssovmqcxctmk13mql"",""object"":""chat.completion"",""created"":1795593682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8978,,MarianeAzar,20261125_084135,2026-11-25T08:01:24.375667+00:00
+a739227ade91ab97,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which WWF wrestler had the nickname ""The Ayatollah of Rock 'N' Rolla""?
+A. Shawn Michaels
+B. Marty Jannetty
+C. Chris Jericho
+D. Scott Hall
+Answer:","[""Shawn Michaels"", ""Marty Jannetty"", ""Chris Jericho"", ""Scott Hall""]",http,0.0,16,none,"{""id"":""chatcmpl-0ihsj9u1723fbjy6evg16um"",""object"":""chat.completion"",""created"":1795593683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8769,,MarianeAzar,20261125_084135,2026-11-25T08:01:25.252803+00:00
+a739227ade91ab97,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which WWF wrestler had the nickname ""The Ayatollah of Rock 'N' Rolla""?
+A. Shawn Michaels
+B. Marty Jannetty
+C. Chris Jericho
+D. Scott Hall
+Answer:","[""Shawn Michaels"", ""Marty Jannetty"", ""Chris Jericho"", ""Scott Hall""]",http,0.0,16,none,"{""id"":""chatcmpl-47kwmnztos4r2j4eu4dbg"",""object"":""chat.completion"",""created"":1795593684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:01:26.109551+00:00
+4c0302401620bea9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the voice actor for Snake in Metal Gear Solid V: The Phantom Pain?
+A. Kiefer Sutherland
+B. Norman Reedus
+C. Hideo Kojima
+D. David Hayter
+Answer:","[""Kiefer Sutherland"", ""Norman Reedus"", ""Hideo Kojima"", ""David Hayter""]",http,0.0,16,none,"{""id"":""chatcmpl-3h1qc98cth2yqk6m83u8sg"",""object"":""chat.completion"",""created"":1795593685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261125_084135,2026-11-25T08:01:26.998137+00:00
+4c0302401620bea9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the voice actor for Snake in Metal Gear Solid V: The Phantom Pain?
+A. Kiefer Sutherland
+B. Norman Reedus
+C. Hideo Kojima
+D. David Hayter
+Answer:","[""Kiefer Sutherland"", ""Norman Reedus"", ""Hideo Kojima"", ""David Hayter""]",http,0.0,16,none,"{""id"":""chatcmpl-6ae7a2fxmh4dgxw5mg3qi4"",""object"":""chat.completion"",""created"":1795593686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261125_084135,2026-11-25T08:01:27.885399+00:00
+4fe79684cc339267,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most common type of pitch thrown by pitchers in baseball?
+A. Screwball
+B. Slowball
+C. Fastball
+D. Palmball
+Answer:","[""Screwball"", ""Slowball"", ""Fastball"", ""Palmball""]",http,0.0,16,none,"{""id"":""chatcmpl-653x9qvqnkappbh47bmk5"",""object"":""chat.completion"",""created"":1795593687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T08:01:28.750756+00:00
+4fe79684cc339267,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most common type of pitch thrown by pitchers in baseball?
+A. Screwball
+B. Slowball
+C. Fastball
+D. Palmball
+Answer:","[""Screwball"", ""Slowball"", ""Fastball"", ""Palmball""]",http,0.0,16,none,"{""id"":""chatcmpl-tnra17ymy352nh1d1j1w"",""object"":""chat.completion"",""created"":1795593688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8733,,MarianeAzar,20261125_084135,2026-11-25T08:01:29.624456+00:00
+047e2fb4aec4e4ce,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Rugby League, performing a ""40-20"" is punished by a free kick for the opposing team.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eku32wpz4vvee31j0vyzub"",""object"":""chat.completion"",""created"":1795593689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8533,,MarianeAzar,20261125_084135,2026-11-25T08:01:30.477954+00:00
+047e2fb4aec4e4ce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Rugby League, performing a ""40-20"" is punished by a free kick for the opposing team.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3cao9alpw5dqjeb3b2cq5"",""object"":""chat.completion"",""created"":1795593689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T08:01:31.339016+00:00
+19fa783803888493,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was Avril Lavigne’s first studio album, “Let Go”, released?
+A. 2001
+B. 2004
+C. 2002
+D. 2005
+Answer:","[""2001"", ""2004"", ""2002"", ""2005""]",http,0.0,16,none,"{""id"":""chatcmpl-h4g7nbbey9o2lh7qq6we"",""object"":""chat.completion"",""created"":1795593690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261125_084135,2026-11-25T08:01:32.199252+00:00

@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ca754b3dc9644945,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following languages does NOT use gender as a part of its grammar?
+A. Turkish
+B. Polish
+C. German
+D. Danish
+Answer:","[""Turkish"", ""Polish"", ""German"", ""Danish""]",http,0.0,16,none,"{""id"":""chatcmpl-12uan049211s6vrvoumhbww"",""object"":""chat.completion"",""created"":1795593079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T07:51:20.443354+00:00
+80c2e0383f8f8c25,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In music theory, how many notes are in a seventh chord?
+A. 4
+B. 3
+C. 2
+D. 7
+Answer:","[""4"", ""3"", ""2"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-zpvejyj4o1qbia5hngrt3m"",""object"":""chat.completion"",""created"":1795593079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261125_084135,2026-11-25T07:51:21.311310+00:00
+80c2e0383f8f8c25,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In music theory, how many notes are in a seventh chord?
+A. 4
+B. 3
+C. 2
+D. 7
+Answer:","[""4"", ""3"", ""2"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-yjfyuhhv8wixo1wy8uwrcb"",""object"":""chat.completion"",""created"":1795593080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T07:51:22.171248+00:00
+a178ed3097ab9718,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the ""A Song of Ice And Fire"" fantasy novel series?
+A. George Orwell
+B. George Lucas
+C. George Eliot
+D. George R. R. Martin
+Answer:","[""George Orwell"", ""George Lucas"", ""George Eliot"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-gzxnyjnvrrpa6vv9eximpc"",""object"":""chat.completion"",""created"":1795593081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T07:51:23.023381+00:00
+a178ed3097ab9718,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the ""A Song of Ice And Fire"" fantasy novel series?
+A. George Orwell
+B. George Lucas
+C. George Eliot
+D. George R. R. Martin
+Answer:","[""George Orwell"", ""George Lucas"", ""George Eliot"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-0o7g0vy5u0saky1sduoa43"",""object"":""chat.completion"",""created"":1795593082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T07:51:23.881043+00:00
+e02293b5d27d4508,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Africa is a country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k5chvv3e56eq1qynt12wrq"",""object"":""chat.completion"",""created"":1795593083,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":44,""completion_tokens"":2,""total_tokens"":46,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8091,,MarianeAzar,20261125_084135,2026-11-25T07:51:24.690361+00:00
+e02293b5d27d4508,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Africa is a country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zrfb80fscotuz81hph1bj"",""object"":""chat.completion"",""created"":1795593084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8256,,MarianeAzar,20261125_084135,2026-11-25T07:51:25.516181+00:00
+4273edd668ff4083,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year was the Megadeth album ""Peace Sells... but Who's Buying?"" released?
+A. 1987
+B. 1979
+C. 1986
+D. 1983
+Answer:","[""1987"", ""1979"", ""1986"", ""1983""]",http,0.0,16,none,"{""id"":""chatcmpl-ojqlaf3bnesnfxp6e55ddr"",""object"":""chat.completion"",""created"":1795593084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T07:51:26.382182+00:00
+4273edd668ff4083,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year was the Megadeth album ""Peace Sells... but Who's Buying?"" released?
+A. 1987
+B. 1979
+C. 1986
+D. 1983
+Answer:","[""1987"", ""1979"", ""1986"", ""1983""]",http,0.0,16,none,"{""id"":""chatcmpl-41d7i3vuhv6cq204mb2p5"",""object"":""chat.completion"",""created"":1795593085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8893,,MarianeAzar,20261125_084135,2026-11-25T07:51:27.271639+00:00
+b01ac78046756062,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the most Trappist breweries?
+A. Netherlands
+B. USA
+C. France
+D. Belgium
+Answer:","[""Netherlands"", ""USA"", ""France"", ""Belgium""]",http,0.0,16,none,"{""id"":""chatcmpl-a39slta48m6ngj9iiqknj"",""object"":""chat.completion"",""created"":1795593086,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T07:51:28.118291+00:00
+b01ac78046756062,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the most Trappist breweries?
+A. Netherlands
+B. USA
+C. France
+D. Belgium
+Answer:","[""Netherlands"", ""USA"", ""France"", ""Belgium""]",http,0.0,16,none,"{""id"":""chatcmpl-l39ruhca3ri6rwjt08m4"",""object"":""chat.completion"",""created"":1795593087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:51:28.972221+00:00
+4685c6bb56d1b0b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main protagonist in ""Xenoblade Chronicles""?
+A. Fiora
+B. Shulk
+C. Reyn
+D. Dunban
+Answer:","[""Fiora"", ""Shulk"", ""Reyn"", ""Dunban""]",http,0.0,16,none,"{""id"":""chatcmpl-j1bua3b3rknwd3jfkga7ge"",""object"":""chat.completion"",""created"":1795593088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.886,,MarianeAzar,20261125_084135,2026-11-25T07:51:29.858496+00:00
+4685c6bb56d1b0b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main protagonist in ""Xenoblade Chronicles""?
+A. Fiora
+B. Shulk
+C. Reyn
+D. Dunban
+Answer:","[""Fiora"", ""Shulk"", ""Reyn"", ""Dunban""]",http,0.0,16,none,"{""id"":""chatcmpl-okdxan5a86qyg9xak8lw2"",""object"":""chat.completion"",""created"":1795593089,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T07:51:30.715789+00:00
+8f57fba4297e6af2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did ""Bishoujo Senshi Sailor Moon"" air in Japan?
+A. 1989
+B. 1990
+C. 1994
+D. 1992
+Answer:","[""1989"", ""1990"", ""1994"", ""1992""]",http,0.0,16,none,"{""id"":""chatcmpl-gwimii884dqvkbtvztbwg"",""object"":""chat.completion"",""created"":1795593090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T07:51:31.578221+00:00
+8f57fba4297e6af2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did ""Bishoujo Senshi Sailor Moon"" air in Japan?
+A. 1989
+B. 1990
+C. 1994
+D. 1992
+Answer:","[""1989"", ""1990"", ""1994"", ""1992""]",http,0.0,16,none,"{""id"":""chatcmpl-3lubhu6ifr4du1nj295zdm"",""object"":""chat.completion"",""created"":1795593091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8875,,MarianeAzar,20261125_084135,2026-11-25T07:51:32.466015+00:00
+5bb3da307061e020,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country inside the United Kingdom does NOT appear on its flag, the Union Jack?
+A. Isle of Wight
+B. Scotland
+C. Ireland
+D. Wales
+Answer:","[""Isle of Wight"", ""Scotland"", ""Ireland"", ""Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-ni3qjobt5q0m2nezsryfx"",""object"":""chat.completion"",""created"":1795593091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T07:51:33.318814+00:00
+5bb3da307061e020,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country inside the United Kingdom does NOT appear on its flag, the Union Jack?
+A. Isle of Wight
+B. Scotland
+C. Ireland
+D. Wales
+Answer:","[""Isle of Wight"", ""Scotland"", ""Ireland"", ""Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-drxdv2kptlakdwb5f1jnw"",""object"":""chat.completion"",""created"":1795593092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8533,,MarianeAzar,20261125_084135,2026-11-25T07:51:34.172544+00:00
+5762fbd787b69f38,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Star Wars, what's the name of the new Government created after the defeat of the Galactic Empire?
+A. The Crimson Dawn
+B. The New Republic
+C. The First Order
+D. The Rebel Alliance
+Answer:","[""The Crimson Dawn"", ""The New Republic"", ""The First Order"", ""The Rebel Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-2yyoxhdlpg9nmrl0wcxut"",""object"":""chat.completion"",""created"":1795593093,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T07:51:35.036181+00:00
+5762fbd787b69f38,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Star Wars, what's the name of the new Government created after the defeat of the Galactic Empire?
+A. The Crimson Dawn
+B. The New Republic
+C. The First Order
+D. The Rebel Alliance
+Answer:","[""The Crimson Dawn"", ""The New Republic"", ""The First Order"", ""The Rebel Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-pgkscje35d4n06aovo0b"",""object"":""chat.completion"",""created"":1795593094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.884,,MarianeAzar,20261125_084135,2026-11-25T07:51:35.920338+00:00
+030d1e6eaab2bab2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?
+A. Piston
+B. Camshaft
+C. Crankshaft
+D. Drive shaft
+Answer:","[""Piston"", ""Camshaft"", ""Crankshaft"", ""Drive shaft""]",http,0.0,16,none,"{""id"":""chatcmpl-08f8ff23m44l3dj6oy203ar"",""object"":""chat.completion"",""created"":1795593095,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T07:51:36.777806+00:00
+030d1e6eaab2bab2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?
+A. Piston
+B. Camshaft
+C. Crankshaft
+D. Drive shaft
+Answer:","[""Piston"", ""Camshaft"", ""Crankshaft"", ""Drive shaft""]",http,0.0,16,none,"{""id"":""chatcmpl-nfo3d4hwizcdy4pjvcbzep"",""object"":""chat.completion"",""created"":1795593096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8804,,MarianeAzar,20261125_084135,2026-11-25T07:51:37.658529+00:00
+86b637ef9d7d480a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is an existing family in ""The Sims""?
+A. The Simoleon Family
+B. The Proud Family
+C. The Family
+D. The Goth Family
+Answer:","[""The Simoleon Family"", ""The Proud Family"", ""The Family"", ""The Goth Family""]",http,0.0,16,none,"{""id"":""chatcmpl-9k5d5o2qldkt7k3vohqa3"",""object"":""chat.completion"",""created"":1795593097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8767,,MarianeAzar,20261125_084135,2026-11-25T07:51:38.535466+00:00
+86b637ef9d7d480a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is an existing family in ""The Sims""?
+A. The Simoleon Family
+B. The Proud Family
+C. The Family
+D. The Goth Family
+Answer:","[""The Simoleon Family"", ""The Proud Family"", ""The Family"", ""The Goth Family""]",http,0.0,16,none,"{""id"":""chatcmpl-p6maoi8l2ulmrkiubwpa"",""object"":""chat.completion"",""created"":1795593097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T07:51:39.391977+00:00
+d120ef2c30bdbc79,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Greek god of blacksmiths?
+A. Artagatus
+B. Vulcan
+C. Hephaestus
+D. Dyntos
+Answer:","[""Artagatus"", ""Vulcan"", ""Hephaestus"", ""Dyntos""]",http,0.0,16,none,"{""id"":""chatcmpl-jcti36q4ojngc3gbc4h3lf"",""object"":""chat.completion"",""created"":1795593098,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8631,,MarianeAzar,20261125_084135,2026-11-25T07:51:40.255375+00:00
+d120ef2c30bdbc79,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Greek god of blacksmiths?
+A. Artagatus
+B. Vulcan
+C. Hephaestus
+D. Dyntos
+Answer:","[""Artagatus"", ""Vulcan"", ""Hephaestus"", ""Dyntos""]",http,0.0,16,none,"{""id"":""chatcmpl-91kg8niday4b0e9bh7zhhi"",""object"":""chat.completion"",""created"":1795593099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8723,,MarianeAzar,20261125_084135,2026-11-25T07:51:41.127971+00:00

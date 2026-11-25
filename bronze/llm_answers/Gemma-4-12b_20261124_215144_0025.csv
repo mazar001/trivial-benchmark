@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7769776d2f8829d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?
+A. 2008
+B. 2006
+C. 2004
+D. 2002
+Answer:","[""2008"", ""2006"", ""2004"", ""2002""]",http,0.0,16,none,"{""id"":""chatcmpl-dze03aiy1f5gbh0lnnxxj"",""object"":""chat.completion"",""created"":1795554170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261124_215144,2026-11-24T21:02:51.320458+00:00
+8159132ae2307964,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in ""The Flash"" TV series?
+A. Bruce Wayne
+B. Bart Allen
+C. Oliver Queen
+D. Barry Allen
+Answer:","[""Bruce Wayne"", ""Bart Allen"", ""Oliver Queen"", ""Barry Allen""]",http,0.0,16,none,"{""id"":""chatcmpl-o8e1doflh886yq4fsvpd6v"",""object"":""chat.completion"",""created"":1795554171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261124_215144,2026-11-24T21:02:52.174979+00:00
+8159132ae2307964,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character in ""The Flash"" TV series?
+A. Bruce Wayne
+B. Bart Allen
+C. Oliver Queen
+D. Barry Allen
+Answer:","[""Bruce Wayne"", ""Bart Allen"", ""Oliver Queen"", ""Barry Allen""]",http,0.0,16,none,"{""id"":""chatcmpl-9xcvj4cwp5om914vf0vgql"",""object"":""chat.completion"",""created"":1795554172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261124_215144,2026-11-24T21:02:53.036215+00:00
+f6a05bb83809daba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The tale of Robin Hood originates from which country?
+A. Portugal
+B. Scotland
+C. England
+D. France
+Answer:","[""Portugal"", ""Scotland"", ""England"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-gtjtor01jyjoxkkob3gm0d"",""object"":""chat.completion"",""created"":1795554172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8482,,MarianeAzar,20261124_215144,2026-11-24T21:02:53.884721+00:00
+f6a05bb83809daba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The tale of Robin Hood originates from which country?
+A. Portugal
+B. Scotland
+C. England
+D. France
+Answer:","[""Portugal"", ""Scotland"", ""England"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-sswlvrmvx3b6p6q0ht9u0b"",""object"":""chat.completion"",""created"":1795554173,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261124_215144,2026-11-24T21:02:54.733735+00:00
+d7a3c7ac652b9dc4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 2015 movie ""The Revenant""?
+A. Wes Anderson
+B. Christopher Nolan
+C. Alejandro G. Iñárritu
+D. David Fincher
+Answer:","[""Wes Anderson"", ""Christopher Nolan"", ""Alejandro G. Iñárritu"", ""David Fincher""]",http,0.0,16,none,"{""id"":""chatcmpl-qa9r2737l6e9wo2x1vlrxl"",""object"":""chat.completion"",""created"":1795554174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261124_215144,2026-11-24T21:02:55.590765+00:00
+d7a3c7ac652b9dc4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 2015 movie ""The Revenant""?
+A. Wes Anderson
+B. Christopher Nolan
+C. Alejandro G. Iñárritu
+D. David Fincher
+Answer:","[""Wes Anderson"", ""Christopher Nolan"", ""Alejandro G. Iñárritu"", ""David Fincher""]",http,0.0,16,none,"{""id"":""chatcmpl-wyvqx08mmrecvgoqpc5ht"",""object"":""chat.completion"",""created"":1795554175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261124_215144,2026-11-24T21:02:56.442225+00:00
+7df31daf4325a8e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these teams has Jaromir Jagr not played for?
+A. New Jersey Devils
+B. New York Islanders
+C. Dallas Stars
+D. Calgary Flames
+Answer:","[""New Jersey Devils"", ""New York Islanders"", ""Dallas Stars"", ""Calgary Flames""]",http,0.0,16,none,"{""id"":""chatcmpl-wcyry3efzydr1gh6ikoxhp"",""object"":""chat.completion"",""created"":1795554176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261124_215144,2026-11-24T21:02:57.297496+00:00
+7df31daf4325a8e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these teams has Jaromir Jagr not played for?
+A. New Jersey Devils
+B. New York Islanders
+C. Dallas Stars
+D. Calgary Flames
+Answer:","[""New Jersey Devils"", ""New York Islanders"", ""Dallas Stars"", ""Calgary Flames""]",http,0.0,16,none,"{""id"":""chatcmpl-hkkuj2fhgm56bocba7cl13"",""object"":""chat.completion"",""created"":1795554177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261124_215144,2026-11-24T21:02:58.161191+00:00
+4b4743c3d1dcd280,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What scientific suborder does the family Hyaenidae belong to?
+A. Ciconiiformes
+B. Feliformia
+C. Caniformia
+D. Haplorhini
+Answer:","[""Ciconiiformes"", ""Feliformia"", ""Caniformia"", ""Haplorhini""]",http,0.0,16,none,"{""id"":""chatcmpl-gqg8nexwjqo4nq4qclx4q"",""object"":""chat.completion"",""created"":1795554178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261124_215144,2026-11-24T21:02:59.009936+00:00
+4b4743c3d1dcd280,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What scientific suborder does the family Hyaenidae belong to?
+A. Ciconiiformes
+B. Feliformia
+C. Caniformia
+D. Haplorhini
+Answer:","[""Ciconiiformes"", ""Feliformia"", ""Caniformia"", ""Haplorhini""]",http,0.0,16,none,"{""id"":""chatcmpl-pcskxsl2r28gxp53eeya76"",""object"":""chat.completion"",""created"":1795554179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9902,,MarianeAzar,20261124_215144,2026-11-24T21:03:00.000352+00:00
+1f9f10ec239216d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many seasons did ""Stargate SG-1"" have?
+A. 10
+B. 12
+C. 3
+D. 7
+Answer:","[""10"", ""12"", ""3"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-yimwuaxxst8dhzfqpisxco"",""object"":""chat.completion"",""created"":1795554179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8635,,MarianeAzar,20261124_215144,2026-11-24T21:03:00.864170+00:00
+1f9f10ec239216d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many seasons did ""Stargate SG-1"" have?
+A. 10
+B. 12
+C. 3
+D. 7
+Answer:","[""10"", ""12"", ""3"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-wztxjc0zvor8m1a2r2g5o"",""object"":""chat.completion"",""created"":1795554180,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261124_215144,2026-11-24T21:03:01.740717+00:00
+2143c6b4ae91750e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only country in the world with a flag that doesn't have four right angles?
+A. Egypt
+B. Angola
+C. Nepal
+D. Panama
+Answer:","[""Egypt"", ""Angola"", ""Nepal"", ""Panama""]",http,0.0,16,none,"{""id"":""chatcmpl-o1zcbvxcpmb0vyrrf56t"",""object"":""chat.completion"",""created"":1795554181,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8466,,MarianeAzar,20261124_215144,2026-11-24T21:03:02.587587+00:00
+2143c6b4ae91750e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only country in the world with a flag that doesn't have four right angles?
+A. Egypt
+B. Angola
+C. Nepal
+D. Panama
+Answer:","[""Egypt"", ""Angola"", ""Nepal"", ""Panama""]",http,0.0,16,none,"{""id"":""chatcmpl-9jxo2it15xgdgpwlbznqz4"",""object"":""chat.completion"",""created"":1795554182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8646,,MarianeAzar,20261124_215144,2026-11-24T21:03:03.452539+00:00
+a2b2bf71afd9f98a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player holds the NHL record of 2,857 points?
+A. Mario Lemieux
+B. Wayne Gretzky
+C. Sidney Crosby
+D. Gordie Howe
+Answer:","[""Mario Lemieux"", ""Wayne Gretzky"", ""Sidney Crosby"", ""Gordie Howe""]",http,0.0,16,none,"{""id"":""chatcmpl-73ypdwsu9d3i9ai60mu25o"",""object"":""chat.completion"",""created"":1795554183,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8923,,MarianeAzar,20261124_215144,2026-11-24T21:03:04.345690+00:00
+a2b2bf71afd9f98a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player holds the NHL record of 2,857 points?
+A. Mario Lemieux
+B. Wayne Gretzky
+C. Sidney Crosby
+D. Gordie Howe
+Answer:","[""Mario Lemieux"", ""Wayne Gretzky"", ""Sidney Crosby"", ""Gordie Howe""]",http,0.0,16,none,"{""id"":""chatcmpl-by6pe9sga6ct1yychspwz"",""object"":""chat.completion"",""created"":1795554184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8737,,MarianeAzar,20261124_215144,2026-11-24T21:03:05.219734+00:00
+fbebcdee3d5a923f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main antagonist of Silent Hill 4?
+A. Pyramid Head
+B. Claudia Wolf
+C. Alessa Gillespie
+D. Walter Sullivan
+Answer:","[""Pyramid Head"", ""Claudia Wolf"", ""Alessa Gillespie"", ""Walter Sullivan""]",http,0.0,16,none,"{""id"":""chatcmpl-kjqahowi5hsui6m5e75w5"",""object"":""chat.completion"",""created"":1795554185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261124_215144,2026-11-24T21:03:06.078377+00:00
+fbebcdee3d5a923f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main antagonist of Silent Hill 4?
+A. Pyramid Head
+B. Claudia Wolf
+C. Alessa Gillespie
+D. Walter Sullivan
+Answer:","[""Pyramid Head"", ""Claudia Wolf"", ""Alessa Gillespie"", ""Walter Sullivan""]",http,0.0,16,none,"{""id"":""chatcmpl-rlj4dtwue2tvkuxrymminb"",""object"":""chat.completion"",""created"":1795554185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261124_215144,2026-11-24T21:03:06.936313+00:00
+aa9bc4d7489ef80d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state is also known as the ""Lone Star State""?
+A. Alabama
+B. Tennessee
+C. Texas
+D. Kentucky
+Answer:","[""Alabama"", ""Tennessee"", ""Texas"", ""Kentucky""]",http,0.0,16,none,"{""id"":""chatcmpl-rbr3yjz7c89qw8ztxeg1m"",""object"":""chat.completion"",""created"":1795554186,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9483,,MarianeAzar,20261124_215144,2026-11-24T21:03:07.884923+00:00
+aa9bc4d7489ef80d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state is also known as the ""Lone Star State""?
+A. Alabama
+B. Tennessee
+C. Texas
+D. Kentucky
+Answer:","[""Alabama"", ""Tennessee"", ""Texas"", ""Kentucky""]",http,0.0,16,none,"{""id"":""chatcmpl-wapoujrw2xhfg53hkpcplh"",""object"":""chat.completion"",""created"":1795554187,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261124_215144,2026-11-24T21:03:08.764747+00:00
+2916af6167ceb84d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2015 RPG ""Undertale"", which character do you first encounter after falling down into the underground?
+A. Papyrus
+B. Flowey
+C. Sans
+D. Toriel
+Answer:","[""Papyrus"", ""Flowey"", ""Sans"", ""Toriel""]",http,0.0,16,none,"{""id"":""chatcmpl-yt6vbop6cgb7hvx8kdog0g"",""object"":""chat.completion"",""created"":1795554188,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261124_215144,2026-11-24T21:03:09.625671+00:00
+2916af6167ceb84d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2015 RPG ""Undertale"", which character do you first encounter after falling down into the underground?
+A. Papyrus
+B. Flowey
+C. Sans
+D. Toriel
+Answer:","[""Papyrus"", ""Flowey"", ""Sans"", ""Toriel""]",http,0.0,16,none,"{""id"":""chatcmpl-lnlx1pqx96xnpugefu7a"",""object"":""chat.completion"",""created"":1795554189,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8755,,MarianeAzar,20261124_215144,2026-11-24T21:03:10.501647+00:00
+a284f090b3426931,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Slay the Spire, which of the following is NOT a playable character?
+A. Stoneheart
+B. Ironclad
+C. Defect
+D. Silent
+Answer:","[""Stoneheart"", ""Ironclad"", ""Defect"", ""Silent""]",http,0.0,16,none,"{""id"":""chatcmpl-z2ro4xo51jgjbuya60wyjb"",""object"":""chat.completion"",""created"":1795554190,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261124_215144,2026-11-24T21:03:11.368801+00:00
+a284f090b3426931,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Slay the Spire, which of the following is NOT a playable character?
+A. Stoneheart
+B. Ironclad
+C. Defect
+D. Silent
+Answer:","[""Stoneheart"", ""Ironclad"", ""Defect"", ""Silent""]",http,0.0,16,none,"{""id"":""chatcmpl-yo0hrfv7xkjvlu3xjzrurs"",""object"":""chat.completion"",""created"":1795554191,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261124_215144,2026-11-24T21:03:12.220140+00:00

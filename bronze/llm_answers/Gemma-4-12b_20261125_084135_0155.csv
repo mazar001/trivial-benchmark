@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+340bc0d686359bfd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,250 ft (381 m)?
+A. Gevora Hotal, United Arab Emirates
+B. Federation Tower, Russia
+C. Bank of China Tower, Hong Kong
+D. Empire State Building, United States
+Answer:","[""Gevora Hotal, United Arab Emirates"", ""Federation Tower, Russia"", ""Bank of China Tower, Hong Kong"", ""Empire State Building, United States""]",http,0.0,16,none,"{""id"":""chatcmpl-pokujy56sxn2az5u4ncwek"",""object"":""chat.completion"",""created"":1795596222,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9806,,MarianeAzar,20261125_084135,2026-11-25T08:43:44.334509+00:00
+073b815ac07adafe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last letter of the Greek alphabet?
+A. Omega
+B. Kappa
+C. Mu
+D. Epsilon
+Answer:","[""Omega"", ""Kappa"", ""Mu"", ""Epsilon""]",http,0.0,16,none,"{""id"":""chatcmpl-vfjbakpgom8iwta7ziii6m"",""object"":""chat.completion"",""created"":1795596223,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9467,,MarianeAzar,20261125_084135,2026-11-25T08:43:45.281982+00:00
+073b815ac07adafe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last letter of the Greek alphabet?
+A. Omega
+B. Kappa
+C. Mu
+D. Epsilon
+Answer:","[""Omega"", ""Kappa"", ""Mu"", ""Epsilon""]",http,0.0,16,none,"{""id"":""chatcmpl-5vnxvu9dhm72ky37m4q0wo"",""object"":""chat.completion"",""created"":1795596224,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8914,,MarianeAzar,20261125_084135,2026-11-25T08:43:46.173634+00:00
+9d8a4a1520cdf86b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Thomas Crapper was a plumber who invented the flushing toilet.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kvwclwf1yqcoi7762cfcy"",""object"":""chat.completion"",""created"":1795596225,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9511,,MarianeAzar,20261125_084135,2026-11-25T08:43:47.124846+00:00
+9d8a4a1520cdf86b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Thomas Crapper was a plumber who invented the flushing toilet.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yzuqikcu85gh6qb0qct3i"",""object"":""chat.completion"",""created"":1795596226,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8316,,MarianeAzar,20261125_084135,2026-11-25T08:43:47.956576+00:00
+ed81004c139b1828,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which desert is the only desert in the world where the ""Saguaro"" cactus grows indigenously?
+A. The Gobi Desert
+B. The Yuma Desert
+C. The Sonoran Desert
+D. The Arabian Desert
+Answer:","[""The Gobi Desert"", ""The Yuma Desert"", ""The Sonoran Desert"", ""The Arabian Desert""]",http,0.0,16,none,"{""id"":""chatcmpl-strzedm3lvfvd6jetfmxd"",""object"":""chat.completion"",""created"":1795596227,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9442,,MarianeAzar,20261125_084135,2026-11-25T08:43:48.901256+00:00
+ed81004c139b1828,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which desert is the only desert in the world where the ""Saguaro"" cactus grows indigenously?
+A. The Gobi Desert
+B. The Yuma Desert
+C. The Sonoran Desert
+D. The Arabian Desert
+Answer:","[""The Gobi Desert"", ""The Yuma Desert"", ""The Sonoran Desert"", ""The Arabian Desert""]",http,0.0,16,none,"{""id"":""chatcmpl-2p983kb2r6w4h7wyfvn7ou"",""object"":""chat.completion"",""created"":1795596228,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9098,,MarianeAzar,20261125_084135,2026-11-25T08:43:49.811303+00:00
+369ef781f67b14bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 1973 film ""American Graffiti""?
+A. Ron Howard
+B. Steven Spielberg
+C. Francis Ford Coppola
+D. George Lucas
+Answer:","[""Ron Howard"", ""Steven Spielberg"", ""Francis Ford Coppola"", ""George Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-7c5157uqqyclmy85j29p4k"",""object"":""chat.completion"",""created"":1795596229,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:43:50.672925+00:00
+369ef781f67b14bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who directed the 1973 film ""American Graffiti""?
+A. Ron Howard
+B. Steven Spielberg
+C. Francis Ford Coppola
+D. George Lucas
+Answer:","[""Ron Howard"", ""Steven Spielberg"", ""Francis Ford Coppola"", ""George Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-i0o0t7b34jy9tbvv1fjf"",""object"":""chat.completion"",""created"":1795596230,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.7151,,MarianeAzar,20261125_084135,2026-11-25T08:43:52.388260+00:00
+2677d3a800f3ed9d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7l6yl7y6dqx66ydoks2f"",""object"":""chat.completion"",""created"":1795596231,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261125_084135,2026-11-25T08:43:53.232172+00:00
+2677d3a800f3ed9d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The protagonist's names in 'Who's Afraid of Virginia Woolf', George and Martha, were derived from George Washington and his wife.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3nrq7r5irx4pust2trnonp"",""object"":""chat.completion"",""created"":1795596232,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8723,,MarianeAzar,20261125_084135,2026-11-25T08:43:54.104630+00:00
+8095d49ae0213183,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Ringo Starr of The Beatles mainly played what instrument?
+A. Guitar
+B. Drums
+C. Piano
+D. Bass
+Answer:","[""Guitar"", ""Drums"", ""Piano"", ""Bass""]",http,0.0,16,none,"{""id"":""chatcmpl-6oqfe11ityx7blk8t28xtr"",""object"":""chat.completion"",""created"":1795596233,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8823,,MarianeAzar,20261125_084135,2026-11-25T08:43:54.987175+00:00
+8095d49ae0213183,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Ringo Starr of The Beatles mainly played what instrument?
+A. Guitar
+B. Drums
+C. Piano
+D. Bass
+Answer:","[""Guitar"", ""Drums"", ""Piano"", ""Bass""]",http,0.0,16,none,"{""id"":""chatcmpl-po187zwpxn0aiigwbj0ekr"",""object"":""chat.completion"",""created"":1795596234,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8805,,MarianeAzar,20261125_084135,2026-11-25T08:43:55.867911+00:00
+3c9f8f0bb10c6f3b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Pokemon generation did the fan-named ""Masuda Method"" first appear in?
+A. Ruby/Sapphire
+B. Diamond/Pearl
+C. Black/White
+D. X/Y
+Answer:","[""Ruby/Sapphire"", ""Diamond/Pearl"", ""Black/White"", ""X/Y""]",http,0.0,16,none,"{""id"":""chatcmpl-78gs8j8aq1u6lmjki95z4q"",""object"":""chat.completion"",""created"":1795596235,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261125_084135,2026-11-25T08:43:56.730308+00:00
+3c9f8f0bb10c6f3b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Pokemon generation did the fan-named ""Masuda Method"" first appear in?
+A. Ruby/Sapphire
+B. Diamond/Pearl
+C. Black/White
+D. X/Y
+Answer:","[""Ruby/Sapphire"", ""Diamond/Pearl"", ""Black/White"", ""X/Y""]",http,0.0,16,none,"{""id"":""chatcmpl-cazx005bp2d612sknmac2"",""object"":""chat.completion"",""created"":1795596236,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9573,,MarianeAzar,20261125_084135,2026-11-25T08:43:57.688002+00:00
+7f0d6fad5bcb9e0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following physicists did NOT work on the Manhattan project?
+A. J. Robert Oppenheimer
+B. Murray Gell-Mann
+C. Richard Feynman
+D. John Von-Neumann
+Answer:","[""J. Robert Oppenheimer"", ""Murray Gell-Mann"", ""Richard Feynman"", ""John Von-Neumann""]",http,0.0,16,none,"{""id"":""chatcmpl-dpsv85y2istqthd69t2ro"",""object"":""chat.completion"",""created"":1795596237,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9066,,MarianeAzar,20261125_084135,2026-11-25T08:43:58.595187+00:00
+7f0d6fad5bcb9e0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following physicists did NOT work on the Manhattan project?
+A. J. Robert Oppenheimer
+B. Murray Gell-Mann
+C. Richard Feynman
+D. John Von-Neumann
+Answer:","[""J. Robert Oppenheimer"", ""Murray Gell-Mann"", ""Richard Feynman"", ""John Von-Neumann""]",http,0.0,16,none,"{""id"":""chatcmpl-ilejxgq9jkqo3cetitd0to"",""object"":""chat.completion"",""created"":1795596238,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.896,,MarianeAzar,20261125_084135,2026-11-25T08:43:59.491512+00:00
+6be28782977267fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the television show Breaking Bad, what is the street name of Walter and Jesse's notorious product?
+A. Blue Sky
+B. Rock Candy
+C. Pure Glass
+D. Baby Blue
+Answer:","[""Blue Sky"", ""Rock Candy"", ""Pure Glass"", ""Baby Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-11lwek5ee9sgoh0hy9y55"",""object"":""chat.completion"",""created"":1795596239,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0817,,MarianeAzar,20261125_084135,2026-11-25T08:44:00.573401+00:00
+6be28782977267fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the television show Breaking Bad, what is the street name of Walter and Jesse's notorious product?
+A. Blue Sky
+B. Rock Candy
+C. Pure Glass
+D. Baby Blue
+Answer:","[""Blue Sky"", ""Rock Candy"", ""Pure Glass"", ""Baby Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-xlup008o25zhbo6geddw"",""object"":""chat.completion"",""created"":1795596240,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9859,,MarianeAzar,20261125_084135,2026-11-25T08:44:01.559508+00:00
+40ea98c259bf8cbd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first primary weapon the player gets in ""PAYDAY: The Heist""?
+A. Brenner 21
+B. M308
+C. AMCAR-4
+D. Reinbeck
+Answer:","[""Brenner 21"", ""M308"", ""AMCAR-4"", ""Reinbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-103osz6d3kqng31xxngi8c"",""object"":""chat.completion"",""created"":1795596241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T08:44:02.452199+00:00
+40ea98c259bf8cbd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first primary weapon the player gets in ""PAYDAY: The Heist""?
+A. Brenner 21
+B. M308
+C. AMCAR-4
+D. Reinbeck
+Answer:","[""Brenner 21"", ""M308"", ""AMCAR-4"", ""Reinbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-n2jk16r7ia6o7tkgbl36s"",""object"":""chat.completion"",""created"":1795596241,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9232,,MarianeAzar,20261125_084135,2026-11-25T08:44:03.375697+00:00
+d1aad027a8fbc96b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ingredient is NOT used to craft a cake in Minecraft?
+A. Egg
+B. Bread
+C. Wheat
+D. Milk
+Answer:","[""Egg"", ""Bread"", ""Wheat"", ""Milk""]",http,0.0,16,none,"{""id"":""chatcmpl-ieh967c670lzlcy29dd10s"",""object"":""chat.completion"",""created"":1795596242,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T08:44:04.255791+00:00
+d1aad027a8fbc96b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ingredient is NOT used to craft a cake in Minecraft?
+A. Egg
+B. Bread
+C. Wheat
+D. Milk
+Answer:","[""Egg"", ""Bread"", ""Wheat"", ""Milk""]",http,0.0,16,none,"{""id"":""chatcmpl-97epvmtareghxueehd8g1o"",""object"":""chat.completion"",""created"":1795596243,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1271,,MarianeAzar,20261125_084135,2026-11-25T08:44:05.383168+00:00
+edf220cdab88b808,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the theme song of ""Neon Genesis Evangelion""?
+A. A Cruel Angel's Thesis
+B. Requiem for a Dream
+C. Stardust Crusaders
+D. God Knows
+Answer:","[""A Cruel Angel's Thesis"", ""Requiem for a Dream"", ""Stardust Crusaders"", ""God Knows""]",http,0.0,16,none,"{""id"":""chatcmpl-bec3abzdm3awczwnzqfzxe"",""object"":""chat.completion"",""created"":1795596244,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:44:06.244760+00:00
+edf220cdab88b808,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the theme song of ""Neon Genesis Evangelion""?
+A. A Cruel Angel's Thesis
+B. Requiem for a Dream
+C. Stardust Crusaders
+D. God Knows
+Answer:","[""A Cruel Angel's Thesis"", ""Requiem for a Dream"", ""Stardust Crusaders"", ""God Knows""]",http,0.0,16,none,"{""id"":""chatcmpl-h3wd1dvqjd97n8y6s0kv8"",""object"":""chat.completion"",""created"":1795596245,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.911,,MarianeAzar,20261125_084135,2026-11-25T08:44:07.155999+00:00

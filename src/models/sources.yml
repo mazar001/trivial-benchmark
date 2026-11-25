@@ -1,0 +1,139 @@
+version: 2
+
+sources:
+  - name: silver
+    description: >
+      Couche silver : questions nettoyées (src/bronze_to_silver.py) et réponses
+      notées des modèles (src/answers_to_silver.py, nos runs et les runs importés
+      de l'équipe), au format Parquet.
+      dbt ne lit jamais bronze directement.
+    tables:
+      - name: questions
+        description: >
+          Une ligne par question vérifiée d'Open Trivia DB, décodée, nettoyée et typée
+          à partir de bronze/questions_raw.csv et bronze/categories_raw.csv.
+        meta:
+          external_location: "read_parquet('./silver/questions.parquet')"
+        columns:
+          - name: question_id
+            description: >
+              Identifiant stable (sha1 sur 16 caractères de catégorie + question +
+              bonne réponse + mauvaises réponses triées), calculé par
+              src/bronze_to_silver.py sur les textes décodés. Formule figée.
+            data_type: varchar
+            data_tests:
+              - not_null
+              - unique
+          - name: category_id
+            description: Identifiant de catégorie OpenTDB, retrouvé par le nom dans bronze/categories_raw.csv.
+            data_type: integer
+          - name: category
+            description: 'Nom officiel complet de la catégorie (ex. "Entertainment: Video Games"), non découpé.'
+            data_type: varchar
+            data_tests:
+              - not_null
+          - name: type
+            description: "`multiple` (4 choix) ou `boolean` (vrai/faux)."
+            data_type: varchar
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['multiple', 'boolean']
+          - name: difficulty
+            description: "`easy`, `medium` ou `hard`."
+            data_type: varchar
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['easy', 'medium', 'hard']
+          - name: question
+            description: Texte de la question (sans espaces en trop).
+            data_type: varchar
+            data_tests:
+              - not_null
+          - name: correct_answer
+            description: Bonne réponse (sans espaces en trop).
+            data_type: varchar
+            data_tests:
+              - not_null
+          - name: incorrect_answers
+            description: Mauvaises réponses (liste de 3 pour un QCM, 1 pour un vrai/faux).
+            data_type: varchar[]
+          - name: nb_choices
+            description: Nombre de choix proposés (4 ou 2).
+            data_type: integer
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: [2, 4]
+                    quote: false
+
+      - name: llm_answers
+        description: >
+          Une ligne par appel (question x modèle x prompt x run), calculée par
+          src/answers_to_silver.py à partir de bronze/llm_answers/ (nos runs) et de
+          bronze/llm_answers_import/ (runs Gemma 4 E2B et Ministral 3B faits par l'équipe
+          sur LM Studio). Mêmes question_id, mêmes prompts, même notation pour toutes.
+        meta:
+          external_location: "read_parquet('./silver/llm_answers/*.parquet', union_by_name = true)"
+        columns:
+          - name: question_id
+            description: Question posée (notre identifiant ; ceux des runs importés sont convertis).
+            data_type: varchar
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('silver', 'questions')
+                    field: question_id
+          - name: model
+            description: Identifiant du modèle (ex. google/gemma-4-e2b sur LM Studio local, Gemma-4-12b sur le serveur distant).
+            data_type: varchar
+            data_tests:
+              - not_null
+          - name: prompt_id
+            description: >
+              Prompt du projet (voir src/prompts.py) : P1_choices, P2_expert,
+              P3_expert_advanced. Les réponses à nos anciens prompts (run Gemma-4-12b
+              arrêté le 25/11) sont écartées avant silver (referentiels/runs_exclus.csv).
+            data_type: varchar
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['P1_choices', 'P2_expert', 'P3_expert_advanced']
+          - name: prompt_text
+            description: Prompt exact envoyé au modèle.
+            data_type: varchar
+          - name: options_order
+            description: Ordre des options présentées (liste JSON).
+            data_type: varchar
+          - name: expected_letter
+            description: Lettre attendue pour les questions à choix multiples (NULL pour vrai/faux).
+            data_type: varchar
+          - name: ai_answer_raw
+            description: Texte de la réponse, lu dans le JSON brut de l'API (bronze).
+            data_type: varchar
+          - name: ai_answer
+            description: Réponse nettoyée (sans bloc <think>).
+            data_type: varchar
+          - name: ai_correct
+            description: Réponse jugée correcte par src/answers_to_silver.py.
+            data_type: boolean
+          - name: response_time
+            description: Durée de l'appel, en secondes.
+            data_type: double
+          - name: completion_tokens
+            description: Nombre de tokens générés (NULL pour les runs importés, non enregistré).
+            data_type: bigint
+          - name: error
+            description: Erreur levée pendant l'appel (NULL si tout s'est bien passé).
+            data_type: varchar
+          - name: reasoning_effort
+            description: Valeur envoyée pour couper le raisonnement (none avec --no-think, vide sinon ; off pour les runs importés).
+            data_type: varchar
+          - name: run_id
+            description: Identifiant du run (date et heure de lancement).
+            data_type: varchar
+          - name: answered_at
+            description: Date de la réponse (ISO 8601, UTC ; NULL pour les runs importés, non enregistrée).
+            data_type: varchar

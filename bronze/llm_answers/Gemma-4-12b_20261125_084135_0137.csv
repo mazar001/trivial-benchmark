@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8a40969f4bf80bf3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Down Syndrome is usually caused by an extra copy of which chromosome?
+A. 15
+B. 21
+C. 23
+D. 24
+Answer:","[""15"", ""21"", ""23"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-1s2qicx9k3bxiqqh5dcdla"",""object"":""chat.completion"",""created"":1795595827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261125_084135,2026-11-25T08:37:09.252171+00:00
+3f4efbc03d53d0a2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Stan's dog in the South Park episode ""Big Gay Al's Big Gay Boat Ride""?
+A. Jay Leno
+B. Robert Smith
+C. Matt Stone
+D. George Clooney
+Answer:","[""Jay Leno"", ""Robert Smith"", ""Matt Stone"", ""George Clooney""]",http,0.0,16,none,"{""id"":""chatcmpl-1amoy0v3i2r9wjghokdj3o"",""object"":""chat.completion"",""created"":1795595828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8543,,MarianeAzar,20261125_084135,2026-11-25T08:37:10.107576+00:00
+3f4efbc03d53d0a2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Stan's dog in the South Park episode ""Big Gay Al's Big Gay Boat Ride""?
+A. Jay Leno
+B. Robert Smith
+C. Matt Stone
+D. George Clooney
+Answer:","[""Jay Leno"", ""Robert Smith"", ""Matt Stone"", ""George Clooney""]",http,0.0,16,none,"{""id"":""chatcmpl-6pcyh8197vl0nnqo3ac1h0g"",""object"":""chat.completion"",""created"":1795595829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:37:10.993522+00:00
+917b620a530a24ea,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mod ""Cry of Fear"" based off of?
+A. Counter Strike: Source
+B. Half-Life 2
+C. It's a stand alone game, not a mod
+D. Half-Life
+Answer:","[""Counter Strike: Source"", ""Half-Life 2"", ""It's a stand alone game, not a mod"", ""Half-Life""]",http,0.0,16,none,"{""id"":""chatcmpl-2qvr6l2cwzz57w9hq8mev7"",""object"":""chat.completion"",""created"":1795595830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261125_084135,2026-11-25T08:37:11.867398+00:00
+917b620a530a24ea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mod ""Cry of Fear"" based off of?
+A. Counter Strike: Source
+B. Half-Life 2
+C. It's a stand alone game, not a mod
+D. Half-Life
+Answer:","[""Counter Strike: Source"", ""Half-Life 2"", ""It's a stand alone game, not a mod"", ""Half-Life""]",http,0.0,16,none,"{""id"":""chatcmpl-cwx8odg4m49el5x2fmtsgs"",""object"":""chat.completion"",""created"":1795595831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.893,,MarianeAzar,20261125_084135,2026-11-25T08:37:12.760570+00:00
+966aa64ba25bef1e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Canadian national anthem?
+A. O Canada
+B. Leaf-Spangled Banner
+C. March of the Puck Drop
+D. O Red Maple
+Answer:","[""O Canada"", ""Leaf-Spangled Banner"", ""March of the Puck Drop"", ""O Red Maple""]",http,0.0,16,none,"{""id"":""chatcmpl-kio3gwhfi89d6pzg530kjk"",""object"":""chat.completion"",""created"":1795595832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8901,,MarianeAzar,20261125_084135,2026-11-25T08:37:13.653078+00:00
+966aa64ba25bef1e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Canadian national anthem?
+A. O Canada
+B. Leaf-Spangled Banner
+C. March of the Puck Drop
+D. O Red Maple
+Answer:","[""O Canada"", ""Leaf-Spangled Banner"", ""March of the Puck Drop"", ""O Red Maple""]",http,0.0,16,none,"{""id"":""chatcmpl-tejnj26t96b5q05tl7bkg"",""object"":""chat.completion"",""created"":1795595833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261125_084135,2026-11-25T08:37:14.516594+00:00
+30c15a0e1d228c91,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first emperor of Rome?
+A. Pompey Magnus
+B. Julius Caesar
+C. Claudius
+D. Augustus
+Answer:","[""Pompey Magnus"", ""Julius Caesar"", ""Claudius"", ""Augustus""]",http,0.0,16,none,"{""id"":""chatcmpl-gb6ionrhohjixa3lc06jlf"",""object"":""chat.completion"",""created"":1795595833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261125_084135,2026-11-25T08:37:15.363094+00:00
+30c15a0e1d228c91,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first emperor of Rome?
+A. Pompey Magnus
+B. Julius Caesar
+C. Claudius
+D. Augustus
+Answer:","[""Pompey Magnus"", ""Julius Caesar"", ""Claudius"", ""Augustus""]",http,0.0,16,none,"{""id"":""chatcmpl-29y0rdl8vul7yl8upihlue"",""object"":""chat.completion"",""created"":1795595834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:37:16.220509+00:00
+3f5d1e9d3d3ed5b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is not a part of Scandinavia?
+A. Norway
+B. Denmark
+C. Sweden
+D. Finland
+Answer:","[""Norway"", ""Denmark"", ""Sweden"", ""Finland""]",http,0.0,16,none,"{""id"":""chatcmpl-zm87u49dkn9vkpgsbhgxvf"",""object"":""chat.completion"",""created"":1795595835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9029,,MarianeAzar,20261125_084135,2026-11-25T08:37:17.124065+00:00
+3f5d1e9d3d3ed5b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is not a part of Scandinavia?
+A. Norway
+B. Denmark
+C. Sweden
+D. Finland
+Answer:","[""Norway"", ""Denmark"", ""Sweden"", ""Finland""]",http,0.0,16,none,"{""id"":""chatcmpl-d8s1dgyr2mptw7gt0frzr"",""object"":""chat.completion"",""created"":1795595836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261125_084135,2026-11-25T08:37:17.972858+00:00
+d70e60dba4d6eb8a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the planet that the Doctor from television series ""Doctor Who"" comes from?
+A. Mondas
+B. Skaro
+C. Sontar
+D. Gallifrey
+Answer:","[""Mondas"", ""Skaro"", ""Sontar"", ""Gallifrey""]",http,0.0,16,none,"{""id"":""chatcmpl-zyqgn51kxpp9g0h36rqlak"",""object"":""chat.completion"",""created"":1795595837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8503,,MarianeAzar,20261125_084135,2026-11-25T08:37:18.823363+00:00
+d70e60dba4d6eb8a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the planet that the Doctor from television series ""Doctor Who"" comes from?
+A. Mondas
+B. Skaro
+C. Sontar
+D. Gallifrey
+Answer:","[""Mondas"", ""Skaro"", ""Sontar"", ""Gallifrey""]",http,0.0,16,none,"{""id"":""chatcmpl-1g701bqsc4np53t0jwus7g"",""object"":""chat.completion"",""created"":1795595838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8813,,MarianeAzar,20261125_084135,2026-11-25T08:37:19.704932+00:00
+a41e9084aaa0f0f4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's easter egg will reward you with the achievement, ""Time Travel Will Tell""?
+A. Shangri-La
+B. Die Rise
+C. Ascension
+D. Moon
+Answer:","[""Shangri-La"", ""Die Rise"", ""Ascension"", ""Moon""]",http,0.0,16,none,"{""id"":""chatcmpl-5uxx1xfriid3x6c27h2on9"",""object"":""chat.completion"",""created"":1795595839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:37:20.588054+00:00
+a41e9084aaa0f0f4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's easter egg will reward you with the achievement, ""Time Travel Will Tell""?
+A. Shangri-La
+B. Die Rise
+C. Ascension
+D. Moon
+Answer:","[""Shangri-La"", ""Die Rise"", ""Ascension"", ""Moon""]",http,0.0,16,none,"{""id"":""chatcmpl-shv7bzn2lri5px3skqbdbp"",""object"":""chat.completion"",""created"":1795595840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8891,,MarianeAzar,20261125_084135,2026-11-25T08:37:21.477393+00:00
+1d40e7e52dd148d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Gum arabic"" is a natural gum consisting of the hardened sap of which tree species?
+A. Acacia
+B. Palm
+C. Ficus
+D. Eucalyptus
+Answer:","[""Acacia"", ""Palm"", ""Ficus"", ""Eucalyptus""]",http,0.0,16,none,"{""id"":""chatcmpl-lmfnygwdstlot96wb7lp8"",""object"":""chat.completion"",""created"":1795595840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9188,,MarianeAzar,20261125_084135,2026-11-25T08:37:22.397489+00:00
+1d40e7e52dd148d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Gum arabic"" is a natural gum consisting of the hardened sap of which tree species?
+A. Acacia
+B. Palm
+C. Ficus
+D. Eucalyptus
+Answer:","[""Acacia"", ""Palm"", ""Ficus"", ""Eucalyptus""]",http,0.0,16,none,"{""id"":""chatcmpl-yk6mfix7xdfayafcmow3rb"",""object"":""chat.completion"",""created"":1795595841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8621,,MarianeAzar,20261125_084135,2026-11-25T08:37:23.259878+00:00
+2fc45277c7feadd6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these characters was first introduced in Sonic Boom: Rise of Lyric?
+A. Mighty the Armadillo
+B. Sticks the Badger
+C. Espio the Chameleon
+D. Rouge the Bat
+Answer:","[""Mighty the Armadillo"", ""Sticks the Badger"", ""Espio the Chameleon"", ""Rouge the Bat""]",http,0.0,16,none,"{""id"":""chatcmpl-25vf6709q0dsbmaikbus4a"",""object"":""chat.completion"",""created"":1795595842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:37:24.118550+00:00
+2fc45277c7feadd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these characters was first introduced in Sonic Boom: Rise of Lyric?
+A. Mighty the Armadillo
+B. Sticks the Badger
+C. Espio the Chameleon
+D. Rouge the Bat
+Answer:","[""Mighty the Armadillo"", ""Sticks the Badger"", ""Espio the Chameleon"", ""Rouge the Bat""]",http,0.0,16,none,"{""id"":""chatcmpl-hnt5xf2monmehpkriwhjim"",""object"":""chat.completion"",""created"":1795595843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8876,,MarianeAzar,20261125_084135,2026-11-25T08:37:25.006546+00:00
+02b8bb7db92fafeb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was world chess champion between 1894 and 1921
+A. Emanuel Lasker
+B. Wilhelm Steinitz
+C. Bobby Fischer
+D. José Raúl Capablanca
+Answer:","[""Emanuel Lasker"", ""Wilhelm Steinitz"", ""Bobby Fischer"", ""José Raúl Capablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-alxaqfyujj8mijhwg5czz"",""object"":""chat.completion"",""created"":1795595844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:37:25.866709+00:00
+02b8bb7db92fafeb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was world chess champion between 1894 and 1921
+A. Emanuel Lasker
+B. Wilhelm Steinitz
+C. Bobby Fischer
+D. José Raúl Capablanca
+Answer:","[""Emanuel Lasker"", ""Wilhelm Steinitz"", ""Bobby Fischer"", ""José Raúl Capablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-if3j5gqy3b9sfbu0dl2j8n"",""object"":""chat.completion"",""created"":1795595845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8716,,MarianeAzar,20261125_084135,2026-11-25T08:37:26.738706+00:00
+5a78824d70f6a5a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?
+A. Mermaid Transformation
+B. Bubble Shield
+C. Artificial Gills
+D. Bubble Head
+Answer:","[""Mermaid Transformation"", ""Bubble Shield"", ""Artificial Gills"", ""Bubble Head""]",http,0.0,16,none,"{""id"":""chatcmpl-wckm158wdxdo4w6q16ei8l"",""object"":""chat.completion"",""created"":1795595846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8774,,MarianeAzar,20261125_084135,2026-11-25T08:37:27.616271+00:00
+5a78824d70f6a5a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What ability does Princess Sofia the First have from her amulet that allows her to breathe underwater?
+A. Mermaid Transformation
+B. Bubble Shield
+C. Artificial Gills
+D. Bubble Head
+Answer:","[""Mermaid Transformation"", ""Bubble Shield"", ""Artificial Gills"", ""Bubble Head""]",http,0.0,16,none,"{""id"":""chatcmpl-wmo0dfzl6cpth91bub1vb"",""object"":""chat.completion"",""created"":1795595847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T08:37:28.477704+00:00
+86dbe3db9ed6da22,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Landsat Satellite failed to reach orbit?
+A. Landsat 3
+B. Landsat 6
+C. Landsat 5
+D. Landsat 4
+Answer:","[""Landsat 3"", ""Landsat 6"", ""Landsat 5"", ""Landsat 4""]",http,0.0,16,none,"{""id"":""chatcmpl-19el8l27bynzch6vbax4em"",""object"":""chat.completion"",""created"":1795595847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261125_084135,2026-11-25T08:37:29.328701+00:00
+86dbe3db9ed6da22,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Landsat Satellite failed to reach orbit?
+A. Landsat 3
+B. Landsat 6
+C. Landsat 5
+D. Landsat 4
+Answer:","[""Landsat 3"", ""Landsat 6"", ""Landsat 5"", ""Landsat 4""]",http,0.0,16,none,"{""id"":""chatcmpl-pf0br0dlaybfxi7rbliwgu"",""object"":""chat.completion"",""created"":1795595848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T08:37:30.185356+00:00

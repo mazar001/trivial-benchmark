@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+75c54193594dc81f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The following Spanish provinces are located in the northern area of Spain except:
+A. Asturias
+B. Murcia
+C. León
+D. Navarre
+Answer:","[""Asturias"", ""Murcia"", ""León"", ""Navarre""]",http,0.0,16,none,"{""id"":""chatcmpl-2bh6sq35qku7w53dg46ch2"",""object"":""chat.completion"",""created"":1795596444,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261125_084135,2026-11-25T08:47:25.775679+00:00
+f442b9acc10383c0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of British Columbia, Canada?
+A. Hope
+B. Vancouver
+C. Victoria
+D. Kelowna
+Answer:","[""Hope"", ""Vancouver"", ""Victoria"", ""Kelowna""]",http,0.0,16,none,"{""id"":""chatcmpl-nf6zfk4ylt958a1rccvszh"",""object"":""chat.completion"",""created"":1795596445,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:47:26.639420+00:00
+f442b9acc10383c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of British Columbia, Canada?
+A. Hope
+B. Vancouver
+C. Victoria
+D. Kelowna
+Answer:","[""Hope"", ""Vancouver"", ""Victoria"", ""Kelowna""]",http,0.0,16,none,"{""id"":""chatcmpl-5lmlgbj5nziq6ktc5nvum"",""object"":""chat.completion"",""created"":1795596446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8497,,MarianeAzar,20261125_084135,2026-11-25T08:47:27.489517+00:00
+306df1a0497b1b17,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Klingons once had a period of Democracy in their history, they referred to it as the ""Dark Times"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hvloqyu2pzhrikbjhq9nv"",""object"":""chat.completion"",""created"":1795596446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8115,,MarianeAzar,20261125_084135,2026-11-25T08:47:28.301512+00:00
+306df1a0497b1b17,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Klingons once had a period of Democracy in their history, they referred to it as the ""Dark Times"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-39oejp94vv72l2esl48rkd"",""object"":""chat.completion"",""created"":1795596447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.838,,MarianeAzar,20261125_084135,2026-11-25T08:47:29.139690+00:00
+5b0b46602104c06c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vietnam is the only country in the world that starts with V.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7u6bwjumtzn1ipglqojleli"",""object"":""chat.completion"",""created"":1795596448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7919,,MarianeAzar,20261125_084135,2026-11-25T08:47:29.932194+00:00
+5b0b46602104c06c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vietnam is the only country in the world that starts with V.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5cacah12iqeptd575fevqs"",""object"":""chat.completion"",""created"":1795596449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8162,,MarianeAzar,20261125_084135,2026-11-25T08:47:30.748575+00:00
+3b4bbada1f8e1faf,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is also known to be a decendent of the Tyrannosaurus Rex.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-clieo3z0jhf9ftd1x7iedn"",""object"":""chat.completion"",""created"":1795596450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8313,,MarianeAzar,20261125_084135,2026-11-25T08:47:31.580174+00:00
+3b4bbada1f8e1faf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Ceratosaurus, a dinosaur known for having a horn on the top of its nose, is also known to be a decendent of the Tyrannosaurus Rex.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cyxszrb8nrgyk0oln36j"",""object"":""chat.completion"",""created"":1795596451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261125_084135,2026-11-25T08:47:32.434512+00:00
+4bb320d19333be96,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what Homestuck Update was [S] Game Over released?
+A. August 28th, 2003
+B. April 13th, 2009
+C. April 8th, 2012
+D. October 25th, 2014
+Answer:","[""August 28th, 2003"", ""April 13th, 2009"", ""April 8th, 2012"", ""October 25th, 2014""]",http,0.0,16,none,"{""id"":""chatcmpl-7ynbpqccrtx6u5cqfkkno"",""object"":""chat.completion"",""created"":1795596451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T08:47:33.325212+00:00
+4bb320d19333be96,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what Homestuck Update was [S] Game Over released?
+A. August 28th, 2003
+B. April 13th, 2009
+C. April 8th, 2012
+D. October 25th, 2014
+Answer:","[""August 28th, 2003"", ""April 13th, 2009"", ""April 8th, 2012"", ""October 25th, 2014""]",http,0.0,16,none,"{""id"":""chatcmpl-2h6aawojbn3syyy6hs19cr"",""object"":""chat.completion"",""created"":1795596452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":130,""completion_tokens"":2,""total_tokens"":132,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9508,,MarianeAzar,20261125_084135,2026-11-25T08:47:34.276334+00:00
+1ea93253e752db0c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Zero factorial is equal to zero.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w8hnyukvx7qnb42gta3elj"",""object"":""chat.completion"",""created"":1795596453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8337,,MarianeAzar,20261125_084135,2026-11-25T08:47:35.110546+00:00
+1ea93253e752db0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Zero factorial is equal to zero.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-s913q8oytp9eivcpbm66k9"",""object"":""chat.completion"",""created"":1795596454,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8123,,MarianeAzar,20261125_084135,2026-11-25T08:47:35.923041+00:00
+c8ee89d236ae8866,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who in Pulp Fiction says ""No, they got the metric system there, they wouldn't know what the f*** a Quarter Pounder is.""
+A. Jimmie Dimmick
+B. Vincent Vega
+C. Butch Coolidge
+D. Jules Winnfield
+Answer:","[""Jimmie Dimmick"", ""Vincent Vega"", ""Butch Coolidge"", ""Jules Winnfield""]",http,0.0,16,none,"{""id"":""chatcmpl-7cqppaso87ieksuyie7fqh"",""object"":""chat.completion"",""created"":1795596455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:47:36.776537+00:00
+c8ee89d236ae8866,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who in Pulp Fiction says ""No, they got the metric system there, they wouldn't know what the f*** a Quarter Pounder is.""
+A. Jimmie Dimmick
+B. Vincent Vega
+C. Butch Coolidge
+D. Jules Winnfield
+Answer:","[""Jimmie Dimmick"", ""Vincent Vega"", ""Butch Coolidge"", ""Jules Winnfield""]",http,0.0,16,none,"{""id"":""chatcmpl-j9q67m3qzrdqe8v2giv7z"",""object"":""chat.completion"",""created"":1795596456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8912,,MarianeAzar,20261125_084135,2026-11-25T08:47:37.667947+00:00
+63c695bbd3cfc893,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which day in ""Papers, Please"" does the man in red appear?
+A. Day 15
+B. Day 23
+C. Day 17
+D. Day 20
+Answer:","[""Day 15"", ""Day 23"", ""Day 17"", ""Day 20""]",http,0.0,16,none,"{""id"":""chatcmpl-c2z33fphzhln5880fmrn4"",""object"":""chat.completion"",""created"":1795596457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8961,,MarianeAzar,20261125_084135,2026-11-25T08:47:38.564615+00:00
+63c695bbd3cfc893,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which day in ""Papers, Please"" does the man in red appear?
+A. Day 15
+B. Day 23
+C. Day 17
+D. Day 20
+Answer:","[""Day 15"", ""Day 23"", ""Day 17"", ""Day 20""]",http,0.0,16,none,"{""id"":""chatcmpl-h6azpbiwicp81huy1ijag3"",""object"":""chat.completion"",""created"":1795596457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9258,,MarianeAzar,20261125_084135,2026-11-25T08:47:39.490582+00:00
+e56009d7a7921e47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dragon Ball Z, who was the first character to go Super Saiyan 2?
+A. Goku
+B. Gohan
+C. Trunks
+D. Vegeta
+Answer:","[""Goku"", ""Gohan"", ""Trunks"", ""Vegeta""]",http,0.0,16,none,"{""id"":""chatcmpl-xxgjdq0dielba5tm7tzbx8"",""object"":""chat.completion"",""created"":1795596458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.87,,MarianeAzar,20261125_084135,2026-11-25T08:47:40.360678+00:00
+e56009d7a7921e47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dragon Ball Z, who was the first character to go Super Saiyan 2?
+A. Goku
+B. Gohan
+C. Trunks
+D. Vegeta
+Answer:","[""Goku"", ""Gohan"", ""Trunks"", ""Vegeta""]",http,0.0,16,none,"{""id"":""chatcmpl-8muk3jp8dgdqt4lpxnn7h"",""object"":""chat.completion"",""created"":1795596459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:47:41.226676+00:00
+71fa79b54fc3476a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which two teams played in Super Bowl XLII?
+A. The Green Bay Packers & The Pittsburgh Steelers
+B. The New York Giants & The New England Patriots
+C. The Philadelphia Eagles & The New England Patriots
+D. The Seattle Seahawks & The Denver Broncos
+Answer:","[""The Green Bay Packers & The Pittsburgh Steelers"", ""The New York Giants & The New England Patriots"", ""The Philadelphia Eagles & The New England Patriots"", ""The Seattle Seahawks & The Denver Broncos""]",http,0.0,16,none,"{""id"":""chatcmpl-pg3ixgn7xjfkryh8bsywel"",""object"":""chat.completion"",""created"":1795596460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T08:47:42.097173+00:00
+71fa79b54fc3476a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which two teams played in Super Bowl XLII?
+A. The Green Bay Packers & The Pittsburgh Steelers
+B. The New York Giants & The New England Patriots
+C. The Philadelphia Eagles & The New England Patriots
+D. The Seattle Seahawks & The Denver Broncos
+Answer:","[""The Green Bay Packers & The Pittsburgh Steelers"", ""The New York Giants & The New England Patriots"", ""The Philadelphia Eagles & The New England Patriots"", ""The Seattle Seahawks & The Denver Broncos""]",http,0.0,16,none,"{""id"":""chatcmpl-s872l9hggtcp5fzw9sm5vc"",""object"":""chat.completion"",""created"":1795596461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8999,,MarianeAzar,20261125_084135,2026-11-25T08:47:42.997479+00:00
+7cb087c0d85c4bf9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What game mode was not in the original ""Wii Sports""?
+A. Boxing
+B. Table Tennis
+C. Baseball
+D. Bowling
+Answer:","[""Boxing"", ""Table Tennis"", ""Baseball"", ""Bowling""]",http,0.0,16,none,"{""id"":""chatcmpl-mgbibn3h2vquc0tfpq8zh8"",""object"":""chat.completion"",""created"":1795596462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8741,,MarianeAzar,20261125_084135,2026-11-25T08:47:43.871861+00:00
+7cb087c0d85c4bf9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What game mode was not in the original ""Wii Sports""?
+A. Boxing
+B. Table Tennis
+C. Baseball
+D. Bowling
+Answer:","[""Boxing"", ""Table Tennis"", ""Baseball"", ""Bowling""]",http,0.0,16,none,"{""id"":""chatcmpl-q0pmemtm6g8acuze6ck25"",""object"":""chat.completion"",""created"":1795596463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261125_084135,2026-11-25T08:47:44.731774+00:00
+ee191a29b37ee371,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?
+A. Heat Sink
+B. Temperature Decipator
+C. Heat Vent
+D. CPU Vent
+Answer:","[""Heat Sink"", ""Temperature Decipator"", ""Heat Vent"", ""CPU Vent""]",http,0.0,16,none,"{""id"":""chatcmpl-15om1f4eqpl7ipbi0xowgi"",""object"":""chat.completion"",""created"":1795596464,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8769,,MarianeAzar,20261125_084135,2026-11-25T08:47:45.608933+00:00
+ee191a29b37ee371,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?
+A. Heat Sink
+B. Temperature Decipator
+C. Heat Vent
+D. CPU Vent
+Answer:","[""Heat Sink"", ""Temperature Decipator"", ""Heat Vent"", ""CPU Vent""]",http,0.0,16,none,"{""id"":""chatcmpl-qs4y0c8f0rjwig9rmlz5hj"",""object"":""chat.completion"",""created"":1795596465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8808,,MarianeAzar,20261125_084135,2026-11-25T08:47:46.490001+00:00

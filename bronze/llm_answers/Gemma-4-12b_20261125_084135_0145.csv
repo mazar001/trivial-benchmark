@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5a4a8f3e232296bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Alan Reed is known for providing the voice of which character?
+A. Bugs Bunny
+B. Fangface
+C. G.I. Joe
+D. Fred Flintstone
+Answer:","[""Bugs Bunny"", ""Fangface"", ""G.I. Joe"", ""Fred Flintstone""]",http,0.0,16,none,"{""id"":""chatcmpl-j7iyr8cpgkr4p3bk97r1lp"",""object"":""chat.completion"",""created"":1795596000,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:40:02.289399+00:00
+27ca8a1cb88694d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices ""Shou Suzuki"" in the English dub of ""Mob Psycho 100""?
+A. David Naughton
+B. Casey Mongillo
+C. Ben Diskin
+D. Chris Niosi
+Answer:","[""David Naughton"", ""Casey Mongillo"", ""Ben Diskin"", ""Chris Niosi""]",http,0.0,16,none,"{""id"":""chatcmpl-gr8c4uqsr6s24xapoeq4iv"",""object"":""chat.completion"",""created"":1795596001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T08:40:03.143425+00:00
+27ca8a1cb88694d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices ""Shou Suzuki"" in the English dub of ""Mob Psycho 100""?
+A. David Naughton
+B. Casey Mongillo
+C. Ben Diskin
+D. Chris Niosi
+Answer:","[""David Naughton"", ""Casey Mongillo"", ""Ben Diskin"", ""Chris Niosi""]",http,0.0,16,none,"{""id"":""chatcmpl-1a0v5v7zzp6wgk63d4cjw9"",""object"":""chat.completion"",""created"":1795596002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9047,,MarianeAzar,20261125_084135,2026-11-25T08:40:04.048411+00:00
+2a121d1e900501de,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A classic 1976 song by Blue Oyster Cult features the advice “Don’t Fear The” what?
+A. Reaper
+B. Clowns
+C. Dark
+D. Silence
+Answer:","[""Reaper"", ""Clowns"", ""Dark"", ""Silence""]",http,0.0,16,none,"{""id"":""chatcmpl-4bepycq8zjjidb0585bmzm"",""object"":""chat.completion"",""created"":1795596003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8718,,MarianeAzar,20261125_084135,2026-11-25T08:40:04.920617+00:00
+2a121d1e900501de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A classic 1976 song by Blue Oyster Cult features the advice “Don’t Fear The” what?
+A. Reaper
+B. Clowns
+C. Dark
+D. Silence
+Answer:","[""Reaper"", ""Clowns"", ""Dark"", ""Silence""]",http,0.0,16,none,"{""id"":""chatcmpl-anqb2u5046pi6wichfcdin"",""object"":""chat.completion"",""created"":1795596004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:40:05.797802+00:00
+66d7573b0328e43f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Pokémon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?
+A. Hideyoshi
+B. Oichi
+C. Nobunaga
+D. The Player
+Answer:","[""Hideyoshi"", ""Oichi"", ""Nobunaga"", ""The Player""]",http,0.0,16,none,"{""id"":""chatcmpl-u82xi29bybg8rhp8uol2w6"",""object"":""chat.completion"",""created"":1795596005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261125_084135,2026-11-25T08:40:06.655615+00:00
+66d7573b0328e43f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Pokémon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?
+A. Hideyoshi
+B. Oichi
+C. Nobunaga
+D. The Player
+Answer:","[""Hideyoshi"", ""Oichi"", ""Nobunaga"", ""The Player""]",http,0.0,16,none,"{""id"":""chatcmpl-2z2lb3kaj2spz5b1ox1sto"",""object"":""chat.completion"",""created"":1795596006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8886,,MarianeAzar,20261125_084135,2026-11-25T08:40:07.544480+00:00
+24d3eb9703f951d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Finnish word for ""Finland""?
+A. Suomi
+B. Eesti
+C. Magyarország
+D. Sverige
+Answer:","[""Suomi"", ""Eesti"", ""Magyarország"", ""Sverige""]",http,0.0,16,none,"{""id"":""chatcmpl-ff8pyoqch6syghtahwm8y"",""object"":""chat.completion"",""created"":1795596006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T08:40:08.403518+00:00
+24d3eb9703f951d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Finnish word for ""Finland""?
+A. Suomi
+B. Eesti
+C. Magyarország
+D. Sverige
+Answer:","[""Suomi"", ""Eesti"", ""Magyarország"", ""Sverige""]",http,0.0,16,none,"{""id"":""chatcmpl-stfvbm230djx8k87r9ubi"",""object"":""chat.completion"",""created"":1795596007,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T08:40:09.260375+00:00
+5297e879c0039074,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the Beaufort Scale of wind force, what wind name is given to number 8?
+A. Hurricane
+B. Breeze
+C. Gale
+D. Storm
+Answer:","[""Hurricane"", ""Breeze"", ""Gale"", ""Storm""]",http,0.0,16,none,"{""id"":""chatcmpl-d60w6yi3cx671ucyb45s49"",""object"":""chat.completion"",""created"":1795596008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T08:40:10.112241+00:00
+5297e879c0039074,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the Beaufort Scale of wind force, what wind name is given to number 8?
+A. Hurricane
+B. Breeze
+C. Gale
+D. Storm
+Answer:","[""Hurricane"", ""Breeze"", ""Gale"", ""Storm""]",http,0.0,16,none,"{""id"":""chatcmpl-l70b3tccbisqimbewa6vzc"",""object"":""chat.completion"",""created"":1795596009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:40:10.968719+00:00
+ed899d42850bcac0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Until 1939, Laos was called Siam.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4s4s7ue152ceba4eb54bsw"",""object"":""chat.completion"",""created"":1795596010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8009,,MarianeAzar,20261125_084135,2026-11-25T08:40:11.769868+00:00
+ed899d42850bcac0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Until 1939, Laos was called Siam.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ymeatzyb78gd1mszomlxa"",""object"":""chat.completion"",""created"":1795596011,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8163,,MarianeAzar,20261125_084135,2026-11-25T08:40:12.586279+00:00
+49a893dfa2510f70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a polygon with eight sides called?
+A. Heptagon
+B. Octagon
+C. Hexagon
+D. Nanagon
+Answer:","[""Heptagon"", ""Octagon"", ""Hexagon"", ""Nanagon""]",http,0.0,16,none,"{""id"":""chatcmpl-ofanq6hv536rvxnj6jbve"",""object"":""chat.completion"",""created"":1795596012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8431,,MarianeAzar,20261125_084135,2026-11-25T08:40:13.429556+00:00
+49a893dfa2510f70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a polygon with eight sides called?
+A. Heptagon
+B. Octagon
+C. Hexagon
+D. Nanagon
+Answer:","[""Heptagon"", ""Octagon"", ""Hexagon"", ""Nanagon""]",http,0.0,16,none,"{""id"":""chatcmpl-s2m0b5i95rr42dqyd17gn2"",""object"":""chat.completion"",""created"":1795596012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8737,,MarianeAzar,20261125_084135,2026-11-25T08:40:14.303508+00:00
+5fbb8a43af2b4e5c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Minecraft, which two items must be combined to craft a torch?
+A. Wood and Coal
+B. Wood and Fire
+C. Stick and Coal
+D. Stick and Fire
+Answer:","[""Wood and Coal"", ""Wood and Fire"", ""Stick and Coal"", ""Stick and Fire""]",http,0.0,16,none,"{""id"":""chatcmpl-eujwpljb0yjaeby0o9vxw"",""object"":""chat.completion"",""created"":1795596013,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8447,,MarianeAzar,20261125_084135,2026-11-25T08:40:15.148978+00:00
+5fbb8a43af2b4e5c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Minecraft, which two items must be combined to craft a torch?
+A. Wood and Coal
+B. Wood and Fire
+C. Stick and Coal
+D. Stick and Fire
+Answer:","[""Wood and Coal"", ""Wood and Fire"", ""Stick and Coal"", ""Stick and Fire""]",http,0.0,16,none,"{""id"":""chatcmpl-5j7el90r7bln589ww8qhz"",""object"":""chat.completion"",""created"":1795596014,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T08:40:16.000037+00:00
+d93cb996282e44cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the second person to take up the mantle of Night Owl in the Watchmen graphic novel?
+A. Adrian Veidt
+B. Nelson Gardner
+C. Daniel Dreiberg
+D. Hollis Mason
+Answer:","[""Adrian Veidt"", ""Nelson Gardner"", ""Daniel Dreiberg"", ""Hollis Mason""]",http,0.0,16,none,"{""id"":""chatcmpl-1ioy1x14cc7z748uixpdog"",""object"":""chat.completion"",""created"":1795596015,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T08:40:16.857624+00:00
+d93cb996282e44cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the second person to take up the mantle of Night Owl in the Watchmen graphic novel?
+A. Adrian Veidt
+B. Nelson Gardner
+C. Daniel Dreiberg
+D. Hollis Mason
+Answer:","[""Adrian Veidt"", ""Nelson Gardner"", ""Daniel Dreiberg"", ""Hollis Mason""]",http,0.0,16,none,"{""id"":""chatcmpl-5la66sfeuqh1ga970m4kcq"",""object"":""chat.completion"",""created"":1795596016,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.873,,MarianeAzar,20261125_084135,2026-11-25T08:40:17.730730+00:00
+045b2ae9d2c66c30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Norway become free from Sweden?
+A. 1925
+B. 1814
+C. 1905
+D. 1834
+Answer:","[""1925"", ""1814"", ""1905"", ""1834""]",http,0.0,16,none,"{""id"":""chatcmpl-ue5jy513veaz3p1m3zmcod"",""object"":""chat.completion"",""created"":1795596017,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261125_084135,2026-11-25T08:40:18.578103+00:00
+045b2ae9d2c66c30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Norway become free from Sweden?
+A. 1925
+B. 1814
+C. 1905
+D. 1834
+Answer:","[""1925"", ""1814"", ""1905"", ""1834""]",http,0.0,16,none,"{""id"":""chatcmpl-80435vyssyub8c1qlnh1gb"",""object"":""chat.completion"",""created"":1795596018,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8752,,MarianeAzar,20261125_084135,2026-11-25T08:40:19.453414+00:00
+fe93af88a5f10afc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Lego Island trilogy, who taught Pepper Roni how to read?
+A. Officer Laura Brick
+B. Papa Brickolini
+C. Mama Brickolini
+D. Officer Nick Brick
+Answer:","[""Officer Laura Brick"", ""Papa Brickolini"", ""Mama Brickolini"", ""Officer Nick Brick""]",http,0.0,16,none,"{""id"":""chatcmpl-7v0vcs9bcd8zbpteo15ro"",""object"":""chat.completion"",""created"":1795596018,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T08:40:20.312738+00:00
+fe93af88a5f10afc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Lego Island trilogy, who taught Pepper Roni how to read?
+A. Officer Laura Brick
+B. Papa Brickolini
+C. Mama Brickolini
+D. Officer Nick Brick
+Answer:","[""Officer Laura Brick"", ""Papa Brickolini"", ""Mama Brickolini"", ""Officer Nick Brick""]",http,0.0,16,none,"{""id"":""chatcmpl-ge4iy3y6rnqtzl84ylfg2f"",""object"":""chat.completion"",""created"":1795596019,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:40:21.169049+00:00
+c85190a1d83638c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This element, when overcome with extreme heat and pressure, creates diamonds.
+A. Hydrogen
+B. Oxygen
+C. Carbon
+D. Nitrogen
+Answer:","[""Hydrogen"", ""Oxygen"", ""Carbon"", ""Nitrogen""]",http,0.0,16,none,"{""id"":""chatcmpl-nus3wshs615tg910d47tl"",""object"":""chat.completion"",""created"":1795596020,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8442,,MarianeAzar,20261125_084135,2026-11-25T08:40:22.013418+00:00
+c85190a1d83638c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This element, when overcome with extreme heat and pressure, creates diamonds.
+A. Hydrogen
+B. Oxygen
+C. Carbon
+D. Nitrogen
+Answer:","[""Hydrogen"", ""Oxygen"", ""Carbon"", ""Nitrogen""]",http,0.0,16,none,"{""id"":""chatcmpl-xel9598toh8488vppmi022"",""object"":""chat.completion"",""created"":1795596021,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8535,,MarianeAzar,20261125_084135,2026-11-25T08:40:22.867025+00:00

@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a15759c28a67e7d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Slovakia?
+A. Sofia
+B. Bratislava
+C. Sarajevo
+D. Ljubljana
+Answer:","[""Sofia"", ""Bratislava"", ""Sarajevo"", ""Ljubljana""]",http,0.0,16,none,"{""id"":""chatcmpl-4upd2j1lviskutuu70tgf"",""object"":""chat.completion"",""created"":1795592516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T07:41:57.810695+00:00
+1a08f2064f7bd1b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company developed and published Game Dev Tycoon?
+A. Greenheart Games
+B. MomCorp
+C. Greenland Games
+D. The Tycoonists
+Answer:","[""Greenheart Games"", ""MomCorp"", ""Greenland Games"", ""The Tycoonists""]",http,0.0,16,none,"{""id"":""chatcmpl-ljudrerq57q1848k4jajld"",""object"":""chat.completion"",""created"":1795592517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8722,,MarianeAzar,20261125_084135,2026-11-25T07:41:58.683295+00:00
+1a08f2064f7bd1b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company developed and published Game Dev Tycoon?
+A. Greenheart Games
+B. MomCorp
+C. Greenland Games
+D. The Tycoonists
+Answer:","[""Greenheart Games"", ""MomCorp"", ""Greenland Games"", ""The Tycoonists""]",http,0.0,16,none,"{""id"":""chatcmpl-qi331se7q9hc2e6ehd3h"",""object"":""chat.completion"",""created"":1795592518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T07:41:59.556091+00:00
+158075b6b405730e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following are names of the Seven Warring States EXCEPT:
+A. Zhai (翟)
+B. Qi (齊)
+C. Zhao (趙)
+D. Qin (秦)
+Answer:","[""Zhai (翟)"", ""Qi (齊)"", ""Zhao (趙)"", ""Qin (秦)""]",http,0.0,16,none,"{""id"":""chatcmpl-uyx74ubzugncj2xyh97cxu"",""object"":""chat.completion"",""created"":1795592518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8973,,MarianeAzar,20261125_084135,2026-11-25T07:42:00.453541+00:00
+158075b6b405730e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following are names of the Seven Warring States EXCEPT:
+A. Zhai (翟)
+B. Qi (齊)
+C. Zhao (趙)
+D. Qin (秦)
+Answer:","[""Zhai (翟)"", ""Qi (齊)"", ""Zhao (趙)"", ""Qin (秦)""]",http,0.0,16,none,"{""id"":""chatcmpl-fn7a14v5kah0nplp5na9yo"",""object"":""chat.completion"",""created"":1795592519,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.887,,MarianeAzar,20261125_084135,2026-11-25T07:42:01.340621+00:00
+0c21b2e1b974f26b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Sora's Nobody in Kingdom Hearts?
+A. Roxas
+B. Riku
+C. Kairi
+D. Mickey
+Answer:","[""Roxas"", ""Riku"", ""Kairi"", ""Mickey""]",http,0.0,16,none,"{""id"":""chatcmpl-tt0kegiqv3jbcaa3x36os"",""object"":""chat.completion"",""created"":1795592520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8704,,MarianeAzar,20261125_084135,2026-11-25T07:42:02.211265+00:00
+0c21b2e1b974f26b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Sora's Nobody in Kingdom Hearts?
+A. Roxas
+B. Riku
+C. Kairi
+D. Mickey
+Answer:","[""Roxas"", ""Riku"", ""Kairi"", ""Mickey""]",http,0.0,16,none,"{""id"":""chatcmpl-6s233479s0viel4ar12mv"",""object"":""chat.completion"",""created"":1795592521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261125_084135,2026-11-25T07:42:03.060375+00:00
+a050f58990245885,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which of these TV shows did the chef Gordon Ramsay not appear?
+A. Hotel Hell
+B. Ramsay's Kitchen Nightmares
+C. Auction Hunters
+D. Hell's Kitchen
+Answer:","[""Hotel Hell"", ""Ramsay's Kitchen Nightmares"", ""Auction Hunters"", ""Hell's Kitchen""]",http,0.0,16,none,"{""id"":""chatcmpl-59lggfh09z99ekfo8gul6e"",""object"":""chat.completion"",""created"":1795592522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8522,,MarianeAzar,20261125_084135,2026-11-25T07:42:03.912857+00:00
+a050f58990245885,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which of these TV shows did the chef Gordon Ramsay not appear?
+A. Hotel Hell
+B. Ramsay's Kitchen Nightmares
+C. Auction Hunters
+D. Hell's Kitchen
+Answer:","[""Hotel Hell"", ""Ramsay's Kitchen Nightmares"", ""Auction Hunters"", ""Hell's Kitchen""]",http,0.0,16,none,"{""id"":""chatcmpl-1hc4ul0uws1r6v3516w5ef"",""object"":""chat.completion"",""created"":1795592523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8652,,MarianeAzar,20261125_084135,2026-11-25T07:42:04.778292+00:00
+fb8981d9970f0f5e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the MMO RPG ""Realm of the Mad God"", what dungeon is widely considered to be the most difficult?
+A. The Shatter's
+B. The Puppet Master's Theater
+C. Snake Pit
+D. The Tomb of the Acient's
+Answer:","[""The Shatter's"", ""The Puppet Master's Theater"", ""Snake Pit"", ""The Tomb of the Acient's""]",http,0.0,16,none,"{""id"":""chatcmpl-8spoqo5j6pnuulh0s77y"",""object"":""chat.completion"",""created"":1795592524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261125_084135,2026-11-25T07:42:05.661678+00:00
+fb8981d9970f0f5e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the MMO RPG ""Realm of the Mad God"", what dungeon is widely considered to be the most difficult?
+A. The Shatter's
+B. The Puppet Master's Theater
+C. Snake Pit
+D. The Tomb of the Acient's
+Answer:","[""The Shatter's"", ""The Puppet Master's Theater"", ""Snake Pit"", ""The Tomb of the Acient's""]",http,0.0,16,none,"{""id"":""chatcmpl-460rsrb8e35imoo747f719"",""object"":""chat.completion"",""created"":1795592525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9044,,MarianeAzar,20261125_084135,2026-11-25T07:42:06.566253+00:00
+130efb131429e871,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Druid is a mage class in ""Log Horizon"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7rohybva9hol7ubyjuzsko"",""object"":""chat.completion"",""created"":1795592526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8366,,MarianeAzar,20261125_084135,2026-11-25T07:42:07.403013+00:00
+130efb131429e871,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Druid is a mage class in ""Log Horizon"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e5u9ehw9m5liaht87s4a4o"",""object"":""chat.completion"",""created"":1795592526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8197,,MarianeAzar,20261125_084135,2026-11-25T07:42:08.222829+00:00
+f905875d41c13451,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for electric current?
+A. Volt
+B. Ampere
+C. Ohm
+D. Watt
+Answer:","[""Volt"", ""Ampere"", ""Ohm"", ""Watt""]",http,0.0,16,none,"{""id"":""chatcmpl-s7poqeb1othctoxhdlszb"",""object"":""chat.completion"",""created"":1795592527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T07:42:09.069649+00:00
+f905875d41c13451,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for electric current?
+A. Volt
+B. Ampere
+C. Ohm
+D. Watt
+Answer:","[""Volt"", ""Ampere"", ""Ohm"", ""Watt""]",http,0.0,16,none,"{""id"":""chatcmpl-i3u3meq18f8a53ne7fsnl"",""object"":""chat.completion"",""created"":1795592528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T07:42:09.931568+00:00
+31968daa387c727c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was ""Antichamber"" released?
+A. 2013
+B. 2014
+C. 2011
+D. 2012
+Answer:","[""2013"", ""2014"", ""2011"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-sgyt8465q3e7udeak4vagd"",""object"":""chat.completion"",""created"":1795592529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T07:42:10.797076+00:00
+31968daa387c727c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was ""Antichamber"" released?
+A. 2013
+B. 2014
+C. 2011
+D. 2012
+Answer:","[""2013"", ""2014"", ""2011"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-8gadqksnqfdkixk8lewnm"",""object"":""chat.completion"",""created"":1795592530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8786,,MarianeAzar,20261125_084135,2026-11-25T07:42:11.675813+00:00
+aa6868a55159d9f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Painter Piet Mondrian (1872 - 1944) was a part of what movement?
+A. Neoplasticism
+B. Cubism
+C. Impressionism
+D. Precisionism
+Answer:","[""Neoplasticism"", ""Cubism"", ""Impressionism"", ""Precisionism""]",http,0.0,16,none,"{""id"":""chatcmpl-79n3km6bctk8ayu4nng5vf"",""object"":""chat.completion"",""created"":1795592531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.908,,MarianeAzar,20261125_084135,2026-11-25T07:42:12.583989+00:00
+aa6868a55159d9f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Painter Piet Mondrian (1872 - 1944) was a part of what movement?
+A. Neoplasticism
+B. Cubism
+C. Impressionism
+D. Precisionism
+Answer:","[""Neoplasticism"", ""Cubism"", ""Impressionism"", ""Precisionism""]",http,0.0,16,none,"{""id"":""chatcmpl-5jx3gquyp2m4bg8mns76yx"",""object"":""chat.completion"",""created"":1795592532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8776,,MarianeAzar,20261125_084135,2026-11-25T07:42:13.462016+00:00
+0b7e5f39238b4622,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a Humongous Entertainment game franchise?
+A. Putt-Putt
+B. Pajama Sam
+C. Freddi Fish
+D. Commander Keen
+Answer:","[""Putt-Putt"", ""Pajama Sam"", ""Freddi Fish"", ""Commander Keen""]",http,0.0,16,none,"{""id"":""chatcmpl-jbf0nd2hvcbsa954l5tni"",""object"":""chat.completion"",""created"":1795592532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8724,,MarianeAzar,20261125_084135,2026-11-25T07:42:14.334618+00:00
+0b7e5f39238b4622,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a Humongous Entertainment game franchise?
+A. Putt-Putt
+B. Pajama Sam
+C. Freddi Fish
+D. Commander Keen
+Answer:","[""Putt-Putt"", ""Pajama Sam"", ""Freddi Fish"", ""Commander Keen""]",http,0.0,16,none,"{""id"":""chatcmpl-y5lwl2fvn3odle7po1csd"",""object"":""chat.completion"",""created"":1795592533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T07:42:15.195941+00:00
+7b1f5ea4bb45f8cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the release date of ""Grand Theft Auto IV""?
+A. April 29, 2008
+B. June 22, 2010
+C. May 21, 2009
+D. July 28, 2008
+Answer:","[""April 29, 2008"", ""June 22, 2010"", ""May 21, 2009"", ""July 28, 2008""]",http,0.0,16,none,"{""id"":""chatcmpl-ir5bnjdg8ag9xsnabic0kt"",""object"":""chat.completion"",""created"":1795592534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8906,,MarianeAzar,20261125_084135,2026-11-25T07:42:16.086697+00:00
+7b1f5ea4bb45f8cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the release date of ""Grand Theft Auto IV""?
+A. April 29, 2008
+B. June 22, 2010
+C. May 21, 2009
+D. July 28, 2008
+Answer:","[""April 29, 2008"", ""June 22, 2010"", ""May 21, 2009"", ""July 28, 2008""]",http,0.0,16,none,"{""id"":""chatcmpl-mopqw54zald8h582f23zu"",""object"":""chat.completion"",""created"":1795592535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9166,,MarianeAzar,20261125_084135,2026-11-25T07:42:17.003495+00:00
+c5a90f7206a226e8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This former Air Force and NASA engineer is the inventor of the Super Soaker water gun.
+A. Ashitey Trebi-Ollennu
+B. Bruce D'Andrade
+C. Lonnie Johnson
+D. Frances Northcutt
+Answer:","[""Ashitey Trebi-Ollennu"", ""Bruce D'Andrade"", ""Lonnie Johnson"", ""Frances Northcutt""]",http,0.0,16,none,"{""id"":""chatcmpl-25c41606widp6hvmms3t9"",""object"":""chat.completion"",""created"":1795592536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261125_084135,2026-11-25T07:42:17.891941+00:00
+c5a90f7206a226e8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This former Air Force and NASA engineer is the inventor of the Super Soaker water gun.
+A. Ashitey Trebi-Ollennu
+B. Bruce D'Andrade
+C. Lonnie Johnson
+D. Frances Northcutt
+Answer:","[""Ashitey Trebi-Ollennu"", ""Bruce D'Andrade"", ""Lonnie Johnson"", ""Frances Northcutt""]",http,0.0,16,none,"{""id"":""chatcmpl-4vhf17te4l98hb3evx1s6r"",""object"":""chat.completion"",""created"":1795592537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T07:42:18.777911+00:00

@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+093bf92b73cb4e5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal is a natterjack?
+A. Bird
+B. Fish
+C. Insect
+D. Toad
+Answer:","[""Bird"", ""Fish"", ""Insect"", ""Toad""]",http,0.0,16,none,"{""id"":""chatcmpl-9mnhludu36rg1q2s1lksz"",""object"":""chat.completion"",""created"":1795592884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:48:06.424468+00:00
+093bf92b73cb4e5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of animal is a natterjack?
+A. Bird
+B. Fish
+C. Insect
+D. Toad
+Answer:","[""Bird"", ""Fish"", ""Insect"", ""Toad""]",http,0.0,16,none,"{""id"":""chatcmpl-3scgxpbgfg2pme6ywh3be"",""object"":""chat.completion"",""created"":1795592885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8501,,MarianeAzar,20261125_084135,2026-11-25T07:48:07.274975+00:00
+9203b51d7bca5063,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the cartoon character, Andy Capp, known as in Germany?
+A. Rod Tapper
+B. Dick Tingeler
+C. Willi Wakker
+D. Helmut Schmacker
+Answer:","[""Rod Tapper"", ""Dick Tingeler"", ""Willi Wakker"", ""Helmut Schmacker""]",http,0.0,16,none,"{""id"":""chatcmpl-0agbaebfc386yxt3yfx0pni"",""object"":""chat.completion"",""created"":1795592886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8635,,MarianeAzar,20261125_084135,2026-11-25T07:48:08.138730+00:00
+9203b51d7bca5063,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the cartoon character, Andy Capp, known as in Germany?
+A. Rod Tapper
+B. Dick Tingeler
+C. Willi Wakker
+D. Helmut Schmacker
+Answer:","[""Rod Tapper"", ""Dick Tingeler"", ""Willi Wakker"", ""Helmut Schmacker""]",http,0.0,16,none,"{""id"":""chatcmpl-luuk8gw606gptnbido2ys"",""object"":""chat.completion"",""created"":1795592887,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261125_084135,2026-11-25T07:48:08.997925+00:00
+056bb937b5a9c8dd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Landsat Satellite currently has had the longest operational life?
+A. Landsat 5
+B. Landsat 7
+C. Landsat 8
+D. Landsat 6
+Answer:","[""Landsat 5"", ""Landsat 7"", ""Landsat 8"", ""Landsat 6""]",http,0.0,16,none,"{""id"":""chatcmpl-oaroq4mvm8j8a65mcd51io"",""object"":""chat.completion"",""created"":1795592888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T07:48:09.853727+00:00
+056bb937b5a9c8dd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Landsat Satellite currently has had the longest operational life?
+A. Landsat 5
+B. Landsat 7
+C. Landsat 8
+D. Landsat 6
+Answer:","[""Landsat 5"", ""Landsat 7"", ""Landsat 8"", ""Landsat 6""]",http,0.0,16,none,"{""id"":""chatcmpl-j5mlvej15ekfcf92gcen1u"",""object"":""chat.completion"",""created"":1795592889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T07:48:10.711672+00:00
+738e53bc730b6eec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which day did World War I begin?
+A. June 28
+B. July 28
+C. April 28
+D. January 28
+Answer:","[""June 28"", ""July 28"", ""April 28"", ""January 28""]",http,0.0,16,none,"{""id"":""chatcmpl-sluwly02migkc48wu9juu"",""object"":""chat.completion"",""created"":1795592890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T07:48:11.563279+00:00
+738e53bc730b6eec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which day did World War I begin?
+A. June 28
+B. July 28
+C. April 28
+D. January 28
+Answer:","[""June 28"", ""July 28"", ""April 28"", ""January 28""]",http,0.0,16,none,"{""id"":""chatcmpl-jzfs9f6k6192ciapmss11w"",""object"":""chat.completion"",""created"":1795592891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T07:48:12.436211+00:00
+59f5c0f31fa180d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animal was part of an Russian domestication experiment in 1959?
+A. Foxes
+B. Pigeons
+C. Bears
+D. Alligators
+Answer:","[""Foxes"", ""Pigeons"", ""Bears"", ""Alligators""]",http,0.0,16,none,"{""id"":""chatcmpl-oudrzaseh9cd88zqv8lp4m"",""object"":""chat.completion"",""created"":1795592891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T07:48:13.291908+00:00
+59f5c0f31fa180d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animal was part of an Russian domestication experiment in 1959?
+A. Foxes
+B. Pigeons
+C. Bears
+D. Alligators
+Answer:","[""Foxes"", ""Pigeons"", ""Bears"", ""Alligators""]",http,0.0,16,none,"{""id"":""chatcmpl-pw60n55egr7sz8mr619"",""object"":""chat.completion"",""created"":1795592892,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T07:48:14.154348+00:00
+3ac0984cccf4dba7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Denmark?
+A. Copenhagen
+B. Aarhus
+C. Aalborg
+D. Odense
+Answer:","[""Copenhagen"", ""Aarhus"", ""Aalborg"", ""Odense""]",http,0.0,16,none,"{""id"":""chatcmpl-dfrtdgr7ra400vtm5wzjceyb"",""object"":""chat.completion"",""created"":1795592893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8486,,MarianeAzar,20261125_084135,2026-11-25T07:48:15.004166+00:00
+3ac0984cccf4dba7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Denmark?
+A. Copenhagen
+B. Aarhus
+C. Aalborg
+D. Odense
+Answer:","[""Copenhagen"", ""Aarhus"", ""Aalborg"", ""Odense""]",http,0.0,16,none,"{""id"":""chatcmpl-72xtjdgbqb2fou5pnos2sv"",""object"":""chat.completion"",""created"":1795592894,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261125_084135,2026-11-25T07:48:15.856229+00:00
+dd2e530c754a4517,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Some of the ""Fallen Empires"" cards from ""Magic: The Gathering"" were misprinted on the backs of which other card game?
+A. Pokemon
+B. Dominion
+C. Yu-Gi-Oh
+D. Wyvern
+Answer:","[""Pokemon"", ""Dominion"", ""Yu-Gi-Oh"", ""Wyvern""]",http,0.0,16,none,"{""id"":""chatcmpl-hucjd6l10rifbdwviiofch"",""object"":""chat.completion"",""created"":1795592895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261125_084135,2026-11-25T07:48:16.711183+00:00
+dd2e530c754a4517,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Some of the ""Fallen Empires"" cards from ""Magic: The Gathering"" were misprinted on the backs of which other card game?
+A. Pokemon
+B. Dominion
+C. Yu-Gi-Oh
+D. Wyvern
+Answer:","[""Pokemon"", ""Dominion"", ""Yu-Gi-Oh"", ""Wyvern""]",http,0.0,16,none,"{""id"":""chatcmpl-zv9uh5epbd5i1ff6bh8qf"",""object"":""chat.completion"",""created"":1795592896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8979,,MarianeAzar,20261125_084135,2026-11-25T07:48:17.609292+00:00
+255f38280897b425,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Kagerou Daze"" series, Shintaro Kisaragi is prominently shown with the color red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vn10lecccxgapwa6oeboud"",""object"":""chat.completion"",""created"":1795592897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8482,,MarianeAzar,20261125_084135,2026-11-25T07:48:18.457626+00:00
+255f38280897b425,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Kagerou Daze"" series, Shintaro Kisaragi is prominently shown with the color red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ncgycjuzvxk9hiemr9ou"",""object"":""chat.completion"",""created"":1795592897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.844,,MarianeAzar,20261125_084135,2026-11-25T07:48:19.301797+00:00
+07a85ed44e1ebc8e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the true moon princess in Sailor Moon?
+A. Sailor Jupiter
+B. Sailor Moon
+C. Sailor Mars
+D. Sailor Venus
+Answer:","[""Sailor Jupiter"", ""Sailor Moon"", ""Sailor Mars"", ""Sailor Venus""]",http,0.0,16,none,"{""id"":""chatcmpl-r7aw9n3w3afbve6qkg0lu7"",""object"":""chat.completion"",""created"":1795592898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8407,,MarianeAzar,20261125_084135,2026-11-25T07:48:20.142736+00:00
+07a85ed44e1ebc8e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the true moon princess in Sailor Moon?
+A. Sailor Jupiter
+B. Sailor Moon
+C. Sailor Mars
+D. Sailor Venus
+Answer:","[""Sailor Jupiter"", ""Sailor Moon"", ""Sailor Mars"", ""Sailor Venus""]",http,0.0,16,none,"{""id"":""chatcmpl-v717ts5ku1hxfp8d1izce"",""object"":""chat.completion"",""created"":1795592899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261125_084135,2026-11-25T07:48:21.010009+00:00
+bb644cf9e3c9a58e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which state of the United States is the smallest?
+A. Massachusetts
+B. Rhode Island
+C. Vermont
+D. Maine
+Answer:","[""Massachusetts"", ""Rhode Island"", ""Vermont"", ""Maine""]",http,0.0,16,none,"{""id"":""chatcmpl-zn1zmzv0599w3y7bu0iit"",""object"":""chat.completion"",""created"":1795592900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8482,,MarianeAzar,20261125_084135,2026-11-25T07:48:21.858532+00:00
+bb644cf9e3c9a58e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which state of the United States is the smallest?
+A. Massachusetts
+B. Rhode Island
+C. Vermont
+D. Maine
+Answer:","[""Massachusetts"", ""Rhode Island"", ""Vermont"", ""Maine""]",http,0.0,16,none,"{""id"":""chatcmpl-vgx5hkov8jahmojia6657"",""object"":""chat.completion"",""created"":1795592901,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261125_084135,2026-11-25T07:48:22.726169+00:00
+85e19c3dd21637b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the Invasion of Kuwait by Iraq occur?
+A. 1986
+B. 1992
+C. 1990
+D. 1988
+Answer:","[""1986"", ""1992"", ""1990"", ""1988""]",http,0.0,16,none,"{""id"":""chatcmpl-oh8irwgn45j9s37c8dnn"",""object"":""chat.completion"",""created"":1795592902,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T07:48:23.597114+00:00
+85e19c3dd21637b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the Invasion of Kuwait by Iraq occur?
+A. 1986
+B. 1992
+C. 1990
+D. 1988
+Answer:","[""1986"", ""1992"", ""1990"", ""1988""]",http,0.0,16,none,"{""id"":""chatcmpl-p2xy69m2akbktwfosh2zij"",""object"":""chat.completion"",""created"":1795592903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8759,,MarianeAzar,20261125_084135,2026-11-25T07:48:24.473318+00:00
+18986da4dc6c5e37,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The shotgun appears in every numbered Resident Evil game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7vicmyxpqia9f6hkqhe6gr"",""object"":""chat.completion"",""created"":1795592903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8078,,MarianeAzar,20261125_084135,2026-11-25T07:48:25.281304+00:00
+18986da4dc6c5e37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The shotgun appears in every numbered Resident Evil game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3e2gphshrfg173z2vrzgso"",""object"":""chat.completion"",""created"":1795592904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8201,,MarianeAzar,20261125_084135,2026-11-25T07:48:26.101513+00:00
+789d82e80117a12d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these names are not a character of JoJo's Bizarre Adventure?
+A. Risotto Nero
+B. George Joestar
+C. Jean-Pierre Polnareff
+D. JoJo Kikasu
+Answer:","[""Risotto Nero"", ""George Joestar"", ""Jean-Pierre Polnareff"", ""JoJo Kikasu""]",http,0.0,16,none,"{""id"":""chatcmpl-mygjlli0urfc15h54cxir"",""object"":""chat.completion"",""created"":1795592905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T07:48:26.955114+00:00

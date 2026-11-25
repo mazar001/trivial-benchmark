@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ac1cf53b9847de1f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How old was Adolf Hitler when he died?
+A. 43
+B. 56
+C. 47
+D. 65
+Answer:","[""43"", ""56"", ""47"", ""65""]",http,0.0,16,none,"{""id"":""chatcmpl-41bmcnoqy64br5i5jzw0lf"",""object"":""chat.completion"",""created"":1795593035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T07:50:37.323837+00:00
+8e05ca6ac64dd767,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What block in Minecraft has the highest blast resistance?
+A. Obsidian
+B. Barrier
+C. Bedrock
+D. Block of Diamond
+Answer:","[""Obsidian"", ""Barrier"", ""Bedrock"", ""Block of Diamond""]",http,0.0,16,none,"{""id"":""chatcmpl-ykb6sgfc56b4nxgz1owb5j"",""object"":""chat.completion"",""created"":1795593036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T07:50:38.186755+00:00
+8e05ca6ac64dd767,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What block in Minecraft has the highest blast resistance?
+A. Obsidian
+B. Barrier
+C. Bedrock
+D. Block of Diamond
+Answer:","[""Obsidian"", ""Barrier"", ""Bedrock"", ""Block of Diamond""]",http,0.0,16,none,"{""id"":""chatcmpl-hf4o12t1bhkols5rhwfh89"",""object"":""chat.completion"",""created"":1795593037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8493,,MarianeAzar,20261125_084135,2026-11-25T07:50:39.036506+00:00
+2889223e1ad05e9b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Rossini opera, what was the name of 'The Barber of Seville'?
+A. Figaro
+B. Fernando
+C. Dave
+D. Angelo
+Answer:","[""Figaro"", ""Fernando"", ""Dave"", ""Angelo""]",http,0.0,16,none,"{""id"":""chatcmpl-h4iqbj1rd0fatt5bfkqw64"",""object"":""chat.completion"",""created"":1795593038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T07:50:39.897448+00:00
+2889223e1ad05e9b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Rossini opera, what was the name of 'The Barber of Seville'?
+A. Figaro
+B. Fernando
+C. Dave
+D. Angelo
+Answer:","[""Figaro"", ""Fernando"", ""Dave"", ""Angelo""]",http,0.0,16,none,"{""id"":""chatcmpl-eksq2z71pgdnay5ebn9top"",""object"":""chat.completion"",""created"":1795593039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261125_084135,2026-11-25T07:50:40.761377+00:00
+a88bbd05a6137b12,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ewan McGregor did not know the name of the second prequel film of Star Wars during and after filming.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tue2onv9tkmbn04p3eblk"",""object"":""chat.completion"",""created"":1795593040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8283,,MarianeAzar,20261125_084135,2026-11-25T07:50:41.590067+00:00
+a88bbd05a6137b12,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ewan McGregor did not know the name of the second prequel film of Star Wars during and after filming.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4oyf3k5k9qjwxvrs68st"",""object"":""chat.completion"",""created"":1795593041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8395,,MarianeAzar,20261125_084135,2026-11-25T07:50:42.429759+00:00
+319fa0b9ae89561d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the colour of unoxidized blood?
+A. Purple
+B. Red
+C. Blue
+D. Green
+Answer:","[""Purple"", ""Red"", ""Blue"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-64iu1tq3oqugqq26jwjxp"",""object"":""chat.completion"",""created"":1795593041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T07:50:43.280873+00:00
+319fa0b9ae89561d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the colour of unoxidized blood?
+A. Purple
+B. Red
+C. Blue
+D. Green
+Answer:","[""Purple"", ""Red"", ""Blue"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-gqys7g509b43vynept8558"",""object"":""chat.completion"",""created"":1795593042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261125_084135,2026-11-25T07:50:44.129945+00:00
+aef7f845b0161497,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the PAYDAY series, who betrayed the PAYDAY gang that got Hoxton arrested?
+A. The Elephant
+B. The Dentist
+C. Vlad
+D. Hector
+Answer:","[""The Elephant"", ""The Dentist"", ""Vlad"", ""Hector""]",http,0.0,16,none,"{""id"":""chatcmpl-67k010a9neuk876dgbwyr"",""object"":""chat.completion"",""created"":1795593043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8467,,MarianeAzar,20261125_084135,2026-11-25T07:50:44.976945+00:00
+aef7f845b0161497,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the PAYDAY series, who betrayed the PAYDAY gang that got Hoxton arrested?
+A. The Elephant
+B. The Dentist
+C. Vlad
+D. Hector
+Answer:","[""The Elephant"", ""The Dentist"", ""Vlad"", ""Hector""]",http,0.0,16,none,"{""id"":""chatcmpl-dlo9bm9zt5lsgldb18fb4a"",""object"":""chat.completion"",""created"":1795593044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T07:50:45.838235+00:00
+9bb9820f5fd99537,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The CEO of tech company Apple following Steve Jobs is named Tim Apple.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3xc4qg6zah4uxtkijcfswa"",""object"":""chat.completion"",""created"":1795593045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8207,,MarianeAzar,20261125_084135,2026-11-25T07:50:46.659176+00:00
+9bb9820f5fd99537,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The CEO of tech company Apple following Steve Jobs is named Tim Apple.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3w6nhfk5klii41ecy02vrl"",""object"":""chat.completion"",""created"":1795593046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8173,,MarianeAzar,20261125_084135,2026-11-25T07:50:47.476661+00:00
+cc80dd1fbb165e61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song on Daft Punk's ""Random Access Memories"" features Pharrell Williams?
+A. Doin' It Right
+B. Get Lucky
+C. Instant Crush
+D. The Game of Love
+Answer:","[""Doin' It Right"", ""Get Lucky"", ""Instant Crush"", ""The Game of Love""]",http,0.0,16,none,"{""id"":""chatcmpl-zabojn3y37iqp9vh7gk7mr"",""object"":""chat.completion"",""created"":1795593046,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261125_084135,2026-11-25T07:50:48.331092+00:00
+cc80dd1fbb165e61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song on Daft Punk's ""Random Access Memories"" features Pharrell Williams?
+A. Doin' It Right
+B. Get Lucky
+C. Instant Crush
+D. The Game of Love
+Answer:","[""Doin' It Right"", ""Get Lucky"", ""Instant Crush"", ""The Game of Love""]",http,0.0,16,none,"{""id"":""chatcmpl-7ctis9eo30902jn10dlajav"",""object"":""chat.completion"",""created"":1795593047,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8762,,MarianeAzar,20261125_084135,2026-11-25T07:50:49.207436+00:00
+8fab528686ff2f1d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How was Socrates executed?
+A. Crucifixion
+B. Decapitation
+C. Poison
+D. Firing squad
+Answer:","[""Crucifixion"", ""Decapitation"", ""Poison"", ""Firing squad""]",http,0.0,16,none,"{""id"":""chatcmpl-d9xehfalungozmbc0odt"",""object"":""chat.completion"",""created"":1795593048,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T07:50:50.061348+00:00
+8fab528686ff2f1d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How was Socrates executed?
+A. Crucifixion
+B. Decapitation
+C. Poison
+D. Firing squad
+Answer:","[""Crucifixion"", ""Decapitation"", ""Poison"", ""Firing squad""]",http,0.0,16,none,"{""id"":""chatcmpl-yhpe7j34r8pedam4gwjhc"",""object"":""chat.completion"",""created"":1795593049,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T07:50:50.923368+00:00
+b227ef5e8a46a134,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The movie ""The Nightmare before Christmas"" was all done with physical objects.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qx2vysjghre6sbza5rkf8"",""object"":""chat.completion"",""created"":1795593050,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8316,,MarianeAzar,20261125_084135,2026-11-25T07:50:51.755100+00:00
+b227ef5e8a46a134,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The movie ""The Nightmare before Christmas"" was all done with physical objects.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cg4tcohax779u3wazdq5u8"",""object"":""chat.completion"",""created"":1795593051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8119,,MarianeAzar,20261125_084135,2026-11-25T07:50:52.567245+00:00
+c059f736efaaa52a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the author of the ""A Song of Ice and Fire"" book series, starting with ""A Game of Thrones""?
+A. Steven Erikson
+B. Brandon Sanderson
+C. J. R. R. Tolkien
+D. George R. R. Martin
+Answer:","[""Steven Erikson"", ""Brandon Sanderson"", ""J. R. R. Tolkien"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-s3tayuoeivrdirgahh2das"",""object"":""chat.completion"",""created"":1795593051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T07:50:53.431155+00:00
+c059f736efaaa52a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the author of the ""A Song of Ice and Fire"" book series, starting with ""A Game of Thrones""?
+A. Steven Erikson
+B. Brandon Sanderson
+C. J. R. R. Tolkien
+D. George R. R. Martin
+Answer:","[""Steven Erikson"", ""Brandon Sanderson"", ""J. R. R. Tolkien"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-ndqgsfaeff8swjwexntr8g"",""object"":""chat.completion"",""created"":1795593052,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9047,,MarianeAzar,20261125_084135,2026-11-25T07:50:54.336141+00:00
+20eea2b10af550ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Super Mario Bros., who informs Mario that the princess is in another castle?
+A. Bowser
+B. Toad
+C. Yoshi
+D. Luigi
+Answer:","[""Bowser"", ""Toad"", ""Yoshi"", ""Luigi""]",http,0.0,16,none,"{""id"":""chatcmpl-3q4aj8zww9bmk6f2sh15p"",""object"":""chat.completion"",""created"":1795593053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8887,,MarianeAzar,20261125_084135,2026-11-25T07:50:55.225132+00:00
+20eea2b10af550ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Super Mario Bros., who informs Mario that the princess is in another castle?
+A. Bowser
+B. Toad
+C. Yoshi
+D. Luigi
+Answer:","[""Bowser"", ""Toad"", ""Yoshi"", ""Luigi""]",http,0.0,16,none,"{""id"":""chatcmpl-oas5if0tj2f1ih112kedvg"",""object"":""chat.completion"",""created"":1795593054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261125_084135,2026-11-25T07:50:56.088548+00:00
+f1abca385195e13f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Portugal's modern territory was once a part of the Roman Empire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e9jl0iuy4ieg4ah90vfwu"",""object"":""chat.completion"",""created"":1795593055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8187,,MarianeAzar,20261125_084135,2026-11-25T07:50:56.907390+00:00
+f1abca385195e13f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Portugal's modern territory was once a part of the Roman Empire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zb30yq7dseot57mx2hw2cm"",""object"":""chat.completion"",""created"":1795593056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8136,,MarianeAzar,20261125_084135,2026-11-25T07:50:57.721165+00:00

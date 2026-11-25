@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cbc95f2023b966ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the game's development, what was the first ever created Pokémon?
+A. Mew
+B. Arceus
+C. Rhyhorn
+D. Bulbasaur
+Answer:","[""Mew"", ""Arceus"", ""Rhyhorn"", ""Bulbasaur""]",http,0.0,16,none,"{""id"":""chatcmpl-at45p46bibevk37euw5h"",""object"":""chat.completion"",""created"":1795593624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8914,,MarianeAzar,20261125_084135,2026-11-25T08:00:26.176949+00:00
+cbc95f2023b966ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the game's development, what was the first ever created Pokémon?
+A. Mew
+B. Arceus
+C. Rhyhorn
+D. Bulbasaur
+Answer:","[""Mew"", ""Arceus"", ""Rhyhorn"", ""Bulbasaur""]",http,0.0,16,none,"{""id"":""chatcmpl-tei2dr69tf3hy13je92vq"",""object"":""chat.completion"",""created"":1795593625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T08:00:27.036076+00:00
+69f75d20de835322,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: MacOS is based on Linux.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kk5hknbf3cjwm2hz7dv69"",""object"":""chat.completion"",""created"":1795593626,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8135,,MarianeAzar,20261125_084135,2026-11-25T08:00:27.849784+00:00
+69f75d20de835322,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: MacOS is based on Linux.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-m4cgqsj5c741n7pajff02"",""object"":""chat.completion"",""created"":1795593627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8184,,MarianeAzar,20261125_084135,2026-11-25T08:00:28.668330+00:00
+b4d0696ca56eaf0c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these are NOT a Men at Work song?
+A. Be Good Johnny
+B. Dr. Heckyll and Mr. Jive
+C. Basket Case
+D. Who Can It Be Now?
+Answer:","[""Be Good Johnny"", ""Dr. Heckyll and Mr. Jive"", ""Basket Case"", ""Who Can It Be Now?""]",http,0.0,16,none,"{""id"":""chatcmpl-fcvkqoi57i99d5w2y22nop"",""object"":""chat.completion"",""created"":1795593628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261125_084135,2026-11-25T08:00:29.517209+00:00
+b4d0696ca56eaf0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these are NOT a Men at Work song?
+A. Be Good Johnny
+B. Dr. Heckyll and Mr. Jive
+C. Basket Case
+D. Who Can It Be Now?
+Answer:","[""Be Good Johnny"", ""Dr. Heckyll and Mr. Jive"", ""Basket Case"", ""Who Can It Be Now?""]",http,0.0,16,none,"{""id"":""chatcmpl-2qyoi5uo0pyb8umltfbi86"",""object"":""chat.completion"",""created"":1795593628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9084,,MarianeAzar,20261125_084135,2026-11-25T08:00:30.425839+00:00
+e1d5ee0f80a0e80f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Arbok evolves into Seviper.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y87eoqa6fu16o4wwj402b"",""object"":""chat.completion"",""created"":1795593629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8406,,MarianeAzar,20261125_084135,2026-11-25T08:00:31.266559+00:00
+e1d5ee0f80a0e80f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Arbok evolves into Seviper.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kbaffie3zcau2i6zmkuxl"",""object"":""chat.completion"",""created"":1795593630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T08:00:32.123282+00:00
+866518b0f4924906,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country was the Michelin tire company founded in 1889?
+A. Germany
+B. Italy
+C. France
+D. United Kingdom
+Answer:","[""Germany"", ""Italy"", ""France"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-6zjd65cv0mgsrf9xvrjl7"",""object"":""chat.completion"",""created"":1795593631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9054,,MarianeAzar,20261125_084135,2026-11-25T08:00:33.029579+00:00
+866518b0f4924906,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which country was the Michelin tire company founded in 1889?
+A. Germany
+B. Italy
+C. France
+D. United Kingdom
+Answer:","[""Germany"", ""Italy"", ""France"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-sdck6bt2frb5uo0kmklrmi"",""object"":""chat.completion"",""created"":1795593632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8757,,MarianeAzar,20261125_084135,2026-11-25T08:00:33.905606+00:00
+61fa7435cc30fca8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2023 Beatles song ""Now and Then"" originated from an unfinished demo recorded by which Beatle?
+A. Ringo Starr
+B. George Harrison
+C. John Lennon
+D. Paul McCartney
+Answer:","[""Ringo Starr"", ""George Harrison"", ""John Lennon"", ""Paul McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-76xcufdfvynzkv79dbu5hh"",""object"":""chat.completion"",""created"":1795593633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8643,,MarianeAzar,20261125_084135,2026-11-25T08:00:34.770500+00:00
+61fa7435cc30fca8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2023 Beatles song ""Now and Then"" originated from an unfinished demo recorded by which Beatle?
+A. Ringo Starr
+B. George Harrison
+C. John Lennon
+D. Paul McCartney
+Answer:","[""Ringo Starr"", ""George Harrison"", ""John Lennon"", ""Paul McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-h5adunr572pvm9yxhbc3s9"",""object"":""chat.completion"",""created"":1795593634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9812,,MarianeAzar,20261125_084135,2026-11-25T08:00:35.751917+00:00
+2cff82f212e3719b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the official German currency until 2002?
+A. Reichtoken
+B. Pound sterling
+C. Mark
+D. Frank
+Answer:","[""Reichtoken"", ""Pound sterling"", ""Mark"", ""Frank""]",http,0.0,16,none,"{""id"":""chatcmpl-ycd240so1zjgm7hp0n8bi"",""object"":""chat.completion"",""created"":1795593635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9078,,MarianeAzar,20261125_084135,2026-11-25T08:00:36.660141+00:00
+2cff82f212e3719b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the official German currency until 2002?
+A. Reichtoken
+B. Pound sterling
+C. Mark
+D. Frank
+Answer:","[""Reichtoken"", ""Pound sterling"", ""Mark"", ""Frank""]",http,0.0,16,none,"{""id"":""chatcmpl-snkgj3d77o8vnzxn1nwqqr"",""object"":""chat.completion"",""created"":1795593636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.878,,MarianeAzar,20261125_084135,2026-11-25T08:00:37.538442+00:00
+8473d0c78a4caa01,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The derisive acronym ""PIIGS"" refers to which of the following European countries and their economic statuses?
+A. Portugal, Ireland, Italy, Greece, Spain
+B. Poland, Iceland, Italy, Greenland, Spain
+C. Poland, Iceland, Italy, Greece, Serbia
+D. Portugal, Iceland, Ireland, Greece, Serbia
+Answer:","[""Portugal, Ireland, Italy, Greece, Spain"", ""Poland, Iceland, Italy, Greenland, Spain"", ""Poland, Iceland, Italy, Greece, Serbia"", ""Portugal, Iceland, Ireland, Greece, Serbia""]",http,0.0,16,none,"{""id"":""chatcmpl-ovy5yd1w3m9lw7upvskd6"",""object"":""chat.completion"",""created"":1795593636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9262,,MarianeAzar,20261125_084135,2026-11-25T08:00:38.464899+00:00
+8473d0c78a4caa01,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The derisive acronym ""PIIGS"" refers to which of the following European countries and their economic statuses?
+A. Portugal, Ireland, Italy, Greece, Spain
+B. Poland, Iceland, Italy, Greenland, Spain
+C. Poland, Iceland, Italy, Greece, Serbia
+D. Portugal, Iceland, Ireland, Greece, Serbia
+Answer:","[""Portugal, Ireland, Italy, Greece, Spain"", ""Poland, Iceland, Italy, Greenland, Spain"", ""Poland, Iceland, Italy, Greece, Serbia"", ""Portugal, Iceland, Ireland, Greece, Serbia""]",http,0.0,16,none,"{""id"":""chatcmpl-5r6kuioyswi9gosky7674i"",""object"":""chat.completion"",""created"":1795593637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":131,""completion_tokens"":2,""total_tokens"":133,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0077,,MarianeAzar,20261125_084135,2026-11-25T08:00:39.472833+00:00
+aa1822369f9c00d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following anime of the mecha genre began airing in 1982?
+A. Mobile Suit Gundam
+B. The Super Dimension Fortress Macross
+C. Armored Trooper VOTOMS
+D. Neon Genesis Evangelion
+Answer:","[""Mobile Suit Gundam"", ""The Super Dimension Fortress Macross"", ""Armored Trooper VOTOMS"", ""Neon Genesis Evangelion""]",http,0.0,16,none,"{""id"":""chatcmpl-3jvf7duh9892j6kjgawnew"",""object"":""chat.completion"",""created"":1795593638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9346,,MarianeAzar,20261125_084135,2026-11-25T08:00:40.407854+00:00
+aa1822369f9c00d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following anime of the mecha genre began airing in 1982?
+A. Mobile Suit Gundam
+B. The Super Dimension Fortress Macross
+C. Armored Trooper VOTOMS
+D. Neon Genesis Evangelion
+Answer:","[""Mobile Suit Gundam"", ""The Super Dimension Fortress Macross"", ""Armored Trooper VOTOMS"", ""Neon Genesis Evangelion""]",http,0.0,16,none,"{""id"":""chatcmpl-dmna9ycdhi6xmirkrfz9er"",""object"":""chat.completion"",""created"":1795593639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9748,,MarianeAzar,20261125_084135,2026-11-25T08:00:41.383025+00:00
+d5f5dd28d413ad75,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Japan has left-hand side traffic.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v6r2tmjhfwf4yx4cgnnw0m"",""object"":""chat.completion"",""created"":1795593640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T08:00:42.236154+00:00
+d5f5dd28d413ad75,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Japan has left-hand side traffic.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-29fkth9lrxl3msmtjhp8gh"",""object"":""chat.completion"",""created"":1795593641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8411,,MarianeAzar,20261125_084135,2026-11-25T08:00:43.077398+00:00
+e45f8498bb06a603,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the D stand for in D-pad, found on most video game controllers?
+A. Design
+B. Dial-up
+C. Directional
+D. Dynamic
+Answer:","[""Design"", ""Dial-up"", ""Directional"", ""Dynamic""]",http,0.0,16,none,"{""id"":""chatcmpl-iqx6nu78r4dzvyvdv6ec3"",""object"":""chat.completion"",""created"":1795593642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8743,,MarianeAzar,20261125_084135,2026-11-25T08:00:43.952731+00:00
+e45f8498bb06a603,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the D stand for in D-pad, found on most video game controllers?
+A. Design
+B. Dial-up
+C. Directional
+D. Dynamic
+Answer:","[""Design"", ""Dial-up"", ""Directional"", ""Dynamic""]",http,0.0,16,none,"{""id"":""chatcmpl-ymzjgs6wfc8s8745mq68m"",""object"":""chat.completion"",""created"":1795593643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9439,,MarianeAzar,20261125_084135,2026-11-25T08:00:44.896993+00:00
+8494621d739214b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to going solo in 1982, Lionel Richie was a member of which Motown group?
+A. The Temptations
+B. The Commodores
+C. The Supremes
+D. The Miracles
+Answer:","[""The Temptations"", ""The Commodores"", ""The Supremes"", ""The Miracles""]",http,0.0,16,none,"{""id"":""chatcmpl-fezswzky5cbb1duga4y3"",""object"":""chat.completion"",""created"":1795593644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9059,,MarianeAzar,20261125_084135,2026-11-25T08:00:45.803189+00:00
+8494621d739214b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to going solo in 1982, Lionel Richie was a member of which Motown group?
+A. The Temptations
+B. The Commodores
+C. The Supremes
+D. The Miracles
+Answer:","[""The Temptations"", ""The Commodores"", ""The Supremes"", ""The Miracles""]",http,0.0,16,none,"{""id"":""chatcmpl-22khfnw2us6mdk2vqiewyp"",""object"":""chat.completion"",""created"":1795593645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9155,,MarianeAzar,20261125_084135,2026-11-25T08:00:46.719031+00:00
+84d906f1fd83bad7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What breed of dog was Marley in the film ""Marley & Me"" (2008)?
+A. Shiba Inu
+B. Golden Retriever
+C. Dalmatian
+D. Labrador Retriever
+Answer:","[""Shiba Inu"", ""Golden Retriever"", ""Dalmatian"", ""Labrador Retriever""]",http,0.0,16,none,"{""id"":""chatcmpl-jjft9azc3g9kweaau1aa1"",""object"":""chat.completion"",""created"":1795593646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8933,,MarianeAzar,20261125_084135,2026-11-25T08:00:47.612630+00:00

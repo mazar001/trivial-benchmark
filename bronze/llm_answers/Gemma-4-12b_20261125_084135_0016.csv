@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b95eabfb4403bd11,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft Lore, four Old Gods created a giant and powerful creature. What was it called?
+A. Eater of Souls
+B. The Ancient One
+C. The Lich King
+D. Anomalous
+Answer:","[""Eater of Souls"", ""The Ancient One"", ""The Lich King"", ""Anomalous""]",http,0.0,16,none,"{""id"":""chatcmpl-kf0soa6op6d80ivr8c4wc2"",""object"":""chat.completion"",""created"":1795592840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8451,,MarianeAzar,20261125_084135,2026-11-25T07:47:21.952465+00:00
+b95eabfb4403bd11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft Lore, four Old Gods created a giant and powerful creature. What was it called?
+A. Eater of Souls
+B. The Ancient One
+C. The Lich King
+D. Anomalous
+Answer:","[""Eater of Souls"", ""The Ancient One"", ""The Lich King"", ""Anomalous""]",http,0.0,16,none,"{""id"":""chatcmpl-qckrry8udvrmbw9atoufqa"",""object"":""chat.completion"",""created"":1795592841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9471,,MarianeAzar,20261125_084135,2026-11-25T07:47:22.899769+00:00
+b07fb161f517f606,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these countries was NOT in the Central Powers during WWI?
+A. Spain
+B. Germany
+C. Austria-Hungary
+D. Turkey
+Answer:","[""Spain"", ""Germany"", ""Austria-Hungary"", ""Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-pmhsr24gm8c36j29cq8uun"",""object"":""chat.completion"",""created"":1795592842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.395,,MarianeAzar,20261125_084135,2026-11-25T07:47:24.295014+00:00
+b07fb161f517f606,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these countries was NOT in the Central Powers during WWI?
+A. Spain
+B. Germany
+C. Austria-Hungary
+D. Turkey
+Answer:","[""Spain"", ""Germany"", ""Austria-Hungary"", ""Turkey""]",http,0.0,16,none,"{""id"":""chatcmpl-mpnaku4xtf8fks1vkqdrrv"",""object"":""chat.completion"",""created"":1795592843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9524,,MarianeAzar,20261125_084135,2026-11-25T07:47:25.247593+00:00
+912acf5fbbea8513,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1939 movie ""The Wizard of Oz"" contained a horse that changed color, what material did they use to achieve this effect?
+A. CGI Effect
+B. Paint
+C. Dye
+D. Gelatin
+Answer:","[""CGI Effect"", ""Paint"", ""Dye"", ""Gelatin""]",http,0.0,16,none,"{""id"":""chatcmpl-kbge9hmm4jkntvbub3k978"",""object"":""chat.completion"",""created"":1795592844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8884,,MarianeAzar,20261125_084135,2026-11-25T07:47:26.136227+00:00
+912acf5fbbea8513,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1939 movie ""The Wizard of Oz"" contained a horse that changed color, what material did they use to achieve this effect?
+A. CGI Effect
+B. Paint
+C. Dye
+D. Gelatin
+Answer:","[""CGI Effect"", ""Paint"", ""Dye"", ""Gelatin""]",http,0.0,16,none,"{""id"":""chatcmpl-w6zpemaqckcpi40g4xfql"",""object"":""chat.completion"",""created"":1795592845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9074,,MarianeAzar,20261125_084135,2026-11-25T07:47:27.043862+00:00
+00d830b7590ad1e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The notion of a ""set that contains all sets which do not contain themselves"" is a paradoxical idea attributed to which English philosopher?
+A. John Locke
+B. Bertrand Russel
+C. Francis Bacon
+D. Alfred North Whitehead
+Answer:","[""John Locke"", ""Bertrand Russel"", ""Francis Bacon"", ""Alfred North Whitehead""]",http,0.0,16,none,"{""id"":""chatcmpl-pwwqfxu19jpgl4fbqjbg5l"",""object"":""chat.completion"",""created"":1795592846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261125_084135,2026-11-25T07:47:27.930236+00:00
+00d830b7590ad1e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The notion of a ""set that contains all sets which do not contain themselves"" is a paradoxical idea attributed to which English philosopher?
+A. John Locke
+B. Bertrand Russel
+C. Francis Bacon
+D. Alfred North Whitehead
+Answer:","[""John Locke"", ""Bertrand Russel"", ""Francis Bacon"", ""Alfred North Whitehead""]",http,0.0,16,none,"{""id"":""chatcmpl-kkra9fau1qb4j8draepccp"",""object"":""chat.completion"",""created"":1795592847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9122,,MarianeAzar,20261125_084135,2026-11-25T07:47:28.842717+00:00
+d06710b46d7dcba2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?
+A. Catania Cathedral
+B. The Duomo of Florence
+C. St. Mark’s Basilica
+D. St. Peter's Basilica
+Answer:","[""Catania Cathedral"", ""The Duomo of Florence"", ""St. Mark’s Basilica"", ""St. Peter's Basilica""]",http,0.0,16,none,"{""id"":""chatcmpl-o8kjvva0knf6zpnhewqm08"",""object"":""chat.completion"",""created"":1795592848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9121,,MarianeAzar,20261125_084135,2026-11-25T07:47:29.755242+00:00
+d06710b46d7dcba2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?
+A. Catania Cathedral
+B. The Duomo of Florence
+C. St. Mark’s Basilica
+D. St. Peter's Basilica
+Answer:","[""Catania Cathedral"", ""The Duomo of Florence"", ""St. Mark’s Basilica"", ""St. Peter's Basilica""]",http,0.0,16,none,"{""id"":""chatcmpl-8nb2km0mjjgc6cjf03dbco"",""object"":""chat.completion"",""created"":1795592849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9257,,MarianeAzar,20261125_084135,2026-11-25T07:47:30.681167+00:00
+9013336b291fd732,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Fallout: New Vegas add-on Lonesome Road, Ulysses wields a flag pole named The Liberator.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9t1noyyqxqpouiuvmrzsf"",""object"":""chat.completion"",""created"":1795592850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8376,,MarianeAzar,20261125_084135,2026-11-25T07:47:31.519228+00:00
+9013336b291fd732,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Fallout: New Vegas add-on Lonesome Road, Ulysses wields a flag pole named The Liberator.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-34f33qc66wr545fvq28aip"",""object"":""chat.completion"",""created"":1795592850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8321,,MarianeAzar,20261125_084135,2026-11-25T07:47:32.351538+00:00
+ad2dcca6713a19be,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the character you play as in Yume Nikki?
+A. Madotsuki
+B. Masada
+C. Poniko
+D. Uboa
+Answer:","[""Madotsuki"", ""Masada"", ""Poniko"", ""Uboa""]",http,0.0,16,none,"{""id"":""chatcmpl-p6vvirnf4lql2km0lv6pe"",""object"":""chat.completion"",""created"":1795592851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261125_084135,2026-11-25T07:47:33.218519+00:00
+ad2dcca6713a19be,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the character you play as in Yume Nikki?
+A. Madotsuki
+B. Masada
+C. Poniko
+D. Uboa
+Answer:","[""Madotsuki"", ""Masada"", ""Poniko"", ""Uboa""]",http,0.0,16,none,"{""id"":""chatcmpl-voknso05e3g62sr48ffdpj"",""object"":""chat.completion"",""created"":1795592852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8848,,MarianeAzar,20261125_084135,2026-11-25T07:47:34.103614+00:00
+ec3943880be48bbb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first interactive movie video game?
+A. Cube Quest
+B. Dragon's Lair
+C. M.A.C.H. 3
+D. Astron Belt
+Answer:","[""Cube Quest"", ""Dragon's Lair"", ""M.A.C.H. 3"", ""Astron Belt""]",http,0.0,16,none,"{""id"":""chatcmpl-qr0dr120btnwp4tcivfdu"",""object"":""chat.completion"",""created"":1795592853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8707,,MarianeAzar,20261125_084135,2026-11-25T07:47:34.974602+00:00
+ec3943880be48bbb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first interactive movie video game?
+A. Cube Quest
+B. Dragon's Lair
+C. M.A.C.H. 3
+D. Astron Belt
+Answer:","[""Cube Quest"", ""Dragon's Lair"", ""M.A.C.H. 3"", ""Astron Belt""]",http,0.0,16,none,"{""id"":""chatcmpl-omq7y8j039juuqipu9om8e"",""object"":""chat.completion"",""created"":1795592854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8777,,MarianeAzar,20261125_084135,2026-11-25T07:47:35.852613+00:00
+4cb5c708a54d5b5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released songs suchs as ""Rio"", ""Girls on Film"", and ""The Reflex""?
+A. New Order
+B. Duran Duran
+C. The Cure
+D. Depeche Mode
+Answer:","[""New Order"", ""Duran Duran"", ""The Cure"", ""Depeche Mode""]",http,0.0,16,none,"{""id"":""chatcmpl-s091q9s71jb4ltn4vh23t"",""object"":""chat.completion"",""created"":1795592855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8712,,MarianeAzar,20261125_084135,2026-11-25T07:47:36.724242+00:00
+4cb5c708a54d5b5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released songs suchs as ""Rio"", ""Girls on Film"", and ""The Reflex""?
+A. New Order
+B. Duran Duran
+C. The Cure
+D. Depeche Mode
+Answer:","[""New Order"", ""Duran Duran"", ""The Cure"", ""Depeche Mode""]",http,0.0,16,none,"{""id"":""chatcmpl-6va8en8evz7vtb5969aey"",""object"":""chat.completion"",""created"":1795592856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T07:47:37.601025+00:00
+cfc0e2d1be7caf0c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the device that allows for infinite energy in the anime ""Dimension W""?
+A. Tesla
+B. Coils
+C. Wires
+D. Collectors
+Answer:","[""Tesla"", ""Coils"", ""Wires"", ""Collectors""]",http,0.0,16,none,"{""id"":""chatcmpl-lok30qke8swq4clsyohf"",""object"":""chat.completion"",""created"":1795592857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8902,,MarianeAzar,20261125_084135,2026-11-25T07:47:38.491466+00:00
+cfc0e2d1be7caf0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the device that allows for infinite energy in the anime ""Dimension W""?
+A. Tesla
+B. Coils
+C. Wires
+D. Collectors
+Answer:","[""Tesla"", ""Coils"", ""Wires"", ""Collectors""]",http,0.0,16,none,"{""id"":""chatcmpl-s4h9ifcnb3evtj27oa1nna"",""object"":""chat.completion"",""created"":1795592857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261125_084135,2026-11-25T07:47:39.358264+00:00
+78be567ce2c32737,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Melancholy of Haruhi Suzumiya"" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.
+A. Time Traveler
+B. Esper
+C. God
+D. Alien
+Answer:","[""Time Traveler"", ""Esper"", ""God"", ""Alien""]",http,0.0,16,none,"{""id"":""chatcmpl-2u6ae1xj7tjoxz5gb9up"",""object"":""chat.completion"",""created"":1795592858,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T07:47:40.230094+00:00
+78be567ce2c32737,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""The Melancholy of Haruhi Suzumiya"" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.
+A. Time Traveler
+B. Esper
+C. God
+D. Alien
+Answer:","[""Time Traveler"", ""Esper"", ""God"", ""Alien""]",http,0.0,16,none,"{""id"":""chatcmpl-t4seizzeu6tlyf2mx0d1j"",""object"":""chat.completion"",""created"":1795592859,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9088,,MarianeAzar,20261125_084135,2026-11-25T07:47:41.139209+00:00
+40c3e4b02f757b08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Rage Against the Machine's debut album?
+A. The Battle Of Los Angeles
+B. Evil Empire
+C. Bombtrack
+D. Rage Against the Machine
+Answer:","[""The Battle Of Los Angeles"", ""Evil Empire"", ""Bombtrack"", ""Rage Against the Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-2cogl6v30tcz45qpcsipzl"",""object"":""chat.completion"",""created"":1795592860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261125_084135,2026-11-25T07:47:42.021257+00:00
+40c3e4b02f757b08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Rage Against the Machine's debut album?
+A. The Battle Of Los Angeles
+B. Evil Empire
+C. Bombtrack
+D. Rage Against the Machine
+Answer:","[""The Battle Of Los Angeles"", ""Evil Empire"", ""Bombtrack"", ""Rage Against the Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-zepnp572v3pfgmex21i5z"",""object"":""chat.completion"",""created"":1795592861,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T07:47:42.878161+00:00
+6be7dfe366f90f88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the infamous pachinko machine from ""Kaiji""?
+A. The Dragon
+B. The Undefeated
+C. The Devil
+D. The Bog
+Answer:","[""The Dragon"", ""The Undefeated"", ""The Devil"", ""The Bog""]",http,0.0,16,none,"{""id"":""chatcmpl-nvsrfxgtv3s5qglz4d6fp9"",""object"":""chat.completion"",""created"":1795592862,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T07:47:43.735913+00:00

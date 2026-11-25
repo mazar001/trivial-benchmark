@@ -1,0 +1,152 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8f536602f3ab85c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Greenland is a part of which kingdom?
+A. Denmark
+B. Norway
+C. Sweden
+D. United Kingdom
+Answer:","[""Denmark"", ""Norway"", ""Sweden"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-bgwn7qr7jis81p96dl593o"",""object"":""chat.completion"",""created"":1795554794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2482,,MarianeAzar,20261124_215144,2026-11-24T21:13:16.143307+00:00
+8f536602f3ab85c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Greenland is a part of which kingdom?
+A. Denmark
+B. Norway
+C. Sweden
+D. United Kingdom
+Answer:","[""Denmark"", ""Norway"", ""Sweden"", ""United Kingdom""]",http,0.0,16,none,"{""id"":""chatcmpl-ce02276uaw89tcjg4ep1sf"",""object"":""chat.completion"",""created"":1795554796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1444,,MarianeAzar,20261124_215144,2026-11-24T21:13:17.288082+00:00
+2d14af4467e0b806,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The end credits sequence in Grand Theft Auto 5 is over half an hour long.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pdubirrf9qemab3fyvfc9n"",""object"":""chat.completion"",""created"":1795554797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9089,,MarianeAzar,20261124_215144,2026-11-24T21:13:18.197179+00:00
+2d14af4467e0b806,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The end credits sequence in Grand Theft Auto 5 is over half an hour long.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-il9tyhv9pqgbtew15sjsf9"",""object"":""chat.completion"",""created"":1795554798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4209,,MarianeAzar,20261124_215144,2026-11-24T21:13:19.618229+00:00
+52e893921aa1d272,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Bangles' 'Manic Monday', what time is it already?
+A. Seven o'clock
+B. Six o'clock
+C. Five o'clock
+D. Four o'clock
+Answer:","[""Seven o'clock"", ""Six o'clock"", ""Five o'clock"", ""Four o'clock""]",http,0.0,16,none,"{""id"":""chatcmpl-03f0cvgd7u0d5f58xtd3twa"",""object"":""chat.completion"",""created"":1795554799,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0112,,MarianeAzar,20261124_215144,2026-11-24T21:13:20.629539+00:00
+52e893921aa1d272,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Bangles' 'Manic Monday', what time is it already?
+A. Seven o'clock
+B. Six o'clock
+C. Five o'clock
+D. Four o'clock
+Answer:","[""Seven o'clock"", ""Six o'clock"", ""Five o'clock"", ""Four o'clock""]",http,0.0,16,none,"{""id"":""chatcmpl-dcmo8t1x9kwt8p83t8wuv"",""object"":""chat.completion"",""created"":1795554800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9588,,MarianeAzar,20261124_215144,2026-11-24T21:13:21.588429+00:00
+2842e62d5b97129d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these video game series have NOT had a promotional item appear in Team Fortress 2?
+A. Half-Life
+B. Quake
+C. The Binding of Isaac
+D. Fallout
+Answer:","[""Half-Life"", ""Quake"", ""The Binding of Isaac"", ""Fallout""]",http,0.0,16,none,"{""id"":""chatcmpl-zeu84l7s9yf8j6zu0che2m"",""object"":""chat.completion"",""created"":1795554801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3793,,MarianeAzar,20261124_215144,2026-11-24T21:13:22.967799+00:00
+2842e62d5b97129d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these video game series have NOT had a promotional item appear in Team Fortress 2?
+A. Half-Life
+B. Quake
+C. The Binding of Isaac
+D. Fallout
+Answer:","[""Half-Life"", ""Quake"", ""The Binding of Isaac"", ""Fallout""]",http,0.0,16,none,"{""id"":""chatcmpl-61g2u07r0h64cavh78yv8t"",""object"":""chat.completion"",""created"":1795554802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0884,,MarianeAzar,20261124_215144,2026-11-24T21:13:24.056360+00:00
+310028b09aca8f07,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the prison in ""Half Life 2""?
+A. Nova Prospekt
+B. New Prospect
+C. Great Prospekt
+D. Lesser Prospekt
+Answer:","[""Nova Prospekt"", ""New Prospect"", ""Great Prospekt"", ""Lesser Prospekt""]",http,0.0,16,none,"{""id"":""chatcmpl-9n0qjctnr97ojqq1zy0aw"",""object"":""chat.completion"",""created"":1795554804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0114,,MarianeAzar,20261124_215144,2026-11-24T21:13:25.067861+00:00
+310028b09aca8f07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the prison in ""Half Life 2""?
+A. Nova Prospekt
+B. New Prospect
+C. Great Prospekt
+D. Lesser Prospekt
+Answer:","[""Nova Prospekt"", ""New Prospect"", ""Great Prospekt"", ""Lesser Prospekt""]",http,0.0,16,none,"{""id"":""chatcmpl-4g3aw9o1qb6g4ckn8l5q"",""object"":""chat.completion"",""created"":1795554804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2415,,MarianeAzar,20261124_215144,2026-11-24T21:13:26.309503+00:00
+29cdffa8a8ac022f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?
+A. The British Bulldogs
+B. The Dream Team
+C. Demolition
+D. The Bushwhackers
+Answer:","[""The British Bulldogs"", ""The Dream Team"", ""Demolition"", ""The Bushwhackers""]",http,0.0,16,none,"{""id"":""chatcmpl-uyo4r66yhiks2ntt81aq"",""object"":""chat.completion"",""created"":1795554806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3166,,MarianeAzar,20261124_215144,2026-11-24T21:13:27.626773+00:00
+29cdffa8a8ac022f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?
+A. The British Bulldogs
+B. The Dream Team
+C. Demolition
+D. The Bushwhackers
+Answer:","[""The British Bulldogs"", ""The Dream Team"", ""Demolition"", ""The Bushwhackers""]",http,0.0,16,none,"{""id"":""chatcmpl-f7niy5fou175rrs9uwkrf4"",""object"":""chat.completion"",""created"":1795554807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0466,,MarianeAzar,20261124_215144,2026-11-24T21:13:28.673588+00:00
+0c46788b4df8771f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Saxophone is a brass instrument.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2nmogbwdfzcp1ltt7ibahk"",""object"":""chat.completion"",""created"":1795554808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261124_215144,2026-11-24T21:13:29.559966+00:00
+0c46788b4df8771f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A Saxophone is a brass instrument.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ngdq9cik7hk1ruunkv8j"",""object"":""chat.completion"",""created"":1795554809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3262,,MarianeAzar,20261124_215144,2026-11-24T21:13:30.886348+00:00
+9198e3fb556caa0c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Panic! At the Disco's song ""Nothern Downpour"", which lyric follows 'I know the world's a broken bone'.
+A. ""So melt your headaches call it home""
+B. ""So sing your song until you're home""
+C. ""So let them know they're on their own""
+D. ""So start a fire in their cold stone""
+Answer:","[""\""So melt your headaches call it home\"""", ""\""So sing your song until you're home\"""", ""\""So let them know they're on their own\"""", ""\""So start a fire in their cold stone\""""]",http,0.0,16,none,"{""id"":""chatcmpl-i6ef35zk0afkwuz75v5pw"",""object"":""chat.completion"",""created"":1795554810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":132,""completion_tokens"":2,""total_tokens"":134,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0156,,MarianeAzar,20261124_215144,2026-11-24T21:13:31.902217+00:00
+9198e3fb556caa0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Panic! At the Disco's song ""Nothern Downpour"", which lyric follows 'I know the world's a broken bone'.
+A. ""So melt your headaches call it home""
+B. ""So sing your song until you're home""
+C. ""So let them know they're on their own""
+D. ""So start a fire in their cold stone""
+Answer:","[""\""So melt your headaches call it home\"""", ""\""So sing your song until you're home\"""", ""\""So let them know they're on their own\"""", ""\""So start a fire in their cold stone\""""]",http,0.0,16,none,"{""id"":""chatcmpl-fhtqabdvkj86es9ih2xepn"",""object"":""chat.completion"",""created"":1795554811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":146,""completion_tokens"":2,""total_tokens"":148,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1755,,MarianeAzar,20261124_215144,2026-11-24T21:13:33.078024+00:00
+356d0a66b1dd9443,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Toriko"", which of the following Heavenly Kings has an enhanced sense of Hearing?
+A. Coco
+B. Sunny
+C. Zebra
+D. Toriko
+Answer:","[""Coco"", ""Sunny"", ""Zebra"", ""Toriko""]",http,0.0,16,none,"{""id"":""chatcmpl-4pin279tqpywl2axccr4ah"",""object"":""chat.completion"",""created"":1795554812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.394,,MarianeAzar,20261124_215144,2026-11-24T21:13:34.472261+00:00
+356d0a66b1dd9443,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Toriko"", which of the following Heavenly Kings has an enhanced sense of Hearing?
+A. Coco
+B. Sunny
+C. Zebra
+D. Toriko
+Answer:","[""Coco"", ""Sunny"", ""Zebra"", ""Toriko""]",http,0.0,16,none,"{""id"":""chatcmpl-xff1pcnp29e53ca8blzovw"",""object"":""chat.completion"",""created"":1795554814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9536,,MarianeAzar,20261124_215144,2026-11-24T21:13:35.426079+00:00
+d4211ecb10da18c5,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Python programming language gets its name from the British comedy group ""Monty Python.""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fkiz2hdkndu1l1qfuorf7k"",""object"":""chat.completion"",""created"":1795554815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261124_215144,2026-11-24T21:13:36.309407+00:00
+d4211ecb10da18c5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Python programming language gets its name from the British comedy group ""Monty Python.""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k3q772k0s2hjoymtvb3uw"",""object"":""chat.completion"",""created"":1795554816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4916,,MarianeAzar,20261124_215144,2026-11-24T21:13:37.801154+00:00
+628eb91169c689b4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fq0knac8i9jjxz3dbrnpth"",""object"":""chat.completion"",""created"":1795554817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9873,,MarianeAzar,20261124_215144,2026-11-24T21:13:38.788639+00:00
+628eb91169c689b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tez0c665q1dej6ia7gjqe"",""object"":""chat.completion"",""created"":1795554818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.939,,MarianeAzar,20261124_215144,2026-11-24T21:13:39.727761+00:00
+6382f7000b2bea0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?
+A. Alexander the Great
+B. Hannibal
+C. Tiberius
+D. Garmanicus
+Answer:","[""Alexander the Great"", ""Hannibal"", ""Tiberius"", ""Garmanicus""]",http,0.0,16,none,"{""id"":""chatcmpl-32pyj42jot7yy816oe1bsa"",""object"":""chat.completion"",""created"":1795554819,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3658,,MarianeAzar,20261124_215144,2026-11-24T21:13:41.093767+00:00
+6382f7000b2bea0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?
+A. Alexander the Great
+B. Hannibal
+C. Tiberius
+D. Garmanicus
+Answer:","[""Alexander the Great"", ""Hannibal"", ""Tiberius"", ""Garmanicus""]",http,0.0,16,none,"{""id"":""chatcmpl-bpzg6bg97sr3sgeedkkgco"",""object"":""chat.completion"",""created"":1795554821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0473,,MarianeAzar,20261124_215144,2026-11-24T21:13:42.141271+00:00
+d4cdde8bfdef0491,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The General Motors EV1 was the first street-legal production electric vehicle.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-whmu0v7ocefk0u5k4nput"",""object"":""chat.completion"",""created"":1795554822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8932,,MarianeAzar,20261124_215144,2026-11-24T21:13:43.034591+00:00

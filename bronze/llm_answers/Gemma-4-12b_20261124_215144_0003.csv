@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+dc05f9e843bbce5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games has the most playable characters?
+A. Dragon Ball Z: Budokai Tenkaichi 3
+B. Timesplitters: Future Perfect
+C. Marvel Vs. Capcom 2
+D. Mortal Kombat: Armageddon
+Answer:","[""Dragon Ball Z: Budokai Tenkaichi 3"", ""Timesplitters: Future Perfect"", ""Marvel Vs. Capcom 2"", ""Mortal Kombat: Armageddon""]",http,0.0,16,none,"{""id"":""chatcmpl-hksf9vog5j9dcmon1ug9oc"",""object"":""chat.completion"",""created"":1795553590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.307,,MarianeAzar,20261124_215144,2026-11-24T20:53:12.343443+00:00
+3bc3db2c074829c3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?
+A. Andy Cole
+B. Ole Gunnar Solskjær
+C. David Beckham
+D. Dwight Yorke
+Answer:","[""Andy Cole"", ""Ole Gunnar Solskjær"", ""David Beckham"", ""Dwight Yorke""]",http,0.0,16,none,"{""id"":""chatcmpl-c1vqavwtcud9gqw1sqsv1a"",""object"":""chat.completion"",""created"":1795553592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3843,,MarianeAzar,20261124_215144,2026-11-24T20:53:13.728037+00:00
+3bc3db2c074829c3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?
+A. Andy Cole
+B. Ole Gunnar Solskjær
+C. David Beckham
+D. Dwight Yorke
+Answer:","[""Andy Cole"", ""Ole Gunnar Solskjær"", ""David Beckham"", ""Dwight Yorke""]",http,0.0,16,none,"{""id"":""chatcmpl-qnb7sbw1ra99x7da3mkvx"",""object"":""chat.completion"",""created"":1795553593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1781,,MarianeAzar,20261124_215144,2026-11-24T20:53:14.906405+00:00
+d72c6f968463a7d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the famous Papa John's last name?
+A. Schnatter
+B. Chowder
+C. ANDERSON
+D. Williams
+Answer:","[""Schnatter"", ""Chowder"", ""ANDERSON"", ""Williams""]",http,0.0,16,none,"{""id"":""chatcmpl-h9uuhisd894rzy2xv22mu"",""object"":""chat.completion"",""created"":1795553594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0838,,MarianeAzar,20261124_215144,2026-11-24T20:53:15.990509+00:00
+d72c6f968463a7d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the famous Papa John's last name?
+A. Schnatter
+B. Chowder
+C. ANDERSON
+D. Williams
+Answer:","[""Schnatter"", ""Chowder"", ""ANDERSON"", ""Williams""]",http,0.0,16,none,"{""id"":""chatcmpl-k0jkogov4yj260cn7noml"",""object"":""chat.completion"",""created"":1795553595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9654,,MarianeAzar,20261124_215144,2026-11-24T20:53:16.956199+00:00
+a729e766f3589f42,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Alps are a mountain range on which continent?
+A. North America
+B. Europe
+C. Asia
+D. Africa
+Answer:","[""North America"", ""Europe"", ""Asia"", ""Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-4n2qg9agrsftw97a66nljh"",""object"":""chat.completion"",""created"":1795553596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2263,,MarianeAzar,20261124_215144,2026-11-24T20:53:18.183336+00:00
+a729e766f3589f42,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Alps are a mountain range on which continent?
+A. North America
+B. Europe
+C. Asia
+D. Africa
+Answer:","[""North America"", ""Europe"", ""Asia"", ""Africa""]",http,0.0,16,none,"{""id"":""chatcmpl-egt9xe71qrgybkd400tru"",""object"":""chat.completion"",""created"":1795553598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3284,,MarianeAzar,20261124_215144,2026-11-24T20:53:19.512028+00:00
+738fb6cdc65082b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: To what political party did Abraham Lincoln belong when elected POTUS?
+A. Republican
+B. Democrat
+C. Independent
+D. Whig
+Answer:","[""Republican"", ""Democrat"", ""Independent"", ""Whig""]",http,0.0,16,none,"{""id"":""chatcmpl-kgy1tfcjkc9kpavx0wk5"",""object"":""chat.completion"",""created"":1795553599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0041,,MarianeAzar,20261124_215144,2026-11-24T20:53:20.516460+00:00
+738fb6cdc65082b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: To what political party did Abraham Lincoln belong when elected POTUS?
+A. Republican
+B. Democrat
+C. Independent
+D. Whig
+Answer:","[""Republican"", ""Democrat"", ""Independent"", ""Whig""]",http,0.0,16,none,"{""id"":""chatcmpl-og12g518sribnj4de41qs"",""object"":""chat.completion"",""created"":1795553600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9478,,MarianeAzar,20261124_215144,2026-11-24T20:53:21.464622+00:00
+64813fd1ab0ee7e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2014 movie ""The Raid 2: Berandal"" was mainly filmed in which Asian country?
+A. Indonesia
+B. Brunei
+C. Thailand
+D. Malaysia
+Answer:","[""Indonesia"", ""Brunei"", ""Thailand"", ""Malaysia""]",http,0.0,16,none,"{""id"":""chatcmpl-mwmmnepu2jed69urvv0t"",""object"":""chat.completion"",""created"":1795553601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3749,,MarianeAzar,20261124_215144,2026-11-24T20:53:22.839839+00:00
+64813fd1ab0ee7e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2014 movie ""The Raid 2: Berandal"" was mainly filmed in which Asian country?
+A. Indonesia
+B. Brunei
+C. Thailand
+D. Malaysia
+Answer:","[""Indonesia"", ""Brunei"", ""Thailand"", ""Malaysia""]",http,0.0,16,none,"{""id"":""chatcmpl-3jiokkobptf8ulb59qwjwm"",""object"":""chat.completion"",""created"":1795553602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9797,,MarianeAzar,20261124_215144,2026-11-24T20:53:23.819824+00:00
+b8dcee0ebc6ad162,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-uclzorhj7s5if3lgtb02w"",""object"":""chat.completion"",""created"":1795553603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0161,,MarianeAzar,20261124_215144,2026-11-24T20:53:24.836134+00:00
+b8dcee0ebc6ad162,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During Wimbledon, spectators in the grounds can buy the tennis balls that have been used in matches.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wptdyetsjyto9qibmi5k"",""object"":""chat.completion"",""created"":1795553604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4098,,MarianeAzar,20261124_215144,2026-11-24T20:53:26.246124+00:00
+141cafbab2b19efc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An Ankh is the Egyptian Hieroglyph for what?
+A. Hatred
+B. Love
+C. Poison
+D. Life
+Answer:","[""Hatred"", ""Love"", ""Poison"", ""Life""]",http,0.0,16,none,"{""id"":""chatcmpl-adtmptjdor5g0oojhry50k"",""object"":""chat.completion"",""created"":1795553606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9216,,MarianeAzar,20261124_215144,2026-11-24T20:53:27.167997+00:00
+141cafbab2b19efc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: An Ankh is the Egyptian Hieroglyph for what?
+A. Hatred
+B. Love
+C. Poison
+D. Life
+Answer:","[""Hatred"", ""Love"", ""Poison"", ""Life""]",http,0.0,16,none,"{""id"":""chatcmpl-rqdurjnlmwjzh17bz9qqls"",""object"":""chat.completion"",""created"":1795553607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2374,,MarianeAzar,20261124_215144,2026-11-24T20:53:28.405616+00:00
+d109cc90e014bc8a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By what name was the author Eric Blair better known?
+A. Ray Bradbury
+B. George Orwell
+C. Aldous Huxley
+D. Ernest Hemingway
+Answer:","[""Ray Bradbury"", ""George Orwell"", ""Aldous Huxley"", ""Ernest Hemingway""]",http,0.0,16,none,"{""id"":""chatcmpl-e54e5z6b5co073k375028bt"",""object"":""chat.completion"",""created"":1795553608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3246,,MarianeAzar,20261124_215144,2026-11-24T20:53:29.730816+00:00
+d109cc90e014bc8a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: By what name was the author Eric Blair better known?
+A. Ray Bradbury
+B. George Orwell
+C. Aldous Huxley
+D. Ernest Hemingway
+Answer:","[""Ray Bradbury"", ""George Orwell"", ""Aldous Huxley"", ""Ernest Hemingway""]",http,0.0,16,none,"{""id"":""chatcmpl-5ejxmy8jee8llpscx6m5oa"",""object"":""chat.completion"",""created"":1795553609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9406,,MarianeAzar,20261124_215144,2026-11-24T20:53:30.671850+00:00
+9f1450abda9187ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Left 4 Dead 2 released?
+A. June 30, 2010
+B. November 17, 2009
+C. November 30, 2009
+D. May 3, 2008
+Answer:","[""June 30, 2010"", ""November 17, 2009"", ""November 30, 2009"", ""May 3, 2008""]",http,0.0,16,none,"{""id"":""chatcmpl-c7ufpstt1kgxi72oiwrh9"",""object"":""chat.completion"",""created"":1795553610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2514,,MarianeAzar,20261124_215144,2026-11-24T20:53:31.923614+00:00
+9f1450abda9187ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Left 4 Dead 2 released?
+A. June 30, 2010
+B. November 17, 2009
+C. November 30, 2009
+D. May 3, 2008
+Answer:","[""June 30, 2010"", ""November 17, 2009"", ""November 30, 2009"", ""May 3, 2008""]",http,0.0,16,none,"{""id"":""chatcmpl-erfpja8hjon3x3rp21vlzc"",""object"":""chat.completion"",""created"":1795553611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2367,,MarianeAzar,20261124_215144,2026-11-24T20:53:33.160544+00:00
+79b4a263f6a9f11b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shrimp can swim backwards.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rkknkk2pcv4moenweocpf"",""object"":""chat.completion"",""created"":1795553613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":44,""completion_tokens"":2,""total_tokens"":46,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261124_215144,2026-11-24T20:53:34.026505+00:00
+79b4a263f6a9f11b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Shrimp can swim backwards.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zz6yok9a7bdthp9yafg2tn"",""object"":""chat.completion"",""created"":1795553614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4153,,MarianeAzar,20261124_215144,2026-11-24T20:53:35.442074+00:00
+b5dd3722d24977b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which language is NOT Indo-European?
+A. Latvian
+B. Hungarian
+C. Russian
+D. Greek
+Answer:","[""Latvian"", ""Hungarian"", ""Russian"", ""Greek""]",http,0.0,16,none,"{""id"":""chatcmpl-jvlpqtjqume6uhyov89s8"",""object"":""chat.completion"",""created"":1795553615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1175,,MarianeAzar,20261124_215144,2026-11-24T20:53:36.559983+00:00
+b5dd3722d24977b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which language is NOT Indo-European?
+A. Latvian
+B. Hungarian
+C. Russian
+D. Greek
+Answer:","[""Latvian"", ""Hungarian"", ""Russian"", ""Greek""]",http,0.0,16,none,"{""id"":""chatcmpl-jn8wohlja184y5irrxi11b"",""object"":""chat.completion"",""created"":1795553616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.004,,MarianeAzar,20261124_215144,2026-11-24T20:53:37.564209+00:00
+c3cd2698503f71ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full name of the footballer ""Cristiano Ronaldo""?
+A. Cristiano Ronaldo dos Santos Aveiro
+B. Cristiano Luis Armando Ronaldo
+C. Cristiano Armando Diego Ronaldo
+D. Cristiano Ronaldo los Santos Diego
+Answer:","[""Cristiano Ronaldo dos Santos Aveiro"", ""Cristiano Luis Armando Ronaldo"", ""Cristiano Armando Diego Ronaldo"", ""Cristiano Ronaldo los Santos Diego""]",http,0.0,16,none,"{""id"":""chatcmpl-cf6p1w6lc4s38z3o4zrjla"",""object"":""chat.completion"",""created"":1795553617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9493,,MarianeAzar,20261124_215144,2026-11-24T20:53:38.513737+00:00
+c3cd2698503f71ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full name of the footballer ""Cristiano Ronaldo""?
+A. Cristiano Ronaldo dos Santos Aveiro
+B. Cristiano Luis Armando Ronaldo
+C. Cristiano Armando Diego Ronaldo
+D. Cristiano Ronaldo los Santos Diego
+Answer:","[""Cristiano Ronaldo dos Santos Aveiro"", ""Cristiano Luis Armando Ronaldo"", ""Cristiano Armando Diego Ronaldo"", ""Cristiano Ronaldo los Santos Diego""]",http,0.0,16,none,"{""id"":""chatcmpl-tx3ahj932dgrj4xddcwyfb"",""object"":""chat.completion"",""created"":1795553618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4541,,MarianeAzar,20261124_215144,2026-11-24T20:53:39.968129+00:00

@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a4ab096332ad483c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kangaroos keep food in their pouches next to their children.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dnqrht5i4ch4fv33jb8szk"",""object"":""chat.completion"",""created"":1795593446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T07:57:28.044959+00:00
+a4ab096332ad483c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kangaroos keep food in their pouches next to their children.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sl0a2lcimw3nm1xx2lo9q"",""object"":""chat.completion"",""created"":1795593447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8176,,MarianeAzar,20261125_084135,2026-11-25T07:57:28.862750+00:00
+79577810e05ce12f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the Union Jack in its flag?
+A. Canada
+B. New Zealand
+C. South Africa
+D. Hong Kong
+Answer:","[""Canada"", ""New Zealand"", ""South Africa"", ""Hong Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-wqfczh4lbo8z7suznt0tvk"",""object"":""chat.completion"",""created"":1795593448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261125_084135,2026-11-25T07:57:29.743271+00:00
+79577810e05ce12f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country has the Union Jack in its flag?
+A. Canada
+B. New Zealand
+C. South Africa
+D. Hong Kong
+Answer:","[""Canada"", ""New Zealand"", ""South Africa"", ""Hong Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-wguyjoianji30lj4pbvb8"",""object"":""chat.completion"",""created"":1795593449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T07:57:30.594310+00:00
+2411b4a3159edb56,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What state is the largest state of the United States of America?
+A. California
+B. Washington
+C. Texas
+D. Alaska
+Answer:","[""California"", ""Washington"", ""Texas"", ""Alaska""]",http,0.0,16,none,"{""id"":""chatcmpl-o5grheh08o9cgu765coy17"",""object"":""chat.completion"",""created"":1795593450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T07:57:31.455652+00:00
+2411b4a3159edb56,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What state is the largest state of the United States of America?
+A. California
+B. Washington
+C. Texas
+D. Alaska
+Answer:","[""California"", ""Washington"", ""Texas"", ""Alaska""]",http,0.0,16,none,"{""id"":""chatcmpl-33112o1zvhurpxheqfoom"",""object"":""chat.completion"",""created"":1795593450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8663,,MarianeAzar,20261125_084135,2026-11-25T07:57:32.322174+00:00
+14f9389006365f1e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In golf, what name is given to a hole score of two under par?
+A. Eagle
+B. Bogey
+C. Birdie
+D. Albatross
+Answer:","[""Eagle"", ""Bogey"", ""Birdie"", ""Albatross""]",http,0.0,16,none,"{""id"":""chatcmpl-dqd5d6opcyyfpfrz64p3"",""object"":""chat.completion"",""created"":1795593451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.873,,MarianeAzar,20261125_084135,2026-11-25T07:57:33.195467+00:00
+14f9389006365f1e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In golf, what name is given to a hole score of two under par?
+A. Eagle
+B. Bogey
+C. Birdie
+D. Albatross
+Answer:","[""Eagle"", ""Bogey"", ""Birdie"", ""Albatross""]",http,0.0,16,none,"{""id"":""chatcmpl-rni2tftrd8v9solfahqra"",""object"":""chat.completion"",""created"":1795593452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T07:57:34.053920+00:00
+175c636a1decbdea,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Gmail first launched, how much storage did it provide for your email?
+A. Unlimited
+B. 5GB
+C. 512MB
+D. 1GB
+Answer:","[""Unlimited"", ""5GB"", ""512MB"", ""1GB""]",http,0.0,16,none,"{""id"":""chatcmpl-lyvyd9efr6lyi4xlyiv1wj"",""object"":""chat.completion"",""created"":1795593453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.938,,MarianeAzar,20261125_084135,2026-11-25T07:57:34.992208+00:00
+175c636a1decbdea,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Gmail first launched, how much storage did it provide for your email?
+A. Unlimited
+B. 5GB
+C. 512MB
+D. 1GB
+Answer:","[""Unlimited"", ""5GB"", ""512MB"", ""1GB""]",http,0.0,16,none,"{""id"":""chatcmpl-je0e0xf3n0dvpmvwutqee"",""object"":""chat.completion"",""created"":1795593454,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8687,,MarianeAzar,20261125_084135,2026-11-25T07:57:35.861188+00:00
+435689eaa404d96d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Human cells typically have how many copies of each gene?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-jx84yw4b8xqoktfbc6ik8"",""object"":""chat.completion"",""created"":1795593455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8753,,MarianeAzar,20261125_084135,2026-11-25T07:57:36.737108+00:00
+435689eaa404d96d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Human cells typically have how many copies of each gene?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-7a0y82wd8jbonr91zth8u"",""object"":""chat.completion"",""created"":1795593456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261125_084135,2026-11-25T07:57:37.600193+00:00
+0cff70aca3a23e61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the ""Siege of Leningrad"" lifted during World War II?
+A. January 1944
+B. March 1944
+C. September 1943
+D. November 1943
+Answer:","[""January 1944"", ""March 1944"", ""September 1943"", ""November 1943""]",http,0.0,16,none,"{""id"":""chatcmpl-g2c6se4v5afyq1tsx26gwo"",""object"":""chat.completion"",""created"":1795593457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.89,,MarianeAzar,20261125_084135,2026-11-25T07:57:38.490463+00:00
+0cff70aca3a23e61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the ""Siege of Leningrad"" lifted during World War II?
+A. January 1944
+B. March 1944
+C. September 1943
+D. November 1943
+Answer:","[""January 1944"", ""March 1944"", ""September 1943"", ""November 1943""]",http,0.0,16,none,"{""id"":""chatcmpl-5ioiy27n6p5m8qfx2tkcnn"",""object"":""chat.completion"",""created"":1795593457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9036,,MarianeAzar,20261125_084135,2026-11-25T07:57:39.394284+00:00
+c8b1e7624a4c7f18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is located the FURTHEST away from the South China Sea?
+A. Malaysia
+B. Bangladesh
+C. Vietnam
+D. Philippines
+Answer:","[""Malaysia"", ""Bangladesh"", ""Vietnam"", ""Philippines""]",http,0.0,16,none,"{""id"":""chatcmpl-rsnql89wugl5pssiha7pdw"",""object"":""chat.completion"",""created"":1795593458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8831,,MarianeAzar,20261125_084135,2026-11-25T07:57:40.277681+00:00
+c8b1e7624a4c7f18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is located the FURTHEST away from the South China Sea?
+A. Malaysia
+B. Bangladesh
+C. Vietnam
+D. Philippines
+Answer:","[""Malaysia"", ""Bangladesh"", ""Vietnam"", ""Philippines""]",http,0.0,16,none,"{""id"":""chatcmpl-b043c677t79k67wx2wzwdl"",""object"":""chat.completion"",""created"":1795593459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9054,,MarianeAzar,20261125_084135,2026-11-25T07:57:41.183529+00:00
+71812b1593ae494d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which psychological term refers to the stress of holding contrasting beliefs?
+A. Cognitive Dissonance
+B. Flip-Flop Syndrome
+C. Blind Sight
+D. Split-Brain
+Answer:","[""Cognitive Dissonance"", ""Flip-Flop Syndrome"", ""Blind Sight"", ""Split-Brain""]",http,0.0,16,none,"{""id"":""chatcmpl-8zeoxm86zy3s1b4tv7n75"",""object"":""chat.completion"",""created"":1795593460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9915,,MarianeAzar,20261125_084135,2026-11-25T07:57:42.175295+00:00
+71812b1593ae494d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which psychological term refers to the stress of holding contrasting beliefs?
+A. Cognitive Dissonance
+B. Flip-Flop Syndrome
+C. Blind Sight
+D. Split-Brain
+Answer:","[""Cognitive Dissonance"", ""Flip-Flop Syndrome"", ""Blind Sight"", ""Split-Brain""]",http,0.0,16,none,"{""id"":""chatcmpl-78pounsj5ie5m7bj5a106d"",""object"":""chat.completion"",""created"":1795593461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9081,,MarianeAzar,20261125_084135,2026-11-25T07:57:43.083605+00:00
+48e0b27c3a6c1d47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout 4, which type of power armor is first encountered in the early mission ""When Freedom Calls"" in a crashed Vertibird?
+A. T-60
+B. T-45
+C. X-01
+D. T-51
+Answer:","[""T-60"", ""T-45"", ""X-01"", ""T-51""]",http,0.0,16,none,"{""id"":""chatcmpl-1j2rqbsi4y4rd0pf2291m"",""object"":""chat.completion"",""created"":1795593462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.934,,MarianeAzar,20261125_084135,2026-11-25T07:57:44.017812+00:00
+48e0b27c3a6c1d47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout 4, which type of power armor is first encountered in the early mission ""When Freedom Calls"" in a crashed Vertibird?
+A. T-60
+B. T-45
+C. X-01
+D. T-51
+Answer:","[""T-60"", ""T-45"", ""X-01"", ""T-51""]",http,0.0,16,none,"{""id"":""chatcmpl-ui5j7r78tz6wn9vyarux8"",""object"":""chat.completion"",""created"":1795593463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9348,,MarianeAzar,20261125_084135,2026-11-25T07:57:44.952762+00:00
+458e2f5606d6331e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character Momonga from the ""Overlord"" series orders his servants to call him by what name?
+A. Master
+B. Yggdrasil
+C. Ainz Ooal Gown
+D. Kugane Maruyama
+Answer:","[""Master"", ""Yggdrasil"", ""Ainz Ooal Gown"", ""Kugane Maruyama""]",http,0.0,16,none,"{""id"":""chatcmpl-irq30dp10ielndq2urrwyb"",""object"":""chat.completion"",""created"":1795593464,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T07:57:45.865692+00:00
+458e2f5606d6331e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character Momonga from the ""Overlord"" series orders his servants to call him by what name?
+A. Master
+B. Yggdrasil
+C. Ainz Ooal Gown
+D. Kugane Maruyama
+Answer:","[""Master"", ""Yggdrasil"", ""Ainz Ooal Gown"", ""Kugane Maruyama""]",http,0.0,16,none,"{""id"":""chatcmpl-si20s6f5wkbvkt21kph6e"",""object"":""chat.completion"",""created"":1795593465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9907,,MarianeAzar,20261125_084135,2026-11-25T07:57:46.856587+00:00
+443524e32c3e9772,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2015, David Hasselhof released a single called...
+A. True Survivor
+B. True Fighter
+C. Real Kung-Fury
+D. Real Warrior
+Answer:","[""True Survivor"", ""True Fighter"", ""Real Kung-Fury"", ""Real Warrior""]",http,0.0,16,none,"{""id"":""chatcmpl-p47lfhixjbpita1yt8shun"",""object"":""chat.completion"",""created"":1795593466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9965,,MarianeAzar,20261125_084135,2026-11-25T07:57:47.853330+00:00
+443524e32c3e9772,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2015, David Hasselhof released a single called...
+A. True Survivor
+B. True Fighter
+C. Real Kung-Fury
+D. Real Warrior
+Answer:","[""True Survivor"", ""True Fighter"", ""Real Kung-Fury"", ""Real Warrior""]",http,0.0,16,none,"{""id"":""chatcmpl-hy0z68b2fduxpqqs1z0eo"",""object"":""chat.completion"",""created"":1795593467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261125_084135,2026-11-25T07:57:48.736956+00:00
+228af0f6037335cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime ""Gintama"" which accessory/article of clothing is the character Shinpachi commonly referred to as?
+A. T-Shirt
+B. Underwear
+C. Nose Ring
+D. Glasses
+Answer:","[""T-Shirt"", ""Underwear"", ""Nose Ring"", ""Glasses""]",http,0.0,16,none,"{""id"":""chatcmpl-4fuqkpiq6iagxm2smwimuk"",""object"":""chat.completion"",""created"":1795593468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T07:57:49.590682+00:00

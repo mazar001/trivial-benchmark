@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+87af35e75d007eb5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were the Chilled Monkey Brains made from during Indiana Jones and the Temple of Doom?
+A. Custard and Raspberry Sauce
+B. Cherry Yogurt
+C. Raspberry Sorbet
+D. Strawberry Ice Cream
+Answer:","[""Custard and Raspberry Sauce"", ""Cherry Yogurt"", ""Raspberry Sorbet"", ""Strawberry Ice Cream""]",http,0.0,16,none,"{""id"":""chatcmpl-e0d84faxcnoxnuz23pmwy9"",""object"":""chat.completion"",""created"":1795593557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9095,,MarianeAzar,20261125_084135,2026-11-25T07:59:19.385698+00:00
+4c47ab2949ae2785,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official German name of the Swiss Federal Railways?
+A. Schweizerische Staatsbahnen
+B. Schweizerische Nationalbahnen
+C. Schweizerische Bundesbahnen
+D. Bundesbahnen der Schweiz
+Answer:","[""Schweizerische Staatsbahnen"", ""Schweizerische Nationalbahnen"", ""Schweizerische Bundesbahnen"", ""Bundesbahnen der Schweiz""]",http,0.0,16,none,"{""id"":""chatcmpl-s0n3f3g5h9evmgzhrhvb2"",""object"":""chat.completion"",""created"":1795593558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9319,,MarianeAzar,20261125_084135,2026-11-25T07:59:20.317928+00:00
+4c47ab2949ae2785,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official German name of the Swiss Federal Railways?
+A. Schweizerische Staatsbahnen
+B. Schweizerische Nationalbahnen
+C. Schweizerische Bundesbahnen
+D. Bundesbahnen der Schweiz
+Answer:","[""Schweizerische Staatsbahnen"", ""Schweizerische Nationalbahnen"", ""Schweizerische Bundesbahnen"", ""Bundesbahnen der Schweiz""]",http,0.0,16,none,"{""id"":""chatcmpl-ul7k2gtpsemc3vbfu394e"",""object"":""chat.completion"",""created"":1795593559,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8927,,MarianeAzar,20261125_084135,2026-11-25T07:59:21.211059+00:00
+b017dd9c33201433,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical has won the most Tony awards?
+A. The Producers
+B. Hamilton
+C. Phantom of the Opera
+D. Chicago
+Answer:","[""The Producers"", ""Hamilton"", ""Phantom of the Opera"", ""Chicago""]",http,0.0,16,none,"{""id"":""chatcmpl-cxq0kyv4zne3pydzay405q"",""object"":""chat.completion"",""created"":1795593560,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9326,,MarianeAzar,20261125_084135,2026-11-25T07:59:22.143988+00:00
+b017dd9c33201433,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which musical has won the most Tony awards?
+A. The Producers
+B. Hamilton
+C. Phantom of the Opera
+D. Chicago
+Answer:","[""The Producers"", ""Hamilton"", ""Phantom of the Opera"", ""Chicago""]",http,0.0,16,none,"{""id"":""chatcmpl-iwl36rbg5utm6kxim3ggc"",""object"":""chat.completion"",""created"":1795593561,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T07:59:23.043739+00:00
+059124d2080bc250,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of genre is the controversial 2015 game ""Hatred""?
+A. Simulation
+B. Point & Click
+C. Shoot 'Em Up
+D. MMORPG
+Answer:","[""Simulation"", ""Point & Click"", ""Shoot 'Em Up"", ""MMORPG""]",http,0.0,16,none,"{""id"":""chatcmpl-b6ac97ztwyrkuu0itacaze"",""object"":""chat.completion"",""created"":1795593562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8685,,MarianeAzar,20261125_084135,2026-11-25T07:59:23.912592+00:00
+059124d2080bc250,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What type of genre is the controversial 2015 game ""Hatred""?
+A. Simulation
+B. Point & Click
+C. Shoot 'Em Up
+D. MMORPG
+Answer:","[""Simulation"", ""Point & Click"", ""Shoot 'Em Up"", ""MMORPG""]",http,0.0,16,none,"{""id"":""chatcmpl-on9s1h8oswgbimnrbwx9la"",""object"":""chat.completion"",""created"":1795593563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T07:59:24.809490+00:00
+49c661902c13dfac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the tallest twin buildings in the world, with a height of 1,483 ft (451.9 m)?
+A. Emirates Towers, United Arab Emirates
+B. Petronas Twin Towers, Malaysia
+C. Huaguoyuan Towers, China
+D. Palm Towers, Qatar
+Answer:","[""Emirates Towers, United Arab Emirates"", ""Petronas Twin Towers, Malaysia"", ""Huaguoyuan Towers, China"", ""Palm Towers, Qatar""]",http,0.0,16,none,"{""id"":""chatcmpl-9a1y8utlqzpgj0wn7d476s"",""object"":""chat.completion"",""created"":1795593564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9167,,MarianeAzar,20261125_084135,2026-11-25T07:59:25.726597+00:00
+49c661902c13dfac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the tallest twin buildings in the world, with a height of 1,483 ft (451.9 m)?
+A. Emirates Towers, United Arab Emirates
+B. Petronas Twin Towers, Malaysia
+C. Huaguoyuan Towers, China
+D. Palm Towers, Qatar
+Answer:","[""Emirates Towers, United Arab Emirates"", ""Petronas Twin Towers, Malaysia"", ""Huaguoyuan Towers, China"", ""Palm Towers, Qatar""]",http,0.0,16,none,"{""id"":""chatcmpl-rysxgo1aq4evv0ga8zrl3f"",""object"":""chat.completion"",""created"":1795593565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9199,,MarianeAzar,20261125_084135,2026-11-25T07:59:26.646720+00:00
+f329ddb2235cd8ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Astraphobia is the irrational fear of what?
+A. Wind
+B. Thunder
+C. Snow
+D. Rain
+Answer:","[""Wind"", ""Thunder"", ""Snow"", ""Rain""]",http,0.0,16,none,"{""id"":""chatcmpl-vz2zxcx325763ahzgw3da"",""object"":""chat.completion"",""created"":1795593566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261125_084135,2026-11-25T07:59:27.535309+00:00
+f329ddb2235cd8ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Astraphobia is the irrational fear of what?
+A. Wind
+B. Thunder
+C. Snow
+D. Rain
+Answer:","[""Wind"", ""Thunder"", ""Snow"", ""Rain""]",http,0.0,16,none,"{""id"":""chatcmpl-h9o31mjc0p5f3iqb1imbbb"",""object"":""chat.completion"",""created"":1795593566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T07:59:28.388953+00:00
+b8875266f0722a00,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?
+A. A Feast for Crows
+B. A Storm of Swords
+C. A Clash of Kings
+D. A Dance with Dragons
+Answer:","[""A Feast for Crows"", ""A Storm of Swords"", ""A Clash of Kings"", ""A Dance with Dragons""]",http,0.0,16,none,"{""id"":""chatcmpl-shhwyxbc9s4c8pxl52wix"",""object"":""chat.completion"",""created"":1795593567,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T07:59:29.247614+00:00
+b8875266f0722a00,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the second book in George R. R. Martin's 'A Song of Ice and Fire' series?
+A. A Feast for Crows
+B. A Storm of Swords
+C. A Clash of Kings
+D. A Dance with Dragons
+Answer:","[""A Feast for Crows"", ""A Storm of Swords"", ""A Clash of Kings"", ""A Dance with Dragons""]",http,0.0,16,none,"{""id"":""chatcmpl-v2z1tuvh8cm98k9wpuifsk"",""object"":""chat.completion"",""created"":1795593568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9261,,MarianeAzar,20261125_084135,2026-11-25T07:59:30.173876+00:00
+0b93977ce3a59e3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Kingdom Heart series who provides the english voice for Master Eraqus?
+A. Haley Joel Osment
+B. Mark Hamill
+C. Jason Dohring
+D. Jesse McCartney
+Answer:","[""Haley Joel Osment"", ""Mark Hamill"", ""Jason Dohring"", ""Jesse McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-60g54q7fu2lhnseyw3akxt"",""object"":""chat.completion"",""created"":1795593569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8893,,MarianeAzar,20261125_084135,2026-11-25T07:59:31.063339+00:00
+0b93977ce3a59e3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Kingdom Heart series who provides the english voice for Master Eraqus?
+A. Haley Joel Osment
+B. Mark Hamill
+C. Jason Dohring
+D. Jesse McCartney
+Answer:","[""Haley Joel Osment"", ""Mark Hamill"", ""Jason Dohring"", ""Jesse McCartney""]",http,0.0,16,none,"{""id"":""chatcmpl-1ifrg2m2qhc9psv5kaqi5"",""object"":""chat.completion"",""created"":1795593570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T07:59:31.963139+00:00
+454fec333d6dde64,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the race of Invincible's father?
+A. Viltrumite
+B. Kryptonian
+C. Kree
+D. Irken
+Answer:","[""Viltrumite"", ""Kryptonian"", ""Kree"", ""Irken""]",http,0.0,16,none,"{""id"":""chatcmpl-wua3i3ql0smv7ljon1o8c"",""object"":""chat.completion"",""created"":1795593571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8836,,MarianeAzar,20261125_084135,2026-11-25T07:59:32.847165+00:00
+454fec333d6dde64,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the race of Invincible's father?
+A. Viltrumite
+B. Kryptonian
+C. Kree
+D. Irken
+Answer:","[""Viltrumite"", ""Kryptonian"", ""Kree"", ""Irken""]",http,0.0,16,none,"{""id"":""chatcmpl-u7itfu4tdj0qs7k7va39m"",""object"":""chat.completion"",""created"":1795593572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.884,,MarianeAzar,20261125_084135,2026-11-25T07:59:33.731497+00:00
+f5655a0b7f708e11,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Half-Life 2, if you play the zombies' speech in reverse, they actually speak coherent English.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9v6aopbrz8f20cqf6m1u4b"",""object"":""chat.completion"",""created"":1795593573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T07:59:34.585107+00:00
+f5655a0b7f708e11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Half-Life 2, if you play the zombies' speech in reverse, they actually speak coherent English.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0lg57m3fhxzod3vmgliu6o"",""object"":""chat.completion"",""created"":1795593574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261125_084135,2026-11-25T07:59:35.441328+00:00
+ddfc43da5f58a0f6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Salvador Dali's painting, ""The Persistence of Memory,"" completed?
+A. 1934
+B. 1931
+C. 1932
+D. 1929
+Answer:","[""1934"", ""1931"", ""1932"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-4q4c6davll3y9f482z2lll"",""object"":""chat.completion"",""created"":1795593574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T07:59:36.301851+00:00
+ddfc43da5f58a0f6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Salvador Dali's painting, ""The Persistence of Memory,"" completed?
+A. 1934
+B. 1931
+C. 1932
+D. 1929
+Answer:","[""1934"", ""1931"", ""1932"", ""1929""]",http,0.0,16,none,"{""id"":""chatcmpl-bb61gxu9gogy7yaud08rrc"",""object"":""chat.completion"",""created"":1795593575,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9463,,MarianeAzar,20261125_084135,2026-11-25T07:59:37.248453+00:00
+faa0d5ca91078fd0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Queen song `A Kind Of Magic` is featured in which 1986 film?
+A. Howard the Duck
+B. Flash Gordon
+C. Highlander
+D. Labyrinth
+Answer:","[""Howard the Duck"", ""Flash Gordon"", ""Highlander"", ""Labyrinth""]",http,0.0,16,none,"{""id"":""chatcmpl-8fmpy1iyyj3yhoz2f9do38"",""object"":""chat.completion"",""created"":1795593576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9084,,MarianeAzar,20261125_084135,2026-11-25T07:59:38.157165+00:00
+faa0d5ca91078fd0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Queen song `A Kind Of Magic` is featured in which 1986 film?
+A. Howard the Duck
+B. Flash Gordon
+C. Highlander
+D. Labyrinth
+Answer:","[""Howard the Duck"", ""Flash Gordon"", ""Highlander"", ""Labyrinth""]",http,0.0,16,none,"{""id"":""chatcmpl-86l16yf1664kdp9lgmxfd"",""object"":""chat.completion"",""created"":1795593577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9132,,MarianeAzar,20261125_084135,2026-11-25T07:59:39.070567+00:00
+37aa430d17e1cd7a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All planets in the Solar System orbit the Sun.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zb6cw2pfvah6k6ak67gto"",""object"":""chat.completion"",""created"":1795593578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8306,,MarianeAzar,20261125_084135,2026-11-25T07:59:39.901265+00:00
+37aa430d17e1cd7a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All planets in the Solar System orbit the Sun.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zubtlxym37zrdiae2r17"",""object"":""chat.completion"",""created"":1795593579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9087,,MarianeAzar,20261125_084135,2026-11-25T07:59:40.810039+00:00

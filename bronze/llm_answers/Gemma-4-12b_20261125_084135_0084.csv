@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+dbde411b727034fd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was George Bizet's last opera?
+A. Carmen
+B. Grisélidis
+C. Don Rodrigue
+D. Les pêcheurs de perles
+Answer:","[""Carmen"", ""Grisélidis"", ""Don Rodrigue"", ""Les pêcheurs de perles""]",http,0.0,16,none,"{""id"":""chatcmpl-w8npk08um358ys4y2dkjw"",""object"":""chat.completion"",""created"":1795594438,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0118,,MarianeAzar,20261125_084135,2026-11-25T08:13:59.686020+00:00
+dbde411b727034fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was George Bizet's last opera?
+A. Carmen
+B. Grisélidis
+C. Don Rodrigue
+D. Les pêcheurs de perles
+Answer:","[""Carmen"", ""Grisélidis"", ""Don Rodrigue"", ""Les pêcheurs de perles""]",http,0.0,16,none,"{""id"":""chatcmpl-wg2hmokomg5dvm6d0rcn"",""object"":""chat.completion"",""created"":1795594439,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.952,,MarianeAzar,20261125_084135,2026-11-25T08:14:00.638321+00:00
+6c7f3b90b6d94cd4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did L. L. Zamenhof first publish ""Unua Libro"", the first publication describing his international language Esperanto?
+A. 1915
+B. 1905
+C. 1897
+D. 1887
+Answer:","[""1915"", ""1905"", ""1897"", ""1887""]",http,0.0,16,none,"{""id"":""chatcmpl-6fhkgsf73dqrajhz3bixrj"",""object"":""chat.completion"",""created"":1795594440,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.41,,MarianeAzar,20261125_084135,2026-11-25T08:14:02.048612+00:00
+6c7f3b90b6d94cd4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did L. L. Zamenhof first publish ""Unua Libro"", the first publication describing his international language Esperanto?
+A. 1915
+B. 1905
+C. 1897
+D. 1887
+Answer:","[""1915"", ""1905"", ""1897"", ""1887""]",http,0.0,16,none,"{""id"":""chatcmpl-vujjjmekdy4j6ibquv5cf"",""object"":""chat.completion"",""created"":1795594441,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9917,,MarianeAzar,20261125_084135,2026-11-25T08:14:03.040570+00:00
+005833a7634cef07,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these was an official candidate in the 2017 British General Election?
+A. Robert Wimbledon
+B. James Francis
+C. Sir Crumpetsby
+D. Lord Buckethead
+Answer:","[""Robert Wimbledon"", ""James Francis"", ""Sir Crumpetsby"", ""Lord Buckethead""]",http,0.0,16,none,"{""id"":""chatcmpl-t5ytks3uqmu50gu76s82h"",""object"":""chat.completion"",""created"":1795594442,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9527,,MarianeAzar,20261125_084135,2026-11-25T08:14:03.993451+00:00
+005833a7634cef07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these was an official candidate in the 2017 British General Election?
+A. Robert Wimbledon
+B. James Francis
+C. Sir Crumpetsby
+D. Lord Buckethead
+Answer:","[""Robert Wimbledon"", ""James Francis"", ""Sir Crumpetsby"", ""Lord Buckethead""]",http,0.0,16,none,"{""id"":""chatcmpl-2288sesjzcjta2brqnr3uh"",""object"":""chat.completion"",""created"":1795594443,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3217,,MarianeAzar,20261125_084135,2026-11-25T08:14:05.315358+00:00
+a2efdaa5d7f63222,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the Nintendo Entertainment System voice channels supports playback of sound samples. Which one?
+A. Noise
+B. DMC
+C. Triangle
+D. Square
+Answer:","[""Noise"", ""DMC"", ""Triangle"", ""Square""]",http,0.0,16,none,"{""id"":""chatcmpl-5emm360kri4rsna442i9bf"",""object"":""chat.completion"",""created"":1795594444,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9296,,MarianeAzar,20261125_084135,2026-11-25T08:14:06.245151+00:00
+a2efdaa5d7f63222,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: One of the Nintendo Entertainment System voice channels supports playback of sound samples. Which one?
+A. Noise
+B. DMC
+C. Triangle
+D. Square
+Answer:","[""Noise"", ""DMC"", ""Triangle"", ""Square""]",http,0.0,16,none,"{""id"":""chatcmpl-eqxozqtw9wt9af47ukcd15"",""object"":""chat.completion"",""created"":1795594445,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3311,,MarianeAzar,20261125_084135,2026-11-25T08:14:07.576477+00:00
+04723db83313ce21,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT DLC for the video game called ""Tabletop Simulator""?
+A. Superfight
+B. Three Kingdoms Redux
+C. Mr. Game!
+D. The Binding of Isaac: Four Souls
+Answer:","[""Superfight"", ""Three Kingdoms Redux"", ""Mr. Game!"", ""The Binding of Isaac: Four Souls""]",http,0.0,16,none,"{""id"":""chatcmpl-wk3rkpa44cpqqrxc8rgvzg"",""object"":""chat.completion"",""created"":1795594447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2697,,MarianeAzar,20261125_084135,2026-11-25T08:14:08.846443+00:00
+04723db83313ce21,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT DLC for the video game called ""Tabletop Simulator""?
+A. Superfight
+B. Three Kingdoms Redux
+C. Mr. Game!
+D. The Binding of Isaac: Four Souls
+Answer:","[""Superfight"", ""Three Kingdoms Redux"", ""Mr. Game!"", ""The Binding of Isaac: Four Souls""]",http,0.0,16,none,"{""id"":""chatcmpl-417xiyfv3hsi0qtpsatn6"",""object"":""chat.completion"",""created"":1795594448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9657,,MarianeAzar,20261125_084135,2026-11-25T08:14:09.812444+00:00
+8772a657379bb9a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Apollo mission was the last one in NASA's Apollo program?
+A. Apollo 13
+B. Apollo 11
+C. Apollo 17
+D. Apollo 15
+Answer:","[""Apollo 13"", ""Apollo 11"", ""Apollo 17"", ""Apollo 15""]",http,0.0,16,none,"{""id"":""chatcmpl-xu0saushy2zmeh8g05dpi"",""object"":""chat.completion"",""created"":1795594449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2385,,MarianeAzar,20261125_084135,2026-11-25T08:14:11.051768+00:00
+8772a657379bb9a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Apollo mission was the last one in NASA's Apollo program?
+A. Apollo 13
+B. Apollo 11
+C. Apollo 17
+D. Apollo 15
+Answer:","[""Apollo 13"", ""Apollo 11"", ""Apollo 17"", ""Apollo 15""]",http,0.0,16,none,"{""id"":""chatcmpl-eowlywaprqki0bbe1xope"",""object"":""chat.completion"",""created"":1795594450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2818,,MarianeAzar,20261125_084135,2026-11-25T08:14:12.333767+00:00
+ae13c0477488df45,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Amazon acquired Twitch in August 2014 for $970 million dollars.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vqwm0x4ro2fegtkwlgw85g"",""object"":""chat.completion"",""created"":1795594451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.882,,MarianeAzar,20261125_084135,2026-11-25T08:14:13.215864+00:00
+ae13c0477488df45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Amazon acquired Twitch in August 2014 for $970 million dollars.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-370cfcrl12rpu1cm9g0iz"",""object"":""chat.completion"",""created"":1795594452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2146,,MarianeAzar,20261125_084135,2026-11-25T08:14:14.430632+00:00
+b635e8457d640f35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the First World War begin?
+A. 1939
+B. 1917
+C. 1914
+D. 1930
+Answer:","[""1939"", ""1917"", ""1914"", ""1930""]",http,0.0,16,none,"{""id"":""chatcmpl-dbpkgq1csbdz5f40etl4h"",""object"":""chat.completion"",""created"":1795594453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3171,,MarianeAzar,20261125_084135,2026-11-25T08:14:15.748209+00:00
+b635e8457d640f35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the First World War begin?
+A. 1939
+B. 1917
+C. 1914
+D. 1930
+Answer:","[""1939"", ""1917"", ""1914"", ""1930""]",http,0.0,16,none,"{""id"":""chatcmpl-43f0fg1ycqpl799rion1l"",""object"":""chat.completion"",""created"":1795594455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9649,,MarianeAzar,20261125_084135,2026-11-25T08:14:16.713469+00:00
+44376a713b60cfde,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which month is Black History Month in the US?
+A. May
+B. August
+C. February
+D. November
+Answer:","[""May"", ""August"", ""February"", ""November""]",http,0.0,16,none,"{""id"":""chatcmpl-57ouhl9s7tdl6d803wjbhc"",""object"":""chat.completion"",""created"":1795594456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9418,,MarianeAzar,20261125_084135,2026-11-25T08:14:17.655660+00:00
+44376a713b60cfde,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which month is Black History Month in the US?
+A. May
+B. August
+C. February
+D. November
+Answer:","[""May"", ""August"", ""February"", ""November""]",http,0.0,16,none,"{""id"":""chatcmpl-j9j8erdimenht29qumxan8"",""object"":""chat.completion"",""created"":1795594457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3581,,MarianeAzar,20261125_084135,2026-11-25T08:14:19.014088+00:00
+fab808b9755589da,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after?
+A. Puma
+B. Panther
+C. Leopard
+D. Tiger
+Answer:","[""Puma"", ""Panther"", ""Leopard"", ""Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-8rpzgeoy9njeipqaq8ayr6"",""object"":""chat.completion"",""created"":1795594458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0055,,MarianeAzar,20261125_084135,2026-11-25T08:14:20.019894+00:00
+fab808b9755589da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Macintosh has named six of its operating systems after big cats. What big cat did Macintosh name their 2007 release after?
+A. Puma
+B. Panther
+C. Leopard
+D. Tiger
+Answer:","[""Puma"", ""Panther"", ""Leopard"", ""Tiger""]",http,0.0,16,none,"{""id"":""chatcmpl-c982czmt2q8ubnnvyapa1m"",""object"":""chat.completion"",""created"":1795594459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9745,,MarianeAzar,20261125_084135,2026-11-25T08:14:20.994599+00:00
+75cf387691d8a8ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What superhero has been played in film by actors Michael Keaton, Val Kilmer, George Clooney and Christian Bale?
+A. Spiderman
+B. Superman
+C. Batman
+D. Iron Man
+Answer:","[""Spiderman"", ""Superman"", ""Batman"", ""Iron Man""]",http,0.0,16,none,"{""id"":""chatcmpl-brh51k9xnxj6uievcxkm4"",""object"":""chat.completion"",""created"":1795594460,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2743,,MarianeAzar,20261125_084135,2026-11-25T08:14:22.269684+00:00
+75cf387691d8a8ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What superhero has been played in film by actors Michael Keaton, Val Kilmer, George Clooney and Christian Bale?
+A. Spiderman
+B. Superman
+C. Batman
+D. Iron Man
+Answer:","[""Spiderman"", ""Superman"", ""Batman"", ""Iron Man""]",http,0.0,16,none,"{""id"":""chatcmpl-lgf6gtg3tw9kfqpp74itzl"",""object"":""chat.completion"",""created"":1795594461,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9126,,MarianeAzar,20261125_084135,2026-11-25T08:14:23.182420+00:00
+6a556365341e970f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many times did Martina Navratilova win the Wimbledon Singles Championship?
+A. Nine
+B. Ten
+C. Seven
+D. Eight
+Answer:","[""Nine"", ""Ten"", ""Seven"", ""Eight""]",http,0.0,16,none,"{""id"":""chatcmpl-rfpcba5kdtcxkhemehgj3"",""object"":""chat.completion"",""created"":1795594462,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.236,,MarianeAzar,20261125_084135,2026-11-25T08:14:24.418608+00:00
+6a556365341e970f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many times did Martina Navratilova win the Wimbledon Singles Championship?
+A. Nine
+B. Ten
+C. Seven
+D. Eight
+Answer:","[""Nine"", ""Ten"", ""Seven"", ""Eight""]",http,0.0,16,none,"{""id"":""chatcmpl-mudwu788wpwzhra1fzv4b"",""object"":""chat.completion"",""created"":1795594463,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.336,,MarianeAzar,20261125_084135,2026-11-25T08:14:25.754997+00:00
+87e22531ca5fd19b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?
+A. July 20, 2015
+B. October 21, 2015
+C. August 28, 2015
+D. January 25, 2015
+Answer:","[""July 20, 2015"", ""October 21, 2015"", ""August 28, 2015"", ""January 25, 2015""]",http,0.0,16,none,"{""id"":""chatcmpl-4u8b5t5qy554vak0id2hci"",""object"":""chat.completion"",""created"":1795594465,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0759,,MarianeAzar,20261125_084135,2026-11-25T08:14:26.831172+00:00

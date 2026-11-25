@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6db92f4b5f743901,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters does not appear in ""Nier: Automata""?
+A. 9S
+B. 2B
+C. A1
+D. A2
+Answer:","[""9S"", ""2B"", ""A1"", ""A2""]",http,0.0,16,none,"{""id"":""chatcmpl-60e8vqc0vcpww4k8sxsqxk"",""object"":""chat.completion"",""created"":1795596022,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8709,,MarianeAzar,20261125_084135,2026-11-25T08:40:23.738790+00:00
+6db92f4b5f743901,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters does not appear in ""Nier: Automata""?
+A. 9S
+B. 2B
+C. A1
+D. A2
+Answer:","[""9S"", ""2B"", ""A1"", ""A2""]",http,0.0,16,none,"{""id"":""chatcmpl-gwqlyh7txnc0oa07whx2w"",""object"":""chat.completion"",""created"":1795596023,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:40:24.605759+00:00
+d910ef3dcc36a201,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character race in the video game ""Starbound""?
+A. Hylotl
+B. Floran
+C. Fenerox
+D. Novakid
+Answer:","[""Hylotl"", ""Floran"", ""Fenerox"", ""Novakid""]",http,0.0,16,none,"{""id"":""chatcmpl-lm54dgr657gxbjsw9kp2e"",""object"":""chat.completion"",""created"":1795596024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T08:40:25.460104+00:00
+d910ef3dcc36a201,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character race in the video game ""Starbound""?
+A. Hylotl
+B. Floran
+C. Fenerox
+D. Novakid
+Answer:","[""Hylotl"", ""Floran"", ""Fenerox"", ""Novakid""]",http,0.0,16,none,"{""id"":""chatcmpl-ls2qlop89hntnzzk9v112"",""object"":""chat.completion"",""created"":1795596024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:40:26.320416+00:00
+6f4f608bd4022251,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the seat of government of the Netherlands?
+A. Utrecht
+B. Amsterdam
+C. The Hague
+D. Rotterdam
+Answer:","[""Utrecht"", ""Amsterdam"", ""The Hague"", ""Rotterdam""]",http,0.0,16,none,"{""id"":""chatcmpl-f3cy2kz1zmkmwr7zo3r1p"",""object"":""chat.completion"",""created"":1795596025,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.918,,MarianeAzar,20261125_084135,2026-11-25T08:40:27.238582+00:00
+6f4f608bd4022251,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city is the seat of government of the Netherlands?
+A. Utrecht
+B. Amsterdam
+C. The Hague
+D. Rotterdam
+Answer:","[""Utrecht"", ""Amsterdam"", ""The Hague"", ""Rotterdam""]",http,0.0,16,none,"{""id"":""chatcmpl-f23yy0un2fiaa19e39qul"",""object"":""chat.completion"",""created"":1795596026,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T08:40:28.103012+00:00
+3b8c04020f08662b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie “The Iron Giant,” this character is the protagonist.
+A. Hogarth Hughes
+B. Annie Hughes
+C. Kent Mansley
+D. Dean McCoppin
+Answer:","[""Hogarth Hughes"", ""Annie Hughes"", ""Kent Mansley"", ""Dean McCoppin""]",http,0.0,16,none,"{""id"":""chatcmpl-ia7eucvm1t3neb15kuq2o"",""object"":""chat.completion"",""created"":1795596027,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:40:28.969815+00:00
+3b8c04020f08662b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie “The Iron Giant,” this character is the protagonist.
+A. Hogarth Hughes
+B. Annie Hughes
+C. Kent Mansley
+D. Dean McCoppin
+Answer:","[""Hogarth Hughes"", ""Annie Hughes"", ""Kent Mansley"", ""Dean McCoppin""]",http,0.0,16,none,"{""id"":""chatcmpl-kwc2pzuzmbleuksehocwp"",""object"":""chat.completion"",""created"":1795596028,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T08:40:29.862462+00:00
+006e431a92ba276d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs by artist Eminem contain the lyric ""Nice to meet you. Hi, my name is... I forgot my name!""?
+A. Kim
+B. Rain Man
+C. Square Dance
+D. Without Me
+Answer:","[""Kim"", ""Rain Man"", ""Square Dance"", ""Without Me""]",http,0.0,16,none,"{""id"":""chatcmpl-4tt0w6hg1r781kakdgugsj"",""object"":""chat.completion"",""created"":1795596029,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8701,,MarianeAzar,20261125_084135,2026-11-25T08:40:30.733461+00:00
+006e431a92ba276d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs by artist Eminem contain the lyric ""Nice to meet you. Hi, my name is... I forgot my name!""?
+A. Kim
+B. Rain Man
+C. Square Dance
+D. Without Me
+Answer:","[""Kim"", ""Rain Man"", ""Square Dance"", ""Without Me""]",http,0.0,16,none,"{""id"":""chatcmpl-jcp8wi6gcxk6i8opyt7p45"",""object"":""chat.completion"",""created"":1795596030,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8987,,MarianeAzar,20261125_084135,2026-11-25T08:40:31.632440+00:00
+14779e78349e3a4b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Hellboy universe, what was Abe Sapien's birth name?
+A. Lord Baltimore
+B. Langdon Everett Caul
+C. Sir Edward Grey
+D. Landis Pope
+Answer:","[""Lord Baltimore"", ""Langdon Everett Caul"", ""Sir Edward Grey"", ""Landis Pope""]",http,0.0,16,none,"{""id"":""chatcmpl-pmvw0spih7jrm60h2sml3m"",""object"":""chat.completion"",""created"":1795596031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:40:32.498486+00:00
+14779e78349e3a4b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Hellboy universe, what was Abe Sapien's birth name?
+A. Lord Baltimore
+B. Langdon Everett Caul
+C. Sir Edward Grey
+D. Landis Pope
+Answer:","[""Lord Baltimore"", ""Langdon Everett Caul"", ""Sir Edward Grey"", ""Landis Pope""]",http,0.0,16,none,"{""id"":""chatcmpl-3gzbkl1c62ubmixvs6v40t"",""object"":""chat.completion"",""created"":1795596031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:40:33.364565+00:00
+d062db2a1f6506ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Krusty is the guild master of which guild in ""Log Horizon""?
+A. Silver Sword
+B. West Wind Brigade
+C. Oceanic Systems (Marine Agency)
+D. D. D. D
+Answer:","[""Silver Sword"", ""West Wind Brigade"", ""Oceanic Systems (Marine Agency)"", ""D. D. D""]",http,0.0,16,none,"{""id"":""chatcmpl-uk1vw573ajzm7bq4tvtmp"",""object"":""chat.completion"",""created"":1795596032,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:40:34.231984+00:00
+d062db2a1f6506ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Krusty is the guild master of which guild in ""Log Horizon""?
+A. Silver Sword
+B. West Wind Brigade
+C. Oceanic Systems (Marine Agency)
+D. D. D. D
+Answer:","[""Silver Sword"", ""West Wind Brigade"", ""Oceanic Systems (Marine Agency)"", ""D. D. D""]",http,0.0,16,none,"{""id"":""chatcmpl-iybyiew84j8y1m60w7c66"",""object"":""chat.completion"",""created"":1795596033,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9108,,MarianeAzar,20261125_084135,2026-11-25T08:40:35.143039+00:00
+30c4e78864f8cec6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the MMO RPG ""Realm of the Mad God"", what class is known for having the highest possible defense?
+A. The Archer
+B. The Wizard
+C. The Knight
+D. The Warrior
+Answer:","[""The Archer"", ""The Wizard"", ""The Knight"", ""The Warrior""]",http,0.0,16,none,"{""id"":""chatcmpl-uqf2f3td77he1jyxae95t"",""object"":""chat.completion"",""created"":1795596034,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261125_084135,2026-11-25T08:40:36.016286+00:00
+30c4e78864f8cec6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the MMO RPG ""Realm of the Mad God"", what class is known for having the highest possible defense?
+A. The Archer
+B. The Wizard
+C. The Knight
+D. The Warrior
+Answer:","[""The Archer"", ""The Wizard"", ""The Knight"", ""The Warrior""]",http,0.0,16,none,"{""id"":""chatcmpl-89skm5gv15b7ym6neu2d73"",""object"":""chat.completion"",""created"":1795596035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8918,,MarianeAzar,20261125_084135,2026-11-25T08:40:36.908364+00:00
+938d6d2cdd93e31b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where are the cars of the brand ""Ferrari"" manufactured?
+A. Germany
+B. Romania
+C. Russia
+D. Italy
+Answer:","[""Germany"", ""Romania"", ""Russia"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-9x1ejpxosdwowyyw1yku0k"",""object"":""chat.completion"",""created"":1795596036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:40:37.765934+00:00
+938d6d2cdd93e31b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where are the cars of the brand ""Ferrari"" manufactured?
+A. Germany
+B. Romania
+C. Russia
+D. Italy
+Answer:","[""Germany"", ""Romania"", ""Russia"", ""Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-bl8u88zijbb1ujpnsaswph"",""object"":""chat.completion"",""created"":1795596037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261125_084135,2026-11-25T08:40:38.626174+00:00
+f0c640c1d124a6dc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Shakespeare's play Julius Caesar, Caesar's last words were...
+A. Iacta alea est!
+B. Et tu, Brute?
+C. Vidi, vini, vici.
+D. Aegri somnia vana.
+Answer:","[""Iacta alea est!"", ""Et tu, Brute?"", ""Vidi, vini, vici."", ""Aegri somnia vana.""]",http,0.0,16,none,"{""id"":""chatcmpl-kw7ywhrml4b6hqxtiqa50c"",""object"":""chat.completion"",""created"":1795596038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8958,,MarianeAzar,20261125_084135,2026-11-25T08:40:39.522338+00:00
+f0c640c1d124a6dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Shakespeare's play Julius Caesar, Caesar's last words were...
+A. Iacta alea est!
+B. Et tu, Brute?
+C. Vidi, vini, vici.
+D. Aegri somnia vana.
+Answer:","[""Iacta alea est!"", ""Et tu, Brute?"", ""Vidi, vini, vici."", ""Aegri somnia vana.""]",http,0.0,16,none,"{""id"":""chatcmpl-ix72dcs23yba5xgv5pperw"",""object"":""chat.completion"",""created"":1795596038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9432,,MarianeAzar,20261125_084135,2026-11-25T08:40:40.465691+00:00
+ef9d581633864fd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?
+A. Tom Morello
+B. Billy Corgan
+C. Dave Navarro
+D. Ed O'Brien
+Answer:","[""Tom Morello"", ""Billy Corgan"", ""Dave Navarro"", ""Ed O'Brien""]",http,0.0,16,none,"{""id"":""chatcmpl-okobtz79akpdixyv1qnwje"",""object"":""chat.completion"",""created"":1795596039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9258,,MarianeAzar,20261125_084135,2026-11-25T08:40:41.391774+00:00
+ef9d581633864fd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?
+A. Tom Morello
+B. Billy Corgan
+C. Dave Navarro
+D. Ed O'Brien
+Answer:","[""Tom Morello"", ""Billy Corgan"", ""Dave Navarro"", ""Ed O'Brien""]",http,0.0,16,none,"{""id"":""chatcmpl-kyx9rkp6g2uq8yo7yrh5r"",""object"":""chat.completion"",""created"":1795596040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9809,,MarianeAzar,20261125_084135,2026-11-25T08:40:42.372926+00:00
+e0ee2bce1f3faba3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Satella in ""Re:Zero"" is the witch of what?
+A. Wrath
+B. Envy
+C. Pride
+D. Sloth
+Answer:","[""Wrath"", ""Envy"", ""Pride"", ""Sloth""]",http,0.0,16,none,"{""id"":""chatcmpl-0r52j44a7v0lh8uona8teqf"",""object"":""chat.completion"",""created"":1795596041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:40:43.233713+00:00
+e0ee2bce1f3faba3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Satella in ""Re:Zero"" is the witch of what?
+A. Wrath
+B. Envy
+C. Pride
+D. Sloth
+Answer:","[""Wrath"", ""Envy"", ""Pride"", ""Sloth""]",http,0.0,16,none,"{""id"":""chatcmpl-f8lr4izxsvebemmvtis5s6"",""object"":""chat.completion"",""created"":1795596042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261125_084135,2026-11-25T08:40:44.097828+00:00
+67391ac569e930a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Waluigi's first appearance was in what game?
+A. Super Smash Bros. Ultimate
+B. Mario Tennis 64 (N64)
+C. Wario Land: Super Mario Land 3
+D. Mario Party (N64)
+Answer:","[""Super Smash Bros. Ultimate"", ""Mario Tennis 64 (N64)"", ""Wario Land: Super Mario Land 3"", ""Mario Party (N64)""]",http,0.0,16,none,"{""id"":""chatcmpl-uu2yth1o30ektb5ieffrxc"",""object"":""chat.completion"",""created"":1795596043,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8791,,MarianeAzar,20261125_084135,2026-11-25T08:40:44.977171+00:00

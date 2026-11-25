@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+839554a9e03b16b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Overwatch, which hero out of the following 4 is from Brazil?
+A. Lúcio
+B. McCree
+C. Sombra
+D. Symmetra
+Answer:","[""Lúcio"", ""McCree"", ""Sombra"", ""Symmetra""]",http,0.0,16,none,"{""id"":""chatcmpl-00vq5268yfj7v2xz2tz2zhd"",""object"":""chat.completion"",""created"":1795596922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8617,,MarianeAzar,20261125_084135,2026-11-25T08:55:24.434104+00:00
+3126b37b485ab1ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the Master levels in ""Super Monkey Ball"" is also used in the arcade version of the game, simply named ""Monkey Ball""?
+A. MASTER 9 - Bridge Master
+B. MASTER 10 - Monkey Master
+C. MASTER 6 - Roll Master
+D. MASTER 3 - Stamina Master
+Answer:","[""MASTER 9 - Bridge Master"", ""MASTER 10 - Monkey Master"", ""MASTER 6 - Roll Master"", ""MASTER 3 - Stamina Master""]",http,0.0,16,none,"{""id"":""chatcmpl-8pm7zymz089aquu7plxb5l"",""object"":""chat.completion"",""created"":1795596923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8939,,MarianeAzar,20261125_084135,2026-11-25T08:55:25.328175+00:00
+3126b37b485ab1ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the Master levels in ""Super Monkey Ball"" is also used in the arcade version of the game, simply named ""Monkey Ball""?
+A. MASTER 9 - Bridge Master
+B. MASTER 10 - Monkey Master
+C. MASTER 6 - Roll Master
+D. MASTER 3 - Stamina Master
+Answer:","[""MASTER 9 - Bridge Master"", ""MASTER 10 - Monkey Master"", ""MASTER 6 - Roll Master"", ""MASTER 3 - Stamina Master""]",http,0.0,16,none,"{""id"":""chatcmpl-c1ba7qabzomtmw5l4njur"",""object"":""chat.completion"",""created"":1795596924,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":127,""completion_tokens"":2,""total_tokens"":129,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9357,,MarianeAzar,20261125_084135,2026-11-25T08:55:26.264114+00:00
+98255aae2ad762ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a work authored by Fyodor Dostoevsky?
+A. Crime and Punishment
+B. Notes from the Underground
+C. Anna Karenina
+D. The Brothers Karamazov
+Answer:","[""Crime and Punishment"", ""Notes from the Underground"", ""Anna Karenina"", ""The Brothers Karamazov""]",http,0.0,16,none,"{""id"":""chatcmpl-zjinbef5kgd4i0g483cc49"",""object"":""chat.completion"",""created"":1795596925,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8917,,MarianeAzar,20261125_084135,2026-11-25T08:55:27.156301+00:00
+98255aae2ad762ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a work authored by Fyodor Dostoevsky?
+A. Crime and Punishment
+B. Notes from the Underground
+C. Anna Karenina
+D. The Brothers Karamazov
+Answer:","[""Crime and Punishment"", ""Notes from the Underground"", ""Anna Karenina"", ""The Brothers Karamazov""]",http,0.0,16,none,"{""id"":""chatcmpl-3b05idudtrhz4d5pxa71ps"",""object"":""chat.completion"",""created"":1795596926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T08:55:28.041024+00:00
+fa76c85d79b5869f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Upwelling in the ocean provides colder nutrient rich water for plants and decomposers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4e0256t12kb2cvk9brw75x"",""object"":""chat.completion"",""created"":1795596927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8344,,MarianeAzar,20261125_084135,2026-11-25T08:55:28.876868+00:00
+fa76c85d79b5869f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Upwelling in the ocean provides colder nutrient rich water for plants and decomposers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6okf2hqgvoku2fnepuilt"",""object"":""chat.completion"",""created"":1795596928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8444,,MarianeAzar,20261125_084135,2026-11-25T08:55:29.721469+00:00
+c669c473778dd899,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British band won the first edition of the Brit Awards in 1977?
+A. The Rolling Stones
+B. Pink Floyd
+C. The Who
+D. The Beatles
+Answer:","[""The Rolling Stones"", ""Pink Floyd"", ""The Who"", ""The Beatles""]",http,0.0,16,none,"{""id"":""chatcmpl-wz6uyofq4eo1mjtsmadv"",""object"":""chat.completion"",""created"":1795596929,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:55:30.588546+00:00
+c669c473778dd899,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which British band won the first edition of the Brit Awards in 1977?
+A. The Rolling Stones
+B. Pink Floyd
+C. The Who
+D. The Beatles
+Answer:","[""The Rolling Stones"", ""Pink Floyd"", ""The Who"", ""The Beatles""]",http,0.0,16,none,"{""id"":""chatcmpl-fsyx47vwi6a7qj4itet1nw"",""object"":""chat.completion"",""created"":1795596930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8717,,MarianeAzar,20261125_084135,2026-11-25T08:55:31.460502+00:00
+1517905d7953249d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is a major muscle of the back?
+A. Triquetrum
+B. Trapezium
+C. Trapezius
+D. Trapezoid
+Answer:","[""Triquetrum"", ""Trapezium"", ""Trapezius"", ""Trapezoid""]",http,0.0,16,none,"{""id"":""chatcmpl-foi6zh8297dnmpzpnbjsi"",""object"":""chat.completion"",""created"":1795596930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:55:32.310221+00:00
+1517905d7953249d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is a major muscle of the back?
+A. Triquetrum
+B. Trapezium
+C. Trapezius
+D. Trapezoid
+Answer:","[""Triquetrum"", ""Trapezium"", ""Trapezius"", ""Trapezoid""]",http,0.0,16,none,"{""id"":""chatcmpl-prifuxbtrqgxe2v3pndlv"",""object"":""chat.completion"",""created"":1795596931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T08:55:33.180269+00:00
+3ac4b70303e623d9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was a german soldier in World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0opel4pgsozoycg2rsv1wx"",""object"":""chat.completion"",""created"":1795596932,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7966,,MarianeAzar,20261125_084135,2026-11-25T08:55:33.977086+00:00
+3ac4b70303e623d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Adolf Hitler was a german soldier in World War I.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-is8ak1kwbxai8uvxoex17"",""object"":""chat.completion"",""created"":1795596933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8193,,MarianeAzar,20261125_084135,2026-11-25T08:55:34.796542+00:00
+2153924018e72fe6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of memory is used on memory cache?
+A. Flash
+B. ROM
+C. DRAM
+D. SRAM
+Answer:","[""Flash"", ""ROM"", ""DRAM"", ""SRAM""]",http,0.0,16,none,"{""id"":""chatcmpl-52hhkiezqqmxe693wbhpqk"",""object"":""chat.completion"",""created"":1795596934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T08:55:35.657575+00:00
+2153924018e72fe6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of memory is used on memory cache?
+A. Flash
+B. ROM
+C. DRAM
+D. SRAM
+Answer:","[""Flash"", ""ROM"", ""DRAM"", ""SRAM""]",http,0.0,16,none,"{""id"":""chatcmpl-ck6r3643aw4cajfnf90tx"",""object"":""chat.completion"",""created"":1795596935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T08:55:36.510605+00:00
+6b5aa524dd9c8c81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these NHL teams originally played in Atlanta?
+A. Minnesota Wild
+B. St. Louis Blues
+C. Calgary Flames
+D. Vancouver Canucks
+Answer:","[""Minnesota Wild"", ""St. Louis Blues"", ""Calgary Flames"", ""Vancouver Canucks""]",http,0.0,16,none,"{""id"":""chatcmpl-dydo87hdkaia3ha76j9e9u"",""object"":""chat.completion"",""created"":1795596935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8795,,MarianeAzar,20261125_084135,2026-11-25T08:55:37.390820+00:00
+6b5aa524dd9c8c81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these NHL teams originally played in Atlanta?
+A. Minnesota Wild
+B. St. Louis Blues
+C. Calgary Flames
+D. Vancouver Canucks
+Answer:","[""Minnesota Wild"", ""St. Louis Blues"", ""Calgary Flames"", ""Vancouver Canucks""]",http,0.0,16,none,"{""id"":""chatcmpl-575v6j4euy5l8b5el7yt8c"",""object"":""chat.completion"",""created"":1795596936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T08:55:38.244278+00:00
+30e19ebbaa4c639a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bohdan Khmelnytsky was which of the following?
+A. Leader of the Ukrainian Cossacks
+B. Prince of Wallachia
+C. General Secretary of the Communist Party of the USSR
+D. Grand Prince of Novgorod
+Answer:","[""Leader of the Ukrainian Cossacks"", ""Prince of Wallachia"", ""General Secretary of the Communist Party of the USSR"", ""Grand Prince of Novgorod""]",http,0.0,16,none,"{""id"":""chatcmpl-y5gezbx32jhvzvkhr3li"",""object"":""chat.completion"",""created"":1795596937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:55:39.096904+00:00
+30e19ebbaa4c639a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bohdan Khmelnytsky was which of the following?
+A. Leader of the Ukrainian Cossacks
+B. Prince of Wallachia
+C. General Secretary of the Communist Party of the USSR
+D. Grand Prince of Novgorod
+Answer:","[""Leader of the Ukrainian Cossacks"", ""Prince of Wallachia"", ""General Secretary of the Communist Party of the USSR"", ""Grand Prince of Novgorod""]",http,0.0,16,none,"{""id"":""chatcmpl-7w7se0bg1wyxzja7wl5rhm"",""object"":""chat.completion"",""created"":1795596938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8945,,MarianeAzar,20261125_084135,2026-11-25T08:55:39.991722+00:00
+ab04d3bd21127060,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vatican City is a country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wfq38932kbrc3vz1y1jyce"",""object"":""chat.completion"",""created"":1795596939,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8003,,MarianeAzar,20261125_084135,2026-11-25T08:55:40.792225+00:00
+ab04d3bd21127060,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vatican City is a country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r8tnsbaa57j2e1btgbmtf"",""object"":""chat.completion"",""created"":1795596940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8133,,MarianeAzar,20261125_084135,2026-11-25T08:55:41.605754+00:00
+93c6933d569b359a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?
+A. Wilson
+B. Billy
+C. Friday
+D. Jones
+Answer:","[""Wilson"", ""Billy"", ""Friday"", ""Jones""]",http,0.0,16,none,"{""id"":""chatcmpl-tuctxj5n1cfi9uhqfq8db"",""object"":""chat.completion"",""created"":1795596941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8445,,MarianeAzar,20261125_084135,2026-11-25T08:55:42.450809+00:00
+93c6933d569b359a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name did Tom Hanks give to his volleyball companion in the film `Cast Away`?
+A. Wilson
+B. Billy
+C. Friday
+D. Jones
+Answer:","[""Wilson"", ""Billy"", ""Friday"", ""Jones""]",http,0.0,16,none,"{""id"":""chatcmpl-q6dmaumqtwin3efdbc5eb"",""object"":""chat.completion"",""created"":1795596941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T08:55:43.308710+00:00
+11bca858a0a8e1cc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a member of the virtual band Gorillaz?
+A. Phi Cypher
+B. Murdoc Niccals
+C. Noodle
+D. Russel Hobbs
+Answer:","[""Phi Cypher"", ""Murdoc Niccals"", ""Noodle"", ""Russel Hobbs""]",http,0.0,16,none,"{""id"":""chatcmpl-fqvh3seufeixzlxyog64"",""object"":""chat.completion"",""created"":1795596942,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:55:44.172440+00:00
+11bca858a0a8e1cc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a member of the virtual band Gorillaz?
+A. Phi Cypher
+B. Murdoc Niccals
+C. Noodle
+D. Russel Hobbs
+Answer:","[""Phi Cypher"", ""Murdoc Niccals"", ""Noodle"", ""Russel Hobbs""]",http,0.0,16,none,"{""id"":""chatcmpl-hi5c0sk7p77lvq7x5icg2"",""object"":""chat.completion"",""created"":1795596943,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8802,,MarianeAzar,20261125_084135,2026-11-25T08:55:45.052947+00:00

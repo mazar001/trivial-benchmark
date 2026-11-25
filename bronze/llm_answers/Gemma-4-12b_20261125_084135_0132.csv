@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+2c88d466399a89d4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Harry Potter universe, who does Draco Malfoy end up marrying?
+A. Astoria Greengrass
+B. Hermione Granger
+C. Millicent Bulstrode
+D. Pansy Parkinson
+Answer:","[""Astoria Greengrass"", ""Hermione Granger"", ""Millicent Bulstrode"", ""Pansy Parkinson""]",http,0.0,16,none,"{""id"":""chatcmpl-myvt7ri5xrg4ygliyre0e8"",""object"":""chat.completion"",""created"":1795595719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261125_084135,2026-11-25T08:35:20.456306+00:00
+2c88d466399a89d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Harry Potter universe, who does Draco Malfoy end up marrying?
+A. Astoria Greengrass
+B. Hermione Granger
+C. Millicent Bulstrode
+D. Pansy Parkinson
+Answer:","[""Astoria Greengrass"", ""Hermione Granger"", ""Millicent Bulstrode"", ""Pansy Parkinson""]",http,0.0,16,none,"{""id"":""chatcmpl-ecqvx8jlff4j2ekotr7qcf"",""object"":""chat.completion"",""created"":1795595719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8877,,MarianeAzar,20261125_084135,2026-11-25T08:35:21.344246+00:00
+85ac0cb4ec296e1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many strings are there on a cello?
+A. 6
+B. 5
+C. 4
+D. 8
+Answer:","[""6"", ""5"", ""4"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-4b2yvykwlsxq87m0b33u1"",""object"":""chat.completion"",""created"":1795595720,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9006,,MarianeAzar,20261125_084135,2026-11-25T08:35:22.245144+00:00
+85ac0cb4ec296e1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many strings are there on a cello?
+A. 6
+B. 5
+C. 4
+D. 8
+Answer:","[""6"", ""5"", ""4"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-ri9kkwpl1mqoyhd3depr2b"",""object"":""chat.completion"",""created"":1795595721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261125_084135,2026-11-25T08:35:23.103156+00:00
+28a6e3cc8fcf75f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these Rammstein songs has two official music videos?
+A. Benzin
+B. Du Riechst So Gut
+C. Mein Teil
+D. Du Hast
+Answer:","[""Benzin"", ""Du Riechst So Gut"", ""Mein Teil"", ""Du Hast""]",http,0.0,16,none,"{""id"":""chatcmpl-qm3d8g8ir6rl3st1qtt8k"",""object"":""chat.completion"",""created"":1795595722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261125_084135,2026-11-25T08:35:23.963639+00:00
+28a6e3cc8fcf75f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these Rammstein songs has two official music videos?
+A. Benzin
+B. Du Riechst So Gut
+C. Mein Teil
+D. Du Hast
+Answer:","[""Benzin"", ""Du Riechst So Gut"", ""Mein Teil"", ""Du Hast""]",http,0.0,16,none,"{""id"":""chatcmpl-f53asgnjqemr7r0m52sbv"",""object"":""chat.completion"",""created"":1795595723,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8983,,MarianeAzar,20261125_084135,2026-11-25T08:35:24.862126+00:00
+7874ec1de8d60a96,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio produced ""Log Horizon""?
+A. Production I.G
+B. Satelite
+C. Xebec
+D. Sunrise
+Answer:","[""Production I.G"", ""Satelite"", ""Xebec"", ""Sunrise""]",http,0.0,16,none,"{""id"":""chatcmpl-0dtij67iffccrqncraqiqz"",""object"":""chat.completion"",""created"":1795595724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261125_084135,2026-11-25T08:35:25.706143+00:00
+7874ec1de8d60a96,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio produced ""Log Horizon""?
+A. Production I.G
+B. Satelite
+C. Xebec
+D. Sunrise
+Answer:","[""Production I.G"", ""Satelite"", ""Xebec"", ""Sunrise""]",http,0.0,16,none,"{""id"":""chatcmpl-wb5uuro849c30hd2o6vn5"",""object"":""chat.completion"",""created"":1795595725,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261125_084135,2026-11-25T08:35:26.566043+00:00
+fb684bc20cc7977f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Rhinoplasty is a surgical procedure on what part of the human body?
+A. Nose
+B. Chin
+C. Ears
+D. Neck
+Answer:","[""Nose"", ""Chin"", ""Ears"", ""Neck""]",http,0.0,16,none,"{""id"":""chatcmpl-011lv4hoq934kr265jssxeq"",""object"":""chat.completion"",""created"":1795595726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T08:35:27.425547+00:00
+fb684bc20cc7977f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Rhinoplasty is a surgical procedure on what part of the human body?
+A. Nose
+B. Chin
+C. Ears
+D. Neck
+Answer:","[""Nose"", ""Chin"", ""Ears"", ""Neck""]",http,0.0,16,none,"{""id"":""chatcmpl-i4o5n540h3b6unxl20lbeu"",""object"":""chat.completion"",""created"":1795595726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T08:35:28.279526+00:00
+ffb10896f56af7b2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 8th installment in the Fire Emblem series?
+A. Blazing Sword
+B. Path of Radiance
+C. The Sacred Stones
+D. Awakening
+Answer:","[""Blazing Sword"", ""Path of Radiance"", ""The Sacred Stones"", ""Awakening""]",http,0.0,16,none,"{""id"":""chatcmpl-w8kgwi1b5fe720saiblwyb"",""object"":""chat.completion"",""created"":1795595727,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T08:35:29.129185+00:00
+ffb10896f56af7b2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 8th installment in the Fire Emblem series?
+A. Blazing Sword
+B. Path of Radiance
+C. The Sacred Stones
+D. Awakening
+Answer:","[""Blazing Sword"", ""Path of Radiance"", ""The Sacred Stones"", ""Awakening""]",http,0.0,16,none,"{""id"":""chatcmpl-o2mwomgfjzjjj4zk55b1b"",""object"":""chat.completion"",""created"":1795595728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8687,,MarianeAzar,20261125_084135,2026-11-25T08:35:29.998158+00:00
+6f4054fee3bb6e41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Toriko"", which of the following foods is knowingly compatible with Toriko?
+A. Parmesansho Fruit
+B. Poison Potato
+C. Mors Oil
+D. Alpacookie
+Answer:","[""Parmesansho Fruit"", ""Poison Potato"", ""Mors Oil"", ""Alpacookie""]",http,0.0,16,none,"{""id"":""chatcmpl-r03yjc71jjit66ei4lbbo"",""object"":""chat.completion"",""created"":1795595729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8494,,MarianeAzar,20261125_084135,2026-11-25T08:35:30.847805+00:00
+6f4054fee3bb6e41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Toriko"", which of the following foods is knowingly compatible with Toriko?
+A. Parmesansho Fruit
+B. Poison Potato
+C. Mors Oil
+D. Alpacookie
+Answer:","[""Parmesansho Fruit"", ""Poison Potato"", ""Mors Oil"", ""Alpacookie""]",http,0.0,16,none,"{""id"":""chatcmpl-vbe4v2tvb4d0xd1sbsl6j"",""object"":""chat.completion"",""created"":1795595730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T08:35:31.738347+00:00
+614b17413db773fe,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 86400 seconds in a day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ayb0xir1c4ub78badk4srf"",""object"":""chat.completion"",""created"":1795595731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.798,,MarianeAzar,20261125_084135,2026-11-25T08:35:32.536458+00:00
+614b17413db773fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are 86400 seconds in a day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tbym3daso0ag5xhly7bxl"",""object"":""chat.completion"",""created"":1795595731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.824,,MarianeAzar,20261125_084135,2026-11-25T08:35:33.360683+00:00
+8cd81b86c3c40cf2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the programming language ""C#"" released?
+A. 1999
+B. 1998
+C. 2001
+D. 2000
+Answer:","[""1999"", ""1998"", ""2001"", ""2000""]",http,0.0,16,none,"{""id"":""chatcmpl-m89htcuprqk8n8ci09z135"",""object"":""chat.completion"",""created"":1795595732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261125_084135,2026-11-25T08:35:34.213760+00:00
+8cd81b86c3c40cf2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the programming language ""C#"" released?
+A. 1999
+B. 1998
+C. 2001
+D. 2000
+Answer:","[""1999"", ""1998"", ""2001"", ""2000""]",http,0.0,16,none,"{""id"":""chatcmpl-d2gao92gzj0059hmyulcids"",""object"":""chat.completion"",""created"":1795595733,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8824,,MarianeAzar,20261125_084135,2026-11-25T08:35:35.096409+00:00
+865ad504e312a52f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what engine was Titanfall made in?
+A. Frostbite 3
+B. Source Engine
+C. Cryengine
+D. Unreal Engine
+Answer:","[""Frostbite 3"", ""Source Engine"", ""Cryengine"", ""Unreal Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-avg1mqgcfrj04wr3wu06"",""object"":""chat.completion"",""created"":1795595734,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8626,,MarianeAzar,20261125_084135,2026-11-25T08:35:35.959535+00:00
+865ad504e312a52f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what engine was Titanfall made in?
+A. Frostbite 3
+B. Source Engine
+C. Cryengine
+D. Unreal Engine
+Answer:","[""Frostbite 3"", ""Source Engine"", ""Cryengine"", ""Unreal Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-44o2hbmg99bx1dqn2ld0ze"",""object"":""chat.completion"",""created"":1795595735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261125_084135,2026-11-25T08:35:36.820260+00:00
+5a025d877efea756,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A positron is an antiparticle of a what?
+A. Neutron
+B. Photon
+C. Proton
+D. Electron
+Answer:","[""Neutron"", ""Photon"", ""Proton"", ""Electron""]",http,0.0,16,none,"{""id"":""chatcmpl-4310hy511fq0vxwvnq15mpr"",""object"":""chat.completion"",""created"":1795595736,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8453,,MarianeAzar,20261125_084135,2026-11-25T08:35:37.666012+00:00
+5a025d877efea756,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A positron is an antiparticle of a what?
+A. Neutron
+B. Photon
+C. Proton
+D. Electron
+Answer:","[""Neutron"", ""Photon"", ""Proton"", ""Electron""]",http,0.0,16,none,"{""id"":""chatcmpl-jdmouz6xmqaqhghlrfh2q"",""object"":""chat.completion"",""created"":1795595737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:35:38.532790+00:00
+17a0099b20bf5ff6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Blue Danube was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-um6rirovl0d4kio81pbmte"",""object"":""chat.completion"",""created"":1795595737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8262,,MarianeAzar,20261125_084135,2026-11-25T08:35:39.359551+00:00
+17a0099b20bf5ff6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Blue Danube was one of the musical pieces featured in Disney's 1940's film Fantasia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7ad49hcqabyd4dtk3yvfl"",""object"":""chat.completion"",""created"":1795595738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T08:35:40.205920+00:00
+d4be730a84f0cd8d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Touhou Project series of games is often associated with which genre?
+A. FPS
+B. Shoot 'em up
+C. Strategy
+D. Casual
+Answer:","[""FPS"", ""Shoot 'em up"", ""Strategy"", ""Casual""]",http,0.0,16,none,"{""id"":""chatcmpl-yjz7h8ztae84l674dt3hr"",""object"":""chat.completion"",""created"":1795595739,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:35:41.058661+00:00

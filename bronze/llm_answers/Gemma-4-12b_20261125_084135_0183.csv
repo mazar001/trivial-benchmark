@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+dec5a4949a789a5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which mountain has the highest peak in Australia?
+A. Mount Ossa, Tasmania
+B. Mount Bartle Frere, Queensland
+C. Mount Zeil, Northern Territory
+D. Mount Kosciuszko, New South Wales
+Answer:","[""Mount Ossa, Tasmania"", ""Mount Bartle Frere, Queensland"", ""Mount Zeil, Northern Territory"", ""Mount Kosciuszko, New South Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-suqm2vyhvo1synw41ajpfi"",""object"":""chat.completion"",""created"":1795596836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8884,,MarianeAzar,20261125_084135,2026-11-25T08:53:58.313872+00:00
+c0391585230c9d7b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which card is on the cover of the Beta rulebook of ""Magic: The Gathering""?
+A. Elvish Archers
+B. Rock Hydra
+C. Island
+D. Bog Wraith
+Answer:","[""Elvish Archers"", ""Rock Hydra"", ""Island"", ""Bog Wraith""]",http,0.0,16,none,"{""id"":""chatcmpl-bbczrj44gx9l5jf4egyzr"",""object"":""chat.completion"",""created"":1795596837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8524,,MarianeAzar,20261125_084135,2026-11-25T08:53:59.166467+00:00
+c0391585230c9d7b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which card is on the cover of the Beta rulebook of ""Magic: The Gathering""?
+A. Elvish Archers
+B. Rock Hydra
+C. Island
+D. Bog Wraith
+Answer:","[""Elvish Archers"", ""Rock Hydra"", ""Island"", ""Bog Wraith""]",http,0.0,16,none,"{""id"":""chatcmpl-rhdb6zkncspqzm781bir2o"",""object"":""chat.completion"",""created"":1795596838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8752,,MarianeAzar,20261125_084135,2026-11-25T08:54:00.041863+00:00
+eaa9fde5df5075c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Estonia?
+A. Tartu
+B. Tallinn
+C. Helsinki
+D. Riga
+Answer:","[""Tartu"", ""Tallinn"", ""Helsinki"", ""Riga""]",http,0.0,16,none,"{""id"":""chatcmpl-yy8k3s1s7mt8ix7oevzps"",""object"":""chat.completion"",""created"":1795596839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8511,,MarianeAzar,20261125_084135,2026-11-25T08:54:00.893221+00:00
+eaa9fde5df5075c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Estonia?
+A. Tartu
+B. Tallinn
+C. Helsinki
+D. Riga
+Answer:","[""Tartu"", ""Tallinn"", ""Helsinki"", ""Riga""]",http,0.0,16,none,"{""id"":""chatcmpl-t7rje0382si5680u3jhr9u"",""object"":""chat.completion"",""created"":1795596840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:54:01.750139+00:00
+2058f10690cf9ea2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following spacecraft never touched the moon?
+A. Apollo 11
+B. SMART-1
+C. Luna 2
+D. Mariner 4
+Answer:","[""Apollo 11"", ""SMART-1"", ""Luna 2"", ""Mariner 4""]",http,0.0,16,none,"{""id"":""chatcmpl-92frap82p9sp1r6w085gh"",""object"":""chat.completion"",""created"":1795596841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8726,,MarianeAzar,20261125_084135,2026-11-25T08:54:02.623563+00:00
+2058f10690cf9ea2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following spacecraft never touched the moon?
+A. Apollo 11
+B. SMART-1
+C. Luna 2
+D. Mariner 4
+Answer:","[""Apollo 11"", ""SMART-1"", ""Luna 2"", ""Mariner 4""]",http,0.0,16,none,"{""id"":""chatcmpl-mf2f75303l9jm5k49nc7f"",""object"":""chat.completion"",""created"":1795596842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:54:03.487023+00:00
+1cc80b880ac7d923,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The American company ""Campbell's"" is most well known for making what food product?
+A. Sausages
+B. Soft drinks
+C. Chocolate
+D. Canned soups
+Answer:","[""Sausages"", ""Soft drinks"", ""Chocolate"", ""Canned soups""]",http,0.0,16,none,"{""id"":""chatcmpl-s1ikgjpvgtcxakfv1ejvo9"",""object"":""chat.completion"",""created"":1795596842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261125_084135,2026-11-25T08:54:04.336973+00:00
+1cc80b880ac7d923,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The American company ""Campbell's"" is most well known for making what food product?
+A. Sausages
+B. Soft drinks
+C. Chocolate
+D. Canned soups
+Answer:","[""Sausages"", ""Soft drinks"", ""Chocolate"", ""Canned soups""]",http,0.0,16,none,"{""id"":""chatcmpl-cu3yrn1bm9w05yrnvccelbf"",""object"":""chat.completion"",""created"":1795596843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261125_084135,2026-11-25T08:54:05.218831+00:00
+2aff0af1f3dcac3f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following FIA Rally cars was approved for use in the Group B class first?
+A. Audi Quattro A2
+B. BMW M1
+C. Lancia Rally 037
+D. Porsche 911 Turbo
+Answer:","[""Audi Quattro A2"", ""BMW M1"", ""Lancia Rally 037"", ""Porsche 911 Turbo""]",http,0.0,16,none,"{""id"":""chatcmpl-ddzixrp6wotxs9xsuqcmvk"",""object"":""chat.completion"",""created"":1795596844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T08:54:06.079319+00:00
+2aff0af1f3dcac3f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following FIA Rally cars was approved for use in the Group B class first?
+A. Audi Quattro A2
+B. BMW M1
+C. Lancia Rally 037
+D. Porsche 911 Turbo
+Answer:","[""Audi Quattro A2"", ""BMW M1"", ""Lancia Rally 037"", ""Porsche 911 Turbo""]",http,0.0,16,none,"{""id"":""chatcmpl-e6jw1qhj788xf4rhjebcs"",""object"":""chat.completion"",""created"":1795596845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8887,,MarianeAzar,20261125_084135,2026-11-25T08:54:06.968189+00:00
+714f677de1b6c014,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Popcorn was invented in 1871 by Frederick W. Rueckheim in the USA where he sold the snack on the streets of Chicago.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xf0f7vcdxod3et9vlmtrl9"",""object"":""chat.completion"",""created"":1795596846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8671,,MarianeAzar,20261125_084135,2026-11-25T08:54:07.835414+00:00
+714f677de1b6c014,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Popcorn was invented in 1871 by Frederick W. Rueckheim in the USA where he sold the snack on the streets of Chicago.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3d0b9awgbi2wagse5ewbse"",""object"":""chat.completion"",""created"":1795596847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T08:54:08.713766+00:00
+9e1a3eb9345248dd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Cube"", ""Cube 2: Hypercube"" and ""Cube Zero"" were directed by the same person.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nqkimbi86xvvl3lhbbm7"",""object"":""chat.completion"",""created"":1795596848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8115,,MarianeAzar,20261125_084135,2026-11-25T08:54:09.525477+00:00
+9e1a3eb9345248dd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Cube"", ""Cube 2: Hypercube"" and ""Cube Zero"" were directed by the same person.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jb2qrjl71szzyan9vxkv7"",""object"":""chat.completion"",""created"":1795596848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8387,,MarianeAzar,20261125_084135,2026-11-25T08:54:10.364370+00:00
+914d59141be5824e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these languages was NOT included in the 2016 song ""Don't Mind"" by Kent Jones?
+A. Spanish
+B. Japanese
+C. Portuguese
+D. French
+Answer:","[""Spanish"", ""Japanese"", ""Portuguese"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-muf7q395781qrpezb8j2k"",""object"":""chat.completion"",""created"":1795596849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261125_084135,2026-11-25T08:54:11.221738+00:00
+914d59141be5824e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these languages was NOT included in the 2016 song ""Don't Mind"" by Kent Jones?
+A. Spanish
+B. Japanese
+C. Portuguese
+D. French
+Answer:","[""Spanish"", ""Japanese"", ""Portuguese"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-zwsl6dwlqdpcazw9q4xgoe"",""object"":""chat.completion"",""created"":1795596850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8833,,MarianeAzar,20261125_084135,2026-11-25T08:54:12.105343+00:00
+195695e1be3d1478,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the term MIME stand for, in regards to computing?
+A. Mail Interleave Method Exchange
+B. Multipurpose Interleave Mail Exchange
+C. Mail Internet Mail Exchange
+D. Multipurpose Internet Mail Extensions
+Answer:","[""Mail Interleave Method Exchange"", ""Multipurpose Interleave Mail Exchange"", ""Mail Internet Mail Exchange"", ""Multipurpose Internet Mail Extensions""]",http,0.0,16,none,"{""id"":""chatcmpl-qjvynwnvqba3s1n1tao3h2"",""object"":""chat.completion"",""created"":1795596851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8584,,MarianeAzar,20261125_084135,2026-11-25T08:54:12.964154+00:00
+195695e1be3d1478,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the term MIME stand for, in regards to computing?
+A. Mail Interleave Method Exchange
+B. Multipurpose Interleave Mail Exchange
+C. Mail Internet Mail Exchange
+D. Multipurpose Internet Mail Extensions
+Answer:","[""Mail Interleave Method Exchange"", ""Multipurpose Interleave Mail Exchange"", ""Mail Internet Mail Exchange"", ""Multipurpose Internet Mail Extensions""]",http,0.0,16,none,"{""id"":""chatcmpl-cxaebo8ev2hat8tt2gzx"",""object"":""chat.completion"",""created"":1795596852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T08:54:13.851488+00:00
+58b430ea15e66372,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Star Spirits do you rescue in the Nintendo 64 video game ""Paper Mario""?
+A. 7
+B. 12
+C. 5
+D. 10
+Answer:","[""7"", ""12"", ""5"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-zzmu8mw4mke5sjtzave89c"",""object"":""chat.completion"",""created"":1795596853,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8801,,MarianeAzar,20261125_084135,2026-11-25T08:54:14.731861+00:00
+58b430ea15e66372,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Star Spirits do you rescue in the Nintendo 64 video game ""Paper Mario""?
+A. 7
+B. 12
+C. 5
+D. 10
+Answer:","[""7"", ""12"", ""5"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-v0odvxn4vgid9zjtlicy0c"",""object"":""chat.completion"",""created"":1795596854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T08:54:15.605535+00:00
+aa4722d20088d504,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which operation in ""Tom Clancy's Rainbow Six Siege"" introduced the ""Skyscraper"" map?
+A. Dust Line
+B. Skull Rain
+C. Velvet Shell
+D. Red Crow
+Answer:","[""Dust Line"", ""Skull Rain"", ""Velvet Shell"", ""Red Crow""]",http,0.0,16,none,"{""id"":""chatcmpl-fdfay00eccean9epus7cep"",""object"":""chat.completion"",""created"":1795596855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:54:16.467517+00:00
+aa4722d20088d504,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which operation in ""Tom Clancy's Rainbow Six Siege"" introduced the ""Skyscraper"" map?
+A. Dust Line
+B. Skull Rain
+C. Velvet Shell
+D. Red Crow
+Answer:","[""Dust Line"", ""Skull Rain"", ""Velvet Shell"", ""Red Crow""]",http,0.0,16,none,"{""id"":""chatcmpl-as2gj7eghad9utnwnmikzr"",""object"":""chat.completion"",""created"":1795596855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:54:17.326341+00:00
+12bdbca688772ab1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What American city was featured in the 1999 PC game Midtown Madness?
+A. Washington D.C.
+B. Chicago
+C. San Francisco
+D. New York City
+Answer:","[""Washington D.C."", ""Chicago"", ""San Francisco"", ""New York City""]",http,0.0,16,none,"{""id"":""chatcmpl-u4jtyr5a5gpznigye5o7e"",""object"":""chat.completion"",""created"":1795596856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T08:54:18.184246+00:00
+12bdbca688772ab1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What American city was featured in the 1999 PC game Midtown Madness?
+A. Washington D.C.
+B. Chicago
+C. San Francisco
+D. New York City
+Answer:","[""Washington D.C."", ""Chicago"", ""San Francisco"", ""New York City""]",http,0.0,16,none,"{""id"":""chatcmpl-81so7ut2pvuui3tcrwdeg"",""object"":""chat.completion"",""created"":1795596857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:54:19.045519+00:00

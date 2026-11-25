@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+84aed62fd835f65a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The ""Psycho"" series of videos on YouTube was created by which of the following?
+A. Billy Familia
+B. VeganGainz
+C. RiDGiD STUDiOS
+D. Dan Bell
+Answer:","[""Billy Familia"", ""VeganGainz"", ""RiDGiD STUDiOS"", ""Dan Bell""]",http,0.0,16,none,"{""id"":""chatcmpl-fdukygvrbddk6rwvtb26in"",""object"":""chat.completion"",""created"":1795554934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0596,,MarianeAzar,20261124_215144,2026-11-24T21:15:35.395309+00:00
+3987c067332f62f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?
+A. Tragedy
+B. Stayin' Alive
+C. You Should Be Dancing
+D. Night Fever
+Answer:","[""Tragedy"", ""Stayin' Alive"", ""You Should Be Dancing"", ""Night Fever""]",http,0.0,16,none,"{""id"":""chatcmpl-otcb9712lbiyz7ark6noef"",""object"":""chat.completion"",""created"":1795554935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3763,,MarianeAzar,20261124_215144,2026-11-24T21:15:36.771750+00:00
+3987c067332f62f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?
+A. Tragedy
+B. Stayin' Alive
+C. You Should Be Dancing
+D. Night Fever
+Answer:","[""Tragedy"", ""Stayin' Alive"", ""You Should Be Dancing"", ""Night Fever""]",http,0.0,16,none,"{""id"":""chatcmpl-9lgbrp2c6qpyiywqoj89z"",""object"":""chat.completion"",""created"":1795554936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0278,,MarianeAzar,20261124_215144,2026-11-24T21:15:37.799803+00:00
+95a75ec35b44725b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following actors portrayed the Ninth Doctor in the British television show ""Doctor Who""?
+A. Christopher Eccleston
+B. David Tennant
+C. Tom Baker
+D. Matt Smith
+Answer:","[""Christopher Eccleston"", ""David Tennant"", ""Tom Baker"", ""Matt Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-gcbsxh5e1tin6q2rp7s7k"",""object"":""chat.completion"",""created"":1795554937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261124_215144,2026-11-24T21:15:38.758900+00:00
+95a75ec35b44725b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following actors portrayed the Ninth Doctor in the British television show ""Doctor Who""?
+A. Christopher Eccleston
+B. David Tennant
+C. Tom Baker
+D. Matt Smith
+Answer:","[""Christopher Eccleston"", ""David Tennant"", ""Tom Baker"", ""Matt Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-42pfy4qj53b1s8jgvy89ib"",""object"":""chat.completion"",""created"":1795554938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3838,,MarianeAzar,20261124_215144,2026-11-24T21:15:40.142833+00:00
+b87d9e55fcffd5b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?
+A. Jack McCauley
+B. Andrew Scott Reisse
+C. Palmer Luckey
+D. Nate Mitchell
+Answer:","[""Jack McCauley"", ""Andrew Scott Reisse"", ""Palmer Luckey"", ""Nate Mitchell""]",http,0.0,16,none,"{""id"":""chatcmpl-qpbawymrl7kikkc3o5th7"",""object"":""chat.completion"",""created"":1795554940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9168,,MarianeAzar,20261124_215144,2026-11-24T21:15:41.059822+00:00
+b87d9e55fcffd5b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Virtual reality company Oculus VR lost which of it's co-founders in a freak car accident in 2013?
+A. Jack McCauley
+B. Andrew Scott Reisse
+C. Palmer Luckey
+D. Nate Mitchell
+Answer:","[""Jack McCauley"", ""Andrew Scott Reisse"", ""Palmer Luckey"", ""Nate Mitchell""]",http,0.0,16,none,"{""id"":""chatcmpl-72o8vevq99n7h429t9k5kk"",""object"":""chat.completion"",""created"":1795554940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9813,,MarianeAzar,20261124_215144,2026-11-24T21:15:42.041196+00:00
+3eb54480682a1b7e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""Houston, we have a problem.""
+A. Capricorn One
+B. The Right Stuff
+C. Marooned
+D. Apollo 13
+Answer:","[""Capricorn One"", ""The Right Stuff"", ""Marooned"", ""Apollo 13""]",http,0.0,16,none,"{""id"":""chatcmpl-0ibd5tmvejkqx84jlpm0m5"",""object"":""chat.completion"",""created"":1795554941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3925,,MarianeAzar,20261124_215144,2026-11-24T21:15:43.433836+00:00
+3eb54480682a1b7e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""Houston, we have a problem.""
+A. Capricorn One
+B. The Right Stuff
+C. Marooned
+D. Apollo 13
+Answer:","[""Capricorn One"", ""The Right Stuff"", ""Marooned"", ""Apollo 13""]",http,0.0,16,none,"{""id"":""chatcmpl-b4zy2rbxmj7jvct3b7o7e"",""object"":""chat.completion"",""created"":1795554943,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9523,,MarianeAzar,20261124_215144,2026-11-24T21:15:44.386382+00:00
+937fc5d912864cd7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The letters in the name of the band ""TWRP"" stand for what?
+A. Team Wild and the Radio Pirates
+B. Taiwan Roleplay
+C. Totally Wicked Robot Performers
+D. Tupperware Remix Party
+Answer:","[""Team Wild and the Radio Pirates"", ""Taiwan Roleplay"", ""Totally Wicked Robot Performers"", ""Tupperware Remix Party""]",http,0.0,16,none,"{""id"":""chatcmpl-wcyjhdoscdcvndrn0qzu"",""object"":""chat.completion"",""created"":1795554944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9398,,MarianeAzar,20261124_215144,2026-11-24T21:15:45.326447+00:00
+937fc5d912864cd7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The letters in the name of the band ""TWRP"" stand for what?
+A. Team Wild and the Radio Pirates
+B. Taiwan Roleplay
+C. Totally Wicked Robot Performers
+D. Tupperware Remix Party
+Answer:","[""Team Wild and the Radio Pirates"", ""Taiwan Roleplay"", ""Totally Wicked Robot Performers"", ""Tupperware Remix Party""]",http,0.0,16,none,"{""id"":""chatcmpl-gjdmrnj4zhgww0nl9ud83"",""object"":""chat.completion"",""created"":1795554945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4954,,MarianeAzar,20261124_215144,2026-11-24T21:15:46.822020+00:00
+42ccfc4fc9836fa9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city did the monster attack in the film, ""Cloverfield""?
+A. Chicago, Illinois
+B. New York, New York
+C. Orlando, Florida
+D. Las Vegas, Nevada
+Answer:","[""Chicago, Illinois"", ""New York, New York"", ""Orlando, Florida"", ""Las Vegas, Nevada""]",http,0.0,16,none,"{""id"":""chatcmpl-9sf7iky3pk99zqt16m08va"",""object"":""chat.completion"",""created"":1795554946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0347,,MarianeAzar,20261124_215144,2026-11-24T21:15:47.856877+00:00
+42ccfc4fc9836fa9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city did the monster attack in the film, ""Cloverfield""?
+A. Chicago, Illinois
+B. New York, New York
+C. Orlando, Florida
+D. Las Vegas, Nevada
+Answer:","[""Chicago, Illinois"", ""New York, New York"", ""Orlando, Florida"", ""Las Vegas, Nevada""]",http,0.0,16,none,"{""id"":""chatcmpl-r68whg61yprtxe7601oqb"",""object"":""chat.completion"",""created"":1795554947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9666,,MarianeAzar,20261124_215144,2026-11-24T21:15:48.823653+00:00
+297d6c0a2762e1ae,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Janus was the Roman god of doorways and passageways.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9mxfznffvnlftkhzy6x4d"",""object"":""chat.completion"",""created"":1795554948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3243,,MarianeAzar,20261124_215144,2026-11-24T21:15:50.148165+00:00
+297d6c0a2762e1ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Janus was the Roman god of doorways and passageways.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h78r0y7btsi2po2duqsmz"",""object"":""chat.completion"",""created"":1795554950,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8884,,MarianeAzar,20261124_215144,2026-11-24T21:15:51.036721+00:00
+151a50e0134f1f25,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the second-generation Pokémon games, which Pokémon can you start with?
+A. Treecko,Torchic, and Mudkip
+B. Grassy, Firey, and Watery
+C. Bulbasaur, Charmander, and Squirtle
+D. Chikorita, Cyndaquil, and Totodile
+Answer:","[""Treecko,Torchic, and Mudkip"", ""Grassy, Firey, and Watery"", ""Bulbasaur, Charmander, and Squirtle"", ""Chikorita, Cyndaquil, and Totodile""]",http,0.0,16,none,"{""id"":""chatcmpl-2jk7xn153ae6zkj5ysrpnd"",""object"":""chat.completion"",""created"":1795554950,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9852,,MarianeAzar,20261124_215144,2026-11-24T21:15:52.022860+00:00
+151a50e0134f1f25,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the second-generation Pokémon games, which Pokémon can you start with?
+A. Treecko,Torchic, and Mudkip
+B. Grassy, Firey, and Watery
+C. Bulbasaur, Charmander, and Squirtle
+D. Chikorita, Cyndaquil, and Totodile
+Answer:","[""Treecko,Torchic, and Mudkip"", ""Grassy, Firey, and Watery"", ""Bulbasaur, Charmander, and Squirtle"", ""Chikorita, Cyndaquil, and Totodile""]",http,0.0,16,none,"{""id"":""chatcmpl-qmfekich0yraantw3gfg0w"",""object"":""chat.completion"",""created"":1795554951,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4246,,MarianeAzar,20261124_215144,2026-11-24T21:15:53.447846+00:00
+0eaac7a6050518d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the film ""John Wick"" why does John Wick get out of retirement?
+A. His puppy is killed and his car was stolen
+B. He needed money
+C. He was punched in the face
+D. He got mugged
+Answer:","[""His puppy is killed and his car was stolen"", ""He needed money"", ""He was punched in the face"", ""He got mugged""]",http,0.0,16,none,"{""id"":""chatcmpl-y4op7l3a7vcc7blr6vl3u"",""object"":""chat.completion"",""created"":1795554953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9671,,MarianeAzar,20261124_215144,2026-11-24T21:15:54.415170+00:00
+0eaac7a6050518d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the film ""John Wick"" why does John Wick get out of retirement?
+A. His puppy is killed and his car was stolen
+B. He needed money
+C. He was punched in the face
+D. He got mugged
+Answer:","[""His puppy is killed and his car was stolen"", ""He needed money"", ""He was punched in the face"", ""He got mugged""]",http,0.0,16,none,"{""id"":""chatcmpl-iibhlx0dq5h2kcky1kfmz7"",""object"":""chat.completion"",""created"":1795554954,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2708,,MarianeAzar,20261124_215144,2026-11-24T21:15:55.686225+00:00
+4019fc971b10b5c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?
+A. The Incas
+B. The Aztecs
+C. The Navajos
+D. The Mayans
+Answer:","[""The Incas"", ""The Aztecs"", ""The Navajos"", ""The Mayans""]",http,0.0,16,none,"{""id"":""chatcmpl-lwltmyq5vuhwls1igz8jgc"",""object"":""chat.completion"",""created"":1795554955,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2669,,MarianeAzar,20261124_215144,2026-11-24T21:15:56.953286+00:00
+4019fc971b10b5c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?
+A. The Incas
+B. The Aztecs
+C. The Navajos
+D. The Mayans
+Answer:","[""The Incas"", ""The Aztecs"", ""The Navajos"", ""The Mayans""]",http,0.0,16,none,"{""id"":""chatcmpl-py22ox1sj3hn6e9uvepy7o"",""object"":""chat.completion"",""created"":1795554956,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.985,,MarianeAzar,20261124_215144,2026-11-24T21:15:57.938490+00:00
+fd9b3b243833e769,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A carnivorous animal eats flesh, what does a nucivorous animal eat?
+A. Nuts
+B. Seaweed
+C. Fruit
+D. Nothing
+Answer:","[""Nuts"", ""Seaweed"", ""Fruit"", ""Nothing""]",http,0.0,16,none,"{""id"":""chatcmpl-qobn23njfm8cen2pvnhbag"",""object"":""chat.completion"",""created"":1795554957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2374,,MarianeAzar,20261124_215144,2026-11-24T21:15:59.176311+00:00
+fd9b3b243833e769,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A carnivorous animal eats flesh, what does a nucivorous animal eat?
+A. Nuts
+B. Seaweed
+C. Fruit
+D. Nothing
+Answer:","[""Nuts"", ""Seaweed"", ""Fruit"", ""Nothing""]",http,0.0,16,none,"{""id"":""chatcmpl-zichlxkybuoy8een0czta"",""object"":""chat.completion"",""created"":1795554959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2791,,MarianeAzar,20261124_215144,2026-11-24T21:16:00.455668+00:00
+0c52e09552c33763,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Xenomorph from the science fiction film ""Alien"" has acidic blood.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-25cauplym18m7ixrl5lxhe"",""object"":""chat.completion"",""created"":1795554960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261124_215144,2026-11-24T21:16:01.341502+00:00
+0c52e09552c33763,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Xenomorph from the science fiction film ""Alien"" has acidic blood.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d0l6icwrgh81iplcu0zal"",""object"":""chat.completion"",""created"":1795554961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2236,,MarianeAzar,20261124_215144,2026-11-24T21:16:02.565260+00:00

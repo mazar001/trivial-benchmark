@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f8f0ae2101c7838e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Marilyn Monroe's first husband?
+A. James Dougherty
+B. Kirk Douglas
+C. Arthur Miller
+D. Joe Dimaggio
+Answer:","[""James Dougherty"", ""Kirk Douglas"", ""Arthur Miller"", ""Joe Dimaggio""]",http,0.0,16,none,"{""id"":""chatcmpl-fkq1x715blxt89hjl2wt8"",""object"":""chat.completion"",""created"":1795596901,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8477,,MarianeAzar,20261125_084135,2026-11-25T08:55:03.041528+00:00
+f8f0ae2101c7838e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Marilyn Monroe's first husband?
+A. James Dougherty
+B. Kirk Douglas
+C. Arthur Miller
+D. Joe Dimaggio
+Answer:","[""James Dougherty"", ""Kirk Douglas"", ""Arthur Miller"", ""Joe Dimaggio""]",http,0.0,16,none,"{""id"":""chatcmpl-hncaoaiqwhhs3tcuvsoe3c"",""object"":""chat.completion"",""created"":1795596902,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8585,,MarianeAzar,20261125_084135,2026-11-25T08:55:03.900275+00:00
+e5b92591decec0e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Banjo-Kazooie"" originally started its development as a totally different game for the SNES under which codename?
+A. Project Land
+B. Project Dream
+C. Project Ukulele
+D. Project BK
+Answer:","[""Project Land"", ""Project Dream"", ""Project Ukulele"", ""Project BK""]",http,0.0,16,none,"{""id"":""chatcmpl-2en9zkekxs5pyt7q5xaw08"",""object"":""chat.completion"",""created"":1795596903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261125_084135,2026-11-25T08:55:04.786800+00:00
+e5b92591decec0e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Banjo-Kazooie"" originally started its development as a totally different game for the SNES under which codename?
+A. Project Land
+B. Project Dream
+C. Project Ukulele
+D. Project BK
+Answer:","[""Project Land"", ""Project Dream"", ""Project Ukulele"", ""Project BK""]",http,0.0,16,none,"{""id"":""chatcmpl-t14a5su2lclrd0kke6jt6s"",""object"":""chat.completion"",""created"":1795596904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T08:55:05.669937+00:00
+0935b89b86fcfbce,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the hardest possible difficulty in ""Deus Ex: Mankind Divided""?
+A. Extreme
+B. Nightmare
+C. I Never Asked For This
+D. Guru
+Answer:","[""Extreme"", ""Nightmare"", ""I Never Asked For This"", ""Guru""]",http,0.0,16,none,"{""id"":""chatcmpl-05kbqtd485uiw1bdnrkpt5"",""object"":""chat.completion"",""created"":1795596905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.877,,MarianeAzar,20261125_084135,2026-11-25T08:55:06.547307+00:00
+0935b89b86fcfbce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the hardest possible difficulty in ""Deus Ex: Mankind Divided""?
+A. Extreme
+B. Nightmare
+C. I Never Asked For This
+D. Guru
+Answer:","[""Extreme"", ""Nightmare"", ""I Never Asked For This"", ""Guru""]",http,0.0,16,none,"{""id"":""chatcmpl-f3b6ha1m7aob46n47krk6o"",""object"":""chat.completion"",""created"":1795596905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T08:55:07.421177+00:00
+33daaa6ddce8acb6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Lithuania declare independence from the Soviet Union?
+A. December 25th, 1991
+B. March 11th, 1990
+C. December 5th, 1991
+D. April 20th, 1989
+Answer:","[""December 25th, 1991"", ""March 11th, 1990"", ""December 5th, 1991"", ""April 20th, 1989""]",http,0.0,16,none,"{""id"":""chatcmpl-zxudmbisdi5h3mmiggtp2"",""object"":""chat.completion"",""created"":1795596906,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8877,,MarianeAzar,20261125_084135,2026-11-25T08:55:08.309103+00:00
+33daaa6ddce8acb6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Lithuania declare independence from the Soviet Union?
+A. December 25th, 1991
+B. March 11th, 1990
+C. December 5th, 1991
+D. April 20th, 1989
+Answer:","[""December 25th, 1991"", ""March 11th, 1990"", ""December 5th, 1991"", ""April 20th, 1989""]",http,0.0,16,none,"{""id"":""chatcmpl-z7mgqzb62fiw3rss3mro"",""object"":""chat.completion"",""created"":1795596907,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9214,,MarianeAzar,20261125_084135,2026-11-25T08:55:09.230730+00:00
+fbde1475db5eda47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced Metalbeard in ""The Lego Movie""?
+A. Will Arnet
+B. Nick Offerman
+C. Morgan Freeman
+D. Liam Neeson
+Answer:","[""Will Arnet"", ""Nick Offerman"", ""Morgan Freeman"", ""Liam Neeson""]",http,0.0,16,none,"{""id"":""chatcmpl-2q2k8nndku59m75etwgzf"",""object"":""chat.completion"",""created"":1795596908,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9035,,MarianeAzar,20261125_084135,2026-11-25T08:55:10.134704+00:00
+fbde1475db5eda47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced Metalbeard in ""The Lego Movie""?
+A. Will Arnet
+B. Nick Offerman
+C. Morgan Freeman
+D. Liam Neeson
+Answer:","[""Will Arnet"", ""Nick Offerman"", ""Morgan Freeman"", ""Liam Neeson""]",http,0.0,16,none,"{""id"":""chatcmpl-eer140b9lmwfzbhtqhniho"",""object"":""chat.completion"",""created"":1795596909,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T08:55:10.999941+00:00
+6638084c8fb5882a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only state in the United States that does not have a flag in a shape with 4 edges?
+A. Florida
+B. Ohio
+C. Idaho
+D. New Mexico
+Answer:","[""Florida"", ""Ohio"", ""Idaho"", ""New Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-1ug8ydkivfe8cabskzktc7"",""object"":""chat.completion"",""created"":1795596910,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:55:11.862131+00:00
+6638084c8fb5882a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only state in the United States that does not have a flag in a shape with 4 edges?
+A. Florida
+B. Ohio
+C. Idaho
+D. New Mexico
+Answer:","[""Florida"", ""Ohio"", ""Idaho"", ""New Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-sp2wvnlykcc4quoi9rx6wi"",""object"":""chat.completion"",""created"":1795596911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:55:12.730485+00:00
+715fec2118648aa8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0tm2phvv9e4cm188tbnsdz"",""object"":""chat.completion"",""created"":1795596912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7967,,MarianeAzar,20261125_084135,2026-11-25T08:55:13.527502+00:00
+715fec2118648aa8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Lead Singer Rivers Cuomo of American rock band Weezer attended Harvard.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-i227ms8ic5gua06umhp59q"",""object"":""chat.completion"",""created"":1795596912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.834,,MarianeAzar,20261125_084135,2026-11-25T08:55:14.361634+00:00
+1f21c7793a213a80,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: For what reason would a spotted hyena ""laugh""?
+A. Exhaustion
+B. Aggression
+C. Nervousness
+D. Excitement
+Answer:","[""Exhaustion"", ""Aggression"", ""Nervousness"", ""Excitement""]",http,0.0,16,none,"{""id"":""chatcmpl-z8dajoydhmnjz3iuqhboe"",""object"":""chat.completion"",""created"":1795596913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8475,,MarianeAzar,20261125_084135,2026-11-25T08:55:15.209530+00:00
+1f21c7793a213a80,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: For what reason would a spotted hyena ""laugh""?
+A. Exhaustion
+B. Aggression
+C. Nervousness
+D. Excitement
+Answer:","[""Exhaustion"", ""Aggression"", ""Nervousness"", ""Excitement""]",http,0.0,16,none,"{""id"":""chatcmpl-x5ijbhhatzcz4ugvp2a0p"",""object"":""chat.completion"",""created"":1795596914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261125_084135,2026-11-25T08:55:16.069961+00:00
+3f00b90236f5af4f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Han Solo's co-pilot and best friend, ""Chewbacca"", is an Ewok.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cnq84xco6kevhel3mb6ypa"",""object"":""chat.completion"",""created"":1795596915,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8198,,MarianeAzar,20261125_084135,2026-11-25T08:55:16.889941+00:00
+3f00b90236f5af4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Han Solo's co-pilot and best friend, ""Chewbacca"", is an Ewok.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vng4fx2uxe8tqd8lbpk6o"",""object"":""chat.completion"",""created"":1795596916,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T08:55:17.753036+00:00
+f0aac9b94fc08605,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Beatles' band name was inspired by the band The Crickets.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mkxssmolbyzwg5a8svigq"",""object"":""chat.completion"",""created"":1795596917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7971,,MarianeAzar,20261125_084135,2026-11-25T08:55:18.550453+00:00
+f0aac9b94fc08605,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Beatles' band name was inspired by the band The Crickets.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p9xwo7n31u5szkka15dd"",""object"":""chat.completion"",""created"":1795596917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8174,,MarianeAzar,20261125_084135,2026-11-25T08:55:19.367966+00:00
+8e7cf825ce2d0160,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following European languages is classified as a ""language isolate?""
+A. Basque
+B. Maltese
+C. Hungarian
+D. Galician
+Answer:","[""Basque"", ""Maltese"", ""Hungarian"", ""Galician""]",http,0.0,16,none,"{""id"":""chatcmpl-hdvz9661kqepghx92rcke"",""object"":""chat.completion"",""created"":1795596918,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T08:55:20.235337+00:00
+8e7cf825ce2d0160,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following European languages is classified as a ""language isolate?""
+A. Basque
+B. Maltese
+C. Hungarian
+D. Galician
+Answer:","[""Basque"", ""Maltese"", ""Hungarian"", ""Galician""]",http,0.0,16,none,"{""id"":""chatcmpl-0uc1weinfwti72u0lleteo"",""object"":""chat.completion"",""created"":1795596919,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T08:55:21.088689+00:00
+2c7c384cddd9bc1c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The British organisation CAMRA stands for The Campaign for Real Ale.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-prxqoy1dplwbnm836jwj"",""object"":""chat.completion"",""created"":1795596920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8033,,MarianeAzar,20261125_084135,2026-11-25T08:55:21.892220+00:00
+2c7c384cddd9bc1c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The British organisation CAMRA stands for The Campaign for Real Ale.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-g2w27fj4x44avap52w78v4"",""object"":""chat.completion"",""created"":1795596921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8233,,MarianeAzar,20261125_084135,2026-11-25T08:55:22.715677+00:00
+839554a9e03b16b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Overwatch, which hero out of the following 4 is from Brazil?
+A. Lúcio
+B. McCree
+C. Sombra
+D. Symmetra
+Answer:","[""Lúcio"", ""McCree"", ""Sombra"", ""Symmetra""]",http,0.0,16,none,"{""id"":""chatcmpl-xwqvym2cbwp19rmi6yg3h"",""object"":""chat.completion"",""created"":1795596922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8543,,MarianeAzar,20261125_084135,2026-11-25T08:55:23.570226+00:00

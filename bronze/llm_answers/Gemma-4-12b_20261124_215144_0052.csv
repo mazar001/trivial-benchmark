@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+97f57cdcc0494072,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many cards are there in a standard deck of playing cards?
+A. 52
+B. 64
+C. 40
+D. 32
+Answer:","[""52"", ""64"", ""40"", ""32""]",http,0.0,16,none,"{""id"":""chatcmpl-zpthbw3rhkmpeo7iee5p6p"",""object"":""chat.completion"",""created"":1795554850,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2624,,MarianeAzar,20261124_215144,2026-11-24T21:14:11.993798+00:00
+97f57cdcc0494072,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many cards are there in a standard deck of playing cards?
+A. 52
+B. 64
+C. 40
+D. 32
+Answer:","[""52"", ""64"", ""40"", ""32""]",http,0.0,16,none,"{""id"":""chatcmpl-afh3g0qj69f0q59td30d8im"",""object"":""chat.completion"",""created"":1795554851,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9334,,MarianeAzar,20261124_215144,2026-11-24T21:14:12.927351+00:00
+78547b5e3224dc95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the young adult novel ""The Fault in Our Stars""?
+A. Stephenie Meyer
+B. John Green
+C. Suzanne Collins
+D. Stephen Chbosky
+Answer:","[""Stephenie Meyer"", ""John Green"", ""Suzanne Collins"", ""Stephen Chbosky""]",http,0.0,16,none,"{""id"":""chatcmpl-ruckvd3sjkkhva0z8mgyp"",""object"":""chat.completion"",""created"":1795554852,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1953,,MarianeAzar,20261124_215144,2026-11-24T21:14:14.122860+00:00
+78547b5e3224dc95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who wrote the young adult novel ""The Fault in Our Stars""?
+A. Stephenie Meyer
+B. John Green
+C. Suzanne Collins
+D. Stephen Chbosky
+Answer:","[""Stephenie Meyer"", ""John Green"", ""Suzanne Collins"", ""Stephen Chbosky""]",http,0.0,16,none,"{""id"":""chatcmpl-gjmgu86udkss0jo8zarged"",""object"":""chat.completion"",""created"":1795554854,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1487,,MarianeAzar,20261124_215144,2026-11-24T21:14:15.271828+00:00
+41cc89ba6f0bc654,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard Gregorian calendar, how many months begin with the letter 'J'?
+A. Three
+B. Four
+C. Two
+D. Five
+Answer:","[""Three"", ""Four"", ""Two"", ""Five""]",http,0.0,16,none,"{""id"":""chatcmpl-k7696f5gttkzu96pg0dm"",""object"":""chat.completion"",""created"":1795554855,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261124_215144,2026-11-24T21:14:16.153538+00:00
+41cc89ba6f0bc654,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a standard Gregorian calendar, how many months begin with the letter 'J'?
+A. Three
+B. Four
+C. Two
+D. Five
+Answer:","[""Three"", ""Four"", ""Two"", ""Five""]",http,0.0,16,none,"{""id"":""chatcmpl-s68vpxtmfi83slzmanlcm"",""object"":""chat.completion"",""created"":1795554856,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4182,,MarianeAzar,20261124_215144,2026-11-24T21:14:17.571954+00:00
+4a4eea99b2668d3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is regarded as the best Romanian footballer of all time?
+A. Gheorghe Popescu
+B. Gheorghe Hagi
+C. Cristian Chivu
+D. Nicolae Dobrin
+Answer:","[""Gheorghe Popescu"", ""Gheorghe Hagi"", ""Cristian Chivu"", ""Nicolae Dobrin""]",http,0.0,16,none,"{""id"":""chatcmpl-mh936ykp62fgs8ilcpkqy4"",""object"":""chat.completion"",""created"":1795554857,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9466,,MarianeAzar,20261124_215144,2026-11-24T21:14:18.518694+00:00
+4a4eea99b2668d3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is regarded as the best Romanian footballer of all time?
+A. Gheorghe Popescu
+B. Gheorghe Hagi
+C. Cristian Chivu
+D. Nicolae Dobrin
+Answer:","[""Gheorghe Popescu"", ""Gheorghe Hagi"", ""Cristian Chivu"", ""Nicolae Dobrin""]",http,0.0,16,none,"{""id"":""chatcmpl-dqfkfla6m4f2ie2bykp2cf"",""object"":""chat.completion"",""created"":1795554858,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9304,,MarianeAzar,20261124_215144,2026-11-24T21:14:19.449278+00:00
+85c75bfc7fbd4f20,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Game Boy from the Game Boy series of portable video game consoles was released first?
+A. Game Boy Color
+B. Game Boy Advance
+C. Game Boy Micro
+D. Game Boy Advance SP
+Answer:","[""Game Boy Color"", ""Game Boy Advance"", ""Game Boy Micro"", ""Game Boy Advance SP""]",http,0.0,16,none,"{""id"":""chatcmpl-4ymiy27d1ysk5pk8uiiing"",""object"":""chat.completion"",""created"":1795554859,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4392,,MarianeAzar,20261124_215144,2026-11-24T21:14:20.888803+00:00
+85c75bfc7fbd4f20,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Game Boy from the Game Boy series of portable video game consoles was released first?
+A. Game Boy Color
+B. Game Boy Advance
+C. Game Boy Micro
+D. Game Boy Advance SP
+Answer:","[""Game Boy Color"", ""Game Boy Advance"", ""Game Boy Micro"", ""Game Boy Advance SP""]",http,0.0,16,none,"{""id"":""chatcmpl-ct86kybqkyjs5e1x943w"",""object"":""chat.completion"",""created"":1795554860,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9781,,MarianeAzar,20261124_215144,2026-11-24T21:14:21.867243+00:00
+1b21df06b7310179,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first few words in the lyrics of A-Ha's 'Take On Me'?
+A. We're blocking the way
+B. We're talking away
+C. We're finding a way
+D. We're dreaming today
+Answer:","[""We're blocking the way"", ""We're talking away"", ""We're finding a way"", ""We're dreaming today""]",http,0.0,16,none,"{""id"":""chatcmpl-43fhewbq6sdvwb65t8cmfr"",""object"":""chat.completion"",""created"":1795554861,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9367,,MarianeAzar,20261124_215144,2026-11-24T21:14:22.804876+00:00
+1b21df06b7310179,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the first few words in the lyrics of A-Ha's 'Take On Me'?
+A. We're blocking the way
+B. We're talking away
+C. We're finding a way
+D. We're dreaming today
+Answer:","[""We're blocking the way"", ""We're talking away"", ""We're finding a way"", ""We're dreaming today""]",http,0.0,16,none,"{""id"":""chatcmpl-jevk4rvu3e16oejcckra7"",""object"":""chat.completion"",""created"":1795554862,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5105,,MarianeAzar,20261124_215144,2026-11-24T21:14:24.315553+00:00
+8a69129e6027e49a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which computer language would you associate Django framework with?
+A. Java
+B. C++
+C. C#
+D. Python
+Answer:","[""Java"", ""C++"", ""C#"", ""Python""]",http,0.0,16,none,"{""id"":""chatcmpl-vh6zw8om34twir8yt3p06s"",""object"":""chat.completion"",""created"":1795554864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9563,,MarianeAzar,20261124_215144,2026-11-24T21:14:25.271957+00:00
+8a69129e6027e49a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which computer language would you associate Django framework with?
+A. Java
+B. C++
+C. C#
+D. Python
+Answer:","[""Java"", ""C++"", ""C#"", ""Python""]",http,0.0,16,none,"{""id"":""chatcmpl-brsgclsu13qkaxygvyok4j"",""object"":""chat.completion"",""created"":1795554865,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.928,,MarianeAzar,20261124_215144,2026-11-24T21:14:26.200066+00:00
+4dfaa250630c04b5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's main easter egg will reward you with the achievement, ""Little Lost Girl""?
+A. Moon
+B. Tranzit
+C. Origins
+D. Revelations
+Answer:","[""Moon"", ""Tranzit"", ""Origins"", ""Revelations""]",http,0.0,16,none,"{""id"":""chatcmpl-5sigo2zbotnoibhbnlfls"",""object"":""chat.completion"",""created"":1795554866,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4284,,MarianeAzar,20261124_215144,2026-11-24T21:14:27.628627+00:00
+4dfaa250630c04b5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", completing which map's main easter egg will reward you with the achievement, ""Little Lost Girl""?
+A. Moon
+B. Tranzit
+C. Origins
+D. Revelations
+Answer:","[""Moon"", ""Tranzit"", ""Origins"", ""Revelations""]",http,0.0,16,none,"{""id"":""chatcmpl-1urhas8mxkrpudmdhzzv5a"",""object"":""chat.completion"",""created"":1795554867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.983,,MarianeAzar,20261124_215144,2026-11-24T21:14:28.611871+00:00
+31fa34c8e2ae7e95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Pokemon, the ability Wonder Guard is exclusive to which Pokemon?
+A. Shedinja
+B. Sableye
+C. Silvally
+D. Spiritomb
+Answer:","[""Shedinja"", ""Sableye"", ""Silvally"", ""Spiritomb""]",http,0.0,16,none,"{""id"":""chatcmpl-4axs07ye5zrae6yjlr6lsd"",""object"":""chat.completion"",""created"":1795554868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9022,,MarianeAzar,20261124_215144,2026-11-24T21:14:29.514381+00:00
+31fa34c8e2ae7e95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Pokemon, the ability Wonder Guard is exclusive to which Pokemon?
+A. Shedinja
+B. Sableye
+C. Silvally
+D. Spiritomb
+Answer:","[""Shedinja"", ""Sableye"", ""Silvally"", ""Spiritomb""]",http,0.0,16,none,"{""id"":""chatcmpl-cdzslj032hqj85yumsij9"",""object"":""chat.completion"",""created"":1795554869,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.438,,MarianeAzar,20261124_215144,2026-11-24T21:14:30.952682+00:00
+6b1a495f91696119,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the survival horror game, ""Cry of Fear,"" what was the name of Simon's close friend/potential love interest?
+A. Olivia
+B. Sophie
+C. Jessica
+D. Alice
+Answer:","[""Olivia"", ""Sophie"", ""Jessica"", ""Alice""]",http,0.0,16,none,"{""id"":""chatcmpl-r1fbaokk263u5rm9243eb"",""object"":""chat.completion"",""created"":1795554870,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0251,,MarianeAzar,20261124_215144,2026-11-24T21:14:31.978080+00:00
+6b1a495f91696119,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the survival horror game, ""Cry of Fear,"" what was the name of Simon's close friend/potential love interest?
+A. Olivia
+B. Sophie
+C. Jessica
+D. Alice
+Answer:","[""Olivia"", ""Sophie"", ""Jessica"", ""Alice""]",http,0.0,16,none,"{""id"":""chatcmpl-oif4c337xbmyqpcsyg00gr"",""object"":""chat.completion"",""created"":1795554871,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9638,,MarianeAzar,20261124_215144,2026-11-24T21:14:32.942191+00:00
+61cbbdd4a889bbff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these are the name of a famous marker brand?
+A. Dopix
+B. Marx
+C. Cofix
+D. Copic
+Answer:","[""Dopix"", ""Marx"", ""Cofix"", ""Copic""]",http,0.0,16,none,"{""id"":""chatcmpl-qwlimibsnzt7r26lq5qo"",""object"":""chat.completion"",""created"":1795554872,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.367,,MarianeAzar,20261124_215144,2026-11-24T21:14:34.310343+00:00
+61cbbdd4a889bbff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these are the name of a famous marker brand?
+A. Dopix
+B. Marx
+C. Cofix
+D. Copic
+Answer:","[""Dopix"", ""Marx"", ""Cofix"", ""Copic""]",http,0.0,16,none,"{""id"":""chatcmpl-mlxwq3avp3gxcl6u3m3cyd"",""object"":""chat.completion"",""created"":1795554874,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0169,,MarianeAzar,20261124_215144,2026-11-24T21:14:35.327496+00:00
+7140f45cd00675db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Magic: The Gathering"", what instant card has the highest converted mana cost?
+A. Assert Authority
+B. Chant of Vitu-Ghazi
+C. Blinkmoth Infusion
+D. Vitalizing Wind
+Answer:","[""Assert Authority"", ""Chant of Vitu-Ghazi"", ""Blinkmoth Infusion"", ""Vitalizing Wind""]",http,0.0,16,none,"{""id"":""chatcmpl-xiezs4c65ggjg9vr8o3n"",""object"":""chat.completion"",""created"":1795554875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9391,,MarianeAzar,20261124_215144,2026-11-24T21:14:36.267010+00:00
+7140f45cd00675db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Magic: The Gathering"", what instant card has the highest converted mana cost?
+A. Assert Authority
+B. Chant of Vitu-Ghazi
+C. Blinkmoth Infusion
+D. Vitalizing Wind
+Answer:","[""Assert Authority"", ""Chant of Vitu-Ghazi"", ""Blinkmoth Infusion"", ""Vitalizing Wind""]",http,0.0,16,none,"{""id"":""chatcmpl-b7yw51ngwypluzhff3cx"",""object"":""chat.completion"",""created"":1795554876,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3354,,MarianeAzar,20261124_215144,2026-11-24T21:14:37.602707+00:00
+1a2fa28ada23c72c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Gerald Ford Become President?
+A. 1974
+B. 1977
+C. 1969
+D. 1973
+Answer:","[""1974"", ""1977"", ""1969"", ""1973""]",http,0.0,16,none,"{""id"":""chatcmpl-f24ryr68c99m1o0dkhmg4r"",""object"":""chat.completion"",""created"":1795554877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8875,,MarianeAzar,20261124_215144,2026-11-24T21:14:38.490348+00:00

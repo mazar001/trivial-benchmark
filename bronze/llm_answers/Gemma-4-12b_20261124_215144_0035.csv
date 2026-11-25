@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0f10a0518d08f21f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many partners can you obtain in Paper Mario: The Thousand-Year Door?
+A. 9
+B. 7
+C. 6
+D. 10
+Answer:","[""9"", ""7"", ""6"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-dd4araduhynjimcoz31a5j"",""object"":""chat.completion"",""created"":1795554394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8617,,MarianeAzar,20261124_215144,2026-11-24T21:06:35.064130+00:00
+42b71eff58473c69,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During the Winter War, the amount of Soviet Union soliders that died or went missing was five times more than Finland's.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6pr0kh64tvw6iqnfob23c"",""object"":""chat.completion"",""created"":1795554394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8412,,MarianeAzar,20261124_215144,2026-11-24T21:06:35.905583+00:00
+42b71eff58473c69,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: During the Winter War, the amount of Soviet Union soliders that died or went missing was five times more than Finland's.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7hqpbwaxr2jgvwj9mpzyah"",""object"":""chat.completion"",""created"":1795554395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.956,,MarianeAzar,20261124_215144,2026-11-24T21:06:36.861842+00:00
+a355cf7f73e6f125,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game, Half-life, what event started the Half-life universe as we know today?
+A. The Xen Attack
+B. The Black Mesa Nuke
+C. World War 3
+D. The Resonance Cascade
+Answer:","[""The Xen Attack"", ""The Black Mesa Nuke"", ""World War 3"", ""The Resonance Cascade""]",http,0.0,16,none,"{""id"":""chatcmpl-j48yhd7m6eqbt60eu51pm"",""object"":""chat.completion"",""created"":1795554396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9243,,MarianeAzar,20261124_215144,2026-11-24T21:06:37.786478+00:00
+a355cf7f73e6f125,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game, Half-life, what event started the Half-life universe as we know today?
+A. The Xen Attack
+B. The Black Mesa Nuke
+C. World War 3
+D. The Resonance Cascade
+Answer:","[""The Xen Attack"", ""The Black Mesa Nuke"", ""World War 3"", ""The Resonance Cascade""]",http,0.0,16,none,"{""id"":""chatcmpl-lhxdj4ihjb9pzabminzhda"",""object"":""chat.completion"",""created"":1795554397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9417,,MarianeAzar,20261124_215144,2026-11-24T21:06:38.728521+00:00
+e8450cdb365924d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""Fallout"" released?
+A. 1999
+B. 1996
+C. 1997
+D. 1998
+Answer:","[""1999"", ""1996"", ""1997"", ""1998""]",http,0.0,16,none,"{""id"":""chatcmpl-d2uhciyydbimg9bjtb3owd"",""object"":""chat.completion"",""created"":1795554398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8728,,MarianeAzar,20261124_215144,2026-11-24T21:06:39.601973+00:00
+e8450cdb365924d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""Fallout"" released?
+A. 1999
+B. 1996
+C. 1997
+D. 1998
+Answer:","[""1999"", ""1996"", ""1997"", ""1998""]",http,0.0,16,none,"{""id"":""chatcmpl-6ajvxzw9j18rbvt9bx3u4"",""object"":""chat.completion"",""created"":1795554399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8791,,MarianeAzar,20261124_215144,2026-11-24T21:06:40.481187+00:00
+8becffc0e0dd644c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What NBC sitcom once saw two of its characters try to pitch NBC on a sitcom about nothing?
+A. Friends
+B. Frasier
+C. Becker
+D. Seinfeld
+Answer:","[""Friends"", ""Frasier"", ""Becker"", ""Seinfeld""]",http,0.0,16,none,"{""id"":""chatcmpl-0dban8s8myycnbmpzpaakro"",""object"":""chat.completion"",""created"":1795554400,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261124_215144,2026-11-24T21:06:41.336006+00:00
+8becffc0e0dd644c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What NBC sitcom once saw two of its characters try to pitch NBC on a sitcom about nothing?
+A. Friends
+B. Frasier
+C. Becker
+D. Seinfeld
+Answer:","[""Friends"", ""Frasier"", ""Becker"", ""Seinfeld""]",http,0.0,16,none,"{""id"":""chatcmpl-3swmo0myld8djkkgy62d36"",""object"":""chat.completion"",""created"":1795554401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261124_215144,2026-11-24T21:06:42.190129+00:00
+0b953022972cf447,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African regions does *not* directly border the Democratic Republic of The Congo?
+A. Zambia
+B. Tanzania
+C. Sudan
+D. Central African Republic
+Answer:","[""Zambia"", ""Tanzania"", ""Sudan"", ""Central African Republic""]",http,0.0,16,none,"{""id"":""chatcmpl-6bgx61lnthrfphy8dqodd"",""object"":""chat.completion"",""created"":1795554402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8762,,MarianeAzar,20261124_215144,2026-11-24T21:06:43.066519+00:00
+0b953022972cf447,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African regions does *not* directly border the Democratic Republic of The Congo?
+A. Zambia
+B. Tanzania
+C. Sudan
+D. Central African Republic
+Answer:","[""Zambia"", ""Tanzania"", ""Sudan"", ""Central African Republic""]",http,0.0,16,none,"{""id"":""chatcmpl-8iuzui1k5cpv0ln2viua19"",""object"":""chat.completion"",""created"":1795554402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9175,,MarianeAzar,20261124_215144,2026-11-24T21:06:43.984204+00:00
+b0f4433e4ccd30d3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Linnean name of the domestic apple tree?
+A. Malus pumila
+B. Appelus delectica
+C. Pomus domestica
+D. Malus americana
+Answer:","[""Malus pumila"", ""Appelus delectica"", ""Pomus domestica"", ""Malus americana""]",http,0.0,16,none,"{""id"":""chatcmpl-8ge43z8zawft7cam1vlj1m"",""object"":""chat.completion"",""created"":1795554403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9668,,MarianeAzar,20261124_215144,2026-11-24T21:06:44.951274+00:00
+b0f4433e4ccd30d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Linnean name of the domestic apple tree?
+A. Malus pumila
+B. Appelus delectica
+C. Pomus domestica
+D. Malus americana
+Answer:","[""Malus pumila"", ""Appelus delectica"", ""Pomus domestica"", ""Malus americana""]",http,0.0,16,none,"{""id"":""chatcmpl-t88546cb6fg0ab29fzfrq"",""object"":""chat.completion"",""created"":1795554404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1259,,MarianeAzar,20261124_215144,2026-11-24T21:06:46.077509+00:00
+e3cc1ad72d6d8aaf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This Marvel superhero is often called ""The man without fear"".
+A. Wolverine
+B. Hulk
+C. Daredevil
+D. Thor
+Answer:","[""Wolverine"", ""Hulk"", ""Daredevil"", ""Thor""]",http,0.0,16,none,"{""id"":""chatcmpl-dqp5afewebhnj3x6phac5"",""object"":""chat.completion"",""created"":1795554405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9106,,MarianeAzar,20261124_215144,2026-11-24T21:06:46.988442+00:00
+e3cc1ad72d6d8aaf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This Marvel superhero is often called ""The man without fear"".
+A. Wolverine
+B. Hulk
+C. Daredevil
+D. Thor
+Answer:","[""Wolverine"", ""Hulk"", ""Daredevil"", ""Thor""]",http,0.0,16,none,"{""id"":""chatcmpl-f6xllnk7h9vyu9kfyg7jvo"",""object"":""chat.completion"",""created"":1795554406,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261124_215144,2026-11-24T21:06:47.841308+00:00
+3e1bf93b25116f0e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A cancelled Call Of Duty title would have taken place in ancient Rome.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q2mq1u0xw3d0t2olzvoy"",""object"":""chat.completion"",""created"":1795554407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8275,,MarianeAzar,20261124_215144,2026-11-24T21:06:48.669407+00:00
+3e1bf93b25116f0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A cancelled Call Of Duty title would have taken place in ancient Rome.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b19f80qkanfggqwep8h0k"",""object"":""chat.completion"",""created"":1795554408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.815,,MarianeAzar,20261124_215144,2026-11-24T21:06:49.484582+00:00
+1bed842eed3e77cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?
+A. Atraeyu
+B. Atraiyu
+C. Atreyu
+D. Atrayu
+Answer:","[""Atraeyu"", ""Atraiyu"", ""Atreyu"", ""Atrayu""]",http,0.0,16,none,"{""id"":""chatcmpl-lv8jo5pgbrzd8y5k6w8b"",""object"":""chat.completion"",""created"":1795554409,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8453,,MarianeAzar,20261124_215144,2026-11-24T21:06:50.330114+00:00
+1bed842eed3e77cf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?
+A. Atraeyu
+B. Atraiyu
+C. Atreyu
+D. Atrayu
+Answer:","[""Atraeyu"", ""Atraiyu"", ""Atreyu"", ""Atrayu""]",http,0.0,16,none,"{""id"":""chatcmpl-lw4mfcho03bx3xizle94l"",""object"":""chat.completion"",""created"":1795554410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9045,,MarianeAzar,20261124_215144,2026-11-24T21:06:51.234845+00:00
+fe601e18026dfa2f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What amount of bits commonly equals one byte?
+A. 8
+B. 64
+C. 1
+D. 2
+Answer:","[""8"", ""64"", ""1"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-rjw5m9k0tgo7w5wl0hje7w"",""object"":""chat.completion"",""created"":1795554411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261124_215144,2026-11-24T21:06:52.086833+00:00
+fe601e18026dfa2f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What amount of bits commonly equals one byte?
+A. 8
+B. 64
+C. 1
+D. 2
+Answer:","[""8"", ""64"", ""1"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-y8w3yjo64emhvswelyif3v"",""object"":""chat.completion"",""created"":1795554411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261124_215144,2026-11-24T21:06:52.946927+00:00
+3b3bdd1e440fd8ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is revealed to be the villain at the end of the first live action Scooby Doo movie?
+A. Fred
+B. Old Man Mason
+C. The Local News Team
+D. Scrappy Doo
+Answer:","[""Fred"", ""Old Man Mason"", ""The Local News Team"", ""Scrappy Doo""]",http,0.0,16,none,"{""id"":""chatcmpl-z9mdxnjs5u6izf7swpnqi"",""object"":""chat.completion"",""created"":1795554412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8793,,MarianeAzar,20261124_215144,2026-11-24T21:06:53.826829+00:00
+3b3bdd1e440fd8ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is revealed to be the villain at the end of the first live action Scooby Doo movie?
+A. Fred
+B. Old Man Mason
+C. The Local News Team
+D. Scrappy Doo
+Answer:","[""Fred"", ""Old Man Mason"", ""The Local News Team"", ""Scrappy Doo""]",http,0.0,16,none,"{""id"":""chatcmpl-ky90k56jwdmiqz46jl0vp"",""object"":""chat.completion"",""created"":1795554413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261124_215144,2026-11-24T21:06:54.709809+00:00
+915164a3c4c74435,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous 90's rap album is commonly referred to as ""The Bible of Hip Hop""?
+A. Enter The Wu-Tang (36 Chambers)
+B. Illmatic
+C. The Low End Theory
+D. The Chronic
+Answer:","[""Enter The Wu-Tang (36 Chambers)"", ""Illmatic"", ""The Low End Theory"", ""The Chronic""]",http,0.0,16,none,"{""id"":""chatcmpl-tiphyx38vzdhjh4nn046pv"",""object"":""chat.completion"",""created"":1795554414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8864,,MarianeAzar,20261124_215144,2026-11-24T21:06:55.596522+00:00
+915164a3c4c74435,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous 90's rap album is commonly referred to as ""The Bible of Hip Hop""?
+A. Enter The Wu-Tang (36 Chambers)
+B. Illmatic
+C. The Low End Theory
+D. The Chronic
+Answer:","[""Enter The Wu-Tang (36 Chambers)"", ""Illmatic"", ""The Low End Theory"", ""The Chronic""]",http,0.0,16,none,"{""id"":""chatcmpl-04xo5e37udnj6ryi26kjq8p"",""object"":""chat.completion"",""created"":1795554415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261124_215144,2026-11-24T21:06:56.483395+00:00

@@ -1,0 +1,168 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+eb4e13860c675610,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Mario Kart 8 Deluxe items will NOT make you invincible?
+A. Golden Mushroom
+B. Bullet Bill
+C. Boo
+D. Star
+Answer:","[""Golden Mushroom"", ""Bullet Bill"", ""Boo"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-lgvfjx1c4jqvtdc6xj6hf"",""object"":""chat.completion"",""created"":1795553905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9442,,MarianeAzar,20261124_215144,2026-11-24T20:58:26.632345+00:00
+eb4e13860c675610,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Mario Kart 8 Deluxe items will NOT make you invincible?
+A. Golden Mushroom
+B. Bullet Bill
+C. Boo
+D. Star
+Answer:","[""Golden Mushroom"", ""Bullet Bill"", ""Boo"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-wbfhqm819ksxe3qsbpmfxf"",""object"":""chat.completion"",""created"":1795553906,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4036,,MarianeAzar,20261124_215144,2026-11-24T20:58:28.036233+00:00
+b50665d73e967a7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The historical city Timbuktu is located in which West African country?
+A. Mali
+B. Burkina Faso
+C. Senegal
+D. Niger
+Answer:","[""Mali"", ""Burkina Faso"", ""Senegal"", ""Niger""]",http,0.0,16,none,"{""id"":""chatcmpl-qdelwvqyevqjxqqwzwdhr"",""object"":""chat.completion"",""created"":1795553907,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1366,,MarianeAzar,20261124_215144,2026-11-24T20:58:29.173078+00:00
+b50665d73e967a7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The historical city Timbuktu is located in which West African country?
+A. Mali
+B. Burkina Faso
+C. Senegal
+D. Niger
+Answer:","[""Mali"", ""Burkina Faso"", ""Senegal"", ""Niger""]",http,0.0,16,none,"{""id"":""chatcmpl-j704eom26pcb0v8tq8dsg"",""object"":""chat.completion"",""created"":1795553909,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9595,,MarianeAzar,20261124_215144,2026-11-24T20:58:30.132803+00:00
+ca7c4dc7c819e605,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the television show ""Lazy Town"", who is the actor of Robbie Rotten?
+A. Magnús Scheving
+B. Adam Sandler
+C. Stefán Stefánsson
+D. Stephen Carl
+Answer:","[""Magnús Scheving"", ""Adam Sandler"", ""Stefán Stefánsson"", ""Stephen Carl""]",http,0.0,16,none,"{""id"":""chatcmpl-ff5kfabtl8cdzdjo386gn"",""object"":""chat.completion"",""created"":1795553910,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9555,,MarianeAzar,20261124_215144,2026-11-24T20:58:31.088576+00:00
+ca7c4dc7c819e605,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the television show ""Lazy Town"", who is the actor of Robbie Rotten?
+A. Magnús Scheving
+B. Adam Sandler
+C. Stefán Stefánsson
+D. Stephen Carl
+Answer:","[""Magnús Scheving"", ""Adam Sandler"", ""Stefán Stefánsson"", ""Stephen Carl""]",http,0.0,16,none,"{""id"":""chatcmpl-h37xhbsudbscef8rwcl92l"",""object"":""chat.completion"",""created"":1795553911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.46,,MarianeAzar,20261124_215144,2026-11-24T20:58:32.548935+00:00
+2f9eab61f01149c0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?
+A. &&&&&&
+B. Xen
+C. Entrañas
+D. Sheep
+Answer:","[""&&&&&&"", ""Xen"", ""Entrañas"", ""Sheep""]",http,0.0,16,none,"{""id"":""chatcmpl-87oz8ujukm3xxcild3yh9"",""object"":""chat.completion"",""created"":1795553912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9186,,MarianeAzar,20261124_215144,2026-11-24T20:58:33.467825+00:00
+2f9eab61f01149c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?
+A. &&&&&&
+B. Xen
+C. Entrañas
+D. Sheep
+Answer:","[""&&&&&&"", ""Xen"", ""Entrañas"", ""Sheep""]",http,0.0,16,none,"{""id"":""chatcmpl-vqw1mmjg32co2lwueec5p"",""object"":""chat.completion"",""created"":1795553913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0046,,MarianeAzar,20261124_215144,2026-11-24T20:58:34.472740+00:00
+3df5152f3b653547,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All strawberries are red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-y1kk2spcx44vr7cdro8ch"",""object"":""chat.completion"",""created"":1795553914,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":44,""completion_tokens"":2,""total_tokens"":46,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2987,,MarianeAzar,20261124_215144,2026-11-24T20:58:35.771649+00:00
+3df5152f3b653547,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All strawberries are red.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nmnj9vxoylqfqcshjdadrq"",""object"":""chat.completion"",""created"":1795553915,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9553,,MarianeAzar,20261124_215144,2026-11-24T20:58:36.727276+00:00
+d0e032f1deb74170,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the front of a boat?
+A. Bow
+B. Starboard
+C. Port
+D. Stern
+Answer:","[""Bow"", ""Starboard"", ""Port"", ""Stern""]",http,0.0,16,none,"{""id"":""chatcmpl-cholfswiv818mo33ydde1"",""object"":""chat.completion"",""created"":1795553916,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3064,,MarianeAzar,20261124_215144,2026-11-24T20:58:38.034445+00:00
+d0e032f1deb74170,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the front of a boat?
+A. Bow
+B. Starboard
+C. Port
+D. Stern
+Answer:","[""Bow"", ""Starboard"", ""Port"", ""Stern""]",http,0.0,16,none,"{""id"":""chatcmpl-fqj2fi3hvo5m8do3dysef"",""object"":""chat.completion"",""created"":1795553917,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3179,,MarianeAzar,20261124_215144,2026-11-24T20:58:39.352596+00:00
+19807e84f093024d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist painted “The Treachery of Images,” a painting of a pipe with the description ""this is not a pipe""?
+A. Matisse
+B. Munch
+C. Modigliani
+D. Magritte
+Answer:","[""Matisse"", ""Munch"", ""Modigliani"", ""Magritte""]",http,0.0,16,none,"{""id"":""chatcmpl-cwbb8fo4zvhj4muggu5fkq"",""object"":""chat.completion"",""created"":1795553919,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9564,,MarianeAzar,20261124_215144,2026-11-24T20:58:40.309282+00:00
+19807e84f093024d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist painted “The Treachery of Images,” a painting of a pipe with the description ""this is not a pipe""?
+A. Matisse
+B. Munch
+C. Modigliani
+D. Magritte
+Answer:","[""Matisse"", ""Munch"", ""Modigliani"", ""Magritte""]",http,0.0,16,none,"{""id"":""chatcmpl-bmzncmz625mtu44h45css"",""object"":""chat.completion"",""created"":1795553920,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0628,,MarianeAzar,20261124_215144,2026-11-24T20:58:41.372303+00:00
+5d24c94c4e74d5df,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hunua Ranges is located in...
+A. New Zealand
+B. Mexico
+C. Nepal
+D. China
+Answer:","[""New Zealand"", ""Mexico"", ""Nepal"", ""China""]",http,0.0,16,none,"{""id"":""chatcmpl-61bqoazc38xpehuokk13f"",""object"":""chat.completion"",""created"":1795553921,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3957,,MarianeAzar,20261124_215144,2026-11-24T20:58:42.768405+00:00
+5d24c94c4e74d5df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Hunua Ranges is located in...
+A. New Zealand
+B. Mexico
+C. Nepal
+D. China
+Answer:","[""New Zealand"", ""Mexico"", ""Nepal"", ""China""]",http,0.0,16,none,"{""id"":""chatcmpl-kdg7rsts7bdsysi7ulgbj8"",""object"":""chat.completion"",""created"":1795553922,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0239,,MarianeAzar,20261124_215144,2026-11-24T20:58:43.792933+00:00
+4a0789612834b3cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a name of a city in the main island of PLAYERUNKNOWN'S BATTLEGROUNDS?
+A. Yasnaya Polyana
+B. Georgopol
+C. Pochinki
+D. Belushya Guba
+Answer:","[""Yasnaya Polyana"", ""Georgopol"", ""Pochinki"", ""Belushya Guba""]",http,0.0,16,none,"{""id"":""chatcmpl-ffbiyr1mc9w8w8yn31a5pp"",""object"":""chat.completion"",""created"":1795553923,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2369,,MarianeAzar,20261124_215144,2026-11-24T20:58:45.030085+00:00
+4a0789612834b3cf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a name of a city in the main island of PLAYERUNKNOWN'S BATTLEGROUNDS?
+A. Yasnaya Polyana
+B. Georgopol
+C. Pochinki
+D. Belushya Guba
+Answer:","[""Yasnaya Polyana"", ""Georgopol"", ""Pochinki"", ""Belushya Guba""]",http,0.0,16,none,"{""id"":""chatcmpl-c99jnhhoc0lpzh9b18r5c"",""object"":""chat.completion"",""created"":1795553924,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1814,,MarianeAzar,20261124_215144,2026-11-24T20:58:46.211729+00:00
+79999b256efa176a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which German city is located on the River Isar?
+A. Dortmund
+B. Hamburg
+C. Munich
+D. Berlin
+Answer:","[""Dortmund"", ""Hamburg"", ""Munich"", ""Berlin""]",http,0.0,16,none,"{""id"":""chatcmpl-3eam5lhl7rxchb75xcnck"",""object"":""chat.completion"",""created"":1795553926,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9602,,MarianeAzar,20261124_215144,2026-11-24T20:58:47.172165+00:00
+79999b256efa176a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which German city is located on the River Isar?
+A. Dortmund
+B. Hamburg
+C. Munich
+D. Berlin
+Answer:","[""Dortmund"", ""Hamburg"", ""Munich"", ""Berlin""]",http,0.0,16,none,"{""id"":""chatcmpl-uoro44mljxe6oabdifhk4l"",""object"":""chat.completion"",""created"":1795553927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4076,,MarianeAzar,20261124_215144,2026-11-24T20:58:48.580100+00:00
+5d40b9b4d70dfb10,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Super Mario 3D World"", the Double Cherry power-up originated from a developer accidentally making two characters controllable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4trlkfq4r7ke14s94uwasj"",""object"":""chat.completion"",""created"":1795553928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9728,,MarianeAzar,20261124_215144,2026-11-24T20:58:49.553543+00:00
+5d40b9b4d70dfb10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Super Mario 3D World"", the Double Cherry power-up originated from a developer accidentally making two characters controllable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u1tugeyldddi4to3e2gqjc"",""object"":""chat.completion"",""created"":1795553929,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9587,,MarianeAzar,20261124_215144,2026-11-24T20:58:50.512386+00:00
+1280dfc079c34be8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who developed the first successful polio vaccine in the 1950s?
+A. John F. Enders
+B. Thomas Weller
+C. Jonas Salk
+D. Frederick Robbins
+Answer:","[""John F. Enders"", ""Thomas Weller"", ""Jonas Salk"", ""Frederick Robbins""]",http,0.0,16,none,"{""id"":""chatcmpl-679y2j4cffcu5jr8dcspsa"",""object"":""chat.completion"",""created"":1795553930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.407,,MarianeAzar,20261124_215144,2026-11-24T20:58:51.919682+00:00
+1280dfc079c34be8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who developed the first successful polio vaccine in the 1950s?
+A. John F. Enders
+B. Thomas Weller
+C. Jonas Salk
+D. Frederick Robbins
+Answer:","[""John F. Enders"", ""Thomas Weller"", ""Jonas Salk"", ""Frederick Robbins""]",http,0.0,16,none,"{""id"":""chatcmpl-8inllovej7bnn9jwa8vhc"",""object"":""chat.completion"",""created"":1795553931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.986,,MarianeAzar,20261124_215144,2026-11-24T20:58:52.905996+00:00
+e6f66b3bb8d5c5d4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French scientists Louis Pasteur and Émile Roux developed the first rabies vaccination in 1885.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-uk2b4z216kqon0xf3i1n7"",""object"":""chat.completion"",""created"":1795553932,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9118,,MarianeAzar,20261124_215144,2026-11-24T20:58:53.818025+00:00

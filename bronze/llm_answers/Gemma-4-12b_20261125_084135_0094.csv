@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7c5959c77a12e027,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which cardinal direction does the Sun rise from?
+A. East
+B. South
+C. North
+D. West
+Answer:","[""East"", ""South"", ""North"", ""West""]",http,0.0,16,none,"{""id"":""chatcmpl-v5937uugti15e87l5nxs"",""object"":""chat.completion"",""created"":1795594718,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9885,,MarianeAzar,20261125_084135,2026-11-25T08:18:39.957333+00:00
+7c5959c77a12e027,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which cardinal direction does the Sun rise from?
+A. East
+B. South
+C. North
+D. West
+Answer:","[""East"", ""South"", ""North"", ""West""]",http,0.0,16,none,"{""id"":""chatcmpl-0sqvj3fw6t6h7d6mo77zlud"",""object"":""chat.completion"",""created"":1795594719,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3582,,MarianeAzar,20261125_084135,2026-11-25T08:18:41.315777+00:00
+f6248f46f9cefe7b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is featured in Ace Combat 5: The Unsung War?
+A. Aurelia
+B. Australia
+C. Osea
+D. Japan
+Answer:","[""Aurelia"", ""Australia"", ""Osea"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-eej6tmir8n8w5157ima8wi"",""object"":""chat.completion"",""created"":1795594720,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0445,,MarianeAzar,20261125_084135,2026-11-25T08:18:42.360663+00:00
+f6248f46f9cefe7b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is featured in Ace Combat 5: The Unsung War?
+A. Aurelia
+B. Australia
+C. Osea
+D. Japan
+Answer:","[""Aurelia"", ""Australia"", ""Osea"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-r1l4rsdaamfegudl0sek16"",""object"":""chat.completion"",""created"":1795594721,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.951,,MarianeAzar,20261125_084135,2026-11-25T08:18:43.311900+00:00
+ff6fd3ab8ce10d57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the song by Beyoncé and Alejandro Fernández released in 2007?
+A. La ultima vez
+B. Hasta Dondes Estes
+C. Amor Gitano
+D. Rocket
+Answer:","[""La ultima vez"", ""Hasta Dondes Estes"", ""Amor Gitano"", ""Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-nl73aftj2piihj2n52hc"",""object"":""chat.completion"",""created"":1795594722,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2771,,MarianeAzar,20261125_084135,2026-11-25T08:18:44.589285+00:00
+ff6fd3ab8ce10d57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the song by Beyoncé and Alejandro Fernández released in 2007?
+A. La ultima vez
+B. Hasta Dondes Estes
+C. Amor Gitano
+D. Rocket
+Answer:","[""La ultima vez"", ""Hasta Dondes Estes"", ""Amor Gitano"", ""Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-bgolblzcii9sfka1f797q"",""object"":""chat.completion"",""created"":1795594724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9348,,MarianeAzar,20261125_084135,2026-11-25T08:18:45.524385+00:00
+eb8f9e2a611647d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is the Taedong River in?
+A. South Korea
+B. China
+C. Japan
+D. North Korea
+Answer:","[""South Korea"", ""China"", ""Japan"", ""North Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-02uls5p6zja1ahgh5hxm70q"",""object"":""chat.completion"",""created"":1795594724,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2278,,MarianeAzar,20261125_084135,2026-11-25T08:18:46.752438+00:00
+eb8f9e2a611647d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is the Taedong River in?
+A. South Korea
+B. China
+C. Japan
+D. North Korea
+Answer:","[""South Korea"", ""China"", ""Japan"", ""North Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-rarxekc23hmy1gn2almein"",""object"":""chat.completion"",""created"":1795594726,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1361,,MarianeAzar,20261125_084135,2026-11-25T08:18:47.888779+00:00
+b5d143043b7fa9f0,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The majority of Subaru vehicles are made in China.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-47r29791whav681far9y1"",""object"":""chat.completion"",""created"":1795594727,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261125_084135,2026-11-25T08:18:48.759094+00:00
+b5d143043b7fa9f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The majority of Subaru vehicles are made in China.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n1mm0b05gx15n3hyyjemb"",""object"":""chat.completion"",""created"":1795594728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4244,,MarianeAzar,20261125_084135,2026-11-25T08:18:50.183698+00:00
+88a871f006552a15,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which planet did Superman come from?
+A. Xolnar
+B. Avalon
+C. Starhaven
+D. Krypton
+Answer:","[""Xolnar"", ""Avalon"", ""Starhaven"", ""Krypton""]",http,0.0,16,none,"{""id"":""chatcmpl-77qwzzpp3bsco55u0omhzu"",""object"":""chat.completion"",""created"":1795594729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0519,,MarianeAzar,20261125_084135,2026-11-25T08:18:51.236203+00:00
+88a871f006552a15,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which planet did Superman come from?
+A. Xolnar
+B. Avalon
+C. Starhaven
+D. Krypton
+Answer:","[""Xolnar"", ""Avalon"", ""Starhaven"", ""Krypton""]",http,0.0,16,none,"{""id"":""chatcmpl-lj5fnbo8qb7gasrwyefsf"",""object"":""chat.completion"",""created"":1795594730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.964,,MarianeAzar,20261125_084135,2026-11-25T08:18:52.200389+00:00
+e36ddfb3557604a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where did the pineapple plant originate?
+A. Europe
+B. Hawaii
+C. Asia
+D. South America
+Answer:","[""Europe"", ""Hawaii"", ""Asia"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-k1bwtfoiuxsfbfp0m7ve3j"",""object"":""chat.completion"",""created"":1795594731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2278,,MarianeAzar,20261125_084135,2026-11-25T08:18:53.428393+00:00
+e36ddfb3557604a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where did the pineapple plant originate?
+A. Europe
+B. Hawaii
+C. Asia
+D. South America
+Answer:","[""Europe"", ""Hawaii"", ""Asia"", ""South America""]",http,0.0,16,none,"{""id"":""chatcmpl-vcpnr2vueysrkoo690y7p"",""object"":""chat.completion"",""created"":1795594732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.253,,MarianeAzar,20261125_084135,2026-11-25T08:18:54.681653+00:00
+605f3f1177dc2f74,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries does the United States share a land border with?
+A. 1
+B. 4
+C. 2
+D. 3
+Answer:","[""1"", ""4"", ""2"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-1b6zem6q9rk6pxqtv5xhv"",""object"":""chat.completion"",""created"":1795594734,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9269,,MarianeAzar,20261125_084135,2026-11-25T08:18:55.609378+00:00
+605f3f1177dc2f74,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries does the United States share a land border with?
+A. 1
+B. 4
+C. 2
+D. 3
+Answer:","[""1"", ""4"", ""2"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-jdbi10xjioeubilclwu6"",""object"":""chat.completion"",""created"":1795594735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.291,,MarianeAzar,20261125_084135,2026-11-25T08:18:56.900690+00:00
+9aa5e836dc93e10d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mario Kart series, which game introduced the ""Shield Drifting"" mechanic?
+A. Mario Kart Super Circuit
+B. Mario Kart: Double Dash
+C. Mario Kart DS
+D. Mario Kart Arcade GP DX
+Answer:","[""Mario Kart Super Circuit"", ""Mario Kart: Double Dash"", ""Mario Kart DS"", ""Mario Kart Arcade GP DX""]",http,0.0,16,none,"{""id"":""chatcmpl-spvhmfzu1xkpn7l1cxi26c"",""object"":""chat.completion"",""created"":1795594736,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3251,,MarianeAzar,20261125_084135,2026-11-25T08:18:58.226229+00:00
+9aa5e836dc93e10d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mario Kart series, which game introduced the ""Shield Drifting"" mechanic?
+A. Mario Kart Super Circuit
+B. Mario Kart: Double Dash
+C. Mario Kart DS
+D. Mario Kart Arcade GP DX
+Answer:","[""Mario Kart Super Circuit"", ""Mario Kart: Double Dash"", ""Mario Kart DS"", ""Mario Kart Arcade GP DX""]",http,0.0,16,none,"{""id"":""chatcmpl-7whtwn25oaledcs7pl2awh"",""object"":""chat.completion"",""created"":1795594737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1634,,MarianeAzar,20261125_084135,2026-11-25T08:18:59.389935+00:00
+2e9749f896128132,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many obsidian blocks are required to build a nether portal in Minecraft?
+A. 14
+B. 16
+C. 10
+D. 13
+Answer:","[""14"", ""16"", ""10"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-39l7jgmoismm7pfqlpmthm"",""object"":""chat.completion"",""created"":1795594738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1219,,MarianeAzar,20261125_084135,2026-11-25T08:19:00.512476+00:00
+2e9749f896128132,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many obsidian blocks are required to build a nether portal in Minecraft?
+A. 14
+B. 16
+C. 10
+D. 13
+Answer:","[""14"", ""16"", ""10"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-48oeafdn3bxboiw7w6vcs"",""object"":""chat.completion"",""created"":1795594739,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0372,,MarianeAzar,20261125_084135,2026-11-25T08:19:01.550014+00:00
+bfeba8bd740859b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?
+A. Conway, Arkansas
+B. Hicksville, New York
+C. Jacksonville, Florida
+D. Goldsboro, North Carolina
+Answer:","[""Conway, Arkansas"", ""Hicksville, New York"", ""Jacksonville, Florida"", ""Goldsboro, North Carolina""]",http,0.0,16,none,"{""id"":""chatcmpl-kszswhkp0biilgdk2iy7va"",""object"":""chat.completion"",""created"":1795594740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9874,,MarianeAzar,20261125_084135,2026-11-25T08:19:02.537864+00:00
+bfeba8bd740859b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?
+A. Conway, Arkansas
+B. Hicksville, New York
+C. Jacksonville, Florida
+D. Goldsboro, North Carolina
+Answer:","[""Conway, Arkansas"", ""Hicksville, New York"", ""Jacksonville, Florida"", ""Goldsboro, North Carolina""]",http,0.0,16,none,"{""id"":""chatcmpl-tweluf8syr0xbfv6zzdr9"",""object"":""chat.completion"",""created"":1795594741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3612,,MarianeAzar,20261125_084135,2026-11-25T08:19:03.899309+00:00
+715ed1e5dd71ec16,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Yes, America Can!"" was this United States politician's de facto campaign slogan in 2004.
+A. Al Gore
+B. George W. Bush
+C. John Kerry
+D. Barack Obama
+Answer:","[""Al Gore"", ""George W. Bush"", ""John Kerry"", ""Barack Obama""]",http,0.0,16,none,"{""id"":""chatcmpl-gustpgreteqr0dyazeqc3"",""object"":""chat.completion"",""created"":1795594743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9703,,MarianeAzar,20261125_084135,2026-11-25T08:19:04.871086+00:00
+715ed1e5dd71ec16,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Yes, America Can!"" was this United States politician's de facto campaign slogan in 2004.
+A. Al Gore
+B. George W. Bush
+C. John Kerry
+D. Barack Obama
+Answer:","[""Al Gore"", ""George W. Bush"", ""John Kerry"", ""Barack Obama""]",http,0.0,16,none,"{""id"":""chatcmpl-axox9lj2nn4zwb6hvjmfbn"",""object"":""chat.completion"",""created"":1795594744,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9697,,MarianeAzar,20261125_084135,2026-11-25T08:19:05.841115+00:00
+234f3467e59d7450,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""Nobody puts Baby in a corner.""
+A. Pretty in Pink
+B. Dirty Dancing
+C. Three Men and a Baby
+D. Ferris Bueller's Day Off
+Answer:","[""Pretty in Pink"", ""Dirty Dancing"", ""Three Men and a Baby"", ""Ferris Bueller's Day Off""]",http,0.0,16,none,"{""id"":""chatcmpl-u9crpze4jp7ketu0vhidn"",""object"":""chat.completion"",""created"":1795594745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3709,,MarianeAzar,20261125_084135,2026-11-25T08:19:07.212178+00:00

@@ -1,0 +1,176 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5b92262a09f956fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Lies of Locke Lamora, what title is Locke known by in the criminal world?
+A. The Thorn of Emberlain
+B. The Thorn of the Marrows
+C. The Rose of the Marrows
+D. The Thorn of Camorr
+Answer:","[""The Thorn of Emberlain"", ""The Thorn of the Marrows"", ""The Rose of the Marrows"", ""The Thorn of Camorr""]",http,0.0,16,none,"{""id"":""chatcmpl-wtt4ezghljfq32xybc61s"",""object"":""chat.completion"",""created"":1795554738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.431,,MarianeAzar,20261124_215144,2026-11-24T21:12:20.303977+00:00
+5b92262a09f956fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In The Lies of Locke Lamora, what title is Locke known by in the criminal world?
+A. The Thorn of Emberlain
+B. The Thorn of the Marrows
+C. The Rose of the Marrows
+D. The Thorn of Camorr
+Answer:","[""The Thorn of Emberlain"", ""The Thorn of the Marrows"", ""The Rose of the Marrows"", ""The Thorn of Camorr""]",http,0.0,16,none,"{""id"":""chatcmpl-lxy0uekg0ashwvypyugtsj"",""object"":""chat.completion"",""created"":1795554740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9202,,MarianeAzar,20261124_215144,2026-11-24T21:12:21.224451+00:00
+318973295b7b6a35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1845, a series of wars named after which indigenous people began in New Zealand?
+A. Aborigines
+B. Polynesians
+C. Māori
+D. Papuans
+Answer:","[""Aborigines"", ""Polynesians"", ""Māori"", ""Papuans""]",http,0.0,16,none,"{""id"":""chatcmpl-su3k1yyh05hp4isrl8iyb"",""object"":""chat.completion"",""created"":1795554741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.952,,MarianeAzar,20261124_215144,2026-11-24T21:12:22.176670+00:00
+318973295b7b6a35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 1845, a series of wars named after which indigenous people began in New Zealand?
+A. Aborigines
+B. Polynesians
+C. Māori
+D. Papuans
+Answer:","[""Aborigines"", ""Polynesians"", ""Māori"", ""Papuans""]",http,0.0,16,none,"{""id"":""chatcmpl-tfy4b373wnn35r53tpok5k"",""object"":""chat.completion"",""created"":1795554742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3815,,MarianeAzar,20261124_215144,2026-11-24T21:12:23.558430+00:00
+ee5078a7f06ebbe7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Stadium of Light"" is the home stadium for which soccer team?
+A. Manchester United
+B. Barcelona FC
+C. Sunderland FC
+D. Paris Saints-Germain
+Answer:","[""Manchester United"", ""Barcelona FC"", ""Sunderland FC"", ""Paris Saints-Germain""]",http,0.0,16,none,"{""id"":""chatcmpl-k19pk2ue7bfzyj7c55ed3d"",""object"":""chat.completion"",""created"":1795554743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9315,,MarianeAzar,20261124_215144,2026-11-24T21:12:24.490310+00:00
+ee5078a7f06ebbe7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Stadium of Light"" is the home stadium for which soccer team?
+A. Manchester United
+B. Barcelona FC
+C. Sunderland FC
+D. Paris Saints-Germain
+Answer:","[""Manchester United"", ""Barcelona FC"", ""Sunderland FC"", ""Paris Saints-Germain""]",http,0.0,16,none,"{""id"":""chatcmpl-nq19c4vrcuo4sqi6nq27e3"",""object"":""chat.completion"",""created"":1795554744,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9469,,MarianeAzar,20261124_215144,2026-11-24T21:12:25.437543+00:00
+bd5713af3fb8a7a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Laos?
+A. Country
+B. River
+C. City
+D. Region
+Answer:","[""Country"", ""River"", ""City"", ""Region""]",http,0.0,16,none,"{""id"":""chatcmpl-5qd59lzkkm99d2s4xqpvk"",""object"":""chat.completion"",""created"":1795554745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3739,,MarianeAzar,20261124_215144,2026-11-24T21:12:26.811700+00:00
+bd5713af3fb8a7a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Laos?
+A. Country
+B. River
+C. City
+D. Region
+Answer:","[""Country"", ""River"", ""City"", ""Region""]",http,0.0,16,none,"{""id"":""chatcmpl-ff512id8y3l9rthuprl0a"",""object"":""chat.completion"",""created"":1795554746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1253,,MarianeAzar,20261124_215144,2026-11-24T21:12:27.937325+00:00
+732baa3767d0a61d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout: New Vegas, which one of these casinos can you not play in?
+A. Lucky 38
+B. Gammorah
+C. The Tops
+D. Ultra-Luxe
+Answer:","[""Lucky 38"", ""Gammorah"", ""The Tops"", ""Ultra-Luxe""]",http,0.0,16,none,"{""id"":""chatcmpl-ntym66zerephah151x0a6q"",""object"":""chat.completion"",""created"":1795554747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.123,,MarianeAzar,20261124_215144,2026-11-24T21:12:29.060610+00:00
+732baa3767d0a61d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Fallout: New Vegas, which one of these casinos can you not play in?
+A. Lucky 38
+B. Gammorah
+C. The Tops
+D. Ultra-Luxe
+Answer:","[""Lucky 38"", ""Gammorah"", ""The Tops"", ""Ultra-Luxe""]",http,0.0,16,none,"{""id"":""chatcmpl-2fkwdcy6zc2mktgh7vyhqd"",""object"":""chat.completion"",""created"":1795554749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0522,,MarianeAzar,20261124_215144,2026-11-24T21:12:30.113144+00:00
+82bf6bce768d6033,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the birth name of Michael Caine?
+A. Martin Michaels
+B. Morris Coleman
+C. Carl Myers
+D. Maurice Micklewhite
+Answer:","[""Martin Michaels"", ""Morris Coleman"", ""Carl Myers"", ""Maurice Micklewhite""]",http,0.0,16,none,"{""id"":""chatcmpl-59u5lv29uir7pt27ve609v"",""object"":""chat.completion"",""created"":1795554750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.934,,MarianeAzar,20261124_215144,2026-11-24T21:12:31.047796+00:00
+82bf6bce768d6033,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the birth name of Michael Caine?
+A. Martin Michaels
+B. Morris Coleman
+C. Carl Myers
+D. Maurice Micklewhite
+Answer:","[""Martin Michaels"", ""Morris Coleman"", ""Carl Myers"", ""Maurice Micklewhite""]",http,0.0,16,none,"{""id"":""chatcmpl-ir7luucljxgtuxvez8i6z8"",""object"":""chat.completion"",""created"":1795554750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3603,,MarianeAzar,20261124_215144,2026-11-24T21:12:32.408476+00:00
+07fe67d96fe297b4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scottish producer Calvin Harris is from the town of Dumfries, Scotland.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u52sleiur6kea2jb8pav8d"",""object"":""chat.completion"",""created"":1795554752,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8726,,MarianeAzar,20261124_215144,2026-11-24T21:12:33.281289+00:00
+07fe67d96fe297b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Scottish producer Calvin Harris is from the town of Dumfries, Scotland.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sqozjhtvxedzjot217zz"",""object"":""chat.completion"",""created"":1795554753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9087,,MarianeAzar,20261124_215144,2026-11-24T21:12:34.190191+00:00
+c0dc09cdbf7afab3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?
+A. Alec Guinness
+B. Liam Neeson
+C. Ewan McGregor
+D. Hayden Christensen
+Answer:","[""Alec Guinness"", ""Liam Neeson"", ""Ewan McGregor"", ""Hayden Christensen""]",http,0.0,16,none,"{""id"":""chatcmpl-oanp39asw3gim7zelr8gb"",""object"":""chat.completion"",""created"":1795554754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.356,,MarianeAzar,20261124_215144,2026-11-24T21:12:35.546516+00:00
+c0dc09cdbf7afab3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor plays Obi-Wan Kenobi in Star Wars Episodes I-III?
+A. Alec Guinness
+B. Liam Neeson
+C. Ewan McGregor
+D. Hayden Christensen
+Answer:","[""Alec Guinness"", ""Liam Neeson"", ""Ewan McGregor"", ""Hayden Christensen""]",http,0.0,16,none,"{""id"":""chatcmpl-mc1emnjit9paqwdt5nd0gm"",""object"":""chat.completion"",""created"":1795554755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0703,,MarianeAzar,20261124_215144,2026-11-24T21:12:36.617107+00:00
+9b36976b14528a44,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who published the 1998 video game Half-Life?
+A. EA
+B. Blizzard
+C. Sierra On-Line
+D. Valve
+Answer:","[""EA"", ""Blizzard"", ""Sierra On-Line"", ""Valve""]",http,0.0,16,none,"{""id"":""chatcmpl-4k0eq9tqlmogg1s19ao7pt"",""object"":""chat.completion"",""created"":1795554756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9137,,MarianeAzar,20261124_215144,2026-11-24T21:12:37.531246+00:00
+9b36976b14528a44,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who published the 1998 video game Half-Life?
+A. EA
+B. Blizzard
+C. Sierra On-Line
+D. Valve
+Answer:","[""EA"", ""Blizzard"", ""Sierra On-Line"", ""Valve""]",http,0.0,16,none,"{""id"":""chatcmpl-w9ty7zeckvawtoz3scojk"",""object"":""chat.completion"",""created"":1795554757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2497,,MarianeAzar,20261124_215144,2026-11-24T21:12:38.781212+00:00
+937934a78990ddb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What episode of ""Mr. Bean"" saw him trying to prevent people from seeing him naked?
+A. The Trouble with Mr. Bean
+B. Mr. Bean in Room 426
+C. Back to School Mr. Bean
+D. Mr. Bean Goes to Town
+Answer:","[""The Trouble with Mr. Bean"", ""Mr. Bean in Room 426"", ""Back to School Mr. Bean"", ""Mr. Bean Goes to Town""]",http,0.0,16,none,"{""id"":""chatcmpl-964umm08tfues1ahf9s40e"",""object"":""chat.completion"",""created"":1795554758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2828,,MarianeAzar,20261124_215144,2026-11-24T21:12:40.064225+00:00
+937934a78990ddb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What episode of ""Mr. Bean"" saw him trying to prevent people from seeing him naked?
+A. The Trouble with Mr. Bean
+B. Mr. Bean in Room 426
+C. Back to School Mr. Bean
+D. Mr. Bean Goes to Town
+Answer:","[""The Trouble with Mr. Bean"", ""Mr. Bean in Room 426"", ""Back to School Mr. Bean"", ""Mr. Bean Goes to Town""]",http,0.0,16,none,"{""id"":""chatcmpl-np4pcg6tajqh3h4loeu8b6"",""object"":""chat.completion"",""created"":1795554759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.982,,MarianeAzar,20261124_215144,2026-11-24T21:12:41.046425+00:00
+614b9652a9b24082,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the game ""Overwatch"" enter closed beta?
+A. 2016
+B. 2011
+C. 2013
+D. 2015
+Answer:","[""2016"", ""2011"", ""2013"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-p6pr1qd7x3j3kboy92hc"",""object"":""chat.completion"",""created"":1795554760,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9596,,MarianeAzar,20261124_215144,2026-11-24T21:12:42.006421+00:00
+614b9652a9b24082,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the game ""Overwatch"" enter closed beta?
+A. 2016
+B. 2011
+C. 2013
+D. 2015
+Answer:","[""2016"", ""2011"", ""2013"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-3z8lemib6fv4rfyw1i91o8"",""object"":""chat.completion"",""created"":1795554761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4069,,MarianeAzar,20261124_215144,2026-11-24T21:12:43.413637+00:00
+d8931bfb7252ae47,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Jackbox party game Monster Seeking Monster, which monster can steal two hearts from other monsters under certain conditions?
+A. Magic Mirror
+B. Stalker
+C. Serial Killer
+D. Parasite
+Answer:","[""Magic Mirror"", ""Stalker"", ""Serial Killer"", ""Parasite""]",http,0.0,16,none,"{""id"":""chatcmpl-05oeh5y03qjbdozgsnrswck"",""object"":""chat.completion"",""created"":1795554763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0019,,MarianeAzar,20261124_215144,2026-11-24T21:12:44.415863+00:00
+d8931bfb7252ae47,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Jackbox party game Monster Seeking Monster, which monster can steal two hearts from other monsters under certain conditions?
+A. Magic Mirror
+B. Stalker
+C. Serial Killer
+D. Parasite
+Answer:","[""Magic Mirror"", ""Stalker"", ""Serial Killer"", ""Parasite""]",http,0.0,16,none,"{""id"":""chatcmpl-ikgiom6dv3b3rrz9ovlsgn"",""object"":""chat.completion"",""created"":1795554764,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9655,,MarianeAzar,20261124_215144,2026-11-24T21:12:45.381673+00:00
+86a6264b7fef5c85,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Kingdom Hearts the Paopu fruit is said to intertwine the destinies for two people forever.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k3v1cks8wodfjxiez6ztaj"",""object"":""chat.completion"",""created"":1795554765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3189,,MarianeAzar,20261124_215144,2026-11-24T21:12:46.700732+00:00

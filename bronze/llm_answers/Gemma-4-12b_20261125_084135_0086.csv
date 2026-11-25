@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a94c58468b30c56b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bikini Atoll is in which country?
+A. Christmas Islands
+B. Bahamas
+C. Marshall Islands
+D. Fiji
+Answer:","[""Christmas Islands"", ""Bahamas"", ""Marshall Islands"", ""Fiji""]",http,0.0,16,none,"{""id"":""chatcmpl-92wa0isanmqm18y1wt03h"",""object"":""chat.completion"",""created"":1795594494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9739,,MarianeAzar,20261125_084135,2026-11-25T08:14:56.174125+00:00
+a94c58468b30c56b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Bikini Atoll is in which country?
+A. Christmas Islands
+B. Bahamas
+C. Marshall Islands
+D. Fiji
+Answer:","[""Christmas Islands"", ""Bahamas"", ""Marshall Islands"", ""Fiji""]",http,0.0,16,none,"{""id"":""chatcmpl-c121nzdupp4d116vcndzm"",""object"":""chat.completion"",""created"":1795594495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3792,,MarianeAzar,20261125_084135,2026-11-25T08:14:57.553545+00:00
+a7cf6b523821c510,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the ""G"" mean in ""G-Man""?
+A. Geronimo
+B. Going
+C. Ghost
+D. Government
+Answer:","[""Geronimo"", ""Going"", ""Ghost"", ""Government""]",http,0.0,16,none,"{""id"":""chatcmpl-8rlv0ubqv1xit16d7bo36m"",""object"":""chat.completion"",""created"":1795594496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9465,,MarianeAzar,20261125_084135,2026-11-25T08:14:58.500425+00:00
+a7cf6b523821c510,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the ""G"" mean in ""G-Man""?
+A. Geronimo
+B. Going
+C. Ghost
+D. Government
+Answer:","[""Geronimo"", ""Going"", ""Ghost"", ""Government""]",http,0.0,16,none,"{""id"":""chatcmpl-z2kfzeeanzkazjiexjrtvb"",""object"":""chat.completion"",""created"":1795594497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.93,,MarianeAzar,20261125_084135,2026-11-25T08:14:59.430629+00:00
+1f2c43238e4a2fe0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the original author of the realtime physics engine called PhysX?
+A. Ageia
+B. Nvidia
+C. NovodeX
+D. AMD
+Answer:","[""Ageia"", ""Nvidia"", ""NovodeX"", ""AMD""]",http,0.0,16,none,"{""id"":""chatcmpl-7frm2c0leubkqovt9xtz6"",""object"":""chat.completion"",""created"":1795594498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4568,,MarianeAzar,20261125_084135,2026-11-25T08:15:00.887622+00:00
+1f2c43238e4a2fe0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the original author of the realtime physics engine called PhysX?
+A. Ageia
+B. Nvidia
+C. NovodeX
+D. AMD
+Answer:","[""Ageia"", ""Nvidia"", ""NovodeX"", ""AMD""]",http,0.0,16,none,"{""id"":""chatcmpl-u3ym599unepk2vhtk32ch"",""object"":""chat.completion"",""created"":1795594500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9564,,MarianeAzar,20261125_084135,2026-11-25T08:15:01.844317+00:00
+170a94e689755fbf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In web design, what does CSS stand for?
+A. Corrective Style Sheet
+B. Counter Strike: Source
+C. Computer Style Sheet
+D. Cascading Style Sheets
+Answer:","[""Corrective Style Sheet"", ""Counter Strike: Source"", ""Computer Style Sheet"", ""Cascading Style Sheets""]",http,0.0,16,none,"{""id"":""chatcmpl-r8whjfk4fwea2qd21d29u"",""object"":""chat.completion"",""created"":1795594501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9513,,MarianeAzar,20261125_084135,2026-11-25T08:15:02.795915+00:00
+170a94e689755fbf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In web design, what does CSS stand for?
+A. Corrective Style Sheet
+B. Counter Strike: Source
+C. Computer Style Sheet
+D. Cascading Style Sheets
+Answer:","[""Corrective Style Sheet"", ""Counter Strike: Source"", ""Computer Style Sheet"", ""Cascading Style Sheets""]",http,0.0,16,none,"{""id"":""chatcmpl-tcasj770zf8jvycojspoj"",""object"":""chat.completion"",""created"":1795594502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4334,,MarianeAzar,20261125_084135,2026-11-25T08:15:04.229588+00:00
+25c6fbf7033def5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is not a default game mode in Counter-Strike (2000)?
+A. Bomb Defusal
+B. Hostage Rescue
+C. Assassination
+D. Arms Race
+Answer:","[""Bomb Defusal"", ""Hostage Rescue"", ""Assassination"", ""Arms Race""]",http,0.0,16,none,"{""id"":""chatcmpl-54xc7flh6eaxkev6ytz97"",""object"":""chat.completion"",""created"":1795594503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9427,,MarianeAzar,20261125_084135,2026-11-25T08:15:05.172530+00:00
+25c6fbf7033def5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is not a default game mode in Counter-Strike (2000)?
+A. Bomb Defusal
+B. Hostage Rescue
+C. Assassination
+D. Arms Race
+Answer:","[""Bomb Defusal"", ""Hostage Rescue"", ""Assassination"", ""Arms Race""]",http,0.0,16,none,"{""id"":""chatcmpl-zal968vnlptaowe7r31t8o"",""object"":""chat.completion"",""created"":1795594504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9464,,MarianeAzar,20261125_084135,2026-11-25T08:15:06.119206+00:00
+8bf24dd1dd0c72b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime ""Mr. Osomatsu"", how many brothers does Osomatsu-san have?
+A. 5
+B. 4
+C. 6
+D. 7
+Answer:","[""5"", ""4"", ""6"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-pcc1qmekjyzb927mmyh0j"",""object"":""chat.completion"",""created"":1795594505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4556,,MarianeAzar,20261125_084135,2026-11-25T08:15:07.575767+00:00
+8bf24dd1dd0c72b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime ""Mr. Osomatsu"", how many brothers does Osomatsu-san have?
+A. 5
+B. 4
+C. 6
+D. 7
+Answer:","[""5"", ""4"", ""6"", ""7""]",http,0.0,16,none,"{""id"":""chatcmpl-y1u66uc1lwi4tt6apmd18"",""object"":""chat.completion"",""created"":1795594507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0875,,MarianeAzar,20261125_084135,2026-11-25T08:15:08.663542+00:00
+ad172c8e8138eb6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted ""Swans Reflecting Elephants"", ""Sleep"", and ""The Persistence of Memory""?
+A. Jackson Pollock
+B. Edgar Degas
+C. Vincent van Gogh
+D. Salvador Dali
+Answer:","[""Jackson Pollock"", ""Edgar Degas"", ""Vincent van Gogh"", ""Salvador Dali""]",http,0.0,16,none,"{""id"":""chatcmpl-254zqaeudp5sbq856y5f8r"",""object"":""chat.completion"",""created"":1795594508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.944,,MarianeAzar,20261125_084135,2026-11-25T08:15:09.607808+00:00
+ad172c8e8138eb6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted ""Swans Reflecting Elephants"", ""Sleep"", and ""The Persistence of Memory""?
+A. Jackson Pollock
+B. Edgar Degas
+C. Vincent van Gogh
+D. Salvador Dali
+Answer:","[""Jackson Pollock"", ""Edgar Degas"", ""Vincent van Gogh"", ""Salvador Dali""]",http,0.0,16,none,"{""id"":""chatcmpl-lsdwmr6dtq8v6y4k0oxrp"",""object"":""chat.completion"",""created"":1795594509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2421,,MarianeAzar,20261125_084135,2026-11-25T08:15:10.850243+00:00
+72add1947903d7fd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Minecraft wasn’t the original name to Minecraft.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bkkw1wy4ynd88eepuhvkt"",""object"":""chat.completion"",""created"":1795594510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2005,,MarianeAzar,20261125_084135,2026-11-25T08:15:12.050934+00:00
+72add1947903d7fd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Minecraft wasn’t the original name to Minecraft.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ornn4nq3agiz0r8dgj2xsf"",""object"":""chat.completion"",""created"":1795594511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T08:15:12.942136+00:00
+a90e4a48f9ec7a5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following landlocked countries is entirely contained within another country?
+A. Luxembourg
+B. Lesotho
+C. Mongolia
+D. Burkina Faso
+Answer:","[""Luxembourg"", ""Lesotho"", ""Mongolia"", ""Burkina Faso""]",http,0.0,16,none,"{""id"":""chatcmpl-kzr02n8lhvxnb9po3juth"",""object"":""chat.completion"",""created"":1795594512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9464,,MarianeAzar,20261125_084135,2026-11-25T08:15:13.888767+00:00
+a90e4a48f9ec7a5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following landlocked countries is entirely contained within another country?
+A. Luxembourg
+B. Lesotho
+C. Mongolia
+D. Burkina Faso
+Answer:","[""Luxembourg"", ""Lesotho"", ""Mongolia"", ""Burkina Faso""]",http,0.0,16,none,"{""id"":""chatcmpl-0t401b20xavby3i60ic5nnj"",""object"":""chat.completion"",""created"":1795594513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2728,,MarianeAzar,20261125_084135,2026-11-25T08:15:15.161782+00:00
+852573c9b92f2121,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Video Game, Half-life, what type of US military force starts clearing out the Black Mesa Research Facility?
+A. The Marines
+B. The Combine
+C. The HECU
+D. Navy Seals
+Answer:","[""The Marines"", ""The Combine"", ""The HECU"", ""Navy Seals""]",http,0.0,16,none,"{""id"":""chatcmpl-ibqluni6v6h711ucd8f9m"",""object"":""chat.completion"",""created"":1795594514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8877,,MarianeAzar,20261125_084135,2026-11-25T08:15:16.049770+00:00
+852573c9b92f2121,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Video Game, Half-life, what type of US military force starts clearing out the Black Mesa Research Facility?
+A. The Marines
+B. The Combine
+C. The HECU
+D. Navy Seals
+Answer:","[""The Marines"", ""The Combine"", ""The HECU"", ""Navy Seals""]",http,0.0,16,none,"{""id"":""chatcmpl-q8y2nu789p9fca79nmf87m"",""object"":""chat.completion"",""created"":1795594515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2416,,MarianeAzar,20261125_084135,2026-11-25T08:15:17.291747+00:00
+4a713a9a7b72eeb2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At which bridge does the annual Oxford and Cambridge boat race start?
+A. Vauxhall
+B. Putney
+C. Hammersmith
+D. Battersea
+Answer:","[""Vauxhall"", ""Putney"", ""Hammersmith"", ""Battersea""]",http,0.0,16,none,"{""id"":""chatcmpl-9rvco6krtilmeh92e83gg"",""object"":""chat.completion"",""created"":1795594516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1439,,MarianeAzar,20261125_084135,2026-11-25T08:15:18.436218+00:00
+4a713a9a7b72eeb2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At which bridge does the annual Oxford and Cambridge boat race start?
+A. Vauxhall
+B. Putney
+C. Hammersmith
+D. Battersea
+Answer:","[""Vauxhall"", ""Putney"", ""Hammersmith"", ""Battersea""]",http,0.0,16,none,"{""id"":""chatcmpl-tw43easkv4eoisvzw014l"",""object"":""chat.completion"",""created"":1795594517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9194,,MarianeAzar,20261125_084135,2026-11-25T08:15:19.355879+00:00
+b03ed7039bb783cf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What immense structure is referred to in Norse Mythology as the Yggdrasil.
+A. Tree
+B. Mountain
+C. Temple
+D. Castle
+Answer:","[""Tree"", ""Mountain"", ""Temple"", ""Castle""]",http,0.0,16,none,"{""id"":""chatcmpl-dxmv2id5qsq080720gpe2v9"",""object"":""chat.completion"",""created"":1795594518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2321,,MarianeAzar,20261125_084135,2026-11-25T08:15:20.588291+00:00
+b03ed7039bb783cf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What immense structure is referred to in Norse Mythology as the Yggdrasil.
+A. Tree
+B. Mountain
+C. Temple
+D. Castle
+Answer:","[""Tree"", ""Mountain"", ""Temple"", ""Castle""]",http,0.0,16,none,"{""id"":""chatcmpl-yc486olljphgxsxh7iujb"",""object"":""chat.completion"",""created"":1795594520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.999,,MarianeAzar,20261125_084135,2026-11-25T08:15:21.587519+00:00
+54875394c0bbdf2d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?
+A. John and Mary
+B. George and Anne
+C. William and Elizabeth
+D. Joseph and Catherine
+Answer:","[""John and Mary"", ""George and Anne"", ""William and Elizabeth"", ""Joseph and Catherine""]",http,0.0,16,none,"{""id"":""chatcmpl-yg2vjycix7n1723gwi2xk"",""object"":""chat.completion"",""created"":1795594521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261125_084135,2026-11-25T08:15:22.546766+00:00

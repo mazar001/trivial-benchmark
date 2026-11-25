@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+54875394c0bbdf2d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?
+A. John and Mary
+B. George and Anne
+C. William and Elizabeth
+D. Joseph and Catherine
+Answer:","[""John and Mary"", ""George and Anne"", ""William and Elizabeth"", ""Joseph and Catherine""]",http,0.0,16,none,"{""id"":""chatcmpl-xaj3ghi8azf8sjx8idylmc"",""object"":""chat.completion"",""created"":1795594521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3096,,MarianeAzar,20261125_084135,2026-11-25T08:15:23.861484+00:00
+40b1238b939aeea9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the four empires in Eve Online was the first to achieve faster than light travel?
+A. Minmatar Republic
+B. Caldari State
+C. Gallente Federation
+D. Amarr Empire
+Answer:","[""Minmatar Republic"", ""Caldari State"", ""Gallente Federation"", ""Amarr Empire""]",http,0.0,16,none,"{""id"":""chatcmpl-cbs4zqcu5i5xcgi8wqjwtg"",""object"":""chat.completion"",""created"":1795594523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.982,,MarianeAzar,20261125_084135,2026-11-25T08:15:24.843773+00:00
+40b1238b939aeea9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the four empires in Eve Online was the first to achieve faster than light travel?
+A. Minmatar Republic
+B. Caldari State
+C. Gallente Federation
+D. Amarr Empire
+Answer:","[""Minmatar Republic"", ""Caldari State"", ""Gallente Federation"", ""Amarr Empire""]",http,0.0,16,none,"{""id"":""chatcmpl-r12lv334c9zf8t89bxb4c"",""object"":""chat.completion"",""created"":1795594524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.286,,MarianeAzar,20261125_084135,2026-11-25T08:15:26.130097+00:00
+f49f3fdb124abdf7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only Millennium Prize Problem that has been solved so far?
+A. Poincaré conjecture
+B. Fermat's conjecture
+C. P vs. NP problem
+D. Riemann Hypothesis
+Answer:","[""Poincaré conjecture"", ""Fermat's conjecture"", ""P vs. NP problem"", ""Riemann Hypothesis""]",http,0.0,16,none,"{""id"":""chatcmpl-ja9h9s4o7xknvuo5ae98"",""object"":""chat.completion"",""created"":1795594525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2545,,MarianeAzar,20261125_084135,2026-11-25T08:15:27.384854+00:00
+f49f3fdb124abdf7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the only Millennium Prize Problem that has been solved so far?
+A. Poincaré conjecture
+B. Fermat's conjecture
+C. P vs. NP problem
+D. Riemann Hypothesis
+Answer:","[""Poincaré conjecture"", ""Fermat's conjecture"", ""P vs. NP problem"", ""Riemann Hypothesis""]",http,0.0,16,none,"{""id"":""chatcmpl-jazq7dbld0svk8jo0ntcj"",""object"":""chat.completion"",""created"":1795594526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.915,,MarianeAzar,20261125_084135,2026-11-25T08:15:28.300085+00:00
+8cb13e043e3c8df4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the ""Flash"" and ""Arrow"" spinoff featuring a team of characters that have appeared on both shows?
+A. Heroes of Tomorrow
+B. Legends of Tomorrow
+C. The Justice Society of America
+D. The Justice Society
+Answer:","[""Heroes of Tomorrow"", ""Legends of Tomorrow"", ""The Justice Society of America"", ""The Justice Society""]",http,0.0,16,none,"{""id"":""chatcmpl-fwubyiyt3l775cpwpao68v"",""object"":""chat.completion"",""created"":1795594527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.235,,MarianeAzar,20261125_084135,2026-11-25T08:15:29.535750+00:00
+8cb13e043e3c8df4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the ""Flash"" and ""Arrow"" spinoff featuring a team of characters that have appeared on both shows?
+A. Heroes of Tomorrow
+B. Legends of Tomorrow
+C. The Justice Society of America
+D. The Justice Society
+Answer:","[""Heroes of Tomorrow"", ""Legends of Tomorrow"", ""The Justice Society of America"", ""The Justice Society""]",http,0.0,16,none,"{""id"":""chatcmpl-v0svpk3be6lx504qy7k10f"",""object"":""chat.completion"",""created"":1795594528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1825,,MarianeAzar,20261125_084135,2026-11-25T08:15:30.718516+00:00
+e63051f4d9137c44,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The cake depicted in Valve's ""Portal"" franchise most closely resembles which real-world type of cake?
+A. Devil's Food
+B. Molten Chocolate
+C. Black Forest
+D. German Chocolate
+Answer:","[""Devil's Food"", ""Molten Chocolate"", ""Black Forest"", ""German Chocolate""]",http,0.0,16,none,"{""id"":""chatcmpl-7oqmbhm5d92nite26odcb"",""object"":""chat.completion"",""created"":1795594530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9509,,MarianeAzar,20261125_084135,2026-11-25T08:15:31.669687+00:00
+e63051f4d9137c44,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The cake depicted in Valve's ""Portal"" franchise most closely resembles which real-world type of cake?
+A. Devil's Food
+B. Molten Chocolate
+C. Black Forest
+D. German Chocolate
+Answer:","[""Devil's Food"", ""Molten Chocolate"", ""Black Forest"", ""German Chocolate""]",http,0.0,16,none,"{""id"":""chatcmpl-0w5xc86e7yejlcu7l3gx5x"",""object"":""chat.completion"",""created"":1795594531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4809,,MarianeAzar,20261125_084135,2026-11-25T08:15:33.151114+00:00
+e4d85c72c4349c96,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the speed of light in a vacuum?
+A. 299,792,458 m/s
+B. 751,665,014,151 m/s
+C. 308,215,043 m/s
+D. 50,461 m/s
+Answer:","[""299,792,458 m/s"", ""751,665,014,151 m/s"", ""308,215,043 m/s"", ""50,461 m/s""]",http,0.0,16,none,"{""id"":""chatcmpl-bw89pji5naf0z1hl90o8"",""object"":""chat.completion"",""created"":1795594532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0618,,MarianeAzar,20261125_084135,2026-11-25T08:15:34.213272+00:00
+e4d85c72c4349c96,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the speed of light in a vacuum?
+A. 299,792,458 m/s
+B. 751,665,014,151 m/s
+C. 308,215,043 m/s
+D. 50,461 m/s
+Answer:","[""299,792,458 m/s"", ""751,665,014,151 m/s"", ""308,215,043 m/s"", ""50,461 m/s""]",http,0.0,16,none,"{""id"":""chatcmpl-ry8lfws62qmhjdvh66wny"",""object"":""chat.completion"",""created"":1795594533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":142,""completion_tokens"":2,""total_tokens"":144,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0883,,MarianeAzar,20261125_084135,2026-11-25T08:15:35.301823+00:00
+e5cc3f199e2a50ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is NOT an official map in Counter-Strike: Global Offensive?
+A. de_militia
+B. de_canals
+C. de_season
+D. de_sugarcane
+Answer:","[""de_militia"", ""de_canals"", ""de_season"", ""de_sugarcane""]",http,0.0,16,none,"{""id"":""chatcmpl-oxyilpxiihro7vl89vy4lm"",""object"":""chat.completion"",""created"":1795594534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4321,,MarianeAzar,20261125_084135,2026-11-25T08:15:36.734163+00:00
+e5cc3f199e2a50ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is NOT an official map in Counter-Strike: Global Offensive?
+A. de_militia
+B. de_canals
+C. de_season
+D. de_sugarcane
+Answer:","[""de_militia"", ""de_canals"", ""de_season"", ""de_sugarcane""]",http,0.0,16,none,"{""id"":""chatcmpl-st1kfu2km3jsddawagiw9"",""object"":""chat.completion"",""created"":1795594536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9894,,MarianeAzar,20261125_084135,2026-11-25T08:15:37.723859+00:00
+2dbb456c3f01c5e2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital city of the U.S. state of Texas?
+A. San Antonio
+B. Austin
+C. Houston
+D. Dallas
+Answer:","[""San Antonio"", ""Austin"", ""Houston"", ""Dallas""]",http,0.0,16,none,"{""id"":""chatcmpl-1kcfrtq026tmj4jq1sxxi"",""object"":""chat.completion"",""created"":1795594537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9352,,MarianeAzar,20261125_084135,2026-11-25T08:15:38.659292+00:00
+2dbb456c3f01c5e2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital city of the U.S. state of Texas?
+A. San Antonio
+B. Austin
+C. Houston
+D. Dallas
+Answer:","[""San Antonio"", ""Austin"", ""Houston"", ""Dallas""]",http,0.0,16,none,"{""id"":""chatcmpl-2bpxqp6213h9t85631rihc"",""object"":""chat.completion"",""created"":1795594538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4507,,MarianeAzar,20261125_084135,2026-11-25T08:15:40.110231+00:00
+9ee9881e30948d4f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company developed the MMO Spiral Knights (2011)?
+A. Sega
+B. Three Rings Design
+C. Double Fine
+D. Electronic Arts
+Answer:","[""Sega"", ""Three Rings Design"", ""Double Fine"", ""Electronic Arts""]",http,0.0,16,none,"{""id"":""chatcmpl-xd0swulzzs9u59h9bv840n"",""object"":""chat.completion"",""created"":1795594539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9177,,MarianeAzar,20261125_084135,2026-11-25T08:15:41.028478+00:00
+9ee9881e30948d4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company developed the MMO Spiral Knights (2011)?
+A. Sega
+B. Three Rings Design
+C. Double Fine
+D. Electronic Arts
+Answer:","[""Sega"", ""Three Rings Design"", ""Double Fine"", ""Electronic Arts""]",http,0.0,16,none,"{""id"":""chatcmpl-0wknv151isnqiau3i4hokb"",""object"":""chat.completion"",""created"":1795594540,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9935,,MarianeAzar,20261125_084135,2026-11-25T08:15:42.022264+00:00
+ee7e0d103d610f9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Adolf Hitler was born on which date?
+A. April 20, 1889
+B. April 16, 1889
+C. February 6, 1889
+D. June 12, 1889
+Answer:","[""April 20, 1889"", ""April 16, 1889"", ""February 6, 1889"", ""June 12, 1889""]",http,0.0,16,none,"{""id"":""chatcmpl-8yerxs4zv3bhlkr900fxf5"",""object"":""chat.completion"",""created"":1795594541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4177,,MarianeAzar,20261125_084135,2026-11-25T08:15:43.440834+00:00
+ee7e0d103d610f9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Adolf Hitler was born on which date?
+A. April 20, 1889
+B. April 16, 1889
+C. February 6, 1889
+D. June 12, 1889
+Answer:","[""April 20, 1889"", ""April 16, 1889"", ""February 6, 1889"", ""June 12, 1889""]",http,0.0,16,none,"{""id"":""chatcmpl-absoob7sqsigxkhru189"",""object"":""chat.completion"",""created"":1795594542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0697,,MarianeAzar,20261125_084135,2026-11-25T08:15:44.510686+00:00
+141a1f4da9632bf1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the four corner states of the US?
+A. Utah, Colorado, Arizona, New Mexico
+B. South Dakota, Minnesota, Nebraska, Iowa
+C. Kansas, Oklahoma, Arkansas, Louisiana
+D. Oregon, Idaho, Nevada, Utah
+Answer:","[""Utah, Colorado, Arizona, New Mexico"", ""South Dakota, Minnesota, Nebraska, Iowa"", ""Kansas, Oklahoma, Arkansas, Louisiana"", ""Oregon, Idaho, Nevada, Utah""]",http,0.0,16,none,"{""id"":""chatcmpl-vadb9gcdx2ob985ca4k7kq"",""object"":""chat.completion"",""created"":1795594543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2691,,MarianeAzar,20261125_084135,2026-11-25T08:15:45.780070+00:00
+141a1f4da9632bf1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the four corner states of the US?
+A. Utah, Colorado, Arizona, New Mexico
+B. South Dakota, Minnesota, Nebraska, Iowa
+C. Kansas, Oklahoma, Arkansas, Louisiana
+D. Oregon, Idaho, Nevada, Utah
+Answer:","[""Utah, Colorado, Arizona, New Mexico"", ""South Dakota, Minnesota, Nebraska, Iowa"", ""Kansas, Oklahoma, Arkansas, Louisiana"", ""Oregon, Idaho, Nevada, Utah""]",http,0.0,16,none,"{""id"":""chatcmpl-pb4ztrh8yugo5ut4z5e2he"",""object"":""chat.completion"",""created"":1795594545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2909,,MarianeAzar,20261125_084135,2026-11-25T08:15:47.071227+00:00
+86348e7a34bf3b5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of viral internet meme Grumpy Cat?
+A. Colonel Meow
+B. Tardar Sauce
+C. Lil Bub
+D. Maru
+Answer:","[""Colonel Meow"", ""Tardar Sauce"", ""Lil Bub"", ""Maru""]",http,0.0,16,none,"{""id"":""chatcmpl-bpx770ag9cjlqg074prvv8"",""object"":""chat.completion"",""created"":1795594546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9255,,MarianeAzar,20261125_084135,2026-11-25T08:15:47.997105+00:00
+86348e7a34bf3b5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of viral internet meme Grumpy Cat?
+A. Colonel Meow
+B. Tardar Sauce
+C. Lil Bub
+D. Maru
+Answer:","[""Colonel Meow"", ""Tardar Sauce"", ""Lil Bub"", ""Maru""]",http,0.0,16,none,"{""id"":""chatcmpl-frr91v5hr2uo1afsfbny"",""object"":""chat.completion"",""created"":1795594547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2885,,MarianeAzar,20261125_084135,2026-11-25T08:15:49.285910+00:00
+afa0acf9f3e594d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the director of the 1991 film ""Silence of the Lambs""?
+A. Stanley Kubrick
+B. Frank Darabont
+C. Jonathan Demme
+D. Michael Bay
+Answer:","[""Stanley Kubrick"", ""Frank Darabont"", ""Jonathan Demme"", ""Michael Bay""]",http,0.0,16,none,"{""id"":""chatcmpl-6isl8h1p8afmcaprg5plx"",""object"":""chat.completion"",""created"":1795594548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3181,,MarianeAzar,20261125_084135,2026-11-25T08:15:50.604249+00:00
+afa0acf9f3e594d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the director of the 1991 film ""Silence of the Lambs""?
+A. Stanley Kubrick
+B. Frank Darabont
+C. Jonathan Demme
+D. Michael Bay
+Answer:","[""Stanley Kubrick"", ""Frank Darabont"", ""Jonathan Demme"", ""Michael Bay""]",http,0.0,16,none,"{""id"":""chatcmpl-mlcipf3qgvecwslvsek6gm"",""object"":""chat.completion"",""created"":1795594550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0982,,MarianeAzar,20261125_084135,2026-11-25T08:15:51.702748+00:00

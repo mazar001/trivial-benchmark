@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c7950765b8a2547d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which color cannot be produced in Roses, even through genetic alteration?
+A. Blue
+B. Brown
+C. Black
+D. Orange
+Answer:","[""Blue"", ""Brown"", ""Black"", ""Orange""]",http,0.0,16,none,"{""id"":""chatcmpl-zh3hy4hs0couj19jryb2nf"",""object"":""chat.completion"",""created"":1795554509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9056,,MarianeAzar,20261124_215144,2026-11-24T21:08:30.833370+00:00
+c7950765b8a2547d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which color cannot be produced in Roses, even through genetic alteration?
+A. Blue
+B. Brown
+C. Black
+D. Orange
+Answer:","[""Blue"", ""Brown"", ""Black"", ""Orange""]",http,0.0,16,none,"{""id"":""chatcmpl-2tym2tvtytvc3m12fmz0mp"",""object"":""chat.completion"",""created"":1795554510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2256,,MarianeAzar,20261124_215144,2026-11-24T21:08:32.059224+00:00
+4d6ec6573b8a479c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the lowest amount of max health you can have in Team Fortress 2?
+A. 100
+B. 50
+C. 95
+D. 70
+Answer:","[""100"", ""50"", ""95"", ""70""]",http,0.0,16,none,"{""id"":""chatcmpl-ybbnig0ghsqyktumvc1t9"",""object"":""chat.completion"",""created"":1795554511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2623,,MarianeAzar,20261124_215144,2026-11-24T21:08:33.321722+00:00
+4d6ec6573b8a479c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the lowest amount of max health you can have in Team Fortress 2?
+A. 100
+B. 50
+C. 95
+D. 70
+Answer:","[""100"", ""50"", ""95"", ""70""]",http,0.0,16,none,"{""id"":""chatcmpl-43qr6l20kcvqn25jvcze7p"",""object"":""chat.completion"",""created"":1795554513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9673,,MarianeAzar,20261124_215144,2026-11-24T21:08:34.289235+00:00
+c850d1ae590bf033,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is not a real game in the Dungeons & Dragons series?
+A. Extreme Dungeons & Dragons
+B. Dungeons & Dragons 3.5th edition
+C. Advanced Dungeons & Dragons
+D. Advanced Dungeons & Dragons 2nd edition
+Answer:","[""Extreme Dungeons & Dragons"", ""Dungeons & Dragons 3.5th edition"", ""Advanced Dungeons & Dragons"", ""Advanced Dungeons & Dragons 2nd edition""]",http,0.0,16,none,"{""id"":""chatcmpl-zj4n7mj8cl9k3o363pt15a"",""object"":""chat.completion"",""created"":1795554514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2651,,MarianeAzar,20261124_215144,2026-11-24T21:08:35.554425+00:00
+c850d1ae590bf033,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is not a real game in the Dungeons & Dragons series?
+A. Extreme Dungeons & Dragons
+B. Dungeons & Dragons 3.5th edition
+C. Advanced Dungeons & Dragons
+D. Advanced Dungeons & Dragons 2nd edition
+Answer:","[""Extreme Dungeons & Dragons"", ""Dungeons & Dragons 3.5th edition"", ""Advanced Dungeons & Dragons"", ""Advanced Dungeons & Dragons 2nd edition""]",http,0.0,16,none,"{""id"":""chatcmpl-n8ejuliq0pr0qlcxkmbmq7"",""object"":""chat.completion"",""created"":1795554515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3448,,MarianeAzar,20261124_215144,2026-11-24T21:08:36.899336+00:00
+0a47c0643ff1bb95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays Alice in the Resident Evil movies?
+A. Milla Johnson
+B. Milla Jovovich
+C. Kim Demp
+D. Madison Derpe
+Answer:","[""Milla Johnson"", ""Milla Jovovich"", ""Kim Demp"", ""Madison Derpe""]",http,0.0,16,none,"{""id"":""chatcmpl-jfq3ua658ebom9jpct90wm"",""object"":""chat.completion"",""created"":1795554516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.95,,MarianeAzar,20261124_215144,2026-11-24T21:08:37.849474+00:00
+0a47c0643ff1bb95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays Alice in the Resident Evil movies?
+A. Milla Johnson
+B. Milla Jovovich
+C. Kim Demp
+D. Madison Derpe
+Answer:","[""Milla Johnson"", ""Milla Jovovich"", ""Kim Demp"", ""Madison Derpe""]",http,0.0,16,none,"{""id"":""chatcmpl-dl4lmjw87atx5bucn2rto"",""object"":""chat.completion"",""created"":1795554517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.259,,MarianeAzar,20261124_215144,2026-11-24T21:08:39.108696+00:00
+51a6e3cb1aaa3585,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Brawlhalla"", what species is the character Bödvar is?
+A. Half Wolf / Half Bear
+B. Half Tiger / Half Human
+C. A Human
+D. Half Human / Half Bear
+Answer:","[""Half Wolf / Half Bear"", ""Half Tiger / Half Human"", ""A Human"", ""Half Human / Half Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-9ipcl34yqeu56gqv3useut"",""object"":""chat.completion"",""created"":1795554519,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3418,,MarianeAzar,20261124_215144,2026-11-24T21:08:40.451002+00:00
+51a6e3cb1aaa3585,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Brawlhalla"", what species is the character Bödvar is?
+A. Half Wolf / Half Bear
+B. Half Tiger / Half Human
+C. A Human
+D. Half Human / Half Bear
+Answer:","[""Half Wolf / Half Bear"", ""Half Tiger / Half Human"", ""A Human"", ""Half Human / Half Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-96wm4hcslprhjwbhdk8ybw"",""object"":""chat.completion"",""created"":1795554520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9858,,MarianeAzar,20261124_215144,2026-11-24T21:08:41.437229+00:00
+a6525e581d44a040,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many legs is it biologically impossible for a centipede to have?
+A. 100
+B. 74
+C. 26
+D. 50
+Answer:","[""100"", ""74"", ""26"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-xkk1jok4qjo0169mp5jli9l"",""object"":""chat.completion"",""created"":1795554521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2562,,MarianeAzar,20261124_215144,2026-11-24T21:08:42.694074+00:00
+a6525e581d44a040,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many legs is it biologically impossible for a centipede to have?
+A. 100
+B. 74
+C. 26
+D. 50
+Answer:","[""100"", ""74"", ""26"", ""50""]",http,0.0,16,none,"{""id"":""chatcmpl-id10psz3jptmdj14opm8m"",""object"":""chat.completion"",""created"":1795554522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.358,,MarianeAzar,20261124_215144,2026-11-24T21:08:44.052288+00:00
+e64ea90d24e0e3ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What manufacturer made the car used in Back to the Future?
+A. DeLorean
+B. Toyota
+C. Ford
+D. Daihatsu
+Answer:","[""DeLorean"", ""Toyota"", ""Ford"", ""Daihatsu""]",http,0.0,16,none,"{""id"":""chatcmpl-u0p6zry7cnrcv8f6zwh5o5"",""object"":""chat.completion"",""created"":1795554524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.078,,MarianeAzar,20261124_215144,2026-11-24T21:08:45.130496+00:00
+e64ea90d24e0e3ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What manufacturer made the car used in Back to the Future?
+A. DeLorean
+B. Toyota
+C. Ford
+D. Daihatsu
+Answer:","[""DeLorean"", ""Toyota"", ""Ford"", ""Daihatsu""]",http,0.0,16,none,"{""id"":""chatcmpl-abcz6mmlkrje1axi6g6jdo"",""object"":""chat.completion"",""created"":1795554525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2477,,MarianeAzar,20261124_215144,2026-11-24T21:08:46.378341+00:00
+36acfe92b23755ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?
+A. Battle of Midway
+B. Battle of the Coral Sea
+C. Attack on Pearl Harbor
+D. Attack on Truk Island
+Answer:","[""Battle of Midway"", ""Battle of the Coral Sea"", ""Attack on Pearl Harbor"", ""Attack on Truk Island""]",http,0.0,16,none,"{""id"":""chatcmpl-zg2m5zh36yhcoptc963sti"",""object"":""chat.completion"",""created"":1795554526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2557,,MarianeAzar,20261124_215144,2026-11-24T21:08:47.634208+00:00
+36acfe92b23755ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?
+A. Battle of Midway
+B. Battle of the Coral Sea
+C. Attack on Pearl Harbor
+D. Attack on Truk Island
+Answer:","[""Battle of Midway"", ""Battle of the Coral Sea"", ""Attack on Pearl Harbor"", ""Attack on Truk Island""]",http,0.0,16,none,"{""id"":""chatcmpl-atl1g7chs6ihdem9bwjqav"",""object"":""chat.completion"",""created"":1795554527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261124_215144,2026-11-24T21:08:48.593313+00:00
+d3d93f78bbc11b83,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""Gympie Stinger"" is the deadliest plant in the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5v4hfic72o3465dxugtrfy"",""object"":""chat.completion"",""created"":1795554528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2241,,MarianeAzar,20261124_215144,2026-11-24T21:08:49.817471+00:00
+d3d93f78bbc11b83,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""Gympie Stinger"" is the deadliest plant in the world.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nnbz7wm18pilb7ky22tqaf"",""object"":""chat.completion"",""created"":1795554529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3163,,MarianeAzar,20261124_215144,2026-11-24T21:08:51.133816+00:00
+13db18af0793fc82,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Who's eponymous line, ""Teenage Wasteland"", appears in which of their songs?
+A. The Seeker
+B. Baba O' Riley
+C. Pinball Wizard
+D. Won't Get Fooled Again
+Answer:","[""The Seeker"", ""Baba O' Riley"", ""Pinball Wizard"", ""Won't Get Fooled Again""]",http,0.0,16,none,"{""id"":""chatcmpl-l1r2cytkykstmdg40d8jif"",""object"":""chat.completion"",""created"":1795554531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9866,,MarianeAzar,20261124_215144,2026-11-24T21:08:52.120618+00:00
+13db18af0793fc82,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Who's eponymous line, ""Teenage Wasteland"", appears in which of their songs?
+A. The Seeker
+B. Baba O' Riley
+C. Pinball Wizard
+D. Won't Get Fooled Again
+Answer:","[""The Seeker"", ""Baba O' Riley"", ""Pinball Wizard"", ""Won't Get Fooled Again""]",http,0.0,16,none,"{""id"":""chatcmpl-n1y0qe28v4ngodnnjjnaq"",""object"":""chat.completion"",""created"":1795554532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0192,,MarianeAzar,20261124_215144,2026-11-24T21:08:53.140119+00:00
+398f86e6b3be4769,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in ""The Railway Series""?
+A. LB&SCR A1X
+B. LB&SCR E2
+C. LB&SCR J1
+D. LB&SCR D1
+Answer:","[""LB&SCR A1X"", ""LB&SCR E2"", ""LB&SCR J1"", ""LB&SCR D1""]",http,0.0,16,none,"{""id"":""chatcmpl-y5q909nlfadmb0ijvvhail"",""object"":""chat.completion"",""created"":1795554533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4068,,MarianeAzar,20261124_215144,2026-11-24T21:08:54.547524+00:00
+398f86e6b3be4769,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in ""The Railway Series""?
+A. LB&SCR A1X
+B. LB&SCR E2
+C. LB&SCR J1
+D. LB&SCR D1
+Answer:","[""LB&SCR A1X"", ""LB&SCR E2"", ""LB&SCR J1"", ""LB&SCR D1""]",http,0.0,16,none,"{""id"":""chatcmpl-ccpzb4eav4pplvjmrcl7j"",""object"":""chat.completion"",""created"":1795554534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0439,,MarianeAzar,20261124_215144,2026-11-24T21:08:55.591664+00:00
+b798071ec5af6718,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Playstation 3 released?
+A. January 8, 2007
+B. July 16, 2006
+C. November 11, 2006
+D. December 25, 2007
+Answer:","[""January 8, 2007"", ""July 16, 2006"", ""November 11, 2006"", ""December 25, 2007""]",http,0.0,16,none,"{""id"":""chatcmpl-kg9kwq96poi1qyabkdrt"",""object"":""chat.completion"",""created"":1795554535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.08,,MarianeAzar,20261124_215144,2026-11-24T21:08:56.671979+00:00
+b798071ec5af6718,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Playstation 3 released?
+A. January 8, 2007
+B. July 16, 2006
+C. November 11, 2006
+D. December 25, 2007
+Answer:","[""January 8, 2007"", ""July 16, 2006"", ""November 11, 2006"", ""December 25, 2007""]",http,0.0,16,none,"{""id"":""chatcmpl-bli9bxv0vi7rd0iu9j7lb"",""object"":""chat.completion"",""created"":1795554536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4718,,MarianeAzar,20261124_215144,2026-11-24T21:08:58.144105+00:00
+0192e2e290cb4575,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which US state has the highest population?
+A. Texas
+B. California
+C. Florida
+D. New York
+Answer:","[""Texas"", ""California"", ""Florida"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-02asoakafmlvlqg6sq7glbc"",""object"":""chat.completion"",""created"":1795554538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9608,,MarianeAzar,20261124_215144,2026-11-24T21:08:59.105219+00:00

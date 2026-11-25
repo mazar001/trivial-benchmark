@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b51db5a8b937c3a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In most programming languages, the operator ++ is equivalent to the statement ""+= 1"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-24ginngrsykuczdfmwn9ur"",""object"":""chat.completion"",""created"":1795594967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3287,,MarianeAzar,20261125_084135,2026-11-25T08:22:49.144765+00:00
+295d19a4050d8094,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the last natural case of smallpox documented?
+A. 1980
+B. 1982
+C. 1990
+D. 1977
+Answer:","[""1980"", ""1982"", ""1990"", ""1977""]",http,0.0,16,none,"{""id"":""chatcmpl-hzgny1coqcia0o56tk0btc"",""object"":""chat.completion"",""created"":1795594968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9536,,MarianeAzar,20261125_084135,2026-11-25T08:22:50.098573+00:00
+295d19a4050d8094,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the last natural case of smallpox documented?
+A. 1980
+B. 1982
+C. 1990
+D. 1977
+Answer:","[""1980"", ""1982"", ""1990"", ""1977""]",http,0.0,16,none,"{""id"":""chatcmpl-8ryqpnofu7ql8kjzvk7je"",""object"":""chat.completion"",""created"":1795594969,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9727,,MarianeAzar,20261125_084135,2026-11-25T08:22:51.071591+00:00
+1d61b2aa7fa2e54d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game franchise ""Halo"", what is the UNSC's main opposing faction called?
+A. The Covenant
+B. The Slaughterers
+C. The Reckoning
+D. The Peoples
+Answer:","[""The Covenant"", ""The Slaughterers"", ""The Reckoning"", ""The Peoples""]",http,0.0,16,none,"{""id"":""chatcmpl-r4x6jtlvxbjx27opa8zf3f"",""object"":""chat.completion"",""created"":1795594970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5203,,MarianeAzar,20261125_084135,2026-11-25T08:22:52.592076+00:00
+1d61b2aa7fa2e54d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game franchise ""Halo"", what is the UNSC's main opposing faction called?
+A. The Covenant
+B. The Slaughterers
+C. The Reckoning
+D. The Peoples
+Answer:","[""The Covenant"", ""The Slaughterers"", ""The Reckoning"", ""The Peoples""]",http,0.0,16,none,"{""id"":""chatcmpl-8mdnwp736pkvjjr7jisq"",""object"":""chat.completion"",""created"":1795594972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9679,,MarianeAzar,20261125_084135,2026-11-25T08:22:53.560226+00:00
+52397f46fe22ffa1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these elements on the Periodic Table is a Noble Gas?
+A. Colbalt
+B. Neon
+C. Iodine
+D. Potassium
+Answer:","[""Colbalt"", ""Neon"", ""Iodine"", ""Potassium""]",http,0.0,16,none,"{""id"":""chatcmpl-0eep639va7n618cerpubhwo"",""object"":""chat.completion"",""created"":1795594972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9541,,MarianeAzar,20261125_084135,2026-11-25T08:22:54.515453+00:00
+52397f46fe22ffa1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these elements on the Periodic Table is a Noble Gas?
+A. Colbalt
+B. Neon
+C. Iodine
+D. Potassium
+Answer:","[""Colbalt"", ""Neon"", ""Iodine"", ""Potassium""]",http,0.0,16,none,"{""id"":""chatcmpl-eldeavfhyqb8vl30g1zdu"",""object"":""chat.completion"",""created"":1795594973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4009,,MarianeAzar,20261125_084135,2026-11-25T08:22:55.916637+00:00
+e8a3cd477761da0a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name of the cheetah?
+A. Felis catus
+B. Acinonyx jubatus
+C. Lynx rufus
+D. Panthera onca
+Answer:","[""Felis catus"", ""Acinonyx jubatus"", ""Lynx rufus"", ""Panthera onca""]",http,0.0,16,none,"{""id"":""chatcmpl-ft68g1i7qx494ezr6nsr9"",""object"":""chat.completion"",""created"":1795594975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1316,,MarianeAzar,20261125_084135,2026-11-25T08:22:57.048611+00:00
+e8a3cd477761da0a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name of the cheetah?
+A. Felis catus
+B. Acinonyx jubatus
+C. Lynx rufus
+D. Panthera onca
+Answer:","[""Felis catus"", ""Acinonyx jubatus"", ""Lynx rufus"", ""Panthera onca""]",http,0.0,16,none,"{""id"":""chatcmpl-rltwauwue1p5h0lwu4z45"",""object"":""chat.completion"",""created"":1795594976,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9519,,MarianeAzar,20261125_084135,2026-11-25T08:22:58.000748+00:00
+73a3cab074630b35,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vatican city is a full member of United Nations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jligr1dud9smje991y382"",""object"":""chat.completion"",""created"":1795594977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8956,,MarianeAzar,20261125_084135,2026-11-25T08:22:58.897253+00:00
+73a3cab074630b35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vatican city is a full member of United Nations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2p6omazy58j01snqv8h5h"",""object"":""chat.completion"",""created"":1795594978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3154,,MarianeAzar,20261125_084135,2026-11-25T08:23:00.212846+00:00
+f7d65d2dd1f18bb9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the world's longest river?
+A. Missouri
+B. Nile
+C. Amazon
+D. Yangtze
+Answer:","[""Missouri"", ""Nile"", ""Amazon"", ""Yangtze""]",http,0.0,16,none,"{""id"":""chatcmpl-hq1itsev9knjivyirr332"",""object"":""chat.completion"",""created"":1795594979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9336,,MarianeAzar,20261125_084135,2026-11-25T08:23:01.146760+00:00
+f7d65d2dd1f18bb9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the world's longest river?
+A. Missouri
+B. Nile
+C. Amazon
+D. Yangtze
+Answer:","[""Missouri"", ""Nile"", ""Amazon"", ""Yangtze""]",http,0.0,16,none,"{""id"":""chatcmpl-m6use3cwt4n0x21qf7kl94n"",""object"":""chat.completion"",""created"":1795594980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9471,,MarianeAzar,20261125_084135,2026-11-25T08:23:02.094343+00:00
+c19a3f5bcd624c71,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: From which album is the Gorillaz song, ""On Melancholy Hill"" featured in?
+A. Plastic Beach
+B. The Fall
+C. Humanz
+D. Demon Days
+Answer:","[""Plastic Beach"", ""The Fall"", ""Humanz"", ""Demon Days""]",http,0.0,16,none,"{""id"":""chatcmpl-newwzn242mh8d16uz8stvs"",""object"":""chat.completion"",""created"":1795594981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2785,,MarianeAzar,20261125_084135,2026-11-25T08:23:03.373103+00:00
+c19a3f5bcd624c71,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: From which album is the Gorillaz song, ""On Melancholy Hill"" featured in?
+A. Plastic Beach
+B. The Fall
+C. Humanz
+D. Demon Days
+Answer:","[""Plastic Beach"", ""The Fall"", ""Humanz"", ""Demon Days""]",http,0.0,16,none,"{""id"":""chatcmpl-e83xcx0d4be2wlfy5vuzo"",""object"":""chat.completion"",""created"":1795594982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9072,,MarianeAzar,20261125_084135,2026-11-25T08:23:04.280553+00:00
+2d2daedaf7282be7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the 1st President of Mexico?
+A. Guadalupe Victoria
+B. Vicente Guerrero
+C. Benito Juárez
+D. Miguel Hidalgo Y Costilla
+Answer:","[""Guadalupe Victoria"", ""Vicente Guerrero"", ""Benito Juárez"", ""Miguel Hidalgo Y Costilla""]",http,0.0,16,none,"{""id"":""chatcmpl-ql4t11n9zsj397wai5rut1"",""object"":""chat.completion"",""created"":1795594983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9528,,MarianeAzar,20261125_084135,2026-11-25T08:23:05.233563+00:00
+2d2daedaf7282be7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the 1st President of Mexico?
+A. Guadalupe Victoria
+B. Vicente Guerrero
+C. Benito Juárez
+D. Miguel Hidalgo Y Costilla
+Answer:","[""Guadalupe Victoria"", ""Vicente Guerrero"", ""Benito Juárez"", ""Miguel Hidalgo Y Costilla""]",http,0.0,16,none,"{""id"":""chatcmpl-73shqblpuc4k8fyolpiip"",""object"":""chat.completion"",""created"":1795594984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3421,,MarianeAzar,20261125_084135,2026-11-25T08:23:06.575885+00:00
+55f8dcd7b8908eaf,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Early RAM was directly seated onto the motherboard and could not be easily removed.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fkl66y8j7tl974tcp6rdo5"",""object"":""chat.completion"",""created"":1795594986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9051,,MarianeAzar,20261125_084135,2026-11-25T08:23:07.481191+00:00
+55f8dcd7b8908eaf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Early RAM was directly seated onto the motherboard and could not be easily removed.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-62nstrskefrpe05stadbv"",""object"":""chat.completion"",""created"":1795594986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9061,,MarianeAzar,20261125_084135,2026-11-25T08:23:08.387474+00:00
+1fcd99bcd36f6796,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Watergate Scandal occured in what year?
+A. 1971
+B. 1974
+C. 1973
+D. 1972
+Answer:","[""1971"", ""1974"", ""1973"", ""1972""]",http,0.0,16,none,"{""id"":""chatcmpl-phdhh8rjwn8dkivomf62k"",""object"":""chat.completion"",""created"":1795594987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3511,,MarianeAzar,20261125_084135,2026-11-25T08:23:09.738799+00:00
+1fcd99bcd36f6796,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Watergate Scandal occured in what year?
+A. 1971
+B. 1974
+C. 1973
+D. 1972
+Answer:","[""1971"", ""1974"", ""1973"", ""1972""]",http,0.0,16,none,"{""id"":""chatcmpl-mk13sz4m9tp480ux77q2oc"",""object"":""chat.completion"",""created"":1795594989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0327,,MarianeAzar,20261125_084135,2026-11-25T08:23:10.771677+00:00
+00dcd4dfa422dba1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Adam West was the mayor of which cartoon town?
+A. South Park
+B. Quahog
+C. Langley Falls
+D. Springfield
+Answer:","[""South Park"", ""Quahog"", ""Langley Falls"", ""Springfield""]",http,0.0,16,none,"{""id"":""chatcmpl-pv1s5d0puynqztyzgdxos"",""object"":""chat.completion"",""created"":1795594990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9354,,MarianeAzar,20261125_084135,2026-11-25T08:23:11.707428+00:00
+00dcd4dfa422dba1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Adam West was the mayor of which cartoon town?
+A. South Park
+B. Quahog
+C. Langley Falls
+D. Springfield
+Answer:","[""South Park"", ""Quahog"", ""Langley Falls"", ""Springfield""]",http,0.0,16,none,"{""id"":""chatcmpl-x93yz31klfjf5w3k0gpdo"",""object"":""chat.completion"",""created"":1795594991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.383,,MarianeAzar,20261125_084135,2026-11-25T08:23:13.090597+00:00
+3f20b151948b53c7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which Shakespearean play will you find the suicide of Ophelia?
+A. Othello
+B. King Lear
+C. Hamlet
+D. Macbeth
+Answer:","[""Othello"", ""King Lear"", ""Hamlet"", ""Macbeth""]",http,0.0,16,none,"{""id"":""chatcmpl-3f4p3wc1xcn5yzkq34ziys"",""object"":""chat.completion"",""created"":1795594992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.951,,MarianeAzar,20261125_084135,2026-11-25T08:23:14.042143+00:00
+3f20b151948b53c7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which Shakespearean play will you find the suicide of Ophelia?
+A. Othello
+B. King Lear
+C. Hamlet
+D. Macbeth
+Answer:","[""Othello"", ""King Lear"", ""Hamlet"", ""Macbeth""]",http,0.0,16,none,"{""id"":""chatcmpl-8xjzfq81j3qdmsy43crhrj"",""object"":""chat.completion"",""created"":1795594993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9297,,MarianeAzar,20261125_084135,2026-11-25T08:23:14.972041+00:00

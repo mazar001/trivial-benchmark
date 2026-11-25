@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a357f588e4b8761b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Hearthstone"", what is the best rank possible?
+A. Rank 1 Elite
+B. Rank 1 Legend
+C. Rank 1 Supreme
+D. Rank 1 Master
+Answer:","[""Rank 1 Elite"", ""Rank 1 Legend"", ""Rank 1 Supreme"", ""Rank 1 Master""]",http,0.0,16,none,"{""id"":""chatcmpl-l0k7cer3qlwys7e2606la"",""object"":""chat.completion"",""created"":1795595164,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9726,,MarianeAzar,20261125_084135,2026-11-25T08:26:06.004197+00:00
+a357f588e4b8761b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Hearthstone"", what is the best rank possible?
+A. Rank 1 Elite
+B. Rank 1 Legend
+C. Rank 1 Supreme
+D. Rank 1 Master
+Answer:","[""Rank 1 Elite"", ""Rank 1 Legend"", ""Rank 1 Supreme"", ""Rank 1 Master""]",http,0.0,16,none,"{""id"":""chatcmpl-0ix84puyb43lizk78h0wa7k"",""object"":""chat.completion"",""created"":1795595165,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4787,,MarianeAzar,20261125_084135,2026-11-25T08:26:07.483108+00:00
+ef68856d9b581524,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was ""JoJo's Bizarre Adventure: Phantom Blood"" first released?
+A. 1995
+B. 1983
+C. 1987
+D. 2013
+Answer:","[""1995"", ""1983"", ""1987"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-om40w013mllb1l08m0twtc"",""object"":""chat.completion"",""created"":1795595166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0199,,MarianeAzar,20261125_084135,2026-11-25T08:26:08.503269+00:00
+ef68856d9b581524,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was ""JoJo's Bizarre Adventure: Phantom Blood"" first released?
+A. 1995
+B. 1983
+C. 1987
+D. 2013
+Answer:","[""1995"", ""1983"", ""1987"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-i8pi7d6quh1w79n75vlov"",""object"":""chat.completion"",""created"":1795595167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9864,,MarianeAzar,20261125_084135,2026-11-25T08:26:09.489938+00:00
+90ce0f3de281a753,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: JavaScript derives from a later version of Java
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h4vu6xzuybos7sznuy3i8o"",""object"":""chat.completion"",""created"":1795595168,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2021,,MarianeAzar,20261125_084135,2026-11-25T08:26:10.692311+00:00
+90ce0f3de281a753,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: JavaScript derives from a later version of Java
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-10bg89kc4zx36ah15btp6l"",""object"":""chat.completion"",""created"":1795595170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.89,,MarianeAzar,20261125_084135,2026-11-25T08:26:11.582506+00:00
+da4ed4ac3bd3d727,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is a Donald Trump Board Game, which was made in 1989.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o7j6ail250o96ezz56s2v7"",""object"":""chat.completion"",""created"":1795595171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9031,,MarianeAzar,20261125_084135,2026-11-25T08:26:12.485829+00:00
+da4ed4ac3bd3d727,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is a Donald Trump Board Game, which was made in 1989.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-s0wuyq29egs2emkope36ko"",""object"":""chat.completion"",""created"":1795595171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2978,,MarianeAzar,20261125_084135,2026-11-25T08:26:13.783799+00:00
+f54d983d1c7cc824,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The minigun was designed in 1960 by which manufacturer.
+A. Sig Sauer
+B. Colt Firearms
+C. General Electric
+D. Heckler & Koch
+Answer:","[""Sig Sauer"", ""Colt Firearms"", ""General Electric"", ""Heckler & Koch""]",http,0.0,16,none,"{""id"":""chatcmpl-ak8ail7te38m6gda2tb2j"",""object"":""chat.completion"",""created"":1795595173,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.933,,MarianeAzar,20261125_084135,2026-11-25T08:26:14.717002+00:00
+f54d983d1c7cc824,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The minigun was designed in 1960 by which manufacturer.
+A. Sig Sauer
+B. Colt Firearms
+C. General Electric
+D. Heckler & Koch
+Answer:","[""Sig Sauer"", ""Colt Firearms"", ""General Electric"", ""Heckler & Koch""]",http,0.0,16,none,"{""id"":""chatcmpl-de05gswe09et521gstr8g"",""object"":""chat.completion"",""created"":1795595174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2402,,MarianeAzar,20261125_084135,2026-11-25T08:26:15.957453+00:00
+07adc6ce4ea0a2c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following United States senators is known for performing a 24-hour long filibuster?
+A. John Barrasso
+B. Roy Blunt
+C. Chuck Schumer
+D. Strom Thurmond
+Answer:","[""John Barrasso"", ""Roy Blunt"", ""Chuck Schumer"", ""Strom Thurmond""]",http,0.0,16,none,"{""id"":""chatcmpl-g505ofa89bil67fqbxph"",""object"":""chat.completion"",""created"":1795595175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2717,,MarianeAzar,20261125_084135,2026-11-25T08:26:17.229674+00:00
+07adc6ce4ea0a2c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following United States senators is known for performing a 24-hour long filibuster?
+A. John Barrasso
+B. Roy Blunt
+C. Chuck Schumer
+D. Strom Thurmond
+Answer:","[""John Barrasso"", ""Roy Blunt"", ""Chuck Schumer"", ""Strom Thurmond""]",http,0.0,16,none,"{""id"":""chatcmpl-bgt0jvoi28pbszb4f9k8lj"",""object"":""chat.completion"",""created"":1795595176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9475,,MarianeAzar,20261125_084135,2026-11-25T08:26:18.177362+00:00
+635fa65e676d12ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: La Fenice opera house is in which Italian city?
+A. Venice
+B. Rome
+C. Milan
+D. Pompeii
+Answer:","[""Venice"", ""Rome"", ""Milan"", ""Pompeii""]",http,0.0,16,none,"{""id"":""chatcmpl-k7ginosjrurdmjqpvi2op"",""object"":""chat.completion"",""created"":1795595177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2388,,MarianeAzar,20261125_084135,2026-11-25T08:26:19.416452+00:00
+635fa65e676d12ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: La Fenice opera house is in which Italian city?
+A. Venice
+B. Rome
+C. Milan
+D. Pompeii
+Answer:","[""Venice"", ""Rome"", ""Milan"", ""Pompeii""]",http,0.0,16,none,"{""id"":""chatcmpl-lewhhl3t48m0jumx1rcabzi"",""object"":""chat.completion"",""created"":1795595178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1481,,MarianeAzar,20261125_084135,2026-11-25T08:26:20.565093+00:00
+10e7520f4abb792d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where did the dog breed ""Chihuahua"" originate?
+A. Spain
+B. Russia
+C. Mexico
+D. France
+Answer:","[""Spain"", ""Russia"", ""Mexico"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-qjw5hj42uw77ian1s40dd"",""object"":""chat.completion"",""created"":1795595179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9214,,MarianeAzar,20261125_084135,2026-11-25T08:26:21.487008+00:00
+10e7520f4abb792d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where did the dog breed ""Chihuahua"" originate?
+A. Spain
+B. Russia
+C. Mexico
+D. France
+Answer:","[""Spain"", ""Russia"", ""Mexico"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-p7md55pw1dnpr32e17ssse"",""object"":""chat.completion"",""created"":1795595180,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2499,,MarianeAzar,20261125_084135,2026-11-25T08:26:22.737140+00:00
+781ddc5a7f445eac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the ""Metal Gear"" Series?
+A. Gunpei Yokoi
+B. Shigeru Miyamoto
+C. Hiroshi Yamauchi
+D. Hideo Kojima
+Answer:","[""Gunpei Yokoi"", ""Shigeru Miyamoto"", ""Hiroshi Yamauchi"", ""Hideo Kojima""]",http,0.0,16,none,"{""id"":""chatcmpl-lsufeiszn6x7z7lz4w8yc"",""object"":""chat.completion"",""created"":1795595182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0102,,MarianeAzar,20261125_084135,2026-11-25T08:26:23.747736+00:00
+781ddc5a7f445eac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who created the ""Metal Gear"" Series?
+A. Gunpei Yokoi
+B. Shigeru Miyamoto
+C. Hiroshi Yamauchi
+D. Hideo Kojima
+Answer:","[""Gunpei Yokoi"", ""Shigeru Miyamoto"", ""Hiroshi Yamauchi"", ""Hideo Kojima""]",http,0.0,16,none,"{""id"":""chatcmpl-tbmdd29aihf2nf0b5jz1od"",""object"":""chat.completion"",""created"":1795595183,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9498,,MarianeAzar,20261125_084135,2026-11-25T08:26:24.697861+00:00
+43dfa1ee6a9da4e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the writer of the game ""Half-Life""?
+A. Marc Laidlaw
+B. Robin Walker
+C. Chet Faliszek
+D. Gabe Newell
+Answer:","[""Marc Laidlaw"", ""Robin Walker"", ""Chet Faliszek"", ""Gabe Newell""]",http,0.0,16,none,"{""id"":""chatcmpl-i673x73em2c2l6zgpaswm8"",""object"":""chat.completion"",""created"":1795595184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3918,,MarianeAzar,20261125_084135,2026-11-25T08:26:26.090193+00:00
+43dfa1ee6a9da4e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the writer of the game ""Half-Life""?
+A. Marc Laidlaw
+B. Robin Walker
+C. Chet Faliszek
+D. Gabe Newell
+Answer:","[""Marc Laidlaw"", ""Robin Walker"", ""Chet Faliszek"", ""Gabe Newell""]",http,0.0,16,none,"{""id"":""chatcmpl-z7aobppmhpafhy2o5kquul"",""object"":""chat.completion"",""created"":1795595185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.942,,MarianeAzar,20261125_084135,2026-11-25T08:26:27.032420+00:00
+61737b59366ccb46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio produced the anime adaptation of ""xxxHolic""?
+A. Xebec
+B. Sunrise
+C. Kyoto Animation
+D. Production I.G
+Answer:","[""Xebec"", ""Sunrise"", ""Kyoto Animation"", ""Production I.G""]",http,0.0,16,none,"{""id"":""chatcmpl-2k35ifivdy3y60rva9ke2"",""object"":""chat.completion"",""created"":1795595186,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9549,,MarianeAzar,20261125_084135,2026-11-25T08:26:27.988318+00:00
+61737b59366ccb46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio produced the anime adaptation of ""xxxHolic""?
+A. Xebec
+B. Sunrise
+C. Kyoto Animation
+D. Production I.G
+Answer:","[""Xebec"", ""Sunrise"", ""Kyoto Animation"", ""Production I.G""]",http,0.0,16,none,"{""id"":""chatcmpl-4kqsi8gowehhwh52nxs6pd"",""object"":""chat.completion"",""created"":1795595187,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2814,,MarianeAzar,20261125_084135,2026-11-25T08:26:29.269936+00:00
+9981b0793e3ae751,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Gangnam Style uploaded to YouTube?
+A. 2011
+B. 2014
+C. 2013
+D. 2012
+Answer:","[""2011"", ""2014"", ""2013"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-tc2asgkq73e8v7s4c4b9ba"",""object"":""chat.completion"",""created"":1795595188,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:26:30.192539+00:00
+9981b0793e3ae751,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Gangnam Style uploaded to YouTube?
+A. 2011
+B. 2014
+C. 2013
+D. 2012
+Answer:","[""2011"", ""2014"", ""2013"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-sdcajxjgp1pmyg1pf2rigl"",""object"":""chat.completion"",""created"":1795595189,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9703,,MarianeAzar,20261125_084135,2026-11-25T08:26:31.163131+00:00
+7781543763cf09ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the chemical symbol for lead?
+A. Le
+B. Ld
+C. Pm
+D. Pb
+Answer:","[""Le"", ""Ld"", ""Pm"", ""Pb""]",http,0.0,16,none,"{""id"":""chatcmpl-kjfogasseura7mq97pwmmm"",""object"":""chat.completion"",""created"":1795595190,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2882,,MarianeAzar,20261125_084135,2026-11-25T08:26:32.451592+00:00

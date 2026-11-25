@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8926523116173b7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The heavy metal band Black Sabbath hail from which English city?
+A. Birmingham
+B. Manchester
+C. Newcastle-Upon-Tyne
+D. London
+Answer:","[""Birmingham"", ""Manchester"", ""Newcastle-Upon-Tyne"", ""London""]",http,0.0,16,none,"{""id"":""chatcmpl-r7avak6cw9j3m45ede808b"",""object"":""chat.completion"",""created"":1795595360,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0538,,MarianeAzar,20261125_084135,2026-11-25T08:29:22.394212+00:00
+361110f9c60cb15f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the founder of Team Fortress 2's fictional company ""Mann Co""?
+A. Wallace Breem
+B. Saxton Hale
+C. Zepheniah Mann
+D. Cave Johnson
+Answer:","[""Wallace Breem"", ""Saxton Hale"", ""Zepheniah Mann"", ""Cave Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-8cil91j03o2g2w2uela3ag"",""object"":""chat.completion"",""created"":1795595361,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9697,,MarianeAzar,20261125_084135,2026-11-25T08:29:23.364259+00:00
+361110f9c60cb15f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the founder of Team Fortress 2's fictional company ""Mann Co""?
+A. Wallace Breem
+B. Saxton Hale
+C. Zepheniah Mann
+D. Cave Johnson
+Answer:","[""Wallace Breem"", ""Saxton Hale"", ""Zepheniah Mann"", ""Cave Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-ka4m0o82vsldacs4rbi1"",""object"":""chat.completion"",""created"":1795595362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2405,,MarianeAzar,20261125_084135,2026-11-25T08:29:24.604996+00:00
+6cd722d6d05f62f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mythology did the god ""Apollo"" come from?
+A. Greek and Chinese
+B. Greek and Roman
+C. Greek, Roman and Norse
+D. Roman and Spanish
+Answer:","[""Greek and Chinese"", ""Greek and Roman"", ""Greek, Roman and Norse"", ""Roman and Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-589sjdm68o9q7onas5q0jq"",""object"":""chat.completion"",""created"":1795595364,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1327,,MarianeAzar,20261125_084135,2026-11-25T08:29:25.737952+00:00
+6cd722d6d05f62f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mythology did the god ""Apollo"" come from?
+A. Greek and Chinese
+B. Greek and Roman
+C. Greek, Roman and Norse
+D. Roman and Spanish
+Answer:","[""Greek and Chinese"", ""Greek and Roman"", ""Greek, Roman and Norse"", ""Roman and Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-fl1ka586z9w5glqc0pe6i"",""object"":""chat.completion"",""created"":1795595365,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.922,,MarianeAzar,20261125_084135,2026-11-25T08:29:26.660244+00:00
+82cece368c1e9fbe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Bank of America originally established as?
+A. Bank of Charlotte
+B. Bank of Long Island
+C. Bank of Pennsylvania
+D. Bank of Italy
+Answer:","[""Bank of Charlotte"", ""Bank of Long Island"", ""Bank of Pennsylvania"", ""Bank of Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-5weq2b4zcrgwsfn1etj2fq"",""object"":""chat.completion"",""created"":1795595366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4257,,MarianeAzar,20261125_084135,2026-11-25T08:29:28.086633+00:00
+82cece368c1e9fbe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Bank of America originally established as?
+A. Bank of Charlotte
+B. Bank of Long Island
+C. Bank of Pennsylvania
+D. Bank of Italy
+Answer:","[""Bank of Charlotte"", ""Bank of Long Island"", ""Bank of Pennsylvania"", ""Bank of Italy""]",http,0.0,16,none,"{""id"":""chatcmpl-t19h3om2p9mofjwmz4f4"",""object"":""chat.completion"",""created"":1795595367,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9726,,MarianeAzar,20261125_084135,2026-11-25T08:29:29.059511+00:00
+5971c5b1dc5496bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?
+A. Carl
+B. Dave
+C. Will
+D. John
+Answer:","[""Carl"", ""Dave"", ""Will"", ""John""]",http,0.0,16,none,"{""id"":""chatcmpl-c7ip3pqnmtihwql50ss9w"",""object"":""chat.completion"",""created"":1795595368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9667,,MarianeAzar,20261125_084135,2026-11-25T08:29:30.026538+00:00
+5971c5b1dc5496bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was directed by Ivan Reitman, written by Gary Ross, featured Kevin Kline, and was released in 1993?
+A. Carl
+B. Dave
+C. Will
+D. John
+Answer:","[""Carl"", ""Dave"", ""Will"", ""John""]",http,0.0,16,none,"{""id"":""chatcmpl-9coji8a1psk7le64op44t"",""object"":""chat.completion"",""created"":1795595369,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4649,,MarianeAzar,20261125_084135,2026-11-25T08:29:31.491701+00:00
+ec0befad5e7e6581,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is true when alligators are behaving territorially?
+A. They run full force at the threat
+B. Slap their tails on the ground
+C. They bellow while showing their tail and neck
+D. Open their jaws while making a clicking noise
+Answer:","[""They run full force at the threat"", ""Slap their tails on the ground"", ""They bellow while showing their tail and neck"", ""Open their jaws while making a clicking noise""]",http,0.0,16,none,"{""id"":""chatcmpl-94mlt08kpeauxf5urh4end"",""object"":""chat.completion"",""created"":1795595370,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0794,,MarianeAzar,20261125_084135,2026-11-25T08:29:32.571302+00:00
+ec0befad5e7e6581,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is true when alligators are behaving territorially?
+A. They run full force at the threat
+B. Slap their tails on the ground
+C. They bellow while showing their tail and neck
+D. Open their jaws while making a clicking noise
+Answer:","[""They run full force at the threat"", ""Slap their tails on the ground"", ""They bellow while showing their tail and neck"", ""Open their jaws while making a clicking noise""]",http,0.0,16,none,"{""id"":""chatcmpl-3mjwj9exofgsxqm5hflsqc"",""object"":""chat.completion"",""created"":1795595372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0023,,MarianeAzar,20261125_084135,2026-11-25T08:29:33.573857+00:00
+b2fd24542bb12a4f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Scream"" who is Ghost Face?
+A. Dewey Riley
+B. Sidney Prescott
+C. Billy Loomis and Stu Macher
+D. Archie Prescott and Philip Marv
+Answer:","[""Dewey Riley"", ""Sidney Prescott"", ""Billy Loomis and Stu Macher"", ""Archie Prescott and Philip Marv""]",http,0.0,16,none,"{""id"":""chatcmpl-l5b89diou5e0t171dlg9j5c"",""object"":""chat.completion"",""created"":1795595373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2831,,MarianeAzar,20261125_084135,2026-11-25T08:29:34.857339+00:00
+b2fd24542bb12a4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Scream"" who is Ghost Face?
+A. Dewey Riley
+B. Sidney Prescott
+C. Billy Loomis and Stu Macher
+D. Archie Prescott and Philip Marv
+Answer:","[""Dewey Riley"", ""Sidney Prescott"", ""Billy Loomis and Stu Macher"", ""Archie Prescott and Philip Marv""]",http,0.0,16,none,"{""id"":""chatcmpl-19o8vsp42o7mcnupnbtuhk"",""object"":""chat.completion"",""created"":1795595374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9665,,MarianeAzar,20261125_084135,2026-11-25T08:29:35.824152+00:00
+9891dfa1a4b9ec7a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""VA-11 Hall-A"" during Virgilio's ending, Virgilio opens his own:
+A. Curry Stand
+B. Museum
+C. Bar
+D. Law Firm
+Answer:","[""Curry Stand"", ""Museum"", ""Bar"", ""Law Firm""]",http,0.0,16,none,"{""id"":""chatcmpl-4x9uo0u9i421asyctvwmoh"",""object"":""chat.completion"",""created"":1795595375,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2399,,MarianeAzar,20261125_084135,2026-11-25T08:29:37.064496+00:00
+9891dfa1a4b9ec7a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""VA-11 Hall-A"" during Virgilio's ending, Virgilio opens his own:
+A. Curry Stand
+B. Museum
+C. Bar
+D. Law Firm
+Answer:","[""Curry Stand"", ""Museum"", ""Bar"", ""Law Firm""]",http,0.0,16,none,"{""id"":""chatcmpl-mmrfckkk2zriu4p2xjemfa"",""object"":""chat.completion"",""created"":1795595376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3648,,MarianeAzar,20261125_084135,2026-11-25T08:29:38.429539+00:00
+805a9b101c16af38,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African countries list ""Spanish"" as an official language?
+A. Angola
+B. Guinea
+C. Equatorial Guinea
+D. Cameroon
+Answer:","[""Angola"", ""Guinea"", ""Equatorial Guinea"", ""Cameroon""]",http,0.0,16,none,"{""id"":""chatcmpl-5icbgoyervx1e4jyir7tcmi"",""object"":""chat.completion"",""created"":1795595377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9551,,MarianeAzar,20261125_084135,2026-11-25T08:29:39.385279+00:00
+805a9b101c16af38,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these African countries list ""Spanish"" as an official language?
+A. Angola
+B. Guinea
+C. Equatorial Guinea
+D. Cameroon
+Answer:","[""Angola"", ""Guinea"", ""Equatorial Guinea"", ""Cameroon""]",http,0.0,16,none,"{""id"":""chatcmpl-sqp9moq8oiqv7joyt8srg"",""object"":""chat.completion"",""created"":1795595378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9635,,MarianeAzar,20261125_084135,2026-11-25T08:29:40.349079+00:00
+b74c95d4fc8fd628,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official national language of Pakistan?
+A. Punjabi
+B. Urdu
+C. Pashto
+D. Indian
+Answer:","[""Punjabi"", ""Urdu"", ""Pashto"", ""Indian""]",http,0.0,16,none,"{""id"":""chatcmpl-4d8t2xnso88xdihna5zyq"",""object"":""chat.completion"",""created"":1795595379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3306,,MarianeAzar,20261125_084135,2026-11-25T08:29:41.680123+00:00
+b74c95d4fc8fd628,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official national language of Pakistan?
+A. Punjabi
+B. Urdu
+C. Pashto
+D. Indian
+Answer:","[""Punjabi"", ""Urdu"", ""Pashto"", ""Indian""]",http,0.0,16,none,"{""id"":""chatcmpl-2vt3px7phzajjytwd55pe"",""object"":""chat.completion"",""created"":1795595381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9326,,MarianeAzar,20261125_084135,2026-11-25T08:29:42.612970+00:00
+c92657df5e3575e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the nickname of the original model for Half-Life's protagonist Gordon Freeman?
+A. Ivan the Space Biker
+B. Ivan the Alien Biker
+C. Gordon the Alien Biker
+D. Gordon the Space Biker
+Answer:","[""Ivan the Space Biker"", ""Ivan the Alien Biker"", ""Gordon the Alien Biker"", ""Gordon the Space Biker""]",http,0.0,16,none,"{""id"":""chatcmpl-hbarh07f54k8imdk2623fm"",""object"":""chat.completion"",""created"":1795595382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9511,,MarianeAzar,20261125_084135,2026-11-25T08:29:43.564466+00:00
+c92657df5e3575e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the nickname of the original model for Half-Life's protagonist Gordon Freeman?
+A. Ivan the Space Biker
+B. Ivan the Alien Biker
+C. Gordon the Alien Biker
+D. Gordon the Space Biker
+Answer:","[""Ivan the Space Biker"", ""Ivan the Alien Biker"", ""Gordon the Alien Biker"", ""Gordon the Space Biker""]",http,0.0,16,none,"{""id"":""chatcmpl-3xgwb5gha45y7evvs5cltf"",""object"":""chat.completion"",""created"":1795595383,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3356,,MarianeAzar,20261125_084135,2026-11-25T08:29:44.900337+00:00
+ed9a6aae4ac61182,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's ""Monster""?
+A. Singing In The Rain
+B. What a Wonderful World
+C. Over the Rainbow
+D. When You Wish Upon A Star
+Answer:","[""Singing In The Rain"", ""What a Wonderful World"", ""Over the Rainbow"", ""When You Wish Upon A Star""]",http,0.0,16,none,"{""id"":""chatcmpl-l39s5abk80a2qbe04uy0l8"",""object"":""chat.completion"",""created"":1795595384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0102,,MarianeAzar,20261125_084135,2026-11-25T08:29:45.910839+00:00
+ed9a6aae4ac61182,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song was the callsign for Stefan Verdemann's KWFM radio station in Urasawa Naoki's ""Monster""?
+A. Singing In The Rain
+B. What a Wonderful World
+C. Over the Rainbow
+D. When You Wish Upon A Star
+Answer:","[""Singing In The Rain"", ""What a Wonderful World"", ""Over the Rainbow"", ""When You Wish Upon A Star""]",http,0.0,16,none,"{""id"":""chatcmpl-jlbfld67zvqd22owxdd8"",""object"":""chat.completion"",""created"":1795595385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2717,,MarianeAzar,20261125_084135,2026-11-25T08:29:47.183091+00:00
+52990283d56ccfbc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the surrealist painter Salvador Dali?
+A. Italian
+B. French
+C. Portuguese
+D. Spanish
+Answer:","[""Italian"", ""French"", ""Portuguese"", ""Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-ewvaixovr19bwapfu9c1rk"",""object"":""chat.completion"",""created"":1795595386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2108,,MarianeAzar,20261125_084135,2026-11-25T08:29:48.394188+00:00
+52990283d56ccfbc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the surrealist painter Salvador Dali?
+A. Italian
+B. French
+C. Portuguese
+D. Spanish
+Answer:","[""Italian"", ""French"", ""Portuguese"", ""Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-ynq36w8bh6q8imi4juw1rj"",""object"":""chat.completion"",""created"":1795595387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9031,,MarianeAzar,20261125_084135,2026-11-25T08:29:49.297495+00:00

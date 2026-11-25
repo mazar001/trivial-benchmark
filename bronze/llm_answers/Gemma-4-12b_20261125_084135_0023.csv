@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+02039edfee637335,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which programming language was developed by Sun Microsystems in 1995?
+A. C++
+B. Java
+C. Python
+D. Solaris OS
+Answer:","[""C++"", ""Java"", ""Python"", ""Solaris OS""]",http,0.0,16,none,"{""id"":""chatcmpl-yge23o6q4ufyazarkc4iic"",""object"":""chat.completion"",""created"":1795592992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261125_084135,2026-11-25T07:49:54.225714+00:00
+b577ac3a5d1479ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist painted the late 15th century mural 'The Last Supper'?
+A. Luca Pacioli
+B. Piero della Francesca
+C. Leonardo da Vinci
+D. Paolo Uccello
+Answer:","[""Luca Pacioli"", ""Piero della Francesca"", ""Leonardo da Vinci"", ""Paolo Uccello""]",http,0.0,16,none,"{""id"":""chatcmpl-n3dfyw945khiqvl92pgcd"",""object"":""chat.completion"",""created"":1795592993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T07:49:55.089884+00:00
+b577ac3a5d1479ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist painted the late 15th century mural 'The Last Supper'?
+A. Luca Pacioli
+B. Piero della Francesca
+C. Leonardo da Vinci
+D. Paolo Uccello
+Answer:","[""Luca Pacioli"", ""Piero della Francesca"", ""Leonardo da Vinci"", ""Paolo Uccello""]",http,0.0,16,none,"{""id"":""chatcmpl-0xh2ymiwiwpbte1685kodr"",""object"":""chat.completion"",""created"":1795592994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261125_084135,2026-11-25T07:49:55.976304+00:00
+0ce2d3e0b3e53fa3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Author of the manga Uzumaki?
+A. Junji Ito
+B. Noboru Takahashi
+C. Akira Toriyama
+D. Masashi Kishimoto
+Answer:","[""Junji Ito"", ""Noboru Takahashi"", ""Akira Toriyama"", ""Masashi Kishimoto""]",http,0.0,16,none,"{""id"":""chatcmpl-t7qzp1a0mdnz1o0w4ev52b"",""object"":""chat.completion"",""created"":1795592995,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T07:49:56.842386+00:00
+0ce2d3e0b3e53fa3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the Author of the manga Uzumaki?
+A. Junji Ito
+B. Noboru Takahashi
+C. Akira Toriyama
+D. Masashi Kishimoto
+Answer:","[""Junji Ito"", ""Noboru Takahashi"", ""Akira Toriyama"", ""Masashi Kishimoto""]",http,0.0,16,none,"{""id"":""chatcmpl-u2ikx6ykv2n0ex68wb6etuu"",""object"":""chat.completion"",""created"":1795592996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T07:49:57.701015+00:00
+297bf362f0e4ac13,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Black Hammer, what dimension does Colonel Weird travel through?
+A. Phantom Zone
+B. Para-Zone
+C. Mirror Universe
+D. Hyperspace
+Answer:","[""Phantom Zone"", ""Para-Zone"", ""Mirror Universe"", ""Hyperspace""]",http,0.0,16,none,"{""id"":""chatcmpl-3m202fbbknfldkmeq3hv4d"",""object"":""chat.completion"",""created"":1795592997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T07:49:58.556949+00:00
+297bf362f0e4ac13,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Black Hammer, what dimension does Colonel Weird travel through?
+A. Phantom Zone
+B. Para-Zone
+C. Mirror Universe
+D. Hyperspace
+Answer:","[""Phantom Zone"", ""Para-Zone"", ""Mirror Universe"", ""Hyperspace""]",http,0.0,16,none,"{""id"":""chatcmpl-pzk3krvvz8a4zqgxd2f9rq"",""object"":""chat.completion"",""created"":1795592997,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8693,,MarianeAzar,20261125_084135,2026-11-25T07:49:59.426431+00:00
+9b5cb8629e30739b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first female protagonist in a video game?
+A. Lara Croft
+B. Samus Aran
+C. Chell
+D. Alis Landale
+Answer:","[""Lara Croft"", ""Samus Aran"", ""Chell"", ""Alis Landale""]",http,0.0,16,none,"{""id"":""chatcmpl-shf6cnsjfga99x0875e66g"",""object"":""chat.completion"",""created"":1795592998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T07:50:00.284956+00:00
+9b5cb8629e30739b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first female protagonist in a video game?
+A. Lara Croft
+B. Samus Aran
+C. Chell
+D. Alis Landale
+Answer:","[""Lara Croft"", ""Samus Aran"", ""Chell"", ""Alis Landale""]",http,0.0,16,none,"{""id"":""chatcmpl-ws2gte8jigvj8cuvwnfis"",""object"":""chat.completion"",""created"":1795592999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T07:50:01.143074+00:00
+b1f67ca19a40f0a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did Ghana gain independence?
+A. 1957
+B. 1947
+C. 1958
+D. 1960
+Answer:","[""1957"", ""1947"", ""1958"", ""1960""]",http,0.0,16,none,"{""id"":""chatcmpl-ng26ivsigd6sv10ipj69s"",""object"":""chat.completion"",""created"":1795593000,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T07:50:02.012543+00:00
+b1f67ca19a40f0a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did Ghana gain independence?
+A. 1957
+B. 1947
+C. 1958
+D. 1960
+Answer:","[""1957"", ""1947"", ""1958"", ""1960""]",http,0.0,16,none,"{""id"":""chatcmpl-z9vsibbb2rkkp9t20jjsbq"",""object"":""chat.completion"",""created"":1795593001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T07:50:02.871809+00:00
+5614453139dffa62,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the best selling album of 2015?
+A. Taylor Swift, 1989
+B. Adele, 25
+C. Fetty Wap, Fetty Wap
+D. Justin Bieber, Purpose
+Answer:","[""Taylor Swift, 1989"", ""Adele, 25"", ""Fetty Wap, Fetty Wap"", ""Justin Bieber, Purpose""]",http,0.0,16,none,"{""id"":""chatcmpl-wodwnple6ibol83bpemyr7"",""object"":""chat.completion"",""created"":1795593002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T07:50:03.735998+00:00
+5614453139dffa62,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the best selling album of 2015?
+A. Taylor Swift, 1989
+B. Adele, 25
+C. Fetty Wap, Fetty Wap
+D. Justin Bieber, Purpose
+Answer:","[""Taylor Swift, 1989"", ""Adele, 25"", ""Fetty Wap, Fetty Wap"", ""Justin Bieber, Purpose""]",http,0.0,16,none,"{""id"":""chatcmpl-u5yaa2t4sagll3u3fbuprp"",""object"":""chat.completion"",""created"":1795593003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8892,,MarianeAzar,20261125_084135,2026-11-25T07:50:04.625508+00:00
+4705dd992bc8a99f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a studio album by the band Pink Floyd?
+A. Animals
+B. Moving Pictures
+C. The Dark Side of the Moon
+D. Wish You Were Here
+Answer:","[""Animals"", ""Moving Pictures"", ""The Dark Side of the Moon"", ""Wish You Were Here""]",http,0.0,16,none,"{""id"":""chatcmpl-zys2jyin5k4rqvpb3eq0o"",""object"":""chat.completion"",""created"":1795593004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T07:50:05.482098+00:00
+4705dd992bc8a99f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a studio album by the band Pink Floyd?
+A. Animals
+B. Moving Pictures
+C. The Dark Side of the Moon
+D. Wish You Were Here
+Answer:","[""Animals"", ""Moving Pictures"", ""The Dark Side of the Moon"", ""Wish You Were Here""]",http,0.0,16,none,"{""id"":""chatcmpl-zr15il5zveslkn67wrpq"",""object"":""chat.completion"",""created"":1795593004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T07:50:06.343854+00:00
+29ebcd515f59946f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?
+A. Shey De Killer
+B. Deid Mann
+C. Frank Sahwit
+D. Raymond Shields
+Answer:","[""Shey De Killer"", ""Deid Mann"", ""Frank Sahwit"", ""Raymond Shields""]",http,0.0,16,none,"{""id"":""chatcmpl-9fw7ixv3zh6q938kvq3jd"",""object"":""chat.completion"",""created"":1795593005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T07:50:07.231081+00:00
+29ebcd515f59946f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?
+A. Shey De Killer
+B. Deid Mann
+C. Frank Sahwit
+D. Raymond Shields
+Answer:","[""Shey De Killer"", ""Deid Mann"", ""Frank Sahwit"", ""Raymond Shields""]",http,0.0,16,none,"{""id"":""chatcmpl-yvpq8ab3sh1rftwibwxrli"",""object"":""chat.completion"",""created"":1795593006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8844,,MarianeAzar,20261125_084135,2026-11-25T07:50:08.115689+00:00
+54a4957f9d91560f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic character is featured in movies such as ""The Enforcer"", ""Sudden Impact"", and ""The Dead Pool""?
+A. Indiana Jones
+B. Harry Potter
+C. Dirty Harry
+D. James Bond
+Answer:","[""Indiana Jones"", ""Harry Potter"", ""Dirty Harry"", ""James Bond""]",http,0.0,16,none,"{""id"":""chatcmpl-gwuywc7ofc5iprs25wbstf"",""object"":""chat.completion"",""created"":1795593007,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8894,,MarianeAzar,20261125_084135,2026-11-25T07:50:09.005341+00:00
+54a4957f9d91560f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which iconic character is featured in movies such as ""The Enforcer"", ""Sudden Impact"", and ""The Dead Pool""?
+A. Indiana Jones
+B. Harry Potter
+C. Dirty Harry
+D. James Bond
+Answer:","[""Indiana Jones"", ""Harry Potter"", ""Dirty Harry"", ""James Bond""]",http,0.0,16,none,"{""id"":""chatcmpl-l29inp5rfszajo6d1not"",""object"":""chat.completion"",""created"":1795593008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9051,,MarianeAzar,20261125_084135,2026-11-25T07:50:09.910700+00:00
+eb18f3b9eb0158df,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The fork came to Italy before any other European country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fo2xqfomyi9h8x379sto45"",""object"":""chat.completion"",""created"":1795593009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8184,,MarianeAzar,20261125_084135,2026-11-25T07:50:10.729274+00:00
+eb18f3b9eb0158df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The fork came to Italy before any other European country.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5jix3aublrqxwu19h6j6eo"",""object"":""chat.completion"",""created"":1795593010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8186,,MarianeAzar,20261125_084135,2026-11-25T07:50:11.548030+00:00
+655eb47ffdea9434,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If a person's hair is described as 'Titian', what colour is it?
+A. Red
+B. Black
+C. Brunette
+D. Blonde
+Answer:","[""Red"", ""Black"", ""Brunette"", ""Blonde""]",http,0.0,16,none,"{""id"":""chatcmpl-vtcw8royvih2tsw7oenp4n"",""object"":""chat.completion"",""created"":1795593010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8502,,MarianeAzar,20261125_084135,2026-11-25T07:50:12.398505+00:00
+655eb47ffdea9434,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: If a person's hair is described as 'Titian', what colour is it?
+A. Red
+B. Black
+C. Brunette
+D. Blonde
+Answer:","[""Red"", ""Black"", ""Brunette"", ""Blonde""]",http,0.0,16,none,"{""id"":""chatcmpl-ci63463x6x5q2fdi58nr6d"",""object"":""chat.completion"",""created"":1795593011,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8684,,MarianeAzar,20261125_084135,2026-11-25T07:50:13.267133+00:00
+5c33f78cf98dd0a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Steam first released?
+A. 2003
+B. 2004
+C. 2011
+D. 2007
+Answer:","[""2003"", ""2004"", ""2011"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-y0kdlg1gi5mmsz282jvicp"",""object"":""chat.completion"",""created"":1795593012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T07:50:14.113729+00:00
+5c33f78cf98dd0a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Steam first released?
+A. 2003
+B. 2004
+C. 2011
+D. 2007
+Answer:","[""2003"", ""2004"", ""2011"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-fwlumfhl5prq0o1rwhre"",""object"":""chat.completion"",""created"":1795593013,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T07:50:14.975614+00:00

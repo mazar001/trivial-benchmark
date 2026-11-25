@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a20fda398baa3197,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are no deserts in Europe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4ldibpmhcxyhuxja718ae"",""object"":""chat.completion"",""created"":1795596111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8335,,MarianeAzar,20261125_084135,2026-11-25T08:41:52.601926+00:00
+a20fda398baa3197,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There are no deserts in Europe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-86mpqyl5vjvaop9qp6c0z8"",""object"":""chat.completion"",""created"":1795596112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8217,,MarianeAzar,20261125_084135,2026-11-25T08:41:53.423854+00:00
+84304e758a5f7442,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was WhatsApp founded?
+A. 2010
+B. 2007
+C. 2009
+D. 2012
+Answer:","[""2010"", ""2007"", ""2009"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-enrwomgbi2s0odinsvx00sc"",""object"":""chat.completion"",""created"":1795596112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9058,,MarianeAzar,20261125_084135,2026-11-25T08:41:54.330028+00:00
+84304e758a5f7442,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was WhatsApp founded?
+A. 2010
+B. 2007
+C. 2009
+D. 2012
+Answer:","[""2010"", ""2007"", ""2009"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-ur5bhp4e4mg6jvk6by768k"",""object"":""chat.completion"",""created"":1795596113,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T08:41:55.223981+00:00
+0050a229cc7a7f5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which unlockable character in Super Smash Bros. For Wii U and 3DS does not have to be fought to be unlocked?
+A. Mii Fighters
+B. Ness
+C. Mewtwo
+D. R.O.B.
+Answer:","[""Mii Fighters"", ""Ness"", ""Mewtwo"", ""R.O.B.""]",http,0.0,16,none,"{""id"":""chatcmpl-ym1m6iac0rupken2b6cho"",""object"":""chat.completion"",""created"":1795596114,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9111,,MarianeAzar,20261125_084135,2026-11-25T08:41:56.135383+00:00
+0050a229cc7a7f5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which unlockable character in Super Smash Bros. For Wii U and 3DS does not have to be fought to be unlocked?
+A. Mii Fighters
+B. Ness
+C. Mewtwo
+D. R.O.B.
+Answer:","[""Mii Fighters"", ""Ness"", ""Mewtwo"", ""R.O.B.""]",http,0.0,16,none,"{""id"":""chatcmpl-c9dxa84wx7fvqcnw5i9pd"",""object"":""chat.completion"",""created"":1795596115,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9396,,MarianeAzar,20261125_084135,2026-11-25T08:41:57.075282+00:00
+813cd33e187a8a72,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these people was NOT a founder of Apple Inc?
+A. Ronald Wayne
+B. Steve Wozniak
+C. Jonathan Ive
+D. Steve Jobs
+Answer:","[""Ronald Wayne"", ""Steve Wozniak"", ""Jonathan Ive"", ""Steve Jobs""]",http,0.0,16,none,"{""id"":""chatcmpl-vt2tnr3tz1qh5xsjxe3b4p"",""object"":""chat.completion"",""created"":1795596116,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9076,,MarianeAzar,20261125_084135,2026-11-25T08:41:57.983124+00:00
+813cd33e187a8a72,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these people was NOT a founder of Apple Inc?
+A. Ronald Wayne
+B. Steve Wozniak
+C. Jonathan Ive
+D. Steve Jobs
+Answer:","[""Ronald Wayne"", ""Steve Wozniak"", ""Jonathan Ive"", ""Steve Jobs""]",http,0.0,16,none,"{""id"":""chatcmpl-d7a6hln9uuir8t497uycbg"",""object"":""chat.completion"",""created"":1795596117,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T08:41:58.834634+00:00
+7405b70437392a4f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?
+A. Meyers-Briggs effect
+B. Freud-Hall effect
+C. Müller-Lyer effect
+D. Dunning-Kruger effect
+Answer:","[""Meyers-Briggs effect"", ""Freud-Hall effect"", ""Müller-Lyer effect"", ""Dunning-Kruger effect""]",http,0.0,16,none,"{""id"":""chatcmpl-yb42hj62q8c2t21tzohdl"",""object"":""chat.completion"",""created"":1795596118,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8941,,MarianeAzar,20261125_084135,2026-11-25T08:41:59.729005+00:00
+7405b70437392a4f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?
+A. Meyers-Briggs effect
+B. Freud-Hall effect
+C. Müller-Lyer effect
+D. Dunning-Kruger effect
+Answer:","[""Meyers-Briggs effect"", ""Freud-Hall effect"", ""Müller-Lyer effect"", ""Dunning-Kruger effect""]",http,0.0,16,none,"{""id"":""chatcmpl-ik8s0qpgr2mi658ng0fca"",""object"":""chat.completion"",""created"":1795596119,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9252,,MarianeAzar,20261125_084135,2026-11-25T08:42:00.654513+00:00
+bc4f47e8348d99b0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Donald J. Trump's Middle Name is...
+A. Jason
+B. Jeff
+C. John
+D. Jerald
+Answer:","[""Jason"", ""Jeff"", ""John"", ""Jerald""]",http,0.0,16,none,"{""id"":""chatcmpl-l5ela7yujbf74hor0epqa"",""object"":""chat.completion"",""created"":1795596120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""J"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8805,,MarianeAzar,20261125_084135,2026-11-25T08:42:01.535495+00:00
+bc4f47e8348d99b0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Donald J. Trump's Middle Name is...
+A. Jason
+B. Jeff
+C. John
+D. Jerald
+Answer:","[""Jason"", ""Jeff"", ""John"", ""Jerald""]",http,0.0,16,none,"{""id"":""chatcmpl-xbk6vznxtj86nkom85bz3"",""object"":""chat.completion"",""created"":1795596120,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261125_084135,2026-11-25T08:42:02.396194+00:00
+8af9ae29bc45e91c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most potent toxin known?
+A. Cyanide
+B. Asbestos
+C. Ricin
+D. Botulinum toxin
+Answer:","[""Cyanide"", ""Asbestos"", ""Ricin"", ""Botulinum toxin""]",http,0.0,16,none,"{""id"":""chatcmpl-j4sahpj2gwht9vfr410b1"",""object"":""chat.completion"",""created"":1795596121,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8495,,MarianeAzar,20261125_084135,2026-11-25T08:42:03.245991+00:00
+8af9ae29bc45e91c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most potent toxin known?
+A. Cyanide
+B. Asbestos
+C. Ricin
+D. Botulinum toxin
+Answer:","[""Cyanide"", ""Asbestos"", ""Ricin"", ""Botulinum toxin""]",http,0.0,16,none,"{""id"":""chatcmpl-eq7aum805sbxoqorlde4bi"",""object"":""chat.completion"",""created"":1795596122,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T08:42:04.125269+00:00
+deed1598b40c262a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Half-Life 2"" runs on the Source Engine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hrfn2og83crrfiv5mzzg3"",""object"":""chat.completion"",""created"":1795596123,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9301,,MarianeAzar,20261125_084135,2026-11-25T08:42:05.055538+00:00
+deed1598b40c262a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Half-Life 2"" runs on the Source Engine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tugvnwjgbcmt6gyo3dwo"",""object"":""chat.completion"",""created"":1795596124,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9164,,MarianeAzar,20261125_084135,2026-11-25T08:42:05.972040+00:00
+bf275bc2b8a7a9e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters in ""Stranger Things"" has the power of Telekinesis?
+A. Mike
+B. Karen
+C. Eleven
+D. Lucas
+Answer:","[""Mike"", ""Karen"", ""Eleven"", ""Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-96v8xkehe31lm7om0vap6"",""object"":""chat.completion"",""created"":1795596125,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:42:06.828510+00:00
+bf275bc2b8a7a9e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters in ""Stranger Things"" has the power of Telekinesis?
+A. Mike
+B. Karen
+C. Eleven
+D. Lucas
+Answer:","[""Mike"", ""Karen"", ""Eleven"", ""Lucas""]",http,0.0,16,none,"{""id"":""chatcmpl-jghmvjm4zyqa7hi4euiacr"",""object"":""chat.completion"",""created"":1795596126,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8925,,MarianeAzar,20261125_084135,2026-11-25T08:42:07.721299+00:00
+fbe6bf2f6306f5f6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the topscorer for England national football team?
+A. Michael Owen
+B. Wayne Rooney
+C. Steven Gerrard
+D. David Beckham
+Answer:","[""Michael Owen"", ""Wayne Rooney"", ""Steven Gerrard"", ""David Beckham""]",http,0.0,16,none,"{""id"":""chatcmpl-mzuukt3apaopqa5n9k8n8"",""object"":""chat.completion"",""created"":1795596127,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8708,,MarianeAzar,20261125_084135,2026-11-25T08:42:08.592559+00:00
+fbe6bf2f6306f5f6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the topscorer for England national football team?
+A. Michael Owen
+B. Wayne Rooney
+C. Steven Gerrard
+D. David Beckham
+Answer:","[""Michael Owen"", ""Wayne Rooney"", ""Steven Gerrard"", ""David Beckham""]",http,0.0,16,none,"{""id"":""chatcmpl-okiwa5b4fvhy2wwebhyh4"",""object"":""chat.completion"",""created"":1795596128,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:42:09.455543+00:00
+1d0ecfcd7a32a80f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is scientific term for ""Brain Freeze""?
+A. Amaranthus Retroflexus
+B. Sphenopalatine Ganglioneuralgia
+C. Hyacinthoides Italica
+D. Amblyomma Americanum
+Answer:","[""Amaranthus Retroflexus"", ""Sphenopalatine Ganglioneuralgia"", ""Hyacinthoides Italica"", ""Amblyomma Americanum""]",http,0.0,16,none,"{""id"":""chatcmpl-gw34vxo58iiqmciv7ef6a"",""object"":""chat.completion"",""created"":1795596128,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8957,,MarianeAzar,20261125_084135,2026-11-25T08:42:10.352517+00:00
+1d0ecfcd7a32a80f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these is scientific term for ""Brain Freeze""?
+A. Amaranthus Retroflexus
+B. Sphenopalatine Ganglioneuralgia
+C. Hyacinthoides Italica
+D. Amblyomma Americanum
+Answer:","[""Amaranthus Retroflexus"", ""Sphenopalatine Ganglioneuralgia"", ""Hyacinthoides Italica"", ""Amblyomma Americanum""]",http,0.0,16,none,"{""id"":""chatcmpl-7lhfpvg66zrz0kmh1av2fh"",""object"":""chat.completion"",""created"":1795596129,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9107,,MarianeAzar,20261125_084135,2026-11-25T08:42:11.263343+00:00
+de6f219de9648137,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Alzheimer's disease primarily affects which part of the human body?
+A. Lungs
+B. Brain
+C. Skin
+D. Heart
+Answer:","[""Lungs"", ""Brain"", ""Skin"", ""Heart""]",http,0.0,16,none,"{""id"":""chatcmpl-vc41t36gkcbh5e04mm0qlm"",""object"":""chat.completion"",""created"":1795596130,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9412,,MarianeAzar,20261125_084135,2026-11-25T08:42:12.204789+00:00
+de6f219de9648137,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Alzheimer's disease primarily affects which part of the human body?
+A. Lungs
+B. Brain
+C. Skin
+D. Heart
+Answer:","[""Lungs"", ""Brain"", ""Skin"", ""Heart""]",http,0.0,16,none,"{""id"":""chatcmpl-kmki2rhfz96lfdlwmso97"",""object"":""chat.completion"",""created"":1795596131,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8717,,MarianeAzar,20261125_084135,2026-11-25T08:42:13.076820+00:00
+25d61b2b9316e8bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?
+A. The Porygon Line
+B. The Elekid Line
+C. The Magby Line
+D. The Pikachu Line
+Answer:","[""The Porygon Line"", ""The Elekid Line"", ""The Magby Line"", ""The Pikachu Line""]",http,0.0,16,none,"{""id"":""chatcmpl-f2l9hl0ypkm1hun8csll"",""object"":""chat.completion"",""created"":1795596132,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8692,,MarianeAzar,20261125_084135,2026-11-25T08:42:13.946510+00:00

@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+86d1e6e30879ecec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book ""The Martian"", how long was Mark Watney trapped on Mars (in Sols)?
+A. 549 Days
+B. 765 Days
+C. 401 Days
+D. 324 Days
+Answer:","[""549 Days"", ""765 Days"", ""401 Days"", ""324 Days""]",http,0.0,16,none,"{""id"":""chatcmpl-zetg0zgejfo0k31j255l"",""object"":""chat.completion"",""created"":1795595080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0428,,MarianeAzar,20261125_084135,2026-11-25T08:24:42.057382+00:00
+e441cb86da9de94c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In physics, conservation of energy and conservation of momentum are both consequences of which of the following?
+A. Wick's Theorem
+B. Bell's Theorem
+C. Carnot's Theorem
+D. Noether's Theorem
+Answer:","[""Wick's Theorem"", ""Bell's Theorem"", ""Carnot's Theorem"", ""Noether's Theorem""]",http,0.0,16,none,"{""id"":""chatcmpl-km6302xfmxmeec9km98ej"",""object"":""chat.completion"",""created"":1795595081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2277,,MarianeAzar,20261125_084135,2026-11-25T08:24:43.285368+00:00
+e441cb86da9de94c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In physics, conservation of energy and conservation of momentum are both consequences of which of the following?
+A. Wick's Theorem
+B. Bell's Theorem
+C. Carnot's Theorem
+D. Noether's Theorem
+Answer:","[""Wick's Theorem"", ""Bell's Theorem"", ""Carnot's Theorem"", ""Noether's Theorem""]",http,0.0,16,none,"{""id"":""chatcmpl-5pjaxlgojwq2wtxahvv5l"",""object"":""chat.completion"",""created"":1795595082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3609,,MarianeAzar,20261125_084135,2026-11-25T08:24:44.646560+00:00
+bf178b9c7366e491,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", what is the name of Mercy's ""ultimate ability""?
+A. Earthshatter
+B. Valkyrie
+C. Rocket Barrage
+D. Molten Core
+Answer:","[""Earthshatter"", ""Valkyrie"", ""Rocket Barrage"", ""Molten Core""]",http,0.0,16,none,"{""id"":""chatcmpl-i3dg2to6dejnj0fsq8t5q"",""object"":""chat.completion"",""created"":1795595084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9384,,MarianeAzar,20261125_084135,2026-11-25T08:24:45.585592+00:00
+bf178b9c7366e491,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Overwatch"", what is the name of Mercy's ""ultimate ability""?
+A. Earthshatter
+B. Valkyrie
+C. Rocket Barrage
+D. Molten Core
+Answer:","[""Earthshatter"", ""Valkyrie"", ""Rocket Barrage"", ""Molten Core""]",http,0.0,16,none,"{""id"":""chatcmpl-h5xpcd75sskewivddkoo6"",""object"":""chat.completion"",""created"":1795595085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9379,,MarianeAzar,20261125_084135,2026-11-25T08:24:46.523943+00:00
+1ce9b4abf4c87799,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What internet protocol was documented in RFC 1459?
+A. FTP
+B. HTTPS
+C. HTTP
+D. IRC
+Answer:","[""FTP"", ""HTTPS"", ""HTTP"", ""IRC""]",http,0.0,16,none,"{""id"":""chatcmpl-nt7q0ry4xmepxacy96kq"",""object"":""chat.completion"",""created"":1795595085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4343,,MarianeAzar,20261125_084135,2026-11-25T08:24:47.959083+00:00
+1ce9b4abf4c87799,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What internet protocol was documented in RFC 1459?
+A. FTP
+B. HTTPS
+C. HTTP
+D. IRC
+Answer:","[""FTP"", ""HTTPS"", ""HTTP"", ""IRC""]",http,0.0,16,none,"{""id"":""chatcmpl-39x1bxgt0rs7kurwb6hbzf"",""object"":""chat.completion"",""created"":1795595087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9614,,MarianeAzar,20261125_084135,2026-11-25T08:24:48.920816+00:00
+8462830b126e7623,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rabbits can see what's behind themselves without turning their heads.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-il87cy1a2oegreacvmmics"",""object"":""chat.completion"",""created"":1795595088,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261125_084135,2026-11-25T08:24:49.804161+00:00
+8462830b126e7623,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Rabbits can see what's behind themselves without turning their heads.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-aqbcbme89ej0k0e334tuz29"",""object"":""chat.completion"",""created"":1795595089,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3645,,MarianeAzar,20261125_084135,2026-11-25T08:24:51.168850+00:00
+55eafbf6caef1387,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these theoretical phycisists first predicted the existence of antimatter?
+A. Albert Einstein
+B. Niels Bohr
+C. Paul Dirac
+D. Werner Heisenberg
+Answer:","[""Albert Einstein"", ""Niels Bohr"", ""Paul Dirac"", ""Werner Heisenberg""]",http,0.0,16,none,"{""id"":""chatcmpl-rgoti76tvfpa3z1c36pdv4"",""object"":""chat.completion"",""created"":1795595090,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0416,,MarianeAzar,20261125_084135,2026-11-25T08:24:52.210822+00:00
+55eafbf6caef1387,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these theoretical phycisists first predicted the existence of antimatter?
+A. Albert Einstein
+B. Niels Bohr
+C. Paul Dirac
+D. Werner Heisenberg
+Answer:","[""Albert Einstein"", ""Niels Bohr"", ""Paul Dirac"", ""Werner Heisenberg""]",http,0.0,16,none,"{""id"":""chatcmpl-7i76p3wvdii2mlnk1l3yvp"",""object"":""chat.completion"",""created"":1795595091,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9626,,MarianeAzar,20261125_084135,2026-11-25T08:24:53.173816+00:00
+f14f61d77920f7b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Donkey Kong Country"", why does Donkey Kong want to know the secret of the crystal coconut?
+A. He's the big kahuna.
+B. To find out where all the bananas are.
+C. He wants to punish brutes.
+D. Because Diddy Kong forced him.
+Answer:","[""He's the big kahuna."", ""To find out where all the bananas are."", ""He wants to punish brutes."", ""Because Diddy Kong forced him.""]",http,0.0,16,none,"{""id"":""chatcmpl-khli3m5k28g2zruxk61wz5"",""object"":""chat.completion"",""created"":1795595092,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5085,,MarianeAzar,20261125_084135,2026-11-25T08:24:54.682729+00:00
+f14f61d77920f7b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Donkey Kong Country"", why does Donkey Kong want to know the secret of the crystal coconut?
+A. He's the big kahuna.
+B. To find out where all the bananas are.
+C. He wants to punish brutes.
+D. Because Diddy Kong forced him.
+Answer:","[""He's the big kahuna."", ""To find out where all the bananas are."", ""He wants to punish brutes."", ""Because Diddy Kong forced him.""]",http,0.0,16,none,"{""id"":""chatcmpl-36avlco0qtazdluntam8ng"",""object"":""chat.completion"",""created"":1795595094,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1889,,MarianeAzar,20261125_084135,2026-11-25T08:24:55.872068+00:00
+8b2a812d28289ec7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Portal, what color is the Morality Core?
+A. Red
+B. Purple
+C. Yellow
+D. Blue
+Answer:","[""Red"", ""Purple"", ""Yellow"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-gc2zqjrz7w5ozxdwc3xfi"",""object"":""chat.completion"",""created"":1795595095,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1325,,MarianeAzar,20261125_084135,2026-11-25T08:24:57.004890+00:00
+8b2a812d28289ec7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Portal, what color is the Morality Core?
+A. Red
+B. Purple
+C. Yellow
+D. Blue
+Answer:","[""Red"", ""Purple"", ""Yellow"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-tr2i135gefu9gbtrowndr"",""object"":""chat.completion"",""created"":1795595096,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0472,,MarianeAzar,20261125_084135,2026-11-25T08:24:58.052348+00:00
+eaa99bda79b01d3f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices the main character Blu in the 2011 animated film ""Rio""?
+A. Zach Galifianakis
+B. Jonah Hill
+C. Jesse Eisenberg
+D. Michael Cera
+Answer:","[""Zach Galifianakis"", ""Jonah Hill"", ""Jesse Eisenberg"", ""Michael Cera""]",http,0.0,16,none,"{""id"":""chatcmpl-4g2ce5c6ep1xemp5c1vst"",""object"":""chat.completion"",""created"":1795595097,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9404,,MarianeAzar,20261125_084135,2026-11-25T08:24:58.993325+00:00
+eaa99bda79b01d3f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voices the main character Blu in the 2011 animated film ""Rio""?
+A. Zach Galifianakis
+B. Jonah Hill
+C. Jesse Eisenberg
+D. Michael Cera
+Answer:","[""Zach Galifianakis"", ""Jonah Hill"", ""Jesse Eisenberg"", ""Michael Cera""]",http,0.0,16,none,"{""id"":""chatcmpl-g471j2s2icljpvgh1b2nwn"",""object"":""chat.completion"",""created"":1795595098,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3152,,MarianeAzar,20261125_084135,2026-11-25T08:25:00.308754+00:00
+0bb3d9bc09518c41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated ""To Love-Ru""?
+A. Sunrise
+B. Xebec
+C. Trigger
+D. Kyoto Animation
+Answer:","[""Sunrise"", ""Xebec"", ""Trigger"", ""Kyoto Animation""]",http,0.0,16,none,"{""id"":""chatcmpl-py8mgj8uommulcag3qy59e"",""object"":""chat.completion"",""created"":1795595099,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:25:01.194736+00:00
+0bb3d9bc09518c41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animation studio animated ""To Love-Ru""?
+A. Sunrise
+B. Xebec
+C. Trigger
+D. Kyoto Animation
+Answer:","[""Sunrise"", ""Xebec"", ""Trigger"", ""Kyoto Animation""]",http,0.0,16,none,"{""id"":""chatcmpl-znhbmfmkrtnilnjrzxd8g8"",""object"":""chat.completion"",""created"":1795595100,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9574,,MarianeAzar,20261125_084135,2026-11-25T08:25:02.152807+00:00
+d2cd1866e5aa7e64,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whose albums included ""Back in Black"" and ""Ballbreaker""?
+A. Black Sabbath
+B. Iron Maiden
+C. AC/DC
+D. Metallica
+Answer:","[""Black Sabbath"", ""Iron Maiden"", ""AC/DC"", ""Metallica""]",http,0.0,16,none,"{""id"":""chatcmpl-9s6269i12n9j9qzsztk0k"",""object"":""chat.completion"",""created"":1795595101,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3708,,MarianeAzar,20261125_084135,2026-11-25T08:25:03.523834+00:00
+d2cd1866e5aa7e64,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whose albums included ""Back in Black"" and ""Ballbreaker""?
+A. Black Sabbath
+B. Iron Maiden
+C. AC/DC
+D. Metallica
+Answer:","[""Black Sabbath"", ""Iron Maiden"", ""AC/DC"", ""Metallica""]",http,0.0,16,none,"{""id"":""chatcmpl-4ttdhzvfz6yxtffv484d5i"",""object"":""chat.completion"",""created"":1795595102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9658,,MarianeAzar,20261125_084135,2026-11-25T08:25:04.489888+00:00
+3209f35a066c5d65,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Donald Trump won the popular vote in the 2016 United States presidential election.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-circsp7356e9uz79nmcdru"",""object"":""chat.completion"",""created"":1795595103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8971,,MarianeAzar,20261125_084135,2026-11-25T08:25:05.387289+00:00
+3209f35a066c5d65,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Donald Trump won the popular vote in the 2016 United States presidential election.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gesxwvosy1c53jra6k21cn"",""object"":""chat.completion"",""created"":1795595104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3417,,MarianeAzar,20261125_084135,2026-11-25T08:25:06.729124+00:00
+cdd0633e5e9f9f94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does LASER stand for?
+A. Light amplification by stimulated emission of radiation
+B. Life antimatter by standing entry of range
+C. Lite analysing by stereo ecorazer
+D. Light amplifier by standby energy of radio
+Answer:","[""Light amplification by stimulated emission of radiation"", ""Life antimatter by standing entry of range"", ""Lite analysing by stereo ecorazer"", ""Light amplifier by standby energy of radio""]",http,0.0,16,none,"{""id"":""chatcmpl-9776c5225a93l7dk5la24w"",""object"":""chat.completion"",""created"":1795595106,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.953,,MarianeAzar,20261125_084135,2026-11-25T08:25:07.682532+00:00
+cdd0633e5e9f9f94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does LASER stand for?
+A. Light amplification by stimulated emission of radiation
+B. Life antimatter by standing entry of range
+C. Lite analysing by stereo ecorazer
+D. Light amplifier by standby energy of radio
+Answer:","[""Light amplification by stimulated emission of radiation"", ""Life antimatter by standing entry of range"", ""Lite analysing by stereo ecorazer"", ""Light amplifier by standby energy of radio""]",http,0.0,16,none,"{""id"":""chatcmpl-pjhyp162ndk8d2oamggvnt"",""object"":""chat.completion"",""created"":1795595107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9633,,MarianeAzar,20261125_084135,2026-11-25T08:25:08.645945+00:00

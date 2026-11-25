@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+59567ba3c29abc5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""Fat Albert and the Cosby Kids"", what is the name of the characters' fictional gang?
+A. The Rotten Posse
+B. The Trash Troupe
+C. The Scrapyard Seven
+D. The Junkyard Gang
+Answer:","[""The Rotten Posse"", ""The Trash Troupe"", ""The Scrapyard Seven"", ""The Junkyard Gang""]",http,0.0,16,none,"{""id"":""chatcmpl-rj4taalogxoi51sgfnq0k"",""object"":""chat.completion"",""created"":1795593403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T07:56:44.740416+00:00
+59567ba3c29abc5a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""Fat Albert and the Cosby Kids"", what is the name of the characters' fictional gang?
+A. The Rotten Posse
+B. The Trash Troupe
+C. The Scrapyard Seven
+D. The Junkyard Gang
+Answer:","[""The Rotten Posse"", ""The Trash Troupe"", ""The Scrapyard Seven"", ""The Junkyard Gang""]",http,0.0,16,none,"{""id"":""chatcmpl-69rcaazdqj5kpm0xj0vdq"",""object"":""chat.completion"",""created"":1795593404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8946,,MarianeAzar,20261125_084135,2026-11-25T07:56:45.635304+00:00
+9da2b5e18bb41dc1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Abel Magwitch is a character from which Charles Dickens novel?
+A. The Pickwick Papers
+B. Nicholas Nickleby
+C. Great Expectations
+D. Oliver Twist
+Answer:","[""The Pickwick Papers"", ""Nicholas Nickleby"", ""Great Expectations"", ""Oliver Twist""]",http,0.0,16,none,"{""id"":""chatcmpl-qerzdqaeuaqrt9052tupah"",""object"":""chat.completion"",""created"":1795593405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T07:56:46.508490+00:00
+9da2b5e18bb41dc1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Abel Magwitch is a character from which Charles Dickens novel?
+A. The Pickwick Papers
+B. Nicholas Nickleby
+C. Great Expectations
+D. Oliver Twist
+Answer:","[""The Pickwick Papers"", ""Nicholas Nickleby"", ""Great Expectations"", ""Oliver Twist""]",http,0.0,16,none,"{""id"":""chatcmpl-e5pg9v4o7eqt7getv2a7q"",""object"":""chat.completion"",""created"":1795593405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T07:56:47.378588+00:00
+649b3c5ca265ab29,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the longest river in Europe?
+A. Volga
+B. Dnieper
+C. Ural
+D. Danube
+Answer:","[""Volga"", ""Dnieper"", ""Ural"", ""Danube""]",http,0.0,16,none,"{""id"":""chatcmpl-mbv02h3ofici8c65fxovn"",""object"":""chat.completion"",""created"":1795593406,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T07:56:48.243825+00:00
+649b3c5ca265ab29,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the longest river in Europe?
+A. Volga
+B. Dnieper
+C. Ural
+D. Danube
+Answer:","[""Volga"", ""Dnieper"", ""Ural"", ""Danube""]",http,0.0,16,none,"{""id"":""chatcmpl-vc4freh94f0b3p3o6lgkdc"",""object"":""chat.completion"",""created"":1795593407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T07:56:49.102120+00:00
+7a60c53d4c5cfc08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Deputy Marshal Samuel Gerard in the 1993 film ""The Fugitive""?
+A. Harrison Ford
+B. Tommy Lee Jones
+C. Harvey Keitel
+D. Martin Landau
+Answer:","[""Harrison Ford"", ""Tommy Lee Jones"", ""Harvey Keitel"", ""Martin Landau""]",http,0.0,16,none,"{""id"":""chatcmpl-9texps9obl5csah6a0t0g"",""object"":""chat.completion"",""created"":1795593408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8754,,MarianeAzar,20261125_084135,2026-11-25T07:56:49.977785+00:00
+7a60c53d4c5cfc08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played Deputy Marshal Samuel Gerard in the 1993 film ""The Fugitive""?
+A. Harrison Ford
+B. Tommy Lee Jones
+C. Harvey Keitel
+D. Martin Landau
+Answer:","[""Harrison Ford"", ""Tommy Lee Jones"", ""Harvey Keitel"", ""Martin Landau""]",http,0.0,16,none,"{""id"":""chatcmpl-trem8qax1b7a1gdxiffz"",""object"":""chat.completion"",""created"":1795593409,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T07:56:50.851917+00:00
+eb5a41ee06a4079a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2016 song ""Starboy"" by Canadian singer The Weeknd features which prominent electronic artist?
+A. DJ Shadow
+B. Disclosure
+C. Daft Punk
+D. deadmau5
+Answer:","[""DJ Shadow"", ""Disclosure"", ""Daft Punk"", ""deadmau5""]",http,0.0,16,none,"{""id"":""chatcmpl-2ged7c4167k4leze863z5p"",""object"":""chat.completion"",""created"":1795593410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8698,,MarianeAzar,20261125_084135,2026-11-25T07:56:51.721955+00:00
+eb5a41ee06a4079a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 2016 song ""Starboy"" by Canadian singer The Weeknd features which prominent electronic artist?
+A. DJ Shadow
+B. Disclosure
+C. Daft Punk
+D. deadmau5
+Answer:","[""DJ Shadow"", ""Disclosure"", ""Daft Punk"", ""deadmau5""]",http,0.0,16,none,"{""id"":""chatcmpl-uode9yay5lj3g071fambid"",""object"":""chat.completion"",""created"":1795593411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T07:56:52.613197+00:00
+6c7c47e74a3c68f7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Each piece in Tetris is called a tetris.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-nxhzrdf5nxrxjn549egf4e"",""object"":""chat.completion"",""created"":1795593412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8232,,MarianeAzar,20261125_084135,2026-11-25T07:56:53.436853+00:00
+6c7c47e74a3c68f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Each piece in Tetris is called a tetris.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ogqfdjqqtba9ap4fsar32"",""object"":""chat.completion"",""created"":1795593412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8203,,MarianeAzar,20261125_084135,2026-11-25T07:56:54.257301+00:00
+1cc1a72186b656d3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Crucible"" was written by William Shakespeare.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qbqo7f1cfqmnwvwuvbawp"",""object"":""chat.completion"",""created"":1795593413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7924,,MarianeAzar,20261125_084135,2026-11-25T07:56:55.049868+00:00
+1cc1a72186b656d3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Crucible"" was written by William Shakespeare.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-siwrtrz1wa7hjgpuiieswg"",""object"":""chat.completion"",""created"":1795593414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.814,,MarianeAzar,20261125_084135,2026-11-25T07:56:55.864063+00:00
+30be7a1b648d0a8c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the main currency in Club Penguin?
+A. Gems
+B. Tickets
+C. Stamps
+D. Coins
+Answer:","[""Gems"", ""Tickets"", ""Stamps"", ""Coins""]",http,0.0,16,none,"{""id"":""chatcmpl-n4ldn1prsmk13hlp2hj1h5a"",""object"":""chat.completion"",""created"":1795593415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8408,,MarianeAzar,20261125_084135,2026-11-25T07:56:56.705113+00:00
+30be7a1b648d0a8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the main currency in Club Penguin?
+A. Gems
+B. Tickets
+C. Stamps
+D. Coins
+Answer:","[""Gems"", ""Tickets"", ""Stamps"", ""Coins""]",http,0.0,16,none,"{""id"":""chatcmpl-4g3dcz3eizclezw36dpm6n"",""object"":""chat.completion"",""created"":1795593416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261125_084135,2026-11-25T07:56:57.564061+00:00
+a603c81378421f73,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the protagonist of Bioshock Infinite?
+A. Arthas Menethil
+B. Zachary Comstock
+C. Herbie Hancock
+D. Booker DeWitt
+Answer:","[""Arthas Menethil"", ""Zachary Comstock"", ""Herbie Hancock"", ""Booker DeWitt""]",http,0.0,16,none,"{""id"":""chatcmpl-jut3gpccypc46rmsdbaax"",""object"":""chat.completion"",""created"":1795593416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.856,,MarianeAzar,20261125_084135,2026-11-25T07:56:58.420308+00:00
+a603c81378421f73,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which is the protagonist of Bioshock Infinite?
+A. Arthas Menethil
+B. Zachary Comstock
+C. Herbie Hancock
+D. Booker DeWitt
+Answer:","[""Arthas Menethil"", ""Zachary Comstock"", ""Herbie Hancock"", ""Booker DeWitt""]",http,0.0,16,none,"{""id"":""chatcmpl-et2m7aj5mvr6s5ry765kbb"",""object"":""chat.completion"",""created"":1795593417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T07:56:59.281525+00:00
+a1439a25b2f2ef2e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The White Cliffs of Dover is located in which country?
+A. Sweden
+B. United States
+C. United Kingdom
+D. Netherlands
+Answer:","[""Sweden"", ""United States"", ""United Kingdom"", ""Netherlands""]",http,0.0,16,none,"{""id"":""chatcmpl-ncgix7gg27cwkqkb9on688"",""object"":""chat.completion"",""created"":1795593418,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T07:57:00.148306+00:00
+a1439a25b2f2ef2e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The White Cliffs of Dover is located in which country?
+A. Sweden
+B. United States
+C. United Kingdom
+D. Netherlands
+Answer:","[""Sweden"", ""United States"", ""United Kingdom"", ""Netherlands""]",http,0.0,16,none,"{""id"":""chatcmpl-32v044s2cah4rgu7d64p4p"",""object"":""chat.completion"",""created"":1795593419,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T07:57:01.007875+00:00
+8206577ef955e03d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did The Beatles release the LP ""Please Please Me""?
+A. 1960
+B. 1970
+C. 1963
+D. 1969
+Answer:","[""1960"", ""1970"", ""1963"", ""1969""]",http,0.0,16,none,"{""id"":""chatcmpl-8gp3l9so277680hop2z0ju"",""object"":""chat.completion"",""created"":1795593420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T07:57:01.873497+00:00
+8206577ef955e03d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did The Beatles release the LP ""Please Please Me""?
+A. 1960
+B. 1970
+C. 1963
+D. 1969
+Answer:","[""1960"", ""1970"", ""1963"", ""1969""]",http,0.0,16,none,"{""id"":""chatcmpl-auyg58omgnewyl3ktpq7"",""object"":""chat.completion"",""created"":1795593421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9081,,MarianeAzar,20261125_084135,2026-11-25T07:57:02.781812+00:00
+b7246cc53e20a761,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Skateboarding was included in the 2020 Summer Olympics in Tokyo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2imjba7tor4xht4hd48zcl"",""object"":""chat.completion"",""created"":1795593422,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8397,,MarianeAzar,20261125_084135,2026-11-25T07:57:03.621598+00:00
+b7246cc53e20a761,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Skateboarding was included in the 2020 Summer Olympics in Tokyo.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v42ua0gzivj2z3te16kjjh"",""object"":""chat.completion"",""created"":1795593423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.819,,MarianeAzar,20261125_084135,2026-11-25T07:57:04.440783+00:00
+a309137bfe7f935d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: George Orwell's novel ""Animal Farm"" was inspired by which historical event?
+A. The rise of Imperial Japan and Pacific control.
+B. The rise of fascism and Hitler's influences.
+C. The rise of communism and Stalin's policies.
+D. Franklin D. Roosevelt's New Deal and its effects on The Great Depression.
+Answer:","[""The rise of Imperial Japan and Pacific control."", ""The rise of fascism and Hitler's influences."", ""The rise of communism and Stalin's policies."", ""Franklin D. Roosevelt's New Deal and its effects on The Great Depression.""]",http,0.0,16,none,"{""id"":""chatcmpl-xz0p613r6hmegmciaf6ymu"",""object"":""chat.completion"",""created"":1795593423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9399,,MarianeAzar,20261125_084135,2026-11-25T07:57:05.381070+00:00

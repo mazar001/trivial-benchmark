@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d34a802a2bcf32f3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the periodic table of elements, what is the symbol for Tin?
+A. Ti
+B. Sn
+C. Na
+D. Ni
+Answer:","[""Ti"", ""Sn"", ""Na"", ""Ni""]",http,0.0,16,none,"{""id"":""chatcmpl-ermmj9yyqbkmm56tj85ubb"",""object"":""chat.completion"",""created"":1795595051,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2764,,MarianeAzar,20261125_084135,2026-11-25T08:24:13.710550+00:00
+d34a802a2bcf32f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the periodic table of elements, what is the symbol for Tin?
+A. Ti
+B. Sn
+C. Na
+D. Ni
+Answer:","[""Ti"", ""Sn"", ""Na"", ""Ni""]",http,0.0,16,none,"{""id"":""chatcmpl-6952mlkpiy2rxstgoxmeka"",""object"":""chat.completion"",""created"":1795595053,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3305,,MarianeAzar,20261125_084135,2026-11-25T08:24:15.041372+00:00
+942378d02b34897d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Green Day?
+A. Mike Dirnt
+B. Sean Hughes
+C. Tré Cool
+D. Billie Joe Armstrong
+Answer:","[""Mike Dirnt"", ""Sean Hughes"", ""Tré Cool"", ""Billie Joe Armstrong""]",http,0.0,16,none,"{""id"":""chatcmpl-9ase3oaufptu5v73ygzi"",""object"":""chat.completion"",""created"":1795595054,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9264,,MarianeAzar,20261125_084135,2026-11-25T08:24:15.968126+00:00
+942378d02b34897d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Green Day?
+A. Mike Dirnt
+B. Sean Hughes
+C. Tré Cool
+D. Billie Joe Armstrong
+Answer:","[""Mike Dirnt"", ""Sean Hughes"", ""Tré Cool"", ""Billie Joe Armstrong""]",http,0.0,16,none,"{""id"":""chatcmpl-f3u34z0bp8ptgslvorwid"",""object"":""chat.completion"",""created"":1795595055,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9794,,MarianeAzar,20261125_084135,2026-11-25T08:24:16.947764+00:00
+504ff1793bdc059a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries border Kyrgyzstan?
+A. 1
+B. 4
+C. 3
+D. 6
+Answer:","[""1"", ""4"", ""3"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-6qn1lsq5n4f95wsbwkuru"",""object"":""chat.completion"",""created"":1795595056,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4785,,MarianeAzar,20261125_084135,2026-11-25T08:24:18.426703+00:00
+504ff1793bdc059a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries border Kyrgyzstan?
+A. 1
+B. 4
+C. 3
+D. 6
+Answer:","[""1"", ""4"", ""3"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-if9lnzge831tyjsil8sv7"",""object"":""chat.completion"",""created"":1795595057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9415,,MarianeAzar,20261125_084135,2026-11-25T08:24:19.368813+00:00
+78fd1d521998ef87,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?
+A. December 1st
+B. September 25th
+C. March 25th
+D. June 1st
+Answer:","[""December 1st"", ""September 25th"", ""March 25th"", ""June 1st""]",http,0.0,16,none,"{""id"":""chatcmpl-qnqj454nd6hlgb9qrahqhd"",""object"":""chat.completion"",""created"":1795595058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9869,,MarianeAzar,20261125_084135,2026-11-25T08:24:20.356061+00:00
+78fd1d521998ef87,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?
+A. December 1st
+B. September 25th
+C. March 25th
+D. June 1st
+Answer:","[""December 1st"", ""September 25th"", ""March 25th"", ""June 1st""]",http,0.0,16,none,"{""id"":""chatcmpl-8006r91hyggbfhqsbhry"",""object"":""chat.completion"",""created"":1795595059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4928,,MarianeAzar,20261125_084135,2026-11-25T08:24:21.849028+00:00
+9aef59bc0ab03e1b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Ace Attorney"" series, what is the relationship between Apollo Justice and Trucy Wright?
+A. They're co-workers
+B. They're both attorneys
+C. They're friends
+D. They're half-siblings
+Answer:","[""They're co-workers"", ""They're both attorneys"", ""They're friends"", ""They're half-siblings""]",http,0.0,16,none,"{""id"":""chatcmpl-l2lbfba2hhfrccav90zrx"",""object"":""chat.completion"",""created"":1795595061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9959,,MarianeAzar,20261125_084135,2026-11-25T08:24:22.845792+00:00
+9aef59bc0ab03e1b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Ace Attorney"" series, what is the relationship between Apollo Justice and Trucy Wright?
+A. They're co-workers
+B. They're both attorneys
+C. They're friends
+D. They're half-siblings
+Answer:","[""They're co-workers"", ""They're both attorneys"", ""They're friends"", ""They're half-siblings""]",http,0.0,16,none,"{""id"":""chatcmpl-9g4e6k04mzm1sudalfjm9ih"",""object"":""chat.completion"",""created"":1795595062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9868,,MarianeAzar,20261125_084135,2026-11-25T08:24:23.832823+00:00
+010e988e6b0a8822,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game Monopoly takes its street names from which real American city?
+A. Las Vegas, Nevada
+B. Charleston, South Carolina
+C. Atlantic City, New Jersey
+D. Duluth, Minnesota
+Answer:","[""Las Vegas, Nevada"", ""Charleston, South Carolina"", ""Atlantic City, New Jersey"", ""Duluth, Minnesota""]",http,0.0,16,none,"{""id"":""chatcmpl-f8pjme6sbj5pce6e9ypfm"",""object"":""chat.completion"",""created"":1795595063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.383,,MarianeAzar,20261125_084135,2026-11-25T08:24:25.217156+00:00
+010e988e6b0a8822,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The board game Monopoly takes its street names from which real American city?
+A. Las Vegas, Nevada
+B. Charleston, South Carolina
+C. Atlantic City, New Jersey
+D. Duluth, Minnesota
+Answer:","[""Las Vegas, Nevada"", ""Charleston, South Carolina"", ""Atlantic City, New Jersey"", ""Duluth, Minnesota""]",http,0.0,16,none,"{""id"":""chatcmpl-u91cw0ityv7q26iku345"",""object"":""chat.completion"",""created"":1795595064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9937,,MarianeAzar,20261125_084135,2026-11-25T08:24:26.211149+00:00
+3f50f03ed0e92435,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?
+A. Fluffy
+B. Spike
+C. Spot
+D. Poofy
+Answer:","[""Fluffy"", ""Spike"", ""Spot"", ""Poofy""]",http,0.0,16,none,"{""id"":""chatcmpl-qohz279jqs94p1tu7rh4bv"",""object"":""chat.completion"",""created"":1795595065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9616,,MarianeAzar,20261125_084135,2026-11-25T08:24:27.173018+00:00
+3f50f03ed0e92435,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?
+A. Fluffy
+B. Spike
+C. Spot
+D. Poofy
+Answer:","[""Fluffy"", ""Spike"", ""Spot"", ""Poofy""]",http,0.0,16,none,"{""id"":""chatcmpl-my73cfprrg0jxpia8z9wwr"",""object"":""chat.completion"",""created"":1795595066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3832,,MarianeAzar,20261125_084135,2026-11-25T08:24:28.556446+00:00
+3138be886c09b806,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first president born in the independent United States?
+A. John Adams
+B. Martin Van Buren
+C. George Washington
+D. James Monroe
+Answer:","[""John Adams"", ""Martin Van Buren"", ""George Washington"", ""James Monroe""]",http,0.0,16,none,"{""id"":""chatcmpl-vzknqoj072qqck205ykl8o"",""object"":""chat.completion"",""created"":1795595067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9359,,MarianeAzar,20261125_084135,2026-11-25T08:24:29.492864+00:00
+3138be886c09b806,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first president born in the independent United States?
+A. John Adams
+B. Martin Van Buren
+C. George Washington
+D. James Monroe
+Answer:","[""John Adams"", ""Martin Van Buren"", ""George Washington"", ""James Monroe""]",http,0.0,16,none,"{""id"":""chatcmpl-cgidsuixs7l54fwcxzij7e"",""object"":""chat.completion"",""created"":1795595068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9951,,MarianeAzar,20261125_084135,2026-11-25T08:24:30.488313+00:00
+c9e5d3c57553c642,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Pikmin"" series, what is the only pikmin type to possess visible ears?
+A. Winged
+B. Yellow
+C. Red
+D. White
+Answer:","[""Winged"", ""Yellow"", ""Red"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-ptcu5m4503g7xm640php3j"",""object"":""chat.completion"",""created"":1795595069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3684,,MarianeAzar,20261125_084135,2026-11-25T08:24:31.857284+00:00
+c9e5d3c57553c642,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Pikmin"" series, what is the only pikmin type to possess visible ears?
+A. Winged
+B. Yellow
+C. Red
+D. White
+Answer:","[""Winged"", ""Yellow"", ""Red"", ""White""]",http,0.0,16,none,"{""id"":""chatcmpl-du0ly8phfcq9rioulo5ugs"",""object"":""chat.completion"",""created"":1795595071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9407,,MarianeAzar,20261125_084135,2026-11-25T08:24:32.798314+00:00
+4a18b3550f0facb5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the original drummer for The Beatles?
+A. Pete Best
+B. Tommy Moore
+C. Ringo Starr
+D. Stuart Sutcliffe
+Answer:","[""Pete Best"", ""Tommy Moore"", ""Ringo Starr"", ""Stuart Sutcliffe""]",http,0.0,16,none,"{""id"":""chatcmpl-y628dt5pjv4q7w4qfq4uw"",""object"":""chat.completion"",""created"":1795595072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9589,,MarianeAzar,20261125_084135,2026-11-25T08:24:33.757631+00:00
+4a18b3550f0facb5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the original drummer for The Beatles?
+A. Pete Best
+B. Tommy Moore
+C. Ringo Starr
+D. Stuart Sutcliffe
+Answer:","[""Pete Best"", ""Tommy Moore"", ""Ringo Starr"", ""Stuart Sutcliffe""]",http,0.0,16,none,"{""id"":""chatcmpl-pdgghrp0atb7byoj7pby8"",""object"":""chat.completion"",""created"":1795595073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5092,,MarianeAzar,20261125_084135,2026-11-25T08:24:35.267111+00:00
+4e7e3cc2136b4b25,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What prime number comes next after 19?
+A. 23
+B. 25
+C. 21
+D. 27
+Answer:","[""23"", ""25"", ""21"", ""27""]",http,0.0,16,none,"{""id"":""chatcmpl-eetsb3447ii3rbt942mu3p"",""object"":""chat.completion"",""created"":1795595074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1646,,MarianeAzar,20261125_084135,2026-11-25T08:24:36.433031+00:00
+4e7e3cc2136b4b25,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What prime number comes next after 19?
+A. 23
+B. 25
+C. 21
+D. 27
+Answer:","[""23"", ""25"", ""21"", ""27""]",http,0.0,16,none,"{""id"":""chatcmpl-7it2wkxpf2qlfzl6ir8qwo"",""object"":""chat.completion"",""created"":1795595075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0435,,MarianeAzar,20261125_084135,2026-11-25T08:24:37.476837+00:00
+4541c37920569a36,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Hat in Time"", what must Hat Kid collect to finish a level
+A. A time piece
+B. A heart fragment
+C. A hat
+D. A relic fragment
+Answer:","[""A time piece"", ""A heart fragment"", ""A hat"", ""A relic fragment""]",http,0.0,16,none,"{""id"":""chatcmpl-vi8ptb4v4ja07znz48t65sg"",""object"":""chat.completion"",""created"":1795595076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.97,,MarianeAzar,20261125_084135,2026-11-25T08:24:38.447163+00:00
+4541c37920569a36,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Hat in Time"", what must Hat Kid collect to finish a level
+A. A time piece
+B. A heart fragment
+C. A hat
+D. A relic fragment
+Answer:","[""A time piece"", ""A heart fragment"", ""A hat"", ""A relic fragment""]",http,0.0,16,none,"{""id"":""chatcmpl-aqhx399pt352jai0ng848"",""object"":""chat.completion"",""created"":1795595077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3032,,MarianeAzar,20261125_084135,2026-11-25T08:24:39.750645+00:00
+86d1e6e30879ecec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book ""The Martian"", how long was Mark Watney trapped on Mars (in Sols)?
+A. 549 Days
+B. 765 Days
+C. 401 Days
+D. 324 Days
+Answer:","[""549 Days"", ""765 Days"", ""401 Days"", ""324 Days""]",http,0.0,16,none,"{""id"":""chatcmpl-6qkiz5k7f2e5gcf3ehbkeg"",""object"":""chat.completion"",""created"":1795595079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2618,,MarianeAzar,20261125_084135,2026-11-25T08:24:41.012675+00:00

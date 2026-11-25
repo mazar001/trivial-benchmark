@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+66c06e230f6f3b81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Sister Ships were related to the TItanic?
+A. 3
+B. 1
+C. 4
+D. 2
+Answer:","[""3"", ""1"", ""4"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-9tnpq232ygtgukyvwvo59w"",""object"":""chat.completion"",""created"":1795595332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3675,,MarianeAzar,20261125_084135,2026-11-25T08:28:54.368993+00:00
+66c06e230f6f3b81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many Sister Ships were related to the TItanic?
+A. 3
+B. 1
+C. 4
+D. 2
+Answer:","[""3"", ""1"", ""4"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-77hzx3kvk7atpc87am58i"",""object"":""chat.completion"",""created"":1795595333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0763,,MarianeAzar,20261125_084135,2026-11-25T08:28:55.445607+00:00
+cade2b4131a562e8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The land of Gotland is located in which European country?
+A. Sweden
+B. Norway
+C. Denmark
+D. Germany
+Answer:","[""Sweden"", ""Norway"", ""Denmark"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-0n3e4wrd2dh7yxxma68c6a"",""object"":""chat.completion"",""created"":1795595334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9088,,MarianeAzar,20261125_084135,2026-11-25T08:28:56.355000+00:00
+cade2b4131a562e8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The land of Gotland is located in which European country?
+A. Sweden
+B. Norway
+C. Denmark
+D. Germany
+Answer:","[""Sweden"", ""Norway"", ""Denmark"", ""Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-975k5ltjsw7yc2lige8sto"",""object"":""chat.completion"",""created"":1795595335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2381,,MarianeAzar,20261125_084135,2026-11-25T08:28:57.593407+00:00
+45ab8612d413587b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to working at Wizards of the Coast, ""Mark Rosewater"" was a writer for which show?
+A. The X-Files
+B. NYPD Blue
+C. Boy Meets World
+D. Roseanne
+Answer:","[""The X-Files"", ""NYPD Blue"", ""Boy Meets World"", ""Roseanne""]",http,0.0,16,none,"{""id"":""chatcmpl-fr2ggrirdakk8xgw0s0rpq"",""object"":""chat.completion"",""created"":1795595337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1404,,MarianeAzar,20261125_084135,2026-11-25T08:28:58.738156+00:00
+45ab8612d413587b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to working at Wizards of the Coast, ""Mark Rosewater"" was a writer for which show?
+A. The X-Files
+B. NYPD Blue
+C. Boy Meets World
+D. Roseanne
+Answer:","[""The X-Files"", ""NYPD Blue"", ""Boy Meets World"", ""Roseanne""]",http,0.0,16,none,"{""id"":""chatcmpl-qcy3k1d2bbx4i9andmbzq"",""object"":""chat.completion"",""created"":1795595338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9893,,MarianeAzar,20261125_084135,2026-11-25T08:28:59.727674+00:00
+a3e84c9ae40b315f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Hallelujah"" is a song written by which Canadian recording artist?
+A. Ryan Letourneau
+B. Justin Bieber
+C. Leonard Cohen
+D. Kory Lefkowits
+Answer:","[""Ryan Letourneau"", ""Justin Bieber"", ""Leonard Cohen"", ""Kory Lefkowits""]",http,0.0,16,none,"{""id"":""chatcmpl-ot1o2r4eyduad2jp25xi"",""object"":""chat.completion"",""created"":1795595339,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.488,,MarianeAzar,20261125_084135,2026-11-25T08:29:01.215973+00:00
+a3e84c9ae40b315f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Hallelujah"" is a song written by which Canadian recording artist?
+A. Ryan Letourneau
+B. Justin Bieber
+C. Leonard Cohen
+D. Kory Lefkowits
+Answer:","[""Ryan Letourneau"", ""Justin Bieber"", ""Leonard Cohen"", ""Kory Lefkowits""]",http,0.0,16,none,"{""id"":""chatcmpl-g8l3bl2qicsn6k73oe6wyl"",""object"":""chat.completion"",""created"":1795595340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9618,,MarianeAzar,20261125_084135,2026-11-25T08:29:02.178043+00:00
+bc6d4d7e2adf7aa1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these characters is NOT a playable fighter in Super Smash Bros. Ultimate?
+A. Corrin
+B. Incineroar
+C. Kumatora
+D. King K. Rool
+Answer:","[""Corrin"", ""Incineroar"", ""Kumatora"", ""King K. Rool""]",http,0.0,16,none,"{""id"":""chatcmpl-q5x7py28x6dyulk9jfhun"",""object"":""chat.completion"",""created"":1795595341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9717,,MarianeAzar,20261125_084135,2026-11-25T08:29:03.149906+00:00
+bc6d4d7e2adf7aa1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these characters is NOT a playable fighter in Super Smash Bros. Ultimate?
+A. Corrin
+B. Incineroar
+C. Kumatora
+D. King K. Rool
+Answer:","[""Corrin"", ""Incineroar"", ""Kumatora"", ""King K. Rool""]",http,0.0,16,none,"{""id"":""chatcmpl-e0o532tnbbiimvd6m5cz6n"",""object"":""chat.completion"",""created"":1795595342,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2988,,MarianeAzar,20261125_084135,2026-11-25T08:29:04.448918+00:00
+d824896ea8056ccc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters were considered for inclusion in Super Smash Bros. Melee?
+A. Meta Knight
+B. Lucas
+C. Mega Man
+D. Diddy Kong
+Answer:","[""Meta Knight"", ""Lucas"", ""Mega Man"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-9rddxqgc89wnovhycfmg7m"",""object"":""chat.completion"",""created"":1795595343,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9362,,MarianeAzar,20261125_084135,2026-11-25T08:29:05.386578+00:00
+d824896ea8056ccc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters were considered for inclusion in Super Smash Bros. Melee?
+A. Meta Knight
+B. Lucas
+C. Mega Man
+D. Diddy Kong
+Answer:","[""Meta Knight"", ""Lucas"", ""Mega Man"", ""Diddy Kong""]",http,0.0,16,none,"{""id"":""chatcmpl-fv2rokr1e4m2an3cttob8v"",""object"":""chat.completion"",""created"":1795595344,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2533,,MarianeAzar,20261125_084135,2026-11-25T08:29:06.640148+00:00
+90e7fcb16940aad8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie did NOT feature the late actor John Candy?
+A. Ghostbusters
+B. Home Alone
+C. Planes Trains and Automobiles
+D. Little Shop Of Horrors
+Answer:","[""Ghostbusters"", ""Home Alone"", ""Planes Trains and Automobiles"", ""Little Shop Of Horrors""]",http,0.0,16,none,"{""id"":""chatcmpl-kxlehj20qrkolfa25916x9"",""object"":""chat.completion"",""created"":1795595346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1572,,MarianeAzar,20261125_084135,2026-11-25T08:29:07.798030+00:00
+90e7fcb16940aad8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie did NOT feature the late actor John Candy?
+A. Ghostbusters
+B. Home Alone
+C. Planes Trains and Automobiles
+D. Little Shop Of Horrors
+Answer:","[""Ghostbusters"", ""Home Alone"", ""Planes Trains and Automobiles"", ""Little Shop Of Horrors""]",http,0.0,16,none,"{""id"":""chatcmpl-pgpohx48sxxr090cnns"",""object"":""chat.completion"",""created"":1795595347,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9197,,MarianeAzar,20261125_084135,2026-11-25T08:29:08.718023+00:00
+6936675ca6f6df37,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: DragonForce's 'Through the Fire and Flames' is widely considered to be the hardest song in the Guitar Hero series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4t3ib1luzhhfp5rmuucpcp"",""object"":""chat.completion"",""created"":1795595348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4354,,MarianeAzar,20261125_084135,2026-11-25T08:29:10.153623+00:00
+6936675ca6f6df37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: DragonForce's 'Through the Fire and Flames' is widely considered to be the hardest song in the Guitar Hero series.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-up6al0yv4iqemm0c3nylnu"",""object"":""chat.completion"",""created"":1795595349,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.059,,MarianeAzar,20261125_084135,2026-11-25T08:29:11.212775+00:00
+638e14dbbdbf22b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of the band Coldplay?
+A. Chris Connelly
+B. Chris Wallace
+C. Chris Martin
+D. Chris Isaak
+Answer:","[""Chris Connelly"", ""Chris Wallace"", ""Chris Martin"", ""Chris Isaak""]",http,0.0,16,none,"{""id"":""chatcmpl-v760jebjo6raiinc0amgs5"",""object"":""chat.completion"",""created"":1795595350,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9405,,MarianeAzar,20261125_084135,2026-11-25T08:29:12.153517+00:00
+638e14dbbdbf22b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of the band Coldplay?
+A. Chris Connelly
+B. Chris Wallace
+C. Chris Martin
+D. Chris Isaak
+Answer:","[""Chris Connelly"", ""Chris Wallace"", ""Chris Martin"", ""Chris Isaak""]",http,0.0,16,none,"{""id"":""chatcmpl-v5fup6jtrrqe2nddg8b6x4"",""object"":""chat.completion"",""created"":1795595351,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2866,,MarianeAzar,20261125_084135,2026-11-25T08:29:13.440381+00:00
+6753762171066598,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Supermassive Black Hole in the centre of the Milky Way?
+A. Andromeda
+B. Sagittarius A*
+C. Messier 87
+D. Alpha Centauri
+Answer:","[""Andromeda"", ""Sagittarius A*"", ""Messier 87"", ""Alpha Centauri""]",http,0.0,16,none,"{""id"":""chatcmpl-tn5dstgxc1kolev0778sv"",""object"":""chat.completion"",""created"":1795595352,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2799,,MarianeAzar,20261125_084135,2026-11-25T08:29:14.720458+00:00
+6753762171066598,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the Supermassive Black Hole in the centre of the Milky Way?
+A. Andromeda
+B. Sagittarius A*
+C. Messier 87
+D. Alpha Centauri
+Answer:","[""Andromeda"", ""Sagittarius A*"", ""Messier 87"", ""Alpha Centauri""]",http,0.0,16,none,"{""id"":""chatcmpl-apaemit96yq9rqxfuoav"",""object"":""chat.completion"",""created"":1795595354,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9685,,MarianeAzar,20261125_084135,2026-11-25T08:29:15.689179+00:00
+1ea8167b84ef8c02,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Donald Duck played the role of Bob Cratchit in Disney's 1983 adaptation of A Christmas Carol.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fm2hig5vgk8xrjil08mx4"",""object"":""chat.completion"",""created"":1795595355,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9272,,MarianeAzar,20261125_084135,2026-11-25T08:29:16.616985+00:00
+1ea8167b84ef8c02,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Donald Duck played the role of Bob Cratchit in Disney's 1983 adaptation of A Christmas Carol.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1g9vq638npif6mi6vg1paj"",""object"":""chat.completion"",""created"":1795595356,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.256,,MarianeAzar,20261125_084135,2026-11-25T08:29:17.873127+00:00
+69f8d4c8c557b791,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Half-Life"" series, ""H.E.V"" stands for ""Hazardous Evasiveness Vest""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lb0hyhvwafw9j89m2cyz"",""object"":""chat.completion"",""created"":1795595357,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9132,,MarianeAzar,20261125_084135,2026-11-25T08:29:18.786755+00:00
+69f8d4c8c557b791,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the ""Half-Life"" series, ""H.E.V"" stands for ""Hazardous Evasiveness Vest""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ll1kes5t4ovstn578eet"",""object"":""chat.completion"",""created"":1795595358,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2414,,MarianeAzar,20261125_084135,2026-11-25T08:29:20.028438+00:00
+8926523116173b7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The heavy metal band Black Sabbath hail from which English city?
+A. Birmingham
+B. Manchester
+C. Newcastle-Upon-Tyne
+D. London
+Answer:","[""Birmingham"", ""Manchester"", ""Newcastle-Upon-Tyne"", ""London""]",http,0.0,16,none,"{""id"":""chatcmpl-11upumbpdu3vf975ha3mgi"",""object"":""chat.completion"",""created"":1795595359,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3105,,MarianeAzar,20261125_084135,2026-11-25T08:29:21.339345+00:00

@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+74ada9bdc5d3b837,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the vocalist and frontman of rock band ""Guns N' Roses""?
+A. Axl Rose
+B. Slash
+C. Bono
+D. Kurt Cobain
+Answer:","[""Axl Rose"", ""Slash"", ""Bono"", ""Kurt Cobain""]",http,0.0,16,none,"{""id"":""chatcmpl-03zhhsilb0y2ccp7jul0rqb"",""object"":""chat.completion"",""created"":1795594939,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3856,,MarianeAzar,20261125_084135,2026-11-25T08:22:21.612708+00:00
+74ada9bdc5d3b837,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the vocalist and frontman of rock band ""Guns N' Roses""?
+A. Axl Rose
+B. Slash
+C. Bono
+D. Kurt Cobain
+Answer:","[""Axl Rose"", ""Slash"", ""Bono"", ""Kurt Cobain""]",http,0.0,16,none,"{""id"":""chatcmpl-xhxea7alvsbt6c8lrc1aei"",""object"":""chat.completion"",""created"":1795594941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9459,,MarianeAzar,20261125_084135,2026-11-25T08:22:22.559087+00:00
+35dafd042f10a0c2,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Japanese god Izanagi successfully returned his wife Izanami from the Underworld.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-oz79auzi7uqmplc9u71pxn"",""object"":""chat.completion"",""created"":1795594941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261125_084135,2026-11-25T08:22:23.426697+00:00
+35dafd042f10a0c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Japanese god Izanagi successfully returned his wife Izanami from the Underworld.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ts3k3x12w7tzhuea5xzn"",""object"":""chat.completion"",""created"":1795594942,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.218,,MarianeAzar,20261125_084135,2026-11-25T08:22:24.644886+00:00
+c6eeb302ca15187a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the English voice actor for Sora from the Kingdom Hearts series?
+A. Kōki Uchiyama
+B. Jesse McCartney
+C. Haley Joel Osment
+D. Miyu Irino
+Answer:","[""Kōki Uchiyama"", ""Jesse McCartney"", ""Haley Joel Osment"", ""Miyu Irino""]",http,0.0,16,none,"{""id"":""chatcmpl-khkw2640s7zoshk6o3e4m"",""object"":""chat.completion"",""created"":1795594944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0115,,MarianeAzar,20261125_084135,2026-11-25T08:22:25.656564+00:00
+c6eeb302ca15187a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the English voice actor for Sora from the Kingdom Hearts series?
+A. Kōki Uchiyama
+B. Jesse McCartney
+C. Haley Joel Osment
+D. Miyu Irino
+Answer:","[""Kōki Uchiyama"", ""Jesse McCartney"", ""Haley Joel Osment"", ""Miyu Irino""]",http,0.0,16,none,"{""id"":""chatcmpl-az5bmizr7lmnf224xw9d0m"",""object"":""chat.completion"",""created"":1795594945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9673,,MarianeAzar,20261125_084135,2026-11-25T08:22:26.624152+00:00
+0006f66febe08fa9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The set of all algebraic numbers is countable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ex8i5rg3akhsm39ls84l3k"",""object"":""chat.completion"",""created"":1795594946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.209,,MarianeAzar,20261125_084135,2026-11-25T08:22:27.833472+00:00
+0006f66febe08fa9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The set of all algebraic numbers is countable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qj58zj7w17v2th54uxijo"",""object"":""chat.completion"",""created"":1795594947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8943,,MarianeAzar,20261125_084135,2026-11-25T08:22:28.727902+00:00
+6cf1e87deda94d94,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Color model CMYK stands for?
+A. Cyan, Magenta, Yellow, and Khaki
+B. Cream, Maroon, Yellow, and Black
+C. Cyan, Magenta, Yellow, and Black
+D. Cream, Maroon, Yellow, and Khaki
+Answer:","[""Cyan, Magenta, Yellow, and Khaki"", ""Cream, Maroon, Yellow, and Black"", ""Cyan, Magenta, Yellow, and Black"", ""Cream, Maroon, Yellow, and Khaki""]",http,0.0,16,none,"{""id"":""chatcmpl-hjaj0122lrejj0dfzmlkll"",""object"":""chat.completion"",""created"":1795594948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2505,,MarianeAzar,20261125_084135,2026-11-25T08:22:29.978703+00:00
+6cf1e87deda94d94,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Color model CMYK stands for?
+A. Cyan, Magenta, Yellow, and Khaki
+B. Cream, Maroon, Yellow, and Black
+C. Cyan, Magenta, Yellow, and Black
+D. Cream, Maroon, Yellow, and Khaki
+Answer:","[""Cyan, Magenta, Yellow, and Khaki"", ""Cream, Maroon, Yellow, and Black"", ""Cyan, Magenta, Yellow, and Black"", ""Cream, Maroon, Yellow, and Khaki""]",http,0.0,16,none,"{""id"":""chatcmpl-dogmhyp36gotk05hg3ewc9"",""object"":""chat.completion"",""created"":1795594949,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3298,,MarianeAzar,20261125_084135,2026-11-25T08:22:31.308975+00:00
+8e5e26adaa634948,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the back of a boat?
+A. Bow
+B. Stern
+C. Starboard
+D. Port
+Answer:","[""Bow"", ""Stern"", ""Starboard"", ""Port""]",http,0.0,16,none,"{""id"":""chatcmpl-3df07g9cx0hytkdeu605pl"",""object"":""chat.completion"",""created"":1795594950,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9808,,MarianeAzar,20261125_084135,2026-11-25T08:22:32.290817+00:00
+8e5e26adaa634948,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do sailors call the back of a boat?
+A. Bow
+B. Stern
+C. Starboard
+D. Port
+Answer:","[""Bow"", ""Stern"", ""Starboard"", ""Port""]",http,0.0,16,none,"{""id"":""chatcmpl-rkmwzrmspxrrmcuo8wkov"",""object"":""chat.completion"",""created"":1795594951,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3081,,MarianeAzar,20261125_084135,2026-11-25T08:22:33.599313+00:00
+5d838f5dded2b228,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the atomic number of Uranium
+A. 167
+B. 92
+C. 17
+D. 235
+Answer:","[""167"", ""92"", ""17"", ""235""]",http,0.0,16,none,"{""id"":""chatcmpl-1guwcpl2gaam3yfz0dryn"",""object"":""chat.completion"",""created"":1795594953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3359,,MarianeAzar,20261125_084135,2026-11-25T08:22:34.936005+00:00
+5d838f5dded2b228,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the atomic number of Uranium
+A. 167
+B. 92
+C. 17
+D. 235
+Answer:","[""167"", ""92"", ""17"", ""235""]",http,0.0,16,none,"{""id"":""chatcmpl-sn4cw3dyotjz9bbvsnvh"",""object"":""chat.completion"",""created"":1795594954,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.951,,MarianeAzar,20261125_084135,2026-11-25T08:22:35.887256+00:00
+0c988e2069f308da,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Kingdom Hearts game featured the cast of ""The World Ends With You""?
+A. Birth By Sleep
+B. 365/2 Days
+C. Dream Drop Distance
+D. Re:Chain of Memories
+Answer:","[""Birth By Sleep"", ""365/2 Days"", ""Dream Drop Distance"", ""Re:Chain of Memories""]",http,0.0,16,none,"{""id"":""chatcmpl-l8eepkwpc8b4dhzfeekffd"",""object"":""chat.completion"",""created"":1795594955,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T08:22:36.742594+00:00
+0c988e2069f308da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Kingdom Hearts game featured the cast of ""The World Ends With You""?
+A. Birth By Sleep
+B. 365/2 Days
+C. Dream Drop Distance
+D. Re:Chain of Memories
+Answer:","[""Birth By Sleep"", ""365/2 Days"", ""Dream Drop Distance"", ""Re:Chain of Memories""]",http,0.0,16,none,"{""id"":""chatcmpl-479tmvl0iy269bnec4k4vs"",""object"":""chat.completion"",""created"":1795594956,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2846,,MarianeAzar,20261125_084135,2026-11-25T08:22:38.027503+00:00
+eb8413ecd3621e4e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft lore, how many siblings does Sylvanas Windrunner have?
+A. 4
+B. 3
+C. 2
+D. 1
+Answer:","[""4"", ""3"", ""2"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-8zevsjoj2dnge3dso1p4n"",""object"":""chat.completion"",""created"":1795594957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2518,,MarianeAzar,20261125_084135,2026-11-25T08:22:39.279613+00:00
+eb8413ecd3621e4e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In World of Warcraft lore, how many siblings does Sylvanas Windrunner have?
+A. 4
+B. 3
+C. 2
+D. 1
+Answer:","[""4"", ""3"", ""2"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-j0tbfpkdii96evzazxgnsf"",""object"":""chat.completion"",""created"":1795594958,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.943,,MarianeAzar,20261125_084135,2026-11-25T08:22:40.223231+00:00
+a3daa3aa2a97faed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Terry Gilliam is the only American member of the comedy troupe ""Monty Python.""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vhq4agac4aixuhpb0uqjr9"",""object"":""chat.completion"",""created"":1795594959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8982,,MarianeAzar,20261125_084135,2026-11-25T08:22:41.121633+00:00
+a3daa3aa2a97faed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Terry Gilliam is the only American member of the comedy troupe ""Monty Python.""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h6duqv92elmfvlammcjcza"",""object"":""chat.completion"",""created"":1795594960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2789,,MarianeAzar,20261125_084135,2026-11-25T08:22:42.400673+00:00
+090b818151e38f74,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek Nemesis"", why was Praetor Shinzon created?
+A. To destroy the Enterprise
+B. To replace Picard as a Romulan Agent
+C. To steal the Enterprise
+D. To become Picard's friend
+Answer:","[""To destroy the Enterprise"", ""To replace Picard as a Romulan Agent"", ""To steal the Enterprise"", ""To become Picard's friend""]",http,0.0,16,none,"{""id"":""chatcmpl-9gf221lq13fpzlf3ed84b"",""object"":""chat.completion"",""created"":1795594961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9229,,MarianeAzar,20261125_084135,2026-11-25T08:22:43.324781+00:00
+090b818151e38f74,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek Nemesis"", why was Praetor Shinzon created?
+A. To destroy the Enterprise
+B. To replace Picard as a Romulan Agent
+C. To steal the Enterprise
+D. To become Picard's friend
+Answer:","[""To destroy the Enterprise"", ""To replace Picard as a Romulan Agent"", ""To steal the Enterprise"", ""To become Picard's friend""]",http,0.0,16,none,"{""id"":""chatcmpl-fbaejwgpv7dv7lnjemehb"",""object"":""chat.completion"",""created"":1795594962,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9879,,MarianeAzar,20261125_084135,2026-11-25T08:22:44.312970+00:00
+b197e4ad2a0f37c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song by Swedish electronic musician Avicii samples the song ""Something's Got A Hold On Me"" by Etta James?
+A. Silhouettes
+B. Levels
+C. Fade Into Darkness
+D. Seek Bromance
+Answer:","[""Silhouettes"", ""Levels"", ""Fade Into Darkness"", ""Seek Bromance""]",http,0.0,16,none,"{""id"":""chatcmpl-u1fjzogtaikpjsfx48m2zk"",""object"":""chat.completion"",""created"":1795594963,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3388,,MarianeAzar,20261125_084135,2026-11-25T08:22:45.652059+00:00
+b197e4ad2a0f37c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song by Swedish electronic musician Avicii samples the song ""Something's Got A Hold On Me"" by Etta James?
+A. Silhouettes
+B. Levels
+C. Fade Into Darkness
+D. Seek Bromance
+Answer:","[""Silhouettes"", ""Levels"", ""Fade Into Darkness"", ""Seek Bromance""]",http,0.0,16,none,"{""id"":""chatcmpl-urg3bzbc9biofqzpgo24hb"",""object"":""chat.completion"",""created"":1795594965,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9526,,MarianeAzar,20261125_084135,2026-11-25T08:22:46.604923+00:00
+b51db5a8b937c3a4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In most programming languages, the operator ++ is equivalent to the statement ""+= 1"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-du55d6zz59hwm8iuhcvrmc"",""object"":""chat.completion"",""created"":1795594966,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2087,,MarianeAzar,20261125_084135,2026-11-25T08:22:47.813907+00:00

@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1b3b6af89fa62129,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Marvel Comics, Taurus is the founder and leader of which criminal organization?
+A. Tiger Mafia
+B. Zodiac
+C. Scorpio
+D. The Union
+Answer:","[""Tiger Mafia"", ""Zodiac"", ""Scorpio"", ""The Union""]",http,0.0,16,none,"{""id"":""chatcmpl-pf8ksbhlbkkdh9rw131r"",""object"":""chat.completion"",""created"":1795554283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8503,,MarianeAzar,20261124_215144,2026-11-24T21:04:43.976134+00:00
+1b3b6af89fa62129,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Marvel Comics, Taurus is the founder and leader of which criminal organization?
+A. Tiger Mafia
+B. Zodiac
+C. Scorpio
+D. The Union
+Answer:","[""Tiger Mafia"", ""Zodiac"", ""Scorpio"", ""The Union""]",http,0.0,16,none,"{""id"":""chatcmpl-oyl7er3gs9o7s3gfwzq597"",""object"":""chat.completion"",""created"":1795554283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261124_215144,2026-11-24T21:04:44.830776+00:00
+13fea74aea58062a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many albums did King Gizzard & the Lizard Wizard release in 2017?
+A. 6
+B. 3
+C. 5
+D. 2
+Answer:","[""6"", ""3"", ""5"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-9o72x5zecre0tqeydt9zx58"",""object"":""chat.completion"",""created"":1795554284,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0255,,MarianeAzar,20261124_215144,2026-11-24T21:04:45.856607+00:00
+13fea74aea58062a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many albums did King Gizzard & the Lizard Wizard release in 2017?
+A. 6
+B. 3
+C. 5
+D. 2
+Answer:","[""6"", ""3"", ""5"", ""2""]",http,0.0,16,none,"{""id"":""chatcmpl-lp5uthfqprf1ry6zq0oglp"",""object"":""chat.completion"",""created"":1795554285,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261124_215144,2026-11-24T21:04:46.729985+00:00
+8b3d68b4afeb74e5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life mod ""Afraid of Monsters"" what was the name of the main protagonist?
+A. David Leatherhoff
+B. Daniel Featherhoff
+C. Damon Weatherhoff
+D. Damien Teatherhoff
+Answer:","[""David Leatherhoff"", ""Daniel Featherhoff"", ""Damon Weatherhoff"", ""Damien Teatherhoff""]",http,0.0,16,none,"{""id"":""chatcmpl-sz7ecp1a8bg5gpgie5qm44"",""object"":""chat.completion"",""created"":1795554286,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8657,,MarianeAzar,20261124_215144,2026-11-24T21:04:47.596009+00:00
+8b3d68b4afeb74e5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life mod ""Afraid of Monsters"" what was the name of the main protagonist?
+A. David Leatherhoff
+B. Daniel Featherhoff
+C. Damon Weatherhoff
+D. Damien Teatherhoff
+Answer:","[""David Leatherhoff"", ""Daniel Featherhoff"", ""Damon Weatherhoff"", ""Damien Teatherhoff""]",http,0.0,16,none,"{""id"":""chatcmpl-vkytqsayoaicchatuig8"",""object"":""chat.completion"",""created"":1795554287,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9042,,MarianeAzar,20261124_215144,2026-11-24T21:04:48.500504+00:00
+cbd9df565f7cba6f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is singer Kyary Pamyu Pamyu from?
+A. South Korea
+B. Vietnam
+C. China
+D. Japan
+Answer:","[""South Korea"", ""Vietnam"", ""China"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-s30w680oayjww04fbyuhn"",""object"":""chat.completion"",""created"":1795554288,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261124_215144,2026-11-24T21:04:49.392712+00:00
+cbd9df565f7cba6f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country is singer Kyary Pamyu Pamyu from?
+A. South Korea
+B. Vietnam
+C. China
+D. Japan
+Answer:","[""South Korea"", ""Vietnam"", ""China"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-kkljatcqeghasxwrr02q3j"",""object"":""chat.completion"",""created"":1795554289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8672,,MarianeAzar,20261124_215144,2026-11-24T21:04:50.260219+00:00
+9af092fe0fec4edf,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: John Williams composed the music for ""Star Wars"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mhsu5rqxzqtj0qndupfa"",""object"":""chat.completion"",""created"":1795554290,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8104,,MarianeAzar,20261124_215144,2026-11-24T21:04:51.070850+00:00
+9af092fe0fec4edf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: John Williams composed the music for ""Star Wars"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-agfp1tjbeio0vx2g3vy8"",""object"":""chat.completion"",""created"":1795554290,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8318,,MarianeAzar,20261124_215144,2026-11-24T21:04:51.902874+00:00
+1d815a7c14bb2e27,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname of the US state of California?
+A. Treasure State
+B. Sunshine State
+C. Golden State
+D. Bay State
+Answer:","[""Treasure State"", ""Sunshine State"", ""Golden State"", ""Bay State""]",http,0.0,16,none,"{""id"":""chatcmpl-7hzmm9rcczlu6h56ulpdr9"",""object"":""chat.completion"",""created"":1795554291,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261124_215144,2026-11-24T21:04:52.782167+00:00
+1d815a7c14bb2e27,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname of the US state of California?
+A. Treasure State
+B. Sunshine State
+C. Golden State
+D. Bay State
+Answer:","[""Treasure State"", ""Sunshine State"", ""Golden State"", ""Bay State""]",http,0.0,16,none,"{""id"":""chatcmpl-4k827byq3i504e20cxb9a2x"",""object"":""chat.completion"",""created"":1795554292,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261124_215144,2026-11-24T21:04:53.640153+00:00
+b5bba09e437dc95e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An exothermic reaction is a chemical reaction that releases energy by radiating electricity.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yn4zqusjj2fh5l4mu7sfc"",""object"":""chat.completion"",""created"":1795554293,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8007,,MarianeAzar,20261124_215144,2026-11-24T21:04:54.441093+00:00
+b5bba09e437dc95e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An exothermic reaction is a chemical reaction that releases energy by radiating electricity.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5wbioy1m3quoo7n3ue3cwr"",""object"":""chat.completion"",""created"":1795554294,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8399,,MarianeAzar,20261124_215144,2026-11-24T21:04:55.281173+00:00
+113d8827d52b1864,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of instrument is a ""Mandolin""?
+A. Brass
+B. String
+C. Woodwind
+D. Percussion
+Answer:","[""Brass"", ""String"", ""Woodwind"", ""Percussion""]",http,0.0,16,none,"{""id"":""chatcmpl-s06tjte9qjm2k8nxcpjc61"",""object"":""chat.completion"",""created"":1795554295,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8456,,MarianeAzar,20261124_215144,2026-11-24T21:04:56.127261+00:00
+113d8827d52b1864,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What kind of instrument is a ""Mandolin""?
+A. Brass
+B. String
+C. Woodwind
+D. Percussion
+Answer:","[""Brass"", ""String"", ""Woodwind"", ""Percussion""]",http,0.0,16,none,"{""id"":""chatcmpl-yem6qw2r4d8bo9knmu06m"",""object"":""chat.completion"",""created"":1795554296,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9952,,MarianeAzar,20261124_215144,2026-11-24T21:04:57.122788+00:00
+6ec26a51b377306b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: SCP-173 was the first SCP article written for the web-based collaborative fiction project known as the ""SCP Foundation""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ne87b5n2vodsn5jikyv48"",""object"":""chat.completion"",""created"":1795554297,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.825,,MarianeAzar,20261124_215144,2026-11-24T21:04:57.948076+00:00
+6ec26a51b377306b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: SCP-173 was the first SCP article written for the web-based collaborative fiction project known as the ""SCP Foundation""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lynzbt8i7a22mzdcjz9hj"",""object"":""chat.completion"",""created"":1795554297,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8493,,MarianeAzar,20261124_215144,2026-11-24T21:04:58.797544+00:00
+df78282891d02ce5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first footballer to score 200 goals in the English Premier League?
+A. Alan Shearer
+B. Wayne Rooney
+C. Thierry Henry
+D. Robbie Fowler
+Answer:","[""Alan Shearer"", ""Wayne Rooney"", ""Thierry Henry"", ""Robbie Fowler""]",http,0.0,16,none,"{""id"":""chatcmpl-y1mn0fgvdpfvdicnx3b4uo"",""object"":""chat.completion"",""created"":1795554298,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9077,,MarianeAzar,20261124_215144,2026-11-24T21:04:59.705546+00:00
+df78282891d02ce5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first footballer to score 200 goals in the English Premier League?
+A. Alan Shearer
+B. Wayne Rooney
+C. Thierry Henry
+D. Robbie Fowler
+Answer:","[""Alan Shearer"", ""Wayne Rooney"", ""Thierry Henry"", ""Robbie Fowler""]",http,0.0,16,none,"{""id"":""chatcmpl-451rpgl09xu65njdoszmxw"",""object"":""chat.completion"",""created"":1795554299,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8701,,MarianeAzar,20261124_215144,2026-11-24T21:05:00.576037+00:00
+df1a639f5b1fd735,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?
+A. South America
+B. Asia
+C. Africa
+D. Europe
+Answer:","[""South America"", ""Asia"", ""Africa"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-mn81ycmhjw5l0xs47ey4r"",""object"":""chat.completion"",""created"":1795554300,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261124_215144,2026-11-24T21:05:01.441940+00:00
+df1a639f5b1fd735,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Eritrea, which became the 182nd member of the UN in 1993, is in the continent of?
+A. South America
+B. Asia
+C. Africa
+D. Europe
+Answer:","[""South America"", ""Asia"", ""Africa"", ""Europe""]",http,0.0,16,none,"{""id"":""chatcmpl-ogl0lw70spnivyb46ef44p"",""object"":""chat.completion"",""created"":1795554301,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261124_215144,2026-11-24T21:05:02.327562+00:00
+b83234801e1f51f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Nissan's most popular electric car?
+A. Tree
+B. Deer
+C. Leaf
+D. Roots
+Answer:","[""Tree"", ""Deer"", ""Leaf"", ""Roots""]",http,0.0,16,none,"{""id"":""chatcmpl-jsm3z93a6abeho5mkgfb76"",""object"":""chat.completion"",""created"":1795554302,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261124_215144,2026-11-24T21:05:03.190375+00:00
+b83234801e1f51f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Nissan's most popular electric car?
+A. Tree
+B. Deer
+C. Leaf
+D. Roots
+Answer:","[""Tree"", ""Deer"", ""Leaf"", ""Roots""]",http,0.0,16,none,"{""id"":""chatcmpl-73lf6i2y7b7prav1fzhvy"",""object"":""chat.completion"",""created"":1795554303,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8695,,MarianeAzar,20261124_215144,2026-11-24T21:05:04.060170+00:00
+72ae5647a1f637af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: TF2: What code does Soldier put into the door keypad in ""Meet the Spy""?
+A. 1432
+B. No code
+C. 1337
+D. 1111
+Answer:","[""1432"", ""No code"", ""1337"", ""1111""]",http,0.0,16,none,"{""id"":""chatcmpl-2rx6ryg2e34nbiockvdth"",""object"":""chat.completion"",""created"":1795554304,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.961,,MarianeAzar,20261124_215144,2026-11-24T21:05:05.021435+00:00

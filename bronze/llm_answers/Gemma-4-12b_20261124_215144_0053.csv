@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1a2fa28ada23c72c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Gerald Ford Become President?
+A. 1974
+B. 1977
+C. 1969
+D. 1973
+Answer:","[""1974"", ""1977"", ""1969"", ""1973""]",http,0.0,16,none,"{""id"":""chatcmpl-l5hjrif01snsh9m7n159wb"",""object"":""chat.completion"",""created"":1795554878,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2605,,MarianeAzar,20261124_215144,2026-11-24T21:14:39.751589+00:00
+ec69aa5103b5c330,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cities is NOT featured in the Pandemic board game?
+A. Berlin
+B. Lagos
+C. Ho Chi Minh City
+D. Karachi
+Answer:","[""Berlin"", ""Lagos"", ""Ho Chi Minh City"", ""Karachi""]",http,0.0,16,none,"{""id"":""chatcmpl-211dsr37y4fi6yfyxu5qtn"",""object"":""chat.completion"",""created"":1795554879,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3186,,MarianeAzar,20261124_215144,2026-11-24T21:14:41.070289+00:00
+ec69aa5103b5c330,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cities is NOT featured in the Pandemic board game?
+A. Berlin
+B. Lagos
+C. Ho Chi Minh City
+D. Karachi
+Answer:","[""Berlin"", ""Lagos"", ""Ho Chi Minh City"", ""Karachi""]",http,0.0,16,none,"{""id"":""chatcmpl-txcwodyyele8425e9t9p3p"",""object"":""chat.completion"",""created"":1795554881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0824,,MarianeAzar,20261124_215144,2026-11-24T21:14:42.152844+00:00
+25b63ca2340a7440,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real full name of Captain America?
+A. Steven William Rogers
+B. Steven John Rogers
+C. Steven Grant Rogers
+D. Steven Peggy Rogers
+Answer:","[""Steven William Rogers"", ""Steven John Rogers"", ""Steven Grant Rogers"", ""Steven Peggy Rogers""]",http,0.0,16,none,"{""id"":""chatcmpl-4ysahwqarfib017k5l4xcn"",""object"":""chat.completion"",""created"":1795554882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9268,,MarianeAzar,20261124_215144,2026-11-24T21:14:43.079856+00:00
+25b63ca2340a7440,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real full name of Captain America?
+A. Steven William Rogers
+B. Steven John Rogers
+C. Steven Grant Rogers
+D. Steven Peggy Rogers
+Answer:","[""Steven William Rogers"", ""Steven John Rogers"", ""Steven Grant Rogers"", ""Steven Peggy Rogers""]",http,0.0,16,none,"{""id"":""chatcmpl-b0mssptjxnswqc0zvm6th"",""object"":""chat.completion"",""created"":1795554882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2255,,MarianeAzar,20261124_215144,2026-11-24T21:14:44.305481+00:00
+e7ff54f769dc50b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bands is the oldest?
+A. Metallica
+B. Red Hot Chili Peppers
+C. Pink Floyd
+D. AC/DC
+Answer:","[""Metallica"", ""Red Hot Chili Peppers"", ""Pink Floyd"", ""AC/DC""]",http,0.0,16,none,"{""id"":""chatcmpl-cg9f8dbr0i09yvjzkybufr"",""object"":""chat.completion"",""created"":1795554884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1455,,MarianeAzar,20261124_215144,2026-11-24T21:14:45.451282+00:00
+e7ff54f769dc50b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these bands is the oldest?
+A. Metallica
+B. Red Hot Chili Peppers
+C. Pink Floyd
+D. AC/DC
+Answer:","[""Metallica"", ""Red Hot Chili Peppers"", ""Pink Floyd"", ""AC/DC""]",http,0.0,16,none,"{""id"":""chatcmpl-j13p7h8u0kaqwnjyddteai"",""object"":""chat.completion"",""created"":1795554885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9181,,MarianeAzar,20261124_215144,2026-11-24T21:14:46.369644+00:00
+98a98a22df6fbdec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the Battle of Verdun take place?
+A. 1916
+B. 1915
+C. 1918
+D. 1917
+Answer:","[""1916"", ""1915"", ""1918"", ""1917""]",http,0.0,16,none,"{""id"":""chatcmpl-19hwt05xzuunul4zv90s7l"",""object"":""chat.completion"",""created"":1795554886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4284,,MarianeAzar,20261124_215144,2026-11-24T21:14:47.798357+00:00
+98a98a22df6fbdec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year did the Battle of Verdun take place?
+A. 1916
+B. 1915
+C. 1918
+D. 1917
+Answer:","[""1916"", ""1915"", ""1918"", ""1917""]",http,0.0,16,none,"{""id"":""chatcmpl-zn9k9a21f0ow8ars4hijf"",""object"":""chat.completion"",""created"":1795554887,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9096,,MarianeAzar,20261124_215144,2026-11-24T21:14:48.708152+00:00
+a54a8fd33c7b29e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played the Waitress in the Spam sketch of ""Monty Python's Flying Circus""?
+A. Terry Jones
+B. John Cleese
+C. Eric Idle
+D. Graham Chapman
+Answer:","[""Terry Jones"", ""John Cleese"", ""Eric Idle"", ""Graham Chapman""]",http,0.0,16,none,"{""id"":""chatcmpl-g7wv7ernx27ar67e8mts2"",""object"":""chat.completion"",""created"":1795554888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9475,,MarianeAzar,20261124_215144,2026-11-24T21:14:49.655752+00:00
+a54a8fd33c7b29e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who played the Waitress in the Spam sketch of ""Monty Python's Flying Circus""?
+A. Terry Jones
+B. John Cleese
+C. Eric Idle
+D. Graham Chapman
+Answer:","[""Terry Jones"", ""John Cleese"", ""Eric Idle"", ""Graham Chapman""]",http,0.0,16,none,"{""id"":""chatcmpl-rd5mb0muplmw2zoc1kv7o"",""object"":""chat.completion"",""created"":1795554889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3452,,MarianeAzar,20261124_215144,2026-11-24T21:14:51.001093+00:00
+11fc0d98f419a146,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Marvel comics, which of the following is not one of the infinity stones?
+A. Power
+B. Soul
+C. Energy
+D. Time
+Answer:","[""Power"", ""Soul"", ""Energy"", ""Time""]",http,0.0,16,none,"{""id"":""chatcmpl-ko49w098iyayxk6k82szl"",""object"":""chat.completion"",""created"":1795554890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9307,,MarianeAzar,20261124_215144,2026-11-24T21:14:51.931964+00:00
+11fc0d98f419a146,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Marvel comics, which of the following is not one of the infinity stones?
+A. Power
+B. Soul
+C. Energy
+D. Time
+Answer:","[""Power"", ""Soul"", ""Energy"", ""Time""]",http,0.0,16,none,"{""id"":""chatcmpl-m8q4huf09pcyckajr525p"",""object"":""chat.completion"",""created"":1795554891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2075,,MarianeAzar,20261124_215144,2026-11-24T21:14:53.139605+00:00
+c84cb9db1bc664a0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The drug cartel run by Pablo Escobar originated in which South American city?
+A. Quito
+B. Bogotá
+C. Cali
+D. Medellín
+Answer:","[""Quito"", ""Bogotá"", ""Cali"", ""Medellín""]",http,0.0,16,none,"{""id"":""chatcmpl-e7da5he9w8bkr2ysc7cn7h"",""object"":""chat.completion"",""created"":1795554893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.124,,MarianeAzar,20261124_215144,2026-11-24T21:14:54.263856+00:00
+c84cb9db1bc664a0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The drug cartel run by Pablo Escobar originated in which South American city?
+A. Quito
+B. Bogotá
+C. Cali
+D. Medellín
+Answer:","[""Quito"", ""Bogotá"", ""Cali"", ""Medellín""]",http,0.0,16,none,"{""id"":""chatcmpl-h0gvkob4837l7qra7c8h5m"",""object"":""chat.completion"",""created"":1795554894,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9263,,MarianeAzar,20261124_215144,2026-11-24T21:14:55.190318+00:00
+4310f2a159c599e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first superhero film James Gunn was involved with?
+A. Super
+B. Brightburn
+C. Guardians of the Galaxy
+D. The Specials
+Answer:","[""Super"", ""Brightburn"", ""Guardians of the Galaxy"", ""The Specials""]",http,0.0,16,none,"{""id"":""chatcmpl-86egx2wka02fbeh8oq6q7s"",""object"":""chat.completion"",""created"":1795554895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4269,,MarianeAzar,20261124_215144,2026-11-24T21:14:56.617729+00:00
+4310f2a159c599e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first superhero film James Gunn was involved with?
+A. Super
+B. Brightburn
+C. Guardians of the Galaxy
+D. The Specials
+Answer:","[""Super"", ""Brightburn"", ""Guardians of the Galaxy"", ""The Specials""]",http,0.0,16,none,"{""id"":""chatcmpl-9u41figraymjgcefvixay"",""object"":""chat.completion"",""created"":1795554896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9362,,MarianeAzar,20261124_215144,2026-11-24T21:14:57.554126+00:00
+fe9317638c1e90bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what day did Germany invade Poland?
+A. June 22, 1941
+B. September 1, 1939
+C. December 7, 1941
+D. July 7, 1937
+Answer:","[""June 22, 1941"", ""September 1, 1939"", ""December 7, 1941"", ""July 7, 1937""]",http,0.0,16,none,"{""id"":""chatcmpl-0xf7t8iejmu958q372wys6t"",""object"":""chat.completion"",""created"":1795554897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9698,,MarianeAzar,20261124_215144,2026-11-24T21:14:58.524138+00:00
+fe9317638c1e90bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what day did Germany invade Poland?
+A. June 22, 1941
+B. September 1, 1939
+C. December 7, 1941
+D. July 7, 1937
+Answer:","[""June 22, 1941"", ""September 1, 1939"", ""December 7, 1941"", ""July 7, 1937""]",http,0.0,16,none,"{""id"":""chatcmpl-2z2uw2yc4zk7fvveferywk"",""object"":""chat.completion"",""created"":1795554898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4171,,MarianeAzar,20261124_215144,2026-11-24T21:14:59.941474+00:00
+fb14f78674b4b6db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artists' version of the song ""The Tide is High"" came first?
+A. Kardinal Offishall
+B. The Paragons
+C. Atomic Kitten
+D. Blondie
+Answer:","[""Kardinal Offishall"", ""The Paragons"", ""Atomic Kitten"", ""Blondie""]",http,0.0,16,none,"{""id"":""chatcmpl-3soc89jvsehphn62euwf8g"",""object"":""chat.completion"",""created"":1795554899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9347,,MarianeAzar,20261124_215144,2026-11-24T21:15:00.876424+00:00
+fb14f78674b4b6db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artists' version of the song ""The Tide is High"" came first?
+A. Kardinal Offishall
+B. The Paragons
+C. Atomic Kitten
+D. Blondie
+Answer:","[""Kardinal Offishall"", ""The Paragons"", ""Atomic Kitten"", ""Blondie""]",http,0.0,16,none,"{""id"":""chatcmpl-r0ms0fo3dmweor3fjbuve"",""object"":""chat.completion"",""created"":1795554900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9456,,MarianeAzar,20261124_215144,2026-11-24T21:15:01.822215+00:00
+bae8111d078e8093,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was Don Bluth both the writer, director, and producer for?
+A. Anastasia
+B. Titan A.E.
+C. All Dogs Go To Heaven
+D. The Land Before Time
+Answer:","[""Anastasia"", ""Titan A.E."", ""All Dogs Go To Heaven"", ""The Land Before Time""]",http,0.0,16,none,"{""id"":""chatcmpl-ne17n5fk0uoqhtbot4r67r"",""object"":""chat.completion"",""created"":1795554901,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3398,,MarianeAzar,20261124_215144,2026-11-24T21:15:03.162286+00:00
+bae8111d078e8093,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was Don Bluth both the writer, director, and producer for?
+A. Anastasia
+B. Titan A.E.
+C. All Dogs Go To Heaven
+D. The Land Before Time
+Answer:","[""Anastasia"", ""Titan A.E."", ""All Dogs Go To Heaven"", ""The Land Before Time""]",http,0.0,16,none,"{""id"":""chatcmpl-vkjm460ixh876hjxbodb"",""object"":""chat.completion"",""created"":1795554903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9666,,MarianeAzar,20261124_215144,2026-11-24T21:15:04.129132+00:00
+3fccf25b1131c589,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which dog breed is named after a region in Croatia
+A. Pekingnese
+B. Chihuahua
+C. Pomeranian
+D. Dalmatian
+Answer:","[""Pekingnese"", ""Chihuahua"", ""Pomeranian"", ""Dalmatian""]",http,0.0,16,none,"{""id"":""chatcmpl-9j1xkjv056ojoa43qg2xco"",""object"":""chat.completion"",""created"":1795554904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9414,,MarianeAzar,20261124_215144,2026-11-24T21:15:05.070686+00:00
+3fccf25b1131c589,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which dog breed is named after a region in Croatia
+A. Pekingnese
+B. Chihuahua
+C. Pomeranian
+D. Dalmatian
+Answer:","[""Pekingnese"", ""Chihuahua"", ""Pomeranian"", ""Dalmatian""]",http,0.0,16,none,"{""id"":""chatcmpl-2ry7o7a4zryp1hdz28j8q"",""object"":""chat.completion"",""created"":1795554904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4016,,MarianeAzar,20261124_215144,2026-11-24T21:15:06.472473+00:00

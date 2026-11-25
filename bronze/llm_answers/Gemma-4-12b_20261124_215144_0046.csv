@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6791b05b5d22dad4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the following actors did not voice a character in ""Saints Row: The Third""?
+A. Ron Jeremy
+B. Burt Reynolds
+C. Sasha Grey
+D. Hulk Hogan
+Answer:","[""Ron Jeremy"", ""Burt Reynolds"", ""Sasha Grey"", ""Hulk Hogan""]",http,0.0,16,none,"{""id"":""chatcmpl-eor15jwckik6xmi79tk8h"",""object"":""chat.completion"",""created"":1795554681,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0668,,MarianeAzar,20261124_215144,2026-11-24T21:11:22.883795+00:00
+6791b05b5d22dad4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the following actors did not voice a character in ""Saints Row: The Third""?
+A. Ron Jeremy
+B. Burt Reynolds
+C. Sasha Grey
+D. Hulk Hogan
+Answer:","[""Ron Jeremy"", ""Burt Reynolds"", ""Sasha Grey"", ""Hulk Hogan""]",http,0.0,16,none,"{""id"":""chatcmpl-r94d5urvslc3ug3uteegn"",""object"":""chat.completion"",""created"":1795554682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9365,,MarianeAzar,20261124_215144,2026-11-24T21:11:23.820458+00:00
+dd35978d562765ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which infamous European traitor was known as ""the last person to enter Parliament with honest intentions""?
+A. Guy Fawkes
+B. Everard Digby
+C. Francis Tresham
+D. Robert Catesby
+Answer:","[""Guy Fawkes"", ""Everard Digby"", ""Francis Tresham"", ""Robert Catesby""]",http,0.0,16,none,"{""id"":""chatcmpl-3t779bw04bafce4o80neiv"",""object"":""chat.completion"",""created"":1795554683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2425,,MarianeAzar,20261124_215144,2026-11-24T21:11:25.063229+00:00
+dd35978d562765ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which infamous European traitor was known as ""the last person to enter Parliament with honest intentions""?
+A. Guy Fawkes
+B. Everard Digby
+C. Francis Tresham
+D. Robert Catesby
+Answer:","[""Guy Fawkes"", ""Everard Digby"", ""Francis Tresham"", ""Robert Catesby""]",http,0.0,16,none,"{""id"":""chatcmpl-ob9e3h04t8jourhr9mr3k"",""object"":""chat.completion"",""created"":1795554684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2022,,MarianeAzar,20261124_215144,2026-11-24T21:11:26.265717+00:00
+1de7564736573eb2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where in La Coruña (Spain) is the headquarters of ""Inditex"", the biggest fashion group in the world?
+A. Mugía
+B. Arteijo
+C. Órdenes
+D. Sanjenjo
+Answer:","[""Mugía"", ""Arteijo"", ""Órdenes"", ""Sanjenjo""]",http,0.0,16,none,"{""id"":""chatcmpl-m3n25pmeo3o4j5lxegszl"",""object"":""chat.completion"",""created"":1795554686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9488,,MarianeAzar,20261124_215144,2026-11-24T21:11:27.214781+00:00
+1de7564736573eb2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where in La Coruña (Spain) is the headquarters of ""Inditex"", the biggest fashion group in the world?
+A. Mugía
+B. Arteijo
+C. Órdenes
+D. Sanjenjo
+Answer:","[""Mugía"", ""Arteijo"", ""Órdenes"", ""Sanjenjo""]",http,0.0,16,none,"{""id"":""chatcmpl-lqzoedoqw43ley5976dzp"",""object"":""chat.completion"",""created"":1795554687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5129,,MarianeAzar,20261124_215144,2026-11-24T21:11:28.728132+00:00
+fb5ba7b14dab3df5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did the score to the original Blade Runner?
+A. Vangelis
+B. Yanni
+C. Kitaro
+D. Enya
+Answer:","[""Vangelis"", ""Yanni"", ""Kitaro"", ""Enya""]",http,0.0,16,none,"{""id"":""chatcmpl-ns26rela0xlgck22bikf5l"",""object"":""chat.completion"",""created"":1795554688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0755,,MarianeAzar,20261124_215144,2026-11-24T21:11:29.803963+00:00
+fb5ba7b14dab3df5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did the score to the original Blade Runner?
+A. Vangelis
+B. Yanni
+C. Kitaro
+D. Enya
+Answer:","[""Vangelis"", ""Yanni"", ""Kitaro"", ""Enya""]",http,0.0,16,none,"{""id"":""chatcmpl-0lmf6ci5q14mxj6gwlrge"",""object"":""chat.completion"",""created"":1795554689,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9158,,MarianeAzar,20261124_215144,2026-11-24T21:11:30.720053+00:00
+922743f3acf06704,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hypernatremia?
+A. Increase in blood sodium
+B. Decrease in blood potassium
+C. Decrease in blood iron
+D. Increase in blood glucose
+Answer:","[""Increase in blood sodium"", ""Decrease in blood potassium"", ""Decrease in blood iron"", ""Increase in blood glucose""]",http,0.0,16,none,"{""id"":""chatcmpl-a5fpcsvcgqq80hbuhii7ss"",""object"":""chat.completion"",""created"":1795554690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2396,,MarianeAzar,20261124_215144,2026-11-24T21:11:31.959989+00:00
+922743f3acf06704,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hypernatremia?
+A. Increase in blood sodium
+B. Decrease in blood potassium
+C. Decrease in blood iron
+D. Increase in blood glucose
+Answer:","[""Increase in blood sodium"", ""Decrease in blood potassium"", ""Decrease in blood iron"", ""Increase in blood glucose""]",http,0.0,16,none,"{""id"":""chatcmpl-5binugidg2gj5vva4auze"",""object"":""chat.completion"",""created"":1795554691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3391,,MarianeAzar,20261124_215144,2026-11-24T21:11:33.299327+00:00
+c746de7e4c5e3c07,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these movies did Jeff Bridges not star in?
+A. Tron: Legacy
+B. True Grit
+C. The Hateful Eight
+D. The Giver
+Answer:","[""Tron: Legacy"", ""True Grit"", ""The Hateful Eight"", ""The Giver""]",http,0.0,16,none,"{""id"":""chatcmpl-kmgmmoe5crkv4bdfyhcvm"",""object"":""chat.completion"",""created"":1795554693,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9565,,MarianeAzar,20261124_215144,2026-11-24T21:11:34.256074+00:00
+c746de7e4c5e3c07,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these movies did Jeff Bridges not star in?
+A. Tron: Legacy
+B. True Grit
+C. The Hateful Eight
+D. The Giver
+Answer:","[""Tron: Legacy"", ""True Grit"", ""The Hateful Eight"", ""The Giver""]",http,0.0,16,none,"{""id"":""chatcmpl-76fx9q18z4lw50an1on6pd"",""object"":""chat.completion"",""created"":1795554694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9458,,MarianeAzar,20261124_215144,2026-11-24T21:11:35.202109+00:00
+38528eef6e601f41,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the first National Park designated in the United States?
+A. Yosemite
+B. Rocky Mountain
+C. Yellowstone
+D. Sequoia
+Answer:","[""Yosemite"", ""Rocky Mountain"", ""Yellowstone"", ""Sequoia""]",http,0.0,16,none,"{""id"":""chatcmpl-7mgkt5cv3rg581tt92kkuk"",""object"":""chat.completion"",""created"":1795554695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2585,,MarianeAzar,20261124_215144,2026-11-24T21:11:36.460859+00:00
+38528eef6e601f41,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the first National Park designated in the United States?
+A. Yosemite
+B. Rocky Mountain
+C. Yellowstone
+D. Sequoia
+Answer:","[""Yosemite"", ""Rocky Mountain"", ""Yellowstone"", ""Sequoia""]",http,0.0,16,none,"{""id"":""chatcmpl-3lylz5qeom8hq53fwadeh7"",""object"":""chat.completion"",""created"":1795554696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9331,,MarianeAzar,20261124_215144,2026-11-24T21:11:37.394276+00:00
+a361a0e5d048d8bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year were screenshots added to Steam?
+A. 2010
+B. 2008
+C. 2009
+D. 2011
+Answer:","[""2010"", ""2008"", ""2009"", ""2011""]",http,0.0,16,none,"{""id"":""chatcmpl-aha549sp267qauxrhbs5r8"",""object"":""chat.completion"",""created"":1795554697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2223,,MarianeAzar,20261124_215144,2026-11-24T21:11:38.616888+00:00
+a361a0e5d048d8bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year were screenshots added to Steam?
+A. 2010
+B. 2008
+C. 2009
+D. 2011
+Answer:","[""2010"", ""2008"", ""2009"", ""2011""]",http,0.0,16,none,"{""id"":""chatcmpl-jwclluyqv0czp8ecbudimj"",""object"":""chat.completion"",""created"":1795554698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3359,,MarianeAzar,20261124_215144,2026-11-24T21:11:39.953014+00:00
+dfba601a0cc67821,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""The Office"" who does Michael Scott eventually end up with?
+A. Holly Flax
+B. Jan Levinson
+C. Pam Beesly
+D. Angela Martin
+Answer:","[""Holly Flax"", ""Jan Levinson"", ""Pam Beesly"", ""Angela Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-snfsmom5lrjebsl0kos86k"",""object"":""chat.completion"",""created"":1795554699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9315,,MarianeAzar,20261124_215144,2026-11-24T21:11:40.884694+00:00
+dfba601a0cc67821,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show ""The Office"" who does Michael Scott eventually end up with?
+A. Holly Flax
+B. Jan Levinson
+C. Pam Beesly
+D. Angela Martin
+Answer:","[""Holly Flax"", ""Jan Levinson"", ""Pam Beesly"", ""Angela Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-bcoez4idlsutrnvnsu0u4c"",""object"":""chat.completion"",""created"":1795554700,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9491,,MarianeAzar,20261124_215144,2026-11-24T21:11:41.834081+00:00
+fbbfa019dadede56,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the superhero anime, ""One Punch Man"", what is the main protagonist's Hero name?
+A. Justice Puncher
+B. Strong Fist
+C. Caped Baldy
+D. Mad Boxer
+Answer:","[""Justice Puncher"", ""Strong Fist"", ""Caped Baldy"", ""Mad Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-9bilfgwn8l7r2weo3avrg"",""object"":""chat.completion"",""created"":1795554701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3097,,MarianeAzar,20261124_215144,2026-11-24T21:11:43.144046+00:00
+fbbfa019dadede56,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the superhero anime, ""One Punch Man"", what is the main protagonist's Hero name?
+A. Justice Puncher
+B. Strong Fist
+C. Caped Baldy
+D. Mad Boxer
+Answer:","[""Justice Puncher"", ""Strong Fist"", ""Caped Baldy"", ""Mad Boxer""]",http,0.0,16,none,"{""id"":""chatcmpl-5qw8rahbuwbaiqgj8w32ef"",""object"":""chat.completion"",""created"":1795554703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9519,,MarianeAzar,20261124_215144,2026-11-24T21:11:44.096223+00:00
+25431c5981419241,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Fallout: New Vegas"" quest is NOT named after a real-life song?
+A. They Went That-a-Way
+B. Ring-a-Ding Ding
+C. Come Fly With Me
+D. Ain't That a Kick in the Head
+Answer:","[""They Went That-a-Way"", ""Ring-a-Ding Ding"", ""Come Fly With Me"", ""Ain't That a Kick in the Head""]",http,0.0,16,none,"{""id"":""chatcmpl-8qpv3s07qlg7kr859qsaeg"",""object"":""chat.completion"",""created"":1795554704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2652,,MarianeAzar,20261124_215144,2026-11-24T21:11:45.362069+00:00
+25431c5981419241,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Fallout: New Vegas"" quest is NOT named after a real-life song?
+A. They Went That-a-Way
+B. Ring-a-Ding Ding
+C. Come Fly With Me
+D. Ain't That a Kick in the Head
+Answer:","[""They Went That-a-Way"", ""Ring-a-Ding Ding"", ""Come Fly With Me"", ""Ain't That a Kick in the Head""]",http,0.0,16,none,"{""id"":""chatcmpl-f7z1y2kodh4jqsrynuavg"",""object"":""chat.completion"",""created"":1795554705,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2326,,MarianeAzar,20261124_215144,2026-11-24T21:11:46.594968+00:00
+f1a5042f2274e778,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the rock band that Nobuo Uematsu formed that played songs from various Final Fantasy games?
+A. The Final Fantasies
+B. The Rock Summoners
+C. The Black Mages
+D. The Espers
+Answer:","[""The Final Fantasies"", ""The Rock Summoners"", ""The Black Mages"", ""The Espers""]",http,0.0,16,none,"{""id"":""chatcmpl-fzxuzd9c3fnvd2tkuwxhl"",""object"":""chat.completion"",""created"":1795554706,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9514,,MarianeAzar,20261124_215144,2026-11-24T21:11:47.546756+00:00
+f1a5042f2274e778,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the rock band that Nobuo Uematsu formed that played songs from various Final Fantasy games?
+A. The Final Fantasies
+B. The Rock Summoners
+C. The Black Mages
+D. The Espers
+Answer:","[""The Final Fantasies"", ""The Rock Summoners"", ""The Black Mages"", ""The Espers""]",http,0.0,16,none,"{""id"":""chatcmpl-isfppkgil5nul8lt6lz60h"",""object"":""chat.completion"",""created"":1795554707,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4941,,MarianeAzar,20261124_215144,2026-11-24T21:11:49.041147+00:00
+140970564396b503,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the orange and white bot's name in ""Star Wars: The Force Awakens""?
+A. BB-8
+B. AA-A
+C. BB-3
+D. R2-D2
+Answer:","[""BB-8"", ""AA-A"", ""BB-3"", ""R2-D2""]",http,0.0,16,none,"{""id"":""chatcmpl-5e1w5bg530lmq96jgdz58l"",""object"":""chat.completion"",""created"":1795554709,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1695,,MarianeAzar,20261124_215144,2026-11-24T21:11:50.210881+00:00

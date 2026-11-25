@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f3a6917e69a2af1a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced the character Draco in the 1996 movie 'DragonHeart'?
+A. Sean Connery
+B. Dennis Quaid
+C. Brian Thompson
+D. Pete Postlethwaite
+Answer:","[""Sean Connery"", ""Dennis Quaid"", ""Brian Thompson"", ""Pete Postlethwaite""]",http,0.0,16,none,"{""id"":""chatcmpl-elpxix5lx1bef2sierbqsp"",""object"":""chat.completion"",""created"":1795593057,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T07:50:58.578705+00:00
+f3a6917e69a2af1a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced the character Draco in the 1996 movie 'DragonHeart'?
+A. Sean Connery
+B. Dennis Quaid
+C. Brian Thompson
+D. Pete Postlethwaite
+Answer:","[""Sean Connery"", ""Dennis Quaid"", ""Brian Thompson"", ""Pete Postlethwaite""]",http,0.0,16,none,"{""id"":""chatcmpl-1e3x1vss3vk4dq9g19btbk"",""object"":""chat.completion"",""created"":1795593058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261125_084135,2026-11-25T07:50:59.454108+00:00
+626d4f972e3f5471,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the nursery rhyme, what fruit did Little Jack Horner pull out of his Christmas pie?
+A. Peach
+B. Apple
+C. Pear
+D. Plum
+Answer:","[""Peach"", ""Apple"", ""Pear"", ""Plum""]",http,0.0,16,none,"{""id"":""chatcmpl-o03e0nhwalcxbzfx547rac"",""object"":""chat.completion"",""created"":1795593058,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.88,,MarianeAzar,20261125_084135,2026-11-25T07:51:00.334368+00:00
+626d4f972e3f5471,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the nursery rhyme, what fruit did Little Jack Horner pull out of his Christmas pie?
+A. Peach
+B. Apple
+C. Pear
+D. Plum
+Answer:","[""Peach"", ""Apple"", ""Pear"", ""Plum""]",http,0.0,16,none,"{""id"":""chatcmpl-rpb6hzqbti758w1o42ymb"",""object"":""chat.completion"",""created"":1795593059,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T07:51:01.199819+00:00
+f6b1100708277980,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?
+A. 25 Feet / 7.5 Meters
+B. 75 Feet / 23 Meters
+C. 50 Feet / 15 Meters
+D. 15 Feet / 5 Meters
+Answer:","[""25 Feet / 7.5 Meters"", ""75 Feet / 23 Meters"", ""50 Feet / 15 Meters"", ""15 Feet / 5 Meters""]",http,0.0,16,none,"{""id"":""chatcmpl-mojame8jterbhxjt32bghq"",""object"":""chat.completion"",""created"":1795593060,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9421,,MarianeAzar,20261125_084135,2026-11-25T07:51:02.142160+00:00
+f6b1100708277980,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At what depth should you make a decompression stop, or safety stop, on a typical scuba dive?
+A. 25 Feet / 7.5 Meters
+B. 75 Feet / 23 Meters
+C. 50 Feet / 15 Meters
+D. 15 Feet / 5 Meters
+Answer:","[""25 Feet / 7.5 Meters"", ""75 Feet / 23 Meters"", ""50 Feet / 15 Meters"", ""15 Feet / 5 Meters""]",http,0.0,16,none,"{""id"":""chatcmpl-mg47c0yltplq9wxuwm7m"",""object"":""chat.completion"",""created"":1795593061,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.913,,MarianeAzar,20261125_084135,2026-11-25T07:51:03.055447+00:00
+06710d913d73b346,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of following is rude and dishonorable by Klingon standards?
+A. Punching him and taking his ship station position
+B. Reaching over and taking his meal
+C. Taking his D'k tahg
+D. Insulting and laughing at him at the dinner table
+Answer:","[""Punching him and taking his ship station position"", ""Reaching over and taking his meal"", ""Taking his D'k tahg"", ""Insulting and laughing at him at the dinner table""]",http,0.0,16,none,"{""id"":""chatcmpl-w90ya3r4qlpf1n058rje87"",""object"":""chat.completion"",""created"":1795593062,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9006,,MarianeAzar,20261125_084135,2026-11-25T07:51:03.956471+00:00
+06710d913d73b346,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of following is rude and dishonorable by Klingon standards?
+A. Punching him and taking his ship station position
+B. Reaching over and taking his meal
+C. Taking his D'k tahg
+D. Insulting and laughing at him at the dinner table
+Answer:","[""Punching him and taking his ship station position"", ""Reaching over and taking his meal"", ""Taking his D'k tahg"", ""Insulting and laughing at him at the dinner table""]",http,0.0,16,none,"{""id"":""chatcmpl-4nbt4hg555gsz8qubrsew"",""object"":""chat.completion"",""created"":1795593063,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9377,,MarianeAzar,20261125_084135,2026-11-25T07:51:04.894515+00:00
+4f4cc25c92a7ddd6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the Canada's first capital?
+A. Kingston
+B. Toronto
+C. Montreal
+D. Ottawa
+Answer:","[""Kingston"", ""Toronto"", ""Montreal"", ""Ottawa""]",http,0.0,16,none,"{""id"":""chatcmpl-jbfieskx3cpxxw9f7mhcuk"",""object"":""chat.completion"",""created"":1795593064,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8779,,MarianeAzar,20261125_084135,2026-11-25T07:51:05.772810+00:00
+4f4cc25c92a7ddd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the Canada's first capital?
+A. Kingston
+B. Toronto
+C. Montreal
+D. Ottawa
+Answer:","[""Kingston"", ""Toronto"", ""Montreal"", ""Ottawa""]",http,0.0,16,none,"{""id"":""chatcmpl-l36far0z12joubs11oc9y8"",""object"":""chat.completion"",""created"":1795593065,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8467,,MarianeAzar,20261125_084135,2026-11-25T07:51:06.619789+00:00
+e68bb6b2c2e4d22a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?
+A. Chile
+B. Indonesia
+C. Ethiopia
+D. Nicaragua
+Answer:","[""Chile"", ""Indonesia"", ""Ethiopia"", ""Nicaragua""]",http,0.0,16,none,"{""id"":""chatcmpl-5u4bcjb6lq40q9t4i832te"",""object"":""chat.completion"",""created"":1795593066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T07:51:07.474356+00:00
+e68bb6b2c2e4d22a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Between 1973 to 1990, what country was ruled by dictator Augusto Pinochet?
+A. Chile
+B. Indonesia
+C. Ethiopia
+D. Nicaragua
+Answer:","[""Chile"", ""Indonesia"", ""Ethiopia"", ""Nicaragua""]",http,0.0,16,none,"{""id"":""chatcmpl-o5kfakus4oron7m3l94vj"",""object"":""chat.completion"",""created"":1795593066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8816,,MarianeAzar,20261125_084135,2026-11-25T07:51:08.356237+00:00
+873a84728a29795e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Scotch whisky and Drambuie make up which cocktail?
+A. Screwdriver
+B. Manhattan
+C. Sex on the Beach
+D. Rusty Nail
+Answer:","[""Screwdriver"", ""Manhattan"", ""Sex on the Beach"", ""Rusty Nail""]",http,0.0,16,none,"{""id"":""chatcmpl-h9li3s7ivqtj6tuvmcdci"",""object"":""chat.completion"",""created"":1795593067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T07:51:09.221261+00:00
+873a84728a29795e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Scotch whisky and Drambuie make up which cocktail?
+A. Screwdriver
+B. Manhattan
+C. Sex on the Beach
+D. Rusty Nail
+Answer:","[""Screwdriver"", ""Manhattan"", ""Sex on the Beach"", ""Rusty Nail""]",http,0.0,16,none,"{""id"":""chatcmpl-n9nn3fd3p1vre2abgp9cr"",""object"":""chat.completion"",""created"":1795593068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T07:51:10.085197+00:00
+c5bb532cfd26b67f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these television shows makes everyone look under their chair?
+A. Larry Rubert
+B. Saturday Night Live
+C. Jimmy Fallon
+D. Oprah
+Answer:","[""Larry Rubert"", ""Saturday Night Live"", ""Jimmy Fallon"", ""Oprah""]",http,0.0,16,none,"{""id"":""chatcmpl-e5fhvgpkg6ru3cw1dfbey"",""object"":""chat.completion"",""created"":1795593069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8744,,MarianeAzar,20261125_084135,2026-11-25T07:51:10.959915+00:00
+c5bb532cfd26b67f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these television shows makes everyone look under their chair?
+A. Larry Rubert
+B. Saturday Night Live
+C. Jimmy Fallon
+D. Oprah
+Answer:","[""Larry Rubert"", ""Saturday Night Live"", ""Jimmy Fallon"", ""Oprah""]",http,0.0,16,none,"{""id"":""chatcmpl-tsxv83p33d734ecyydora"",""object"":""chat.completion"",""created"":1795593070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T07:51:11.816668+00:00
+81f9f21a8032f7ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The asteroid belt is located between which two planets?
+A. Earth and Mars
+B. Mercury and Venus
+C. Mars and Jupiter
+D. Jupiter and Saturn
+Answer:","[""Earth and Mars"", ""Mercury and Venus"", ""Mars and Jupiter"", ""Jupiter and Saturn""]",http,0.0,16,none,"{""id"":""chatcmpl-m3nsjcq6z6jncrb61t03a9"",""object"":""chat.completion"",""created"":1795593071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8427,,MarianeAzar,20261125_084135,2026-11-25T07:51:12.659645+00:00
+81f9f21a8032f7ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The asteroid belt is located between which two planets?
+A. Earth and Mars
+B. Mercury and Venus
+C. Mars and Jupiter
+D. Jupiter and Saturn
+Answer:","[""Earth and Mars"", ""Mercury and Venus"", ""Mars and Jupiter"", ""Jupiter and Saturn""]",http,0.0,16,none,"{""id"":""chatcmpl-x8or77xhoemgx4sec763q"",""object"":""chat.completion"",""created"":1795593072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261125_084135,2026-11-25T07:51:13.508170+00:00
+8b9a7b53eafc3759,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the second studio album released by American rapper Post Malone in 2018?
+A. Takin' Shots
+B. Better Now
+C. Beerbongs & Bentleys
+D. Rockstar
+Answer:","[""Takin' Shots"", ""Better Now"", ""Beerbongs & Bentleys"", ""Rockstar""]",http,0.0,16,none,"{""id"":""chatcmpl-sqfdeg3w8vsykux6bpmcu"",""object"":""chat.completion"",""created"":1795593072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8773,,MarianeAzar,20261125_084135,2026-11-25T07:51:14.385636+00:00
+8b9a7b53eafc3759,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the second studio album released by American rapper Post Malone in 2018?
+A. Takin' Shots
+B. Better Now
+C. Beerbongs & Bentleys
+D. Rockstar
+Answer:","[""Takin' Shots"", ""Better Now"", ""Beerbongs & Bentleys"", ""Rockstar""]",http,0.0,16,none,"{""id"":""chatcmpl-jveiv7fhnak3v7dyhsrcvz"",""object"":""chat.completion"",""created"":1795593073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8832,,MarianeAzar,20261125_084135,2026-11-25T07:51:15.269075+00:00
+a999aad325c6c8b7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who authored The Adventures of Tintin?
+A. E.P. Jacobs
+B. Hergé
+C. Chic Young
+D. Rin Tin Tin
+Answer:","[""E.P. Jacobs"", ""Hergé"", ""Chic Young"", ""Rin Tin Tin""]",http,0.0,16,none,"{""id"":""chatcmpl-osm8smbk01806qi6gylfw67"",""object"":""chat.completion"",""created"":1795593074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8548,,MarianeAzar,20261125_084135,2026-11-25T07:51:16.124504+00:00
+a999aad325c6c8b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who authored The Adventures of Tintin?
+A. E.P. Jacobs
+B. Hergé
+C. Chic Young
+D. Rin Tin Tin
+Answer:","[""E.P. Jacobs"", ""Hergé"", ""Chic Young"", ""Rin Tin Tin""]",http,0.0,16,none,"{""id"":""chatcmpl-cvjicsywfxbdu2wi3pn4yi"",""object"":""chat.completion"",""created"":1795593075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T07:51:16.977079+00:00
+039a488da6053cb9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In flight systems, what does the initialism ""TCAS"" stand for?
+A. Traffic Configuration Alignment System
+B. Traffic Communication Alert System
+C. Traffic Call-sign Abbreviation System
+D. Traffic Collision Avoidance System
+Answer:","[""Traffic Configuration Alignment System"", ""Traffic Communication Alert System"", ""Traffic Call-sign Abbreviation System"", ""Traffic Collision Avoidance System""]",http,0.0,16,none,"{""id"":""chatcmpl-jtr7nppvsrr3hmqjdl0s"",""object"":""chat.completion"",""created"":1795593076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T07:51:17.831346+00:00
+039a488da6053cb9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In flight systems, what does the initialism ""TCAS"" stand for?
+A. Traffic Configuration Alignment System
+B. Traffic Communication Alert System
+C. Traffic Call-sign Abbreviation System
+D. Traffic Collision Avoidance System
+Answer:","[""Traffic Configuration Alignment System"", ""Traffic Communication Alert System"", ""Traffic Call-sign Abbreviation System"", ""Traffic Collision Avoidance System""]",http,0.0,16,none,"{""id"":""chatcmpl-97wrdfgdib9j30s8spi74i"",""object"":""chat.completion"",""created"":1795593077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8828,,MarianeAzar,20261125_084135,2026-11-25T07:51:18.714503+00:00
+ca754b3dc9644945,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following languages does NOT use gender as a part of its grammar?
+A. Turkish
+B. Polish
+C. German
+D. Danish
+Answer:","[""Turkish"", ""Polish"", ""German"", ""Danish""]",http,0.0,16,none,"{""id"":""chatcmpl-xjvim8hlbucq4u4m076jd"",""object"":""chat.completion"",""created"":1795593078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T07:51:19.580811+00:00

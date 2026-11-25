@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+66ae67c5c60993b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous spy novelist wrote the childrens' story ""Chitty-Chitty-Bang-Bang""?
+A. Graham Greene
+B. Ian Fleming
+C. Joseph Conrad
+D. John Buchan
+Answer:","[""Graham Greene"", ""Ian Fleming"", ""Joseph Conrad"", ""John Buchan""]",http,0.0,16,none,"{""id"":""chatcmpl-mt0nrx0cpgvfnlknad29o"",""object"":""chat.completion"",""created"":1795595473,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1182,,MarianeAzar,20261125_084135,2026-11-25T08:31:14.940260+00:00
+7bf0a958a2c0c6a3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Monster Hunter Generations, which of the following monsters are a part of the ""Fated Four""?
+A. Gore Magala
+B. Astalos
+C. Malfestio
+D. Arzuros
+Answer:","[""Gore Magala"", ""Astalos"", ""Malfestio"", ""Arzuros""]",http,0.0,16,none,"{""id"":""chatcmpl-fv599r39xcucqffafseuyj"",""object"":""chat.completion"",""created"":1795595474,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9236,,MarianeAzar,20261125_084135,2026-11-25T08:31:15.864278+00:00
+7bf0a958a2c0c6a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Monster Hunter Generations, which of the following monsters are a part of the ""Fated Four""?
+A. Gore Magala
+B. Astalos
+C. Malfestio
+D. Arzuros
+Answer:","[""Gore Magala"", ""Astalos"", ""Malfestio"", ""Arzuros""]",http,0.0,16,none,"{""id"":""chatcmpl-fr2coh4wuh5fhyp5jgh9k6"",""object"":""chat.completion"",""created"":1795595475,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5129,,MarianeAzar,20261125_084135,2026-11-25T08:31:17.377362+00:00
+a1604032910b6f44,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?
+A. United Kingdom
+B. Portugal
+C. Spain
+D. France
+Answer:","[""United Kingdom"", ""Portugal"", ""Spain"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-92rr4h5hl3qg8xqox3oz3a"",""object"":""chat.completion"",""created"":1795595476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8976,,MarianeAzar,20261125_084135,2026-11-25T08:31:18.275256+00:00
+a1604032910b6f44,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?
+A. United Kingdom
+B. Portugal
+C. Spain
+D. France
+Answer:","[""United Kingdom"", ""Portugal"", ""Spain"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-odko3k0mri99ix8xsisi"",""object"":""chat.completion"",""created"":1795595477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9759,,MarianeAzar,20261125_084135,2026-11-25T08:31:19.251428+00:00
+34999cb1d7f0ecb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not in the Indo-European language family?
+A. Hindi
+B. Russian
+C. English
+D. Finnish
+Answer:","[""Hindi"", ""Russian"", ""English"", ""Finnish""]",http,0.0,16,none,"{""id"":""chatcmpl-fp9kmax06z88m5omu39o89"",""object"":""chat.completion"",""created"":1795595478,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2962,,MarianeAzar,20261125_084135,2026-11-25T08:31:20.548094+00:00
+34999cb1d7f0ecb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not in the Indo-European language family?
+A. Hindi
+B. Russian
+C. English
+D. Finnish
+Answer:","[""Hindi"", ""Russian"", ""English"", ""Finnish""]",http,0.0,16,none,"{""id"":""chatcmpl-h2sowery7rsmfuu8l9lc3s"",""object"":""chat.completion"",""created"":1795595479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9044,,MarianeAzar,20261125_084135,2026-11-25T08:31:21.452632+00:00
+61ba0ea1c297b61f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?
+A. August 19
+B. August 21
+C. December 24
+D. December 26
+Answer:","[""August 19"", ""August 21"", ""December 24"", ""December 26""]",http,0.0,16,none,"{""id"":""chatcmpl-0rmlynf87jt6rqtf7a6vip"",""object"":""chat.completion"",""created"":1795595480,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2802,,MarianeAzar,20261125_084135,2026-11-25T08:31:22.733141+00:00
+61ba0ea1c297b61f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?
+A. August 19
+B. August 21
+C. December 24
+D. December 26
+Answer:","[""August 19"", ""August 21"", ""December 24"", ""December 26""]",http,0.0,16,none,"{""id"":""chatcmpl-uxytje67k412q8ywwcgpja"",""object"":""chat.completion"",""created"":1795595482,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.189,,MarianeAzar,20261125_084135,2026-11-25T08:31:23.922491+00:00
+db28fc643d99c1f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was a map that was in Team Fortress 2 at launch?
+A. Hoodoo
+B. Gravel Pit
+C. Gold Rush
+D. Upward
+Answer:","[""Hoodoo"", ""Gravel Pit"", ""Gold Rush"", ""Upward""]",http,0.0,16,none,"{""id"":""chatcmpl-xvx1tm9o5xliy2xb19197"",""object"":""chat.completion"",""created"":1795595483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9904,,MarianeAzar,20261125_084135,2026-11-25T08:31:24.913267+00:00
+db28fc643d99c1f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was a map that was in Team Fortress 2 at launch?
+A. Hoodoo
+B. Gravel Pit
+C. Gold Rush
+D. Upward
+Answer:","[""Hoodoo"", ""Gravel Pit"", ""Gold Rush"", ""Upward""]",http,0.0,16,none,"{""id"":""chatcmpl-pr8sgj7ns1sqyzl4kpcr"",""object"":""chat.completion"",""created"":1795595484,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4149,,MarianeAzar,20261125_084135,2026-11-25T08:31:26.328412+00:00
+f084364acdf79af6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The F1 season of 1994 is remembered for what tragic event?
+A. Verstappen on Fire (Germany)
+B. Death of Ayrton Senna (San Marino)
+C. Schumacher's Ban (Britain)
+D. The Showdown (Australia)
+Answer:","[""Verstappen on Fire (Germany)"", ""Death of Ayrton Senna (San Marino)"", ""Schumacher's Ban (Britain)"", ""The Showdown (Australia)""]",http,0.0,16,none,"{""id"":""chatcmpl-8q6iwgrt5ehz6s9i2vzlol"",""object"":""chat.completion"",""created"":1795595485,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0373,,MarianeAzar,20261125_084135,2026-11-25T08:31:27.365949+00:00
+f084364acdf79af6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The F1 season of 1994 is remembered for what tragic event?
+A. Verstappen on Fire (Germany)
+B. Death of Ayrton Senna (San Marino)
+C. Schumacher's Ban (Britain)
+D. The Showdown (Australia)
+Answer:","[""Verstappen on Fire (Germany)"", ""Death of Ayrton Senna (San Marino)"", ""Schumacher's Ban (Britain)"", ""The Showdown (Australia)""]",http,0.0,16,none,"{""id"":""chatcmpl-svwngvozjufrmd5wbian8"",""object"":""chat.completion"",""created"":1795595486,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0122,,MarianeAzar,20261125_084135,2026-11-25T08:31:28.378383+00:00
+b85a42d498dfd5dc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries are larger than Australia?
+A. 6
+B. 5
+C. 4
+D. 3
+Answer:","[""6"", ""5"", ""4"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-ipl2xic6lnbkym50qbgjt"",""object"":""chat.completion"",""created"":1795595487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3408,,MarianeAzar,20261125_084135,2026-11-25T08:31:29.719622+00:00
+b85a42d498dfd5dc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries are larger than Australia?
+A. 6
+B. 5
+C. 4
+D. 3
+Answer:","[""6"", ""5"", ""4"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-3uzzc7bysugj72nb9t2ivs"",""object"":""chat.completion"",""created"":1795595489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9573,,MarianeAzar,20261125_084135,2026-11-25T08:31:30.677217+00:00
+1a57a7916e5ec8f7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Minecraft"", gold tools are faster than diamond tools.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zdob1r63rfn7z0v0d4l05e"",""object"":""chat.completion"",""created"":1795595490,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1471,,MarianeAzar,20261125_084135,2026-11-25T08:31:31.824805+00:00
+1a57a7916e5ec8f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Minecraft"", gold tools are faster than diamond tools.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hnlq8o4b5rknsehrlqec4i"",""object"":""chat.completion"",""created"":1795595491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1202,,MarianeAzar,20261125_084135,2026-11-25T08:31:32.945194+00:00
+2198a03d93688213,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many spaces are there on a standard Monopoly board?
+A. 36
+B. 28
+C. 40
+D. 55
+Answer:","[""36"", ""28"", ""40"", ""55""]",http,0.0,16,none,"{""id"":""chatcmpl-l0dya8u6dsse8i1lvd2e0d"",""object"":""chat.completion"",""created"":1795595492,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.009,,MarianeAzar,20261125_084135,2026-11-25T08:31:33.954604+00:00
+2198a03d93688213,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many spaces are there on a standard Monopoly board?
+A. 36
+B. 28
+C. 40
+D. 55
+Answer:","[""36"", ""28"", ""40"", ""55""]",http,0.0,16,none,"{""id"":""chatcmpl-9ljfda7b5d6ntr2mfiekj"",""object"":""chat.completion"",""created"":1795595493,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4619,,MarianeAzar,20261125_084135,2026-11-25T08:31:35.416781+00:00
+12f1afc45e289d52,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Sonic the Hedgehog's original human girlfriend?
+A. Madonna
+B. Celeste
+C. Sierra
+D. Nina
+Answer:","[""Madonna"", ""Celeste"", ""Sierra"", ""Nina""]",http,0.0,16,none,"{""id"":""chatcmpl-ly47faeaxvi8wp5uw7wxf"",""object"":""chat.completion"",""created"":1795595494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1348,,MarianeAzar,20261125_084135,2026-11-25T08:31:36.551843+00:00
+12f1afc45e289d52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of Sonic the Hedgehog's original human girlfriend?
+A. Madonna
+B. Celeste
+C. Sierra
+D. Nina
+Answer:","[""Madonna"", ""Celeste"", ""Sierra"", ""Nina""]",http,0.0,16,none,"{""id"":""chatcmpl-iutcyriq9eqketk6b4ow"",""object"":""chat.completion"",""created"":1795595495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9725,,MarianeAzar,20261125_084135,2026-11-25T08:31:37.524698+00:00
+ea136693b6b289f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How tall is One World Trade Center in New York City?
+A. 1,225 ft
+B. 1,960 ft
+C. 1,888 ft
+D. 1,776 ft
+Answer:","[""1,225 ft"", ""1,960 ft"", ""1,888 ft"", ""1,776 ft""]",http,0.0,16,none,"{""id"":""chatcmpl-ab3jc2gpoqac773iixsd"",""object"":""chat.completion"",""created"":1795595496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9542,,MarianeAzar,20261125_084135,2026-11-25T08:31:38.479195+00:00
+ea136693b6b289f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How tall is One World Trade Center in New York City?
+A. 1,225 ft
+B. 1,960 ft
+C. 1,888 ft
+D. 1,776 ft
+Answer:","[""1,225 ft"", ""1,960 ft"", ""1,888 ft"", ""1,776 ft""]",http,0.0,16,none,"{""id"":""chatcmpl-zcplp6cchmrrq04c00b0pd"",""object"":""chat.completion"",""created"":1795595497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.541,,MarianeAzar,20261125_084135,2026-11-25T08:31:40.020448+00:00
+6e742cf0deaa44fb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full title of the Prime Minister of the UK?
+A. Manager of the Crown Estate
+B. Her Majesty's Loyal Opposition
+C. Duke of Cambridge
+D. First Lord of the Treasury
+Answer:","[""Manager of the Crown Estate"", ""Her Majesty's Loyal Opposition"", ""Duke of Cambridge"", ""First Lord of the Treasury""]",http,0.0,16,none,"{""id"":""chatcmpl-z46vuz5n02t2g8teeeffk"",""object"":""chat.completion"",""created"":1795595499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1225,,MarianeAzar,20261125_084135,2026-11-25T08:31:41.143379+00:00
+6e742cf0deaa44fb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full title of the Prime Minister of the UK?
+A. Manager of the Crown Estate
+B. Her Majesty's Loyal Opposition
+C. Duke of Cambridge
+D. First Lord of the Treasury
+Answer:","[""Manager of the Crown Estate"", ""Her Majesty's Loyal Opposition"", ""Duke of Cambridge"", ""First Lord of the Treasury""]",http,0.0,16,none,"{""id"":""chatcmpl-ezu9kngl4xm8jg2x80fm4b"",""object"":""chat.completion"",""created"":1795595500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1524,,MarianeAzar,20261125_084135,2026-11-25T08:31:42.296063+00:00

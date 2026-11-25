@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+58ee8fc7aff94960,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the ""MP"" stand for in MP3?
+A. Moving Picture
+B. Music Player
+C. Multi Pass
+D. Micro Point
+Answer:","[""Moving Picture"", ""Music Player"", ""Multi Pass"", ""Micro Point""]",http,0.0,16,none,"{""id"":""chatcmpl-3q41dj8pqns57rdfh4nryf"",""object"":""chat.completion"",""created"":1795594353,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""M"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4155,,MarianeAzar,20261125_084135,2026-11-25T08:12:35.801896+00:00
+a5850f00ce975223,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was NOT directed by Hayao Miyazaki?
+A. Spirited Away
+B. Wolf Children
+C. Princess Mononoke
+D. Kiki's Delivery Service
+Answer:","[""Spirited Away"", ""Wolf Children"", ""Princess Mononoke"", ""Kiki's Delivery Service""]",http,0.0,16,none,"{""id"":""chatcmpl-uf0m74w4u0r5x8mv7kcoyp"",""object"":""chat.completion"",""created"":1795594355,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1281,,MarianeAzar,20261125_084135,2026-11-25T08:12:36.930393+00:00
+a5850f00ce975223,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following films was NOT directed by Hayao Miyazaki?
+A. Spirited Away
+B. Wolf Children
+C. Princess Mononoke
+D. Kiki's Delivery Service
+Answer:","[""Spirited Away"", ""Wolf Children"", ""Princess Mononoke"", ""Kiki's Delivery Service""]",http,0.0,16,none,"{""id"":""chatcmpl-o59hwbl5xzbtsvw4r5qp6"",""object"":""chat.completion"",""created"":1795594356,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1032,,MarianeAzar,20261125_084135,2026-11-25T08:12:38.033913+00:00
+893b31e55a32069b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Ace Attorney trilogy was suppose to end with ""Phoenix Wright: Ace Attorney − Trials and Tribulations"" as its final game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ol7b3drmv5cmta8qcwaeg"",""object"":""chat.completion"",""created"":1795594357,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9152,,MarianeAzar,20261125_084135,2026-11-25T08:12:38.949349+00:00
+893b31e55a32069b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Ace Attorney trilogy was suppose to end with ""Phoenix Wright: Ace Attorney − Trials and Tribulations"" as its final game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2rhmel94a1r4yiem7vogwt"",""object"":""chat.completion"",""created"":1795594358,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T08:12:39.840498+00:00
+71ed7c2f2cb6a7f9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game Garry's Mod originally took assets and codes from the popular Half Life 2 mod JBmod.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-z7jlswtla5oezjmfhf80l7"",""object"":""chat.completion"",""created"":1795594359,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4466,,MarianeAzar,20261125_084135,2026-11-25T08:12:41.287649+00:00
+71ed7c2f2cb6a7f9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The game Garry's Mod originally took assets and codes from the popular Half Life 2 mod JBmod.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zq4hg96gqomlju9a1h79cj"",""object"":""chat.completion"",""created"":1795594360,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1046,,MarianeAzar,20261125_084135,2026-11-25T08:12:42.392429+00:00
+7b76fd5fed0a0500,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many semitones are in an octave?
+A. 7
+B. 14
+C. 12
+D. 11
+Answer:","[""7"", ""14"", ""12"", ""11""]",http,0.0,16,none,"{""id"":""chatcmpl-zvw342upqvgytpywwngwg9"",""object"":""chat.completion"",""created"":1795594361,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0764,,MarianeAzar,20261125_084135,2026-11-25T08:12:43.469075+00:00
+7b76fd5fed0a0500,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many semitones are in an octave?
+A. 7
+B. 14
+C. 12
+D. 11
+Answer:","[""7"", ""14"", ""12"", ""11""]",http,0.0,16,none,"{""id"":""chatcmpl-r0p96k703lhh4agkvl9ep"",""object"":""chat.completion"",""created"":1795594362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9516,,MarianeAzar,20261125_084135,2026-11-25T08:12:44.420985+00:00
+e5ebaa4f1781b5fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In aerodynamics, which force pushes an object upwards?
+A. Drag
+B. Lift
+C. Weight
+D. Thrust
+Answer:","[""Drag"", ""Lift"", ""Weight"", ""Thrust""]",http,0.0,16,none,"{""id"":""chatcmpl-omn5g2l2u7zyufy3z1wb"",""object"":""chat.completion"",""created"":1795594363,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9508,,MarianeAzar,20261125_084135,2026-11-25T08:12:45.372044+00:00
+e5ebaa4f1781b5fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In aerodynamics, which force pushes an object upwards?
+A. Drag
+B. Lift
+C. Weight
+D. Thrust
+Answer:","[""Drag"", ""Lift"", ""Weight"", ""Thrust""]",http,0.0,16,none,"{""id"":""chatcmpl-szegv8gsc4iv7dez9lab6n"",""object"":""chat.completion"",""created"":1795594364,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3416,,MarianeAzar,20261125_084135,2026-11-25T08:12:46.713906+00:00
+4b6c5280e1064952,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The football video game series ""Pro Evolution Soccer"" is developed by which company?
+A. THQ
+B. Konami
+C. Square Enix
+D. Electronic Arts
+Answer:","[""THQ"", ""Konami"", ""Square Enix"", ""Electronic Arts""]",http,0.0,16,none,"{""id"":""chatcmpl-9r1t7hgy9eq45e22lt0tyr"",""object"":""chat.completion"",""created"":1795594366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9261,,MarianeAzar,20261125_084135,2026-11-25T08:12:47.640237+00:00
+4b6c5280e1064952,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The football video game series ""Pro Evolution Soccer"" is developed by which company?
+A. THQ
+B. Konami
+C. Square Enix
+D. Electronic Arts
+Answer:","[""THQ"", ""Konami"", ""Square Enix"", ""Electronic Arts""]",http,0.0,16,none,"{""id"":""chatcmpl-13cy09fwjlwn6uxv6yruz6g"",""object"":""chat.completion"",""created"":1795594367,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9503,,MarianeAzar,20261125_084135,2026-11-25T08:12:48.591041+00:00
+83b4b2019199c732,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What game was used to advertise Steam?
+A. Team Fortress
+B. Half-Life 2
+C. Counter-Strike 1.6
+D. Half-Life
+Answer:","[""Team Fortress"", ""Half-Life 2"", ""Counter-Strike 1.6"", ""Half-Life""]",http,0.0,16,none,"{""id"":""chatcmpl-59yt56yicf3jkc8kexf16"",""object"":""chat.completion"",""created"":1795594368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4318,,MarianeAzar,20261125_084135,2026-11-25T08:12:50.023156+00:00
+83b4b2019199c732,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What game was used to advertise Steam?
+A. Team Fortress
+B. Half-Life 2
+C. Counter-Strike 1.6
+D. Half-Life
+Answer:","[""Team Fortress"", ""Half-Life 2"", ""Counter-Strike 1.6"", ""Half-Life""]",http,0.0,16,none,"{""id"":""chatcmpl-trrzcf3p5jinckqoy2ga4"",""object"":""chat.completion"",""created"":1795594369,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.942,,MarianeAzar,20261125_084135,2026-11-25T08:12:50.965449+00:00
+940a55e24a3ed043,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the letter 'S' stand for in 'NASA'?
+A. Society
+B. Space
+C. Science
+D. Star
+Answer:","[""Society"", ""Space"", ""Science"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-79d0w7lep9l1bl6ome956t"",""object"":""chat.completion"",""created"":1795594370,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9533,,MarianeAzar,20261125_084135,2026-11-25T08:12:51.919475+00:00
+940a55e24a3ed043,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the letter 'S' stand for in 'NASA'?
+A. Society
+B. Space
+C. Science
+D. Star
+Answer:","[""Society"", ""Space"", ""Science"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-o14dk7fvfyd27t28g2lif"",""object"":""chat.completion"",""created"":1795594371,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4374,,MarianeAzar,20261125_084135,2026-11-25T08:12:53.357078+00:00
+c673f29378745d8f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a dead mall?
+A. A mall with no stores
+B. A mall that has been condemed
+C. A mall with high vacancy rates or low consumer foot traffic
+D. A mall after business hours
+Answer:","[""A mall with no stores"", ""A mall that has been condemed"", ""A mall with high vacancy rates or low consumer foot traffic"", ""A mall after business hours""]",http,0.0,16,none,"{""id"":""chatcmpl-xy7pcmj95nisgwf7h18bao"",""object"":""chat.completion"",""created"":1795594372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0101,,MarianeAzar,20261125_084135,2026-11-25T08:12:54.367330+00:00
+c673f29378745d8f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a dead mall?
+A. A mall with no stores
+B. A mall that has been condemed
+C. A mall with high vacancy rates or low consumer foot traffic
+D. A mall after business hours
+Answer:","[""A mall with no stores"", ""A mall that has been condemed"", ""A mall with high vacancy rates or low consumer foot traffic"", ""A mall after business hours""]",http,0.0,16,none,"{""id"":""chatcmpl-9cunohzjszhz4xn2ufrhz8"",""object"":""chat.completion"",""created"":1795594373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9688,,MarianeAzar,20261125_084135,2026-11-25T08:12:55.336385+00:00
+5fb9a76bc033b4c0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many books are in the Chronicles of Narnia series?
+A. 7
+B. 8
+C. 5
+D. 6
+Answer:","[""7"", ""8"", ""5"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-g3coq251mp89bjxi5l4a4"",""object"":""chat.completion"",""created"":1795594374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3724,,MarianeAzar,20261125_084135,2026-11-25T08:12:56.709042+00:00
+5fb9a76bc033b4c0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many books are in the Chronicles of Narnia series?
+A. 7
+B. 8
+C. 5
+D. 6
+Answer:","[""7"", ""8"", ""5"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-nkod1x45ljpeqt8taopiyf"",""object"":""chat.completion"",""created"":1795594376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9548,,MarianeAzar,20261125_084135,2026-11-25T08:12:57.664118+00:00
+ff3eefbc324a3ac3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these was not a member of the Fiendish Five in the game Sly Cooper and the Thievius Raccoonus?
+A. Mz. Ruby
+B. Clockwerk
+C. Dimitri Lousteau
+D. Muggshot
+Answer:","[""Mz. Ruby"", ""Clockwerk"", ""Dimitri Lousteau"", ""Muggshot""]",http,0.0,16,none,"{""id"":""chatcmpl-tm5fn9u03irih4wh5tgf"",""object"":""chat.completion"",""created"":1795594377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9502,,MarianeAzar,20261125_084135,2026-11-25T08:12:58.614708+00:00
+ff3eefbc324a3ac3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these was not a member of the Fiendish Five in the game Sly Cooper and the Thievius Raccoonus?
+A. Mz. Ruby
+B. Clockwerk
+C. Dimitri Lousteau
+D. Muggshot
+Answer:","[""Mz. Ruby"", ""Clockwerk"", ""Dimitri Lousteau"", ""Muggshot""]",http,0.0,16,none,"{""id"":""chatcmpl-t63m2dv5h0j01v5zr2hwafi"",""object"":""chat.completion"",""created"":1795594378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5114,,MarianeAzar,20261125_084135,2026-11-25T08:13:00.126447+00:00
+2e44c438d711d42f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character White Diamond from Steven Universe, is voiced by who?
+A. Aly Michalka
+B. Rihanna
+C. Ellen McLain
+D. Christine Ebersole
+Answer:","[""Aly Michalka"", ""Rihanna"", ""Ellen McLain"", ""Christine Ebersole""]",http,0.0,16,none,"{""id"":""chatcmpl-8ug0vah8pmk0ek1iwkrkyct"",""object"":""chat.completion"",""created"":1795594379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0368,,MarianeAzar,20261125_084135,2026-11-25T08:13:01.163343+00:00
+2e44c438d711d42f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The character White Diamond from Steven Universe, is voiced by who?
+A. Aly Michalka
+B. Rihanna
+C. Ellen McLain
+D. Christine Ebersole
+Answer:","[""Aly Michalka"", ""Rihanna"", ""Ellen McLain"", ""Christine Ebersole""]",http,0.0,16,none,"{""id"":""chatcmpl-judqdbk2bmn0wzf4cp3dr1a"",""object"":""chat.completion"",""created"":1795594380,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9911,,MarianeAzar,20261125_084135,2026-11-25T08:13:02.154641+00:00

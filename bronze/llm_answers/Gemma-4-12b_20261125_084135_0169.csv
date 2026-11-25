@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ec8bc048e82579fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was NOT a playable character in the game Kingdom Hearts: Birth by Sleep?
+A. Ignis
+B. Ventus
+C. Aqua
+D. Terra
+Answer:","[""Ignis"", ""Ventus"", ""Aqua"", ""Terra""]",http,0.0,16,none,"{""id"":""chatcmpl-y6ypivp2p0c12n2tphctwx"",""object"":""chat.completion"",""created"":1795596530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261125_084135,2026-11-25T08:48:51.901697+00:00
+338ef587f3d08ee6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the card game Magic: the Gathering first introduced?
+A. 2003
+B. 1993
+C. 1998
+D. 1987
+Answer:","[""2003"", ""1993"", ""1998"", ""1987""]",http,0.0,16,none,"{""id"":""chatcmpl-p7loq2npv7q1gdfi5h9g0d"",""object"":""chat.completion"",""created"":1795596531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:48:52.755264+00:00
+338ef587f3d08ee6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the card game Magic: the Gathering first introduced?
+A. 2003
+B. 1993
+C. 1998
+D. 1987
+Answer:","[""2003"", ""1993"", ""1998"", ""1987""]",http,0.0,16,none,"{""id"":""chatcmpl-w9e3wtnbulqyre1vagxc"",""object"":""chat.completion"",""created"":1795596532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8813,,MarianeAzar,20261125_084135,2026-11-25T08:48:53.636786+00:00
+19095639adb8f7ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dutch computer scientist Mark Overmars is known for creating which game development engine?
+A. Torque 2D
+B. Construct
+C. Stencyl
+D. Game Maker
+Answer:","[""Torque 2D"", ""Construct"", ""Stencyl"", ""Game Maker""]",http,0.0,16,none,"{""id"":""chatcmpl-crl56x1akcuo0azubb6kj"",""object"":""chat.completion"",""created"":1795596533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T08:48:54.494115+00:00
+19095639adb8f7ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dutch computer scientist Mark Overmars is known for creating which game development engine?
+A. Torque 2D
+B. Construct
+C. Stencyl
+D. Game Maker
+Answer:","[""Torque 2D"", ""Construct"", ""Stencyl"", ""Game Maker""]",http,0.0,16,none,"{""id"":""chatcmpl-3noggnkf5ts2ag01c604qo"",""object"":""chat.completion"",""created"":1795596533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261125_084135,2026-11-25T08:48:55.353741+00:00
+93bc9ac0f004bcf8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?
+A. Hyundai
+B. Subaru
+C. Nissan
+D. Honda
+Answer:","[""Hyundai"", ""Subaru"", ""Nissan"", ""Honda""]",http,0.0,16,none,"{""id"":""chatcmpl-h0quyi4scr9salbfhu2fyq"",""object"":""chat.completion"",""created"":1795596534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261125_084135,2026-11-25T08:48:56.220425+00:00
+93bc9ac0f004bcf8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?
+A. Hyundai
+B. Subaru
+C. Nissan
+D. Honda
+Answer:","[""Hyundai"", ""Subaru"", ""Nissan"", ""Honda""]",http,0.0,16,none,"{""id"":""chatcmpl-ou6yv9py2naah7kqzq99c"",""object"":""chat.completion"",""created"":1795596535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8662,,MarianeAzar,20261125_084135,2026-11-25T08:48:57.087097+00:00
+03de33c03b3b3ba8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Artis Leon Ivey Jr. is better known as which rap artist?
+A. Ice T
+B. Coolio
+C. Dr Dre
+D. Snoop Dogg
+Answer:","[""Ice T"", ""Coolio"", ""Dr Dre"", ""Snoop Dogg""]",http,0.0,16,none,"{""id"":""chatcmpl-yupdg5qm2ijoc2gzn341k"",""object"":""chat.completion"",""created"":1795596536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:48:57.945315+00:00
+03de33c03b3b3ba8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Artis Leon Ivey Jr. is better known as which rap artist?
+A. Ice T
+B. Coolio
+C. Dr Dre
+D. Snoop Dogg
+Answer:","[""Ice T"", ""Coolio"", ""Dr Dre"", ""Snoop Dogg""]",http,0.0,16,none,"{""id"":""chatcmpl-sv6cwuizzgk1iz7uh5oyj2"",""object"":""chat.completion"",""created"":1795596537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:48:58.810480+00:00
+e1cf4bd29d6aabed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: These two countries held a commonwealth from the 16th to 18th century.
+A. North Korea and South Korea
+B. Hutu and Rwanda
+C. Poland and Lithuania
+D. Bangladesh and Bhutan
+Answer:","[""North Korea and South Korea"", ""Hutu and Rwanda"", ""Poland and Lithuania"", ""Bangladesh and Bhutan""]",http,0.0,16,none,"{""id"":""chatcmpl-mxai8bjno1s8dfe4axfci4"",""object"":""chat.completion"",""created"":1795596538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T08:48:59.668346+00:00
+e1cf4bd29d6aabed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: These two countries held a commonwealth from the 16th to 18th century.
+A. North Korea and South Korea
+B. Hutu and Rwanda
+C. Poland and Lithuania
+D. Bangladesh and Bhutan
+Answer:","[""North Korea and South Korea"", ""Hutu and Rwanda"", ""Poland and Lithuania"", ""Bangladesh and Bhutan""]",http,0.0,16,none,"{""id"":""chatcmpl-oossmkof0e9cdfh1tejb6g"",""object"":""chat.completion"",""created"":1795596539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8747,,MarianeAzar,20261125_084135,2026-11-25T08:49:00.543273+00:00
+2606f2ae78c81f7f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Swedish word ""Grunka"" means what in English?
+A. Place
+B. Thing
+C. People
+D. Pineapple
+Answer:","[""Place"", ""Thing"", ""People"", ""Pineapple""]",http,0.0,16,none,"{""id"":""chatcmpl-zv82faeetmro06kn9v5b"",""object"":""chat.completion"",""created"":1795596539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:49:01.398209+00:00
+2606f2ae78c81f7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Swedish word ""Grunka"" means what in English?
+A. Place
+B. Thing
+C. People
+D. Pineapple
+Answer:","[""Place"", ""Thing"", ""People"", ""Pineapple""]",http,0.0,16,none,"{""id"":""chatcmpl-7mfs5xso6w21b0dww1g9u1"",""object"":""chat.completion"",""created"":1795596540,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9133,,MarianeAzar,20261125_084135,2026-11-25T08:49:02.311817+00:00
+2abc536bd9e9860f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Statue of Liberty's official name is “Liberty Enlightening the World”.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2ivk2mz1jbn6fb1t1w5d9"",""object"":""chat.completion"",""created"":1795596541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8215,,MarianeAzar,20261125_084135,2026-11-25T08:49:03.133656+00:00
+2abc536bd9e9860f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Statue of Liberty's official name is “Liberty Enlightening the World”.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ormlbkki40kus80ojhtte"",""object"":""chat.completion"",""created"":1795596542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8214,,MarianeAzar,20261125_084135,2026-11-25T08:49:03.955235+00:00
+9f9601048f7a925e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won NFL Super Bowl LI? (51)
+A. Falcons
+B. Eagles
+C. Broncos
+D. Patriots
+Answer:","[""Falcons"", ""Eagles"", ""Broncos"", ""Patriots""]",http,0.0,16,none,"{""id"":""chatcmpl-1bk0sif6ehn5fb6vs9k7tp"",""object"":""chat.completion"",""created"":1795596543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8845,,MarianeAzar,20261125_084135,2026-11-25T08:49:04.840372+00:00
+9f9601048f7a925e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won NFL Super Bowl LI? (51)
+A. Falcons
+B. Eagles
+C. Broncos
+D. Patriots
+Answer:","[""Falcons"", ""Eagles"", ""Broncos"", ""Patriots""]",http,0.0,16,none,"{""id"":""chatcmpl-7pn01vus6v39k7pta2qc3t"",""object"":""chat.completion"",""created"":1795596544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8536,,MarianeAzar,20261125_084135,2026-11-25T08:49:05.694235+00:00
+05f1f1310adb421b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British Prime Minister at the outbreak of the Second World War?
+A. Stanley Baldwin
+B. Neville Chamberlain
+C. Clement Attlee
+D. Winston Churchill
+Answer:","[""Stanley Baldwin"", ""Neville Chamberlain"", ""Clement Attlee"", ""Winston Churchill""]",http,0.0,16,none,"{""id"":""chatcmpl-nrmuvlqofbrcrcg6crt7fv"",""object"":""chat.completion"",""created"":1795596545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8527,,MarianeAzar,20261125_084135,2026-11-25T08:49:06.547406+00:00
+05f1f1310adb421b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British Prime Minister at the outbreak of the Second World War?
+A. Stanley Baldwin
+B. Neville Chamberlain
+C. Clement Attlee
+D. Winston Churchill
+Answer:","[""Stanley Baldwin"", ""Neville Chamberlain"", ""Clement Attlee"", ""Winston Churchill""]",http,0.0,16,none,"{""id"":""chatcmpl-hgy2nsr3kwk6q0mrricuo4"",""object"":""chat.completion"",""created"":1795596546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261125_084135,2026-11-25T08:49:07.444184+00:00
+77da500d7970ccb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1968 Cartoon Show ""Wacky Races"" what was the name of cavemen duo who rode in The Boulder Mobile?
+A. The Stone Brothers
+B. The Slate Brothers
+C. The Rock Brothers
+D. The Slag Brothers
+Answer:","[""The Stone Brothers"", ""The Slate Brothers"", ""The Rock Brothers"", ""The Slag Brothers""]",http,0.0,16,none,"{""id"":""chatcmpl-fyucw3mvw2dn7ps6pmwlkh"",""object"":""chat.completion"",""created"":1795596546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8669,,MarianeAzar,20261125_084135,2026-11-25T08:49:08.311376+00:00
+77da500d7970ccb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1968 Cartoon Show ""Wacky Races"" what was the name of cavemen duo who rode in The Boulder Mobile?
+A. The Stone Brothers
+B. The Slate Brothers
+C. The Rock Brothers
+D. The Slag Brothers
+Answer:","[""The Stone Brothers"", ""The Slate Brothers"", ""The Rock Brothers"", ""The Slag Brothers""]",http,0.0,16,none,"{""id"":""chatcmpl-cdiqqn1l4j58u9cynku7xn"",""object"":""chat.completion"",""created"":1795596547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9095,,MarianeAzar,20261125_084135,2026-11-25T08:49:09.221240+00:00
+1f98538a02ba2ad6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the canon ""Neptunia"" games, Neptune is always the main protagonist.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wy0oyxdubwbw9atcrpsk8i"",""object"":""chat.completion"",""created"":1795596548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8343,,MarianeAzar,20261125_084135,2026-11-25T08:49:10.056287+00:00
+1f98538a02ba2ad6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the canon ""Neptunia"" games, Neptune is always the main protagonist.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xo5o0q5b1hsaxo3w6ysv1e"",""object"":""chat.completion"",""created"":1795596549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T08:49:10.902808+00:00
+557c17998871055b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Magic: The Gathering, which of the following was the first publicly released foil card?
+A. Lightning Dragon
+B. Revenant
+C. Beast of Burden
+D. Dirtcowl Wurm
+Answer:","[""Lightning Dragon"", ""Revenant"", ""Beast of Burden"", ""Dirtcowl Wurm""]",http,0.0,16,none,"{""id"":""chatcmpl-gbdrrev1eoolqavua2ejf"",""object"":""chat.completion"",""created"":1795596550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T08:49:11.756032+00:00
+557c17998871055b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Magic: The Gathering, which of the following was the first publicly released foil card?
+A. Lightning Dragon
+B. Revenant
+C. Beast of Burden
+D. Dirtcowl Wurm
+Answer:","[""Lightning Dragon"", ""Revenant"", ""Beast of Burden"", ""Dirtcowl Wurm""]",http,0.0,16,none,"{""id"":""chatcmpl-7mhke9fculfl526qchzs4"",""object"":""chat.completion"",""created"":1795596551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T08:49:12.629016+00:00

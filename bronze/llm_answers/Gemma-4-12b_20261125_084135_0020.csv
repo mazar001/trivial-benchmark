@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a945b8296701bb58,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which gas forms about 78% of the Earth’s atmosphere?
+A. Oxygen
+B. Nitrogen
+C. Carbon Dioxide
+D. Argon
+Answer:","[""Oxygen"", ""Nitrogen"", ""Carbon Dioxide"", ""Argon""]",http,0.0,16,none,"{""id"":""chatcmpl-udd74nnzktdtw4bdm4mwfp"",""object"":""chat.completion"",""created"":1795592927,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T07:48:49.327255+00:00
+a945b8296701bb58,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which gas forms about 78% of the Earth’s atmosphere?
+A. Oxygen
+B. Nitrogen
+C. Carbon Dioxide
+D. Argon
+Answer:","[""Oxygen"", ""Nitrogen"", ""Carbon Dioxide"", ""Argon""]",http,0.0,16,none,"{""id"":""chatcmpl-halipk6aja4p9r4mq75w5m"",""object"":""chat.completion"",""created"":1795592928,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T07:48:50.186577+00:00
+208d84d6c5cdd4fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which painting was not made by Vincent Van Gogh?
+A. Starry Night
+B. Café Terrace at Night
+C. The Ninth Wave
+D. Bedroom In Arles
+Answer:","[""Starry Night"", ""Café Terrace at Night"", ""The Ninth Wave"", ""Bedroom In Arles""]",http,0.0,16,none,"{""id"":""chatcmpl-a4v48euwgyuhyjv6piugdn"",""object"":""chat.completion"",""created"":1795592929,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:48:51.037565+00:00
+208d84d6c5cdd4fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which painting was not made by Vincent Van Gogh?
+A. Starry Night
+B. Café Terrace at Night
+C. The Ninth Wave
+D. Bedroom In Arles
+Answer:","[""Starry Night"", ""Café Terrace at Night"", ""The Ninth Wave"", ""Bedroom In Arles""]",http,0.0,16,none,"{""id"":""chatcmpl-gf69se9px0i7k2ucrlvax"",""object"":""chat.completion"",""created"":1795592930,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T07:48:51.898603+00:00
+1f3bcc8a30d2dcd2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life series, Gordon Freeman's signature weapon is a:
+A. Fiber Wire
+B. Katana
+C. Crowbar
+D. Sledgehammer
+Answer:","[""Fiber Wire"", ""Katana"", ""Crowbar"", ""Sledgehammer""]",http,0.0,16,none,"{""id"":""chatcmpl-st1hdsmp0jnxuo9bbd77"",""object"":""chat.completion"",""created"":1795592931,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8551,,MarianeAzar,20261125_084135,2026-11-25T07:48:52.754038+00:00
+1f3bcc8a30d2dcd2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life series, Gordon Freeman's signature weapon is a:
+A. Fiber Wire
+B. Katana
+C. Crowbar
+D. Sledgehammer
+Answer:","[""Fiber Wire"", ""Katana"", ""Crowbar"", ""Sledgehammer""]",http,0.0,16,none,"{""id"":""chatcmpl-c2jo116cii987l5tn6wok9"",""object"":""chat.completion"",""created"":1795592932,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261125_084135,2026-11-25T07:48:53.617492+00:00
+6b7c4da7df6b0737,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the names of the Ice Climbers in the video game Ice Climber?
+A. Papi and Nana
+B. Papi and Nina
+C. Popo and Nana
+D. Popo and Nina
+Answer:","[""Papi and Nana"", ""Papi and Nina"", ""Popo and Nana"", ""Popo and Nina""]",http,0.0,16,none,"{""id"":""chatcmpl-bxdyaljvsi8uojrhpa0vem"",""object"":""chat.completion"",""created"":1795592933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T07:48:54.474113+00:00
+6b7c4da7df6b0737,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the names of the Ice Climbers in the video game Ice Climber?
+A. Papi and Nana
+B. Papi and Nina
+C. Popo and Nana
+D. Popo and Nina
+Answer:","[""Papi and Nana"", ""Papi and Nina"", ""Popo and Nana"", ""Popo and Nina""]",http,0.0,16,none,"{""id"":""chatcmpl-64f3q0pc2jy41j9mfxi6"",""object"":""chat.completion"",""created"":1795592933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8782,,MarianeAzar,20261125_084135,2026-11-25T07:48:55.352605+00:00
+851ce93e51be4572,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", who was the founder of the Klingon Empire and its philosophy?
+A. Dahar Master Kor
+B. Lady Lukara of the Great Hall
+C. Molor the Unforgiving
+D. Kahless the Unforgettable
+Answer:","[""Dahar Master Kor"", ""Lady Lukara of the Great Hall"", ""Molor the Unforgiving"", ""Kahless the Unforgettable""]",http,0.0,16,none,"{""id"":""chatcmpl-xosstrkqm7vu11drme52"",""object"":""chat.completion"",""created"":1795592934,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T07:48:56.228961+00:00
+851ce93e51be4572,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Star Trek"", who was the founder of the Klingon Empire and its philosophy?
+A. Dahar Master Kor
+B. Lady Lukara of the Great Hall
+C. Molor the Unforgiving
+D. Kahless the Unforgettable
+Answer:","[""Dahar Master Kor"", ""Lady Lukara of the Great Hall"", ""Molor the Unforgiving"", ""Kahless the Unforgettable""]",http,0.0,16,none,"{""id"":""chatcmpl-rqh5uwub4yaq6yvhj1l7uk"",""object"":""chat.completion"",""created"":1795592935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.905,,MarianeAzar,20261125_084135,2026-11-25T07:48:57.134271+00:00
+f7d1f81f390eae63,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Approximately what percentage of Earth's atmosphere is Oxygen?
+A. 7%
+B. 54%
+C. 78%
+D. 21%
+Answer:","[""7%"", ""54%"", ""78%"", ""21%""]",http,0.0,16,none,"{""id"":""chatcmpl-vsmo26lq6bbt5brqysyvo"",""object"":""chat.completion"",""created"":1795592936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T07:48:58.001755+00:00
+f7d1f81f390eae63,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Approximately what percentage of Earth's atmosphere is Oxygen?
+A. 7%
+B. 54%
+C. 78%
+D. 21%
+Answer:","[""7%"", ""54%"", ""78%"", ""21%""]",http,0.0,16,none,"{""id"":""chatcmpl-vgxpfnbvdbkdy5r40q6m3j"",""object"":""chat.completion"",""created"":1795592937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261125_084135,2026-11-25T07:48:58.874061+00:00
+72b3da3fc23b7be6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.
+A. The Invisible Man
+B. Dracula
+C. Frankenstein's monster
+D. The Thing
+Answer:","[""The Invisible Man"", ""Dracula"", ""Frankenstein's monster"", ""The Thing""]",http,0.0,16,none,"{""id"":""chatcmpl-vajad6p3x2h2mskhz14mab"",""object"":""chat.completion"",""created"":1795592938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T07:48:59.745874+00:00
+72b3da3fc23b7be6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.
+A. The Invisible Man
+B. Dracula
+C. Frankenstein's monster
+D. The Thing
+Answer:","[""The Invisible Man"", ""Dracula"", ""Frankenstein's monster"", ""The Thing""]",http,0.0,16,none,"{""id"":""chatcmpl-4fzyn1wl6cqz50o3ruot8p"",""object"":""chat.completion"",""created"":1795592939,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261125_084135,2026-11-25T07:49:00.632818+00:00
+b1196312fbb2ae10,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Michael Jackson had a pet python named ‘Crusher’.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ed13ux0s3tfgm5u4ssd4ia"",""object"":""chat.completion"",""created"":1795592940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8271,,MarianeAzar,20261125_084135,2026-11-25T07:49:01.460079+00:00
+b1196312fbb2ae10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Michael Jackson had a pet python named ‘Crusher’.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cxxh4ekorscqbzwfetltg"",""object"":""chat.completion"",""created"":1795592940,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8087,,MarianeAzar,20261125_084135,2026-11-25T07:49:02.269003+00:00
+cddb6c6475db4bc0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where are the Nazca Lines located?
+A. Brazil
+B. Colombia
+C. Ecuador
+D. Peru
+Answer:","[""Brazil"", ""Colombia"", ""Ecuador"", ""Peru""]",http,0.0,16,none,"{""id"":""chatcmpl-w2kmh33dfhadyzs357wxb4"",""object"":""chat.completion"",""created"":1795592941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8451,,MarianeAzar,20261125_084135,2026-11-25T07:49:03.114337+00:00
+cddb6c6475db4bc0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where are the Nazca Lines located?
+A. Brazil
+B. Colombia
+C. Ecuador
+D. Peru
+Answer:","[""Brazil"", ""Colombia"", ""Ecuador"", ""Peru""]",http,0.0,16,none,"{""id"":""chatcmpl-wd72h5s1jatot26gbn8ghm"",""object"":""chat.completion"",""created"":1795592942,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.907,,MarianeAzar,20261125_084135,2026-11-25T07:49:04.021648+00:00
+9e8fd8c60f75f9e4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Frank Lloyd Wright was the architect behind what famous building?
+A. The Space Needle
+B. The Guggenheim
+C. Villa Savoye
+D. Sydney Opera House
+Answer:","[""The Space Needle"", ""The Guggenheim"", ""Villa Savoye"", ""Sydney Opera House""]",http,0.0,16,none,"{""id"":""chatcmpl-jzoxriloa1tfot5x86qcj"",""object"":""chat.completion"",""created"":1795592943,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T07:49:04.874677+00:00
+9e8fd8c60f75f9e4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Frank Lloyd Wright was the architect behind what famous building?
+A. The Space Needle
+B. The Guggenheim
+C. Villa Savoye
+D. Sydney Opera House
+Answer:","[""The Space Needle"", ""The Guggenheim"", ""Villa Savoye"", ""Sydney Opera House""]",http,0.0,16,none,"{""id"":""chatcmpl-vfx222vphihs2n1fsbqhfq"",""object"":""chat.completion"",""created"":1795592944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9617,,MarianeAzar,20261125_084135,2026-11-25T07:49:05.836635+00:00
+358badce1eba43ed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In World War II, Hawker Typhoons served in the Pacific theater.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1dry68uyivpk2kvv71omql"",""object"":""chat.completion"",""created"":1795592945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8304,,MarianeAzar,20261125_084135,2026-11-25T07:49:06.667442+00:00
+358badce1eba43ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In World War II, Hawker Typhoons served in the Pacific theater.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-9gb2l9f9h759mb94f0vvb5"",""object"":""chat.completion"",""created"":1795592946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261125_084135,2026-11-25T07:49:07.514780+00:00
+beffa1b5b94013c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?
+A. Jumping backwards over a desk
+B. Typing on a keyboard during a handstand
+C. Standing on his head
+D. Jumping over an office chair
+Answer:","[""Jumping backwards over a desk"", ""Typing on a keyboard during a handstand"", ""Standing on his head"", ""Jumping over an office chair""]",http,0.0,16,none,"{""id"":""chatcmpl-8x8qm34gj6nl6efttvnpr"",""object"":""chat.completion"",""created"":1795592946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T07:49:08.388974+00:00
+beffa1b5b94013c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?
+A. Jumping backwards over a desk
+B. Typing on a keyboard during a handstand
+C. Standing on his head
+D. Jumping over an office chair
+Answer:","[""Jumping backwards over a desk"", ""Typing on a keyboard during a handstand"", ""Standing on his head"", ""Jumping over an office chair""]",http,0.0,16,none,"{""id"":""chatcmpl-wfembuuey40p1rgwacjhjg"",""object"":""chat.completion"",""created"":1795592947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9337,,MarianeAzar,20261125_084135,2026-11-25T07:49:09.323297+00:00
+3ca879f7c1db3a76,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Portal 2, which solar system body did Wheatley end up orbiting?
+A. Mars
+B. The moon
+C. Jupiter
+D. Earth
+Answer:","[""Mars"", ""The moon"", ""Jupiter"", ""Earth""]",http,0.0,16,none,"{""id"":""chatcmpl-z6ax0dgskwhwm4yb9j5xl"",""object"":""chat.completion"",""created"":1795592948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9653,,MarianeAzar,20261125_084135,2026-11-25T07:49:10.288813+00:00

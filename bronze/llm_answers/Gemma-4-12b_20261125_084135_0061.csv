@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+939d30824c36dc1f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Chartreuse is a color between yellow and what?
+A. Red
+B. Black
+C. Green
+D. Purple
+Answer:","[""Red"", ""Black"", ""Green"", ""Purple""]",http,0.0,16,none,"{""id"":""chatcmpl-jltjhnrlcs9hcysjgmdttv"",""object"":""chat.completion"",""created"":1795593822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T08:03:43.482287+00:00
+0f0d541f56ddc4e1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these people is NOT a part of the Internet comedy group Mega64?
+A. Rocco Botte
+B. Shawn Chatfield
+C. Derrick Acosta
+D. Jon Jafari
+Answer:","[""Rocco Botte"", ""Shawn Chatfield"", ""Derrick Acosta"", ""Jon Jafari""]",http,0.0,16,none,"{""id"":""chatcmpl-703au9ylaiml9b68yq8gxd"",""object"":""chat.completion"",""created"":1795593822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T08:03:44.337038+00:00
+0f0d541f56ddc4e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these people is NOT a part of the Internet comedy group Mega64?
+A. Rocco Botte
+B. Shawn Chatfield
+C. Derrick Acosta
+D. Jon Jafari
+Answer:","[""Rocco Botte"", ""Shawn Chatfield"", ""Derrick Acosta"", ""Jon Jafari""]",http,0.0,16,none,"{""id"":""chatcmpl-d9y7tt2bj1pj0o0npr7zuq"",""object"":""chat.completion"",""created"":1795593823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8716,,MarianeAzar,20261125_084135,2026-11-25T08:03:45.208852+00:00
+22f1c2ebbdc5d94f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2020 Summer Olympics?
+A. Australia
+B. Germany
+C. China
+D. Japan
+Answer:","[""Australia"", ""Germany"", ""China"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-bo5svcbbk5nhw0tx4u0ce4"",""object"":""chat.completion"",""created"":1795593824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8792,,MarianeAzar,20261125_084135,2026-11-25T08:03:46.088310+00:00
+22f1c2ebbdc5d94f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2020 Summer Olympics?
+A. Australia
+B. Germany
+C. China
+D. Japan
+Answer:","[""Australia"", ""Germany"", ""China"", ""Japan""]",http,0.0,16,none,"{""id"":""chatcmpl-dwd6v0migk59ygi8nc9vn"",""object"":""chat.completion"",""created"":1795593825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8588,,MarianeAzar,20261125_084135,2026-11-25T08:03:46.947271+00:00
+b249f4015ace630d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which retro video game was released first?
+A. Asteroids
+B. Pac-Man
+C. Space Invaders
+D. Galaga
+Answer:","[""Asteroids"", ""Pac-Man"", ""Space Invaders"", ""Galaga""]",http,0.0,16,none,"{""id"":""chatcmpl-pu48ht6mwychinacfi8tsi"",""object"":""chat.completion"",""created"":1795593826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8871,,MarianeAzar,20261125_084135,2026-11-25T08:03:47.835023+00:00
+b249f4015ace630d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which retro video game was released first?
+A. Asteroids
+B. Pac-Man
+C. Space Invaders
+D. Galaga
+Answer:","[""Asteroids"", ""Pac-Man"", ""Space Invaders"", ""Galaga""]",http,0.0,16,none,"{""id"":""chatcmpl-p6avv0vk6i3yjhismpsjp"",""object"":""chat.completion"",""created"":1795593827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:03:48.696798+00:00
+463651cae4e7302b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A scalene triangle has two sides of equal length.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-czkgnc32q2vs0yzdw0kp"",""object"":""chat.completion"",""created"":1795593828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8151,,MarianeAzar,20261125_084135,2026-11-25T08:03:49.511996+00:00
+463651cae4e7302b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A scalene triangle has two sides of equal length.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kprt5ixv5daldnx2kjhfw"",""object"":""chat.completion"",""created"":1795593828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8197,,MarianeAzar,20261125_084135,2026-11-25T08:03:50.331840+00:00
+04c665fa00700182,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original Star Trek TV series, what was Captain James T. Kirk's middle name?
+A. Tyrone
+B. Tiberius
+C. Trevor
+D. Travis
+Answer:","[""Tyrone"", ""Tiberius"", ""Trevor"", ""Travis""]",http,0.0,16,none,"{""id"":""chatcmpl-0d49y34tey4s6t5oeh5o4"",""object"":""chat.completion"",""created"":1795593829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:03:51.188341+00:00
+04c665fa00700182,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the original Star Trek TV series, what was Captain James T. Kirk's middle name?
+A. Tyrone
+B. Tiberius
+C. Trevor
+D. Travis
+Answer:","[""Tyrone"", ""Tiberius"", ""Trevor"", ""Travis""]",http,0.0,16,none,"{""id"":""chatcmpl-mq99cq9sjzaoe3aw6rb0a"",""object"":""chat.completion"",""created"":1795593830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8533,,MarianeAzar,20261125_084135,2026-11-25T08:03:52.041890+00:00
+53c35697bb7a556b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first official world chess champion?
+A. Bobby Fischer
+B. Emanuel Lasker
+C. Wilhelm Steinitz
+D. José Raúl Capablanca
+Answer:","[""Bobby Fischer"", ""Emanuel Lasker"", ""Wilhelm Steinitz"", ""José Raúl Capablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-5fbn9pv8yaoyhotbxjtyv9"",""object"":""chat.completion"",""created"":1795593831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.903,,MarianeAzar,20261125_084135,2026-11-25T08:03:52.945194+00:00
+53c35697bb7a556b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first official world chess champion?
+A. Bobby Fischer
+B. Emanuel Lasker
+C. Wilhelm Steinitz
+D. José Raúl Capablanca
+Answer:","[""Bobby Fischer"", ""Emanuel Lasker"", ""Wilhelm Steinitz"", ""José Raúl Capablanca""]",http,0.0,16,none,"{""id"":""chatcmpl-6tqtznt648x5tk8wp36ok"",""object"":""chat.completion"",""created"":1795593832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T08:03:53.799268+00:00
+e270a95270594d18,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which scientific unit is named after an Italian nobleman?
+A. Hertz
+B. Ohm
+C. Pascal
+D. Volt
+Answer:","[""Hertz"", ""Ohm"", ""Pascal"", ""Volt""]",http,0.0,16,none,"{""id"":""chatcmpl-idgoln4urs2at76zahr6y"",""object"":""chat.completion"",""created"":1795593833,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:03:54.663027+00:00
+e270a95270594d18,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which scientific unit is named after an Italian nobleman?
+A. Hertz
+B. Ohm
+C. Pascal
+D. Volt
+Answer:","[""Hertz"", ""Ohm"", ""Pascal"", ""Volt""]",http,0.0,16,none,"{""id"":""chatcmpl-3ib4jcehfnqyaxg4kxdor"",""object"":""chat.completion"",""created"":1795593834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:03:55.529191+00:00
+8fd88c0e9ab03a31,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following mathematicians made major contributions to game theory?
+A. Leonhard Euler
+B. Carl Friedrich Gauss
+C. John Von Neumann
+D. Stefan Banach
+Answer:","[""Leonhard Euler"", ""Carl Friedrich Gauss"", ""John Von Neumann"", ""Stefan Banach""]",http,0.0,16,none,"{""id"":""chatcmpl-xatlcwdp1bqdqxswdawpj"",""object"":""chat.completion"",""created"":1795593834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8759,,MarianeAzar,20261125_084135,2026-11-25T08:03:56.405765+00:00
+8fd88c0e9ab03a31,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following mathematicians made major contributions to game theory?
+A. Leonhard Euler
+B. Carl Friedrich Gauss
+C. John Von Neumann
+D. Stefan Banach
+Answer:","[""Leonhard Euler"", ""Carl Friedrich Gauss"", ""John Von Neumann"", ""Stefan Banach""]",http,0.0,16,none,"{""id"":""chatcmpl-34ggtzykje195qq6fk1gy"",""object"":""chat.completion"",""created"":1795593835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T08:03:57.271419+00:00
+92e434a8219e8adf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Tame Impala release their second album?
+A. 2015
+B. 1967
+C. 2010
+D. 2012
+Answer:","[""2015"", ""1967"", ""2010"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-ccl8o4x44a63j9cmqh6m14"",""object"":""chat.completion"",""created"":1795593836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8558,,MarianeAzar,20261125_084135,2026-11-25T08:03:58.127358+00:00
+92e434a8219e8adf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Tame Impala release their second album?
+A. 2015
+B. 1967
+C. 2010
+D. 2012
+Answer:","[""2015"", ""1967"", ""2010"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-t84nfeofy885ggdjum0het"",""object"":""chat.completion"",""created"":1795593837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T08:03:59.007426+00:00
+ff76570050e636aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the BBPA, what is the most common pub name in the UK?
+A. Red Lion
+B. Royal Oak
+C. King's Head
+D. White Hart
+Answer:","[""Red Lion"", ""Royal Oak"", ""King's Head"", ""White Hart""]",http,0.0,16,none,"{""id"":""chatcmpl-dtpwn13y8zme7rnoxe0h1e"",""object"":""chat.completion"",""created"":1795593838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8731,,MarianeAzar,20261125_084135,2026-11-25T08:03:59.880764+00:00
+ff76570050e636aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the BBPA, what is the most common pub name in the UK?
+A. Red Lion
+B. Royal Oak
+C. King's Head
+D. White Hart
+Answer:","[""Red Lion"", ""Royal Oak"", ""King's Head"", ""White Hart""]",http,0.0,16,none,"{""id"":""chatcmpl-meskfjoxsekuw2tkzlbs3a"",""object"":""chat.completion"",""created"":1795593839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T08:04:00.745972+00:00
+2753111b053a9b84,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which African American is in part responsible for integrating Major League baseball?
+A. Jackie Robinson
+B. Satchell Paige
+C. Roy Campanella
+D. Curt Flood
+Answer:","[""Jackie Robinson"", ""Satchell Paige"", ""Roy Campanella"", ""Curt Flood""]",http,0.0,16,none,"{""id"":""chatcmpl-dwkoxmnqmbjaptlyjhvlk"",""object"":""chat.completion"",""created"":1795593840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T08:04:01.601132+00:00
+2753111b053a9b84,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which African American is in part responsible for integrating Major League baseball?
+A. Jackie Robinson
+B. Satchell Paige
+C. Roy Campanella
+D. Curt Flood
+Answer:","[""Jackie Robinson"", ""Satchell Paige"", ""Roy Campanella"", ""Curt Flood""]",http,0.0,16,none,"{""id"":""chatcmpl-51oddf1s5wqky8ha7qpgcb"",""object"":""chat.completion"",""created"":1795593841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8783,,MarianeAzar,20261125_084135,2026-11-25T08:04:02.479688+00:00
+10136e8a70fc75f7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what street did the 1666 Great Fire of London start?
+A. Pudding Lane
+B. St Paul's Cathedral
+C. Houses of Parliament
+D. Baker Street
+Answer:","[""Pudding Lane"", ""St Paul's Cathedral"", ""Houses of Parliament"", ""Baker Street""]",http,0.0,16,none,"{""id"":""chatcmpl-fpe3m9ejgng0ns5d1xokq7f"",""object"":""chat.completion"",""created"":1795593841,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.883,,MarianeAzar,20261125_084135,2026-11-25T08:04:03.363086+00:00
+10136e8a70fc75f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On what street did the 1666 Great Fire of London start?
+A. Pudding Lane
+B. St Paul's Cathedral
+C. Houses of Parliament
+D. Baker Street
+Answer:","[""Pudding Lane"", ""St Paul's Cathedral"", ""Houses of Parliament"", ""Baker Street""]",http,0.0,16,none,"{""id"":""chatcmpl-uv5abz71s45y3cqk9tmp5"",""object"":""chat.completion"",""created"":1795593842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8619,,MarianeAzar,20261125_084135,2026-11-25T08:04:04.225232+00:00

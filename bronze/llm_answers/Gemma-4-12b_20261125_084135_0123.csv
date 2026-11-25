@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+98e9d6dac0dc3922,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What car manufacturer gave away their patent for the seat-belt in the interest of saving lives?
+A. Volvo
+B. Ferrari
+C. Renault
+D. Ford
+Answer:","[""Volvo"", ""Ferrari"", ""Renault"", ""Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-460hpkt791nq1qt1250bl"",""object"":""chat.completion"",""created"":1795595523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:32:05.344920+00:00
+db6b877e3a66b480,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city is the Terracotta Army located in?
+A. Beijing
+B. Hong Kong
+C. Shanghai
+D. Xi'an
+Answer:","[""Beijing"", ""Hong Kong"", ""Shanghai"", ""Xi'an""]",http,0.0,16,none,"{""id"":""chatcmpl-jhaoca3dgjexc47thsy0cp"",""object"":""chat.completion"",""created"":1795595524,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8664,,MarianeAzar,20261125_084135,2026-11-25T08:32:06.211573+00:00
+db6b877e3a66b480,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city is the Terracotta Army located in?
+A. Beijing
+B. Hong Kong
+C. Shanghai
+D. Xi'an
+Answer:","[""Beijing"", ""Hong Kong"", ""Shanghai"", ""Xi'an""]",http,0.0,16,none,"{""id"":""chatcmpl-xckyfllbq4n21gjzmtsfdm"",""object"":""chat.completion"",""created"":1795595525,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8809,,MarianeAzar,20261125_084135,2026-11-25T08:32:07.092718+00:00
+382bab83147b4b8d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 video game ""Kingdom Hearts"", how many playable worlds were there?
+A. 13
+B. 16
+C. 11
+D. 14
+Answer:","[""13"", ""16"", ""11"", ""14""]",http,0.0,16,none,"{""id"":""chatcmpl-2i8vazfoz61bpu7vgqitoq"",""object"":""chat.completion"",""created"":1795595526,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T08:32:07.953535+00:00
+382bab83147b4b8d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 video game ""Kingdom Hearts"", how many playable worlds were there?
+A. 13
+B. 16
+C. 11
+D. 14
+Answer:","[""13"", ""16"", ""11"", ""14""]",http,0.0,16,none,"{""id"":""chatcmpl-4yrfkt05tie1fb3hsiw4mk"",""object"":""chat.completion"",""created"":1795595527,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9207,,MarianeAzar,20261125_084135,2026-11-25T08:32:08.874449+00:00
+a65a24a4d757af0c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Mongolia"" was a part of the now non-existent U.S.S.R.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ze3iqzgou5tmpuvod5d5"",""object"":""chat.completion"",""created"":1795595528,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8323,,MarianeAzar,20261125_084135,2026-11-25T08:32:09.707071+00:00
+a65a24a4d757af0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Mongolia"" was a part of the now non-existent U.S.S.R.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tluw6wg09mgikjzqu6q5m"",""object"":""chat.completion"",""created"":1795595529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:32:10.561769+00:00
+e3109e5a46c50ed8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In programming, what do you call functions with the same name but different implementations?
+A. Overriding
+B. Overloading
+C. Inheriting
+D. Abstracting
+Answer:","[""Overriding"", ""Overloading"", ""Inheriting"", ""Abstracting""]",http,0.0,16,none,"{""id"":""chatcmpl-vi0c2iifcidzmsyty0fy9"",""object"":""chat.completion"",""created"":1795595529,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8791,,MarianeAzar,20261125_084135,2026-11-25T08:32:11.441158+00:00
+e3109e5a46c50ed8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In programming, what do you call functions with the same name but different implementations?
+A. Overriding
+B. Overloading
+C. Inheriting
+D. Abstracting
+Answer:","[""Overriding"", ""Overloading"", ""Inheriting"", ""Abstracting""]",http,0.0,16,none,"{""id"":""chatcmpl-hobb489rhsuut2kbcv41mr"",""object"":""chat.completion"",""created"":1795595530,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.862,,MarianeAzar,20261125_084135,2026-11-25T08:32:12.303468+00:00
+9ee538a67b4bd8ba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The anime Attack on Titan was directed by Tetsurō Araki, the same person who directed the anime Highschool of the Dead.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iqv1ajy9p7lc70o4sa6j6g"",""object"":""chat.completion"",""created"":1795595531,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8284,,MarianeAzar,20261125_084135,2026-11-25T08:32:13.132001+00:00
+9ee538a67b4bd8ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The anime Attack on Titan was directed by Tetsurō Araki, the same person who directed the anime Highschool of the Dead.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-uzeftq315qny5qsugnk8"",""object"":""chat.completion"",""created"":1795595532,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T08:32:13.985850+00:00
+655bb345b4ee450a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Silverchair?
+A. Ben Gillies
+B. Daniel Johns
+C. Chris Joannou
+D. George Costanza
+Answer:","[""Ben Gillies"", ""Daniel Johns"", ""Chris Joannou"", ""George Costanza""]",http,0.0,16,none,"{""id"":""chatcmpl-q8u17fz80zgtnr534sucwm"",""object"":""chat.completion"",""created"":1795595533,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8738,,MarianeAzar,20261125_084135,2026-11-25T08:32:14.859872+00:00
+655bb345b4ee450a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Silverchair?
+A. Ben Gillies
+B. Daniel Johns
+C. Chris Joannou
+D. George Costanza
+Answer:","[""Ben Gillies"", ""Daniel Johns"", ""Chris Joannou"", ""George Costanza""]",http,0.0,16,none,"{""id"":""chatcmpl-rbk9186f1rsj697wlu37"",""object"":""chat.completion"",""created"":1795595534,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:32:15.722643+00:00
+623a40e9eddcc1ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which mission did the Space Shuttle Columbia break up upon re-entry?
+A. STS-51-L
+B. STS-109
+C. STS-107
+D. STS-61-C
+Answer:","[""STS-51-L"", ""STS-109"", ""STS-107"", ""STS-61-C""]",http,0.0,16,none,"{""id"":""chatcmpl-shgr3q4njvk2eo9wu3vxp"",""object"":""chat.completion"",""created"":1795595535,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:32:16.587567+00:00
+623a40e9eddcc1ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On which mission did the Space Shuttle Columbia break up upon re-entry?
+A. STS-51-L
+B. STS-109
+C. STS-107
+D. STS-61-C
+Answer:","[""STS-51-L"", ""STS-109"", ""STS-107"", ""STS-61-C""]",http,0.0,16,none,"{""id"":""chatcmpl-o4fqlu4s9x3586jps5ep"",""object"":""chat.completion"",""created"":1795595536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9109,,MarianeAzar,20261125_084135,2026-11-25T08:32:17.498617+00:00
+55fb5fb9246dbd7d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language was GitHub written in?
+A. Ruby
+B. Lua
+C. Python
+D. JavaScript
+Answer:","[""Ruby"", ""Lua"", ""Python"", ""JavaScript""]",http,0.0,16,none,"{""id"":""chatcmpl-xdd24n7d1rcdc2al2lfc7"",""object"":""chat.completion"",""created"":1795595536,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T08:32:18.356116+00:00
+55fb5fb9246dbd7d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language was GitHub written in?
+A. Ruby
+B. Lua
+C. Python
+D. JavaScript
+Answer:","[""Ruby"", ""Lua"", ""Python"", ""JavaScript""]",http,0.0,16,none,"{""id"":""chatcmpl-my97s596yxns040qr2a"",""object"":""chat.completion"",""created"":1795595537,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8753,,MarianeAzar,20261125_084135,2026-11-25T08:32:19.231559+00:00
+5d1b8b854723011e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Naruto: Shippuden, which of the following elements is a ""Kekkei Tōta?""
+A. Ice Style
+B. Any Doujutsu
+C. Particle Style
+D. Shadow Style
+Answer:","[""Ice Style"", ""Any Doujutsu"", ""Particle Style"", ""Shadow Style""]",http,0.0,16,none,"{""id"":""chatcmpl-sr8dq94wa88xbzbn6kds"",""object"":""chat.completion"",""created"":1795595538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:32:20.087293+00:00
+5d1b8b854723011e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Naruto: Shippuden, which of the following elements is a ""Kekkei Tōta?""
+A. Ice Style
+B. Any Doujutsu
+C. Particle Style
+D. Shadow Style
+Answer:","[""Ice Style"", ""Any Doujutsu"", ""Particle Style"", ""Shadow Style""]",http,0.0,16,none,"{""id"":""chatcmpl-uxs935ihevnoeorv55xqn9"",""object"":""chat.completion"",""created"":1795595539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8942,,MarianeAzar,20261125_084135,2026-11-25T08:32:20.981610+00:00
+0ef4b5e7599482e7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Franz Joseph I was the last emperor of Austria.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1f81o57m7hyubjsvjurll"",""object"":""chat.completion"",""created"":1795595540,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8105,,MarianeAzar,20261125_084135,2026-11-25T08:32:21.792331+00:00
+0ef4b5e7599482e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Franz Joseph I was the last emperor of Austria.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xjrxa2r5slb8bfnhs9lrs"",""object"":""chat.completion"",""created"":1795595541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8165,,MarianeAzar,20261125_084135,2026-11-25T08:32:22.608996+00:00
+1a8705d6525aeddb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many laws of thermodynamics are there?
+A. Three
+B. Five
+C. Two
+D. Four
+Answer:","[""Three"", ""Five"", ""Two"", ""Four""]",http,0.0,16,none,"{""id"":""chatcmpl-32go0m9oyy4e0j9ycpd9v6"",""object"":""chat.completion"",""created"":1795595542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8512,,MarianeAzar,20261125_084135,2026-11-25T08:32:23.460392+00:00
+1a8705d6525aeddb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many laws of thermodynamics are there?
+A. Three
+B. Five
+C. Two
+D. Four
+Answer:","[""Three"", ""Five"", ""Two"", ""Four""]",http,0.0,16,none,"{""id"":""chatcmpl-teve43q488djjydmw5lst"",""object"":""chat.completion"",""created"":1795595542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T08:32:24.325945+00:00
+c3bec7b2899865af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Norway get its constitution?
+A. 1814
+B. 1905
+C. 1932
+D. 1854
+Answer:","[""1814"", ""1905"", ""1932"", ""1854""]",http,0.0,16,none,"{""id"":""chatcmpl-bf3l4hjtrj5mbstzqblke"",""object"":""chat.completion"",""created"":1795595543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261125_084135,2026-11-25T08:32:25.201158+00:00
+c3bec7b2899865af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Norway get its constitution?
+A. 1814
+B. 1905
+C. 1932
+D. 1854
+Answer:","[""1814"", ""1905"", ""1932"", ""1854""]",http,0.0,16,none,"{""id"":""chatcmpl-v146qhitngrp9a6pozxer"",""object"":""chat.completion"",""created"":1795595544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:32:26.064772+00:00

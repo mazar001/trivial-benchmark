@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+542bc2a74a687631,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made Garry's Mod?
+A. Garry Newman
+B. Gabe Newell
+C. Randy Newman
+D. Facepunch Studios
+Answer:","[""Garry Newman"", ""Gabe Newell"", ""Randy Newman"", ""Facepunch Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-9iisy3zorhaeorvxykjev"",""object"":""chat.completion"",""created"":1795592538,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T07:42:19.633024+00:00
+542bc2a74a687631,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made Garry's Mod?
+A. Garry Newman
+B. Gabe Newell
+C. Randy Newman
+D. Facepunch Studios
+Answer:","[""Garry Newman"", ""Gabe Newell"", ""Randy Newman"", ""Facepunch Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-fw26guzaxejnifpei21ek"",""object"":""chat.completion"",""created"":1795592539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T07:42:20.494645+00:00
+13fecace5fb547a6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chemical element, number 11 in the Periodic table, has the symbol Na?
+A. Lead
+B. Nitrogen
+C. Carbon
+D. Sodium
+Answer:","[""Lead"", ""Nitrogen"", ""Carbon"", ""Sodium""]",http,0.0,16,none,"{""id"":""chatcmpl-69cmyxvoxam1rxfdp1op2i"",""object"":""chat.completion"",""created"":1795592539,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T07:42:21.353784+00:00
+13fecace5fb547a6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chemical element, number 11 in the Periodic table, has the symbol Na?
+A. Lead
+B. Nitrogen
+C. Carbon
+D. Sodium
+Answer:","[""Lead"", ""Nitrogen"", ""Carbon"", ""Sodium""]",http,0.0,16,none,"{""id"":""chatcmpl-atahvs0zxtq5ni2qfuruo"",""object"":""chat.completion"",""created"":1795592540,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T07:42:22.218956+00:00
+d0e33d773cf6d6fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which issue of the ""Sonic the Hedgehog"" comic did Scourge the Hedgehog make his first appearance?
+A. Sonic the Hedgehog #161
+B. Sonic Universe #32
+C. Sonic the Hedgehog #11
+D. Sonic the Hedgehog #47
+Answer:","[""Sonic the Hedgehog #161"", ""Sonic Universe #32"", ""Sonic the Hedgehog #11"", ""Sonic the Hedgehog #47""]",http,0.0,16,none,"{""id"":""chatcmpl-tiogouu7lvj2i3g9z0v2e1"",""object"":""chat.completion"",""created"":1795592541,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8941,,MarianeAzar,20261125_084135,2026-11-25T07:42:23.113288+00:00
+d0e33d773cf6d6fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which issue of the ""Sonic the Hedgehog"" comic did Scourge the Hedgehog make his first appearance?
+A. Sonic the Hedgehog #161
+B. Sonic Universe #32
+C. Sonic the Hedgehog #11
+D. Sonic the Hedgehog #47
+Answer:","[""Sonic the Hedgehog #161"", ""Sonic Universe #32"", ""Sonic the Hedgehog #11"", ""Sonic the Hedgehog #47""]",http,0.0,16,none,"{""id"":""chatcmpl-ocf9dn8qqnkehsgswur3"",""object"":""chat.completion"",""created"":1795592542,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9215,,MarianeAzar,20261125_084135,2026-11-25T07:42:24.034989+00:00
+fd2166047a605075,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Nvidia's headquarters are based in which Silicon Valley city?
+A. Cupertino
+B. Santa Clara
+C. Palo Alto
+D. Mountain View
+Answer:","[""Cupertino"", ""Santa Clara"", ""Palo Alto"", ""Mountain View""]",http,0.0,16,none,"{""id"":""chatcmpl-mb8snh4eb4lrkn44rdca6f"",""object"":""chat.completion"",""created"":1795592543,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8821,,MarianeAzar,20261125_084135,2026-11-25T07:42:24.917258+00:00
+fd2166047a605075,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Nvidia's headquarters are based in which Silicon Valley city?
+A. Cupertino
+B. Santa Clara
+C. Palo Alto
+D. Mountain View
+Answer:","[""Cupertino"", ""Santa Clara"", ""Palo Alto"", ""Mountain View""]",http,0.0,16,none,"{""id"":""chatcmpl-1q8c17elcsvh3xogwh7ad8"",""object"":""chat.completion"",""created"":1795592544,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T07:42:25.775006+00:00
+ea6f13a81d8622b9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book series ""Odd Thomas"", Danny Jessup has what genetic disease?
+A. Spinocerebellar ataxia
+B. Osteogenesis Imperfecta
+C. Cystic Fibrosis
+D. Adrenoleukodystrophy
+Answer:","[""Spinocerebellar ataxia"", ""Osteogenesis Imperfecta"", ""Cystic Fibrosis"", ""Adrenoleukodystrophy""]",http,0.0,16,none,"{""id"":""chatcmpl-a9g932p9le4u14013lfsi"",""object"":""chat.completion"",""created"":1795592545,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T07:42:26.631870+00:00
+ea6f13a81d8622b9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the book series ""Odd Thomas"", Danny Jessup has what genetic disease?
+A. Spinocerebellar ataxia
+B. Osteogenesis Imperfecta
+C. Cystic Fibrosis
+D. Adrenoleukodystrophy
+Answer:","[""Spinocerebellar ataxia"", ""Osteogenesis Imperfecta"", ""Cystic Fibrosis"", ""Adrenoleukodystrophy""]",http,0.0,16,none,"{""id"":""chatcmpl-owb7j9siuyr71mo2aqmt17"",""object"":""chat.completion"",""created"":1795592546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8948,,MarianeAzar,20261125_084135,2026-11-25T07:42:27.527019+00:00
+9c54e81166e5958a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Korean word for ""heart""?
+A. Segseu
+B. Simjang
+C. Aejeong
+D. Jeongsin
+Answer:","[""Segseu"", ""Simjang"", ""Aejeong"", ""Jeongsin""]",http,0.0,16,none,"{""id"":""chatcmpl-vjmu9lnhxvpm64n2k6e8"",""object"":""chat.completion"",""created"":1795592546,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261125_084135,2026-11-25T07:42:28.419446+00:00
+9c54e81166e5958a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the romanized Korean word for ""heart""?
+A. Segseu
+B. Simjang
+C. Aejeong
+D. Jeongsin
+Answer:","[""Segseu"", ""Simjang"", ""Aejeong"", ""Jeongsin""]",http,0.0,16,none,"{""id"":""chatcmpl-kuuzb0h0eertbn492jucek"",""object"":""chat.completion"",""created"":1795592547,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8648,,MarianeAzar,20261125_084135,2026-11-25T07:42:29.284451+00:00
+6fd151bd1eba6f2a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dry ice is the solid form of what substance?
+A. Nitrogen
+B. Ammonia
+C. Carbon dioxide
+D. Oxygen
+Answer:","[""Nitrogen"", ""Ammonia"", ""Carbon dioxide"", ""Oxygen""]",http,0.0,16,none,"{""id"":""chatcmpl-jufn2ekhfja6p1i0yf6pyp"",""object"":""chat.completion"",""created"":1795592548,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T07:42:30.141433+00:00
+6fd151bd1eba6f2a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dry ice is the solid form of what substance?
+A. Nitrogen
+B. Ammonia
+C. Carbon dioxide
+D. Oxygen
+Answer:","[""Nitrogen"", ""Ammonia"", ""Carbon dioxide"", ""Oxygen""]",http,0.0,16,none,"{""id"":""chatcmpl-enivutdwlbtlb51igvod6"",""object"":""chat.completion"",""created"":1795592549,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261125_084135,2026-11-25T07:42:30.999410+00:00
+1fff60568b974543,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rainbow Six: Siege"", which of the following operators cannot breach reinforced walls?
+A. Maverick
+B. Thermite
+C. Buck
+D. Hibana
+Answer:","[""Maverick"", ""Thermite"", ""Buck"", ""Hibana""]",http,0.0,16,none,"{""id"":""chatcmpl-fw74b4s358faqk7zca4f1o"",""object"":""chat.completion"",""created"":1795592550,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:42:31.849289+00:00
+1fff60568b974543,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Rainbow Six: Siege"", which of the following operators cannot breach reinforced walls?
+A. Maverick
+B. Thermite
+C. Buck
+D. Hibana
+Answer:","[""Maverick"", ""Thermite"", ""Buck"", ""Hibana""]",http,0.0,16,none,"{""id"":""chatcmpl-22reir2klapzoqpw662zi"",""object"":""chat.completion"",""created"":1795592551,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T07:42:32.706048+00:00
+02ae62affe455fd7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What studio animated Fullmetal Alchemist?
+A. xebec
+B. Trigger
+C. Pierrot
+D. Bones
+Answer:","[""xebec"", ""Trigger"", ""Pierrot"", ""Bones""]",http,0.0,16,none,"{""id"":""chatcmpl-w5kjh01t0pm1sqf6ldpof"",""object"":""chat.completion"",""created"":1795592552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T07:42:33.567501+00:00
+02ae62affe455fd7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What studio animated Fullmetal Alchemist?
+A. xebec
+B. Trigger
+C. Pierrot
+D. Bones
+Answer:","[""xebec"", ""Trigger"", ""Pierrot"", ""Bones""]",http,0.0,16,none,"{""id"":""chatcmpl-ap1o2o2awwsenz1hx7h1a6"",""object"":""chat.completion"",""created"":1795592552,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261125_084135,2026-11-25T07:42:34.416126+00:00
+1571b50bfc6f48d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a stop codon in DNA?
+A. ACT
+B. GTA
+C. ACA
+D. TAA
+Answer:","[""ACT"", ""GTA"", ""ACA"", ""TAA""]",http,0.0,16,none,"{""id"":""chatcmpl-0fycy9kcm6l186rvacw75c"",""object"":""chat.completion"",""created"":1795592553,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8415,,MarianeAzar,20261125_084135,2026-11-25T07:42:35.257832+00:00
+1571b50bfc6f48d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a stop codon in DNA?
+A. ACT
+B. GTA
+C. ACA
+D. TAA
+Answer:","[""ACT"", ""GTA"", ""ACA"", ""TAA""]",http,0.0,16,none,"{""id"":""chatcmpl-llm4kptqoeqxnf92k6zc7"",""object"":""chat.completion"",""created"":1795592554,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8479,,MarianeAzar,20261125_084135,2026-11-25T07:42:36.105897+00:00
+cb5e95d65d89e083,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What direction does the Statue of Liberty face?
+A. Northeast
+B. Southwest
+C. Southeast
+D. Northwest
+Answer:","[""Northeast"", ""Southwest"", ""Southeast"", ""Northwest""]",http,0.0,16,none,"{""id"":""chatcmpl-svaf3snmnljo8ryvgrfzfq"",""object"":""chat.completion"",""created"":1795592555,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T07:42:36.958793+00:00
+cb5e95d65d89e083,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What direction does the Statue of Liberty face?
+A. Northeast
+B. Southwest
+C. Southeast
+D. Northwest
+Answer:","[""Northeast"", ""Southwest"", ""Southeast"", ""Northwest""]",http,0.0,16,none,"{""id"":""chatcmpl-0rwxokou6y7kol18oomkfqt"",""object"":""chat.completion"",""created"":1795592556,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T07:42:37.817423+00:00
+16b2e233bb382c90,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The board game Go has more possible legal positions than the number of atoms in the visible universe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hceev6o3gf1qx656y7jzb"",""object"":""chat.completion"",""created"":1795592557,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8476,,MarianeAzar,20261125_084135,2026-11-25T07:42:38.665215+00:00
+16b2e233bb382c90,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The board game Go has more possible legal positions than the number of atoms in the visible universe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u4v5ayhybbgh0nm2axomzn"",""object"":""chat.completion"",""created"":1795592558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8393,,MarianeAzar,20261125_084135,2026-11-25T07:42:39.504691+00:00
+739085a279dd0299,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the default theme that is installed with Windows XP?
+A. Bliss
+B. Luna
+C. Neptune
+D. Whistler
+Answer:","[""Bliss"", ""Luna"", ""Neptune"", ""Whistler""]",http,0.0,16,none,"{""id"":""chatcmpl-fdgoyqziz27lhi85z3x0o"",""object"":""chat.completion"",""created"":1795592558,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8461,,MarianeAzar,20261125_084135,2026-11-25T07:42:40.351134+00:00

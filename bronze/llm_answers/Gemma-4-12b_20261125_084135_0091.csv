@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+753c3961c94eafbd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show Stranger Things, what is Eleven's favorite breakfast food?
+A. Bacon and Eggs
+B. Eggo Waffles
+C. Captain Crunch
+D. Toast
+Answer:","[""Bacon and Eggs"", ""Eggo Waffles"", ""Captain Crunch"", ""Toast""]",http,0.0,16,none,"{""id"":""chatcmpl-5cl5m1vpm581ywqsv4nbk5"",""object"":""chat.completion"",""created"":1795594634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9553,,MarianeAzar,20261125_084135,2026-11-25T08:17:16.299392+00:00
+33444f597ea58919,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a color of mana in Magic: The Gathering?
+A. White
+B. Blue
+C. Yellow
+D. Green
+Answer:","[""White"", ""Blue"", ""Yellow"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-vi6ff0s1b1okd70tx7w8h"",""object"":""chat.completion"",""created"":1795594635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3427,,MarianeAzar,20261125_084135,2026-11-25T08:17:17.642383+00:00
+33444f597ea58919,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a color of mana in Magic: The Gathering?
+A. White
+B. Blue
+C. Yellow
+D. Green
+Answer:","[""White"", ""Blue"", ""Yellow"", ""Green""]",http,0.0,16,none,"{""id"":""chatcmpl-2d05vy2ahb7qc1u7q6u9rq"",""object"":""chat.completion"",""created"":1795594637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3544,,MarianeAzar,20261125_084135,2026-11-25T08:17:18.997089+00:00
+8bd8b5005a32a16d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The file hosting service, ""Google Drive"" was launched on what day?
+A. January 12, 2014
+B. April 24, 2012
+C. November 14, 2008
+D. January 20, 2010
+Answer:","[""January 12, 2014"", ""April 24, 2012"", ""November 14, 2008"", ""January 20, 2010""]",http,0.0,16,none,"{""id"":""chatcmpl-j5rtvzxxnlkrtzaeyzwwal"",""object"":""chat.completion"",""created"":1795594638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1785,,MarianeAzar,20261125_084135,2026-11-25T08:17:20.175897+00:00
+8bd8b5005a32a16d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The file hosting service, ""Google Drive"" was launched on what day?
+A. January 12, 2014
+B. April 24, 2012
+C. November 14, 2008
+D. January 20, 2010
+Answer:","[""January 12, 2014"", ""April 24, 2012"", ""November 14, 2008"", ""January 20, 2010""]",http,0.0,16,none,"{""id"":""chatcmpl-6kbfwr5alhmu39aa04ltcl"",""object"":""chat.completion"",""created"":1795594639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2041,,MarianeAzar,20261125_084135,2026-11-25T08:17:21.380378+00:00
+1c600d9de680c30b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Dire Straits's Song ""Money for Nothing"" release?
+A. 1985
+B. 1991
+C. 1980
+D. 1973
+Answer:","[""1985"", ""1991"", ""1980"", ""1973""]",http,0.0,16,none,"{""id"":""chatcmpl-2pkhlmqppkzoj7n3jezm7"",""object"":""chat.completion"",""created"":1795594640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9764,,MarianeAzar,20261125_084135,2026-11-25T08:17:22.357018+00:00
+1c600d9de680c30b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Dire Straits's Song ""Money for Nothing"" release?
+A. 1985
+B. 1991
+C. 1980
+D. 1973
+Answer:","[""1985"", ""1991"", ""1980"", ""1973""]",http,0.0,16,none,"{""id"":""chatcmpl-htmd114vyaf4j4tn8zc7tb"",""object"":""chat.completion"",""created"":1795594641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9725,,MarianeAzar,20261125_084135,2026-11-25T08:17:23.329827+00:00
+0275a84fdf12a603,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The music video to The Buggle's ""Video Killed the Radio Star"" was the first music video to broadcast on MTV.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q700fdkxsrsgs4fpguf6mp"",""object"":""chat.completion"",""created"":1795594642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3389,,MarianeAzar,20261125_084135,2026-11-25T08:17:24.668997+00:00
+0275a84fdf12a603,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The music video to The Buggle's ""Video Killed the Radio Star"" was the first music video to broadcast on MTV.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-inz13l6hjrjqt68oji27q9"",""object"":""chat.completion"",""created"":1795594644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9565,,MarianeAzar,20261125_084135,2026-11-25T08:17:25.625695+00:00
+5415ae35f3ae60ba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Greenland is almost as big as Africa.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lrlb4gyhhzxbrqw8sqb8"",""object"":""chat.completion"",""created"":1795594645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261125_084135,2026-11-25T08:17:26.513313+00:00
+5415ae35f3ae60ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Greenland is almost as big as Africa.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-smocq4r54zg7yu8u7ny36"",""object"":""chat.completion"",""created"":1795594645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2908,,MarianeAzar,20261125_084135,2026-11-25T08:17:27.804295+00:00
+9e4cd0bb8eb7a2c2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Deionized water is water with which of the following removed?
+A. Oxygen
+B. Iron
+C. Hydrogen
+D. Uncharged atoms
+Answer:","[""Oxygen"", ""Iron"", ""Hydrogen"", ""Uncharged atoms""]",http,0.0,16,none,"{""id"":""chatcmpl-nldtsjvaa6rsy6uma2306"",""object"":""chat.completion"",""created"":1795594647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8962,,MarianeAzar,20261125_084135,2026-11-25T08:17:28.700773+00:00
+9e4cd0bb8eb7a2c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Deionized water is water with which of the following removed?
+A. Oxygen
+B. Iron
+C. Hydrogen
+D. Uncharged atoms
+Answer:","[""Oxygen"", ""Iron"", ""Hydrogen"", ""Uncharged atoms""]",http,0.0,16,none,"{""id"":""chatcmpl-hvwc0qwu32zygllzvvb8"",""object"":""chat.completion"",""created"":1795594648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9553,,MarianeAzar,20261125_084135,2026-11-25T08:17:29.656367+00:00
+c8e30735cc30fdf4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language was used to create the game ""Minecraft""?
+A. C++
+B. Python
+C. Java
+D. HTML 5
+Answer:","[""C++"", ""Python"", ""Java"", ""HTML 5""]",http,0.0,16,none,"{""id"":""chatcmpl-edar5zv9inry4ck47e1ne"",""object"":""chat.completion"",""created"":1795594649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4658,,MarianeAzar,20261125_084135,2026-11-25T08:17:31.122646+00:00
+c8e30735cc30fdf4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language was used to create the game ""Minecraft""?
+A. C++
+B. Python
+C. Java
+D. HTML 5
+Answer:","[""C++"", ""Python"", ""Java"", ""HTML 5""]",http,0.0,16,none,"{""id"":""chatcmpl-4oin88mnn4uraapvrbcbm"",""object"":""chat.completion"",""created"":1795594650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1418,,MarianeAzar,20261125_084135,2026-11-25T08:17:32.264739+00:00
+bed8a3c7aef2d12f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Google founded?
+A. September 4, 1998
+B. December 12, 1989
+C. October 9, 1997
+D. Feburary 7th, 2000
+Answer:","[""September 4, 1998"", ""December 12, 1989"", ""October 9, 1997"", ""Feburary 7th, 2000""]",http,0.0,16,none,"{""id"":""chatcmpl-p8e12xvh453h6uh5vb385"",""object"":""chat.completion"",""created"":1795594651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0703,,MarianeAzar,20261125_084135,2026-11-25T08:17:33.335687+00:00
+bed8a3c7aef2d12f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Google founded?
+A. September 4, 1998
+B. December 12, 1989
+C. October 9, 1997
+D. Feburary 7th, 2000
+Answer:","[""September 4, 1998"", ""December 12, 1989"", ""October 9, 1997"", ""Feburary 7th, 2000""]",http,0.0,16,none,"{""id"":""chatcmpl-9yona8zbl5qte55fh1l3wk"",""object"":""chat.completion"",""created"":1795594652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0098,,MarianeAzar,20261125_084135,2026-11-25T08:17:34.345707+00:00
+81f160465287ef74,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a semiconductor amplifying device?
+A. transistor
+B. diode
+C. P-N junction
+D. tube
+Answer:","[""transistor"", ""diode"", ""P-N junction"", ""tube""]",http,0.0,16,none,"{""id"":""chatcmpl-exquwgapcymhr1zf2oy7qf"",""object"":""chat.completion"",""created"":1795594653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.293,,MarianeAzar,20261125_084135,2026-11-25T08:17:35.639170+00:00
+81f160465287ef74,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a semiconductor amplifying device?
+A. transistor
+B. diode
+C. P-N junction
+D. tube
+Answer:","[""transistor"", ""diode"", ""P-N junction"", ""tube""]",http,0.0,16,none,"{""id"":""chatcmpl-jhslr91njzlw2emn3fbrx"",""object"":""chat.completion"",""created"":1795594655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9223,,MarianeAzar,20261125_084135,2026-11-25T08:17:36.561785+00:00
+7d6918b69e561c1f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song is NOT by singer Tom Jones?
+A. It's Not Unusual
+B. What's New Pussycat
+C. Never Gonna Give You Up
+D. Delilah
+Answer:","[""It's Not Unusual"", ""What's New Pussycat"", ""Never Gonna Give You Up"", ""Delilah""]",http,0.0,16,none,"{""id"":""chatcmpl-h56ck8w89purb5fwmd18"",""object"":""chat.completion"",""created"":1795594655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2468,,MarianeAzar,20261125_084135,2026-11-25T08:17:37.808863+00:00
+7d6918b69e561c1f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song is NOT by singer Tom Jones?
+A. It's Not Unusual
+B. What's New Pussycat
+C. Never Gonna Give You Up
+D. Delilah
+Answer:","[""It's Not Unusual"", ""What's New Pussycat"", ""Never Gonna Give You Up"", ""Delilah""]",http,0.0,16,none,"{""id"":""chatcmpl-eoaufxd0xodl15w6l9vii"",""object"":""chat.completion"",""created"":1795594657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.306,,MarianeAzar,20261125_084135,2026-11-25T08:17:39.115101+00:00
+f1de6268589b1b49,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Phantasy Star Online 2"", which is the first area that you are granted access to?
+A. Forest
+B. Plains
+C. Caves
+D. Swamp
+Answer:","[""Forest"", ""Plains"", ""Caves"", ""Swamp""]",http,0.0,16,none,"{""id"":""chatcmpl-4jp4965xh1lr4r6ubvl3b"",""object"":""chat.completion"",""created"":1795594658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.941,,MarianeAzar,20261125_084135,2026-11-25T08:17:40.056454+00:00
+f1de6268589b1b49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Phantasy Star Online 2"", which is the first area that you are granted access to?
+A. Forest
+B. Plains
+C. Caves
+D. Swamp
+Answer:","[""Forest"", ""Plains"", ""Caves"", ""Swamp""]",http,0.0,16,none,"{""id"":""chatcmpl-1kyx24blaxvhdpacemyj1i"",""object"":""chat.completion"",""created"":1795594659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2459,,MarianeAzar,20261125_084135,2026-11-25T08:17:41.302629+00:00
+e7a0e4e01a4eccf5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Grand Theft Auto V, what was Michael De Santa's former surname?
+A. Watson
+B. Townley
+C. De Santos
+D. Simpson
+Answer:","[""Watson"", ""Townley"", ""De Santos"", ""Simpson""]",http,0.0,16,none,"{""id"":""chatcmpl-7wwdd0ls1h64k5i4lrjbzd"",""object"":""chat.completion"",""created"":1795594660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2574,,MarianeAzar,20261125_084135,2026-11-25T08:17:42.560312+00:00
+e7a0e4e01a4eccf5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Grand Theft Auto V, what was Michael De Santa's former surname?
+A. Watson
+B. Townley
+C. De Santos
+D. Simpson
+Answer:","[""Watson"", ""Townley"", ""De Santos"", ""Simpson""]",http,0.0,16,none,"{""id"":""chatcmpl-svnbndvei2lbej313k4t46"",""object"":""chat.completion"",""created"":1795594662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9557,,MarianeAzar,20261125_084135,2026-11-25T08:17:43.516232+00:00

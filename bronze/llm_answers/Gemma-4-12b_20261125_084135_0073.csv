@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d46cbc4bd6c81189,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many players are there in an association football/soccer team?
+A. 8
+B. 11
+C. 9
+D. 10
+Answer:","[""8"", ""11"", ""9"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-8p85ly7qagnjncm9j0fc3"",""object"":""chat.completion"",""created"":1795594133,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3492,,MarianeAzar,20261125_084135,2026-11-25T08:08:55.416520+00:00
+5c4e89a98a19f43f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does the book ""The Silence of the Lambs"" get its title from?
+A. The relation it has with killing the innocents
+B. The villain's favourite meal
+C. The main character's trauma in childhood
+D. The voice of innocent people being shut by the powerful
+Answer:","[""The relation it has with killing the innocents"", ""The villain's favourite meal"", ""The main character's trauma in childhood"", ""The voice of innocent people being shut by the powerful""]",http,0.0,16,none,"{""id"":""chatcmpl-wx92zm023sg9188tmag4no"",""object"":""chat.completion"",""created"":1795594134,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9952,,MarianeAzar,20261125_084135,2026-11-25T08:08:56.412114+00:00
+5c4e89a98a19f43f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does the book ""The Silence of the Lambs"" get its title from?
+A. The relation it has with killing the innocents
+B. The villain's favourite meal
+C. The main character's trauma in childhood
+D. The voice of innocent people being shut by the powerful
+Answer:","[""The relation it has with killing the innocents"", ""The villain's favourite meal"", ""The main character's trauma in childhood"", ""The voice of innocent people being shut by the powerful""]",http,0.0,16,none,"{""id"":""chatcmpl-9dp7eo9tkqdl0ahm074fri"",""object"":""chat.completion"",""created"":1795594135,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0113,,MarianeAzar,20261125_084135,2026-11-25T08:08:57.423656+00:00
+cfd4cd8940d24659,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the smallest country in South America by area?
+A. Chile
+B. Suriname
+C. Uruguay
+D. Brazil
+Answer:","[""Chile"", ""Suriname"", ""Uruguay"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-k9he915o2qixxt9gttghhb"",""object"":""chat.completion"",""created"":1795594136,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4078,,MarianeAzar,20261125_084135,2026-11-25T08:08:58.831772+00:00
+cfd4cd8940d24659,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the smallest country in South America by area?
+A. Chile
+B. Suriname
+C. Uruguay
+D. Brazil
+Answer:","[""Chile"", ""Suriname"", ""Uruguay"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-f5336byooej991nslddfoo"",""object"":""chat.completion"",""created"":1795594138,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.028,,MarianeAzar,20261125_084135,2026-11-25T08:08:59.860032+00:00
+bc7bea2d299c89a3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?
+A. Atari
+B. Microsoft
+C. Apple
+D. Commodore
+Answer:","[""Atari"", ""Microsoft"", ""Apple"", ""Commodore""]",http,0.0,16,none,"{""id"":""chatcmpl-qfvhwej0hfgpx9quc3g2r"",""object"":""chat.completion"",""created"":1795594139,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9492,,MarianeAzar,20261125_084135,2026-11-25T08:09:00.809767+00:00
+bc7bea2d299c89a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company was established on April 1st, 1976 by Steve Jobs, Steve Wozniak and Ronald Wayne?
+A. Atari
+B. Microsoft
+C. Apple
+D. Commodore
+Answer:","[""Atari"", ""Microsoft"", ""Apple"", ""Commodore""]",http,0.0,16,none,"{""id"":""chatcmpl-t9enjicxlmut8zwb7txoo"",""object"":""chat.completion"",""created"":1795594140,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3085,,MarianeAzar,20261125_084135,2026-11-25T08:09:02.118560+00:00
+ea7f9347df6ef7fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a ""dakimakura""?
+A. A yoga posture
+B. A Chinese meal, essentially composed of fish
+C. A body pillow
+D. A word used to describe two people who truly love each other
+Answer:","[""A yoga posture"", ""A Chinese meal, essentially composed of fish"", ""A body pillow"", ""A word used to describe two people who truly love each other""]",http,0.0,16,none,"{""id"":""chatcmpl-vsvlhd6s8s9us32wc0dci"",""object"":""chat.completion"",""created"":1795594141,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9421,,MarianeAzar,20261125_084135,2026-11-25T08:09:03.060933+00:00
+ea7f9347df6ef7fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a ""dakimakura""?
+A. A yoga posture
+B. A Chinese meal, essentially composed of fish
+C. A body pillow
+D. A word used to describe two people who truly love each other
+Answer:","[""A yoga posture"", ""A Chinese meal, essentially composed of fish"", ""A body pillow"", ""A word used to describe two people who truly love each other""]",http,0.0,16,none,"{""id"":""chatcmpl-4y7riw3cz1un1g5ar8wu2a"",""object"":""chat.completion"",""created"":1795594142,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9933,,MarianeAzar,20261125_084135,2026-11-25T08:09:04.054578+00:00
+864eb16ef8654d92,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Team Fortress 2, the weapon ""Your Eternal Reward"" is a reference to the 1992 film Aladdin.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c55ygpz5hobw4dc6yozid"",""object"":""chat.completion"",""created"":1795594143,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3128,,MarianeAzar,20261125_084135,2026-11-25T08:09:05.367699+00:00
+864eb16ef8654d92,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Team Fortress 2, the weapon ""Your Eternal Reward"" is a reference to the 1992 film Aladdin.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-78ptlk547oagm6opli6hdg"",""object"":""chat.completion"",""created"":1795594144,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9364,,MarianeAzar,20261125_084135,2026-11-25T08:09:06.304284+00:00
+1439d9b53a7cda20,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Hellboy universe, who founded the BPRD?
+A. Kate Corrigan
+B. Trevor Bruttenholm
+C. Johann Kraus
+D. Benjamin Daimio
+Answer:","[""Kate Corrigan"", ""Trevor Bruttenholm"", ""Johann Kraus"", ""Benjamin Daimio""]",http,0.0,16,none,"{""id"":""chatcmpl-us14yrtauesipa7sexyona"",""object"":""chat.completion"",""created"":1795594145,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.942,,MarianeAzar,20261125_084135,2026-11-25T08:09:07.246611+00:00
+1439d9b53a7cda20,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Hellboy universe, who founded the BPRD?
+A. Kate Corrigan
+B. Trevor Bruttenholm
+C. Johann Kraus
+D. Benjamin Daimio
+Answer:","[""Kate Corrigan"", ""Trevor Bruttenholm"", ""Johann Kraus"", ""Benjamin Daimio""]",http,0.0,16,none,"{""id"":""chatcmpl-ameumekriuu9bthfsruhdc"",""object"":""chat.completion"",""created"":1795594146,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2942,,MarianeAzar,20261125_084135,2026-11-25T08:09:08.541519+00:00
+af0b27e975fcbe67,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: DHCP stands for Dynamic Host Configuration Port.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kew8xr1rxpintdaqinikqb"",""object"":""chat.completion"",""created"":1795594147,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8916,,MarianeAzar,20261125_084135,2026-11-25T08:09:09.433278+00:00
+af0b27e975fcbe67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: DHCP stands for Dynamic Host Configuration Port.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6iiy145nhzmu4txe4bpkif"",""object"":""chat.completion"",""created"":1795594148,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9021,,MarianeAzar,20261125_084135,2026-11-25T08:09:10.335578+00:00
+9d8e113c8f5fb915,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?
+A. Coughton Court
+B. Hampton Court
+C. St James's Palace
+D. Buckingham Palace
+Answer:","[""Coughton Court"", ""Hampton Court"", ""St James's Palace"", ""Buckingham Palace""]",http,0.0,16,none,"{""id"":""chatcmpl-7syhktpok8d9m68bx9cj9t"",""object"":""chat.completion"",""created"":1795594149,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2679,,MarianeAzar,20261125_084135,2026-11-25T08:09:11.604450+00:00
+9d8e113c8f5fb915,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?
+A. Coughton Court
+B. Hampton Court
+C. St James's Palace
+D. Buckingham Palace
+Answer:","[""Coughton Court"", ""Hampton Court"", ""St James's Palace"", ""Buckingham Palace""]",http,0.0,16,none,"{""id"":""chatcmpl-vlyxiomysz86k6houarw"",""object"":""chat.completion"",""created"":1795594151,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9755,,MarianeAzar,20261125_084135,2026-11-25T08:09:12.580195+00:00
+94d5193a42781384,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Sega Genesis released in Japan?
+A. August 14, 1989
+B. September 1, 1986
+C. November 30, 1990
+D. October 29, 1988
+Answer:","[""August 14, 1989"", ""September 1, 1986"", ""November 30, 1990"", ""October 29, 1988""]",http,0.0,16,none,"{""id"":""chatcmpl-ht7asjao67n3es2lalfae"",""object"":""chat.completion"",""created"":1795594152,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2433,,MarianeAzar,20261125_084135,2026-11-25T08:09:13.823667+00:00
+94d5193a42781384,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Sega Genesis released in Japan?
+A. August 14, 1989
+B. September 1, 1986
+C. November 30, 1990
+D. October 29, 1988
+Answer:","[""August 14, 1989"", ""September 1, 1986"", ""November 30, 1990"", ""October 29, 1988""]",http,0.0,16,none,"{""id"":""chatcmpl-vkpbizp9beac9bh4uxgwn"",""object"":""chat.completion"",""created"":1795594153,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1906,,MarianeAzar,20261125_084135,2026-11-25T08:09:15.014580+00:00
+90fbf81ad2468a5b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Bulbasaur is the only starter pokemon that is a Grass/Poison type.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bj03tdnxc8gneoyqjpc1nr"",""object"":""chat.completion"",""created"":1795594154,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261125_084135,2026-11-25T08:09:15.890399+00:00
+90fbf81ad2468a5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Bulbasaur is the only starter pokemon that is a Grass/Poison type.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2o3l039s7lhbsq4gja3b5"",""object"":""chat.completion"",""created"":1795594155,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2695,,MarianeAzar,20261125_084135,2026-11-25T08:09:17.160182+00:00
+8cc2430595740653,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Israel is 7 hours ahead of New York.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gu0rhbiw7tn6mne1sugf58"",""object"":""chat.completion"",""created"":1795594156,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0585,,MarianeAzar,20261125_084135,2026-11-25T08:09:18.219035+00:00
+8cc2430595740653,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Israel is 7 hours ahead of New York.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vrfibvqx1p851sliowkxsu"",""object"":""chat.completion"",""created"":1795594157,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9802,,MarianeAzar,20261125_084135,2026-11-25T08:09:19.199388+00:00
+57dcc3c577c7ace7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Skylanders Giants, why was Zaps' Wow Pow named ""For Riley"" ?
+A. As a reference to a film
+B. As a tribute to a fan who passed away
+C. After a voice actor
+D. After one of the writers of the game
+Answer:","[""As a reference to a film"", ""As a tribute to a fan who passed away"", ""After a voice actor"", ""After one of the writers of the game""]",http,0.0,16,none,"{""id"":""chatcmpl-c1a21zk15abos5a144osp8"",""object"":""chat.completion"",""created"":1795594158,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9723,,MarianeAzar,20261125_084135,2026-11-25T08:09:20.171937+00:00
+57dcc3c577c7ace7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Skylanders Giants, why was Zaps' Wow Pow named ""For Riley"" ?
+A. As a reference to a film
+B. As a tribute to a fan who passed away
+C. After a voice actor
+D. After one of the writers of the game
+Answer:","[""As a reference to a film"", ""As a tribute to a fan who passed away"", ""After a voice actor"", ""After one of the writers of the game""]",http,0.0,16,none,"{""id"":""chatcmpl-xrywnh1r6qafy8f1almd9r"",""object"":""chat.completion"",""created"":1795594159,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.442,,MarianeAzar,20261125_084135,2026-11-25T08:09:21.614239+00:00

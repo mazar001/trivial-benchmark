@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+48396dd03dd6d05b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ADV (English) Dub of the anime ""Ghost Stories"", which character is portrayed as a Pentacostal Christian?
+A. Satsuki Miyanoshita
+B. Momoko Koigakubo
+C. Mio Itai
+D. Hajime Aoyama
+Answer:","[""Satsuki Miyanoshita"", ""Momoko Koigakubo"", ""Mio Itai"", ""Hajime Aoyama""]",http,0.0,16,none,"{""id"":""chatcmpl-44wt1badj4y3xzpgb2i7qy"",""object"":""chat.completion"",""created"":1795596358,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8959,,MarianeAzar,20261125_084135,2026-11-25T08:45:59.717760+00:00
+9dde85e47b4cf7dd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""I disapprove of what you say, but I will defend to the death your right to say it"" is a quote from French philosopher Voltaire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-q4x9iphigq8oete73z7yv9"",""object"":""chat.completion"",""created"":1795596359,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8378,,MarianeAzar,20261125_084135,2026-11-25T08:46:00.555816+00:00
+9dde85e47b4cf7dd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""I disapprove of what you say, but I will defend to the death your right to say it"" is a quote from French philosopher Voltaire.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4p9bnh8lxvxcujma7jatqt"",""object"":""chat.completion"",""created"":1795596359,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:46:01.412111+00:00
+7fe0f4954f65ce52,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a capital city?
+A. Beijing
+B. Sydney
+C. Cairo
+D. Moscow
+Answer:","[""Beijing"", ""Sydney"", ""Cairo"", ""Moscow""]",http,0.0,16,none,"{""id"":""chatcmpl-r6z1jfahvvhmc43llj5c9r"",""object"":""chat.completion"",""created"":1795596360,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8461,,MarianeAzar,20261125_084135,2026-11-25T08:46:02.258515+00:00
+7fe0f4954f65ce52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a capital city?
+A. Beijing
+B. Sydney
+C. Cairo
+D. Moscow
+Answer:","[""Beijing"", ""Sydney"", ""Cairo"", ""Moscow""]",http,0.0,16,none,"{""id"":""chatcmpl-wxlxs3uatesx8k7ytxo4f"",""object"":""chat.completion"",""created"":1795596361,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8579,,MarianeAzar,20261125_084135,2026-11-25T08:46:03.116737+00:00
+fedfbf4c3fca4436,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country attacked the USS Liberty on June 8, 1967?
+A. Iran
+B. Israel
+C. Saudi Arabia
+D. Syria
+Answer:","[""Iran"", ""Israel"", ""Saudi Arabia"", ""Syria""]",http,0.0,16,none,"{""id"":""chatcmpl-28t4btatsv2qfnrxrsinxl"",""object"":""chat.completion"",""created"":1795596362,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T08:46:03.967905+00:00
+fedfbf4c3fca4436,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country attacked the USS Liberty on June 8, 1967?
+A. Iran
+B. Israel
+C. Saudi Arabia
+D. Syria
+Answer:","[""Iran"", ""Israel"", ""Saudi Arabia"", ""Syria""]",http,0.0,16,none,"{""id"":""chatcmpl-i2x5idv6sy71d6ykkon26"",""object"":""chat.completion"",""created"":1795596363,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8804,,MarianeAzar,20261125_084135,2026-11-25T08:46:04.848678+00:00
+e7e4ba2aea950c78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who assassinated Archduke Franz Ferdinand?
+A. Ferdinand Cohen-Blind
+B. Nedeljko Čabrinović
+C. Gavrilo Princip
+D. Oskar Potiorek
+Answer:","[""Ferdinand Cohen-Blind"", ""Nedeljko Čabrinović"", ""Gavrilo Princip"", ""Oskar Potiorek""]",http,0.0,16,none,"{""id"":""chatcmpl-ibw6mgkuqllvsp8pflc55"",""object"":""chat.completion"",""created"":1795596364,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261125_084135,2026-11-25T08:46:05.697852+00:00
+e7e4ba2aea950c78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who assassinated Archduke Franz Ferdinand?
+A. Ferdinand Cohen-Blind
+B. Nedeljko Čabrinović
+C. Gavrilo Princip
+D. Oskar Potiorek
+Answer:","[""Ferdinand Cohen-Blind"", ""Nedeljko Čabrinović"", ""Gavrilo Princip"", ""Oskar Potiorek""]",http,0.0,16,none,"{""id"":""chatcmpl-2m2hskax3ymincb0d3hosn"",""object"":""chat.completion"",""created"":1795596365,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8758,,MarianeAzar,20261125_084135,2026-11-25T08:46:06.573939+00:00
+2e451c6b65624333,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Super Mario RPG: Legend of The Seven Stars, what is Geno's real name?
+A. Exor
+B. Smithy
+C. ♡♪!?
+D. Geno
+Answer:","[""Exor"", ""Smithy"", ""♡♪!?"", ""Geno""]",http,0.0,16,none,"{""id"":""chatcmpl-zzxdz5udcvr2zzxo09qh"",""object"":""chat.completion"",""created"":1795596366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9036,,MarianeAzar,20261125_084135,2026-11-25T08:46:07.478059+00:00
+2e451c6b65624333,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Super Mario RPG: Legend of The Seven Stars, what is Geno's real name?
+A. Exor
+B. Smithy
+C. ♡♪!?
+D. Geno
+Answer:","[""Exor"", ""Smithy"", ""♡♪!?"", ""Geno""]",http,0.0,16,none,"{""id"":""chatcmpl-cwlrkw74e3txa4trh1uf"",""object"":""chat.completion"",""created"":1795596366,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261125_084135,2026-11-25T08:46:08.336168+00:00
+06b5f70a8bb7436c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Dead By Daylight,"" which character starts with the perk ""Bond"".
+A. Jake Park
+B. Dwight Fairfield
+C. Claudette Morell
+D. Meg Thomas
+Answer:","[""Jake Park"", ""Dwight Fairfield"", ""Claudette Morell"", ""Meg Thomas""]",http,0.0,16,none,"{""id"":""chatcmpl-zsxct4tn5vkia49o316di"",""object"":""chat.completion"",""created"":1795596367,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:46:09.193596+00:00
+06b5f70a8bb7436c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Dead By Daylight,"" which character starts with the perk ""Bond"".
+A. Jake Park
+B. Dwight Fairfield
+C. Claudette Morell
+D. Meg Thomas
+Answer:","[""Jake Park"", ""Dwight Fairfield"", ""Claudette Morell"", ""Meg Thomas""]",http,0.0,16,none,"{""id"":""chatcmpl-37b0tu7orqfu6squsocf4r"",""object"":""chat.completion"",""created"":1795596368,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T08:46:10.049623+00:00
+54545a406dfd59bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Au on the Periodic Table refers to which element?
+A. Oxygen
+B. Gold
+C. Nickel
+D. Silver
+Answer:","[""Oxygen"", ""Gold"", ""Nickel"", ""Silver""]",http,0.0,16,none,"{""id"":""chatcmpl-z3pwnrkngwljthzo5bpvt"",""object"":""chat.completion"",""created"":1795596369,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261125_084135,2026-11-25T08:46:10.897949+00:00
+54545a406dfd59bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Au on the Periodic Table refers to which element?
+A. Oxygen
+B. Gold
+C. Nickel
+D. Silver
+Answer:","[""Oxygen"", ""Gold"", ""Nickel"", ""Silver""]",http,0.0,16,none,"{""id"":""chatcmpl-clcubi175m7x5hksywu0ur"",""object"":""chat.completion"",""created"":1795596370,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8513,,MarianeAzar,20261125_084135,2026-11-25T08:46:11.749440+00:00
+de65287e63bbafb5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Norse God has a horse named Sleipnir?
+A. Odin
+B. Balder
+C. Frigg
+D. Thor
+Answer:","[""Odin"", ""Balder"", ""Frigg"", ""Thor""]",http,0.0,16,none,"{""id"":""chatcmpl-1ky2s9sj30yhahs8jtfbsr"",""object"":""chat.completion"",""created"":1795596371,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8652,,MarianeAzar,20261125_084135,2026-11-25T08:46:12.615717+00:00
+de65287e63bbafb5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Norse God has a horse named Sleipnir?
+A. Odin
+B. Balder
+C. Frigg
+D. Thor
+Answer:","[""Odin"", ""Balder"", ""Frigg"", ""Thor""]",http,0.0,16,none,"{""id"":""chatcmpl-sczurgn2wek0s049xrhe3xp"",""object"":""chat.completion"",""created"":1795596372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:46:13.472313+00:00
+51e2720f64253de1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sugar contains fat.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qzku2ov2n7ecrcxnpfjn"",""object"":""chat.completion"",""created"":1795596372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":43,""completion_tokens"":2,""total_tokens"":45,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7858,,MarianeAzar,20261125_084135,2026-11-25T08:46:14.258321+00:00
+51e2720f64253de1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sugar contains fat.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ueynxtuwzqf3vffqimeir4"",""object"":""chat.completion"",""created"":1795596373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8135,,MarianeAzar,20261125_084135,2026-11-25T08:46:15.071973+00:00
+c4ce0fe119faaf24,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following sports is not part of the triathlon?
+A. Cycling
+B. Horse-Riding
+C. Swimming
+D. Running
+Answer:","[""Cycling"", ""Horse-Riding"", ""Swimming"", ""Running""]",http,0.0,16,none,"{""id"":""chatcmpl-qohxvwyrqs3h9qgkex0lj"",""object"":""chat.completion"",""created"":1795596374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.848,,MarianeAzar,20261125_084135,2026-11-25T08:46:15.920348+00:00
+c4ce0fe119faaf24,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following sports is not part of the triathlon?
+A. Cycling
+B. Horse-Riding
+C. Swimming
+D. Running
+Answer:","[""Cycling"", ""Horse-Riding"", ""Swimming"", ""Running""]",http,0.0,16,none,"{""id"":""chatcmpl-u73gq9w0f2ck1pas7vf3q"",""object"":""chat.completion"",""created"":1795596375,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8757,,MarianeAzar,20261125_084135,2026-11-25T08:46:16.796312+00:00
+475dca91734d846e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bob Ross was a US Air Force pilot.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xiz1t5ulruf9363noy9ktf"",""object"":""chat.completion"",""created"":1795596376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8023,,MarianeAzar,20261125_084135,2026-11-25T08:46:17.598948+00:00
+475dca91734d846e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bob Ross was a US Air Force pilot.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ol5dnbxktps3j27it41ag4"",""object"":""chat.completion"",""created"":1795596377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.807,,MarianeAzar,20261125_084135,2026-11-25T08:46:18.406120+00:00
+1248968460cc2114,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest freshwater lake by volume?
+A. Lake Superior
+B. Lake Huron
+C. Lake Michigan
+D. Lake Baikal
+Answer:","[""Lake Superior"", ""Lake Huron"", ""Lake Michigan"", ""Lake Baikal""]",http,0.0,16,none,"{""id"":""chatcmpl-d37lkdnc6obs5u89n7nkgl"",""object"":""chat.completion"",""created"":1795596377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8324,,MarianeAzar,20261125_084135,2026-11-25T08:46:19.239034+00:00
+1248968460cc2114,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest freshwater lake by volume?
+A. Lake Superior
+B. Lake Huron
+C. Lake Michigan
+D. Lake Baikal
+Answer:","[""Lake Superior"", ""Lake Huron"", ""Lake Michigan"", ""Lake Baikal""]",http,0.0,16,none,"{""id"":""chatcmpl-mlotfnrd78j36hgh3xxts"",""object"":""chat.completion"",""created"":1795596378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:46:20.112192+00:00

@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+81e24ed739912024,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Unturned originally started as a Roblox game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w5sx19bdjxf7viaxbppb67"",""object"":""chat.completion"",""created"":1795595631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7961,,MarianeAzar,20261125_084135,2026-11-25T08:33:53.265417+00:00
+81e24ed739912024,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Unturned originally started as a Roblox game.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1b6scdpvzy36cvaytof7rv"",""object"":""chat.completion"",""created"":1795595632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8212,,MarianeAzar,20261125_084135,2026-11-25T08:33:54.087001+00:00
+297c54ec5b9f859a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why was the character Trevor Philips discharged from the Air Force?
+A. Injuries
+B. Mental Health Issues
+C. Danger to Others
+D. Disease
+Answer:","[""Injuries"", ""Mental Health Issues"", ""Danger to Others"", ""Disease""]",http,0.0,16,none,"{""id"":""chatcmpl-lkg1at1i0k72tvzwq8niu"",""object"":""chat.completion"",""created"":1795595633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8444,,MarianeAzar,20261125_084135,2026-11-25T08:33:54.932414+00:00
+297c54ec5b9f859a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Why was the character Trevor Philips discharged from the Air Force?
+A. Injuries
+B. Mental Health Issues
+C. Danger to Others
+D. Disease
+Answer:","[""Injuries"", ""Mental Health Issues"", ""Danger to Others"", ""Disease""]",http,0.0,16,none,"{""id"":""chatcmpl-e6wydr1vtvvktj2czlxri"",""object"":""chat.completion"",""created"":1795595634,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T08:33:55.785696+00:00
+972c819215138d03,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games was NOT included in Valve's ""The Orange Box""?
+A. Half-Life 2: Episode Two
+B. Portal
+C. Team Fortress 2
+D. Left 4 Dead
+Answer:","[""Half-Life 2: Episode Two"", ""Portal"", ""Team Fortress 2"", ""Left 4 Dead""]",http,0.0,16,none,"{""id"":""chatcmpl-ck8fz5qt9fk6qnant1a6xh"",""object"":""chat.completion"",""created"":1795595635,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:33:56.647285+00:00
+972c819215138d03,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games was NOT included in Valve's ""The Orange Box""?
+A. Half-Life 2: Episode Two
+B. Portal
+C. Team Fortress 2
+D. Left 4 Dead
+Answer:","[""Half-Life 2: Episode Two"", ""Portal"", ""Team Fortress 2"", ""Left 4 Dead""]",http,0.0,16,none,"{""id"":""chatcmpl-nf4fkv94m6bpdd5xulai49"",""object"":""chat.completion"",""created"":1795595636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T08:33:57.532785+00:00
+195fc566b89e2a0c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?
+A. Dawngate
+B. Strife
+C. Heroes of Newerth
+D. League of Legends
+Answer:","[""Dawngate"", ""Strife"", ""Heroes of Newerth"", ""League of Legends""]",http,0.0,16,none,"{""id"":""chatcmpl-152fg7ybm67dt9mfyp387c"",""object"":""chat.completion"",""created"":1795595636,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8529,,MarianeAzar,20261125_084135,2026-11-25T08:33:58.385861+00:00
+195fc566b89e2a0c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What former MOBA, created by Waystone Games and published by EA, was shut down in 2014?
+A. Dawngate
+B. Strife
+C. Heroes of Newerth
+D. League of Legends
+Answer:","[""Dawngate"", ""Strife"", ""Heroes of Newerth"", ""League of Legends""]",http,0.0,16,none,"{""id"":""chatcmpl-rr9q75d6w3q859pek864q"",""object"":""chat.completion"",""created"":1795595637,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8891,,MarianeAzar,20261125_084135,2026-11-25T08:33:59.275118+00:00
+ec2c67773979d62b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name was historically used for the Turkish city currently known as Istanbul?
+A. Hüdavendigar
+B. Söğüt
+C. Adrianople
+D. Constantinople
+Answer:","[""Hüdavendigar"", ""Söğüt"", ""Adrianople"", ""Constantinople""]",http,0.0,16,none,"{""id"":""chatcmpl-6i18gj4rq4ok81lpzzcjyf"",""object"":""chat.completion"",""created"":1795595638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8525,,MarianeAzar,20261125_084135,2026-11-25T08:34:00.127968+00:00
+ec2c67773979d62b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What name was historically used for the Turkish city currently known as Istanbul?
+A. Hüdavendigar
+B. Söğüt
+C. Adrianople
+D. Constantinople
+Answer:","[""Hüdavendigar"", ""Söğüt"", ""Adrianople"", ""Constantinople""]",http,0.0,16,none,"{""id"":""chatcmpl-2vc0zksgupigmt2oh9p4hd"",""object"":""chat.completion"",""created"":1795595639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:34:00.983739+00:00
+77fda25991588175,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Puella Magi Madoka Magica"", what is the first name of Madoka's younger brother?
+A. Montoya
+B. Tatsuya
+C. Tomohisa
+D. Minato
+Answer:","[""Montoya"", ""Tatsuya"", ""Tomohisa"", ""Minato""]",http,0.0,16,none,"{""id"":""chatcmpl-n9tstyukklnzypykcrqqgs"",""object"":""chat.completion"",""created"":1795595640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8632,,MarianeAzar,20261125_084135,2026-11-25T08:34:01.847299+00:00
+77fda25991588175,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Puella Magi Madoka Magica"", what is the first name of Madoka's younger brother?
+A. Montoya
+B. Tatsuya
+C. Tomohisa
+D. Minato
+Answer:","[""Montoya"", ""Tatsuya"", ""Tomohisa"", ""Minato""]",http,0.0,16,none,"{""id"":""chatcmpl-kghy4bj3q9i3rui2ug97"",""object"":""chat.completion"",""created"":1795595641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8947,,MarianeAzar,20261125_084135,2026-11-25T08:34:02.742179+00:00
+56d66aaa7e46332a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which variant of the MP5 is depicted in Counter-Strike 1.6?
+A. MP5RAS
+B. MP5K
+C. MP5SD
+D. MP5N
+Answer:","[""MP5RAS"", ""MP5K"", ""MP5SD"", ""MP5N""]",http,0.0,16,none,"{""id"":""chatcmpl-a363blqskmcfgzlukrx9n"",""object"":""chat.completion"",""created"":1795595642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8483,,MarianeAzar,20261125_084135,2026-11-25T08:34:03.590606+00:00
+56d66aaa7e46332a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which variant of the MP5 is depicted in Counter-Strike 1.6?
+A. MP5RAS
+B. MP5K
+C. MP5SD
+D. MP5N
+Answer:","[""MP5RAS"", ""MP5K"", ""MP5SD"", ""MP5N""]",http,0.0,16,none,"{""id"":""chatcmpl-thz32uyknkf7dx18w8xw1v"",""object"":""chat.completion"",""created"":1795595643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8759,,MarianeAzar,20261125_084135,2026-11-25T08:34:04.466580+00:00
+fc407c882277a62b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the famous artist Van Gogh?
+A. French
+B. Dutch
+C. Polish
+D. Russian
+Answer:","[""French"", ""Dutch"", ""Polish"", ""Russian""]",http,0.0,16,none,"{""id"":""chatcmpl-ode2ka7hge9wqtu7xpmdn"",""object"":""chat.completion"",""created"":1795595643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8497,,MarianeAzar,20261125_084135,2026-11-25T08:34:05.316605+00:00
+fc407c882277a62b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the famous artist Van Gogh?
+A. French
+B. Dutch
+C. Polish
+D. Russian
+Answer:","[""French"", ""Dutch"", ""Polish"", ""Russian""]",http,0.0,16,none,"{""id"":""chatcmpl-h2m0b4qtq477kimoyrxtk"",""object"":""chat.completion"",""created"":1795595644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T08:34:06.169641+00:00
+27c5721556061de4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the US State of New York?
+A. Buffalo
+B. New York
+C. Albany
+D. Rochester
+Answer:","[""Buffalo"", ""New York"", ""Albany"", ""Rochester""]",http,0.0,16,none,"{""id"":""chatcmpl-omzmbecqed8wsd15oqq5"",""object"":""chat.completion"",""created"":1795595645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261125_084135,2026-11-25T08:34:07.021434+00:00
+27c5721556061de4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the US State of New York?
+A. Buffalo
+B. New York
+C. Albany
+D. Rochester
+Answer:","[""Buffalo"", ""New York"", ""Albany"", ""Rochester""]",http,0.0,16,none,"{""id"":""chatcmpl-kpvoh5jpp2dhk6atxf29vm"",""object"":""chat.completion"",""created"":1795595646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T08:34:07.895578+00:00
+89d136490076279a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the fastest land animal?
+A. Pronghorn Antelope
+B. Lion
+C. Thomson’s Gazelle
+D. Cheetah
+Answer:","[""Pronghorn Antelope"", ""Lion"", ""Thomson’s Gazelle"", ""Cheetah""]",http,0.0,16,none,"{""id"":""chatcmpl-fdsjzwtibep7rs9lm5418k"",""object"":""chat.completion"",""created"":1795595647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8706,,MarianeAzar,20261125_084135,2026-11-25T08:34:08.766559+00:00
+89d136490076279a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the fastest land animal?
+A. Pronghorn Antelope
+B. Lion
+C. Thomson’s Gazelle
+D. Cheetah
+Answer:","[""Pronghorn Antelope"", ""Lion"", ""Thomson’s Gazelle"", ""Cheetah""]",http,0.0,16,none,"{""id"":""chatcmpl-0k6hyvds00i7ll30f5mru6"",""object"":""chat.completion"",""created"":1795595648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:34:09.627902+00:00
+8399daa107d1a959,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following did not feature in the cartoon 'Wacky Races'?
+A. The Compact Pussycat
+B. The Bouldermobile
+C. The Dragon Wagon
+D. The Crimson Haybailer
+Answer:","[""The Compact Pussycat"", ""The Bouldermobile"", ""The Dragon Wagon"", ""The Crimson Haybailer""]",http,0.0,16,none,"{""id"":""chatcmpl-hsr06idwmavdauuwjmnwh5"",""object"":""chat.completion"",""created"":1795595649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8578,,MarianeAzar,20261125_084135,2026-11-25T08:34:10.486273+00:00
+8399daa107d1a959,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following did not feature in the cartoon 'Wacky Races'?
+A. The Compact Pussycat
+B. The Bouldermobile
+C. The Dragon Wagon
+D. The Crimson Haybailer
+Answer:","[""The Compact Pussycat"", ""The Bouldermobile"", ""The Dragon Wagon"", ""The Crimson Haybailer""]",http,0.0,16,none,"{""id"":""chatcmpl-tlzwzl7xj9bccwojh69sl"",""object"":""chat.completion"",""created"":1795595649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261125_084135,2026-11-25T08:34:11.373385+00:00
+8d84a09967e43766,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actors made up the trio in ""The Good, the Bad, and the Ugly""?
+A. Sergio Leone, Ennio Morricone, and Tonino Delli Colli
+B. Clint Eastwood, Eli Wallach, and Lee Van Cleef
+C. Yul Brynner, Steve McQueen, and Charles Bronson
+D. Aldo Giuffrè, Mario Brega, and Luigi Pistilli
+Answer:","[""Sergio Leone, Ennio Morricone, and Tonino Delli Colli"", ""Clint Eastwood, Eli Wallach, and Lee Van Cleef"", ""Yul Brynner, Steve McQueen, and Charles Bronson"", ""Aldo Giuffrè, Mario Brega, and Luigi Pistilli""]",http,0.0,16,none,"{""id"":""chatcmpl-hszqh8gwrrjkpmrgm8nxj"",""object"":""chat.completion"",""created"":1795595650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":130,""completion_tokens"":2,""total_tokens"":132,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9209,,MarianeAzar,20261125_084135,2026-11-25T08:34:12.294643+00:00
+8d84a09967e43766,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actors made up the trio in ""The Good, the Bad, and the Ugly""?
+A. Sergio Leone, Ennio Morricone, and Tonino Delli Colli
+B. Clint Eastwood, Eli Wallach, and Lee Van Cleef
+C. Yul Brynner, Steve McQueen, and Charles Bronson
+D. Aldo Giuffrè, Mario Brega, and Luigi Pistilli
+Answer:","[""Sergio Leone, Ennio Morricone, and Tonino Delli Colli"", ""Clint Eastwood, Eli Wallach, and Lee Van Cleef"", ""Yul Brynner, Steve McQueen, and Charles Bronson"", ""Aldo Giuffrè, Mario Brega, and Luigi Pistilli""]",http,0.0,16,none,"{""id"":""chatcmpl-y1b6w9zmt5itdfb7grc13o"",""object"":""chat.completion"",""created"":1795595651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":144,""completion_tokens"":2,""total_tokens"":146,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9887,,MarianeAzar,20261125_084135,2026-11-25T08:34:13.283602+00:00
+28dd72b363409d33,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When does ""Rogue One: A Star Wars Story"" take place chronologically in the series?
+A. After Episode 6
+B. Before Episode 1
+C. Between Episode 4 and 5
+D. Between Episode 3 and 4
+Answer:","[""After Episode 6"", ""Before Episode 1"", ""Between Episode 4 and 5"", ""Between Episode 3 and 4""]",http,0.0,16,none,"{""id"":""chatcmpl-63de2iad7vewep8f8n0na8"",""object"":""chat.completion"",""created"":1795595652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T08:34:14.175112+00:00

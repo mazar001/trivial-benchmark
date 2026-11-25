@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7a65bfb95f505b6e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medical term for the belly button is which of the following?
+A. Umbilicus
+B. Nares
+C. Nevus
+D. Paxillus
+Answer:","[""Umbilicus"", ""Nares"", ""Nevus"", ""Paxillus""]",http,0.0,16,none,"{""id"":""chatcmpl-wmax6585ojpsgyr0upq6ih"",""object"":""chat.completion"",""created"":1795554990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9305,,MarianeAzar,20261124_215144,2026-11-24T21:16:30.394108+00:00
+856e738a4a172617,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Earth and the Moon roughly have the same mass.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lmuz0u2a5rhg0ddq4nappw"",""object"":""chat.completion"",""created"":1795554991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8863,,MarianeAzar,20261124_215144,2026-11-24T21:16:31.280470+00:00
+856e738a4a172617,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Earth and the Moon roughly have the same mass.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bjdzoqn4irms3nwn47iua"",""object"":""chat.completion"",""created"":1795554992,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3334,,MarianeAzar,20261124_215144,2026-11-24T21:16:32.614000+00:00
+c1448bac54a2d694,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language does the Source Engine use?
+A. Java
+B. Lua
+C. Python
+D. C++
+Answer:","[""Java"", ""Lua"", ""Python"", ""C++""]",http,0.0,16,none,"{""id"":""chatcmpl-zv9n5zkumm4nooj461mbk"",""object"":""chat.completion"",""created"":1795554993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0524,,MarianeAzar,20261124_215144,2026-11-24T21:16:33.666724+00:00
+c1448bac54a2d694,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What programming language does the Source Engine use?
+A. Java
+B. Lua
+C. Python
+D. C++
+Answer:","[""Java"", ""Lua"", ""Python"", ""C++""]",http,0.0,16,none,"{""id"":""chatcmpl-x68d32p116dbezhpxhtt"",""object"":""chat.completion"",""created"":1795554994,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9328,,MarianeAzar,20261124_215144,2026-11-24T21:16:34.599752+00:00
+5352e741a41d54b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist collaborated with American DJ Dillon Francis to release the song 2016 ""Need You""?
+A. DVBBS
+B. NGHTMRE
+C. LOUDPVCK
+D. KRNE
+Answer:","[""DVBBS"", ""NGHTMRE"", ""LOUDPVCK"", ""KRNE""]",http,0.0,16,none,"{""id"":""chatcmpl-c4r9zy4nwiyy3ezb8as6"",""object"":""chat.completion"",""created"":1795554995,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2188,,MarianeAzar,20261124_215144,2026-11-24T21:16:35.818957+00:00
+5352e741a41d54b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist collaborated with American DJ Dillon Francis to release the song 2016 ""Need You""?
+A. DVBBS
+B. NGHTMRE
+C. LOUDPVCK
+D. KRNE
+Answer:","[""DVBBS"", ""NGHTMRE"", ""LOUDPVCK"", ""KRNE""]",http,0.0,16,none,"{""id"":""chatcmpl-nth1oarbozvnrqa6kwkwp"",""object"":""chat.completion"",""created"":1795554996,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3111,,MarianeAzar,20261124_215144,2026-11-24T21:16:37.130326+00:00
+85d395ec388f3573,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which achievement name is shared between Team Fortress 2 and Left 4 Dead 2?
+A. Cache Grab
+B. The Quick and the Dead
+C. F in Chemistry
+D. Rode Hard, Put Away Wet
+Answer:","[""Cache Grab"", ""The Quick and the Dead"", ""F in Chemistry"", ""Rode Hard, Put Away Wet""]",http,0.0,16,none,"{""id"":""chatcmpl-nkxaa8wyq80n4c1pc0zs0p"",""object"":""chat.completion"",""created"":1795554998,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9484,,MarianeAzar,20261124_215144,2026-11-24T21:16:38.079152+00:00
+85d395ec388f3573,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which achievement name is shared between Team Fortress 2 and Left 4 Dead 2?
+A. Cache Grab
+B. The Quick and the Dead
+C. F in Chemistry
+D. Rode Hard, Put Away Wet
+Answer:","[""Cache Grab"", ""The Quick and the Dead"", ""F in Chemistry"", ""Rode Hard, Put Away Wet""]",http,0.0,16,none,"{""id"":""chatcmpl-g1ez6sqxux0hxu44p2q3b5"",""object"":""chat.completion"",""created"":1795554999,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2999,,MarianeAzar,20261124_215144,2026-11-24T21:16:39.379261+00:00
+57f6537974a315ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a work done by Shakespeare?
+A. Trial of Temperance
+B. Cymbeline
+C. Measure For Measure
+D. Titus Andronicus
+Answer:","[""Trial of Temperance"", ""Cymbeline"", ""Measure For Measure"", ""Titus Andronicus""]",http,0.0,16,none,"{""id"":""chatcmpl-i9zzvex46uyoqyefhs"",""object"":""chat.completion"",""created"":1795555000,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3453,,MarianeAzar,20261124_215144,2026-11-24T21:16:40.724746+00:00
+57f6537974a315ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a work done by Shakespeare?
+A. Trial of Temperance
+B. Cymbeline
+C. Measure For Measure
+D. Titus Andronicus
+Answer:","[""Trial of Temperance"", ""Cymbeline"", ""Measure For Measure"", ""Titus Andronicus""]",http,0.0,16,none,"{""id"":""chatcmpl-jv5yrucvspcml9ky1gcv2e"",""object"":""chat.completion"",""created"":1795555001,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.924,,MarianeAzar,20261124_215144,2026-11-24T21:16:41.648944+00:00
+e2773b0dbd8f582a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the corgi in Cowboy Bebop?
+A. Edward
+B. Einstein
+C. Joel
+D. Rocket
+Answer:","[""Edward"", ""Einstein"", ""Joel"", ""Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-04wfecvdgy86khyt4jkco"",""object"":""chat.completion"",""created"":1795555002,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9445,,MarianeAzar,20261124_215144,2026-11-24T21:16:42.593687+00:00
+e2773b0dbd8f582a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the corgi in Cowboy Bebop?
+A. Edward
+B. Einstein
+C. Joel
+D. Rocket
+Answer:","[""Edward"", ""Einstein"", ""Joel"", ""Rocket""]",http,0.0,16,none,"{""id"":""chatcmpl-rys2687lhzfitq55ukmh29"",""object"":""chat.completion"",""created"":1795555003,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4094,,MarianeAzar,20261124_215144,2026-11-24T21:16:44.003239+00:00
+20ff1b6fa895b349,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the setting of the show ""Parks and Recreation""?
+A. Eagleton, Indiana
+B. Pasadena, California
+C. London, England
+D. Pawnee, Indiana
+Answer:","[""Eagleton, Indiana"", ""Pasadena, California"", ""London, England"", ""Pawnee, Indiana""]",http,0.0,16,none,"{""id"":""chatcmpl-bef04r0k5bav9swmjxlzms"",""object"":""chat.completion"",""created"":1795555004,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0142,,MarianeAzar,20261124_215144,2026-11-24T21:16:45.017570+00:00
+20ff1b6fa895b349,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the setting of the show ""Parks and Recreation""?
+A. Eagleton, Indiana
+B. Pasadena, California
+C. London, England
+D. Pawnee, Indiana
+Answer:","[""Eagleton, Indiana"", ""Pasadena, California"", ""London, England"", ""Pawnee, Indiana""]",http,0.0,16,none,"{""id"":""chatcmpl-vdcugza8n5qo2ir872w2ln"",""object"":""chat.completion"",""created"":1795555005,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9569,,MarianeAzar,20261124_215144,2026-11-24T21:16:45.974610+00:00
+b7c6afd74c696e37,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What war did George Orwell famously volunteer for and nearly died in?
+A. World War I
+B. Spanish Civil War
+C. World War II
+D. Russian Civil War
+Answer:","[""World War I"", ""Spanish Civil War"", ""World War II"", ""Russian Civil War""]",http,0.0,16,none,"{""id"":""chatcmpl-p7qpjq0cm3goyhpgxrfpop"",""object"":""chat.completion"",""created"":1795555006,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4073,,MarianeAzar,20261124_215144,2026-11-24T21:16:47.382345+00:00
+b7c6afd74c696e37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What war did George Orwell famously volunteer for and nearly died in?
+A. World War I
+B. Spanish Civil War
+C. World War II
+D. Russian Civil War
+Answer:","[""World War I"", ""Spanish Civil War"", ""World War II"", ""Russian Civil War""]",http,0.0,16,none,"{""id"":""chatcmpl-2au5i0jndp6ebpyzy5aotc"",""object"":""chat.completion"",""created"":1795555008,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.949,,MarianeAzar,20261124_215144,2026-11-24T21:16:48.331507+00:00
+1e4faef404d860e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With his distinctive red hair, which Italian composer, born in 1678, was known as the 'Red Priest'?
+A. Puccini
+B. Vivaldi
+C. Verdi
+D. Monteverdi
+Answer:","[""Puccini"", ""Vivaldi"", ""Verdi"", ""Monteverdi""]",http,0.0,16,none,"{""id"":""chatcmpl-64xrmhu9fb13ugaunobexe"",""object"":""chat.completion"",""created"":1795555009,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0346,,MarianeAzar,20261124_215144,2026-11-24T21:16:49.366199+00:00
+1e4faef404d860e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: With his distinctive red hair, which Italian composer, born in 1678, was known as the 'Red Priest'?
+A. Puccini
+B. Vivaldi
+C. Verdi
+D. Monteverdi
+Answer:","[""Puccini"", ""Vivaldi"", ""Verdi"", ""Monteverdi""]",http,0.0,16,none,"{""id"":""chatcmpl-7k0940misriw30y1ba3i"",""object"":""chat.completion"",""created"":1795555010,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3386,,MarianeAzar,20261124_215144,2026-11-24T21:16:50.705019+00:00
+7e742cd6b70ecfff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The film Mad Max: Fury Road features the Dies Irae from which composer's requiem?
+A. Verdi
+B. Berlioz
+C. Mozart
+D. Brahms
+Answer:","[""Verdi"", ""Berlioz"", ""Mozart"", ""Brahms""]",http,0.0,16,none,"{""id"":""chatcmpl-3lby6iwztlrtgx0171uq6e"",""object"":""chat.completion"",""created"":1795555011,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9312,,MarianeAzar,20261124_215144,2026-11-24T21:16:51.636422+00:00
+7e742cd6b70ecfff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The film Mad Max: Fury Road features the Dies Irae from which composer's requiem?
+A. Verdi
+B. Berlioz
+C. Mozart
+D. Brahms
+Answer:","[""Verdi"", ""Berlioz"", ""Mozart"", ""Brahms""]",http,0.0,16,none,"{""id"":""chatcmpl-vxf0khsob2r57onrgp46vg"",""object"":""chat.completion"",""created"":1795555012,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2541,,MarianeAzar,20261124_215144,2026-11-24T21:16:52.890667+00:00
+a4077badb469cf03,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the SHMUP series, ""Gradius"", what is the name of the antagonist faction you fight against?
+A. Bacterion
+B. ORN Empire
+C. Bydo
+D. Belsar
+Answer:","[""Bacterion"", ""ORN Empire"", ""Bydo"", ""Belsar""]",http,0.0,16,none,"{""id"":""chatcmpl-ejddi74oo75bqo2k5osgj"",""object"":""chat.completion"",""created"":1795555013,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3228,,MarianeAzar,20261124_215144,2026-11-24T21:16:54.213626+00:00
+a4077badb469cf03,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the SHMUP series, ""Gradius"", what is the name of the antagonist faction you fight against?
+A. Bacterion
+B. ORN Empire
+C. Bydo
+D. Belsar
+Answer:","[""Bacterion"", ""ORN Empire"", ""Bydo"", ""Belsar""]",http,0.0,16,none,"{""id"":""chatcmpl-8ai3jhvl6g81tjevobeei4"",""object"":""chat.completion"",""created"":1795555015,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0997,,MarianeAzar,20261124_215144,2026-11-24T21:16:55.313460+00:00
+5ab5bc3e59882a9a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not an additional variation of the color purple?
+A. Kobicha
+B. Pomp and Power
+C. Palatinate
+D. Byzantium
+Answer:","[""Kobicha"", ""Pomp and Power"", ""Palatinate"", ""Byzantium""]",http,0.0,16,none,"{""id"":""chatcmpl-kncriek4nxnqxu5nyodsb"",""object"":""chat.completion"",""created"":1795555016,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9401,,MarianeAzar,20261124_215144,2026-11-24T21:16:56.253729+00:00
+5ab5bc3e59882a9a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not an additional variation of the color purple?
+A. Kobicha
+B. Pomp and Power
+C. Palatinate
+D. Byzantium
+Answer:","[""Kobicha"", ""Pomp and Power"", ""Palatinate"", ""Byzantium""]",http,0.0,16,none,"{""id"":""chatcmpl-jza9q6lys3iprx0n368n"",""object"":""chat.completion"",""created"":1795555017,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.26,,MarianeAzar,20261124_215144,2026-11-24T21:16:57.513987+00:00

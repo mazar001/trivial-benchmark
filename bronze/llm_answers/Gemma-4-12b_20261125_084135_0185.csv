@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+14b5b8cbd57624b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pistons were added to Minecraft in Beta 1.5.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-p3cuevv22kp13tsenekiva"",""object"":""chat.completion"",""created"":1795596879,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8308,,MarianeAzar,20261125_084135,2026-11-25T08:54:41.277016+00:00
+11369320ff811754,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was elected leader of the UK Labour Party in September 2015?
+A. Jeremy Corbyn
+B. Theresa May
+C. David Cameron
+D. Ed Miliband
+Answer:","[""Jeremy Corbyn"", ""Theresa May"", ""David Cameron"", ""Ed Miliband""]",http,0.0,16,none,"{""id"":""chatcmpl-u5gnbuo86rdxn2kpfn8ik"",""object"":""chat.completion"",""created"":1795596880,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8442,,MarianeAzar,20261125_084135,2026-11-25T08:54:42.121507+00:00
+11369320ff811754,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was elected leader of the UK Labour Party in September 2015?
+A. Jeremy Corbyn
+B. Theresa May
+C. David Cameron
+D. Ed Miliband
+Answer:","[""Jeremy Corbyn"", ""Theresa May"", ""David Cameron"", ""Ed Miliband""]",http,0.0,16,none,"{""id"":""chatcmpl-fjd9wvnh5xn63ablbok"",""object"":""chat.completion"",""created"":1795596881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8587,,MarianeAzar,20261125_084135,2026-11-25T08:54:42.980486+00:00
+15ce29e3d9e61ce1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Indie Game Development Studio Cing, developers of Hotel Dusk and Last Window, went bankrupt on March 1st, 2010.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-avukc3wa7sgptrvw818bv"",""object"":""chat.completion"",""created"":1795596882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8252,,MarianeAzar,20261125_084135,2026-11-25T08:54:43.806115+00:00
+15ce29e3d9e61ce1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Indie Game Development Studio Cing, developers of Hotel Dusk and Last Window, went bankrupt on March 1st, 2010.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-809c3wrubqi2gp2z35ihli"",""object"":""chat.completion"",""created"":1795596883,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8502,,MarianeAzar,20261125_084135,2026-11-25T08:54:44.656512+00:00
+4f5a8166ee9c02aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in, the 1985 film, Back to the Future?
+A. Marty McFly
+B. Biff Tannen
+C. Emmett ""Doc"" Brown
+D. George McFly
+Answer:","[""Marty McFly"", ""Biff Tannen"", ""Emmett \""Doc\"" Brown"", ""George McFly""]",http,0.0,16,none,"{""id"":""chatcmpl-1ztzk11pj13ukay6c8rga"",""object"":""chat.completion"",""created"":1795596884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T08:54:45.511596+00:00
+4f5a8166ee9c02aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in, the 1985 film, Back to the Future?
+A. Marty McFly
+B. Biff Tannen
+C. Emmett ""Doc"" Brown
+D. George McFly
+Answer:","[""Marty McFly"", ""Biff Tannen"", ""Emmett \""Doc\"" Brown"", ""George McFly""]",http,0.0,16,none,"{""id"":""chatcmpl-t5cevjapwcaoo0kkzgsknq"",""object"":""chat.completion"",""created"":1795596884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8891,,MarianeAzar,20261125_084135,2026-11-25T08:54:46.400958+00:00
+526ab2ed3cd13ce6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Mexican Beer ""Corona"" is what type of beer?
+A. Baltic Porter
+B. Pilfsner
+C. Pale Lager
+D. India Pale Ale
+Answer:","[""Baltic Porter"", ""Pilfsner"", ""Pale Lager"", ""India Pale Ale""]",http,0.0,16,none,"{""id"":""chatcmpl-n68ls8zju6eui79myscbh"",""object"":""chat.completion"",""created"":1795596885,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9254,,MarianeAzar,20261125_084135,2026-11-25T08:54:47.326620+00:00
+526ab2ed3cd13ce6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Mexican Beer ""Corona"" is what type of beer?
+A. Baltic Porter
+B. Pilfsner
+C. Pale Lager
+D. India Pale Ale
+Answer:","[""Baltic Porter"", ""Pilfsner"", ""Pale Lager"", ""India Pale Ale""]",http,0.0,16,none,"{""id"":""chatcmpl-0g3g0ypw0w6pfa073o2fgsj"",""object"":""chat.completion"",""created"":1795596886,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261125_084135,2026-11-25T08:54:48.177261+00:00
+c63aae919ee58550,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The HBO series ""Game of Thrones"" is based on which series of books?
+A. The Wheel of Time
+B. A Song of Ice and Fire
+C. Harry Potter
+D. The Notebook
+Answer:","[""The Wheel of Time"", ""A Song of Ice and Fire"", ""Harry Potter"", ""The Notebook""]",http,0.0,16,none,"{""id"":""chatcmpl-rpiwfz9re8vuvf2pemzye"",""object"":""chat.completion"",""created"":1795596887,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:54:49.057035+00:00
+c63aae919ee58550,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The HBO series ""Game of Thrones"" is based on which series of books?
+A. The Wheel of Time
+B. A Song of Ice and Fire
+C. Harry Potter
+D. The Notebook
+Answer:","[""The Wheel of Time"", ""A Song of Ice and Fire"", ""Harry Potter"", ""The Notebook""]",http,0.0,16,none,"{""id"":""chatcmpl-rivudrkxzfevqsilodamo"",""object"":""chat.completion"",""created"":1795596888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8743,,MarianeAzar,20261125_084135,2026-11-25T08:54:49.931629+00:00
+54efe5ba9f3f7dd6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?
+A. TT Type 40, Mark 3 (TARDIS)
+B. TT Type 40, Mark 5 (TARDIS)
+C. TT Type 1, Mark 3 (TARDIS)
+D. TT Type 1, Mark 5 (TARDIS)
+Answer:","[""TT Type 40, Mark 3 (TARDIS)"", ""TT Type 40, Mark 5 (TARDIS)"", ""TT Type 1, Mark 3 (TARDIS)"", ""TT Type 1, Mark 5 (TARDIS)""]",http,0.0,16,none,"{""id"":""chatcmpl-iyz2g95md5ldi97jzeo2i"",""object"":""chat.completion"",""created"":1795596889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":137,""completion_tokens"":2,""total_tokens"":139,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9606,,MarianeAzar,20261125_084135,2026-11-25T08:54:50.892421+00:00
+54efe5ba9f3f7dd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show 'Doctor Who', what is the name of the time-capsule model stolen by 'the Doctor'?
+A. TT Type 40, Mark 3 (TARDIS)
+B. TT Type 40, Mark 5 (TARDIS)
+C. TT Type 1, Mark 3 (TARDIS)
+D. TT Type 1, Mark 5 (TARDIS)
+Answer:","[""TT Type 40, Mark 3 (TARDIS)"", ""TT Type 40, Mark 5 (TARDIS)"", ""TT Type 1, Mark 3 (TARDIS)"", ""TT Type 1, Mark 5 (TARDIS)""]",http,0.0,16,none,"{""id"":""chatcmpl-p33omi5unnqhnv84tur2n4"",""object"":""chat.completion"",""created"":1795596890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":151,""completion_tokens"":2,""total_tokens"":153,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0126,,MarianeAzar,20261125_084135,2026-11-25T08:54:51.905186+00:00
+59455dac2df39de1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In World of Warcraft lore, Thrall is the original wielder of ""Doomhammer"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-301fw99v3ye3v8gm3lvuei"",""object"":""chat.completion"",""created"":1795596891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.862,,MarianeAzar,20261125_084135,2026-11-25T08:54:52.767488+00:00
+59455dac2df39de1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In World of Warcraft lore, Thrall is the original wielder of ""Doomhammer"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zg74n7c0ce51pfcwwptln"",""object"":""chat.completion"",""created"":1795596892,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8423,,MarianeAzar,20261125_084135,2026-11-25T08:54:53.609938+00:00
+3a5f1f3cda705297,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which board game was first released on February 6th, 1935?
+A. Risk
+B. Candy Land
+C. Monopoly
+D. Clue
+Answer:","[""Risk"", ""Candy Land"", ""Monopoly"", ""Clue""]",http,0.0,16,none,"{""id"":""chatcmpl-spxkxzzeahsl18spquoe"",""object"":""chat.completion"",""created"":1795596893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T08:54:54.459183+00:00
+3a5f1f3cda705297,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which board game was first released on February 6th, 1935?
+A. Risk
+B. Candy Land
+C. Monopoly
+D. Clue
+Answer:","[""Risk"", ""Candy Land"", ""Monopoly"", ""Clue""]",http,0.0,16,none,"{""id"":""chatcmpl-mkprwg03537yyyjegyikc"",""object"":""chat.completion"",""created"":1795596893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:54:55.318728+00:00
+672cb7b0fea1495e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song in Drake's ""Views"" features Future?
+A. Too Good
+B. Faithful
+C. Grammys
+D. Pop Style
+Answer:","[""Too Good"", ""Faithful"", ""Grammys"", ""Pop Style""]",http,0.0,16,none,"{""id"":""chatcmpl-vlczemvzqksjyh0ci3mn"",""object"":""chat.completion"",""created"":1795596894,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T08:54:56.170476+00:00
+672cb7b0fea1495e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song in Drake's ""Views"" features Future?
+A. Too Good
+B. Faithful
+C. Grammys
+D. Pop Style
+Answer:","[""Too Good"", ""Faithful"", ""Grammys"", ""Pop Style""]",http,0.0,16,none,"{""id"":""chatcmpl-eoj9mlpayzeowerx88ipd"",""object"":""chat.completion"",""created"":1795596895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T08:54:57.020616+00:00
+d122352947b21f3f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The gunpowder plot was a well-known failed assassination attempt against which of England's then reigning monarchs?
+A. Charles I
+B. Elizabeth I
+C. James I
+D. Charles II
+Answer:","[""Charles I"", ""Elizabeth I"", ""James I"", ""Charles II""]",http,0.0,16,none,"{""id"":""chatcmpl-lu8hpqq2fzqsv5aj4i7v2"",""object"":""chat.completion"",""created"":1795596896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:54:57.880592+00:00
+d122352947b21f3f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The gunpowder plot was a well-known failed assassination attempt against which of England's then reigning monarchs?
+A. Charles I
+B. Elizabeth I
+C. James I
+D. Charles II
+Answer:","[""Charles I"", ""Elizabeth I"", ""James I"", ""Charles II""]",http,0.0,16,none,"{""id"":""chatcmpl-apdsjnio59negtcvdo1cz"",""object"":""chat.completion"",""created"":1795596897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8835,,MarianeAzar,20261125_084135,2026-11-25T08:54:58.764431+00:00
+4c89b8c75bb8ea91,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress portrayed Dr. Grace Augustine in the James Cameron movie ""Avatar""?
+A. Sigourney Weaver
+B. Jessica Chastain
+C. Alyssa Monroe
+D. Melissa Beckett
+Answer:","[""Sigourney Weaver"", ""Jessica Chastain"", ""Alyssa Monroe"", ""Melissa Beckett""]",http,0.0,16,none,"{""id"":""chatcmpl-x98jla1dz5ckqmcin5gd"",""object"":""chat.completion"",""created"":1795596898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T08:54:59.624669+00:00
+4c89b8c75bb8ea91,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress portrayed Dr. Grace Augustine in the James Cameron movie ""Avatar""?
+A. Sigourney Weaver
+B. Jessica Chastain
+C. Alyssa Monroe
+D. Melissa Beckett
+Answer:","[""Sigourney Weaver"", ""Jessica Chastain"", ""Alyssa Monroe"", ""Melissa Beckett""]",http,0.0,16,none,"{""id"":""chatcmpl-upt9vvrz6uj1ktyzaav1k5"",""object"":""chat.completion"",""created"":1795596899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.851,,MarianeAzar,20261125_084135,2026-11-25T08:55:00.475955+00:00
+05b131766c9230be,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is One Punch Man voiced by in the Japanese version.
+A. Kaito Ishikawa
+B. Max Mittelman
+C. Zach Aguilar
+D. Makoto Furukawa
+Answer:","[""Kaito Ishikawa"", ""Max Mittelman"", ""Zach Aguilar"", ""Makoto Furukawa""]",http,0.0,16,none,"{""id"":""chatcmpl-7adtwt5km996k4a5vhje"",""object"":""chat.completion"",""created"":1795596899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T08:55:01.332145+00:00
+05b131766c9230be,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is One Punch Man voiced by in the Japanese version.
+A. Kaito Ishikawa
+B. Max Mittelman
+C. Zach Aguilar
+D. Makoto Furukawa
+Answer:","[""Kaito Ishikawa"", ""Max Mittelman"", ""Zach Aguilar"", ""Makoto Furukawa""]",http,0.0,16,none,"{""id"":""chatcmpl-oo8h4rijb1qal7it3a8l"",""object"":""chat.completion"",""created"":1795596900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:55:02.190779+00:00

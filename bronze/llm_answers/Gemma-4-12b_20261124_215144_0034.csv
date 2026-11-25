@@ -1,0 +1,188 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+18d942fb6aed3be8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Earthbound"", how does one enter ""Master Belch's"" factory?
+A. Enter the password ""Mr Saturn Drools""
+B. Enter the password ""Master Belch Rules""
+C. Wait 3 Minutes
+D. Enter the password ""Fly Honey""
+Answer:","[""Enter the password \""Mr Saturn Drools\"""", ""Enter the password \""Master Belch Rules\"""", ""Wait 3 Minutes"", ""Enter the password \""Fly Honey\""""]",http,0.0,16,none,"{""id"":""chatcmpl-jigy93ofjgi2ede1qjaboo"",""object"":""chat.completion"",""created"":1795554371,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261124_215144,2026-11-24T21:06:12.632257+00:00
+18d942fb6aed3be8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Earthbound"", how does one enter ""Master Belch's"" factory?
+A. Enter the password ""Mr Saturn Drools""
+B. Enter the password ""Master Belch Rules""
+C. Wait 3 Minutes
+D. Enter the password ""Fly Honey""
+Answer:","[""Enter the password \""Mr Saturn Drools\"""", ""Enter the password \""Master Belch Rules\"""", ""Wait 3 Minutes"", ""Enter the password \""Fly Honey\""""]",http,0.0,16,none,"{""id"":""chatcmpl-bcz2yuvimu7sw0x57nyhc"",""object"":""chat.completion"",""created"":1795554372,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9933,,MarianeAzar,20261124_215144,2026-11-24T21:06:13.625907+00:00
+8608ff11d7971e67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?
+A. Esharhaddon
+B. Ashur-nasir-pal II
+C. Shalmaneser V
+D. Shamshi-Adad III
+Answer:","[""Esharhaddon"", ""Ashur-nasir-pal II"", ""Shalmaneser V"", ""Shamshi-Adad III""]",http,0.0,16,none,"{""id"":""chatcmpl-xqxise6ojfd1y3u10loyp"",""object"":""chat.completion"",""created"":1795554373,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0173,,MarianeAzar,20261124_215144,2026-11-24T21:06:14.643548+00:00
+8608ff11d7971e67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?
+A. Esharhaddon
+B. Ashur-nasir-pal II
+C. Shalmaneser V
+D. Shamshi-Adad III
+Answer:","[""Esharhaddon"", ""Ashur-nasir-pal II"", ""Shalmaneser V"", ""Shamshi-Adad III""]",http,0.0,16,none,"{""id"":""chatcmpl-e7v2kliyesmhc0r0190gr"",""object"":""chat.completion"",""created"":1795554374,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9176,,MarianeAzar,20261124_215144,2026-11-24T21:06:15.561415+00:00
+c1616609ff3e9fc5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following won the first season of American Idol in 2002?
+A. Kelly Clarkson
+B. Chris Daughtry
+C. Ruben Studdard
+D. Justin Guarini
+Answer:","[""Kelly Clarkson"", ""Chris Daughtry"", ""Ruben Studdard"", ""Justin Guarini""]",http,0.0,16,none,"{""id"":""chatcmpl-63rn2ysqyrfov1zawqolpn"",""object"":""chat.completion"",""created"":1795554375,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9257,,MarianeAzar,20261124_215144,2026-11-24T21:06:16.487368+00:00
+c1616609ff3e9fc5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following won the first season of American Idol in 2002?
+A. Kelly Clarkson
+B. Chris Daughtry
+C. Ruben Studdard
+D. Justin Guarini
+Answer:","[""Kelly Clarkson"", ""Chris Daughtry"", ""Ruben Studdard"", ""Justin Guarini""]",http,0.0,16,none,"{""id"":""chatcmpl-h5hi69j8e94d65gzwtugts"",""object"":""chat.completion"",""created"":1795554376,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261124_215144,2026-11-24T21:06:17.373220+00:00
+d02719a7117ba97a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the adventurer you meet at the mines in Stardew Valley?
+A. Morris
+B. Marnie
+C. Marlon
+D. Marvin
+Answer:","[""Morris"", ""Marnie"", ""Marlon"", ""Marvin""]",http,0.0,16,none,"{""id"":""chatcmpl-zl6bp80f49bg5d1e7v7jj"",""object"":""chat.completion"",""created"":1795554377,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261124_215144,2026-11-24T21:06:18.237067+00:00
+d02719a7117ba97a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the adventurer you meet at the mines in Stardew Valley?
+A. Morris
+B. Marnie
+C. Marlon
+D. Marvin
+Answer:","[""Morris"", ""Marnie"", ""Marlon"", ""Marvin""]",http,0.0,16,none,"{""id"":""chatcmpl-n5blp4clky8d835n88kzy4"",""object"":""chat.completion"",""created"":1795554378,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261124_215144,2026-11-24T21:06:19.101829+00:00
+6c7753c7b3f14463,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Shakespeare play inspired the musical 'West Side Story'?
+A. Romeo & Juliet
+B. Othello
+C. Macbeth
+D. Hamlet
+Answer:","[""Romeo & Juliet"", ""Othello"", ""Macbeth"", ""Hamlet""]",http,0.0,16,none,"{""id"":""chatcmpl-rrr7mdge3rej0vy3yna"",""object"":""chat.completion"",""created"":1795554379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8899,,MarianeAzar,20261124_215144,2026-11-24T21:06:19.992077+00:00
+6c7753c7b3f14463,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Shakespeare play inspired the musical 'West Side Story'?
+A. Romeo & Juliet
+B. Othello
+C. Macbeth
+D. Hamlet
+Answer:","[""Romeo & Juliet"", ""Othello"", ""Macbeth"", ""Hamlet""]",http,0.0,16,none,"{""id"":""chatcmpl-bj7q8pfrdtbsaxrwujuv5"",""object"":""chat.completion"",""created"":1795554379,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261124_215144,2026-11-24T21:06:20.847901+00:00
+4024431eae0ce216,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie of film director Stanley Kubrick is known to be an adaptation of a Stephen King novel?
+A. Eyes Wide Shut
+B. Dr. Strangelove
+C. 2001: A Space Odyssey
+D. The Shining
+Answer:","[""Eyes Wide Shut"", ""Dr. Strangelove"", ""2001: A Space Odyssey"", ""The Shining""]",http,0.0,16,none,"{""id"":""chatcmpl-glm3c18b49oko1jf9ogeu"",""object"":""chat.completion"",""created"":1795554380,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8718,,MarianeAzar,20261124_215144,2026-11-24T21:06:21.720208+00:00
+4024431eae0ce216,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie of film director Stanley Kubrick is known to be an adaptation of a Stephen King novel?
+A. Eyes Wide Shut
+B. Dr. Strangelove
+C. 2001: A Space Odyssey
+D. The Shining
+Answer:","[""Eyes Wide Shut"", ""Dr. Strangelove"", ""2001: A Space Odyssey"", ""The Shining""]",http,0.0,16,none,"{""id"":""chatcmpl-qxfcicaqvlijos2datjp0b"",""object"":""chat.completion"",""created"":1795554381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8833,,MarianeAzar,20261124_215144,2026-11-24T21:06:22.603718+00:00
+cbb972c192ba2cad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Lift Your Spirit"" is an album by which artist?
+A. Aloe Blacc
+B. Stevie Wonder
+C. Taylor Swift
+D. Lena Meyer-Landrut
+Answer:","[""Aloe Blacc"", ""Stevie Wonder"", ""Taylor Swift"", ""Lena Meyer-Landrut""]",http,0.0,16,none,"{""id"":""chatcmpl-t15wxzhn91cpbgli1c1qe"",""object"":""chat.completion"",""created"":1795554382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8897,,MarianeAzar,20261124_215144,2026-11-24T21:06:23.493654+00:00
+cbb972c192ba2cad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Lift Your Spirit"" is an album by which artist?
+A. Aloe Blacc
+B. Stevie Wonder
+C. Taylor Swift
+D. Lena Meyer-Landrut
+Answer:","[""Aloe Blacc"", ""Stevie Wonder"", ""Taylor Swift"", ""Lena Meyer-Landrut""]",http,0.0,16,none,"{""id"":""chatcmpl-aeevbwas1z9lznd1vflonj"",""object"":""chat.completion"",""created"":1795554383,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8955,,MarianeAzar,20261124_215144,2026-11-24T21:06:24.389359+00:00
+3899a882c090c52e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor played the main character in the 1990 film ""Edward Scissorhands""?
+A. Clint Eastwood
+B. Leonardo DiCaprio
+C. Johnny Depp
+D. Ben Stiller
+Answer:","[""Clint Eastwood"", ""Leonardo DiCaprio"", ""Johnny Depp"", ""Ben Stiller""]",http,0.0,16,none,"{""id"":""chatcmpl-sg22ioe0c7e356ehhd3tal"",""object"":""chat.completion"",""created"":1795554384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8692,,MarianeAzar,20261124_215144,2026-11-24T21:06:25.258842+00:00
+3899a882c090c52e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actor played the main character in the 1990 film ""Edward Scissorhands""?
+A. Clint Eastwood
+B. Leonardo DiCaprio
+C. Johnny Depp
+D. Ben Stiller
+Answer:","[""Clint Eastwood"", ""Leonardo DiCaprio"", ""Johnny Depp"", ""Ben Stiller""]",http,0.0,16,none,"{""id"":""chatcmpl-ti37hvn6thiqv1pub09c8"",""object"":""chat.completion"",""created"":1795554385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8953,,MarianeAzar,20261124_215144,2026-11-24T21:06:26.154640+00:00
+9130db489e55e54a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hellboy's true name?
+A. Azzael
+B. Right Hand of Doom
+C. Anung Un Rama
+D. Ogdru Jahad
+Answer:","[""Azzael"", ""Right Hand of Doom"", ""Anung Un Rama"", ""Ogdru Jahad""]",http,0.0,16,none,"{""id"":""chatcmpl-6zo5r50e0zc4hqtczh6wd1"",""object"":""chat.completion"",""created"":1795554386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261124_215144,2026-11-24T21:06:27.031773+00:00
+9130db489e55e54a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Hellboy's true name?
+A. Azzael
+B. Right Hand of Doom
+C. Anung Un Rama
+D. Ogdru Jahad
+Answer:","[""Azzael"", ""Right Hand of Doom"", ""Anung Un Rama"", ""Ogdru Jahad""]",http,0.0,16,none,"{""id"":""chatcmpl-fj9i54d2oujpicgq5pd9a8"",""object"":""chat.completion"",""created"":1795554386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261124_215144,2026-11-24T21:06:27.888257+00:00
+207fcec2baebbbf2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the historical name of Sri Lanka?
+A. Badulla
+B. Colombo
+C. Myanmar
+D. Ceylon
+Answer:","[""Badulla"", ""Colombo"", ""Myanmar"", ""Ceylon""]",http,0.0,16,none,"{""id"":""chatcmpl-tlh8g4gertmw98b3ta6wlh"",""object"":""chat.completion"",""created"":1795554387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261124_215144,2026-11-24T21:06:28.744201+00:00
+207fcec2baebbbf2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the historical name of Sri Lanka?
+A. Badulla
+B. Colombo
+C. Myanmar
+D. Ceylon
+Answer:","[""Badulla"", ""Colombo"", ""Myanmar"", ""Ceylon""]",http,0.0,16,none,"{""id"":""chatcmpl-7dwl30ql16w07uq1iyb3u8d"",""object"":""chat.completion"",""created"":1795554388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261124_215144,2026-11-24T21:06:29.601292+00:00
+3b13c86eeb5e5253,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What numbers are in the 5th row of Pascal's Triangle?
+A. 1 4 6 4 1
+B. 1 3 3 1
+C. 1 5 10 10 5 1
+D. 1 6 15 20 15 6 1
+Answer:","[""1 4 6 4 1"", ""1 3 3 1"", ""1 5 10 10 5 1"", ""1 6 15 20 15 6 1""]",http,0.0,16,none,"{""id"":""chatcmpl-imgkrpixs2qu57vyl7kc"",""object"":""chat.completion"",""created"":1795554389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9072,,MarianeAzar,20261124_215144,2026-11-24T21:06:30.509270+00:00
+3b13c86eeb5e5253,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What numbers are in the 5th row of Pascal's Triangle?
+A. 1 4 6 4 1
+B. 1 3 3 1
+C. 1 5 10 10 5 1
+D. 1 6 15 20 15 6 1
+Answer:","[""1 4 6 4 1"", ""1 3 3 1"", ""1 5 10 10 5 1"", ""1 6 15 20 15 6 1""]",http,0.0,16,none,"{""id"":""chatcmpl-8npn1lanel4yd734zzjpeb"",""object"":""chat.completion"",""created"":1795554390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":137,""completion_tokens"":2,""total_tokens"":139,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0264,,MarianeAzar,20261124_215144,2026-11-24T21:06:31.535910+00:00
+f1b8607ded2a59c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dead by Daylight, which killer perk applies the mangled effect?
+A. Knock Out
+B. Enduring
+C. Thanatophobia
+D. Sloppy Butcher
+Answer:","[""Knock Out"", ""Enduring"", ""Thanatophobia"", ""Sloppy Butcher""]",http,0.0,16,none,"{""id"":""chatcmpl-yvb4rpf2ok2mch4eq2h1k"",""object"":""chat.completion"",""created"":1795554391,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9358,,MarianeAzar,20261124_215144,2026-11-24T21:06:32.472004+00:00
+f1b8607ded2a59c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Dead by Daylight, which killer perk applies the mangled effect?
+A. Knock Out
+B. Enduring
+C. Thanatophobia
+D. Sloppy Butcher
+Answer:","[""Knock Out"", ""Enduring"", ""Thanatophobia"", ""Sloppy Butcher""]",http,0.0,16,none,"{""id"":""chatcmpl-irrqv9fncw8txxtb1tbmnm"",""object"":""chat.completion"",""created"":1795554392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261124_215144,2026-11-24T21:06:33.345515+00:00
+0f10a0518d08f21f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many partners can you obtain in Paper Mario: The Thousand-Year Door?
+A. 9
+B. 7
+C. 6
+D. 10
+Answer:","[""9"", ""7"", ""6"", ""10""]",http,0.0,16,none,"{""id"":""chatcmpl-qjdohosynahl56g19ycr6"",""object"":""chat.completion"",""created"":1795554393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261124_215144,2026-11-24T21:06:34.200255+00:00

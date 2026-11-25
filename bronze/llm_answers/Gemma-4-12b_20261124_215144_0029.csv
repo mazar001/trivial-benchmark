@@ -1,0 +1,177 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5da2dee66f11cf05,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The character that would eventually become Dr. Eggman was considered for the role of Sega's new flagship mascot before Sonic was.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3pizrc4xfntbmq7potq7gc"",""object"":""chat.completion"",""created"":1795554260,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261124_215144,2026-11-24T21:04:21.333463+00:00
+64795eefc41b8ef2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 2016 studio album by the French electronic music duo Justice?
+A. Safe and Sound
+B. Pleasure
+C. Woman
+D. Randy
+Answer:","[""Safe and Sound"", ""Pleasure"", ""Woman"", ""Randy""]",http,0.0,16,none,"{""id"":""chatcmpl-4gx9p1bgrw6yz3ce6g0vq8"",""object"":""chat.completion"",""created"":1795554261,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261124_215144,2026-11-24T21:04:22.192825+00:00
+64795eefc41b8ef2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the 2016 studio album by the French electronic music duo Justice?
+A. Safe and Sound
+B. Pleasure
+C. Woman
+D. Randy
+Answer:","[""Safe and Sound"", ""Pleasure"", ""Woman"", ""Randy""]",http,0.0,16,none,"{""id"":""chatcmpl-pjho3zbimodql9juktv5a"",""object"":""chat.completion"",""created"":1795554262,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3989,,MarianeAzar,20261124_215144,2026-11-24T21:04:23.592122+00:00
+4b09e65b9b0747ad,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Roman Numerals, what does XL equate to?
+A. 40
+B. 60
+C. 90
+D. 15
+Answer:","[""40"", ""60"", ""90"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-r1l1o8iv4zc1sb3ya8pc9"",""object"":""chat.completion"",""created"":1795554263,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9289,,MarianeAzar,20261124_215144,2026-11-24T21:04:24.521310+00:00
+4b09e65b9b0747ad,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Roman Numerals, what does XL equate to?
+A. 40
+B. 60
+C. 90
+D. 15
+Answer:","[""40"", ""60"", ""90"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-ztik06nw71lh7knwh9hn"",""object"":""chat.completion"",""created"":1795554264,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8822,,MarianeAzar,20261124_215144,2026-11-24T21:04:25.403640+00:00
+4feaa2fbff54eb63,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of a popular franchise that includes placing blocks down and surviving in an open world?
+A. Unturned
+B. Roblox
+C. Grand Theft Auto V
+D. Minecraft
+Answer:","[""Unturned"", ""Roblox"", ""Grand Theft Auto V"", ""Minecraft""]",http,0.0,16,none,"{""id"":""chatcmpl-7wcaax2btbbsv18o6qrr5m"",""object"":""chat.completion"",""created"":1795554265,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0142,,MarianeAzar,20261124_215144,2026-11-24T21:04:26.418336+00:00
+4feaa2fbff54eb63,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of a popular franchise that includes placing blocks down and surviving in an open world?
+A. Unturned
+B. Roblox
+C. Grand Theft Auto V
+D. Minecraft
+Answer:","[""Unturned"", ""Roblox"", ""Grand Theft Auto V"", ""Minecraft""]",http,0.0,16,none,"{""id"":""chatcmpl-h6coz460bnw1wl5sw29hrs"",""object"":""chat.completion"",""created"":1795554266,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261124_215144,2026-11-24T21:04:27.279880+00:00
+e7759410687ca228,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The crown of the Empire State Building was originally built for what purpose?
+A. Airship Dock
+B. Lightning Rod
+C. Antennae
+D. Flag Pole
+Answer:","[""Airship Dock"", ""Lightning Rod"", ""Antennae"", ""Flag Pole""]",http,0.0,16,none,"{""id"":""chatcmpl-4la69l4eak2iobo3630c9e"",""object"":""chat.completion"",""created"":1795554267,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261124_215144,2026-11-24T21:04:28.131697+00:00
+e7759410687ca228,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The crown of the Empire State Building was originally built for what purpose?
+A. Airship Dock
+B. Lightning Rod
+C. Antennae
+D. Flag Pole
+Answer:","[""Airship Dock"", ""Lightning Rod"", ""Antennae"", ""Flag Pole""]",http,0.0,16,none,"{""id"":""chatcmpl-mlgpv8lesb4ij06b0m3i6"",""object"":""chat.completion"",""created"":1795554268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261124_215144,2026-11-24T21:04:28.993358+00:00
+28e14ee3e200b86e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the RoboSapien toy robot released?
+A. 2000
+B. 2006
+C. 2004
+D. 2001
+Answer:","[""2000"", ""2006"", ""2004"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-op175u1ijlz2uwukptf0e"",""object"":""chat.completion"",""created"":1795554268,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8975,,MarianeAzar,20261124_215144,2026-11-24T21:04:29.891122+00:00
+28e14ee3e200b86e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the RoboSapien toy robot released?
+A. 2000
+B. 2006
+C. 2004
+D. 2001
+Answer:","[""2000"", ""2006"", ""2004"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-zl5atng9uqt2foekswybwz"",""object"":""chat.completion"",""created"":1795554269,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8843,,MarianeAzar,20261124_215144,2026-11-24T21:04:30.775721+00:00
+7a1da94ea7a84792,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following awards do Matt Stone and Trey Parker NOT have?
+A. Oscar
+B. Grammy
+C. Emmy
+D. Tony
+Answer:","[""Oscar"", ""Grammy"", ""Emmy"", ""Tony""]",http,0.0,16,none,"{""id"":""chatcmpl-xulao7l1xymumi3v05d4n"",""object"":""chat.completion"",""created"":1795554270,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261124_215144,2026-11-24T21:04:31.632380+00:00
+7a1da94ea7a84792,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following awards do Matt Stone and Trey Parker NOT have?
+A. Oscar
+B. Grammy
+C. Emmy
+D. Tony
+Answer:","[""Oscar"", ""Grammy"", ""Emmy"", ""Tony""]",http,0.0,16,none,"{""id"":""chatcmpl-jm8ppc5prlp33fhxiqfnlk"",""object"":""chat.completion"",""created"":1795554271,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261124_215144,2026-11-24T21:04:32.484737+00:00
+7dde90ca9798d11a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the name of Batman's parents?
+A. Thomas & Martha
+B. Todd & Mira
+C. Joey & Jackie
+D. Jason & Sarah
+Answer:","[""Thomas & Martha"", ""Todd & Mira"", ""Joey & Jackie"", ""Jason & Sarah""]",http,0.0,16,none,"{""id"":""chatcmpl-75q3gl8xk6wsnbvief2hdn"",""object"":""chat.completion"",""created"":1795554272,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261124_215144,2026-11-24T21:04:33.349167+00:00
+7dde90ca9798d11a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the name of Batman's parents?
+A. Thomas & Martha
+B. Todd & Mira
+C. Joey & Jackie
+D. Jason & Sarah
+Answer:","[""Thomas & Martha"", ""Todd & Mira"", ""Joey & Jackie"", ""Jason & Sarah""]",http,0.0,16,none,"{""id"":""chatcmpl-8qsub5b9ngzhhocowjjy"",""object"":""chat.completion"",""created"":1795554273,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261124_215144,2026-11-24T21:04:34.204867+00:00
+3b27f074eb127b22,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Windows OS was delevoped by which company?
+A. Microsoft
+B. IBM
+C. Apple
+D. Nokia
+Answer:","[""Microsoft"", ""IBM"", ""Apple"", ""Nokia""]",http,0.0,16,none,"{""id"":""chatcmpl-igt60tlt4or3ogbsvuhnc"",""object"":""chat.completion"",""created"":1795554274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8492,,MarianeAzar,20261124_215144,2026-11-24T21:04:35.054860+00:00
+3b27f074eb127b22,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Windows OS was delevoped by which company?
+A. Microsoft
+B. IBM
+C. Apple
+D. Nokia
+Answer:","[""Microsoft"", ""IBM"", ""Apple"", ""Nokia""]",http,0.0,16,none,"{""id"":""chatcmpl-ibkl9l6glrgozqxggud58"",""object"":""chat.completion"",""created"":1795554274,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8496,,MarianeAzar,20261124_215144,2026-11-24T21:04:35.904750+00:00
+bac26200295f9d1c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year is considered to be the year that the British Empire ended?
+A. 1981
+B. 1986
+C. 1971
+D. 1997
+Answer:","[""1981"", ""1986"", ""1971"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-hdg5qy0607hoop0cv820j"",""object"":""chat.completion"",""created"":1795554275,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261124_215144,2026-11-24T21:04:36.761795+00:00
+bac26200295f9d1c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year is considered to be the year that the British Empire ended?
+A. 1981
+B. 1986
+C. 1971
+D. 1997
+Answer:","[""1981"", ""1986"", ""1971"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-6axiwmi8tof38safaswk05"",""object"":""chat.completion"",""created"":1795554276,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9047,,MarianeAzar,20261124_215144,2026-11-24T21:04:37.666674+00:00
+7b4db7346f193651,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the following is not made by Ford?
+A. F-150
+B. Camry
+C. Model A
+D. Fusion
+Answer:","[""F-150"", ""Camry"", ""Model A"", ""Fusion""]",http,0.0,16,none,"{""id"":""chatcmpl-3o7c9te407k9yam6szvird"",""object"":""chat.completion"",""created"":1795554277,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.873,,MarianeAzar,20261124_215144,2026-11-24T21:04:38.539904+00:00
+7b4db7346f193651,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the following is not made by Ford?
+A. F-150
+B. Camry
+C. Model A
+D. Fusion
+Answer:","[""F-150"", ""Camry"", ""Model A"", ""Fusion""]",http,0.0,16,none,"{""id"":""chatcmpl-iyymh3rtnyf71isyx6mcn4"",""object"":""chat.completion"",""created"":1795554278,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9657,,MarianeAzar,20261124_215144,2026-11-24T21:04:39.505884+00:00
+90cd1441f11b684b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the relationship between the band members of American rock band King of Leon?
+A. Former classmates
+B. Fraternity house members
+C. Brothers & cousins
+D. Childhood friends
+Answer:","[""Former classmates"", ""Fraternity house members"", ""Brothers & cousins"", ""Childhood friends""]",http,0.0,16,none,"{""id"":""chatcmpl-im8u5knk6khnh9udfj4pgh"",""object"":""chat.completion"",""created"":1795554279,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9954,,MarianeAzar,20261124_215144,2026-11-24T21:04:40.501633+00:00
+90cd1441f11b684b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the relationship between the band members of American rock band King of Leon?
+A. Former classmates
+B. Fraternity house members
+C. Brothers & cousins
+D. Childhood friends
+Answer:","[""Former classmates"", ""Fraternity house members"", ""Brothers & cousins"", ""Childhood friends""]",http,0.0,16,none,"{""id"":""chatcmpl-jlc658bllgmpzme5431khf"",""object"":""chat.completion"",""created"":1795554280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.956,,MarianeAzar,20261124_215144,2026-11-24T21:04:41.458021+00:00
+1e682feec2fbfef1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Theodore Roosevelt Jr. was the only General involved in the initial assault on D-Day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d65i62tfyzpmyk6v1ldt79"",""object"":""chat.completion"",""created"":1795554281,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8281,,MarianeAzar,20261124_215144,2026-11-24T21:04:42.286359+00:00
+1e682feec2fbfef1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Theodore Roosevelt Jr. was the only General involved in the initial assault on D-Day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v44oycp1veih4ldhyak06"",""object"":""chat.completion"",""created"":1795554282,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8358,,MarianeAzar,20261124_215144,2026-11-24T21:04:43.122418+00:00

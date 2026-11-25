@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+af16fb82b165b9f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Faust is a playable character in ""Guilty Gear Xrd Revelator"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rishib1c81e44tvg8x67cm"",""object"":""chat.completion"",""created"":1795554653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1129,,MarianeAzar,20261124_215144,2026-11-24T21:10:54.719193+00:00
+5098888549771b52,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How old was Laurence Fishburne when Francis Ford Coppola cast him in Apocalypse Now (1979)?
+A. 20
+B. 16
+C. 18
+D. 14
+Answer:","[""20"", ""16"", ""18"", ""14""]",http,0.0,16,none,"{""id"":""chatcmpl-c7p3mgzuge9x1q96pyklf"",""object"":""chat.completion"",""created"":1795554654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.928,,MarianeAzar,20261124_215144,2026-11-24T21:10:55.647502+00:00
+5098888549771b52,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How old was Laurence Fishburne when Francis Ford Coppola cast him in Apocalypse Now (1979)?
+A. 20
+B. 16
+C. 18
+D. 14
+Answer:","[""20"", ""16"", ""18"", ""14""]",http,0.0,16,none,"{""id"":""chatcmpl-us509pfhls8joqij7cfn2i"",""object"":""chat.completion"",""created"":1795554655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4877,,MarianeAzar,20261124_215144,2026-11-24T21:10:57.135527+00:00
+f6db404fe83be05a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pac-Man was invented by the designer Toru Iwatani while he was eating pizza.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b4bpsgjvwfd7xww4im5ruq"",""object"":""chat.completion"",""created"":1795554657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0373,,MarianeAzar,20261124_215144,2026-11-24T21:10:58.173012+00:00
+f6db404fe83be05a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Pac-Man was invented by the designer Toru Iwatani while he was eating pizza.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o259ucqzwsie3qh5x3unf"",""object"":""chat.completion"",""created"":1795554658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9217,,MarianeAzar,20261124_215144,2026-11-24T21:10:59.094925+00:00
+8da5d84ef1b34faf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does IWHBYD stand for on the skull in the Halo series?
+A. I Wanna Have Babies You Down
+B. I Would Have Been Your Daddy
+C. I Would Have Bought Your Dog
+D. I Would Hate Being Your Driver
+Answer:","[""I Wanna Have Babies You Down"", ""I Would Have Been Your Daddy"", ""I Would Have Bought Your Dog"", ""I Would Hate Being Your Driver""]",http,0.0,16,none,"{""id"":""chatcmpl-64n3wauq3o9qlrm6nzu2fe"",""object"":""chat.completion"",""created"":1795554659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9985,,MarianeAzar,20261124_215144,2026-11-24T21:11:00.094248+00:00
+8da5d84ef1b34faf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does IWHBYD stand for on the skull in the Halo series?
+A. I Wanna Have Babies You Down
+B. I Would Have Been Your Daddy
+C. I Would Have Bought Your Dog
+D. I Would Hate Being Your Driver
+Answer:","[""I Wanna Have Babies You Down"", ""I Would Have Been Your Daddy"", ""I Would Have Bought Your Dog"", ""I Would Hate Being Your Driver""]",http,0.0,16,none,"{""id"":""chatcmpl-z8ltq66d3omjljwxghnc1n"",""object"":""chat.completion"",""created"":1795554660,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3622,,MarianeAzar,20261124_215144,2026-11-24T21:11:01.456652+00:00
+3f2839f47dfd1600,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: League of Legends, DOTA 2, Smite and Heroes of the Storm are all part of which game genre?
+A. Multiplayer Online Battle Arena (MOBA)
+B. First Person Shooter (FPS)
+C. Role Playing Game (RPG)
+D. Real Time Strategy (RTS)
+Answer:","[""Multiplayer Online Battle Arena (MOBA)"", ""First Person Shooter (FPS)"", ""Role Playing Game (RPG)"", ""Real Time Strategy (RTS)""]",http,0.0,16,none,"{""id"":""chatcmpl-8r3mnjxsybs5fzxet3fdca"",""object"":""chat.completion"",""created"":1795554661,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0065,,MarianeAzar,20261124_215144,2026-11-24T21:11:02.463450+00:00
+3f2839f47dfd1600,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: League of Legends, DOTA 2, Smite and Heroes of the Storm are all part of which game genre?
+A. Multiplayer Online Battle Arena (MOBA)
+B. First Person Shooter (FPS)
+C. Role Playing Game (RPG)
+D. Real Time Strategy (RTS)
+Answer:","[""Multiplayer Online Battle Arena (MOBA)"", ""First Person Shooter (FPS)"", ""Role Playing Game (RPG)"", ""Real Time Strategy (RTS)""]",http,0.0,16,none,"{""id"":""chatcmpl-c3tjigk5s07sbvo4rimjvk"",""object"":""chat.completion"",""created"":1795554662,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3216,,MarianeAzar,20261124_215144,2026-11-24T21:11:03.785316+00:00
+759ff29dbb7b334e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many types of quarks are there in the standard model of physics?
+A. 2
+B. 6
+C. 3
+D. 4
+Answer:","[""2"", ""6"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-w29lwf2yfkppct8a59lb6"",""object"":""chat.completion"",""created"":1795554663,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1813,,MarianeAzar,20261124_215144,2026-11-24T21:11:04.966940+00:00
+759ff29dbb7b334e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many types of quarks are there in the standard model of physics?
+A. 2
+B. 6
+C. 3
+D. 4
+Answer:","[""2"", ""6"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-els5zsv454cfczeuzri7r"",""object"":""chat.completion"",""created"":1795554664,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9203,,MarianeAzar,20261124_215144,2026-11-24T21:11:05.887721+00:00
+a1750ee597ef2356,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following physical typologies are used with Ethernet Networks?
+A. Hex
+B. Ring
+C. Mesh
+D. Star
+Answer:","[""Hex"", ""Ring"", ""Mesh"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-5zhazyglzkfb5gqtgg5ela"",""object"":""chat.completion"",""created"":1795554665,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2156,,MarianeAzar,20261124_215144,2026-11-24T21:11:07.103624+00:00
+a1750ee597ef2356,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following physical typologies are used with Ethernet Networks?
+A. Hex
+B. Ring
+C. Mesh
+D. Star
+Answer:","[""Hex"", ""Ring"", ""Mesh"", ""Star""]",http,0.0,16,none,"{""id"":""chatcmpl-i71w35idbxdxnxxcu7ghpn"",""object"":""chat.completion"",""created"":1795554667,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0675,,MarianeAzar,20261124_215144,2026-11-24T21:11:08.171444+00:00
+c58704ddf41e6843,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: TF2: The Medic will be credited for an assist if he heals a Spy that successfully saps a building.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ths7l7gc7rmafot1okshir"",""object"":""chat.completion"",""created"":1795554668,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9011,,MarianeAzar,20261124_215144,2026-11-24T21:11:09.072756+00:00
+c58704ddf41e6843,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: TF2: The Medic will be credited for an assist if he heals a Spy that successfully saps a building.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-x599pf12bwjue3d5uncfi"",""object"":""chat.completion"",""created"":1795554669,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.254,,MarianeAzar,20261124_215144,2026-11-24T21:11:10.326919+00:00
+3c4c01fbc82cd7a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country did Shirley Bassey originate from?
+A. Canada
+B. England
+C. America
+D. Wales
+Answer:","[""Canada"", ""England"", ""America"", ""Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-gztimshrptds8lz6wbm68k"",""object"":""chat.completion"",""created"":1795554670,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3132,,MarianeAzar,20261124_215144,2026-11-24T21:11:11.640855+00:00
+3c4c01fbc82cd7a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country did Shirley Bassey originate from?
+A. Canada
+B. England
+C. America
+D. Wales
+Answer:","[""Canada"", ""England"", ""America"", ""Wales""]",http,0.0,16,none,"{""id"":""chatcmpl-3fplypfzlsjwqbpu3ak95e"",""object"":""chat.completion"",""created"":1795554671,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.011,,MarianeAzar,20261124_215144,2026-11-24T21:11:12.652116+00:00
+536f79624826f2d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Monster Hunter"" series introduced the monster ""Gobul""?
+A. Monster Hunter Tri
+B. Monster Hunter Frontier
+C. Monster Hunter Freedom Unite
+D. Monster Hunter Generations
+Answer:","[""Monster Hunter Tri"", ""Monster Hunter Frontier"", ""Monster Hunter Freedom Unite"", ""Monster Hunter Generations""]",http,0.0,16,none,"{""id"":""chatcmpl-9oqhhx3srrv5d8lyyg8n4m"",""object"":""chat.completion"",""created"":1795554672,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9481,,MarianeAzar,20261124_215144,2026-11-24T21:11:13.600450+00:00
+536f79624826f2d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the ""Monster Hunter"" series introduced the monster ""Gobul""?
+A. Monster Hunter Tri
+B. Monster Hunter Frontier
+C. Monster Hunter Freedom Unite
+D. Monster Hunter Generations
+Answer:","[""Monster Hunter Tri"", ""Monster Hunter Frontier"", ""Monster Hunter Freedom Unite"", ""Monster Hunter Generations""]",http,0.0,16,none,"{""id"":""chatcmpl-2cgxtbvmpoh19g73a3hjve"",""object"":""chat.completion"",""created"":1795554673,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4182,,MarianeAzar,20261124_215144,2026-11-24T21:11:15.019155+00:00
+58b47953a0282ff4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sang backup vocals on Rockwell's hit 1984 single 'Somebody's Watching Me'?
+A. Paul McCartney
+B. Michael Jackson
+C. Elton John
+D. Prince
+Answer:","[""Paul McCartney"", ""Michael Jackson"", ""Elton John"", ""Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-r5r8du19vvfytrci6cs96"",""object"":""chat.completion"",""created"":1795554674,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9564,,MarianeAzar,20261124_215144,2026-11-24T21:11:15.975895+00:00
+58b47953a0282ff4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who sang backup vocals on Rockwell's hit 1984 single 'Somebody's Watching Me'?
+A. Paul McCartney
+B. Michael Jackson
+C. Elton John
+D. Prince
+Answer:","[""Paul McCartney"", ""Michael Jackson"", ""Elton John"", ""Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-a7are12k22gmmwgsfx247r"",""object"":""chat.completion"",""created"":1795554675,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0464,,MarianeAzar,20261124_215144,2026-11-24T21:11:17.022523+00:00
+817624bbd7e28c8c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which coding language was the #1 programming language in terms of usage on GitHub in 2015?
+A. Python
+B. C#
+C. JavaScript
+D. PHP
+Answer:","[""Python"", ""C#"", ""JavaScript"", ""PHP""]",http,0.0,16,none,"{""id"":""chatcmpl-iyr56v7olaigmb08v3f059"",""object"":""chat.completion"",""created"":1795554676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3051,,MarianeAzar,20261124_215144,2026-11-24T21:11:18.327948+00:00
+817624bbd7e28c8c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which coding language was the #1 programming language in terms of usage on GitHub in 2015?
+A. Python
+B. C#
+C. JavaScript
+D. PHP
+Answer:","[""Python"", ""C#"", ""JavaScript"", ""PHP""]",http,0.0,16,none,"{""id"":""chatcmpl-kjd6moerzqueinj9m6dlp"",""object"":""chat.completion"",""created"":1795554678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8879,,MarianeAzar,20261124_215144,2026-11-24T21:11:19.216135+00:00
+003d8c69fc86fe1a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a type of monster found in Minecraft?
+A. Minotaur
+B. Werewolf
+C. Vampire
+D. Skeleton
+Answer:","[""Minotaur"", ""Werewolf"", ""Vampire"", ""Skeleton""]",http,0.0,16,none,"{""id"":""chatcmpl-6ca4ysbwfhd13hv4ethhurb"",""object"":""chat.completion"",""created"":1795554679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2534,,MarianeAzar,20261124_215144,2026-11-24T21:11:20.469854+00:00
+003d8c69fc86fe1a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is a type of monster found in Minecraft?
+A. Minotaur
+B. Werewolf
+C. Vampire
+D. Skeleton
+Answer:","[""Minotaur"", ""Werewolf"", ""Vampire"", ""Skeleton""]",http,0.0,16,none,"{""id"":""chatcmpl-htuvtudvd5ka0s9yx0oa2"",""object"":""chat.completion"",""created"":1795554680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3447,,MarianeAzar,20261124_215144,2026-11-24T21:11:21.814919+00:00

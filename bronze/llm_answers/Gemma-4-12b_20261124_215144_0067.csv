@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e323c4d9f18b501d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which city did Anger berate for ruining pizza in ""Inside Out""?
+A. Minnesota
+B. California
+C. San Francisco
+D. Washington
+Answer:","[""Minnesota"", ""California"", ""San Francisco"", ""Washington""]",http,0.0,16,none,"{""id"":""chatcmpl-he61pnvfbskzh27dejdmhb"",""object"":""chat.completion"",""created"":1795558426,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261124_215144,2026-11-24T22:13:47.550373+00:00
+2904894a6f2877ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular rock band has a one-armed drummer?
+A. Foreigner
+B. The Beatles
+C. Lynyrd Skynyrd
+D. Def Leppard
+Answer:","[""Foreigner"", ""The Beatles"", ""Lynyrd Skynyrd"", ""Def Leppard""]",http,0.0,16,none,"{""id"":""chatcmpl-p9ixpyat33h46x7o6x5aq"",""object"":""chat.completion"",""created"":1795558427,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8646,,MarianeAzar,20261124_215144,2026-11-24T22:13:48.415312+00:00
+2904894a6f2877ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which popular rock band has a one-armed drummer?
+A. Foreigner
+B. The Beatles
+C. Lynyrd Skynyrd
+D. Def Leppard
+Answer:","[""Foreigner"", ""The Beatles"", ""Lynyrd Skynyrd"", ""Def Leppard""]",http,0.0,16,none,"{""id"":""chatcmpl-957ilmpo0xjj5lmkpq3rxf"",""object"":""chat.completion"",""created"":1795558428,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261124_215144,2026-11-24T22:13:49.283879+00:00
+acf4b6e51480b809,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the standard THX subwoofer crossover frequency?
+A. 70 Hz
+B. 80 Hz
+C. 90 Hz
+D. 100 Hz
+Answer:","[""70 Hz"", ""80 Hz"", ""90 Hz"", ""100 Hz""]",http,0.0,16,none,"{""id"":""chatcmpl-uj940sjukthj4ir0025ja"",""object"":""chat.completion"",""created"":1795558429,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9193,,MarianeAzar,20261124_215144,2026-11-24T22:13:50.203449+00:00
+acf4b6e51480b809,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is the standard THX subwoofer crossover frequency?
+A. 70 Hz
+B. 80 Hz
+C. 90 Hz
+D. 100 Hz
+Answer:","[""70 Hz"", ""80 Hz"", ""90 Hz"", ""100 Hz""]",http,0.0,16,none,"{""id"":""chatcmpl-2myg1y5jg1jabuhpdahxs"",""object"":""chat.completion"",""created"":1795558430,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8947,,MarianeAzar,20261124_215144,2026-11-24T22:13:51.098596+00:00
+5f6b77dc215984c2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The World Chess Championship in Chess, Act 1 is set in which Italian city?
+A. Milan
+B. Merano
+C. Venice
+D. Rome
+Answer:","[""Milan"", ""Merano"", ""Venice"", ""Rome""]",http,0.0,16,none,"{""id"":""chatcmpl-57v4i7py86pf4g81mi5f8"",""object"":""chat.completion"",""created"":1795558430,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8724,,MarianeAzar,20261124_215144,2026-11-24T22:13:51.971891+00:00
+5f6b77dc215984c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The World Chess Championship in Chess, Act 1 is set in which Italian city?
+A. Milan
+B. Merano
+C. Venice
+D. Rome
+Answer:","[""Milan"", ""Merano"", ""Venice"", ""Rome""]",http,0.0,16,none,"{""id"":""chatcmpl-j9cznro3sd8be07ggnn65i"",""object"":""chat.completion"",""created"":1795558431,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8709,,MarianeAzar,20261124_215144,2026-11-24T22:13:52.843125+00:00
+345bb6ef6116a368,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced the Genie in Disney's ""Aladdin""?
+A. Jim Carrey
+B. Robin Williams
+C. Adam Sandler
+D. Billy Crystal
+Answer:","[""Jim Carrey"", ""Robin Williams"", ""Adam Sandler"", ""Billy Crystal""]",http,0.0,16,none,"{""id"":""chatcmpl-fn2claqefm7tivz1fo8rw"",""object"":""chat.completion"",""created"":1795558432,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261124_215144,2026-11-24T22:13:53.717069+00:00
+345bb6ef6116a368,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who voiced the Genie in Disney's ""Aladdin""?
+A. Jim Carrey
+B. Robin Williams
+C. Adam Sandler
+D. Billy Crystal
+Answer:","[""Jim Carrey"", ""Robin Williams"", ""Adam Sandler"", ""Billy Crystal""]",http,0.0,16,none,"{""id"":""chatcmpl-u32ju7miztdg3ti46im3m"",""object"":""chat.completion"",""created"":1795558433,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.901,,MarianeAzar,20261124_215144,2026-11-24T22:13:54.618345+00:00
+cae33f6b54fd6f28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is Ryūko Matoi's half of the Scissor Blade in the anime Kill la KIll?
+A. Green
+B. Purple
+C. Blue
+D. Red
+Answer:","[""Green"", ""Purple"", ""Blue"", ""Red""]",http,0.0,16,none,"{""id"":""chatcmpl-0r36wosdfxucmh3pzajv9a"",""object"":""chat.completion"",""created"":1795558434,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261124_215144,2026-11-24T22:13:55.497787+00:00
+cae33f6b54fd6f28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is Ryūko Matoi's half of the Scissor Blade in the anime Kill la KIll?
+A. Green
+B. Purple
+C. Blue
+D. Red
+Answer:","[""Green"", ""Purple"", ""Blue"", ""Red""]",http,0.0,16,none,"{""id"":""chatcmpl-2xjxqwq60hvc6kmhv0l4wg"",""object"":""chat.completion"",""created"":1795558435,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261124_215144,2026-11-24T22:13:56.360522+00:00
+9f858ff4358399cd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Ash's Pikachu refuses to go into a pokeball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bs3pzrnbja977w02ogjt92"",""object"":""chat.completion"",""created"":1795558436,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8181,,MarianeAzar,20261124_215144,2026-11-24T22:13:57.178870+00:00
+9f858ff4358399cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Pokémon, Ash's Pikachu refuses to go into a pokeball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j6tbyrcaba41dq0myqgd"",""object"":""chat.completion"",""created"":1795558437,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.83,,MarianeAzar,20261124_215144,2026-11-24T22:13:58.009065+00:00
+036624e6a9d81320,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mutated animals act as monsters in the movie 'Night of the Lepus'?
+A. Rabbits
+B. Bats
+C. Rats
+D. Dogs
+Answer:","[""Rabbits"", ""Bats"", ""Rats"", ""Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-zpf8s21xngzc536c92zea"",""object"":""chat.completion"",""created"":1795558437,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8451,,MarianeAzar,20261124_215144,2026-11-24T22:13:58.854476+00:00
+036624e6a9d81320,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mutated animals act as monsters in the movie 'Night of the Lepus'?
+A. Rabbits
+B. Bats
+C. Rats
+D. Dogs
+Answer:","[""Rabbits"", ""Bats"", ""Rats"", ""Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-as0i11atdlrdubidhvpl2i"",""object"":""chat.completion"",""created"":1795558438,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8661,,MarianeAzar,20261124_215144,2026-11-24T22:13:59.720824+00:00
+2a028f0af034eade,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English football team is nicknamed 'The Tigers'?
+A. Bristol City
+B. Cardiff City
+C. Manchester City
+D. Hull City
+Answer:","[""Bristol City"", ""Cardiff City"", ""Manchester City"", ""Hull City""]",http,0.0,16,none,"{""id"":""chatcmpl-cwqg099m8ol7qstcb6m3r3"",""object"":""chat.completion"",""created"":1795558439,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261124_215144,2026-11-24T22:14:00.577977+00:00
+2a028f0af034eade,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English football team is nicknamed 'The Tigers'?
+A. Bristol City
+B. Cardiff City
+C. Manchester City
+D. Hull City
+Answer:","[""Bristol City"", ""Cardiff City"", ""Manchester City"", ""Hull City""]",http,0.0,16,none,"{""id"":""chatcmpl-nm2hxgedb6igmenw0igsvc"",""object"":""chat.completion"",""created"":1795558440,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261124_215144,2026-11-24T22:14:01.428735+00:00
+57d879a4b64713db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who became Prime Minister of the United Kingdom in July 2016?
+A. Theresa May
+B. David Cameron
+C. Tony Blair
+D. Boris Johnson
+Answer:","[""Theresa May"", ""David Cameron"", ""Tony Blair"", ""Boris Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-3fywyuatxiujnojtg9wmv"",""object"":""chat.completion"",""created"":1795558441,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261124_215144,2026-11-24T22:14:02.282546+00:00
+57d879a4b64713db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who became Prime Minister of the United Kingdom in July 2016?
+A. Theresa May
+B. David Cameron
+C. Tony Blair
+D. Boris Johnson
+Answer:","[""Theresa May"", ""David Cameron"", ""Tony Blair"", ""Boris Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-cpm4nz927s62fshoeni7z"",""object"":""chat.completion"",""created"":1795558442,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261124_215144,2026-11-24T22:14:03.138007+00:00
+2eb6ccdfcc621090,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Cave Story,"" what is the character Balrog's catchphrase?
+A. Whoa there!
+B. Yes!
+C. Huzzah!
+D. Nyeh heh heh!
+Answer:","[""Whoa there!"", ""Yes!"", ""Huzzah!"", ""Nyeh heh heh!""]",http,0.0,16,none,"{""id"":""chatcmpl-8j4cf4xtjrw449o5zu7zdw"",""object"":""chat.completion"",""created"":1795558443,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8718,,MarianeAzar,20261124_215144,2026-11-24T22:14:04.010040+00:00
+2eb6ccdfcc621090,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Cave Story,"" what is the character Balrog's catchphrase?
+A. Whoa there!
+B. Yes!
+C. Huzzah!
+D. Nyeh heh heh!
+Answer:","[""Whoa there!"", ""Yes!"", ""Huzzah!"", ""Nyeh heh heh!""]",http,0.0,16,none,"{""id"":""chatcmpl-ew3dvool5adiwwjvgjnja"",""object"":""chat.completion"",""created"":1795558443,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261124_215144,2026-11-24T22:14:04.906883+00:00
+425de2ce421ec5c8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Dice Tower network of board game podcasts and videos is run by which individual?
+A. Uncle Pennybags
+B. Borth Sampson
+C. Tom Vasel
+D. Jason LeVine
+Answer:","[""Uncle Pennybags"", ""Borth Sampson"", ""Tom Vasel"", ""Jason LeVine""]",http,0.0,16,none,"{""id"":""chatcmpl-0wxa4zn2yamci199znokya"",""object"":""chat.completion"",""created"":1795558444,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8867,,MarianeAzar,20261124_215144,2026-11-24T22:14:05.793884+00:00
+425de2ce421ec5c8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Dice Tower network of board game podcasts and videos is run by which individual?
+A. Uncle Pennybags
+B. Borth Sampson
+C. Tom Vasel
+D. Jason LeVine
+Answer:","[""Uncle Pennybags"", ""Borth Sampson"", ""Tom Vasel"", ""Jason LeVine""]",http,0.0,16,none,"{""id"":""chatcmpl-ni0v932jbfcw9z4ba3ue8r"",""object"":""chat.completion"",""created"":1795558445,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8594,,MarianeAzar,20261124_215144,2026-11-24T22:14:06.653534+00:00
+f292477a9d834773,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a fundamental element of the Gothic style of architecture?
+A. pointed arch
+B. façades surmounted by a pediment
+C. internal frescoes
+D. coffered ceilings
+Answer:","[""pointed arch"", ""façades surmounted by a pediment"", ""internal frescoes"", ""coffered ceilings""]",http,0.0,16,none,"{""id"":""chatcmpl-jiec2l08sjcxl605pq5uc"",""object"":""chat.completion"",""created"":1795558446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8457,,MarianeAzar,20261124_215144,2026-11-24T22:14:07.499472+00:00
+f292477a9d834773,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is a fundamental element of the Gothic style of architecture?
+A. pointed arch
+B. façades surmounted by a pediment
+C. internal frescoes
+D. coffered ceilings
+Answer:","[""pointed arch"", ""façades surmounted by a pediment"", ""internal frescoes"", ""coffered ceilings""]",http,0.0,16,none,"{""id"":""chatcmpl-a9neui7vpob3yf3mcppug"",""object"":""chat.completion"",""created"":1795558447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261124_215144,2026-11-24T22:14:08.358746+00:00

@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+00744bf4066e4a30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?
+A. <scroll></scroll>
+B. <marquee></marquee>
+C. <slide></slide>
+D. <move></move>
+Answer:","[""<scroll></scroll>"", ""<marquee></marquee>"", ""<slide></slide>"", ""<move></move>""]",http,0.0,16,none,"{""id"":""chatcmpl-etdvmf1v88qtjph58ny8jk"",""object"":""chat.completion"",""created"":1795596749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9193,,MarianeAzar,20261125_084135,2026-11-25T08:52:31.359269+00:00
+bb4dfb1813386546,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which album was released by Kanye West in 2013?
+A. The Life of Pablo
+B. My Beautiful Dark Twisted Fantasy
+C. Watch the Throne
+D. Yeezus
+Answer:","[""The Life of Pablo"", ""My Beautiful Dark Twisted Fantasy"", ""Watch the Throne"", ""Yeezus""]",http,0.0,16,none,"{""id"":""chatcmpl-2gnfilw4kdqrhxw84iqfll"",""object"":""chat.completion"",""created"":1795596750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.96,,MarianeAzar,20261125_084135,2026-11-25T08:52:32.319543+00:00
+bb4dfb1813386546,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which album was released by Kanye West in 2013?
+A. The Life of Pablo
+B. My Beautiful Dark Twisted Fantasy
+C. Watch the Throne
+D. Yeezus
+Answer:","[""The Life of Pablo"", ""My Beautiful Dark Twisted Fantasy"", ""Watch the Throne"", ""Yeezus""]",http,0.0,16,none,"{""id"":""chatcmpl-g2wv4zraqs4sr92csau75"",""object"":""chat.completion"",""created"":1795596751,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:52:33.182337+00:00
+bff995c0743245bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following blood component forms a plug at the site of injuries?
+A. White blood cells
+B. Blood plasma
+C. Platelets
+D. Red blood cells
+Answer:","[""White blood cells"", ""Blood plasma"", ""Platelets"", ""Red blood cells""]",http,0.0,16,none,"{""id"":""chatcmpl-qgcrhh3iu7t7ex8d3isq"",""object"":""chat.completion"",""created"":1795596752,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8597,,MarianeAzar,20261125_084135,2026-11-25T08:52:34.042619+00:00
+bff995c0743245bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following blood component forms a plug at the site of injuries?
+A. White blood cells
+B. Blood plasma
+C. Platelets
+D. Red blood cells
+Answer:","[""White blood cells"", ""Blood plasma"", ""Platelets"", ""Red blood cells""]",http,0.0,16,none,"{""id"":""chatcmpl-ltceqq34620j0ggjnu31a"",""object"":""chat.completion"",""created"":1795596753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T08:52:34.903123+00:00
+64c5c158b517f36f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the Secret Organization in the Hotline Miami series?
+A. 50 Saints
+B. American Blessings
+C. USSR's Blessings
+D. 50 Blessings
+Answer:","[""50 Saints"", ""American Blessings"", ""USSR's Blessings"", ""50 Blessings""]",http,0.0,16,none,"{""id"":""chatcmpl-jxnyncrai4sptkw8lwikv"",""object"":""chat.completion"",""created"":1795596754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T08:52:35.763168+00:00
+64c5c158b517f36f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the Secret Organization in the Hotline Miami series?
+A. 50 Saints
+B. American Blessings
+C. USSR's Blessings
+D. 50 Blessings
+Answer:","[""50 Saints"", ""American Blessings"", ""USSR's Blessings"", ""50 Blessings""]",http,0.0,16,none,"{""id"":""chatcmpl-cly5ttaf5p9yupza66fxnq"",""object"":""chat.completion"",""created"":1795596755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8947,,MarianeAzar,20261125_084135,2026-11-25T08:52:36.658169+00:00
+8936c2b055e7ad40,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Metal Gear Solid 3: Snake Eater"" was released in 2004.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3qzhnjhv2ze5y5klaxquo3"",""object"":""chat.completion"",""created"":1795596756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8139,,MarianeAzar,20261125_084135,2026-11-25T08:52:37.472285+00:00
+8936c2b055e7ad40,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Metal Gear Solid 3: Snake Eater"" was released in 2004.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dbagofv1c9ure3djki38k"",""object"":""chat.completion"",""created"":1795596756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8414,,MarianeAzar,20261125_084135,2026-11-25T08:52:38.313913+00:00
+4e0662ecacb253a1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first dual-core CPU was the Intel Pentium D.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2xl61pynqa5z42md9dagph"",""object"":""chat.completion"",""created"":1795596757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8041,,MarianeAzar,20261125_084135,2026-11-25T08:52:39.118457+00:00
+4e0662ecacb253a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first dual-core CPU was the Intel Pentium D.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-arlui39a294751jfl153uc"",""object"":""chat.completion"",""created"":1795596758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8183,,MarianeAzar,20261125_084135,2026-11-25T08:52:39.936937+00:00
+b48bedc3499c2528,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British professional wrestler Shirley Crabtree better known as?
+A. Big Daddy
+B. Masambula
+C. Giant Haystacks
+D. Kendo Nagasaki
+Answer:","[""Big Daddy"", ""Masambula"", ""Giant Haystacks"", ""Kendo Nagasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-e4nxy81dzn3z4i9oazdzo"",""object"":""chat.completion"",""created"":1795596759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8534,,MarianeAzar,20261125_084135,2026-11-25T08:52:40.790639+00:00
+b48bedc3499c2528,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the British professional wrestler Shirley Crabtree better known as?
+A. Big Daddy
+B. Masambula
+C. Giant Haystacks
+D. Kendo Nagasaki
+Answer:","[""Big Daddy"", ""Masambula"", ""Giant Haystacks"", ""Kendo Nagasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-gyp8ogvb1jd5twkhfldy06"",""object"":""chat.completion"",""created"":1795596760,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.86,,MarianeAzar,20261125_084135,2026-11-25T08:52:41.650826+00:00
+f5df97bd3cd1fe0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Yakuza 4 who is the first character you play as?
+A. Goro Majima
+B. Shun Akiyama
+C. Kazuma Kiryu
+D. Taiga Saejima
+Answer:","[""Goro Majima"", ""Shun Akiyama"", ""Kazuma Kiryu"", ""Taiga Saejima""]",http,0.0,16,none,"{""id"":""chatcmpl-hci1hfncjm6y8f925uve6"",""object"":""chat.completion"",""created"":1795596761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8503,,MarianeAzar,20261125_084135,2026-11-25T08:52:42.501323+00:00
+f5df97bd3cd1fe0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Yakuza 4 who is the first character you play as?
+A. Goro Majima
+B. Shun Akiyama
+C. Kazuma Kiryu
+D. Taiga Saejima
+Answer:","[""Goro Majima"", ""Shun Akiyama"", ""Kazuma Kiryu"", ""Taiga Saejima""]",http,0.0,16,none,"{""id"":""chatcmpl-fjy54cz5c1sv4w1rh2jtb"",""object"":""chat.completion"",""created"":1795596761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8976,,MarianeAzar,20261125_084135,2026-11-25T08:52:43.399222+00:00
+b444c72f234dd316,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which species of Brown Bear is not extinct?
+A. Atlas Bear
+B. Syrian Brown Bear
+C. California Grizzly Bear
+D. Mexican Grizzly Bear
+Answer:","[""Atlas Bear"", ""Syrian Brown Bear"", ""California Grizzly Bear"", ""Mexican Grizzly Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-zae1muz5aaabh85wkyei1w"",""object"":""chat.completion"",""created"":1795596762,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261125_084135,2026-11-25T08:52:44.267104+00:00
+b444c72f234dd316,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which species of Brown Bear is not extinct?
+A. Atlas Bear
+B. Syrian Brown Bear
+C. California Grizzly Bear
+D. Mexican Grizzly Bear
+Answer:","[""Atlas Bear"", ""Syrian Brown Bear"", ""California Grizzly Bear"", ""Mexican Grizzly Bear""]",http,0.0,16,none,"{""id"":""chatcmpl-g0g9dwyk94vn2zs6vdv7h"",""object"":""chat.completion"",""created"":1795596763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T08:52:45.128173+00:00
+5617b944849e1277,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The fictional movie 'Rochelle, Rochelle' features in which sitcom?
+A. Frasier
+B. Cheers
+C. Seinfeld
+D. Friends
+Answer:","[""Frasier"", ""Cheers"", ""Seinfeld"", ""Friends""]",http,0.0,16,none,"{""id"":""chatcmpl-38onppe01fd43a971ugd"",""object"":""chat.completion"",""created"":1795596764,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8541,,MarianeAzar,20261125_084135,2026-11-25T08:52:45.982757+00:00
+5617b944849e1277,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The fictional movie 'Rochelle, Rochelle' features in which sitcom?
+A. Frasier
+B. Cheers
+C. Seinfeld
+D. Friends
+Answer:","[""Frasier"", ""Cheers"", ""Seinfeld"", ""Friends""]",http,0.0,16,none,"{""id"":""chatcmpl-yzlnqgi70wdfvv22ov9jhr"",""object"":""chat.completion"",""created"":1795596765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:52:46.839366+00:00
+9dd3010ad1e9a2f7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?
+A. Yekaterinburg
+B. Rostov-on-Don
+C. Vladivostok
+D. Kaliningrad
+Answer:","[""Yekaterinburg"", ""Rostov-on-Don"", ""Vladivostok"", ""Kaliningrad""]",http,0.0,16,none,"{""id"":""chatcmpl-kqprbeanfugj19tk7pjg4r"",""object"":""chat.completion"",""created"":1795596766,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8526,,MarianeAzar,20261125_084135,2026-11-25T08:52:47.692407+00:00
+9dd3010ad1e9a2f7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?
+A. Yekaterinburg
+B. Rostov-on-Don
+C. Vladivostok
+D. Kaliningrad
+Answer:","[""Yekaterinburg"", ""Rostov-on-Don"", ""Vladivostok"", ""Kaliningrad""]",http,0.0,16,none,"{""id"":""chatcmpl-c49typvr5nwfdrblbdebce"",""object"":""chat.completion"",""created"":1795596767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8908,,MarianeAzar,20261125_084135,2026-11-25T08:52:48.583413+00:00
+053b53fb8b1f0b5f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is only 1 root name server, among 13 in total, that is currently located in Asia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7z2em7fwayisa91bugl9zs"",""object"":""chat.completion"",""created"":1795596768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8327,,MarianeAzar,20261125_084135,2026-11-25T08:52:49.416176+00:00
+053b53fb8b1f0b5f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: There is only 1 root name server, among 13 in total, that is currently located in Asia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-l3tx5baqvmkgp90oeu7zg"",""object"":""chat.completion"",""created"":1795596768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T08:52:50.273174+00:00
+f63114e112051f24,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Monster Hunter Generations, which of these hunter arts are exclusive to the Longsword?
+A. Provoke
+B. Unhinged Spirit
+C. Demon Riot
+D. Shoryugeki
+Answer:","[""Provoke"", ""Unhinged Spirit"", ""Demon Riot"", ""Shoryugeki""]",http,0.0,16,none,"{""id"":""chatcmpl-se5o2syqh7gbwifkcszi"",""object"":""chat.completion"",""created"":1795596769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8478,,MarianeAzar,20261125_084135,2026-11-25T08:52:51.121296+00:00
+f63114e112051f24,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Monster Hunter Generations, which of these hunter arts are exclusive to the Longsword?
+A. Provoke
+B. Unhinged Spirit
+C. Demon Riot
+D. Shoryugeki
+Answer:","[""Provoke"", ""Unhinged Spirit"", ""Demon Riot"", ""Shoryugeki""]",http,0.0,16,none,"{""id"":""chatcmpl-tiytsz5ft3mr9x1q5dcyd"",""object"":""chat.completion"",""created"":1795596770,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8803,,MarianeAzar,20261125_084135,2026-11-25T08:52:52.001796+00:00

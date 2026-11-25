@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+fcf778f31a5a2012,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Battle of Agincourt take place?
+A. 1422
+B. 1415
+C. 1463
+D. 1401
+Answer:","[""1422"", ""1415"", ""1463"", ""1401""]",http,0.0,16,none,"{""id"":""chatcmpl-wl4sqdgh01w71yu0y05h"",""object"":""chat.completion"",""created"":1795594801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1707,,MarianeAzar,20261125_084135,2026-11-25T08:20:02.989029+00:00
+30913415b9ee13c3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the name of the largest city in the US state Tennessee?
+A. Thebes
+B. Alexandria
+C. Memphis
+D. Luxor
+Answer:","[""Thebes"", ""Alexandria"", ""Memphis"", ""Luxor""]",http,0.0,16,none,"{""id"":""chatcmpl-24wy8lsf3txi047rquxv7y1p"",""object"":""chat.completion"",""created"":1795594802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1281,,MarianeAzar,20261125_084135,2026-11-25T08:20:04.117413+00:00
+30913415b9ee13c3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is the name of the largest city in the US state Tennessee?
+A. Thebes
+B. Alexandria
+C. Memphis
+D. Luxor
+Answer:","[""Thebes"", ""Alexandria"", ""Memphis"", ""Luxor""]",http,0.0,16,none,"{""id"":""chatcmpl-71s0gl81garuc93dlx3fol"",""object"":""chat.completion"",""created"":1795594803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1567,,MarianeAzar,20261125_084135,2026-11-25T08:20:05.274393+00:00
+9b8f5ec9ce1deee9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mountain range lines the border between Spain and France?
+A. Urals
+B. Pyrenees
+C. Carpathians
+D. Alps
+Answer:","[""Urals"", ""Pyrenees"", ""Carpathians"", ""Alps""]",http,0.0,16,none,"{""id"":""chatcmpl-cfoej4wlh6m7bxbqfkuss6"",""object"":""chat.completion"",""created"":1795594804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1246,,MarianeAzar,20261125_084135,2026-11-25T08:20:06.399345+00:00
+9b8f5ec9ce1deee9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What mountain range lines the border between Spain and France?
+A. Urals
+B. Pyrenees
+C. Carpathians
+D. Alps
+Answer:","[""Urals"", ""Pyrenees"", ""Carpathians"", ""Alps""]",http,0.0,16,none,"{""id"":""chatcmpl-kx8e0l3cohjy30ofv1swr"",""object"":""chat.completion"",""created"":1795594805,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1386,,MarianeAzar,20261125_084135,2026-11-25T08:20:07.538186+00:00
+5ae71335b098e8ca,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which 90's comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?
+A. Bill & Ted's Excellent Adventure
+B. Austin Powers: International Man of Mystery
+C. Wayne's World
+D. Dumb and Dumber
+Answer:","[""Bill & Ted's Excellent Adventure"", ""Austin Powers: International Man of Mystery"", ""Wayne's World"", ""Dumb and Dumber""]",http,0.0,16,none,"{""id"":""chatcmpl-8b6g586l95t51uq1tl7xe"",""object"":""chat.completion"",""created"":1795594806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1699,,MarianeAzar,20261125_084135,2026-11-25T08:20:08.708593+00:00
+5ae71335b098e8ca,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which 90's comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?
+A. Bill & Ted's Excellent Adventure
+B. Austin Powers: International Man of Mystery
+C. Wayne's World
+D. Dumb and Dumber
+Answer:","[""Bill & Ted's Excellent Adventure"", ""Austin Powers: International Man of Mystery"", ""Wayne's World"", ""Dumb and Dumber""]",http,0.0,16,none,"{""id"":""chatcmpl-3f7qhow9zzfsc5wts0aos"",""object"":""chat.completion"",""created"":1795594808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2116,,MarianeAzar,20261125_084135,2026-11-25T08:20:09.920489+00:00
+fc29c0fc359ec6ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Ultimate does Makoto Naegi, protagonist of Danganronpa: Trigger Happy Havoc, have?
+A. Ultimate Runner
+B. Ultimate Detective
+C. Ultimate Lucky Student
+D. Ultimate Unlucky Student
+Answer:","[""Ultimate Runner"", ""Ultimate Detective"", ""Ultimate Lucky Student"", ""Ultimate Unlucky Student""]",http,0.0,16,none,"{""id"":""chatcmpl-110u32s1zp4eb3a5jidhe8k"",""object"":""chat.completion"",""created"":1795594809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9552,,MarianeAzar,20261125_084135,2026-11-25T08:20:10.876121+00:00
+fc29c0fc359ec6ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Ultimate does Makoto Naegi, protagonist of Danganronpa: Trigger Happy Havoc, have?
+A. Ultimate Runner
+B. Ultimate Detective
+C. Ultimate Lucky Student
+D. Ultimate Unlucky Student
+Answer:","[""Ultimate Runner"", ""Ultimate Detective"", ""Ultimate Lucky Student"", ""Ultimate Unlucky Student""]",http,0.0,16,none,"{""id"":""chatcmpl-a756v67de6k1gygth9vt2e"",""object"":""chat.completion"",""created"":1795594810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0139,,MarianeAzar,20261125_084135,2026-11-25T08:20:11.890308+00:00
+c7db06646fcee5c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the exact length of one non-curved part in Lane 1 of an Olympic Track?
+A. 84.39m
+B. 109.36yd
+C. 100m
+D. 100yd
+Answer:","[""84.39m"", ""109.36yd"", ""100m"", ""100yd""]",http,0.0,16,none,"{""id"":""chatcmpl-vkubhbza9s96taozgghl9"",""object"":""chat.completion"",""created"":1795594811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8886,,MarianeAzar,20261125_084135,2026-11-25T08:20:12.779328+00:00
+c7db06646fcee5c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the exact length of one non-curved part in Lane 1 of an Olympic Track?
+A. 84.39m
+B. 109.36yd
+C. 100m
+D. 100yd
+Answer:","[""84.39m"", ""109.36yd"", ""100m"", ""100yd""]",http,0.0,16,none,"{""id"":""chatcmpl-m8g8hpct28htu8kniriv6j"",""object"":""chat.completion"",""created"":1795594812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9098,,MarianeAzar,20261125_084135,2026-11-25T08:20:13.689373+00:00
+4dcc9661a8194eb6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these two plates are best know for forming earthquakes and tsunami's?
+A. Oceanic & Continental Crust/Transform Plate Boundaries
+B. Transform Plate Boundaries/Divergent Plate Boundaries
+C. Convergent Plate Boundaries/Oceanic Crust
+D. Divergent Plate Boundaries/Convergent/Oceanic Crust
+Answer:","[""Oceanic & Continental Crust/Transform Plate Boundaries"", ""Transform Plate Boundaries/Divergent Plate Boundaries"", ""Convergent Plate Boundaries/Oceanic Crust"", ""Divergent Plate Boundaries/Convergent/Oceanic Crust""]",http,0.0,16,none,"{""id"":""chatcmpl-84l2rr9qoa4svx6b3iwbdl"",""object"":""chat.completion"",""created"":1795594813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.896,,MarianeAzar,20261125_084135,2026-11-25T08:20:14.585666+00:00
+4dcc9661a8194eb6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these two plates are best know for forming earthquakes and tsunami's?
+A. Oceanic & Continental Crust/Transform Plate Boundaries
+B. Transform Plate Boundaries/Divergent Plate Boundaries
+C. Convergent Plate Boundaries/Oceanic Crust
+D. Divergent Plate Boundaries/Convergent/Oceanic Crust
+Answer:","[""Oceanic & Continental Crust/Transform Plate Boundaries"", ""Transform Plate Boundaries/Divergent Plate Boundaries"", ""Convergent Plate Boundaries/Oceanic Crust"", ""Divergent Plate Boundaries/Convergent/Oceanic Crust""]",http,0.0,16,none,"{""id"":""chatcmpl-nr5nvo9dfgq7x6e4il75e"",""object"":""chat.completion"",""created"":1795594814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3188,,MarianeAzar,20261125_084135,2026-11-25T08:20:15.904719+00:00
+ef7f6d7bbc23898a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: It's not possible to format a write-protected DVD-R Hard Disk.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-78s28xzz5t8g5q5iko41gn"",""object"":""chat.completion"",""created"":1795594815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.339,,MarianeAzar,20261125_084135,2026-11-25T08:20:17.243888+00:00
+ef7f6d7bbc23898a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: It's not possible to format a write-protected DVD-R Hard Disk.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mejtbxaudvpu9okv6amrsl"",""object"":""chat.completion"",""created"":1795594816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1249,,MarianeAzar,20261125_084135,2026-11-25T08:20:18.368960+00:00
+ba01455040de2493,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?
+A. Dahlia
+B. Sabrina
+C. Hermione
+D. Dorothy
+Answer:","[""Dahlia"", ""Sabrina"", ""Hermione"", ""Dorothy""]",http,0.0,16,none,"{""id"":""chatcmpl-376wnij03zfedgi44puqm"",""object"":""chat.completion"",""created"":1795594817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1304,,MarianeAzar,20261125_084135,2026-11-25T08:20:19.499861+00:00
+ba01455040de2493,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?
+A. Dahlia
+B. Sabrina
+C. Hermione
+D. Dorothy
+Answer:","[""Dahlia"", ""Sabrina"", ""Hermione"", ""Dorothy""]",http,0.0,16,none,"{""id"":""chatcmpl-8ucym7ixzs8orkltgtxqil"",""object"":""chat.completion"",""created"":1795594818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1658,,MarianeAzar,20261125_084135,2026-11-25T08:20:20.665870+00:00
+d376193b23a8b61f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The mobile game ""Jetpack Joyride"" was released in what year?
+A. 2009
+B. 2012
+C. 2011
+D. 2014
+Answer:","[""2009"", ""2012"", ""2011"", ""2014""]",http,0.0,16,none,"{""id"":""chatcmpl-z0xfmn7bsmkf4fd8bmgw47"",""object"":""chat.completion"",""created"":1795594820,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1422,,MarianeAzar,20261125_084135,2026-11-25T08:20:21.808294+00:00
+d376193b23a8b61f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The mobile game ""Jetpack Joyride"" was released in what year?
+A. 2009
+B. 2012
+C. 2011
+D. 2014
+Answer:","[""2009"", ""2012"", ""2011"", ""2014""]",http,0.0,16,none,"{""id"":""chatcmpl-2r6zw97telcrtuls4g3og8"",""object"":""chat.completion"",""created"":1795594821,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1826,,MarianeAzar,20261125_084135,2026-11-25T08:20:22.991133+00:00
+5fe704c381ed844f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before getting the shotgun, what did the titular hobo in 'Hobo with a Shotgun' want to purchase?
+A. a suit
+B. a revolver
+C. a lawnmower
+D. a guitar
+Answer:","[""a suit"", ""a revolver"", ""a lawnmower"", ""a guitar""]",http,0.0,16,none,"{""id"":""chatcmpl-mavgfuqy6zodf63v68qfou"",""object"":""chat.completion"",""created"":1795594822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.14,,MarianeAzar,20261125_084135,2026-11-25T08:20:24.131526+00:00
+5fe704c381ed844f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Before getting the shotgun, what did the titular hobo in 'Hobo with a Shotgun' want to purchase?
+A. a suit
+B. a revolver
+C. a lawnmower
+D. a guitar
+Answer:","[""a suit"", ""a revolver"", ""a lawnmower"", ""a guitar""]",http,0.0,16,none,"{""id"":""chatcmpl-i99x7ic92nqy0f5t3hr36"",""object"":""chat.completion"",""created"":1795594823,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1712,,MarianeAzar,20261125_084135,2026-11-25T08:20:25.303011+00:00
+1c31063c7ff9625d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Psychology, which need appears highest in the ""Maslow's hierarchy of needs"" pyramid?
+A. Love
+B. Safety
+C. Esteem
+D. Physiological
+Answer:","[""Love"", ""Safety"", ""Esteem"", ""Physiological""]",http,0.0,16,none,"{""id"":""chatcmpl-w1zoqjrqbrmfivhmboyzq"",""object"":""chat.completion"",""created"":1795594824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1537,,MarianeAzar,20261125_084135,2026-11-25T08:20:26.457079+00:00
+1c31063c7ff9625d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Psychology, which need appears highest in the ""Maslow's hierarchy of needs"" pyramid?
+A. Love
+B. Safety
+C. Esteem
+D. Physiological
+Answer:","[""Love"", ""Safety"", ""Esteem"", ""Physiological""]",http,0.0,16,none,"{""id"":""chatcmpl-pn3xdqcw8j3140uour06s"",""object"":""chat.completion"",""created"":1795594825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1267,,MarianeAzar,20261125_084135,2026-11-25T08:20:27.584080+00:00
+a6346e06ff1078da,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the periodic table, Potassium's symbol is the letter K.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r6u0grw7o25p633jqlm6p"",""object"":""chat.completion"",""created"":1795594827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1087,,MarianeAzar,20261125_084135,2026-11-25T08:20:28.693089+00:00
+a6346e06ff1078da,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the periodic table, Potassium's symbol is the letter K.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ea2rclpi0uvvr6sd6mgk"",""object"":""chat.completion"",""created"":1795594828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0909,,MarianeAzar,20261125_084135,2026-11-25T08:20:29.784157+00:00

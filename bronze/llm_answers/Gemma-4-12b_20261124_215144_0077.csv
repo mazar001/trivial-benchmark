@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+dac2cc888d2aa76f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the computer software acronym JVM stand for?
+A. Just Virtual Machine
+B. Java Virtual Machine
+C. Java Visual Machine
+D. Java Vendor Machine
+Answer:","[""Just Virtual Machine"", ""Java Virtual Machine"", ""Java Visual Machine"", ""Java Vendor Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-q9fxs55htsa2m8buhshvj"",""object"":""chat.completion"",""created"":1795558645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261124_215144,2026-11-24T22:17:26.607178+00:00
+0dd39c9a9598ca98,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first wife of King Henry VIII?
+A. Jane Seymour
+B. Catherine of Aragon
+C. Anne of Cleves
+D. Anne Boleyn
+Answer:","[""Jane Seymour"", ""Catherine of Aragon"", ""Anne of Cleves"", ""Anne Boleyn""]",http,0.0,16,none,"{""id"":""chatcmpl-76xzgt8i596rv02getisj"",""object"":""chat.completion"",""created"":1795558646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261124_215144,2026-11-24T22:17:27.468100+00:00
+0dd39c9a9598ca98,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first wife of King Henry VIII?
+A. Jane Seymour
+B. Catherine of Aragon
+C. Anne of Cleves
+D. Anne Boleyn
+Answer:","[""Jane Seymour"", ""Catherine of Aragon"", ""Anne of Cleves"", ""Anne Boleyn""]",http,0.0,16,none,"{""id"":""chatcmpl-p3say22d4xbiog2x74rbzf"",""object"":""chat.completion"",""created"":1795558647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261124_215144,2026-11-24T22:17:28.325731+00:00
+9adde35f701edc31,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The New York Times slogan is, “All the News That’s Fit to…”
+A. Look
+B. Read
+C. Print
+D. Digest
+Answer:","[""Look"", ""Read"", ""Print"", ""Digest""]",http,0.0,16,none,"{""id"":""chatcmpl-tns1kxpwa4c38nokmneixj"",""object"":""chat.completion"",""created"":1795558648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.1357,,MarianeAzar,20261124_215144,2026-11-24T22:17:28.461710+00:00
+9adde35f701edc31,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The New York Times slogan is, “All the News That’s Fit to…”
+A. Look
+B. Read
+C. Print
+D. Digest
+Answer:","[""Look"", ""Read"", ""Print"", ""Digest""]",http,0.0,16,none,,0.021,"ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",MarianeAzar,20261124_215144,2026-11-24T22:17:28.482867+00:00
+3e1d7c78d20e3a70,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Centripetal force is an apparent force that acts outward on a body moving around a center, arising from the body's inertia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mgo0x7rtw3hfqwsb8478r"",""object"":""chat.completion"",""created"":1795560599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4751,,MarianeAzar,20261124_215144,2026-11-24T22:17:29.958239+00:00
+3e1d7c78d20e3a70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Centripetal force is an apparent force that acts outward on a body moving around a center, arising from the body's inertia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-c50l4z6z72948nbkiluomq"",""object"":""chat.completion"",""created"":1795560600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261124_215144,2026-11-24T22:17:30.819222+00:00
+b4f40b383ce329cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Canada's smallest province?
+A. Nova Scotia
+B. Prince Edward Island
+C. New Brunswick
+D. Yukon
+Answer:","[""Nova Scotia"", ""Prince Edward Island"", ""New Brunswick"", ""Yukon""]",http,0.0,16,none,"{""id"":""chatcmpl-ayrsur06jurrk5dyrvotud"",""object"":""chat.completion"",""created"":1795560601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261124_215144,2026-11-24T22:17:31.674330+00:00
+b4f40b383ce329cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Canada's smallest province?
+A. Nova Scotia
+B. Prince Edward Island
+C. New Brunswick
+D. Yukon
+Answer:","[""Nova Scotia"", ""Prince Edward Island"", ""New Brunswick"", ""Yukon""]",http,0.0,16,none,"{""id"":""chatcmpl-vii8trkuubjpho0hwzvx2a"",""object"":""chat.completion"",""created"":1795560601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261124_215144,2026-11-24T22:17:32.523755+00:00
+b17cd34aaeb8ae35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal is on Link's pajamas in The Legend of Zelda: The Wind Waker?
+A. Crawfish
+B. Swordfish
+C. Salmon
+D. Lobster
+Answer:","[""Crawfish"", ""Swordfish"", ""Salmon"", ""Lobster""]",http,0.0,16,none,"{""id"":""chatcmpl-o59sfsgqjclc76umst3ff"",""object"":""chat.completion"",""created"":1795560602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261124_215144,2026-11-24T22:17:33.393703+00:00
+b17cd34aaeb8ae35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal is on Link's pajamas in The Legend of Zelda: The Wind Waker?
+A. Crawfish
+B. Swordfish
+C. Salmon
+D. Lobster
+Answer:","[""Crawfish"", ""Swordfish"", ""Salmon"", ""Lobster""]",http,0.0,16,none,"{""id"":""chatcmpl-eewv8c9sfn4ov0krqww8np"",""object"":""chat.completion"",""created"":1795560603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261124_215144,2026-11-24T22:50:04.693277+00:00
+0659cd5eb671d5c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Andaman and Nicobar Islands in South East Asia are controlled by which country?
+A. India
+B. Thailand
+C. Indonesia
+D. Vietnam
+Answer:","[""India"", ""Thailand"", ""Indonesia"", ""Vietnam""]",http,0.0,16,none,"{""id"":""chatcmpl-s24d4xb9tu5y6ocqaxt6v"",""object"":""chat.completion"",""created"":1795560604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261124_215144,2026-11-24T22:50:05.555411+00:00
+0659cd5eb671d5c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Andaman and Nicobar Islands in South East Asia are controlled by which country?
+A. India
+B. Thailand
+C. Indonesia
+D. Vietnam
+Answer:","[""India"", ""Thailand"", ""Indonesia"", ""Vietnam""]",http,0.0,16,none,"{""id"":""chatcmpl-5i0rt8f4509qtcq0wjlw1"",""object"":""chat.completion"",""created"":1795560605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8635,,MarianeAzar,20261124_215144,2026-11-24T22:50:06.419282+00:00
+b1bb4cb397752978,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Pikmin"" games, which of the following pikmin colors lacks it's own ""Onion"" nest?
+A. Purple
+B. Rock
+C. Winged
+D. Blue
+Answer:","[""Purple"", ""Rock"", ""Winged"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-tz2m65l7m2qpmttp4dodxm"",""object"":""chat.completion"",""created"":1795560606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261124_215144,2026-11-24T22:50:07.286994+00:00
+b1bb4cb397752978,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Pikmin"" games, which of the following pikmin colors lacks it's own ""Onion"" nest?
+A. Purple
+B. Rock
+C. Winged
+D. Blue
+Answer:","[""Purple"", ""Rock"", ""Winged"", ""Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-9muyuh85zuysybhciqat9"",""object"":""chat.completion"",""created"":1795560607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261124_215144,2026-11-24T22:50:08.176100+00:00
+c6a00789e1750581,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who portrayed Han Solo in the Star Wars main film series?
+A. Peter Cushing
+B. Mark Hamill
+C. Alec Guinness
+D. Harrison Ford
+Answer:","[""Peter Cushing"", ""Mark Hamill"", ""Alec Guinness"", ""Harrison Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-5zjr6yxa5sf3n031jqufv4"",""object"":""chat.completion"",""created"":1795560608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8718,,MarianeAzar,20261124_215144,2026-11-24T22:50:09.048306+00:00
+c6a00789e1750581,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who portrayed Han Solo in the Star Wars main film series?
+A. Peter Cushing
+B. Mark Hamill
+C. Alec Guinness
+D. Harrison Ford
+Answer:","[""Peter Cushing"", ""Mark Hamill"", ""Alec Guinness"", ""Harrison Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-c787pmey3pumedjnz22a37"",""object"":""chat.completion"",""created"":1795560608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9029,,MarianeAzar,20261124_215144,2026-11-24T22:50:09.951443+00:00
+56a33444f91b860a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a Disney cartoon character?
+A. Daffy Duck
+B. Scrooge McDuck
+C. Donald Duck
+D. Daisy Duck
+Answer:","[""Daffy Duck"", ""Scrooge McDuck"", ""Donald Duck"", ""Daisy Duck""]",http,0.0,16,none,"{""id"":""chatcmpl-eqob11mcfyp41qi7l2489k"",""object"":""chat.completion"",""created"":1795560609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261124_215144,2026-11-24T22:50:10.828257+00:00
+56a33444f91b860a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a Disney cartoon character?
+A. Daffy Duck
+B. Scrooge McDuck
+C. Donald Duck
+D. Daisy Duck
+Answer:","[""Daffy Duck"", ""Scrooge McDuck"", ""Donald Duck"", ""Daisy Duck""]",http,0.0,16,none,"{""id"":""chatcmpl-56nqz716g0cxxodh46prok"",""object"":""chat.completion"",""created"":1795560610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9781,,MarianeAzar,20261124_215144,2026-11-24T22:50:11.806635+00:00
+5893398993e877cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Australia become a federation?
+A. 1911
+B. 1910
+C. 1899
+D. 1901
+Answer:","[""1911"", ""1910"", ""1899"", ""1901""]",http,0.0,16,none,"{""id"":""chatcmpl-1q71olpneg95xay5sh42f"",""object"":""chat.completion"",""created"":1795560611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261124_215144,2026-11-24T22:50:12.680482+00:00
+5893398993e877cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did Australia become a federation?
+A. 1911
+B. 1910
+C. 1899
+D. 1901
+Answer:","[""1911"", ""1910"", ""1899"", ""1901""]",http,0.0,16,none,"{""id"":""chatcmpl-tqzxwfi29thr90506u9h5"",""object"":""chat.completion"",""created"":1795560612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8543,,MarianeAzar,20261124_215144,2026-11-24T22:50:13.535110+00:00
+f1aca762a94028e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Assassination Classroom what is the class that Korosensei teaches?
+A. Class 3-B
+B. Class 3-E
+C. Class 3-A
+D. Class 3-D
+Answer:","[""Class 3-B"", ""Class 3-E"", ""Class 3-A"", ""Class 3-D""]",http,0.0,16,none,"{""id"":""chatcmpl-9uwln3bqjf5rtl6wh7chh"",""object"":""chat.completion"",""created"":1795560613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261124_215144,2026-11-24T22:50:14.400775+00:00
+f1aca762a94028e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime Assassination Classroom what is the class that Korosensei teaches?
+A. Class 3-B
+B. Class 3-E
+C. Class 3-A
+D. Class 3-D
+Answer:","[""Class 3-B"", ""Class 3-E"", ""Class 3-A"", ""Class 3-D""]",http,0.0,16,none,"{""id"":""chatcmpl-wdisyfz0yr1ifjlh87bqm"",""object"":""chat.completion"",""created"":1795560614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9225,,MarianeAzar,20261124_215144,2026-11-24T22:50:15.323541+00:00
+03cd48d572a4fd28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the town in which Lily and James Potter are buried?
+A. Ottery St. Catchpole
+B. Hogsmeade
+C. Little Hangleton
+D. Godric's Hollow
+Answer:","[""Ottery St. Catchpole"", ""Hogsmeade"", ""Little Hangleton"", ""Godric's Hollow""]",http,0.0,16,none,"{""id"":""chatcmpl-549pb4458hsxi37xbo26x"",""object"":""chat.completion"",""created"":1795560615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9232,,MarianeAzar,20261124_215144,2026-11-24T22:50:16.247097+00:00
+03cd48d572a4fd28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the town in which Lily and James Potter are buried?
+A. Ottery St. Catchpole
+B. Hogsmeade
+C. Little Hangleton
+D. Godric's Hollow
+Answer:","[""Ottery St. Catchpole"", ""Hogsmeade"", ""Little Hangleton"", ""Godric's Hollow""]",http,0.0,16,none,"{""id"":""chatcmpl-5mg0az0qr0p8hpg937vcpc"",""object"":""chat.completion"",""created"":1795560616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9122,,MarianeAzar,20261124_215144,2026-11-24T22:50:17.159531+00:00

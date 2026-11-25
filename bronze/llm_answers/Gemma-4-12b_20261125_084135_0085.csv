@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+87e22531ca5fd19b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Back to the Future Part II, Marty and Dr. Emmett Brown go to which future date?
+A. July 20, 2015
+B. October 21, 2015
+C. August 28, 2015
+D. January 25, 2015
+Answer:","[""July 20, 2015"", ""October 21, 2015"", ""August 28, 2015"", ""January 25, 2015""]",http,0.0,16,none,"{""id"":""chatcmpl-6xmnj1f6xlkaxngvvy3b1"",""object"":""chat.completion"",""created"":1795594466,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0296,,MarianeAzar,20261125_084135,2026-11-25T08:14:27.864333+00:00
+5069bcc43a76eaab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the chemical formula for ammonia?
+A. NO3
+B. CH4
+C. NH3
+D. CO2
+Answer:","[""NO3"", ""CH4"", ""NH3"", ""CO2""]",http,0.0,16,none,"{""id"":""chatcmpl-hrtxxwzjueb6bw1gmtobh6"",""object"":""chat.completion"",""created"":1795594467,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3451,,MarianeAzar,20261125_084135,2026-11-25T08:14:29.209745+00:00
+5069bcc43a76eaab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the chemical formula for ammonia?
+A. NO3
+B. CH4
+C. NH3
+D. CO2
+Answer:","[""NO3"", ""CH4"", ""NH3"", ""CO2""]",http,0.0,16,none,"{""id"":""chatcmpl-ekkqmnfgwj95715h58cdvs"",""object"":""chat.completion"",""created"":1795594468,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9262,,MarianeAzar,20261125_084135,2026-11-25T08:14:30.136128+00:00
+d08b182e6fdba0ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The towns of Brugelette, Arlon and Ath are located in which country?
+A. Andorra
+B. Belgium
+C. Luxembourg
+D. France
+Answer:","[""Andorra"", ""Belgium"", ""Luxembourg"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-ssdbsy6pop7p0eaem6zp9"",""object"":""chat.completion"",""created"":1795594469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2191,,MarianeAzar,20261125_084135,2026-11-25T08:14:31.355483+00:00
+d08b182e6fdba0ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The towns of Brugelette, Arlon and Ath are located in which country?
+A. Andorra
+B. Belgium
+C. Luxembourg
+D. France
+Answer:","[""Andorra"", ""Belgium"", ""Luxembourg"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-7rutordx71m2mq3wrga60m"",""object"":""chat.completion"",""created"":1795594470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.14,,MarianeAzar,20261125_084135,2026-11-25T08:14:32.495696+00:00
+5709e53f6c4d7757,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following snipers has the highest amount of confirmed kills?
+A. Vasily Zaytsev
+B. Craig Harrison
+C. Simo Häyhä
+D. Chris Kyle
+Answer:","[""Vasily Zaytsev"", ""Craig Harrison"", ""Simo Häyhä"", ""Chris Kyle""]",http,0.0,16,none,"{""id"":""chatcmpl-m8ajcv5qw4isy4pyumhg"",""object"":""chat.completion"",""created"":1795594471,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9061,,MarianeAzar,20261125_084135,2026-11-25T08:14:33.402293+00:00
+5709e53f6c4d7757,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following snipers has the highest amount of confirmed kills?
+A. Vasily Zaytsev
+B. Craig Harrison
+C. Simo Häyhä
+D. Chris Kyle
+Answer:","[""Vasily Zaytsev"", ""Craig Harrison"", ""Simo Häyhä"", ""Chris Kyle""]",http,0.0,16,none,"{""id"":""chatcmpl-aqvf4putq49ocksgt9gmn"",""object"":""chat.completion"",""created"":1795594472,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4946,,MarianeAzar,20261125_084135,2026-11-25T08:14:34.897136+00:00
+750478653b8e554f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which stage was planned to be a part of ""Sonic the Hedgehog 2"", but was scrapped during development?
+A. Sky High Zone
+B. Genocide City Zone
+C. Clockwork Zone
+D. Stardust Speedway Zone
+Answer:","[""Sky High Zone"", ""Genocide City Zone"", ""Clockwork Zone"", ""Stardust Speedway Zone""]",http,0.0,16,none,"{""id"":""chatcmpl-gvdpnzwgslcrbamtdyai8"",""object"":""chat.completion"",""created"":1795594474,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0703,,MarianeAzar,20261125_084135,2026-11-25T08:14:35.967709+00:00
+750478653b8e554f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which stage was planned to be a part of ""Sonic the Hedgehog 2"", but was scrapped during development?
+A. Sky High Zone
+B. Genocide City Zone
+C. Clockwork Zone
+D. Stardust Speedway Zone
+Answer:","[""Sky High Zone"", ""Genocide City Zone"", ""Clockwork Zone"", ""Stardust Speedway Zone""]",http,0.0,16,none,"{""id"":""chatcmpl-94hurhcazphmtdwvb1wl"",""object"":""chat.completion"",""created"":1795594475,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9346,,MarianeAzar,20261125_084135,2026-11-25T08:14:36.902613+00:00
+afa1c8909f50da57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the last Roman emperor in the Year of Four Emperors (69 AD)?
+A. Vespasian
+B. Galba
+C. Otho
+D. Vitellius
+Answer:","[""Vespasian"", ""Galba"", ""Otho"", ""Vitellius""]",http,0.0,16,none,"{""id"":""chatcmpl-cywofw4gxlsao21j17b0w6"",""object"":""chat.completion"",""created"":1795594476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3296,,MarianeAzar,20261125_084135,2026-11-25T08:14:38.232414+00:00
+afa1c8909f50da57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the last Roman emperor in the Year of Four Emperors (69 AD)?
+A. Vespasian
+B. Galba
+C. Otho
+D. Vitellius
+Answer:","[""Vespasian"", ""Galba"", ""Otho"", ""Vitellius""]",http,0.0,16,none,"{""id"":""chatcmpl-2o0l45exsp6ojdzw5x00hm"",""object"":""chat.completion"",""created"":1795594477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3552,,MarianeAzar,20261125_084135,2026-11-25T08:14:39.587835+00:00
+71ac10a44043b148,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first track on Kanye West's 808s & Heartbreak?
+A. Welcome to Heartbreak
+B. Say You Will
+C. Street Lights
+D. Heartless
+Answer:","[""Welcome to Heartbreak"", ""Say You Will"", ""Street Lights"", ""Heartless""]",http,0.0,16,none,"{""id"":""chatcmpl-27t06zv4t1rh4jywkw9weip"",""object"":""chat.completion"",""created"":1795594479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.944,,MarianeAzar,20261125_084135,2026-11-25T08:14:40.532135+00:00
+71ac10a44043b148,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first track on Kanye West's 808s & Heartbreak?
+A. Welcome to Heartbreak
+B. Say You Will
+C. Street Lights
+D. Heartless
+Answer:","[""Welcome to Heartbreak"", ""Say You Will"", ""Street Lights"", ""Heartless""]",http,0.0,16,none,"{""id"":""chatcmpl-svdvh5gz65ch46tt56pxe"",""object"":""chat.completion"",""created"":1795594479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9764,,MarianeAzar,20261125_084135,2026-11-25T08:14:41.508980+00:00
+563e8aada253abcd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of the following space shooter games, which came out first?
+A. Galaga
+B. Galaxian
+C. Sinistar
+D. Space Invaders
+Answer:","[""Galaga"", ""Galaxian"", ""Sinistar"", ""Space Invaders""]",http,0.0,16,none,"{""id"":""chatcmpl-0fiw6jkbk8pn7lqydmg5wr"",""object"":""chat.completion"",""created"":1795594480,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4548,,MarianeAzar,20261125_084135,2026-11-25T08:14:42.964017+00:00
+563e8aada253abcd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of the following space shooter games, which came out first?
+A. Galaga
+B. Galaxian
+C. Sinistar
+D. Space Invaders
+Answer:","[""Galaga"", ""Galaxian"", ""Sinistar"", ""Space Invaders""]",http,0.0,16,none,"{""id"":""chatcmpl-0kmmh9tniyoya8dksodrx"",""object"":""chat.completion"",""created"":1795594482,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0636,,MarianeAzar,20261125_084135,2026-11-25T08:14:44.027906+00:00
+eb4964e51388a75f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of all of the NASA Space Shuttles, which 2 have been destroyed in disasters?
+A. Enterprise and Atlantis
+B. Discovery and Endeavour
+C. None of the Above
+D. Challenger and Columbia
+Answer:","[""Enterprise and Atlantis"", ""Discovery and Endeavour"", ""None of the Above"", ""Challenger and Columbia""]",http,0.0,16,none,"{""id"":""chatcmpl-nixiugv9fkleyxotrrhioe"",""object"":""chat.completion"",""created"":1795594483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9375,,MarianeAzar,20261125_084135,2026-11-25T08:14:44.965951+00:00
+eb4964e51388a75f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of all of the NASA Space Shuttles, which 2 have been destroyed in disasters?
+A. Enterprise and Atlantis
+B. Discovery and Endeavour
+C. None of the Above
+D. Challenger and Columbia
+Answer:","[""Enterprise and Atlantis"", ""Discovery and Endeavour"", ""None of the Above"", ""Challenger and Columbia""]",http,0.0,16,none,"{""id"":""chatcmpl-8ws6oq7l7k6cnj09nlim39"",""object"":""chat.completion"",""created"":1795594484,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2571,,MarianeAzar,20261125_084135,2026-11-25T08:14:46.223309+00:00
+7d4bbc007b50afaa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character from the music video of ""Shelter"" by Porter Robinson and A-1 Studios?
+A. Rem
+B. Ren
+C. Ram
+D. Rin
+Answer:","[""Rem"", ""Ren"", ""Ram"", ""Rin""]",http,0.0,16,none,"{""id"":""chatcmpl-qoxvpi1v3y9mddr33uegp9"",""object"":""chat.completion"",""created"":1795594485,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2735,,MarianeAzar,20261125_084135,2026-11-25T08:14:47.497176+00:00
+7d4bbc007b50afaa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the main character from the music video of ""Shelter"" by Porter Robinson and A-1 Studios?
+A. Rem
+B. Ren
+C. Ram
+D. Rin
+Answer:","[""Rem"", ""Ren"", ""Ram"", ""Rin""]",http,0.0,16,none,"{""id"":""chatcmpl-s3sijlaoe6ngsmifo2pqzw"",""object"":""chat.completion"",""created"":1795594486,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9342,,MarianeAzar,20261125_084135,2026-11-25T08:14:48.431656+00:00
+ab07e2f82edc3784,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries does Mexico border?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer:","[""1"", ""2"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-qya0p0xgqpecbiif6oogy9"",""object"":""chat.completion"",""created"":1795594487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2403,,MarianeAzar,20261125_084135,2026-11-25T08:14:49.672256+00:00
+ab07e2f82edc3784,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many countries does Mexico border?
+A. 1
+B. 2
+C. 3
+D. 4
+Answer:","[""1"", ""2"", ""3"", ""4""]",http,0.0,16,none,"{""id"":""chatcmpl-ppp0ntdr5ngkep1paxqxf"",""object"":""chat.completion"",""created"":1795594489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3207,,MarianeAzar,20261125_084135,2026-11-25T08:14:50.993272+00:00
+6ff91f71939adebb,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: United States President John F. Kennedy was assassinated during his presidential motorcade in Atlanta, Georgia on November 22nd, 1963.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tq3lsbrx0qt28zt9421b2e"",""object"":""chat.completion"",""created"":1795594490,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9333,,MarianeAzar,20261125_084135,2026-11-25T08:14:51.926746+00:00
+6ff91f71939adebb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: United States President John F. Kennedy was assassinated during his presidential motorcade in Atlanta, Georgia on November 22nd, 1963.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v67fk8bo3ou9d8kayhoqd"",""object"":""chat.completion"",""created"":1795594491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9368,,MarianeAzar,20261125_084135,2026-11-25T08:14:52.863777+00:00
+7a943986b8682d9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The Day the Music Died"" was a tragic plane crash that killed three musicians in which decade?
+A. 60's
+B. 50's
+C. 70's
+D. 40's
+Answer:","[""60's"", ""50's"", ""70's"", ""40's""]",http,0.0,16,none,"{""id"":""chatcmpl-jrc626q9zyru0hvp1o9p"",""object"":""chat.completion"",""created"":1795594492,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3726,,MarianeAzar,20261125_084135,2026-11-25T08:14:54.236613+00:00
+7a943986b8682d9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The Day the Music Died"" was a tragic plane crash that killed three musicians in which decade?
+A. 60's
+B. 50's
+C. 70's
+D. 40's
+Answer:","[""60's"", ""50's"", ""70's"", ""40's""]",http,0.0,16,none,"{""id"":""chatcmpl-lc9fd3x6v76z8ewvkjogi"",""object"":""chat.completion"",""created"":1795594493,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9616,,MarianeAzar,20261125_084135,2026-11-25T08:14:55.198423+00:00

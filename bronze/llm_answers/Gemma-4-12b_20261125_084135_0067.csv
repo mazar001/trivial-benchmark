@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+26e64969369c08bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is NOT a playable character in ""Left 4 Dead""?
+A. Bill
+B. Zoey
+C. Louis
+D. Nick
+Answer:","[""Bill"", ""Zoey"", ""Louis"", ""Nick""]",http,0.0,16,none,"{""id"":""chatcmpl-x0f0yt9q6jrqnauw4vd2ho"",""object"":""chat.completion"",""created"":1795593966,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9542,,MarianeAzar,20261125_084135,2026-11-25T08:06:08.137336+00:00
+dbdac5f45d944a0b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Helen Clark was the 37th Prime Minister of Australia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o9pffuzdcokpy0vlzribul"",""object"":""chat.completion"",""created"":1795593967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2622,,MarianeAzar,20261125_084135,2026-11-25T08:06:09.399770+00:00
+dbdac5f45d944a0b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Helen Clark was the 37th Prime Minister of Australia.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fntugm8559muhqbspkxd0j"",""object"":""chat.completion"",""created"":1795593968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8987,,MarianeAzar,20261125_084135,2026-11-25T08:06:10.298643+00:00
+d7343d5d1e011c8e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the UK ""Who Wants to be a Millionaire?"" cheating scandal known as?
+A. Major Fraud
+B. Coughing Major
+C. Ingram Cheater
+D. Millionaire Crime
+Answer:","[""Major Fraud"", ""Coughing Major"", ""Ingram Cheater"", ""Millionaire Crime""]",http,0.0,16,none,"{""id"":""chatcmpl-p2xcu5zl4p4i8alf48dgs"",""object"":""chat.completion"",""created"":1795593969,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9428,,MarianeAzar,20261125_084135,2026-11-25T08:06:11.241732+00:00
+d7343d5d1e011c8e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the UK ""Who Wants to be a Millionaire?"" cheating scandal known as?
+A. Major Fraud
+B. Coughing Major
+C. Ingram Cheater
+D. Millionaire Crime
+Answer:","[""Major Fraud"", ""Coughing Major"", ""Ingram Cheater"", ""Millionaire Crime""]",http,0.0,16,none,"{""id"":""chatcmpl-11v0hvnzkjy9nsn6kexwpsr"",""object"":""chat.completion"",""created"":1795593970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4023,,MarianeAzar,20261125_084135,2026-11-25T08:06:12.644336+00:00
+b2986bf590724480,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A slug’s blood is green.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2ur4cc9w0jazlocwvqaw6"",""object"":""chat.completion"",""created"":1795593972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8695,,MarianeAzar,20261125_084135,2026-11-25T08:06:13.514323+00:00
+b2986bf590724480,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A slug’s blood is green.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4ufsxvnd4eromnfqb6vj5f"",""object"":""chat.completion"",""created"":1795593972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9073,,MarianeAzar,20261125_084135,2026-11-25T08:06:14.421911+00:00
+6ef35d657a94ad76,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which alternative rock band released the critically-acclaimed album ""OK Computer""?
+A. Radiohead
+B. R.E.M.
+C. Nirvana
+D. Coldplay
+Answer:","[""Radiohead"", ""R.E.M."", ""Nirvana"", ""Coldplay""]",http,0.0,16,none,"{""id"":""chatcmpl-k09upb1z67zbyyr3yhlc"",""object"":""chat.completion"",""created"":1795593973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2642,,MarianeAzar,20261125_084135,2026-11-25T08:06:15.686404+00:00
+6ef35d657a94ad76,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which alternative rock band released the critically-acclaimed album ""OK Computer""?
+A. Radiohead
+B. R.E.M.
+C. Nirvana
+D. Coldplay
+Answer:","[""Radiohead"", ""R.E.M."", ""Nirvana"", ""Coldplay""]",http,0.0,16,none,"{""id"":""chatcmpl-hrcu6a7p4if3jyq66gq0j8"",""object"":""chat.completion"",""created"":1795593975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9318,,MarianeAzar,20261125_084135,2026-11-25T08:06:16.618505+00:00
+409a2dd93192daf3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ADAM collecters in the Bioshock series are known as Little Sisters.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b4p9y5yswiige1s4aovupo"",""object"":""chat.completion"",""created"":1795593976,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2174,,MarianeAzar,20261125_084135,2026-11-25T08:06:17.836170+00:00
+409a2dd93192daf3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ADAM collecters in the Bioshock series are known as Little Sisters.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3b9vo8hlww2as7etuyy13h"",""object"":""chat.completion"",""created"":1795593977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1016,,MarianeAzar,20261125_084135,2026-11-25T08:06:18.937937+00:00
+048ea3818795779e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the creatures that the protagonists of the webshow RWBY fight against?
+A. Heartless
+B. Reavers
+C. Dark Ones
+D. Grimm
+Answer:","[""Heartless"", ""Reavers"", ""Dark Ones"", ""Grimm""]",http,0.0,16,none,"{""id"":""chatcmpl-p8ke248zvfjfa3g7ial5j"",""object"":""chat.completion"",""created"":1795593978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0936,,MarianeAzar,20261125_084135,2026-11-25T08:06:20.031851+00:00
+048ea3818795779e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the creatures that the protagonists of the webshow RWBY fight against?
+A. Heartless
+B. Reavers
+C. Dark Ones
+D. Grimm
+Answer:","[""Heartless"", ""Reavers"", ""Dark Ones"", ""Grimm""]",http,0.0,16,none,"{""id"":""chatcmpl-o9o8z6z1lrapp5mhbhov1"",""object"":""chat.completion"",""created"":1795593979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.323,,MarianeAzar,20261125_084135,2026-11-25T08:06:21.355118+00:00
+c194784580619277,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The mitochondria is the powerhouse of the cell.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f5ldecscti65onxyfavcbp"",""object"":""chat.completion"",""created"":1795593980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9249,,MarianeAzar,20261125_084135,2026-11-25T08:06:22.280237+00:00
+c194784580619277,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The mitochondria is the powerhouse of the cell.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-um0uza1g7to7bpwxdao6a"",""object"":""chat.completion"",""created"":1795593981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9954,,MarianeAzar,20261125_084135,2026-11-25T08:06:23.275844+00:00
+9431512b8030ea10,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What musician made the song ""F**kin` Perfect"" in 2010?
+A. Mitis
+B. P!nk
+C. Adam lambert
+D. Koven
+Answer:","[""Mitis"", ""P!nk"", ""Adam lambert"", ""Koven""]",http,0.0,16,none,"{""id"":""chatcmpl-g7d8u6q9fyhtpnrswd6oz"",""object"":""chat.completion"",""created"":1795593982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4642,,MarianeAzar,20261125_084135,2026-11-25T08:06:24.740493+00:00
+9431512b8030ea10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What musician made the song ""F**kin` Perfect"" in 2010?
+A. Mitis
+B. P!nk
+C. Adam lambert
+D. Koven
+Answer:","[""Mitis"", ""P!nk"", ""Adam lambert"", ""Koven""]",http,0.0,16,none,"{""id"":""chatcmpl-3qzngqvdfdvoq6a2mqx6zs"",""object"":""chat.completion"",""created"":1795593984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2491,,MarianeAzar,20261125_084135,2026-11-25T08:06:25.989772+00:00
+9bdbc39143c85009,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Danganronpa Another Episode: Ultra Despair Girls is set after which Danganronpa game?
+A. Danganronpa 3: The End of Hope's Peak High School
+B. Danganronpa: Trigger Happy Havoc
+C. Danganronpa V3: Killing Harmony
+D. Danganronpa 2: Goodbye Despair
+Answer:","[""Danganronpa 3: The End of Hope's Peak High School"", ""Danganronpa: Trigger Happy Havoc"", ""Danganronpa V3: Killing Harmony"", ""Danganronpa 2: Goodbye Despair""]",http,0.0,16,none,"{""id"":""chatcmpl-4w2nw2lfwqhulzcv4s4vzi"",""object"":""chat.completion"",""created"":1795593985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.6494,,MarianeAzar,20261125_084135,2026-11-25T08:06:27.639473+00:00
+9bdbc39143c85009,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Danganronpa Another Episode: Ultra Despair Girls is set after which Danganronpa game?
+A. Danganronpa 3: The End of Hope's Peak High School
+B. Danganronpa: Trigger Happy Havoc
+C. Danganronpa V3: Killing Harmony
+D. Danganronpa 2: Goodbye Despair
+Answer:","[""Danganronpa 3: The End of Hope's Peak High School"", ""Danganronpa: Trigger Happy Havoc"", ""Danganronpa V3: Killing Harmony"", ""Danganronpa 2: Goodbye Despair""]",http,0.0,16,none,"{""id"":""chatcmpl-d73bgvw64bnpff8pb66tql"",""object"":""chat.completion"",""created"":1795593987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":138,""completion_tokens"":2,""total_tokens"":140,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2748,,MarianeAzar,20261125_084135,2026-11-25T08:06:28.914557+00:00
+2bf8c499300b1ae7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Starbound"", according to the asset files, the description of the ""Erchius Ghost"" is the same as which other assets?
+A. Pyromantle
+B. Spookit
+C. Trictus
+D. Petricub
+Answer:","[""Pyromantle"", ""Spookit"", ""Trictus"", ""Petricub""]",http,0.0,16,none,"{""id"":""chatcmpl-5cbijywmjhhqwpjezllwgt"",""object"":""chat.completion"",""created"":1795593988,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2894,,MarianeAzar,20261125_084135,2026-11-25T08:06:30.204296+00:00
+2bf8c499300b1ae7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Starbound"", according to the asset files, the description of the ""Erchius Ghost"" is the same as which other assets?
+A. Pyromantle
+B. Spookit
+C. Trictus
+D. Petricub
+Answer:","[""Pyromantle"", ""Spookit"", ""Trictus"", ""Petricub""]",http,0.0,16,none,"{""id"":""chatcmpl-z3mukggldxllb8skz8fxn"",""object"":""chat.completion"",""created"":1795593989,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9748,,MarianeAzar,20261125_084135,2026-11-25T08:06:31.179287+00:00
+d0586fe8e73144b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the title of song on the main menu in Halo?
+A. Suite Autumn
+B. Shadows
+C. Halo
+D. Opening Suite
+Answer:","[""Suite Autumn"", ""Shadows"", ""Halo"", ""Opening Suite""]",http,0.0,16,none,"{""id"":""chatcmpl-52x81bqaf0ol90hh3zdspr"",""object"":""chat.completion"",""created"":1795593990,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9395,,MarianeAzar,20261125_084135,2026-11-25T08:06:32.119111+00:00
+d0586fe8e73144b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the title of song on the main menu in Halo?
+A. Suite Autumn
+B. Shadows
+C. Halo
+D. Opening Suite
+Answer:","[""Suite Autumn"", ""Shadows"", ""Halo"", ""Opening Suite""]",http,0.0,16,none,"{""id"":""chatcmpl-amz5swkvglqghuq4d31d8"",""object"":""chat.completion"",""created"":1795593991,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4511,,MarianeAzar,20261125_084135,2026-11-25T08:06:33.570990+00:00
+4895ed3fd5fda9f3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the protagonist's title given by the demons in DOOM (2016)?
+A. Doom Slayer
+B. Doom Guy
+C. Doom Marine
+D. Doom Reaper
+Answer:","[""Doom Slayer"", ""Doom Guy"", ""Doom Marine"", ""Doom Reaper""]",http,0.0,16,none,"{""id"":""chatcmpl-hvihoz1txeoaml74jdjb"",""object"":""chat.completion"",""created"":1795593993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9632,,MarianeAzar,20261125_084135,2026-11-25T08:06:34.534725+00:00
+4895ed3fd5fda9f3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the protagonist's title given by the demons in DOOM (2016)?
+A. Doom Slayer
+B. Doom Guy
+C. Doom Marine
+D. Doom Reaper
+Answer:","[""Doom Slayer"", ""Doom Guy"", ""Doom Marine"", ""Doom Reaper""]",http,0.0,16,none,"{""id"":""chatcmpl-pvqjtxjpainimejnti4lyf"",""object"":""chat.completion"",""created"":1795593993,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9905,,MarianeAzar,20261125_084135,2026-11-25T08:06:35.525679+00:00

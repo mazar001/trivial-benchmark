@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+136976b2bc809446,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Broome is a town in which state of Australia?
+A. South Australia
+B. Northern Territory
+C. Western Australia
+D. Tasmania
+Answer:","[""South Australia"", ""Northern Territory"", ""Western Australia"", ""Tasmania""]",http,0.0,16,none,"{""id"":""chatcmpl-urqn3ksy6mjx4rnxb4vw6"",""object"":""chat.completion"",""created"":1795553733,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2153,,MarianeAzar,20261124_215144,2026-11-24T20:55:34.719811+00:00
+136976b2bc809446,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Broome is a town in which state of Australia?
+A. South Australia
+B. Northern Territory
+C. Western Australia
+D. Tasmania
+Answer:","[""South Australia"", ""Northern Territory"", ""Western Australia"", ""Tasmania""]",http,0.0,16,none,"{""id"":""chatcmpl-68zwphkxk2tw5fxozx65fn"",""object"":""chat.completion"",""created"":1795553734,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9281,,MarianeAzar,20261124_215144,2026-11-24T20:55:35.648148+00:00
+08c761037ea59f76,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: America Online (AOL) started out as which of these online service providers?
+A. Quantum Link
+B. GEnie
+C. Prodigy
+D. CompuServe
+Answer:","[""Quantum Link"", ""GEnie"", ""Prodigy"", ""CompuServe""]",http,0.0,16,none,"{""id"":""chatcmpl-ordk1m29qoneujr7nwrkqd"",""object"":""chat.completion"",""created"":1795553735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.226,,MarianeAzar,20261124_215144,2026-11-24T20:55:36.874356+00:00
+08c761037ea59f76,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: America Online (AOL) started out as which of these online service providers?
+A. Quantum Link
+B. GEnie
+C. Prodigy
+D. CompuServe
+Answer:","[""Quantum Link"", ""GEnie"", ""Prodigy"", ""CompuServe""]",http,0.0,16,none,"{""id"":""chatcmpl-9aa8m9gq04q44g5nqtcib"",""object"":""chat.completion"",""created"":1795553736,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2693,,MarianeAzar,20261124_215144,2026-11-24T20:55:38.143883+00:00
+3c879b607e43c70d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the 'S' stand for in the abbreviation SIM, as in SIM card?
+A. Solid
+B. Subscriber
+C. Secure
+D. Single
+Answer:","[""Solid"", ""Subscriber"", ""Secure"", ""Single""]",http,0.0,16,none,"{""id"":""chatcmpl-g2fc7jp2dynf0j56siejo"",""object"":""chat.completion"",""created"":1795553738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9653,,MarianeAzar,20261124_215144,2026-11-24T20:55:39.109439+00:00
+3c879b607e43c70d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the 'S' stand for in the abbreviation SIM, as in SIM card?
+A. Solid
+B. Subscriber
+C. Secure
+D. Single
+Answer:","[""Solid"", ""Subscriber"", ""Secure"", ""Single""]",http,0.0,16,none,"{""id"":""chatcmpl-1ck35gcebvtwuay293bo0c"",""object"":""chat.completion"",""created"":1795553739,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2534,,MarianeAzar,20261124_215144,2026-11-24T20:55:40.363185+00:00
+7a6ec691c2672fbb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What team did England beat to win in the 1966 World Cup final?
+A. Soviet Union
+B. Brazil
+C. Portugal
+D. West Germany
+Answer:","[""Soviet Union"", ""Brazil"", ""Portugal"", ""West Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-rhz3td8gcijgs25blp34q"",""object"":""chat.completion"",""created"":1795553740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3283,,MarianeAzar,20261124_215144,2026-11-24T20:55:41.691840+00:00
+7a6ec691c2672fbb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What team did England beat to win in the 1966 World Cup final?
+A. Soviet Union
+B. Brazil
+C. Portugal
+D. West Germany
+Answer:","[""Soviet Union"", ""Brazil"", ""Portugal"", ""West Germany""]",http,0.0,16,none,"{""id"":""chatcmpl-tn4b4a3jkqrwuldoutzcop"",""object"":""chat.completion"",""created"":1795553741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9495,,MarianeAzar,20261124_215144,2026-11-24T20:55:42.641609+00:00
+2a042fde711beb51,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Suez Canal is located in which African country?
+A. Egypt
+B. Ghana
+C. Libya
+D. Nigeria
+Answer:","[""Egypt"", ""Ghana"", ""Libya"", ""Nigeria""]",http,0.0,16,none,"{""id"":""chatcmpl-6u1so0uyvdi97izx7ppm0h"",""object"":""chat.completion"",""created"":1795553742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2344,,MarianeAzar,20261124_215144,2026-11-24T20:55:43.876253+00:00
+2a042fde711beb51,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Suez Canal is located in which African country?
+A. Egypt
+B. Ghana
+C. Libya
+D. Nigeria
+Answer:","[""Egypt"", ""Ghana"", ""Libya"", ""Nigeria""]",http,0.0,16,none,"{""id"":""chatcmpl-xtg25j7dzlf9bswiuwufwj"",""object"":""chat.completion"",""created"":1795553743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2762,,MarianeAzar,20261124_215144,2026-11-24T20:55:45.152656+00:00
+9eab591e8c9314d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long did World War II last?
+A. 5 years
+B. 7 years
+C. 4 years
+D. 6 years
+Answer:","[""5 years"", ""7 years"", ""4 years"", ""6 years""]",http,0.0,16,none,"{""id"":""chatcmpl-qbbiqcbwj5ico2lzcduz0k"",""object"":""chat.completion"",""created"":1795553745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.974,,MarianeAzar,20261124_215144,2026-11-24T20:55:46.126988+00:00
+9eab591e8c9314d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long did World War II last?
+A. 5 years
+B. 7 years
+C. 4 years
+D. 6 years
+Answer:","[""5 years"", ""7 years"", ""4 years"", ""6 years""]",http,0.0,16,none,"{""id"":""chatcmpl-b06au51rec66nk4m6y7bnw"",""object"":""chat.completion"",""created"":1795553746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3269,,MarianeAzar,20261124_215144,2026-11-24T20:55:47.454453+00:00
+8edbb37f53e80763,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Death Grips album is the only one to feature a band member?
+A. Bottomless Pit
+B. The Powers That B
+C. No Love Deep Web
+D. The Money Store
+Answer:","[""Bottomless Pit"", ""The Powers That B"", ""No Love Deep Web"", ""The Money Store""]",http,0.0,16,none,"{""id"":""chatcmpl-61ua2uwfhoavl89qyla9zl"",""object"":""chat.completion"",""created"":1795553747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2318,,MarianeAzar,20261124_215144,2026-11-24T20:55:48.686618+00:00
+8edbb37f53e80763,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Death Grips album is the only one to feature a band member?
+A. Bottomless Pit
+B. The Powers That B
+C. No Love Deep Web
+D. The Money Store
+Answer:","[""Bottomless Pit"", ""The Powers That B"", ""No Love Deep Web"", ""The Money Store""]",http,0.0,16,none,"{""id"":""chatcmpl-0i3dek69ixvarfaedfuapms"",""object"":""chat.completion"",""created"":1795553748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261124_215144,2026-11-24T20:55:49.645899+00:00
+fcbab7bf08e2cf78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the longest bridge in the world?
+A. Danyang–Kunshan Grand Bridge, China
+B. Lake Pontchartrain Causeway, United States
+C. King Fahd Causeway Bridge I, Saudi Arabia
+D. Sultan Abdul Halim Muadzam Shah Bridge, Malaysia
+Answer:","[""Danyang–Kunshan Grand Bridge, China"", ""Lake Pontchartrain Causeway, United States"", ""King Fahd Causeway Bridge I, Saudi Arabia"", ""Sultan Abdul Halim Muadzam Shah Bridge, Malaysia""]",http,0.0,16,none,"{""id"":""chatcmpl-6gma0ea72hxa0ogqxpxs5j"",""object"":""chat.completion"",""created"":1795553749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2926,,MarianeAzar,20261124_215144,2026-11-24T20:55:50.938720+00:00
+fcbab7bf08e2cf78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the longest bridge in the world?
+A. Danyang–Kunshan Grand Bridge, China
+B. Lake Pontchartrain Causeway, United States
+C. King Fahd Causeway Bridge I, Saudi Arabia
+D. Sultan Abdul Halim Muadzam Shah Bridge, Malaysia
+Answer:","[""Danyang–Kunshan Grand Bridge, China"", ""Lake Pontchartrain Causeway, United States"", ""King Fahd Causeway Bridge I, Saudi Arabia"", ""Sultan Abdul Halim Muadzam Shah Bridge, Malaysia""]",http,0.0,16,none,"{""id"":""chatcmpl-ba4gm7tail7vqipj4ioa79"",""object"":""chat.completion"",""created"":1795553750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3979,,MarianeAzar,20261124_215144,2026-11-24T20:55:52.336997+00:00
+e994a9bf3849c264,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many dice are used in the game of Yahtzee?
+A. Five
+B. Four
+C. Six
+D. Eight
+Answer:","[""Five"", ""Four"", ""Six"", ""Eight""]",http,0.0,16,none,"{""id"":""chatcmpl-lgjiofwe0rf2c8d7gs61kl"",""object"":""chat.completion"",""created"":1795553752,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0233,,MarianeAzar,20261124_215144,2026-11-24T20:55:53.360605+00:00
+e994a9bf3849c264,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many dice are used in the game of Yahtzee?
+A. Five
+B. Four
+C. Six
+D. Eight
+Answer:","[""Five"", ""Four"", ""Six"", ""Eight""]",http,0.0,16,none,"{""id"":""chatcmpl-303mc49eem4kxq4nlwj649"",""object"":""chat.completion"",""created"":1795553753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.955,,MarianeAzar,20261124_215144,2026-11-24T20:55:54.315925+00:00
+59b8e7020d5afe67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist's style was to use small different colored dots to create a picture?
+A. Paul Cézanne
+B. Georges Seurat
+C. Vincent Van Gogh
+D. Henri Rousseau
+Answer:","[""Paul Cézanne"", ""Georges Seurat"", ""Vincent Van Gogh"", ""Henri Rousseau""]",http,0.0,16,none,"{""id"":""chatcmpl-a9sb8qav796q000vlm346"",""object"":""chat.completion"",""created"":1795553754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2836,,MarianeAzar,20261124_215144,2026-11-24T20:55:55.599788+00:00
+59b8e7020d5afe67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which artist's style was to use small different colored dots to create a picture?
+A. Paul Cézanne
+B. Georges Seurat
+C. Vincent Van Gogh
+D. Henri Rousseau
+Answer:","[""Paul Cézanne"", ""Georges Seurat"", ""Vincent Van Gogh"", ""Henri Rousseau""]",http,0.0,16,none,"{""id"":""chatcmpl-ls15xc8jeuxy9qe4jlbs"",""object"":""chat.completion"",""created"":1795553755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9342,,MarianeAzar,20261124_215144,2026-11-24T20:55:56.534247+00:00
+22acd85f83e58865,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national team won the first UEFA Nations League?
+A. Netherlands
+B. Portugal
+C. Switzerland
+D. England
+Answer:","[""Netherlands"", ""Portugal"", ""Switzerland"", ""England""]",http,0.0,16,none,"{""id"":""chatcmpl-ar5bjanhg2s3gdxjrxcmnt"",""object"":""chat.completion"",""created"":1795553756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2036,,MarianeAzar,20261124_215144,2026-11-24T20:55:57.738521+00:00
+22acd85f83e58865,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What national team won the first UEFA Nations League?
+A. Netherlands
+B. Portugal
+C. Switzerland
+D. England
+Answer:","[""Netherlands"", ""Portugal"", ""Switzerland"", ""England""]",http,0.0,16,none,"{""id"":""chatcmpl-s0n4objky8rrz4bvxt2qh"",""object"":""chat.completion"",""created"":1795553757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1347,,MarianeAzar,20261124_215144,2026-11-24T20:55:58.873388+00:00
+4fc27a57f5aed55a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: According to Greek Mythology, Zeus can control lightning.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2u4xihr12lcf40ac4qq8v"",""object"":""chat.completion"",""created"":1795553758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261124_215144,2026-11-24T20:55:59.744900+00:00
+4fc27a57f5aed55a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: According to Greek Mythology, Zeus can control lightning.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5k7g84vuryh93e7k3qj6w"",""object"":""chat.completion"",""created"":1795553759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4388,,MarianeAzar,20261124_215144,2026-11-24T20:56:01.183871+00:00
+288330eee0b55469,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the number of keys on a standard Windows Keyboard?
+A. 64
+B. 94
+C. 104
+D. 76
+Answer:","[""64"", ""94"", ""104"", ""76""]",http,0.0,16,none,"{""id"":""chatcmpl-dg69rwufg7oypvfrad78ag"",""object"":""chat.completion"",""created"":1795553761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9419,,MarianeAzar,20261124_215144,2026-11-24T20:56:02.126078+00:00

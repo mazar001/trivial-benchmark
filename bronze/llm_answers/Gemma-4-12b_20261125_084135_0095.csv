@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+234f3467e59d7450,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This movie contains the quote, ""Nobody puts Baby in a corner.""
+A. Pretty in Pink
+B. Dirty Dancing
+C. Three Men and a Baby
+D. Ferris Bueller's Day Off
+Answer:","[""Pretty in Pink"", ""Dirty Dancing"", ""Three Men and a Baby"", ""Ferris Bueller's Day Off""]",http,0.0,16,none,"{""id"":""chatcmpl-0woa62ogq5j99w6aojjcgl"",""object"":""chat.completion"",""created"":1795594746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9313,,MarianeAzar,20261125_084135,2026-11-25T08:19:08.144117+00:00
+3f7a9d05b3acb482,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first Big Brother US winner to win with a perfect game?
+A. Ian Terry
+B. Jordan Lloyd
+C. Dan Gheesling
+D. Rachael Reilly
+Answer:","[""Ian Terry"", ""Jordan Lloyd"", ""Dan Gheesling"", ""Rachael Reilly""]",http,0.0,16,none,"{""id"":""chatcmpl-r9h9cvthh7crgke9pbgph"",""object"":""chat.completion"",""created"":1795594747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9407,,MarianeAzar,20261125_084135,2026-11-25T08:19:09.085035+00:00
+3f7a9d05b3acb482,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first Big Brother US winner to win with a perfect game?
+A. Ian Terry
+B. Jordan Lloyd
+C. Dan Gheesling
+D. Rachael Reilly
+Answer:","[""Ian Terry"", ""Jordan Lloyd"", ""Dan Gheesling"", ""Rachael Reilly""]",http,0.0,16,none,"{""id"":""chatcmpl-akqyr29jwqkee8hftbkta6"",""object"":""chat.completion"",""created"":1795594748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3003,,MarianeAzar,20261125_084135,2026-11-25T08:19:10.385572+00:00
+f17a378ca429cc19,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: .at is the top-level domain for what country?
+A. Argentina
+B. Australia
+C. Angola
+D. Austria
+Answer:","[""Argentina"", ""Australia"", ""Angola"", ""Austria""]",http,0.0,16,none,"{""id"":""chatcmpl-827i7zgq72ikzl2m9q3yzs"",""object"":""chat.completion"",""created"":1795594749,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:19:11.308020+00:00
+f17a378ca429cc19,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: .at is the top-level domain for what country?
+A. Argentina
+B. Australia
+C. Angola
+D. Austria
+Answer:","[""Argentina"", ""Australia"", ""Angola"", ""Austria""]",http,0.0,16,none,"{""id"":""chatcmpl-vopkgvoxr68x0swmoae8w"",""object"":""chat.completion"",""created"":1795594750,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9712,,MarianeAzar,20261125_084135,2026-11-25T08:19:12.279544+00:00
+22a8721f107478ba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Overwatch,"" an allied McCree will say ""Step right up"" upon using his ultimate ability Deadeye.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7ck2m9woq0fdughllnyxkh"",""object"":""chat.completion"",""created"":1795594751,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.355,,MarianeAzar,20261125_084135,2026-11-25T08:19:13.635259+00:00
+22a8721f107478ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Overwatch,"" an allied McCree will say ""Step right up"" upon using his ultimate ability Deadeye.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yv6w9x4391qehovcyc8uln"",""object"":""chat.completion"",""created"":1795594753,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1201,,MarianeAzar,20261125_084135,2026-11-25T08:19:14.755507+00:00
+8716bd00187e3e45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the United States of America celebrate during the 4th of July?
+A. The anniversary of the Battle of Gettysburg
+B. The crossing of the Delaware River
+C. The ratification of the Constitution
+D. The signing of the Declaration of Independence
+Answer:","[""The anniversary of the Battle of Gettysburg"", ""The crossing of the Delaware River"", ""The ratification of the Constitution"", ""The signing of the Declaration of Independence""]",http,0.0,16,none,"{""id"":""chatcmpl-okti7q2vk1bidfiah8l06o"",""object"":""chat.completion"",""created"":1795594754,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9666,,MarianeAzar,20261125_084135,2026-11-25T08:19:15.722351+00:00
+8716bd00187e3e45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the United States of America celebrate during the 4th of July?
+A. The anniversary of the Battle of Gettysburg
+B. The crossing of the Delaware River
+C. The ratification of the Constitution
+D. The signing of the Declaration of Independence
+Answer:","[""The anniversary of the Battle of Gettysburg"", ""The crossing of the Delaware River"", ""The ratification of the Constitution"", ""The signing of the Declaration of Independence""]",http,0.0,16,none,"{""id"":""chatcmpl-0eutjvemdduamfdri5sf78"",""object"":""chat.completion"",""created"":1795594755,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9826,,MarianeAzar,20261125_084135,2026-11-25T08:19:16.705172+00:00
+a774b2136a0cd44c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A group of islands is called an 'archipelago'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fi0v7kgye05zph0537ig4"",""object"":""chat.completion"",""created"":1795594756,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3124,,MarianeAzar,20261125_084135,2026-11-25T08:19:18.017794+00:00
+a774b2136a0cd44c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A group of islands is called an 'archipelago'.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bfrefnnawq7n18xjpnpluh"",""object"":""chat.completion"",""created"":1795594757,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9737,,MarianeAzar,20261125_084135,2026-11-25T08:19:18.991642+00:00
+fbb38abea8a3c4ab,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game was recalled for containing a hidden, playable South Park episode?
+A. Sonic Adventure
+B. Tony Hawk's Pro Skater 3
+C. Madden 99
+D. Tiger Woods 99 PGA Tour
+Answer:","[""Sonic Adventure"", ""Tony Hawk's Pro Skater 3"", ""Madden 99"", ""Tiger Woods 99 PGA Tour""]",http,0.0,16,none,"{""id"":""chatcmpl-ec197ynlesmqzhfxwdjf38"",""object"":""chat.completion"",""created"":1795594758,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261125_084135,2026-11-25T08:19:19.846258+00:00
+fbb38abea8a3c4ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which video game was recalled for containing a hidden, playable South Park episode?
+A. Sonic Adventure
+B. Tony Hawk's Pro Skater 3
+C. Madden 99
+D. Tiger Woods 99 PGA Tour
+Answer:","[""Sonic Adventure"", ""Tony Hawk's Pro Skater 3"", ""Madden 99"", ""Tiger Woods 99 PGA Tour""]",http,0.0,16,none,"{""id"":""chatcmpl-ghw1b74x1sftfltkt446m"",""object"":""chat.completion"",""created"":1795594759,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5204,,MarianeAzar,20261125_084135,2026-11-25T08:19:21.366891+00:00
+c8a210163f97cc67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these paintings did Johannes Vermeer not paint?
+A. The Milkmaid
+B. The Lacemaker
+C. Girl with a Pearl Earring
+D. Bacchus
+Answer:","[""The Milkmaid"", ""The Lacemaker"", ""Girl with a Pearl Earring"", ""Bacchus""]",http,0.0,16,none,"{""id"":""chatcmpl-tm2tvw20jtwr2ry525cd"",""object"":""chat.completion"",""created"":1795594760,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0643,,MarianeAzar,20261125_084135,2026-11-25T08:19:22.431290+00:00
+c8a210163f97cc67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these paintings did Johannes Vermeer not paint?
+A. The Milkmaid
+B. The Lacemaker
+C. Girl with a Pearl Earring
+D. Bacchus
+Answer:","[""The Milkmaid"", ""The Lacemaker"", ""Girl with a Pearl Earring"", ""Bacchus""]",http,0.0,16,none,"{""id"":""chatcmpl-t4j8v4gwhdjtnnxfdqz3s"",""object"":""chat.completion"",""created"":1795594761,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9605,,MarianeAzar,20261125_084135,2026-11-25T08:19:23.391995+00:00
+c9d84c4d2544f19b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the weakness of american vampires (Scott Snyder's American Vampire)?
+A. Gold
+B. Silver
+C. Sunlight
+D. Wood
+Answer:","[""Gold"", ""Silver"", ""Sunlight"", ""Wood""]",http,0.0,16,none,"{""id"":""chatcmpl-y6lzt04hb4bjaap7et8e8e"",""object"":""chat.completion"",""created"":1795594762,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9369,,MarianeAzar,20261125_084135,2026-11-25T08:19:24.329507+00:00
+c9d84c4d2544f19b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What's the weakness of american vampires (Scott Snyder's American Vampire)?
+A. Gold
+B. Silver
+C. Sunlight
+D. Wood
+Answer:","[""Gold"", ""Silver"", ""Sunlight"", ""Wood""]",http,0.0,16,none,"{""id"":""chatcmpl-wss8jqqi8fkmm7ioilk7f"",""object"":""chat.completion"",""created"":1795594763,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3914,,MarianeAzar,20261125_084135,2026-11-25T08:19:25.721147+00:00
+6b0480c3ad0dad46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many cores does the Intel i7-6950X have?
+A. 4
+B. 8
+C. 10
+D. 12
+Answer:","[""4"", ""8"", ""10"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-ibom2na9rkbcudo4rzc5zh"",""object"":""chat.completion"",""created"":1795594765,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1271,,MarianeAzar,20261125_084135,2026-11-25T08:19:26.849033+00:00
+6b0480c3ad0dad46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many cores does the Intel i7-6950X have?
+A. 4
+B. 8
+C. 10
+D. 12
+Answer:","[""4"", ""8"", ""10"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-nirb12gay3r6ea4klqtuor"",""object"":""chat.completion"",""created"":1795594766,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1299,,MarianeAzar,20261125_084135,2026-11-25T08:19:27.979161+00:00
+a2a28e8911a4db70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Variable Valve Timing technology is used by BMW?
+A. VVEL
+B. VVT-iw
+C. VANOS
+D. MultiAir
+Answer:","[""VVEL"", ""VVT-iw"", ""VANOS"", ""MultiAir""]",http,0.0,16,none,"{""id"":""chatcmpl-w0t7s2o5xju64fu3sljuf"",""object"":""chat.completion"",""created"":1795594767,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9473,,MarianeAzar,20261125_084135,2026-11-25T08:19:28.926612+00:00
+a2a28e8911a4db70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Variable Valve Timing technology is used by BMW?
+A. VVEL
+B. VVT-iw
+C. VANOS
+D. MultiAir
+Answer:","[""VVEL"", ""VVT-iw"", ""VANOS"", ""MultiAir""]",http,0.0,16,none,"{""id"":""chatcmpl-x9rqduxldn2k3j951tq3n"",""object"":""chat.completion"",""created"":1795594768,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:19:29.781424+00:00
+7453c044f9e4b5bb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?
+A. 4104
+B. 1729
+C. 91
+D. 561
+Answer:","[""4104"", ""1729"", ""91"", ""561""]",http,0.0,16,none,"{""id"":""chatcmpl-4j497i3kvgq855bif7vn63"",""object"":""chat.completion"",""created"":1795594769,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2688,,MarianeAzar,20261125_084135,2026-11-25T08:19:31.050429+00:00
+7453c044f9e4b5bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the smallest number that can be expressed as the sum of two positive cubes in two different ways?
+A. 4104
+B. 1729
+C. 91
+D. 561
+Answer:","[""4104"", ""1729"", ""91"", ""561""]",http,0.0,16,none,"{""id"":""chatcmpl-j6kme20qs6p0cvtmrzc6p"",""object"":""chat.completion"",""created"":1795594770,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.317,,MarianeAzar,20261125_084135,2026-11-25T08:19:32.367652+00:00
+29fba5955f08d777,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2016 Formula 1 World Driver's Championship?
+A. Kimi Raikkonen
+B. Lewis Hamilton
+C. Max Verstappen
+D. Nico Rosberg
+Answer:","[""Kimi Raikkonen"", ""Lewis Hamilton"", ""Max Verstappen"", ""Nico Rosberg""]",http,0.0,16,none,"{""id"":""chatcmpl-yvzyhanprkjt6wp8wtxrod"",""object"":""chat.completion"",""created"":1795594771,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9246,,MarianeAzar,20261125_084135,2026-11-25T08:19:33.292401+00:00
+29fba5955f08d777,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the 2016 Formula 1 World Driver's Championship?
+A. Kimi Raikkonen
+B. Lewis Hamilton
+C. Max Verstappen
+D. Nico Rosberg
+Answer:","[""Kimi Raikkonen"", ""Lewis Hamilton"", ""Max Verstappen"", ""Nico Rosberg""]",http,0.0,16,none,"{""id"":""chatcmpl-35v2nvydq8fstjb0gheh2"",""object"":""chat.completion"",""created"":1795594772,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9584,,MarianeAzar,20261125_084135,2026-11-25T08:19:34.250999+00:00

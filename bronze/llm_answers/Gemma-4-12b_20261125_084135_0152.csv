@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c1940ada3ccf3022,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?
+A. Liu Bei
+B. Guan Yu
+C. Zhang Fei
+D. Zhao Yun
+Answer:","[""Liu Bei"", ""Guan Yu"", ""Zhang Fei"", ""Zhao Yun""]",http,0.0,16,none,"{""id"":""chatcmpl-dmg8vbd049wnmlk0vofydg"",""object"":""chat.completion"",""created"":1795596155,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9634,,MarianeAzar,20261125_084135,2026-11-25T08:42:37.071530+00:00
+c1940ada3ccf3022,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Romance of the Three Kingdoms, who was not a member of the Peach Garden Oath?
+A. Liu Bei
+B. Guan Yu
+C. Zhang Fei
+D. Zhao Yun
+Answer:","[""Liu Bei"", ""Guan Yu"", ""Zhang Fei"", ""Zhao Yun""]",http,0.0,16,none,"{""id"":""chatcmpl-v6swul9z7fw0clc8gngh"",""object"":""chat.completion"",""created"":1795596156,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8936,,MarianeAzar,20261125_084135,2026-11-25T08:42:37.965446+00:00
+68f0165338f27b48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country developed the AK-47 assault rifle?
+A. Israel
+B. Iran
+C. Poland
+D. Soviet Union
+Answer:","[""Israel"", ""Iran"", ""Poland"", ""Soviet Union""]",http,0.0,16,none,"{""id"":""chatcmpl-0q1bwleyekgo7iad6p7lr"",""object"":""chat.completion"",""created"":1795596157,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.854,,MarianeAzar,20261125_084135,2026-11-25T08:42:38.819614+00:00
+68f0165338f27b48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country developed the AK-47 assault rifle?
+A. Israel
+B. Iran
+C. Poland
+D. Soviet Union
+Answer:","[""Israel"", ""Iran"", ""Poland"", ""Soviet Union""]",http,0.0,16,none,"{""id"":""chatcmpl-jqmul110zrxleekqezrab"",""object"":""chat.completion"",""created"":1795596158,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9807,,MarianeAzar,20261125_084135,2026-11-25T08:42:39.800500+00:00
+a61e2a1290ff2726,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which major extinction event was caused by an asteroid collision and eliminated the majority of non-avian dinosaurs?
+A. Ordovician–Silurian
+B. Cretaceous-Paleogene
+C. Triassic–Jurassic
+D. Permian–Triassic
+Answer:","[""Ordovician–Silurian"", ""Cretaceous-Paleogene"", ""Triassic–Jurassic"", ""Permian–Triassic""]",http,0.0,16,none,"{""id"":""chatcmpl-kgdodlrz28jp1e7n9iz"",""object"":""chat.completion"",""created"":1795596159,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9215,,MarianeAzar,20261125_084135,2026-11-25T08:42:40.723070+00:00
+a61e2a1290ff2726,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which major extinction event was caused by an asteroid collision and eliminated the majority of non-avian dinosaurs?
+A. Ordovician–Silurian
+B. Cretaceous-Paleogene
+C. Triassic–Jurassic
+D. Permian–Triassic
+Answer:","[""Ordovician–Silurian"", ""Cretaceous-Paleogene"", ""Triassic–Jurassic"", ""Permian–Triassic""]",http,0.0,16,none,"{""id"":""chatcmpl-k9fwctfcjncfegod30bda"",""object"":""chat.completion"",""created"":1795596160,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9195,,MarianeAzar,20261125_084135,2026-11-25T08:42:41.643255+00:00
+c96dd8e6d07e2c5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted the epic mural Guernica?
+A. Pablo Picasso
+B. Henri Matisse
+C. Leonardo da Vinci
+D. Francisco Goya
+Answer:","[""Pablo Picasso"", ""Henri Matisse"", ""Leonardo da Vinci"", ""Francisco Goya""]",http,0.0,16,none,"{""id"":""chatcmpl-au39cecn8spo4v15d2dza8"",""object"":""chat.completion"",""created"":1795596161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.898,,MarianeAzar,20261125_084135,2026-11-25T08:42:42.541623+00:00
+c96dd8e6d07e2c5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who painted the epic mural Guernica?
+A. Pablo Picasso
+B. Henri Matisse
+C. Leonardo da Vinci
+D. Francisco Goya
+Answer:","[""Pablo Picasso"", ""Henri Matisse"", ""Leonardo da Vinci"", ""Francisco Goya""]",http,0.0,16,none,"{""id"":""chatcmpl-1eewofmmq3b25wcsvlpphk"",""object"":""chat.completion"",""created"":1795596161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8949,,MarianeAzar,20261125_084135,2026-11-25T08:42:43.436747+00:00
+9ed4ef2c2587166b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sun rises from the North.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iu6v16wywn4fehiq3tsi5"",""object"":""chat.completion"",""created"":1795596162,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7967,,MarianeAzar,20261125_084135,2026-11-25T08:42:44.234026+00:00
+9ed4ef2c2587166b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sun rises from the North.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wrwvlpk6isk99s2rwdch"",""object"":""chat.completion"",""created"":1795596163,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8228,,MarianeAzar,20261125_084135,2026-11-25T08:42:45.057114+00:00
+edc1ab59bdf77756,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did Hippomenes defeat in a footrace?
+A. Peleus
+B. Theseus
+C. Jason
+D. Atalanta
+Answer:","[""Peleus"", ""Theseus"", ""Jason"", ""Atalanta""]",http,0.0,16,none,"{""id"":""chatcmpl-1g5vxsyinxmyxhayzl04t"",""object"":""chat.completion"",""created"":1795596164,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T08:42:45.912180+00:00
+edc1ab59bdf77756,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who did Hippomenes defeat in a footrace?
+A. Peleus
+B. Theseus
+C. Jason
+D. Atalanta
+Answer:","[""Peleus"", ""Theseus"", ""Jason"", ""Atalanta""]",http,0.0,16,none,"{""id"":""chatcmpl-5mqpxa59h5qy9f85nwfq6g"",""object"":""chat.completion"",""created"":1795596165,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9169,,MarianeAzar,20261125_084135,2026-11-25T08:42:46.829323+00:00
+2e700eae46888106,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Digimon, what is the Japanese name for the final evolutionary stage?
+A. Ultimate
+B. Adult
+C. Champion
+D. Mega
+Answer:","[""Ultimate"", ""Adult"", ""Champion"", ""Mega""]",http,0.0,16,none,"{""id"":""chatcmpl-tpeozobj7qeqfncdfc0dyp"",""object"":""chat.completion"",""created"":1795596166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8505,,MarianeAzar,20261125_084135,2026-11-25T08:42:47.680567+00:00
+2e700eae46888106,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Digimon, what is the Japanese name for the final evolutionary stage?
+A. Ultimate
+B. Adult
+C. Champion
+D. Mega
+Answer:","[""Ultimate"", ""Adult"", ""Champion"", ""Mega""]",http,0.0,16,none,"{""id"":""chatcmpl-tc4cazxn8gw9o1cqcn7s"",""object"":""chat.completion"",""created"":1795596167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261125_084135,2026-11-25T08:42:48.550584+00:00
+7052faa493f9564f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the 6th of June 2006, what was the name of the infamous glitch that occurred in the MMO RuneScape?
+A. Party-hat Duplication Glitch
+B. Noclip glitch
+C. The Falador Massacre
+D. TzHaar Massacre
+Answer:","[""Party-hat Duplication Glitch"", ""Noclip glitch"", ""The Falador Massacre"", ""TzHaar Massacre""]",http,0.0,16,none,"{""id"":""chatcmpl-icgskdm9km2yrw5xq8vwf"",""object"":""chat.completion"",""created"":1795596167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9197,,MarianeAzar,20261125_084135,2026-11-25T08:42:49.471168+00:00
+7052faa493f9564f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the 6th of June 2006, what was the name of the infamous glitch that occurred in the MMO RuneScape?
+A. Party-hat Duplication Glitch
+B. Noclip glitch
+C. The Falador Massacre
+D. TzHaar Massacre
+Answer:","[""Party-hat Duplication Glitch"", ""Noclip glitch"", ""The Falador Massacre"", ""TzHaar Massacre""]",http,0.0,16,none,"{""id"":""chatcmpl-56b8of1qcnuwzaqh8msyaq"",""object"":""chat.completion"",""created"":1795596168,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9208,,MarianeAzar,20261125_084135,2026-11-25T08:42:50.392323+00:00
+a54e344a3bbbf257,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?
+A. Roy Jones Jr.
+B. Mike Tyson
+C. Evander Holyfield
+D. Lennox Lewis
+Answer:","[""Roy Jones Jr."", ""Mike Tyson"", ""Evander Holyfield"", ""Lennox Lewis""]",http,0.0,16,none,"{""id"":""chatcmpl-zh5hw0qi968mo5s5cx2qib"",""object"":""chat.completion"",""created"":1795596169,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T08:42:51.278294+00:00
+a54e344a3bbbf257,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?
+A. Roy Jones Jr.
+B. Mike Tyson
+C. Evander Holyfield
+D. Lennox Lewis
+Answer:","[""Roy Jones Jr."", ""Mike Tyson"", ""Evander Holyfield"", ""Lennox Lewis""]",http,0.0,16,none,"{""id"":""chatcmpl-mnoq3yac43w7qfzuv49wi"",""object"":""chat.completion"",""created"":1795596170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9246,,MarianeAzar,20261125_084135,2026-11-25T08:42:52.203095+00:00
+885b5fbdd42df85f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following programs are classified as raster graphics editors EXCEPT:
+A. GIMP
+B. Adobe Photoshop
+C. Inkscape
+D. Paint.NET
+Answer:","[""GIMP"", ""Adobe Photoshop"", ""Inkscape"", ""Paint.NET""]",http,0.0,16,none,"{""id"":""chatcmpl-f9hbf933t34xohp0gxn2t8"",""object"":""chat.completion"",""created"":1795596171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T08:42:53.060307+00:00
+885b5fbdd42df85f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: All of the following programs are classified as raster graphics editors EXCEPT:
+A. GIMP
+B. Adobe Photoshop
+C. Inkscape
+D. Paint.NET
+Answer:","[""GIMP"", ""Adobe Photoshop"", ""Inkscape"", ""Paint.NET""]",http,0.0,16,none,"{""id"":""chatcmpl-zgnr11r7yobif99tctw4x"",""object"":""chat.completion"",""created"":1795596172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8767,,MarianeAzar,20261125_084135,2026-11-25T08:42:53.937252+00:00
+87487060a49f9ac3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", which weapon does NOT deal any damage?
+A. Sliquifier
+B. Wunderwaffe DG-2
+C. 31-79 JGb215
+D. V-R11
+Answer:","[""Sliquifier"", ""Wunderwaffe DG-2"", ""31-79 JGb215"", ""V-R11""]",http,0.0,16,none,"{""id"":""chatcmpl-ao23moyb45xh5imxnkvpr"",""object"":""chat.completion"",""created"":1795596173,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8885,,MarianeAzar,20261125_084135,2026-11-25T08:42:54.826452+00:00
+87487060a49f9ac3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", which weapon does NOT deal any damage?
+A. Sliquifier
+B. Wunderwaffe DG-2
+C. 31-79 JGb215
+D. V-R11
+Answer:","[""Sliquifier"", ""Wunderwaffe DG-2"", ""31-79 JGb215"", ""V-R11""]",http,0.0,16,none,"{""id"":""chatcmpl-jewf8ngfugqvkb34wfpei"",""object"":""chat.completion"",""created"":1795596174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.959,,MarianeAzar,20261125_084135,2026-11-25T08:42:55.785689+00:00
+530b2f6226e4d842,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Sonic's sidekick?
+A. Tails
+B. Amy
+C. Shadow
+D. Knuckles
+Answer:","[""Tails"", ""Amy"", ""Shadow"", ""Knuckles""]",http,0.0,16,none,"{""id"":""chatcmpl-2m1g3bccew9ogtmq2wu48l"",""object"":""chat.completion"",""created"":1795596175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:42:56.647318+00:00
+530b2f6226e4d842,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is Sonic's sidekick?
+A. Tails
+B. Amy
+C. Shadow
+D. Knuckles
+Answer:","[""Tails"", ""Amy"", ""Shadow"", ""Knuckles""]",http,0.0,16,none,"{""id"":""chatcmpl-8nnt9lpzh7egba989e6x2r"",""object"":""chat.completion"",""created"":1795596176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261125_084135,2026-11-25T08:42:57.511220+00:00
+12de57d2785fec26,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following music bands is not from Finland?
+A. Waltari
+B. Lordi
+C. Sabaton
+D. Apocalyptica
+Answer:","[""Waltari"", ""Lordi"", ""Sabaton"", ""Apocalyptica""]",http,0.0,16,none,"{""id"":""chatcmpl-g8vpzdp1e6si3k0pbznq5r"",""object"":""chat.completion"",""created"":1795596176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:42:58.433743+00:00

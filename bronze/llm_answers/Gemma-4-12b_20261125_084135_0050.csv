@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c1ea53b82297f32a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many aces can be shot down through the entirety of ""Ace Combat Zero: The Belkan War""?
+A. 100
+B. 132
+C. 245
+D. 169
+Answer:","[""100"", ""132"", ""245"", ""169""]",http,0.0,16,none,"{""id"":""chatcmpl-0d2ib0o8jz8u9ziu9suqpz"",""object"":""chat.completion"",""created"":1795593580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8788,,MarianeAzar,20261125_084135,2026-11-25T07:59:41.689995+00:00
+c1ea53b82297f32a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many aces can be shot down through the entirety of ""Ace Combat Zero: The Belkan War""?
+A. 100
+B. 132
+C. 245
+D. 169
+Answer:","[""100"", ""132"", ""245"", ""169""]",http,0.0,16,none,"{""id"":""chatcmpl-eu9j6n36i1f1yo84rjchhj"",""object"":""chat.completion"",""created"":1795593581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9171,,MarianeAzar,20261125_084135,2026-11-25T07:59:42.607319+00:00
+2b6f5576ba2fdac8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname for the US state Delaware?
+A. The First State
+B. The Fiftieth State
+C. The Sixteenth State
+D. The Second State
+Answer:","[""The First State"", ""The Fiftieth State"", ""The Sixteenth State"", ""The Second State""]",http,0.0,16,none,"{""id"":""chatcmpl-fs6ijikf4s701q6f7xmnx3s"",""object"":""chat.completion"",""created"":1795593582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261125_084135,2026-11-25T07:59:43.494333+00:00
+2b6f5576ba2fdac8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname for the US state Delaware?
+A. The First State
+B. The Fiftieth State
+C. The Sixteenth State
+D. The Second State
+Answer:","[""The First State"", ""The Fiftieth State"", ""The Sixteenth State"", ""The Second State""]",http,0.0,16,none,"{""id"":""chatcmpl-wm1lup6b84szen403dxkdk"",""object"":""chat.completion"",""created"":1795593582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9271,,MarianeAzar,20261125_084135,2026-11-25T07:59:44.421661+00:00
+ac47612546366443,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dallon Weekes, former touring basist of Panic! At the Disco, created his own band in 2016 called...
+A. Cheats At Hide And Seek
+B. Where Did You All Come From?
+C. Run Away From The People
+D. I Don't Know How But They Found Me
+Answer:","[""Cheats At Hide And Seek"", ""Where Did You All Come From?"", ""Run Away From The People"", ""I Don't Know How But They Found Me""]",http,0.0,16,none,"{""id"":""chatcmpl-6wqs14d8b8g8iwwm8chp02"",""object"":""chat.completion"",""created"":1795593583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9196,,MarianeAzar,20261125_084135,2026-11-25T07:59:45.341382+00:00
+ac47612546366443,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Dallon Weekes, former touring basist of Panic! At the Disco, created his own band in 2016 called...
+A. Cheats At Hide And Seek
+B. Where Did You All Come From?
+C. Run Away From The People
+D. I Don't Know How But They Found Me
+Answer:","[""Cheats At Hide And Seek"", ""Where Did You All Come From?"", ""Run Away From The People"", ""I Don't Know How But They Found Me""]",http,0.0,16,none,"{""id"":""chatcmpl-f298ifjzi3vpcka3ilv0bb"",""object"":""chat.completion"",""created"":1795593584,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9719,,MarianeAzar,20261125_084135,2026-11-25T07:59:46.313549+00:00
+e1ad53105a830e02,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Yakuza series who is the Dragon of Dojima?
+A. Sohei Dojima
+B. Haruka Sawamura
+C. Ryuji Goda
+D. Kazuma Kiryu
+Answer:","[""Sohei Dojima"", ""Haruka Sawamura"", ""Ryuji Goda"", ""Kazuma Kiryu""]",http,0.0,16,none,"{""id"":""chatcmpl-csfeiwb3agtr30ng47inp9"",""object"":""chat.completion"",""created"":1795593585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T07:59:47.177655+00:00
+e1ad53105a830e02,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Yakuza series who is the Dragon of Dojima?
+A. Sohei Dojima
+B. Haruka Sawamura
+C. Ryuji Goda
+D. Kazuma Kiryu
+Answer:","[""Sohei Dojima"", ""Haruka Sawamura"", ""Ryuji Goda"", ""Kazuma Kiryu""]",http,0.0,16,none,"{""id"":""chatcmpl-8n53xoh674mnrse73c2sd"",""object"":""chat.completion"",""created"":1795593586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9864,,MarianeAzar,20261125_084135,2026-11-25T07:59:48.164192+00:00
+b6c4e15fcb7df077,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is a class in the game ""Hearthstone""?
+A. Sage
+B. Cleric
+C. Monk
+D. Priest
+Answer:","[""Sage"", ""Cleric"", ""Monk"", ""Priest""]",http,0.0,16,none,"{""id"":""chatcmpl-2h4rsionokiopdp1tu7ms"",""object"":""chat.completion"",""created"":1795593587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8721,,MarianeAzar,20261125_084135,2026-11-25T07:59:49.036447+00:00
+b6c4e15fcb7df077,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is a class in the game ""Hearthstone""?
+A. Sage
+B. Cleric
+C. Monk
+D. Priest
+Answer:","[""Sage"", ""Cleric"", ""Monk"", ""Priest""]",http,0.0,16,none,"{""id"":""chatcmpl-33k2ljdpg6um7s9wb3q8bf"",""object"":""chat.completion"",""created"":1795593588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8725,,MarianeAzar,20261125_084135,2026-11-25T07:59:49.909137+00:00
+cc0fa06b1019358d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made the video game, ""Bendy and the Ink Machine""?
+A. Jeff Kaplan
+B. TheMeatly
+C. Scott Cawthon
+D. Konami
+Answer:","[""Jeff Kaplan"", ""TheMeatly"", ""Scott Cawthon"", ""Konami""]",http,0.0,16,none,"{""id"":""chatcmpl-wucvyobeocqnzn3dsz47fi"",""object"":""chat.completion"",""created"":1795593589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8639,,MarianeAzar,20261125_084135,2026-11-25T07:59:50.773481+00:00
+cc0fa06b1019358d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who made the video game, ""Bendy and the Ink Machine""?
+A. Jeff Kaplan
+B. TheMeatly
+C. Scott Cawthon
+D. Konami
+Answer:","[""Jeff Kaplan"", ""TheMeatly"", ""Scott Cawthon"", ""Konami""]",http,0.0,16,none,"{""id"":""chatcmpl-0edtod9144rczppntw64ie"",""object"":""chat.completion"",""created"":1795593590,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261125_084135,2026-11-25T07:59:51.648555+00:00
+616366a0ffb420a0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the oldest US state?
+A. Maine
+B. Virginia
+C. Delaware
+D. Rhode Island
+Answer:","[""Maine"", ""Virginia"", ""Delaware"", ""Rhode Island""]",http,0.0,16,none,"{""id"":""chatcmpl-zgwzmqzgy47bxfkpdlgezj"",""object"":""chat.completion"",""created"":1795593591,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9231,,MarianeAzar,20261125_084135,2026-11-25T07:59:52.571750+00:00
+616366a0ffb420a0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the oldest US state?
+A. Maine
+B. Virginia
+C. Delaware
+D. Rhode Island
+Answer:","[""Maine"", ""Virginia"", ""Delaware"", ""Rhode Island""]",http,0.0,16,none,"{""id"":""chatcmpl-hyqtxml2rww532neyw3uki"",""object"":""chat.completion"",""created"":1795593592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T07:59:53.432100+00:00
+d3e698c5c4cdc0cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Silhouette"", a song performed by the group 'KANA-BOON' is featured as the sixteenth opening of which anime?
+A. Gurren Lagann
+B. One Piece
+C. Naruto
+D. Naruto: Shippūden
+Answer:","[""Gurren Lagann"", ""One Piece"", ""Naruto"", ""Naruto: Shippūden""]",http,0.0,16,none,"{""id"":""chatcmpl-zx3ca1lfb4ia91ncyn4b9k"",""object"":""chat.completion"",""created"":1795593592,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261125_084135,2026-11-25T07:59:54.317844+00:00
+d3e698c5c4cdc0cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Silhouette"", a song performed by the group 'KANA-BOON' is featured as the sixteenth opening of which anime?
+A. Gurren Lagann
+B. One Piece
+C. Naruto
+D. Naruto: Shippūden
+Answer:","[""Gurren Lagann"", ""One Piece"", ""Naruto"", ""Naruto: Shippūden""]",http,0.0,16,none,"{""id"":""chatcmpl-ydwxci5lvqc93wkbo30m6"",""object"":""chat.completion"",""created"":1795593593,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9257,,MarianeAzar,20261125_084135,2026-11-25T07:59:55.243716+00:00
+1567830ecb18325a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Season 1 SpongeBob Squarepants episode, ""Help Wanted,"" the song ""Living in the Sunlight"" by Tiny Tim can be heard.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-aufjhp4mst0488lot3vi2p"",""object"":""chat.completion"",""created"":1795593594,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T07:59:56.095296+00:00
+1567830ecb18325a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Season 1 SpongeBob Squarepants episode, ""Help Wanted,"" the song ""Living in the Sunlight"" by Tiny Tim can be heard.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sxtjyj7whn8iasqn9eey2g"",""object"":""chat.completion"",""created"":1795593595,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8686,,MarianeAzar,20261125_084135,2026-11-25T07:59:56.964008+00:00
+c0ffd1959d8b951d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?
+A. Yo-kai Watch
+B. Pokémon
+C. Yu-gi-oh
+D. Buddyfight
+Answer:","[""Yo-kai Watch"", ""Pokémon"", ""Yu-gi-oh"", ""Buddyfight""]",http,0.0,16,none,"{""id"":""chatcmpl-h4mqznyq2dh3wzh9a0rf7s"",""object"":""chat.completion"",""created"":1795593596,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9239,,MarianeAzar,20261125_084135,2026-11-25T07:59:57.888222+00:00
+c0ffd1959d8b951d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?
+A. Yo-kai Watch
+B. Pokémon
+C. Yu-gi-oh
+D. Buddyfight
+Answer:","[""Yo-kai Watch"", ""Pokémon"", ""Yu-gi-oh"", ""Buddyfight""]",http,0.0,16,none,"{""id"":""chatcmpl-24ujpf5huznywbpvco5sa"",""object"":""chat.completion"",""created"":1795593597,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9397,,MarianeAzar,20261125_084135,2026-11-25T07:59:58.828172+00:00
+7e7355b3bdec906c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Pokemon is NOT exclusively female?
+A. Salazzle
+B. Mandibuzz
+C. Illumise
+D. Clefairy
+Answer:","[""Salazzle"", ""Mandibuzz"", ""Illumise"", ""Clefairy""]",http,0.0,16,none,"{""id"":""chatcmpl-4285bses1rauzxzg8wocye"",""object"":""chat.completion"",""created"":1795593598,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9155,,MarianeAzar,20261125_084135,2026-11-25T07:59:59.744180+00:00
+7e7355b3bdec906c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Pokemon is NOT exclusively female?
+A. Salazzle
+B. Mandibuzz
+C. Illumise
+D. Clefairy
+Answer:","[""Salazzle"", ""Mandibuzz"", ""Illumise"", ""Clefairy""]",http,0.0,16,none,"{""id"":""chatcmpl-zetx3pqlauw7zgxodp37"",""object"":""chat.completion"",""created"":1795593599,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T08:00:00.605588+00:00
+6753e9dd9c09a668,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, the Fallen Empires expansion takes place on which continent?
+A. Shiv
+B. Otaria
+C. Sarpadia
+D. Terisiare
+Answer:","[""Shiv"", ""Otaria"", ""Sarpadia"", ""Terisiare""]",http,0.0,16,none,"{""id"":""chatcmpl-mf7zfuh7tge91b6czqvfm"",""object"":""chat.completion"",""created"":1795593600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T08:00:01.496233+00:00
+6753e9dd9c09a668,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Magic: The Gathering universe, the Fallen Empires expansion takes place on which continent?
+A. Shiv
+B. Otaria
+C. Sarpadia
+D. Terisiare
+Answer:","[""Shiv"", ""Otaria"", ""Sarpadia"", ""Terisiare""]",http,0.0,16,none,"{""id"":""chatcmpl-8mxc9l8zdfpwiy0q2jc2j"",""object"":""chat.completion"",""created"":1795593600,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9003,,MarianeAzar,20261125_084135,2026-11-25T08:00:02.396769+00:00
+5957fb1711f1d662,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the CD begin to appear on the consumer market?
+A. 1972
+B. 1992
+C. 1982
+D. 1962
+Answer:","[""1972"", ""1992"", ""1982"", ""1962""]",http,0.0,16,none,"{""id"":""chatcmpl-a9gn6248okor18pwi611a"",""object"":""chat.completion"",""created"":1795593601,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9011,,MarianeAzar,20261125_084135,2026-11-25T08:00:03.298178+00:00

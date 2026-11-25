@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+c18606e8cadb3828,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won Big Brother 2014 UK?
+A. Christopher Hall
+B. Helen Wood
+C. Pauline Bennett
+D. Pavandeep ""Pav"" Paul
+Answer:","[""Christopher Hall"", ""Helen Wood"", ""Pauline Bennett"", ""Pavandeep \""Pav\"" Paul""]",http,0.0,16,none,"{""id"":""chatcmpl-umrclr9jd6t8xcznsgajck"",""object"":""chat.completion"",""created"":1795594161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9381,,MarianeAzar,20261125_084135,2026-11-25T08:09:22.554441+00:00
+c18606e8cadb3828,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won Big Brother 2014 UK?
+A. Christopher Hall
+B. Helen Wood
+C. Pauline Bennett
+D. Pavandeep ""Pav"" Paul
+Answer:","[""Christopher Hall"", ""Helen Wood"", ""Pauline Bennett"", ""Pavandeep \""Pav\"" Paul""]",http,0.0,16,none,"{""id"":""chatcmpl-5by5j25azefvsejegsspim"",""object"":""chat.completion"",""created"":1795594161,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9572,,MarianeAzar,20261125_084135,2026-11-25T08:09:23.511889+00:00
+e650b66f2f43eda9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Warframe, what is the bipedal robot from the Corpus faction called?
+A. Crewman
+B. Corpus Walker
+C. MOA
+D. Corpus Tech
+Answer:","[""Crewman"", ""Corpus Walker"", ""MOA"", ""Corpus Tech""]",http,0.0,16,none,"{""id"":""chatcmpl-izdh2kcuenqpqaf6186rud"",""object"":""chat.completion"",""created"":1795594162,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3477,,MarianeAzar,20261125_084135,2026-11-25T08:09:24.859922+00:00
+e650b66f2f43eda9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Warframe, what is the bipedal robot from the Corpus faction called?
+A. Crewman
+B. Corpus Walker
+C. MOA
+D. Corpus Tech
+Answer:","[""Crewman"", ""Corpus Walker"", ""MOA"", ""Corpus Tech""]",http,0.0,16,none,"{""id"":""chatcmpl-gzcrah1lv0eglehs8fwotq"",""object"":""chat.completion"",""created"":1795594164,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9511,,MarianeAzar,20261125_084135,2026-11-25T08:09:25.811315+00:00
+e11a6e3723a0aaf1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the Dance Dance Revolution series introduced the Extra Stage?
+A. DDR Solo 2000
+B. DDR EXTREME
+C. DDR
+D. DDRMAX
+Answer:","[""DDR Solo 2000"", ""DDR EXTREME"", ""DDR"", ""DDRMAX""]",http,0.0,16,none,"{""id"":""chatcmpl-dh84bxfgyaihqsfltav5t6"",""object"":""chat.completion"",""created"":1795594165,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9541,,MarianeAzar,20261125_084135,2026-11-25T08:09:26.765657+00:00
+e11a6e3723a0aaf1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game in the Dance Dance Revolution series introduced the Extra Stage?
+A. DDR Solo 2000
+B. DDR EXTREME
+C. DDR
+D. DDRMAX
+Answer:","[""DDR Solo 2000"", ""DDR EXTREME"", ""DDR"", ""DDRMAX""]",http,0.0,16,none,"{""id"":""chatcmpl-1o39z07kghtjb4aekqrp0r"",""object"":""chat.completion"",""created"":1795594166,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4374,,MarianeAzar,20261125_084135,2026-11-25T08:09:28.203305+00:00
+0a79749d8eda1931,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which English county is Stonehenge?
+A. Wiltshire
+B. Somerset
+C. Cumbria
+D. Herefordshire
+Answer:","[""Wiltshire"", ""Somerset"", ""Cumbria"", ""Herefordshire""]",http,0.0,16,none,"{""id"":""chatcmpl-mj9c2fylaosncbltzgoi5"",""object"":""chat.completion"",""created"":1795594167,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9448,,MarianeAzar,20261125_084135,2026-11-25T08:09:29.148349+00:00
+0a79749d8eda1931,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which English county is Stonehenge?
+A. Wiltshire
+B. Somerset
+C. Cumbria
+D. Herefordshire
+Answer:","[""Wiltshire"", ""Somerset"", ""Cumbria"", ""Herefordshire""]",http,0.0,16,none,"{""id"":""chatcmpl-wzx403yw3vo6ev4jdwwtz3"",""object"":""chat.completion"",""created"":1795594168,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9556,,MarianeAzar,20261125_084135,2026-11-25T08:09:30.104194+00:00
+8e87446e94879543,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Cast Away"" the main protagonist's best friend while on the island is named
+A. Carson
+B. Wilson
+C. Willy
+D. Jackson
+Answer:","[""Carson"", ""Wilson"", ""Willy"", ""Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-uqzdqiclr9q8gsf18lh"",""object"":""chat.completion"",""created"":1795594169,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4323,,MarianeAzar,20261125_084135,2026-11-25T08:09:31.536721+00:00
+8e87446e94879543,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the movie ""Cast Away"" the main protagonist's best friend while on the island is named
+A. Carson
+B. Wilson
+C. Willy
+D. Jackson
+Answer:","[""Carson"", ""Wilson"", ""Willy"", ""Jackson""]",http,0.0,16,none,"{""id"":""chatcmpl-4ax2y56cr5ffu6n0r5olg"",""object"":""chat.completion"",""created"":1795594170,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9471,,MarianeAzar,20261125_084135,2026-11-25T08:09:32.484071+00:00
+10353a2cf4b35da9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the compact disc player first released?
+A. 1983
+B. 1980
+C. 1981
+D. 1982
+Answer:","[""1983"", ""1980"", ""1981"", ""1982""]",http,0.0,16,none,"{""id"":""chatcmpl-cz9tgqylw2jjc0xj31nkg"",""object"":""chat.completion"",""created"":1795594171,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9525,,MarianeAzar,20261125_084135,2026-11-25T08:09:33.437241+00:00
+10353a2cf4b35da9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the compact disc player first released?
+A. 1983
+B. 1980
+C. 1981
+D. 1982
+Answer:","[""1983"", ""1980"", ""1981"", ""1982""]",http,0.0,16,none,"{""id"":""chatcmpl-pemf5sbe5mk1h7l5kjyxbu"",""object"":""chat.completion"",""created"":1795594172,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5006,,MarianeAzar,20261125_084135,2026-11-25T08:09:34.938118+00:00
+bbeede23b58eff2f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does VR stand for?
+A. Voice Recognition
+B. Very Real
+C. Visual Recognition
+D. Virtual Reality
+Answer:","[""Voice Recognition"", ""Very Real"", ""Visual Recognition"", ""Virtual Reality""]",http,0.0,16,none,"{""id"":""chatcmpl-bvs4vtcmic1zun380s5w2"",""object"":""chat.completion"",""created"":1795594174,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1264,,MarianeAzar,20261125_084135,2026-11-25T08:09:36.064714+00:00
+bbeede23b58eff2f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does VR stand for?
+A. Voice Recognition
+B. Very Real
+C. Visual Recognition
+D. Virtual Reality
+Answer:","[""Voice Recognition"", ""Very Real"", ""Visual Recognition"", ""Virtual Reality""]",http,0.0,16,none,"{""id"":""chatcmpl-6z229emyfocdi00h3xtpvn"",""object"":""chat.completion"",""created"":1795594175,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9979,,MarianeAzar,20261125_084135,2026-11-25T08:09:37.063000+00:00
+f74bc5d8d476141f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sniper's SMG in Team Fortress 2, was originally intended to be the Scout's primary weapon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yebsw5uxi9klljzhvycx8"",""object"":""chat.completion"",""created"":1795594176,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9168,,MarianeAzar,20261125_084135,2026-11-25T08:09:37.980041+00:00
+f74bc5d8d476141f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Sniper's SMG in Team Fortress 2, was originally intended to be the Scout's primary weapon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-khz0tziw3t8690mzyjhaxk"",""object"":""chat.completion"",""created"":1795594177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3625,,MarianeAzar,20261125_084135,2026-11-25T08:09:39.342699+00:00
+7ef1ad6afa566fa8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these game-based comics were published in 2011 by DC Comics?
+A. Left 4 Dead: The Sacrifice
+B. Prototype
+C. Infamous
+D. Kane & Lynch
+Answer:","[""Left 4 Dead: The Sacrifice"", ""Prototype"", ""Infamous"", ""Kane & Lynch""]",http,0.0,16,none,"{""id"":""chatcmpl-anmpygcl2si8bulrs7h2d"",""object"":""chat.completion"",""created"":1795594178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9353,,MarianeAzar,20261125_084135,2026-11-25T08:09:40.278394+00:00
+7ef1ad6afa566fa8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these game-based comics were published in 2011 by DC Comics?
+A. Left 4 Dead: The Sacrifice
+B. Prototype
+C. Infamous
+D. Kane & Lynch
+Answer:","[""Left 4 Dead: The Sacrifice"", ""Prototype"", ""Infamous"", ""Kane & Lynch""]",http,0.0,16,none,"{""id"":""chatcmpl-p6r3dn9lt8mecv3wftaysd"",""object"":""chat.completion"",""created"":1795594179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8785,,MarianeAzar,20261125_084135,2026-11-25T08:09:41.157166+00:00
+b32849919f85a799,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was NOT formerly part of Yugoslavia?
+A. Macedonia
+B. Serbia
+C. Albania
+D. Croatia
+Answer:","[""Macedonia"", ""Serbia"", ""Albania"", ""Croatia""]",http,0.0,16,none,"{""id"":""chatcmpl-ox929wmq3la4691xk5b8wd"",""object"":""chat.completion"",""created"":1795594180,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4433,,MarianeAzar,20261125_084135,2026-11-25T08:09:42.600766+00:00
+b32849919f85a799,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was NOT formerly part of Yugoslavia?
+A. Macedonia
+B. Serbia
+C. Albania
+D. Croatia
+Answer:","[""Macedonia"", ""Serbia"", ""Albania"", ""Croatia""]",http,0.0,16,none,"{""id"":""chatcmpl-goyjt66lxgaws8p3ebdxpc"",""object"":""chat.completion"",""created"":1795594182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.927,,MarianeAzar,20261125_084135,2026-11-25T08:09:43.528014+00:00
+f26275795f7e51b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Automobiles produced by Tesla Motors operate on which form of energy?
+A. Gasoline
+B. Electricity
+C. Nuclear
+D. Diesel
+Answer:","[""Gasoline"", ""Electricity"", ""Nuclear"", ""Diesel""]",http,0.0,16,none,"{""id"":""chatcmpl-pnt3zn4glt9hujh1ogigi"",""object"":""chat.completion"",""created"":1795594182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9082,,MarianeAzar,20261125_084135,2026-11-25T08:09:44.436713+00:00
+f26275795f7e51b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Automobiles produced by Tesla Motors operate on which form of energy?
+A. Gasoline
+B. Electricity
+C. Nuclear
+D. Diesel
+Answer:","[""Gasoline"", ""Electricity"", ""Nuclear"", ""Diesel""]",http,0.0,16,none,"{""id"":""chatcmpl-w4ok6uq1oixkw4k9zlmz"",""object"":""chat.completion"",""created"":1795594183,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2551,,MarianeAzar,20261125_084135,2026-11-25T08:09:45.692066+00:00
+f9ce3c990e486de3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following men does not have a chemical element named after him?
+A. Albert Einstein
+B. Sir Isaac Newton
+C. Niels Bohr
+D. Enrico Fermi
+Answer:","[""Albert Einstein"", ""Sir Isaac Newton"", ""Niels Bohr"", ""Enrico Fermi""]",http,0.0,16,none,"{""id"":""chatcmpl-qmecfubvtfpx2saaofth5"",""object"":""chat.completion"",""created"":1795594185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9454,,MarianeAzar,20261125_084135,2026-11-25T08:09:46.637730+00:00
+f9ce3c990e486de3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following men does not have a chemical element named after him?
+A. Albert Einstein
+B. Sir Isaac Newton
+C. Niels Bohr
+D. Enrico Fermi
+Answer:","[""Albert Einstein"", ""Sir Isaac Newton"", ""Niels Bohr"", ""Enrico Fermi""]",http,0.0,16,none,"{""id"":""chatcmpl-e0xvxg4pgvenmmm7nwvozo"",""object"":""chat.completion"",""created"":1795594186,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9699,,MarianeAzar,20261125_084135,2026-11-25T08:09:47.607852+00:00
+69883cb19b322175,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of ""moot"", founder of the imageboard 4chan?
+A. Christopher Poole
+B. Catie Wayne
+C. Allison Harvard
+D. Mark Zuckerberg
+Answer:","[""Christopher Poole"", ""Catie Wayne"", ""Allison Harvard"", ""Mark Zuckerberg""]",http,0.0,16,none,"{""id"":""chatcmpl-88k5i2aqjjxgnwwqj8x8qd"",""object"":""chat.completion"",""created"":1795594187,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4398,,MarianeAzar,20261125_084135,2026-11-25T08:09:49.047928+00:00

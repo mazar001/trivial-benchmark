@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+f7fc215ab213fb11,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?
+A. 22
+B. 11
+C. 20
+D. 13
+Answer:","[""22"", ""11"", ""20"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-gjmyzkj54bv7fh2zxlxjtt"",""object"":""chat.completion"",""created"":1795596638,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T08:50:39.927413+00:00
+f7fc215ab213fb11,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?
+A. 22
+B. 11
+C. 20
+D. 13
+Answer:","[""22"", ""11"", ""20"", ""13""]",http,0.0,16,none,"{""id"":""chatcmpl-onsx42xx1e99o9ier1d6s"",""object"":""chat.completion"",""created"":1795596639,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9072,,MarianeAzar,20261125_084135,2026-11-25T08:50:40.835236+00:00
+c5cbfd6f1da4e4db,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first mammal successfully launched into Earth's orbit?
+A. Ham, the chimpanzee
+B. Belka, the dog
+C. Baker, the monkey
+D. Laika, the dog
+Answer:","[""Ham, the chimpanzee"", ""Belka, the dog"", ""Baker, the monkey"", ""Laika, the dog""]",http,0.0,16,none,"{""id"":""chatcmpl-uz81zsbjgswjn3x1z02nd"",""object"":""chat.completion"",""created"":1795596640,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T08:50:41.707138+00:00
+c5cbfd6f1da4e4db,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first mammal successfully launched into Earth's orbit?
+A. Ham, the chimpanzee
+B. Belka, the dog
+C. Baker, the monkey
+D. Laika, the dog
+Answer:","[""Ham, the chimpanzee"", ""Belka, the dog"", ""Baker, the monkey"", ""Laika, the dog""]",http,0.0,16,none,"{""id"":""chatcmpl-0dp2nyjfgr78adl1evqzk8m"",""object"":""chat.completion"",""created"":1795596641,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8842,,MarianeAzar,20261125_084135,2026-11-25T08:50:42.591596+00:00
+b734cfa059569d28,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At the end of the 2001 film ""Rat Race"", whose concert do the contestants crash?
+A. Linkin Park
+B. Sum 41
+C. Smash Mouth
+D. Bowling for Soup
+Answer:","[""Linkin Park"", ""Sum 41"", ""Smash Mouth"", ""Bowling for Soup""]",http,0.0,16,none,"{""id"":""chatcmpl-y9j516bt5ig93x107nmgv"",""object"":""chat.completion"",""created"":1795596642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.855,,MarianeAzar,20261125_084135,2026-11-25T08:50:43.447054+00:00
+b734cfa059569d28,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: At the end of the 2001 film ""Rat Race"", whose concert do the contestants crash?
+A. Linkin Park
+B. Sum 41
+C. Smash Mouth
+D. Bowling for Soup
+Answer:","[""Linkin Park"", ""Sum 41"", ""Smash Mouth"", ""Bowling for Soup""]",http,0.0,16,none,"{""id"":""chatcmpl-palavmb3o1qjxkq5tlygs"",""object"":""chat.completion"",""created"":1795596642,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9037,,MarianeAzar,20261125_084135,2026-11-25T08:50:44.350952+00:00
+f79557c3a5e5812d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The word ""Inception"" came from the 2010 blockbuster hit ""Inception"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-38autzllhh9uqc6tg265ej"",""object"":""chat.completion"",""created"":1795596643,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8349,,MarianeAzar,20261125_084135,2026-11-25T08:50:45.186058+00:00
+f79557c3a5e5812d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The word ""Inception"" came from the 2010 blockbuster hit ""Inception"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-inqm5ntpj7r9gz642fma"",""object"":""chat.completion"",""created"":1795596644,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8389,,MarianeAzar,20261125_084135,2026-11-25T08:50:46.025221+00:00
+6d074745ad3beedf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of which 90s boy band was Justin Timberlake a member?
+A. Boyzone
+B. Westlife
+C. Backstreet Boys
+D. *NSYNC
+Answer:","[""Boyzone"", ""Westlife"", ""Backstreet Boys"", ""*NSYNC""]",http,0.0,16,none,"{""id"":""chatcmpl-i84jmreh362f78bsmylcq"",""object"":""chat.completion"",""created"":1795596645,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8571,,MarianeAzar,20261125_084135,2026-11-25T08:50:46.883085+00:00
+6d074745ad3beedf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Of which 90s boy band was Justin Timberlake a member?
+A. Boyzone
+B. Westlife
+C. Backstreet Boys
+D. *NSYNC
+Answer:","[""Boyzone"", ""Westlife"", ""Backstreet Boys"", ""*NSYNC""]",http,0.0,16,none,"{""id"":""chatcmpl-ncz0il5l5nspnjhkflwipe"",""object"":""chat.completion"",""created"":1795596646,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:50:47.745573+00:00
+443288d41cd11067,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the leader of Sweden in the Great Northern War?
+A. Charles XII
+B. Gustavus Adolphus
+C. Per Albin Hansson
+D. Peter the Great
+Answer:","[""Charles XII"", ""Gustavus Adolphus"", ""Per Albin Hansson"", ""Peter the Great""]",http,0.0,16,none,"{""id"":""chatcmpl-nzj8srhwj9ny327tf2qnu"",""object"":""chat.completion"",""created"":1795596647,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T08:50:48.646373+00:00
+443288d41cd11067,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the leader of Sweden in the Great Northern War?
+A. Charles XII
+B. Gustavus Adolphus
+C. Per Albin Hansson
+D. Peter the Great
+Answer:","[""Charles XII"", ""Gustavus Adolphus"", ""Per Albin Hansson"", ""Peter the Great""]",http,0.0,16,none,"{""id"":""chatcmpl-nuuedw1v3rz7qg0cvsdhn"",""object"":""chat.completion"",""created"":1795596648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T08:50:49.511741+00:00
+f8e98a7b3275aaf1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which classic novel is there a character named Homer Simpson?
+A. Catch-22
+B. Of Mice and Men
+C. A Separate Peace
+D. The Day of the Locust
+Answer:","[""Catch-22"", ""Of Mice and Men"", ""A Separate Peace"", ""The Day of the Locust""]",http,0.0,16,none,"{""id"":""chatcmpl-zgpi4zgqxde9p2d0zbodn"",""object"":""chat.completion"",""created"":1795596648,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8691,,MarianeAzar,20261125_084135,2026-11-25T08:50:50.381324+00:00
+f8e98a7b3275aaf1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which classic novel is there a character named Homer Simpson?
+A. Catch-22
+B. Of Mice and Men
+C. A Separate Peace
+D. The Day of the Locust
+Answer:","[""Catch-22"", ""Of Mice and Men"", ""A Separate Peace"", ""The Day of the Locust""]",http,0.0,16,none,"{""id"":""chatcmpl-s06m5xc6fbb72h5v2e0w9"",""object"":""chat.completion"",""created"":1795596649,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8818,,MarianeAzar,20261125_084135,2026-11-25T08:50:51.263443+00:00
+498ec74213fe793c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who co-founded the YouTube Let's Play channel ""Game Grumps"" alongside Newgrounds animator Egoraptor?
+A. JonTron
+B. Tobuscus
+C. Markiplier
+D. Pewdiepie
+Answer:","[""JonTron"", ""Tobuscus"", ""Markiplier"", ""Pewdiepie""]",http,0.0,16,none,"{""id"":""chatcmpl-ve20wj66ue8on7jwqyifup"",""object"":""chat.completion"",""created"":1795596650,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T08:50:52.136563+00:00
+498ec74213fe793c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who co-founded the YouTube Let's Play channel ""Game Grumps"" alongside Newgrounds animator Egoraptor?
+A. JonTron
+B. Tobuscus
+C. Markiplier
+D. Pewdiepie
+Answer:","[""JonTron"", ""Tobuscus"", ""Markiplier"", ""Pewdiepie""]",http,0.0,16,none,"{""id"":""chatcmpl-x8gbetkkytpl7x007khxx"",""object"":""chat.completion"",""created"":1795596651,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8996,,MarianeAzar,20261125_084135,2026-11-25T08:50:53.036444+00:00
+c3261914591ab9e4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the god of war in Polynesian mythology?
+A. Māui
+B. Kohara
+C. 'Oro
+D. Hina
+Answer:","[""Māui"", ""Kohara"", ""'Oro"", ""Hina""]",http,0.0,16,none,"{""id"":""chatcmpl-qmrg0840mtcuhwtn00rtd"",""object"":""chat.completion"",""created"":1795596652,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8658,,MarianeAzar,20261125_084135,2026-11-25T08:50:53.902675+00:00
+c3261914591ab9e4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the god of war in Polynesian mythology?
+A. Māui
+B. Kohara
+C. 'Oro
+D. Hina
+Answer:","[""Māui"", ""Kohara"", ""'Oro"", ""Hina""]",http,0.0,16,none,"{""id"":""chatcmpl-9hopvstfczphtd17t568j"",""object"":""chat.completion"",""created"":1795596653,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8518,,MarianeAzar,20261125_084135,2026-11-25T08:50:54.754664+00:00
+2722b7a8beda007f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character with yellow hair in the anime Naruto?
+A. Naruto
+B. Sasuke
+C. Ten Ten
+D. Kakashi
+Answer:","[""Naruto"", ""Sasuke"", ""Ten Ten"", ""Kakashi""]",http,0.0,16,none,"{""id"":""chatcmpl-qjsjyvcbiidgimzp4e3m3"",""object"":""chat.completion"",""created"":1795596654,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8418,,MarianeAzar,20261125_084135,2026-11-25T08:50:55.596818+00:00
+2722b7a8beda007f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character with yellow hair in the anime Naruto?
+A. Naruto
+B. Sasuke
+C. Ten Ten
+D. Kakashi
+Answer:","[""Naruto"", ""Sasuke"", ""Ten Ten"", ""Kakashi""]",http,0.0,16,none,"{""id"":""chatcmpl-kzh4demzorex4q08u4ej9d"",""object"":""chat.completion"",""created"":1795596655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261125_084135,2026-11-25T08:50:56.480953+00:00
+21081591947c5eb9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?
+A. Family Guy
+B. Bob's Burgers
+C. South Park
+D. The Simpsons
+Answer:","[""Family Guy"", ""Bob's Burgers"", ""South Park"", ""The Simpsons""]",http,0.0,16,none,"{""id"":""chatcmpl-jvug5upjs78igp9sk1hjg"",""object"":""chat.completion"",""created"":1795596655,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261125_084135,2026-11-25T08:50:57.349208+00:00
+21081591947c5eb9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?
+A. Family Guy
+B. Bob's Burgers
+C. South Park
+D. The Simpsons
+Answer:","[""Family Guy"", ""Bob's Burgers"", ""South Park"", ""The Simpsons""]",http,0.0,16,none,"{""id"":""chatcmpl-de223lln589fev172sjs19"",""object"":""chat.completion"",""created"":1795596656,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8958,,MarianeAzar,20261125_084135,2026-11-25T08:50:58.245281+00:00
+0d5253e0768857ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?
+A. Tom
+B. Tiny
+C. Tilly
+D. None of the Above
+Answer:","[""Tom"", ""Tiny"", ""Tilly"", ""None of the Above""]",http,0.0,16,none,"{""id"":""chatcmpl-lb68xf7i9x8p75d9gjf73b"",""object"":""chat.completion"",""created"":1795596657,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:50:59.103470+00:00
+0d5253e0768857ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?
+A. Tom
+B. Tiny
+C. Tilly
+D. None of the Above
+Answer:","[""Tom"", ""Tiny"", ""Tilly"", ""None of the Above""]",http,0.0,16,none,"{""id"":""chatcmpl-wkio20qcsfw66naet5b"",""object"":""chat.completion"",""created"":1795596658,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8866,,MarianeAzar,20261125_084135,2026-11-25T08:50:59.990290+00:00
+25eed763f9609c58,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many moons does the Earth have?
+A. 2
+B. 0
+C. 1
+D. 3
+Answer:","[""2"", ""0"", ""1"", ""3""]",http,0.0,16,none,"{""id"":""chatcmpl-nsvxuyko0ktbf5de58j8a"",""object"":""chat.completion"",""created"":1795596659,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T08:51:00.855827+00:00

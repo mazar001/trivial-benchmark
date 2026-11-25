@@ -1,0 +1,148 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+94164643b0f6cead,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Senegal?
+A. Monrovia
+B. Conakry
+C. Nouakchott
+D. Dakar
+Answer:","[""Monrovia"", ""Conakry"", ""Nouakchott"", ""Dakar""]",http,0.0,16,none,"{""id"":""chatcmpl-431bu6juoxdf5f0vu23fju"",""object"":""chat.completion"",""created"":1795596337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8476,,MarianeAzar,20261125_084135,2026-11-25T08:45:38.465391+00:00
+94164643b0f6cead,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Senegal?
+A. Monrovia
+B. Conakry
+C. Nouakchott
+D. Dakar
+Answer:","[""Monrovia"", ""Conakry"", ""Nouakchott"", ""Dakar""]",http,0.0,16,none,"{""id"":""chatcmpl-b8fvfe48i89mrhckabn66"",""object"":""chat.completion"",""created"":1795596337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8502,,MarianeAzar,20261125_084135,2026-11-25T08:45:39.315817+00:00
+f3e3ae839919f823,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is an example of a bacterial pathogen?
+A. Measles
+B. Cholera
+C. Ringworm
+D. AIDS
+Answer:","[""Measles"", ""Cholera"", ""Ringworm"", ""AIDS""]",http,0.0,16,none,"{""id"":""chatcmpl-u3hqy1j7uzemonpru6sm2c"",""object"":""chat.completion"",""created"":1795596338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8428,,MarianeAzar,20261125_084135,2026-11-25T08:45:40.159071+00:00
+f3e3ae839919f823,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is an example of a bacterial pathogen?
+A. Measles
+B. Cholera
+C. Ringworm
+D. AIDS
+Answer:","[""Measles"", ""Cholera"", ""Ringworm"", ""AIDS""]",http,0.0,16,none,"{""id"":""chatcmpl-b0l8r1zilxo1ejpgtbaap5"",""object"":""chat.completion"",""created"":1795596339,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T08:45:41.016064+00:00
+3b47275a8e321743,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The sum of all the numbers on a roulette wheel is 666.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-e4reaqs0h573589095w1ch"",""object"":""chat.completion"",""created"":1795596340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8158,,MarianeAzar,20261125_084135,2026-11-25T08:45:41.832083+00:00
+3b47275a8e321743,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The sum of all the numbers on a roulette wheel is 666.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-sewzrpvlv8ivi18wbi7n9h"",""object"":""chat.completion"",""created"":1795596341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:45:42.647881+00:00
+2b43fa717925252f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-a1xxy4627e5s9iqjj1qm2"",""object"":""chat.completion"",""created"":1795596342,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:45:43.463442+00:00
+2b43fa717925252f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-swundbfvqnr6r4octhgxcr"",""object"":""chat.completion"",""created"":1795596342,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261125_084135,2026-11-25T08:45:44.312001+00:00
+2e721657ff859b43,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who out of these actresses is the youngest?
+A. Kiernan Shipka
+B. Bonnie Wright
+C. Emma Watson
+D. Ariel Winter
+Answer:","[""Kiernan Shipka"", ""Bonnie Wright"", ""Emma Watson"", ""Ariel Winter""]",http,0.0,16,none,"{""id"":""chatcmpl-a0rlw0e5gtqt1hkrjeqak"",""object"":""chat.completion"",""created"":1795596343,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T08:45:45.162684+00:00
+2e721657ff859b43,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who out of these actresses is the youngest?
+A. Kiernan Shipka
+B. Bonnie Wright
+C. Emma Watson
+D. Ariel Winter
+Answer:","[""Kiernan Shipka"", ""Bonnie Wright"", ""Emma Watson"", ""Ariel Winter""]",http,0.0,16,none,"{""id"":""chatcmpl-tg043tcts5kq0qnsgrusdr"",""object"":""chat.completion"",""created"":1795596344,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8723,,MarianeAzar,20261125_084135,2026-11-25T08:45:46.035239+00:00
+1a86a6acddd5b647,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first Studio Album to be released on the Internet with a ""Pay-What-You-Want"" price?
+A. Skrillex and Diplo Present Jack Ü
+B. Blackstar
+C. The Help Album
+D. In Rainbows
+Answer:","[""Skrillex and Diplo Present Jack Ü"", ""Blackstar"", ""The Help Album"", ""In Rainbows""]",http,0.0,16,none,"{""id"":""chatcmpl-y70abjhhyue1duqixgp8dx"",""object"":""chat.completion"",""created"":1795596345,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T08:45:46.895574+00:00
+1a86a6acddd5b647,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first Studio Album to be released on the Internet with a ""Pay-What-You-Want"" price?
+A. Skrillex and Diplo Present Jack Ü
+B. Blackstar
+C. The Help Album
+D. In Rainbows
+Answer:","[""Skrillex and Diplo Present Jack Ü"", ""Blackstar"", ""The Help Album"", ""In Rainbows""]",http,0.0,16,none,"{""id"":""chatcmpl-guhltz3eessgy3v0l2lssf"",""object"":""chat.completion"",""created"":1795596346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8924,,MarianeAzar,20261125_084135,2026-11-25T08:45:47.788275+00:00
+55d5fb534de6a48c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Enthalpy is a measure of the energy that is not available for work during a thermodynamic process.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-okr8llqgq3r6vkm7499k"",""object"":""chat.completion"",""created"":1795596347,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8478,,MarianeAzar,20261125_084135,2026-11-25T08:45:48.636262+00:00
+55d5fb534de6a48c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Enthalpy is a measure of the energy that is not available for work during a thermodynamic process.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eu1q0793sf9ohvgflnzl1"",""object"":""chat.completion"",""created"":1795596348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.833,,MarianeAzar,20261125_084135,2026-11-25T08:45:49.469464+00:00
+f594481cc366d68d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Fiat Multipla is a drivable car in ""Forza Horizon 3"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8tmnhdvwyvwadxsaf1dwq"",""object"":""chat.completion"",""created"":1795596348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8105,,MarianeAzar,20261125_084135,2026-11-25T08:45:50.280176+00:00
+f594481cc366d68d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Fiat Multipla is a drivable car in ""Forza Horizon 3"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4daqoia5b26uko6wtdgdd"",""object"":""chat.completion"",""created"":1795596349,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8451,,MarianeAzar,20261125_084135,2026-11-25T08:45:51.125463+00:00
+ca530017aa3c3ed7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the last emperor of Mexico?
+A. Agustín de Iturbide
+B. Napoleon III
+C. Andrés Manuel López Obrador
+D. Ferdinand Maximilian
+Answer:","[""Agustín de Iturbide"", ""Napoleon III"", ""Andrés Manuel López Obrador"", ""Ferdinand Maximilian""]",http,0.0,16,none,"{""id"":""chatcmpl-hzzn4p1bqspt708rn9oy"",""object"":""chat.completion"",""created"":1795596350,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:45:51.991535+00:00
+ca530017aa3c3ed7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the last emperor of Mexico?
+A. Agustín de Iturbide
+B. Napoleon III
+C. Andrés Manuel López Obrador
+D. Ferdinand Maximilian
+Answer:","[""Agustín de Iturbide"", ""Napoleon III"", ""Andrés Manuel López Obrador"", ""Ferdinand Maximilian""]",http,0.0,16,none,"{""id"":""chatcmpl-k3n6mjedaiclaoh056bc"",""object"":""chat.completion"",""created"":1795596351,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8634,,MarianeAzar,20261125_084135,2026-11-25T08:45:52.855184+00:00
+00ef2c6c270f209c,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Cucumbers are usually more than 90% water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-gc6sas2jydtxmlkbhbd7sk"",""object"":""chat.completion"",""created"":1795596352,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7937,,MarianeAzar,20261125_084135,2026-11-25T08:45:53.649085+00:00
+00ef2c6c270f209c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Cucumbers are usually more than 90% water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rheqptd2efr9vcdhywryzu"",""object"":""chat.completion"",""created"":1795596353,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8112,,MarianeAzar,20261125_084135,2026-11-25T08:45:54.460473+00:00
+742b6cc02a18fd14,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a megadiverse country - one that harbors a high number of the earth's endemic species?
+A. Thailand
+B. Peru
+C. South Africa
+D. Mexico
+Answer:","[""Thailand"", ""Peru"", ""South Africa"", ""Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-i96r8ek973r91mtrfe2q"",""object"":""chat.completion"",""created"":1795596353,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8752,,MarianeAzar,20261125_084135,2026-11-25T08:45:55.336247+00:00
+742b6cc02a18fd14,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not a megadiverse country - one that harbors a high number of the earth's endemic species?
+A. Thailand
+B. Peru
+C. South Africa
+D. Mexico
+Answer:","[""Thailand"", ""Peru"", ""South Africa"", ""Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-26xj1dppl44gvtcsxcv89j"",""object"":""chat.completion"",""created"":1795596354,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8887,,MarianeAzar,20261125_084135,2026-11-25T08:45:56.225211+00:00
+727c803fcb0e4287,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Gatomon's name in the original Japanese version of Digimon Adventure?
+A. Tailmon
+B. Catmon
+C. Pawmon
+D. Nekomon
+Answer:","[""Tailmon"", ""Catmon"", ""Pawmon"", ""Nekomon""]",http,0.0,16,none,"{""id"":""chatcmpl-kgpe5txro2e0q4o3tvse9"",""object"":""chat.completion"",""created"":1795596355,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261125_084135,2026-11-25T08:45:57.085220+00:00
+727c803fcb0e4287,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Gatomon's name in the original Japanese version of Digimon Adventure?
+A. Tailmon
+B. Catmon
+C. Pawmon
+D. Nekomon
+Answer:","[""Tailmon"", ""Catmon"", ""Pawmon"", ""Nekomon""]",http,0.0,16,none,"{""id"":""chatcmpl-a0i0p1397qlql9wlgqage"",""object"":""chat.completion"",""created"":1795596356,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T08:45:57.940466+00:00
+48396dd03dd6d05b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ADV (English) Dub of the anime ""Ghost Stories"", which character is portrayed as a Pentacostal Christian?
+A. Satsuki Miyanoshita
+B. Momoko Koigakubo
+C. Mio Itai
+D. Hajime Aoyama
+Answer:","[""Satsuki Miyanoshita"", ""Momoko Koigakubo"", ""Mio Itai"", ""Hajime Aoyama""]",http,0.0,16,none,"{""id"":""chatcmpl-pe4yhdd8c8hqs17pyap87"",""object"":""chat.completion"",""created"":1795596357,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8789,,MarianeAzar,20261125_084135,2026-11-25T08:45:58.819785+00:00

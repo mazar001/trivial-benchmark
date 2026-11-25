@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+37df78f0c635db85,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a wonder weapon in ""Call Of Duty: Zombies""?
+A. R115 Resonator
+B. Scavenger
+C. Ray Gun
+D. GKZ-45 Mk3
+Answer:","[""R115 Resonator"", ""Scavenger"", ""Ray Gun"", ""GKZ-45 Mk3""]",http,0.0,16,none,"{""id"":""chatcmpl-wqe10npknwhx8eby22iv1"",""object"":""chat.completion"",""created"":1795595276,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9249,,MarianeAzar,20261125_084135,2026-11-25T08:27:58.131359+00:00
+37df78f0c635db85,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these is not a wonder weapon in ""Call Of Duty: Zombies""?
+A. R115 Resonator
+B. Scavenger
+C. Ray Gun
+D. GKZ-45 Mk3
+Answer:","[""R115 Resonator"", ""Scavenger"", ""Ray Gun"", ""GKZ-45 Mk3""]",http,0.0,16,none,"{""id"":""chatcmpl-qb4mslpiejlzp17i4aa2sq"",""object"":""chat.completion"",""created"":1795595277,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0112,,MarianeAzar,20261125_084135,2026-11-25T08:27:59.142996+00:00
+405e1e7143566ae0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?
+A. Gnarly.
+B. Perfect.
+C. Nice.
+D. Groovy.
+Answer:","[""Gnarly."", ""Perfect."", ""Nice."", ""Groovy.""]",http,0.0,16,none,"{""id"":""chatcmpl-690hzqyx7a8uqqwzkfupmd"",""object"":""chat.completion"",""created"":1795595278,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4302,,MarianeAzar,20261125_084135,2026-11-25T08:28:00.573490+00:00
+405e1e7143566ae0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?
+A. Gnarly.
+B. Perfect.
+C. Nice.
+D. Groovy.
+Answer:","[""Gnarly."", ""Perfect."", ""Nice."", ""Groovy.""]",http,0.0,16,none,"{""id"":""chatcmpl-vbw8pi331km8mcypg0cqpk"",""object"":""chat.completion"",""created"":1795595280,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0403,,MarianeAzar,20261125_084135,2026-11-25T08:28:01.614108+00:00
+e4a5d6311600f4ee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Presidents of the United States was assassinated?
+A. Franklin Roosevelt
+B. Lyndon Johnson
+C. Chester Arthur
+D. William McKinley
+Answer:","[""Franklin Roosevelt"", ""Lyndon Johnson"", ""Chester Arthur"", ""William McKinley""]",http,0.0,16,none,"{""id"":""chatcmpl-8iyqh1sqkad22q5ubabz3a"",""object"":""chat.completion"",""created"":1795595281,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9493,,MarianeAzar,20261125_084135,2026-11-25T08:28:02.563785+00:00
+e4a5d6311600f4ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Presidents of the United States was assassinated?
+A. Franklin Roosevelt
+B. Lyndon Johnson
+C. Chester Arthur
+D. William McKinley
+Answer:","[""Franklin Roosevelt"", ""Lyndon Johnson"", ""Chester Arthur"", ""William McKinley""]",http,0.0,16,none,"{""id"":""chatcmpl-iaf2l4m7wtl4hm38ij9xve"",""object"":""chat.completion"",""created"":1795595282,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4289,,MarianeAzar,20261125_084135,2026-11-25T08:28:03.992934+00:00
+ed5670366d49345b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Spyro the Dragon, what is Spyro's dragonfly friend called?
+A. Spinkles
+B. Sam
+C. Sparky
+D. Sparx
+Answer:","[""Spinkles"", ""Sam"", ""Sparky"", ""Sparx""]",http,0.0,16,none,"{""id"":""chatcmpl-03o2323t5tjgxifa94fwk5h"",""object"":""chat.completion"",""created"":1795595283,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:28:04.915593+00:00
+ed5670366d49345b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Spyro the Dragon, what is Spyro's dragonfly friend called?
+A. Spinkles
+B. Sam
+C. Sparky
+D. Sparx
+Answer:","[""Spinkles"", ""Sam"", ""Sparky"", ""Sparx""]",http,0.0,16,none,"{""id"":""chatcmpl-4417di8qqkc2sbotmklmmu"",""object"":""chat.completion"",""created"":1795595284,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9475,,MarianeAzar,20261125_084135,2026-11-25T08:28:05.863353+00:00
+bc293fd9d11d9bbc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does Austria not border?
+A. France
+B. Slovenia
+C. Switzerland
+D. Slovakia
+Answer:","[""France"", ""Slovenia"", ""Switzerland"", ""Slovakia""]",http,0.0,16,none,"{""id"":""chatcmpl-9m6n3z8dabo6m69s8ekqx2"",""object"":""chat.completion"",""created"":1795595285,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4703,,MarianeAzar,20261125_084135,2026-11-25T08:28:07.334103+00:00
+bc293fd9d11d9bbc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does Austria not border?
+A. France
+B. Slovenia
+C. Switzerland
+D. Slovakia
+Answer:","[""France"", ""Slovenia"", ""Switzerland"", ""Slovakia""]",http,0.0,16,none,"{""id"":""chatcmpl-51i3yqlbpt6mmtakjs75p8"",""object"":""chat.completion"",""created"":1795595286,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0935,,MarianeAzar,20261125_084135,2026-11-25T08:28:08.427892+00:00
+0d859ebf34e4793c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life 2 universe, how long did it take for the Combine to take complete control of the earth?
+A. 3 months
+B. 24 hours
+C. 7 hours
+D. 1 week
+Answer:","[""3 months"", ""24 hours"", ""7 hours"", ""1 week""]",http,0.0,16,none,"{""id"":""chatcmpl-kxwlf8vski6hnrkgdv8c"",""object"":""chat.completion"",""created"":1795595287,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9615,,MarianeAzar,20261125_084135,2026-11-25T08:28:09.389978+00:00
+0d859ebf34e4793c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Half-Life 2 universe, how long did it take for the Combine to take complete control of the earth?
+A. 3 months
+B. 24 hours
+C. 7 hours
+D. 1 week
+Answer:","[""3 months"", ""24 hours"", ""7 hours"", ""1 week""]",http,0.0,16,none,"{""id"":""chatcmpl-40ze20fwcbx9fk3dw6mj"",""object"":""chat.completion"",""created"":1795595288,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0155,,MarianeAzar,20261125_084135,2026-11-25T08:28:10.405710+00:00
+4d7df04783aeb949,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tony Hawk's Pro Skater was released in 1999.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vn5ps2mav1g669kdu2musa"",""object"":""chat.completion"",""created"":1795595289,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4795,,MarianeAzar,20261125_084135,2026-11-25T08:28:11.885387+00:00
+4d7df04783aeb949,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tony Hawk's Pro Skater was released in 1999.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-64qmu5upkfra7m60envbjw"",""object"":""chat.completion"",""created"":1795595291,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0589,,MarianeAzar,20261125_084135,2026-11-25T08:28:12.944473+00:00
+83b42e9bc5d2f76f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won the first Overwatch League championship?
+A. Seoul Dynasty
+B. New York Excelsior
+C. London Spitfire
+D. Philadelphia Fusion
+Answer:","[""Seoul Dynasty"", ""New York Excelsior"", ""London Spitfire"", ""Philadelphia Fusion""]",http,0.0,16,none,"{""id"":""chatcmpl-f1f6ti6ns4klwl21ifq1w"",""object"":""chat.completion"",""created"":1795595292,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0185,,MarianeAzar,20261125_084135,2026-11-25T08:28:13.963272+00:00
+83b42e9bc5d2f76f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won the first Overwatch League championship?
+A. Seoul Dynasty
+B. New York Excelsior
+C. London Spitfire
+D. Philadelphia Fusion
+Answer:","[""Seoul Dynasty"", ""New York Excelsior"", ""London Spitfire"", ""Philadelphia Fusion""]",http,0.0,16,none,"{""id"":""chatcmpl-yxq3uyexxwf3l1zal6au"",""object"":""chat.completion"",""created"":1795595293,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9989,,MarianeAzar,20261125_084135,2026-11-25T08:28:14.962468+00:00
+7c754fe219c46750,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Gumbo is a stew that originated in Louisiana.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ct7khuh1uouueigridiebk"",""object"":""chat.completion"",""created"":1795595294,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2882,,MarianeAzar,20261125_084135,2026-11-25T08:28:16.251011+00:00
+7c754fe219c46750,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Gumbo is a stew that originated in Louisiana.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-g2418bllh1ndn5phyqvfta"",""object"":""chat.completion"",""created"":1795595295,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9021,,MarianeAzar,20261125_084135,2026-11-25T08:28:17.153332+00:00
+1d04948773e68df9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most populous Muslim-majority nation in 2010?
+A. Sudan
+B. Indonesia
+C. Iran
+D. Saudi Arabia
+Answer:","[""Sudan"", ""Indonesia"", ""Iran"", ""Saudi Arabia""]",http,0.0,16,none,"{""id"":""chatcmpl-ozwj543daopccidnqardc8"",""object"":""chat.completion"",""created"":1795595296,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9321,,MarianeAzar,20261125_084135,2026-11-25T08:28:18.085844+00:00
+1d04948773e68df9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the most populous Muslim-majority nation in 2010?
+A. Sudan
+B. Indonesia
+C. Iran
+D. Saudi Arabia
+Answer:","[""Sudan"", ""Indonesia"", ""Iran"", ""Saudi Arabia""]",http,0.0,16,none,"{""id"":""chatcmpl-9lafy9pqwaueyihcjjs3gv"",""object"":""chat.completion"",""created"":1795595297,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4335,,MarianeAzar,20261125_084135,2026-11-25T08:28:19.519643+00:00
+6aa94a545bf03afd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was another suggested name for, the 1985 film, Back to the Future?
+A. Spaceman From Pluto
+B. Hill Valley Time Travelers
+C. The Time Travelers
+D. The Lucky Man
+Answer:","[""Spaceman From Pluto"", ""Hill Valley Time Travelers"", ""The Time Travelers"", ""The Lucky Man""]",http,0.0,16,none,"{""id"":""chatcmpl-63w3fblk32no8jk7g55dpc"",""object"":""chat.completion"",""created"":1795595298,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9874,,MarianeAzar,20261125_084135,2026-11-25T08:28:20.507600+00:00
+6aa94a545bf03afd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was another suggested name for, the 1985 film, Back to the Future?
+A. Spaceman From Pluto
+B. Hill Valley Time Travelers
+C. The Time Travelers
+D. The Lucky Man
+Answer:","[""Spaceman From Pluto"", ""Hill Valley Time Travelers"", ""The Time Travelers"", ""The Lucky Man""]",http,0.0,16,none,"{""id"":""chatcmpl-fw9saqostv91yrcslz5r5f"",""object"":""chat.completion"",""created"":1795595299,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.993,,MarianeAzar,20261125_084135,2026-11-25T08:28:21.500844+00:00
+91fffc0115a71203,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these island countries is located in the Caribbean?
+A. Seychelles
+B. Maldives
+C. Fiji
+D. Barbados
+Answer:","[""Seychelles"", ""Maldives"", ""Fiji"", ""Barbados""]",http,0.0,16,none,"{""id"":""chatcmpl-82si32y1ituq6xi1o3hqyb"",""object"":""chat.completion"",""created"":1795595300,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3325,,MarianeAzar,20261125_084135,2026-11-25T08:28:22.833596+00:00
+91fffc0115a71203,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these island countries is located in the Caribbean?
+A. Seychelles
+B. Maldives
+C. Fiji
+D. Barbados
+Answer:","[""Seychelles"", ""Maldives"", ""Fiji"", ""Barbados""]",http,0.0,16,none,"{""id"":""chatcmpl-a9gn0gblzuwcrtjv4t7osj"",""object"":""chat.completion"",""created"":1795595302,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9558,,MarianeAzar,20261125_084135,2026-11-25T08:28:23.789629+00:00
+cbc6af82b4d8d9fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president is said to have had the longest beard?
+A. John Quincy Adams
+B. Rutherford B. Hayes
+C. Zachary Taylor
+D. James A. Garfield
+Answer:","[""John Quincy Adams"", ""Rutherford B. Hayes"", ""Zachary Taylor"", ""James A. Garfield""]",http,0.0,16,none,"{""id"":""chatcmpl-07kja46kcttprrvzw0onqm"",""object"":""chat.completion"",""created"":1795595303,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9602,,MarianeAzar,20261125_084135,2026-11-25T08:28:24.750141+00:00

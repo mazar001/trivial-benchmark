@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ea0624adcdf19dd6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had hits in the 70s with the songs ""Lonely Boy"" and ""Never Let Her Slip Away""?
+A. Barry White
+B. Leo Sayer
+C. Andrew Gold
+D. Elton John
+Answer:","[""Barry White"", ""Leo Sayer"", ""Andrew Gold"", ""Elton John""]",http,0.0,16,none,"{""id"":""chatcmpl-t9l0z932ueh87qdn0pcej"",""object"":""chat.completion"",""created"":1795594607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.361,,MarianeAzar,20261125_084135,2026-11-25T08:16:48.948350+00:00
+ea0624adcdf19dd6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had hits in the 70s with the songs ""Lonely Boy"" and ""Never Let Her Slip Away""?
+A. Barry White
+B. Leo Sayer
+C. Andrew Gold
+D. Elton John
+Answer:","[""Barry White"", ""Leo Sayer"", ""Andrew Gold"", ""Elton John""]",http,0.0,16,none,"{""id"":""chatcmpl-2v4cvtnv4ypvzx8pjkewu"",""object"":""chat.completion"",""created"":1795594608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0015,,MarianeAzar,20261125_084135,2026-11-25T08:16:49.950163+00:00
+03979c860fade5d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how many countries are there in the world?
+A. 100
+B. 200
+C. 300
+D. 500
+Answer:","[""100"", ""200"", ""300"", ""500""]",http,0.0,16,none,"{""id"":""chatcmpl-8qyljmnmun38fbcqt3bh5a"",""object"":""chat.completion"",""created"":1795594609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9594,,MarianeAzar,20261125_084135,2026-11-25T08:16:50.909883+00:00
+03979c860fade5d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: About how many countries are there in the world?
+A. 100
+B. 200
+C. 300
+D. 500
+Answer:","[""100"", ""200"", ""300"", ""500""]",http,0.0,16,none,"{""id"":""chatcmpl-qf39w6cbgdtkrxidfavwc"",""object"":""chat.completion"",""created"":1795594610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4018,,MarianeAzar,20261125_084135,2026-11-25T08:16:52.311936+00:00
+acc4d9c8d0de347f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Seoul is the capital of North Korea.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0yifhepqcutkfl2dq1002k"",""object"":""chat.completion"",""created"":1795594611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261125_084135,2026-11-25T08:16:53.196343+00:00
+acc4d9c8d0de347f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Seoul is the capital of North Korea.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ptmamiukgioeqdfsthvfn5"",""object"":""chat.completion"",""created"":1795594612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9045,,MarianeAzar,20261125_084135,2026-11-25T08:16:54.101211+00:00
+8896171701264143,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which class of animals are newts members of?
+A. Amphibian
+B. Mammals
+C. Fish
+D. Reptiles
+Answer:","[""Amphibian"", ""Mammals"", ""Fish"", ""Reptiles""]",http,0.0,16,none,"{""id"":""chatcmpl-v1v42r60n2q9fy07u9yn2k"",""object"":""chat.completion"",""created"":1795594613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3632,,MarianeAzar,20261125_084135,2026-11-25T08:16:55.464750+00:00
+8896171701264143,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which class of animals are newts members of?
+A. Amphibian
+B. Mammals
+C. Fish
+D. Reptiles
+Answer:","[""Amphibian"", ""Mammals"", ""Fish"", ""Reptiles""]",http,0.0,16,none,"{""id"":""chatcmpl-gbjb03milt5zzbck0o2rza"",""object"":""chat.completion"",""created"":1795594614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0101,,MarianeAzar,20261125_084135,2026-11-25T08:16:56.475062+00:00
+50978a3c98d4aae6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The words ""bungalow"" and ""shampoo"" originate from the languages of which country?
+A. Ethiopia
+B. China
+C. Papua New Guinea
+D. India
+Answer:","[""Ethiopia"", ""China"", ""Papua New Guinea"", ""India""]",http,0.0,16,none,"{""id"":""chatcmpl-3iebh2gs4nmfhxlurbahtm"",""object"":""chat.completion"",""created"":1795594615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9491,,MarianeAzar,20261125_084135,2026-11-25T08:16:57.424371+00:00
+50978a3c98d4aae6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The words ""bungalow"" and ""shampoo"" originate from the languages of which country?
+A. Ethiopia
+B. China
+C. Papua New Guinea
+D. India
+Answer:","[""Ethiopia"", ""China"", ""Papua New Guinea"", ""India""]",http,0.0,16,none,"{""id"":""chatcmpl-gbvs2lrsfcrfpsumtaxmdv"",""object"":""chat.completion"",""created"":1795594616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2924,,MarianeAzar,20261125_084135,2026-11-25T08:16:58.717078+00:00
+b49a77efeb052d48,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs by Skrillex features Fatman Scoop as a side artist?
+A. All is Fair in Love and Brostep
+B. Scary Monsters and Nice Sprites
+C. Rock N Roll (Will Take You to the Mountain)
+D. Recess
+Answer:","[""All is Fair in Love and Brostep"", ""Scary Monsters and Nice Sprites"", ""Rock N Roll (Will Take You to the Mountain)"", ""Recess""]",http,0.0,16,none,"{""id"":""chatcmpl-gxmkzjq7pcl6tezk9tdgob"",""object"":""chat.completion"",""created"":1795594618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9457,,MarianeAzar,20261125_084135,2026-11-25T08:16:59.663552+00:00
+b49a77efeb052d48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs by Skrillex features Fatman Scoop as a side artist?
+A. All is Fair in Love and Brostep
+B. Scary Monsters and Nice Sprites
+C. Rock N Roll (Will Take You to the Mountain)
+D. Recess
+Answer:","[""All is Fair in Love and Brostep"", ""Scary Monsters and Nice Sprites"", ""Rock N Roll (Will Take You to the Mountain)"", ""Recess""]",http,0.0,16,none,"{""id"":""chatcmpl-1s1h2b552q9yugn1i2fsl"",""object"":""chat.completion"",""created"":1795594619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2755,,MarianeAzar,20261125_084135,2026-11-25T08:17:00.939309+00:00
+cb2365f5f435616f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'D' in the term ""D-Mail"" from the game ""Steins; Gate"" is short for what?
+A. Deep
+B. DeLorean
+C. Demo
+D. Dev
+Answer:","[""Deep"", ""DeLorean"", ""Demo"", ""Dev""]",http,0.0,16,none,"{""id"":""chatcmpl-77bj6h14tepiwlgtp7lfw"",""object"":""chat.completion"",""created"":1795594620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1681,,MarianeAzar,20261125_084135,2026-11-25T08:17:02.107696+00:00
+cb2365f5f435616f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 'D' in the term ""D-Mail"" from the game ""Steins; Gate"" is short for what?
+A. Deep
+B. DeLorean
+C. Demo
+D. Dev
+Answer:","[""Deep"", ""DeLorean"", ""Demo"", ""Dev""]",http,0.0,16,none,"{""id"":""chatcmpl-o7f1so328kpexkrub4ly2o"",""object"":""chat.completion"",""created"":1795594621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9754,,MarianeAzar,20261125_084135,2026-11-25T08:17:03.083443+00:00
+d25a0847aa875d30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the popular animatronic singing fish prop, singing such hits such as ""Don't Worry, Be Happy""?
+A. Sardeen
+B. Singing Fish
+C. Big Mouth Billy Bass
+D. Big Billy Bass
+Answer:","[""Sardeen"", ""Singing Fish"", ""Big Mouth Billy Bass"", ""Big Billy Bass""]",http,0.0,16,none,"{""id"":""chatcmpl-qlj75qoktdjmyjq9uahsmo"",""object"":""chat.completion"",""created"":1795594622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4405,,MarianeAzar,20261125_084135,2026-11-25T08:17:04.524370+00:00
+d25a0847aa875d30,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the popular animatronic singing fish prop, singing such hits such as ""Don't Worry, Be Happy""?
+A. Sardeen
+B. Singing Fish
+C. Big Mouth Billy Bass
+D. Big Billy Bass
+Answer:","[""Sardeen"", ""Singing Fish"", ""Big Mouth Billy Bass"", ""Big Billy Bass""]",http,0.0,16,none,"{""id"":""chatcmpl-rw0w6hxzt9tl5npp3yhm"",""object"":""chat.completion"",""created"":1795594623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9524,,MarianeAzar,20261125_084135,2026-11-25T08:17:05.477086+00:00
+e82f099a6c0a41e8,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Hungary is the only country in the world beginning with H.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mx509skprblskcpip8ua77"",""object"":""chat.completion"",""created"":1795594624,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9,,MarianeAzar,20261125_084135,2026-11-25T08:17:06.377222+00:00
+e82f099a6c0a41e8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Hungary is the only country in the world beginning with H.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jmu4fz7z1t3pnb4gfnzd4"",""object"":""chat.completion"",""created"":1795594625,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3353,,MarianeAzar,20261125_084135,2026-11-25T08:17:07.712719+00:00
+54c84885046736bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the Egyptian god of reproduction and lettuce?
+A. Mut
+B. Min
+C. Meret
+D. Menu
+Answer:","[""Mut"", ""Min"", ""Meret"", ""Menu""]",http,0.0,16,none,"{""id"":""chatcmpl-7achlu74wmr2leiz6kqtt"",""object"":""chat.completion"",""created"":1795594627,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9459,,MarianeAzar,20261125_084135,2026-11-25T08:17:08.659165+00:00
+54c84885046736bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the Egyptian god of reproduction and lettuce?
+A. Mut
+B. Min
+C. Meret
+D. Menu
+Answer:","[""Mut"", ""Min"", ""Meret"", ""Menu""]",http,0.0,16,none,"{""id"":""chatcmpl-pbdgwcbahrujjzclyood"",""object"":""chat.completion"",""created"":1795594628,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9434,,MarianeAzar,20261125_084135,2026-11-25T08:17:09.602802+00:00
+df958cf1fdabeaa4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car is NOT featured in ""Need for Speed: Hot Pursuit 2""?
+A. Ford Crown Victoria
+B. Toyota MR2
+C. BMW Z8
+D. McLaren F1
+Answer:","[""Ford Crown Victoria"", ""Toyota MR2"", ""BMW Z8"", ""McLaren F1""]",http,0.0,16,none,"{""id"":""chatcmpl-bf06oo80hnqp62s81pk36"",""object"":""chat.completion"",""created"":1795594629,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3879,,MarianeAzar,20261125_084135,2026-11-25T08:17:10.991767+00:00
+df958cf1fdabeaa4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car is NOT featured in ""Need for Speed: Hot Pursuit 2""?
+A. Ford Crown Victoria
+B. Toyota MR2
+C. BMW Z8
+D. McLaren F1
+Answer:","[""Ford Crown Victoria"", ""Toyota MR2"", ""BMW Z8"", ""McLaren F1""]",http,0.0,16,none,"{""id"":""chatcmpl-v2aoamii2vr4gr2nxl9zqx"",""object"":""chat.completion"",""created"":1795594630,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9581,,MarianeAzar,20261125_084135,2026-11-25T08:17:11.950161+00:00
+86e555f7ce780ae7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the cause of Marilyn Monroes suicide?
+A. House Fire
+B. Knife Attack
+C. Gunshot
+D. Drug Overdose
+Answer:","[""House Fire"", ""Knife Attack"", ""Gunshot"", ""Drug Overdose""]",http,0.0,16,none,"{""id"":""chatcmpl-m4gbo7gr92ftdn9mg7fbv"",""object"":""chat.completion"",""created"":1795594631,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9411,,MarianeAzar,20261125_084135,2026-11-25T08:17:12.891516+00:00
+86e555f7ce780ae7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the cause of Marilyn Monroes suicide?
+A. House Fire
+B. Knife Attack
+C. Gunshot
+D. Drug Overdose
+Answer:","[""House Fire"", ""Knife Attack"", ""Gunshot"", ""Drug Overdose""]",http,0.0,16,none,"{""id"":""chatcmpl-u8dg9bt1styu991ukja3"",""object"":""chat.completion"",""created"":1795594632,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3933,,MarianeAzar,20261125_084135,2026-11-25T08:17:14.285057+00:00
+753c3961c94eafbd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the show Stranger Things, what is Eleven's favorite breakfast food?
+A. Bacon and Eggs
+B. Eggo Waffles
+C. Captain Crunch
+D. Toast
+Answer:","[""Bacon and Eggs"", ""Eggo Waffles"", ""Captain Crunch"", ""Toast""]",http,0.0,16,none,"{""id"":""chatcmpl-axbr0rg31brwuizzzyscsp"",""object"":""chat.completion"",""created"":1795594633,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0558,,MarianeAzar,20261125_084135,2026-11-25T08:17:15.341378+00:00

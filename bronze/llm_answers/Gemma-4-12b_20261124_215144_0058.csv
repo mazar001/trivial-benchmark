@@ -1,0 +1,164 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+fb90c3167572bf45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Avengers: Infinity War, where was the Soul Stone located?
+A. Asgard
+B. Knowhere
+C. Xandar
+D. Vormir
+Answer:","[""Asgard"", ""Knowhere"", ""Xandar"", ""Vormir""]",http,0.0,16,none,"{""id"":""chatcmpl-c5gdil8t8ntj06jdy42358"",""object"":""chat.completion"",""created"":1795555018,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3227,,MarianeAzar,20261124_215144,2026-11-24T21:16:58.838974+00:00
+fb90c3167572bf45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Avengers: Infinity War, where was the Soul Stone located?
+A. Asgard
+B. Knowhere
+C. Xandar
+D. Vormir
+Answer:","[""Asgard"", ""Knowhere"", ""Xandar"", ""Vormir""]",http,0.0,16,none,"{""id"":""chatcmpl-u1uye0e7uyhkbkinv0ruo"",""object"":""chat.completion"",""created"":1795555019,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0247,,MarianeAzar,20261124_215144,2026-11-24T21:16:59.864213+00:00
+ddddd5846325016d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Pokémon's Base Stat Total does not change when it evolves?
+A. Sneasel
+B. Scyther
+C. Pikachu
+D. Larvesta
+Answer:","[""Sneasel"", ""Scyther"", ""Pikachu"", ""Larvesta""]",http,0.0,16,none,"{""id"":""chatcmpl-simoj5m2dx22o8p2vwrko"",""object"":""chat.completion"",""created"":1795555020,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9484,,MarianeAzar,20261124_215144,2026-11-24T21:17:00.812999+00:00
+ddddd5846325016d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Pokémon's Base Stat Total does not change when it evolves?
+A. Sneasel
+B. Scyther
+C. Pikachu
+D. Larvesta
+Answer:","[""Sneasel"", ""Scyther"", ""Pikachu"", ""Larvesta""]",http,0.0,16,none,"{""id"":""chatcmpl-11fo8wlk25fnaqdsxfu53ea"",""object"":""chat.completion"",""created"":1795555021,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3703,,MarianeAzar,20261124_215144,2026-11-24T21:17:02.183607+00:00
+7c279b06bce0ae59,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Angry Video Game Nerd's alter ego is ""Board James"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xjies6z8wzrotk3jxt2g4g"",""object"":""chat.completion"",""created"":1795555023,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9595,,MarianeAzar,20261124_215144,2026-11-24T21:17:03.143305+00:00
+7c279b06bce0ae59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Angry Video Game Nerd's alter ego is ""Board James"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hvo2alfggfobpgbn8b6j"",""object"":""chat.completion"",""created"":1795555024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8177,,MarianeAzar,20261124_215144,2026-11-24T21:17:03.961223+00:00
+3dbf080c73836dfe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The metric prefix ""atto-"" makes a measurement how much smaller than the base unit?
+A. One Quintillionth
+B. One Septillionth
+C. One Billionth
+D. One Quadrillionth
+Answer:","[""One Quintillionth"", ""One Septillionth"", ""One Billionth"", ""One Quadrillionth""]",http,0.0,16,none,"{""id"":""chatcmpl-gaftjg5dubstbs3tkf0qr"",""object"":""chat.completion"",""created"":1795555024,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2494,,MarianeAzar,20261124_215144,2026-11-24T21:17:05.210935+00:00
+3dbf080c73836dfe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The metric prefix ""atto-"" makes a measurement how much smaller than the base unit?
+A. One Quintillionth
+B. One Septillionth
+C. One Billionth
+D. One Quadrillionth
+Answer:","[""One Quintillionth"", ""One Septillionth"", ""One Billionth"", ""One Quadrillionth""]",http,0.0,16,none,"{""id"":""chatcmpl-9xntyf3p4zwvumna1t128i"",""object"":""chat.completion"",""created"":1795555026,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.351,,MarianeAzar,20261124_215144,2026-11-24T21:17:06.562374+00:00
+b1a36a8e2ba00d49,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Western Lowland Gorilla is scientifically know as?
+A. Gorilla Gorilla Gorilla
+B. Gorilla Gorilla Diehli
+C. Gorilla Beringei Beringei
+D. Gorilla Beringei Graueri
+Answer:","[""Gorilla Gorilla Gorilla"", ""Gorilla Gorilla Diehli"", ""Gorilla Beringei Beringei"", ""Gorilla Beringei Graueri""]",http,0.0,16,none,"{""id"":""chatcmpl-hpzyyah274pu0bv06zstg"",""object"":""chat.completion"",""created"":1795555027,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0272,,MarianeAzar,20261124_215144,2026-11-24T21:17:07.589872+00:00
+b1a36a8e2ba00d49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Western Lowland Gorilla is scientifically know as?
+A. Gorilla Gorilla Gorilla
+B. Gorilla Gorilla Diehli
+C. Gorilla Beringei Beringei
+D. Gorilla Beringei Graueri
+Answer:","[""Gorilla Gorilla Gorilla"", ""Gorilla Gorilla Diehli"", ""Gorilla Beringei Beringei"", ""Gorilla Beringei Graueri""]",http,0.0,16,none,"{""id"":""chatcmpl-rrylk3coq2ljr9jzz0gtl"",""object"":""chat.completion"",""created"":1795555028,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9711,,MarianeAzar,20261124_215144,2026-11-24T21:17:08.561237+00:00
+23237f531fcec16c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the anime ""Himouto! Umaru-chan"" air?
+A. 2012
+B. 2015
+C. 2014
+D. 2013
+Answer:","[""2012"", ""2015"", ""2014"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-3j9q64e0jmwackisdfvfdb"",""object"":""chat.completion"",""created"":1795555029,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3625,,MarianeAzar,20261124_215144,2026-11-24T21:17:09.924378+00:00
+23237f531fcec16c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the anime ""Himouto! Umaru-chan"" air?
+A. 2012
+B. 2015
+C. 2014
+D. 2013
+Answer:","[""2012"", ""2015"", ""2014"", ""2013""]",http,0.0,16,none,"{""id"":""chatcmpl-388jk8r89i7yvjbs8yo25o"",""object"":""chat.completion"",""created"":1795555030,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0442,,MarianeAzar,20261124_215144,2026-11-24T21:17:10.968814+00:00
+711c9cdf3b06d28b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Sonic the Hedgehog universe, Tails' real name is Miles Prower.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-97y0r0n3lorjmez8cnrab"",""object"":""chat.completion"",""created"":1795555031,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8976,,MarianeAzar,20261124_215144,2026-11-24T21:17:11.866638+00:00
+711c9cdf3b06d28b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Sonic the Hedgehog universe, Tails' real name is Miles Prower.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tgbeb95459ebjkl4khejl"",""object"":""chat.completion"",""created"":1795555032,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3402,,MarianeAzar,20261124_215144,2026-11-24T21:17:13.206978+00:00
+f9d64ef865eef494,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?
+A. 13%
+B. 7%
+C. 20%
+D. 28%
+Answer:","[""13%"", ""7%"", ""20%"", ""28%""]",http,0.0,16,none,"{""id"":""chatcmpl-6kumj5k5orsyre1xu2ol9"",""object"":""chat.completion"",""created"":1795555034,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9374,,MarianeAzar,20261124_215144,2026-11-24T21:17:14.144823+00:00
+f9d64ef865eef494,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the 2014-2015 Australian Bureau of Statistics, what percentage of Australians were born overseas?
+A. 13%
+B. 7%
+C. 20%
+D. 28%
+Answer:","[""13%"", ""7%"", ""20%"", ""28%""]",http,0.0,16,none,"{""id"":""chatcmpl-lelp29xjfqax0lpl7s4mf"",""object"":""chat.completion"",""created"":1795555035,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9805,,MarianeAzar,20261124_215144,2026-11-24T21:17:15.125592+00:00
+2dd9d06802584f35,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An Astronomical Unit is the distance between Earth and the Moon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ml9r44h19vjqfwsqc1ng"",""object"":""chat.completion"",""created"":1795555036,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3346,,MarianeAzar,20261124_215144,2026-11-24T21:17:16.460345+00:00
+2dd9d06802584f35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An Astronomical Unit is the distance between Earth and the Moon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ekqa2ks20ecu88x64uldp9"",""object"":""chat.completion"",""created"":1795555037,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9775,,MarianeAzar,20261124_215144,2026-11-24T21:17:17.438000+00:00
+f85dd0d0111f7f93,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the smash hit song ""Scatman's World"" released?
+A. 1994
+B. 1995
+C. 1993
+D. 1996
+Answer:","[""1994"", ""1995"", ""1993"", ""1996""]",http,0.0,16,none,"{""id"":""chatcmpl-e1xr3vtff3pa6c1voc3k79"",""object"":""chat.completion"",""created"":1795555038,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9816,,MarianeAzar,20261124_215144,2026-11-24T21:17:18.419812+00:00
+f85dd0d0111f7f93,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the smash hit song ""Scatman's World"" released?
+A. 1994
+B. 1995
+C. 1993
+D. 1996
+Answer:","[""1994"", ""1995"", ""1993"", ""1996""]",http,0.0,16,none,"{""id"":""chatcmpl-szi3r8j1xyqixm0okzl8"",""object"":""chat.completion"",""created"":1795555039,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.356,,MarianeAzar,20261124_215144,2026-11-24T21:17:19.775931+00:00
+8d9ebaa8bd7e3b43,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Alice in Wonderland, what is the name of Alice's kitten?
+A. Heath
+B. Oscar
+C. Smokey
+D. Dinah
+Answer:","[""Heath"", ""Oscar"", ""Smokey"", ""Dinah""]",http,0.0,16,none,"{""id"":""chatcmpl-vzeey5ef63p9m6e9ksrq"",""object"":""chat.completion"",""created"":1795555040,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9579,,MarianeAzar,20261124_215144,2026-11-24T21:17:20.734103+00:00
+8d9ebaa8bd7e3b43,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Alice in Wonderland, what is the name of Alice's kitten?
+A. Heath
+B. Oscar
+C. Smokey
+D. Dinah
+Answer:","[""Heath"", ""Oscar"", ""Smokey"", ""Dinah""]",http,0.0,16,none,"{""id"":""chatcmpl-n6u2oyln5jca0ez3cp4iy6"",""object"":""chat.completion"",""created"":1795555041,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2068,,MarianeAzar,20261124_215144,2026-11-24T21:17:21.941062+00:00
+bab8daae24ab1648,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following bones is not in the leg?
+A. Tibia
+B. Fibula
+C. Patella
+D. Radius
+Answer:","[""Tibia"", ""Fibula"", ""Patella"", ""Radius""]",http,0.0,16,none,"{""id"":""chatcmpl-uzi8qisgs70r2ob93nx66"",""object"":""chat.completion"",""created"":1795555042,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1309,,MarianeAzar,20261124_215144,2026-11-24T21:17:23.072184+00:00
+bab8daae24ab1648,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following bones is not in the leg?
+A. Tibia
+B. Fibula
+C. Patella
+D. Radius
+Answer:","[""Tibia"", ""Fibula"", ""Patella"", ""Radius""]",http,0.0,16,none,"{""id"":""chatcmpl-r02nxec9vie895p9zz83"",""object"":""chat.completion"",""created"":1795555044,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.5521,,MarianeAzar,20261124_215144,2026-11-24T21:17:23.624465+00:00
+426b9ee513d8b827,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following commercial vehicles from Grand Theft Auto IV did NOT reappear in Grand Theft Auto V?
+A. Mule
+B. Steed
+C. Benson
+D. Pony
+Answer:","[""Mule"", ""Steed"", ""Benson"", ""Pony""]",http,0.0,16,none,"{""id"":""chatcmpl-16dimrbf49j9xrw45x5pla"",""object"":""chat.completion"",""created"":1795555045,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9299,,MarianeAzar,20261124_215144,2026-11-24T21:17:24.554718+00:00

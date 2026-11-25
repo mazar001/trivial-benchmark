@@ -1,0 +1,160 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+8a36a6fe85820d78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Toy Story"" character was voiced by Don Rickles?
+A. Rex
+B. Slinky Dog
+C. Hamm
+D. Mr. Potato Head
+Answer:","[""Rex"", ""Slinky Dog"", ""Hamm"", ""Mr. Potato Head""]",http,0.0,16,none,"{""id"":""chatcmpl-9s1fvvg8eefgp4zbblwp4"",""object"":""chat.completion"",""created"":1795593887,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8749,,MarianeAzar,20261125_084135,2026-11-25T08:04:48.700752+00:00
+8a36a6fe85820d78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which ""Toy Story"" character was voiced by Don Rickles?
+A. Rex
+B. Slinky Dog
+C. Hamm
+D. Mr. Potato Head
+Answer:","[""Rex"", ""Slinky Dog"", ""Hamm"", ""Mr. Potato Head""]",http,0.0,16,none,"{""id"":""chatcmpl-6oniz5be5kj7i393b00j19"",""object"":""chat.completion"",""created"":1795593888,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8703,,MarianeAzar,20261125_084135,2026-11-25T08:04:49.571215+00:00
+cbfb243a64e30204,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Doctor Who"", the Doctor gets his TARDIS by stealing it.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mwgmvsy9qiqx6a77qqngx8"",""object"":""chat.completion"",""created"":1795593889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T08:04:50.425774+00:00
+cbfb243a64e30204,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""Doctor Who"", the Doctor gets his TARDIS by stealing it.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yz4xusij1i7wa54j2159xr"",""object"":""chat.completion"",""created"":1795593889,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8078,,MarianeAzar,20261125_084135,2026-11-25T08:04:51.233797+00:00
+7dc934b39621d898,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Overwatch character says the line ""Heroes never die!""?
+A. Reaper
+B. Sonic
+C. Ana
+D. Mercy
+Answer:","[""Reaper"", ""Sonic"", ""Ana"", ""Mercy""]",http,0.0,16,none,"{""id"":""chatcmpl-7sm7ma3dr6ila9vxu3lihc"",""object"":""chat.completion"",""created"":1795593890,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9068,,MarianeAzar,20261125_084135,2026-11-25T08:04:52.140882+00:00
+7dc934b39621d898,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Overwatch character says the line ""Heroes never die!""?
+A. Reaper
+B. Sonic
+C. Ana
+D. Mercy
+Answer:","[""Reaper"", ""Sonic"", ""Ana"", ""Mercy""]",http,0.0,16,none,"{""id"":""chatcmpl-sa59xoxlgdc70h7qpb1h3"",""object"":""chat.completion"",""created"":1795593891,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:04:53.002074+00:00
+5976edec4c602915,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do you declare in Rīchi Mahjong when you've drawn your winning tile?
+A. Ron
+B. Kan
+C. Tsumo
+D. Rīchi
+Answer:","[""Ron"", ""Kan"", ""Tsumo"", ""Rīchi""]",http,0.0,16,none,"{""id"":""chatcmpl-qtiiz3waeglvkq3gxs6c6f"",""object"":""chat.completion"",""created"":1795593892,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8969,,MarianeAzar,20261125_084135,2026-11-25T08:04:53.899193+00:00
+5976edec4c602915,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do you declare in Rīchi Mahjong when you've drawn your winning tile?
+A. Ron
+B. Kan
+C. Tsumo
+D. Rīchi
+Answer:","[""Ron"", ""Kan"", ""Tsumo"", ""Rīchi""]",http,0.0,16,none,"{""id"":""chatcmpl-snb0071ruofrm05juifddn"",""object"":""chat.completion"",""created"":1795593893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T08:04:54.769906+00:00
+ecb8f4156eca8817,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-cqvp0wml5nnxbw2lsd8ckp"",""object"":""chat.completion"",""created"":1795593894,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9279,,MarianeAzar,20261125_084135,2026-11-25T08:04:55.697993+00:00
+ecb8f4156eca8817,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dihydrogen Monoxide was banned due to health risks after being discovered in 1983 inside swimming pools and drinking water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iwuddgill7i99km8ok6k"",""object"":""chat.completion"",""created"":1795593895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3977,,MarianeAzar,20261125_084135,2026-11-25T08:04:57.095844+00:00
+d8a07d67f0b466df,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sean Bean voices the character of ""Martin Septim"" in which Elder Scrolls game?
+A. The Elder Scrolls III: Morrowind
+B. The Elder Scrolls IV: Oblivion
+C. The Elder Scrolls V: Skyrim
+D. The Elder Scrolls Online
+Answer:","[""The Elder Scrolls III: Morrowind"", ""The Elder Scrolls IV: Oblivion"", ""The Elder Scrolls V: Skyrim"", ""The Elder Scrolls Online""]",http,0.0,16,none,"{""id"":""chatcmpl-0okyxolrccmrugh17vxghh"",""object"":""chat.completion"",""created"":1795593896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1003,,MarianeAzar,20261125_084135,2026-11-25T08:04:58.196712+00:00
+d8a07d67f0b466df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Sean Bean voices the character of ""Martin Septim"" in which Elder Scrolls game?
+A. The Elder Scrolls III: Morrowind
+B. The Elder Scrolls IV: Oblivion
+C. The Elder Scrolls V: Skyrim
+D. The Elder Scrolls Online
+Answer:","[""The Elder Scrolls III: Morrowind"", ""The Elder Scrolls IV: Oblivion"", ""The Elder Scrolls V: Skyrim"", ""The Elder Scrolls Online""]",http,0.0,16,none,"{""id"":""chatcmpl-lortqe0aazdlbcm0vkmj9f"",""object"":""chat.completion"",""created"":1795593897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.999,,MarianeAzar,20261125_084135,2026-11-25T08:04:59.196025+00:00
+de3ad847b2944376,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did World War II end?
+A. 1947
+B. 1943
+C. 1945
+D. 1950
+Answer:","[""1947"", ""1943"", ""1945"", ""1950""]",http,0.0,16,none,"{""id"":""chatcmpl-r0v0f3zd1boukxeyfj7ac"",""object"":""chat.completion"",""created"":1795593898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8775,,MarianeAzar,20261125_084135,2026-11-25T08:05:00.073856+00:00
+de3ad847b2944376,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did World War II end?
+A. 1947
+B. 1943
+C. 1945
+D. 1950
+Answer:","[""1947"", ""1943"", ""1945"", ""1950""]",http,0.0,16,none,"{""id"":""chatcmpl-2u6fu4121a71tsg3k97cd6"",""object"":""chat.completion"",""created"":1795593899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T08:05:00.938016+00:00
+e61efc205ede1c51,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the last Aphex Twin album released before his decade-long hiatus?
+A. Drukqs
+B. Collected Ambient Works 85-92
+C. Syro
+D. Windowlicker
+Answer:","[""Drukqs"", ""Collected Ambient Works 85-92"", ""Syro"", ""Windowlicker""]",http,0.0,16,none,"{""id"":""chatcmpl-7ekxi5n7mboujcwqmu642l"",""object"":""chat.completion"",""created"":1795593900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8623,,MarianeAzar,20261125_084135,2026-11-25T08:05:01.800618+00:00
+e61efc205ede1c51,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the last Aphex Twin album released before his decade-long hiatus?
+A. Drukqs
+B. Collected Ambient Works 85-92
+C. Syro
+D. Windowlicker
+Answer:","[""Drukqs"", ""Collected Ambient Works 85-92"", ""Syro"", ""Windowlicker""]",http,0.0,16,none,"{""id"":""chatcmpl-emivjfodtbnjeszb4we5n8"",""object"":""chat.completion"",""created"":1795593901,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.975,,MarianeAzar,20261125_084135,2026-11-25T08:05:02.775837+00:00
+ab08c22f2df56454,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for the Bald Eagle?
+A. Aquila Chrysaetos
+B. Cyanocitta Cristata
+C. Tyto Alba
+D. Haliaeetus Leucocephalus
+Answer:","[""Aquila Chrysaetos"", ""Cyanocitta Cristata"", ""Tyto Alba"", ""Haliaeetus Leucocephalus""]",http,0.0,16,none,"{""id"":""chatcmpl-ylv0u59m5c97dlikdih0se"",""object"":""chat.completion"",""created"":1795593902,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4512,,MarianeAzar,20261125_084135,2026-11-25T08:05:04.227347+00:00
+ab08c22f2df56454,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for the Bald Eagle?
+A. Aquila Chrysaetos
+B. Cyanocitta Cristata
+C. Tyto Alba
+D. Haliaeetus Leucocephalus
+Answer:","[""Aquila Chrysaetos"", ""Cyanocitta Cristata"", ""Tyto Alba"", ""Haliaeetus Leucocephalus""]",http,0.0,16,none,"{""id"":""chatcmpl-ligfikckmyrz4479ff3ga"",""object"":""chat.completion"",""created"":1795593903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1765,,MarianeAzar,20261125_084135,2026-11-25T08:05:05.404144+00:00
+dc1832797d693ca6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the NBC show Community what was Star Burns' real name?
+A. Grimus
+B. Neal
+C. Alex
+D. Todd
+Answer:","[""Grimus"", ""Neal"", ""Alex"", ""Todd""]",http,0.0,16,none,"{""id"":""chatcmpl-ebw6p81nhvewmzy0p9emef"",""object"":""chat.completion"",""created"":1795593904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1283,,MarianeAzar,20261125_084135,2026-11-25T08:05:06.532843+00:00
+dc1832797d693ca6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On the NBC show Community what was Star Burns' real name?
+A. Grimus
+B. Neal
+C. Alex
+D. Todd
+Answer:","[""Grimus"", ""Neal"", ""Alex"", ""Todd""]",http,0.0,16,none,"{""id"":""chatcmpl-q9xbt0pqizmtarzqk6ieom"",""object"":""chat.completion"",""created"":1795593905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0772,,MarianeAzar,20261125_084135,2026-11-25T08:05:07.610272+00:00
+f615997187398846,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The pantheon in Rome was used to worship what god?
+A. Zeus
+B. Any god they wanted
+C. Athena
+D. Both Athena and Zeus
+Answer:","[""Zeus"", ""Any god they wanted"", ""Athena"", ""Both Athena and Zeus""]",http,0.0,16,none,"{""id"":""chatcmpl-9z7m3r9xlj826q470jzzky"",""object"":""chat.completion"",""created"":1795593907,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9691,,MarianeAzar,20261125_084135,2026-11-25T08:05:08.579963+00:00
+f615997187398846,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The pantheon in Rome was used to worship what god?
+A. Zeus
+B. Any god they wanted
+C. Athena
+D. Both Athena and Zeus
+Answer:","[""Zeus"", ""Any god they wanted"", ""Athena"", ""Both Athena and Zeus""]",http,0.0,16,none,"{""id"":""chatcmpl-n5zmg9qm94l8qelw4jnhu7"",""object"":""chat.completion"",""created"":1795593908,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8673,,MarianeAzar,20261125_084135,2026-11-25T08:05:09.447502+00:00
+f0f95144b8e5c083,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The snowmobile was invented by Canadian Joseph-Armand Bombardier in 1937.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pat6e17fvyao1tj61zpoe"",""object"":""chat.completion"",""created"":1795593908,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8351,,MarianeAzar,20261125_084135,2026-11-25T08:05:10.282739+00:00
+f0f95144b8e5c083,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The snowmobile was invented by Canadian Joseph-Armand Bombardier in 1937.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7b47yqvl5dheut8ypo7pp"",""object"":""chat.completion"",""created"":1795593909,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8484,,MarianeAzar,20261125_084135,2026-11-25T08:05:11.131260+00:00
+42718ddfe03247fd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Joko Widodo has appeared in the cover of a TIME magazine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ndm0sz7jz40dtbjx0sb5mk"",""object"":""chat.completion"",""created"":1795593910,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1742,,MarianeAzar,20261125_084135,2026-11-25T08:05:12.305610+00:00

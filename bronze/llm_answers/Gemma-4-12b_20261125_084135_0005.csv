@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0690eb11cc650284,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who designed the Chupa Chups logo?
+A. Vincent van Gogh
+B. Andy Warhol
+C. Pablo Picasso
+D. Salvador Dali
+Answer:","[""Vincent van Gogh"", ""Andy Warhol"", ""Pablo Picasso"", ""Salvador Dali""]",http,0.0,16,none,"{""id"":""chatcmpl-4w8gj011bwphjgr6ucn45n"",""object"":""chat.completion"",""created"":1795592602,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261125_084135,2026-11-25T07:43:24.274448+00:00
+e487c30df3189ae5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not one of the seven Millennium Prize Problems?
+A. Birch and Swinnerton-Dyer Conjecture
+B. Poincaré conjecture
+C. Riemann hypothesis
+D. Naviér conjecture
+Answer:","[""Birch and Swinnerton-Dyer Conjecture"", ""Poincaré conjecture"", ""Riemann hypothesis"", ""Naviér conjecture""]",http,0.0,16,none,"{""id"":""chatcmpl-sc6uykfgi5oahe1ub3s52u"",""object"":""chat.completion"",""created"":1795592603,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8608,,MarianeAzar,20261125_084135,2026-11-25T07:43:25.135634+00:00
+e487c30df3189ae5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is not one of the seven Millennium Prize Problems?
+A. Birch and Swinnerton-Dyer Conjecture
+B. Poincaré conjecture
+C. Riemann hypothesis
+D. Naviér conjecture
+Answer:","[""Birch and Swinnerton-Dyer Conjecture"", ""Poincaré conjecture"", ""Riemann hypothesis"", ""Naviér conjecture""]",http,0.0,16,none,"{""id"":""chatcmpl-firz5z07qie8mx0anl9jki"",""object"":""chat.completion"",""created"":1795592604,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8836,,MarianeAzar,20261125_084135,2026-11-25T07:43:26.019558+00:00
+ef9d5a22ab3fe03f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Dota 1 hero changed gender when ported to Dota 2?
+A. Axe
+B. Legion Commander
+C. Templar Assassin
+D. Keeper of the Light
+Answer:","[""Axe"", ""Legion Commander"", ""Templar Assassin"", ""Keeper of the Light""]",http,0.0,16,none,"{""id"":""chatcmpl-rkgr8duokp7frpmy4vuny8"",""object"":""chat.completion"",""created"":1795592605,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8709,,MarianeAzar,20261125_084135,2026-11-25T07:43:26.890725+00:00
+ef9d5a22ab3fe03f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Dota 1 hero changed gender when ported to Dota 2?
+A. Axe
+B. Legion Commander
+C. Templar Assassin
+D. Keeper of the Light
+Answer:","[""Axe"", ""Legion Commander"", ""Templar Assassin"", ""Keeper of the Light""]",http,0.0,16,none,"{""id"":""chatcmpl-intiuu0mk8jt3wyevrvs5"",""object"":""chat.completion"",""created"":1795592606,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T07:43:27.756537+00:00
+8e294f15d03598c6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Klingons express emotion in art through opera and poetry.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4ca1pby9hadu3kkw4f918c"",""object"":""chat.completion"",""created"":1795592607,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8078,,MarianeAzar,20261125_084135,2026-11-25T07:43:28.564877+00:00
+8e294f15d03598c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Klingons express emotion in art through opera and poetry.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b21zyciysri1108th6sgwr"",""object"":""chat.completion"",""created"":1795592608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8273,,MarianeAzar,20261125_084135,2026-11-25T07:43:29.392375+00:00
+d6e69f2366b51aaf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the longest-serving senator in US history, serving from 1959 to 2010?
+A. Strom Thurmond
+B. Daniel Inouye
+C. Robert Byrd
+D. Joe Biden
+Answer:","[""Strom Thurmond"", ""Daniel Inouye"", ""Robert Byrd"", ""Joe Biden""]",http,0.0,16,none,"{""id"":""chatcmpl-zev48t5p3o3sikq97704c"",""object"":""chat.completion"",""created"":1795592608,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261125_084135,2026-11-25T07:43:30.245475+00:00
+d6e69f2366b51aaf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the longest-serving senator in US history, serving from 1959 to 2010?
+A. Strom Thurmond
+B. Daniel Inouye
+C. Robert Byrd
+D. Joe Biden
+Answer:","[""Strom Thurmond"", ""Daniel Inouye"", ""Robert Byrd"", ""Joe Biden""]",http,0.0,16,none,"{""id"":""chatcmpl-dzx4anxdtum177a1eexiwp"",""object"":""chat.completion"",""created"":1795592609,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T07:43:31.125403+00:00
+27b72dee85202090,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which studio animated Soul Eater?
+A. Kyoto Animation
+B. Production I.G
+C. Bones
+D. xebec
+Answer:","[""Kyoto Animation"", ""Production I.G"", ""Bones"", ""xebec""]",http,0.0,16,none,"{""id"":""chatcmpl-gbuhhvqqfgr3rjumq7kar"",""object"":""chat.completion"",""created"":1795592610,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261125_084135,2026-11-25T07:43:31.992267+00:00
+27b72dee85202090,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which studio animated Soul Eater?
+A. Kyoto Animation
+B. Production I.G
+C. Bones
+D. xebec
+Answer:","[""Kyoto Animation"", ""Production I.G"", ""Bones"", ""xebec""]",http,0.0,16,none,"{""id"":""chatcmpl-axpqp6an8n9z5lsnujcag"",""object"":""chat.completion"",""created"":1795592611,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8904,,MarianeAzar,20261125_084135,2026-11-25T07:43:32.883087+00:00
+83b48cbabae698d9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these words refers to something made, distributed, or sold illegally?
+A. Bootstrap
+B. Bootlace
+C. Bootblack
+D. Bootleg
+Answer:","[""Bootstrap"", ""Bootlace"", ""Bootblack"", ""Bootleg""]",http,0.0,16,none,"{""id"":""chatcmpl-44or2mtgmohv2ox2gbhoj"",""object"":""chat.completion"",""created"":1795592612,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8769,,MarianeAzar,20261125_084135,2026-11-25T07:43:33.760424+00:00
+83b48cbabae698d9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these words refers to something made, distributed, or sold illegally?
+A. Bootstrap
+B. Bootlace
+C. Bootblack
+D. Bootleg
+Answer:","[""Bootstrap"", ""Bootlace"", ""Bootblack"", ""Bootleg""]",http,0.0,16,none,"{""id"":""chatcmpl-n198fad02patosgjdtwmu"",""object"":""chat.completion"",""created"":1795592613,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8573,,MarianeAzar,20261125_084135,2026-11-25T07:43:34.617992+00:00
+3d19513812d95bb3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Pokémon Sun and Moon"", Team Skull took over which town?
+A. Iki Town
+B. Heahea City
+C. Po Town
+D. Tapu Village
+Answer:","[""Iki Town"", ""Heahea City"", ""Po Town"", ""Tapu Village""]",http,0.0,16,none,"{""id"":""chatcmpl-rhkqbq6gfax7dqsuj3v9o"",""object"":""chat.completion"",""created"":1795592614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8667,,MarianeAzar,20261125_084135,2026-11-25T07:43:35.485100+00:00
+3d19513812d95bb3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Pokémon Sun and Moon"", Team Skull took over which town?
+A. Iki Town
+B. Heahea City
+C. Po Town
+D. Tapu Village
+Answer:","[""Iki Town"", ""Heahea City"", ""Po Town"", ""Tapu Village""]",http,0.0,16,none,"{""id"":""chatcmpl-bqx8p2xnjbuob4ttn7f24"",""object"":""chat.completion"",""created"":1795592614,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8706,,MarianeAzar,20261125_084135,2026-11-25T07:43:36.356109+00:00
+bfa65b9ca2cff3a7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was ""Super Mario Sunshine"" released?
+A. 2000
+B. 2002
+C. 2003
+D. 2004
+Answer:","[""2000"", ""2002"", ""2003"", ""2004""]",http,0.0,16,none,"{""id"":""chatcmpl-kam1n63pksgjrruyh4tn2"",""object"":""chat.completion"",""created"":1795592615,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8853,,MarianeAzar,20261125_084135,2026-11-25T07:43:37.241976+00:00
+bfa65b9ca2cff3a7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was ""Super Mario Sunshine"" released?
+A. 2000
+B. 2002
+C. 2003
+D. 2004
+Answer:","[""2000"", ""2002"", ""2003"", ""2004""]",http,0.0,16,none,"{""id"":""chatcmpl-hlbb0cdfvhhegrqqrk1z6n"",""object"":""chat.completion"",""created"":1795592616,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8798,,MarianeAzar,20261125_084135,2026-11-25T07:43:38.121997+00:00
+7a11bef1997003b4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Slovakia is a member of European Union-
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-73ofkc9wu737anttkjc3wf"",""object"":""chat.completion"",""created"":1795592617,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8057,,MarianeAzar,20261125_084135,2026-11-25T07:43:38.927928+00:00
+7a11bef1997003b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Slovakia is a member of European Union-
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r4j9zb5kowdy65orawgyk"",""object"":""chat.completion"",""created"":1795592618,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8087,,MarianeAzar,20261125_084135,2026-11-25T07:43:39.736802+00:00
+99f635e05af9a975,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the third country to have a McDonald's restaurant?
+A. Australia
+B. Costa Rica
+C. Japan
+D. France
+Answer:","[""Australia"", ""Costa Rica"", ""Japan"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-te451y7q7lflhnt1tnszp"",""object"":""chat.completion"",""created"":1795592619,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8487,,MarianeAzar,20261125_084135,2026-11-25T07:43:40.585797+00:00
+99f635e05af9a975,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the third country to have a McDonald's restaurant?
+A. Australia
+B. Costa Rica
+C. Japan
+D. France
+Answer:","[""Australia"", ""Costa Rica"", ""Japan"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-7a1or141j8lnvgypdhdwq"",""object"":""chat.completion"",""created"":1795592620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8488,,MarianeAzar,20261125_084135,2026-11-25T07:43:41.435126+00:00
+b0f1ea744d4a77cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The longest shared border in the world can be found between which two nations?
+A. Canada and the United States
+B. Chile and Argentina
+C. India and Pakistan
+D. Russia and China
+Answer:","[""Canada and the United States"", ""Chile and Argentina"", ""India and Pakistan"", ""Russia and China""]",http,0.0,16,none,"{""id"":""chatcmpl-prhfrk6m81n1kcszrxnwvd"",""object"":""chat.completion"",""created"":1795592620,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8519,,MarianeAzar,20261125_084135,2026-11-25T07:43:42.287275+00:00
+b0f1ea744d4a77cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The longest shared border in the world can be found between which two nations?
+A. Canada and the United States
+B. Chile and Argentina
+C. India and Pakistan
+D. Russia and China
+Answer:","[""Canada and the United States"", ""Chile and Argentina"", ""India and Pakistan"", ""Russia and China""]",http,0.0,16,none,"{""id"":""chatcmpl-p2qm65fkllwupsh1iswml"",""object"":""chat.completion"",""created"":1795592621,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8728,,MarianeAzar,20261125_084135,2026-11-25T07:43:43.160337+00:00
+b1792519c66379c9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first ""Team Fortress 2"" update to include a war?
+A. WAR! Update
+B. Meet Your Match Update
+C. Spy Vs. Engineer Update
+D. Sniper vs. Spy Update
+Answer:","[""WAR! Update"", ""Meet Your Match Update"", ""Spy Vs. Engineer Update"", ""Sniper vs. Spy Update""]",http,0.0,16,none,"{""id"":""chatcmpl-3v6u3wfw9jotx2k7qzxgxn"",""object"":""chat.completion"",""created"":1795592622,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T07:43:44.017339+00:00
+b1792519c66379c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first ""Team Fortress 2"" update to include a war?
+A. WAR! Update
+B. Meet Your Match Update
+C. Spy Vs. Engineer Update
+D. Sniper vs. Spy Update
+Answer:","[""WAR! Update"", ""Meet Your Match Update"", ""Spy Vs. Engineer Update"", ""Sniper vs. Spy Update""]",http,0.0,16,none,"{""id"":""chatcmpl-u4sxlxrw1yv772zh8rl2r"",""object"":""chat.completion"",""created"":1795592623,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8829,,MarianeAzar,20261125_084135,2026-11-25T07:43:44.900499+00:00

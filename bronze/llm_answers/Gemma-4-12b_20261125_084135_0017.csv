@@ -1,0 +1,189 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+6be7dfe366f90f88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the infamous pachinko machine from ""Kaiji""?
+A. The Dragon
+B. The Undefeated
+C. The Devil
+D. The Bog
+Answer:","[""The Dragon"", ""The Undefeated"", ""The Devil"", ""The Bog""]",http,0.0,16,none,"{""id"":""chatcmpl-18p6n9l0ozww2patc99t7d"",""object"":""chat.completion"",""created"":1795592863,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T07:47:44.597987+00:00
+ec26c03fc2019bc2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do the letters in the GMT time zone stand for?
+A. Greenwich Mean Time
+B. General Median Time
+C. Glasgow Man Time
+D. Global Meridian Time
+Answer:","[""Greenwich Mean Time"", ""General Median Time"", ""Glasgow Man Time"", ""Global Meridian Time""]",http,0.0,16,none,"{""id"":""chatcmpl-36k2g3xnxt2s6alo35ozh"",""object"":""chat.completion"",""created"":1795592864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T07:47:45.455158+00:00
+ec26c03fc2019bc2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do the letters in the GMT time zone stand for?
+A. Greenwich Mean Time
+B. General Median Time
+C. Glasgow Man Time
+D. Global Meridian Time
+Answer:","[""Greenwich Mean Time"", ""General Median Time"", ""Glasgow Man Time"", ""Global Meridian Time""]",http,0.0,16,none,"{""id"":""chatcmpl-o8cgf7kkicf3xeqloaexu4"",""object"":""chat.completion"",""created"":1795592864,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261125_084135,2026-11-25T07:47:46.320730+00:00
+7b6e6d973d04137a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game was the Game of the Year in 2018?
+A. Red Dead Redemption 2
+B. Detroit: Become Human
+C. A Way Out
+D. God of War
+Answer:","[""Red Dead Redemption 2"", ""Detroit: Become Human"", ""A Way Out"", ""God of War""]",http,0.0,16,none,"{""id"":""chatcmpl-duv2rot0w2h04qrffc195jm"",""object"":""chat.completion"",""created"":1795592865,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T07:47:47.174127+00:00
+7b6e6d973d04137a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game was the Game of the Year in 2018?
+A. Red Dead Redemption 2
+B. Detroit: Become Human
+C. A Way Out
+D. God of War
+Answer:","[""Red Dead Redemption 2"", ""Detroit: Become Human"", ""A Way Out"", ""God of War""]",http,0.0,16,none,"{""id"":""chatcmpl-ctmj7sl4tfsrg79jci6mk"",""object"":""chat.completion"",""created"":1795592866,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261125_084135,2026-11-25T07:47:48.057757+00:00
+80613b231acd3e75,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many kilobytes in one gigabyte (in decimal)?
+A. 1000
+B. 1000000
+C. 1024
+D. 1048576
+Answer:","[""1000"", ""1000000"", ""1024"", ""1048576""]",http,0.0,16,none,"{""id"":""chatcmpl-w6rm3c76jd9k3qcmo4ckbl"",""object"":""chat.completion"",""created"":1795592867,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8822,,MarianeAzar,20261125_084135,2026-11-25T07:47:48.940353+00:00
+80613b231acd3e75,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many kilobytes in one gigabyte (in decimal)?
+A. 1000
+B. 1000000
+C. 1024
+D. 1048576
+Answer:","[""1000"", ""1000000"", ""1024"", ""1048576""]",http,0.0,16,none,"{""id"":""chatcmpl-x6glvnu6kze5l6ixa5kthe"",""object"":""chat.completion"",""created"":1795592868,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9326,,MarianeAzar,20261125_084135,2026-11-25T07:47:49.873128+00:00
+d6c3072bd19c5435,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What five letter word is the motto of the IBM Computer company?
+A. Logic
+B. Pixel
+C. Click
+D. Think
+Answer:","[""Logic"", ""Pixel"", ""Click"", ""Think""]",http,0.0,16,none,"{""id"":""chatcmpl-rui9016fb7aw56jjn3ck"",""object"":""chat.completion"",""created"":1795592869,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8919,,MarianeAzar,20261125_084135,2026-11-25T07:47:50.765349+00:00
+d6c3072bd19c5435,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What five letter word is the motto of the IBM Computer company?
+A. Logic
+B. Pixel
+C. Click
+D. Think
+Answer:","[""Logic"", ""Pixel"", ""Click"", ""Think""]",http,0.0,16,none,"{""id"":""chatcmpl-3w1blx1yua1fb2dyd6zwqp"",""object"":""chat.completion"",""created"":1795592870,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261125_084135,2026-11-25T07:47:51.626159+00:00
+2fae6866d864ae65,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer team won the Copa América 2015 Championship ?
+A. Argentina
+B. Paraguay
+C. Brazil
+D. Chile
+Answer:","[""Argentina"", ""Paraguay"", ""Brazil"", ""Chile""]",http,0.0,16,none,"{""id"":""chatcmpl-z0vorx9rxceyr3b59icxe"",""object"":""chat.completion"",""created"":1795592871,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T07:47:52.490495+00:00
+2fae6866d864ae65,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer team won the Copa América 2015 Championship ?
+A. Argentina
+B. Paraguay
+C. Brazil
+D. Chile
+Answer:","[""Argentina"", ""Paraguay"", ""Brazil"", ""Chile""]",http,0.0,16,none,"{""id"":""chatcmpl-4tv7onh57w7rqdegj7lzgf"",""object"":""chat.completion"",""created"":1795592871,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T07:47:53.361288+00:00
+0a22623531085dd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call of Duty: United Offensive, what two soldiers share a name of a video game character?
+A. Nathan & Drake
+B. Gordon & Freeman
+C. Dig & Dug
+D. Sam & Fisher
+Answer:","[""Nathan & Drake"", ""Gordon & Freeman"", ""Dig & Dug"", ""Sam & Fisher""]",http,0.0,16,none,"{""id"":""chatcmpl-b238typk2n7px07n3ob6ve"",""object"":""chat.completion"",""created"":1795592872,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8706,,MarianeAzar,20261125_084135,2026-11-25T07:47:54.232287+00:00
+0a22623531085dd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call of Duty: United Offensive, what two soldiers share a name of a video game character?
+A. Nathan & Drake
+B. Gordon & Freeman
+C. Dig & Dug
+D. Sam & Fisher
+Answer:","[""Nathan & Drake"", ""Gordon & Freeman"", ""Dig & Dug"", ""Sam & Fisher""]",http,0.0,16,none,"{""id"":""chatcmpl-ywq3dx7d93j0ht5gwzjw1he"",""object"":""chat.completion"",""created"":1795592873,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T07:47:55.105935+00:00
+2811d3b9d3376e00,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which gaming console is developed by Sony?
+A. PlayStation
+B. Atari
+C. Xbox
+D. Nintendo Switch
+Answer:","[""PlayStation"", ""Atari"", ""Xbox"", ""Nintendo Switch""]",http,0.0,16,none,"{""id"":""chatcmpl-p8m60854xjsolf32d3kn8"",""object"":""chat.completion"",""created"":1795592874,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8666,,MarianeAzar,20261125_084135,2026-11-25T07:47:55.972832+00:00
+2811d3b9d3376e00,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which gaming console is developed by Sony?
+A. PlayStation
+B. Atari
+C. Xbox
+D. Nintendo Switch
+Answer:","[""PlayStation"", ""Atari"", ""Xbox"", ""Nintendo Switch""]",http,0.0,16,none,"{""id"":""chatcmpl-nvztmbtsdielpvc08dxl"",""object"":""chat.completion"",""created"":1795592875,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.85,,MarianeAzar,20261125_084135,2026-11-25T07:47:56.823124+00:00
+19afb1b52bc4da54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.
+A. Abbey Road
+B. Pet Sounds
+C. Led Zeppelin IV
+D. The Velvet Underground and Nico
+Answer:","[""Abbey Road"", ""Pet Sounds"", ""Led Zeppelin IV"", ""The Velvet Underground and Nico""]",http,0.0,16,none,"{""id"":""chatcmpl-b7hziag4458xoslqd9v8we"",""object"":""chat.completion"",""created"":1795592876,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8489,,MarianeAzar,20261125_084135,2026-11-25T07:47:57.672486+00:00
+19afb1b52bc4da54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.
+A. Abbey Road
+B. Pet Sounds
+C. Led Zeppelin IV
+D. The Velvet Underground and Nico
+Answer:","[""Abbey Road"", ""Pet Sounds"", ""Led Zeppelin IV"", ""The Velvet Underground and Nico""]",http,0.0,16,none,"{""id"":""chatcmpl-5vkeylywynkix5fb34x4vo"",""object"":""chat.completion"",""created"":1795592877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8854,,MarianeAzar,20261125_084135,2026-11-25T07:47:58.558123+00:00
+270175d70a816edd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Toby Fox, what was the method to creating the initial tune for Megalovania?
+A. Using a Composer Software
+B. Playing a Piano
+C. Singing into a Microphone
+D. Listened to birds at the park
+Answer:","[""Using a Composer Software"", ""Playing a Piano"", ""Singing into a Microphone"", ""Listened to birds at the park""]",http,0.0,16,none,"{""id"":""chatcmpl-8fh2b9blp6n8mm546zdh8"",""object"":""chat.completion"",""created"":1795592877,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:47:59.414303+00:00
+270175d70a816edd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Toby Fox, what was the method to creating the initial tune for Megalovania?
+A. Using a Composer Software
+B. Playing a Piano
+C. Singing into a Microphone
+D. Listened to birds at the park
+Answer:","[""Using a Composer Software"", ""Playing a Piano"", ""Singing into a Microphone"", ""Listened to birds at the park""]",http,0.0,16,none,"{""id"":""chatcmpl-586f0fmld106867be0z8dc"",""object"":""chat.completion"",""created"":1795592878,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9004,,MarianeAzar,20261125_084135,2026-11-25T07:48:00.315026+00:00
+5fd7d98a5c045c51,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Half-Life by Valve uses the GoldSrc game engine, which is a highly modified version of what engine?
+A. Quake Engine
+B. Source Engine
+C. Doom Engine
+D. id Engine
+Answer:","[""Quake Engine"", ""Source Engine"", ""Doom Engine"", ""id Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-6yt2tv9clso0zwxqos7zxdj"",""object"":""chat.completion"",""created"":1795592879,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T07:48:01.185828+00:00
+5fd7d98a5c045c51,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Half-Life by Valve uses the GoldSrc game engine, which is a highly modified version of what engine?
+A. Quake Engine
+B. Source Engine
+C. Doom Engine
+D. id Engine
+Answer:","[""Quake Engine"", ""Source Engine"", ""Doom Engine"", ""id Engine""]",http,0.0,16,none,"{""id"":""chatcmpl-t1i71ea7dnzwv89i8ry7q"",""object"":""chat.completion"",""created"":1795592880,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9107,,MarianeAzar,20261125_084135,2026-11-25T07:48:02.096711+00:00
+f1e8b6af9303687c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Flag of the European Union has how many stars on it?
+A. 12
+B. 10
+C. 14
+D. 16
+Answer:","[""12"", ""10"", ""14"", ""16""]",http,0.0,16,none,"{""id"":""chatcmpl-xnnwwbvvf713cfqbieos7"",""object"":""chat.completion"",""created"":1795592881,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8674,,MarianeAzar,20261125_084135,2026-11-25T07:48:02.964378+00:00
+f1e8b6af9303687c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Flag of the European Union has how many stars on it?
+A. 12
+B. 10
+C. 14
+D. 16
+Answer:","[""12"", ""10"", ""14"", ""16""]",http,0.0,16,none,"{""id"":""chatcmpl-8eduda9yzrt3bibx9vbfrm"",""object"":""chat.completion"",""created"":1795592882,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:48:03.818241+00:00
+c4f9843b71745c78,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?
+A. Gallia
+B. Italia
+C. Asia
+D. Hispania
+Answer:","[""Gallia"", ""Italia"", ""Asia"", ""Hispania""]",http,0.0,16,none,"{""id"":""chatcmpl-rwta5aympd3j9edlvzias"",""object"":""chat.completion"",""created"":1795592883,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T07:48:04.671018+00:00
+c4f9843b71745c78,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?
+A. Gallia
+B. Italia
+C. Asia
+D. Hispania
+Answer:","[""Gallia"", ""Italia"", ""Asia"", ""Hispania""]",http,0.0,16,none,"{""id"":""chatcmpl-j5k30iywypkgkw44tcf"",""object"":""chat.completion"",""created"":1795592884,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.891,,MarianeAzar,20261125_084135,2026-11-25T07:48:05.562308+00:00

@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+10bbc231854a4490,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the TV show Rick and Morty first air on Adult Swim?
+A. 2013
+B. 2016
+C. 2014
+D. 2015
+Answer:","[""2013"", ""2016"", ""2014"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-83s7ya9v74sjvmnv0zlmu"",""object"":""chat.completion"",""created"":1795553562,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9527,,MarianeAzar,20261124_215144,2026-11-24T20:52:43.543704+00:00
+10bbc231854a4490,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did the TV show Rick and Morty first air on Adult Swim?
+A. 2013
+B. 2016
+C. 2014
+D. 2015
+Answer:","[""2013"", ""2016"", ""2014"", ""2015""]",http,0.0,16,none,"{""id"":""chatcmpl-xnnddgajahkobx5pxpqab"",""object"":""chat.completion"",""created"":1795553563,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2634,,MarianeAzar,20261124_215144,2026-11-24T20:52:44.807391+00:00
+cffb58088c053667,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city has the busiest airport in the world?
+A. Tokyo,Japan
+B. Atlanta, Georgia USA
+C. London, England
+D. Chicago,Illinois ISA
+Answer:","[""Tokyo,Japan"", ""Atlanta, Georgia USA"", ""London, England"", ""Chicago,Illinois ISA""]",http,0.0,16,none,"{""id"":""chatcmpl-wky2qogwzgn36nz9uulvs"",""object"":""chat.completion"",""created"":1795553564,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2768,,MarianeAzar,20261124_215144,2026-11-24T20:52:46.084542+00:00
+cffb58088c053667,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What city has the busiest airport in the world?
+A. Tokyo,Japan
+B. Atlanta, Georgia USA
+C. London, England
+D. Chicago,Illinois ISA
+Answer:","[""Tokyo,Japan"", ""Atlanta, Georgia USA"", ""London, England"", ""Chicago,Illinois ISA""]",http,0.0,16,none,"{""id"":""chatcmpl-u0q7g5fymlojkq656ikb"",""object"":""chat.completion"",""created"":1795553565,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9381,,MarianeAzar,20261124_215144,2026-11-24T20:52:47.022930+00:00
+c04be70006136d14,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?
+A. Vietnam War
+B. World War II
+C. American Civil War
+D. American Revolutionary War
+Answer:","[""Vietnam War"", ""World War II"", ""American Civil War"", ""American Revolutionary War""]",http,0.0,16,none,"{""id"":""chatcmpl-0387dpj5myk72wmxv1igkzc"",""object"":""chat.completion"",""created"":1795553566,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3381,,MarianeAzar,20261124_215144,2026-11-24T20:52:48.361529+00:00
+c04be70006136d14,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?
+A. Vietnam War
+B. World War II
+C. American Civil War
+D. American Revolutionary War
+Answer:","[""Vietnam War"", ""World War II"", ""American Civil War"", ""American Revolutionary War""]",http,0.0,16,none,"{""id"":""chatcmpl-kos6gl88hae06h76tipmikj"",""object"":""chat.completion"",""created"":1795553568,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0804,,MarianeAzar,20261124_215144,2026-11-24T20:52:49.442206+00:00
+4779d66dde142a65,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many flagship monsters appear in Monster Hunter Gernerations?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-jn08gzi19tdbqx0yg19yr"",""object"":""chat.completion"",""created"":1795553569,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0292,,MarianeAzar,20261124_215144,2026-11-24T20:52:50.471797+00:00
+4779d66dde142a65,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many flagship monsters appear in Monster Hunter Gernerations?
+A. 2
+B. 4
+C. 3
+D. 1
+Answer:","[""2"", ""4"", ""3"", ""1""]",http,0.0,16,none,"{""id"":""chatcmpl-uha50g5384p4ghscfrgmjv"",""object"":""chat.completion"",""created"":1795553570,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3859,,MarianeAzar,20261124_215144,2026-11-24T20:52:51.858237+00:00
+817ab96d4da23023,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main villain of the Crash Bandicoot series?
+A. Dr. Cortox
+B. Sir Cartex
+C. Dr. Evo-Cortex
+D. Dr. Neo Cortex
+Answer:","[""Dr. Cortox"", ""Sir Cartex"", ""Dr. Evo-Cortex"", ""Dr. Neo Cortex""]",http,0.0,16,none,"{""id"":""chatcmpl-0i2uzb7hfiu9k7t2klxqxo"",""object"":""chat.completion"",""created"":1795553571,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1331,,MarianeAzar,20261124_215144,2026-11-24T20:52:52.991650+00:00
+817ab96d4da23023,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main villain of the Crash Bandicoot series?
+A. Dr. Cortox
+B. Sir Cartex
+C. Dr. Evo-Cortex
+D. Dr. Neo Cortex
+Answer:","[""Dr. Cortox"", ""Sir Cartex"", ""Dr. Evo-Cortex"", ""Dr. Neo Cortex""]",http,0.0,16,none,"{""id"":""chatcmpl-ed58b4nisyniidrjwre03n"",""object"":""chat.completion"",""created"":1795553572,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9802,,MarianeAzar,20261124_215144,2026-11-24T20:52:53.972134+00:00
+df382dcaa2423b5f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Portal, what color is the Intelligence Core?
+A. Blue
+B. Purple
+C. Red
+D. Orange
+Answer:","[""Blue"", ""Purple"", ""Red"", ""Orange""]",http,0.0,16,none,"{""id"":""chatcmpl-9wwtmvhv9gpg20f1eiutig"",""object"":""chat.completion"",""created"":1795553573,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9293,,MarianeAzar,20261124_215144,2026-11-24T20:52:54.902148+00:00
+df382dcaa2423b5f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Portal, what color is the Intelligence Core?
+A. Blue
+B. Purple
+C. Red
+D. Orange
+Answer:","[""Blue"", ""Purple"", ""Red"", ""Orange""]",http,0.0,16,none,"{""id"":""chatcmpl-9n7aeahjkya59x1fv97dg"",""object"":""chat.completion"",""created"":1795553574,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4352,,MarianeAzar,20261124_215144,2026-11-24T20:52:56.337589+00:00
+c96798d11021a41a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the name of the Tor Anonymity Network orignially stand for?
+A. The Ominous Router
+B. The Orange Router
+C. The Onion Router
+D. The Only Router
+Answer:","[""The Ominous Router"", ""The Orange Router"", ""The Onion Router"", ""The Only Router""]",http,0.0,16,none,"{""id"":""chatcmpl-z48lhqzjs69nad3cs51ub"",""object"":""chat.completion"",""created"":1795553576,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0151,,MarianeAzar,20261124_215144,2026-11-24T20:52:57.353003+00:00
+c96798d11021a41a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What did the name of the Tor Anonymity Network orignially stand for?
+A. The Ominous Router
+B. The Orange Router
+C. The Onion Router
+D. The Only Router
+Answer:","[""The Ominous Router"", ""The Orange Router"", ""The Onion Router"", ""The Only Router""]",http,0.0,16,none,"{""id"":""chatcmpl-3fg2hxx24kpetk6abb18qr"",""object"":""chat.completion"",""created"":1795553577,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9709,,MarianeAzar,20261124_215144,2026-11-24T20:52:58.324194+00:00
+ff7c9629dcd3a864,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the base station trackers used for the HTC Vive called?
+A. Motion
+B. Trackers
+C. Lighthouse
+D. Constellation
+Answer:","[""Motion"", ""Trackers"", ""Lighthouse"", ""Constellation""]",http,0.0,16,none,"{""id"":""chatcmpl-ri333g5othqfwgzrdb1r4a"",""object"":""chat.completion"",""created"":1795553578,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2928,,MarianeAzar,20261124_215144,2026-11-24T20:52:59.617323+00:00
+ff7c9629dcd3a864,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What are the base station trackers used for the HTC Vive called?
+A. Motion
+B. Trackers
+C. Lighthouse
+D. Constellation
+Answer:","[""Motion"", ""Trackers"", ""Lighthouse"", ""Constellation""]",http,0.0,16,none,"{""id"":""chatcmpl-tnp4yke1m3k0xm92ibralj"",""object"":""chat.completion"",""created"":1795553579,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9317,,MarianeAzar,20261124_215144,2026-11-24T20:53:00.549391+00:00
+df4c0c33233c62bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company created and developed the game ""Overwatch""?
+A. Valve
+B. Gearbox Software
+C. Blizzard Entertainment
+D. Hi-Rez Studios
+Answer:","[""Valve"", ""Gearbox Software"", ""Blizzard Entertainment"", ""Hi-Rez Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-djv32bq3ldnfusx6d8imjd"",""object"":""chat.completion"",""created"":1795553580,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2472,,MarianeAzar,20261124_215144,2026-11-24T20:53:01.796889+00:00
+df4c0c33233c62bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What company created and developed the game ""Overwatch""?
+A. Valve
+B. Gearbox Software
+C. Blizzard Entertainment
+D. Hi-Rez Studios
+Answer:","[""Valve"", ""Gearbox Software"", ""Blizzard Entertainment"", ""Hi-Rez Studios""]",http,0.0,16,none,"{""id"":""chatcmpl-l5k9grwk6fr8uhh8yx6l6c"",""object"":""chat.completion"",""created"":1795553581,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1458,,MarianeAzar,20261124_215144,2026-11-24T20:53:02.942945+00:00
+c1e2b12a0086acec,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r017j3v0of9y8skiu73c"",""object"":""chat.completion"",""created"":1795553582,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":54,""completion_tokens"":2,""total_tokens"":56,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9124,,MarianeAzar,20261124_215144,2026-11-24T20:53:03.855547+00:00
+c1e2b12a0086acec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v3mt3ty5o1qbwhs5vt6pq"",""object"":""chat.completion"",""created"":1795553583,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4299,,MarianeAzar,20261124_215144,2026-11-24T20:53:05.285616+00:00
+be91386034d435ec,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released songs such as ""Electric Feel"", ""Kids"", and ""Time to Pretend""?
+A. Franz Ferdinand
+B. Phoenix
+C. Passion Pit
+D. MGMT
+Answer:","[""Franz Ferdinand"", ""Phoenix"", ""Passion Pit"", ""MGMT""]",http,0.0,16,none,"{""id"":""chatcmpl-n1n2nx1h6mirxxx6rtytu"",""object"":""chat.completion"",""created"":1795553585,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1299,,MarianeAzar,20261124_215144,2026-11-24T20:53:06.416215+00:00
+be91386034d435ec,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band released songs such as ""Electric Feel"", ""Kids"", and ""Time to Pretend""?
+A. Franz Ferdinand
+B. Phoenix
+C. Passion Pit
+D. MGMT
+Answer:","[""Franz Ferdinand"", ""Phoenix"", ""Passion Pit"", ""MGMT""]",http,0.0,16,none,"{""id"":""chatcmpl-f2g24booaflsn2z1j657oh"",""object"":""chat.completion"",""created"":1795553586,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9548,,MarianeAzar,20261124_215144,2026-11-24T20:53:07.371461+00:00
+5af625c7d3eb1d46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the make and model of the tour vehicles in ""Jurassic Park"" (1993)?
+A. Mercedes M-Class
+B. 1992 Jeep Wrangler YJ Sahar
+C. 1992 Toyota Land Cruiser
+D. 1992 Ford Explorer XLT
+Answer:","[""Mercedes M-Class"", ""1992 Jeep Wrangler YJ Sahar"", ""1992 Toyota Land Cruiser"", ""1992 Ford Explorer XLT""]",http,0.0,16,none,"{""id"":""chatcmpl-1qt8js00rdb9mgq51hgb2a"",""object"":""chat.completion"",""created"":1795553587,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3645,,MarianeAzar,20261124_215144,2026-11-24T20:53:08.736320+00:00
+5af625c7d3eb1d46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the make and model of the tour vehicles in ""Jurassic Park"" (1993)?
+A. Mercedes M-Class
+B. 1992 Jeep Wrangler YJ Sahar
+C. 1992 Toyota Land Cruiser
+D. 1992 Ford Explorer XLT
+Answer:","[""Mercedes M-Class"", ""1992 Jeep Wrangler YJ Sahar"", ""1992 Toyota Land Cruiser"", ""1992 Ford Explorer XLT""]",http,0.0,16,none,"{""id"":""chatcmpl-uddigsols4g14519foz85"",""object"":""chat.completion"",""created"":1795553588,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3325,,MarianeAzar,20261124_215144,2026-11-24T20:53:10.069148+00:00
+dc05f9e843bbce5a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following games has the most playable characters?
+A. Dragon Ball Z: Budokai Tenkaichi 3
+B. Timesplitters: Future Perfect
+C. Marvel Vs. Capcom 2
+D. Mortal Kombat: Armageddon
+Answer:","[""Dragon Ball Z: Budokai Tenkaichi 3"", ""Timesplitters: Future Perfect"", ""Marvel Vs. Capcom 2"", ""Mortal Kombat: Armageddon""]",http,0.0,16,none,"{""id"":""chatcmpl-neqk1xxwfpmbcoi3321h87"",""object"":""chat.completion"",""created"":1795553589,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9647,,MarianeAzar,20261124_215144,2026-11-24T20:53:11.034100+00:00

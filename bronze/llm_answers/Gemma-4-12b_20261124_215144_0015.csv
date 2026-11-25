@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+e6f66b3bb8d5c5d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French scientists Louis Pasteur and Émile Roux developed the first rabies vaccination in 1885.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-w2oavsmen5aitsly2fdcf"",""object"":""chat.completion"",""created"":1795553933,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4986,,MarianeAzar,20261124_215144,2026-11-24T20:58:55.319374+00:00
+0bc29d1cb4ade12b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In DuckTales, what is the name of the city where all the main characters live?
+A. Wingford
+B. Duckburg
+C. Tailspin
+D. Duckwing
+Answer:","[""Wingford"", ""Duckburg"", ""Tailspin"", ""Duckwing""]",http,0.0,16,none,"{""id"":""chatcmpl-cs86kn8x7aky342cab92gn"",""object"":""chat.completion"",""created"":1795553935,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1705,,MarianeAzar,20261124_215144,2026-11-24T20:58:56.490220+00:00
+0bc29d1cb4ade12b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In DuckTales, what is the name of the city where all the main characters live?
+A. Wingford
+B. Duckburg
+C. Tailspin
+D. Duckwing
+Answer:","[""Wingford"", ""Duckburg"", ""Tailspin"", ""Duckwing""]",http,0.0,16,none,"{""id"":""chatcmpl-ws10bxxpad3c07fbsk2im"",""object"":""chat.completion"",""created"":1795553936,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.107,,MarianeAzar,20261124_215144,2026-11-24T20:58:57.597393+00:00
+3f9d4eebb77659f9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the game 'Portal 2' released?
+A. 2007
+B. 2009
+C. 2014
+D. 2011
+Answer:","[""2007"", ""2009"", ""2014"", ""2011""]",http,0.0,16,none,"{""id"":""chatcmpl-090edd6v2mjan6u78wi27zq"",""object"":""chat.completion"",""created"":1795553937,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0442,,MarianeAzar,20261124_215144,2026-11-24T20:58:58.641770+00:00
+3f9d4eebb77659f9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the game 'Portal 2' released?
+A. 2007
+B. 2009
+C. 2014
+D. 2011
+Answer:","[""2007"", ""2009"", ""2014"", ""2011""]",http,0.0,16,none,"{""id"":""chatcmpl-0j43vbjlcafk1g2huhayuy0h"",""object"":""chat.completion"",""created"":1795553938,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2846,,MarianeAzar,20261124_215144,2026-11-24T20:58:59.926712+00:00
+e1b4c5b2a1420ffa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which portion of the Marijuana plant produces the psychoactive substance known as THC?
+A. Female Flower
+B. Leaves
+C. Root Ball
+D. Male Flower
+Answer:","[""Female Flower"", ""Leaves"", ""Root Ball"", ""Male Flower""]",http,0.0,16,none,"{""id"":""chatcmpl-tt29ntvb6jewzma3nm53c"",""object"":""chat.completion"",""created"":1795553939,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3744,,MarianeAzar,20261124_215144,2026-11-24T20:59:01.302053+00:00
+e1b4c5b2a1420ffa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which portion of the Marijuana plant produces the psychoactive substance known as THC?
+A. Female Flower
+B. Leaves
+C. Root Ball
+D. Male Flower
+Answer:","[""Female Flower"", ""Leaves"", ""Root Ball"", ""Male Flower""]",http,0.0,16,none,"{""id"":""chatcmpl-qfvakub7r9g8v9to7azcm5"",""object"":""chat.completion"",""created"":1795553941,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0919,,MarianeAzar,20261124_215144,2026-11-24T20:59:02.394219+00:00
+70e6fec75fc83af1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Muse is a British (English) rock band
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yy515l4dj6asbbgkt9hgm"",""object"":""chat.completion"",""created"":1795553942,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261124_215144,2026-11-24T20:59:03.281288+00:00
+70e6fec75fc83af1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Muse is a British (English) rock band
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hxs5ti12ndh4jy72pstxj"",""object"":""chat.completion"",""created"":1795553943,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9171,,MarianeAzar,20261124_215144,2026-11-24T20:59:04.198520+00:00
+8bd71e7b1cbca6fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did ""Attack on Titan"" Season 2 begin airing?
+A. 2017
+B. 2018
+C. 2019
+D. 2020
+Answer:","[""2017"", ""2018"", ""2019"", ""2020""]",http,0.0,16,none,"{""id"":""chatcmpl-21p3e2v1ide4z3rm96pf5c"",""object"":""chat.completion"",""created"":1795553944,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4048,,MarianeAzar,20261124_215144,2026-11-24T20:59:05.603641+00:00
+8bd71e7b1cbca6fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did ""Attack on Titan"" Season 2 begin airing?
+A. 2017
+B. 2018
+C. 2019
+D. 2020
+Answer:","[""2017"", ""2018"", ""2019"", ""2020""]",http,0.0,16,none,"{""id"":""chatcmpl-gn3cds18gxbqgf4cszkd"",""object"":""chat.completion"",""created"":1795553945,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0236,,MarianeAzar,20261124_215144,2026-11-24T20:59:06.627557+00:00
+ee0e86523f35a6d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Etihad Stadium is the home stadium for which team?
+A. Manchester United
+B. Blackpool
+C. Arsenal
+D. Manchester City
+Answer:","[""Manchester United"", ""Blackpool"", ""Arsenal"", ""Manchester City""]",http,0.0,16,none,"{""id"":""chatcmpl-gmbr203zezbff5bbyauchn"",""object"":""chat.completion"",""created"":1795553946,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9399,,MarianeAzar,20261124_215144,2026-11-24T20:59:07.567813+00:00
+ee0e86523f35a6d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Etihad Stadium is the home stadium for which team?
+A. Manchester United
+B. Blackpool
+C. Arsenal
+D. Manchester City
+Answer:","[""Manchester United"", ""Blackpool"", ""Arsenal"", ""Manchester City""]",http,0.0,16,none,"{""id"":""chatcmpl-ona27y202bp4tjlh03ujfj"",""object"":""chat.completion"",""created"":1795553947,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3636,,MarianeAzar,20261124_215144,2026-11-24T20:59:08.931857+00:00
+6193f1d61c7a8a34,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is on display in the Madame Tussaud's museum in London?
+A. Unreleased film reels
+B. Vintage cars
+C. Designer clothing
+D. Wax sculptures
+Answer:","[""Unreleased film reels"", ""Vintage cars"", ""Designer clothing"", ""Wax sculptures""]",http,0.0,16,none,"{""id"":""chatcmpl-dhh271pbb8nmbyyd4uwago"",""object"":""chat.completion"",""created"":1795553948,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.062,,MarianeAzar,20261124_215144,2026-11-24T20:59:09.994159+00:00
+6193f1d61c7a8a34,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is on display in the Madame Tussaud's museum in London?
+A. Unreleased film reels
+B. Vintage cars
+C. Designer clothing
+D. Wax sculptures
+Answer:","[""Unreleased film reels"", ""Vintage cars"", ""Designer clothing"", ""Wax sculptures""]",http,0.0,16,none,"{""id"":""chatcmpl-xp5l514kx4ho15u7bxu7o"",""object"":""chat.completion"",""created"":1795553949,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9237,,MarianeAzar,20261124_215144,2026-11-24T20:59:10.918125+00:00
+e2c4bd7422d755e1,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Kamea,"" the Gilbertese Islander word for dog, is derived from the English phrase ""Come here!""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fzrt9itp9yua2hve6e5aoi"",""object"":""chat.completion"",""created"":1795553950,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2019,,MarianeAzar,20261124_215144,2026-11-24T20:59:12.120566+00:00
+e2c4bd7422d755e1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Kamea,"" the Gilbertese Islander word for dog, is derived from the English phrase ""Come here!""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-20jh45lbk6h5j47s73pkqs"",""object"":""chat.completion"",""created"":1795553952,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3218,,MarianeAzar,20261124_215144,2026-11-24T20:59:13.442573+00:00
+b0cd0ed136c6888f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call of Duty: Modern Warfare 2, how many consecutive kills does it require to earn the ""Tactical Nuke"" killstreak?
+A. 35
+B. 25
+C. 20
+D. 30
+Answer:","[""35"", ""25"", ""20"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-aw9iv23y1gkmdt32alip8t"",""object"":""chat.completion"",""created"":1795553953,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9674,,MarianeAzar,20261124_215144,2026-11-24T20:59:14.410288+00:00
+b0cd0ed136c6888f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Call of Duty: Modern Warfare 2, how many consecutive kills does it require to earn the ""Tactical Nuke"" killstreak?
+A. 35
+B. 25
+C. 20
+D. 30
+Answer:","[""35"", ""25"", ""20"", ""30""]",http,0.0,16,none,"{""id"":""chatcmpl-furzg5k7hwp66q9q22os66"",""object"":""chat.completion"",""created"":1795553954,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2802,,MarianeAzar,20261124_215144,2026-11-24T20:59:15.690747+00:00
+7505f73ca88dbb3c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Elton John hit starts with the line ""When are you gonna come down""?
+A. Crocodile Rock
+B. Goodbye Yellow Brick Road
+C. Rocket Man
+D. Bennie and the Jets
+Answer:","[""Crocodile Rock"", ""Goodbye Yellow Brick Road"", ""Rocket Man"", ""Bennie and the Jets""]",http,0.0,16,none,"{""id"":""chatcmpl-ovkpmmk9otjrayy88mj"",""object"":""chat.completion"",""created"":1795553955,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3603,,MarianeAzar,20261124_215144,2026-11-24T20:59:17.051356+00:00
+7505f73ca88dbb3c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Elton John hit starts with the line ""When are you gonna come down""?
+A. Crocodile Rock
+B. Goodbye Yellow Brick Road
+C. Rocket Man
+D. Bennie and the Jets
+Answer:","[""Crocodile Rock"", ""Goodbye Yellow Brick Road"", ""Rocket Man"", ""Bennie and the Jets""]",http,0.0,16,none,"{""id"":""chatcmpl-pjaxjggc3eo0gwdoifmo9"",""object"":""chat.completion"",""created"":1795553956,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9534,,MarianeAzar,20261124_215144,2026-11-24T20:59:18.005064+00:00
+e5906c61ef3e7c9f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In most FPS video games such as Counter-Strike, shooting which part of the body does the highest damage?
+A. Chest
+B. Head
+C. Arm
+D. Leg
+Answer:","[""Chest"", ""Head"", ""Arm"", ""Leg""]",http,0.0,16,none,"{""id"":""chatcmpl-3gbxqtpy5n7bn1aai7ghv"",""object"":""chat.completion"",""created"":1795553957,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2483,,MarianeAzar,20261124_215144,2026-11-24T20:59:19.253715+00:00
+e5906c61ef3e7c9f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In most FPS video games such as Counter-Strike, shooting which part of the body does the highest damage?
+A. Chest
+B. Head
+C. Arm
+D. Leg
+Answer:","[""Chest"", ""Head"", ""Arm"", ""Leg""]",http,0.0,16,none,"{""id"":""chatcmpl-6jx1lm21x4rhel348tksgb"",""object"":""chat.completion"",""created"":1795553959,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3008,,MarianeAzar,20261124_215144,2026-11-24T20:59:20.554905+00:00
+dbb1dbe5eaa288ed,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters are there in Super Smash Bros. for Nintendo 3DS and Wii U?
+A. 55
+B. 51
+C. 48
+D. 58
+Answer:","[""55"", ""51"", ""48"", ""58""]",http,0.0,16,none,"{""id"":""chatcmpl-flh2khzfeip8z660sutytk"",""object"":""chat.completion"",""created"":1795553960,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0232,,MarianeAzar,20261124_215144,2026-11-24T20:59:21.578632+00:00
+dbb1dbe5eaa288ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many playable characters are there in Super Smash Bros. for Nintendo 3DS and Wii U?
+A. 55
+B. 51
+C. 48
+D. 58
+Answer:","[""55"", ""51"", ""48"", ""58""]",http,0.0,16,none,"{""id"":""chatcmpl-8m1ia4p30oczdngizvoqgl"",""object"":""chat.completion"",""created"":1795553961,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2632,,MarianeAzar,20261124_215144,2026-11-24T20:59:22.842092+00:00

@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+02a38001dc0255f9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous artist featured on Rowdy Rebel's 2015 song ""Computers""?
+A. Lil Wayne
+B. Kendrick Lamar
+C. Bobby Shmurda
+D. Will.I.AM
+Answer:","[""Lil Wayne"", ""Kendrick Lamar"", ""Bobby Shmurda"", ""Will.I.AM""]",http,0.0,16,none,"{""id"":""chatcmpl-zdm5d51vxaipak60btf7ka"",""object"":""chat.completion"",""created"":1795596066,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.874,,MarianeAzar,20261125_084135,2026-11-25T08:41:07.931938+00:00
+02a38001dc0255f9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous artist featured on Rowdy Rebel's 2015 song ""Computers""?
+A. Lil Wayne
+B. Kendrick Lamar
+C. Bobby Shmurda
+D. Will.I.AM
+Answer:","[""Lil Wayne"", ""Kendrick Lamar"", ""Bobby Shmurda"", ""Will.I.AM""]",http,0.0,16,none,"{""id"":""chatcmpl-u2knr2r2tac07tf9tm11o"",""object"":""chat.completion"",""created"":1795596067,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261125_084135,2026-11-25T08:41:08.817873+00:00
+be94e127349d9f0b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medical condition osteoporosis affects which part of the body?
+A. Skin
+B. Heart
+C. Brain
+D. Bones
+Answer:","[""Skin"", ""Heart"", ""Brain"", ""Bones""]",http,0.0,16,none,"{""id"":""chatcmpl-dikd7nweo74kf0cpgjnhg"",""object"":""chat.completion"",""created"":1795596068,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261125_084135,2026-11-25T08:41:09.680990+00:00
+be94e127349d9f0b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The medical condition osteoporosis affects which part of the body?
+A. Skin
+B. Heart
+C. Brain
+D. Bones
+Answer:","[""Skin"", ""Heart"", ""Brain"", ""Bones""]",http,0.0,16,none,"{""id"":""chatcmpl-6meskuisrybzhwej6eavj"",""object"":""chat.completion"",""created"":1795596069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:41:10.542580+00:00
+d43bcd907efe0691,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2018 FIFA World Cup?
+A. Saudi Arabia
+B. Germany
+C. Russia
+D. United States
+Answer:","[""Saudi Arabia"", ""Germany"", ""Russia"", ""United States""]",http,0.0,16,none,"{""id"":""chatcmpl-i2q590unbxi12omubiofupo"",""object"":""chat.completion"",""created"":1795596069,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.861,,MarianeAzar,20261125_084135,2026-11-25T08:41:11.404750+00:00
+d43bcd907efe0691,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2018 FIFA World Cup?
+A. Saudi Arabia
+B. Germany
+C. Russia
+D. United States
+Answer:","[""Saudi Arabia"", ""Germany"", ""Russia"", ""United States""]",http,0.0,16,none,"{""id"":""chatcmpl-qnf2usx7qvbea9lhqpm99"",""object"":""chat.completion"",""created"":1795596070,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9359,,MarianeAzar,20261125_084135,2026-11-25T08:41:12.340938+00:00
+7a78e93f99771081,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?
+A. Iron
+B. Methionine
+C. Hemocyanin
+D. Cytochrome
+Answer:","[""Iron"", ""Methionine"", ""Hemocyanin"", ""Cytochrome""]",http,0.0,16,none,"{""id"":""chatcmpl-y0ne4z1ks12m0xjn73hgs"",""object"":""chat.completion"",""created"":1795596071,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8751,,MarianeAzar,20261125_084135,2026-11-25T08:41:13.216525+00:00
+7a78e93f99771081,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?
+A. Iron
+B. Methionine
+C. Hemocyanin
+D. Cytochrome
+Answer:","[""Iron"", ""Methionine"", ""Hemocyanin"", ""Cytochrome""]",http,0.0,16,none,"{""id"":""chatcmpl-7rc6hdjk9tvysdksssji6"",""object"":""chat.completion"",""created"":1795596072,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8686,,MarianeAzar,20261125_084135,2026-11-25T08:41:14.085445+00:00
+fee694b92f1ea3ac,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player ""kung-fu kicked"" a Crystal Palace fan in January 1995?
+A. Ashley Cole
+B. David Seamen
+C. Eric Cantona
+D. Mark Hughes
+Answer:","[""Ashley Cole"", ""David Seamen"", ""Eric Cantona"", ""Mark Hughes""]",http,0.0,16,none,"{""id"":""chatcmpl-82rrmftg45jvqcnpck6v"",""object"":""chat.completion"",""created"":1795596073,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T08:41:14.941218+00:00
+fee694b92f1ea3ac,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which player ""kung-fu kicked"" a Crystal Palace fan in January 1995?
+A. Ashley Cole
+B. David Seamen
+C. Eric Cantona
+D. Mark Hughes
+Answer:","[""Ashley Cole"", ""David Seamen"", ""Eric Cantona"", ""Mark Hughes""]",http,0.0,16,none,"{""id"":""chatcmpl-476nbndka3ak03mrral59"",""object"":""chat.completion"",""created"":1795596074,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T08:41:15.820590+00:00
+e2e3a8518da93f2a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Call of Duty, what is the last level where you play as an American soldier?
+A. Festung Recogne
+B. Ste. Mere-Eglise (Day)
+C. Brecourt
+D. Chateau
+Answer:","[""Festung Recogne"", ""Ste. Mere-Eglise (Day)"", ""Brecourt"", ""Chateau""]",http,0.0,16,none,"{""id"":""chatcmpl-g3xfiygdjsmgt3gchjx0vc"",""object"":""chat.completion"",""created"":1795596075,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:41:16.683812+00:00
+e2e3a8518da93f2a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game Call of Duty, what is the last level where you play as an American soldier?
+A. Festung Recogne
+B. Ste. Mere-Eglise (Day)
+C. Brecourt
+D. Chateau
+Answer:","[""Festung Recogne"", ""Ste. Mere-Eglise (Day)"", ""Brecourt"", ""Chateau""]",http,0.0,16,none,"{""id"":""chatcmpl-fh78cymfnd98lm6lq58yoy"",""object"":""chat.completion"",""created"":1795596076,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9093,,MarianeAzar,20261125_084135,2026-11-25T08:41:17.593400+00:00
+579d763d55cc8dcd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which moon is the only satellite in our solar system to possess a dense atmosphere?
+A. Callisto
+B. Europa
+C. Miranda
+D. Titan
+Answer:","[""Callisto"", ""Europa"", ""Miranda"", ""Titan""]",http,0.0,16,none,"{""id"":""chatcmpl-86yl8glgsdgswbwfsgt73a"",""object"":""chat.completion"",""created"":1795596077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9398,,MarianeAzar,20261125_084135,2026-11-25T08:41:18.533669+00:00
+579d763d55cc8dcd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which moon is the only satellite in our solar system to possess a dense atmosphere?
+A. Callisto
+B. Europa
+C. Miranda
+D. Titan
+Answer:","[""Callisto"", ""Europa"", ""Miranda"", ""Titan""]",http,0.0,16,none,"{""id"":""chatcmpl-2w8h53qu9vifm1pwjp32c7"",""object"":""chat.completion"",""created"":1795596077,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9181,,MarianeAzar,20261125_084135,2026-11-25T08:41:19.452086+00:00
+112fc4d851aa9544,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the James Cameron film ""Titanic"" come out in theaters?
+A. 1999
+B. 1998
+C. 1996
+D. 1997
+Answer:","[""1999"", ""1998"", ""1996"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-m2mawcpi0al2hyzzjgwr9"",""object"":""chat.completion"",""created"":1795596078,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T08:41:20.316779+00:00
+112fc4d851aa9544,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the James Cameron film ""Titanic"" come out in theaters?
+A. 1999
+B. 1998
+C. 1996
+D. 1997
+Answer:","[""1999"", ""1998"", ""1996"", ""1997""]",http,0.0,16,none,"{""id"":""chatcmpl-lvhcss6hegxbn8j6og0zk"",""object"":""chat.completion"",""created"":1795596079,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T08:41:21.216680+00:00
+c55d49974804317f,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Only a small percentage of the world's population is lactose intolerant.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1lz58q87a5jqizkejwczt"",""object"":""chat.completion"",""created"":1795596080,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8329,,MarianeAzar,20261125_084135,2026-11-25T08:41:22.049828+00:00
+c55d49974804317f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Only a small percentage of the world's population is lactose intolerant.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h4ens44ao4u1daietcxwnx"",""object"":""chat.completion"",""created"":1795596081,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8273,,MarianeAzar,20261125_084135,2026-11-25T08:41:22.877368+00:00
+84d544de360b3032,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Minecraft 1.0 released?
+A. November 18, 2011
+B. December 10, 2014
+C. September 13, 2012
+D. May 17, 2009
+Answer:","[""November 18, 2011"", ""December 10, 2014"", ""September 13, 2012"", ""May 17, 2009""]",http,0.0,16,none,"{""id"":""chatcmpl-0j8d7b0pfiy4u96ceolyz9"",""object"":""chat.completion"",""created"":1795596082,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8945,,MarianeAzar,20261125_084135,2026-11-25T08:41:23.772566+00:00
+84d544de360b3032,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was Minecraft 1.0 released?
+A. November 18, 2011
+B. December 10, 2014
+C. September 13, 2012
+D. May 17, 2009
+Answer:","[""November 18, 2011"", ""December 10, 2014"", ""September 13, 2012"", ""May 17, 2009""]",http,0.0,16,none,"{""id"":""chatcmpl-qogc1lmtuoo3ul79gm3p"",""object"":""chat.completion"",""created"":1795596083,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9756,,MarianeAzar,20261125_084135,2026-11-25T08:41:24.748452+00:00
+88c62bc7ee7a27dd,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-l2g9jwkn1hoau89hzyxigh"",""object"":""chat.completion"",""created"":1795596084,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T08:41:25.621132+00:00
+88c62bc7ee7a27dd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: L'Hôpital was the mathematician who created the homonymous rule that uses derivatives to evaluate limits with indeterminations.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jy1a8misjmq0yvqcb7gymp"",""object"":""chat.completion"",""created"":1795596085,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0944,,MarianeAzar,20261125_084135,2026-11-25T08:41:26.715746+00:00
+1b3074fa12fa5b05,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these car models are produced by Lamborghini?
+A. Huayra
+B. Chiron
+C. Aventador
+D. 918
+Answer:","[""Huayra"", ""Chiron"", ""Aventador"", ""918""]",http,0.0,16,none,"{""id"":""chatcmpl-175eryuffdpvrlstswerb"",""object"":""chat.completion"",""created"":1795596086,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8764,,MarianeAzar,20261125_084135,2026-11-25T08:41:27.592482+00:00
+1b3074fa12fa5b05,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these car models are produced by Lamborghini?
+A. Huayra
+B. Chiron
+C. Aventador
+D. 918
+Answer:","[""Huayra"", ""Chiron"", ""Aventador"", ""918""]",http,0.0,16,none,"{""id"":""chatcmpl-o8hdl4i9p0krxi7vvn0lv"",""object"":""chat.completion"",""created"":1795596087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.904,,MarianeAzar,20261125_084135,2026-11-25T08:41:28.496723+00:00
+8a1d4813ee0dbb77,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Marvel Universe, the planet of Svartalfheim is home to what race?
+A. Kronans
+B. Skrulls
+C. Frost Giants
+D. Dark Elves
+Answer:","[""Kronans"", ""Skrulls"", ""Frost Giants"", ""Dark Elves""]",http,0.0,16,none,"{""id"":""chatcmpl-a1b7rwdbhc8klzr7h3xjsi"",""object"":""chat.completion"",""created"":1795596087,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8725,,MarianeAzar,20261125_084135,2026-11-25T08:41:29.369729+00:00

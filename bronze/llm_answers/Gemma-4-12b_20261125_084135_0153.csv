@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+12de57d2785fec26,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following music bands is not from Finland?
+A. Waltari
+B. Lordi
+C. Sabaton
+D. Apocalyptica
+Answer:","[""Waltari"", ""Lordi"", ""Sabaton"", ""Apocalyptica""]",http,0.0,16,none,"{""id"":""chatcmpl-ubaret0m6lzfgtb4ds6"",""object"":""chat.completion"",""created"":1795596177,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.948,,MarianeAzar,20261125_084135,2026-11-25T08:42:59.383773+00:00
+beb997b34aec17fa,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Klingon home planet is Qo'noS.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2arh1ra3gmf3qdcj4ezmd"",""object"":""chat.completion"",""created"":1795596178,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8586,,MarianeAzar,20261125_084135,2026-11-25T08:43:00.242698+00:00
+beb997b34aec17fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Klingon home planet is Qo'noS.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4cvv50fv1itgnvly4fjd2j"",""object"":""chat.completion"",""created"":1795596179,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8235,,MarianeAzar,20261125_084135,2026-11-25T08:43:01.066446+00:00
+cc69c2957baa967f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first President of the People's Republic of China?
+A. Mao Zedong
+B. Dong Biwu
+C. Li Xiannian
+D. Liu Shaoqi
+Answer:","[""Mao Zedong"", ""Dong Biwu"", ""Li Xiannian"", ""Liu Shaoqi""]",http,0.0,16,none,"{""id"":""chatcmpl-jjp9ecg7p2rlvd0im2rba"",""object"":""chat.completion"",""created"":1795596180,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:43:01.928371+00:00
+cc69c2957baa967f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the first President of the People's Republic of China?
+A. Mao Zedong
+B. Dong Biwu
+C. Li Xiannian
+D. Liu Shaoqi
+Answer:","[""Mao Zedong"", ""Dong Biwu"", ""Li Xiannian"", ""Liu Shaoqi""]",http,0.0,16,none,"{""id"":""chatcmpl-6b13j8yvkzn3s0vf43jqdl"",""object"":""chat.completion"",""created"":1795596181,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8689,,MarianeAzar,20261125_084135,2026-11-25T08:43:02.797502+00:00
+497e66b6b2898bd5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the game Team Fortress 2 released?
+A. 2010
+B. 2005
+C. 2009
+D. 2007
+Answer:","[""2010"", ""2005"", ""2009"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-naqhchbketdmzvqy0lj9r"",""object"":""chat.completion"",""created"":1795596182,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9092,,MarianeAzar,20261125_084135,2026-11-25T08:43:03.707285+00:00
+497e66b6b2898bd5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year was the game Team Fortress 2 released?
+A. 2010
+B. 2005
+C. 2009
+D. 2007
+Answer:","[""2010"", ""2005"", ""2009"", ""2007""]",http,0.0,16,none,"{""id"":""chatcmpl-7uc2344oeqafc2tfmeics"",""object"":""chat.completion"",""created"":1795596183,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261125_084135,2026-11-25T08:43:04.593674+00:00
+1a6d294b2ae7ab6a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English king was married to Eleanor of Aquitaine?
+A. Richard I
+B. Henry V
+C. Henry I
+D. Henry II
+Answer:","[""Richard I"", ""Henry V"", ""Henry I"", ""Henry II""]",http,0.0,16,none,"{""id"":""chatcmpl-y9l0hvp7vygnr2epuhkgf"",""object"":""chat.completion"",""created"":1795596184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.858,,MarianeAzar,20261125_084135,2026-11-25T08:43:05.452038+00:00
+1a6d294b2ae7ab6a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which English king was married to Eleanor of Aquitaine?
+A. Richard I
+B. Henry V
+C. Henry I
+D. Henry II
+Answer:","[""Richard I"", ""Henry V"", ""Henry I"", ""Henry II""]",http,0.0,16,none,"{""id"":""chatcmpl-kgv1nfsgg89b3cznf0czxd"",""object"":""chat.completion"",""created"":1795596184,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8756,,MarianeAzar,20261125_084135,2026-11-25T08:43:06.327927+00:00
+952ea6f24b59c46e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie sequel had improved box office results compared to its original film?
+A. Speed 2: Cruise Control
+B. Sin City: A Dame to Kill For
+C. Son of the Mask
+D. Toy Story 2
+Answer:","[""Speed 2: Cruise Control"", ""Sin City: A Dame to Kill For"", ""Son of the Mask"", ""Toy Story 2""]",http,0.0,16,none,"{""id"":""chatcmpl-cit82hwq5leuoadxi63lsl"",""object"":""chat.completion"",""created"":1795596185,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9694,,MarianeAzar,20261125_084135,2026-11-25T08:43:07.297557+00:00
+952ea6f24b59c46e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which movie sequel had improved box office results compared to its original film?
+A. Speed 2: Cruise Control
+B. Sin City: A Dame to Kill For
+C. Son of the Mask
+D. Toy Story 2
+Answer:","[""Speed 2: Cruise Control"", ""Sin City: A Dame to Kill For"", ""Son of the Mask"", ""Toy Story 2""]",http,0.0,16,none,"{""id"":""chatcmpl-1o567xwsdwedgfltknesee"",""object"":""chat.completion"",""created"":1795596186,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8909,,MarianeAzar,20261125_084135,2026-11-25T08:43:08.188646+00:00
+42197fc987f6cd6c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first weapon pack for ""PAYDAY 2""?
+A. The Overkill Pack
+B. The Gage Weapon Pack #1
+C. The Gage Historical Pack
+D. The Gage Chivalry Pack
+Answer:","[""The Overkill Pack"", ""The Gage Weapon Pack #1"", ""The Gage Historical Pack"", ""The Gage Chivalry Pack""]",http,0.0,16,none,"{""id"":""chatcmpl-8gqhq0kc3jog99ubn1foz"",""object"":""chat.completion"",""created"":1795596187,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8953,,MarianeAzar,20261125_084135,2026-11-25T08:43:09.084233+00:00
+42197fc987f6cd6c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first weapon pack for ""PAYDAY 2""?
+A. The Overkill Pack
+B. The Gage Weapon Pack #1
+C. The Gage Historical Pack
+D. The Gage Chivalry Pack
+Answer:","[""The Overkill Pack"", ""The Gage Weapon Pack #1"", ""The Gage Historical Pack"", ""The Gage Chivalry Pack""]",http,0.0,16,none,"{""id"":""chatcmpl-6bq7yd6mn938v48je7gmc5"",""object"":""chat.completion"",""created"":1795596188,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8997,,MarianeAzar,20261125_084135,2026-11-25T08:43:09.984215+00:00
+dfcbb25ff66829d6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game Nuclear Throne, the boss ""Big Dog"" was made into a character on April Fool's Day 2015.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1fljn5grcga7qh7v0bny3a"",""object"":""chat.completion"",""created"":1795596189,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8227,,MarianeAzar,20261125_084135,2026-11-25T08:43:10.807321+00:00
+dfcbb25ff66829d6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the game Nuclear Throne, the boss ""Big Dog"" was made into a character on April Fool's Day 2015.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-stqbo4fyal9x7ui4rv62g"",""object"":""chat.completion"",""created"":1795596190,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9005,,MarianeAzar,20261125_084135,2026-11-25T08:43:11.708019+00:00
+32b6a226d1f535b3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of the brain takes its name from the Greek for seahorse?
+A. Thalamus
+B. Hippocampus
+C. Amygdala
+D. Cerebellum
+Answer:","[""Thalamus"", ""Hippocampus"", ""Amygdala"", ""Cerebellum""]",http,0.0,16,none,"{""id"":""chatcmpl-6shoxbl4afgmws2yxej1a"",""object"":""chat.completion"",""created"":1795596191,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.852,,MarianeAzar,20261125_084135,2026-11-25T08:43:12.560695+00:00
+32b6a226d1f535b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What part of the brain takes its name from the Greek for seahorse?
+A. Thalamus
+B. Hippocampus
+C. Amygdala
+D. Cerebellum
+Answer:","[""Thalamus"", ""Hippocampus"", ""Amygdala"", ""Cerebellum""]",http,0.0,16,none,"{""id"":""chatcmpl-jgm7j46cggpb0brehcy9b"",""object"":""chat.completion"",""created"":1795596191,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8656,,MarianeAzar,20261125_084135,2026-11-25T08:43:13.426583+00:00
+226e281a0fc44d8e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Battle of Trafalgar took place on October 23rd, 1805
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b6o5wkyqsxg86g0n8d1obg"",""object"":""chat.completion"",""created"":1795596192,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8343,,MarianeAzar,20261125_084135,2026-11-25T08:43:14.261407+00:00
+226e281a0fc44d8e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Battle of Trafalgar took place on October 23rd, 1805
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-dl53lx3c86slts55f9twvf"",""object"":""chat.completion"",""created"":1795596193,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:43:15.134477+00:00
+f90be05157f3c505,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does the Mac part of the name Fleetwood Mac come from?
+A. John McVie
+B. David Tennant
+C. Mac McAnally
+D. Christine McVie
+Answer:","[""John McVie"", ""David Tennant"", ""Mac McAnally"", ""Christine McVie""]",http,0.0,16,none,"{""id"":""chatcmpl-e208yoyjic92xooguleplc"",""object"":""chat.completion"",""created"":1795596194,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:43:15.995208+00:00
+f90be05157f3c505,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where does the Mac part of the name Fleetwood Mac come from?
+A. John McVie
+B. David Tennant
+C. Mac McAnally
+D. Christine McVie
+Answer:","[""John McVie"", ""David Tennant"", ""Mac McAnally"", ""Christine McVie""]",http,0.0,16,none,"{""id"":""chatcmpl-r5zjakw9x54cy2kknmpmj"",""object"":""chat.completion"",""created"":1795596195,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8688,,MarianeAzar,20261125_084135,2026-11-25T08:43:16.864275+00:00
+bbedba95d3cc6d0b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?
+A. Randall Flagg
+B. Fletcher Christian
+C. Holden Caulfield
+D. Jay Gatsby
+Answer:","[""Randall Flagg"", ""Fletcher Christian"", ""Holden Caulfield"", ""Jay Gatsby""]",http,0.0,16,none,"{""id"":""chatcmpl-rs5ekhzfv4grujr9y6gkal"",""object"":""chat.completion"",""created"":1795596196,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8906,,MarianeAzar,20261125_084135,2026-11-25T08:43:17.755341+00:00
+bbedba95d3cc6d0b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?
+A. Randall Flagg
+B. Fletcher Christian
+C. Holden Caulfield
+D. Jay Gatsby
+Answer:","[""Randall Flagg"", ""Fletcher Christian"", ""Holden Caulfield"", ""Jay Gatsby""]",http,0.0,16,none,"{""id"":""chatcmpl-9pda4yb5su4gx8hqf09mrg"",""object"":""chat.completion"",""created"":1795596197,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8878,,MarianeAzar,20261125_084135,2026-11-25T08:43:18.643477+00:00
+55f0651b47715199,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The United States Department of Homeland Security was formed in response to the September 11th attacks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-knyp7kmsqpbo1lx4vh6r9"",""object"":""chat.completion"",""created"":1795596198,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9133,,MarianeAzar,20261125_084135,2026-11-25T08:43:19.557012+00:00
+55f0651b47715199,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The United States Department of Homeland Security was formed in response to the September 11th attacks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f91umoje0xsm9w6tjx8je9"",""object"":""chat.completion"",""created"":1795596199,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9049,,MarianeAzar,20261125_084135,2026-11-25T08:43:20.462238+00:00

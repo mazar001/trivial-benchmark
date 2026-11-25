@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+ae22bc6aa695f0aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?
+A. Italian Grand Prix
+B. Brazilian Grand Prix
+C. Japanese Grand Prix
+D. Monaco Grand Prix
+Answer:","[""Italian Grand Prix"", ""Brazilian Grand Prix"", ""Japanese Grand Prix"", ""Monaco Grand Prix""]",http,0.0,16,none,"{""id"":""chatcmpl-gh8xk98srztnhla8jwevq9"",""object"":""chat.completion"",""created"":1795593381,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8896,,MarianeAzar,20261125_084135,2026-11-25T07:56:23.172213+00:00
+8a8d2727407e7ce2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these Swedish companies was founded in 1943?
+A. H & M
+B. IKEA
+C. Clas Ohlson
+D. Lindex
+Answer:","[""H & M"", ""IKEA"", ""Clas Ohlson"", ""Lindex""]",http,0.0,16,none,"{""id"":""chatcmpl-47wnemfskutz7kowhvpmh"",""object"":""chat.completion"",""created"":1795593382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T07:56:24.069196+00:00
+8a8d2727407e7ce2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of these Swedish companies was founded in 1943?
+A. H & M
+B. IKEA
+C. Clas Ohlson
+D. Lindex
+Answer:","[""H & M"", ""IKEA"", ""Clas Ohlson"", ""Lindex""]",http,0.0,16,none,"{""id"":""chatcmpl-pjeulfnnnycgut1mp9iyvu"",""object"":""chat.completion"",""created"":1795593383,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8602,,MarianeAzar,20261125_084135,2026-11-25T07:56:24.929684+00:00
+8e455d656f891d81,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Sonic the Hedgehog"" comic, who was the creator of Roboticizer?
+A. Ivo Robotnik
+B. Professor Charles the Hedgehog
+C. Snively Robotnik
+D. Julian Robotnik
+Answer:","[""Ivo Robotnik"", ""Professor Charles the Hedgehog"", ""Snively Robotnik"", ""Julian Robotnik""]",http,0.0,16,none,"{""id"":""chatcmpl-rmm426pxv9rq1623dmxhap"",""object"":""chat.completion"",""created"":1795593384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261125_084135,2026-11-25T07:56:25.816057+00:00
+8e455d656f891d81,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Sonic the Hedgehog"" comic, who was the creator of Roboticizer?
+A. Ivo Robotnik
+B. Professor Charles the Hedgehog
+C. Snively Robotnik
+D. Julian Robotnik
+Answer:","[""Ivo Robotnik"", ""Professor Charles the Hedgehog"", ""Snively Robotnik"", ""Julian Robotnik""]",http,0.0,16,none,"{""id"":""chatcmpl-bqhbsehp0ng0rslsvatwt"",""object"":""chat.completion"",""created"":1795593385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T07:56:26.692614+00:00
+72c9c880182a7ee4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the leader of Team Instinct in Pokémon Go?
+A. Blanche
+B. Spark
+C. Candela
+D. Willow
+Answer:","[""Blanche"", ""Spark"", ""Candela"", ""Willow""]",http,0.0,16,none,"{""id"":""chatcmpl-81y68yhvztskgyytksvbxr"",""object"":""chat.completion"",""created"":1795593386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8483,,MarianeAzar,20261125_084135,2026-11-25T07:56:27.541499+00:00
+72c9c880182a7ee4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the leader of Team Instinct in Pokémon Go?
+A. Blanche
+B. Spark
+C. Candela
+D. Willow
+Answer:","[""Blanche"", ""Spark"", ""Candela"", ""Willow""]",http,0.0,16,none,"{""id"":""chatcmpl-5kpiw6syegcamdtjfdt97"",""object"":""chat.completion"",""created"":1795593386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261125_084135,2026-11-25T07:56:28.398676+00:00
+f6f9b1533875debe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company manufactured the iconic TR-808 drum machine?
+A. Korg
+B. Roland
+C. Technics
+D. Casio
+Answer:","[""Korg"", ""Roland"", ""Technics"", ""Casio""]",http,0.0,16,none,"{""id"":""chatcmpl-yf71hiyflk9iti8ryki4t8"",""object"":""chat.completion"",""created"":1795593387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8557,,MarianeAzar,20261125_084135,2026-11-25T07:56:29.254623+00:00
+f6f9b1533875debe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which company manufactured the iconic TR-808 drum machine?
+A. Korg
+B. Roland
+C. Technics
+D. Casio
+Answer:","[""Korg"", ""Roland"", ""Technics"", ""Casio""]",http,0.0,16,none,"{""id"":""chatcmpl-y3inef9j3k7tfh877kft7f"",""object"":""chat.completion"",""created"":1795593388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8604,,MarianeAzar,20261125_084135,2026-11-25T07:56:30.115340+00:00
+f2e37ab33940acc4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer player is featured on the cover of EA Sport's FIFA 18?
+A. Lionel Messi
+B. Harry Kane
+C. Neymar
+D. Cristiano Ronaldo
+Answer:","[""Lionel Messi"", ""Harry Kane"", ""Neymar"", ""Cristiano Ronaldo""]",http,0.0,16,none,"{""id"":""chatcmpl-z63o9m04jwhuw907s3i9o"",""object"":""chat.completion"",""created"":1795593389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T07:56:30.969723+00:00
+f2e37ab33940acc4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer player is featured on the cover of EA Sport's FIFA 18?
+A. Lionel Messi
+B. Harry Kane
+C. Neymar
+D. Cristiano Ronaldo
+Answer:","[""Lionel Messi"", ""Harry Kane"", ""Neymar"", ""Cristiano Ronaldo""]",http,0.0,16,none,"{""id"":""chatcmpl-74y8qgqso1j9es17pfbxb"",""object"":""chat.completion"",""created"":1795593390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8652,,MarianeAzar,20261125_084135,2026-11-25T07:56:31.835166+00:00
+fd0d606e9747d8a9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car tire manufacturer is famous for its ""Eagle"" brand of tires, and is the official tire supplier of NASCAR?
+A. Bridgestone
+B. Pirelli
+C. Michelin
+D. Goodyear
+Answer:","[""Bridgestone"", ""Pirelli"", ""Michelin"", ""Goodyear""]",http,0.0,16,none,"{""id"":""chatcmpl-wrsh94vyqtb9zx1zgtqw"",""object"":""chat.completion"",""created"":1795593391,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8592,,MarianeAzar,20261125_084135,2026-11-25T07:56:32.694609+00:00
+fd0d606e9747d8a9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which car tire manufacturer is famous for its ""Eagle"" brand of tires, and is the official tire supplier of NASCAR?
+A. Bridgestone
+B. Pirelli
+C. Michelin
+D. Goodyear
+Answer:","[""Bridgestone"", ""Pirelli"", ""Michelin"", ""Goodyear""]",http,0.0,16,none,"{""id"":""chatcmpl-ofjigtzrutm1pghtnwo63bj"",""object"":""chat.completion"",""created"":1795593392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T07:56:33.574316+00:00
+e3e76d5cbf5f4cda,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Wisconsin, USA?
+A. Madison
+B. Milwaukee
+C. Wisconsin Dells
+D. Green Bay
+Answer:","[""Madison"", ""Milwaukee"", ""Wisconsin Dells"", ""Green Bay""]",http,0.0,16,none,"{""id"":""chatcmpl-d43yozt6peec6vfpwl4xuu"",""object"":""chat.completion"",""created"":1795593393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8606,,MarianeAzar,20261125_084135,2026-11-25T07:56:34.435188+00:00
+e3e76d5cbf5f4cda,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Wisconsin, USA?
+A. Madison
+B. Milwaukee
+C. Wisconsin Dells
+D. Green Bay
+Answer:","[""Madison"", ""Milwaukee"", ""Wisconsin Dells"", ""Green Bay""]",http,0.0,16,none,"{""id"":""chatcmpl-4r4ad20009gfu2foukvn86"",""object"":""chat.completion"",""created"":1795593393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8472,,MarianeAzar,20261125_084135,2026-11-25T07:56:35.282525+00:00
+758314fb4b8073b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the DOS in Microsoft's first operating system ""MS-DOS"" stand for?
+A. Disk Operating System
+B. Diskless Operating System
+C. Dumb Operating System
+D. Driver Oriented System
+Answer:","[""Disk Operating System"", ""Diskless Operating System"", ""Dumb Operating System"", ""Driver Oriented System""]",http,0.0,16,none,"{""id"":""chatcmpl-dr1hur5dx8dbo80hm1h2"",""object"":""chat.completion"",""created"":1795593394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8509,,MarianeAzar,20261125_084135,2026-11-25T07:56:36.133673+00:00
+758314fb4b8073b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the DOS in Microsoft's first operating system ""MS-DOS"" stand for?
+A. Disk Operating System
+B. Diskless Operating System
+C. Dumb Operating System
+D. Driver Oriented System
+Answer:","[""Disk Operating System"", ""Diskless Operating System"", ""Dumb Operating System"", ""Driver Oriented System""]",http,0.0,16,none,"{""id"":""chatcmpl-ia12t628y36f4yg794ufq"",""object"":""chat.completion"",""created"":1795593395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8949,,MarianeAzar,20261125_084135,2026-11-25T07:56:37.028860+00:00
+b8ff014fab154b53,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Counter-Strike: Global Offensive, what's the rarity of discontinued skins called?
+A. Diminished
+B. Contraband
+C. Limited
+D. Discontinued
+Answer:","[""Diminished"", ""Contraband"", ""Limited"", ""Discontinued""]",http,0.0,16,none,"{""id"":""chatcmpl-8bz8elf8a5a35bhj1j5jc"",""object"":""chat.completion"",""created"":1795593396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8498,,MarianeAzar,20261125_084135,2026-11-25T07:56:37.879152+00:00
+b8ff014fab154b53,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Counter-Strike: Global Offensive, what's the rarity of discontinued skins called?
+A. Diminished
+B. Contraband
+C. Limited
+D. Discontinued
+Answer:","[""Diminished"", ""Contraband"", ""Limited"", ""Discontinued""]",http,0.0,16,none,"{""id"":""chatcmpl-5eqmiz6vejj2le5ltaofmr"",""object"":""chat.completion"",""created"":1795593397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T07:56:38.736986+00:00
+cfd5b684e432b5be,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Is Tartu the capital of Estonia?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3lyqlxhdiatxpv4pvj5lk8"",""object"":""chat.completion"",""created"":1795593398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7971,,MarianeAzar,20261125_084135,2026-11-25T07:56:39.534215+00:00
+cfd5b684e432b5be,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Is Tartu the capital of Estonia?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-f4qt2k3ulykg314dd0skbh"",""object"":""chat.completion"",""created"":1795593398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8154,,MarianeAzar,20261125_084135,2026-11-25T07:56:40.349835+00:00
+8e991ba692f50602,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?
+A. Ryu
+B. Megaman
+C. Bayonetta
+D. Cloud
+Answer:","[""Ryu"", ""Megaman"", ""Bayonetta"", ""Cloud""]",http,0.0,16,none,"{""id"":""chatcmpl-i7syxe0rcxom9bjj0ip3k"",""object"":""chat.completion"",""created"":1795593399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8441,,MarianeAzar,20261125_084135,2026-11-25T07:56:41.194207+00:00
+8e991ba692f50602,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?
+A. Ryu
+B. Megaman
+C. Bayonetta
+D. Cloud
+Answer:","[""Ryu"", ""Megaman"", ""Bayonetta"", ""Cloud""]",http,0.0,16,none,"{""id"":""chatcmpl-dz0vjn99j67ji3kqf5clup"",""object"":""chat.completion"",""created"":1795593400,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9266,,MarianeAzar,20261125_084135,2026-11-25T07:56:42.121051+00:00
+201f665e985c37f6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.
+A. Ellis
+B. Elric
+C. Elwood
+D. Eliek
+Answer:","[""Ellis"", ""Elric"", ""Elwood"", ""Eliek""]",http,0.0,16,none,"{""id"":""chatcmpl-cu4qump5snbzji74hxrpbq"",""object"":""chat.completion"",""created"":1795593401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8677,,MarianeAzar,20261125_084135,2026-11-25T07:56:42.989045+00:00
+201f665e985c37f6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.
+A. Ellis
+B. Elric
+C. Elwood
+D. Eliek
+Answer:","[""Ellis"", ""Elric"", ""Elwood"", ""Eliek""]",http,0.0,16,none,"{""id"":""chatcmpl-gn7gn45q5de4x9u9and1p5"",""object"":""chat.completion"",""created"":1795593402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8699,,MarianeAzar,20261125_084135,2026-11-25T07:56:43.859242+00:00

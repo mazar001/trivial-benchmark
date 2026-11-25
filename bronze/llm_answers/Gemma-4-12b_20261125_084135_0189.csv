@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+64e3df7f10ea5868,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pearl Jam was originally named after which sports figure?
+A. Mookie Blaylock
+B. Blue Moon Odom
+C. Oil Can Boyd
+D. Danger Fourpence
+Answer:","[""Mookie Blaylock"", ""Blue Moon Odom"", ""Oil Can Boyd"", ""Danger Fourpence""]",http,0.0,16,none,"{""id"":""chatcmpl-4sm0ywm7v198gfjzg92w7b"",""object"":""chat.completion"",""created"":1795596966,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8621,,MarianeAzar,20261125_084135,2026-11-25T08:56:07.838565+00:00
+a3b06bec89787755,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is another name for La Gioconda / La Joconde?
+A. The Mona Lisa
+B. Sunflowers
+C. The Starry Night
+D. The Girl with a Pearl Earring
+Answer:","[""The Mona Lisa"", ""Sunflowers"", ""The Starry Night"", ""The Girl with a Pearl Earring""]",http,0.0,16,none,"{""id"":""chatcmpl-kligfw8rbkmga8inqwyu5u"",""object"":""chat.completion"",""created"":1795596967,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.853,,MarianeAzar,20261125_084135,2026-11-25T08:56:08.692401+00:00
+a3b06bec89787755,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is another name for La Gioconda / La Joconde?
+A. The Mona Lisa
+B. Sunflowers
+C. The Starry Night
+D. The Girl with a Pearl Earring
+Answer:","[""The Mona Lisa"", ""Sunflowers"", ""The Starry Night"", ""The Girl with a Pearl Earring""]",http,0.0,16,none,"{""id"":""chatcmpl-mg8sqd0zo19kp7cl2w372m"",""object"":""chat.completion"",""created"":1795596968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8837,,MarianeAzar,20261125_084135,2026-11-25T08:56:09.576366+00:00
+605ce1a04a854f10,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which anime did Seiji Kishi NOT direct?
+A. Another
+B. Danganronpa: The Animation
+C. Assassination Classroom
+D. Humanity Has Declined
+Answer:","[""Another"", ""Danganronpa: The Animation"", ""Assassination Classroom"", ""Humanity Has Declined""]",http,0.0,16,none,"{""id"":""chatcmpl-xph5clzli6mxth3q7kqk4"",""object"":""chat.completion"",""created"":1795596968,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8566,,MarianeAzar,20261125_084135,2026-11-25T08:56:10.433306+00:00
+605ce1a04a854f10,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which anime did Seiji Kishi NOT direct?
+A. Another
+B. Danganronpa: The Animation
+C. Assassination Classroom
+D. Humanity Has Declined
+Answer:","[""Another"", ""Danganronpa: The Animation"", ""Assassination Classroom"", ""Humanity Has Declined""]",http,0.0,16,none,"{""id"":""chatcmpl-hh0zjmd0g9wrew4fhde6c8"",""object"":""chat.completion"",""created"":1795596969,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8645,,MarianeAzar,20261125_084135,2026-11-25T08:56:11.298031+00:00
+185dec606d5f0429,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the top scorer of the 2014 FIFA World Cup?
+A. James Rodríguez
+B. Thomas Müller
+C. Lionel Messi
+D. Neymar
+Answer:","[""James Rodríguez"", ""Thomas Müller"", ""Lionel Messi"", ""Neymar""]",http,0.0,16,none,"{""id"":""chatcmpl-2xg5o565oq1r00og0k1ac"",""object"":""chat.completion"",""created"":1795596970,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8631,,MarianeAzar,20261125_084135,2026-11-25T08:56:12.162509+00:00
+185dec606d5f0429,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the top scorer of the 2014 FIFA World Cup?
+A. James Rodríguez
+B. Thomas Müller
+C. Lionel Messi
+D. Neymar
+Answer:","[""James Rodríguez"", ""Thomas Müller"", ""Lionel Messi"", ""Neymar""]",http,0.0,16,none,"{""id"":""chatcmpl-2ittx5e4t2l8xgbnwjlh6b"",""object"":""chat.completion"",""created"":1795596971,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261125_084135,2026-11-25T08:56:13.026578+00:00
+35d1d0665c2487e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what does the game traditionally reward you for completing a boss round?
+A. Max Ammo
+B. A Pack-A-Punched gun
+C. Monkey Bombs
+D. Death Machine
+Answer:","[""Max Ammo"", ""A Pack-A-Punched gun"", ""Monkey Bombs"", ""Death Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-ui02dfdkf1ic7dv005m24j"",""object"":""chat.completion"",""created"":1795596972,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:56:13.883363+00:00
+35d1d0665c2487e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what does the game traditionally reward you for completing a boss round?
+A. Max Ammo
+B. A Pack-A-Punched gun
+C. Monkey Bombs
+D. Death Machine
+Answer:","[""Max Ammo"", ""A Pack-A-Punched gun"", ""Monkey Bombs"", ""Death Machine""]",http,0.0,16,none,"{""id"":""chatcmpl-z32ay6vse0rl0goznnxi1c"",""object"":""chat.completion"",""created"":1795596973,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261125_084135,2026-11-25T08:56:14.767533+00:00
+c6d6f9c8d8bf4f55,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which king was killed at the Battle of Bosworth Field in 1485?
+A. Henry VII
+B. Richard III
+C. Edward V
+D. James I
+Answer:","[""Henry VII"", ""Richard III"", ""Edward V"", ""James I""]",http,0.0,16,none,"{""id"":""chatcmpl-xibbelwcpt95ziso0p5zi"",""object"":""chat.completion"",""created"":1795596974,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T08:56:15.623140+00:00
+c6d6f9c8d8bf4f55,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which king was killed at the Battle of Bosworth Field in 1485?
+A. Henry VII
+B. Richard III
+C. Edward V
+D. James I
+Answer:","[""Henry VII"", ""Richard III"", ""Edward V"", ""James I""]",http,0.0,16,none,"{""id"":""chatcmpl-xwtbrtvrdn7rg7zijxue4"",""object"":""chat.completion"",""created"":1795596975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T08:56:16.484761+00:00
+b3113ec96910dc66,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many letters are there in the English alphabet?
+A. 23
+B. 24
+C. 26
+D. 28
+Answer:","[""23"", ""24"", ""26"", ""28""]",http,0.0,16,none,"{""id"":""chatcmpl-c60gyvz34abfj1vleuk2z8"",""object"":""chat.completion"",""created"":1795596975,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8722,,MarianeAzar,20261125_084135,2026-11-25T08:56:17.357750+00:00
+b3113ec96910dc66,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many letters are there in the English alphabet?
+A. 23
+B. 24
+C. 26
+D. 28
+Answer:","[""23"", ""24"", ""26"", ""28""]",http,0.0,16,none,"{""id"":""chatcmpl-p8lefdvgfdmtk8w1v7cnv"",""object"":""chat.completion"",""created"":1795596976,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8515,,MarianeAzar,20261125_084135,2026-11-25T08:56:18.209465+00:00
+adf498a23083de84,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?
+A. Goat testicles transplant
+B. Pig blood transfusion
+C. Cow liver transplant
+D. Turkey breast implants
+Answer:","[""Goat testicles transplant"", ""Pig blood transfusion"", ""Cow liver transplant"", ""Turkey breast implants""]",http,0.0,16,none,"{""id"":""chatcmpl-7wixrpj1ej7q4fuxmlveb"",""object"":""chat.completion"",""created"":1795596977,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9101,,MarianeAzar,20261125_084135,2026-11-25T08:56:19.120012+00:00
+adf498a23083de84,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?
+A. Goat testicles transplant
+B. Pig blood transfusion
+C. Cow liver transplant
+D. Turkey breast implants
+Answer:","[""Goat testicles transplant"", ""Pig blood transfusion"", ""Cow liver transplant"", ""Turkey breast implants""]",http,0.0,16,none,"{""id"":""chatcmpl-9xriicwt1a59xltguntvjt"",""object"":""chat.completion"",""created"":1795596978,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8989,,MarianeAzar,20261125_084135,2026-11-25T08:56:20.019154+00:00
+b2b7fa890ff625ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many members are there in the idol group ""µ's""?
+A. 3
+B. 9
+C. 48
+D. 6
+Answer:","[""3"", ""9"", ""48"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-1kpiwgyiayofvdv22r6mvb"",""object"":""chat.completion"",""created"":1795596979,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261125_084135,2026-11-25T08:56:20.906000+00:00
+b2b7fa890ff625ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many members are there in the idol group ""µ's""?
+A. 3
+B. 9
+C. 48
+D. 6
+Answer:","[""3"", ""9"", ""48"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-7adc65f8lk3ugalltntfh"",""object"":""chat.completion"",""created"":1795596980,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:56:21.765263+00:00
+7d857d6b5b468403,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a quote from the 1942 film Casablanca?
+A. ""Round up the usual suspects.""
+B. ""Frankly, my dear, I don't give a damn.""
+C. “Of all the gin joints, in all the towns, in all the world, she walks into mine…”
+D. ""Here's lookin' at you, kid.""
+Answer:","[""\""Round up the usual suspects.\"""", ""\""Frankly, my dear, I don't give a damn.\"""", ""“Of all the gin joints, in all the towns, in all the world, she walks into mine…”"", ""\""Here's lookin' at you, kid.\""""]",http,0.0,16,none,"{""id"":""chatcmpl-em41550lnso6zxo67hgsbr"",""object"":""chat.completion"",""created"":1795596981,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9347,,MarianeAzar,20261125_084135,2026-11-25T08:56:22.700299+00:00
+7d857d6b5b468403,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a quote from the 1942 film Casablanca?
+A. ""Round up the usual suspects.""
+B. ""Frankly, my dear, I don't give a damn.""
+C. “Of all the gin joints, in all the towns, in all the world, she walks into mine…”
+D. ""Here's lookin' at you, kid.""
+Answer:","[""\""Round up the usual suspects.\"""", ""\""Frankly, my dear, I don't give a damn.\"""", ""“Of all the gin joints, in all the towns, in all the world, she walks into mine…”"", ""\""Here's lookin' at you, kid.\""""]",http,0.0,16,none,"{""id"":""chatcmpl-irbep0noej7a3ph8ctv37j"",""object"":""chat.completion"",""created"":1795596982,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":147,""completion_tokens"":2,""total_tokens"":149,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9843,,MarianeAzar,20261125_084135,2026-11-25T08:56:23.684982+00:00
+504583304a1404ed,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Monster Hunter Series, G-Rank is the highest possible prestige a Hunter can recieve.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fkmaenwv4dsnbjorq0bx"",""object"":""chat.completion"",""created"":1795596983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:56:24.545470+00:00
+504583304a1404ed,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In the Monster Hunter Series, G-Rank is the highest possible prestige a Hunter can recieve.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o6twiwcvgtlfq309ly138h"",""object"":""chat.completion"",""created"":1795596983,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:56:25.401704+00:00
+1249befffe3b9da9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the famous artist Pablo Picasso?
+A. Spanish
+B. Italian
+C. German
+D. French
+Answer:","[""Spanish"", ""Italian"", ""German"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-rsgae7is6h4e9ual707ce"",""object"":""chat.completion"",""created"":1795596984,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T08:56:26.264142+00:00
+1249befffe3b9da9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What nationality was the famous artist Pablo Picasso?
+A. Spanish
+B. Italian
+C. German
+D. French
+Answer:","[""Spanish"", ""Italian"", ""German"", ""French""]",http,0.0,16,none,"{""id"":""chatcmpl-8lfnhnxcvcfukw377otk8r"",""object"":""chat.completion"",""created"":1795596985,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:56:27.129354+00:00
+2750837d080f8abf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the wildman that Gilgamesh befriends and goes on adventures with?
+A. Agga
+B. Ishtar
+C. Enkidu
+D. Inanna
+Answer:","[""Agga"", ""Ishtar"", ""Enkidu"", ""Inanna""]",http,0.0,16,none,"{""id"":""chatcmpl-9b4gznqy2jwtvkm21o7upj"",""object"":""chat.completion"",""created"":1795596986,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261125_084135,2026-11-25T08:56:27.993682+00:00
+2750837d080f8abf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the wildman that Gilgamesh befriends and goes on adventures with?
+A. Agga
+B. Ishtar
+C. Enkidu
+D. Inanna
+Answer:","[""Agga"", ""Ishtar"", ""Enkidu"", ""Inanna""]",http,0.0,16,none,"{""id"":""chatcmpl-6on03ds378tajmiuiuuo1"",""object"":""chat.completion"",""created"":1795596987,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8806,,MarianeAzar,20261125_084135,2026-11-25T08:56:28.874491+00:00

@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1fd3278e7e3b1027,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1996 film 'Fargo' is primarily set in which US state?
+A. Wisconsin
+B. North Dakota
+C. South Dakota
+D. Minnesota
+Answer:","[""Wisconsin"", ""North Dakota"", ""South Dakota"", ""Minnesota""]",http,0.0,16,none,"{""id"":""chatcmpl-qstrcfdz5aibp09tf83a0d"",""object"":""chat.completion"",""created"":1795595388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4368,,MarianeAzar,20261125_084135,2026-11-25T08:29:50.735441+00:00
+1fd3278e7e3b1027,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The 1996 film 'Fargo' is primarily set in which US state?
+A. Wisconsin
+B. North Dakota
+C. South Dakota
+D. Minnesota
+Answer:","[""Wisconsin"", ""North Dakota"", ""South Dakota"", ""Minnesota""]",http,0.0,16,none,"{""id"":""chatcmpl-qqofn1mdccdydi2pmiqlse"",""object"":""chat.completion"",""created"":1795595390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0181,,MarianeAzar,20261125_084135,2026-11-25T08:29:51.753836+00:00
+aa3b5e846f863867,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Doug Walker's YouTube name?
+A. AngryJoeShow
+B. The Cinema Snob
+C. The Angry Video Game Nerd
+D. The Nostalgia Critic
+Answer:","[""AngryJoeShow"", ""The Cinema Snob"", ""The Angry Video Game Nerd"", ""The Nostalgia Critic""]",http,0.0,16,none,"{""id"":""chatcmpl-62v6zzbo7jvs9uefgpcc0o"",""object"":""chat.completion"",""created"":1795595391,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.035,,MarianeAzar,20261125_084135,2026-11-25T08:29:52.789135+00:00
+aa3b5e846f863867,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Doug Walker's YouTube name?
+A. AngryJoeShow
+B. The Cinema Snob
+C. The Angry Video Game Nerd
+D. The Nostalgia Critic
+Answer:","[""AngryJoeShow"", ""The Cinema Snob"", ""The Angry Video Game Nerd"", ""The Nostalgia Critic""]",http,0.0,16,none,"{""id"":""chatcmpl-ds6s901c0y4mtksfhyzsc"",""object"":""chat.completion"",""created"":1795595392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3428,,MarianeAzar,20261125_084135,2026-11-25T08:29:54.132185+00:00
+62e6db304325fe32,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Brian May was the guitarist for which band?
+A. The Doors
+B. Rolling Stones
+C. Pink Floyd
+D. Queen
+Answer:","[""The Doors"", ""Rolling Stones"", ""Pink Floyd"", ""Queen""]",http,0.0,16,none,"{""id"":""chatcmpl-ll27x7y0akf258by0m7iq"",""object"":""chat.completion"",""created"":1795595393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0687,,MarianeAzar,20261125_084135,2026-11-25T08:29:55.201316+00:00
+62e6db304325fe32,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Brian May was the guitarist for which band?
+A. The Doors
+B. Rolling Stones
+C. Pink Floyd
+D. Queen
+Answer:","[""The Doors"", ""Rolling Stones"", ""Pink Floyd"", ""Queen""]",http,0.0,16,none,"{""id"":""chatcmpl-savxkyorb2sduy5yauixq"",""object"":""chat.completion"",""created"":1795595394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9548,,MarianeAzar,20261125_084135,2026-11-25T08:29:56.156424+00:00
+0b1d16a5593689e0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who has played the most tournaments in the German national soccer team?
+A. Oliver Kahn
+B. Miroslav Klose
+C. Lothar Matthäus
+D. Philipp Lahm
+Answer:","[""Oliver Kahn"", ""Miroslav Klose"", ""Lothar Matthäus"", ""Philipp Lahm""]",http,0.0,16,none,"{""id"":""chatcmpl-4gxg2zvv6l5jpz417up"",""object"":""chat.completion"",""created"":1795595395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2798,,MarianeAzar,20261125_084135,2026-11-25T08:29:57.436600+00:00
+0b1d16a5593689e0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who has played the most tournaments in the German national soccer team?
+A. Oliver Kahn
+B. Miroslav Klose
+C. Lothar Matthäus
+D. Philipp Lahm
+Answer:","[""Oliver Kahn"", ""Miroslav Klose"", ""Lothar Matthäus"", ""Philipp Lahm""]",http,0.0,16,none,"{""id"":""chatcmpl-yqwfz5y5doa0xk0iuw4i"",""object"":""chat.completion"",""created"":1795595396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9175,,MarianeAzar,20261125_084135,2026-11-25T08:29:58.354407+00:00
+41626bcde8e8ee36,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In CSS, which of these values CANNOT be used with the ""position"" property?
+A. static
+B. absolute
+C. center
+D. relative
+Answer:","[""static"", ""absolute"", ""center"", ""relative""]",http,0.0,16,none,"{""id"":""chatcmpl-95cglpocl4x1qkgj4lzrf"",""object"":""chat.completion"",""created"":1795595397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.249,,MarianeAzar,20261125_084135,2026-11-25T08:29:59.603762+00:00
+41626bcde8e8ee36,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In CSS, which of these values CANNOT be used with the ""position"" property?
+A. static
+B. absolute
+C. center
+D. relative
+Answer:","[""static"", ""absolute"", ""center"", ""relative""]",http,0.0,16,none,"{""id"":""chatcmpl-r53o28s26fplvdepffsj9h"",""object"":""chat.completion"",""created"":1795595399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2807,,MarianeAzar,20261125_084135,2026-11-25T08:30:00.884729+00:00
+7a3ead3c350e2033,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the author of the series ""Malazan Book of the Fallen""?
+A. J. R. R. Tolkien
+B. Steven Erikson
+C. Ian Cameron Esslemont
+D. George R. R. Martin
+Answer:","[""J. R. R. Tolkien"", ""Steven Erikson"", ""Ian Cameron Esslemont"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-hu5dh58d2ifhob2txsy0p"",""object"":""chat.completion"",""created"":1795595400,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.956,,MarianeAzar,20261125_084135,2026-11-25T08:30:01.841460+00:00
+7a3ead3c350e2033,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the author of the series ""Malazan Book of the Fallen""?
+A. J. R. R. Tolkien
+B. Steven Erikson
+C. Ian Cameron Esslemont
+D. George R. R. Martin
+Answer:","[""J. R. R. Tolkien"", ""Steven Erikson"", ""Ian Cameron Esslemont"", ""George R. R. Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-5dvtg4ybb5ldnb6f8sepa"",""object"":""chat.completion"",""created"":1795595401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3034,,MarianeAzar,20261125_084135,2026-11-25T08:30:03.145130+00:00
+3c63a29bf55e12d4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters is not in the board game Clue?
+A. Reverend Green
+B. Miss Scarlet
+C. Colonel Mustard
+D. Mister Indigo
+Answer:","[""Reverend Green"", ""Miss Scarlet"", ""Colonel Mustard"", ""Mister Indigo""]",http,0.0,16,none,"{""id"":""chatcmpl-5mev7t7boaq1sr9ozu48yk"",""object"":""chat.completion"",""created"":1795595402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2221,,MarianeAzar,20261125_084135,2026-11-25T08:30:04.367626+00:00
+3c63a29bf55e12d4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters is not in the board game Clue?
+A. Reverend Green
+B. Miss Scarlet
+C. Colonel Mustard
+D. Mister Indigo
+Answer:","[""Reverend Green"", ""Miss Scarlet"", ""Colonel Mustard"", ""Mister Indigo""]",http,0.0,16,none,"{""id"":""chatcmpl-n1q2xsm2ghbmi13gffzrxa"",""object"":""chat.completion"",""created"":1795595403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9214,,MarianeAzar,20261125_084135,2026-11-25T08:30:05.289264+00:00
+47fbdd85a33b1491,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the first four titles of the ""Grand Theft Auto"" franchise started the series of iconic image grid cover arts?
+A. Grand Theft Auto III
+B. Grand Theft Auto
+C. Grand Theft Auto II
+D. Grand Theft Auto Vice City
+Answer:","[""Grand Theft Auto III"", ""Grand Theft Auto"", ""Grand Theft Auto II"", ""Grand Theft Auto Vice City""]",http,0.0,16,none,"{""id"":""chatcmpl-28gv5csqm4xngj0jrcgl7"",""object"":""chat.completion"",""created"":1795595404,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9758,,MarianeAzar,20261125_084135,2026-11-25T08:30:06.265438+00:00
+47fbdd85a33b1491,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which one of the first four titles of the ""Grand Theft Auto"" franchise started the series of iconic image grid cover arts?
+A. Grand Theft Auto III
+B. Grand Theft Auto
+C. Grand Theft Auto II
+D. Grand Theft Auto Vice City
+Answer:","[""Grand Theft Auto III"", ""Grand Theft Auto"", ""Grand Theft Auto II"", ""Grand Theft Auto Vice City""]",http,0.0,16,none,"{""id"":""chatcmpl-4bo5jtpq6xcsvjykksc3bn"",""object"":""chat.completion"",""created"":1795595405,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.407,,MarianeAzar,20261125_084135,2026-11-25T08:30:07.672654+00:00
+ac2677e0d2a7e8e7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which WWII tank ace is credited with having destroyed the most tanks?
+A. Walter Kniep
+B. Otto Carius
+C. Kurt Knispel
+D. Michael Wittmann
+Answer:","[""Walter Kniep"", ""Otto Carius"", ""Kurt Knispel"", ""Michael Wittmann""]",http,0.0,16,none,"{""id"":""chatcmpl-w9z7c6ripqry5qlpqgp9y"",""object"":""chat.completion"",""created"":1795595407,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0272,,MarianeAzar,20261125_084135,2026-11-25T08:30:08.700682+00:00
+ac2677e0d2a7e8e7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which WWII tank ace is credited with having destroyed the most tanks?
+A. Walter Kniep
+B. Otto Carius
+C. Kurt Knispel
+D. Michael Wittmann
+Answer:","[""Walter Kniep"", ""Otto Carius"", ""Kurt Knispel"", ""Michael Wittmann""]",http,0.0,16,none,"{""id"":""chatcmpl-axnbvl359bmw648xbsyigp"",""object"":""chat.completion"",""created"":1795595408,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9564,,MarianeAzar,20261125_084135,2026-11-25T08:30:09.657344+00:00
+33e853a1b3e165b6,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bosnia and Herzegovina is a country located in the Baltic region in Europe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-azqgmv92hehhot7mae33h9"",""object"":""chat.completion"",""created"":1795595409,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2402,,MarianeAzar,20261125_084135,2026-11-25T08:30:10.897917+00:00
+33e853a1b3e165b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Bosnia and Herzegovina is a country located in the Baltic region in Europe.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-msyhqcahz4d9iwww8c6oa"",""object"":""chat.completion"",""created"":1795595410,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8994,,MarianeAzar,20261125_084135,2026-11-25T08:30:11.797463+00:00
+5eb154ed69021884,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mobile hardware and software company ""Blackberry Limited"" was founded in which country?
+A. Canada
+B. United Kingdom
+C. Norway
+D. United States of America
+Answer:","[""Canada"", ""United Kingdom"", ""Norway"", ""United States of America""]",http,0.0,16,none,"{""id"":""chatcmpl-ojdjbikzxz8jl3u65bsq5a"",""object"":""chat.completion"",""created"":1795595411,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2294,,MarianeAzar,20261125_084135,2026-11-25T08:30:13.027641+00:00
+5eb154ed69021884,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Mobile hardware and software company ""Blackberry Limited"" was founded in which country?
+A. Canada
+B. United Kingdom
+C. Norway
+D. United States of America
+Answer:","[""Canada"", ""United Kingdom"", ""Norway"", ""United States of America""]",http,0.0,16,none,"{""id"":""chatcmpl-gig4gkzotqf03hj8kvom9i7"",""object"":""chat.completion"",""created"":1795595412,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1364,,MarianeAzar,20261125_084135,2026-11-25T08:30:14.164307+00:00
+f774711feeeade59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mario Kart and Smash Bros. Games, Princess Rosalina is considered what weight class?
+A. Medium
+B. Heavy
+C. Light-Medium
+D. Light
+Answer:","[""Medium"", ""Heavy"", ""Light-Medium"", ""Light""]",http,0.0,16,none,"{""id"":""chatcmpl-3eaugggs43yxb5109i93ie"",""object"":""chat.completion"",""created"":1795595413,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8928,,MarianeAzar,20261125_084135,2026-11-25T08:30:15.057369+00:00
+f774711feeeade59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Mario Kart and Smash Bros. Games, Princess Rosalina is considered what weight class?
+A. Medium
+B. Heavy
+C. Light-Medium
+D. Light
+Answer:","[""Medium"", ""Heavy"", ""Light-Medium"", ""Light""]",http,0.0,16,none,"{""id"":""chatcmpl-4nznsjga0rhs5ohtldbisn"",""object"":""chat.completion"",""created"":1795595414,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4805,,MarianeAzar,20261125_084135,2026-11-25T08:30:16.538143+00:00
+3e2441f59735b552,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Left 4 Dead, what is the character Bill's last name?
+A. Roberts
+B. Stevenson
+C. Fish
+D. Overbeck
+Answer:","[""Roberts"", ""Stevenson"", ""Fish"", ""Overbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-qlbiennet3ra0cprztjfwl"",""object"":""chat.completion"",""created"":1795595415,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9955,,MarianeAzar,20261125_084135,2026-11-25T08:30:17.533898+00:00

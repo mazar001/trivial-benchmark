@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+b3eedc8454feaeb4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Big Hero 6, what fictional city is the Big Hero 6 from?
+A. San Tokyo
+B. Sankyo
+C. Tokysisco
+D. San Fransokyo
+Answer:","[""San Tokyo"", ""Sankyo"", ""Tokysisco"", ""San Fransokyo""]",http,0.0,16,none,"{""id"":""chatcmpl-rvaw64u5i1pq5ryeamucp"",""object"":""chat.completion"",""created"":1795593122,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8612,,MarianeAzar,20261125_084135,2026-11-25T07:52:03.633471+00:00
+7329894c9e8210b4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What video game engine does the videogame Quake 2 run in?
+A. Unreal Engine
+B. iD Tech 2
+C. iD Tech 1
+D. iD Tech 3
+Answer:","[""Unreal Engine"", ""iD Tech 2"", ""iD Tech 1"", ""iD Tech 3""]",http,0.0,16,none,"{""id"":""chatcmpl-nwxm7vfu0xdgl6e6vqtez7"",""object"":""chat.completion"",""created"":1795593123,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8716,,MarianeAzar,20261125_084135,2026-11-25T07:52:04.505317+00:00
+7329894c9e8210b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What video game engine does the videogame Quake 2 run in?
+A. Unreal Engine
+B. iD Tech 2
+C. iD Tech 1
+D. iD Tech 3
+Answer:","[""Unreal Engine"", ""iD Tech 2"", ""iD Tech 1"", ""iD Tech 3""]",http,0.0,16,none,"{""id"":""chatcmpl-f4lsltjvoesdh3hqbxae3l"",""object"":""chat.completion"",""created"":1795593123,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261125_084135,2026-11-25T07:52:05.375457+00:00
+eac7a1c2aae03294,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An eggplant is a vegetable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tvve7i1dfbf0h8d3fm7ma07"",""object"":""chat.completion"",""created"":1795593124,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":45,""completion_tokens"":2,""total_tokens"":47,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8308,,MarianeAzar,20261125_084135,2026-11-25T07:52:06.206443+00:00
+eac7a1c2aae03294,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An eggplant is a vegetable.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r9h7o6pgvc4nk8iajzzpn"",""object"":""chat.completion"",""created"":1795593125,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T07:52:07.068180+00:00
+5bfb4fb3e318abcf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress's real name was Frances Ethel Gumm?
+A. Doris Day
+B. Judy Garland
+C. Marilyn Monroe
+D. Julie Andrews
+Answer:","[""Doris Day"", ""Judy Garland"", ""Marilyn Monroe"", ""Julie Andrews""]",http,0.0,16,none,"{""id"":""chatcmpl-cktd1dxwn3goyax8dm3hio"",""object"":""chat.completion"",""created"":1795593126,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T07:52:07.915278+00:00
+5bfb4fb3e318abcf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which actress's real name was Frances Ethel Gumm?
+A. Doris Day
+B. Judy Garland
+C. Marilyn Monroe
+D. Julie Andrews
+Answer:","[""Doris Day"", ""Judy Garland"", ""Marilyn Monroe"", ""Julie Andrews""]",http,0.0,16,none,"{""id"":""chatcmpl-r3hucaiwhc0kw4txj1ll7g"",""object"":""chat.completion"",""created"":1795593127,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8516,,MarianeAzar,20261125_084135,2026-11-25T07:52:08.767148+00:00
+5866b7f5ce4e8bb4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""Berenstein Bears"" is the correct spelling of the educational children's book series' name.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-limjd6ce81fq4ci5sojflm"",""object"":""chat.completion"",""created"":1795593128,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8101,,MarianeAzar,20261125_084135,2026-11-25T07:52:09.577403+00:00
+5866b7f5ce4e8bb4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""Berenstein Bears"" is the correct spelling of the educational children's book series' name.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3z6mcdb7vn8awsd4pi38f8"",""object"":""chat.completion"",""created"":1795593129,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8351,,MarianeAzar,20261125_084135,2026-11-25T07:52:10.412747+00:00
+abf46e6a8ca3ed8e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The dish Fugu, is made from what family of fish?
+A. Pufferfish
+B. Bass
+C. Mackerel
+D. Salmon
+Answer:","[""Pufferfish"", ""Bass"", ""Mackerel"", ""Salmon""]",http,0.0,16,none,"{""id"":""chatcmpl-y0wolvnk41jxsb1pgnrwo"",""object"":""chat.completion"",""created"":1795593129,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8542,,MarianeAzar,20261125_084135,2026-11-25T07:52:11.267235+00:00
+abf46e6a8ca3ed8e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The dish Fugu, is made from what family of fish?
+A. Pufferfish
+B. Bass
+C. Mackerel
+D. Salmon
+Answer:","[""Pufferfish"", ""Bass"", ""Mackerel"", ""Salmon""]",http,0.0,16,none,"{""id"":""chatcmpl-g2akbhbpexiaavk1qmt9"",""object"":""chat.completion"",""created"":1795593130,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8555,,MarianeAzar,20261125_084135,2026-11-25T07:52:12.123203+00:00
+7859c5b8eb4e8ffb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the UEFA Champions League in 2017?
+A. Juventus F.C.
+B. Atletico Madrid
+C. Real Madrid C.F.
+D. AS Monaco FC
+Answer:","[""Juventus F.C."", ""Atletico Madrid"", ""Real Madrid C.F."", ""AS Monaco FC""]",http,0.0,16,none,"{""id"":""chatcmpl-916p3t2dcxmr2kz9fkhlhb"",""object"":""chat.completion"",""created"":1795593131,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8735,,MarianeAzar,20261125_084135,2026-11-25T07:52:12.996937+00:00
+7859c5b8eb4e8ffb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the UEFA Champions League in 2017?
+A. Juventus F.C.
+B. Atletico Madrid
+C. Real Madrid C.F.
+D. AS Monaco FC
+Answer:","[""Juventus F.C."", ""Atletico Madrid"", ""Real Madrid C.F."", ""AS Monaco FC""]",http,0.0,16,none,"{""id"":""chatcmpl-e6aioqg93a4gszlp0qyi2"",""object"":""chat.completion"",""created"":1795593132,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8878,,MarianeAzar,20261125_084135,2026-11-25T07:52:13.885001+00:00
+98acd9429342ea7c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of ""Minecraft""?
+A. Dig And Build
+B. Cave Game
+C. Minecraft: Order of the Stone
+D. Infiniminer
+Answer:","[""Dig And Build"", ""Cave Game"", ""Minecraft: Order of the Stone"", ""Infiniminer""]",http,0.0,16,none,"{""id"":""chatcmpl-0917maihcjnucwzzc6s3m2"",""object"":""chat.completion"",""created"":1795593133,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8806,,MarianeAzar,20261125_084135,2026-11-25T07:52:14.765877+00:00
+98acd9429342ea7c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the original name of ""Minecraft""?
+A. Dig And Build
+B. Cave Game
+C. Minecraft: Order of the Stone
+D. Infiniminer
+Answer:","[""Dig And Build"", ""Cave Game"", ""Minecraft: Order of the Stone"", ""Infiniminer""]",http,0.0,16,none,"{""id"":""chatcmpl-m3quippyqdqikwh06u6b8"",""object"":""chat.completion"",""created"":1795593134,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8576,,MarianeAzar,20261125_084135,2026-11-25T07:52:15.623717+00:00
+7bb5713dde27cb7e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the company in Lethal Company?
+A. Gordian Shipping Co.
+B. Lethal Robotics
+C. The Company
+D. Planet Scrap Co.
+Answer:","[""Gordian Shipping Co."", ""Lethal Robotics"", ""The Company"", ""Planet Scrap Co.""]",http,0.0,16,none,"{""id"":""chatcmpl-kiojnqa3pnh0i4fwpzil0pd"",""object"":""chat.completion"",""created"":1795593135,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8628,,MarianeAzar,20261125_084135,2026-11-25T07:52:16.487023+00:00
+7bb5713dde27cb7e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the company in Lethal Company?
+A. Gordian Shipping Co.
+B. Lethal Robotics
+C. The Company
+D. Planet Scrap Co.
+Answer:","[""Gordian Shipping Co."", ""Lethal Robotics"", ""The Company"", ""Planet Scrap Co.""]",http,0.0,16,none,"{""id"":""chatcmpl-hdow6979m4no15oe1weo0k"",""object"":""chat.completion"",""created"":1795593135,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T07:52:17.344034+00:00
+6e886953e75055c2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the State of Washington, United States?
+A. Seattle
+B. Olympia
+C. Washington D.C.
+D. Yukon
+Answer:","[""Seattle"", ""Olympia"", ""Washington D.C."", ""Yukon""]",http,0.0,16,none,"{""id"":""chatcmpl-jt8x8x46fnr4ggp1qzkh"",""object"":""chat.completion"",""created"":1795593136,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8535,,MarianeAzar,20261125_084135,2026-11-25T07:52:18.197801+00:00
+6e886953e75055c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of the State of Washington, United States?
+A. Seattle
+B. Olympia
+C. Washington D.C.
+D. Yukon
+Answer:","[""Seattle"", ""Olympia"", ""Washington D.C."", ""Yukon""]",http,0.0,16,none,"{""id"":""chatcmpl-lzycl1s6ynl5n4csr7ztxr"",""object"":""chat.completion"",""created"":1795593137,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8537,,MarianeAzar,20261125_084135,2026-11-25T07:52:19.051803+00:00
+33294a11671f7150,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What weakpoint of Achilles was expoited by the Trojan prince, Paris?
+A. Heel
+B. Back
+C. Calf
+D. Neck
+Answer:","[""Heel"", ""Back"", ""Calf"", ""Neck""]",http,0.0,16,none,"{""id"":""chatcmpl-47p0vavdpzvoz4ikwjzwk"",""object"":""chat.completion"",""created"":1795593138,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8492,,MarianeAzar,20261125_084135,2026-11-25T07:52:19.901269+00:00
+33294a11671f7150,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What weakpoint of Achilles was expoited by the Trojan prince, Paris?
+A. Heel
+B. Back
+C. Calf
+D. Neck
+Answer:","[""Heel"", ""Back"", ""Calf"", ""Neck""]",http,0.0,16,none,"{""id"":""chatcmpl-qho2tfaygk4m3rmv8clib"",""object"":""chat.completion"",""created"":1795593139,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.85,,MarianeAzar,20261125_084135,2026-11-25T07:52:20.751533+00:00
+6194a2b3b5365763,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do the letters of the fast food chain KFC stand for?
+A. Kibbled Freaky Cow
+B. Kentucky Fried Chicken
+C. Kiwi Food Cut
+D. Kentucky Fresh Cheese
+Answer:","[""Kibbled Freaky Cow"", ""Kentucky Fried Chicken"", ""Kiwi Food Cut"", ""Kentucky Fresh Cheese""]",http,0.0,16,none,"{""id"":""chatcmpl-szo6mndpgbnx7ha2hoyvd"",""object"":""chat.completion"",""created"":1795593140,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8598,,MarianeAzar,20261125_084135,2026-11-25T07:52:21.611556+00:00
+6194a2b3b5365763,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What do the letters of the fast food chain KFC stand for?
+A. Kibbled Freaky Cow
+B. Kentucky Fried Chicken
+C. Kiwi Food Cut
+D. Kentucky Fresh Cheese
+Answer:","[""Kibbled Freaky Cow"", ""Kentucky Fried Chicken"", ""Kiwi Food Cut"", ""Kentucky Fresh Cheese""]",http,0.0,16,none,"{""id"":""chatcmpl-f0dgc3yvlcjfm7z74be27n"",""object"":""chat.completion"",""created"":1795593141,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T07:52:22.479453+00:00
+3a47110ba5df7fd3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of a nine sided polygon?
+A. Nonagon
+B. Octagon
+C. Heptagon
+D. Hexagon
+Answer:","[""Nonagon"", ""Octagon"", ""Heptagon"", ""Hexagon""]",http,0.0,16,none,"{""id"":""chatcmpl-lsyt4rnyhbis15uk7rl5k"",""object"":""chat.completion"",""created"":1795593141,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8501,,MarianeAzar,20261125_084135,2026-11-25T07:52:23.329790+00:00
+3a47110ba5df7fd3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of a nine sided polygon?
+A. Nonagon
+B. Octagon
+C. Heptagon
+D. Hexagon
+Answer:","[""Nonagon"", ""Octagon"", ""Heptagon"", ""Hexagon""]",http,0.0,16,none,"{""id"":""chatcmpl-iiqrkmec7at4robob6qx"",""object"":""chat.completion"",""created"":1795593142,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:52:24.180863+00:00

@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+085b7579a1143e61,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of ""The Beatles"" narrated episodes of ""Thomas the Tank Engine""?
+A. George Harrison
+B. Paul McCartney
+C. Ringo Starr
+D. John Lennon
+Answer:","[""George Harrison"", ""Paul McCartney"", ""Ringo Starr"", ""John Lennon""]",http,0.0,16,none,"{""id"":""chatcmpl-qrlrujyy5uxt39xy7ohje"",""object"":""chat.completion"",""created"":1795553676,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3812,,MarianeAzar,20261124_215144,2026-11-24T20:54:37.773818+00:00
+085b7579a1143e61,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which member of ""The Beatles"" narrated episodes of ""Thomas the Tank Engine""?
+A. George Harrison
+B. Paul McCartney
+C. Ringo Starr
+D. John Lennon
+Answer:","[""George Harrison"", ""Paul McCartney"", ""Ringo Starr"", ""John Lennon""]",http,0.0,16,none,"{""id"":""chatcmpl-yhqhmkk5x2rb5kxzlpiy"",""object"":""chat.completion"",""created"":1795553677,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1339,,MarianeAzar,20261124_215144,2026-11-24T20:54:38.907907+00:00
+abffc8503cc0d5b3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first IBM PC was released in 1981.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qs0hsn1718idg50o3tzwya"",""object"":""chat.completion"",""created"":1795553678,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9157,,MarianeAzar,20261124_215144,2026-11-24T20:54:39.823832+00:00
+abffc8503cc0d5b3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first IBM PC was released in 1981.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-n6wx2lguclehh4w4q6xlsd"",""object"":""chat.completion"",""created"":1795553679,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9089,,MarianeAzar,20261124_215144,2026-11-24T20:54:40.732928+00:00
+39b4a4e34b223a1e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Neutral Milk Hotel"" is a real band.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yr023hn2khk5e50xo941be"",""object"":""chat.completion"",""created"":1795553680,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4767,,MarianeAzar,20261124_215144,2026-11-24T20:54:42.209809+00:00
+39b4a4e34b223a1e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Neutral Milk Hotel"" is a real band.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5kezqwh3yjyebf9wrpaoa"",""object"":""chat.completion"",""created"":1795553682,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2512,,MarianeAzar,20261124_215144,2026-11-24T20:54:43.461181+00:00
+025a6919ae8b8562,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was Eliza ""Ash"" Cohen from ""Tom Clancy's Rainbow Six Siege"" born in?
+A. United States of America
+B. Israel
+C. Canada
+D. Mexico
+Answer:","[""United States of America"", ""Israel"", ""Canada"", ""Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-ml1kjev9x4kt7c9huz59o"",""object"":""chat.completion"",""created"":1795553683,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0188,,MarianeAzar,20261124_215144,2026-11-24T20:54:44.480099+00:00
+025a6919ae8b8562,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country was Eliza ""Ash"" Cohen from ""Tom Clancy's Rainbow Six Siege"" born in?
+A. United States of America
+B. Israel
+C. Canada
+D. Mexico
+Answer:","[""United States of America"", ""Israel"", ""Canada"", ""Mexico""]",http,0.0,16,none,"{""id"":""chatcmpl-o4p8k403p5737gpltqcxv"",""object"":""chat.completion"",""created"":1795553684,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2478,,MarianeAzar,20261124_215144,2026-11-24T20:54:45.728038+00:00
+3eee020e725056d8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the F stand for in the FBI?
+A. Formal
+B. Foreign
+C. First
+D. Federal
+Answer:","[""Formal"", ""Foreign"", ""First"", ""Federal""]",http,0.0,16,none,"{""id"":""chatcmpl-3gi7zy5d5ag8xzdije2t1c"",""object"":""chat.completion"",""created"":1795553685,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3256,,MarianeAzar,20261124_215144,2026-11-24T20:54:47.053846+00:00
+3eee020e725056d8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What does the F stand for in the FBI?
+A. Formal
+B. Foreign
+C. First
+D. Federal
+Answer:","[""Formal"", ""Foreign"", ""First"", ""Federal""]",http,0.0,16,none,"{""id"":""chatcmpl-y4nycba2vpxpiluxep9ej"",""object"":""chat.completion"",""created"":1795553686,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.017,,MarianeAzar,20261124_215144,2026-11-24T20:54:48.071294+00:00
+02a2400d422ac4fa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the website reddit founded ?
+A. 2005
+B. 2004
+C. 2008
+D. 2006
+Answer:","[""2005"", ""2004"", ""2008"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-t9k5dmdeu7mlk7qcfxl2q"",""object"":""chat.completion"",""created"":1795553687,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9445,,MarianeAzar,20261124_215144,2026-11-24T20:54:49.016458+00:00
+02a2400d422ac4fa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the website reddit founded ?
+A. 2005
+B. 2004
+C. 2008
+D. 2006
+Answer:","[""2005"", ""2004"", ""2008"", ""2006""]",http,0.0,16,none,"{""id"":""chatcmpl-4qj92jh4kbb8sqpxr5fmn"",""object"":""chat.completion"",""created"":1795553688,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3884,,MarianeAzar,20261124_215144,2026-11-24T20:54:50.405106+00:00
+93ebf91e817296b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animated movie was first to feature a celebrity as a voice actor?
+A. The Hunchback of Notre Dame
+B. James and the Giant Peach
+C. Aladdin
+D. Toy Story
+Answer:","[""The Hunchback of Notre Dame"", ""James and the Giant Peach"", ""Aladdin"", ""Toy Story""]",http,0.0,16,none,"{""id"":""chatcmpl-9emft62x7tjmydkoanitr"",""object"":""chat.completion"",""created"":1795553690,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0379,,MarianeAzar,20261124_215144,2026-11-24T20:54:51.443420+00:00
+93ebf91e817296b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which animated movie was first to feature a celebrity as a voice actor?
+A. The Hunchback of Notre Dame
+B. James and the Giant Peach
+C. Aladdin
+D. Toy Story
+Answer:","[""The Hunchback of Notre Dame"", ""James and the Giant Peach"", ""Aladdin"", ""Toy Story""]",http,0.0,16,none,"{""id"":""chatcmpl-qyyoyihtzaen752aj5zc7b"",""object"":""chat.completion"",""created"":1795553691,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2809,,MarianeAzar,20261124_215144,2026-11-24T20:54:52.724796+00:00
+30976f06cec4045d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the electronic music duo ""The Knife"" originate from?
+A. Norway
+B. Denmark
+C. Finland
+D. Sweden
+Answer:","[""Norway"", ""Denmark"", ""Finland"", ""Sweden""]",http,0.0,16,none,"{""id"":""chatcmpl-12ut9xwq8hpa8dntzuvnrz6"",""object"":""chat.completion"",""created"":1795553692,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3798,,MarianeAzar,20261124_215144,2026-11-24T20:54:54.104912+00:00
+30976f06cec4045d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country does the electronic music duo ""The Knife"" originate from?
+A. Norway
+B. Denmark
+C. Finland
+D. Sweden
+Answer:","[""Norway"", ""Denmark"", ""Finland"", ""Sweden""]",http,0.0,16,none,"{""id"":""chatcmpl-yr4zdsndgjqujgqc349dq"",""object"":""chat.completion"",""created"":1795553694,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0154,,MarianeAzar,20261124_215144,2026-11-24T20:54:55.120524+00:00
+42868d7319e98b92,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2012 the German-speaking microstate ""Liechtenstein"" in Central Europe had a population of how many inhabitants?
+A. 90,000
+B. 2,400
+C. 36,600
+D. 323,400
+Answer:","[""90,000"", ""2,400"", ""36,600"", ""323,400""]",http,0.0,16,none,"{""id"":""chatcmpl-n9wkhxklmfmt9hruu6253d"",""object"":""chat.completion"",""created"":1795553695,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9792,,MarianeAzar,20261124_215144,2026-11-24T20:54:56.100006+00:00
+42868d7319e98b92,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2012 the German-speaking microstate ""Liechtenstein"" in Central Europe had a population of how many inhabitants?
+A. 90,000
+B. 2,400
+C. 36,600
+D. 323,400
+Answer:","[""90,000"", ""2,400"", ""36,600"", ""323,400""]",http,0.0,16,none,"{""id"":""chatcmpl-x515epmsiyr2plf0d42zvs"",""object"":""chat.completion"",""created"":1795553696,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":128,""completion_tokens"":2,""total_tokens"":130,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4398,,MarianeAzar,20261124_215144,2026-11-24T20:54:57.540118+00:00
+3fc8ed4e10666564,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?
+A. Inuinnaqtun
+B. Greenlandic
+C. Inupiat
+D. Inuktitut
+Answer:","[""Inuinnaqtun"", ""Greenlandic"", ""Inupiat"", ""Inuktitut""]",http,0.0,16,none,"{""id"":""chatcmpl-lzsxvpjh0olbhg3pz4euif"",""object"":""chat.completion"",""created"":1795553697,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9458,,MarianeAzar,20261124_215144,2026-11-24T20:54:58.486236+00:00
+3fc8ed4e10666564,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following Inuit languages was the FIRST to use a unique writing system not based on the Latin alphabet?
+A. Inuinnaqtun
+B. Greenlandic
+C. Inupiat
+D. Inuktitut
+Answer:","[""Inuinnaqtun"", ""Greenlandic"", ""Inupiat"", ""Inuktitut""]",http,0.0,16,none,"{""id"":""chatcmpl-yekupluhwtmk5uqfmmj1na"",""object"":""chat.completion"",""created"":1795553698,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2973,,MarianeAzar,20261124_215144,2026-11-24T20:54:59.783791+00:00
+3604de0da695488b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Brazil?
+A. Curitiba
+B. Sao Paolo
+C. Brasilia
+D. Rio de Janeiro
+Answer:","[""Curitiba"", ""Sao Paolo"", ""Brasilia"", ""Rio de Janeiro""]",http,0.0,16,none,"{""id"":""chatcmpl-egr3tq6ce78fcqtrb2p8y5"",""object"":""chat.completion"",""created"":1795553699,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3548,,MarianeAzar,20261124_215144,2026-11-24T20:55:01.139433+00:00
+3604de0da695488b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Brazil?
+A. Curitiba
+B. Sao Paolo
+C. Brasilia
+D. Rio de Janeiro
+Answer:","[""Curitiba"", ""Sao Paolo"", ""Brasilia"", ""Rio de Janeiro""]",http,0.0,16,none,"{""id"":""chatcmpl-5taf5g8wqikz8jasyirs7m"",""object"":""chat.completion"",""created"":1795553701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9153,,MarianeAzar,20261124_215144,2026-11-24T20:55:02.054973+00:00
+024011c0a1765f09,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This play is generally considered to be the most adaptable of Shakespeare’s works, and follows two “star-crossed lovers”.
+A. The Tempest
+B. Romeo and Juliet
+C. King Lear
+D. Hamlet
+Answer:","[""The Tempest"", ""Romeo and Juliet"", ""King Lear"", ""Hamlet""]",http,0.0,16,none,"{""id"":""chatcmpl-0nq1ug6tarq74qdmssxrcd"",""object"":""chat.completion"",""created"":1795553701,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0619,,MarianeAzar,20261124_215144,2026-11-24T20:55:03.117306+00:00
+024011c0a1765f09,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: This play is generally considered to be the most adaptable of Shakespeare’s works, and follows two “star-crossed lovers”.
+A. The Tempest
+B. Romeo and Juliet
+C. King Lear
+D. Hamlet
+Answer:","[""The Tempest"", ""Romeo and Juliet"", ""King Lear"", ""Hamlet""]",http,0.0,16,none,"{""id"":""chatcmpl-r8u2kiap4i9n27layamhed"",""object"":""chat.completion"",""created"":1795553703,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3447,,MarianeAzar,20261124_215144,2026-11-24T20:55:04.462247+00:00
+1abf3b7584bbaa59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the video game ""Pizza Tower"", what is the protagonist's name?
+A. Pastachio
+B. Pepper
+C. Peppino
+D. Spinachio
+Answer:","[""Pastachio"", ""Pepper"", ""Peppino"", ""Spinachio""]",http,0.0,16,none,"{""id"":""chatcmpl-erpdm7oj1wl67pgs2jxv06"",""object"":""chat.completion"",""created"":1795553704,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.958,,MarianeAzar,20261124_215144,2026-11-24T20:55:05.420678+00:00

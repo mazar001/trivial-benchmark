@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+7cab1bc3d9eb7d89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which type of cutlery is most suited for eating soup?
+A. Knife
+B. Fork
+C. Chopsticks
+D. Spoon
+Answer:","[""Knife"", ""Fork"", ""Chopsticks"", ""Spoon""]",http,0.0,16,none,"{""id"":""chatcmpl-ht7ixccnvyk8483aum4up6"",""object"":""chat.completion"",""created"":1795596315,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261125_084135,2026-11-25T08:45:16.632334+00:00
+f0bd0046309121e4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following cellular device companies is NOT headquartered in Asia?
+A. HTC
+B. Samsung
+C. Nokia
+D. LG Electronics
+Answer:","[""HTC"", ""Samsung"", ""Nokia"", ""LG Electronics""]",http,0.0,16,none,"{""id"":""chatcmpl-7qcu65b2p5d2tucvzlzyjj"",""object"":""chat.completion"",""created"":1795596316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8675,,MarianeAzar,20261125_084135,2026-11-25T08:45:17.500113+00:00
+f0bd0046309121e4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following cellular device companies is NOT headquartered in Asia?
+A. HTC
+B. Samsung
+C. Nokia
+D. LG Electronics
+Answer:","[""HTC"", ""Samsung"", ""Nokia"", ""LG Electronics""]",http,0.0,16,none,"{""id"":""chatcmpl-xmiisyflsppt998lwze6ad"",""object"":""chat.completion"",""created"":1795596316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8752,,MarianeAzar,20261125_084135,2026-11-25T08:45:18.375417+00:00
+1f6244a850aca296,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters in ""Undertale"" can the player NOT go on a date with?
+A. Papyrus
+B. Undyne
+C. Toriel
+D. Alphys
+Answer:","[""Papyrus"", ""Undyne"", ""Toriel"", ""Alphys""]",http,0.0,16,none,"{""id"":""chatcmpl-qzge3rjlqlmf29kul3kqnp"",""object"":""chat.completion"",""created"":1795596317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261125_084135,2026-11-25T08:45:19.235457+00:00
+1f6244a850aca296,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters in ""Undertale"" can the player NOT go on a date with?
+A. Papyrus
+B. Undyne
+C. Toriel
+D. Alphys
+Answer:","[""Papyrus"", ""Undyne"", ""Toriel"", ""Alphys""]",http,0.0,16,none,"{""id"":""chatcmpl-gfeslv3j6d4w6z03k6ziyk"",""object"":""chat.completion"",""created"":1795596318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261125_084135,2026-11-25T08:45:20.099214+00:00
+ac13fda441fd6c5f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Cashmere is the wool from which kind of animal?
+A. Sheep
+B. Llama
+C. Camel
+D. Goat
+Answer:","[""Sheep"", ""Llama"", ""Camel"", ""Goat""]",http,0.0,16,none,"{""id"":""chatcmpl-z1hqubekqkyv7rkfd8o5c"",""object"":""chat.completion"",""created"":1795596319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8572,,MarianeAzar,20261125_084135,2026-11-25T08:45:20.956923+00:00
+ac13fda441fd6c5f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Cashmere is the wool from which kind of animal?
+A. Sheep
+B. Llama
+C. Camel
+D. Goat
+Answer:","[""Sheep"", ""Llama"", ""Camel"", ""Goat""]",http,0.0,16,none,"{""id"":""chatcmpl-fwz08a1wocqrgo60u6suel"",""object"":""chat.completion"",""created"":1795596320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8561,,MarianeAzar,20261125_084135,2026-11-25T08:45:21.813342+00:00
+2e39551043b3cc89,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In relation to the British Occupation in Ireland, what does the IRA stand for.
+A. Irish-Royal Alliance
+B. Irish Reformation Army
+C. Irish Republican Army
+D. Irish Rebel Alliance
+Answer:","[""Irish-Royal Alliance"", ""Irish Reformation Army"", ""Irish Republican Army"", ""Irish Rebel Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-f6qljxltby9zeo535awqna"",""object"":""chat.completion"",""created"":1795596321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8544,,MarianeAzar,20261125_084135,2026-11-25T08:45:22.668216+00:00
+2e39551043b3cc89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In relation to the British Occupation in Ireland, what does the IRA stand for.
+A. Irish-Royal Alliance
+B. Irish Reformation Army
+C. Irish Republican Army
+D. Irish Rebel Alliance
+Answer:","[""Irish-Royal Alliance"", ""Irish Reformation Army"", ""Irish Republican Army"", ""Irish Rebel Alliance""]",http,0.0,16,none,"{""id"":""chatcmpl-6azqckby3agvhb4sp4jn28"",""object"":""chat.completion"",""created"":1795596322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8808,,MarianeAzar,20261125_084135,2026-11-25T08:45:23.549304+00:00
+30293ab3c1c536d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full first name of the babysitter in Calvin and Hobbes?
+A. Rachel
+B. Rose
+C. Ruby
+D. Rosalyn
+Answer:","[""Rachel"", ""Rose"", ""Ruby"", ""Rosalyn""]",http,0.0,16,none,"{""id"":""chatcmpl-yoqtbvy9s2d6yf0uzoywau"",""object"":""chat.completion"",""created"":1795596322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8538,,MarianeAzar,20261125_084135,2026-11-25T08:45:24.403584+00:00
+30293ab3c1c536d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the full first name of the babysitter in Calvin and Hobbes?
+A. Rachel
+B. Rose
+C. Ruby
+D. Rosalyn
+Answer:","[""Rachel"", ""Rose"", ""Ruby"", ""Rosalyn""]",http,0.0,16,none,"{""id"":""chatcmpl-e62x4l7vbmo2hergcy47e"",""object"":""chat.completion"",""created"":1795596323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T08:45:25.258395+00:00
+062105e2f7132599,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal takes part in Schrödinger's most famous thought experiment?
+A. Butterfly
+B. Cat
+C. Dog
+D. Bat
+Answer:","[""Butterfly"", ""Cat"", ""Dog"", ""Bat""]",http,0.0,16,none,"{""id"":""chatcmpl-nvuuygzhkuhhnzasgklhu"",""object"":""chat.completion"",""created"":1795596324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261125_084135,2026-11-25T08:45:26.109986+00:00
+062105e2f7132599,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What animal takes part in Schrödinger's most famous thought experiment?
+A. Butterfly
+B. Cat
+C. Dog
+D. Bat
+Answer:","[""Butterfly"", ""Cat"", ""Dog"", ""Bat""]",http,0.0,16,none,"{""id"":""chatcmpl-5uvb14a8isxa2pde1qsi9o"",""object"":""chat.completion"",""created"":1795596325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.853,,MarianeAzar,20261125_084135,2026-11-25T08:45:26.963204+00:00
+29e0d57ad8f2fdfa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Super Hang-On"" which is the top speed WITH the use of turbo?
+A. 324 km/h
+B. 280 km/h
+C. 320 km/h
+D. 286 km/h
+Answer:","[""324 km/h"", ""280 km/h"", ""320 km/h"", ""286 km/h""]",http,0.0,16,none,"{""id"":""chatcmpl-exzl72ovr4pb1z90jorky"",""object"":""chat.completion"",""created"":1795596326,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261125_084135,2026-11-25T08:45:27.840373+00:00
+29e0d57ad8f2fdfa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Super Hang-On"" which is the top speed WITH the use of turbo?
+A. 324 km/h
+B. 280 km/h
+C. 320 km/h
+D. 286 km/h
+Answer:","[""324 km/h"", ""280 km/h"", ""320 km/h"", ""286 km/h""]",http,0.0,16,none,"{""id"":""chatcmpl-nu941k6tjsfg1g06lwkq5"",""object"":""chat.completion"",""created"":1795596327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9057,,MarianeAzar,20261125_084135,2026-11-25T08:45:28.746297+00:00
+f9c5816e913b3f79,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Divinity: Original Sin 2, who is the earliest companion you can acquire?
+A. Beast
+B. Fane
+C. Sebille
+D. The Red Prince
+Answer:","[""Beast"", ""Fane"", ""Sebille"", ""The Red Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-ircrpg4e24k58hq90rz8"",""object"":""chat.completion"",""created"":1795596328,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8747,,MarianeAzar,20261125_084135,2026-11-25T08:45:29.621557+00:00
+f9c5816e913b3f79,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Divinity: Original Sin 2, who is the earliest companion you can acquire?
+A. Beast
+B. Fane
+C. Sebille
+D. The Red Prince
+Answer:","[""Beast"", ""Fane"", ""Sebille"", ""The Red Prince""]",http,0.0,16,none,"{""id"":""chatcmpl-igfkxdxiv0efr4f9yul45b"",""object"":""chat.completion"",""created"":1795596329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8768,,MarianeAzar,20261125_084135,2026-11-25T08:45:30.498648+00:00
+94266dfe74293c08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?
+A. ""You used to be so warm and affectionate...but now you're quick to get into your regret""
+B. ""A rainy Lithuanian / Is dancing as an Indian""
+C. ""Fly away on, my zephyr / I feel it more than ever""
+D. ""And I liked the dimple in your chin / Your pale blue eyes""
+Answer:","[""\""You used to be so warm and affectionate...but now you're quick to get into your regret\"""", ""\""A rainy Lithuanian / Is dancing as an Indian\"""", ""\""Fly away on, my zephyr / I feel it more than ever\"""", ""\""And I liked the dimple in your chin / Your pale blue eyes\""""]",http,0.0,16,none,"{""id"":""chatcmpl-jhxgq44igob3lqnil4c1j"",""object"":""chat.completion"",""created"":1795596329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":138,""completion_tokens"":2,""total_tokens"":140,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9729,,MarianeAzar,20261125_084135,2026-11-25T08:45:31.471871+00:00
+94266dfe74293c08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?
+A. ""You used to be so warm and affectionate...but now you're quick to get into your regret""
+B. ""A rainy Lithuanian / Is dancing as an Indian""
+C. ""Fly away on, my zephyr / I feel it more than ever""
+D. ""And I liked the dimple in your chin / Your pale blue eyes""
+Answer:","[""\""You used to be so warm and affectionate...but now you're quick to get into your regret\"""", ""\""A rainy Lithuanian / Is dancing as an Indian\"""", ""\""Fly away on, my zephyr / I feel it more than ever\"""", ""\""And I liked the dimple in your chin / Your pale blue eyes\""""]",http,0.0,16,none,"{""id"":""chatcmpl-rvewiqrkyjmfpb6iep5fw"",""object"":""chat.completion"",""created"":1795596330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":152,""completion_tokens"":2,""total_tokens"":154,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.995,,MarianeAzar,20261125_084135,2026-11-25T08:45:32.467053+00:00
+05443a3f4898bca4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for mass?
+A. Kilogram
+B. Gram
+C. Tonne
+D. Pound
+Answer:","[""Kilogram"", ""Gram"", ""Tonne"", ""Pound""]",http,0.0,16,none,"{""id"":""chatcmpl-anr0wzak2tk7np17eteq0g"",""object"":""chat.completion"",""created"":1795596331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8994,,MarianeAzar,20261125_084135,2026-11-25T08:45:33.366572+00:00
+05443a3f4898bca4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the standard SI unit for mass?
+A. Kilogram
+B. Gram
+C. Tonne
+D. Pound
+Answer:","[""Kilogram"", ""Gram"", ""Tonne"", ""Pound""]",http,0.0,16,none,"{""id"":""chatcmpl-t7rs56n9p549q2hff32m6"",""object"":""chat.completion"",""created"":1795596332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8485,,MarianeAzar,20261125_084135,2026-11-25T08:45:34.215332+00:00
+c0229909ba168eb6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Portal series of games, who was the founder of Aperture Science?
+A. Wallace Breen
+B. Gordon Freeman
+C. GLaDOs
+D. Cave Johnson
+Answer:","[""Wallace Breen"", ""Gordon Freeman"", ""GLaDOs"", ""Cave Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-par35dwxm3l3awccco0nzx"",""object"":""chat.completion"",""created"":1795596333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8616,,MarianeAzar,20261125_084135,2026-11-25T08:45:35.077137+00:00
+c0229909ba168eb6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Portal series of games, who was the founder of Aperture Science?
+A. Wallace Breen
+B. Gordon Freeman
+C. GLaDOs
+D. Cave Johnson
+Answer:","[""Wallace Breen"", ""Gordon Freeman"", ""GLaDOs"", ""Cave Johnson""]",http,0.0,16,none,"{""id"":""chatcmpl-diz6dr19nbph4q8wgsnkla"",""object"":""chat.completion"",""created"":1795596334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8732,,MarianeAzar,20261125_084135,2026-11-25T08:45:35.950515+00:00
+6fb86995f70e57eb,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In RuneScape, one must complete the ""Dragon Slayer"" quest before equipping Rune Platelegs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-faxmenxujayi8ddqx35aj"",""object"":""chat.completion"",""created"":1795596335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8216,,MarianeAzar,20261125_084135,2026-11-25T08:45:36.772409+00:00
+6fb86995f70e57eb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In RuneScape, one must complete the ""Dragon Slayer"" quest before equipping Rune Platelegs.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t7dw3vt62tdhidd2r736u"",""object"":""chat.completion"",""created"":1795596336,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8437,,MarianeAzar,20261125_084135,2026-11-25T08:45:37.616247+00:00

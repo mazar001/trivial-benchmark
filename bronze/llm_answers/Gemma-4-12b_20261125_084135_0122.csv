@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+08ee558cf5c8426c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the Star Wars lore, what is Han Solo's home planet?
+A. Naboo
+B. Corellia
+C. Coruscant
+D. Tatooine
+Answer:","[""Naboo"", ""Corellia"", ""Coruscant"", ""Tatooine""]",http,0.0,16,none,"{""id"":""chatcmpl-apdljd4lif9sqbi8pl2w9"",""object"":""chat.completion"",""created"":1795595501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0464,,MarianeAzar,20261125_084135,2026-11-25T08:31:43.344444+00:00
+08ee558cf5c8426c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to the Star Wars lore, what is Han Solo's home planet?
+A. Naboo
+B. Corellia
+C. Coruscant
+D. Tatooine
+Answer:","[""Naboo"", ""Corellia"", ""Coruscant"", ""Tatooine""]",http,0.0,16,none,"{""id"":""chatcmpl-b6nuy1zr6jfc7h6yogg4vg"",""object"":""chat.completion"",""created"":1795595502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9711,,MarianeAzar,20261125_084135,2026-11-25T08:31:44.315808+00:00
+d442d533e2b6f326,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which video game did Michael Fassbender star?
+A. Red Dead Redemption
+B. Fable 3
+C. Call of Duty: Modern Warfare
+D. Assassin's Creed 3
+Answer:","[""Red Dead Redemption"", ""Fable 3"", ""Call of Duty: Modern Warfare"", ""Assassin's Creed 3""]",http,0.0,16,none,"{""id"":""chatcmpl-bgrkep59gkjqt8e959moc"",""object"":""chat.completion"",""created"":1795595503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8647,,MarianeAzar,20261125_084135,2026-11-25T08:31:45.180810+00:00
+d442d533e2b6f326,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which video game did Michael Fassbender star?
+A. Red Dead Redemption
+B. Fable 3
+C. Call of Duty: Modern Warfare
+D. Assassin's Creed 3
+Answer:","[""Red Dead Redemption"", ""Fable 3"", ""Call of Duty: Modern Warfare"", ""Assassin's Creed 3""]",http,0.0,16,none,"{""id"":""chatcmpl-jpefffibl496drgobw79cq"",""object"":""chat.completion"",""created"":1795595504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8794,,MarianeAzar,20261125_084135,2026-11-25T08:31:46.060522+00:00
+a17e37611b3e8c98,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The US emergency hotline is 911 because of the September 11th terrorist attacks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-r071k8cnxypw1p9lnvj6p"",""object"":""chat.completion"",""created"":1795595505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8318,,MarianeAzar,20261125_084135,2026-11-25T08:31:46.892498+00:00
+a17e37611b3e8c98,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The US emergency hotline is 911 because of the September 11th terrorist attacks.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-d6wkm0dgr12s2y31t8rzc"",""object"":""chat.completion"",""created"":1795595506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T08:31:47.743236+00:00
+a751b284a0aa0d58,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first PlayStation console was released in the USA on December 3rd, 1994.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-yqxxhdnzqtjogvs2iiq7ba"",""object"":""chat.completion"",""created"":1795595507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8458,,MarianeAzar,20261125_084135,2026-11-25T08:31:48.589218+00:00
+a751b284a0aa0d58,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The first PlayStation console was released in the USA on December 3rd, 1994.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-evko3ob5xa4cif7px04z0e"",""object"":""chat.completion"",""created"":1795595508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9047,,MarianeAzar,20261125_084135,2026-11-25T08:31:49.494117+00:00
+c64bfdd0c38a4780,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Greek Mythology, who killed Achilles?
+A. Pericles
+B. Hector
+C. Paris
+D. Helen
+Answer:","[""Pericles"", ""Hector"", ""Paris"", ""Helen""]",http,0.0,16,none,"{""id"":""chatcmpl-m69rzohh338dpaltukla"",""object"":""chat.completion"",""created"":1795595508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8506,,MarianeAzar,20261125_084135,2026-11-25T08:31:50.344948+00:00
+c64bfdd0c38a4780,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Greek Mythology, who killed Achilles?
+A. Pericles
+B. Hector
+C. Paris
+D. Helen
+Answer:","[""Pericles"", ""Hector"", ""Paris"", ""Helen""]",http,0.0,16,none,"{""id"":""chatcmpl-wybcxiafwpyey4u25j7uo"",""object"":""chat.completion"",""created"":1795595509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:31:51.202236+00:00
+d23bd595c0da5615,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Leonardo da Vinci's Mona Lisa does not have eyebrows.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-m1xht8u4g3kbahjjvhbqg"",""object"":""chat.completion"",""created"":1795595510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8072,,MarianeAzar,20261125_084135,2026-11-25T08:31:52.009847+00:00
+d23bd595c0da5615,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Leonardo da Vinci's Mona Lisa does not have eyebrows.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jhcdvnlelymujb8g5ij3z"",""object"":""chat.completion"",""created"":1795595511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8456,,MarianeAzar,20261125_084135,2026-11-25T08:31:52.855613+00:00
+c5c2baf1433fc50c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many copies have Metallica album ""Metallica"" (A.K.A The Black Album) sold worldwide (in Millions of Copies)?
+A. 22.5
+B. 20.5
+C. 25.5
+D. 19.5
+Answer:","[""22.5"", ""20.5"", ""25.5"", ""19.5""]",http,0.0,16,none,"{""id"":""chatcmpl-97utyuqpf8jw8q11jmlb7"",""object"":""chat.completion"",""created"":1795595512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9222,,MarianeAzar,20261125_084135,2026-11-25T08:31:53.778031+00:00
+c5c2baf1433fc50c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many copies have Metallica album ""Metallica"" (A.K.A The Black Album) sold worldwide (in Millions of Copies)?
+A. 22.5
+B. 20.5
+C. 25.5
+D. 19.5
+Answer:","[""22.5"", ""20.5"", ""25.5"", ""19.5""]",http,0.0,16,none,"{""id"":""chatcmpl-g30ixgxqz4tbjbrib649"",""object"":""chat.completion"",""created"":1795595513,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":121,""completion_tokens"":2,""total_tokens"":123,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.971,,MarianeAzar,20261125_084135,2026-11-25T08:31:54.749309+00:00
+e9dc10142f938f48,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""mountain chicken"" is a chicken.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vvcfra720a27yh4ho9who"",""object"":""chat.completion"",""created"":1795595514,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8583,,MarianeAzar,20261125_084135,2026-11-25T08:31:55.607831+00:00
+e9dc10142f938f48,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ""mountain chicken"" is a chicken.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8dwb9d1u1vm4y6waakrvzm"",""object"":""chat.completion"",""created"":1795595515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8237,,MarianeAzar,20261125_084135,2026-11-25T08:31:56.431678+00:00
+a306e3cc09f2db49,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were the first two Pokémon games released?
+A. Red and Green
+B. Red and Blue
+C. Red and Yellow
+D. Green and Blue
+Answer:","[""Red and Green"", ""Red and Blue"", ""Red and Yellow"", ""Green and Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-zqt559lmhtfufazfxrs4t9"",""object"":""chat.completion"",""created"":1795595515,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8787,,MarianeAzar,20261125_084135,2026-11-25T08:31:57.310789+00:00
+a306e3cc09f2db49,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What were the first two Pokémon games released?
+A. Red and Green
+B. Red and Blue
+C. Red and Yellow
+D. Green and Blue
+Answer:","[""Red and Green"", ""Red and Blue"", ""Red and Yellow"", ""Green and Blue""]",http,0.0,16,none,"{""id"":""chatcmpl-30kqqyen01odr7hztslefo"",""object"":""chat.completion"",""created"":1795595516,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9174,,MarianeAzar,20261125_084135,2026-11-25T08:31:58.228429+00:00
+3549315eda6160e3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was not one of Joseph Stalin's ten blows during World War II?
+A. Crimean Offensive
+B. Vistula-Oder Offensive
+C. Leningrad-Novgorod Offensive
+D. Operation Bagration
+Answer:","[""Crimean Offensive"", ""Vistula-Oder Offensive"", ""Leningrad-Novgorod Offensive"", ""Operation Bagration""]",http,0.0,16,none,"{""id"":""chatcmpl-tis4mkcr4tji3t0eg8n66"",""object"":""chat.completion"",""created"":1795595517,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8593,,MarianeAzar,20261125_084135,2026-11-25T08:31:59.088187+00:00
+3549315eda6160e3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following was not one of Joseph Stalin's ten blows during World War II?
+A. Crimean Offensive
+B. Vistula-Oder Offensive
+C. Leningrad-Novgorod Offensive
+D. Operation Bagration
+Answer:","[""Crimean Offensive"", ""Vistula-Oder Offensive"", ""Leningrad-Novgorod Offensive"", ""Operation Bagration""]",http,0.0,16,none,"{""id"":""chatcmpl-fdi4pw4w1fq0gr8a2qrh8sc"",""object"":""chat.completion"",""created"":1795595518,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9141,,MarianeAzar,20261125_084135,2026-11-25T08:32:00.002556+00:00
+83dd576d84e85ae8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the best selling album of all time from 1976 to 2018?
+A. Abbey Road
+B. The Dark Side of the Moon
+C. Back in Black
+D. Thriller
+Answer:","[""Abbey Road"", ""The Dark Side of the Moon"", ""Back in Black"", ""Thriller""]",http,0.0,16,none,"{""id"":""chatcmpl-0g5rwo1fwvm90898vcgqcj0a"",""object"":""chat.completion"",""created"":1795595519,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8681,,MarianeAzar,20261125_084135,2026-11-25T08:32:00.871334+00:00
+83dd576d84e85ae8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the best selling album of all time from 1976 to 2018?
+A. Abbey Road
+B. The Dark Side of the Moon
+C. Back in Black
+D. Thriller
+Answer:","[""Abbey Road"", ""The Dark Side of the Moon"", ""Back in Black"", ""Thriller""]",http,0.0,16,none,"{""id"":""chatcmpl-u0mlr42y9cmdibw7prz3"",""object"":""chat.completion"",""created"":1795595520,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8958,,MarianeAzar,20261125_084135,2026-11-25T08:32:01.767325+00:00
+44be70caf04baefd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game was the first time Mario was voiced by Charles Martinet?
+A. Mario's Game Gallery
+B. Super Mario 64
+C. Dr. Mario 64
+D. Mario Tennis
+Answer:","[""Mario's Game Gallery"", ""Super Mario 64"", ""Dr. Mario 64"", ""Mario Tennis""]",http,0.0,16,none,"{""id"":""chatcmpl-32bxy6wgfqiyu60y7b37m"",""object"":""chat.completion"",""created"":1795595521,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8995,,MarianeAzar,20261125_084135,2026-11-25T08:32:02.667234+00:00
+44be70caf04baefd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which game was the first time Mario was voiced by Charles Martinet?
+A. Mario's Game Gallery
+B. Super Mario 64
+C. Dr. Mario 64
+D. Mario Tennis
+Answer:","[""Mario's Game Gallery"", ""Super Mario 64"", ""Dr. Mario 64"", ""Mario Tennis""]",http,0.0,16,none,"{""id"":""chatcmpl-f1m273ycwsmg4doy1udwi"",""object"":""chat.completion"",""created"":1795595522,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8973,,MarianeAzar,20261125_084135,2026-11-25T08:32:03.564846+00:00
+98e9d6dac0dc3922,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What car manufacturer gave away their patent for the seat-belt in the interest of saving lives?
+A. Volvo
+B. Ferrari
+C. Renault
+D. Ford
+Answer:","[""Volvo"", ""Ferrari"", ""Renault"", ""Ford""]",http,0.0,16,none,"{""id"":""chatcmpl-2dawp2mk00859srhn3ev9o"",""object"":""chat.completion"",""created"":1795595523,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T08:32:04.437855+00:00

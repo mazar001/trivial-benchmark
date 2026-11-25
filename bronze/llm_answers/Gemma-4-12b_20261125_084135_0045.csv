@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+228af0f6037335cf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the anime ""Gintama"" which accessory/article of clothing is the character Shinpachi commonly referred to as?
+A. T-Shirt
+B. Underwear
+C. Nose Ring
+D. Glasses
+Answer:","[""T-Shirt"", ""Underwear"", ""Nose Ring"", ""Glasses""]",http,0.0,16,none,"{""id"":""chatcmpl-89y5sjxb4y8f8yp2m2biss"",""object"":""chat.completion"",""created"":1795593469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8929,,MarianeAzar,20261125_084135,2026-11-25T07:57:50.484541+00:00
+46513deef554b333,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the hero in the 80s animated video game 'Dragon's Lair'?
+A. Arthur
+B. Dirk the Daring
+C. Sir Toby Belch
+D. Guy of Gisbourne
+Answer:","[""Arthur"", ""Dirk the Daring"", ""Sir Toby Belch"", ""Guy of Gisbourne""]",http,0.0,16,none,"{""id"":""chatcmpl-kd8hjoakr0ea0ailg4d6c4"",""object"":""chat.completion"",""created"":1795593469,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8727,,MarianeAzar,20261125_084135,2026-11-25T07:57:51.357638+00:00
+46513deef554b333,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the name of the hero in the 80s animated video game 'Dragon's Lair'?
+A. Arthur
+B. Dirk the Daring
+C. Sir Toby Belch
+D. Guy of Gisbourne
+Answer:","[""Arthur"", ""Dirk the Daring"", ""Sir Toby Belch"", ""Guy of Gisbourne""]",http,0.0,16,none,"{""id"":""chatcmpl-rg48kqi8vdbxq73plcoky"",""object"":""chat.completion"",""created"":1795593470,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9406,,MarianeAzar,20261125_084135,2026-11-25T07:57:52.298408+00:00
+ec04f1220bbe5ed8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the city that The Flintstones is based in?
+A. Stoneville
+B. Boulder City
+C. Bedrock
+D. Rockhampton
+Answer:","[""Stoneville"", ""Boulder City"", ""Bedrock"", ""Rockhampton""]",http,0.0,16,none,"{""id"":""chatcmpl-j35lyvtycybbi4pbnsxac"",""object"":""chat.completion"",""created"":1795593471,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9239,,MarianeAzar,20261125_084135,2026-11-25T07:57:53.222491+00:00
+ec04f1220bbe5ed8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the city that The Flintstones is based in?
+A. Stoneville
+B. Boulder City
+C. Bedrock
+D. Rockhampton
+Answer:","[""Stoneville"", ""Boulder City"", ""Bedrock"", ""Rockhampton""]",http,0.0,16,none,"{""id"":""chatcmpl-e6iozamvllhyuxsj5kndom"",""object"":""chat.completion"",""created"":1795593472,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8806,,MarianeAzar,20261125_084135,2026-11-25T07:57:54.103390+00:00
+47fc5deac2b3eff8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the President of the United States during the signing of the Gadsden Purchase?
+A. James Polk
+B. Abraham Lincoln
+C. Andrew Johnson
+D. Franklin Pierce
+Answer:","[""James Polk"", ""Abraham Lincoln"", ""Andrew Johnson"", ""Franklin Pierce""]",http,0.0,16,none,"{""id"":""chatcmpl-pr2cjnel6q4zdvhnqlr7"",""object"":""chat.completion"",""created"":1795593473,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8826,,MarianeAzar,20261125_084135,2026-11-25T07:57:54.986685+00:00
+47fc5deac2b3eff8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was the President of the United States during the signing of the Gadsden Purchase?
+A. James Polk
+B. Abraham Lincoln
+C. Andrew Johnson
+D. Franklin Pierce
+Answer:","[""James Polk"", ""Abraham Lincoln"", ""Andrew Johnson"", ""Franklin Pierce""]",http,0.0,16,none,"{""id"":""chatcmpl-bz85aboyq7s6d3b533gf5t"",""object"":""chat.completion"",""created"":1795593474,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9097,,MarianeAzar,20261125_084135,2026-11-25T07:57:55.896699+00:00
+31bd09fd2b84194c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The early part of which decade, did the Goth Subculture begin?
+A. 1990s
+B. 1980s
+C. 1970s
+D. 2000s
+Answer:","[""1990s"", ""1980s"", ""1970s"", ""2000s""]",http,0.0,16,none,"{""id"":""chatcmpl-8iy7bxjj0uhzafq7tnykd"",""object"":""chat.completion"",""created"":1795593475,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9692,,MarianeAzar,20261125_084135,2026-11-25T07:57:56.866159+00:00
+31bd09fd2b84194c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The early part of which decade, did the Goth Subculture begin?
+A. 1990s
+B. 1980s
+C. 1970s
+D. 2000s
+Answer:","[""1990s"", ""1980s"", ""1970s"", ""2000s""]",http,0.0,16,none,"{""id"":""chatcmpl-lpms7gaemixc88bh7zdr"",""object"":""chat.completion"",""created"":1795593476,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9129,,MarianeAzar,20261125_084135,2026-11-25T07:57:57.779271+00:00
+3a2e71d6c25b44df,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries remained neutral during World War II?
+A. Switzerland
+B. Italy
+C. United Kingdom
+D. France
+Answer:","[""Switzerland"", ""Italy"", ""United Kingdom"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-oa5iy30l41fxfu1uuy19q"",""object"":""chat.completion"",""created"":1795593477,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8885,,MarianeAzar,20261125_084135,2026-11-25T07:57:58.668059+00:00
+3a2e71d6c25b44df,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries remained neutral during World War II?
+A. Switzerland
+B. Italy
+C. United Kingdom
+D. France
+Answer:","[""Switzerland"", ""Italy"", ""United Kingdom"", ""France""]",http,0.0,16,none,"{""id"":""chatcmpl-6byhsubi4yae3yfqkxx6oq"",""object"":""chat.completion"",""created"":1795593478,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9074,,MarianeAzar,20261125_084135,2026-11-25T07:57:59.575790+00:00
+89905371e2dc0157,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A pencil's lead is typically made from graphite, not lead
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kqx9rrlx1bivibcgpbi6"",""object"":""chat.completion"",""created"":1795593479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8252,,MarianeAzar,20261125_084135,2026-11-25T07:58:00.401150+00:00
+89905371e2dc0157,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A pencil's lead is typically made from graphite, not lead
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hnqqd4645r56l8yrdhshzi"",""object"":""chat.completion"",""created"":1795593479,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0424,,MarianeAzar,20261125_084135,2026-11-25T07:58:01.443714+00:00
+dd89dec874f41192,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which was the first of Alfred Hitchcock's movies to be filmed in colour?
+A. Psycho
+B. Rope
+C. Vertigo
+D. Rebecca
+Answer:","[""Psycho"", ""Rope"", ""Vertigo"", ""Rebecca""]",http,0.0,16,none,"{""id"":""chatcmpl-wadm82hb3da3e4hnxrx9h"",""object"":""chat.completion"",""created"":1795593480,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8937,,MarianeAzar,20261125_084135,2026-11-25T07:58:02.337636+00:00
+dd89dec874f41192,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which was the first of Alfred Hitchcock's movies to be filmed in colour?
+A. Psycho
+B. Rope
+C. Vertigo
+D. Rebecca
+Answer:","[""Psycho"", ""Rope"", ""Vertigo"", ""Rebecca""]",http,0.0,16,none,"{""id"":""chatcmpl-a5kvrff05t8r90fxna86h8"",""object"":""chat.completion"",""created"":1795593481,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8676,,MarianeAzar,20261125_084135,2026-11-25T07:58:03.205376+00:00
+748d5818e0744808,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct phrase for the Latin saying ""Romanes Eunt Domus"" in Monty Python's Life of Brian?
+A. Tomate Ite Domum
+B. Romani Ite Domum
+C. Romans Go Home
+D. Roxani Ite Domum
+Answer:","[""Tomate Ite Domum"", ""Romani Ite Domum"", ""Romans Go Home"", ""Roxani Ite Domum""]",http,0.0,16,none,"{""id"":""chatcmpl-fdcif7lcclurh6klqdq9je"",""object"":""chat.completion"",""created"":1795593482,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9012,,MarianeAzar,20261125_084135,2026-11-25T07:58:04.107168+00:00
+748d5818e0744808,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the correct phrase for the Latin saying ""Romanes Eunt Domus"" in Monty Python's Life of Brian?
+A. Tomate Ite Domum
+B. Romani Ite Domum
+C. Romans Go Home
+D. Roxani Ite Domum
+Answer:","[""Tomate Ite Domum"", ""Romani Ite Domum"", ""Romans Go Home"", ""Roxani Ite Domum""]",http,0.0,16,none,"{""id"":""chatcmpl-x635xye73enor9y3o5nrnn"",""object"":""chat.completion"",""created"":1795593483,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":120,""completion_tokens"":2,""total_tokens"":122,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9231,,MarianeAzar,20261125_084135,2026-11-25T07:58:05.030514+00:00
+7b0b0c00e9838ec9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in One Piece?
+A. Luffy
+B. Smoker
+C. Zoro
+D. Shanks
+Answer:","[""Luffy"", ""Smoker"", ""Zoro"", ""Shanks""]",http,0.0,16,none,"{""id"":""chatcmpl-l0bm3l8vxpfhui218f9plj"",""object"":""chat.completion"",""created"":1795593484,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9051,,MarianeAzar,20261125_084135,2026-11-25T07:58:05.935850+00:00
+7b0b0c00e9838ec9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main character in One Piece?
+A. Luffy
+B. Smoker
+C. Zoro
+D. Shanks
+Answer:","[""Luffy"", ""Smoker"", ""Zoro"", ""Shanks""]",http,0.0,16,none,"{""id"":""chatcmpl-v8z4g8ad7fo3c0k68sqouk"",""object"":""chat.completion"",""created"":1795593485,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8813,,MarianeAzar,20261125_084135,2026-11-25T07:58:06.817404+00:00
+76f4527a57beb682,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2022 FIFA World Cup?
+A. Qatar
+B. Switzerland
+C. Japan
+D. USA
+Answer:","[""Qatar"", ""Switzerland"", ""Japan"", ""USA""]",http,0.0,16,none,"{""id"":""chatcmpl-d31vv77uvutr2qzq6qcfu"",""object"":""chat.completion"",""created"":1795593486,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8781,,MarianeAzar,20261125_084135,2026-11-25T07:58:07.695749+00:00
+76f4527a57beb682,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which country hosted the 2022 FIFA World Cup?
+A. Qatar
+B. Switzerland
+C. Japan
+D. USA
+Answer:","[""Qatar"", ""Switzerland"", ""Japan"", ""USA""]",http,0.0,16,none,"{""id"":""chatcmpl-k330kf2bd7q73ixz3br"",""object"":""chat.completion"",""created"":1795593487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T07:58:08.549173+00:00
+f8c612b712fca2c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Korean girl group TWICE is under which Entertainment Label?
+A. Stone Music
+B. MBK
+C. YG
+D. JYP
+Answer:","[""Stone Music"", ""MBK"", ""YG"", ""JYP""]",http,0.0,16,none,"{""id"":""chatcmpl-5y5ro1yptew8my881zm2"",""object"":""chat.completion"",""created"":1795593487,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8672,,MarianeAzar,20261125_084135,2026-11-25T07:58:09.416687+00:00
+f8c612b712fca2c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Korean girl group TWICE is under which Entertainment Label?
+A. Stone Music
+B. MBK
+C. YG
+D. JYP
+Answer:","[""Stone Music"", ""MBK"", ""YG"", ""JYP""]",http,0.0,16,none,"{""id"":""chatcmpl-0ojn8kzcyfkhduro60376jh"",""object"":""chat.completion"",""created"":1795593488,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8713,,MarianeAzar,20261125_084135,2026-11-25T07:58:10.288345+00:00
+97156347241da090,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the famous 45 foot tall Hollywood sign first erected?
+A. 1913
+B. 1923
+C. 1903
+D. 1933
+Answer:","[""1913"", ""1923"", ""1903"", ""1933""]",http,0.0,16,none,"{""id"":""chatcmpl-juimewsx5wj7s0mvngtfll"",""object"":""chat.completion"",""created"":1795593489,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T07:58:11.152778+00:00
+97156347241da090,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the famous 45 foot tall Hollywood sign first erected?
+A. 1913
+B. 1923
+C. 1903
+D. 1933
+Answer:","[""1913"", ""1923"", ""1903"", ""1933""]",http,0.0,16,none,"{""id"":""chatcmpl-i674b0bp2r19w9u5ol47p"",""object"":""chat.completion"",""created"":1795593490,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8862,,MarianeAzar,20261125_084135,2026-11-25T07:58:12.039323+00:00

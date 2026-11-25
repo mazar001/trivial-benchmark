@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+3e2441f59735b552,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Left 4 Dead, what is the character Bill's last name?
+A. Roberts
+B. Stevenson
+C. Fish
+D. Overbeck
+Answer:","[""Roberts"", ""Stevenson"", ""Fish"", ""Overbeck""]",http,0.0,16,none,"{""id"":""chatcmpl-4jsz0bcmvbkdhkof72mfme"",""object"":""chat.completion"",""created"":1795595416,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9827,,MarianeAzar,20261125_084135,2026-11-25T08:30:18.518732+00:00
+55b9b50fe4aec255,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which movie does Robin Williams' character have to disguise themselves into a woman?
+A. Awakenings
+B. Jumanji
+C. Mrs. Doubtfire
+D. Old Dogs
+Answer:","[""Awakenings"", ""Jumanji"", ""Mrs. Doubtfire"", ""Old Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-x5c52qgvjei80mlja0mfd6"",""object"":""chat.completion"",""created"":1795595417,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3468,,MarianeAzar,20261125_084135,2026-11-25T08:30:19.865696+00:00
+55b9b50fe4aec255,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which movie does Robin Williams' character have to disguise themselves into a woman?
+A. Awakenings
+B. Jumanji
+C. Mrs. Doubtfire
+D. Old Dogs
+Answer:","[""Awakenings"", ""Jumanji"", ""Mrs. Doubtfire"", ""Old Dogs""]",http,0.0,16,none,"{""id"":""chatcmpl-326wmjtdmlwedsdbnj1u8e"",""object"":""chat.completion"",""created"":1795595419,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0078,,MarianeAzar,20261125_084135,2026-11-25T08:30:20.873766+00:00
+e344930256cd93f0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which author co-wrote ""The Communist Manifesto"" alongside Karl Marx?
+A. Friedrich Engels
+B. Paul Lafargue
+C. Alexander Kerensky
+D. Robert Owen
+Answer:","[""Friedrich Engels"", ""Paul Lafargue"", ""Alexander Kerensky"", ""Robert Owen""]",http,0.0,16,none,"{""id"":""chatcmpl-9kyfvjvwns9yqm00qlxaep"",""object"":""chat.completion"",""created"":1795595420,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9575,,MarianeAzar,20261125_084135,2026-11-25T08:30:21.831548+00:00
+e344930256cd93f0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which author co-wrote ""The Communist Manifesto"" alongside Karl Marx?
+A. Friedrich Engels
+B. Paul Lafargue
+C. Alexander Kerensky
+D. Robert Owen
+Answer:","[""Friedrich Engels"", ""Paul Lafargue"", ""Alexander Kerensky"", ""Robert Owen""]",http,0.0,16,none,"{""id"":""chatcmpl-p6h03tszywsvhoju7qhyz"",""object"":""chat.completion"",""created"":1795595421,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2642,,MarianeAzar,20261125_084135,2026-11-25T08:30:23.096050+00:00
+c6b0098125cabe29,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is a Steller's Jay?
+A. blue and grey
+B. blue and black
+C. blue and white
+D. grey and black
+Answer:","[""blue and grey"", ""blue and black"", ""blue and white"", ""grey and black""]",http,0.0,16,none,"{""id"":""chatcmpl-r8ror4i5yv1b7omq2u1jg"",""object"":""chat.completion"",""created"":1795595422,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8805,,MarianeAzar,20261125_084135,2026-11-25T08:30:23.977219+00:00
+c6b0098125cabe29,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What color is a Steller's Jay?
+A. blue and grey
+B. blue and black
+C. blue and white
+D. grey and black
+Answer:","[""blue and grey"", ""blue and black"", ""blue and white"", ""grey and black""]",http,0.0,16,none,"{""id"":""chatcmpl-3v4hbsfqfp6hwfn9uwt1ot"",""object"":""chat.completion"",""created"":1795595423,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.259,,MarianeAzar,20261125_084135,2026-11-25T08:30:25.236446+00:00
+47c8a732c68ce7aa,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The French mathematician Évariste Galois is primarily known for his work in which?
+A. Galois Theory
+B. Galois' Method for PDE's
+C. Galois' Continued Fractions
+D. Abelian Integration
+Answer:","[""Galois Theory"", ""Galois' Method for PDE's"", ""Galois' Continued Fractions"", ""Abelian Integration""]",http,0.0,16,none,"{""id"":""chatcmpl-9vj2l550zbf58ld9e61ez2"",""object"":""chat.completion"",""created"":1795595424,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1281,,MarianeAzar,20261125_084135,2026-11-25T08:30:26.365106+00:00
+47c8a732c68ce7aa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The French mathematician Évariste Galois is primarily known for his work in which?
+A. Galois Theory
+B. Galois' Method for PDE's
+C. Galois' Continued Fractions
+D. Abelian Integration
+Answer:","[""Galois Theory"", ""Galois' Method for PDE's"", ""Galois' Continued Fractions"", ""Abelian Integration""]",http,0.0,16,none,"{""id"":""chatcmpl-6ryb9aqt7v1q28qkbv9fk"",""object"":""chat.completion"",""created"":1795595425,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9432,,MarianeAzar,20261125_084135,2026-11-25T08:30:27.308750+00:00
+afb881ec8b42c042,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Portuguese word for ""Brazil""?
+A. Brasilia
+B. Brasíl
+C. Brasil
+D. Brazil
+Answer:","[""Brasilia"", ""Brasíl"", ""Brasil"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-oc5w9irkhaq5rb9byrfcnx"",""object"":""chat.completion"",""created"":1795595426,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4644,,MarianeAzar,20261125_084135,2026-11-25T08:30:28.773548+00:00
+afb881ec8b42c042,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the Portuguese word for ""Brazil""?
+A. Brasilia
+B. Brasíl
+C. Brasil
+D. Brazil
+Answer:","[""Brasilia"", ""Brasíl"", ""Brasil"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-ekpxz4pse8h0p31e7boo5"",""object"":""chat.completion"",""created"":1795595428,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9882,,MarianeAzar,20261125_084135,2026-11-25T08:30:29.762013+00:00
+cd2f9492d011b1d2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Greek letter is used to signify summation?
+A. Omega
+B. Delta
+C. Alpha
+D. Sigma
+Answer:","[""Omega"", ""Delta"", ""Alpha"", ""Sigma""]",http,0.0,16,none,"{""id"":""chatcmpl-cll7h9ps1irlx1gwqy1ui7"",""object"":""chat.completion"",""created"":1795595429,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9417,,MarianeAzar,20261125_084135,2026-11-25T08:30:30.704052+00:00
+cd2f9492d011b1d2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What Greek letter is used to signify summation?
+A. Omega
+B. Delta
+C. Alpha
+D. Sigma
+Answer:","[""Omega"", ""Delta"", ""Alpha"", ""Sigma""]",http,0.0,16,none,"{""id"":""chatcmpl-xg967qo1j3j4mf1pt3rvr"",""object"":""chat.completion"",""created"":1795595430,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.304,,MarianeAzar,20261125_084135,2026-11-25T08:30:32.008235+00:00
+4fb4f92f9ff8ecf8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won 2014 FIFA World Cup in Brazil?
+A. Netherlands
+B. Argentina
+C. Germany
+D. Brazil
+Answer:","[""Netherlands"", ""Argentina"", ""Germany"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-09zl5s1ltrpey40gdwpbjfd"",""object"":""chat.completion"",""created"":1795595431,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9151,,MarianeAzar,20261125_084135,2026-11-25T08:30:32.924485+00:00
+4fb4f92f9ff8ecf8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which team won 2014 FIFA World Cup in Brazil?
+A. Netherlands
+B. Argentina
+C. Germany
+D. Brazil
+Answer:","[""Netherlands"", ""Argentina"", ""Germany"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-ryptzmjyytgieiz6dw4lw"",""object"":""chat.completion"",""created"":1795595432,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9683,,MarianeAzar,20261125_084135,2026-11-25T08:30:33.893087+00:00
+fd12e22f336b0c46,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of currency in Laos?
+A. Ruble
+B. Konra
+C. Kip
+D. Dollar
+Answer:","[""Ruble"", ""Konra"", ""Kip"", ""Dollar""]",http,0.0,16,none,"{""id"":""chatcmpl-htbn03a6a92naxt7twcxp"",""object"":""chat.completion"",""created"":1795595433,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3524,,MarianeAzar,20261125_084135,2026-11-25T08:30:35.246738+00:00
+fd12e22f336b0c46,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the unit of currency in Laos?
+A. Ruble
+B. Konra
+C. Kip
+D. Dollar
+Answer:","[""Ruble"", ""Konra"", ""Kip"", ""Dollar""]",http,0.0,16,none,"{""id"":""chatcmpl-zdmk7qndafoz8dftza5xrj"",""object"":""chat.completion"",""created"":1795595434,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0126,,MarianeAzar,20261125_084135,2026-11-25T08:30:36.259729+00:00
+b6419e762d1cb3a1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The creeper in Minecraft was the result of a bug while implementing which creature?
+A. Cow
+B. Pig
+C. Zombie
+D. Chicken
+Answer:","[""Cow"", ""Pig"", ""Zombie"", ""Chicken""]",http,0.0,16,none,"{""id"":""chatcmpl-s6v40h33o4nxsexf4bqvy"",""object"":""chat.completion"",""created"":1795595435,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9394,,MarianeAzar,20261125_084135,2026-11-25T08:30:37.199284+00:00
+b6419e762d1cb3a1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The creeper in Minecraft was the result of a bug while implementing which creature?
+A. Cow
+B. Pig
+C. Zombie
+D. Chicken
+Answer:","[""Cow"", ""Pig"", ""Zombie"", ""Chicken""]",http,0.0,16,none,"{""id"":""chatcmpl-wvnp25y3s7dwajqpb4azb"",""object"":""chat.completion"",""created"":1795595436,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3736,,MarianeAzar,20261125_084135,2026-11-25T08:30:38.573060+00:00
+8a6a87247b7e753e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The commercial UK channel ITV stands for ""International Television"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wxj8wqs17grbxtev4vmc"",""object"":""chat.completion"",""created"":1795595437,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8872,,MarianeAzar,20261125_084135,2026-11-25T08:30:39.460456+00:00
+8a6a87247b7e753e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The commercial UK channel ITV stands for ""International Television"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0mrh3vzs34ljumevgbsbexs"",""object"":""chat.completion"",""created"":1795595438,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9168,,MarianeAzar,20261125_084135,2026-11-25T08:30:40.377470+00:00
+deb3d76001e06b0d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band name isn't a Stand in ""JoJo's Bizarre Adventure""?
+A. AC/DC
+B. Red Hot Chili Peppers
+C. Survivor
+D. Green Day
+Answer:","[""AC/DC"", ""Red Hot Chili Peppers"", ""Survivor"", ""Green Day""]",http,0.0,16,none,"{""id"":""chatcmpl-bzwnd54fllr8206tl7ge06"",""object"":""chat.completion"",""created"":1795595439,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4266,,MarianeAzar,20261125_084135,2026-11-25T08:30:41.804541+00:00
+deb3d76001e06b0d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which band name isn't a Stand in ""JoJo's Bizarre Adventure""?
+A. AC/DC
+B. Red Hot Chili Peppers
+C. Survivor
+D. Green Day
+Answer:","[""AC/DC"", ""Red Hot Chili Peppers"", ""Survivor"", ""Green Day""]",http,0.0,16,none,"{""id"":""chatcmpl-2u7c3631l1kkfenig2amgj"",""object"":""chat.completion"",""created"":1795595441,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9893,,MarianeAzar,20261125_084135,2026-11-25T08:30:42.794134+00:00
+007fa4aff6f31b1e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many differently shaped Tetris pieces are there?
+A. 6
+B. 5
+C. 7
+D. 8
+Answer:","[""6"", ""5"", ""7"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-mxsgwtukeexsqd30kka1p"",""object"":""chat.completion"",""created"":1795595442,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9116,,MarianeAzar,20261125_084135,2026-11-25T08:30:43.705996+00:00
+007fa4aff6f31b1e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many differently shaped Tetris pieces are there?
+A. 6
+B. 5
+C. 7
+D. 8
+Answer:","[""6"", ""5"", ""7"", ""8""]",http,0.0,16,none,"{""id"":""chatcmpl-rqth6paymussr9x1cy262"",""object"":""chat.completion"",""created"":1795595443,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4465,,MarianeAzar,20261125_084135,2026-11-25T08:30:45.152658+00:00

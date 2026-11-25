@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+0d7b0d693b98900e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the lowest layer of the Earth's atmosphere named?
+A. Stratosphere
+B. Troposphere
+C. Thermosphere
+D. Mesosphere
+Answer:","[""Stratosphere"", ""Troposphere"", ""Thermosphere"", ""Mesosphere""]",http,0.0,16,none,"{""id"":""chatcmpl-ujh73e87i9rj5axotqa99l"",""object"":""chat.completion"",""created"":1795593316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8591,,MarianeAzar,20261125_084135,2026-11-25T07:55:18.331215+00:00
+0d7b0d693b98900e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the lowest layer of the Earth's atmosphere named?
+A. Stratosphere
+B. Troposphere
+C. Thermosphere
+D. Mesosphere
+Answer:","[""Stratosphere"", ""Troposphere"", ""Thermosphere"", ""Mesosphere""]",http,0.0,16,none,"{""id"":""chatcmpl-ph965lm0p5rm13zxchew"",""object"":""chat.completion"",""created"":1795593317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.879,,MarianeAzar,20261125_084135,2026-11-25T07:55:19.210474+00:00
+fc388cbac18f2c08,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which state of America was the Fresh Prince of Bel-Air born and raised in?
+A. California
+B. New Jersey
+C. Florida
+D. Pennsylvania
+Answer:","[""California"", ""New Jersey"", ""Florida"", ""Pennsylvania""]",http,0.0,16,none,"{""id"":""chatcmpl-wgzqgursb6a2w5qanzacn"",""object"":""chat.completion"",""created"":1795593318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8623,,MarianeAzar,20261125_084135,2026-11-25T07:55:20.073058+00:00
+fc388cbac18f2c08,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which state of America was the Fresh Prince of Bel-Air born and raised in?
+A. California
+B. New Jersey
+C. Florida
+D. Pennsylvania
+Answer:","[""California"", ""New Jersey"", ""Florida"", ""Pennsylvania""]",http,0.0,16,none,"{""id"":""chatcmpl-mai8anvqjzn1hmpyjkzqd9"",""object"":""chat.completion"",""created"":1795593319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8545,,MarianeAzar,20261125_084135,2026-11-25T07:55:20.927836+00:00
+9973a1e122dffb16,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An average human can go two weeks without water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-m32764wpiydn6vj02ealbn"",""object"":""chat.completion"",""created"":1795593320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7953,,MarianeAzar,20261125_084135,2026-11-25T07:55:21.723360+00:00
+9973a1e122dffb16,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: An average human can go two weeks without water.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-v8wjoo796r7n0xvftsp3t"",""object"":""chat.completion"",""created"":1795593321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8123,,MarianeAzar,20261125_084135,2026-11-25T07:55:22.535869+00:00
+de7fb24c37c555fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which souls game was not directed by Hidetaka Miyazaki?
+A. Dark Souls 2
+B. Demon Souls
+C. Dark Souls 3
+D. Dark Souls
+Answer:","[""Dark Souls 2"", ""Demon Souls"", ""Dark Souls 3"", ""Dark Souls""]",http,0.0,16,none,"{""id"":""chatcmpl-52q2ni939h4nb9q4mfprhm"",""object"":""chat.completion"",""created"":1795593321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8474,,MarianeAzar,20261125_084135,2026-11-25T07:55:23.383626+00:00
+de7fb24c37c555fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which souls game was not directed by Hidetaka Miyazaki?
+A. Dark Souls 2
+B. Demon Souls
+C. Dark Souls 3
+D. Dark Souls
+Answer:","[""Dark Souls 2"", ""Demon Souls"", ""Dark Souls 3"", ""Dark Souls""]",http,0.0,16,none,"{""id"":""chatcmpl-hnkxuezwdy6x4ottu7jfwp"",""object"":""chat.completion"",""created"":1795593322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T07:55:24.242116+00:00
+288a9746a603507f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Archie"" comics, who was Jughead's first girlfriend?
+A. Joani
+B. Debbi
+C. Margret
+D. Ethel
+Answer:","[""Joani"", ""Debbi"", ""Margret"", ""Ethel""]",http,0.0,16,none,"{""id"":""chatcmpl-9h1pa9ipu8s21kmh1mooi2"",""object"":""chat.completion"",""created"":1795593323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8547,,MarianeAzar,20261125_084135,2026-11-25T07:55:25.097047+00:00
+288a9746a603507f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Archie"" comics, who was Jughead's first girlfriend?
+A. Joani
+B. Debbi
+C. Margret
+D. Ethel
+Answer:","[""Joani"", ""Debbi"", ""Margret"", ""Ethel""]",http,0.0,16,none,"{""id"":""chatcmpl-pdzl74fv0p8263v431ukq6"",""object"":""chat.completion"",""created"":1795593324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8546,,MarianeAzar,20261125_084135,2026-11-25T07:55:25.951807+00:00
+50a053f0a78fb812,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Certain Scientific Railgun"", how many ""sisters"" did Accelerator have to kill to achieve the rumored level 6?
+A. 5,000
+B. 10,000
+C. 20,000
+D. 128
+Answer:","[""5,000"", ""10,000"", ""20,000"", ""128""]",http,0.0,16,none,"{""id"":""chatcmpl-30kkmzdn8dhz781b7lwsyo"",""object"":""chat.completion"",""created"":1795593325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8883,,MarianeAzar,20261125_084135,2026-11-25T07:55:26.840814+00:00
+50a053f0a78fb812,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""A Certain Scientific Railgun"", how many ""sisters"" did Accelerator have to kill to achieve the rumored level 6?
+A. 5,000
+B. 10,000
+C. 20,000
+D. 128
+Answer:","[""5,000"", ""10,000"", ""20,000"", ""128""]",http,0.0,16,none,"{""id"":""chatcmpl-9if3uxmze9cszdaez4q18c"",""object"":""chat.completion"",""created"":1795593326,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9286,,MarianeAzar,20261125_084135,2026-11-25T07:55:27.769609+00:00
+b937390051f3d451,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Toaru Majutsu no Index"" anime, Touma Kamijou is a level 0 esper that has the ability to do what?
+A. Dispell any esper or magical powers
+B. Make telepathic communications
+C. Create electricity from his own body
+D. Teleport
+Answer:","[""Dispell any esper or magical powers"", ""Make telepathic communications"", ""Create electricity from his own body"", ""Teleport""]",http,0.0,16,none,"{""id"":""chatcmpl-ij8abjiffxjfnpim6jtkii"",""object"":""chat.completion"",""created"":1795593327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8977,,MarianeAzar,20261125_084135,2026-11-25T07:55:28.667549+00:00
+b937390051f3d451,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Toaru Majutsu no Index"" anime, Touma Kamijou is a level 0 esper that has the ability to do what?
+A. Dispell any esper or magical powers
+B. Make telepathic communications
+C. Create electricity from his own body
+D. Teleport
+Answer:","[""Dispell any esper or magical powers"", ""Make telepathic communications"", ""Create electricity from his own body"", ""Teleport""]",http,0.0,16,none,"{""id"":""chatcmpl-ap45gjen6a65rwkb3a2m64"",""object"":""chat.completion"",""created"":1795593328,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9307,,MarianeAzar,20261125_084135,2026-11-25T07:55:29.598515+00:00
+f73a41dedf05c397,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Napoleon Bonaparte's name before he changed it?
+A. Napoleão do Boaparte
+B. Napoleone di Buonaparte
+C. Napoleona de Buenoparte
+D. Naapolion van Bonijpaart
+Answer:","[""Napoleão do Boaparte"", ""Napoleone di Buonaparte"", ""Napoleona de Buenoparte"", ""Naapolion van Bonijpaart""]",http,0.0,16,none,"{""id"":""chatcmpl-g6cp9bian9sq2961u6ormc"",""object"":""chat.completion"",""created"":1795593329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8657,,MarianeAzar,20261125_084135,2026-11-25T07:55:30.467438+00:00
+f73a41dedf05c397,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was Napoleon Bonaparte's name before he changed it?
+A. Napoleão do Boaparte
+B. Napoleone di Buonaparte
+C. Napoleona de Buenoparte
+D. Naapolion van Bonijpaart
+Answer:","[""Napoleão do Boaparte"", ""Napoleone di Buonaparte"", ""Napoleona de Buenoparte"", ""Naapolion van Bonijpaart""]",http,0.0,16,none,"{""id"":""chatcmpl-fbdtwjsx70hr5svhwboum"",""object"":""chat.completion"",""created"":1795593329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8971,,MarianeAzar,20261125_084135,2026-11-25T07:55:31.364858+00:00
+9a65cf8bc942fd7f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is Cory in the House set in?
+A. England
+B. Canada
+C. Venezuala
+D. The United States of America
+Answer:","[""England"", ""Canada"", ""Venezuala"", ""The United States of America""]",http,0.0,16,none,"{""id"":""chatcmpl-ib767h7ap7mpbxg6ovhzda"",""object"":""chat.completion"",""created"":1795593330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8697,,MarianeAzar,20261125_084135,2026-11-25T07:55:32.234839+00:00
+9a65cf8bc942fd7f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is Cory in the House set in?
+A. England
+B. Canada
+C. Venezuala
+D. The United States of America
+Answer:","[""England"", ""Canada"", ""Venezuala"", ""The United States of America""]",http,0.0,16,none,"{""id"":""chatcmpl-8y96uv1pasnnt5cbojjp8"",""object"":""chat.completion"",""created"":1795593331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8554,,MarianeAzar,20261125_084135,2026-11-25T07:55:33.090660+00:00
+72f930f2c4c58c0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many French Open's did Björn Borg win?
+A. 2
+B. 6
+C. 4
+D. 9
+Answer:","[""2"", ""6"", ""4"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-18pdvd0guis48k056jleo"",""object"":""chat.completion"",""created"":1795593332,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8431,,MarianeAzar,20261125_084135,2026-11-25T07:55:33.934084+00:00
+72f930f2c4c58c0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many French Open's did Björn Borg win?
+A. 2
+B. 6
+C. 4
+D. 9
+Answer:","[""2"", ""6"", ""4"", ""9""]",http,0.0,16,none,"{""id"":""chatcmpl-qlw0b326vpfkqkbwuvx5xd"",""object"":""chat.completion"",""created"":1795593333,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8744,,MarianeAzar,20261125_084135,2026-11-25T07:55:34.808778+00:00
+10616120f704f5b7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Samhainophobia is the term used for an abnormal and persistent fear of halloween.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0mn0ix0po2j2dw4nodxg0s"",""object"":""chat.completion"",""created"":1795593334,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8216,,MarianeAzar,20261125_084135,2026-11-25T07:55:35.630640+00:00
+10616120f704f5b7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Samhainophobia is the term used for an abnormal and persistent fear of halloween.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jajkr9vms5x9jsdto6gh"",""object"":""chat.completion"",""created"":1795593335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.813,,MarianeAzar,20261125_084135,2026-11-25T07:55:36.443804+00:00
+dce82e49b78793cb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?
+A. The Rape of Lucrece
+B. The Prince
+C. Love's Labours Lost
+D. Will to Power
+Answer:","[""The Rape of Lucrece"", ""The Prince"", ""Love's Labours Lost"", ""Will to Power""]",http,0.0,16,none,"{""id"":""chatcmpl-c1movxz7jks5dmnk2snlkh"",""object"":""chat.completion"",""created"":1795593335,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8685,,MarianeAzar,20261125_084135,2026-11-25T07:55:37.312841+00:00
+dce82e49b78793cb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?
+A. The Rape of Lucrece
+B. The Prince
+C. Love's Labours Lost
+D. Will to Power
+Answer:","[""The Rape of Lucrece"", ""The Prince"", ""Love's Labours Lost"", ""Will to Power""]",http,0.0,16,none,"{""id"":""chatcmpl-ngu8ajqbmnjy6kp21iqz99"",""object"":""chat.completion"",""created"":1795593336,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8923,,MarianeAzar,20261125_084135,2026-11-25T07:55:38.205455+00:00
+bf8c7c9b281543cd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Jamaica receive its independence from England?
+A. 1987
+B. 1962
+C. 1492
+D. 1963
+Answer:","[""1987"", ""1962"", ""1492"", ""1963""]",http,0.0,16,none,"{""id"":""chatcmpl-fp2etiuz5pptzfr3odnyjg"",""object"":""chat.completion"",""created"":1795593337,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T07:55:39.067864+00:00

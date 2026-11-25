@@ -1,0 +1,169 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d4cdde8bfdef0491,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The General Motors EV1 was the first street-legal production electric vehicle.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-06j3seolv6sjq9p2ia8oud"",""object"":""chat.completion"",""created"":1795554822,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.343,,MarianeAzar,20261124_215144,2026-11-24T21:13:44.379807+00:00
+ff27dfbb971fa8d5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first book of the Old Testament?
+A. Genesis
+B. Leviticus
+C. Numbers
+D. Exodus
+Answer:","[""Genesis"", ""Leviticus"", ""Numbers"", ""Exodus""]",http,0.0,16,none,"{""id"":""chatcmpl-23ty6qz3ctn9ci12cjmp8k"",""object"":""chat.completion"",""created"":1795554824,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1079,,MarianeAzar,20261124_215144,2026-11-24T21:13:45.487899+00:00
+ff27dfbb971fa8d5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the first book of the Old Testament?
+A. Genesis
+B. Leviticus
+C. Numbers
+D. Exodus
+Answer:","[""Genesis"", ""Leviticus"", ""Numbers"", ""Exodus""]",http,0.0,16,none,"{""id"":""chatcmpl-ud8eqcoyapsuob6v4qcfke"",""object"":""chat.completion"",""created"":1795554825,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9684,,MarianeAzar,20261124_215144,2026-11-24T21:13:46.456497+00:00
+65cee0a57c12fadb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the character Nicolas Cage plays in the movie ""National Treasure?""
+A. Thomas Jefferson Walker
+B. John Quincy Beckett
+C. George Washington Swanson
+D. Benjamin Franklin Gates
+Answer:","[""Thomas Jefferson Walker"", ""John Quincy Beckett"", ""George Washington Swanson"", ""Benjamin Franklin Gates""]",http,0.0,16,none,"{""id"":""chatcmpl-2a8j14pawh4ynj06zp934i"",""object"":""chat.completion"",""created"":1795554826,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9538,,MarianeAzar,20261124_215144,2026-11-24T21:13:47.410512+00:00
+65cee0a57c12fadb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the character Nicolas Cage plays in the movie ""National Treasure?""
+A. Thomas Jefferson Walker
+B. John Quincy Beckett
+C. George Washington Swanson
+D. Benjamin Franklin Gates
+Answer:","[""Thomas Jefferson Walker"", ""John Quincy Beckett"", ""George Washington Swanson"", ""Benjamin Franklin Gates""]",http,0.0,16,none,"{""id"":""chatcmpl-2jrwvw3py7bcfuh0b5mqcg"",""object"":""chat.completion"",""created"":1795554827,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4087,,MarianeAzar,20261124_215144,2026-11-24T21:13:48.819409+00:00
+4e4e856f803f11b6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Fair Works Australia, how long do you have to work to get Long Service Leave?
+A. 7 years
+B. 8 years
+C. 6 months
+D. 2 years
+Answer:","[""7 years"", ""8 years"", ""6 months"", ""2 years""]",http,0.0,16,none,"{""id"":""chatcmpl-tynatal1c25pycdmazr9w"",""object"":""chat.completion"",""created"":1795554828,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.021,,MarianeAzar,20261124_215144,2026-11-24T21:13:49.841617+00:00
+4e4e856f803f11b6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to Fair Works Australia, how long do you have to work to get Long Service Leave?
+A. 7 years
+B. 8 years
+C. 6 months
+D. 2 years
+Answer:","[""7 years"", ""8 years"", ""6 months"", ""2 years""]",http,0.0,16,none,"{""id"":""chatcmpl-wsdx7yaqnodg90d68mz0v"",""object"":""chat.completion"",""created"":1795554829,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9717,,MarianeAzar,20261124_215144,2026-11-24T21:13:50.813641+00:00
+74714290aca4b4ce,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the UEFA Champions League in 2016?
+A. FC Bayern Munich
+B. Atletico Madrid
+C. Manchester City F.C.
+D. Real Madrid C.F.
+Answer:","[""FC Bayern Munich"", ""Atletico Madrid"", ""Manchester City F.C."", ""Real Madrid C.F.""]",http,0.0,16,none,"{""id"":""chatcmpl-7vbnmo90t4p7s8a3vgrek"",""object"":""chat.completion"",""created"":1795554830,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2701,,MarianeAzar,20261124_215144,2026-11-24T21:13:52.083983+00:00
+74714290aca4b4ce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who won the UEFA Champions League in 2016?
+A. FC Bayern Munich
+B. Atletico Madrid
+C. Manchester City F.C.
+D. Real Madrid C.F.
+Answer:","[""FC Bayern Munich"", ""Atletico Madrid"", ""Manchester City F.C."", ""Real Madrid C.F.""]",http,0.0,16,none,"{""id"":""chatcmpl-4aoxfsp8qsvjt8z03e9hu9"",""object"":""chat.completion"",""created"":1795554831,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9099,,MarianeAzar,20261124_215144,2026-11-24T21:13:52.994129+00:00
+88f8aec92c41a8f2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Canada leave the confederation to become their own nation?
+A. July 1st, 1832
+B. July 1st, 1867
+C. July 1st, 1763
+D. July 1st, 1902
+Answer:","[""July 1st, 1832"", ""July 1st, 1867"", ""July 1st, 1763"", ""July 1st, 1902""]",http,0.0,16,none,"{""id"":""chatcmpl-lwui366ew9xi36rnx7ei"",""object"":""chat.completion"",""created"":1795554832,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2694,,MarianeAzar,20261124_215144,2026-11-24T21:13:54.263795+00:00
+88f8aec92c41a8f2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Canada leave the confederation to become their own nation?
+A. July 1st, 1832
+B. July 1st, 1867
+C. July 1st, 1763
+D. July 1st, 1902
+Answer:","[""July 1st, 1832"", ""July 1st, 1867"", ""July 1st, 1763"", ""July 1st, 1902""]",http,0.0,16,none,"{""id"":""chatcmpl-9qg3ff5fwnkp9z8i448q7"",""object"":""chat.completion"",""created"":1795554834,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":126,""completion_tokens"":2,""total_tokens"":128,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.388,,MarianeAzar,20261124_215144,2026-11-24T21:13:55.652068+00:00
+363aecf11e05aa7d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Cuba's official, most widely spoken language?
+A. Portuguese
+B. French
+C. Italian
+D. Spanish
+Answer:","[""Portuguese"", ""French"", ""Italian"", ""Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-eza3lq8r01n5qfhj7zgivl"",""object"":""chat.completion"",""created"":1795554835,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9908,,MarianeAzar,20261124_215144,2026-11-24T21:13:56.643282+00:00
+363aecf11e05aa7d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is Cuba's official, most widely spoken language?
+A. Portuguese
+B. French
+C. Italian
+D. Spanish
+Answer:","[""Portuguese"", ""French"", ""Italian"", ""Spanish""]",http,0.0,16,none,"{""id"":""chatcmpl-jqg2u9yt33ff20sg8hvd8d"",""object"":""chat.completion"",""created"":1795554836,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9402,,MarianeAzar,20261124_215144,2026-11-24T21:13:57.583786+00:00
+1e03069033aae084,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Watch_Dogs 2 is a prequel.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-k9zb1cdnsnaxgythyls8sj"",""object"":""chat.completion"",""created"":1795554837,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4009,,MarianeAzar,20261124_215144,2026-11-24T21:13:58.984822+00:00
+1e03069033aae084,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Watch_Dogs 2 is a prequel.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0sq0vqlzvt7f4qgab9kiwzo"",""object"":""chat.completion"",""created"":1795554838,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9738,,MarianeAzar,20261124_215144,2026-11-24T21:13:59.958722+00:00
+3bcb8e7c64d2d18c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which basketball team has attended the most NBA grand finals?
+A. Los Angeles Lakers
+B. Boston Celtics
+C. Golden State Warriors
+D. Philadelphia 76ers
+Answer:","[""Los Angeles Lakers"", ""Boston Celtics"", ""Golden State Warriors"", ""Philadelphia 76ers""]",http,0.0,16,none,"{""id"":""chatcmpl-iyoj0sg0129iuho71ffskg"",""object"":""chat.completion"",""created"":1795554839,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.937,,MarianeAzar,20261124_215144,2026-11-24T21:14:00.896474+00:00
+3bcb8e7c64d2d18c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which basketball team has attended the most NBA grand finals?
+A. Los Angeles Lakers
+B. Boston Celtics
+C. Golden State Warriors
+D. Philadelphia 76ers
+Answer:","[""Los Angeles Lakers"", ""Boston Celtics"", ""Golden State Warriors"", ""Philadelphia 76ers""]",http,0.0,16,none,"{""id"":""chatcmpl-wpb8l7rjomxso5qn42wm"",""object"":""chat.completion"",""created"":1795554840,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3004,,MarianeAzar,20261124_215144,2026-11-24T21:14:02.197154+00:00
+9c8765e39b1656eb,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Marvel games was released on the Playstation 2?
+A. Silver Surfer
+B. Howard the Duck
+C. Wolverine: Adamantium Rage
+D. Spider-Man 2
+Answer:","[""Silver Surfer"", ""Howard the Duck"", ""Wolverine: Adamantium Rage"", ""Spider-Man 2""]",http,0.0,16,none,"{""id"":""chatcmpl-qoz8ma9r67bynzjb5mvkf"",""object"":""chat.completion"",""created"":1795554842,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9083,,MarianeAzar,20261124_215144,2026-11-24T21:14:03.105751+00:00
+9c8765e39b1656eb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these Marvel games was released on the Playstation 2?
+A. Silver Surfer
+B. Howard the Duck
+C. Wolverine: Adamantium Rage
+D. Spider-Man 2
+Answer:","[""Silver Surfer"", ""Howard the Duck"", ""Wolverine: Adamantium Rage"", ""Spider-Man 2""]",http,0.0,16,none,"{""id"":""chatcmpl-y1pb2dc0rh8b8t4ws6u2g"",""object"":""chat.completion"",""created"":1795554843,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2592,,MarianeAzar,20261124_215144,2026-11-24T21:14:04.365184+00:00
+401185b09e00e480,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song is not by TheFatRat?
+A. Monody
+B. Windfall
+C. Infinite Power!
+D. Ascent
+Answer:","[""Monody"", ""Windfall"", ""Infinite Power!"", ""Ascent""]",http,0.0,16,none,"{""id"":""chatcmpl-t2ya6xugedzh8ipk7t38p"",""object"":""chat.completion"",""created"":1795554844,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3348,,MarianeAzar,20261124_215144,2026-11-24T21:14:05.700366+00:00
+401185b09e00e480,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which song is not by TheFatRat?
+A. Monody
+B. Windfall
+C. Infinite Power!
+D. Ascent
+Answer:","[""Monody"", ""Windfall"", ""Infinite Power!"", ""Ascent""]",http,0.0,16,none,"{""id"":""chatcmpl-ist2u7i549n4gvbhwvlv6m"",""object"":""chat.completion"",""created"":1795554845,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9428,,MarianeAzar,20261124_215144,2026-11-24T21:14:06.643454+00:00
+0080e8bd985c9e74,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the soft drink, Dr. Pepper?
+A. James Wellington
+B. Charles Alderton
+C. Johnson Hinsin
+D. Boris Heviltik
+Answer:","[""James Wellington"", ""Charles Alderton"", ""Johnson Hinsin"", ""Boris Heviltik""]",http,0.0,16,none,"{""id"":""chatcmpl-scf9ujvn91jpdp6x4ox0r"",""object"":""chat.completion"",""created"":1795554846,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9335,,MarianeAzar,20261124_215144,2026-11-24T21:14:07.577255+00:00
+0080e8bd985c9e74,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the soft drink, Dr. Pepper?
+A. James Wellington
+B. Charles Alderton
+C. Johnson Hinsin
+D. Boris Heviltik
+Answer:","[""James Wellington"", ""Charles Alderton"", ""Johnson Hinsin"", ""Boris Heviltik""]",http,0.0,16,none,"{""id"":""chatcmpl-dzut91alt6v3vz5do68if6"",""object"":""chat.completion"",""created"":1795554847,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3765,,MarianeAzar,20261124_215144,2026-11-24T21:14:08.953912+00:00
+9368ad1fee4c3bc7,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tennis was once known as Racquetball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t0vj9meieyiu4aadx1hvp"",""object"":""chat.completion"",""created"":1795554848,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8668,,MarianeAzar,20261124_215144,2026-11-24T21:14:09.820861+00:00
+9368ad1fee4c3bc7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Tennis was once known as Racquetball.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-kmh2gqxzz91lfydz5r5f1"",""object"":""chat.completion"",""created"":1795554849,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9078,,MarianeAzar,20261124_215144,2026-11-24T21:14:10.728895+00:00

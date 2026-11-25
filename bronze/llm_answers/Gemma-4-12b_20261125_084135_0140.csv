@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+fb8c264fce3fed2b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vietnam's national flag is a red star in front of a yellow background.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ngk073hsbzc4q4c36lupf"",""object"":""chat.completion"",""created"":1795595893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8384,,MarianeAzar,20261125_084135,2026-11-25T08:38:14.503638+00:00
+fb8c264fce3fed2b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Vietnam's national flag is a red star in front of a yellow background.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fo8b9zcqlo8ctx12okett7"",""object"":""chat.completion"",""created"":1795595893,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8329,,MarianeAzar,20261125_084135,2026-11-25T08:38:15.336754+00:00
+9f146946e26f41ba,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Kingdom Hearts"", what is the name of Sora's home world?
+A. Agrabah
+B. Disney Town
+C. Land of Departure
+D. Destiny Islands
+Answer:","[""Agrabah"", ""Disney Town"", ""Land of Departure"", ""Destiny Islands""]",http,0.0,16,none,"{""id"":""chatcmpl-vp8gjijoyrjix0k3uzl2yb"",""object"":""chat.completion"",""created"":1795595894,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8625,,MarianeAzar,20261125_084135,2026-11-25T08:38:16.199714+00:00
+9f146946e26f41ba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Kingdom Hearts"", what is the name of Sora's home world?
+A. Agrabah
+B. Disney Town
+C. Land of Departure
+D. Destiny Islands
+Answer:","[""Agrabah"", ""Disney Town"", ""Land of Departure"", ""Destiny Islands""]",http,0.0,16,none,"{""id"":""chatcmpl-zzm1r2ys8157frut8pvux"",""object"":""chat.completion"",""created"":1795595895,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8552,,MarianeAzar,20261125_084135,2026-11-25T08:38:17.055210+00:00
+65abc98fd4513e0f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these board games do NOT utilize standard 6-sided dice?
+A. Monopoly
+B. Risk
+C. The Game of Life
+D. Snakes and Ladders
+Answer:","[""Monopoly"", ""Risk"", ""The Game of Life"", ""Snakes and Ladders""]",http,0.0,16,none,"{""id"":""chatcmpl-qa84st7fc2f9jj6x9pb83n"",""object"":""chat.completion"",""created"":1795595896,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T08:38:17.915828+00:00
+65abc98fd4513e0f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these board games do NOT utilize standard 6-sided dice?
+A. Monopoly
+B. Risk
+C. The Game of Life
+D. Snakes and Ladders
+Answer:","[""Monopoly"", ""Risk"", ""The Game of Life"", ""Snakes and Ladders""]",http,0.0,16,none,"{""id"":""chatcmpl-sazrbut9qxkuqhi8tgixq"",""object"":""chat.completion"",""created"":1795595897,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8577,,MarianeAzar,20261125_084135,2026-11-25T08:38:18.773721+00:00
+05cfef281f528536,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters was almost added into Super Smash Bros. Melee, but not included as the game was too far in development?
+A. Pit
+B. R.O.B.
+C. Meta Knight
+D. Solid Snake
+Answer:","[""Pit"", ""R.O.B."", ""Meta Knight"", ""Solid Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-3j0uoklgf5bvdnm2lz16c"",""object"":""chat.completion"",""created"":1795595898,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8787,,MarianeAzar,20261125_084135,2026-11-25T08:38:19.652841+00:00
+05cfef281f528536,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these characters was almost added into Super Smash Bros. Melee, but not included as the game was too far in development?
+A. Pit
+B. R.O.B.
+C. Meta Knight
+D. Solid Snake
+Answer:","[""Pit"", ""R.O.B."", ""Meta Knight"", ""Solid Snake""]",http,0.0,16,none,"{""id"":""chatcmpl-gavut3nzuzlekn41js7krg"",""object"":""chat.completion"",""created"":1795595899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8986,,MarianeAzar,20261125_084135,2026-11-25T08:38:20.551610+00:00
+5418037a7465b590,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Typically, how many keys are on a piano?
+A. 12
+B. 88
+C. 96
+D. 24
+Answer:","[""12"", ""88"", ""96"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-t2o8x8gwnief76h6ksbmud"",""object"":""chat.completion"",""created"":1795595899,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8463,,MarianeAzar,20261125_084135,2026-11-25T08:38:21.398212+00:00
+5418037a7465b590,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Typically, how many keys are on a piano?
+A. 12
+B. 88
+C. 96
+D. 24
+Answer:","[""12"", ""88"", ""96"", ""24""]",http,0.0,16,none,"{""id"":""chatcmpl-74hi0xm883ye0whoeqt2wk"",""object"":""chat.completion"",""created"":1795595900,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8977,,MarianeAzar,20261125_084135,2026-11-25T08:38:22.296163+00:00
+5c5bcf972ad26484,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French word for ""glass"" is ""glace"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7b4355dufu80r0wd2lx7btk"",""object"":""chat.completion"",""created"":1795595901,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.791,,MarianeAzar,20261125_084135,2026-11-25T08:38:23.087705+00:00
+5c5bcf972ad26484,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The French word for ""glass"" is ""glace"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bomvxnd3bnmjtunz99f7g"",""object"":""chat.completion"",""created"":1795595902,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8155,,MarianeAzar,20261125_084135,2026-11-25T08:38:23.903397+00:00
+d7827a4ea226cb2b,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The sum of any two odd integers is odd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-epyula49je8vzky4tmg62e"",""object"":""chat.completion"",""created"":1795595903,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":49,""completion_tokens"":2,""total_tokens"":51,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8042,,MarianeAzar,20261125_084135,2026-11-25T08:38:24.707945+00:00
+d7827a4ea226cb2b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The sum of any two odd integers is odd.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-b2il9yzzau9792147yy33t"",""object"":""chat.completion"",""created"":1795595904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":63,""completion_tokens"":2,""total_tokens"":65,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8063,,MarianeAzar,20261125_084135,2026-11-25T08:38:25.514365+00:00
+a50a892f20037eaa,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The weapon Clint Eastwood uses in ""Dirty Harry"" was a .44 Automag.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-27vkujqbc9o2xy0p07mp8o"",""object"":""chat.completion"",""created"":1795595904,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":57,""completion_tokens"":2,""total_tokens"":59,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.817,,MarianeAzar,20261125_084135,2026-11-25T08:38:26.331703+00:00
+a50a892f20037eaa,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The weapon Clint Eastwood uses in ""Dirty Harry"" was a .44 Automag.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1ztq07toumf615fuqb9397"",""object"":""chat.completion"",""created"":1795595905,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9003,,MarianeAzar,20261125_084135,2026-11-25T08:38:27.232193+00:00
+a2ce3f5eda8a6f95,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name of the Common Chimpanzee?
+A. Gorilla gorilla
+B. Pan troglodytes
+C. Pan paniscus
+D. Panthera leo
+Answer:","[""Gorilla gorilla"", ""Pan troglodytes"", ""Pan paniscus"", ""Panthera leo""]",http,0.0,16,none,"{""id"":""chatcmpl-cnnp5bhloa8245v89hm3s9"",""object"":""chat.completion"",""created"":1795595906,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261125_084135,2026-11-25T08:38:28.085660+00:00
+a2ce3f5eda8a6f95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name of the Common Chimpanzee?
+A. Gorilla gorilla
+B. Pan troglodytes
+C. Pan paniscus
+D. Panthera leo
+Answer:","[""Gorilla gorilla"", ""Pan troglodytes"", ""Pan paniscus"", ""Panthera leo""]",http,0.0,16,none,"{""id"":""chatcmpl-j87z7oba0llzk2del0ary"",""object"":""chat.completion"",""created"":1795595907,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:38:28.942399+00:00
+1d82170ca8489961,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1980s, a service called Gameline allowed users to download games to what console?
+A. Sega Genesis
+B. Nintendo Entertainment System
+C. Atari 2600
+D. ColecoVision
+Answer:","[""Sega Genesis"", ""Nintendo Entertainment System"", ""Atari 2600"", ""ColecoVision""]",http,0.0,16,none,"{""id"":""chatcmpl-p3y7a977msh73yb8bzpph3"",""object"":""chat.completion"",""created"":1795595908,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9474,,MarianeAzar,20261125_084135,2026-11-25T08:38:29.890022+00:00
+1d82170ca8489961,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1980s, a service called Gameline allowed users to download games to what console?
+A. Sega Genesis
+B. Nintendo Entertainment System
+C. Atari 2600
+D. ColecoVision
+Answer:","[""Sega Genesis"", ""Nintendo Entertainment System"", ""Atari 2600"", ""ColecoVision""]",http,0.0,16,none,"{""id"":""chatcmpl-7ojfkh3d5z7ruewt4h9mha"",""object"":""chat.completion"",""created"":1795595909,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9112,,MarianeAzar,20261125_084135,2026-11-25T08:38:30.801448+00:00
+16156c801916076e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. President was in office when the Gulf War began?
+A. George H. W. Bush
+B. George W. Bush
+C. Ronald Regan
+D. Richard Nixon
+Answer:","[""George H. W. Bush"", ""George W. Bush"", ""Ronald Regan"", ""Richard Nixon""]",http,0.0,16,none,"{""id"":""chatcmpl-16465mqkltvfu94i6bsl3t"",""object"":""chat.completion"",""created"":1795595910,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8643,,MarianeAzar,20261125_084135,2026-11-25T08:38:31.667132+00:00
+16156c801916076e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. President was in office when the Gulf War began?
+A. George H. W. Bush
+B. George W. Bush
+C. Ronald Regan
+D. Richard Nixon
+Answer:","[""George H. W. Bush"", ""George W. Bush"", ""Ronald Regan"", ""Richard Nixon""]",http,0.0,16,none,"{""id"":""chatcmpl-myh698knbkhnq8uyzxt1f"",""object"":""chat.completion"",""created"":1795595911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8741,,MarianeAzar,20261125_084135,2026-11-25T08:38:32.541471+00:00
+47b6b441441822b2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the virus in ""Metal Gear Solid 1""?
+A. FOXDIE
+B. FOXALIVE
+C. FOXENGINE
+D. FOXKILL
+Answer:","[""FOXDIE"", ""FOXALIVE"", ""FOXENGINE"", ""FOXKILL""]",http,0.0,16,none,"{""id"":""chatcmpl-a87726snifi069j24d52n"",""object"":""chat.completion"",""created"":1795595911,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8507,,MarianeAzar,20261125_084135,2026-11-25T08:38:33.392417+00:00
+47b6b441441822b2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the virus in ""Metal Gear Solid 1""?
+A. FOXDIE
+B. FOXALIVE
+C. FOXENGINE
+D. FOXKILL
+Answer:","[""FOXDIE"", ""FOXALIVE"", ""FOXENGINE"", ""FOXKILL""]",http,0.0,16,none,"{""id"":""chatcmpl-o28zarwptaiiblwwq1rg"",""object"":""chat.completion"",""created"":1795595912,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8562,,MarianeAzar,20261125_084135,2026-11-25T08:38:34.248919+00:00
+e97a205965ed3ea1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1976 film 'Taxi Driver', how many guns did Travis buy from the salesman?
+A. 1
+B. 2
+C. 4
+D. 6
+Answer:","[""1"", ""2"", ""4"", ""6""]",http,0.0,16,none,"{""id"":""chatcmpl-csrreun1nq5rqgm3p28i9"",""object"":""chat.completion"",""created"":1795595913,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8712,,MarianeAzar,20261125_084135,2026-11-25T08:38:35.120568+00:00

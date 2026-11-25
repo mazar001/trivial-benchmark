@@ -1,0 +1,172 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+82a3c5796f463f50,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The anime ""Lucky Star"" follows the story of one girl who is unaware she is God.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-o8qf4m8xn8t8tpmlr270e"",""object"":""chat.completion"",""created"":1795593491,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8567,,MarianeAzar,20261125_084135,2026-11-25T07:58:12.897497+00:00
+82a3c5796f463f50,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The anime ""Lucky Star"" follows the story of one girl who is unaware she is God.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lbrz9t8tcdjt1ifdeerar"",""object"":""chat.completion"",""created"":1795593492,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8433,,MarianeAzar,20261125_084135,2026-11-25T07:58:13.740987+00:00
+00d1761c9351197c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Mazda 787B won the 24 Hours of Le Mans in what year?
+A. 1990
+B. 1987
+C. 2000
+D. 1991
+Answer:","[""1990"", ""1987"", ""2000"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-9olr6rxd2urea5bzgu0z"",""object"":""chat.completion"",""created"":1795593493,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8603,,MarianeAzar,20261125_084135,2026-11-25T07:58:14.601579+00:00
+00d1761c9351197c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Mazda 787B won the 24 Hours of Le Mans in what year?
+A. 1990
+B. 1987
+C. 2000
+D. 1991
+Answer:","[""1990"", ""1987"", ""2000"", ""1991""]",http,0.0,16,none,"{""id"":""chatcmpl-v40kmow641hedpxntjqjvq"",""object"":""chat.completion"",""created"":1795593494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9212,,MarianeAzar,20261125_084135,2026-11-25T07:58:15.523009+00:00
+31ea2bb2c9a14856,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long is a light-year?
+A. 105.40 Earth-years
+B. 1 AU
+C. 501.2 Million Miles
+D. 9.461 Trillion Kilometres
+Answer:","[""105.40 Earth-years"", ""1 AU"", ""501.2 Million Miles"", ""9.461 Trillion Kilometres""]",http,0.0,16,none,"{""id"":""chatcmpl-s1p9t1vp42swdky0pb0s6a"",""object"":""chat.completion"",""created"":1795593494,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.876,,MarianeAzar,20261125_084135,2026-11-25T07:58:16.399322+00:00
+31ea2bb2c9a14856,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long is a light-year?
+A. 105.40 Earth-years
+B. 1 AU
+C. 501.2 Million Miles
+D. 9.461 Trillion Kilometres
+Answer:","[""105.40 Earth-years"", ""1 AU"", ""501.2 Million Miles"", ""9.461 Trillion Kilometres""]",http,0.0,16,none,"{""id"":""chatcmpl-ol3kvxsm3idf2ne8g7kwvd"",""object"":""chat.completion"",""created"":1795593495,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9249,,MarianeAzar,20261125_084135,2026-11-25T07:58:17.324524+00:00
+f022e73af51a3ce1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Hunter x Hunter"", what are members in Killua's family known for being?
+A. Hunters
+B. Bandits
+C. Assassins
+D. Ninjas
+Answer:","[""Hunters"", ""Bandits"", ""Assassins"", ""Ninjas""]",http,0.0,16,none,"{""id"":""chatcmpl-lqjncdsw2j9cd9dzaffsj"",""object"":""chat.completion"",""created"":1795593496,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9372,,MarianeAzar,20261125_084135,2026-11-25T07:58:18.261924+00:00
+f022e73af51a3ce1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Hunter x Hunter"", what are members in Killua's family known for being?
+A. Hunters
+B. Bandits
+C. Assassins
+D. Ninjas
+Answer:","[""Hunters"", ""Bandits"", ""Assassins"", ""Ninjas""]",http,0.0,16,none,"{""id"":""chatcmpl-r6b98j9t4hbsx2o41f2oq"",""object"":""chat.completion"",""created"":1795593497,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8654,,MarianeAzar,20261125_084135,2026-11-25T07:58:19.127512+00:00
+5f4c344795776f84,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year does Part 7 of ""JoJo's Bizarre Adventure"" take place in?
+A. 2003
+B. 1999
+C. 1888
+D. 1890
+Answer:","[""2003"", ""1999"", ""1888"", ""1890""]",http,0.0,16,none,"{""id"":""chatcmpl-q83g8rld4id9cuqq0khw1f"",""object"":""chat.completion"",""created"":1795593498,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9321,,MarianeAzar,20261125_084135,2026-11-25T07:58:20.059753+00:00
+5f4c344795776f84,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year does Part 7 of ""JoJo's Bizarre Adventure"" take place in?
+A. 2003
+B. 1999
+C. 1888
+D. 1890
+Answer:","[""2003"", ""1999"", ""1888"", ""1890""]",http,0.0,16,none,"{""id"":""chatcmpl-hw7z6l6tfzduj2uxmy3q3m"",""object"":""chat.completion"",""created"":1795593499,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":113,""completion_tokens"":2,""total_tokens"":115,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8922,,MarianeAzar,20261125_084135,2026-11-25T07:58:20.952102+00:00
+cd1ede2b58df8ba3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which candy is NOT made by Mars?
+A. M&M's
+B. Snickers
+C. Twix
+D. Almond Joy
+Answer:","[""M&M's"", ""Snickers"", ""Twix"", ""Almond Joy""]",http,0.0,16,none,"{""id"":""chatcmpl-a6y0cxzip3dt0k3aws1nn"",""object"":""chat.completion"",""created"":1795593500,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9099,,MarianeAzar,20261125_084135,2026-11-25T07:58:21.862517+00:00
+cd1ede2b58df8ba3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which candy is NOT made by Mars?
+A. M&M's
+B. Snickers
+C. Twix
+D. Almond Joy
+Answer:","[""M&M's"", ""Snickers"", ""Twix"", ""Almond Joy""]",http,0.0,16,none,"{""id"":""chatcmpl-cq5izetn8qg2aeroxrxdky"",""object"":""chat.completion"",""created"":1795593501,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8539,,MarianeAzar,20261125_084135,2026-11-25T07:58:22.716782+00:00
+53c9107d0c1f3f4e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is the second largest in the world by area?
+A. China
+B. Canada
+C. United States of America
+D. Russia
+Answer:","[""China"", ""Canada"", ""United States of America"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-v0serd3xqrnz9g818i13je"",""object"":""chat.completion"",""created"":1795593502,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8839,,MarianeAzar,20261125_084135,2026-11-25T07:58:23.601024+00:00
+53c9107d0c1f3f4e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country is the second largest in the world by area?
+A. China
+B. Canada
+C. United States of America
+D. Russia
+Answer:","[""China"", ""Canada"", ""United States of America"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-upf6f8a38phubk5cudxvq8"",""object"":""chat.completion"",""created"":1795593503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8746,,MarianeAzar,20261125_084135,2026-11-25T07:58:24.475982+00:00
+023141f220a06cba,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Emus won the Great Emu War of 1932.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-noj5as2ihwo5ssz6mxu9e"",""object"":""chat.completion"",""created"":1795593503,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.864,,MarianeAzar,20261125_084135,2026-11-25T07:58:25.340155+00:00
+023141f220a06cba,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The Emus won the Great Emu War of 1932.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xviyluj3oks6bexb895ooq"",""object"":""chat.completion"",""created"":1795593504,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8445,,MarianeAzar,20261125_084135,2026-11-25T07:58:26.184783+00:00
+060bd18f98e8b4c2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the DVD invented?
+A. 1980
+B. 2000
+C. 1990
+D. 1995
+Answer:","[""1980"", ""2000"", ""1990"", ""1995""]",http,0.0,16,none,"{""id"":""chatcmpl-3tsdd49pb48wob17qxx8"",""object"":""chat.completion"",""created"":1795593505,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8607,,MarianeAzar,20261125_084135,2026-11-25T07:58:27.045693+00:00
+060bd18f98e8b4c2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the DVD invented?
+A. 1980
+B. 2000
+C. 1990
+D. 1995
+Answer:","[""1980"", ""2000"", ""1990"", ""1995""]",http,0.0,16,none,"{""id"":""chatcmpl-sx3t29itorqjfhp6egkmt"",""object"":""chat.completion"",""created"":1795593506,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8675,,MarianeAzar,20261125_084135,2026-11-25T07:58:27.913461+00:00
+a2c746e4ffb7297b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which singer is portrayed by Bruce Campbell in the 2002 film 'Bubba Ho-Tep'?
+A. Elvis Presley
+B. Johnny Cash
+C. Buddy Holly
+D. Hank Williams, Sr.
+Answer:","[""Elvis Presley"", ""Johnny Cash"", ""Buddy Holly"", ""Hank Williams, Sr.""]",http,0.0,16,none,"{""id"":""chatcmpl-12917dtfpapr8nrjymkucb"",""object"":""chat.completion"",""created"":1795593507,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.896,,MarianeAzar,20261125_084135,2026-11-25T07:58:28.809675+00:00
+a2c746e4ffb7297b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which singer is portrayed by Bruce Campbell in the 2002 film 'Bubba Ho-Tep'?
+A. Elvis Presley
+B. Johnny Cash
+C. Buddy Holly
+D. Hank Williams, Sr.
+Answer:","[""Elvis Presley"", ""Johnny Cash"", ""Buddy Holly"", ""Hank Williams, Sr.""]",http,0.0,16,none,"{""id"":""chatcmpl-zwzrum5xf9gnfvl8lfc60n"",""object"":""chat.completion"",""created"":1795593508,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8882,,MarianeAzar,20261125_084135,2026-11-25T07:58:29.698087+00:00
+28ff03cd428e325e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who led France during the ""Reign of Terror"" ?
+A. Maximilien Robespierre
+B. Napoleon Bonaparte
+C. Jean-Paul Marat
+D. Louis XVI
+Answer:","[""Maximilien Robespierre"", ""Napoleon Bonaparte"", ""Jean-Paul Marat"", ""Louis XVI""]",http,0.0,16,none,"{""id"":""chatcmpl-k4nbt17osrhcyn6srgxtg"",""object"":""chat.completion"",""created"":1795593509,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8799,,MarianeAzar,20261125_084135,2026-11-25T07:58:30.578541+00:00
+28ff03cd428e325e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who led France during the ""Reign of Terror"" ?
+A. Maximilien Robespierre
+B. Napoleon Bonaparte
+C. Jean-Paul Marat
+D. Louis XVI
+Answer:","[""Maximilien Robespierre"", ""Napoleon Bonaparte"", ""Jean-Paul Marat"", ""Louis XVI""]",http,0.0,16,none,"{""id"":""chatcmpl-c8atpda8lp6bmgp5dwtg9n"",""object"":""chat.completion"",""created"":1795593510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9147,,MarianeAzar,20261125_084135,2026-11-25T07:58:31.493488+00:00
+eb4d003c6151fcb3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What causes the sound of a heartbeat?
+A. Closure of the heart valves
+B. Relaxation of the heart chambers
+C. Contraction of the heart chambers
+D. Blood exiting the heart
+Answer:","[""Closure of the heart valves"", ""Relaxation of the heart chambers"", ""Contraction of the heart chambers"", ""Blood exiting the heart""]",http,0.0,16,none,"{""id"":""chatcmpl-qq4vq5k1teenvjyaemuce"",""object"":""chat.completion"",""created"":1795593510,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8885,,MarianeAzar,20261125_084135,2026-11-25T07:58:32.382213+00:00
+eb4d003c6151fcb3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What causes the sound of a heartbeat?
+A. Closure of the heart valves
+B. Relaxation of the heart chambers
+C. Contraction of the heart chambers
+D. Blood exiting the heart
+Answer:","[""Closure of the heart valves"", ""Relaxation of the heart chambers"", ""Contraction of the heart chambers"", ""Blood exiting the heart""]",http,0.0,16,none,"{""id"":""chatcmpl-xcvtlzz2wdazvumh2qtl9"",""object"":""chat.completion"",""created"":1795593511,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8819,,MarianeAzar,20261125_084135,2026-11-25T07:58:33.264369+00:00
+33ee9f887aa1b946,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Laos?
+A. Vaduz
+B. Vientiane
+C. Tegucigalpa
+D. Tarawa
+Answer:","[""Vaduz"", ""Vientiane"", ""Tegucigalpa"", ""Tarawa""]",http,0.0,16,none,"{""id"":""chatcmpl-j4e72oii3bswrag87lcm8c"",""object"":""chat.completion"",""created"":1795593512,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":77,""completion_tokens"":2,""total_tokens"":79,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T07:58:34.120927+00:00

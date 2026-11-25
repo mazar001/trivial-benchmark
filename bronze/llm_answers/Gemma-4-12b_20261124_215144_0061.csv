@@ -1,0 +1,157 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+292c34c8f8f5310f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Minecraft"" was released from beta in 2011 during a convention held in which city?
+A. Paris
+B. London
+C. Las Vegas
+D. Bellevue
+Answer:","[""Paris"", ""London"", ""Las Vegas"", ""Bellevue""]",http,0.0,16,none,"{""id"":""chatcmpl-tj800dw6bbm9864vvsaex8"",""object"":""chat.completion"",""created"":1795555102,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5253,,MarianeAzar,20261124_215144,2026-11-24T21:18:23.738921+00:00
+5dbe577d4ea3d0b1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What video game genre were the original Warcraft games?
+A. RPG (Role Playing Game)
+B. TBS (Turn Based Strategy)
+C. RTS (Real Time Strategy)
+D. MMO (Massively Multiplayer Online)
+Answer:","[""RPG (Role Playing Game)"", ""TBS (Turn Based Strategy)"", ""RTS (Real Time Strategy)"", ""MMO (Massively Multiplayer Online)""]",http,0.0,16,none,"{""id"":""chatcmpl-x8agcnjuktgd3tza2b7t1"",""object"":""chat.completion"",""created"":1795555103,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0217,,MarianeAzar,20261124_215144,2026-11-24T21:18:24.760939+00:00
+5dbe577d4ea3d0b1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What video game genre were the original Warcraft games?
+A. RPG (Role Playing Game)
+B. TBS (Turn Based Strategy)
+C. RTS (Real Time Strategy)
+D. MMO (Massively Multiplayer Online)
+Answer:","[""RPG (Role Playing Game)"", ""TBS (Turn Based Strategy)"", ""RTS (Real Time Strategy)"", ""MMO (Massively Multiplayer Online)""]",http,0.0,16,none,"{""id"":""chatcmpl-y2tsc9v8qwj9z2ugi7t9w6"",""object"":""chat.completion"",""created"":1795555104,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3188,,MarianeAzar,20261124_215144,2026-11-24T21:18:26.080015+00:00
+c9d9f37608c19b95,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Jingle Bells was originally meant for Thanksgiving
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zm8fvypn3pda76jdb5fk"",""object"":""chat.completion"",""created"":1795555105,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":47,""completion_tokens"":2,""total_tokens"":49,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3081,,MarianeAzar,20261124_215144,2026-11-24T21:18:27.388237+00:00
+c9d9f37608c19b95,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Jingle Bells was originally meant for Thanksgiving
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-jj6iaif8vfppxzw4v1h0z8"",""object"":""chat.completion"",""created"":1795555107,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":61,""completion_tokens"":2,""total_tokens"":63,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8841,,MarianeAzar,20261124_215144,2026-11-24T21:18:28.272495+00:00
+e10755156ea7f72e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A lion brandishing a sword is depicted on the national flag of which country?
+A. Moldova
+B. Albania
+C. Zambia
+D. Sri Lanka
+Answer:","[""Moldova"", ""Albania"", ""Zambia"", ""Sri Lanka""]",http,0.0,16,none,"{""id"":""chatcmpl-2buxt0xw56plvkigbk4of"",""object"":""chat.completion"",""created"":1795555108,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":80,""completion_tokens"":2,""total_tokens"":82,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9415,,MarianeAzar,20261124_215144,2026-11-24T21:18:29.214497+00:00
+e10755156ea7f72e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A lion brandishing a sword is depicted on the national flag of which country?
+A. Moldova
+B. Albania
+C. Zambia
+D. Sri Lanka
+Answer:","[""Moldova"", ""Albania"", ""Zambia"", ""Sri Lanka""]",http,0.0,16,none,"{""id"":""chatcmpl-4i0xzhprjmuazgkszrgqyu"",""object"":""chat.completion"",""created"":1795555109,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":94,""completion_tokens"":2,""total_tokens"":96,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2931,,MarianeAzar,20261124_215144,2026-11-24T21:18:30.507794+00:00
+fca5c7e6261a041a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ultimate phrase used by Pharah from Overwatch is: ""Justice rains from above!""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-1m21jizh89wvqrlxyyau8"",""object"":""chat.completion"",""created"":1795555110,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8869,,MarianeAzar,20261124_215144,2026-11-24T21:18:31.394807+00:00
+fca5c7e6261a041a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The ultimate phrase used by Pharah from Overwatch is: ""Justice rains from above!""
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t99p8ms70edrohwllvfssq"",""object"":""chat.completion"",""created"":1795555111,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1982,,MarianeAzar,20261124_215144,2026-11-24T21:18:32.593170+00:00
+9df6ddc7c00436d0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Going by the International Code of Signals, which single flag is interpreted as ""I require assistance (not distress)""?
+A. Kilo
+B. Victor
+C. Delta
+D. Papa
+Answer:","[""Kilo"", ""Victor"", ""Delta"", ""Papa""]",http,0.0,16,none,"{""id"":""chatcmpl-8sjwtil8hd59a8t9w8ag9w"",""object"":""chat.completion"",""created"":1795555112,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.4544,,MarianeAzar,20261124_215144,2026-11-24T21:18:33.049123+00:00
+9df6ddc7c00436d0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Going by the International Code of Signals, which single flag is interpreted as ""I require assistance (not distress)""?
+A. Kilo
+B. Victor
+C. Delta
+D. Papa
+Answer:","[""Kilo"", ""Victor"", ""Delta"", ""Papa""]",http,0.0,16,none,,0.0166,"ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",MarianeAzar,20261124_215144,2026-11-24T21:18:33.066536+00:00
+a3eff9d4c94c8d59,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?
+A. Leopard
+B. Tiger
+C. Puma
+D. Cheetah
+Answer:","[""Leopard"", ""Tiger"", ""Puma"", ""Cheetah""]",http,0.0,16,none,"{""id"":""chatcmpl-6l2p3t44yd8661wwib3bql"",""object"":""chat.completion"",""created"":1795558302,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",2.8772,,MarianeAzar,20261124_215144,2026-11-24T21:18:35.943905+00:00
+a3eff9d4c94c8d59,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Released in 2001, the first edition of Apple's Mac OS X operating system (version 10.0) was given what animal code name?
+A. Leopard
+B. Tiger
+C. Puma
+D. Cheetah
+Answer:","[""Leopard"", ""Tiger"", ""Puma"", ""Cheetah""]",http,0.0,16,none,"{""id"":""chatcmpl-ri1rxs4xnjvuexcrudwrs"",""object"":""chat.completion"",""created"":1795558305,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",3.1626,,MarianeAzar,20261124_215144,2026-11-24T22:11:46.855193+00:00
+89a65fe2d608943f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the last message of the Dolphins in ""The Hitchhiker's Guide to the Galaxy""?
+A. ""The answer is 42.""
+B. ""So long, and thanks for all the fish.""
+C. ""Land of the brave.""
+D. ""Goodbye cruel world!""
+Answer:","[""\""The answer is 42.\"""", ""\""So long, and thanks for all the fish.\"""", ""\""Land of the brave.\"""", ""\""Goodbye cruel world!\""""]",http,0.0,16,none,"{""id"":""chatcmpl-la82ydi5rr0n64r9u38hmh"",""object"":""chat.completion"",""created"":1795558306,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9124,,MarianeAzar,20261124_215144,2026-11-24T22:11:47.767784+00:00
+89a65fe2d608943f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the last message of the Dolphins in ""The Hitchhiker's Guide to the Galaxy""?
+A. ""The answer is 42.""
+B. ""So long, and thanks for all the fish.""
+C. ""Land of the brave.""
+D. ""Goodbye cruel world!""
+Answer:","[""\""The answer is 42.\"""", ""\""So long, and thanks for all the fish.\"""", ""\""Land of the brave.\"""", ""\""Goodbye cruel world!\""""]",http,0.0,16,none,"{""id"":""chatcmpl-m27abiseb9a73a5fgkw57"",""object"":""chat.completion"",""created"":1795558307,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":124,""completion_tokens"":2,""total_tokens"":126,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9448,,MarianeAzar,20261124_215144,2026-11-24T22:11:48.712734+00:00
+1e23ff31119f0e37,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Fast food restaurant chains Carl's Jr. and Hardee's are owned by the same company.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fd8x1j5q1xjgol7d2okfe"",""object"":""chat.completion"",""created"":1795558308,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.984,,MarianeAzar,20261124_215144,2026-11-24T22:11:49.696947+00:00
+1e23ff31119f0e37,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Fast food restaurant chains Carl's Jr. and Hardee's are owned by the same company.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ul15d0oicmwj84gxqhubd"",""object"":""chat.completion"",""created"":1795558309,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9743,,MarianeAzar,20261124_215144,2026-11-24T22:11:50.671392+00:00
+7f4d758c9fcd8f85,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Rich Uncle Pennybags"" from the board game ""Monopoly"" wears a monocle.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-u1472zgh29gdbf4gst82hv"",""object"":""chat.completion"",""created"":1795558310,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":58,""completion_tokens"":2,""total_tokens"":60,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8207,,MarianeAzar,20261124_215144,2026-11-24T22:11:51.492163+00:00
+7f4d758c9fcd8f85,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Rich Uncle Pennybags"" from the board game ""Monopoly"" wears a monocle.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-zbbsmfsz4wjtd4z7rebj"",""object"":""chat.completion"",""created"":1795558311,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8366,,MarianeAzar,20261124_215144,2026-11-24T22:11:52.328795+00:00
+bc47eb89546b5e54,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?
+A. Crash landing when arriving at Keflavík airport
+B. Slipping off a cliff, and nearly drowning in icy water
+C. A minor car accident in a snowstorm
+D. Being served under-cooked chicken at his hotel
+Answer:","[""Crash landing when arriving at Keflavík airport"", ""Slipping off a cliff, and nearly drowning in icy water"", ""A minor car accident in a snowstorm"", ""Being served under-cooked chicken at his hotel""]",http,0.0,16,none,"{""id"":""chatcmpl-yyc79f5ccyjhegnqb32m8f"",""object"":""chat.completion"",""created"":1795558312,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9073,,MarianeAzar,20261124_215144,2026-11-24T22:11:53.236277+00:00
+bc47eb89546b5e54,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?
+A. Crash landing when arriving at Keflavík airport
+B. Slipping off a cliff, and nearly drowning in icy water
+C. A minor car accident in a snowstorm
+D. Being served under-cooked chicken at his hotel
+Answer:","[""Crash landing when arriving at Keflavík airport"", ""Slipping off a cliff, and nearly drowning in icy water"", ""A minor car accident in a snowstorm"", ""Being served under-cooked chicken at his hotel""]",http,0.0,16,none,"{""id"":""chatcmpl-7aqslk8e7d3qewj5ii6u0h"",""object"":""chat.completion"",""created"":1795558313,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":136,""completion_tokens"":2,""total_tokens"":138,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0084,,MarianeAzar,20261124_215144,2026-11-24T22:11:54.244951+00:00
+25a5d942fb5e8963,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game to utilize Valve's ""Source 2"" engine?
+A. Dota 2
+B. Pirates, Vikings & Knights II
+C. Counter-Strike: Global Offensive
+D. Artifact
+Answer:","[""Dota 2"", ""Pirates, Vikings & Knights II"", ""Counter-Strike: Global Offensive"", ""Artifact""]",http,0.0,16,none,"{""id"":""chatcmpl-gz07pnl7nme8b6mbicpn38"",""object"":""chat.completion"",""created"":1795558314,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9861,,MarianeAzar,20261124_215144,2026-11-24T22:11:55.231180+00:00
+25a5d942fb5e8963,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first game to utilize Valve's ""Source 2"" engine?
+A. Dota 2
+B. Pirates, Vikings & Knights II
+C. Counter-Strike: Global Offensive
+D. Artifact
+Answer:","[""Dota 2"", ""Pirates, Vikings & Knights II"", ""Counter-Strike: Global Offensive"", ""Artifact""]",http,0.0,16,none,"{""id"":""chatcmpl-uyet3ad3v8jqu8je7if1c"",""object"":""chat.completion"",""created"":1795558315,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9618,,MarianeAzar,20261124_215144,2026-11-24T22:11:56.193149+00:00
+dd5b20f7e67314bf,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Haikyuu!!, who is not a member of Karasuno VBC?
+A. Hisashi Kinoshita
+B. Shigeru Yahaba
+C. Tadashi Yamaguchi
+D. Kazuhito Narita
+Answer:","[""Hisashi Kinoshita"", ""Shigeru Yahaba"", ""Tadashi Yamaguchi"", ""Kazuhito Narita""]",http,0.0,16,none,"{""id"":""chatcmpl-78ln074t589a55wypkz666"",""object"":""chat.completion"",""created"":1795558316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9243,,MarianeAzar,20261124_215144,2026-11-24T22:11:57.117620+00:00
+dd5b20f7e67314bf,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Haikyuu!!, who is not a member of Karasuno VBC?
+A. Hisashi Kinoshita
+B. Shigeru Yahaba
+C. Tadashi Yamaguchi
+D. Kazuhito Narita
+Answer:","[""Hisashi Kinoshita"", ""Shigeru Yahaba"", ""Tadashi Yamaguchi"", ""Kazuhito Narita""]",http,0.0,16,none,"{""id"":""chatcmpl-40hvan1dztoljvdh2o4ro"",""object"":""chat.completion"",""created"":1795558317,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9091,,MarianeAzar,20261124_215144,2026-11-24T22:11:58.026848+00:00

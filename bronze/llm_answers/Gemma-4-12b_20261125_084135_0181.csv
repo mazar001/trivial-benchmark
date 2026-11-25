@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d5ee104f86571068,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What book series published by Jim Butcher follows a wizard in modern day Chicago?
+A. My Life as a Teenage Wizard
+B. The Cinder Spires
+C. A Hat in Time
+D. The Dresden Files
+Answer:","[""My Life as a Teenage Wizard"", ""The Cinder Spires"", ""A Hat in Time"", ""The Dresden Files""]",http,0.0,16,none,"{""id"":""chatcmpl-xdse5ewkh0hf0d5q6rtjpr"",""object"":""chat.completion"",""created"":1795596793,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8889,,MarianeAzar,20261125_084135,2026-11-25T08:53:14.778125+00:00
+d03176e3f8e655f1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Only 9% of US Households owned a television in
+A. 1969
+B. 1950
+C. 1965
+D. 1913
+Answer:","[""1969"", ""1950"", ""1965"", ""1913""]",http,0.0,16,none,"{""id"":""chatcmpl-ix74xehlkpma5rdrr0zhto"",""object"":""chat.completion"",""created"":1795596794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8849,,MarianeAzar,20261125_084135,2026-11-25T08:53:15.663444+00:00
+d03176e3f8e655f1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Only 9% of US Households owned a television in
+A. 1969
+B. 1950
+C. 1965
+D. 1913
+Answer:","[""1969"", ""1950"", ""1965"", ""1913""]",http,0.0,16,none,"{""id"":""chatcmpl-6uy2kfcoov6go0bv0t4byh"",""object"":""chat.completion"",""created"":1795596795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:53:16.536754+00:00
+68bb2d49607b5501,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 film ""Kung Pow! Enter the Fist"", why was Wimp Lo purposely trained wrong?
+A. For cheating
+B. Revenge
+C. To test him
+D. As a joke
+Answer:","[""For cheating"", ""Revenge"", ""To test him"", ""As a joke""]",http,0.0,16,none,"{""id"":""chatcmpl-e680fm6n69e015nagfjpp"",""object"":""chat.completion"",""created"":1795596795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8618,,MarianeAzar,20261125_084135,2026-11-25T08:53:17.398812+00:00
+68bb2d49607b5501,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 2002 film ""Kung Pow! Enter the Fist"", why was Wimp Lo purposely trained wrong?
+A. For cheating
+B. Revenge
+C. To test him
+D. As a joke
+Answer:","[""For cheating"", ""Revenge"", ""To test him"", ""As a joke""]",http,0.0,16,none,"{""id"":""chatcmpl-7cwyh2tdih5pns1w28njcc"",""object"":""chat.completion"",""created"":1795596796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8881,,MarianeAzar,20261125_084135,2026-11-25T08:53:18.287381+00:00
+df6b5eaf51678604,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?
+A. Toshiba
+B. Hewlett-Packard
+C. Asus
+D. Dell
+Answer:","[""Toshiba"", ""Hewlett-Packard"", ""Asus"", ""Dell""]",http,0.0,16,none,"{""id"":""chatcmpl-vbpd2j58fskxkuviyh1lwr"",""object"":""chat.completion"",""created"":1795596797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8499,,MarianeAzar,20261125_084135,2026-11-25T08:53:19.138377+00:00
+df6b5eaf51678604,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Computer manufacturer Compaq was acquired for $25 billion dollars in 2002 by which company?
+A. Toshiba
+B. Hewlett-Packard
+C. Asus
+D. Dell
+Answer:","[""Toshiba"", ""Hewlett-Packard"", ""Asus"", ""Dell""]",http,0.0,16,none,"{""id"":""chatcmpl-w2alfhu9odd7zrcgrcvuzo"",""object"":""chat.completion"",""created"":1795596798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8651,,MarianeAzar,20261125_084135,2026-11-25T08:53:20.003648+00:00
+a82c7a8bd9db4555,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 2,717 ft (828 m)?
+A. Burj Khalifa, United Arab Emirates
+B. Ping An Finance Centre, China
+C. Shanghai Tower, China
+D. Lotte World Tower, South Korea
+Answer:","[""Burj Khalifa, United Arab Emirates"", ""Ping An Finance Centre, China"", ""Shanghai Tower, China"", ""Lotte World Tower, South Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-mr1txe8s6ol63v5bm50syt"",""object"":""chat.completion"",""created"":1795596799,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8968,,MarianeAzar,20261125_084135,2026-11-25T08:53:20.900699+00:00
+a82c7a8bd9db4555,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 2,717 ft (828 m)?
+A. Burj Khalifa, United Arab Emirates
+B. Ping An Finance Centre, China
+C. Shanghai Tower, China
+D. Lotte World Tower, South Korea
+Answer:","[""Burj Khalifa, United Arab Emirates"", ""Ping An Finance Centre, China"", ""Shanghai Tower, China"", ""Lotte World Tower, South Korea""]",http,0.0,16,none,"{""id"":""chatcmpl-wkj07aptepc7990h5p5u1c"",""object"":""chat.completion"",""created"":1795596800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":125,""completion_tokens"":2,""total_tokens"":127,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9375,,MarianeAzar,20261125_084135,2026-11-25T08:53:21.838458+00:00
+cdfba2a511f5ff5d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1971 film ""Willy Wonka & the Chocolate Factory"", who played Willy Wonka?
+A. Gene Wilder
+B. Johnny Depp
+C. Shia LeBouf
+D. Peter Ostrum
+Answer:","[""Gene Wilder"", ""Johnny Depp"", ""Shia LeBouf"", ""Peter Ostrum""]",http,0.0,16,none,"{""id"":""chatcmpl-wnmy1f7n2f02f09on09401"",""object"":""chat.completion"",""created"":1795596801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8988,,MarianeAzar,20261125_084135,2026-11-25T08:53:22.737560+00:00
+cdfba2a511f5ff5d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1971 film ""Willy Wonka & the Chocolate Factory"", who played Willy Wonka?
+A. Gene Wilder
+B. Johnny Depp
+C. Shia LeBouf
+D. Peter Ostrum
+Answer:","[""Gene Wilder"", ""Johnny Depp"", ""Shia LeBouf"", ""Peter Ostrum""]",http,0.0,16,none,"{""id"":""chatcmpl-8whtg05n1hhe4uyvxq22u"",""object"":""chat.completion"",""created"":1795596802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8966,,MarianeAzar,20261125_084135,2026-11-25T08:53:23.634382+00:00
+26d1052ee1d9d6fc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for modern day humans?
+A. Homo Erectus
+B. Homo Neanderthalensis
+C. Homo Ergaster
+D. Homo Sapiens
+Answer:","[""Homo Erectus"", ""Homo Neanderthalensis"", ""Homo Ergaster"", ""Homo Sapiens""]",http,0.0,16,none,"{""id"":""chatcmpl-hcxwx5t6s8q22dtjj512qi"",""object"":""chat.completion"",""created"":1795596803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.868,,MarianeAzar,20261125_084135,2026-11-25T08:53:24.502759+00:00
+26d1052ee1d9d6fc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the scientific name for modern day humans?
+A. Homo Erectus
+B. Homo Neanderthalensis
+C. Homo Ergaster
+D. Homo Sapiens
+Answer:","[""Homo Erectus"", ""Homo Neanderthalensis"", ""Homo Ergaster"", ""Homo Sapiens""]",http,0.0,16,none,"{""id"":""chatcmpl-rhn9jbok4dn19evc2zkpbl"",""object"":""chat.completion"",""created"":1795596803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T08:53:25.379439+00:00
+63bb001af80098a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard Monopoly board, which square is diagonally opposite 'Go'?
+A. Jail
+B. Free Parking
+C. The Electric Company
+D. Go to Jail
+Answer:","[""Jail"", ""Free Parking"", ""The Electric Company"", ""Go to Jail""]",http,0.0,16,none,"{""id"":""chatcmpl-d9e951q75oaqdkwtbq6ez"",""object"":""chat.completion"",""created"":1795596804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8777,,MarianeAzar,20261125_084135,2026-11-25T08:53:26.257384+00:00
+63bb001af80098a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: On a standard Monopoly board, which square is diagonally opposite 'Go'?
+A. Jail
+B. Free Parking
+C. The Electric Company
+D. Go to Jail
+Answer:","[""Jail"", ""Free Parking"", ""The Electric Company"", ""Go to Jail""]",http,0.0,16,none,"{""id"":""chatcmpl-3afbamt0lbf33pk8hkk6ey"",""object"":""chat.completion"",""created"":1795596805,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8605,,MarianeAzar,20261125_084135,2026-11-25T08:53:27.118118+00:00
+963ae90e080f4158,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the City in Saints Row The Third?
+A. Steelport
+B. Liberty
+C. Carcer
+D. Stilwater
+Answer:","[""Steelport"", ""Liberty"", ""Carcer"", ""Stilwater""]",http,0.0,16,none,"{""id"":""chatcmpl-khxorw2nhhdnr0n8o6dr3"",""object"":""chat.completion"",""created"":1795596806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8574,,MarianeAzar,20261125_084135,2026-11-25T08:53:27.975904+00:00
+963ae90e080f4158,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the City in Saints Row The Third?
+A. Steelport
+B. Liberty
+C. Carcer
+D. Stilwater
+Answer:","[""Steelport"", ""Liberty"", ""Carcer"", ""Stilwater""]",http,0.0,16,none,"{""id"":""chatcmpl-11pf5xmthb5wo9mu8hujzs"",""object"":""chat.completion"",""created"":1795596807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8614,,MarianeAzar,20261125_084135,2026-11-25T08:53:28.837582+00:00
+edacd85f521378ab,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""JoJo's Bizarre Adventure"", Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-lmk5jai4jx8r3q4zggo5i"",""object"":""chat.completion"",""created"":1795596808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.815,,MarianeAzar,20261125_084135,2026-11-25T08:53:29.652743+00:00
+edacd85f521378ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In ""JoJo's Bizarre Adventure"", Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tlk19goe66qdafp7beklas"",""object"":""chat.completion"",""created"":1795596809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8523,,MarianeAzar,20261125_084135,2026-11-25T08:53:30.505260+00:00
+9f674594fa57c0bd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname of Northampton town's rugby union club?
+A. Harlequins
+B. Saracens
+C. Wasps
+D. Saints
+Answer:","[""Harlequins"", ""Saracens"", ""Wasps"", ""Saints""]",http,0.0,16,none,"{""id"":""chatcmpl-33t5k1fpdpci4iorfxx1lp"",""object"":""chat.completion"",""created"":1795596809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8715,,MarianeAzar,20261125_084135,2026-11-25T08:53:31.377109+00:00
+9f674594fa57c0bd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the nickname of Northampton town's rugby union club?
+A. Harlequins
+B. Saracens
+C. Wasps
+D. Saints
+Answer:","[""Harlequins"", ""Saracens"", ""Wasps"", ""Saints""]",http,0.0,16,none,"{""id"":""chatcmpl-toph7qpo9uj9694r7jphxc"",""object"":""chat.completion"",""created"":1795596810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8955,,MarianeAzar,20261125_084135,2026-11-25T08:53:32.272881+00:00
+31529428ea8a6c4e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A bear does NOT defecate during hibernation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wjjw6lmqv28fhe3wu16ns4"",""object"":""chat.completion"",""created"":1795596811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":48,""completion_tokens"":2,""total_tokens"":50,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.7913,,MarianeAzar,20261125_084135,2026-11-25T08:53:33.064311+00:00
+31529428ea8a6c4e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A bear does NOT defecate during hibernation.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-viubihd4lq8a0dr2hmr1q"",""object"":""chat.completion"",""created"":1795596812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":62,""completion_tokens"":2,""total_tokens"":64,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.811,,MarianeAzar,20261125_084135,2026-11-25T08:53:33.875459+00:00
+4054bdd8ecd1b514,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the ""Master Of Magnetism"" Magneto?
+A. Charles Xavier
+B. Johann Schmidt
+C. Max Eisenhardt
+D. Pietro Maximoff
+Answer:","[""Charles Xavier"", ""Johann Schmidt"", ""Max Eisenhardt"", ""Pietro Maximoff""]",http,0.0,16,none,"{""id"":""chatcmpl-523i6679wvm9ddzn417lr5"",""object"":""chat.completion"",""created"":1795596813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8433,,MarianeAzar,20261125_084135,2026-11-25T08:53:34.718956+00:00
+4054bdd8ecd1b514,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the real name of the ""Master Of Magnetism"" Magneto?
+A. Charles Xavier
+B. Johann Schmidt
+C. Max Eisenhardt
+D. Pietro Maximoff
+Answer:","[""Charles Xavier"", ""Johann Schmidt"", ""Max Eisenhardt"", ""Pietro Maximoff""]",http,0.0,16,none,"{""id"":""chatcmpl-padl37ayeyd1gle2ont56w"",""object"":""chat.completion"",""created"":1795596814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.865,,MarianeAzar,20261125_084135,2026-11-25T08:53:35.584168+00:00

@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+5fd81faa8cd1ca06,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Harry Potter and the Deathly Hallows, Hermione destroyed the fourth Horcrux by stabbing it with the Sword of Gryffindor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-8yiny4e19ghh2mdbdo3do6"",""object"":""chat.completion"",""created"":1795594773,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":68,""completion_tokens"":2,""total_tokens"":70,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3464,,MarianeAzar,20261125_084135,2026-11-25T08:19:35.599480+00:00
+5fd81faa8cd1ca06,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Harry Potter and the Deathly Hallows, Hermione destroyed the fourth Horcrux by stabbing it with the Sword of Gryffindor.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-69en5zuzw262va0xkbw6m"",""object"":""chat.completion"",""created"":1795594775,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0056,,MarianeAzar,20261125_084135,2026-11-25T08:19:36.605275+00:00
+54afa8e317c59ed3,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Queen song was covered by Brittany Murphy in the 2006 film ""Happy Feet""?
+A. Somebody to Love
+B. Bohemian Rhapsody
+C. Under Pressure
+D. Flash
+Answer:","[""Somebody to Love"", ""Bohemian Rhapsody"", ""Under Pressure"", ""Flash""]",http,0.0,16,none,"{""id"":""chatcmpl-qcwckv2vwf492n29jmc0m"",""object"":""chat.completion"",""created"":1795594776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8473,,MarianeAzar,20261125_084135,2026-11-25T08:19:37.452854+00:00
+54afa8e317c59ed3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which Queen song was covered by Brittany Murphy in the 2006 film ""Happy Feet""?
+A. Somebody to Love
+B. Bohemian Rhapsody
+C. Under Pressure
+D. Flash
+Answer:","[""Somebody to Love"", ""Bohemian Rhapsody"", ""Under Pressure"", ""Flash""]",http,0.0,16,none,"{""id"":""chatcmpl-735lopidj3u1y2416phopy"",""object"":""chat.completion"",""created"":1795594776,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9656,,MarianeAzar,20261125_084135,2026-11-25T08:19:38.418690+00:00
+514b5912edb9b1c6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was walking like an Egyptian in 1981?
+A. R.E.M.
+B. The Connells
+C. The Ocean Blue
+D. The Bangles
+Answer:","[""R.E.M."", ""The Connells"", ""The Ocean Blue"", ""The Bangles""]",http,0.0,16,none,"{""id"":""chatcmpl-gesmvxjm7rtv6icu2wgla"",""object"":""chat.completion"",""created"":1795594777,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3453,,MarianeAzar,20261125_084135,2026-11-25T08:19:39.764214+00:00
+514b5912edb9b1c6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who was walking like an Egyptian in 1981?
+A. R.E.M.
+B. The Connells
+C. The Ocean Blue
+D. The Bangles
+Answer:","[""R.E.M."", ""The Connells"", ""The Ocean Blue"", ""The Bangles""]",http,0.0,16,none,"{""id"":""chatcmpl-a70cumd5txruif2fyo69vt"",""object"":""chat.completion"",""created"":1795594779,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8948,,MarianeAzar,20261125_084135,2026-11-25T08:19:40.659404+00:00
+b3f985088be1061b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters from the game ""Overwatch"" was revealed to be homosexual in December of 2016?
+A. Tracer
+B. Symmetra
+C. Widowmaker
+D. Sombra
+Answer:","[""Tracer"", ""Symmetra"", ""Widowmaker"", ""Sombra""]",http,0.0,16,none,"{""id"":""chatcmpl-uvbdatfo6hjgi8ep7nnqxi"",""object"":""chat.completion"",""created"":1795594780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8565,,MarianeAzar,20261125_084135,2026-11-25T08:19:41.516127+00:00
+b3f985088be1061b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following characters from the game ""Overwatch"" was revealed to be homosexual in December of 2016?
+A. Tracer
+B. Symmetra
+C. Widowmaker
+D. Sombra
+Answer:","[""Tracer"", ""Symmetra"", ""Widowmaker"", ""Sombra""]",http,0.0,16,none,"{""id"":""chatcmpl-qzi0hdxii4gpy9cx8rj1ii"",""object"":""chat.completion"",""created"":1795594780,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2287,,MarianeAzar,20261125_084135,2026-11-25T08:19:42.745013+00:00
+b6d3f2a650a92c5b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which river was dammed to create Gatun Lake and the Panama Canal?
+A. Chucunaque River
+B. Chagres River
+C. Tuira River
+D. Chepo River
+Answer:","[""Chucunaque River"", ""Chagres River"", ""Tuira River"", ""Chepo River""]",http,0.0,16,none,"{""id"":""chatcmpl-eu13vtmgsh93ge29iqwlq2"",""object"":""chat.completion"",""created"":1795594782,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1317,,MarianeAzar,20261125_084135,2026-11-25T08:19:43.876965+00:00
+b6d3f2a650a92c5b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which river was dammed to create Gatun Lake and the Panama Canal?
+A. Chucunaque River
+B. Chagres River
+C. Tuira River
+D. Chepo River
+Answer:","[""Chucunaque River"", ""Chagres River"", ""Tuira River"", ""Chepo River""]",http,0.0,16,none,"{""id"":""chatcmpl-pfesmwo72ot1bbb37taa6b"",""object"":""chat.completion"",""created"":1795594783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9211,,MarianeAzar,20261125_084135,2026-11-25T08:19:44.798249+00:00
+eb7941cd963611af,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whose 2016 presidential campaign slogan was ""Make America Great Again""?
+A. Bernie Sanders
+B. Marco Rubio
+C. Ted Cruz
+D. Donald Trump
+Answer:","[""Bernie Sanders"", ""Marco Rubio"", ""Ted Cruz"", ""Donald Trump""]",http,0.0,16,none,"{""id"":""chatcmpl-ukousevo4p3pt0cg8rh12"",""object"":""chat.completion"",""created"":1795594784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9352,,MarianeAzar,20261125_084135,2026-11-25T08:19:45.734130+00:00
+eb7941cd963611af,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Whose 2016 presidential campaign slogan was ""Make America Great Again""?
+A. Bernie Sanders
+B. Marco Rubio
+C. Ted Cruz
+D. Donald Trump
+Answer:","[""Bernie Sanders"", ""Marco Rubio"", ""Ted Cruz"", ""Donald Trump""]",http,0.0,16,none,"{""id"":""chatcmpl-5ehuncjq3wsqcnwzzleah"",""object"":""chat.completion"",""created"":1795594785,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2949,,MarianeAzar,20261125_084135,2026-11-25T08:19:47.029303+00:00
+1358e4420d2e1b15,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the process that sends one qubit of information using two bits of classical information?
+A. Super Dense Coding
+B. Quantum Teleportation
+C. Quantum Programming
+D. Quantum Entanglement
+Answer:","[""Super Dense Coding"", ""Quantum Teleportation"", ""Quantum Programming"", ""Quantum Entanglement""]",http,0.0,16,none,"{""id"":""chatcmpl-csb074q2g1hs79mh6dxds9"",""object"":""chat.completion"",""created"":1795594786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9282,,MarianeAzar,20261125_084135,2026-11-25T08:19:47.957726+00:00
+1358e4420d2e1b15,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the name of the process that sends one qubit of information using two bits of classical information?
+A. Super Dense Coding
+B. Quantum Teleportation
+C. Quantum Programming
+D. Quantum Entanglement
+Answer:","[""Super Dense Coding"", ""Quantum Teleportation"", ""Quantum Programming"", ""Quantum Entanglement""]",http,0.0,16,none,"{""id"":""chatcmpl-v1i7y9v4rl7e5yvyd0vvs"",""object"":""chat.completion"",""created"":1795594787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9693,,MarianeAzar,20261125_084135,2026-11-25T08:19:48.927198+00:00
+e0aab9abce415219,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1951 movie ""The Day The Earth Stood Still"" which US city did the alien spaceship land in?
+A. Philadelphia
+B. Los Angeles
+C. New York
+D. Washington D.C.
+Answer:","[""Philadelphia"", ""Los Angeles"", ""New York"", ""Washington D.C.""]",http,0.0,16,none,"{""id"":""chatcmpl-nmxae3lc06d49oblckk59y"",""object"":""chat.completion"",""created"":1795594788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3102,,MarianeAzar,20261125_084135,2026-11-25T08:19:50.237744+00:00
+e0aab9abce415219,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the 1951 movie ""The Day The Earth Stood Still"" which US city did the alien spaceship land in?
+A. Philadelphia
+B. Los Angeles
+C. New York
+D. Washington D.C.
+Answer:","[""Philadelphia"", ""Los Angeles"", ""New York"", ""Washington D.C.""]",http,0.0,16,none,"{""id"":""chatcmpl-d8cqvqsu50mje7fjn9gys"",""object"":""chat.completion"",""created"":1795594789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":110,""completion_tokens"":2,""total_tokens"":112,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9614,,MarianeAzar,20261125_084135,2026-11-25T08:19:51.199289+00:00
+603799c633f8e99c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Harvard University is located in which city?
+A. Cambridge
+B. Washington D.C.
+C. Providence
+D. New York
+Answer:","[""Cambridge"", ""Washington D.C."", ""Providence"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-rb0u4ol8sumw6i8rbno2xk"",""object"":""chat.completion"",""created"":1795594790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2748,,MarianeAzar,20261125_084135,2026-11-25T08:19:52.474394+00:00
+603799c633f8e99c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Harvard University is located in which city?
+A. Cambridge
+B. Washington D.C.
+C. Providence
+D. New York
+Answer:","[""Cambridge"", ""Washington D.C."", ""Providence"", ""New York""]",http,0.0,16,none,"{""id"":""chatcmpl-ctmlvcrpk660f9rkdlt54"",""object"":""chat.completion"",""created"":1795594791,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3382,,MarianeAzar,20261125_084135,2026-11-25T08:19:53.812779+00:00
+1a932f01ff43d358,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Christopher Columbus sailed to America, what was the first region he arrived in?
+A. Isthmus of Panama
+B. The Bahamas Archipelago
+C. Florida
+D. Nicaragua
+Answer:","[""Isthmus of Panama"", ""The Bahamas Archipelago"", ""Florida"", ""Nicaragua""]",http,0.0,16,none,"{""id"":""chatcmpl-8t1ba75bbws7r1xbt16obv"",""object"":""chat.completion"",""created"":1795594793,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1314,,MarianeAzar,20261125_084135,2026-11-25T08:19:54.944447+00:00
+1a932f01ff43d358,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When Christopher Columbus sailed to America, what was the first region he arrived in?
+A. Isthmus of Panama
+B. The Bahamas Archipelago
+C. Florida
+D. Nicaragua
+Answer:","[""Isthmus of Panama"", ""The Bahamas Archipelago"", ""Florida"", ""Nicaragua""]",http,0.0,16,none,"{""id"":""chatcmpl-x13ewt3b7cg2lszoh8zoa4"",""object"":""chat.completion"",""created"":1795594794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1541,,MarianeAzar,20261125_084135,2026-11-25T08:19:56.098817+00:00
+34083091b49727b8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?
+A. Sri Lanka
+B. Bhutan
+C. Kiribati
+D. Scotland
+Answer:","[""Sri Lanka"", ""Bhutan"", ""Kiribati"", ""Scotland""]",http,0.0,16,none,"{""id"":""chatcmpl-4f7jp9j6uts1tk10y6kkqk"",""object"":""chat.completion"",""created"":1795594795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1206,,MarianeAzar,20261125_084135,2026-11-25T08:19:57.220194+00:00
+34083091b49727b8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?
+A. Sri Lanka
+B. Bhutan
+C. Kiribati
+D. Scotland
+Answer:","[""Sri Lanka"", ""Bhutan"", ""Kiribati"", ""Scotland""]",http,0.0,16,none,"{""id"":""chatcmpl-oj2hk00i46mw99qinnns8"",""object"":""chat.completion"",""created"":1795594796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1595,,MarianeAzar,20261125_084135,2026-11-25T08:19:58.380113+00:00
+35a7e6bc1407a700,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Game of Thrones, what continent lies across the Narrow Sea from Westeros?
+A. Esuntos
+B. Westereast
+C. Easteros
+D. Essos
+Answer:","[""Esuntos"", ""Westereast"", ""Easteros"", ""Essos""]",http,0.0,16,none,"{""id"":""chatcmpl-s2lq4yidekawugz0e6pdvm"",""object"":""chat.completion"",""created"":1795594797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1416,,MarianeAzar,20261125_084135,2026-11-25T08:19:59.522021+00:00
+35a7e6bc1407a700,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Game of Thrones, what continent lies across the Narrow Sea from Westeros?
+A. Esuntos
+B. Westereast
+C. Easteros
+D. Essos
+Answer:","[""Esuntos"", ""Westereast"", ""Easteros"", ""Essos""]",http,0.0,16,none,"{""id"":""chatcmpl-vv3ahut87qmrdyek1x9vki"",""object"":""chat.completion"",""created"":1795594798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1459,,MarianeAzar,20261125_084135,2026-11-25T08:20:00.668206+00:00
+fcf778f31a5a2012,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What year did the Battle of Agincourt take place?
+A. 1422
+B. 1415
+C. 1463
+D. 1401
+Answer:","[""1422"", ""1415"", ""1463"", ""1401""]",http,0.0,16,none,"{""id"":""chatcmpl-ap80rxbdhi1vdj6rs2epo"",""object"":""chat.completion"",""created"":1795594800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1458,,MarianeAzar,20261125_084135,2026-11-25T08:20:01.814282+00:00

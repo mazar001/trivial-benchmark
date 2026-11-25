@@ -1,0 +1,173 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+cbc6af82b4d8d9fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which U.S. president is said to have had the longest beard?
+A. John Quincy Adams
+B. Rutherford B. Hayes
+C. Zachary Taylor
+D. James A. Garfield
+Answer:","[""John Quincy Adams"", ""Rutherford B. Hayes"", ""Zachary Taylor"", ""James A. Garfield""]",http,0.0,16,none,"{""id"":""chatcmpl-gjmze7h6lo5fi7pmmsp54"",""object"":""chat.completion"",""created"":1795595304,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2898,,MarianeAzar,20261125_084135,2026-11-25T08:28:26.041457+00:00
+0fa6fbfce20ddd21,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous rapper is featured in Jack Ü (Skrillex and Diplo)'s 2015 single called ""Febreze""?
+A. Kendrick Lamar
+B. 2 Chainz
+C. Future
+D. Fatman Scoop
+Answer:","[""Kendrick Lamar"", ""2 Chainz"", ""Future"", ""Fatman Scoop""]",http,0.0,16,none,"{""id"":""chatcmpl-mrhx10ttg8huey1j57joaf"",""object"":""chat.completion"",""created"":1795595305,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9538,,MarianeAzar,20261125_084135,2026-11-25T08:28:26.995515+00:00
+0fa6fbfce20ddd21,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous rapper is featured in Jack Ü (Skrillex and Diplo)'s 2015 single called ""Febreze""?
+A. Kendrick Lamar
+B. 2 Chainz
+C. Future
+D. Fatman Scoop
+Answer:","[""Kendrick Lamar"", ""2 Chainz"", ""Future"", ""Fatman Scoop""]",http,0.0,16,none,"{""id"":""chatcmpl-m68764qchqem239pqfasgd"",""object"":""chat.completion"",""created"":1795595306,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2889,,MarianeAzar,20261125_084135,2026-11-25T08:28:28.284704+00:00
+3deaa581b9c44719,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Prince album ""Purple Rain"" released?
+A. 1984
+B. 1983
+C. 1979
+D. 1981
+Answer:","[""1984"", ""1983"", ""1979"", ""1981""]",http,0.0,16,none,"{""id"":""chatcmpl-uat7gun0lgbittabhfihs"",""object"":""chat.completion"",""created"":1795595307,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2771,,MarianeAzar,20261125_084135,2026-11-25T08:28:29.562334+00:00
+3deaa581b9c44719,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Prince album ""Purple Rain"" released?
+A. 1984
+B. 1983
+C. 1979
+D. 1981
+Answer:","[""1984"", ""1983"", ""1979"", ""1981""]",http,0.0,16,none,"{""id"":""chatcmpl-bbfqyqv3lpfz3wj49ebpb"",""object"":""chat.completion"",""created"":1795595308,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9581,,MarianeAzar,20261125_084135,2026-11-25T08:28:30.520813+00:00
+5df63893b44ed01c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is ""doubly landlocked"" (surrounded entirely by one or more landlocked countries)?
+A. Uzbekistan
+B. Ethiopia
+C. Bolivia
+D. Switzerland
+Answer:","[""Uzbekistan"", ""Ethiopia"", ""Bolivia"", ""Switzerland""]",http,0.0,16,none,"{""id"":""chatcmpl-wcaqqwux07bvmvsqh30l98"",""object"":""chat.completion"",""created"":1795595309,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2215,,MarianeAzar,20261125_084135,2026-11-25T08:28:31.743051+00:00
+5df63893b44ed01c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these countries is ""doubly landlocked"" (surrounded entirely by one or more landlocked countries)?
+A. Uzbekistan
+B. Ethiopia
+C. Bolivia
+D. Switzerland
+Answer:","[""Uzbekistan"", ""Ethiopia"", ""Bolivia"", ""Switzerland""]",http,0.0,16,none,"{""id"":""chatcmpl-zhpuy7k7wozwc76b86ija"",""object"":""chat.completion"",""created"":1795595311,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1334,,MarianeAzar,20261125_084135,2026-11-25T08:28:32.876731+00:00
+b3676660d93afcc9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Ace Attorney"" series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?
+A. Bansai Ichiyanagi
+B. Gregory Edgeworth
+C. Manfred Von Karma
+D. Tateyuki Shigaraki
+Answer:","[""Bansai Ichiyanagi"", ""Gregory Edgeworth"", ""Manfred Von Karma"", ""Tateyuki Shigaraki""]",http,0.0,16,none,"{""id"":""chatcmpl-7ddn5l4vgstuo7yhg6ehqc"",""object"":""chat.completion"",""created"":1795595312,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9247,,MarianeAzar,20261125_084135,2026-11-25T08:28:33.801950+00:00
+b3676660d93afcc9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""Ace Attorney"" series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?
+A. Bansai Ichiyanagi
+B. Gregory Edgeworth
+C. Manfred Von Karma
+D. Tateyuki Shigaraki
+Answer:","[""Bansai Ichiyanagi"", ""Gregory Edgeworth"", ""Manfred Von Karma"", ""Tateyuki Shigaraki""]",http,0.0,16,none,"{""id"":""chatcmpl-f25ay4rlaocr7ky9lzzqlo"",""object"":""chat.completion"",""created"":1795595313,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5507,,MarianeAzar,20261125_084135,2026-11-25T08:28:35.353052+00:00
+a409545e6c9f1a2e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?
+A. Rogue Lawyer
+B. The Litigators
+C. Gray Mountain
+D. Camino Island
+Answer:","[""Rogue Lawyer"", ""The Litigators"", ""Gray Mountain"", ""Camino Island""]",http,0.0,16,none,"{""id"":""chatcmpl-iak0gm46p1dkjcc4mdcg"",""object"":""chat.completion"",""created"":1795595314,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0233,,MarianeAzar,20261125_084135,2026-11-25T08:28:36.376818+00:00
+a409545e6c9f1a2e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?
+A. Rogue Lawyer
+B. The Litigators
+C. Gray Mountain
+D. Camino Island
+Answer:","[""Rogue Lawyer"", ""The Litigators"", ""Gray Mountain"", ""Camino Island""]",http,0.0,16,none,"{""id"":""chatcmpl-2c4wkn67h32p4jac5nx6kg"",""object"":""chat.completion"",""created"":1795595315,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9824,,MarianeAzar,20261125_084135,2026-11-25T08:28:37.359500+00:00
+eb66917fc18443ee,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1969 top 5 hit with the song, 'A Boy Named Sue'?
+A. Johnny Cash
+B. Bob Dylan
+C. Kris Kristofferson
+D. Willie Nelson
+Answer:","[""Johnny Cash"", ""Bob Dylan"", ""Kris Kristofferson"", ""Willie Nelson""]",http,0.0,16,none,"{""id"":""chatcmpl-5e7qap71e5fkkrirqn4tc"",""object"":""chat.completion"",""created"":1795595316,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.3949,,MarianeAzar,20261125_084135,2026-11-25T08:28:38.754728+00:00
+eb66917fc18443ee,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1969 top 5 hit with the song, 'A Boy Named Sue'?
+A. Johnny Cash
+B. Bob Dylan
+C. Kris Kristofferson
+D. Willie Nelson
+Answer:","[""Johnny Cash"", ""Bob Dylan"", ""Kris Kristofferson"", ""Willie Nelson""]",http,0.0,16,none,"{""id"":""chatcmpl-bq835phvb6hdtddjs69at"",""object"":""chat.completion"",""created"":1795595318,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0331,,MarianeAzar,20261125_084135,2026-11-25T08:28:39.788252+00:00
+f5d04e24c94e9fe3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dracula is destroyed by contact with sunlight
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ss2z9pww2co48oc43rfnr"",""object"":""chat.completion"",""created"":1795595319,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":46,""completion_tokens"":2,""total_tokens"":48,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2867,,MarianeAzar,20261125_084135,2026-11-25T08:28:41.075061+00:00
+f5d04e24c94e9fe3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Dracula is destroyed by contact with sunlight
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0dmtyw42419bt6msztu081a"",""object"":""chat.completion"",""created"":1795595320,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0941,,MarianeAzar,20261125_084135,2026-11-25T08:28:42.169359+00:00
+d49ec7c5163a24c9,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ryuji Sakamoto is a character from Final Fantasy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-j4ymj1qcikmjndy61ixxxq"",""object"":""chat.completion"",""created"":1795595321,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261125_084135,2026-11-25T08:28:43.051247+00:00
+d49ec7c5163a24c9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Ryuji Sakamoto is a character from Final Fantasy.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6yjnuvsjcu57oep4liecut"",""object"":""chat.completion"",""created"":1795595322,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.2129,,MarianeAzar,20261125_084135,2026-11-25T08:28:44.264407+00:00
+9f81e4d53dca781e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The Singing Cowboy"" Gene Autry is credited with the first recording for all but which classic Christmas jingle?
+A. White Christmas
+B. Frosty the Snowman
+C. Here Comes Santa Claus
+D. Rudolph the Red-Nosed Reindeer
+Answer:","[""White Christmas"", ""Frosty the Snowman"", ""Here Comes Santa Claus"", ""Rudolph the Red-Nosed Reindeer""]",http,0.0,16,none,"{""id"":""chatcmpl-ifxhm5pm4ye5n8kry4v"",""object"":""chat.completion"",""created"":1795595323,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9757,,MarianeAzar,20261125_084135,2026-11-25T08:28:45.240382+00:00
+9f81e4d53dca781e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""The Singing Cowboy"" Gene Autry is credited with the first recording for all but which classic Christmas jingle?
+A. White Christmas
+B. Frosty the Snowman
+C. Here Comes Santa Claus
+D. Rudolph the Red-Nosed Reindeer
+Answer:","[""White Christmas"", ""Frosty the Snowman"", ""Here Comes Santa Claus"", ""Rudolph the Red-Nosed Reindeer""]",http,0.0,16,none,"{""id"":""chatcmpl-6rhcylax6l714khv01o33b"",""object"":""chat.completion"",""created"":1795595324,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9774,,MarianeAzar,20261125_084135,2026-11-25T08:28:46.218054+00:00
+202b3e0ff3c5fec6,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many baby/milk teeth does a human child have in total?
+A. 20
+B. 10
+C. 25
+D. 15
+Answer:","[""20"", ""10"", ""25"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-tn8ubuc7oebo8rfr232ny"",""object"":""chat.completion"",""created"":1795595325,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.5094,,MarianeAzar,20261125_084135,2026-11-25T08:28:47.728017+00:00
+202b3e0ff3c5fec6,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many baby/milk teeth does a human child have in total?
+A. 20
+B. 10
+C. 25
+D. 15
+Answer:","[""20"", ""10"", ""25"", ""15""]",http,0.0,16,none,"{""id"":""chatcmpl-vb6hr8k88tlqallmmlwhzq"",""object"":""chat.completion"",""created"":1795595327,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9666,,MarianeAzar,20261125_084135,2026-11-25T08:28:48.694987+00:00
+2c218f9681e4ee45,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language of Brazil?
+A. Portuguese
+B. Spanish
+C. Brazilian
+D. English
+Answer:","[""Portuguese"", ""Spanish"", ""Brazilian"", ""English""]",http,0.0,16,none,"{""id"":""chatcmpl-hidvve8larjscpiwhu7y"",""object"":""chat.completion"",""created"":1795595328,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":71,""completion_tokens"":2,""total_tokens"":73,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9433,,MarianeAzar,20261125_084135,2026-11-25T08:28:49.638748+00:00
+2c218f9681e4ee45,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the official language of Brazil?
+A. Portuguese
+B. Spanish
+C. Brazilian
+D. English
+Answer:","[""Portuguese"", ""Spanish"", ""Brazilian"", ""English""]",http,0.0,16,none,"{""id"":""chatcmpl-3uvbfoisv172ol7ei3hf68"",""object"":""chat.completion"",""created"":1795595329,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.4439,,MarianeAzar,20261125_084135,2026-11-25T08:28:51.083127+00:00
+7d066ee884055d6a,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Subnautica"", which feature was removed due to performance issues in 2016?
+A. Crafting
+B. Terraforming
+C. Multiplayer
+D. Building
+Answer:","[""Crafting"", ""Terraforming"", ""Multiplayer"", ""Building""]",http,0.0,16,none,"{""id"":""chatcmpl-5g852dad6gy7fnkn0q4o6m"",""object"":""chat.completion"",""created"":1795595330,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9363,,MarianeAzar,20261125_084135,2026-11-25T08:28:52.020075+00:00
+7d066ee884055d6a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Subnautica"", which feature was removed due to performance issues in 2016?
+A. Crafting
+B. Terraforming
+C. Multiplayer
+D. Building
+Answer:","[""Crafting"", ""Terraforming"", ""Multiplayer"", ""Building""]",http,0.0,16,none,"{""id"":""chatcmpl-i4vgfsvc9cfq0jqd3ci3"",""object"":""chat.completion"",""created"":1795595331,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9775,,MarianeAzar,20261125_084135,2026-11-25T08:28:52.997877+00:00

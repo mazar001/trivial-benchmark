@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+bf8c7c9b281543cd,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Jamaica receive its independence from England?
+A. 1987
+B. 1962
+C. 1492
+D. 1963
+Answer:","[""1987"", ""1962"", ""1492"", ""1963""]",http,0.0,16,none,"{""id"":""chatcmpl-tt5z5qsapkakegxij3312f"",""object"":""chat.completion"",""created"":1795593338,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8892,,MarianeAzar,20261125_084135,2026-11-25T07:55:39.957862+00:00
+3ed24cf0942f46d7,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation joined NATO as its 29th member in 2017?
+A. Estonia
+B. Andorra
+C. Montenegro
+D. Iceland
+Answer:","[""Estonia"", ""Andorra"", ""Montenegro"", ""Iceland""]",http,0.0,16,none,"{""id"":""chatcmpl-k1vqcr8fo593zi0d0ekdfe"",""object"":""chat.completion"",""created"":1795593339,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8739,,MarianeAzar,20261125_084135,2026-11-25T07:55:40.832252+00:00
+3ed24cf0942f46d7,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which nation joined NATO as its 29th member in 2017?
+A. Estonia
+B. Andorra
+C. Montenegro
+D. Iceland
+Answer:","[""Estonia"", ""Andorra"", ""Montenegro"", ""Iceland""]",http,0.0,16,none,"{""id"":""chatcmpl-z5dgpt2d29bwbdeqgfn1g"",""object"":""chat.completion"",""created"":1795593340,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8568,,MarianeAzar,20261125_084135,2026-11-25T07:55:41.689400+00:00
+6328c3d4ab9fc7d1,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A piccolo is a smaller version of what instrument?
+A. Trumpet
+B. Violin
+C. Flute
+D. Harp
+Answer:","[""Trumpet"", ""Violin"", ""Flute"", ""Harp""]",http,0.0,16,none,"{""id"":""chatcmpl-l3arlh8ovaacor0gtp704"",""object"":""chat.completion"",""created"":1795593341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T07:55:42.551245+00:00
+6328c3d4ab9fc7d1,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: A piccolo is a smaller version of what instrument?
+A. Trumpet
+B. Violin
+C. Flute
+D. Harp
+Answer:","[""Trumpet"", ""Violin"", ""Flute"", ""Harp""]",http,0.0,16,none,"{""id"":""chatcmpl-7nip483g7sd6rzxiriviq2"",""object"":""chat.completion"",""created"":1795593341,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8699,,MarianeAzar,20261125_084135,2026-11-25T07:55:43.421531+00:00
+6e82ae72983732ef,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?
+A. Kawasaki
+B. Kagoshima
+C. Tokyo
+D. Nagasaki
+Answer:","[""Kawasaki"", ""Kagoshima"", ""Tokyo"", ""Nagasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-iqq5khuv3p671f060yk"",""object"":""chat.completion"",""created"":1795593342,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8508,,MarianeAzar,20261125_084135,2026-11-25T07:55:44.272873+00:00
+6e82ae72983732ef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?
+A. Kawasaki
+B. Kagoshima
+C. Tokyo
+D. Nagasaki
+Answer:","[""Kawasaki"", ""Kagoshima"", ""Tokyo"", ""Nagasaki""]",http,0.0,16,none,"{""id"":""chatcmpl-6xl3s6n3mfqg11315tgcp"",""object"":""chat.completion"",""created"":1795593343,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9199,,MarianeAzar,20261125_084135,2026-11-25T07:55:45.193069+00:00
+947f49bdf75a9e8b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays the character of Dennis Reynolds on It's Always Sunny in Philadelphia?
+A. Charlie Day
+B. Rob McElhenney
+C. Danny DeVito
+D. Glenn Howerton
+Answer:","[""Charlie Day"", ""Rob McElhenney"", ""Danny DeVito"", ""Glenn Howerton""]",http,0.0,16,none,"{""id"":""chatcmpl-tlcv4y68oupsbaifne2r"",""object"":""chat.completion"",""created"":1795593344,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8689,,MarianeAzar,20261125_084135,2026-11-25T07:55:46.062229+00:00
+947f49bdf75a9e8b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who plays the character of Dennis Reynolds on It's Always Sunny in Philadelphia?
+A. Charlie Day
+B. Rob McElhenney
+C. Danny DeVito
+D. Glenn Howerton
+Answer:","[""Charlie Day"", ""Rob McElhenney"", ""Danny DeVito"", ""Glenn Howerton""]",http,0.0,16,none,"{""id"":""chatcmpl-a0m054emiijy47l8w2usc"",""object"":""chat.completion"",""created"":1795593345,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T07:55:46.918094+00:00
+0704c79f0db8873f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the ancient city of Petra located?
+A. Egypt
+B. Jordan
+C. Italy
+D. Israel
+Answer:","[""Egypt"", ""Jordan"", ""Italy"", ""Israel""]",http,0.0,16,none,"{""id"":""chatcmpl-bajye53mgi822gl0816vfj"",""object"":""chat.completion"",""created"":1795593346,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":72,""completion_tokens"":2,""total_tokens"":74,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8609,,MarianeAzar,20261125_084135,2026-11-25T07:55:47.779253+00:00
+0704c79f0db8873f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Where is the ancient city of Petra located?
+A. Egypt
+B. Jordan
+C. Italy
+D. Israel
+Answer:","[""Egypt"", ""Jordan"", ""Italy"", ""Israel""]",http,0.0,16,none,"{""id"":""chatcmpl-6ex68g39pod0vg3soacfhwp"",""object"":""chat.completion"",""created"":1795593347,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8504,,MarianeAzar,20261125_084135,2026-11-25T07:55:48.629872+00:00
+c5b504fdc53ac765,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1981 hit with the song ""Japanese Boy""?
+A. Toyah
+B. Madonna
+C. Sandra
+D. Aneka
+Answer:","[""Toyah"", ""Madonna"", ""Sandra"", ""Aneka""]",http,0.0,16,none,"{""id"":""chatcmpl-vtg3ouzjh79ja6gdxoavi"",""object"":""chat.completion"",""created"":1795593348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8438,,MarianeAzar,20261125_084135,2026-11-25T07:55:49.473902+00:00
+c5b504fdc53ac765,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who had a 1981 hit with the song ""Japanese Boy""?
+A. Toyah
+B. Madonna
+C. Sandra
+D. Aneka
+Answer:","[""Toyah"", ""Madonna"", ""Sandra"", ""Aneka""]",http,0.0,16,none,"{""id"":""chatcmpl-9nmbypce4ja2oheemr50k7"",""object"":""chat.completion"",""created"":1795593348,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.873,,MarianeAzar,20261125_084135,2026-11-25T07:55:50.347187+00:00
+21d9324caf787d57,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 71% of the Earth's surface is made up of
+A. Water
+B. Deserts
+C. Forests
+D. Continents
+Answer:","[""Water"", ""Deserts"", ""Forests"", ""Continents""]",http,0.0,16,none,"{""id"":""chatcmpl-4w0mzcfqby3pscwpofpbg"",""object"":""chat.completion"",""created"":1795593349,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261125_084135,2026-11-25T07:55:51.213354+00:00
+21d9324caf787d57,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 71% of the Earth's surface is made up of
+A. Water
+B. Deserts
+C. Forests
+D. Continents
+Answer:","[""Water"", ""Deserts"", ""Forests"", ""Continents""]",http,0.0,16,none,"{""id"":""chatcmpl-fnopcoiqijfnq9isglovjb"",""object"":""chat.completion"",""created"":1795593350,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9086,,MarianeAzar,20261125_084135,2026-11-25T07:55:52.122169+00:00
+d9886caffbdca650,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest hot desert in the world?
+A. Kalahari
+B. Gobi
+C. Sahara
+D. Mojave
+Answer:","[""Kalahari"", ""Gobi"", ""Sahara"", ""Mojave""]",http,0.0,16,none,"{""id"":""chatcmpl-nq8kr1nqh380x0y2wf2kb1a"",""object"":""chat.completion"",""created"":1795593351,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":75,""completion_tokens"":2,""total_tokens"":77,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T07:55:52.994573+00:00
+d9886caffbdca650,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the largest hot desert in the world?
+A. Kalahari
+B. Gobi
+C. Sahara
+D. Mojave
+Answer:","[""Kalahari"", ""Gobi"", ""Sahara"", ""Mojave""]",http,0.0,16,none,"{""id"":""chatcmpl-luo7jjzxx12oqhb9g2kh"",""object"":""chat.completion"",""created"":1795593352,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8514,,MarianeAzar,20261125_084135,2026-11-25T07:55:53.846232+00:00
+37f8aa80e183c473,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What medication was once commonly used as rat poison?
+A. Coumadin
+B. Tylenol
+C. Aspirin
+D. Eliquis
+Answer:","[""Coumadin"", ""Tylenol"", ""Aspirin"", ""Eliquis""]",http,0.0,16,none,"{""id"":""chatcmpl-tqsevhwdtvbc3sngrofk"",""object"":""chat.completion"",""created"":1795593353,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8442,,MarianeAzar,20261125_084135,2026-11-25T07:55:54.690708+00:00
+37f8aa80e183c473,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What medication was once commonly used as rat poison?
+A. Coumadin
+B. Tylenol
+C. Aspirin
+D. Eliquis
+Answer:","[""Coumadin"", ""Tylenol"", ""Aspirin"", ""Eliquis""]",http,0.0,16,none,"{""id"":""chatcmpl-0o5eenbsc9wjxricgrf5ya"",""object"":""chat.completion"",""created"":1795593354,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8615,,MarianeAzar,20261125_084135,2026-11-25T07:55:55.552621+00:00
+55a5ebb6f318959d,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Martin Luther King Jr. and Anne Frank were born the same year.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-6wa89n1mt5qyo9whwedkcr"",""object"":""chat.completion"",""created"":1795593354,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8024,,MarianeAzar,20261125_084135,2026-11-25T07:55:56.355128+00:00
+55a5ebb6f318959d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Martin Luther King Jr. and Anne Frank were born the same year.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-pa4jg4qphtkp2lbjcxztss"",""object"":""chat.completion"",""created"":1795593355,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8141,,MarianeAzar,20261125_084135,2026-11-25T07:55:57.169393+00:00
+20c34148b2a2694d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Homestuck Series, what is the alternate name for the Kingdom of Lights?
+A. Prospit
+B. Yellow Moon
+C. Golden City
+D. No Name
+Answer:","[""Prospit"", ""Yellow Moon"", ""Golden City"", ""No Name""]",http,0.0,16,none,"{""id"":""chatcmpl-jzxbujd9gmp4jvlkehxdau"",""object"":""chat.completion"",""created"":1795593356,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8462,,MarianeAzar,20261125_084135,2026-11-25T07:55:58.015880+00:00
+20c34148b2a2694d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Homestuck Series, what is the alternate name for the Kingdom of Lights?
+A. Prospit
+B. Yellow Moon
+C. Golden City
+D. No Name
+Answer:","[""Prospit"", ""Yellow Moon"", ""Golden City"", ""No Name""]",http,0.0,16,none,"{""id"":""chatcmpl-oo4hebcoezjm705qpx3td"",""object"":""chat.completion"",""created"":1795593357,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8559,,MarianeAzar,20261125_084135,2026-11-25T07:55:58.872018+00:00
+d2248801babe772b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Terraria"", which of these bosses are pre-hardmode bosses?
+A. Plantera
+B. The Destroyer
+C. Skeletron Prime
+D. Eye of Cthulhu
+Answer:","[""Plantera"", ""The Destroyer"", ""Skeletron Prime"", ""Eye of Cthulhu""]",http,0.0,16,none,"{""id"":""chatcmpl-586nak1lb6mrn1s6tffzb8"",""object"":""chat.completion"",""created"":1795593358,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261125_084135,2026-11-25T07:55:59.731894+00:00
+d2248801babe772b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the game ""Terraria"", which of these bosses are pre-hardmode bosses?
+A. Plantera
+B. The Destroyer
+C. Skeletron Prime
+D. Eye of Cthulhu
+Answer:","[""Plantera"", ""The Destroyer"", ""Skeletron Prime"", ""Eye of Cthulhu""]",http,0.0,16,none,"{""id"":""chatcmpl-staxw40bvh8ft8bxorvc"",""object"":""chat.completion"",""created"":1795593359,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8815,,MarianeAzar,20261125_084135,2026-11-25T07:56:00.613646+00:00

@@ -1,0 +1,156 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1e19539f20036677,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Hippopotomonstrosesquippedaliophobia is the irrational fear of long words.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-h9sfe76pnhwa8iob1k51f"",""object"":""chat.completion"",""created"":1795596199,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8173,,MarianeAzar,20261125_084135,2026-11-25T08:43:21.281384+00:00
+1e19539f20036677,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Hippopotomonstrosesquippedaliophobia is the irrational fear of long words.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-mhuxsmefz67ah9ayvk2s"",""object"":""chat.completion"",""created"":1795596200,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9161,,MarianeAzar,20261125_084135,2026-11-25T08:43:22.197697+00:00
+6cd746970639ffc2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Pre-Super Genesis universe of ""Sonic the Hedgehog"" comic, what was the name of Sally Acorn's brother?
+A. Alexis Acorn
+B. Frederick Acorn
+C. Maximillian Acorn
+D. Elias Acorn
+Answer:","[""Alexis Acorn"", ""Frederick Acorn"", ""Maximillian Acorn"", ""Elias Acorn""]",http,0.0,16,none,"{""id"":""chatcmpl-n8n8kdqq7jty6acn3snhz"",""object"":""chat.completion"",""created"":1795596201,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9518,,MarianeAzar,20261125_084135,2026-11-25T08:43:23.149986+00:00
+6cd746970639ffc2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Pre-Super Genesis universe of ""Sonic the Hedgehog"" comic, what was the name of Sally Acorn's brother?
+A. Alexis Acorn
+B. Frederick Acorn
+C. Maximillian Acorn
+D. Elias Acorn
+Answer:","[""Alexis Acorn"", ""Frederick Acorn"", ""Maximillian Acorn"", ""Elias Acorn""]",http,0.0,16,none,"{""id"":""chatcmpl-d0y9osrbzj8jx04ovpegk9"",""object"":""chat.completion"",""created"":1795596202,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9184,,MarianeAzar,20261125_084135,2026-11-25T08:43:24.068783+00:00
+c2b12a33eaaa3b68,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The two largest ethnic groups of Belgium are Flemish and Walloon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-awtgps8es9eizosvlc0o4"",""object"":""chat.completion"",""created"":1795596203,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":52,""completion_tokens"":2,""total_tokens"":54,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9583,,MarianeAzar,20261125_084135,2026-11-25T08:43:25.027303+00:00
+c2b12a33eaaa3b68,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The two largest ethnic groups of Belgium are Flemish and Walloon.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t27dugqvxobgaqzfspdowb"",""object"":""chat.completion"",""created"":1795596204,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":66,""completion_tokens"":2,""total_tokens"":68,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0165,,MarianeAzar,20261125_084135,2026-11-25T08:43:26.043945+00:00
+43f9b8546b2e33a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In season one of the Netflix political drama ""House of Cards"", what government position does Frank Underwood hold?
+A. Chief of Staff
+B. House Majority Whip
+C. President
+D. Attorney General
+Answer:","[""Chief of Staff"", ""House Majority Whip"", ""President"", ""Attorney General""]",http,0.0,16,none,"{""id"":""chatcmpl-p1w5xo6qibxddipwkfhpa"",""object"":""chat.completion"",""created"":1795596205,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":89,""completion_tokens"":2,""total_tokens"":91,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.933,,MarianeAzar,20261125_084135,2026-11-25T08:43:26.977431+00:00
+43f9b8546b2e33a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In season one of the Netflix political drama ""House of Cards"", what government position does Frank Underwood hold?
+A. Chief of Staff
+B. House Majority Whip
+C. President
+D. Attorney General
+Answer:","[""Chief of Staff"", ""House Majority Whip"", ""President"", ""Attorney General""]",http,0.0,16,none,"{""id"":""chatcmpl-vpx3xbmsvhtmqbt3x1ftz"",""object"":""chat.completion"",""created"":1795596206,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9002,,MarianeAzar,20261125_084135,2026-11-25T08:43:27.877945+00:00
+b0f0e88acc5cd903,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which football manager won more trophies than any other during his tenure at English football club Manchester United?
+A. David Moyes
+B. José Mourinho
+C. Louis van Gaal
+D. Sir Alex Ferguson
+Answer:","[""David Moyes"", ""José Mourinho"", ""Louis van Gaal"", ""Sir Alex Ferguson""]",http,0.0,16,none,"{""id"":""chatcmpl-o2eyg49sdl6bgdb1wq3bw"",""object"":""chat.completion"",""created"":1795596207,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9002,,MarianeAzar,20261125_084135,2026-11-25T08:43:28.778401+00:00
+b0f0e88acc5cd903,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which football manager won more trophies than any other during his tenure at English football club Manchester United?
+A. David Moyes
+B. José Mourinho
+C. Louis van Gaal
+D. Sir Alex Ferguson
+Answer:","[""David Moyes"", ""José Mourinho"", ""Louis van Gaal"", ""Sir Alex Ferguson""]",http,0.0,16,none,"{""id"":""chatcmpl-mxp1kkq8e9jhpb2cxt6i9j"",""object"":""chat.completion"",""created"":1795596208,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9187,,MarianeAzar,20261125_084135,2026-11-25T08:43:29.697345+00:00
+1a3c49878762c625,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the item required to summon the boss Duke Fishron in the game Terraria?
+A. Slug
+B. Suspicious Looking Fish
+C. Truffle Worm
+D. King Grasshopper
+Answer:","[""Slug"", ""Suspicious Looking Fish"", ""Truffle Worm"", ""King Grasshopper""]",http,0.0,16,none,"{""id"":""chatcmpl-ys5d4u3pnpohh5hn5c66p"",""object"":""chat.completion"",""created"":1795596209,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.1185,,MarianeAzar,20261125_084135,2026-11-25T08:43:30.817080+00:00
+1a3c49878762c625,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the item required to summon the boss Duke Fishron in the game Terraria?
+A. Slug
+B. Suspicious Looking Fish
+C. Truffle Worm
+D. King Grasshopper
+Answer:","[""Slug"", ""Suspicious Looking Fish"", ""Truffle Worm"", ""King Grasshopper""]",http,0.0,16,none,"{""id"":""chatcmpl-rwfqh39r2h80d6l0i9hczym"",""object"":""chat.completion"",""created"":1795596210,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9077,,MarianeAzar,20261125_084135,2026-11-25T08:43:31.724980+00:00
+6d2a2f6b0df5343c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pokémon Go is a location-based augmented reality game developed and published by which company?
+A. Niantic
+B. Rovio
+C. Supercell
+D. Zynga
+Answer:","[""Niantic"", ""Rovio"", ""Supercell"", ""Zynga""]",http,0.0,16,none,"{""id"":""chatcmpl-uuu98ll8dn9wozocuxi71d"",""object"":""chat.completion"",""created"":1795596211,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":83,""completion_tokens"":2,""total_tokens"":85,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.921,,MarianeAzar,20261125_084135,2026-11-25T08:43:32.646284+00:00
+6d2a2f6b0df5343c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Pokémon Go is a location-based augmented reality game developed and published by which company?
+A. Niantic
+B. Rovio
+C. Supercell
+D. Zynga
+Answer:","[""Niantic"", ""Rovio"", ""Supercell"", ""Zynga""]",http,0.0,16,none,"{""id"":""chatcmpl-8otbntbzcei1q1l3ujgh"",""object"":""chat.completion"",""created"":1795596212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8746,,MarianeAzar,20261125_084135,2026-11-25T08:43:33.521194+00:00
+a7f322b74bfa30a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Spain?
+A. Madrid
+B. Toledo
+C. Sevilla
+D. Barcelona
+Answer:","[""Madrid"", ""Toledo"", ""Sevilla"", ""Barcelona""]",http,0.0,16,none,"{""id"":""chatcmpl-gks233grj3pxvjtgenraf"",""object"":""chat.completion"",""created"":1795596212,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8563,,MarianeAzar,20261125_084135,2026-11-25T08:43:34.378206+00:00
+a7f322b74bfa30a4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the capital of Spain?
+A. Madrid
+B. Toledo
+C. Sevilla
+D. Barcelona
+Answer:","[""Madrid"", ""Toledo"", ""Sevilla"", ""Barcelona""]",http,0.0,16,none,"{""id"":""chatcmpl-hx71anu8xcn13qk4rjtd8"",""object"":""chat.completion"",""created"":1795596213,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9352,,MarianeAzar,20261125_084135,2026-11-25T08:43:35.313720+00:00
+2ee18ef17d037b0e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The starting pistol of the Terrorist team in a competitive match of Counter Strike: Global Offensive is what?
+A. Glock-18
+B. Tec-9
+C. Desert Eagle
+D. Dual Berretas
+Answer:","[""Glock-18"", ""Tec-9"", ""Desert Eagle"", ""Dual Berretas""]",http,0.0,16,none,"{""id"":""chatcmpl-2tgvod45ao2wz7z2ghj7fg"",""object"":""chat.completion"",""created"":1795596214,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9274,,MarianeAzar,20261125_084135,2026-11-25T08:43:36.241873+00:00
+2ee18ef17d037b0e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The starting pistol of the Terrorist team in a competitive match of Counter Strike: Global Offensive is what?
+A. Glock-18
+B. Tec-9
+C. Desert Eagle
+D. Dual Berretas
+Answer:","[""Glock-18"", ""Tec-9"", ""Desert Eagle"", ""Dual Berretas""]",http,0.0,16,none,"{""id"":""chatcmpl-upkanv08o55hft7ymibm"",""object"":""chat.completion"",""created"":1795596215,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9152,,MarianeAzar,20261125_084135,2026-11-25T08:43:37.157350+00:00
+b33b5f4243f6b0bb,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Leonardo DiCaprio won an Oscar for Best Actor in 2004's ""The Aviator"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-fm1zvxbajjf9yqxej8k85l"",""object"":""chat.completion"",""created"":1795596216,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":60,""completion_tokens"":2,""total_tokens"":62,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8876,,MarianeAzar,20261125_084135,2026-11-25T08:43:38.045296+00:00
+b33b5f4243f6b0bb,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Leonardo DiCaprio won an Oscar for Best Actor in 2004's ""The Aviator"".
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0sktlwrsqb2kzkgei6f0sh"",""object"":""chat.completion"",""created"":1795596217,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261125_084135,2026-11-25T08:43:38.925115+00:00
+80aadb4f449756bc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the manga series ""One Piece""?
+A. Eiichiro Oda
+B. Masashi Kishimoto
+C. Yoshihiro Togashi
+D. Hayao Miyazaki
+Answer:","[""Eiichiro Oda"", ""Masashi Kishimoto"", ""Yoshihiro Togashi"", ""Hayao Miyazaki""]",http,0.0,16,none,"{""id"":""chatcmpl-rwliilqh5fa1lwziysjo1m"",""object"":""chat.completion"",""created"":1795596218,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8649,,MarianeAzar,20261125_084135,2026-11-25T08:43:39.790708+00:00
+80aadb4f449756bc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the creator of the manga series ""One Piece""?
+A. Eiichiro Oda
+B. Masashi Kishimoto
+C. Yoshihiro Togashi
+D. Hayao Miyazaki
+Answer:","[""Eiichiro Oda"", ""Masashi Kishimoto"", ""Yoshihiro Togashi"", ""Hayao Miyazaki""]",http,0.0,16,none,"{""id"":""chatcmpl-nje7562efkngvqzbw6wvii"",""object"":""chat.completion"",""created"":1795596219,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8664,,MarianeAzar,20261125_084135,2026-11-25T08:43:40.657324+00:00
+fc4d369e6dfad8de,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Battlestar Galactica (2004), Cylons were created by man as cybernetic workers and soldiers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0k0r1chcva8gw6wdiqc8pnp"",""object"":""chat.completion"",""created"":1795596220,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9152,,MarianeAzar,20261125_084135,2026-11-25T08:43:41.572677+00:00
+fc4d369e6dfad8de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: In Battlestar Galactica (2004), Cylons were created by man as cybernetic workers and soldiers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5fuun2rdj5i5ycni6der0v"",""object"":""chat.completion"",""created"":1795596221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8692,,MarianeAzar,20261125_084135,2026-11-25T08:43:42.442033+00:00
+340bc0d686359bfd,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Out of these four buildings, which one is the tallest, with a height of 1,250 ft (381 m)?
+A. Gevora Hotal, United Arab Emirates
+B. Federation Tower, Russia
+C. Bank of China Tower, Hong Kong
+D. Empire State Building, United States
+Answer:","[""Gevora Hotal, United Arab Emirates"", ""Federation Tower, Russia"", ""Bank of China Tower, Hong Kong"", ""Empire State Building, United States""]",http,0.0,16,none,"{""id"":""chatcmpl-yq10lhv8qca3nqvqe6akiw"",""object"":""chat.completion"",""created"":1795596221,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9092,,MarianeAzar,20261125_084135,2026-11-25T08:43:43.351854+00:00

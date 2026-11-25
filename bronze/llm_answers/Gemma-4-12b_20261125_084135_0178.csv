@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+3d4e8ba53ea2c954,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call of Duty: Black Ops III"" Zombies, what does completing all the main easter eggs reward you with?
+A. 1,000,000 XP
+B. 50 Liquid Diviniums
+C. All three options.
+D. Juggernog at the start of each game
+Answer:","[""1,000,000 XP"", ""50 Liquid Diviniums"", ""All three options."", ""Juggernog at the start of each game""]",http,0.0,16,none,"{""id"":""chatcmpl-fyu101jofck60s3wwu8sa"",""object"":""chat.completion"",""created"":1795596727,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9279,,MarianeAzar,20261125_084135,2026-11-25T08:52:09.152242+00:00
+3d4e8ba53ea2c954,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call of Duty: Black Ops III"" Zombies, what does completing all the main easter eggs reward you with?
+A. 1,000,000 XP
+B. 50 Liquid Diviniums
+C. All three options.
+D. Juggernog at the start of each game
+Answer:","[""1,000,000 XP"", ""50 Liquid Diviniums"", ""All three options."", ""Juggernog at the start of each game""]",http,0.0,16,none,"{""id"":""chatcmpl-dntimr1fm4l8plnd5lv8tu"",""object"":""chat.completion"",""created"":1795596728,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":129,""completion_tokens"":2,""total_tokens"":131,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0723,,MarianeAzar,20261125_084135,2026-11-25T08:52:10.224814+00:00
+7528fc0ee46c4cd0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the British television series ""The Bill"" end?
+A. 2010
+B. 2012
+C. 2007
+D. 2001
+Answer:","[""2010"", ""2012"", ""2007"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-cd991xbuwrd76yv7ludwti"",""object"":""chat.completion"",""created"":1795596729,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9104,,MarianeAzar,20261125_084135,2026-11-25T08:52:11.135640+00:00
+7528fc0ee46c4cd0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In which year did the British television series ""The Bill"" end?
+A. 2010
+B. 2012
+C. 2007
+D. 2001
+Answer:","[""2010"", ""2012"", ""2007"", ""2001""]",http,0.0,16,none,"{""id"":""chatcmpl-rxr9vdcz5c8aig3xq7bg9j"",""object"":""chat.completion"",""created"":1795596730,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.916,,MarianeAzar,20261125_084135,2026-11-25T08:52:12.051879+00:00
+d96995def2682b6e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country hosted the 2014 Winter Olympics?
+A. United States
+B. Canada
+C. Germany
+D. Russia
+Answer:","[""United States"", ""Canada"", ""Germany"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-g6zayin8o4cg170ymmlbsu"",""object"":""chat.completion"",""created"":1795596731,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8671,,MarianeAzar,20261125_084135,2026-11-25T08:52:12.919572+00:00
+d96995def2682b6e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What country hosted the 2014 Winter Olympics?
+A. United States
+B. Canada
+C. Germany
+D. Russia
+Answer:","[""United States"", ""Canada"", ""Germany"", ""Russia""]",http,0.0,16,none,"{""id"":""chatcmpl-piluht2i5ingg919b548"",""object"":""chat.completion"",""created"":1795596732,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8784,,MarianeAzar,20261125_084135,2026-11-25T08:52:13.798204+00:00
+95ddaa5690511210,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Declaration of Independence approved by the Second Continental Congress?
+A. July 4, 1776
+B. June 4, 1776
+C. May 4, 1776
+D. July 2, 1776
+Answer:","[""July 4, 1776"", ""June 4, 1776"", ""May 4, 1776"", ""July 2, 1776""]",http,0.0,16,none,"{""id"":""chatcmpl-x7pztjgayekp1z1d6y7p"",""object"":""chat.completion"",""created"":1795596733,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":108,""completion_tokens"":2,""total_tokens"":110,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8853,,MarianeAzar,20261125_084135,2026-11-25T08:52:14.683779+00:00
+95ddaa5690511210,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When was the Declaration of Independence approved by the Second Continental Congress?
+A. July 4, 1776
+B. June 4, 1776
+C. May 4, 1776
+D. July 2, 1776
+Answer:","[""July 4, 1776"", ""June 4, 1776"", ""May 4, 1776"", ""July 2, 1776""]",http,0.0,16,none,"{""id"":""chatcmpl-mq90fm5hg419iu6s44q6g"",""object"":""chat.completion"",""created"":1795596734,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":122,""completion_tokens"":2,""total_tokens"":124,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.908,,MarianeAzar,20261125_084135,2026-11-25T08:52:15.592018+00:00
+042aab884b07a31b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Billy Herrington is from which US state?
+A. Georgia
+B. New York
+C. Arizona
+D. California
+Answer:","[""Georgia"", ""New York"", ""Arizona"", ""California""]",http,0.0,16,none,"{""id"":""chatcmpl-h4astr24adokpenyk9h4i"",""object"":""chat.completion"",""created"":1795596735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8804,,MarianeAzar,20261125_084135,2026-11-25T08:52:16.472730+00:00
+042aab884b07a31b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Billy Herrington is from which US state?
+A. Georgia
+B. New York
+C. Arizona
+D. California
+Answer:","[""Georgia"", ""New York"", ""Arizona"", ""California""]",http,0.0,16,none,"{""id"":""chatcmpl-k6c5sdkl92y969r40j6t"",""object"":""chat.completion"",""created"":1795596735,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8531,,MarianeAzar,20261125_084135,2026-11-25T08:52:17.326100+00:00
+845006397d5b1eff,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""PAYDAY"" series, what is the real name of the character known as ""Dallas""?
+A. Nick Stamos
+B. Nate Siemens
+C. Nathan Steele
+D. Nolan Stuhlinger
+Answer:","[""Nick Stamos"", ""Nate Siemens"", ""Nathan Steele"", ""Nolan Stuhlinger""]",http,0.0,16,none,"{""id"":""chatcmpl-td9pz55c9zelzswxjvfh"",""object"":""chat.completion"",""created"":1795596736,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.859,,MarianeAzar,20261125_084135,2026-11-25T08:52:18.185747+00:00
+845006397d5b1eff,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the ""PAYDAY"" series, what is the real name of the character known as ""Dallas""?
+A. Nick Stamos
+B. Nate Siemens
+C. Nathan Steele
+D. Nolan Stuhlinger
+Answer:","[""Nick Stamos"", ""Nate Siemens"", ""Nathan Steele"", ""Nolan Stuhlinger""]",http,0.0,16,none,"{""id"":""chatcmpl-d6atojuhomi8h1f381nhni"",""object"":""chat.completion"",""created"":1795596737,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8826,,MarianeAzar,20261125_084135,2026-11-25T08:52:19.068633+00:00
+48b6f963f9a989ae,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which female player won the gold medal of table tennis singles in 2016 Olympics Games?
+A. Song KIM (North Korea)
+B. DING Ning (China)
+C. Ai FUKUHARA (Japan)
+D. LI Xiaoxia (China)
+Answer:","[""Song KIM (North Korea)"", ""DING Ning (China)"", ""Ai FUKUHARA (Japan)"", ""LI Xiaoxia (China)""]",http,0.0,16,none,"{""id"":""chatcmpl-kpey6mxaktrgpawduc9ap"",""object"":""chat.completion"",""created"":1795596738,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8856,,MarianeAzar,20261125_084135,2026-11-25T08:52:19.954486+00:00
+48b6f963f9a989ae,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which female player won the gold medal of table tennis singles in 2016 Olympics Games?
+A. Song KIM (North Korea)
+B. DING Ning (China)
+C. Ai FUKUHARA (Japan)
+D. LI Xiaoxia (China)
+Answer:","[""Song KIM (North Korea)"", ""DING Ning (China)"", ""Ai FUKUHARA (Japan)"", ""LI Xiaoxia (China)""]",http,0.0,16,none,"{""id"":""chatcmpl-hd7yqkfi2m4rg5upzyiv3h"",""object"":""chat.completion"",""created"":1795596739,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9288,,MarianeAzar,20261125_084135,2026-11-25T08:52:20.883548+00:00
+6358e108ce154314,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""FTL: Faster Than Light"" released?
+A. 2013
+B. 2011
+C. 2014
+D. 2012
+Answer:","[""2013"", ""2011"", ""2014"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-jkw705jhrimmld3gt8se"",""object"":""chat.completion"",""created"":1795596740,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9051,,MarianeAzar,20261125_084135,2026-11-25T08:52:21.788865+00:00
+6358e108ce154314,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what year was the game ""FTL: Faster Than Light"" released?
+A. 2013
+B. 2011
+C. 2014
+D. 2012
+Answer:","[""2013"", ""2011"", ""2014"", ""2012""]",http,0.0,16,none,"{""id"":""chatcmpl-08glsug5cdlvzrwmuhp4m"",""object"":""chat.completion"",""created"":1795596741,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8828,,MarianeAzar,20261125_084135,2026-11-25T08:52:22.671873+00:00
+05e6b296d67e1869,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gannymede is the largest moon of which planet?
+A. Mars
+B. Jupiter
+C. Neptune
+D. Uranus
+Answer:","[""Mars"", ""Jupiter"", ""Neptune"", ""Uranus""]",http,0.0,16,none,"{""id"":""chatcmpl-tbtgyjq2o4ncn9ydgv58lq"",""object"":""chat.completion"",""created"":1795596742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8611,,MarianeAzar,20261125_084135,2026-11-25T08:52:23.533268+00:00
+05e6b296d67e1869,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Gannymede is the largest moon of which planet?
+A. Mars
+B. Jupiter
+C. Neptune
+D. Uranus
+Answer:","[""Mars"", ""Jupiter"", ""Neptune"", ""Uranus""]",http,0.0,16,none,"{""id"":""chatcmpl-bts0ceyzj44wobdu17yibi"",""object"":""chat.completion"",""created"":1795596742,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8633,,MarianeAzar,20261125_084135,2026-11-25T08:52:24.397036+00:00
+6d6d815255975bd8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to his appearance in Super Smash Bros. Ultimate, What was King K. Rool's last appearance in any game?
+A. Donkey Kong: King Of Swing
+B. Donkey Kong 64
+C. Donkey Kong Country 3
+D. Mario Super Sluggers
+Answer:","[""Donkey Kong: King Of Swing"", ""Donkey Kong 64"", ""Donkey Kong Country 3"", ""Mario Super Sluggers""]",http,0.0,16,none,"{""id"":""chatcmpl-dwxp08601njzw57nmyhrsp"",""object"":""chat.completion"",""created"":1795596743,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8733,,MarianeAzar,20261125_084135,2026-11-25T08:52:25.270706+00:00
+6d6d815255975bd8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Prior to his appearance in Super Smash Bros. Ultimate, What was King K. Rool's last appearance in any game?
+A. Donkey Kong: King Of Swing
+B. Donkey Kong 64
+C. Donkey Kong Country 3
+D. Mario Super Sluggers
+Answer:","[""Donkey Kong: King Of Swing"", ""Donkey Kong 64"", ""Donkey Kong Country 3"", ""Mario Super Sluggers""]",http,0.0,16,none,"{""id"":""chatcmpl-a2phr1upm3upotzv6gnr6c"",""object"":""chat.completion"",""created"":1795596744,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9143,,MarianeAzar,20261125_084135,2026-11-25T08:52:26.185207+00:00
+2b29ff5670cd571c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer team won the Copa América Centenario 2016?
+A. Colombia
+B. Chile
+C. Argentina
+D. Brazil
+Answer:","[""Colombia"", ""Chile"", ""Argentina"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-7chtsmr3pcasf1ikj89nz"",""object"":""chat.completion"",""created"":1795596745,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8984,,MarianeAzar,20261125_084135,2026-11-25T08:52:27.084097+00:00
+2b29ff5670cd571c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which soccer team won the Copa América Centenario 2016?
+A. Colombia
+B. Chile
+C. Argentina
+D. Brazil
+Answer:","[""Colombia"", ""Chile"", ""Argentina"", ""Brazil""]",http,0.0,16,none,"{""id"":""chatcmpl-z7oytrr7r39nqafnq6gr5"",""object"":""chat.completion"",""created"":1795596746,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.857,,MarianeAzar,20261125_084135,2026-11-25T08:52:27.941367+00:00
+ee52cc5e0609d6a3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Berlin was the capital of two countries for about 40 years.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-rbbrvbwzc5mlvhgoe830n"",""object"":""chat.completion"",""created"":1795596747,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":53,""completion_tokens"":2,""total_tokens"":55,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8124,,MarianeAzar,20261125_084135,2026-11-25T08:52:28.754127+00:00
+ee52cc5e0609d6a3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Berlin was the capital of two countries for about 40 years.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-eoa2u9pvqj4v4fgojo3"",""object"":""chat.completion"",""created"":1795596748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8203,,MarianeAzar,20261125_084135,2026-11-25T08:52:29.574612+00:00
+00744bf4066e4a30,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?
+A. <scroll></scroll>
+B. <marquee></marquee>
+C. <slide></slide>
+D. <move></move>
+Answer:","[""<scroll></scroll>"", ""<marquee></marquee>"", ""<slide></slide>"", ""<move></move>""]",http,0.0,16,none,"{""id"":""chatcmpl-di9zi7dkjffrh674uz4ryk"",""object"":""chat.completion"",""created"":1795596748,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8624,,MarianeAzar,20261125_084135,2026-11-25T08:52:30.437497+00:00

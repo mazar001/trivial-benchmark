@@ -1,0 +1,181 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+bbdc12157846b7f5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Calvin and Hobbes, what is the name of the principal at Calvin's school?
+A. Mr. Boreman
+B. Mr. Moe
+C. Mr. Spitling
+D. Mr. Spittle
+Answer:","[""Mr. Boreman"", ""Mr. Moe"", ""Mr. Spitling"", ""Mr. Spittle""]",http,0.0,16,none,"{""id"":""chatcmpl-x2445jg8q568s4cl3g65w"",""object"":""chat.completion"",""created"":1795595783,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8823,,MarianeAzar,20261125_084135,2026-11-25T08:36:25.256427+00:00
+a224055429de2059,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Macbeth, the eyes of what animals were used in the Witches' cauldron?
+A. Squids
+B. Humans
+C. Newts
+D. Sharks
+Answer:","[""Squids"", ""Humans"", ""Newts"", ""Sharks""]",http,0.0,16,none,"{""id"":""chatcmpl-8m8v3a6me26rnp103ldnqj"",""object"":""chat.completion"",""created"":1795595784,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9123,,MarianeAzar,20261125_084135,2026-11-25T08:36:26.169061+00:00
+a224055429de2059,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Macbeth, the eyes of what animals were used in the Witches' cauldron?
+A. Squids
+B. Humans
+C. Newts
+D. Sharks
+Answer:","[""Squids"", ""Humans"", ""Newts"", ""Sharks""]",http,0.0,16,none,"{""id"":""chatcmpl-ii3nr6za0cghnth8nf9ceg"",""object"":""chat.completion"",""created"":1795595785,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8729,,MarianeAzar,20261125_084135,2026-11-25T08:36:27.042276+00:00
+62dfac62504af83e,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The video game publishers known as ""tinyBuild"" published which of these games?
+A. Don't Starve
+B. Clustertruck
+C. Slime Rancher
+D. Stardew Valley
+Answer:","[""Don't Starve"", ""Clustertruck"", ""Slime Rancher"", ""Stardew Valley""]",http,0.0,16,none,"{""id"":""chatcmpl-93uxe1ftzmr5l57u8zelrp"",""object"":""chat.completion"",""created"":1795595786,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8734,,MarianeAzar,20261125_084135,2026-11-25T08:36:27.916137+00:00
+62dfac62504af83e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The video game publishers known as ""tinyBuild"" published which of these games?
+A. Don't Starve
+B. Clustertruck
+C. Slime Rancher
+D. Stardew Valley
+Answer:","[""Don't Starve"", ""Clustertruck"", ""Slime Rancher"", ""Stardew Valley""]",http,0.0,16,none,"{""id"":""chatcmpl-pzw16w3f8aphjufz73z8e"",""object"":""chat.completion"",""created"":1795595787,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8965,,MarianeAzar,20261125_084135,2026-11-25T08:36:28.812899+00:00
+a21bc32a435ace23,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In order to cut costs, what were most of the extras of Mad Max (1979) paid with?
+A. Beer
+B. Fast food
+C. They weren't paid
+D. Food stamps
+Answer:","[""Beer"", ""Fast food"", ""They weren't paid"", ""Food stamps""]",http,0.0,16,none,"{""id"":""chatcmpl-ovm1otyne9l1mp5t9qrgtj"",""object"":""chat.completion"",""created"":1795595788,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8665,,MarianeAzar,20261125_084135,2026-11-25T08:36:29.680564+00:00
+a21bc32a435ace23,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In order to cut costs, what were most of the extras of Mad Max (1979) paid with?
+A. Beer
+B. Fast food
+C. They weren't paid
+D. Food stamps
+Answer:","[""Beer"", ""Fast food"", ""They weren't paid"", ""Food stamps""]",http,0.0,16,none,"{""id"":""chatcmpl-3b38m1kz26pdtp7suuvu1v"",""object"":""chat.completion"",""created"":1795595789,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9038,,MarianeAzar,20261125_084135,2026-11-25T08:36:30.584622+00:00
+8d588b2424dd7973,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The country song “A Boy Named Sue” was written by Shel Silverstein.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-xbv70b25mqlewkswwt8vk"",""object"":""chat.completion"",""created"":1795595790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8278,,MarianeAzar,20261125_084135,2026-11-25T08:36:31.412567+00:00
+8d588b2424dd7973,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The country song “A Boy Named Sue” was written by Shel Silverstein.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ii3l1s5r68l2wcs5faj6yw"",""object"":""chat.completion"",""created"":1795595790,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8169,,MarianeAzar,20261125_084135,2026-11-25T08:36:32.229616+00:00
+d7db8316465f992b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a Russian car manufacturer?
+A. BYD
+B. GAZ
+C. Silant
+D. Dragon
+Answer:","[""BYD"", ""GAZ"", ""Silant"", ""Dragon""]",http,0.0,16,none,"{""id"":""chatcmpl-r0mes08vvw7bf1mypjyd"",""object"":""chat.completion"",""created"":1795595791,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":76,""completion_tokens"":2,""total_tokens"":78,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9295,,MarianeAzar,20261125_084135,2026-11-25T08:36:33.159357+00:00
+d7db8316465f992b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a Russian car manufacturer?
+A. BYD
+B. GAZ
+C. Silant
+D. Dragon
+Answer:","[""BYD"", ""GAZ"", ""Silant"", ""Dragon""]",http,0.0,16,none,"{""id"":""chatcmpl-lllxlmnq3jm6plq0uhevp"",""object"":""chat.completion"",""created"":1795595792,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.867,,MarianeAzar,20261125_084135,2026-11-25T08:36:34.026660+00:00
+4c858625aaae1813,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Linus Torvalds created which of these?
+A. Python
+B. Microsoft Windows
+C. Wikipedia
+D. Linux
+Answer:","[""Python"", ""Microsoft Windows"", ""Wikipedia"", ""Linux""]",http,0.0,16,none,"{""id"":""chatcmpl-2n1tgt1wv197luuww7932"",""object"":""chat.completion"",""created"":1795595793,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":74,""completion_tokens"":2,""total_tokens"":76,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8556,,MarianeAzar,20261125_084135,2026-11-25T08:36:34.882563+00:00
+4c858625aaae1813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Linus Torvalds created which of these?
+A. Python
+B. Microsoft Windows
+C. Wikipedia
+D. Linux
+Answer:","[""Python"", ""Microsoft Windows"", ""Wikipedia"", ""Linux""]",http,0.0,16,none,"{""id"":""chatcmpl-9haejwhvt2cbv6fst5dq8"",""object"":""chat.completion"",""created"":1795595794,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":88,""completion_tokens"":2,""total_tokens"":90,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8575,,MarianeAzar,20261125_084135,2026-11-25T08:36:35.740302+00:00
+86df5bc3f3f7c225,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in the 'Ratchet and Clank' game series?
+A. Captin Qwark
+B. Clank
+C. Ratchet
+D. Dr Nefarious
+Answer:","[""Captin Qwark"", ""Clank"", ""Ratchet"", ""Dr Nefarious""]",http,0.0,16,none,"{""id"":""chatcmpl-3dtpoolaqq77jy87oq8zs7"",""object"":""chat.completion"",""created"":1795595795,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.849,,MarianeAzar,20261125_084135,2026-11-25T08:36:36.589678+00:00
+86df5bc3f3f7c225,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the main protagonist in the 'Ratchet and Clank' game series?
+A. Captin Qwark
+B. Clank
+C. Ratchet
+D. Dr Nefarious
+Answer:","[""Captin Qwark"", ""Clank"", ""Ratchet"", ""Dr Nefarious""]",http,0.0,16,none,"{""id"":""chatcmpl-764rqse0eedw45l5ug84cj"",""object"":""chat.completion"",""created"":1795595796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8549,,MarianeAzar,20261125_084135,2026-11-25T08:36:37.444803+00:00
+82753415d5da2011,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the highest level that you can reach in ""The Elder Scrolls 4: Oblivion"" without considering skill levels, class, and birthsign?
+A. 50
+B. 100
+C. 80
+D. No limit
+Answer:","[""50"", ""100"", ""80"", ""No limit""]",http,0.0,16,none,"{""id"":""chatcmpl-c4nbczsk3ie8h6q0eqthw9"",""object"":""chat.completion"",""created"":1795595796,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9173,,MarianeAzar,20261125_084135,2026-11-25T08:36:38.363082+00:00
+82753415d5da2011,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the highest level that you can reach in ""The Elder Scrolls 4: Oblivion"" without considering skill levels, class, and birthsign?
+A. 50
+B. 100
+C. 80
+D. No limit
+Answer:","[""50"", ""100"", ""80"", ""No limit""]",http,0.0,16,none,"{""id"":""chatcmpl-zce4eljegvvhmjo8idnp"",""object"":""chat.completion"",""created"":1795595797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8974,,MarianeAzar,20261125_084135,2026-11-25T08:36:39.260734+00:00
+b2c005c4af74b73c,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Laserjet and inkjet printers are both examples of what type of printer?
+A. Dot matrix printer
+B. Daisywheel printer
+C. Non-impact printer
+D. Impact printer
+Answer:","[""Dot matrix printer"", ""Daisywheel printer"", ""Non-impact printer"", ""Impact printer""]",http,0.0,16,none,"{""id"":""chatcmpl-ul5r701psunudkk2slo47k"",""object"":""chat.completion"",""created"":1795595798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":85,""completion_tokens"":2,""total_tokens"":87,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8814,,MarianeAzar,20261125_084135,2026-11-25T08:36:40.142467+00:00
+b2c005c4af74b73c,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Laserjet and inkjet printers are both examples of what type of printer?
+A. Dot matrix printer
+B. Daisywheel printer
+C. Non-impact printer
+D. Impact printer
+Answer:","[""Dot matrix printer"", ""Daisywheel printer"", ""Non-impact printer"", ""Impact printer""]",http,0.0,16,none,"{""id"":""chatcmpl-r9uhcd9kkqg7t9qksbhm6r"",""object"":""chat.completion"",""created"":1795595799,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":99,""completion_tokens"":2,""total_tokens"":101,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8637,,MarianeAzar,20261125_084135,2026-11-25T08:36:41.006838+00:00
+119fba579c2d9136,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Bastille?
+A. Kyle Simmons
+B. Will Farquarson
+C. Chris Wood
+D. Dan Smith
+Answer:","[""Kyle Simmons"", ""Will Farquarson"", ""Chris Wood"", ""Dan Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-q67l465wfxe6mf69p2iwt"",""object"":""chat.completion"",""created"":1795595800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T08:36:41.863921+00:00
+119fba579c2d9136,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who is the lead singer of Bastille?
+A. Kyle Simmons
+B. Will Farquarson
+C. Chris Wood
+D. Dan Smith
+Answer:","[""Kyle Simmons"", ""Will Farquarson"", ""Chris Wood"", ""Dan Smith""]",http,0.0,16,none,"{""id"":""chatcmpl-lrh09z1ilzxzw77ox6im"",""object"":""chat.completion"",""created"":1795595801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8582,,MarianeAzar,20261125_084135,2026-11-25T08:36:42.722370+00:00
+8c624f4e3008f89d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mnemonic device for remembering the fates of the wives of Henry VIII?
+A. Survived, Beheaded, Died, Divorced, Divorced, Beheaded
+B. Died, Beheaded, Divorced, Beheaded, Survived, Divorced
+C. Beheaded, Died, Divorced, Divorced, Beheaded, Survived
+D. Divorced, Beheaded, Died, Divorced, Beheaded, Survived
+Answer:","[""Survived, Beheaded, Died, Divorced, Divorced, Beheaded"", ""Died, Beheaded, Divorced, Beheaded, Survived, Divorced"", ""Beheaded, Died, Divorced, Divorced, Beheaded, Survived"", ""Divorced, Beheaded, Died, Divorced, Beheaded, Survived""]",http,0.0,16,none,"{""id"":""chatcmpl-q96b5iqyo5a8qwjzv2x414"",""object"":""chat.completion"",""created"":1795595802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":147,""completion_tokens"":2,""total_tokens"":149,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9632,,MarianeAzar,20261125_084135,2026-11-25T08:36:43.686017+00:00
+8c624f4e3008f89d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the mnemonic device for remembering the fates of the wives of Henry VIII?
+A. Survived, Beheaded, Died, Divorced, Divorced, Beheaded
+B. Died, Beheaded, Divorced, Beheaded, Survived, Divorced
+C. Beheaded, Died, Divorced, Divorced, Beheaded, Survived
+D. Divorced, Beheaded, Died, Divorced, Beheaded, Survived
+Answer:","[""Survived, Beheaded, Died, Divorced, Divorced, Beheaded"", ""Died, Beheaded, Divorced, Beheaded, Survived, Divorced"", ""Beheaded, Died, Divorced, Divorced, Beheaded, Survived"", ""Divorced, Beheaded, Died, Divorced, Beheaded, Survived""]",http,0.0,16,none,"{""id"":""chatcmpl-cy6k78jf6cq9wvvapv3f3c"",""object"":""chat.completion"",""created"":1795595803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":161,""completion_tokens"":2,""total_tokens"":163,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9972,,MarianeAzar,20261125_084135,2026-11-25T08:36:44.683467+00:00
+356a454c0d189de2,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which German city does the map ""Clubhouse"" in ""Tom Clancy's Rainbow Six Siege"" take place in?
+A. Hamburg
+B. Munich
+C. Berlin
+D. Hannover
+Answer:","[""Hamburg"", ""Munich"", ""Berlin"", ""Hannover""]",http,0.0,16,none,"{""id"":""chatcmpl-kn9554cyd6rc4ieyohtran"",""object"":""chat.completion"",""created"":1795595804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":87,""completion_tokens"":2,""total_tokens"":89,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",1.0705,,MarianeAzar,20261125_084135,2026-11-25T08:36:45.754293+00:00
+356a454c0d189de2,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which German city does the map ""Clubhouse"" in ""Tom Clancy's Rainbow Six Siege"" take place in?
+A. Hamburg
+B. Munich
+C. Berlin
+D. Hannover
+Answer:","[""Hamburg"", ""Munich"", ""Berlin"", ""Hannover""]",http,0.0,16,none,"{""id"":""chatcmpl-7vwckw1yoflqu54ln107z"",""object"":""chat.completion"",""created"":1795595805,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.866,,MarianeAzar,20261125_084135,2026-11-25T08:36:46.620483+00:00

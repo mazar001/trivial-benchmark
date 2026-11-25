@@ -1,0 +1,149 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+1a46403c74a3a813,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of the following is NOT a summon in the game ""South Park: The Stick of Truth""?
+A. Towelie
+B. Mr. Hankey
+C. Mr. Slave
+D. Jesus
+Answer:","[""Towelie"", ""Mr. Hankey"", ""Mr. Slave"", ""Jesus""]",http,0.0,16,none,"{""id"":""chatcmpl-hlt2znpesp58zq9rqirto7"",""object"":""chat.completion"",""created"":1795558382,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8786,,MarianeAzar,20261124_215144,2026-11-24T22:13:03.974568+00:00
+7479156b0648ffb0,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the equation for the area of a sphere?
+A. πr^4
+B. 4πr^2
+C. (4/3)πr^3
+D. (1/3)πhr^2
+Answer:","[""πr^4"", ""4πr^2"", ""(4/3)πr^3"", ""(1/3)πhr^2""]",http,0.0,16,none,"{""id"":""chatcmpl-4dmqhk9ni1dnwweidpwjd8"",""object"":""chat.completion"",""created"":1795558383,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8528,,MarianeAzar,20261124_215144,2026-11-24T22:13:04.827764+00:00
+7479156b0648ffb0,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the equation for the area of a sphere?
+A. πr^4
+B. 4πr^2
+C. (4/3)πr^3
+D. (1/3)πhr^2
+Answer:","[""πr^4"", ""4πr^2"", ""(4/3)πr^3"", ""(1/3)πhr^2""]",http,0.0,16,none,"{""id"":""chatcmpl-hxgyntu5tqrabfjusca27o"",""object"":""chat.completion"",""created"":1795558384,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":112,""completion_tokens"":2,""total_tokens"":114,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.889,,MarianeAzar,20261124_215144,2026-11-24T22:13:05.717031+00:00
+c20ea464c03b3dde,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The scientific name for the Southern Lights is Aurora Australis?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-iiwyzp3xwheipy7m62pfu"",""object"":""chat.completion"",""created"":1795558385,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":51,""completion_tokens"":2,""total_tokens"":53,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8245,,MarianeAzar,20261124_215144,2026-11-24T22:13:06.541690+00:00
+c20ea464c03b3dde,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The scientific name for the Southern Lights is Aurora Australis?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-4m2vx0y4kewq4rlcdj2kxf"",""object"":""chat.completion"",""created"":1795558386,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":65,""completion_tokens"":2,""total_tokens"":67,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8251,,MarianeAzar,20261124_215144,2026-11-24T22:13:07.366945+00:00
+94f58527054600c4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?
+A. 75 Megatons
+B. 150 Megatons
+C. 100 Megatons
+D. 200 Megatons
+Answer:","[""75 Megatons"", ""150 Megatons"", ""100 Megatons"", ""200 Megatons""]",http,0.0,16,none,"{""id"":""chatcmpl-t0gjl1d5l0f48dutsvvfas"",""object"":""chat.completion"",""created"":1795558387,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":119,""completion_tokens"":2,""total_tokens"":121,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8988,,MarianeAzar,20261124_215144,2026-11-24T22:13:08.266153+00:00
+94f58527054600c4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?
+A. 75 Megatons
+B. 150 Megatons
+C. 100 Megatons
+D. 200 Megatons
+Answer:","[""75 Megatons"", ""150 Megatons"", ""100 Megatons"", ""200 Megatons""]",http,0.0,16,none,"{""id"":""chatcmpl-o64re64yoaas55zgzzct0k"",""object"":""chat.completion"",""created"":1795558388,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":133,""completion_tokens"":2,""total_tokens"":135,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9522,,MarianeAzar,20261124_215144,2026-11-24T22:13:09.218743+00:00
+95fdc142aacde79e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Simpsons"" family is named after creator Matt Groening's real family.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-3o8azatr012vn5kkp25xi"",""object"":""chat.completion"",""created"":1795558389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":56,""completion_tokens"":2,""total_tokens"":58,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261124_215144,2026-11-24T22:13:10.077878+00:00
+95fdc142aacde79e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""The Simpsons"" family is named after creator Matt Groening's real family.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ym3qh4dkuccb5q4a6f5atw"",""object"":""chat.completion"",""created"":1795558389,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":70,""completion_tokens"":2,""total_tokens"":72,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8394,,MarianeAzar,20261124_215144,2026-11-24T22:13:10.917573+00:00
+5db0a1fb6c9ea408,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Gamecube Version of ""Resident Evil"" what text document is open on the monitor of the computer in the Visual Data Room?
+A. A GDC Document
+B. Text Document on Herbs
+C. Nothing
+D. Document on B.O.Ws
+Answer:","[""A GDC Document"", ""Text Document on Herbs"", ""Nothing"", ""Document on B.O.Ws""]",http,0.0,16,none,"{""id"":""chatcmpl-z3n15cwbmdsms9mj819zp"",""object"":""chat.completion"",""created"":1795558390,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":102,""completion_tokens"":2,""total_tokens"":104,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8808,,MarianeAzar,20261124_215144,2026-11-24T22:13:11.798700+00:00
+5db0a1fb6c9ea408,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In the Gamecube Version of ""Resident Evil"" what text document is open on the monitor of the computer in the Visual Data Room?
+A. A GDC Document
+B. Text Document on Herbs
+C. Nothing
+D. Document on B.O.Ws
+Answer:","[""A GDC Document"", ""Text Document on Herbs"", ""Nothing"", ""Document on B.O.Ws""]",http,0.0,16,none,"{""id"":""chatcmpl-2ewy2nqaj0yx5491wn19z"",""object"":""chat.completion"",""created"":1795558391,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":116,""completion_tokens"":2,""total_tokens"":118,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.905,,MarianeAzar,20261124_215144,2026-11-24T22:13:12.704007+00:00
+6ca5827240a3f4b4,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sir Issac Newton served as a Member of Parliament, but the only recorded time he spoke was to complain about a draft in the chambers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-0sr9mutvmzogm1kgvdar3le"",""object"":""chat.completion"",""created"":1795558392,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8476,,MarianeAzar,20261124_215144,2026-11-24T22:13:13.551830+00:00
+6ca5827240a3f4b4,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Sir Issac Newton served as a Member of Parliament, but the only recorded time he spoke was to complain about a draft in the chambers.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-tyh2anaikfkp741pl363"",""object"":""chat.completion"",""created"":1795558393,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8433,,MarianeAzar,20261124_215144,2026-11-24T22:13:14.395331+00:00
+86c5dc176374a34f,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What 1970's American ballad referred to the 1959 plane crash as the ""the day the music died""?
+A. American Pie
+B. I Will Always Love You
+C. Rock 'n' Roll Suicide
+D. Kentucky Rain
+Answer:","[""American Pie"", ""I Will Always Love You"", ""Rock 'n' Roll Suicide"", ""Kentucky Rain""]",http,0.0,16,none,"{""id"":""chatcmpl-zm6p5jxtqi1bv41mapxfv"",""object"":""chat.completion"",""created"":1795558394,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8859,,MarianeAzar,20261124_215144,2026-11-24T22:13:15.281527+00:00
+86c5dc176374a34f,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What 1970's American ballad referred to the 1959 plane crash as the ""the day the music died""?
+A. American Pie
+B. I Will Always Love You
+C. Rock 'n' Roll Suicide
+D. Kentucky Rain
+Answer:","[""American Pie"", ""I Will Always Love You"", ""Rock 'n' Roll Suicide"", ""Kentucky Rain""]",http,0.0,16,none,"{""id"":""chatcmpl-48tjyrh43qnmkb84elb7jh"",""object"":""chat.completion"",""created"":1795558395,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8951,,MarianeAzar,20261124_215144,2026-11-24T22:13:16.176959+00:00
+cea7f52c2d203995,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what film was the Michael Jackson song ""Will You Be There"" featured?
+A. Free Willy
+B. Sleepless in Seattle
+C. Men in Black
+D. Bad Boys
+Answer:","[""Free Willy"", ""Sleepless in Seattle"", ""Men in Black"", ""Bad Boys""]",http,0.0,16,none,"{""id"":""chatcmpl-877z8j5qcg3n5n7vanbye"",""object"":""chat.completion"",""created"":1795558396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":86,""completion_tokens"":2,""total_tokens"":88,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8796,,MarianeAzar,20261124_215144,2026-11-24T22:13:17.057283+00:00
+cea7f52c2d203995,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In what film was the Michael Jackson song ""Will You Be There"" featured?
+A. Free Willy
+B. Sleepless in Seattle
+C. Men in Black
+D. Bad Boys
+Answer:","[""Free Willy"", ""Sleepless in Seattle"", ""Men in Black"", ""Bad Boys""]",http,0.0,16,none,"{""id"":""chatcmpl-6c8yul6o8o3swaptsly2ui"",""object"":""chat.completion"",""created"":1795558396,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8629,,MarianeAzar,20261124_215144,2026-11-24T22:13:17.920484+00:00
+5f5ef6995318ab89,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Under which name was Rodrigo Borgia made Pope?
+A. Pius VII
+B. John Paul II
+C. Rodrigo I
+D. Alexander VI
+Answer:","[""Pius VII"", ""John Paul II"", ""Rodrigo I"", ""Alexander VI""]",http,0.0,16,none,"{""id"":""chatcmpl-46mqdp365dya9nhngjyq0e"",""object"":""chat.completion"",""created"":1795558397,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8861,,MarianeAzar,20261124_215144,2026-11-24T22:13:18.806805+00:00
+5f5ef6995318ab89,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Under which name was Rodrigo Borgia made Pope?
+A. Pius VII
+B. John Paul II
+C. Rodrigo I
+D. Alexander VI
+Answer:","[""Pius VII"", ""John Paul II"", ""Rodrigo I"", ""Alexander VI""]",http,0.0,16,none,"{""id"":""chatcmpl-gclyevhc3hbq6dyf53gzpt"",""object"":""chat.completion"",""created"":1795558398,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8569,,MarianeAzar,20261124_215144,2026-11-24T22:13:19.663929+00:00
+df4b1e32dd03c1c3,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A person can get sunburned on a cloudy day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-vod3c73kj6byz07gadm5mm"",""object"":""chat.completion"",""created"":1795558399,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8089,,MarianeAzar,20261124_215144,2026-11-24T22:13:20.473031+00:00
+df4b1e32dd03c1c3,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A person can get sunburned on a cloudy day.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-qdzick5yalr9khou3d9m"",""object"":""chat.completion"",""created"":1795558400,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8121,,MarianeAzar,20261124_215144,2026-11-24T22:13:21.285327+00:00
+b5ce628c819a43ab,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The name of the programming language AWK is abbreviated from the names of the developers – Aho, Weinberger, and Kernighan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-wq3hrtf8qbf9pez42wvl"",""object"":""chat.completion"",""created"":1795558401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":67,""completion_tokens"":2,""total_tokens"":69,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8132,,MarianeAzar,20261124_215144,2026-11-24T22:13:22.098699+00:00
+b5ce628c819a43ab,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The name of the programming language AWK is abbreviated from the names of the developers – Aho, Weinberger, and Kernighan.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hpdya6avwxilwhinthhp3q"",""object"":""chat.completion"",""created"":1795558401,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8473,,MarianeAzar,20261124_215144,2026-11-24T22:13:22.946269+00:00
+6e2cbe524d545d6d,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The '64' in the Nintendo-64 console refers to what?
+A. Clock speed of the CPU in Hertz
+B. Capacity of the ROM Cartridges in megabytes
+C. The bits in the CPU architecture
+D. The number of megabytes of RAM
+Answer:","[""Clock speed of the CPU in Hertz"", ""Capacity of the ROM Cartridges in megabytes"", ""The bits in the CPU architecture"", ""The number of megabytes of RAM""]",http,0.0,16,none,"{""id"":""chatcmpl-vk8rhfkgr1ic8zp8jdk3"",""object"":""chat.completion"",""created"":1795558402,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.871,,MarianeAzar,20261124_215144,2026-11-24T22:13:23.817573+00:00
+6e2cbe524d545d6d,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The '64' in the Nintendo-64 console refers to what?
+A. Clock speed of the CPU in Hertz
+B. Capacity of the ROM Cartridges in megabytes
+C. The bits in the CPU architecture
+D. The number of megabytes of RAM
+Answer:","[""Clock speed of the CPU in Hertz"", ""Capacity of the ROM Cartridges in megabytes"", ""The bits in the CPU architecture"", ""The number of megabytes of RAM""]",http,0.0,16,none,"{""id"":""chatcmpl-6gkv13iqj88y0lg3lvmf8m"",""object"":""chat.completion"",""created"":1795558403,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":118,""completion_tokens"":2,""total_tokens"":120,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9162,,MarianeAzar,20261124_215144,2026-11-24T22:13:24.733944+00:00

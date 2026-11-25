@@ -1,0 +1,165 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+a23aa5573754d307,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: According to an interview with ""Super Mario Land 2"" game director Hiroji Kiyotake, what is Wario's favorite food?
+A. Crepes
+B. Pizza
+C. Cheese
+D. Garlic
+Answer:","[""Crepes"", ""Pizza"", ""Cheese"", ""Garlic""]",http,0.0,16,none,"{""id"":""chatcmpl-ds3bu5lraom72inuu212q"",""object"":""chat.completion"",""created"":1795554438,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":107,""completion_tokens"":2,""total_tokens"":109,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8938,,MarianeAzar,20261124_215144,2026-11-24T21:07:19.765696+00:00
+cb89910fd71f0fef,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kublai Khan is the grandchild of Genghis Khan?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-2sziny5mzgfd9433ykig6v"",""object"":""chat.completion"",""created"":1795554439,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8125,,MarianeAzar,20261124_215144,2026-11-24T21:07:20.578343+00:00
+cb89910fd71f0fef,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: Kublai Khan is the grandchild of Genghis Khan?
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-bsmtx8s504ctrr1ds0lg2b"",""object"":""chat.completion"",""created"":1795554440,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8085,,MarianeAzar,20261124_215144,2026-11-24T21:07:21.387142+00:00
+d5bcd701f1d59b8a,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A scientific study on peanuts in bars found traces of over 100 unique specimens of urine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-5tzlofym0z8ve4jrmlu8t"",""object"":""chat.completion"",""created"":1795554441,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":59,""completion_tokens"":2,""total_tokens"":61,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8264,,MarianeAzar,20261124_215144,2026-11-24T21:07:22.213708+00:00
+d5bcd701f1d59b8a,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: A scientific study on peanuts in bars found traces of over 100 unique specimens of urine.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-7kn3hb1ympcbl2qzbux2r"",""object"":""chat.completion"",""created"":1795554442,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":73,""completion_tokens"":2,""total_tokens"":75,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8285,,MarianeAzar,20261124_215144,2026-11-24T21:07:23.042430+00:00
+dd02b03e504a3019,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous world leader is famed for the saying, ""Let them eat cake"", yet is rumored that he/she never said it at all?
+A. Czar Nicholas II
+B. Henry VIII
+C. Marie Antoinette
+D. Elizabeth I
+Answer:","[""Czar Nicholas II"", ""Henry VIII"", ""Marie Antoinette"", ""Elizabeth I""]",http,0.0,16,none,"{""id"":""chatcmpl-1m6rqjmiy8tnpz1guhgw9k"",""object"":""chat.completion"",""created"":1795554442,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":97,""completion_tokens"":2,""total_tokens"":99,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8517,,MarianeAzar,20261124_215144,2026-11-24T21:07:23.894704+00:00
+dd02b03e504a3019,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which famous world leader is famed for the saying, ""Let them eat cake"", yet is rumored that he/she never said it at all?
+A. Czar Nicholas II
+B. Henry VIII
+C. Marie Antoinette
+D. Elizabeth I
+Answer:","[""Czar Nicholas II"", ""Henry VIII"", ""Marie Antoinette"", ""Elizabeth I""]",http,0.0,16,none,"{""id"":""chatcmpl-gbl0gfdw8ag53axj8hjpgp"",""object"":""chat.completion"",""created"":1795554443,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":111,""completion_tokens"":2,""total_tokens"":113,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9062,,MarianeAzar,20261124_215144,2026-11-24T21:07:24.801186+00:00
+b8919d8d6d529865,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Guy's Grocery Games is hosted by which presenter?
+A. Guy Ritchie
+B. Guy Fieri
+C. Ainsley Harriott
+D. Guy Martin
+Answer:","[""Guy Ritchie"", ""Guy Fieri"", ""Ainsley Harriott"", ""Guy Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-ydokomsj9bqne5uwg2nb"",""object"":""chat.completion"",""created"":1795554444,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8778,,MarianeAzar,20261124_215144,2026-11-24T21:07:25.679265+00:00
+b8919d8d6d529865,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Guy's Grocery Games is hosted by which presenter?
+A. Guy Ritchie
+B. Guy Fieri
+C. Ainsley Harriott
+D. Guy Martin
+Answer:","[""Guy Ritchie"", ""Guy Fieri"", ""Ainsley Harriott"", ""Guy Martin""]",http,0.0,16,none,"{""id"":""chatcmpl-f7oslnuq9yvhj7u04zilso"",""object"":""chat.completion"",""created"":1795554445,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8913,,MarianeAzar,20261124_215144,2026-11-24T21:07:26.570873+00:00
+18f8554de9737773,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Ananas"" is mostly used as the word for Pineapple in other languages.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ypw0ku11xh5msdqxti8cs"",""object"":""chat.completion"",""created"":1795554446,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":55,""completion_tokens"":2,""total_tokens"":57,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8262,,MarianeAzar,20261124_215144,2026-11-24T21:07:27.397211+00:00
+18f8554de9737773,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: ""Ananas"" is mostly used as the word for Pineapple in other languages.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-ppyszr8upzep0hv7stuec"",""object"":""chat.completion"",""created"":1795554447,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""True"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":69,""completion_tokens"":2,""total_tokens"":71,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8173,,MarianeAzar,20261124_215144,2026-11-24T21:07:28.214708+00:00
+66d4cfbfa9793abe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The difference between the lengths of a Boeing 777-300ER and an Airbus A350-1000 is closest to:
+A. 10m
+B. 1m
+C. 100m
+D. 0.1m
+Answer:","[""10m"", ""1m"", ""100m"", ""0.1m""]",http,0.0,16,none,"{""id"":""chatcmpl-nhu6a3oej6tmm8pc45dm"",""object"":""chat.completion"",""created"":1795554448,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":109,""completion_tokens"":2,""total_tokens"":111,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.875,,MarianeAzar,20261124_215144,2026-11-24T21:07:29.090001+00:00
+66d4cfbfa9793abe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The difference between the lengths of a Boeing 777-300ER and an Airbus A350-1000 is closest to:
+A. 10m
+B. 1m
+C. 100m
+D. 0.1m
+Answer:","[""10m"", ""1m"", ""100m"", ""0.1m""]",http,0.0,16,none,"{""id"":""chatcmpl-fapgs469nur8qvs5ek6jje"",""object"":""chat.completion"",""created"":1795554449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":123,""completion_tokens"":2,""total_tokens"":125,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.9481,,MarianeAzar,20261124_215144,2026-11-24T21:07:30.038434+00:00
+a59457ade7cf4d93,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?
+A. Refrain
+B. Montague
+C. Chorus
+D. Capulet
+Answer:","[""Refrain"", ""Montague"", ""Chorus"", ""Capulet""]",http,0.0,16,none,"{""id"":""chatcmpl-xeu2rnosktc9y7xc55rpzd"",""object"":""chat.completion"",""created"":1795554449,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8777,,MarianeAzar,20261124_215144,2026-11-24T21:07:30.916601+00:00
+a59457ade7cf4d93,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?
+A. Refrain
+B. Montague
+C. Chorus
+D. Capulet
+Answer:","[""Refrain"", ""Montague"", ""Chorus"", ""Capulet""]",http,0.0,16,none,"{""id"":""chatcmpl-gqabr3t2e3etawdjuvj52k"",""object"":""chat.completion"",""created"":1795554450,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8653,,MarianeAzar,20261124_215144,2026-11-24T21:07:31.782235+00:00
+dfed32bf18489fcc,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?
+A. Getaway Driver
+B. Taxi Driver
+C. Racing Driver
+D. Delivery Driver
+Answer:","[""Getaway Driver"", ""Taxi Driver"", ""Racing Driver"", ""Delivery Driver""]",http,0.0,16,none,"{""id"":""chatcmpl-e6lpwy1icsb01s0xvk0exw2"",""object"":""chat.completion"",""created"":1795554451,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8596,,MarianeAzar,20261124_215144,2026-11-24T21:07:32.642524+00:00
+dfed32bf18489fcc,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which occupation did John Tanner, the main protagonist for Driver and Driver 2, had before turning into an undercover cop?
+A. Getaway Driver
+B. Taxi Driver
+C. Racing Driver
+D. Delivery Driver
+Answer:","[""Getaway Driver"", ""Taxi Driver"", ""Racing Driver"", ""Delivery Driver""]",http,0.0,16,none,"{""id"":""chatcmpl-rvuhofr5ipqhu4bckk3v67"",""object"":""chat.completion"",""created"":1795554452,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8829,,MarianeAzar,20261124_215144,2026-11-24T21:07:33.525759+00:00
+1dcf5ac329c54a67,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?
+A. Testarossa
+B. 288 GTO
+C. Enzo Ferrari
+D. F40
+Answer:","[""Testarossa"", ""288 GTO"", ""Enzo Ferrari"", ""F40""]",http,0.0,16,none,"{""id"":""chatcmpl-msirzanh2ciyyk063ae4"",""object"":""chat.completion"",""created"":1795554453,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8638,,MarianeAzar,20261124_215144,2026-11-24T21:07:34.389887+00:00
+1dcf5ac329c54a67,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these cars is NOT considered one of the 5 Modern Supercars by Ferrari?
+A. Testarossa
+B. 288 GTO
+C. Enzo Ferrari
+D. F40
+Answer:","[""Testarossa"", ""288 GTO"", ""Enzo Ferrari"", ""F40""]",http,0.0,16,none,"{""id"":""chatcmpl-wrd42i7n1cgzxjhipmbv3"",""object"":""chat.completion"",""created"":1795554454,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8903,,MarianeAzar,20261124_215144,2026-11-24T21:07:35.280432+00:00
+c1257d99dee24906,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Los Angeles Dodgers were originally from what U.S. city?
+A. Brooklyn
+B. Seattle
+C. Boston
+D. Las Vegas
+Answer:","[""Brooklyn"", ""Seattle"", ""Boston"", ""Las Vegas""]",http,0.0,16,none,"{""id"":""chatcmpl-vsdod4916snsngrw1zn0ep"",""object"":""chat.completion"",""created"":1795554455,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8703,,MarianeAzar,20261124_215144,2026-11-24T21:07:36.151195+00:00
+c1257d99dee24906,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: The Los Angeles Dodgers were originally from what U.S. city?
+A. Brooklyn
+B. Seattle
+C. Boston
+D. Las Vegas
+Answer:","[""Brooklyn"", ""Seattle"", ""Boston"", ""Las Vegas""]",http,0.0,16,none,"{""id"":""chatcmpl-g7xem55kckk6y3hoixqqcp"",""object"":""chat.completion"",""created"":1795554456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8532,,MarianeAzar,20261124_215144,2026-11-24T21:07:37.004702+00:00
+9c4049b66e874cf5,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 'I'm never gonna dance again, guilty feet have got no rhythm' were lyrics from which Wham! hit single?
+A. Careless Whisper
+B. Everything She Wants
+C. Last Christmas
+D. Wake Me Up Before You Go-Go
+Answer:","[""Careless Whisper"", ""Everything She Wants"", ""Last Christmas"", ""Wake Me Up Before You Go-Go""]",http,0.0,16,none,"{""id"":""chatcmpl-jic56l9r0qvrv1aavrsz"",""object"":""chat.completion"",""created"":1795554456,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":101,""completion_tokens"":2,""total_tokens"":103,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8636,,MarianeAzar,20261124_215144,2026-11-24T21:07:37.868540+00:00
+9c4049b66e874cf5,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: 'I'm never gonna dance again, guilty feet have got no rhythm' were lyrics from which Wham! hit single?
+A. Careless Whisper
+B. Everything She Wants
+C. Last Christmas
+D. Wake Me Up Before You Go-Go
+Answer:","[""Careless Whisper"", ""Everything She Wants"", ""Last Christmas"", ""Wake Me Up Before You Go-Go""]",http,0.0,16,none,"{""id"":""chatcmpl-58ctzjkmrczvb5shhli09"",""object"":""chat.completion"",""created"":1795554457,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":115,""completion_tokens"":2,""total_tokens"":117,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8952,,MarianeAzar,20261124_215144,2026-11-24T21:07:38.763984+00:00
+17bafc0896146bce,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chemical element was originally known as Alabamine?
+A. Selenium
+B. Astatine
+C. Antimony
+D. Molybdenum
+Answer:","[""Selenium"", ""Astatine"", ""Antimony"", ""Molybdenum""]",http,0.0,16,none,"{""id"":""chatcmpl-myr9l858kcvadf5i06b1l"",""object"":""chat.completion"",""created"":1795554458,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":78,""completion_tokens"":2,""total_tokens"":80,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8736,,MarianeAzar,20261124_215144,2026-11-24T21:07:39.637889+00:00
+17bafc0896146bce,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which chemical element was originally known as Alabamine?
+A. Selenium
+B. Astatine
+C. Antimony
+D. Molybdenum
+Answer:","[""Selenium"", ""Astatine"", ""Antimony"", ""Molybdenum""]",http,0.0,16,none,"{""id"":""chatcmpl-a973wpej6ltxvxmaiezas"",""object"":""chat.completion"",""created"":1795554459,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8601,,MarianeAzar,20261124_215144,2026-11-24T21:07:40.498344+00:00

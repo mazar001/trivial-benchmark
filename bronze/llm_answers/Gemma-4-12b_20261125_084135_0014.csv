@@ -1,0 +1,180 @@
+question_id,model,prompt_id,prompt_text,options_order,backend,temperature,max_tokens,reasoning_effort,response_raw,response_time,error,machine,run_id,answered_at
+d0a715179178b06b,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the religion of famous singer ""Freddie Mercury""?
+A. Zoroastrianism
+B. Paganism
+C. Judaism
+D. Ashurism
+Answer:","[""Zoroastrianism"", ""Paganism"", ""Judaism"", ""Ashurism""]",http,0.0,16,none,"{""id"":""chatcmpl-lrlmixdbftjoirucbxusqn"",""object"":""chat.completion"",""created"":1795592797,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":81,""completion_tokens"":2,""total_tokens"":83,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8838,,MarianeAzar,20261125_084135,2026-11-25T07:46:38.905759+00:00
+d0a715179178b06b,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the religion of famous singer ""Freddie Mercury""?
+A. Zoroastrianism
+B. Paganism
+C. Judaism
+D. Ashurism
+Answer:","[""Zoroastrianism"", ""Paganism"", ""Judaism"", ""Ashurism""]",http,0.0,16,none,"{""id"":""chatcmpl-3b2jocpzhw3ofaqieg2zx"",""object"":""chat.completion"",""created"":1795592798,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":95,""completion_tokens"":2,""total_tokens"":97,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8857,,MarianeAzar,20261125_084135,2026-11-25T07:46:39.791815+00:00
+28098b9efbd390f8,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Hitman: Blood Money, what is the name of the target in the mission ""Death of a Showman""?
+A. The Swing King
+B. Manuel Delgado
+C. Maynard John
+D. Joseph Clarence
+Answer:","[""The Swing King"", ""Manuel Delgado"", ""Maynard John"", ""Joseph Clarence""]",http,0.0,16,none,"{""id"":""chatcmpl-glcjiueazg68ocryh760a4"",""object"":""chat.completion"",""created"":1795592799,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8763,,MarianeAzar,20261125_084135,2026-11-25T07:46:40.668417+00:00
+28098b9efbd390f8,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In Hitman: Blood Money, what is the name of the target in the mission ""Death of a Showman""?
+A. The Swing King
+B. Manuel Delgado
+C. Maynard John
+D. Joseph Clarence
+Answer:","[""The Swing King"", ""Manuel Delgado"", ""Maynard John"", ""Joseph Clarence""]",http,0.0,16,none,"{""id"":""chatcmpl-kov1rafqnntqhbg8dhwm"",""object"":""chat.completion"",""created"":1795592800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8909,,MarianeAzar,20261125_084135,2026-11-25T07:46:41.559620+00:00
+b9902dd0d8c265fe,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many studio albums have the heavy metal band, 'Metallica' released in the period between 1983 and 2016?
+A. 9
+B. 7
+C. 10
+D. 12
+Answer:","[""9"", ""7"", ""10"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-fv98gjwd1mq2ukx37tebf3"",""object"":""chat.completion"",""created"":1795592800,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":100,""completion_tokens"":2,""total_tokens"":102,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8765,,MarianeAzar,20261125_084135,2026-11-25T07:46:42.436481+00:00
+b9902dd0d8c265fe,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many studio albums have the heavy metal band, 'Metallica' released in the period between 1983 and 2016?
+A. 9
+B. 7
+C. 10
+D. 12
+Answer:","[""9"", ""7"", ""10"", ""12""]",http,0.0,16,none,"{""id"":""chatcmpl-jbgira54htkrrcfl0i6li"",""object"":""chat.completion"",""created"":1795592801,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":114,""completion_tokens"":2,""total_tokens"":116,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8877,,MarianeAzar,20261125_084135,2026-11-25T07:46:43.324493+00:00
+b535d13d3c162675,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what is the name of Samantha Maxis' dog?
+A. Fido
+B. Henry
+C. Baxter
+D. Fluffy
+Answer:","[""Fido"", ""Henry"", ""Baxter"", ""Fluffy""]",http,0.0,16,none,"{""id"":""chatcmpl-t27w1y4efefwofokk7cy1"",""object"":""chat.completion"",""created"":1795592802,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8589,,MarianeAzar,20261125_084135,2026-11-25T07:46:44.183680+00:00
+b535d13d3c162675,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: In ""Call Of Duty: Zombies"", what is the name of Samantha Maxis' dog?
+A. Fido
+B. Henry
+C. Baxter
+D. Fluffy
+Answer:","[""Fido"", ""Henry"", ""Baxter"", ""Fluffy""]",http,0.0,16,none,"{""id"":""chatcmpl-tnarw4jy0oeh2m9uws2k8"",""object"":""chat.completion"",""created"":1795592803,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""C"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8641,,MarianeAzar,20261125_084135,2026-11-25T07:46:45.048025+00:00
+e69d3d0a0543f2de,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Nephelococcygia"" is the practice of doing what?
+A. Swimming in freezing water
+B. Finding shapes in clouds
+C. Sleeping with your eyes open
+D. Breaking glass with your voice
+Answer:","[""Swimming in freezing water"", ""Finding shapes in clouds"", ""Sleeping with your eyes open"", ""Breaking glass with your voice""]",http,0.0,16,none,"{""id"":""chatcmpl-o3ucjuoaaieu80xlogjsp"",""object"":""chat.completion"",""created"":1795592804,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":92,""completion_tokens"":2,""total_tokens"":94,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8659,,MarianeAzar,20261125_084135,2026-11-25T07:46:45.914198+00:00
+e69d3d0a0543f2de,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: ""Nephelococcygia"" is the practice of doing what?
+A. Swimming in freezing water
+B. Finding shapes in clouds
+C. Sleeping with your eyes open
+D. Breaking glass with your voice
+Answer:","[""Swimming in freezing water"", ""Finding shapes in clouds"", ""Sleeping with your eyes open"", ""Breaking glass with your voice""]",http,0.0,16,none,"{""id"":""chatcmpl-dcw0curbocnpsurs6p1d0e"",""object"":""chat.completion"",""created"":1795592805,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":106,""completion_tokens"":2,""total_tokens"":108,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8827,,MarianeAzar,20261125_084135,2026-11-25T07:46:46.797285+00:00
+8de095d3e4c47a90,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long was Ken Jennings' win streak on Jeopardy?
+A. 88
+B. 74
+C. 62
+D. 49
+Answer:","[""88"", ""74"", ""62"", ""49""]",http,0.0,16,none,"{""id"":""chatcmpl-swfjgfu6i0qwyorj0rkwa"",""object"":""chat.completion"",""created"":1795592806,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":82,""completion_tokens"":2,""total_tokens"":84,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8923,,MarianeAzar,20261125_084135,2026-11-25T07:46:47.690200+00:00
+8de095d3e4c47a90,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How long was Ken Jennings' win streak on Jeopardy?
+A. 88
+B. 74
+C. 62
+D. 49
+Answer:","[""88"", ""74"", ""62"", ""49""]",http,0.0,16,none,"{""id"":""chatcmpl-ov9sd1r2v27boz4v4fgdo"",""object"":""chat.completion"",""created"":1795592807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":96,""completion_tokens"":2,""total_tokens"":98,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8599,,MarianeAzar,20261125_084135,2026-11-25T07:46:48.550403+00:00
+a8095d19f5f34a35,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs does NOT play during the Ruins segments of the 2015 game ""Undertale""?
+A. Unnecessary Tension
+B. Another Medium
+C. Ruins
+D. Anticipation
+Answer:","[""Unnecessary Tension"", ""Another Medium"", ""Ruins"", ""Anticipation""]",http,0.0,16,none,"{""id"":""chatcmpl-gby0lqrxtqnenab6ic82rv"",""object"":""chat.completion"",""created"":1795592807,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":91,""completion_tokens"":2,""total_tokens"":93,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8464,,MarianeAzar,20261125_084135,2026-11-25T07:46:49.396974+00:00
+a8095d19f5f34a35,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: Which of these songs does NOT play during the Ruins segments of the 2015 game ""Undertale""?
+A. Unnecessary Tension
+B. Another Medium
+C. Ruins
+D. Anticipation
+Answer:","[""Unnecessary Tension"", ""Another Medium"", ""Ruins"", ""Anticipation""]",http,0.0,16,none,"{""id"":""chatcmpl-7dogdrvnou5wx2t05tdlte"",""object"":""chat.completion"",""created"":1795592808,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":105,""completion_tokens"":2,""total_tokens"":107,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8705,,MarianeAzar,20261125_084135,2026-11-25T07:46:50.267675+00:00
+ef8be7d06f617a70,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many games are there in the ""Colony Wars"" series for the PlayStation?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer:","[""2"", ""3"", ""4"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-y7s5rl963xq82j4pb8vqcy"",""object"":""chat.completion"",""created"":1795592809,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":84,""completion_tokens"":2,""total_tokens"":86,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8481,,MarianeAzar,20261125_084135,2026-11-25T07:46:51.116019+00:00
+ef8be7d06f617a70,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How many games are there in the ""Colony Wars"" series for the PlayStation?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer:","[""2"", ""3"", ""4"", ""5""]",http,0.0,16,none,"{""id"":""chatcmpl-6y1twi0lz2prnvx2q344dg"",""object"":""chat.completion"",""created"":1795592810,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":98,""completion_tokens"":2,""total_tokens"":100,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8564,,MarianeAzar,20261125_084135,2026-11-25T07:46:51.972664+00:00
+bdf746b9d5c83d22,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Radiohead release their album ""OK Computer""?
+A. 1995
+B. 1993
+C. 1997
+D. 2000
+Answer:","[""1995"", ""1993"", ""1997"", ""2000""]",http,0.0,16,none,"{""id"":""chatcmpl-gs2rhxktbpbxt0o048r"",""object"":""chat.completion"",""created"":1795592811,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":90,""completion_tokens"":2,""total_tokens"":92,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8613,,MarianeAzar,20261125_084135,2026-11-25T07:46:52.834194+00:00
+bdf746b9d5c83d22,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: When did Radiohead release their album ""OK Computer""?
+A. 1995
+B. 1993
+C. 1997
+D. 2000
+Answer:","[""1995"", ""1993"", ""1997"", ""2000""]",http,0.0,16,none,"{""id"":""chatcmpl-35wztu7i0toy8qe4yidv5m"",""object"":""chat.completion"",""created"":1795592812,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":104,""completion_tokens"":2,""total_tokens"":106,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8868,,MarianeAzar,20261125_084135,2026-11-25T07:46:53.721468+00:00
+d19c60a592f0502e,Gemma-4-12b,P1_choices,"You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The communication protocol NFC stands for Near-Field Control.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-t3rrlag5ouoxqhnf3lxjxe"",""object"":""chat.completion"",""created"":1795592813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":50,""completion_tokens"":2,""total_tokens"":52,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8228,,MarianeAzar,20261125_084135,2026-11-25T07:46:54.544521+00:00
+d19c60a592f0502e,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a true/false trivia quiz. Reply with ONLY 'True' or 'False'.
+Statement: The communication protocol NFC stands for Near-Field Control.
+Answer:","[""True"", ""False""]",http,0.0,16,none,"{""id"":""chatcmpl-hx84m9owcbkc1jnbsg8p"",""object"":""chat.completion"",""created"":1795592813,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""False"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":64,""completion_tokens"":2,""total_tokens"":66,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.809,,MarianeAzar,20261125_084135,2026-11-25T07:46:55.353732+00:00
+e11837e317736cd9,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the oldest Disney film?
+A. Snow White and the Seven Dwarfs
+B. Fantasia
+C. Pinocchio
+D. Dumbo
+Answer:","[""Snow White and the Seven Dwarfs"", ""Fantasia"", ""Pinocchio"", ""Dumbo""]",http,0.0,16,none,"{""id"":""chatcmpl-qjgrp2suncpri7w0kj9r"",""object"":""chat.completion"",""created"":1795592814,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":79,""completion_tokens"":2,""total_tokens"":81,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8622,,MarianeAzar,20261125_084135,2026-11-25T07:46:56.216489+00:00
+e11837e317736cd9,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What is the oldest Disney film?
+A. Snow White and the Seven Dwarfs
+B. Fantasia
+C. Pinocchio
+D. Dumbo
+Answer:","[""Snow White and the Seven Dwarfs"", ""Fantasia"", ""Pinocchio"", ""Dumbo""]",http,0.0,16,none,"{""id"":""chatcmpl-vzalhffqdq3wj6qxosf3m"",""object"":""chat.completion"",""created"":1795592815,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""A"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8873,,MarianeAzar,20261125_084135,2026-11-25T07:46:57.103901+00:00
+01d5b274fc198e88,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Call of Duty game to include the Zombies gamemode?
+A. Call of Duty: Modern Warfare 2
+B. Call of Duty: Black Ops
+C. Call of Duty: Black Ops III
+D. Call of Duty: World at War
+Answer:","[""Call of Duty: Modern Warfare 2"", ""Call of Duty: Black Ops"", ""Call of Duty: Black Ops III"", ""Call of Duty: World at War""]",http,0.0,16,none,"{""id"":""chatcmpl-pxwajykgh58ebemqm30q2d"",""object"":""chat.completion"",""created"":1795592816,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":103,""completion_tokens"":2,""total_tokens"":105,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8834,,MarianeAzar,20261125_084135,2026-11-25T07:46:57.987537+00:00
+01d5b274fc198e88,Gemma-4-12b,P2_expert,"You are a world-class trivia expert with encyclopedic knowledge.
+You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: What was the first Call of Duty game to include the Zombies gamemode?
+A. Call of Duty: Modern Warfare 2
+B. Call of Duty: Black Ops
+C. Call of Duty: Black Ops III
+D. Call of Duty: World at War
+Answer:","[""Call of Duty: Modern Warfare 2"", ""Call of Duty: Black Ops"", ""Call of Duty: Black Ops III"", ""Call of Duty: World at War""]",http,0.0,16,none,"{""id"":""chatcmpl-mmywxjniredu3uluthehb"",""object"":""chat.completion"",""created"":1795592817,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""D"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":117,""completion_tokens"":2,""total_tokens"":119,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.8988,,MarianeAzar,20261125_084135,2026-11-25T07:46:58.886641+00:00
+5c8836c1d241d1a4,Gemma-4-12b,P1_choices,"You are taking a multiple-choice trivia quiz. Reply with ONLY the letter of the correct option (A, B, C or D).
+Question: How fast is USB 3.1 Gen 2 theoretically?
+A. 1 Gb/s
+B. 10 Gb/s
+C. 8 Gb/s
+D. 5 Gb/s
+Answer:","[""1 Gb/s"", ""10 Gb/s"", ""8 Gb/s"", ""5 Gb/s""]",http,0.0,16,none,"{""id"":""chatcmpl-fmvz7k3saiz1pd4asvhq"",""object"":""chat.completion"",""created"":1795592818,""model"":""Gemma-4-12b"",""choices"":[{""index"":0,""message"":{""role"":""assistant"",""content"":""B"",""reasoning_content"":"""",""tool_calls"":[]},""logprobs"":null,""finish_reason"":""stop""}],""usage"":{""prompt_tokens"":93,""completion_tokens"":2,""total_tokens"":95,""completion_tokens_details"":{""reasoning_tokens"":0}},""stats"":{},""system_fingerprint"":""gemma-4-12b-it""}",0.872,,MarianeAzar,20261125_084135,2026-11-25T07:46:59.758992+00:00
